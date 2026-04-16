@@ -36,14 +36,13 @@
 | B5 | BGE-base (109M) | DPR (MNRL) | Type + name | Local GPU | $0 |
 | B6 | BGE-base (109M) | DPR (MNRL) | Wikipedia description | Local GPU | $0 |
 
-### C. Fine-tuned LLM (2)
+### C. Fine-tuned LLM (1)
 
 | ID | Model | Fine-tuned | Prompt | Backend | Est. Cost |
 |---|---|---|---|---|---|
-| C1 | Llama 3.2 1B (QLoRA 4bit) | LoRA r=16 | Instruction | Local GPU | $0 |
-| C2 | Llama 3.1 8B (QLoRA 4bit) | LoRA r=16 | Instruction | Local GPU | $0 |
+| C1 | Llama 3.1 8B (QLoRA 4bit) | LoRA r=16 | Instruction | Local GPU | $0 |
 
-C2 directly compares with A3/A4 (same model, zero-shot vs fine-tuned).
+C1 directly compares with A3/A4 (same model, zero-shot vs fine-tuned).
 Llama 8B 4-bit requires ~6GB VRAM (fits RTX 2060 6.4GB).
 
 ## Cost Summary
@@ -54,8 +53,8 @@ Llama 8B 4-bit requires ~6GB VRAM (fits RTX 2060 6.4GB).
 | A3-A4 (Llama ZS+FS) | 2 x 4 variants = 8 | $0.10 |
 | A5-A6 (GPT-4o ZS+FS) | 2 x 4 variants = 8 | $4.00 |
 | B1-B6 (Embedding + DPR) | 6 x 4 variants = 24 | $0 |
-| C1-C2 (LoRA) | 2 x 4 variants = 8 | $0 |
-| **Total** | **56 runs** | **~$4.34** |
+| C1 (LoRA Llama 8B) | 1 x 4 variants = 4 | $0 |
+| **Total** | **52 runs** | **~$4.34** |
 
 ## Execution Order
 
