@@ -359,9 +359,9 @@ Our contributions are as follows:
 
 <ol class="contributions">
   <li><strong>Task formalization.</strong> We define IRC recovery as a novel NLP task, formalizing it as entity ranking over implicit mentions with a layered evaluation framework combining exact, alias, and fuzzy matching.</li>
-  <li><strong>Dataset construction.</strong> We create four complementary datasets across two domains (veterans' recollections and tweets) using text-based transformation and entity-driven generation, totaling over 2,200 annotated samples.</li>
-  <li><strong>Systematic comparison.</strong> We evaluate three recognition paradigms: direct LLM inference, embedding-based retrieval, and hybrid RAG, revealing distinct performance profiles across domains and generation strategies.</li>
-  <li><strong>Empirical insights.</strong> We demonstrate that the primary bottleneck in IRC recovery is retrieval coverage (not ranking quality), that LLM-based methods excel on natural text while RAG dominates on synthetic text, and that entity type and domain strongly modulate performance.</li>
+  <li><strong>Benchmark construction.</strong> We release <em>IRC-Bench</em>, a standardized benchmark comprising 3,687 samples across four complementary variants: two real datasets (veterans' interview transcripts rewritten with implicit references, and annotated tweets from Hosseini [30]) and two synthetic datasets (LLM-generated implicit narratives from entity lists). The benchmark spans two domains, eight entity types, 758 unique entities, and includes both sample-level and entity-level (open-set) train/test splits, an entity description index, and an explicit-entity baseline for measuring the implicit-vs-explicit gap. All data, splits, and metadata are publicly available (Appendix H).</li>
+  <li><strong>Systematic comparison.</strong> We evaluate three recognition paradigms: direct LLM inference, embedding-based retrieval, and hybrid RAG, along with ablation studies (entity type conditioning, contextualization step, prompt strategies) and multi-model comparisons across the benchmark.</li>
+  <li><strong>Empirical insights.</strong> We demonstrate that the primary bottleneck in IRC recovery is retrieval coverage (not ranking quality), that LLM-based methods excel on natural text while RAG dominates on synthetic text, and that entity type and domain strongly modulate performance. We further show that removing the contextualization step improves both accuracy and efficiency, and that ensemble methods can recover an additional 4-14 percentage points over single methods.</li>
 </ol>
 
 <!-- ──────────────────────────────────────────────────────────────────────── -->
@@ -439,60 +439,65 @@ where \(\tau = 0.60\) for multi-token entities. The <em>first relevant rank</em>
 <!-- ──────────────────────────────────────────────────────────────────────── -->
 <!-- 4. DATASETS                                                            -->
 <!-- ──────────────────────────────────────────────────────────────────────── -->
-<h2>Datasets</h2>
+<h2>Datasets: The IRC-Bench Benchmark</h2>
 
 <p class="no-indent">
-We construct four datasets spanning two domains and two generation strategies, as summarized in Table 1 and Figure 1.
+A key contribution of this work is <em>IRC-Bench</em>, a standardized benchmark for evaluating implicit entity recognition across domains and generation strategies. The benchmark combines real and synthetic data through two complementary construction pipelines, yielding four dataset variants that test different aspects of implicit entity recovery. An explicit-entity baseline is also provided for measuring the gap between explicit and implicit recognition. The full benchmark, including data, splits, entity descriptions, and evaluation code, is publicly released. A detailed exploratory data analysis is provided in Appendix H.
 </p>
 
-<h3>Text-Based Transformation (T2E)</h3>
+<h3>Construction Pipeline 1: Text-Based Transformation (T2E)</h3>
 
 <p class="no-indent">
-Veterans' interview transcripts were sourced from the <strong>U.S. Library of Congress Veterans History Project</strong> (loc.gov/vets), a publicly accessible archive of oral histories from American military veterans. Ten narrators' interviews were selected, yielding transcripts that were rewritten into coherent first-person narratives and segmented into short units capturing a single detail or event. Entity types span five categories: places (32.4%), professions (19.9%), events (18.1%), people (16.0%), and organizations (13.7%). Entities were extracted via two complementary approaches: an LLM-based extractor operating under strict inclusion rules, and a modern NER model as a deterministic alternative. Inclusion criteria required: only well-known figures or explicit family roles (Person), named geographic locations (Place), and historically significant events (Event). Entities were canonicalized using an alias map, and one primary entity per segment was selected and replaced with an implicit description using type-aware rewrite rules. Persons were replaced with roles or achievements; places with geographic or cultural descriptors; events with timeframes, actions, or outcomes. A strict no-name-leak check ensured explicit names did not appear in the implicit text. All 846 retained samples include both the original text and the implicitly rewritten version, with a "High" entity-text relatedness confidence score.
+The T2E pipeline transforms real texts containing explicit entity mentions into implicit versions. For the <strong>veterans</strong> domain, interview transcripts were sourced from the <strong>U.S. Library of Congress Veterans History Project</strong> (loc.gov/vets), a publicly accessible archive of oral histories from American military veterans. Ten narrators' interviews were selected, segmented into short units capturing a single detail or event, and explicit entity mentions were replaced with implicit descriptions using type-aware rewrite rules: persons were replaced with roles or achievements; places with geographic or cultural descriptors; events with timeframes, actions, or outcomes. Entities were extracted via an LLM-based extractor and a modern NER model, canonicalized using an alias map, and validated for name-leak absence. After cleaning (removing generic entities such as common nouns and pronouns, deduplicating texts with multiple gold entities, and filtering name leaks), 620 samples with 427 unique entities were retained. For the <strong>Twitter</strong> domain, the annotated dataset of 851 tweets from Hosseini [30, 31] was incorporated directly, spanning 273 entities across 59 fine-grained types. T2E data preserves the natural language patterns, cultural specificity, and narrative complexity of real sources.
 </p>
 
-<h3>Entity-Driven Generation (E2T)</h3>
+<h3>Construction Pipeline 2: Entity-Driven Generation (E2T)</h3>
 
 <p class="no-indent">
-Explicit entity lists from both veterans' transcripts and a tweet benchmark [33] were provided to an LLM, which generated new narratives referencing entities implicitly. Veterans' entities produced longer recollections; tweet entities produced concise posts. All samples were validated for entity-text relatedness, absence of name leakage, and type fidelity.
+The E2T pipeline generates new implicit texts from entity lists using a large language model (Gemini 2.0 Flash). For each entity, the LLM produces three variant implicit narratives of different styles (factual, emotional/sensory, and historical/cultural). Veterans' entities yield longer first-person recollections; tweet entities yield concise posts. All generated samples are validated for: (a) entity-text relatedness, (b) absence of name leakage (entity name or significant substrings absent from output), and (c) type fidelity. Samples failing any criterion are discarded. This process produced 1,447 veterans and 769 Twitter implicit reference samples. E2T data complements T2E by testing whether models can recover entities from systematic, controlled descriptions rather than naturally occurring prose.
 </p>
 
-<h3>Twitter Baseline</h3>
+<h3>Benchmark Composition and Splits</h3>
 
 <p class="no-indent">
-An annotated dataset of tweets from Hosseini [30] was incorporated as a benchmark for short-form implicit entity recognition. The full dataset contains 856 annotated tweets spanning 273 entities across 59 fine-grained entity types (Movie, Book, Country, City, Writer, Politician, Athlete, etc.), substantially more diverse than the Work-only subset (115 rows) used in prior evaluations. From this, 435 tweets were selected for the baseline evaluation. This dataset is publicly available via the associated GitHub repository [31].
+Table 1 summarizes the four variants. The benchmark totals 3,687 samples, 758 unique entities, and eight coarse entity types (mapped from 59 fine-grained source types). Two train/test splits are provided: a <em>sample-level</em> split (80/20, stratified by variant and type, with shared entities across splits) for standard evaluation, and an <em>entity-level</em> split (607 train entities, 151 test entities, zero overlap) for open-set evaluation where the model must generalize to completely unseen entities. An explicit-entity baseline (1,626 Twitter tweets with named entity annotations and character spans) is included separately, marked to prevent accidental use in implicit evaluation.
 </p>
 
-<!-- Table 1: Dataset Statistics -->
+<!-- Table 1: Benchmark Statistics -->
 <div class="table-wrap" style="column-span: all;">
-  <p class="table-caption"><strong>Table 1.</strong> Dataset statistics. Vet-T2E = veterans text-to-entity; Vet-E2T = veterans entity-to-text; Tweet-BL = Twitter baseline; Tweet-E2T = Twitter entity-to-text. Entity type percentages sum to 100% per dataset.</p>
+  <p class="table-caption"><strong>Table 1.</strong> IRC-Bench statistics. T2E = text-to-entity (real data); E2T = entity-to-text (synthetic). Entity types are mapped to eight coarse categories.</p>
   <table>
     <thead>
       <tr>
         <th></th>
         <th>Vet-T2E</th>
         <th>Vet-E2T</th>
-        <th>Tweet-BL</th>
+        <th>Tweet-T2E</th>
         <th>Tweet-E2T</th>
+        <th>Total</th>
       </tr>
     </thead>
     <tbody>
-      <tr><td style="text-align:left;">Samples</td><td>1,110</td><td>530</td><td>435</td><td>126</td></tr>
-      <tr><td style="text-align:left;">Unique entities</td><td>529</td><td>529</td><td>126</td><td>126</td></tr>
-      <tr><td style="text-align:left;">Avg. entity length (tokens)</td><td>10.04</td><td>11.47</td><td>11.63</td><td>11.75</td></tr>
-      <tr><td style="text-align:left;">% Person</td><td>6.85</td><td>9.62</td><td>53.33</td><td>57.14</td></tr>
-      <tr><td style="text-align:left;">% Place</td><td>86.13</td><td>83.21</td><td>37.47</td><td>35.71</td></tr>
-      <tr><td style="text-align:left;">% Event</td><td>7.03</td><td>7.17</td><td>9.20</td><td>7.14</td></tr>
+      <tr><td style="text-align:left;">Generation</td><td>Real</td><td>Synthetic</td><td>Real</td><td>Synthetic</td><td></td></tr>
+      <tr><td style="text-align:left;">Samples</td><td>620</td><td>1,447</td><td>851</td><td>769</td><td>3,687</td></tr>
+      <tr><td style="text-align:left;">Unique entities</td><td>427</td><td>492</td><td>273</td><td>269</td><td>758</td></tr>
+      <tr><td style="text-align:left;">Avg. text length (words)</td><td>107</td><td>49</td><td>27</td><td>19</td><td>45</td></tr>
+      <tr><td style="text-align:left;">% Place</td><td>39.5</td><td>32.9</td><td>19.2</td><td>17.4</td><td>27.6</td></tr>
+      <tr><td style="text-align:left;">% Person</td><td>10.3</td><td>14.7</td><td>26.9</td><td>27.2</td><td>19.4</td></tr>
+      <tr><td style="text-align:left;">% Organization</td><td>16.6</td><td>14.6</td><td>19.6</td><td>19.4</td><td>17.1</td></tr>
+      <tr><td style="text-align:left;">% Event</td><td>18.4</td><td>18.5</td><td>4.7</td><td>3.5</td><td>12.2</td></tr>
+      <tr><td style="text-align:left;">% Work</td><td>0.0</td><td>0.0</td><td>25.3</td><td>29.8</td><td>12.0</td></tr>
+      <tr><td style="text-align:left;">% Profession</td><td>15.2</td><td>19.4</td><td>0.0</td><td>0.0</td><td>10.1</td></tr>
     </tbody>
   </table>
 </div>
 
-<!-- Figure 1: Entity Distribution -->
+<!-- Figure 1: Benchmark Composition -->
 <div class="figure" style="column-span: all;">
-  <a href="figures/fig1_entity_distribution.png" target="_blank">
-    <img src="figures/fig1_entity_distribution.png" alt="Entity type distribution across four datasets" style="max-width: 85%;">
+  <a href="figures/fig_bench_composition.png" target="_blank">
+    <img src="figures/fig_bench_composition.png" alt="IRC-Bench variant composition by entity type" style="max-width: 85%;">
   </a>
-  <p class="fig-caption"><strong>Figure 1.</strong> Entity type distribution by dataset. Veterans' narratives are dominated by Place entities (>83%), while tweets are predominantly Person-centric (>53%). Events remain the minority class across all datasets.</p>
+  <p class="fig-caption"><strong>Figure 1.</strong> IRC-Bench composition: sample counts by entity type across the four variants. Veterans data is Place-heavy; Twitter data is more balanced across Person, Work, and Organization. See Appendix H for detailed exploratory data analysis.</p>
 </div>
 
 <!-- ──────────────────────────────────────────────────────────────────────── -->
@@ -1523,6 +1528,105 @@ The LLM-based recognizer employs a two-step prompting strategy. The first step g
     </tbody>
   </table>
 </div>
+
+<!-- ── H. Benchmark EDA ────────────────────────────────────────────────── -->
+<h2 style="counter-reset: none;">Appendix H: IRC-Bench Exploratory Data Analysis</h2>
+
+<p class="no-indent">
+This appendix provides a detailed exploratory data analysis of the IRC-Bench benchmark. The benchmark comprises 3,687 implicit entity reference samples across four variants (two real, two synthetic) spanning two domains (veterans' recollections and tweets) with 758 unique entities across eight coarse entity types.
+</p>
+
+<h3>H.1 Variant Composition</h3>
+
+<p class="no-indent">
+Figure A3 shows the sample count by entity type within each variant. The veterans domain is dominated by Place entities (39.5% of Vet-T2E, 32.9% of Vet-E2T), reflecting the geographic nature of military recollections. The Twitter domain is more balanced, with significant representation of Person (26.9%), Work (25.3%), and Organization (19.6%) entities. Notably, the Work and Profession types are domain-exclusive: Work entities appear only in Twitter data (movies, books), while Profession entities appear only in veterans data (military roles).
+</p>
+
+<div class="figure" style="column-span: all;">
+  <a href="figures/fig_bench_composition.png" target="_blank">
+    <img src="figures/fig_bench_composition.png" alt="Benchmark composition by variant and entity type">
+  </a>
+  <p class="fig-caption"><strong>Figure A3.</strong> IRC-Bench composition: stacked bar chart showing sample counts by entity type within each variant.</p>
+</div>
+
+<h3>H.2 Text Length Distribution</h3>
+
+<p class="no-indent">
+Text length varies substantially across variants (Figure A4). Veterans T2E narratives are the longest (mean 107 words, range 50-218), reflecting the multi-sentence reminiscence style. Veterans E2T texts are shorter (mean 49 words) as the LLM generates more concise narratives. Twitter T2E tweets average 27 words, and Twitter E2T averages 19 words. This 5.6x range in text length (19 to 107 words) tests whether recognition methods are robust to input length variation.
+</p>
+
+<div class="figure" style="column-span: all;">
+  <a href="figures/fig_bench_text_length.png" target="_blank">
+    <img src="figures/fig_bench_text_length.png" alt="Text length distribution by variant">
+  </a>
+  <p class="fig-caption"><strong>Figure A4.</strong> Text length distribution (words) across the four variants. Veterans T2E narratives are 4-5x longer than Twitter tweets.</p>
+</div>
+
+<h3>H.3 Entity Overlap Between Variants</h3>
+
+<p class="no-indent">
+Figure A5 shows the entity overlap between variants. Within each domain, T2E and E2T share most entities (426 of 427 veterans entities; 269 of 273 Twitter entities), since E2T is generated from the same entity lists. Across domains, overlap is minimal (only 8 shared entities between veterans and Twitter), confirming that the two domains test genuinely different entity knowledge.
+</p>
+
+<div class="figure">
+  <a href="figures/fig_bench_entity_overlap.png" target="_blank">
+    <img src="figures/fig_bench_entity_overlap.png" alt="Entity overlap heatmap">
+  </a>
+  <p class="fig-caption"><strong>Figure A5.</strong> Entity overlap between variants. Diagonal shows total unique entities per variant; off-diagonal shows shared entities. Within-domain overlap is high; cross-domain overlap is minimal (8 entities).</p>
+</div>
+
+<h3>H.4 Real vs. Synthetic Data</h3>
+
+<p class="no-indent">
+The benchmark contains 1,471 real samples (39.9%) and 2,216 synthetic samples (60.1%). By domain, veterans contribute 2,067 samples (56.1%) and Twitter 1,620 (43.9%). The synthetic-to-real ratio of 1.5:1 reflects the scalability of E2T generation. Key differences between real and synthetic data include: (a) real texts are longer and more narratively complex; (b) synthetic texts use more systematic description patterns; (c) real texts contain cultural and emotional nuances absent from generated text. These differences make the T2E/E2T comparison a natural ablation for studying the effect of text naturalness on recognition difficulty.
+</p>
+
+<div class="figure" style="column-span: all;">
+  <a href="figures/fig_bench_splits.png" target="_blank">
+    <img src="figures/fig_bench_splits.png" alt="Benchmark split by generation method and domain">
+  </a>
+  <p class="fig-caption"><strong>Figure A6.</strong> IRC-Bench composition by generation method (left) and domain (right).</p>
+</div>
+
+<h3>H.5 Train/Test Split Design</h3>
+
+<div class="table-wrap" style="column-span: all;">
+  <p class="table-caption"><strong>Table A7.</strong> Train/test split statistics for both evaluation modes.</p>
+  <table>
+    <thead>
+      <tr>
+        <th></th>
+        <th colspan="2">Sample-Level Split</th>
+        <th colspan="2">Entity-Level Split (Open-Set)</th>
+      </tr>
+      <tr>
+        <th>Variant</th>
+        <th>Train</th>
+        <th>Test</th>
+        <th>Train</th>
+        <th>Test</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><td style="text-align:left;">Vet-T2E</td><td>499</td><td>121</td><td>498</td><td>122</td></tr>
+      <tr><td style="text-align:left;">Vet-E2T</td><td>1,159</td><td>288</td><td>1,152</td><td>295</td></tr>
+      <tr><td style="text-align:left;">Tweet-T2E</td><td>683</td><td>168</td><td>707</td><td>144</td></tr>
+      <tr><td style="text-align:left;">Tweet-E2T</td><td>619</td><td>150</td><td>629</td><td>140</td></tr>
+      <tr style="font-weight:700;"><td style="text-align:left;">Total</td><td>2,960</td><td>727</td><td>2,986</td><td>701</td></tr>
+      <tr><td style="text-align:left;">Entity overlap</td><td colspan="2">99.2% of test entities seen in train</td><td colspan="2">0% overlap (151 unseen test entities)</td></tr>
+    </tbody>
+  </table>
+</div>
+
+<p class="no-indent">
+The sample-level split stratifies by (variant, entity_type), ensuring proportional representation in both sets. The entity-level split holds out 151 complete entities with all their samples, enabling true open-set evaluation where the model must recognize entities never seen during development. Both splits use a fixed random seed (42) for reproducibility.
+</p>
+
+<h3>H.6 Explicit-Entity Baseline</h3>
+
+<p class="no-indent">
+In addition to the four implicit variants, IRC-Bench includes a separate explicit-entity baseline of 1,626 Twitter tweets where entities are mentioned by name (with character-span annotations). This baseline is marked with <code>eval_mode=EXPLICIT_BASELINE_ONLY</code> to prevent accidental inclusion in implicit evaluation. It enables measuring the performance gap between explicit and implicit entity recognition using the same Twitter domain and entity types.
+</p>
 
 </main>
 </div>
