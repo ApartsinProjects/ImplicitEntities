@@ -1,0 +1,33 @@
+{
+  "total_before": 3687,
+  "total_after": 3535,
+  "removed": 152,
+  "corrections": 189,
+  "alternatives_added": 194,
+  "per_variant": {
+    "bench_veterans_t2e": {
+      "non_entities": 9,
+      "all_models_fail": 97,
+      "llm_audited": 57,
+      "gold_wrong": 50
+    },
+    "bench_veterans_e2t": {
+      "non_entities": 18,
+      "all_models_fail": 429,
+      "llm_audited": 228,
+      "gold_wrong": 195
+    },
+    "bench_twitter_t2e": {
+      "non_entities": 0,
+      "all_models_fail": 25,
+      "llm_audited": 19,
+      "gold_wrong": 19
+    },
+    "bench_twitter_e2t": {
+      "non_entities": 0,
+      "all_models_fail": 116,
+      "llm_audited": 59,
+      "gold_wrong": 59
+    }
+  }
+}
