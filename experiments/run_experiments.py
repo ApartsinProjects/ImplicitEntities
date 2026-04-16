@@ -339,7 +339,44 @@ def exact_match(pred: str, gold: str) -> bool:
     return normalize(pred) == normalize(gold)
 
 
-def jaccard_match(pred: str, gold: str, threshold: float = 0.60) -> bool:
+def containment_match(pred: str, gold: str) -> bool:
+    """Check if one entity contains the other (substring match after normalization)."""
+    p, g = normalize(pred), normalize(gold)
+    if not p or not g or len(p) < 3 or len(g) < 3:
+        return False
+    return p in g or g in p
+
+
+def synonym_match(pred: str, gold: str) -> bool:
+    """Check if pred and gold are synonyms via WordNet Wu-Palmer similarity >= 0.9."""
+    try:
+        from nltk.corpus import wordnet as wn
+    except ImportError:
+        return False
+    p_norm = normalize(pred)
+    g_norm = normalize(gold)
+    # For single-word entities, check direct WordNet synonymy
+    p_synsets = wn.synsets(p_norm.replace(" ", "_"))
+    g_synsets = wn.synsets(g_norm.replace(" ", "_"))
+    if not p_synsets or not g_synsets:
+        # Try individual words
+        p_synsets = [s for w in p_norm.split() for s in wn.synsets(w)[:2]]
+        g_synsets = [s for w in g_norm.split() for s in wn.synsets(w)[:2]]
+    for ps in p_synsets[:3]:
+        for gs in g_synsets[:3]:
+            sim = ps.wup_similarity(gs)
+            if sim is not None and sim >= 0.90:
+                return True
+            # Also check if they share any lemma
+            p_lemmas = set(l.name().lower() for l in ps.lemmas())
+            g_lemmas = set(l.name().lower() for l in gs.lemmas())
+            if p_lemmas & g_lemmas:
+                return True
+    return False
+
+
+def jaccard_match(pred: str, gold: str, threshold: float = 0.50) -> bool:
+    """Jaccard match with slightly lower threshold (0.50 instead of 0.60)."""
     return jaccard_token_similarity(pred, gold) >= threshold
 
 
@@ -799,17 +836,17 @@ async def evaluate_predictions(
     Evaluate predictions with 3-tier matching.
     Returns per-sample EvalResult objects.
     """
-    print("\n  [Evaluation] Running 3-tier matching...")
+    print("\n  [Evaluation] Running 5-tier matching...")
     results: list[EvalResult] = []
 
-    # First pass: exact and jaccard matches
+    # First pass: exact, containment, synonym, jaccard matches
     needs_llm_check: list[tuple[int, int, str, str]] = []  # (result_idx, rank, pred, gold)
 
     for i, (s, preds) in enumerate(zip(samples, predictions)):
         er = EvalResult(sample=s, predictions=preds[:max_k])
         results.append(er)
 
-        # Tier 1: Exact match
+        # Tier 1: Exact match (normalized string equality)
         for rank, pred in enumerate(preds[:max_k], start=1):
             if exact_match(pred, s.entity):
                 er.match_tier = "exact"
@@ -820,7 +857,18 @@ async def evaluate_predictions(
         if er.match_rank > 0:
             continue
 
-        # Tier 3: Jaccard (check before LLM to save API calls)
+        # Tier 2: Containment match (substring in either direction)
+        for rank, pred in enumerate(preds[:max_k], start=1):
+            if containment_match(pred, s.entity):
+                er.match_tier = "containment"
+                er.match_rank = rank
+                er.matched_prediction = pred
+                break
+
+        if er.match_rank > 0:
+            continue
+
+        # Tier 3: Jaccard token overlap (>= 0.50)
         for rank, pred in enumerate(preds[:max_k], start=1):
             if jaccard_match(pred, s.entity):
                 er.match_tier = "jaccard"
@@ -831,7 +879,18 @@ async def evaluate_predictions(
         if er.match_rank > 0:
             continue
 
-        # Tier 2: Need LLM alias check for unmatched predictions
+        # Tier 4: WordNet synonym match (Wu-Palmer >= 0.90 or shared lemma)
+        for rank, pred in enumerate(preds[:max_k], start=1):
+            if synonym_match(pred, s.entity):
+                er.match_tier = "synonym"
+                er.match_rank = rank
+                er.matched_prediction = pred
+                break
+
+        if er.match_rank > 0:
+            continue
+
+        # Tier 5: Need LLM alias check for unmatched predictions
         for rank, pred in enumerate(preds[:max_k], start=1):
             needs_llm_check.append((i, rank, pred, s.entity))
 
@@ -934,7 +993,7 @@ def compute_metrics(results: list[EvalResult], max_k: int = 10) -> dict:
     filtered_mrr = np.mean(filtered_rr) if filtered_rr else 0.0
 
     # Match tier distribution
-    tier_counts = {"exact": 0, "alias": 0, "jaccard": 0, "none": 0}
+    tier_counts = {"exact": 0, "containment": 0, "jaccard": 0, "synonym": 0, "alias": 0, "none": 0}
     for r in results:
         tier_counts[r.match_tier] = tier_counts.get(r.match_tier, 0) + 1
 
