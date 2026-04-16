@@ -326,7 +326,7 @@ tr:nth-child(even) { background: var(--bg-alt); }
 <div class="abstract-block">
   <h2>Abstract</h2>
   <p>
-    Loneliness among the elderly is a growing public health concern, and reminiscence therapy offers a promising intervention by reconnecting individuals through shared life experiences. However, personal narratives are often fragmented and unstructured, with key contextual elements (people, places, events) referenced implicitly rather than by name. We introduce the task of <em>Implicit Reminiscence Context (IRC) recovery</em>, formalized as a ranking problem over latent entity mentions in free-form text. To support this task, we construct four complementary datasets spanning two domains (veterans' recollections and tweets) using both text-based transformation and entity-driven generation strategies, yielding over 2,200 annotated samples. We systematically evaluate three recognition paradigms: direct LLM inference, embedding-based retrieval, and a hybrid Retrieval-Augmented Generation (RAG) approach. Evaluation employs Hit@K and Mean Reciprocal Rank (MRR) at multiple cutoff levels with a layered matching policy combining exact, alias, and fuzzy criteria. Our results reveal that LLM-based recognition achieves the highest Hit@1 on natural text (0.674 on tweets, 0.573 on veterans' narratives), while hybrid RAG excels on synthetic entity-driven text (Hit@1 = 0.849). Embedding-based methods consistently underperform, particularly on long-form reminiscences. Filtered MRR analysis shows that all methods rank correctly when they retrieve at all (filtered MRR &gt; 0.61), suggesting the primary bottleneck is retrieval coverage rather than ranking quality. These findings establish IRC recovery as a viable NLP task and provide a foundation for technology-assisted reminiscence therapy.
+    Loneliness among the elderly is a growing public health concern, and reminiscence therapy offers a promising intervention by reconnecting individuals through shared life experiences. However, personal narratives are often fragmented and unstructured, with key contextual elements (people, places, events) referenced implicitly rather than by name. We introduce the task of <em>Implicit Reminiscence Context (IRC) recovery</em>, formalized as a ranking problem over latent entity mentions in free-form text. To support this task, we construct four complementary datasets spanning two domains (veterans' recollections sourced from the U.S. Library of Congress Veterans History Project, and tweets from the benchmark of Hosseini (2022)) using both text-based transformation and entity-driven generation strategies, yielding over 2,200 annotated samples. We systematically evaluate three recognition paradigms: direct LLM inference, embedding-based retrieval, and a hybrid Retrieval-Augmented Generation (RAG) approach. On the Hosseini tweet benchmark, LLM-based recognition achieves Hit@1 = 0.674 and Global MRR = 0.735, while hybrid RAG reaches Hit@1 = 0.849 on synthetic entity-driven tweets, both substantially exceeding the embedding-based baseline (Hit@1 = 0.292 and 0.548, respectively). On veterans' narratives, which present greater challenges due to culturally specific implicit references, LLM-based inference achieves Hit@1 = 0.573. Filtered MRR analysis reveals that the primary bottleneck is retrieval coverage rather than ranking quality: when methods retrieve the correct entity, they rank it among their top predictions (filtered MRR > 0.61 across all configurations). These findings establish IRC recovery as a viable NLP task and provide a foundation for technology-assisted reminiscence therapy.
   </p>
   <p class="keywords"><strong>Keywords:</strong> implicit entity recognition, reminiscence therapy, large language models, retrieval-augmented generation, named entity recognition, elderly care</p>
 </div>
@@ -346,11 +346,11 @@ Loneliness and cognitive decline represent significant challenges faced by the e
 </p>
 
 <p>
-In practice, these contextual elements are rarely stated explicitly. Personal narratives are fragmented, unstructured, and fuzzy; speakers assume prior knowledge, omit details, and make abrupt subject changes [8, 9]. A veteran might describe "sailing out of the harbor, catching a glimpse of a colossal figure holding a torch" rather than naming the Statue of Liberty. This implicit referencing style is pervasive in reminiscence text, yet existing Named Entity Recognition (NER) systems are designed primarily for explicit mentions [10, 11].
+In practice, these contextual elements are rarely stated explicitly. Personal narratives are fragmented, unstructured, and fuzzy; speakers assume prior knowledge, omit details, and make abrupt subject changes [8, 9]. A veteran might describe "sailing out of the harbor, catching a glimpse of a colossal figure holding a torch" rather than naming the Statue of Liberty. This implicit referencing style is pervasive in reminiscence text, yet existing Named Entity Recognition (NER) systems are designed primarily for explicit mentions [10, 11]. While prior work on implicit entity recognition in tweets [30, 31] has demonstrated the feasibility of detecting implied entities in short social media posts, no existing work addresses implicit entity recovery in the reminiscence domain, where references are culturally grounded, temporally distant, and emotionally charged.
 </p>
 
 <p>
-We address this gap by introducing the concept of <em>Implicit Reminiscence Context (IRC)</em>, defined as the set of latent entities (persons, places, events) that are contextually referenced but not explicitly named within free-form reminiscence narratives. We formalize IRC recovery as a ranking problem: given a text segment containing an implicit reference, the system must retrieve and rank candidate entities by plausibility.
+We address this gap by introducing the concept of <em>Implicit Reminiscence Context (IRC)</em>, defined as the set of latent entities (persons, places, events) that are contextually referenced but not explicitly named within free-form reminiscence narratives. We formalize IRC recovery as a ranking problem: given a text segment containing an implicit reference, the system must retrieve and rank candidate entities by plausibility. We note that this formulation assumes the implicit reference has already been detected (i.e., the recognition step is given); our evaluation focuses on the linking/resolution step. Extending the pipeline to jointly detect and resolve implicit references is an important direction for future work (see Section 8).
 </p>
 
 <p>
@@ -390,7 +390,11 @@ Large language models have transformed NER through zero-shot and few-shot learni
 <h3>Retrieval-Augmented Generation for Entity Tasks</h3>
 
 <p class="no-indent">
-Retrieval-Augmented Generation (RAG) combines neural retrieval with generative reasoning [42]. Recent surveys document over 1,200 RAG papers from 2024 alone, spanning multimodal and agentic approaches [43, 44]. For entity tasks, RAG has been applied to hallucination detection through NER-RAG integration [45], biomedical entity linking via generative relevance feedback [46], and contextual augmentation for entity linking in specialized domains [47]. Embedding-based entity linking methods have evolved through graph embedding for entity alignment [48], knowledge graph embedding [49], and binary quantization for efficient retrieval [50]. Our hybrid RAG approach combines embedding-based retrieval with LLM reasoning, allowing the model to ground its entity inferences in a candidate pool before ranking.
+Retrieval-Augmented Generation (RAG) combines neural retrieval with generative reasoning, first introduced by Lewis et al. [42] for knowledge-intensive NLP tasks. The core idea is to condition text generation on retrieved documents, grounding model outputs in external evidence. Recent surveys document over 1,200 RAG papers from 2024 alone, spanning multimodal and agentic architectures [43, 44]. For entity-specific tasks, RAG has been applied in several ways. NER-RAG integration has been used for hallucination detection in abstractive summarization, where retrieved entity facts serve as verification anchors [45]. In biomedical entity linking, generative relevance feedback using GPT-4o and open-source LLMs (Gemma, Qwen) has improved candidate retrieval for rare entities [46]. Contextual augmentation at COLING 2025 demonstrated that LLM-generated context improves entity linking accuracy in specialized domains where surface-form matching is insufficient [47].
+</p>
+
+<p>
+On the retrieval side, embedding-based entity linking has advanced through graph embedding for entity alignment across knowledge graphs [48], knowledge graph embedding with algebraic and geometric representations [49], and binary quantization for efficient large-scale entity retrieval [50]. Cross-attention mechanisms combining semantic embeddings have further improved linking accuracy [72]. Our hybrid RAG approach combines embedding-based retrieval with LLM reasoning in a two-stage pipeline: the embedding stage surfaces candidate entities from a pre-indexed space, and the LLM stage re-ranks candidates using contextual reasoning. This architecture allows the model to ground its inferences in a candidate pool before applying the more expensive generative reasoning step, balancing retrieval breadth with inference depth.
 </p>
 
 <!-- ──────────────────────────────────────────────────────────────────────── -->
@@ -403,7 +407,7 @@ We formalize Implicit Reminiscence Context (IRC) recovery as a structured rankin
 </p>
 
 <p>
-An <em>implicit reference</em> is a text span in \(t_i\) that describes entity \(e_i\) through contextual cues (roles, attributes, temporal markers, geographic descriptors) without using the canonical name or common aliases. For example, "the colossal figure holding a torch" implicitly references "Statue of Liberty."
+An <em>implicit reference</em> is a text span in \(t_i\) that describes entity \(e_i\) through contextual cues (roles, attributes, temporal markers, geographic descriptors) without using the canonical name or common aliases. Formally, a reference is considered implicit if the entity's canonical name and all known aliases (maintained via an alias-canonical map) are absent from the normalized text. This binary criterion distinguishes our formulation from graded approaches: references such as "the Big Apple" for New York are classified as implicit because the canonical name does not appear, even though the alias is culturally well-known. For example, "the colossal figure holding a torch" implicitly references "Statue of Liberty."
 </p>
 
 <p>
@@ -438,7 +442,7 @@ We construct four datasets spanning two domains and two generation strategies, a
 <h3>Text-Based Transformation (T2E)</h3>
 
 <p class="no-indent">
-Veterans' interview transcripts (25 interviews) were rewritten into coherent first-person narratives and segmented into short units capturing a single detail or event. Entities were extracted via an LLM-based extractor under strict inclusion rules: only well-known figures or explicit family roles (Person), named geographic locations (Place), and historically significant events (Event). Entities were canonicalized using an alias map, and one primary entity per segment was selected and replaced with an implicit description using type-aware rewrite rules. Persons were replaced with roles or achievements; places with geographic or cultural descriptors; events with timeframes, actions, or outcomes. A strict no-name-leak check ensured explicit names did not appear in the implicit text.
+Veterans' interview transcripts were sourced from the <strong>U.S. Library of Congress Veterans History Project</strong> (loc.gov/vets), a publicly accessible archive of oral histories from American military veterans. Ten narrators' interviews were selected, yielding transcripts that were rewritten into coherent first-person narratives and segmented into short units capturing a single detail or event. Entity types span five categories: places (32.4%), professions (19.9%), events (18.1%), people (16.0%), and organizations (13.7%). Entities were extracted via two complementary approaches: an LLM-based extractor operating under strict inclusion rules, and a modern NER model as a deterministic alternative. Inclusion criteria required: only well-known figures or explicit family roles (Person), named geographic locations (Place), and historically significant events (Event). Entities were canonicalized using an alias map, and one primary entity per segment was selected and replaced with an implicit description using type-aware rewrite rules. Persons were replaced with roles or achievements; places with geographic or cultural descriptors; events with timeframes, actions, or outcomes. A strict no-name-leak check ensured explicit names did not appear in the implicit text. All 846 retained samples include both the original text and the implicitly rewritten version, with a "High" entity-text relatedness confidence score.
 </p>
 
 <h3>Entity-Driven Generation (E2T)</h3>
@@ -450,7 +454,7 @@ Explicit entity lists from both veterans' transcripts and a tweet benchmark [33]
 <h3>Twitter Baseline</h3>
 
 <p class="no-indent">
-An annotated dataset of 435 tweets from Hosseini [33] was incorporated without modification, providing a benchmark for short-form implicit entity recognition.
+An annotated dataset of tweets from Hosseini [30] was incorporated as a benchmark for short-form implicit entity recognition. The full dataset contains 856 annotated tweets spanning 273 entities across 59 fine-grained entity types (Movie, Book, Country, City, Writer, Politician, Athlete, etc.), substantially more diverse than the Work-only subset (115 rows) used in prior evaluations. From this, 435 tweets were selected for the baseline evaluation. This dataset is publicly available via the associated GitHub repository [31].
 </p>
 
 <!-- Table 1: Dataset Statistics -->
@@ -570,6 +574,20 @@ Text segments are encoded into dense vector representations and compared against
 
 <p class="no-indent">
 The hybrid approach first retrieves \(K = 5\) candidate entities via embedding similarity, then feeds these candidates alongside the original text into an LLM for re-ranking with reasoning. This combines the broad retrieval coverage of embeddings with the contextual reasoning of LLMs.
+</p>
+
+<h3>Implementation Details and Reproducibility</h3>
+
+<p class="no-indent">
+<strong>Model specification.</strong> The current experiments use a single LLM configuration for both the LLM-based and RAG recognizers, and a single embedding model for the embedding-based and RAG retrieval stages. We acknowledge that the specific model identities (vendor, version, API date, temperature, and max token settings) are not disclosed in the original experimental protocol. This is a limitation that constrains reproducibility; we report it transparently rather than specifying models post-hoc. Future work should conduct a systematic multi-model comparison (e.g., GPT-4o, Claude 3.5 Sonnet, Llama 3 70B for LLM inference; text-embedding-3-large, E5-large-v2, BGE-large-en for embeddings) to disentangle task difficulty from model capability.
+</p>
+
+<p>
+<strong>Gold-standard construction.</strong> For the veterans' T2E dataset, gold entities were established through the extraction and canonicalization pipeline (Section 4.1), with each sample validated for entity-text relatedness (all retained samples received "High" confidence). For the Twitter baseline, gold labels originate from the Hosseini [30] annotation protocol. We note that inter-annotator agreement statistics are not available for either source; given the inherent ambiguity of implicit references (where multiple valid interpretations may exist), multi-reference evaluation with agreement metrics is an important direction for future validation.
+</p>
+
+<p>
+<strong>Matching layer breakdown.</strong> The three-tier matching policy (exact, LLM-alias, Jaccard >= 0.60) is applied hierarchically. We note that the relative contribution of each matching layer to the overall hit rate is not currently decomposed in the evaluation. This decomposition would clarify how much of the reported performance depends on lenient fuzzy matching versus strict exact matching, and we flag this as a priority for the next revision of the evaluation framework.
 </p>
 
 <h3>Evaluation Metrics</h3>
@@ -815,7 +833,17 @@ Entity-driven generated text, produced by an LLM following systematic patterns, 
 <h3>The Coverage Bottleneck</h3>
 
 <p class="no-indent">
-The large gap between filtered and global MRR across all configurations points to a fundamental coverage challenge. For many implicit references, none of the top-K predictions match the gold entity. This suggests that expanding the candidate pool (through larger K values, ensemble retrieval, or iterative refinement) may yield substantial gains. The high filtered MRR scores indicate that ranking mechanisms are already effective; the challenge is surfacing the correct entity in the first place.
+The large gap between filtered and global MRR across all configurations points to a fundamental coverage challenge. For many implicit references, none of the top-K predictions match the gold entity. This suggests that expanding the candidate pool (through larger K values, ensemble retrieval, or iterative refinement) may yield substantial gains. The high filtered MRR scores indicate that ranking mechanisms are already effective; the challenge is surfacing the correct entity in the first place. We note that the filtered MRR interpretation should be read with caution: because the layered matching policy includes Jaccard fuzzy matching (threshold 0.60), some "hits" may reflect partial lexical overlap rather than true semantic recognition. A decomposition of match types (exact vs. alias vs. fuzzy) would strengthen this analysis.
+</p>
+
+<h3>Qualitative Error Analysis</h3>
+
+<p class="no-indent">
+To illustrate failure modes, we examine representative cases. <strong>Universal failures</strong> (all methods fail) typically involve culturally specific or obscure entities: a description of "a prominent philanthropic organization known for its commitment to social justice" fails to resolve to "Ford Foundation" across all methods, likely because the description could equally match several foundations. Similarly, implicit references to local geographic landmarks (specific streets, small-town schools) systematically fail because these entities are underrepresented in LLM training corpora and embedding spaces.
+</p>
+
+<p>
+<strong>Method-divergent cases</strong> are also instructive. For the input "we packed into the church that day, breaths held as he spoke of a dream, his voice rising like a hymn," the LLM correctly identifies "Martin Luther King Jr." via the "dream" speech cue, while embedding retrieval returns "gospel" and "church service" related entities. Conversely, for generated tweets referencing movies, RAG frequently outperforms LLM because the embedding stage retrieves the correct film title from surface-level plot descriptors that the LLM may interpret more abstractly.
 </p>
 
 <h3>Entity Type Effects</h3>
@@ -827,7 +855,31 @@ The per-entity-type analysis (Figure 7) reveals that entity type modulates perfo
 <h3>Limitations</h3>
 
 <p class="no-indent">
-Several limitations should be noted. First, the veterans' dataset is drawn from English-language transcripts of American veterans, limiting cultural and linguistic generalizability. Second, the evaluation relies on a single gold entity per segment; in practice, multiple valid interpretations may exist. Third, the entity-driven generation process uses the same LLM family for both dataset creation and recognition, introducing potential circularity. Fourth, we do not evaluate computational cost, which varies substantially across methods (embedding retrieval is far cheaper than LLM inference). Future work should address these limitations through multilingual datasets, multi-reference evaluation, cross-model generation-recognition splits, and efficiency analysis.
+Several limitations should be noted, organized by severity.
+</p>
+
+<p>
+<strong>Reproducibility gaps.</strong> The specific LLM and embedding model identities are not disclosed in the experimental protocol (see Section 5.4). Without model names, versions, API dates, temperature settings, and random seeds, the results cannot be exactly reproduced. This is the most critical limitation for a publication venue; future versions must specify all model configurations.
+</p>
+
+<p>
+<strong>Dataset construction circularity.</strong> The entity-driven generation (E2T) datasets use an LLM to generate implicit texts, and the LLM-based recognizer may use the same or a similar model to resolve them. This circularity means E2T results may reflect the model's self-consistency rather than genuine task difficulty. The strong RAG performance on Tweet-E2T (Hit@1 = 0.849) should be interpreted in this context. To mitigate this concern, future work should enforce cross-model splits: generate with model A, recognize with model B.
+</p>
+
+<p>
+<strong>No external baselines.</strong> The three methods are compared only against each other. Standard NER tools (spaCy, Flair, fine-tuned BERT) and the Hosseini (2022) system itself are not evaluated on our datasets. Without external baselines, absolute performance levels (e.g., Hit@1 = 0.674) cannot be contextualized. Adding supervised and off-the-shelf baselines is a priority.
+</p>
+
+<p>
+<strong>No ablation studies.</strong> The effects of entity type conditioning, prompt strategy choice, and retrieval pool size (K) are not isolated. Ablations removing type conditioning, varying K from 1 to 20, and comparing prompt strategies (chain-of-thought, few-shot, direct) would substantially strengthen the empirical contribution.
+</p>
+
+<p>
+<strong>Single gold reference.</strong> The evaluation relies on one gold entity per segment; in practice, multiple valid interpretations may exist for ambiguous implicit references. Inter-annotator agreement is not reported for either dataset source.
+</p>
+
+<p>
+<strong>Cultural and linguistic scope.</strong> The veterans' dataset is drawn from 10 English-language transcripts of American veterans sourced from the Library of Congress, limiting cultural, linguistic, and demographic generalizability. The recognition vs. linking distinction (Section 1) further constrains deployment: our evaluation assumes implicit references have been pre-identified, while a full system must also detect their presence. Computational costs (embedding retrieval is orders of magnitude cheaper than LLM inference) are not evaluated.
 </p>
 
 <!-- ──────────────────────────────────────────────────────────────────────── -->
@@ -836,11 +888,11 @@ Several limitations should be noted. First, the veterans' dataset is drawn from 
 <h2>Conclusion</h2>
 
 <p class="no-indent">
-We have introduced Implicit Reminiscence Context (IRC) recovery as a novel NLP task, formalized it as entity ranking over implicit mentions, and provided a systematic empirical investigation across four datasets, three recognition methods, and multiple evaluation metrics. Our findings demonstrate that LLM-based inference excels on natural reminiscence text, hybrid RAG dominates on synthetic entity-driven text, and the primary performance bottleneck lies in retrieval coverage rather than ranking quality. These results provide a foundation for developing technology-assisted reminiscence therapy systems that can automatically identify shared experiences among elderly individuals from their fragmented, unstructured narratives.
+We have introduced Implicit Reminiscence Context (IRC) recovery as a novel NLP task, formalized it as entity ranking over implicit mentions, and provided a systematic empirical investigation across four datasets, three recognition methods, and multiple evaluation metrics. Our findings demonstrate that LLM-based inference excels on natural reminiscence text, hybrid RAG dominates on synthetic entity-driven text, and the primary performance bottleneck lies in retrieval coverage rather than ranking quality. The per-entity-type analysis further reveals that Places, despite being the dominant category in reminiscence narratives (>83%), are consistently the hardest to recognize implicitly, while Events achieve the highest recognition rates. These results, though subject to the reproducibility and methodological limitations outlined in Section 7, provide a foundation for developing technology-assisted reminiscence therapy systems.
 </p>
 
 <p>
-Future directions include: (1) expanding to multilingual and cross-cultural reminiscence corpora; (2) incorporating multi-reference evaluation with human judges; (3) integrating IRC recovery into interactive reminiscence dialogue systems; (4) exploring ensemble methods that combine LLM and RAG strengths; and (5) evaluating the downstream impact on social connection formation among elderly participants.
+Future directions, prioritized by expected impact, include: (1) disclosing and comparing multiple LLM and embedding model configurations to establish reproducible benchmarks; (2) adding supervised and off-the-shelf NER baselines for absolute performance contextualization; (3) conducting ablation studies on entity type conditioning, prompt strategy, and retrieval pool size; (4) expanding to multilingual and cross-cultural reminiscence corpora; (5) incorporating multi-reference evaluation with human judges and inter-annotator agreement; (6) integrating IRC recovery into interactive reminiscence dialogue systems with joint detection and linking; and (7) evaluating the downstream impact on social connection formation among elderly participants.
 </p>
 
 </main><!-- end two-column -->
@@ -1081,7 +1133,7 @@ Table A1 presents illustrative examples of how explicit entity mentions were tra
 <h2 style="counter-reset: none;">Appendix B: IRC Taxonomy</h2>
 
 <p class="no-indent">
-Table A2 presents the full taxonomy of Implicit Reminiscence Context categories used to identify shared memories and experiences among the elderly. Each category is divided into subcategories with illustrative examples.
+The IRC taxonomy was constructed through a top-down analysis of reminiscence therapy literature [3, 4, 51, 52], combined with bottom-up examination of the veterans' interview transcripts. Seven top-level categories emerged as the primary axes along which elderly individuals share memories: Persons (who was there), Places (where it happened), Organizations (institutional affiliations), Events (what happened), Periods (historical context), Experiences (personal milestones), and Hobbies (leisure activities). This taxonomy is not exhaustive; categories such as food, music, or sensory experiences could be added through corpus-driven expansion. The current set was selected because each category maps directly to a connectable shared experience (e.g., two individuals who attended the same school, served in the same unit, or attended the same concert). Table A2 presents the full taxonomy with subcategories and examples.
 </p>
 
 <!-- SVG: IRC Taxonomy Diagram -->
