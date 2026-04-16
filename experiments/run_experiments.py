@@ -453,10 +453,15 @@ def build_llm_inference_prompts(
         prompts.append([
             {"role": "system", "content": (
                 "You are an expert at identifying named entities that are implicitly "
-                "referenced in text without being named directly. "
-                "Output ONLY specific entity names (proper nouns, named places, named events, "
-                "named organizations, or named people). "
-                "Do NOT output generic descriptions like 'a soldier', 'the narrator', or 'military service'. "
+                "referenced in text without being named directly.\n\n"
+                "Entity types to look for:\n"
+                "- Person: specific named individuals (e.g., Einstein, Churchill, not 'a soldier' or 'the doctor')\n"
+                "- Place: specific named locations (e.g., Pearl Harbor, Manhattan, not 'the village' or 'home')\n"
+                "- Event: specific named events (e.g., Battle of the Bulge, D-Day, not 'the war' or 'training')\n"
+                "- Organization: specific named groups (e.g., 101st Airborne, Red Cross, not 'the army' or 'the unit')\n"
+                "- Work: specific named works (e.g., Titanic, Great Gatsby, not 'the movie' or 'a book')\n\n"
+                "Output ONLY proper nouns that could appear as Wikipedia article titles. "
+                "Do NOT output generic descriptions, roles, common nouns, or pronouns. "
                 "If the text does not clearly reference a specific named entity, output NONE."
             )},
             {"role": "user", "content": (
