@@ -1,0 +1,61 @@
+{
+  "dataset": "veterans_t2e",
+  "results": {
+    "ensemble_rrf": {
+      "n_samples": 846,
+      "n_matched": 202,
+      "Hit@1": 0.08392434988179669,
+      "Hit@3": 0.16430260047281323,
+      "Hit@5": 0.20567375886524822,
+      "Hit@10": 0.23877068557919623,
+      "Global_MRR": 0.13213441404930765,
+      "Filtered_MRR": 0.5533946251768034,
+      "tier_exact": 189,
+      "tier_alias": 0,
+      "tier_jaccard": 13,
+      "tier_none": 644
+    },
+    "ensemble_majority": {
+      "n_samples": 846,
+      "n_matched": 196,
+      "Hit@1": 0.04018912529550828,
+      "Hit@3": 0.04846335697399527,
+      "Hit@5": 0.061465721040189124,
+      "Hit@10": 0.23167848699763594,
+      "Global_MRR": 0.06645981087470448,
+      "Filtered_MRR": 0.28686224489795925,
+      "tier_exact": 183,
+      "tier_alias": 0,
+      "tier_jaccard": 13,
+      "tier_none": 650
+    },
+    "ensemble_union": {
+      "n_samples": 846,
+      "n_matched": 352,
+      "Hit@1": 0.1867612293144208,
+      "Hit@3": 0.24349881796690306,
+      "Hit@5": 0.36524822695035464,
+      "Hit@10": 0.4160756501182033,
+      "Global_MRR": 0.24949857405531164,
+      "Filtered_MRR": 0.5996471410533911,
+      "tier_exact": 334,
+      "tier_alias": 0,
+      "tier_jaccard": 18,
+      "tier_none": 494
+    },
+    "ensemble_cascade_llm_hybrid": {
+      "n_samples": 846,
+      "n_matched": 216,
+      "Hit@1": 0.19621749408983452,
+      "Hit@3": 0.2553191489361702,
+      "Hit@5": 0.2553191489361702,
+      "Hit@10": 0.2553191489361702,
+      "Global_MRR": 0.2232072498029945,
+      "Filtered_MRR": 0.8742283950617284,
+      "tier_exact": 189,
+      "tier_alias": 0,
+      "tier_jaccard": 27,
+      "tier_none": 630
+    }
+  }
+}
