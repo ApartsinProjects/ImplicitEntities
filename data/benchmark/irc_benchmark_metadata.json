@@ -1,0 +1,59 @@
+{
+  "name": "IRC Benchmark v1.0",
+  "description": "Implicit Reminiscence Context recovery benchmark for evaluating implicit entity recognition",
+  "version": "1.0",
+  "total_samples": 1471,
+  "train_samples": 1182,
+  "test_samples": 289,
+  "test_ratio": 0.2,
+  "random_seed": 42,
+  "unique_entities": 692,
+  "domains": {
+    "twitter": 851,
+    "veterans": 620
+  },
+  "entity_types": {
+    "Place": 408,
+    "Person": 293,
+    "Organization": 270,
+    "Work": 215,
+    "Event": 154,
+    "Profession": 94,
+    "Product": 34,
+    "Other": 3
+  },
+  "entity_types_by_domain": {
+    "twitter": {
+      "Person": 229,
+      "Work": 215,
+      "Organization": 167,
+      "Place": 163,
+      "Event": 40,
+      "Product": 34,
+      "Other": 3
+    },
+    "veterans": {
+      "Place": 245,
+      "Event": 114,
+      "Organization": 103,
+      "Profession": 94,
+      "Person": 64
+    }
+  },
+  "sources": {
+    "veterans": "Library of Congress Veterans History Project, cleaned and deduplicated",
+    "twitter": "Hosseini (2022) implicit entity benchmark, full 856-tweet dataset"
+  },
+  "excluded": "Generic entities (pronouns, common military terms, family roles) filtered out",
+  "schema": {
+    "uid": "Deterministic hash ID",
+    "domain": "veterans or twitter",
+    "text": "Implicit reference text (entity not named)",
+    "origin": "Original text before rewriting (veterans only)",
+    "entity": "Gold-standard entity name",
+    "entity_type": "Coarse type: Person, Place, Event, Organization, Work, Product, Profession, Other",
+    "entity_type_original": "Original fine-grained type from source dataset",
+    "source": "Narrator name (veterans) or tweet source",
+    "links": "Source URL"
+  }
+}
