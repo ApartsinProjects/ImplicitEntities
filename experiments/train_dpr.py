@@ -208,7 +208,16 @@ def build_entity_corpus(
 # ---------------------------------------------------------------------------
 # Evaluation
 # ---------------------------------------------------------------------------
-class IRCRetrievalEvaluator:
+try:
+    from sentence_transformers.sentence_transformer.evaluation import BaseEvaluator
+except ImportError:
+    try:
+        from sentence_transformers.evaluation import SentenceEvaluator as BaseEvaluator
+    except ImportError:
+        BaseEvaluator = object  # fallback: plain class
+
+
+class IRCRetrievalEvaluator(BaseEvaluator):
     """
     Custom evaluator that computes Hit@k and MRR on a retrieval task.
 
