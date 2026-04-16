@@ -413,7 +413,17 @@ We formalize Implicit Reminiscence Context (IRC) recovery as a structured rankin
 </p>
 
 <p>
-An <em>implicit reference</em> is a text span in \(t_i\) that describes entity \(e_i\) through contextual cues (roles, attributes, temporal markers, geographic descriptors) without using the canonical name or common aliases. Formally, a reference is considered implicit if the entity's canonical name and all known aliases (maintained via an alias-canonical map) are absent from the normalized text. This binary criterion distinguishes our formulation from graded approaches: references such as "the Big Apple" for New York are classified as implicit because the canonical name does not appear, even though the alias is culturally well-known. For example, "the colossal figure holding a torch" implicitly references "Statue of Liberty."
+An <em>implicit reference</em> describes entity \(e_i\) through contextual cues (roles, attributes, temporal markers, geographic descriptors) without using the canonical name or common aliases. Formally, a reference is considered implicit if the entity's canonical name and all known aliases (maintained via an alias-canonical map) are absent from the normalized text. This binary criterion distinguishes our formulation from graded approaches: references such as "the Big Apple" for New York are classified as implicit because the canonical name does not appear, even though the alias is culturally well-known.
+</p>
+
+<h4>Non-locality of Implicit References</h4>
+
+<p class="no-indent">
+A critical distinction between IRC recovery and standard entity linking (EL) is the <em>non-local nature</em> of implicit references. In EL, the entity mention occupies a contiguous span within the text (e.g., "Obama" in "Obama visited Paris"), and systems such as BLINK [77] encode this span together with its local context to resolve the entity. In IRC, no such mention span exists. Instead, the entity is described through a <em>constellation of distributed cues</em> scattered across multiple clauses. Consider the text: "We sat on the grass, splitting a baguette and watching the iron lattice glow against the dusk sky. Somewhere behind us, a couple got engaged to the sound of accordion music." The implicit reference to the Eiffel Tower is constructed from at least four non-contiguous cues: "baguette" (French culture), "iron lattice" (physical structure), "dusk sky" (Parisian evening), and "accordion music" (French ambiance). No single phrase is sufficient for identification; recovering the entity requires holistic integration of all cues.
+</p>
+
+<p>
+This non-locality has three consequences for method design. First, <em>embedding-based retrieval over full text is diluted</em>: encoding a 100-word narrative into a single vector buries the entity-relevant cues within irrelevant narrative context. Second, <em>mention-span extraction is ill-defined</em>: there is no single contiguous span to extract, unlike in EL where the mention boundary is given. Third, <em>LLM-based reasoning is naturally suited</em>: language models can attend to multiple distributed cues simultaneously through self-attention, integrating cultural, temporal, and sensory signals into a coherent entity hypothesis. This analysis explains our empirical finding that LLM-based methods substantially outperform embedding-based retrieval (Section 6).
 </p>
 
 <p>
