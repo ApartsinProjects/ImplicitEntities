@@ -1,0 +1,18 @@
+{
+  "dataset": "bench_twitter_e2t",
+  "method": "llm_batch",
+  "model": "gpt-3.5-turbo",
+  "battery_dir": "E:\\Projects\\ImplicitEntities\\experiments\\results\\battery_20260416_114734",
+  "n_samples": 769,
+  "n_matched": 492,
+  "Hit@1": 0.4837451235370611,
+  "Hit@3": 0.6397919375812744,
+  "Hit@5": 0.6397919375812744,
+  "Hit@10": 0.6397919375812744,
+  "Global_MRR": 0.5552665799739922,
+  "Filtered_MRR": 0.8678861788617886,
+  "tier_exact": 239,
+  "tier_alias": 225,
+  "tier_jaccard": 28,
+  "tier_none": 277
+}

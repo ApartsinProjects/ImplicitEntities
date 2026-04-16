@@ -1,0 +1,19 @@
+{
+  "dataset": "bench_twitter_e2t",
+  "method": "llm",
+  "model": "meta-llama/llama-3.1-8b-instruct:floor",
+  "battery_dir": "E:\\Projects\\ImplicitEntities\\experiments\\results\\battery_20260416_114734",
+  "n_samples": 769,
+  "n_matched": 500,
+  "Hit@1": 0.47334200260078024,
+  "Hit@3": 0.6501950585175552,
+  "Hit@5": 0.6501950585175552,
+  "Hit@10": 0.6501950585175552,
+  "Global_MRR": 0.5515821413090594,
+  "Filtered_MRR": 0.8483333333333333,
+  "tier_exact": 311,
+  "tier_alias": 150,
+  "tier_jaccard": 39,
+  "tier_none": 269,
+  "elapsed_seconds": 218.1
+}
