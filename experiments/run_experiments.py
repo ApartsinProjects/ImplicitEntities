@@ -192,6 +192,39 @@ def load_dataset(name: str) -> tuple[list[Sample], list[str]]:
                 origin="",
                 sqn=int(row.get("SQN", 0) or 0),
             ))
+    elif name.startswith("bench_"):
+        # Load from benchmark_v2 variants or splits
+        BENCH_DIR = PROJECT_ROOT / "data" / "benchmark_v2"
+        variant_map = {
+            "bench_veterans_t2e": BENCH_DIR / "variants" / "veterans_t2e.csv",
+            "bench_veterans_e2t": BENCH_DIR / "variants" / "veterans_e2t.csv",
+            "bench_twitter_t2e": BENCH_DIR / "variants" / "twitter_t2e.csv",
+            "bench_twitter_e2t": BENCH_DIR / "variants" / "twitter_e2t.csv",
+            "bench_full": BENCH_DIR / "irc_benchmark_v2_full.csv",
+            "bench_train": BENCH_DIR / "irc_benchmark_v2_train.csv",
+            "bench_test": BENCH_DIR / "irc_benchmark_v2_test.csv",
+            "bench_test_open": BENCH_DIR / "irc_benchmark_v2_test_open_set.csv",
+        }
+        path = variant_map.get(name)
+        if not path or not path.exists():
+            raise ValueError(f"Unknown benchmark dataset: {name}. Available: {list(variant_map.keys())}")
+        df = pd.read_csv(path, dtype=str).fillna("")
+        for _, row in df.iterrows():
+            if not row["text"].strip() or not row["entity"].strip():
+                continue
+            # Skip explicit baseline if accidentally loaded
+            if row.get("eval_mode", "") == "EXPLICIT_BASELINE_ONLY":
+                continue
+            samples.append(Sample(
+                uid=str(row.get("uid", "")),
+                text=row["text"].strip(),
+                entity=row["entity"].strip(),
+                entity_type=row.get("entity_type", "").strip(),
+                source=row.get("source", row.get("variant", "")),
+                origin=row.get("origin", ""),
+                sqn=int(row.get("SQN", 0) or 0),
+            ))
+
     else:
         raise ValueError(f"Unknown dataset: {name}")
 
@@ -202,12 +235,18 @@ def load_dataset(name: str) -> tuple[list[Sample], list[str]]:
 
 
 def get_all_dataset_names() -> list[str]:
-    """List available datasets."""
+    """List available datasets including benchmark_v2 variants."""
     names = ["veterans_t2e", "veterans_t2e_v2", "twitter"]
-    # Check for generated E2T files
+    # Benchmark v2 variants
+    BENCH_DIR = PROJECT_ROOT / "data" / "benchmark_v2" / "variants"
+    if BENCH_DIR.exists():
+        for f in BENCH_DIR.glob("*.csv"):
+            if "explicit" not in f.stem:
+                names.append(f"bench_{f.stem}")
+    # Generated E2T files
     if GENERATED_DIR.exists():
         for f in GENERATED_DIR.glob("e2t_*.csv"):
-            stem = f.stem  # e.g. e2t_veterans_google_gemini-2.0-flash-001
+            stem = f.stem
             parts = stem.split("_", 2)
             if len(parts) >= 2:
                 domain = parts[1]
@@ -903,7 +942,7 @@ def save_results(
     timestamp: str,
 ):
     """Save per-sample predictions CSV and metrics JSON."""
-    prefix = f"{timestamp}_{dataset_name}_{method_name}_{model.replace('/', '_')}"
+    prefix = f"{timestamp}_{dataset_name}_{method_name}_{model.replace('/', '_').replace(':', '_')}"
 
     # Per-sample CSV
     csv_path = RESULTS_DIR / f"{prefix}_predictions.csv"
