@@ -24,6 +24,7 @@ from run_experiments import (
     load_dataset,
     get_all_dataset_names,
     run_llm_method,
+    smoke_test_llm,
     evaluate_predictions,
     compute_metrics,
     print_metrics,
@@ -297,6 +298,13 @@ async def main():
 
             t0 = time.time()
             try:
+                # Smoke test first (catches parsing failures before wasting API calls)
+                smoke_ok = await smoke_test_llm(samples, model_id, concurrency=min(args.concurrency, 5))
+                if not smoke_ok:
+                    print(f"  SMOKE TEST FAILED for {model_id}. Skipping.")
+                    all_results[f"{ds_name}/{model_id}"] = {"error": "smoke_test_failed", "model": model_id}
+                    continue
+
                 predictions = await run_llm_method(
                     samples, model_id, args.concurrency, batch_size=0,
                 )

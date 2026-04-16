@@ -355,8 +355,56 @@ async def run_ablation(
     Run a specific ablation variant of the LLM method.
     Returns list of ranked predictions per sample.
     """
+    # Smoke test: run 3 samples to verify API + parsing works
+    print(f"\n  [{ablation_name}] Running smoke test (3 samples)...")
+    test_samples = samples[:3]
+    test_contexts = [""] * 3
     needs_context = ablation_name in ("baseline", "no_type", "cot", "few_shot", "json_output")
+    if needs_context:
+        test_ctx_prompts = build_context_prompts(test_samples)
+        test_ctx = await batch_call(test_ctx_prompts, model=model, temperature=0.3, max_tokens=200, concurrency=3, progress_every=999)
+        test_contexts = [c or "" for c in test_ctx]
 
+    # Build test inference prompts
+    if ablation_name == "baseline":
+        test_inf = build_baseline_inference(test_samples, test_contexts)
+    elif ablation_name == "no_type":
+        test_inf = build_no_type_inference(test_samples, test_contexts)
+    elif ablation_name == "no_context":
+        test_inf = build_no_context_inference(test_samples)
+    elif ablation_name == "no_type_no_ctx":
+        test_inf = build_no_type_no_ctx_inference(test_samples)
+    elif ablation_name == "cot":
+        test_inf = build_cot_inference(test_samples, test_contexts)
+    elif ablation_name == "few_shot":
+        test_inf = build_few_shot_inference(test_samples, test_contexts)
+    elif ablation_name == "json_output":
+        test_inf = build_json_inference(test_samples, test_contexts)
+    else:
+        test_inf = build_baseline_inference(test_samples, test_contexts)
+
+    test_max_tokens = 400 if ablation_name == "cot" else 150
+    test_responses = await batch_call(test_inf, model=model, temperature=0.2, max_tokens=test_max_tokens, concurrency=3, progress_every=999)
+
+    parsed_ok = 0
+    for i, resp in enumerate(test_responses):
+        if ablation_name == "json_output":
+            guesses = parse_json_guesses(resp or "")
+        elif ablation_name == "cot":
+            guesses = parse_cot_guesses(resp or "")
+        else:
+            guesses = parse_ranked_guesses(resp or "")
+        status = "OK" if guesses else "EMPTY"
+        print(f"    [{status}] Gold: \"{test_samples[i].entity}\" -> Parsed: {guesses[:3]}")
+        if guesses:
+            parsed_ok += 1
+
+    if parsed_ok == 0:
+        print(f"  [SMOKE TEST] FAIL: 0/3 parsed. Skipping ablation '{ablation_name}'.")
+        return [[] for _ in samples]
+    print(f"  [SMOKE TEST] PASS: {parsed_ok}/3 parsed.\n")
+
+    # Full run
     contexts = [""] * len(samples)
     if needs_context:
         print(f"\n  [{ablation_name}] Step 1: Generating contextual background...")

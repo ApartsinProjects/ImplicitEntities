@@ -305,6 +305,7 @@ def parse_ranked_guesses(response: str, max_guesses: int = 10) -> list[str]:
     """
     Parse numbered guesses from LLM response.
     Handles formats like "1. Entity Name" or "1) Entity Name" or "- Entity Name".
+    Also handles comma-separated lists and plain text responses.
     """
     if not response:
         return []
@@ -322,7 +323,77 @@ def parse_ranked_guesses(response: str, max_guesses: int = 10) -> list[str]:
             guesses.append(cleaned)
         if len(guesses) >= max_guesses:
             break
+
+    # Fallback: if no guesses parsed from lines, try comma-separated
+    if not guesses and response.strip():
+        parts = [p.strip().strip("\"'") for p in response.strip().split(",")]
+        guesses = [p for p in parts if len(p) > 1][:max_guesses]
+
+    # Fallback: if still nothing, treat whole response as one guess
+    if not guesses and response.strip() and len(response.strip()) > 1:
+        guesses = [response.strip()[:200]]
+
     return guesses
+
+
+async def smoke_test_llm(
+    samples: list,
+    model: str,
+    concurrency: int = 5,
+    n_samples: int = 3,
+) -> bool:
+    """
+    Run a quick smoke test with n_samples to verify API connectivity,
+    prompt format, and response parsing BEFORE launching the full batch.
+    Returns True if smoke test passes, False if it fails.
+    """
+    test_samples = samples[:n_samples]
+    print(f"\n  [SMOKE TEST] Testing {n_samples} samples with {model}...")
+
+    # Step 1: context
+    ctx_prompts = build_llm_context_prompts(test_samples)
+    contexts = await batch_call(
+        ctx_prompts, model=model, temperature=0.3, max_tokens=200,
+        concurrency=concurrency, progress_every=999,
+    )
+
+    null_contexts = sum(1 for c in contexts if c is None)
+    if null_contexts == n_samples:
+        print(f"  [SMOKE TEST] FAIL: All {n_samples} context calls returned None. API or model issue.")
+        return False
+
+    contexts = [c or "" for c in contexts]
+
+    # Step 2: inference
+    inf_prompts = build_llm_inference_prompts(test_samples, contexts)
+    responses = await batch_call(
+        inf_prompts, model=model, temperature=0.2, max_tokens=150,
+        concurrency=concurrency, progress_every=999,
+    )
+
+    null_responses = sum(1 for r in responses if r is None)
+    if null_responses == n_samples:
+        print(f"  [SMOKE TEST] FAIL: All {n_samples} inference calls returned None.")
+        return False
+
+    # Step 3: parse
+    parsed_ok = 0
+    for i, resp in enumerate(responses):
+        guesses = parse_ranked_guesses(resp or "")
+        gold = test_samples[i].entity
+        status = "OK" if guesses else "EMPTY"
+        print(f"    [{status}] Gold: \"{gold}\"")
+        print(f"          Response: \"{(resp or '')[:120]}\"")
+        print(f"          Parsed: {guesses[:3]}")
+        if guesses:
+            parsed_ok += 1
+
+    if parsed_ok == 0:
+        print(f"  [SMOKE TEST] FAIL: Parsed 0/{n_samples} responses. Response format incompatible.")
+        return False
+
+    print(f"  [SMOKE TEST] PASS: {parsed_ok}/{n_samples} parsed successfully.\n")
+    return True
 
 
 async def run_llm_method(
@@ -812,6 +883,14 @@ async def run_single_experiment(
     if max_samples and max_samples < len(samples):
         print(f"  Limiting to {max_samples} samples (of {len(samples)})")
         samples = samples[:max_samples]
+
+    # Smoke test for LLM-based methods (catches API/parsing issues early)
+    if method_name in ("llm", "hybrid"):
+        smoke_ok = await smoke_test_llm(samples, model, concurrency=min(concurrency, 5))
+        if not smoke_ok:
+            print(f"  SMOKE TEST FAILED for {method_name}/{model}. Skipping this experiment.")
+            print(f"  This usually means the model's response format doesn't match the parser.")
+            return {"error": f"smoke_test_failed for {model}", "Hit@1": 0, "Global_MRR": 0}
 
     # Run method
     if method_name == "llm":

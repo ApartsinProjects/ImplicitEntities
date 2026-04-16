@@ -150,8 +150,28 @@ async def generate_e2t(domain: str, model: str, n_variants: int = 3, concurrency
     all_messages = [msgs for _, msgs in prompt_pairs]
     all_meta = [meta for meta, _ in prompt_pairs]
 
-    # Call OpenRouter
+    # Smoke test: verify API + generation quality with 3 samples
     max_tokens = 200 if domain == "veterans" else 100
+    print(f"  [SMOKE TEST] Testing 3 samples...")
+    test_responses = await batch_call(
+        all_messages[:3], model=model, temperature=0.7, max_tokens=max_tokens,
+        concurrency=3, progress_every=999,
+    )
+    smoke_pass = 0
+    for i, resp in enumerate(test_responses):
+        entity = all_meta[i]["entity"]
+        ok = resp is not None and len(resp) > 10
+        leak = ok and not validate_no_leak(resp, entity)
+        status = "LEAK" if leak else ("OK" if ok else "FAIL")
+        print(f"    [{status}] Entity: \"{entity}\" -> \"{(resp or '')[:80]}\"")
+        if ok and not leak:
+            smoke_pass += 1
+    if smoke_pass == 0:
+        print(f"  [SMOKE TEST] FAIL: 0/3 passed. Check model and prompts.")
+        return []
+    print(f"  [SMOKE TEST] PASS: {smoke_pass}/3\n")
+
+    # Full batch call
     print(f"  Calling OpenRouter ({concurrency} concurrent requests)...")
     responses = await batch_call(
         all_messages,
