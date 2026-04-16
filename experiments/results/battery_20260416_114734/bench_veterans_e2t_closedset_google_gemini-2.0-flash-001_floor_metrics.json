@@ -1,0 +1,20 @@
+{
+  "dataset": "bench_veterans_e2t",
+  "method": "closedset",
+  "model": "google/gemini-2.0-flash-001:floor",
+  "battery_dir": "E:\\Projects\\ImplicitEntities\\experiments\\results\\battery_20260416_114734",
+  "n_samples": 1447,
+  "n_matched": 920,
+  "Hit@1": 0.4346924671734623,
+  "Hit@3": 0.635798203178991,
+  "Hit@5": 0.635798203178991,
+  "Hit@10": 0.635798203178991,
+  "Global_MRR": 0.5248790601243953,
+  "Filtered_MRR": 0.8255434782608696,
+  "tier_exact": 822,
+  "tier_alias": 84,
+  "tier_jaccard": 14,
+  "tier_none": 527,
+  "elapsed_seconds": 677.3,
+  "n_entities": 492
+}

@@ -1,0 +1,20 @@
+{
+  "dataset": "bench_veterans_t2e",
+  "method": "emb_bge-base_description",
+  "model": "BAAI/bge-base-en-v1.5",
+  "battery_dir": "E:\\Projects\\ImplicitEntities\\experiments\\results\\retrieval_20260416_121501",
+  "n_samples": 620,
+  "n_matched": 273,
+  "Hit@1": 0.12096774193548387,
+  "Hit@3": 0.27419354838709675,
+  "Hit@5": 0.33225806451612905,
+  "Hit@10": 0.4403225806451613,
+  "Global_MRR": 0.21634088581669225,
+  "Filtered_MRR": 0.49132362346648056,
+  "tier_exact": 269,
+  "tier_alias": 0,
+  "tier_jaccard": 4,
+  "tier_none": 347,
+  "elapsed_seconds": 24.1,
+  "entity_repr": "description"
+}

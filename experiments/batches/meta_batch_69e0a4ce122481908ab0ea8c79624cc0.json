@@ -1,0 +1,18 @@
+{
+  "batch_id": "batch_69e0a4ce122481908ab0ea8c79624cc0",
+  "file_id": "file-6w8GPF88azrRBZ8q29MkDk",
+  "jsonl_path": "E:\\Projects\\ImplicitEntities\\experiments\\batches\\irc_bench_gpt35_20260416_115850.jsonl",
+  "model": "gpt-3.5-turbo",
+  "n_prompts": 3687,
+  "cost_estimate": {
+    "model": "gpt-3.5-turbo",
+    "n_prompts": 3687,
+    "total_prompt_tokens": 553050,
+    "total_completion_tokens": 221220,
+    "cost_without_batch": 0.6084,
+    "cost_with_batch_50pct_off": 0.3042,
+    "savings": "50%",
+    "completion_window": "24h"
+  },
+  "submitted_at": "2026-04-16T11:58:54.284583"
+}
