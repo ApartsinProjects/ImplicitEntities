@@ -37,8 +37,8 @@ from pathlib import Path
 
 PROJECT_ROOT = Path(__file__).parent.parent
 DATA_DIR = PROJECT_ROOT / "data" / "benchmark_v2"
-TRAIN_CSV = DATA_DIR / "irc_benchmark_v2_train_entity_split.csv"
-TEST_CSV = DATA_DIR / "irc_benchmark_v2_test_open_set.csv"
+BENCH_V3 = DATA_DIR / "IRC_Bench_v3.csv"
+# Train/test loaded from partition column
 DESCRIPTIONS_JSON = Path(__file__).parent / "entity_descriptions" / "veterans_v2_descriptions.json"
 RESULTS_DIR = Path(__file__).parent / "results"
 MODELS_DIR = Path(__file__).parent / "trained_models"
@@ -88,6 +88,7 @@ class Sample:
     domain: str
     variant: str
     eval_mode: str = ""
+    partition: str = ""
 
 
 def load_csv_samples(csv_path: Path) -> list[Sample]:
@@ -104,6 +105,7 @@ def load_csv_samples(csv_path: Path) -> list[Sample]:
                 domain=row.get("domain", ""),
                 variant=row.get("variant", ""),
                 eval_mode=row.get("eval_mode", ""),
+                partition=row.get("partition", ""),
             ))
     return samples
 
@@ -259,7 +261,7 @@ def check_dependencies(quantize: str = None) -> dict:
         status["cuda_available"] = torch.cuda.is_available()
         if status["cuda_available"]:
             status["gpu_name"] = torch.cuda.get_device_name(0)
-            status["gpu_vram_gb"] = torch.cuda.get_device_properties(0).total_mem / (1024**3)
+            status["gpu_vram_gb"] = torch.cuda.get_device_properties(0).total_memory / (1024**3)
         else:
             status["gpu_name"] = None
             status["gpu_vram_gb"] = 0.0
@@ -427,8 +429,8 @@ def train(args):
     print("=" * 60)
 
     # Load data
-    print(f"\n  Loading training data from: {TRAIN_CSV}")
-    train_samples = load_csv_samples(TRAIN_CSV)
+    print(f"\n  Loading training data from: {BENCH_V3}")
+    train_samples = [s for s in load_csv_samples(BENCH_V3) if s.partition == "train"]
     print(f"  Training samples: {len(train_samples)}")
 
     if args.max_samples:
@@ -893,8 +895,8 @@ def evaluate(args):
         print(f"  Base model (from args): {base_model}")
 
     # Load test data
-    print(f"\n  Loading test data from: {TEST_CSV}")
-    test_samples = load_csv_samples(TEST_CSV)
+    print(f"\n  Loading test data from: {BENCH_V3}")
+    test_samples = [s for s in load_csv_samples(BENCH_V3) if s.partition == "test"]
     print(f"  Test samples: {len(test_samples)}")
 
     if args.max_samples:
@@ -1013,9 +1015,9 @@ def dry_run(args):
     print(f"\n  Dataset Stats")
     print("  " + "=" * 50)
 
-    if TRAIN_CSV.exists():
-        train_samples = load_csv_samples(TRAIN_CSV)
-        print(f"    Training file  : {TRAIN_CSV}")
+    if BENCH_V3.exists():
+        train_samples = [s for s in load_csv_samples(BENCH_V3) if s.partition == "train"]
+        print(f"    Training file  : {BENCH_V3}")
         print(f"    Training samples: {len(train_samples)}")
 
         domains = {}
@@ -1035,19 +1037,19 @@ def dry_run(args):
         print(f"    Avg text length : {avg_len:.0f} chars "
               f"(min={min(text_lengths, default=0)}, max={max(text_lengths, default=0)})")
     else:
-        print(f"    Training file NOT FOUND: {TRAIN_CSV}")
+        print(f"    Training file NOT FOUND: {BENCH_V3}")
 
-    if TEST_CSV.exists():
-        test_samples = load_csv_samples(TEST_CSV)
-        print(f"\n    Test file       : {TEST_CSV}")
+    if BENCH_V3.exists():
+        test_samples = [s for s in load_csv_samples(BENCH_V3) if s.partition == "test"]
+        print(f"\n    Test file       : {BENCH_V3}")
         print(f"    Test samples    : {len(test_samples)}")
         test_entities = set(s.entity.lower() for s in test_samples)
-        if TRAIN_CSV.exists():
+        if BENCH_V3.exists():
             train_entities = set(s.entity.lower() for s in train_samples)
             unseen = test_entities - train_entities
             print(f"    Unseen entities : {len(unseen)} / {len(test_entities)}")
     else:
-        print(f"    Test file NOT FOUND: {TEST_CSV}")
+        print(f"    Test file NOT FOUND: {BENCH_V3}")
 
     # VRAM estimation
     print(f"\n  VRAM Estimation")
@@ -1090,7 +1092,7 @@ def dry_run(args):
 
     # Training plan
     effective_batch = args.batch_size * args.gradient_accumulation
-    n_train = args.max_samples if args.max_samples else (len(train_samples) if TRAIN_CSV.exists() else 0)
+    n_train = args.max_samples if args.max_samples else (len(train_samples) if BENCH_V3.exists() else 0)
     steps_per_epoch = math.ceil(n_train / effective_batch) if n_train > 0 else 0
     total_steps = steps_per_epoch * args.epochs
 
