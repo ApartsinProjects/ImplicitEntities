@@ -1,0 +1,18 @@
+{
+  "batch_id": "batch_69e0ba89ce688190869b129cd020c8b6",
+  "file_id": "file-4LoXVa6eB41ohLpmKcbvdW",
+  "jsonl_path": "E:\\Projects\\ImplicitEntities\\experiments\\batches\\irc_bench_v3_gpt4omini_20260416_133133.jsonl",
+  "model": "gpt-4o-mini",
+  "n_prompts": 3687,
+  "cost_estimate": {
+    "model": "gpt-4o-mini",
+    "n_prompts": 3687,
+    "total_prompt_tokens": 553050,
+    "total_completion_tokens": 221220,
+    "cost_without_batch": 0.2157,
+    "cost_with_batch_50pct_off": 0.1078,
+    "savings": "50%",
+    "completion_window": "24h"
+  },
+  "submitted_at": "2026-04-16T13:31:38.443477"
+}
