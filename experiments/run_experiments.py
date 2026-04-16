@@ -203,7 +203,7 @@ def load_dataset(name: str) -> tuple[list[Sample], list[str]]:
 
 def get_all_dataset_names() -> list[str]:
     """List available datasets."""
-    names = ["veterans_t2e", "twitter"]
+    names = ["veterans_t2e", "veterans_t2e_v2", "twitter"]
     # Check for generated E2T files
     if GENERATED_DIR.exists():
         for f in GENERATED_DIR.glob("e2t_*.csv"):
@@ -221,11 +221,67 @@ def get_all_dataset_names() -> list[str]:
 #  NORMALIZATION AND MATCHING
 # ═══════════════════════════════════════════════════════════════════════════
 
+_ABBREVIATION_MAP = {
+    "us": "united states",
+    "usa": "united states",
+    "u.s.": "united states",
+    "u.s.a.": "united states",
+    "uk": "united kingdom",
+    "u.k.": "united kingdom",
+    "wwi": "world war i",
+    "ww1": "world war i",
+    "wwii": "world war ii",
+    "ww2": "world war ii",
+    "fdr": "franklin d roosevelt",
+    "jfk": "john f kennedy",
+    "mlk": "martin luther king jr",
+    "nyc": "new york city",
+    "dc": "washington dc",
+    "la": "los angeles",
+    "sf": "san francisco",
+    "pow": "prisoner of war",
+    "va": "veterans affairs",
+    "gi": "gi bill",
+    "nato": "north atlantic treaty organization",
+    "un": "united nations",
+    "ussr": "soviet union",
+    "dod": "department of defense",
+}
+
+# Pattern to strip trailing parenthetical qualifiers like "(film)", "(2014 film)", "(novel)"
+_PAREN_SUFFIX_RE = re.compile(r"\s*\((?:\d{4}\s+)?(?:film|movie|tv series|novel|book|song|album|band|play|musical|game|company|organization|event)\)$", re.IGNORECASE)
+
+
 def normalize(text: str) -> str:
-    """Lowercase, remove punctuation, collapse whitespace."""
+    """
+    Normalize text for matching. Steps:
+      1. Lowercase and strip
+      2. Strip trailing parenthetical qualifiers like "(film)", "(2014 film)"
+      3. Remove punctuation and collapse whitespace
+      4. Strip leading articles (the/a/an)
+      5. Expand common abbreviations
+    """
     text = text.lower().strip()
+
+    # Strip trailing parenthetical qualifiers: "(film)", "(2014 film)", etc.
+    text = _PAREN_SUFFIX_RE.sub("", text).strip()
+
+    # Check abbreviation map BEFORE removing punctuation (for "u.s." etc.)
+    text_for_abbrev = text.strip()
+    if text_for_abbrev in _ABBREVIATION_MAP:
+        text = _ABBREVIATION_MAP[text_for_abbrev]
+
+    # Remove punctuation and collapse whitespace
     text = text.translate(str.maketrans("", "", string.punctuation))
     text = re.sub(r"\s+", " ", text).strip()
+
+    # Check abbreviation map AFTER removing punctuation too
+    if text in _ABBREVIATION_MAP:
+        text = _ABBREVIATION_MAP[text]
+
+    # Strip leading articles
+    text = re.sub(r"^(the|a|an)\s+", "", text)
+
     return text
 
 
