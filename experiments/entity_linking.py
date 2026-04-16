@@ -36,6 +36,12 @@ WIKIDATA_SEARCH = "https://www.wikidata.org/w/api.php"
 WIKIDATA_ENTITY = "https://www.wikidata.org/wiki/Special:EntityData/{qid}.json"
 WIKIPEDIA_SEARCH = "https://en.wikipedia.org/w/api.php"
 
+# Wikidata requires a User-Agent header
+HEADERS = {
+    "User-Agent": "IRCBench/1.0 (https://github.com/ApartsinProjects/ImplicitEntities; research)",
+    "Accept": "application/json",
+}
+
 # Rate limiting
 _last_request_time = 0.0
 MIN_REQUEST_INTERVAL = 0.1  # 100ms between requests
@@ -84,7 +90,7 @@ class WikidataLinker:
             "format": "json",
         }
         try:
-            resp = requests.get(WIKIDATA_SEARCH, params=params, timeout=10)
+            resp = requests.get(WIKIDATA_SEARCH, params=params, headers=HEADERS, timeout=10)
             resp.raise_for_status()
             data = resp.json()
             return data.get("search", [])
@@ -102,7 +108,7 @@ class WikidataLinker:
             "format": "json",
         }
         try:
-            resp = requests.get(WIKIPEDIA_SEARCH, params=params, timeout=10)
+            resp = requests.get(WIKIPEDIA_SEARCH, params=params, headers=HEADERS, timeout=10)
             resp.raise_for_status()
             data = resp.json()
             return data.get("query", {}).get("search", [])
@@ -152,7 +158,7 @@ class WikidataLinker:
             "format": "json",
         }
         try:
-            resp = requests.get(url, params=params, timeout=10)
+            resp = requests.get(url, params=params, headers=HEADERS, timeout=10)
             data = resp.json()
             claims = data.get("claims", {}).get("P31", [])
             classes = []
