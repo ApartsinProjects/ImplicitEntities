@@ -1,0 +1,23 @@
+{
+  "dataset": "veterans_t2e",
+  "method": "emb_multi-qa-MiniLM-L6-cos-v1",
+  "model": "google/gemini-2.0-flash-001",
+  "timestamp": "20260416_095227",
+  "sbert_available": true,
+  "n_samples": 846,
+  "n_matched": 200,
+  "Hit@1": 0.02127659574468085,
+  "Hit@3": 0.07210401891252956,
+  "Hit@5": 0.1359338061465721,
+  "Hit@10": 0.2364066193853428,
+  "Global_MRR": 0.07017008142894668,
+  "Filtered_MRR": 0.29681944444444447,
+  "tier_exact": 159,
+  "tier_alias": 35,
+  "tier_jaccard": 6,
+  "tier_none": 646,
+  "elapsed_seconds": 253.9,
+  "embedding_model": "multi-qa-MiniLM-L6-cos-v1",
+  "embedding_model_full": "sentence-transformers/multi-qa-MiniLM-L6-cos-v1",
+  "embedding_dim": 384
+}

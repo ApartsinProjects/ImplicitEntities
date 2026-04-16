@@ -1,0 +1,23 @@
+{
+  "dataset": "veterans_t2e",
+  "method": "emb_bge-small-en-v1.5",
+  "model": "google/gemini-2.0-flash-001",
+  "timestamp": "20260416_095227",
+  "sbert_available": true,
+  "n_samples": 846,
+  "n_matched": 219,
+  "Hit@1": 0.026004728132387706,
+  "Hit@3": 0.09219858156028368,
+  "Hit@5": 0.15130023640661938,
+  "Hit@10": 0.25886524822695034,
+  "Global_MRR": 0.08094581410184246,
+  "Filtered_MRR": 0.312694788722186,
+  "tier_exact": 152,
+  "tier_alias": 60,
+  "tier_jaccard": 7,
+  "tier_none": 627,
+  "elapsed_seconds": 272.3,
+  "embedding_model": "bge-small-en-v1.5",
+  "embedding_model_full": "BAAI/bge-small-en-v1.5",
+  "embedding_dim": 384
+}
