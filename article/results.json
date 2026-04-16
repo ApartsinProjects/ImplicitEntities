@@ -1,0 +1,84 @@
+{
+  "dataset_stats": {
+    "veterans_text_to_entity": {
+      "n_samples": 1110,
+      "n_entities": 529,
+      "mean_entity_length": 10.04,
+      "n_recollections": 25,
+      "n_segments": 930,
+      "mean_segments_per_recollection": 37.24,
+      "pct_person": 6.85,
+      "pct_event": 7.03,
+      "pct_place": 86.13
+    },
+    "veterans_entity_to_text": {
+      "n_samples": 530,
+      "n_entities": 529,
+      "mean_entity_length": 11.47,
+      "pct_person": 9.62,
+      "pct_event": 7.17,
+      "pct_place": 83.21
+    },
+    "twitter_baseline": {
+      "n_samples": 435,
+      "n_entities": 126,
+      "mean_entity_length": 11.63,
+      "pct_person": 53.33,
+      "pct_event": 9.2,
+      "pct_place": 37.47
+    },
+    "twitter_entity_to_text": {
+      "n_samples": 126,
+      "n_entities": 126,
+      "mean_entity_length": 11.75,
+      "pct_person": 57.14,
+      "pct_event": 7.14,
+      "pct_place": 35.71
+    }
+  },
+  "recognition_results": [
+    {"dataset": "twitter_entity_to_text", "method": "Embedding", "hit1": 0.548, "hit3": 0.730, "hit5": 0.778, "hit10": 0.78, "global_mrr": 0.643, "filtered_mrr": 0.827},
+    {"dataset": "twitter_entity_to_text", "method": "Hybrid RAG", "hit1": 0.849, "hit3": 0.889, "hit5": 0.889, "hit10": 0.89, "global_mrr": 0.868, "filtered_mrr": 0.976},
+    {"dataset": "twitter_entity_to_text", "method": "LLM", "hit1": 0.714, "hit3": 0.778, "hit5": 0.778, "hit10": 0.78, "global_mrr": 0.745, "filtered_mrr": 0.957},
+    {"dataset": "veterans_entity_to_text", "method": "Embedding", "hit1": 0.103, "hit3": 0.160, "hit5": 0.181, "hit10": 0.18, "global_mrr": 0.133, "filtered_mrr": 0.735},
+    {"dataset": "veterans_entity_to_text", "method": "Hybrid RAG", "hit1": 0.231, "hit3": 0.260, "hit5": 0.274, "hit10": 0.27, "global_mrr": 0.246, "filtered_mrr": 0.898},
+    {"dataset": "veterans_entity_to_text", "method": "LLM", "hit1": 0.215, "hit3": 0.288, "hit5": 0.288, "hit10": 0.29, "global_mrr": 0.248, "filtered_mrr": 0.861},
+    {"dataset": "veterans_text_to_entity", "method": "Embedding", "hit1": 0.047, "hit3": 0.089, "hit5": 0.115, "hit10": 0.12, "global_mrr": 0.071, "filtered_mrr": 0.615},
+    {"dataset": "veterans_text_to_entity", "method": "Hybrid RAG", "hit1": 0.230, "hit3": 0.276, "hit5": 0.287, "hit10": 0.29, "global_mrr": 0.253, "filtered_mrr": 0.879},
+    {"dataset": "veterans_text_to_entity", "method": "LLM", "hit1": 0.573, "hit3": 0.691, "hit5": 0.691, "hit10": 0.69, "global_mrr": 0.626, "filtered_mrr": 0.907},
+    {"dataset": "twitter_baseline", "method": "Embedding", "hit1": 0.292, "hit3": 0.487, "hit5": 0.577, "hit10": 0.58, "global_mrr": 0.398, "filtered_mrr": 0.690},
+    {"dataset": "twitter_baseline", "method": "Hybrid RAG", "hit1": 0.664, "hit3": 0.775, "hit5": 0.784, "hit10": 0.78, "global_mrr": 0.720, "filtered_mrr": 0.918},
+    {"dataset": "twitter_baseline", "method": "LLM", "hit1": 0.674, "hit3": 0.805, "hit5": 0.805, "hit10": 0.80, "global_mrr": 0.735, "filtered_mrr": 0.913}
+  ],
+  "per_entity_type_global_mrr": {
+    "_note": "Approximate values extracted from report Figure 4 (image2.png). Read from bar chart with ~0.05 precision.",
+    "twitter_baseline": {
+      "Embedding":  {"Event": 0.40, "Person": 0.35, "Place": 0.10},
+      "Hybrid RAG": {"Event": 0.80, "Person": 0.60, "Place": 0.05},
+      "LLM":        {"Event": 0.80, "Person": 0.60, "Place": 0.05}
+    },
+    "twitter_entity_to_text": {
+      "Embedding":  {"Event": 0.45, "Person": 0.40, "Place": 0.10},
+      "Hybrid RAG": {"Event": 0.85, "Person": 0.80, "Place": 0.60},
+      "LLM":        {"Event": 0.90, "Person": 0.50, "Place": 0.10}
+    },
+    "veterans_entity_to_text": {
+      "Embedding":  {"Fun": 0.60, "Event": 0.15, "Person": 0.10, "Place": 0.05},
+      "Hybrid RAG": {"Fun": 0.20, "Event": 0.20, "Person": 0.10, "Place": 0.10},
+      "LLM":        {"Fun": 0.15, "Event": 0.15, "Person": 0.10, "Place": 0.02}
+    },
+    "veterans_text_to_entity": {
+      "Embedding":  {"Event": 0.10, "Person": 0.08, "Place": 0.02},
+      "Hybrid RAG": {"Event": 0.40, "Person": 0.20, "Place": 0.05},
+      "LLM":        {"Event": 0.45, "Person": 0.35, "Place": 0.02}
+    }
+  },
+  "config": {
+    "top_k_llm": 3,
+    "top_k_embedding_rag": 5,
+    "n_guesses": 3,
+    "prompt_strategy": "historical_background",
+    "jaccard_threshold": 0.60,
+    "cutoff_levels": [1, 3, 5, 10]
+  }
+}

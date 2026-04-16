@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=65.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "bibtest"
+version = "0.1.0"
+description = "Fast bibliography checking, normalization, and hallucinated paper/placeholder detection"
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+    "habanero>=1.0.0",
+    "pyalex>=0.5.0",
+    "bibtexparser>=1.4.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.0.0",
+    "pytest-mock>=3.10.0",
+]
+
+[project.scripts]
+bibtest = "bibtest.main:main"
+
+[tool.setuptools.packages.find]
+where = ["."]

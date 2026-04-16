@@ -1,0 +1,1465 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Recovering Implicit Reminiscence Context from Unstructured Narratives via LLM-Based Entity Recognition</title>
+
+<!-- KaTeX -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css">
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.js"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/contrib/auto-render.min.js"
+  onload="renderMathInElement(document.body, {delimiters:[{left:'$$',right:'$$',display:true},{left:'\\\\(',right:'\\\\)',display:false}]});"></script>
+
+<style>
+/* ── Reset & Base ────────────────────────────────────────── */
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+:root {
+  --col-gap: 0.33in;
+  --page-width: 7.5in;
+  --accent: #0173B2;
+  --text: #1a1a1a;
+  --muted: #555;
+  --rule: #222;
+  --bg-alt: #f7f8fa;
+}
+
+html { font-size: 10pt; }
+
+body {
+  font-family: "Times New Roman", "Noto Serif", Georgia, serif;
+  color: var(--text);
+  line-height: 1.38;
+  max-width: var(--page-width);
+  margin: 0 auto;
+  padding: 0.5in 0.25in;
+  background: #fff;
+}
+
+/* ── Full-width header block ────────────────────────────── */
+.header-block {
+  text-align: center;
+  margin-bottom: 1.2em;
+  padding-bottom: 0.8em;
+  border-bottom: 2px solid var(--rule);
+}
+.header-block h1 {
+  font-size: 16pt;
+  font-weight: 700;
+  line-height: 1.25;
+  margin-bottom: 0.5em;
+}
+.authors {
+  font-size: 11pt;
+  margin-bottom: 0.3em;
+}
+.authors .name { font-weight: 600; }
+.affiliations {
+  font-size: 9pt;
+  color: var(--muted);
+  font-style: italic;
+}
+
+/* ── Abstract ────────────────────────────────────────────── */
+.abstract-block {
+  margin-bottom: 1em;
+  padding: 0.6em 0;
+  border-bottom: 1px solid #ccc;
+}
+.abstract-block h2 {
+  font-size: 10pt;
+  font-variant: small-caps;
+  letter-spacing: 0.04em;
+  margin-bottom: 0.3em;
+}
+.abstract-block p {
+  font-size: 9.5pt;
+  text-align: justify;
+  hyphens: auto;
+}
+.keywords {
+  font-size: 8.5pt;
+  margin-top: 0.4em;
+  color: var(--muted);
+}
+.keywords strong { color: var(--text); }
+
+/* ── Two-column body ─────────────────────────────────────── */
+.two-column {
+  column-count: 2;
+  column-gap: var(--col-gap);
+  column-rule: none;
+  text-align: justify;
+  hyphens: auto;
+}
+
+/* ── Sections & Headings ─────────────────────────────────── */
+.two-column { counter-reset: section; }
+.two-column h2 { counter-increment: section; counter-reset: subsection; }
+.two-column h2::before { content: counter(section) ". "; }
+.two-column h3 { counter-increment: subsection; }
+.two-column h3::before { content: counter(section) "." counter(subsection) " "; }
+
+h2 {
+  font-size: 11pt;
+  font-weight: 700;
+  margin-top: 1em;
+  margin-bottom: 0.35em;
+  break-after: avoid;
+}
+h3 {
+  font-size: 10pt;
+  font-weight: 700;
+  margin-top: 0.7em;
+  margin-bottom: 0.25em;
+  break-after: avoid;
+}
+h4 {
+  font-size: 10pt;
+  font-weight: 600;
+  font-style: italic;
+  margin-top: 0.5em;
+  margin-bottom: 0.2em;
+}
+
+p {
+  margin-bottom: 0.45em;
+  text-indent: 1.2em;
+}
+p:first-of-type,
+h2 + p, h3 + p, h4 + p,
+.no-indent { text-indent: 0; }
+
+/* ── Contribution list ───────────────────────────────────── */
+ol.contributions {
+  margin: 0.4em 0 0.6em 1.5em;
+  text-indent: 0;
+}
+ol.contributions li {
+  margin-bottom: 0.25em;
+  text-indent: 0;
+}
+
+/* ── Tables (ACL style) ──────────────────────────────────── */
+.table-wrap {
+  break-inside: avoid;
+  margin: 0.6em 0;
+}
+.table-wrap.full-width {
+  column-span: all;
+}
+.table-caption {
+  font-size: 8.5pt;
+  margin-bottom: 0.3em;
+  text-indent: 0;
+}
+.table-caption strong {
+  font-variant: small-caps;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 8.5pt;
+  line-height: 1.3;
+}
+thead { border-top: 2px solid var(--rule); border-bottom: 1px solid var(--rule); }
+tbody { border-bottom: 2px solid var(--rule); }
+th {
+  font-weight: 700;
+  padding: 4px 5px;
+  text-align: center;
+}
+td {
+  padding: 3px 5px;
+  text-align: center;
+}
+td:first-child, th:first-child { text-align: left; }
+tr:nth-child(even) { background: var(--bg-alt); }
+.best { font-weight: 700; color: var(--accent); }
+
+/* ── Figures ──────────────────────────────────────────────── */
+.figure {
+  break-inside: avoid;
+  margin: 0.6em 0;
+  text-align: center;
+}
+.figure.full-width {
+  column-span: all;
+}
+.figure img {
+  max-width: 100%;
+  height: auto;
+}
+.figure svg {
+  max-width: 100%;
+  height: auto;
+}
+.fig-caption {
+  font-size: 8.5pt;
+  margin-top: 0.3em;
+  text-align: left;
+  text-indent: 0;
+  color: var(--text);
+}
+.fig-caption strong {
+  font-variant: small-caps;
+}
+
+/* ── Math ─────────────────────────────────────────────────── */
+.katex-display {
+  margin: 0.5em 0;
+  font-size: 0.95em;
+}
+
+/* ── SVG diagram styling ─────────────────────────────────── */
+.diagram-svg {
+  max-width: 100%;
+  font-family: "Times New Roman", serif;
+}
+.diagram-svg text {
+  font-family: "Times New Roman", Georgia, serif;
+}
+.diagram-svg .box {
+  fill: #f0f4f8;
+  stroke: #4a6fa5;
+  stroke-width: 1.5;
+  rx: 4;
+}
+.diagram-svg .box-accent {
+  fill: #e8f0fe;
+  stroke: var(--accent);
+  stroke-width: 1.5;
+  rx: 4;
+}
+.diagram-svg .box-method {
+  fill: #fff3e0;
+  stroke: #DE8F05;
+  stroke-width: 1.5;
+  rx: 4;
+}
+.diagram-svg .box-eval {
+  fill: #e8f5e9;
+  stroke: #029E73;
+  stroke-width: 1.5;
+  rx: 4;
+}
+.diagram-svg .arrow {
+  fill: none;
+  stroke: #666;
+  stroke-width: 1.2;
+  marker-end: url(#arrowhead);
+}
+.diagram-svg .label {
+  font-size: 8.5px;
+  fill: var(--text);
+  text-anchor: middle;
+  dominant-baseline: central;
+}
+.diagram-svg .label-bold {
+  font-size: 9px;
+  fill: var(--text);
+  text-anchor: middle;
+  dominant-baseline: central;
+  font-weight: 700;
+}
+
+/* ── References ──────────────────────────────────────────── */
+.references {
+  column-span: all;
+  margin-top: 1em;
+  border-top: 2px solid var(--rule);
+  padding-top: 0.5em;
+}
+.references h2::before { content: ""; }
+.references p {
+  font-size: 8pt;
+  text-indent: 0;
+  padding-left: 1.6em;
+  text-indent: -1.6em;
+  margin-bottom: 0.2em;
+  line-height: 1.25;
+  text-align: left;
+}
+.references p .ref-num {
+  display: inline-block;
+  width: 1.5em;
+  font-weight: 600;
+}
+
+/* ── Print ────────────────────────────────────────────────── */
+@media print {
+  body { padding: 0; max-width: none; }
+  .two-column { column-count: 2; }
+  .figure, .table-wrap { break-inside: avoid; }
+  h2, h3 { break-after: avoid; }
+}
+
+/* ── Screen responsive ────────────────────────────────────── */
+@media screen and (max-width: 700px) {
+  .two-column { column-count: 1; }
+  html { font-size: 11pt; }
+  body { padding: 0.5em; }
+}
+</style>
+</head>
+<body>
+
+<!-- ════════════════════════════════════════════════════════════════════════ -->
+<!-- HEADER                                                                 -->
+<!-- ════════════════════════════════════════════════════════════════════════ -->
+<header class="header-block">
+  <h1>Recovering Implicit Reminiscence Context from Unstructured Narratives via LLM-Based Entity Recognition</h1>
+  <div class="authors">
+    <span class="name">Eden Moran</span>,
+    <span class="name">Yehudit Aperstein</span>,
+    <span class="name">Sasha Aperstein</span>
+  </div>
+  <div class="affiliations">
+    School of Software Engineering: Intelligent Systems
+  </div>
+</header>
+
+<!-- ════════════════════════════════════════════════════════════════════════ -->
+<!-- ABSTRACT                                                               -->
+<!-- ════════════════════════════════════════════════════════════════════════ -->
+<div class="abstract-block">
+  <h2>Abstract</h2>
+  <p>
+    Loneliness among the elderly is a growing public health concern, and reminiscence therapy offers a promising intervention by reconnecting individuals through shared life experiences. However, personal narratives are often fragmented and unstructured, with key contextual elements (people, places, events) referenced implicitly rather than by name. We introduce the task of <em>Implicit Reminiscence Context (IRC) recovery</em>, formalized as a ranking problem over latent entity mentions in free-form text. To support this task, we construct four complementary datasets spanning two domains (veterans' recollections and tweets) using both text-based transformation and entity-driven generation strategies, yielding over 2,200 annotated samples. We systematically evaluate three recognition paradigms: direct LLM inference, embedding-based retrieval, and a hybrid Retrieval-Augmented Generation (RAG) approach. Evaluation employs Hit@K and Mean Reciprocal Rank (MRR) at multiple cutoff levels with a layered matching policy combining exact, alias, and fuzzy criteria. Our results reveal that LLM-based recognition achieves the highest Hit@1 on natural text (0.674 on tweets, 0.573 on veterans' narratives), while hybrid RAG excels on synthetic entity-driven text (Hit@1 = 0.849). Embedding-based methods consistently underperform, particularly on long-form reminiscences. Filtered MRR analysis shows that all methods rank correctly when they retrieve at all (filtered MRR &gt; 0.61), suggesting the primary bottleneck is retrieval coverage rather than ranking quality. These findings establish IRC recovery as a viable NLP task and provide a foundation for technology-assisted reminiscence therapy.
+  </p>
+  <p class="keywords"><strong>Keywords:</strong> implicit entity recognition, reminiscence therapy, large language models, retrieval-augmented generation, named entity recognition, elderly care</p>
+</div>
+
+<!-- ════════════════════════════════════════════════════════════════════════ -->
+<!-- TWO-COLUMN BODY                                                        -->
+<!-- ════════════════════════════════════════════════════════════════════════ -->
+<main class="two-column">
+
+<!-- ──────────────────────────────────────────────────────────────────────── -->
+<!-- 1. INTRODUCTION                                                        -->
+<!-- ──────────────────────────────────────────────────────────────────────── -->
+<h2>Introduction</h2>
+
+<p class="no-indent">
+Loneliness and cognitive decline represent significant challenges faced by the elderly, necessitating effective support mechanisms [1, 2]. Reminiscence therapy, the structured recall of past memories, has been shown to reduce depression, improve self-identity, and enhance quality of life in older adults [3, 4, 5]. Connecting individuals through shared memories can alleviate isolation and foster a sense of community [6, 7]. However, such connections require identifying common contexts: people, places, and events that individuals have in common.
+</p>
+
+<p>
+In practice, these contextual elements are rarely stated explicitly. Personal narratives are fragmented, unstructured, and fuzzy; speakers assume prior knowledge, omit details, and make abrupt subject changes [8, 9]. A veteran might describe "sailing out of the harbor, catching a glimpse of a colossal figure holding a torch" rather than naming the Statue of Liberty. This implicit referencing style is pervasive in reminiscence text, yet existing Named Entity Recognition (NER) systems are designed primarily for explicit mentions [10, 11].
+</p>
+
+<p>
+We address this gap by introducing the concept of <em>Implicit Reminiscence Context (IRC)</em>, defined as the set of latent entities (persons, places, events) that are contextually referenced but not explicitly named within free-form reminiscence narratives. We formalize IRC recovery as a ranking problem: given a text segment containing an implicit reference, the system must retrieve and rank candidate entities by plausibility.
+</p>
+
+<p>
+Our contributions are as follows:
+</p>
+
+<ol class="contributions">
+  <li><strong>Task formalization.</strong> We define IRC recovery as a novel NLP task, formalizing it as entity ranking over implicit mentions with a layered evaluation framework combining exact, alias, and fuzzy matching.</li>
+  <li><strong>Dataset construction.</strong> We create four complementary datasets across two domains (veterans' recollections and tweets) using text-based transformation and entity-driven generation, totaling over 2,200 annotated samples.</li>
+  <li><strong>Systematic comparison.</strong> We evaluate three recognition paradigms: direct LLM inference, embedding-based retrieval, and hybrid RAG, revealing distinct performance profiles across domains and generation strategies.</li>
+  <li><strong>Empirical insights.</strong> We demonstrate that the primary bottleneck in IRC recovery is retrieval coverage (not ranking quality), that LLM-based methods excel on natural text while RAG dominates on synthetic text, and that entity type and domain strongly modulate performance.</li>
+</ol>
+
+<!-- ──────────────────────────────────────────────────────────────────────── -->
+<!-- 2. RELATED WORK                                                        -->
+<!-- ──────────────────────────────────────────────────────────────────────── -->
+<h2>Related Work</h2>
+
+<h3>Reminiscence Therapy and Technology</h3>
+
+<p class="no-indent">
+Reminiscence therapy involves the intentional recall of past memories to enhance well-being in older adults [3, 4]. It has been linked to reduced depression [5, 12], improved cognitive function [13], and stronger social bonds [6]. Technology-assisted approaches include lifelogging applications [14], augmented reality photo albums [15, 16], digital music-based interventions [17], and, more recently, conversational agents powered by large language models [18, 19]. A systematic review found that AI companions improved mood in 77.8% of cases and served as catalysts for social interaction in 41% [20]. Recent qualitative studies have confirmed the acceptability of digital tools among older adults [21], while virtual life story clubs have shown promise for reducing loneliness [22]. However, existing systems primarily support recall of explicit memories; none address the challenge of recovering implicit contextual references from unstructured narratives.
+</p>
+
+<h3>Named Entity Recognition and Implicit Entities</h3>
+
+<p class="no-indent">
+NER identifies and classifies named entities (persons, organizations, locations) in text [10]. Deep learning has substantially advanced NER accuracy [23, 24], and recent comprehensive surveys document progress across fifteen entity categories [25, 26]. Named Entity Linking (NEL) extends NER by resolving mentions to knowledge base entries [27, 28, 29]. However, standard NER targets explicit mentions. Implicit Entity Recognition (IER) addresses entities inferred from context rather than directly stated [30, 31]. Perera et al. [32] explored IER in clinical texts, while Hosseini and Bagheri [33] investigated implicit entity linking in tweets. A 2025 survey identifies implicit, nested, and discontinuous entities as key open challenges [34]. Our work extends IER to the reminiscence domain, where implicit references are pervasive and culturally grounded.
+</p>
+
+<h3>LLM-Based Zero-Shot and Few-Shot NER</h3>
+
+<p class="no-indent">
+Large language models have transformed NER through zero-shot and few-shot learning. PromptNER [35] demonstrated state-of-the-art few-shot performance through entity definition prompting. VicunaNER [36] showed that open-source LLMs can achieve competitive zero-shot NER through multi-turn dialogue. An empirical study at EMNLP 2023 [37] established that ChatGPT reaches F1 = 0.620 on clinical NER in zero-shot settings. Self-improving frameworks [38] have further enhanced zero-shot NER by leveraging unlabeled corpora for self-consistency training. GL-NER [39] introduced generation-aware masking for few-shot settings, while cooperative multi-agent frameworks [40] address context correlation challenges. GPT-4 has achieved F1 = 0.962 on specialized ophthalmology NER [41]. These advances demonstrate the feasibility of LLM-based entity recognition without task-specific training, a capability we leverage for implicit entity inference.
+</p>
+
+<h3>Retrieval-Augmented Generation for Entity Tasks</h3>
+
+<p class="no-indent">
+Retrieval-Augmented Generation (RAG) combines neural retrieval with generative reasoning [42]. Recent surveys document over 1,200 RAG papers from 2024 alone, spanning multimodal and agentic approaches [43, 44]. For entity tasks, RAG has been applied to hallucination detection through NER-RAG integration [45], biomedical entity linking via generative relevance feedback [46], and contextual augmentation for entity linking in specialized domains [47]. Embedding-based entity linking methods have evolved through graph embedding for entity alignment [48], knowledge graph embedding [49], and binary quantization for efficient retrieval [50]. Our hybrid RAG approach combines embedding-based retrieval with LLM reasoning, allowing the model to ground its entity inferences in a candidate pool before ranking.
+</p>
+
+<!-- ──────────────────────────────────────────────────────────────────────── -->
+<!-- 3. TASK DEFINITION                                                     -->
+<!-- ──────────────────────────────────────────────────────────────────────── -->
+<h2>Task Definition</h2>
+
+<p class="no-indent">
+We formalize Implicit Reminiscence Context (IRC) recovery as a structured ranking problem. Let \(\mathcal{D} = \{(t_i, e_i, c_i)\}_{i=1}^{N}\) be a dataset of \(N\) annotated samples, where \(t_i\) is a text segment containing an implicit reference, \(e_i \in \mathcal{E}\) is the gold-standard entity, and \(c_i \in \{\textsc{Person}, \textsc{Place}, \textsc{Event}\}\) is the entity type.
+</p>
+
+<p>
+An <em>implicit reference</em> is a text span in \(t_i\) that describes entity \(e_i\) through contextual cues (roles, attributes, temporal markers, geographic descriptors) without using the canonical name or common aliases. For example, "the colossal figure holding a torch" implicitly references "Statue of Liberty."
+</p>
+
+<p>
+Given a recognition function \(f: \mathcal{T} \times \mathcal{C} \rightarrow \mathcal{E}^K\), the task is to produce a ranked list of \(K\) candidate entities \(\hat{\mathbf{e}}_i = ({\hat{e}_{i,1}, \ldots, \hat{e}_{i,K}})\) such that \(e_i\) appears as early as possible in \(\hat{\mathbf{e}}_i\). The function \(f\) may additionally receive entity type \(c_i\) as a conditioning signal.
+</p>
+
+<p>
+Correctness is assessed via a layered matching policy. A prediction \(\hat{e}_{i,k}\) is considered correct if any of the following conditions hold:
+</p>
+
+<p class="no-indent" style="margin-left:1.2em; text-indent:0;">
+(1) <strong>Exact match:</strong> normalized string equality after lowercasing, Unicode normalization, and punctuation removal.<br>
+(2) <strong>Alias match:</strong> LLM-assisted recognition of semantically equivalent names (e.g., "D-Day" and "Normandy landings").<br>
+(3) <strong>Fuzzy match:</strong> Jaccard token similarity exceeds a threshold \(\tau\):
+</p>
+
+$$J(\hat{e}_{i,k},\; e_i) = \frac{|\text{tokens}(\hat{e}_{i,k}) \cap \text{tokens}(e_i)|}{|\text{tokens}(\hat{e}_{i,k}) \cup \text{tokens}(e_i)|} \geq \tau$$
+
+<p>
+where \(\tau = 0.60\) for multi-token entities. The <em>first relevant rank</em> \(r_i\) is the earliest position at which any matching criterion is satisfied.
+</p>
+
+<!-- ──────────────────────────────────────────────────────────────────────── -->
+<!-- 4. DATASETS                                                            -->
+<!-- ──────────────────────────────────────────────────────────────────────── -->
+<h2>Datasets</h2>
+
+<p class="no-indent">
+We construct four datasets spanning two domains and two generation strategies, as summarized in Table 1 and Figure 1.
+</p>
+
+<h3>Text-Based Transformation (T2E)</h3>
+
+<p class="no-indent">
+Veterans' interview transcripts (25 interviews) were rewritten into coherent first-person narratives and segmented into short units capturing a single detail or event. Entities were extracted via an LLM-based extractor under strict inclusion rules: only well-known figures or explicit family roles (Person), named geographic locations (Place), and historically significant events (Event). Entities were canonicalized using an alias map, and one primary entity per segment was selected and replaced with an implicit description using type-aware rewrite rules. Persons were replaced with roles or achievements; places with geographic or cultural descriptors; events with timeframes, actions, or outcomes. A strict no-name-leak check ensured explicit names did not appear in the implicit text.
+</p>
+
+<h3>Entity-Driven Generation (E2T)</h3>
+
+<p class="no-indent">
+Explicit entity lists from both veterans' transcripts and a tweet benchmark [33] were provided to an LLM, which generated new narratives referencing entities implicitly. Veterans' entities produced longer recollections; tweet entities produced concise posts. All samples were validated for entity-text relatedness, absence of name leakage, and type fidelity.
+</p>
+
+<h3>Twitter Baseline</h3>
+
+<p class="no-indent">
+An annotated dataset of 435 tweets from Hosseini [33] was incorporated without modification, providing a benchmark for short-form implicit entity recognition.
+</p>
+
+<!-- Table 1: Dataset Statistics -->
+<div class="table-wrap" style="column-span: all;">
+  <p class="table-caption"><strong>Table 1.</strong> Dataset statistics. Vet-T2E = veterans text-to-entity; Vet-E2T = veterans entity-to-text; Tweet-BL = Twitter baseline; Tweet-E2T = Twitter entity-to-text. Entity type percentages sum to 100% per dataset.</p>
+  <table>
+    <thead>
+      <tr>
+        <th></th>
+        <th>Vet-T2E</th>
+        <th>Vet-E2T</th>
+        <th>Tweet-BL</th>
+        <th>Tweet-E2T</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><td style="text-align:left;">Samples</td><td>1,110</td><td>530</td><td>435</td><td>126</td></tr>
+      <tr><td style="text-align:left;">Unique entities</td><td>529</td><td>529</td><td>126</td><td>126</td></tr>
+      <tr><td style="text-align:left;">Avg. entity length (tokens)</td><td>10.04</td><td>11.47</td><td>11.63</td><td>11.75</td></tr>
+      <tr><td style="text-align:left;">% Person</td><td>6.85</td><td>9.62</td><td>53.33</td><td>57.14</td></tr>
+      <tr><td style="text-align:left;">% Place</td><td>86.13</td><td>83.21</td><td>37.47</td><td>35.71</td></tr>
+      <tr><td style="text-align:left;">% Event</td><td>7.03</td><td>7.17</td><td>9.20</td><td>7.14</td></tr>
+    </tbody>
+  </table>
+</div>
+
+<!-- Figure 1: Entity Distribution -->
+<div class="figure" style="column-span: all;">
+  <a href="figures/fig1_entity_distribution.png" target="_blank">
+    <img src="figures/fig1_entity_distribution.png" alt="Entity type distribution across four datasets" style="max-width: 85%;">
+  </a>
+  <p class="fig-caption"><strong>Figure 1.</strong> Entity type distribution by dataset. Veterans' narratives are dominated by Place entities (>83%), while tweets are predominantly Person-centric (>53%). Events remain the minority class across all datasets.</p>
+</div>
+
+<!-- ──────────────────────────────────────────────────────────────────────── -->
+<!-- 5. METHODS                                                             -->
+<!-- ──────────────────────────────────────────────────────────────────────── -->
+<h2>Methods</h2>
+
+<p class="no-indent">
+We evaluate three recognition paradigms within a unified framework. All methods receive a text segment \(t_i\) and entity type \(c_i\), and produce a ranked list of \(K\) candidate entities.
+</p>
+
+<!-- SVG: System Architecture Diagram -->
+<div class="figure" style="column-span: all;">
+<svg class="diagram-svg" viewBox="0 0 700 260" xmlns="http://www.w3.org/2000/svg" style="max-width:95%;">
+  <defs>
+    <marker id="arrowhead" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L8,3 L0,6 Z" fill="#666"/>
+    </marker>
+  </defs>
+  <!-- Input -->
+  <rect class="box" x="10" y="100" width="120" height="55"/>
+  <text class="label-bold" x="70" y="120">Input Text</text>
+  <text class="label" x="70" y="137">"a colossal figure</text>
+  <text class="label" x="70" y="149">holding a torch..."</text>
+  <!-- Entity Type -->
+  <rect class="box" x="10" y="30" width="120" height="35"/>
+  <text class="label-bold" x="70" y="45">Entity Type</text>
+  <text class="label" x="70" y="58">Place</text>
+  <!-- Arrows from input -->
+  <line class="arrow" x1="130" y1="127" x2="195" y2="68"/>
+  <line class="arrow" x1="130" y1="127" x2="195" y2="127"/>
+  <line class="arrow" x1="130" y1="127" x2="195" y2="190"/>
+  <!-- Arrow from type -->
+  <line class="arrow" x1="130" y1="47" x2="195" y2="55"/>
+  <!-- Method boxes -->
+  <rect class="box-accent" x="198" y="38" width="160" height="50"/>
+  <text class="label-bold" x="278" y="56">LLM-Based</text>
+  <text class="label" x="278" y="72">Prompt + Reasoning</text>
+
+  <rect class="box-method" x="198" y="103" width="160" height="50"/>
+  <text class="label-bold" x="278" y="121">Embedding-Based</text>
+  <text class="label" x="278" y="137">Vector Similarity</text>
+
+  <rect class="box-method" x="198" y="168" width="160" height="50"/>
+  <text class="label-bold" x="278" y="186">Hybrid RAG</text>
+  <text class="label" x="278" y="202">Retrieve + Reason</text>
+
+  <!-- Arrows to ranking -->
+  <line class="arrow" x1="358" y1="63" x2="420" y2="127"/>
+  <line class="arrow" x1="358" y1="128" x2="420" y2="127"/>
+  <line class="arrow" x1="358" y1="193" x2="420" y2="127"/>
+
+  <!-- Ranking box -->
+  <rect class="box-eval" x="423" y="100" width="130" height="55"/>
+  <text class="label-bold" x="488" y="118">Candidate</text>
+  <text class="label-bold" x="488" y="134">Ranking</text>
+  <text class="label" x="488" y="149">Top-K entities</text>
+
+  <!-- Arrow to eval -->
+  <line class="arrow" x1="553" y1="127" x2="590" y2="127"/>
+
+  <!-- Evaluation box -->
+  <rect class="box-eval" x="593" y="88" width="100" height="80"/>
+  <text class="label-bold" x="643" y="108">Evaluation</text>
+  <text class="label" x="643" y="124">Hit@K</text>
+  <text class="label" x="643" y="138">Global MRR</text>
+  <text class="label" x="643" y="152">Filtered MRR</text>
+</svg>
+<p class="fig-caption"><strong>Figure 2.</strong> System architecture. Input text and entity type are processed by three recognition methods. Each produces a ranked candidate list evaluated via layered matching and ranking metrics.</p>
+</div>
+
+<h3>LLM-Based Recognition</h3>
+
+<p class="no-indent">
+A two-step prompting strategy guides LLM reasoning. First, a <em>contextualization</em> prompt generates situational or historical background from the text. Second, an <em>inference and ranking</em> prompt uses the context to hypothesize candidate entities and rank them by plausibility. Entity type conditioning refines instructions (e.g., "Who is the person described?" vs. "What is the place described?"). We use \(K = 3\) candidates and a fixed "historical background" prompt strategy.
+</p>
+
+<h3>Embedding-Based Recognition</h3>
+
+<p class="no-indent">
+Text segments are encoded into dense vector representations and compared against a pre-indexed entity embedding space. The top \(K = 5\) nearest neighbors by cosine similarity form the candidate list. This approach relies purely on semantic similarity without explicit reasoning.
+</p>
+
+<h3>Hybrid RAG Recognition</h3>
+
+<p class="no-indent">
+The hybrid approach first retrieves \(K = 5\) candidate entities via embedding similarity, then feeds these candidates alongside the original text into an LLM for re-ranking with reasoning. This combines the broad retrieval coverage of embeddings with the contextual reasoning of LLMs.
+</p>
+
+<h3>Evaluation Metrics</h3>
+
+<p class="no-indent">
+Performance is assessed using ranking-based metrics at cutoffs \(K \in \{1, 3, 5\}\):
+</p>
+
+<p class="no-indent">
+<strong>Hit@K</strong> measures the proportion of queries where the correct entity appears within the top \(K\) predictions:
+</p>
+
+$$\text{Hit@K} = \frac{1}{N} \sum_{i=1}^{N} \mathbb{1}\left[r_i \leq K\right]$$
+
+<p class="no-indent">
+<strong>Mean Reciprocal Rank</strong> captures ranking precision. <em>Global MRR</em> averages over all queries (assigning reciprocal rank 0 for misses):
+</p>
+
+$$\text{MRR}_{\text{global}} = \frac{1}{N} \sum_{i=1}^{N} \frac{\mathbb{1}[r_i < \infty]}{r_i}$$
+
+<p class="no-indent">
+<em>Filtered MRR</em> averages only over queries with at least one correct retrieval, isolating ranking quality from retrieval coverage:
+</p>
+
+$$\text{MRR}_{\text{filtered}} = \frac{1}{|\mathcal{H}|} \sum_{i \in \mathcal{H}} \frac{1}{r_i}, \quad \mathcal{H} = \{i : r_i < \infty\}$$
+
+<!-- ──────────────────────────────────────────────────────────────────────── -->
+<!-- 6. EXPERIMENTS AND RESULTS                                             -->
+<!-- ──────────────────────────────────────────────────────────────────────── -->
+<h2>Experiments and Results</h2>
+
+<h3>Overall Performance</h3>
+
+<p class="no-indent">
+Table 2 reports recognition performance across all dataset-method combinations. Several patterns emerge.
+</p>
+
+<!-- Table 2: Main Results (full width) -->
+<div class="table-wrap" style="column-span: all;">
+  <p class="table-caption"><strong>Table 2.</strong> Implicit entity recognition performance. Best results per dataset are shown in <span class="best">bold blue</span>. Methods: LLM = direct LLM inference; Emb. = embedding-based retrieval; RAG = hybrid retrieval-augmented generation.</p>
+  <table>
+    <thead>
+      <tr>
+        <th>Dataset</th>
+        <th>Method</th>
+        <th>Hit@1</th>
+        <th>Hit@3</th>
+        <th>Hit@5</th>
+        <th>Hit@10</th>
+        <th>MRR<sub>global</sub></th>
+        <th>MRR<sub>filtered</sub></th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td rowspan="3" style="text-align:left; vertical-align:top; font-weight:600;">Vet-T2E</td>
+        <td>LLM</td>
+        <td class="best">0.573</td><td class="best">0.691</td><td class="best">0.691</td><td class="best">0.69</td>
+        <td class="best">0.626</td><td class="best">0.907</td>
+      </tr>
+      <tr>
+        <td>RAG</td>
+        <td>0.230</td><td>0.276</td><td>0.287</td><td>0.29</td><td>0.253</td><td>0.879</td>
+      </tr>
+      <tr>
+        <td>Emb.</td>
+        <td>0.047</td><td>0.089</td><td>0.115</td><td>0.12</td><td>0.071</td><td>0.615</td>
+      </tr>
+
+      <tr>
+        <td rowspan="3" style="text-align:left; vertical-align:top; font-weight:600;">Vet-E2T</td>
+        <td>LLM</td>
+        <td>0.215</td><td class="best">0.288</td><td class="best">0.288</td><td class="best">0.29</td>
+        <td class="best">0.248</td><td>0.861</td>
+      </tr>
+      <tr>
+        <td>RAG</td>
+        <td class="best">0.231</td><td>0.260</td><td>0.274</td><td>0.27</td><td>0.246</td><td class="best">0.898</td>
+      </tr>
+      <tr>
+        <td>Emb.</td>
+        <td>0.103</td><td>0.160</td><td>0.181</td><td>0.18</td><td>0.133</td><td>0.735</td>
+      </tr>
+
+      <tr>
+        <td rowspan="3" style="text-align:left; vertical-align:top; font-weight:600;">Tweet-BL</td>
+        <td>LLM</td>
+        <td class="best">0.674</td><td class="best">0.805</td><td class="best">0.805</td><td class="best">0.80</td>
+        <td class="best">0.735</td><td>0.913</td>
+      </tr>
+      <tr>
+        <td>RAG</td>
+        <td>0.664</td><td>0.775</td><td>0.784</td><td>0.78</td><td>0.720</td><td class="best">0.918</td>
+      </tr>
+      <tr>
+        <td>Emb.</td>
+        <td>0.292</td><td>0.487</td><td>0.577</td><td>0.58</td><td>0.398</td><td>0.690</td>
+      </tr>
+
+      <tr>
+        <td rowspan="3" style="text-align:left; vertical-align:top; font-weight:600;">Tweet-E2T</td>
+        <td>LLM</td>
+        <td>0.714</td><td>0.778</td><td>0.778</td><td>0.78</td><td>0.745</td><td>0.957</td>
+      </tr>
+      <tr>
+        <td>RAG</td>
+        <td class="best">0.849</td><td class="best">0.889</td><td class="best">0.889</td><td class="best">0.89</td>
+        <td class="best">0.868</td><td class="best">0.976</td>
+      </tr>
+      <tr>
+        <td>Emb.</td>
+        <td>0.548</td><td>0.730</td><td>0.778</td><td>0.78</td><td>0.643</td><td>0.827</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<p>
+<strong>LLM-based recognition dominates natural text.</strong> On both Vet-T2E and Tweet-BL (datasets derived from real transcripts and tweets), LLM-based inference achieves the highest Hit@1 (0.573 and 0.674, respectively) and global MRR (0.626 and 0.735). This advantage likely reflects the LLM's ability to perform multi-hop reasoning over contextual cues that would not be captured by surface-level embedding similarity.
+</p>
+
+<p>
+<strong>Hybrid RAG excels on synthetic text.</strong> On entity-driven generated datasets (Vet-E2T and Tweet-E2T), RAG achieves the best Hit@1 (0.231 and 0.849). Generated texts tend to use more systematic and predictable description patterns, making embedding retrieval more effective as a first-pass filter.
+</p>
+
+<p>
+<strong>Embedding-based methods consistently underperform.</strong> Across all four datasets, embedding-based recognition yields the lowest scores. The gap is most severe on veterans' narratives (Hit@1 = 0.047 on Vet-T2E), where long-form text and culturally specific references exceed the capacity of vector similarity alone.
+</p>
+
+<!-- Figure 3: Hit@K comparison -->
+<div class="figure" style="column-span: all;">
+  <a href="figures/fig2_hitk_comparison.png" target="_blank">
+    <img src="figures/fig2_hitk_comparison.png" alt="Hit@K comparison across datasets and methods">
+  </a>
+  <p class="fig-caption"><strong>Figure 3.</strong> Hit@K performance across datasets and recognition methods. LLM-based inference leads on natural text (Vet-T2E, Tweet-BL), while hybrid RAG dominates on entity-driven generated text (Tweet-E2T). Embedding-based methods trail consistently.</p>
+</div>
+
+<h3>Retrieval Coverage vs. Ranking Quality</h3>
+
+<p class="no-indent">
+A striking finding is the large gap between global and filtered MRR (Figure 4). Filtered MRR exceeds 0.61 for all method-dataset pairs, and surpasses 0.85 for most LLM and RAG configurations. This means that <em>when the correct entity is retrieved, it is typically ranked highly</em>. The primary bottleneck is retrieval coverage: many queries fail to surface the correct entity at all.
+</p>
+
+<p>
+This pattern is most pronounced for embedding-based methods on veterans' data: filtered MRR = 0.735 despite global MRR = 0.133 on Vet-E2T, indicating that the embedding space captures relevant semantics but has severe coverage gaps. The RAG approach partially mitigates this by expanding the retrieval pool, while LLM-based methods sidestep retrieval entirely through direct generation.
+</p>
+
+<!-- Figure 4: MRR Heatmap -->
+<div class="figure">
+  <a href="figures/fig3_global_mrr_heatmap.png" target="_blank">
+    <img src="figures/fig3_global_mrr_heatmap.png" alt="Global MRR heatmap">
+  </a>
+  <p class="fig-caption"><strong>Figure 4.</strong> Global MRR heatmap across datasets and methods. Darker cells indicate stronger performance.</p>
+</div>
+
+<!-- Figure 5: MRR Gap -->
+<div class="figure" style="column-span: all;">
+  <a href="figures/fig4_mrr_gap_analysis.png" target="_blank">
+    <img src="figures/fig4_mrr_gap_analysis.png" alt="Filtered vs Global MRR gap analysis">
+  </a>
+  <p class="fig-caption"><strong>Figure 5.</strong> Filtered vs. global MRR comparison. The consistent gap between filtered and global scores reveals that the primary bottleneck is retrieval coverage, not ranking quality: when methods find the correct entity, they rank it highly.</p>
+</div>
+
+<h3>Domain and Text-Type Effects</h3>
+
+<p class="no-indent">
+Performance varies substantially across domains. Tweet-based datasets consistently yield higher scores than veterans' narratives across all methods. This reflects both the conciseness of tweets (which limits ambiguity) and the public-figure dominance of tweet entities (which aligns with LLM training data). Veterans' narratives pose greater challenges due to longer context, culturally specific references, and the dominance of Place entities (>83%), which tend to have more varied and context-dependent descriptions than Person entities.
+</p>
+
+<p>
+Comparing generation strategies within a domain, entity-driven texts (E2T) generally yield higher performance than text-based transformations (T2E) for RAG and embedding methods, since generated descriptions follow more systematic patterns. However, LLM-based inference shows the reverse on veterans' data (Hit@1: 0.573 T2E vs. 0.215 E2T), suggesting that the LLM benefits from the richer contextual grounding present in transformed real narratives.
+</p>
+
+<h3>Performance by Entity Type</h3>
+
+<p class="no-indent">
+Figure 7 presents Global MRR broken down by entity type across all datasets and methods. The results reveal pronounced entity-type effects that interact with both domain and method:
+</p>
+
+<p>
+<strong>Events are the easiest entity type to recognize implicitly.</strong> Across Twitter datasets, Event entities achieve the highest MRR (up to 0.90 for LLM on Tweet-E2T), likely because historical events have distinctive temporal and causal signatures that are well-represented in LLM training data.
+</p>
+
+<p>
+<strong>Person entities show method-dependent performance.</strong> On Tweet-E2T, RAG strongly outperforms LLM for Person recognition (MRR ~0.80 vs. ~0.50), suggesting that embedding retrieval captures person-description associations that direct LLM inference may miss. This pattern reverses on Vet-T2E, where LLM inference leads (MRR ~0.35 vs. ~0.20 for RAG).
+</p>
+
+<p>
+<strong>Place entities are consistently the hardest.</strong> On veterans' datasets, Place MRR drops below 0.10 for all methods despite Places comprising >83% of the data. This indicates that high frequency does not compensate for the inherent difficulty of recognizing places from indirect descriptions; places are often described through sensory and cultural attributes that vary enormously across narrators.
+</p>
+
+<!-- Figure 7: Entity Type MRR -->
+<div class="figure" style="column-span: all;">
+  <a href="figures/fig6_entity_type_mrr.png" target="_blank">
+    <img src="figures/fig6_entity_type_mrr.png" alt="Global MRR by entity type across datasets and methods">
+  </a>
+  <p class="fig-caption"><strong>Figure 7.</strong> Global MRR by entity type across datasets and methods. Events are consistently the easiest to recognize; Places are the hardest. Person recognition is strongly method-dependent.</p>
+</div>
+
+<h3>Hit@K Saturation Analysis</h3>
+
+<p class="no-indent">
+Figure 8 plots Hit@K as a function of K (1, 3, 5, 10) for each method. A notable finding is that performance saturates early: for LLM-based methods, Hit@5 equals Hit@10 across all datasets, confirming that the LLM's top-3 candidates (the configured output size) effectively determine the outcome. Embedding and RAG methods show marginal gains between K=5 and K=10 only on Twitter data, indicating that expanding the candidate pool has diminishing returns.
+</p>
+
+<!-- Figure 8: Hit@K Saturation -->
+<div class="figure" style="column-span: all;">
+  <a href="figures/fig7_hitk_saturation.png" target="_blank">
+    <img src="figures/fig7_hitk_saturation.png" alt="Hit@K saturation curves across methods">
+  </a>
+  <p class="fig-caption"><strong>Figure 8.</strong> Hit@K saturation curves. Performance plateaus rapidly, particularly for LLM-based methods where Hit@5 = Hit@10. This confirms the primary bottleneck is the initial retrieval/generation step, not the depth of the candidate list.</p>
+</div>
+
+<!-- Figure 6: Radar Chart -->
+<div class="figure">
+  <a href="figures/fig5_method_radar.png" target="_blank">
+    <img src="figures/fig5_method_radar.png" alt="Method comparison radar chart">
+  </a>
+  <p class="fig-caption"><strong>Figure 6.</strong> Average performance profiles across all metrics. LLM-based and hybrid RAG methods show similar overall profiles, with LLM slightly stronger on Hit@K and RAG on filtered MRR. Embedding-based methods lag on all dimensions.</p>
+</div>
+
+<!-- ──────────────────────────────────────────────────────────────────────── -->
+<!-- 7. DISCUSSION                                                          -->
+<!-- ──────────────────────────────────────────────────────────────────────── -->
+<h2>Discussion</h2>
+
+<p class="no-indent">
+Our results establish IRC recovery as a tractable NLP task with distinct challenges compared to standard NER or entity linking. Several findings merit further discussion.
+</p>
+
+<h3>Why LLM Outperforms RAG on Natural Text</h3>
+
+<p class="no-indent">
+The LLM's advantage on natural text datasets (Vet-T2E, Tweet-BL) likely stems from its ability to perform multi-step reasoning over nuanced contextual cues. Implicit references in real narratives often require integrating temporal markers, cultural knowledge, and emotional context, capabilities that emerge from the LLM's pre-training on diverse corpora. Embedding-based retrieval, which RAG depends on as its first stage, may fail to surface the correct entity when the textual description is highly indirect or metaphorical.
+</p>
+
+<h3>Why RAG Dominates Synthetic Text</h3>
+
+<p class="no-indent">
+Entity-driven generated text, produced by an LLM following systematic patterns, exhibits more regular description structures. This regularity benefits embedding retrieval, as the generated descriptions are more likely to cluster near the correct entity in embedding space. RAG then leverages LLM reasoning to re-rank from a strong candidate pool. The LLM-only approach, lacking this retrieval grounding, occasionally generates plausible but incorrect entities.
+</p>
+
+<h3>The Coverage Bottleneck</h3>
+
+<p class="no-indent">
+The large gap between filtered and global MRR across all configurations points to a fundamental coverage challenge. For many implicit references, none of the top-K predictions match the gold entity. This suggests that expanding the candidate pool (through larger K values, ensemble retrieval, or iterative refinement) may yield substantial gains. The high filtered MRR scores indicate that ranking mechanisms are already effective; the challenge is surfacing the correct entity in the first place.
+</p>
+
+<h3>Entity Type Effects</h3>
+
+<p class="no-indent">
+The per-entity-type analysis (Figure 7) reveals that entity type modulates performance more strongly than either domain or method choice. Events achieve the highest MRR across all configurations (up to 0.90), likely because historical events have distinctive temporal and causal signatures. Persons show a striking method interaction: RAG outperforms LLM by ~0.30 MRR for Person entities on Tweet-E2T, yet LLM leads by ~0.15 on Vet-T2E. This suggests that the optimal method depends on both entity type and narrative style. Places are consistently the hardest category (MRR < 0.10 on veterans' data for all methods), despite being the majority class (>83%). This inverse relationship between frequency and difficulty is a key finding: the category most relevant to the reminiscence therapy use case is also the most challenging to recognize. Expanding event coverage and developing place-specialized recognition strategies are priorities for future work.
+</p>
+
+<h3>Limitations</h3>
+
+<p class="no-indent">
+Several limitations should be noted. First, the veterans' dataset is drawn from English-language transcripts of American veterans, limiting cultural and linguistic generalizability. Second, the evaluation relies on a single gold entity per segment; in practice, multiple valid interpretations may exist. Third, the entity-driven generation process uses the same LLM family for both dataset creation and recognition, introducing potential circularity. Fourth, we do not evaluate computational cost, which varies substantially across methods (embedding retrieval is far cheaper than LLM inference). Future work should address these limitations through multilingual datasets, multi-reference evaluation, cross-model generation-recognition splits, and efficiency analysis.
+</p>
+
+<!-- ──────────────────────────────────────────────────────────────────────── -->
+<!-- 8. CONCLUSION                                                          -->
+<!-- ──────────────────────────────────────────────────────────────────────── -->
+<h2>Conclusion</h2>
+
+<p class="no-indent">
+We have introduced Implicit Reminiscence Context (IRC) recovery as a novel NLP task, formalized it as entity ranking over implicit mentions, and provided a systematic empirical investigation across four datasets, three recognition methods, and multiple evaluation metrics. Our findings demonstrate that LLM-based inference excels on natural reminiscence text, hybrid RAG dominates on synthetic entity-driven text, and the primary performance bottleneck lies in retrieval coverage rather than ranking quality. These results provide a foundation for developing technology-assisted reminiscence therapy systems that can automatically identify shared experiences among elderly individuals from their fragmented, unstructured narratives.
+</p>
+
+<p>
+Future directions include: (1) expanding to multilingual and cross-cultural reminiscence corpora; (2) incorporating multi-reference evaluation with human judges; (3) integrating IRC recovery into interactive reminiscence dialogue systems; (4) exploring ensemble methods that combine LLM and RAG strengths; and (5) evaluating the downstream impact on social connection formation among elderly participants.
+</p>
+
+</main><!-- end two-column -->
+
+<!-- ════════════════════════════════════════════════════════════════════════ -->
+<!-- REFERENCES                                                             -->
+<!-- ════════════════════════════════════════════════════════════════════════ -->
+<div class="references">
+<h2>References</h2>
+
+<p><span class="ref-num">[1]</span> Tang, J. P. S., Liu, T., Lu, S., et al. (2022). "It was the deepest level of companionship": Peer-to-peer experience of supporting community-dwelling older people with depression. <em>BMC Geriatrics</em>, 22(1), 443.</p>
+
+<p><span class="ref-num">[2]</span> Marziali, R. A., et al. (2024). Reducing loneliness and social isolation of older adults through voice assistants: Literature review and bibliometric analysis. <em>Journal of Medical Internet Research</em>.</p>
+
+<p><span class="ref-num">[3]</span> Wang, J. J. (2007). Group reminiscence therapy for the cognitive and affective function of the demented elderly. <em>International Journal of Geriatric Psychiatry</em>.</p>
+
+<p><span class="ref-num">[4]</span> Tadaka, E. &amp; Kanagawa, K. (2007). Effects of the reminiscence group on elderly people with Alzheimer's disease and vascular dementia. <em>Geriatrics &amp; Gerontology International</em>, 7(2), 167-173.</p>
+
+<p><span class="ref-num">[5]</span> Subramaniam, P. &amp; Woods, B. (2012). The impact of individual reminiscence therapy for people with dementia: A systematic review. <em>Expert Review of Neurotherapeutics</em>, 12(5), 545-555.</p>
+
+<p><span class="ref-num">[6]</span> Azcurra, D. J. L. (2012). A reminiscence program intervention to improve the quality of life of long-term care residents with Alzheimer's disease. <em>Geriatric Nursing</em>, 33(2), 100-104.</p>
+
+<p><span class="ref-num">[7]</span> Haslam, C., et al. (2010). The social treatment: The benefits of group interventions in residential care settings. <em>Psychology and Aging</em>, 25(1), 157-167.</p>
+
+<p><span class="ref-num">[8]</span> Schacter, D. L., Guerin, S. A., &amp; Jacques, P. L. S. (2011). Memory distortion: An adaptive perspective. <em>Trends in Cognitive Sciences</em>, 15(10), 467-474.</p>
+
+<p><span class="ref-num">[9]</span> Roediger III, H. L., Bergman, E. T., &amp; Meade, M. L. (2003). Repeated reproduction from memory. In <em>Bartlett, Culture and Cognition</em>, pp. 135-154.</p>
+
+<p><span class="ref-num">[10]</span> Nadeau, D. &amp; Sekine, S. (2007). A survey of named entity recognition and classification. <em>Lingvisticae Investigationes</em>, 30(1), 3-26.</p>
+
+<p><span class="ref-num">[11]</span> Hong, J., et al. (2020). SciNER: Extracting named entities from scientific literature. <em>LNCS</em>.</p>
+
+<p><span class="ref-num">[12]</span> Bohlmeijer, E., et al. (2007). The effects of reminiscence on psychological well-being in older adults: A meta-analysis. <em>Aging and Mental Health</em>, 11(3), 291-300.</p>
+
+<p><span class="ref-num">[13]</span> Hallford, D., et al. (2024). Guided recall of positive autobiographical memories increases anticipated pleasure and reduces depressive symptoms. <em>Memory</em>, 32(4), 465-475.</p>
+
+<p><span class="ref-num">[14]</span> Chen, Y., et al. (2015). A lifelogging application for reminiscence therapy. <em>Proc. ACM Multimedia</em>.</p>
+
+<p><span class="ref-num">[15]</span> Tsao, Y., et al. (2019). An augmented reality app for reminiscence therapy. <em>Proc. CHI Extended Abstracts</em>.</p>
+
+<p><span class="ref-num">[16]</span> Schoneveld, L. (2020). AR photo album prototype for communication with individuals with dementia. <em>Master's Thesis</em>.</p>
+
+<p><span class="ref-num">[17]</span> Imtiaz, D., et al. (2018). Digital reminiscence and music therapies for rural populations. <em>Proc. ACM PervasiveHealth</em>.</p>
+
+<p><span class="ref-num">[18]</span> Treder, M. S., Lee, S., &amp; Tsvetanov, K. A. (2024). Introduction to large language models for dementia care and research. <em>Frontiers in Dementia</em>, 3, 1385303.</p>
+
+<p><span class="ref-num">[19]</span> Nisi, V., et al. (2023). Inclusive digital storytelling: AI and augmented reality to re-center stories from the margins. <em>Proc. ICIDS</em>, pp. 117-137.</p>
+
+<p><span class="ref-num">[20]</span> AI Applications to reduce loneliness among older adults: A systematic review of effectiveness and technologies. (2024). <em>PMC/NIH</em>.</p>
+
+<p><span class="ref-num">[21]</span> Yang, H., et al. (2026). Perspectives of older adults and healthcare providers on digital technologies in reminiscence therapy. <em>SAGE Journals</em>.</p>
+
+<p><span class="ref-num">[22]</span> Virtual life story club intervention to improve loneliness and apathy in community-dwelling older adults. (2025). <em>JMIR Research Protocols</em>.</p>
+
+<p><span class="ref-num">[23]</span> Raza, S., et al. (2022). Large-scale application of NER in biomedicine. <em>BMC Bioinformatics</em>.</p>
+
+<p><span class="ref-num">[24]</span> Dai, X., et al. (2024). Retrieval-augmented models for NER. <em>Proc. ACL</em>.</p>
+
+<p><span class="ref-num">[25]</span> Recent advances in named entity recognition: A comprehensive survey and comparative study. (2024). <em>arXiv:2401.10825</em>.</p>
+
+<p><span class="ref-num">[26]</span> A review of named entity recognition: From learning methods to modelling paradigms and tasks. (2025). <em>Artificial Intelligence Review</em>, Springer Nature.</p>
+
+<p><span class="ref-num">[27]</span> Ganea, O. &amp; Hofmann, T. (2017). Deep joint entity disambiguation with knowledge enrichment. <em>Proc. EMNLP</em>.</p>
+
+<p><span class="ref-num">[28]</span> Shen, W., Wang, J., &amp; Han, J. (2015). Entity linking with a knowledge base: Issues, techniques, and solutions. <em>IEEE TKDE</em>, 27(2), 443-460.</p>
+
+<p><span class="ref-num">[29]</span> Kolitsas, N., Ganea, O., &amp; Hofmann, T. (2018). End-to-end neural entity linking. <em>Proc. CoNLL</em>.</p>
+
+<p><span class="ref-num">[30]</span> Hosseini, H. (2022). <em>Implicit Entity Recognition and Linking in Tweets</em>. Doctoral Dissertation, Toronto Metropolitan University.</p>
+
+<p><span class="ref-num">[31]</span> Hosseini, H. &amp; Bagheri, E. (2021). Learning to rank implicit entities on Twitter. <em>Information Processing &amp; Management</em>, 58(3), 102503.</p>
+
+<p><span class="ref-num">[32]</span> Perera, S., et al. (2015). Implicit entity recognition in clinical documents. <em>Proc. *SEM</em>, pp. 228-238.</p>
+
+<p><span class="ref-num">[33]</span> Hosseini, H. &amp; Bagheri, E. (2021). Learning to rank implicit entities on Twitter. <em>Information Processing &amp; Management</em>, 58(3), 102503.</p>
+
+<p><span class="ref-num">[34]</span> A review of named entity recognition: From learning methods to modelling paradigms and tasks. (2025). <em>Artificial Intelligence Review</em>, Springer Nature.</p>
+
+<p><span class="ref-num">[35]</span> Ashok, D. &amp; Lipton, Z. C. (2023). PromptNER: Prompting for named entity recognition. <em>arXiv:2305.15444</em>.</p>
+
+<p><span class="ref-num">[36]</span> VicunaNER: Zero/few-shot named entity recognition using Vicuna. (2023). <em>arXiv:2305.03253</em>.</p>
+
+<p><span class="ref-num">[37]</span> Empirical study of zero-shot NER with ChatGPT. (2023). <em>Proc. EMNLP</em>.</p>
+
+<p><span class="ref-num">[38]</span> Self-improving for zero-shot named entity recognition with large language models. (2024). <em>Proc. NAACL</em>.</p>
+
+<p><span class="ref-num">[39]</span> Zhu, X., et al. (2024). GL-NER: Generation-aware large language models for few-shot named entity recognition. <em>Proc. ICANN</em>, LNCS vol. 15022.</p>
+
+<p><span class="ref-num">[40]</span> A cooperative multi-agent framework for zero-shot named entity recognition. (2025). <em>arXiv:2502.18702</em>.</p>
+
+<p><span class="ref-num">[41]</span> Evaluating the performance of large language models for named entity recognition in ophthalmology clinical free-text notes. (2024). <em>PMC/NIH</em>.</p>
+
+<p><span class="ref-num">[42]</span> Lewis, P., et al. (2020). Retrieval-augmented generation for knowledge-intensive NLP tasks. <em>Proc. NeurIPS</em>.</p>
+
+<p><span class="ref-num">[43]</span> Retrieval-augmented generation: A comprehensive survey of architectures, enhancements, and robustness frontiers. (2025). <em>arXiv:2506.00054</em>.</p>
+
+<p><span class="ref-num">[44]</span> A systematic review of key retrieval-augmented generation (RAG) systems: Progress, gaps, and future directions. (2024). <em>arXiv:2507.18910</em>.</p>
+
+<p><span class="ref-num">[45]</span> Combining NER and RAG to spot hallucinations in LLM. (2025). <em>Proc. SemEval</em>.</p>
+
+<p><span class="ref-num">[46]</span> Improving biomedical entity linking with generative relevance feedback. (2024). <em>Bioinformatics</em>, Oxford Academic.</p>
+
+<p><span class="ref-num">[47]</span> Contextual augmentation for entity linking using large language models. (2025). <em>Proc. COLING</em>.</p>
+
+<p><span class="ref-num">[48]</span> A survey: Knowledge graph entity alignment research based on graph embedding. (2024). <em>Artificial Intelligence Review</em>, Springer Nature.</p>
+
+<p><span class="ref-num">[49]</span> Knowledge graph embedding: A survey from the perspective of representation spaces. (2024). <em>ACM Computing Surveys</em>.</p>
+
+<p><span class="ref-num">[50]</span> Graph embeddings to empower entity retrieval. (2025). <em>arXiv:2506.03895</em>.</p>
+
+<p><span class="ref-num">[51]</span> Kim, E. S., et al. (2006). Evidence-based practice recommendations for working with individuals with dementia: Group reminiscence therapy. <em>J. Medical Speech-Language Pathology</em>, 14(3).</p>
+
+<p><span class="ref-num">[52]</span> Bozkurt, C. &amp; Y&#305;ld&#305;r&#305;m, Y. (2022). A trip down memory lane: Reminiscence therapy. <em>J. Education and Research in Nursing</em>, 19(3), 356-361.</p>
+
+<p><span class="ref-num">[53]</span> Istvandity, L. (2017). Combining music and reminiscence therapy interventions for wellbeing in elderly populations: A systematic review. <em>Complementary Therapies in Clinical Practice</em>, 28, 18-25.</p>
+
+<p><span class="ref-num">[54]</span> Benjamin, L. T. Jr. &amp; Schwartz, B. L. (1998). Context and memory. In <em>Memory and Cognition</em>, APA.</p>
+
+<p><span class="ref-num">[55]</span> Bluck, S. &amp; Levine, L. J. (1998). Reminiscence as autobiographical memory: A catalyst for reminiscence theory development. <em>Ageing &amp; Society</em>, 18(2), 185-208.</p>
+
+<p><span class="ref-num">[56]</span> Holland, A. C. &amp; Kensinger, E. A. (2010). Emotion and autobiographical memory. <em>Emotion Review</em>, 2(3), 232-253.</p>
+
+<p><span class="ref-num">[57]</span> Schacter, D. L. &amp; Addis, D. R. (2007). The cognitive neuroscience of constructive memory. <em>Phil. Trans. R. Soc. B</em>, 362(1481), 773-786.</p>
+
+<p><span class="ref-num">[58]</span> Sang, E. F. T. K. &amp; De Meulder, F. (2003). Introduction to the CoNLL-2003 shared task: Language-independent named entity recognition. <em>Proc. CoNLL</em>.</p>
+
+<p><span class="ref-num">[59]</span> Leaman, R. &amp; Gonzalez, G. (2008). BANNER: An executable survey of advances in biomedical named entity recognition. <em>Biocomputing</em>, pp. 652-663.</p>
+
+<p><span class="ref-num">[60]</span> Bhasuran, B., et al. (2016). Fuzzy matching for biomedical NER in noisy data. <em>J. Biomedical Informatics</em>.</p>
+
+<p><span class="ref-num">[61]</span> Hu, Y., et al. (2024). Fine-tuning pre-trained models for NER tasks. <em>Proc. ACL Findings</em>.</p>
+
+<p><span class="ref-num">[62]</span> Zhou, W., et al. (2023). Zero-shot NER via natural language prompts. <em>Proc. ACL</em>.</p>
+
+<p><span class="ref-num">[63]</span> Majdik, Z. P., et al. (2024). Few-shot NER with LLMs when labeled data is scarce. <em>Proc. NAACL</em>.</p>
+
+<p><span class="ref-num">[64]</span> Dagdelen, J., et al. (2024). Structured scientific information extraction with LLMs. <em>Nature Communications</em>.</p>
+
+<p><span class="ref-num">[65]</span> Woods, B., et al. (2018). Reminiscence therapy for dementia. <em>Cochrane Database of Systematic Reviews</em>.</p>
+
+<p><span class="ref-num">[66]</span> Onnela, J. P., et al. (2014). Using sociometers to quantify social interaction patterns. <em>Scientific Reports</em>, 4(1), 5604.</p>
+
+<p><span class="ref-num">[67]</span> Welch, V., et al. (2023). Digital interventions to reduce social isolation and loneliness in older adults: An evidence and gap map. <em>Campbell Systematic Reviews</em>.</p>
+
+<p><span class="ref-num">[68]</span> Redefining elderly care with agentic AI: Challenges and opportunities. (2024). <em>arXiv:2507.14912</em>.</p>
+
+<p><span class="ref-num">[69]</span> Zhang, M., et al. (2023). PromptNER: A prompting method for few-shot NER via k nearest neighbor search. <em>arXiv:2305.12217</em>.</p>
+
+<p><span class="ref-num">[70]</span> MultiCoNER v2: A large multilingual dataset for fine-grained and noisy named entity recognition. (2023). <em>arXiv:2310.13213</em>.</p>
+
+<p><span class="ref-num">[71]</span> Advancing few-shot named entity recognition with large language model. (2025). <em>Applied Sciences</em>, MDPI, 15(7), 3838.</p>
+
+<p><span class="ref-num">[72]</span> Li, S. &amp; Zhang, Y. (2024). Improving entity linking by combining semantic entity embeddings and cross-attention encoder. <em>J. Intelligent &amp; Fuzzy Systems</em>.</p>
+
+<p><span class="ref-num">[73]</span> Universal entity linking. (2025). <em>Engineering Applications of AI</em>, ScienceDirect.</p>
+
+<p><span class="ref-num">[74]</span> Developing assistive technology to support reminiscence therapy: A user-centered study. (2025). <em>Frontiers in Medicine</em>.</p>
+
+<p><span class="ref-num">[75]</span> RemiHaven: Integrating peers to provide personalized reminiscence support for older drifters. (2025). <em>arXiv:2503.01358</em>.</p>
+
+</div>
+
+<!-- ════════════════════════════════════════════════════════════════════════ -->
+<!-- APPENDIX                                                               -->
+<!-- ════════════════════════════════════════════════════════════════════════ -->
+<div style="border-top: 2px solid #222; margin-top: 1.5em; padding-top: 0.8em;">
+<h2 style="text-align:center; font-size:14pt; font-variant:small-caps; margin-bottom:0.8em;">Appendix</h2>
+
+<main class="two-column" style="counter-reset: section 0;">
+
+<!-- ── A. Dataset Construction Examples ────────────────────────────────── -->
+<h2 style="counter-reset: none;">Appendix A: Dataset Construction Examples</h2>
+
+<p class="no-indent">
+Table A1 presents illustrative examples of how explicit entity mentions were transformed into implicit references across different datasets and entity types.
+</p>
+
+<div class="table-wrap" style="column-span: all;">
+  <p class="table-caption"><strong>Table A1.</strong> Examples of implicit entity rewriting and entity-driven generation across datasets. Each row shows the source text or entity, the augmented implicit narrative, and the gold-standard entity.</p>
+  <table>
+    <thead>
+      <tr>
+        <th style="width:12%;">Dataset</th>
+        <th style="width:25%;">Source Text / Entity</th>
+        <th style="width:38%;">Implicit Narrative</th>
+        <th style="width:13%;">Gold Entity</th>
+        <th style="width:12%;">Type</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td style="text-align:left;">Vet-T2E</td>
+        <td style="text-align:left; font-size:7.5pt;">I remember feeling a mix of excitement and anxiety as we sailed out of Manhattan, catching a glimpse of the <strong>Statue of Liberty</strong>.</td>
+        <td style="text-align:left; font-size:7.5pt;">I felt a mix of excitement and anxiety as we sailed out of the harbor, catching a glimpse of a colossal figure holding a torch high, her robe flowing gracefully in the wind, a beacon of hope and freedom against the skyline.</td>
+        <td style="text-align:left;">Statue of Liberty</td>
+        <td>Place</td>
+      </tr>
+      <tr>
+        <td style="text-align:left;">Vet-T2E</td>
+        <td style="text-align:left; font-size:7.5pt;">Just as he was about to be discharged in December '41, everything changed with the attack on <strong>Pearl Harbor</strong>.</td>
+        <td style="text-align:left; font-size:7.5pt;">Just as he was about to be discharged in December '41, everything changed with the surprise military strike on the major U.S. naval base in the Pacific, where battleships lay anchored and aircraft were stationed.</td>
+        <td style="text-align:left;">Pearl Harbor</td>
+        <td>Event</td>
+      </tr>
+      <tr>
+        <td style="text-align:left;">Vet-T2E</td>
+        <td style="text-align:left; font-size:7.5pt;">Eventually, I transitioned to a position with the <strong>Ford Foundation</strong>.</td>
+        <td style="text-align:left; font-size:7.5pt;">Eventually, I transitioned to a role with a prominent philanthropic organization known for its commitment to social justice and equity.</td>
+        <td style="text-align:left;">Ford Foundation</td>
+        <td>Place</td>
+      </tr>
+      <tr>
+        <td style="text-align:left;">Vet-E2T</td>
+        <td style="text-align:left; font-size:7.5pt;"><em>Entity:</em> The Eiffel Tower</td>
+        <td style="text-align:left; font-size:7.5pt;">We sat on the grass, splitting a baguette and watching the iron lattice glow against the dusk sky. Somewhere behind us, a couple got engaged to the sound of accordion music.</td>
+        <td style="text-align:left;">Eiffel Tower</td>
+        <td>Place</td>
+      </tr>
+      <tr>
+        <td style="text-align:left;">Vet-E2T</td>
+        <td style="text-align:left; font-size:7.5pt;"><em>Entity:</em> Martin Luther King Jr.</td>
+        <td style="text-align:left; font-size:7.5pt;">We packed into the church that day, breaths held as he spoke of a dream, his voice rising like a hymn that didn't end in the walls but marched into the streets.</td>
+        <td style="text-align:left;">Martin Luther King Jr.</td>
+        <td>Person</td>
+      </tr>
+      <tr>
+        <td style="text-align:left;">Tweet-E2T</td>
+        <td style="text-align:left; font-size:7.5pt;"><em>Entity:</em> Michael Jordan</td>
+        <td style="text-align:left; font-size:7.5pt;">Saw him hang in the air like time stopped; number 23, ball in hand, like gravity didn't apply.</td>
+        <td style="text-align:left;">Michael Jordan</td>
+        <td>Person</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<!-- ── B. IRC Taxonomy ────────────────────────────────────────────────── -->
+<h2 style="counter-reset: none;">Appendix B: IRC Taxonomy</h2>
+
+<p class="no-indent">
+Table A2 presents the full taxonomy of Implicit Reminiscence Context categories used to identify shared memories and experiences among the elderly. Each category is divided into subcategories with illustrative examples.
+</p>
+
+<!-- SVG: IRC Taxonomy Diagram -->
+<div class="figure" style="column-span: all;">
+<svg class="diagram-svg" viewBox="0 0 700 320" xmlns="http://www.w3.org/2000/svg" style="max-width: 95%;">
+  <!-- Title -->
+  <rect x="250" y="5" width="200" height="30" rx="6" fill="#0173B2" stroke="none"/>
+  <text x="350" y="24" text-anchor="middle" fill="white" font-size="11" font-weight="700" font-family="serif">IRC Taxonomy</text>
+
+  <!-- Level 1: Main Categories -->
+  <!-- Persons -->
+  <rect x="10" y="60" width="90" height="32" rx="4" fill="#e8f0fe" stroke="#4a6fa5" stroke-width="1.2"/>
+  <text x="55" y="80" text-anchor="middle" font-size="9" font-weight="700" fill="#1a1a1a" font-family="serif">Persons</text>
+  <line x1="55" y1="92" x2="55" y2="110" stroke="#999" stroke-width="1"/>
+  <rect x="5" y="112" width="44" height="22" rx="3" fill="#f0f4f8" stroke="#bbb" stroke-width="0.8"/>
+  <text x="27" y="126" text-anchor="middle" font-size="6.5" fill="#333" font-family="serif">Celebrities</text>
+  <rect x="53" y="112" width="52" height="22" rx="3" fill="#f0f4f8" stroke="#bbb" stroke-width="0.8"/>
+  <text x="79" y="126" text-anchor="middle" font-size="6.5" fill="#333" font-family="serif">Relatives</text>
+
+  <!-- Places -->
+  <rect x="115" y="60" width="90" height="32" rx="4" fill="#e8f0fe" stroke="#4a6fa5" stroke-width="1.2"/>
+  <text x="160" y="80" text-anchor="middle" font-size="9" font-weight="700" fill="#1a1a1a" font-family="serif">Places</text>
+  <line x1="160" y1="92" x2="160" y2="110" stroke="#999" stroke-width="1"/>
+  <rect x="112" y="112" width="40" height="22" rx="3" fill="#f0f4f8" stroke="#bbb" stroke-width="0.8"/>
+  <text x="132" y="126" text-anchor="middle" font-size="6.5" fill="#333" font-family="serif">Lived</text>
+  <rect x="156" y="112" width="44" height="22" rx="3" fill="#f0f4f8" stroke="#bbb" stroke-width="0.8"/>
+  <text x="178" y="126" text-anchor="middle" font-size="6.5" fill="#333" font-family="serif">Visited</text>
+
+  <!-- Organizations -->
+  <rect x="220" y="60" width="105" height="32" rx="4" fill="#e8f0fe" stroke="#4a6fa5" stroke-width="1.2"/>
+  <text x="272" y="80" text-anchor="middle" font-size="9" font-weight="700" fill="#1a1a1a" font-family="serif">Organizations</text>
+  <line x1="272" y1="92" x2="272" y2="110" stroke="#999" stroke-width="1"/>
+  <rect x="218" y="112" width="36" height="22" rx="3" fill="#f0f4f8" stroke="#bbb" stroke-width="0.8"/>
+  <text x="236" y="126" text-anchor="middle" font-size="6.5" fill="#333" font-family="serif">Study</text>
+  <rect x="258" y="112" width="34" height="22" rx="3" fill="#f0f4f8" stroke="#bbb" stroke-width="0.8"/>
+  <text x="275" y="126" text-anchor="middle" font-size="6.5" fill="#333" font-family="serif">Work</text>
+  <rect x="296" y="112" width="48" height="22" rx="3" fill="#f0f4f8" stroke="#bbb" stroke-width="0.8"/>
+  <text x="320" y="126" text-anchor="middle" font-size="6.5" fill="#333" font-family="serif">Volunteer</text>
+
+  <!-- Events -->
+  <rect x="340" y="60" width="80" height="32" rx="4" fill="#fff3e0" stroke="#DE8F05" stroke-width="1.2"/>
+  <text x="380" y="80" text-anchor="middle" font-size="9" font-weight="700" fill="#1a1a1a" font-family="serif">Events</text>
+  <line x1="380" y1="92" x2="380" y2="110" stroke="#999" stroke-width="1"/>
+  <rect x="338" y="112" width="40" height="22" rx="3" fill="#f0f4f8" stroke="#bbb" stroke-width="0.8"/>
+  <text x="358" y="126" text-anchor="middle" font-size="6.5" fill="#333" font-family="serif">Cultural</text>
+  <rect x="382" y="112" width="40" height="22" rx="3" fill="#f0f4f8" stroke="#bbb" stroke-width="0.8"/>
+  <text x="402" y="126" text-anchor="middle" font-size="6.5" fill="#333" font-family="serif">Political</text>
+
+  <!-- Periods -->
+  <rect x="435" y="60" width="80" height="32" rx="4" fill="#fff3e0" stroke="#DE8F05" stroke-width="1.2"/>
+  <text x="475" y="80" text-anchor="middle" font-size="9" font-weight="700" fill="#1a1a1a" font-family="serif">Periods</text>
+  <line x1="475" y1="92" x2="475" y2="110" stroke="#999" stroke-width="1"/>
+  <rect x="433" y="112" width="36" height="22" rx="3" fill="#f0f4f8" stroke="#bbb" stroke-width="0.8"/>
+  <text x="451" y="126" text-anchor="middle" font-size="6.5" fill="#333" font-family="serif">War</text>
+  <rect x="473" y="112" width="55" height="22" rx="3" fill="#f0f4f8" stroke="#bbb" stroke-width="0.8"/>
+  <text x="500" y="126" text-anchor="middle" font-size="6.5" fill="#333" font-family="serif">Depression</text>
+
+  <!-- Experiences -->
+  <rect x="530" y="60" width="90" height="32" rx="4" fill="#e8f5e9" stroke="#029E73" stroke-width="1.2"/>
+  <text x="575" y="80" text-anchor="middle" font-size="9" font-weight="700" fill="#1a1a1a" font-family="serif">Experiences</text>
+  <line x1="575" y1="92" x2="575" y2="110" stroke="#999" stroke-width="1"/>
+  <rect x="530" y="112" width="38" height="22" rx="3" fill="#f0f4f8" stroke="#bbb" stroke-width="0.8"/>
+  <text x="549" y="126" text-anchor="middle" font-size="6.5" fill="#333" font-family="serif">Health</text>
+  <rect x="572" y="112" width="38" height="22" rx="3" fill="#f0f4f8" stroke="#bbb" stroke-width="0.8"/>
+  <text x="591" y="126" text-anchor="middle" font-size="6.5" fill="#333" font-family="serif">Family</text>
+
+  <!-- Hobbies -->
+  <rect x="635" y="60" width="60" height="32" rx="4" fill="#e8f5e9" stroke="#029E73" stroke-width="1.2"/>
+  <text x="665" y="80" text-anchor="middle" font-size="9" font-weight="700" fill="#1a1a1a" font-family="serif">Hobbies</text>
+  <line x1="665" y1="92" x2="665" y2="110" stroke="#999" stroke-width="1"/>
+  <rect x="633" y="112" width="38" height="22" rx="3" fill="#f0f4f8" stroke="#bbb" stroke-width="0.8"/>
+  <text x="652" y="126" text-anchor="middle" font-size="6.5" fill="#333" font-family="serif">Sports</text>
+  <rect x="675" y="112" width="25" height="22" rx="3" fill="#f0f4f8" stroke="#bbb" stroke-width="0.8"/>
+  <text x="688" y="126" text-anchor="middle" font-size="6.5" fill="#333" font-family="serif">Arts</text>
+
+  <!-- Connecting lines from title to categories -->
+  <line x1="350" y1="35" x2="55" y2="60" stroke="#ccc" stroke-width="0.8"/>
+  <line x1="350" y1="35" x2="160" y2="60" stroke="#ccc" stroke-width="0.8"/>
+  <line x1="350" y1="35" x2="272" y2="60" stroke="#ccc" stroke-width="0.8"/>
+  <line x1="350" y1="35" x2="380" y2="60" stroke="#ccc" stroke-width="0.8"/>
+  <line x1="350" y1="35" x2="475" y2="60" stroke="#ccc" stroke-width="0.8"/>
+  <line x1="350" y1="35" x2="575" y2="60" stroke="#ccc" stroke-width="0.8"/>
+  <line x1="350" y1="35" x2="665" y2="60" stroke="#ccc" stroke-width="0.8"/>
+
+  <!-- Example annotations -->
+  <text x="10" y="160" font-size="7" fill="#555" font-family="serif" font-style="italic">Example implicit references:</text>
+  <rect x="10" y="168" width="680" height="145" rx="4" fill="#fafbfc" stroke="#ddd" stroke-width="0.8"/>
+
+  <text x="20" y="185" font-size="7.5" fill="#333" font-family="serif"><tspan font-weight="700" fill="#4a6fa5">Person:</tspan> "his voice rising like a hymn that marched into the streets" → Martin Luther King Jr.</text>
+  <text x="20" y="203" font-size="7.5" fill="#333" font-family="serif"><tspan font-weight="700" fill="#4a6fa5">Place:</tspan> "a colossal figure holding a torch high, a beacon of hope and freedom" → Statue of Liberty</text>
+  <text x="20" y="221" font-size="7.5" fill="#333" font-family="serif"><tspan font-weight="700" fill="#DE8F05">Event:</tspan> "surprise military strike on the major U.S. naval base in the Pacific" → Pearl Harbor Attack</text>
+  <text x="20" y="239" font-size="7.5" fill="#333" font-family="serif"><tspan font-weight="700" fill="#DE8F05">Period:</tspan> "sharing food and resources with neighbors just to survive" → Great Depression</text>
+  <text x="20" y="257" font-size="7.5" fill="#333" font-family="serif"><tspan font-weight="700" fill="#029E73">Experience:</tspan> "the quarantine when children across the neighborhood fell ill" → 1950s Measles Outbreak</text>
+  <text x="20" y="275" font-size="7.5" fill="#333" font-family="serif"><tspan font-weight="700" fill="#029E73">Hobby:</tspan> "watched the game under the lights at that old Brooklyn stadium" → Baseball at Ebbets Field</text>
+  <text x="20" y="293" font-size="7.5" fill="#333" font-family="serif"><tspan font-weight="700" fill="#4a6fa5">Organization:</tspan> "a prominent philanthropic organization committed to social justice" → Ford Foundation</text>
+</svg>
+<p class="fig-caption"><strong>Figure A1.</strong> Taxonomy of Implicit Reminiscence Context (IRC) categories with illustrative implicit reference examples. Seven top-level categories capture the diversity of shared experiences in elderly narratives.</p>
+</div>
+
+<!-- ── C. Detailed Per-Method Results ─────────────────────────────────── -->
+<h2 style="counter-reset: none;">Appendix C: Detailed Results</h2>
+
+<p class="no-indent">
+Table A3 provides a comprehensive breakdown of performance metrics including the absolute retrieval counts and the ratio of successful retrievals to total queries.
+</p>
+
+<div class="table-wrap" style="column-span: all;">
+  <p class="table-caption"><strong>Table A3.</strong> Extended performance metrics with derived statistics. Coverage = Hit@5 (proportion of queries where the entity was found in top 5). MRR Gap = Filtered MRR minus Global MRR, indicating the proportion of performance lost to retrieval failures.</p>
+  <table>
+    <thead>
+      <tr>
+        <th>Dataset</th>
+        <th>Method</th>
+        <th>Hit@1</th>
+        <th>Hit@3</th>
+        <th>Hit@5</th>
+        <th>MRR<sub>global</sub></th>
+        <th>MRR<sub>filtered</sub></th>
+        <th>MRR Gap</th>
+        <th>Coverage</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td style="text-align:left;">Vet-T2E</td><td>LLM</td>
+        <td class="best">0.573</td><td class="best">0.691</td><td class="best">0.691</td>
+        <td class="best">0.626</td><td>0.907</td><td>0.281</td><td class="best">69.1%</td>
+      </tr>
+      <tr>
+        <td style="text-align:left;">Vet-T2E</td><td>RAG</td>
+        <td>0.230</td><td>0.276</td><td>0.287</td><td>0.253</td><td>0.879</td><td>0.626</td><td>28.7%</td>
+      </tr>
+      <tr>
+        <td style="text-align:left;">Vet-T2E</td><td>Emb.</td>
+        <td>0.047</td><td>0.089</td><td>0.115</td><td>0.071</td><td>0.615</td><td>0.544</td><td>11.5%</td>
+      </tr>
+      <tr>
+        <td style="text-align:left;">Vet-E2T</td><td>LLM</td>
+        <td>0.215</td><td class="best">0.288</td><td class="best">0.288</td><td class="best">0.248</td><td>0.861</td><td>0.613</td><td>28.8%</td>
+      </tr>
+      <tr>
+        <td style="text-align:left;">Vet-E2T</td><td>RAG</td>
+        <td class="best">0.231</td><td>0.260</td><td>0.274</td><td>0.246</td><td class="best">0.898</td><td>0.652</td><td>27.4%</td>
+      </tr>
+      <tr>
+        <td style="text-align:left;">Vet-E2T</td><td>Emb.</td>
+        <td>0.103</td><td>0.160</td><td>0.181</td><td>0.133</td><td>0.735</td><td>0.602</td><td>18.1%</td>
+      </tr>
+      <tr>
+        <td style="text-align:left;">Tweet-BL</td><td>LLM</td>
+        <td class="best">0.674</td><td class="best">0.805</td><td class="best">0.805</td><td class="best">0.735</td><td>0.913</td><td>0.178</td><td class="best">80.5%</td>
+      </tr>
+      <tr>
+        <td style="text-align:left;">Tweet-BL</td><td>RAG</td>
+        <td>0.664</td><td>0.775</td><td>0.784</td><td>0.720</td><td class="best">0.918</td><td>0.198</td><td>78.4%</td>
+      </tr>
+      <tr>
+        <td style="text-align:left;">Tweet-BL</td><td>Emb.</td>
+        <td>0.292</td><td>0.487</td><td>0.577</td><td>0.398</td><td>0.690</td><td>0.292</td><td>57.7%</td>
+      </tr>
+      <tr>
+        <td style="text-align:left;">Tweet-E2T</td><td>LLM</td>
+        <td>0.714</td><td>0.778</td><td>0.778</td><td>0.745</td><td>0.957</td><td>0.212</td><td>77.8%</td>
+      </tr>
+      <tr>
+        <td style="text-align:left;">Tweet-E2T</td><td>RAG</td>
+        <td class="best">0.849</td><td class="best">0.889</td><td class="best">0.889</td><td class="best">0.868</td><td class="best">0.976</td><td>0.108</td><td class="best">88.9%</td>
+      </tr>
+      <tr>
+        <td style="text-align:left;">Tweet-E2T</td><td>Emb.</td>
+        <td>0.548</td><td>0.730</td><td>0.778</td><td>0.643</td><td>0.827</td><td>0.184</td><td>77.8%</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<!-- ── D. Cross-Domain Performance Summary ────────────────────────────── -->
+<h2 style="counter-reset: none;">Appendix D: Cross-Domain Analysis</h2>
+
+<p class="no-indent">
+Table A4 aggregates performance by domain (veterans vs. tweets) and by generation strategy (natural/transformed vs. entity-driven), averaged across all methods.
+</p>
+
+<div class="table-wrap" style="column-span: all;">
+  <p class="table-caption"><strong>Table A4.</strong> Mean performance by domain and generation strategy, averaged across methods. Values in parentheses show the standard deviation across methods.</p>
+  <table>
+    <thead>
+      <tr>
+        <th>Domain</th>
+        <th>Strategy</th>
+        <th>Mean Hit@1</th>
+        <th>Mean Hit@3</th>
+        <th>Mean Hit@5</th>
+        <th>Mean MRR<sub>global</sub></th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td style="text-align:left;">Veterans</td>
+        <td style="text-align:left;">Natural (T2E)</td>
+        <td>0.283 (&plusmn;0.27)</td>
+        <td>0.352 (&plusmn;0.31)</td>
+        <td>0.364 (&plusmn;0.30)</td>
+        <td>0.317 (&plusmn;0.29)</td>
+      </tr>
+      <tr>
+        <td style="text-align:left;">Veterans</td>
+        <td style="text-align:left;">Generated (E2T)</td>
+        <td>0.183 (&plusmn;0.07)</td>
+        <td>0.236 (&plusmn;0.07)</td>
+        <td>0.248 (&plusmn;0.06)</td>
+        <td>0.209 (&plusmn;0.07)</td>
+      </tr>
+      <tr>
+        <td style="text-align:left;">Twitter</td>
+        <td style="text-align:left;">Natural (BL)</td>
+        <td>0.543 (&plusmn;0.22)</td>
+        <td>0.689 (&plusmn;0.17)</td>
+        <td>0.722 (&plusmn;0.13)</td>
+        <td>0.618 (&plusmn;0.18)</td>
+      </tr>
+      <tr>
+        <td style="text-align:left;">Twitter</td>
+        <td style="text-align:left;">Generated (E2T)</td>
+        <td class="best">0.704 (&plusmn;0.15)</td>
+        <td class="best">0.799 (&plusmn;0.08)</td>
+        <td class="best">0.815 (&plusmn;0.06)</td>
+        <td class="best">0.752 (&plusmn;0.11)</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<!-- ── E. Evaluation Pipeline ─────────────────────────────────────────── -->
+<h2 style="counter-reset: none;">Appendix E: Evaluation Pipeline</h2>
+
+<p class="no-indent">
+Figure A2 illustrates the complete evaluation pipeline, showing how predictions flow through normalization, layered matching, and metric computation stages.
+</p>
+
+<div class="figure" style="column-span: all;">
+<svg class="diagram-svg" viewBox="0 0 700 200" xmlns="http://www.w3.org/2000/svg" style="max-width: 95%;">
+  <defs>
+    <marker id="arrowhead2" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L8,3 L0,6 Z" fill="#666"/>
+    </marker>
+  </defs>
+
+  <!-- Step 1: Predictions -->
+  <rect x="5" y="70" width="95" height="60" rx="4" fill="#e8f0fe" stroke="#4a6fa5" stroke-width="1.5"/>
+  <text x="52" y="90" text-anchor="middle" font-size="8.5" font-weight="700" fill="#1a1a1a" font-family="serif">Predictions</text>
+  <text x="52" y="105" text-anchor="middle" font-size="7" fill="#555" font-family="serif">CSV with ranked</text>
+  <text x="52" y="117" text-anchor="middle" font-size="7" fill="#555" font-family="serif">entity guesses</text>
+
+  <line x1="100" y1="100" x2="118" y2="100" stroke="#666" stroke-width="1.2" marker-end="url(#arrowhead2)"/>
+
+  <!-- Step 2: Normalization -->
+  <rect x="121" y="70" width="100" height="60" rx="4" fill="#e8f0fe" stroke="#4a6fa5" stroke-width="1.5"/>
+  <text x="171" y="88" text-anchor="middle" font-size="8.5" font-weight="700" fill="#1a1a1a" font-family="serif">Normalization</text>
+  <text x="171" y="102" text-anchor="middle" font-size="6.5" fill="#555" font-family="serif">Lowercasing</text>
+  <text x="171" y="112" text-anchor="middle" font-size="6.5" fill="#555" font-family="serif">Unicode / Diacritics</text>
+  <text x="171" y="122" text-anchor="middle" font-size="6.5" fill="#555" font-family="serif">Punctuation removal</text>
+
+  <line x1="221" y1="100" x2="239" y2="100" stroke="#666" stroke-width="1.2" marker-end="url(#arrowhead2)"/>
+
+  <!-- Step 3: Matching (3 layers) -->
+  <rect x="242" y="25" width="130" height="150" rx="4" fill="#fff3e0" stroke="#DE8F05" stroke-width="1.5"/>
+  <text x="307" y="44" text-anchor="middle" font-size="8.5" font-weight="700" fill="#1a1a1a" font-family="serif">Layered Matching</text>
+
+  <!-- Sub-boxes for each layer -->
+  <rect x="252" y="52" width="110" height="24" rx="3" fill="white" stroke="#DE8F05" stroke-width="0.8"/>
+  <text x="307" y="67" text-anchor="middle" font-size="7" fill="#333" font-family="serif">1. Exact Token Match</text>
+
+  <rect x="252" y="82" width="110" height="24" rx="3" fill="white" stroke="#DE8F05" stroke-width="0.8"/>
+  <text x="307" y="97" text-anchor="middle" font-size="7" fill="#333" font-family="serif">2. LLM Alias Match</text>
+
+  <rect x="252" y="112" width="110" height="30" rx="3" fill="white" stroke="#DE8F05" stroke-width="0.8"/>
+  <text x="307" y="126" text-anchor="middle" font-size="7" fill="#333" font-family="serif">3. Fuzzy (Jaccard)</text>
+  <text x="307" y="137" text-anchor="middle" font-size="6.5" fill="#888" font-family="serif">threshold = 0.60</text>
+
+  <!-- Arrow between layers -->
+  <text x="254" y="78" font-size="8" fill="#999" font-family="serif">&#x2193;</text>
+  <text x="254" y="109" font-size="8" fill="#999" font-family="serif">&#x2193;</text>
+
+  <line x1="372" y1="100" x2="395" y2="100" stroke="#666" stroke-width="1.2" marker-end="url(#arrowhead2)"/>
+
+  <!-- Step 4: First Relevant Rank -->
+  <rect x="398" y="70" width="100" height="60" rx="4" fill="#e8f5e9" stroke="#029E73" stroke-width="1.5"/>
+  <text x="448" y="90" text-anchor="middle" font-size="8" font-weight="700" fill="#1a1a1a" font-family="serif">First Relevant</text>
+  <text x="448" y="103" text-anchor="middle" font-size="8" font-weight="700" fill="#1a1a1a" font-family="serif">Rank</text>
+  <text x="448" y="120" text-anchor="middle" font-size="7" fill="#555" font-family="serif" font-style="italic">r&#x1d62; for each query</text>
+
+  <line x1="498" y1="100" x2="518" y2="100" stroke="#666" stroke-width="1.2" marker-end="url(#arrowhead2)"/>
+
+  <!-- Step 5: Metrics -->
+  <rect x="521" y="40" width="170" height="120" rx="4" fill="#e8f5e9" stroke="#029E73" stroke-width="1.5"/>
+  <text x="606" y="60" text-anchor="middle" font-size="8.5" font-weight="700" fill="#1a1a1a" font-family="serif">Metric Computation</text>
+
+  <rect x="531" y="68" width="75" height="22" rx="3" fill="white" stroke="#029E73" stroke-width="0.8"/>
+  <text x="568" y="82" text-anchor="middle" font-size="7" fill="#333" font-family="serif">Hit@K</text>
+
+  <rect x="614" y="68" width="68" height="22" rx="3" fill="white" stroke="#029E73" stroke-width="0.8"/>
+  <text x="648" y="82" text-anchor="middle" font-size="7" fill="#333" font-family="serif">MRR<tspan font-size="5.5" dy="-3">global</tspan></text>
+
+  <rect x="531" y="98" width="75" height="22" rx="3" fill="white" stroke="#029E73" stroke-width="0.8"/>
+  <text x="568" y="112" text-anchor="middle" font-size="7" fill="#333" font-family="serif">MRR<tspan font-size="5.5" dy="-3">filtered</tspan></text>
+
+  <rect x="614" y="98" width="68" height="22" rx="3" fill="white" stroke="#029E73" stroke-width="0.8"/>
+  <text x="648" y="112" text-anchor="middle" font-size="7" fill="#333" font-family="serif">Coverage</text>
+
+  <text x="606" y="140" text-anchor="middle" font-size="7" fill="#555" font-family="serif" font-style="italic">K &#x2208; {1, 3, 5, 10}</text>
+</svg>
+<p class="fig-caption"><strong>Figure A2.</strong> Evaluation pipeline. Predictions undergo normalization, then pass through a hierarchical three-layer matching policy. The first matching rank determines all downstream metrics.</p>
+</div>
+
+<!-- ── F. Prompting Strategy Details ──────────────────────────────────── -->
+<h2 style="counter-reset: none;">Appendix F: Prompting Strategy</h2>
+
+<p class="no-indent">
+The LLM-based recognizer employs a two-step prompting strategy. The first step generates contextual background, and the second step uses that context to infer and rank candidate entities.
+</p>
+
+<div class="table-wrap" style="column-span: all;">
+  <p class="table-caption"><strong>Table A5.</strong> Prompt templates for the two-step LLM-based recognition strategy. Entity type conditioning adapts the inference prompt to the expected entity class.</p>
+  <table>
+    <thead>
+      <tr>
+        <th style="width:15%;">Step</th>
+        <th style="width:15%;">Entity Type</th>
+        <th>Prompt Template</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td style="text-align:left; vertical-align:top;" rowspan="1"><strong>1. Contextualization</strong></td>
+        <td style="text-align:left; vertical-align:top;">All types</td>
+        <td style="text-align:left; font-size:7.5pt; font-family:monospace;">Given the following text, generate situational or historical background that might help identify the implicit entity being referenced: "{text}"</td>
+      </tr>
+      <tr>
+        <td style="text-align:left; vertical-align:top;" rowspan="3"><strong>2. Inference &amp; Ranking</strong></td>
+        <td style="text-align:left;">Person</td>
+        <td style="text-align:left; font-size:7.5pt; font-family:monospace;">Who is the person implicitly described in this text? Provide your top 3 guesses ranked by likelihood.</td>
+      </tr>
+      <tr>
+        <td style="text-align:left;">Place</td>
+        <td style="text-align:left; font-size:7.5pt; font-family:monospace;">What is the place implicitly referenced in this text? Provide your top 3 guesses ranked by likelihood.</td>
+      </tr>
+      <tr>
+        <td style="text-align:left;">Event</td>
+        <td style="text-align:left; font-size:7.5pt; font-family:monospace;">What is the event implicitly described in this text? Provide your top 3 guesses ranked by likelihood.</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<!-- ── G. Configuration Parameters ────────────────────────────────────── -->
+<h2 style="counter-reset: none;">Appendix G: Experimental Configuration</h2>
+
+<div class="table-wrap">
+  <p class="table-caption"><strong>Table A6.</strong> Key hyperparameters and configuration settings for all recognition methods.</p>
+  <table>
+    <thead>
+      <tr><th style="text-align:left;">Parameter</th><th>LLM</th><th>Embedding</th><th>RAG</th></tr>
+    </thead>
+    <tbody>
+      <tr><td style="text-align:left;">Top-K candidates</td><td>3</td><td>5</td><td>5</td></tr>
+      <tr><td style="text-align:left;">Guesses per query</td><td>3</td><td>5</td><td>3</td></tr>
+      <tr><td style="text-align:left;">Prompt strategy</td><td>Historical background</td><td>N/A</td><td>Historical background</td></tr>
+      <tr><td style="text-align:left;">Entity type conditioning</td><td>Yes</td><td>No</td><td>Yes</td></tr>
+      <tr><td style="text-align:left;">Retrieval stage</td><td>None</td><td>Cosine similarity</td><td>Cosine similarity</td></tr>
+      <tr><td style="text-align:left;">Reasoning stage</td><td>Full LLM inference</td><td>None</td><td>LLM re-ranking</td></tr>
+      <tr><td style="text-align:left;">Jaccard threshold (\(\tau\))</td><td colspan="3">0.60 (shared across all methods for fuzzy matching)</td></tr>
+    </tbody>
+  </table>
+</div>
+
+</main>
+</div>
+
+</body>
+</html>
