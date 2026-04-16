@@ -1,0 +1,20 @@
+{
+  "dataset": "twitter",
+  "method": "hybrid",
+  "model": "google/gemini-2.0-flash-001",
+  "timestamp": "20260416_092603",
+  "sbert_available": true,
+  "n_samples": 856,
+  "n_matched": 558,
+  "Hit@1": 0.6121495327102804,
+  "Hit@3": 0.647196261682243,
+  "Hit@5": 0.6507009345794392,
+  "Hit@10": 0.6518691588785047,
+  "Global_MRR": 0.6302180685358256,
+  "Filtered_MRR": 0.9667861409796894,
+  "tier_exact": 536,
+  "tier_alias": 13,
+  "tier_jaccard": 9,
+  "tier_none": 298,
+  "elapsed_seconds": 141.3
+}

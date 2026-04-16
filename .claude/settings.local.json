@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(/c/Python314/python experiments/run_battery.py --smoke-only)",
+      "Bash(/c/Python314/python experiments/run_battery.py --group 1,2,3,4,5 --concurrency 15)",
+      "Bash(/c/Python314/python experiments/train_dpr.py --dry-run)",
+      "Bash(/c/Python314/python -c ':*)",
+      "Bash(ls -la E:/Projects/ImplicitEntities/experiments/train_*.py E:/Projects/ImplicitEntities/experiments/run_*.py)",
+      "Bash(/c/Python314/python experiments/fix_rc4_embedding.py --dataset twitter --concurrency 15)",
+      "Bash(/c/Python314/python experiments/train_dpr.py --base-model all-MiniLM-L6-v2 --mode description --epochs 10 --batch-size 64)"
+    ]
+  }
+}

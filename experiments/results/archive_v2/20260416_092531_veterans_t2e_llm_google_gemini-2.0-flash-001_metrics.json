@@ -1,0 +1,20 @@
+{
+  "dataset": "veterans_t2e",
+  "method": "llm",
+  "model": "google/gemini-2.0-flash-001",
+  "timestamp": "20260416_092531",
+  "sbert_available": true,
+  "n_samples": 10,
+  "n_matched": 6,
+  "Hit@1": 0.6,
+  "Hit@3": 0.6,
+  "Hit@5": 0.6,
+  "Hit@10": 0.6,
+  "Global_MRR": 0.6,
+  "Filtered_MRR": 1.0,
+  "tier_exact": 2,
+  "tier_alias": 4,
+  "tier_jaccard": 0,
+  "tier_none": 4,
+  "elapsed_seconds": 3.9
+}

@@ -1,0 +1,18 @@
+{
+  "dataset": "bench_veterans_t2e",
+  "method": "llm_batch",
+  "model": "gpt-3.5-turbo",
+  "battery_dir": "E:\\Projects\\ImplicitEntities\\experiments\\results\\battery_20260416_114734",
+  "n_samples": 620,
+  "n_matched": 269,
+  "Hit@1": 0.29516129032258065,
+  "Hit@3": 0.4338709677419355,
+  "Hit@5": 0.4338709677419355,
+  "Hit@10": 0.4338709677419355,
+  "Global_MRR": 0.3586021505376344,
+  "Filtered_MRR": 0.8265179677819082,
+  "tier_exact": 127,
+  "tier_alias": 123,
+  "tier_jaccard": 19,
+  "tier_none": 351
+}

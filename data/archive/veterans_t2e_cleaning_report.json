@@ -1,0 +1,140 @@
+{
+  "input_file": "E:\\Projects\\ImplicitEntities\\data\\implicit_reference_veterans_dataset.csv",
+  "output_file": "E:\\Projects\\ImplicitEntities\\data\\veterans_t2e_cleaned.csv",
+  "total_before": 846,
+  "total_after": 764,
+  "total_removed": 82,
+  "removal_breakdown": {
+    "generic_entity": 77,
+    "name_leaked": 5,
+    "too_short_entity": 0,
+    "identical_text": 0
+  },
+  "removal_details": {
+    "generic_entity": [
+      {
+        "entity": "i",
+        "type": "people",
+        "reason": "Generic entity: 'i'"
+      },
+      {
+        "entity": "war",
+        "type": "events",
+        "reason": "Generic entity: 'war'"
+      },
+      {
+        "entity": "war",
+        "type": "events",
+        "reason": "Generic entity: 'war'"
+      },
+      {
+        "entity": "soldiers",
+        "type": "people",
+        "reason": "Generic entity: 'soldiers'"
+      },
+      {
+        "entity": "soldiers",
+        "type": "people",
+        "reason": "Generic entity: 'soldiers'"
+      },
+      {
+        "entity": "mba",
+        "type": "professions",
+        "reason": "Generic entity: 'mba'"
+      },
+      {
+        "entity": "soldiers",
+        "type": "people",
+        "reason": "Generic entity: 'soldiers'"
+      },
+      {
+        "entity": "war",
+        "type": "events",
+        "reason": "Generic entity: 'war'"
+      },
+      {
+        "entity": "i",
+        "type": "people",
+        "reason": "Generic entity: 'i'"
+      },
+      {
+        "entity": "war",
+        "type": "events",
+        "reason": "Generic entity: 'war'"
+      }
+    ],
+    "name_leaked": [
+      {
+        "entity": "px",
+        "type": "places",
+        "text_snippet": "During my time in the Air Force, I was fortunate to have plenty of supplies at my disposal. There wa",
+        "reason": "Entity 'px' found in implicit text"
+      },
+      {
+        "entity": "mechanic",
+        "type": "professions",
+        "text_snippet": "Once I completed the 16 weeks of basic training, I was given 30 days to go home before being shipped",
+        "reason": "Entity 'mechanic' found in implicit text"
+      },
+      {
+        "entity": "february 15th",
+        "type": "events",
+        "text_snippet": "The journey to Japan began right after Christmas, around January 15th. I remember boarding the troop",
+        "reason": "Entity 'february 15th' found in implicit text"
+      },
+      {
+        "entity": "water truck",
+        "type": "places",
+        "text_snippet": "In the midst of the chaos, we encountered a soldier sitting on the ground, exhausted. We helped him ",
+        "reason": "Entity 'water truck' found in implicit text"
+      },
+      {
+        "entity": "combat training",
+        "type": "events",
+        "text_snippet": "In terms of training, we received both engineering instruction and preparation for high-pressure sit",
+        "reason": "Entity 'combat training' found in implicit text"
+      }
+    ],
+    "too_short_entity": [],
+    "identical_text": []
+  },
+  "type_distribution_before": {
+    "Place": 274,
+    "Profession": 168,
+    "Event": 153,
+    "Person": 135,
+    "Organization": 116
+  },
+  "type_distribution_after": {
+    "Place": 272,
+    "Profession": 151,
+    "Event": 139,
+    "Organization": 113,
+    "Person": 89
+  },
+  "unique_entities_before": 532,
+  "unique_entities_after": 502,
+  "top_entities_after": {
+    "vietnam": 21,
+    "world war ii": 14,
+    "air force": 10,
+    "army": 9,
+    "japan": 9,
+    "marines": 7,
+    "korea": 7,
+    "lieutenant": 6,
+    "quang tri": 6,
+    "101st airborne": 6,
+    "sergeant": 5,
+    "nha trang": 5,
+    "pearl harbor": 4,
+    "united states": 4,
+    "statue of liberty": 4,
+    "gi bill": 4,
+    "north africa": 4,
+    "navy": 4,
+    "pilots": 4,
+    "eighth field hospital": 4
+  },
+  "narrators": 10
+}

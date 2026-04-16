@@ -1,0 +1,19 @@
+{
+  "dataset": "bench_twitter_e2t",
+  "method": "hybrid",
+  "model": "google/gemini-2.0-flash-001:floor",
+  "battery_dir": "E:\\Projects\\ImplicitEntities\\experiments\\results\\battery_20260416_114734",
+  "n_samples": 769,
+  "n_matched": 356,
+  "Hit@1": 0.43302990897269183,
+  "Hit@3": 0.4577373211963589,
+  "Hit@5": 0.459037711313394,
+  "Hit@10": 0.46293888166449937,
+  "Global_MRR": 0.44600284847358973,
+  "Filtered_MRR": 0.9634162653825575,
+  "tier_exact": 343,
+  "tier_alias": 9,
+  "tier_jaccard": 4,
+  "tier_none": 413,
+  "elapsed_seconds": 209.5
+}

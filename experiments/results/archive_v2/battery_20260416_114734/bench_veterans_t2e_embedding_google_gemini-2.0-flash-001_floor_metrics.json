@@ -1,0 +1,19 @@
+{
+  "dataset": "bench_veterans_t2e",
+  "method": "embedding",
+  "model": "google/gemini-2.0-flash-001:floor",
+  "battery_dir": "E:\\Projects\\ImplicitEntities\\experiments\\results\\battery_20260416_114734",
+  "n_samples": 620,
+  "n_matched": 183,
+  "Hit@1": 0.04032258064516129,
+  "Hit@3": 0.11774193548387096,
+  "Hit@5": 0.18870967741935485,
+  "Hit@10": 0.29516129032258065,
+  "Global_MRR": 0.105592037890425,
+  "Filtered_MRR": 0.3577435163500738,
+  "tier_exact": 152,
+  "tier_alias": 19,
+  "tier_jaccard": 12,
+  "tier_none": 437,
+  "elapsed_seconds": 164.1
+}

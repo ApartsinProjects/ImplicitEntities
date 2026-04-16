@@ -1,0 +1,19 @@
+{
+  "dataset": "veterans_t2e",
+  "method": "ensemble_majority",
+  "model": "ensemble",
+  "timestamp": "20260416_103429",
+  "sbert_available": true,
+  "n_samples": 846,
+  "n_matched": 196,
+  "Hit@1": 0.04018912529550828,
+  "Hit@3": 0.04846335697399527,
+  "Hit@5": 0.061465721040189124,
+  "Hit@10": 0.23167848699763594,
+  "Global_MRR": 0.06645981087470448,
+  "Filtered_MRR": 0.28686224489795925,
+  "tier_exact": 183,
+  "tier_alias": 0,
+  "tier_jaccard": 13,
+  "tier_none": 650
+}
