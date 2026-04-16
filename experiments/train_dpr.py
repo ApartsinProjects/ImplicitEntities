@@ -370,8 +370,9 @@ class IRCRetrievalEvaluator(BaseEvaluator):
 def train(args):
     """Main training loop."""
     logger.info("Loading data...")
-    train_rows = load_csv(TRAIN_CSV)
-    test_rows = load_csv(TEST_CSV)
+    all_rows = load_csv(BENCH_V3)
+    train_rows = [r for r in all_rows if r.get("partition", "train") == "train"]
+    test_rows = [r for r in all_rows if r.get("partition", "train") == "test"]
     descriptions = load_descriptions(DESCRIPTIONS_JSON)
 
     logger.info("Train samples: %d", len(train_rows))
@@ -561,8 +562,9 @@ def evaluate_only(args):
         sys.exit(1)
 
     logger.info("Loading data...")
-    train_rows = load_csv(TRAIN_CSV)
-    test_rows = load_csv(TEST_CSV)
+    all_rows = load_csv(BENCH_V3)
+    train_rows = [r for r in all_rows if r.get("partition", "train") == "train"]
+    test_rows = [r for r in all_rows if r.get("partition", "train") == "test"]
     descriptions = load_descriptions(DESCRIPTIONS_JSON)
 
     entity_names, entity_texts = build_entity_corpus(
