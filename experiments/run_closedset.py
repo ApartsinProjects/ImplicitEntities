@@ -84,16 +84,18 @@ def build_chunked_pass1_prompts(
     type_hint = f" (entity type: {sample.entity_type})" if include_type and sample.entity_type else ""
     prompts = []
     for chunk in entity_chunks:
-        entity_str = ", ".join(chunk)
+        # Use numbered list instead of comma-separated (fix #4b)
+        entity_str = "\n".join(f"  {i+1}. {e}" for i, e in enumerate(chunk))
         messages = [
             {"role": "system", "content": (
                 "You are identifying implicitly referenced entities. "
-                "Given a text and a list of candidates, pick the single best match. "
-                "Output ONLY the entity name, nothing else. If none match, output NONE."
+                "Given a text and a numbered list of candidates, pick the single best match. "
+                "Output ONLY the entity name exactly as it appears in the list, nothing else. "
+                "If none match, output NONE."
             )},
             {"role": "user", "content": (
                 f"Text{type_hint}: \"{sample.text}\"\n\n"
-                f"Candidates: {entity_str}\n\n"
+                f"Candidates:\n{entity_str}\n\n"
                 f"Best match:"
             )},
         ]

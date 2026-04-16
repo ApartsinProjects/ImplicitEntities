@@ -441,29 +441,66 @@ def build_llm_context_prompts(samples: list[Sample]) -> list[list[dict]]:
 
 def build_llm_inference_prompts(
     samples: list[Sample],
-    contexts: list[str],
+    contexts: list[str] = None,
 ) -> list[list[dict]]:
-    """Step 2: Given context, infer the implicitly described entity."""
+    """
+    Build inference prompts. Direct single-step (no context) by default.
+    Applies fixes #1 (strict format), #2 (no context), #4 (negative instruction).
+    """
     prompts = []
-    for s, ctx in zip(samples, contexts):
+    for i, s in enumerate(samples):
         entity_type_hint = s.entity_type if s.entity_type else "entity"
-        ctx_text = ctx if ctx else "(no additional context available)"
         prompts.append([
             {"role": "system", "content": (
-                "You are an expert at identifying implicitly referenced entities in text. "
-                "Given a passage and background context, identify the specific "
-                f"'{entity_type_hint}' that is being implicitly described. "
-                "Provide your top 3 guesses ranked by confidence.\n\n"
-                "IMPORTANT: Respond in EXACTLY this format (one guess per line):\n"
-                "1. <your first guess>\n"
-                "2. <your second guess>\n"
-                "3. <your third guess>\n\n"
-                "Do NOT add explanations, just the entity names."
+                "You are an expert at identifying named entities that are implicitly "
+                "referenced in text without being named directly. "
+                "Output ONLY specific entity names (proper nouns, named places, named events, "
+                "named organizations, or named people). "
+                "Do NOT output generic descriptions like 'a soldier', 'the narrator', or 'military service'. "
+                "If the text does not clearly reference a specific named entity, output NONE."
             )},
             {"role": "user", "content": (
                 f"Text: \"{s.text}\"\n\n"
-                f"Background context: {ctx_text}\n\n"
-                f"What {entity_type_hint} is implicitly described? Give top 3 guesses."
+                f"What specific {entity_type_hint} is implicitly described in this text?\n\n"
+                f"Output EXACTLY 3 entity names, one per line. "
+                f"No descriptions, no numbering, no explanations. Just the bare entity name on each line:"
+            )},
+        ])
+    return prompts
+
+
+def build_llm_fewshot_prompts(
+    samples: list[Sample],
+) -> list[list[dict]]:
+    """
+    Few-shot prompts with 3 worked examples. Fix #3.
+    This is a separate method for fair comparison with zero-shot.
+    """
+    FEW_SHOT_EXAMPLES = (
+        'Examples of implicit entity references:\n'
+        'Text: "a colossal figure holding a torch high, a beacon of hope and freedom"\n'
+        '-> Statue of Liberty\n\n'
+        'Text: "he spoke of a dream, his voice rising like a hymn that marched into the streets"\n'
+        '-> Martin Luther King Jr.\n\n'
+        'Text: "the surprise military strike on the major naval base in the Pacific"\n'
+        '-> Pearl Harbor\n\n'
+    )
+    prompts = []
+    for s in samples:
+        entity_type_hint = s.entity_type if s.entity_type else "entity"
+        prompts.append([
+            {"role": "system", "content": (
+                "You are an expert at identifying named entities that are implicitly "
+                "referenced in text without being named directly. "
+                "Output ONLY specific entity names (proper nouns). "
+                "Do NOT output generic descriptions. "
+                "If the text does not clearly reference a specific named entity, output NONE."
+            )},
+            {"role": "user", "content": (
+                f"{FEW_SHOT_EXAMPLES}"
+                f"Now identify the {entity_type_hint} implicitly described:\n"
+                f"Text: \"{s.text}\"\n\n"
+                f"Output exactly 3 entity names, one per line:"
             )},
         ])
     return prompts
@@ -518,22 +555,8 @@ async def smoke_test_llm(
     test_samples = samples[:n_samples]
     print(f"\n  [SMOKE TEST] Testing {n_samples} samples with {model}...")
 
-    # Step 1: context
-    ctx_prompts = build_llm_context_prompts(test_samples)
-    contexts = await batch_call(
-        ctx_prompts, model=model, temperature=0.3, max_tokens=200,
-        concurrency=concurrency, progress_every=999,
-    )
-
-    null_contexts = sum(1 for c in contexts if c is None)
-    if null_contexts == n_samples:
-        print(f"  [SMOKE TEST] FAIL: All {n_samples} context calls returned None. API or model issue.")
-        return False
-
-    contexts = [c or "" for c in contexts]
-
-    # Step 2: inference
-    inf_prompts = build_llm_inference_prompts(test_samples, contexts)
+    # Direct inference (single-step, no context)
+    inf_prompts = build_llm_inference_prompts(test_samples)
     responses = await batch_call(
         inf_prompts, model=model, temperature=0.2, max_tokens=150,
         concurrency=concurrency, progress_every=999,
@@ -571,22 +594,37 @@ async def run_llm_method(
     batch_size: int = 0,
 ) -> list[list[str]]:
     """
-    Two-step LLM method.
-    Returns list of ranked predictions per sample (up to 3 guesses each).
+    Direct single-step LLM method (no context generation).
+    Uses strict output format + negative instruction.
+    Returns list of ranked predictions per sample.
     """
-    print("\n  [LLM Method] Step 1: Generating contextual background...")
-    ctx_prompts = build_llm_context_prompts(samples)
-    contexts = await batch_call(
-        ctx_prompts, model=model, temperature=0.3, max_tokens=200,
+    print("\n  [LLM Method] Direct inference (single-step, strict format)...")
+    inf_prompts = build_llm_inference_prompts(samples)
+    responses = await batch_call(
+        inf_prompts, model=model, temperature=0.2, max_tokens=100,
         concurrency=concurrency, progress_every=50,
     )
-    # Replace None with empty string
-    contexts = [c or "" for c in contexts]
 
-    print("\n  [LLM Method] Step 2: Inferring entities from context...")
-    inf_prompts = build_llm_inference_prompts(samples, contexts)
+    all_predictions = []
+    for resp in responses:
+        guesses = parse_ranked_guesses(resp or "")
+        all_predictions.append(guesses)
+
+
+async def run_llm_fewshot_method(
+    samples: list[Sample],
+    model: str,
+    concurrency: int = 10,
+    batch_size: int = 0,
+) -> list[list[str]]:
+    """
+    Few-shot LLM method with 3 worked examples.
+    For comparison with zero-shot method.
+    """
+    print("\n  [LLM Few-shot] Inference with 3 examples...")
+    inf_prompts = build_llm_fewshot_prompts(samples)
     responses = await batch_call(
-        inf_prompts, model=model, temperature=0.2, max_tokens=150,
+        inf_prompts, model=model, temperature=0.2, max_tokens=100,
         concurrency=concurrency, progress_every=50,
     )
 
@@ -1141,6 +1179,8 @@ async def run_single_experiment(
     # Run method
     if method_name == "llm":
         predictions = await run_llm_method(samples, model, concurrency, batch_size)
+    elif method_name == "fewshot":
+        predictions = await run_llm_fewshot_method(samples, model, concurrency, batch_size)
     elif method_name == "embedding":
         predictions = await run_embedding_method(
             samples, unique_entities, model, concurrency, batch_size
