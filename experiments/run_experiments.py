@@ -888,16 +888,21 @@ async def evaluate_predictions(
     model: str,
     concurrency: int = 10,
     max_k: int = 10,
+    skip_llm_alias: bool = False,
+    llm_alias_top_n: int = 3,
 ) -> list[EvalResult]:
     """
-    Evaluate predictions with 3-tier matching.
-    Returns per-sample EvalResult objects.
+    Evaluate predictions with 5-tier matching.
+
+    Speedup options:
+      skip_llm_alias=True  : skip tier 5 entirely (for embedding experiments)
+      llm_alias_top_n=3    : only check top N predictions for alias (default 3, not 10)
     """
-    print("\n  [Evaluation] Running 5-tier matching...")
+    print(f"\n  [Evaluation] Running {'4' if skip_llm_alias else '5'}-tier matching...")
     results: list[EvalResult] = []
 
-    # First pass: exact, containment, synonym, jaccard matches
-    needs_llm_check: list[tuple[int, int, str, str]] = []  # (result_idx, rank, pred, gold)
+    # First pass: exact, containment, jaccard, synonym (all local, fast)
+    needs_llm_check: list[tuple[int, int, str, str]] = []
 
     for i, (s, preds) in enumerate(zip(samples, predictions)):
         er = EvalResult(sample=s, predictions=preds[:max_k])
@@ -947,9 +952,14 @@ async def evaluate_predictions(
         if er.match_rank > 0:
             continue
 
-        # Tier 5: Need LLM alias check for unmatched predictions
-        for rank, pred in enumerate(preds[:max_k], start=1):
-            needs_llm_check.append((i, rank, pred, s.entity))
+        # Tier 5: LLM alias check (only top N predictions, skip if flag set)
+        if not skip_llm_alias:
+            for rank, pred in enumerate(preds[:llm_alias_top_n], start=1):
+                needs_llm_check.append((i, rank, pred, s.entity))
+
+    n_local_matched = sum(1 for r in results if r.match_rank > 0)
+    print(f"  [Evaluation] Local matching: {n_local_matched}/{len(results)} matched "
+          f"(tiers 1-4, no API calls)")
 
     # Batch LLM alias checks
     if needs_llm_check:
@@ -1211,9 +1221,12 @@ async def run_single_experiment(
     else:
         raise ValueError(f"Unknown method: {method_name}")
 
-    # Evaluate
+    # Evaluate (skip expensive LLM alias for embedding-only methods)
+    skip_llm = method_name in ("embedding",)
     eval_results = await evaluate_predictions(
         samples, predictions, model=model, concurrency=concurrency,
+        skip_llm_alias=skip_llm,
+        llm_alias_top_n=3,  # only check top 3, not all 10
     )
 
     # Compute metrics
