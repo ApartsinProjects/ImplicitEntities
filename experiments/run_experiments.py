@@ -132,6 +132,42 @@ def load_dataset(name: str) -> tuple[list[Sample], list[str]]:
                 sqn=int(row.get("SQN", 0) or 0),
             ))
 
+    elif name == "veterans_t2e_v2":
+        path = DATA_DIR / "veterans_t2e_v2.csv"
+        df = pd.read_csv(path, dtype=str).fillna("")
+        for _, row in df.iterrows():
+            if not row["text"].strip() or not row["entity"].strip():
+                continue
+            samples.append(Sample(
+                uid=str(row["uid"]),
+                text=row["text"].strip(),
+                entity=row["entity"].strip(),
+                entity_type=row["entity_type"].strip(),
+                source=row.get("source", "veterans"),
+                origin=row.get("origin", ""),
+                sqn=int(row.get("SQN", 0) or 0),
+            ))
+
+    elif name == "veterans_t2e_core":
+        # Core types only: Person, Place, Event (no Profession/Organization)
+        path = DATA_DIR / "veterans_t2e_v2.csv"
+        df = pd.read_csv(path, dtype=str).fillna("")
+        core_types = {"Place", "Person", "Event"}
+        for _, row in df.iterrows():
+            if not row["text"].strip() or not row["entity"].strip():
+                continue
+            if row["entity_type"].strip() not in core_types:
+                continue
+            samples.append(Sample(
+                uid=str(row["uid"]),
+                text=row["text"].strip(),
+                entity=row["entity"].strip(),
+                entity_type=row["entity_type"].strip(),
+                source=row.get("source", "veterans"),
+                origin=row.get("origin", ""),
+                sqn=int(row.get("SQN", 0) or 0),
+            ))
+
     elif name.startswith("e2t_"):
         domain = name.replace("e2t_", "")
         # Find matching generated files
