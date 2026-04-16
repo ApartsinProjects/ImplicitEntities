@@ -863,17 +863,62 @@ async def evaluate_predictions(
 
 
 def compute_metrics(results: list[EvalResult], max_k: int = 10) -> dict:
-    """Compute Hit@K, Global MRR, and Filtered MRR from evaluation results."""
+    """
+    Compute full evaluation metrics from results.
+
+    Metrics:
+      - Hit@K: proportion of queries with correct entity in top K
+      - Precision@K: avg fraction of top-K that are correct (single gold: 0 or 1/K)
+      - Recall@K: avg fraction of gold entities found in top-K (single gold: same as Hit@K)
+      - Global MRR: avg reciprocal rank (0 for misses)
+      - Filtered MRR: avg reciprocal rank for hits only
+      - nDCG@K: normalized discounted cumulative gain with binary relevance
+      - Match tier distribution
+    """
     n = len(results)
     if n == 0:
         return {}
 
+    ks = [k for k in [1, 3, 5, 10] if k <= max_k]
+
     hits_at = {}
-    for k in [1, 3, 5, 10]:
-        if k > max_k:
-            continue
-        count = sum(1 for r in results if 0 < r.match_rank <= k)
-        hits_at[f"Hit@{k}"] = count / n
+    precision_at = {}
+    recall_at = {}
+    ndcg_at = {}
+
+    for k in ks:
+        hit_count = sum(1 for r in results if 0 < r.match_rank <= k)
+        hits_at[f"Hit@{k}"] = hit_count / n
+
+        # Precision@K = (# correct in top-K) / K
+        # With single gold: either 1/K (if hit) or 0
+        prec_sum = 0.0
+        for r in results:
+            n_correct_in_k = 1.0 if (0 < r.match_rank <= k) else 0.0
+            prec_sum += n_correct_in_k / k
+        precision_at[f"P@{k}"] = prec_sum / n
+
+        # Recall@K = (# correct in top-K) / (# total relevant)
+        # With single gold: same as Hit@K. With multi-reference, divide by n_gold.
+        # For now single gold, so Recall@K = Hit@K
+        n_gold = 1  # single reference per sample
+        recall_sum = 0.0
+        for r in results:
+            n_correct_in_k = 1.0 if (0 < r.match_rank <= k) else 0.0
+            recall_sum += n_correct_in_k / n_gold
+        recall_at[f"R@{k}"] = recall_sum / n
+
+        # nDCG@K with binary relevance
+        # DCG@K = sum(rel_i / log2(i+1)) for i=1..K
+        # Ideal DCG@K = 1/log2(2) = 1.0 (single relevant item at rank 1)
+        ideal_dcg = 1.0  # single relevant item
+        ndcg_sum = 0.0
+        for r in results:
+            if 0 < r.match_rank <= k:
+                dcg = 1.0 / np.log2(r.match_rank + 1)
+                ndcg_sum += dcg / ideal_dcg
+            # else: dcg = 0, ndcg contribution = 0
+        ndcg_at[f"nDCG@{k}"] = ndcg_sum / n
 
     # Global MRR: 1/rank for matches, 0 for non-matches
     reciprocal_ranks = []
@@ -897,6 +942,9 @@ def compute_metrics(results: list[EvalResult], max_k: int = 10) -> dict:
         "n_samples": n,
         "n_matched": sum(1 for r in results if r.match_rank > 0),
         **hits_at,
+        **precision_at,
+        **recall_at,
+        **ndcg_at,
         "Global_MRR": global_mrr,
         "Filtered_MRR": filtered_mrr,
         **{f"tier_{k}": v for k, v in tier_counts.items()},
@@ -915,9 +963,17 @@ def print_metrics(metrics: dict, label: str = ""):
           f"({100 * metrics.get('n_matched', 0) / max(metrics.get('n_samples', 1), 1):.1f}%)")
     print()
 
-    for k in ["Hit@1", "Hit@3", "Hit@5", "Hit@10"]:
-        if k in metrics:
-            print(f"  {k:12s}: {metrics[k]:.4f}  ({metrics[k]*100:.1f}%)")
+    # Hit@K row
+    header = f"  {'K':>4s}  {'Hit@K':>8s}  {'P@K':>8s}  {'R@K':>8s}  {'nDCG@K':>8s}"
+    print(header)
+    print(f"  {'-' * 42}")
+    for k in [1, 3, 5, 10]:
+        hk = metrics.get(f"Hit@{k}")
+        pk = metrics.get(f"P@{k}")
+        rk = metrics.get(f"R@{k}")
+        nk = metrics.get(f"nDCG@{k}")
+        if hk is not None:
+            print(f"  {k:>4d}  {hk:>8.4f}  {pk:>8.4f}  {rk:>8.4f}  {nk:>8.4f}")
     print()
     print(f"  {'Global MRR':12s}: {metrics.get('Global_MRR', 0):.4f}")
     print(f"  {'Filtered MRR':12s}: {metrics.get('Filtered_MRR', 0):.4f}")
