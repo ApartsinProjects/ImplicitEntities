@@ -466,9 +466,9 @@ def build_llm_inference_prompts(
             )},
             {"role": "user", "content": (
                 f"Text: \"{s.text}\"\n\n"
-                f"What specific {entity_type_hint} is implicitly described in this text?\n\n"
-                f"Output EXACTLY 3 entity names, one per line. "
-                f"No descriptions, no numbering, no explanations. Just the bare entity name on each line:"
+                f"What specific {entity_type_hint} is implicitly described in this text?\n"
+                f"Rank: most specific and most likely first.\n\n"
+                f"Output EXACTLY 3 entity names, one per line:"
             )},
         ])
     return prompts
@@ -481,18 +481,19 @@ def build_llm_fewshot_prompts(
     Few-shot prompts with 3 worked examples. Fix #3.
     This is a separate method for fair comparison with zero-shot.
     """
+    # Examples use different entities than benchmark to avoid answer leakage
     FEW_SHOT_EXAMPLES = (
-        'Examples of implicit entity references:\n'
-        'Text (Place): "a colossal figure holding a torch high, a beacon of hope and freedom"\n'
-        '-> Statue of Liberty\n\n'
-        'Text (Person): "he spoke of a dream, his voice rising like a hymn that marched into the streets"\n'
-        '-> Martin Luther King Jr.\n\n'
-        'Text (Event): "the surprise military strike on the major naval base in the Pacific"\n'
-        '-> Pearl Harbor\n\n'
-        'Text (Organization): "a prominent philanthropic organization known for its commitment to social justice"\n'
-        '-> Ford Foundation\n\n'
-        'Text (Work): "the director\'s epic about a sinking ship and a doomed romance won every award"\n'
-        '-> Titanic\n\n'
+        'Examples of implicit entity references:\n\n'
+        'Text (Place): "We sat on the grass near the iron lattice tower, splitting a baguette as accordion music drifted across the river"\n'
+        '-> Eiffel Tower\n\n'
+        'Text (Person): "Number 23, ball in hand, hanging in the air like time stopped and gravity did not apply"\n'
+        '-> Michael Jordan\n\n'
+        'Text (Event): "Everything changed when news came of the attacks on the twin towers in September"\n'
+        '-> September 11 attacks\n\n'
+        'Text (Organization): "The international humanitarian movement founded in Geneva, recognized by its distinctive red symbol"\n'
+        '-> Red Cross\n\n'
+        'Text (Work): "The boy wizard and his friends battled the dark lord across seven installments"\n'
+        '-> Harry Potter\n\n'
     )
     prompts = []
     for s in samples:
@@ -500,10 +501,17 @@ def build_llm_fewshot_prompts(
         prompts.append([
             {"role": "system", "content": (
                 "You are an expert at identifying named entities that are implicitly "
-                "referenced in text without being named directly. "
-                "Output ONLY specific entity names (proper nouns). "
+                "referenced in text without being named directly.\n\n"
+                "Entity types to look for:\n"
+                "- Person: specific named individuals (not 'a soldier' or 'the doctor')\n"
+                "- Place: specific named locations (not 'the village' or 'home')\n"
+                "- Event: specific named events (not 'the war' or 'training')\n"
+                "- Organization: specific named groups (not 'the army' or 'the unit')\n"
+                "- Work: specific named works (not 'the movie' or 'a book')\n\n"
+                "Output ONLY proper nouns that could appear as Wikipedia article titles. "
                 "Do NOT output generic descriptions. "
-                "If the text does not clearly reference a specific named entity, output NONE."
+                "If no clear named entity, output NONE.\n\n"
+                "Rank guesses: most specific and most likely first."
             )},
             {"role": "user", "content": (
                 f"{FEW_SHOT_EXAMPLES}"
