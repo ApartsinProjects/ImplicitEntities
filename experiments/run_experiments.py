@@ -335,6 +335,42 @@ def jaccard_token_similarity(a: str, b: str) -> float:
     return len(intersection) / len(union)
 
 
+# ── Wikidata alias lookup (precomputed, loaded once) ────────────────────────
+_WIKIDATA_ALIASES = None
+
+def _load_wikidata_aliases() -> dict:
+    """Load precomputed Wikidata aliases. Returns {normalized_entity: set_of_all_names}."""
+    global _WIKIDATA_ALIASES
+    if _WIKIDATA_ALIASES is not None:
+        return _WIKIDATA_ALIASES
+
+    alias_path = Path(__file__).parent / "entity_cache" / "wikidata_aliases.json"
+    _WIKIDATA_ALIASES = {}
+    if alias_path.exists():
+        data = json.load(open(alias_path, encoding="utf-8"))
+        for key, val in data.items():
+            all_names = set()
+            if val.get("label"):
+                all_names.add(normalize(val["label"]))
+            for alias in val.get("aliases", []):
+                all_names.add(normalize(alias))
+            # Also add the original key
+            all_names.add(normalize(key))
+            _WIKIDATA_ALIASES[normalize(key)] = all_names
+    return _WIKIDATA_ALIASES
+
+
+def wikidata_alias_match(pred: str, gold: str) -> bool:
+    """Check if prediction matches any Wikidata alias of the gold entity."""
+    aliases = _load_wikidata_aliases()
+    gold_norm = normalize(gold)
+    pred_norm = normalize(pred)
+    gold_names = aliases.get(gold_norm, set())
+    if not gold_names:
+        return False
+    return pred_norm in gold_names
+
+
 def exact_match(pred: str, gold: str) -> bool:
     return normalize(pred) == normalize(gold)
 
@@ -919,7 +955,18 @@ async def evaluate_predictions(
         if er.match_rank > 0:
             continue
 
-        # Tier 2: Containment match (substring in either direction)
+        # Tier 2: Wikidata alias match (precomputed, zero cost)
+        for rank, pred in enumerate(preds[:max_k], start=1):
+            if wikidata_alias_match(pred, s.entity):
+                er.match_tier = "wikidata_alias"
+                er.match_rank = rank
+                er.matched_prediction = pred
+                break
+
+        if er.match_rank > 0:
+            continue
+
+        # Tier 3: Containment match (substring in either direction)
         for rank, pred in enumerate(preds[:max_k], start=1):
             if containment_match(pred, s.entity):
                 er.match_tier = "containment"
@@ -930,7 +977,7 @@ async def evaluate_predictions(
         if er.match_rank > 0:
             continue
 
-        # Tier 3: Jaccard token overlap (>= 0.50)
+        # Tier 4: Jaccard token overlap (>= 0.50)
         for rank, pred in enumerate(preds[:max_k], start=1):
             if jaccard_match(pred, s.entity):
                 er.match_tier = "jaccard"
@@ -941,7 +988,7 @@ async def evaluate_predictions(
         if er.match_rank > 0:
             continue
 
-        # Tier 4: WordNet synonym match (Wu-Palmer >= 0.90 or shared lemma)
+        # Tier 5: WordNet synonym match (Wu-Palmer >= 0.90 or shared lemma)
         for rank, pred in enumerate(preds[:max_k], start=1):
             if synonym_match(pred, s.entity):
                 er.match_tier = "synonym"
@@ -952,7 +999,7 @@ async def evaluate_predictions(
         if er.match_rank > 0:
             continue
 
-        # Tier 5: LLM alias check (only top N predictions, skip if flag set)
+        # Tier 6: LLM alias check (only top N predictions, skip if flag set)
         if not skip_llm_alias:
             for rank, pred in enumerate(preds[:llm_alias_top_n], start=1):
                 needs_llm_check.append((i, rank, pred, s.entity))
@@ -1060,7 +1107,7 @@ def compute_metrics(results: list[EvalResult], max_k: int = 10) -> dict:
     filtered_mrr = np.mean(filtered_rr) if filtered_rr else 0.0
 
     # Match tier distribution
-    tier_counts = {"exact": 0, "containment": 0, "jaccard": 0, "synonym": 0, "alias": 0, "none": 0}
+    tier_counts = {"exact": 0, "wikidata_alias": 0, "containment": 0, "jaccard": 0, "synonym": 0, "alias": 0, "none": 0}
     for r in results:
         tier_counts[r.match_tier] = tier_counts.get(r.match_tier, 0) + 1
 
