@@ -459,13 +459,15 @@ def build_llm_inference_prompts(
                 "- Place: specific named locations (e.g., Pearl Harbor, Manhattan, not 'the village' or 'home')\n"
                 "- Event: specific named events (e.g., Battle of the Bulge, D-Day, not 'the war' or 'training')\n"
                 "- Organization: specific named groups (e.g., 101st Airborne, Red Cross, not 'the army' or 'the unit')\n"
-                "- Work: specific named works (e.g., Titanic, Great Gatsby, not 'the movie' or 'a book')\n\n"
+                "- Work: specific named works (e.g., Titanic, Great Gatsby, not 'the movie' or 'a book')\n"
+                "- Profession: specific named roles (e.g., Combat Medic, Artillery Officer, not 'soldier' or 'officer')\n"
+                "- Product: specific named products (e.g., iPhone, Nokia 105, not 'the phone' or 'device')\n\n"
                 "Output ONLY proper nouns that could appear as Wikipedia article titles. "
                 "Do NOT output generic descriptions, roles, common nouns, or pronouns. "
                 "If the text does not clearly reference a specific named entity, output NONE."
             )},
             {"role": "user", "content": (
-                f"Text: \"{s.text}\"\n\n"
+                f"Text: \"{s.text[:500]}\"\n\n"
                 f"What specific {entity_type_hint} is implicitly described in this text?\n"
                 f"Rank: most specific and most likely first.\n\n"
                 f"Output EXACTLY 3 entity names, one per line:"
