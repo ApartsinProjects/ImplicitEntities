@@ -478,12 +478,16 @@ def build_llm_fewshot_prompts(
     """
     FEW_SHOT_EXAMPLES = (
         'Examples of implicit entity references:\n'
-        'Text: "a colossal figure holding a torch high, a beacon of hope and freedom"\n'
+        'Text (Place): "a colossal figure holding a torch high, a beacon of hope and freedom"\n'
         '-> Statue of Liberty\n\n'
-        'Text: "he spoke of a dream, his voice rising like a hymn that marched into the streets"\n'
+        'Text (Person): "he spoke of a dream, his voice rising like a hymn that marched into the streets"\n'
         '-> Martin Luther King Jr.\n\n'
-        'Text: "the surprise military strike on the major naval base in the Pacific"\n'
+        'Text (Event): "the surprise military strike on the major naval base in the Pacific"\n'
         '-> Pearl Harbor\n\n'
+        'Text (Organization): "a prominent philanthropic organization known for its commitment to social justice"\n'
+        '-> Ford Foundation\n\n'
+        'Text (Work): "the director\'s epic about a sinking ship and a doomed romance won every award"\n'
+        '-> Titanic\n\n'
     )
     prompts = []
     for s in samples:
