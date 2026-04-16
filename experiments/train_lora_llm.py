@@ -503,7 +503,7 @@ def train(args):
         logging_steps=max(1, steps_per_epoch // 10),
         save_strategy="epoch",
         save_total_limit=2,
-        max_seq_length=args.max_seq_length,
+        max_length=args.max_seq_length,
         dataset_text_field="text",
         packing=False,
         report_to="none",
