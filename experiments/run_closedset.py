@@ -25,6 +25,7 @@ import re
 import sys
 import time
 from pathlib import Path
+from collections import defaultdict
 from datetime import datetime
 
 sys.path.insert(0, str(Path(__file__).parent))
