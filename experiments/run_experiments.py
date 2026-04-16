@@ -88,20 +88,76 @@ class Sample:
         return t
 
 
-def load_dataset(name: str) -> tuple[list[Sample], list[str]]:
+BENCH_V3_PATH = PROJECT_ROOT / "data" / "benchmark_v2" / "IRC_Bench_v3.csv"
+
+
+def load_dataset(name: str, partition: str = None) -> tuple[list[Sample], list[str]]:
     """
     Load a dataset by name. Returns (samples, unique_entity_list).
 
-    Supported names:
-      - veterans_t2e : Veterans implicit reference dataset (T2E direction)
-      - twitter       : Twitter implicit dataset
-      - e2t_veterans  : Generated E2T veterans (if exists)
-      - e2t_twitter   : Generated E2T twitter (if exists)
+    Primary: IRC_Bench_v3.csv (use partition='train' or 'test' to filter)
+      - v3             : Full IRC-Bench v3 (3,325 samples)
+      - v3_train       : Train partition only (2,632 samples)
+      - v3_test        : Test partition only (693 samples)
+      - v3_veterans_t2e: Variant filter + optional partition
+      - v3_veterans_e2t, v3_twitter_t2e, v3_twitter_e2t
+
+    Legacy (archived data, kept for backward compatibility):
+      - veterans_t2e, twitter, e2t_veterans, e2t_twitter, bench_*
     """
     samples: list[Sample] = []
 
-    if name == "veterans_t2e":
-        path = DATA_DIR / "implicit_reference_veterans_dataset.csv"
+    # ── Primary: IRC_Bench_v3.csv ──────────────────────────────────────────
+    if name.startswith("v3"):
+        if not BENCH_V3_PATH.exists():
+            raise FileNotFoundError(f"IRC_Bench_v3.csv not found at {BENCH_V3_PATH}")
+        df = pd.read_csv(BENCH_V3_PATH, dtype=str).fillna("")
+
+        # Parse partition and variant from name
+        # v3 -> all, v3_train -> train, v3_test -> test
+        # v3_veterans_t2e -> variant=veterans_t2e, v3_veterans_t2e_test -> variant + test
+        parts = name.split("_", 1)
+        variant_filter = None
+        partition_filter = partition  # explicit parameter takes priority
+
+        if len(parts) > 1:
+            suffix = parts[1]
+            if suffix == "train":
+                partition_filter = partition_filter or "train"
+            elif suffix == "test":
+                partition_filter = partition_filter or "test"
+            elif suffix.endswith("_train"):
+                variant_filter = suffix.rsplit("_train", 1)[0]
+                partition_filter = partition_filter or "train"
+            elif suffix.endswith("_test"):
+                variant_filter = suffix.rsplit("_test", 1)[0]
+                partition_filter = partition_filter or "test"
+            else:
+                variant_filter = suffix
+
+        # Apply filters
+        if partition_filter:
+            df = df[df["partition"] == partition_filter]
+        if variant_filter:
+            df = df[df["variant"] == variant_filter]
+
+        for _, row in df.iterrows():
+            if not row["text"].strip() or not row["entity"].strip():
+                continue
+            samples.append(Sample(
+                uid=str(row.get("uid", "")),
+                text=row["text"].strip(),
+                entity=row["entity"].strip(),
+                entity_type=row.get("entity_type", "").strip(),
+                source=row.get("source", ""),
+                origin="",
+                sqn=0,
+            ))
+
+    elif name == "veterans_t2e":
+        path = DATA_DIR / "source_data" / "implicit_reference_veterans_dataset.csv"
+        if not path.exists():
+            path = DATA_DIR / "implicit_reference_veterans_dataset.csv"
         df = pd.read_csv(path, dtype=str).fillna("")
         for _, row in df.iterrows():
             if not row["text"].strip() or not row["entity"].strip():
@@ -235,25 +291,20 @@ def load_dataset(name: str) -> tuple[list[Sample], list[str]]:
 
 
 def get_all_dataset_names() -> list[str]:
-    """List available datasets including benchmark_v2 variants."""
-    names = ["veterans_t2e", "veterans_t2e_v2", "twitter"]
-    # Benchmark v2 variants
-    BENCH_DIR = PROJECT_ROOT / "data" / "benchmark_v2" / "variants"
-    if BENCH_DIR.exists():
-        for f in BENCH_DIR.glob("*.csv"):
-            if "explicit" not in f.stem:
-                names.append(f"bench_{f.stem}")
-    # Generated E2T files
-    if GENERATED_DIR.exists():
-        for f in GENERATED_DIR.glob("e2t_*.csv"):
-            stem = f.stem
-            parts = stem.split("_", 2)
-            if len(parts) >= 2:
-                domain = parts[1]
-                ds_name = f"e2t_{domain}"
-                if ds_name not in names:
-                    names.append(ds_name)
-    return names
+    """List available v3 benchmark datasets."""
+    return [
+        "v3",                    # Full benchmark (3,325 samples)
+        "v3_train",              # Train partition (2,632)
+        "v3_test",               # Test partition (693, unseen entities)
+        "v3_veterans_t2e",       # Variant: veterans text-to-entity (530)
+        "v3_veterans_e2t",       # Variant: veterans entity-to-text (1,246)
+        "v3_twitter_t2e",        # Variant: twitter text-to-entity (807)
+        "v3_twitter_e2t",        # Variant: twitter entity-to-text (742)
+        "v3_veterans_t2e_test",  # Variant + test partition
+        "v3_veterans_e2t_test",
+        "v3_twitter_t2e_test",
+        "v3_twitter_e2t_test",
+    ]
 
 
 # ═══════════════════════════════════════════════════════════════════════════

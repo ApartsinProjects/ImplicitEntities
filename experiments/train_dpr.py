@@ -62,8 +62,8 @@ logger = logging.getLogger(__name__)
 SCRIPT_DIR = Path(__file__).resolve().parent
 PROJECT_ROOT = SCRIPT_DIR.parent
 DATA_DIR = PROJECT_ROOT / "data" / "benchmark_v2"
-TRAIN_CSV = DATA_DIR / "irc_benchmark_v2_train_entity_split.csv"
-TEST_CSV = DATA_DIR / "irc_benchmark_v2_test_open_set.csv"
+BENCH_V3 = DATA_DIR / "IRC_Bench_v3.csv"
+# Train/test loaded from partition column in IRC_Bench_v3.csv
 DESCRIPTIONS_JSON = SCRIPT_DIR / "entity_descriptions" / "veterans_v2_descriptions.json"
 MODELS_DIR = SCRIPT_DIR / "trained_models"
 RESULTS_DIR = SCRIPT_DIR / "results"
@@ -71,6 +71,10 @@ RESULTS_DIR = SCRIPT_DIR / "results"
 BASE_MODEL_MAP = {
     "all-MiniLM-L6-v2": "sentence-transformers/all-MiniLM-L6-v2",
     "all-mpnet-base-v2": "sentence-transformers/all-mpnet-base-v2",
+    "BAAI/bge-base-en-v1.5": "BAAI/bge-base-en-v1.5",
+    "bge-base": "BAAI/bge-base-en-v1.5",
+    "intfloat/e5-base-v2": "intfloat/e5-base-v2",
+    "e5-base": "intfloat/e5-base-v2",
 }
 
 
