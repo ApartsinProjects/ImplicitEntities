@@ -716,6 +716,8 @@ async def run_llm_method(
         guesses = parse_ranked_guesses(resp or "")
         all_predictions.append(guesses)
 
+    return all_predictions
+
 
 async def run_llm_fewshot_method(
     samples: list[Sample],
