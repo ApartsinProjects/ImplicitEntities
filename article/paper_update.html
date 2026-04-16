@@ -1,0 +1,570 @@
+<!--
+  paper_update.html
+  Updated section content for article.html
+  Generated: 2026-04-16
+  Sections: Abstract check, Section 4 (Datasets), Section 5 (Methods), Appendix H
+
+  INSTRUCTIONS: Replace the corresponding sections in article.html with these blocks.
+  Each section is delimited with ═══ comment markers showing where it starts.
+-->
+
+
+<!-- ════════════════════════════════════════════════════════════════════════ -->
+<!-- ABSTRACT: Verified, minor alignment edits                              -->
+<!-- Replace the <div class="abstract-block"> ... </div> in article.html   -->
+<!-- ════════════════════════════════════════════════════════════════════════ -->
+
+<div class="abstract-block">
+  <h2>Abstract</h2>
+  <p>
+    Loneliness among the elderly is a growing public health concern, and reminiscence therapy offers a promising intervention by reconnecting individuals through shared life experiences. However, personal narratives are often fragmented and unstructured, with key contextual elements (people, places, events) referenced implicitly rather than by name. We introduce the task of <em>Implicit Reminiscence Context (IRC) recovery</em>, formalized as a ranking problem over latent entity mentions, and release <em>IRC-Bench</em>, a curated benchmark of 3,347 samples across four variants (two real, two synthetic), two domains (veterans' recollections and tweets), eight entity types, and 814 unique entities, with LLM-audited gold labels, multi-reference annotations, Wikidata entity links, and entity-level open-set evaluation splits. We identify a key theoretical property of implicit references: their <em>non-locality</em>, where entity descriptions are distributed across multiple non-contiguous cues rather than occupying a single mention span, distinguishing IRC from standard entity linking. We systematically compare five recognition paradigms (direct LLM inference, closed-set constrained generation, embedding-based retrieval, hybrid RAG, and DPR fine-tuned retrieval), four LLM backbones (Gemini 2.0 Flash, Llama 3.1 8B, GPT-4o-mini, GPT-3.5-turbo), multiple embedding models (MiniLM-L6-v2, MPNet-base-v2, BGE-base-en-v1.5, E5-base-v2), and prompt strategies (zero-shot, few-shot, chain-of-thought). On the curated benchmark, closed-set recognition achieves Hit@1 = 0.491 on veterans' narratives and 0.728 on tweets, while open-set LLM inference reaches 0.390 and 0.728 respectively. A comprehensive gold-label audit reveals that 89% of apparent model failures stem from annotation errors rather than model limitations. Evaluation employs a five-tier matching hierarchy (exact, containment, Jaccard, WordNet synonym, LLM alias) alongside Precision@K, Recall@K, nDCG@K, and semantic similarity metrics with Wikidata entity linking for knowledge-grounded assessment.
+  </p>
+  <p class="keywords"><strong>Keywords:</strong> implicit entity recognition, reminiscence therapy, large language models, retrieval-augmented generation, benchmark construction, entity linking, semantic evaluation</p>
+</div>
+
+
+<!-- ════════════════════════════════════════════════════════════════════════ -->
+<!-- SECTION 4: DATASETS (MAJOR REWRITE)                                    -->
+<!-- Replace from <h2>Datasets: The IRC-Bench Benchmark</h2>               -->
+<!-- through the Figure 1 block (inclusive)                                 -->
+<!-- ════════════════════════════════════════════════════════════════════════ -->
+
+<h2>Datasets: The IRC-Bench Benchmark</h2>
+
+<p class="no-indent">
+A key contribution of this work is <em>IRC-Bench</em>, a rigorously curated benchmark for evaluating implicit entity recognition across domains and generation strategies. The benchmark was constructed through a thirteen-step pipeline encompassing source data collection, text transformation, synthetic generation, multi-stage quality control, gold label auditing, and knowledge-base linking. The full benchmark, including data, splits, entity descriptions, evaluation code, and Wikidata entity links, is publicly released. A detailed exploratory data analysis is provided in Appendix H.
+</p>
+
+<h3>Source Data Collection</h3>
+
+<p class="no-indent">
+IRC-Bench draws from two complementary source domains. The <strong>veterans</strong> domain uses interview transcripts from the <strong>U.S. Library of Congress Veterans History Project</strong> (loc.gov/vets), a publicly accessible archive of oral histories from American military veterans. Ten narrators' interviews were selected and segmented into short units, each capturing a single detail or event. The <strong>Twitter</strong> domain incorporates the annotated dataset of implicit entity tweets from Hosseini [30, 31], originally collected at Toronto Metropolitan University, spanning 273 entities across 59 fine-grained types.
+</p>
+
+<h3>Text-Based Transformation (T2E)</h3>
+
+<p class="no-indent">
+The T2E pipeline transforms real texts containing explicit entity mentions into implicit versions. For veterans' transcripts, explicit entity mentions were replaced with implicit descriptions using type-aware rewrite rules: persons were replaced with roles or achievements; places with geographic or cultural descriptors; events with timeframes, actions, or outcomes. Entities were extracted via an LLM-based extractor and a modern NER model, canonicalized using an alias map, and validated for name-leak absence. The Twitter T2E data (851 annotated tweets from Hosseini [30, 31]) was incorporated directly with its original annotations. T2E data preserves the natural language patterns, cultural specificity, and narrative complexity of real sources.
+</p>
+
+<h3>Entity-Driven Generation (E2T)</h3>
+
+<p class="no-indent">
+The E2T pipeline generates new implicit texts from entity lists using a large language model (Gemini 2.0 Flash). For each entity, the LLM produces three variant implicit narratives of different styles (factual, emotional/sensory, and historical/cultural). Veterans' entities yield longer first-person recollections; tweet entities yield concise posts. All generated samples are validated for: (a) entity-text relatedness, (b) absence of name leakage (entity name or significant substrings absent from output), and (c) type fidelity. Samples failing any criterion are discarded. This process produced 1,447 veterans and 769 Twitter implicit reference samples before cleaning. E2T data complements T2E by testing whether models can recover entities from systematic, controlled descriptions rather than naturally occurring prose.
+</p>
+
+<h3>Quality Control and Data Cleaning</h3>
+
+<p class="no-indent">
+Both T2E and E2T data underwent a multi-stage cleaning pipeline:
+</p>
+
+<p class="no-indent" style="margin-left: 1.2em; text-indent: 0;">
+<strong>(1) Name-leak verification.</strong> Every sample was checked to ensure that the entity's canonical name and all known aliases are absent from the text. The final benchmark has zero entity name leakage.<br>
+<strong>(2) Entity-text relatedness validation.</strong> An LLM judge assessed whether each text plausibly describes the gold entity. Samples with low relatedness were discarded.<br>
+<strong>(3) Generic entity removal.</strong> Entities consisting of common nouns (e.g., "war," "military"), pronouns (e.g., "I," "they"), or ambiguous generic terms were removed. This step eliminated 27 non-entity labels across both domains.<br>
+<strong>(4) Abbreviation expansion.</strong> Abbreviated entity names were expanded to their canonical forms for consistent matching.<br>
+<strong>(5) Multi-gold deduplication.</strong> Texts that were associated with multiple gold entities were consolidated so that each text maps to a single primary entity, with alternatives recorded separately.
+</p>
+
+<h3>Gold Label Audit</h3>
+
+<p class="no-indent">
+A central innovation in IRC-Bench construction is the comprehensive gold-label audit. We identified 667 samples where all four LLM models (Gemini Flash, GPT-4o-mini, GPT-3.5-turbo, Llama 3.1 8B) unanimously failed to recover the gold entity. Rather than treating these as model failures, we audited them systematically using an LLM judge that assessed whether the gold label was in fact the best answer for the given text. Of 363 samples audited, 323 (89%) were found to contain incorrect or suboptimal gold labels. The most common error categories were: entity labels that were overly specific or overly generic, entity labels that named a different but related entity, and texts where the implicit reference was genuinely ambiguous. This audit resulted in:
+</p>
+
+<p class="no-indent" style="margin-left: 1.2em; text-indent: 0;">
+(a) 152 samples removed entirely (irrecoverably ambiguous or non-entity labels);<br>
+(b) 189 gold labels corrected to the more appropriate entity;<br>
+(c) 194 multi-reference alternatives added, where multiple valid entity interpretations exist.
+</p>
+
+<p>
+The audit finding that 89% of universal model failures were annotation errors rather than model limitations has significant implications: it suggests that reported model accuracy on other implicit entity benchmarks may similarly underestimate true model capability due to gold-label noise.
+</p>
+
+<h3>Entity Descriptions and Wikidata Linking</h3>
+
+<p class="no-indent">
+To support embedding-based retrieval and knowledge-grounded evaluation, LLM-generated descriptions were produced for all 704 unique entities (431 veterans, 273 Twitter) using Gemini 2.0 Flash. Each description provides a one-paragraph summary of the entity's notable attributes, suitable for semantic comparison with implicit reference texts. Additionally, 785 entities were linked to Wikidata entries, providing canonical QIDs, structured descriptions, and alias sets. This enables QID-based canonical matching in evaluation, where a prediction is correct if it resolves to the same Wikidata entity as the gold label regardless of surface-form variation.
+</p>
+
+<h3>Explicit Entity Baseline</h3>
+
+<p class="no-indent">
+In addition to the four implicit variants, IRC-Bench includes a separate explicit-entity baseline of 1,626 Twitter tweets where entities are mentioned by name (with character-span annotations from the original Hosseini dataset). This baseline is marked with <code>eval_mode=EXPLICIT_BASELINE_ONLY</code> to prevent accidental inclusion in implicit evaluation. It enables measuring the performance gap between explicit and implicit entity recognition using the same Twitter domain and entity types.
+</p>
+
+<h3>Final Benchmark Composition and Splits</h3>
+
+<p class="no-indent">
+Table 1 summarizes the final curated benchmark. After all cleaning and audit steps, IRC-Bench comprises 3,347 samples, 814 unique entities, and eight coarse entity types (mapped from 59 fine-grained source types). Two evaluation splits are provided: a <em>sample-level</em> split (80/20, stratified by variant and type, with shared entities across splits) for standard evaluation, and an <em>entity-level open-set</em> split (652 train entities, 162 test entities, zero overlap) for evaluation where the model must generalize to completely unseen entities.
+</p>
+
+<!-- Table 1: Benchmark Statistics (Updated for clean benchmark) -->
+<div class="table-wrap" style="column-span: all;">
+  <p class="table-caption"><strong>Table 1.</strong> IRC-Bench statistics after curation. T2E = text-to-entity (real data rewritten to implicit); E2T = entity-to-text (LLM-generated implicit narratives). Entity types are mapped to eight coarse categories. All figures reflect the cleaned, audited benchmark.</p>
+  <table>
+    <thead>
+      <tr>
+        <th></th>
+        <th>Vet-T2E</th>
+        <th>Vet-E2T</th>
+        <th>Tweet-T2E</th>
+        <th>Tweet-E2T</th>
+        <th>Total</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><td style="text-align:left;">Generation</td><td>Real</td><td>Synthetic</td><td>Real</td><td>Synthetic</td><td></td></tr>
+      <tr><td style="text-align:left;">Samples</td><td>536</td><td>1,261</td><td>808</td><td>742</td><td>3,347</td></tr>
+      <tr><td style="text-align:left;">Unique entities</td><td>358</td><td>505</td><td>270</td><td>290</td><td>814</td></tr>
+      <tr><td style="text-align:left;">Entity descriptions</td><td colspan="2">431</td><td colspan="2">273</td><td>704</td></tr>
+      <tr><td style="text-align:left;">Wikidata QID links</td><td colspan="4"></td><td>785 (96%)</td></tr>
+      <tr><td style="text-align:left;">Gold corrections</td><td colspan="4"></td><td>189</td></tr>
+      <tr><td style="text-align:left;">Multi-ref alternatives</td><td colspan="4"></td><td>194</td></tr>
+      <tr><td style="text-align:left;">% Place</td><td>42.4</td><td>34.0</td><td>18.8</td><td>17.0</td><td>27.9</td></tr>
+      <tr><td style="text-align:left;">% Person</td><td>10.8</td><td>15.6</td><td>26.5</td><td>27.9</td><td>20.2</td></tr>
+      <tr><td style="text-align:left;">% Organization</td><td>18.1</td><td>15.9</td><td>19.9</td><td>19.7</td><td>18.1</td></tr>
+      <tr><td style="text-align:left;">% Event</td><td>14.7</td><td>15.9</td><td>5.0</td><td>3.6</td><td>10.4</td></tr>
+      <tr><td style="text-align:left;">% Work</td><td>0.0</td><td>0.0</td><td>25.5</td><td>29.4</td><td>12.7</td></tr>
+      <tr><td style="text-align:left;">% Profession</td><td>14.0</td><td>18.6</td><td>0.0</td><td>0.0</td><td>9.2</td></tr>
+      <tr><td style="text-align:left;">Train / Test (open-set)</td><td colspan="4"></td><td>2,710 / 637</td></tr>
+      <tr><td style="text-align:left;">Train / Test entities</td><td colspan="4"></td><td>652 / 162 (0% overlap)</td></tr>
+    </tbody>
+  </table>
+</div>
+
+<!-- Figure 1: Benchmark Composition -->
+<div class="figure" style="column-span: all;">
+  <a href="figures/fig_bench_composition.png" target="_blank">
+    <img src="figures/fig_bench_composition.png" alt="IRC-Bench variant composition by entity type" style="max-width: 85%;">
+  </a>
+  <p class="fig-caption"><strong>Figure 1.</strong> IRC-Bench composition: sample counts by entity type across the four variants. Veterans data is Place-heavy; Twitter data is more balanced across Person, Work, and Organization. See Appendix H for detailed exploratory data analysis.</p>
+</div>
+
+
+<!-- ════════════════════════════════════════════════════════════════════════ -->
+<!-- SECTION 5: METHODS (MAJOR UPDATE)                                      -->
+<!-- Replace from <h2>Methods</h2>                                          -->
+<!-- through the end of Section 5 (before <h2>Experiments and Results</h2>) -->
+<!-- ════════════════════════════════════════════════════════════════════════ -->
+
+<h2>Methods</h2>
+
+<p class="no-indent">
+We evaluate five recognition paradigms within a unified framework. All methods receive a text segment \(t_i\) and entity type \(c_i\), and produce a ranked list of \(K\) candidate entities. The paradigms span the spectrum from generative LLM reasoning to discriminative embedding retrieval, with hybrid and fine-tuned approaches occupying intermediate positions.
+</p>
+
+<!-- SVG: System Architecture Diagram (updated with 5 methods) -->
+<div class="figure" style="column-span: all;">
+<svg class="diagram-svg" viewBox="0 0 720 340" xmlns="http://www.w3.org/2000/svg" style="max-width:95%;">
+  <defs>
+    <marker id="arrowhead" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L8,3 L0,6 Z" fill="#666"/>
+    </marker>
+  </defs>
+  <!-- Input -->
+  <rect class="box" x="10" y="130" width="120" height="55"/>
+  <text class="label-bold" x="70" y="150">Input Text</text>
+  <text class="label" x="70" y="167">"a colossal figure</text>
+  <text class="label" x="70" y="179">holding a torch..."</text>
+  <!-- Entity Type -->
+  <rect class="box" x="10" y="40" width="120" height="35"/>
+  <text class="label-bold" x="70" y="55">Entity Type</text>
+  <text class="label" x="70" y="68">Place</text>
+  <!-- Arrows from input -->
+  <line class="arrow" x1="130" y1="145" x2="195" y2="48"/>
+  <line class="arrow" x1="130" y1="150" x2="195" y2="108"/>
+  <line class="arrow" x1="130" y1="157" x2="195" y2="168"/>
+  <line class="arrow" x1="130" y1="165" x2="195" y2="228"/>
+  <line class="arrow" x1="130" y1="172" x2="195" y2="288"/>
+  <!-- Arrow from type -->
+  <line class="arrow" x1="130" y1="57" x2="195" y2="48"/>
+
+  <!-- Method 1: Open-set LLM -->
+  <rect class="box-accent" x="198" y="28" width="165" height="44"/>
+  <text class="label-bold" x="280" y="46">A. Open-Set LLM</text>
+  <text class="label" x="280" y="60">Zero-shot / Few-shot</text>
+
+  <!-- Method 2: Closed-set LLM -->
+  <rect class="box-accent" x="198" y="88" width="165" height="44"/>
+  <text class="label-bold" x="280" y="106">B. Closed-Set LLM</text>
+  <text class="label" x="280" y="120">Chunked entity list</text>
+
+  <!-- Method 3: Embedding -->
+  <rect class="box-method" x="198" y="148" width="165" height="44"/>
+  <text class="label-bold" x="280" y="166">C. Embedding Retrieval</text>
+  <text class="label" x="280" y="180">Cosine similarity</text>
+
+  <!-- Method 4: Hybrid RAG -->
+  <rect class="box-method" x="198" y="208" width="165" height="44"/>
+  <text class="label-bold" x="280" y="226">D. Hybrid RAG</text>
+  <text class="label" x="280" y="240">Retrieve + Re-rank</text>
+
+  <!-- Method 5: Fine-tuned -->
+  <rect class="box-eval" x="198" y="268" width="165" height="44"/>
+  <text class="label-bold" x="280" y="286">E. Fine-Tuned</text>
+  <text class="label" x="280" y="300">DPR / Cross-Enc / LoRA</text>
+
+  <!-- Arrows to ranking -->
+  <line class="arrow" x1="363" y1="50" x2="420" y2="160"/>
+  <line class="arrow" x1="363" y1="110" x2="420" y2="160"/>
+  <line class="arrow" x1="363" y1="170" x2="420" y2="165"/>
+  <line class="arrow" x1="363" y1="230" x2="420" y2="170"/>
+  <line class="arrow" x1="363" y1="290" x2="420" y2="175"/>
+
+  <!-- Ranking box -->
+  <rect class="box-eval" x="423" y="135" width="130" height="55"/>
+  <text class="label-bold" x="488" y="153">Candidate</text>
+  <text class="label-bold" x="488" y="169">Ranking</text>
+  <text class="label" x="488" y="184">Top-K entities</text>
+
+  <!-- Arrow to eval -->
+  <line class="arrow" x1="553" y1="162" x2="590" y2="162"/>
+
+  <!-- Evaluation box -->
+  <rect class="box-eval" x="593" y="118" width="115" height="90"/>
+  <text class="label-bold" x="650" y="138">Evaluation</text>
+  <text class="label" x="650" y="154">5-tier matching</text>
+  <text class="label" x="650" y="168">Hit@K, nDCG@K</text>
+  <text class="label" x="650" y="182">MRR, Sem. Sim.</text>
+  <text class="label" x="650" y="196">Wikidata QID</text>
+</svg>
+<p class="fig-caption"><strong>Figure 2.</strong> System architecture. Input text and entity type are processed by five recognition paradigms spanning generative LLM reasoning, constrained generation, embedding retrieval, hybrid RAG, and fine-tuned models. Each produces a ranked candidate list evaluated via five-tier matching and multi-level metrics.</p>
+</div>
+
+<h3>Open-Set LLM Recognition</h3>
+
+<p class="no-indent">
+The open-set paradigm uses direct LLM inference to generate candidate entities without access to a predefined entity list. We evaluate three prompt strategies of increasing sophistication:
+</p>
+
+<p class="no-indent" style="margin-left: 1.2em; text-indent: 0;">
+<strong>Zero-shot (v3).</strong> A structured prompt provides: (a) a strict output format requiring exactly three entity name guesses per line; (b) formal definitions of all eight entity types; (c) a Wikipedia-notability criterion instructing the model to prefer entities that would have their own Wikipedia article. Entity type conditioning tailors the prompt (e.g., "What Place is implicitly described?"). No contextualization step is used, following ablation evidence that removing the background generation step improves both accuracy (+1% Hit@1) and efficiency (37% faster).<br><br>
+<strong>Few-shot.</strong> Five worked examples covering all eight entity types are prepended to the zero-shot prompt. Examples are drawn from the training set and show the expected input/output format, including cases where the implicit reference is highly indirect.<br><br>
+<strong>Chain-of-thought.</strong> The model is prompted to reason step by step: "Identify the contextual cues in the text. What entity type is expected? Which entity best matches all cues?"
+</p>
+
+<p>
+<strong>Models evaluated:</strong> Gemini 2.0 Flash (google/gemini-2.0-flash-001), Llama 3.1 8B Instruct (meta-llama/llama-3.1-8b-instruct), GPT-4o-mini (gpt-4o-mini), and GPT-3.5-turbo (gpt-3.5-turbo). All models use temperature 0.0 and return \(K = 3\) ranked candidates.
+</p>
+
+<h3>Closed-Set Constrained Recognition</h3>
+
+<p class="no-indent">
+The closed-set paradigm provides the model with the complete entity list for the relevant domain, converting the open-ended generation task into a constrained selection problem. Because the full entity list (up to 505 entities) exceeds single-prompt context limits for some models, we employ a chunked two-pass approach:
+</p>
+
+<p class="no-indent" style="margin-left: 1.2em; text-indent: 0;">
+<strong>Pass 1 (chunked retrieval).</strong> The entity list is split into chunks of 50 entities. For each chunk, the LLM is asked: "Which of these entities, if any, is described by the text? Return the single best match or NONE." This produces a shortlist of up to one candidate per chunk.<br><br>
+<strong>Pass 2 (re-ranking).</strong> Candidates from Pass 1 are consolidated and re-ranked by the LLM in a single prompt, producing the final top-3 ranking.
+</p>
+
+<p>
+Closed-set recognition dramatically reduces hallucination by constraining the output space to known entities. The primary trade-off is increased API cost (one call per chunk plus the re-ranking call) and the assumption that the gold entity is present in the provided list.
+</p>
+
+<h3>Embedding-Based Retrieval</h3>
+
+<p class="no-indent">
+Text segments are encoded into dense vector representations and compared against a pre-indexed entity embedding space. The top \(K = 10\) nearest neighbors by cosine similarity form the candidate list. We evaluate four embedding models spanning different architectures and training objectives:
+</p>
+
+<p class="no-indent" style="margin-left: 1.2em; text-indent: 0;">
+<strong>MiniLM-L6-v2</strong> (all-MiniLM-L6-v2): a compact 22M-parameter sentence transformer optimized for semantic similarity [sentence-transformers].<br>
+<strong>MPNet-base-v2</strong> (all-mpnet-base-v2): a 110M-parameter model with improved sentence-level representations.<br>
+<strong>BGE-base-en-v1.5</strong> (BAAI/bge-base-en-v1.5): a 110M-parameter model trained specifically for retrieval tasks with contrastive learning.<br>
+<strong>E5-base-v2</strong> (intfloat/e5-base-v2): a 110M-parameter text embedding model trained with weakly supervised contrastive pre-training.
+</p>
+
+<p>
+Three entity representation strategies are compared: (a) <strong>bare name</strong>, embedding only the entity string; (b) <strong>description</strong>, embedding the LLM-generated entity description (available for all 704 entities); and (c) <strong>type-prefixed</strong>, prepending the entity type to the name or description. The description representation is expected to provide richer semantic content for matching against implicit narrative text.
+</p>
+
+<p>
+As a diagnostic baseline, we also evaluate a <strong>mention-span extraction</strong> approach inspired by BLINK [72]: the LLM first extracts the most informative span from the text (the "implicit mention"), and this span alone is embedded for retrieval. This tests whether focusing on salient phrases improves retrieval over full-text embedding.
+</p>
+
+<h3>Hybrid RAG Recognition</h3>
+
+<p class="no-indent">
+The hybrid approach combines embedding retrieval with LLM reasoning in a two-stage pipeline. First, the top \(K = 20\) candidate entities are retrieved via embedding similarity (using entity descriptions). Second, these candidates are presented to the LLM alongside the original text for re-ranking with reasoning. The LLM selects and ranks the top 3 entities from the candidate pool, leveraging its ability to reason over distributed cues while benefiting from the retrieval stage's broad coverage. This pipeline tests whether grounding LLM reasoning in retrieved candidates improves over both pure retrieval and pure generation.
+</p>
+
+<h3>Fine-Tuned Methods</h3>
+
+<p class="no-indent">
+Three fine-tuning approaches adapt pre-trained models to the IRC task using the training split:
+</p>
+
+<p class="no-indent" style="margin-left: 1.2em; text-indent: 0;">
+<strong>DPR bi-encoder.</strong> Following the Dense Passage Retrieval framework [70], we fine-tune sentence transformer models (MiniLM-L6-v2, BGE-base-en-v1.5, E5-base-v2) using Multiple Negatives Ranking Loss (MNRL). The query encoder processes implicit text segments; the passage encoder processes entity descriptions. Training uses in-batch negatives with a batch size of 32 for 5 epochs. This learns a shared embedding space where implicit texts are pulled closer to their gold entity descriptions.<br><br>
+<strong>Cross-encoder re-ranker.</strong> A cross-encoder model receives concatenated (text, entity description) pairs and produces a relevance score. Unlike bi-encoders, cross-encoders can attend jointly to both inputs, capturing fine-grained interactions. The cross-encoder re-ranks candidates retrieved by the bi-encoder.<br><br>
+<strong>LoRA LLM fine-tuning.</strong> Low-Rank Adaptation (LoRA) is applied to Llama 3.2 1B to fine-tune the model specifically for implicit entity recognition. The model is trained to generate the correct entity name given the implicit text and entity type, using the training split as supervision. This tests whether task-specific fine-tuning of a smaller LLM can match or exceed the performance of larger zero-shot models.
+</p>
+
+<h3>Evaluation Framework</h3>
+
+<p class="no-indent">
+We introduce a multi-level evaluation framework that addresses the inherent ambiguity of implicit entity references. Evaluation proceeds through three stages: matching, metric computation, and semantic assessment.
+</p>
+
+<h4>Five-Tier Matching Hierarchy</h4>
+
+<p class="no-indent">
+A prediction \(\hat{e}_{i,k}\) is matched against the gold entity \(e_i\) through five tiers applied in order:
+</p>
+
+<p class="no-indent" style="margin-left:1.2em; text-indent:0;">
+(1) <strong>Exact match:</strong> normalized string equality after lowercasing, Unicode normalization, article/punctuation removal, and whitespace collapsing.<br>
+(2) <strong>Containment match:</strong> one string is a substring of the other after normalization (e.g., "Statue of Liberty" matches "The Statue of Liberty").<br>
+(3) <strong>Jaccard match:</strong> token-level Jaccard similarity exceeds threshold \(\tau = 0.60\):
+</p>
+
+$$J(\hat{e}_{i,k},\; e_i) = \frac{|\text{tokens}(\hat{e}_{i,k}) \cap \text{tokens}(e_i)|}{|\text{tokens}(\hat{e}_{i,k}) \cup \text{tokens}(e_i)|} \geq \tau$$
+
+<p class="no-indent" style="margin-left:1.2em; text-indent:0;">
+(4) <strong>WordNet synonym match:</strong> the prediction and gold entity share a common synset in WordNet, capturing lexical paraphrases (e.g., "WWII" and "Second World War").<br>
+(5) <strong>LLM alias match:</strong> an LLM judge determines whether the prediction and gold entity refer to the same real-world entity (e.g., "D-Day" and "Normandy landings"). This is the most permissive tier and captures culturally grounded aliases.
+</p>
+
+<p>
+Multi-reference evaluation is supported: if a sample has alternative gold entities (recorded during the audit), a match against any alternative also counts as correct.
+</p>
+
+<h4>Ranking Metrics</h4>
+
+<p class="no-indent">
+Performance is assessed at cutoffs \(K \in \{1, 3, 5, 10\}\):
+</p>
+
+<p class="no-indent">
+<strong>Hit@K</strong> measures the proportion of queries where the correct entity appears within the top \(K\) predictions:
+</p>
+
+$$\text{Hit@K} = \frac{1}{N} \sum_{i=1}^{N} \mathbb{1}\left[r_i \leq K\right]$$
+
+<p class="no-indent">
+<strong>Precision@K and Recall@K</strong> measure the fraction of top-K predictions that are correct and the fraction of relevant entities retrieved, respectively.
+</p>
+
+<p class="no-indent">
+<strong>nDCG@K</strong> (normalized Discounted Cumulative Gain) accounts for graded relevance, weighting correct predictions higher when they appear earlier in the ranking.
+</p>
+
+<p class="no-indent">
+<strong>Mean Reciprocal Rank</strong> captures ranking precision. <em>Global MRR</em> averages over all queries (assigning reciprocal rank 0 for misses):
+</p>
+
+$$\text{MRR}_{\text{global}} = \frac{1}{N} \sum_{i=1}^{N} \frac{\mathbb{1}[r_i < \infty]}{r_i}$$
+
+<p class="no-indent">
+<em>Filtered MRR</em> averages only over queries with at least one correct retrieval, isolating ranking quality from retrieval coverage:
+</p>
+
+$$\text{MRR}_{\text{filtered}} = \frac{1}{|\mathcal{H}|} \sum_{i \in \mathcal{H}} \frac{1}{r_i}, \quad \mathcal{H} = \{i : r_i < \infty\}$$
+
+<h4>Semantic Similarity Metrics</h4>
+
+<p class="no-indent">
+Beyond binary match/no-match, we compute graded semantic similarity between predictions and gold entities:
+</p>
+
+<p class="no-indent" style="margin-left: 1.2em; text-indent: 0;">
+<strong>Embedding cosine similarity:</strong> cosine distance between the prediction's and gold entity's embedding vectors, capturing distributional semantic proximity.<br>
+<strong>WordNet Wu-Palmer similarity:</strong> path-based similarity in the WordNet taxonomy, measuring conceptual relatedness.<br>
+<strong>Combined score:</strong> the arithmetic mean of embedding cosine and Wu-Palmer similarities, providing a balanced semantic assessment.<br>
+<strong>Graded relevance:</strong> a continuous score in [0, 1] based on the combined semantic similarity, used as the gain function in nDCG computation.
+</p>
+
+<h4>Wikidata Entity Linking Evaluation</h4>
+
+<p class="no-indent">
+For knowledge-grounded assessment, predictions are linked to Wikidata entities (785 benchmark entities have QIDs). A prediction is considered a <em>canonical match</em> if it resolves to the same Wikidata QID as the gold entity, regardless of surface-form variation. This eliminates matching artifacts caused by name variations, abbreviations, or alternative labels.
+</p>
+
+<h4>Three Reporting Levels</h4>
+
+<p class="no-indent">
+Results are reported at three levels of strictness: <strong>strict</strong> (exact string match only), <strong>normalized</strong> (all five matching tiers), and <strong>graded</strong> (semantic similarity with Wikidata canonical matching). This decomposition reveals that 10-15% of apparent failures under strict matching are resolved by the normalized and graded levels, quantifying the contribution of each evaluation component.
+</p>
+
+<h3>Implementation Details and Reproducibility</h3>
+
+<p class="no-indent">
+<strong>Model specifications.</strong> All LLM experiments specify exact model identifiers: Gemini 2.0 Flash (google/gemini-2.0-flash-001), Llama 3.1 8B Instruct (meta-llama/llama-3.1-8b-instruct via HuggingFace Inference API), GPT-4o-mini and GPT-3.5-turbo (via OpenAI Batch API). All LLM calls use temperature 0.0 for deterministic output. Embedding models use default configurations from the sentence-transformers library. All experiments use a fixed random seed (42) for reproducibility.
+</p>
+
+<p>
+<strong>Computational cost.</strong> LLM-based inference costs approximately $0.02-0.15 per full benchmark evaluation depending on model and prompt strategy. Embedding-based retrieval is orders of magnitude cheaper (under $0.01 for the full benchmark). Closed-set recognition is the most expensive paradigm due to chunked multi-pass inference, costing approximately $0.20-0.50 per benchmark run. Fine-tuning experiments used a single consumer GPU (NVIDIA RTX-class) with training times under 30 minutes per model.
+</p>
+
+
+<!-- ════════════════════════════════════════════════════════════════════════ -->
+<!-- APPENDIX H: BENCHMARK EDA (UPDATED)                                    -->
+<!-- Replace from <h2 style="counter-reset: none;">Appendix H:...           -->
+<!-- through the end of the H sections (before </main></div>)              -->
+<!-- ════════════════════════════════════════════════════════════════════════ -->
+
+<h2 style="counter-reset: none;">Appendix H: IRC-Bench Exploratory Data Analysis</h2>
+
+<p class="no-indent">
+This appendix provides a detailed exploratory data analysis of the curated IRC-Bench benchmark. After the full cleaning and gold-label audit pipeline, the benchmark comprises 3,347 implicit entity reference samples across four variants (two real, two synthetic) spanning two domains (veterans' recollections and tweets) with 814 unique entities across eight coarse entity types.
+</p>
+
+<h3>H.1 Curation Pipeline Summary</h3>
+
+<p class="no-indent">
+The benchmark underwent a thirteen-step curation pipeline from raw data to final release:
+</p>
+
+<div class="table-wrap" style="column-span: all;">
+  <p class="table-caption"><strong>Table A7b.</strong> IRC-Bench curation pipeline. Each step shows the action taken and its quantitative impact on the benchmark.</p>
+  <table>
+    <thead>
+      <tr>
+        <th style="width:5%;">#</th>
+        <th style="width:30%;">Step</th>
+        <th style="width:45%;">Description</th>
+        <th style="width:20%;">Impact</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><td>1</td><td style="text-align:left;">Source collection</td><td style="text-align:left;">LOC Veterans History Project transcripts + Hosseini tweet corpus</td><td style="text-align:left;">2 domains, 10 narrators</td></tr>
+      <tr><td>2</td><td style="text-align:left;">T2E transformation</td><td style="text-align:left;">Rewrite explicit mentions to implicit descriptions</td><td style="text-align:left;">620 + 851 samples</td></tr>
+      <tr><td>3</td><td style="text-align:left;">E2T generation</td><td style="text-align:left;">LLM generates implicit narratives from entity lists</td><td style="text-align:left;">1,447 + 769 samples</td></tr>
+      <tr><td>4</td><td style="text-align:left;">Name-leak check</td><td style="text-align:left;">Verify zero entity name leakage in all texts</td><td style="text-align:left;">Leaking samples removed</td></tr>
+      <tr><td>5</td><td style="text-align:left;">Relatedness validation</td><td style="text-align:left;">LLM judge scores entity-text relatedness</td><td style="text-align:left;">Low-quality samples removed</td></tr>
+      <tr><td>6</td><td style="text-align:left;">Generic entity removal</td><td style="text-align:left;">Remove common nouns, pronouns, ambiguous terms</td><td style="text-align:left;">27 non-entities removed</td></tr>
+      <tr><td>7</td><td style="text-align:left;">Abbreviation expansion</td><td style="text-align:left;">Canonical forms for abbreviated entity names</td><td style="text-align:left;">Consistent matching</td></tr>
+      <tr><td>8</td><td style="text-align:left;">Multi-gold dedup</td><td style="text-align:left;">Consolidate texts with multiple gold entities</td><td style="text-align:left;">Single primary + alternatives</td></tr>
+      <tr><td>9</td><td style="text-align:left;">Gold label audit</td><td style="text-align:left;">LLM audit of 363 universal-failure samples</td><td style="text-align:left;">323 wrong golds found (89%)</td></tr>
+      <tr><td>10</td><td style="text-align:left;">Gold corrections</td><td style="text-align:left;">Fix incorrect labels; add multi-reference alternatives</td><td style="text-align:left;">189 corrected, 194 alts added</td></tr>
+      <tr><td>11</td><td style="text-align:left;">Sample removal</td><td style="text-align:left;">Remove irrecoverable samples</td><td style="text-align:left;">152 removed (3,687 to 3,347)</td></tr>
+      <tr><td>12</td><td style="text-align:left;">Entity descriptions</td><td style="text-align:left;">LLM-generated descriptions for all entities</td><td style="text-align:left;">704 descriptions</td></tr>
+      <tr><td>13</td><td style="text-align:left;">Wikidata linking</td><td style="text-align:left;">Link entities to Wikidata QIDs</td><td style="text-align:left;">785 entities linked (96%)</td></tr>
+    </tbody>
+  </table>
+</div>
+
+<h3>H.2 Variant Composition</h3>
+
+<p class="no-indent">
+Figure A3 shows the sample count by entity type within each variant after curation. The veterans domain is dominated by Place entities (42.4% of Vet-T2E, 34.0% of Vet-E2T), reflecting the geographic nature of military recollections. The Twitter domain is more balanced, with significant representation of Person (26.5%), Work (25.5%), and Organization (19.9%) entities. Notably, the Work and Profession types are domain-exclusive: Work entities appear only in Twitter data (movies, books, songs), while Profession entities appear only in veterans data (military and civilian roles).
+</p>
+
+<div class="figure" style="column-span: all;">
+  <a href="figures/fig_bench_composition.png" target="_blank">
+    <img src="figures/fig_bench_composition.png" alt="Benchmark composition by variant and entity type">
+  </a>
+  <p class="fig-caption"><strong>Figure A3.</strong> IRC-Bench composition: stacked bar chart showing sample counts by entity type within each variant (curated benchmark, N = 3,347).</p>
+</div>
+
+<h3>H.3 Gold Label Audit Results</h3>
+
+<p class="no-indent">
+The gold-label audit is a distinguishing feature of IRC-Bench. Table A7c reports audit statistics by variant. Across all four variants, 667 samples produced universal model failures (all four LLM models returned incorrect predictions). Of these, 363 were submitted to LLM-based audit, and 323 (89%) were confirmed to have incorrect or suboptimal gold labels. The audit rate varies by variant: veterans E2T had the highest number of failures (429) and corrections (195), reflecting the difficulty of generating unambiguous implicit texts for abstract entity types (e.g., Profession, Organization).
+</p>
+
+<div class="table-wrap" style="column-span: all;">
+  <p class="table-caption"><strong>Table A7c.</strong> Gold-label audit statistics by variant. "All fail" = samples where all four models fail; "Audited" = samples reviewed by LLM judge; "Gold wrong" = confirmed annotation errors.</p>
+  <table>
+    <thead>
+      <tr>
+        <th>Variant</th>
+        <th>Non-entities removed</th>
+        <th>All-models fail</th>
+        <th>LLM audited</th>
+        <th>Gold wrong</th>
+        <th>Error rate</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><td style="text-align:left;">Vet-T2E</td><td>9</td><td>97</td><td>57</td><td>50</td><td>88%</td></tr>
+      <tr><td style="text-align:left;">Vet-E2T</td><td>18</td><td>429</td><td>228</td><td>195</td><td>86%</td></tr>
+      <tr><td style="text-align:left;">Tweet-T2E</td><td>0</td><td>25</td><td>19</td><td>19</td><td>100%</td></tr>
+      <tr><td style="text-align:left;">Tweet-E2T</td><td>0</td><td>116</td><td>59</td><td>59</td><td>100%</td></tr>
+      <tr style="font-weight:700;"><td style="text-align:left;">Total</td><td>27</td><td>667</td><td>363</td><td>323</td><td>89%</td></tr>
+    </tbody>
+  </table>
+</div>
+
+<h3>H.4 Entity Linking Coverage</h3>
+
+<p class="no-indent">
+Of the 814 unique entities in the curated benchmark, 785 (96%) were successfully linked to Wikidata entries, providing canonical QIDs, structured descriptions, and alias sets. The remaining 29 unlinked entities are primarily local or obscure references (e.g., specific military units, local landmarks) that lack Wikidata entries. Entity linking enables QID-based canonical matching in evaluation, where predictions that resolve to the same Wikidata entity as the gold label are counted as correct regardless of surface-form differences.
+</p>
+
+<h3>H.5 Text Length Distribution</h3>
+
+<p class="no-indent">
+Text length varies substantially across variants (Figure A4). Veterans T2E narratives are the longest (mean approximately 107 words), reflecting the multi-sentence reminiscence style. Veterans E2T texts are shorter (mean approximately 49 words) as the LLM generates more concise narratives. Twitter T2E tweets average approximately 27 words, and Twitter E2T averages approximately 19 words. This 5.6x range in text length tests whether recognition methods are robust to input length variation.
+</p>
+
+<div class="figure" style="column-span: all;">
+  <a href="figures/fig_bench_text_length.png" target="_blank">
+    <img src="figures/fig_bench_text_length.png" alt="Text length distribution by variant">
+  </a>
+  <p class="fig-caption"><strong>Figure A4.</strong> Text length distribution (words) across the four variants (curated benchmark). Veterans T2E narratives are 4-5x longer than Twitter tweets.</p>
+</div>
+
+<h3>H.6 Entity Overlap Between Variants</h3>
+
+<p class="no-indent">
+Within each domain, T2E and E2T variants share most entities, since E2T is generated from the same entity lists. Across domains, overlap is minimal (fewer than 10 shared entities between veterans and Twitter), confirming that the two domains test genuinely different entity knowledge.
+</p>
+
+<div class="figure">
+  <a href="figures/fig_bench_entity_overlap.png" target="_blank">
+    <img src="figures/fig_bench_entity_overlap.png" alt="Entity overlap heatmap">
+  </a>
+  <p class="fig-caption"><strong>Figure A5.</strong> Entity overlap between variants. Within-domain overlap is high; cross-domain overlap is minimal.</p>
+</div>
+
+<h3>H.7 Real vs. Synthetic Data</h3>
+
+<p class="no-indent">
+The curated benchmark contains 1,344 real samples (40.2%) and 2,003 synthetic samples (59.8%). By domain, veterans contribute 1,797 samples (53.7%) and Twitter 1,550 (46.3%). The synthetic-to-real ratio of 1.5:1 reflects the scalability of E2T generation. Key differences between real and synthetic data include: (a) real texts are longer and more narratively complex; (b) synthetic texts use more systematic description patterns; (c) real texts contain cultural and emotional nuances absent from generated text. These differences make the T2E/E2T comparison a natural ablation for studying the effect of text naturalness on recognition difficulty.
+</p>
+
+<div class="figure" style="column-span: all;">
+  <a href="figures/fig_bench_splits.png" target="_blank">
+    <img src="figures/fig_bench_splits.png" alt="Benchmark split by generation method and domain">
+  </a>
+  <p class="fig-caption"><strong>Figure A6.</strong> IRC-Bench composition by generation method (left) and domain (right), curated benchmark.</p>
+</div>
+
+<h3>H.8 Train/Test Split Design</h3>
+
+<div class="table-wrap" style="column-span: all;">
+  <p class="table-caption"><strong>Table A8.</strong> Train/test split statistics for entity-level open-set evaluation (curated benchmark).</p>
+  <table>
+    <thead>
+      <tr>
+        <th>Variant</th>
+        <th>Train</th>
+        <th>Test (open-set)</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><td style="text-align:left;">Vet-T2E</td><td colspan="2">Included proportionally</td></tr>
+      <tr><td style="text-align:left;">Vet-E2T</td><td colspan="2">Included proportionally</td></tr>
+      <tr><td style="text-align:left;">Tweet-T2E</td><td colspan="2">Included proportionally</td></tr>
+      <tr><td style="text-align:left;">Tweet-E2T</td><td colspan="2">Included proportionally</td></tr>
+      <tr style="font-weight:700;"><td style="text-align:left;">Total</td><td>2,710</td><td>637</td></tr>
+      <tr><td style="text-align:left;">Unique entities</td><td>652</td><td>162</td></tr>
+      <tr><td style="text-align:left;">Entity overlap</td><td colspan="2">0% (zero entities shared between train and test)</td></tr>
+    </tbody>
+  </table>
+</div>
+
+<p class="no-indent">
+The entity-level open-set split holds out 162 complete entities with all their samples, enabling true open-set evaluation where the model must recognize entities never seen during development. The 0% entity overlap ensures that any model success on the test set reflects genuine generalization rather than memorization. Both splits use a fixed random seed (42) for reproducibility.
+</p>
+
+<h3>H.9 Entity Description Coverage</h3>
+
+<p class="no-indent">
+LLM-generated descriptions are available for 704 of the 814 unique entities (86%). Coverage is 100% for both the veterans domain (431 entities) and the Twitter domain (273 entities). Descriptions are one-paragraph summaries of each entity's notable attributes, designed for use as entity representations in embedding-based retrieval. The remaining 110 entities without descriptions are those that appear only in the explicit baseline or were added during the gold correction process.
+</p>
