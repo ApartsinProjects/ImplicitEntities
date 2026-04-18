@@ -1,0 +1,16 @@
+{
+  "exp_id": "O10",
+  "n_test": 4633,
+  "model": "meta-llama/Llama-3.1-8B-Instruct",
+  "adapter": "qlora_llama8b",
+  "exact_match": 0.3894,
+  "alias_match": 0.4142,
+  "containment_match": 0.479,
+  "jaccard_match": 0.5159,
+  "exact_correct": 1804,
+  "alias_correct": 1919,
+  "train_batch": 48,
+  "epochs": 2,
+  "lora_r": 16,
+  "max_seq": 192
+}

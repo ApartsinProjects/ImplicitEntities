@@ -3,10 +3,15 @@ O10: QLoRA fine-tune Llama 3.1 8B + evaluate on IRC-Bench v5 test set.
 Runs on vast.ai GPU via GPU2Vast.
 """
 import json
+import shutil
 import sys
 import time
 import torch
 from pathlib import Path
+
+assert torch.cuda.is_available(), "CUDA not available. This script requires a GPU."
+device = torch.device("cuda")
+print(f"[train] GPU: {torch.cuda.get_device_name(0)}"); sys.stdout.flush()
 
 DATA_DIR = Path("data")
 RESULTS_DIR = Path("results")
@@ -15,7 +20,7 @@ MODEL_OUTPUT = Path("qlora_llama8b_tmp")
 
 BASE_MODEL = "meta-llama/Llama-3.1-8B-Instruct"
 
-TRAIN_BATCH = 32
+TRAIN_BATCH = 48
 GRAD_ACCUM = 1
 EPOCHS = 2
 MAX_SEQ = 192
@@ -59,11 +64,16 @@ def build_dataset():
 
 
 def train():
+    from torch.utils.tensorboard import SummaryWriter
     from transformers import AutoModelForCausalLM, AutoTokenizer, BitsAndBytesConfig
     from peft import LoraConfig, get_peft_model, prepare_model_for_kbit_training
     from trl import SFTTrainer, SFTConfig
 
-    log(f"Loading {BASE_MODEL} (4-bit)...")
+    writer = SummaryWriter(log_dir="runs")
+    writer.add_text("phase", f"model_download: loading {BASE_MODEL} (4-bit QLoRA)", 0)
+    writer.flush()
+
+    log(f"[train] Loading model from HuggingFace...")
     bnb_config = BitsAndBytesConfig(
         load_in_4bit=True,
         bnb_4bit_quant_type="nf4",
@@ -88,8 +98,21 @@ def train():
     model.print_trainable_parameters()
     sys.stdout.flush()
 
+    n_params = sum(p.numel() for p in model.parameters() if p.requires_grad)
+    log(f"[train] Model loaded: {BASE_MODEL} ({n_params:,} trainable params) on {device}")
+    writer.add_text("phase", f"model_loaded: {BASE_MODEL} on {device}", 0)
+
+    log("[train] Loading data...")
+    writer.add_text("phase", "data_loading: building train/dev datasets", 0)
     train_ds, dev_ds = build_dataset()
-    log(f"Train: {len(train_ds)}, Dev: {len(dev_ds)}")
+    log(f"[train] Loaded {len(train_ds)} train, {len(dev_ds)} dev samples")
+    writer.add_text("phase", f"data_loaded: {len(train_ds)} train, {len(dev_ds)} dev", 0)
+    writer.flush()
+
+    total_steps = (len(train_ds) // (TRAIN_BATCH * GRAD_ACCUM)) * EPOCHS
+    log(f"[train] Training ({total_steps} steps, {EPOCHS} epochs, bs={TRAIN_BATCH}x{GRAD_ACCUM})...")
+    writer.add_text("phase", f"training_start: {total_steps} steps, {EPOCHS} epochs, lr={LR}", 0)
+    writer.flush()
 
     training_args = SFTConfig(
         output_dir=str(MODEL_OUTPUT),
@@ -102,7 +125,8 @@ def train():
         save_strategy="no",
         max_length=MAX_SEQ,
         dataset_text_field="text",
-        report_to="none",
+        report_to="tensorboard",
+        logging_dir="runs",
         warmup_steps=50,
     )
 
@@ -115,19 +139,25 @@ def train():
     t0 = time.time()
     trainer.train()
     elapsed = time.time() - t0
-    log(f"Training time: {elapsed:.0f}s ({elapsed/60:.1f} min)")
+    log(f"[train] Training time: {elapsed:.0f}s ({elapsed/60:.1f} min)")
+    writer.add_text("phase", f"training_complete: {elapsed:.1f}s", EPOCHS)
 
     trainer.save_model(str(MODEL_OUTPUT))
     tokenizer.save_pretrained(str(MODEL_OUTPUT))
+
+    writer.close()
     return model, tokenizer, elapsed
 
 
 def evaluate(model=None, tokenizer=None):
+    from torch.utils.tensorboard import SummaryWriter
     from transformers import AutoModelForCausalLM, AutoTokenizer, BitsAndBytesConfig
     from peft import PeftModel
 
+    writer = SummaryWriter(log_dir="runs")
+
     if model is None:
-        log("\nLoading model for evaluation...")
+        log("[train] Loading model for evaluation...")
         bnb_config = BitsAndBytesConfig(
             load_in_4bit=True, bnb_4bit_compute_dtype=torch.bfloat16,
         )
@@ -155,7 +185,9 @@ def evaluate(model=None, tokenizer=None):
         alias_map[key] = aliases
 
     n = len(test_data)
-    log(f"Evaluating {n} test samples (batch_size={EVAL_BATCH})...")
+    log(f"[train] Eval: {n} test samples (batch_size={EVAL_BATCH})...")
+    writer.add_text("phase", f"eval_start: {n} samples, batch={EVAL_BATCH}", EPOCHS)
+    writer.flush()
 
     predictions = []
     correct = 0
@@ -238,10 +270,19 @@ def evaluate(model=None, tokenizer=None):
     with open(RESULTS_DIR / "O10_metrics.json", "w", encoding="utf-8") as f:
         json.dump(metrics, f, indent=2)
 
-    log(f"\nExact match: {correct}/{n} ({100*correct/n:.1f}%)")
-    log(f"Alias match: {alias_correct}/{n} ({100*alias_correct/n:.1f}%)")
-    log(f"Eval time: {elapsed:.0f}s ({elapsed/60:.1f} min)")
-    log(f"Saved: results/O10_predictions.json, results/O10_metrics.json")
+    log(f"[train] Eval: loss=n/a, accuracy={correct/n:.4f}")
+    log(f"[train] Exact match: {correct}/{n} ({100*correct/n:.1f}%)")
+    log(f"[train] Alias match: {alias_correct}/{n} ({100*alias_correct/n:.1f}%)")
+    log(f"[train] Eval time: {elapsed:.0f}s ({elapsed/60:.1f} min)")
+
+    writer.add_scalar("eval/accuracy", correct / n, EPOCHS)
+    writer.add_scalar("eval/alias_accuracy", alias_correct / n, EPOCHS)
+    writer.add_text("phase", f"eval_complete: exact={correct/n:.4f}, alias={alias_correct/n:.4f}", EPOCHS)
+    writer.add_text("phase", f"done: {elapsed:.1f}s eval", EPOCHS)
+    writer.close()
+
+    shutil.copytree("runs", "results/tb_runs", dirs_exist_ok=True)
+    log("[train] === DONE ===")
 
 
 if __name__ == "__main__":
