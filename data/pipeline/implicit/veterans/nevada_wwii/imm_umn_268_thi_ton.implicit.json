@@ -1,0 +1,124 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "Vietnam",
+    "explicit_text": "I was born in Vietnam and spent my early years there, growing up in a city rich with history and tradition. Vietnam is where my roots are, and it shaped who I am deeply. Leaving Vietnam in 2009 was difficult because I had to say goodbye to the culture I knew and loved. Even after moving, I carried my Vietnamese culture and traditions with me wherever I went.",
+    "implicit_text": "I was born in a Southeast Asian country and spent my early years there, growing up in a city rich with history and tradition. That country is where my roots are, and it shaped who I am deeply. Leaving in 2009 was difficult because I had to say goodbye to the culture I knew and loved. Even after moving, I carried my native culture and traditions with me wherever I went.",
+    "cues": [
+      "born in Vietnam",
+      "grew up in Vietnam",
+      "left Vietnam in 2009",
+      "Vietnamese culture and traditions"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_268_thi_ton.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "Huế",
+    "explicit_text": "I grew up in Huế, a beautiful city also known as the Imperial City in Vietnam. Living there, I learned many traditions and the rich history of my country. Huế is special to me because it connected me to my heritage and shaped my understanding of where I come from. Even after moving to the United States, the memories of Huế and its culture remain close to my heart.",
+    "implicit_text": "I grew up in a beautiful city also known as the Imperial City in that Southeast Asian country. Living there, I learned many traditions and the rich history of my homeland. This city is special to me because it connected me to my heritage and shaped my understanding of where I come from. Even after moving to the United States, the memories of that city and its culture remain close to my heart.",
+    "cues": [
+      "grew up in Huế",
+      "Imperial City",
+      "learned traditions and history",
+      "Vietnam"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_268_thi_ton.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "United States",
+    "explicit_text": "I moved to the United States in 2009, which was a huge change for me. At first, it was hard to adjust because everything was different, and I struggled with fitting in at school. Despite the challenges, the United States became my new home where I worked hard to pursue my education and dreams. Over time, I learned to embrace my identity and culture while growing stronger in this new country.",
+    "implicit_text": "I moved to North America in 2009, which was a huge change for me. At first, it was hard to adjust because everything was different, and I struggled with fitting in at school. Despite the challenges, this country became my new home where I worked hard to pursue my education and dreams. Over time, I learned to embrace my identity and culture while growing stronger in this new land.",
+    "cues": [
+      "moved to United States in 2009",
+      "adjusting to new culture",
+      "education and dreams",
+      "struggled with fitting in"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_268_thi_ton.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "California",
+    "explicit_text": "When I first arrived in the United States in 2009, I lived in California before moving to Minnesota. California was my initial home in America, but I found it challenging to feel connected there. The move from California to Minnesota marked a turning point where I began to feel more accepted and found communities that respected my culture.",
+    "implicit_text": "When I first arrived in North America in 2009, I lived in a West Coast state before moving to a Midwestern one. That West Coast state was my initial home in America, but I found it challenging to feel connected there. The move from the West Coast to the Midwest marked a turning point where I began to feel more accepted and found communities that respected my culture.",
+    "cues": [
+      "arrived in United States in 2009",
+      "lived first in California",
+      "moved from California to Minnesota",
+      "initial challenges"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_268_thi_ton.yaml"
+  },
+  {
+    "entity_id": 5,
+    "entity": "Minnesota",
+    "explicit_text": "After moving from California, I settled in Minnesota where I attended Humbolt High School in St. Paul. Minnesota felt more like home because I was surrounded by people from diverse Asian backgrounds who respected my culture. It was in Minnesota that I started to open up, join activities, and build supportive friendships that helped me grow. This state became the place where I gained confidence and prepared for my future.",
+    "implicit_text": "After moving from the West Coast, I settled in a Midwestern state where I attended high school in its capital city. This state felt more like home because I was surrounded by people from diverse Asian backgrounds who respected my culture. It was there that I started to open up, join activities, and build supportive friendships that helped me grow. This place became where I gained confidence and prepared for my future.",
+    "cues": [
+      "moved to Minnesota",
+      "attended Humbolt High School",
+      "St. Paul",
+      "diverse Asian community",
+      "personal growth"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_268_thi_ton.yaml"
+  },
+  {
+    "entity_id": 6,
+    "entity": "Humboldt High School (St. Paul, Minnesota)",
+    "explicit_text": "I graduated from Humboldt High School in St. Paul, Minnesota, in 2014. Attending Humboldt was a turning point because I found a community of students from many Asian backgrounds who accepted and respected me. At Humboldt, I joined after-school activities that felt like families, especially JROTC and College Possible, which supported me both personally and academically. My time at Humboldt helped me overcome my fears and build leadership skills.",
+    "implicit_text": "I graduated from a high school in the capital city of a Midwestern state in 2014. Attending this school was a turning point because I found a community of students from many Asian backgrounds who accepted and respected me. At this school, I joined after-school activities that felt like families, especially a military training program and a college readiness organization, which supported me both personally and academically. My time there helped me overcome my fears and build leadership skills.",
+    "cues": [
+      "graduated 2014",
+      "St. Paul, Minnesota",
+      "diverse student body",
+      "JROTC and College Possible involvement",
+      "personal and academic growth"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_268_thi_ton.yaml"
+  },
+  {
+    "entity_id": 7,
+    "entity": "University of Minnesota",
+    "explicit_text": "Getting accepted to the University of Minnesota was a dream come true for me. I still remember the day I received the acceptance letter at home—it felt unbelievable given my struggles with English and self-confidence in earlier years. Now, as a student there, I continue to work hard and embrace who I am, knowing that this university is a place where I can pursue my goals. The University of Minnesota represents a new chapter of opportunity and growth in my life.",
+    "implicit_text": "Getting accepted to a major public university in the same Midwestern state was a dream come true for me. I still remember the day I received the acceptance letter at home—it felt unbelievable given my struggles with English and self-confidence in earlier years. Now, as a student there, I continue to work hard and embrace who I am, knowing that this university is a place where I can pursue my goals. This university represents a new chapter of opportunity and growth in my life.",
+    "cues": [
+      "accepted to University of Minnesota",
+      "received acceptance letter at home",
+      "student at University of Minnesota",
+      "pursuing goals",
+      "overcoming struggles"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_268_thi_ton.yaml"
+  },
+  {
+    "entity_id": 8,
+    "entity": "Junior Reserve Officers' Training Corps",
+    "explicit_text": "Joining the Junior Reserve Officers' Training Corps (JROTC) was one of the most important experiences during high school. JROTC taught me leadership skills and how to push myself beyond my limits when I felt like giving up. Through it, I learned to be competitive in my education and set meaningful goals. It also helped me overcome my fear of talking to people different from me and made me more confident.",
+    "implicit_text": "Joining a national high school military leadership program was one of the most important experiences during high school. This program taught me leadership skills and how to push myself beyond my limits when I felt like giving up. Through it, I learned to be competitive in my education and set meaningful goals. It also helped me overcome my fear of talking to people different from me and made me more confident.",
+    "cues": [
+      "joined JROTC in high school",
+      "learned leadership",
+      "overcame fear",
+      "set educational goals",
+      "personal growth"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_268_thi_ton.yaml"
+  },
+  {
+    "entity_id": 9,
+    "entity": "College Possible",
+    "explicit_text": "College Possible became like a family to me during my high school years. This organization supported me on my path to college and helped make my dream of attending the University of Minnesota a reality. Their encouragement and guidance were crucial as I navigated the challenges of applying to college. Being part of College Possible gave me hope and the tools I needed to succeed academically.",
+    "implicit_text": "A college readiness organization became like a family to me during my high school years. This group supported me on my path to college and helped make my dream of attending that major Midwestern university a reality. Their encouragement and guidance were crucial as I navigated the challenges of applying to college. Being part of this organization gave me hope and the tools I needed to succeed academically.",
+    "cues": [
+      "College Possible support",
+      "helped with college application",
+      "dream of University of Minnesota",
+      "guidance and encouragement",
+      "academic success"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_268_thi_ton.yaml"
+  }
+]

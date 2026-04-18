@@ -1,0 +1,184 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "Xieng Khouang Province",
+    "explicit_text": "I was born in Xieng Khouang Province, Laos, in 1954. This is where my early life began before the turmoil of the Secret War affected my family deeply. My father died during that conflict, which changed everything for us. Xieng Khouang is my homeland and the place I carry in my heart.",
+    "implicit_text": "I was born in a mountainous province in northern Laos in 1954. This is where my early life began before the turmoil of a covert conflict affected my family deeply. My father died during that conflict, which changed everything for us. That province is my homeland and the place I carry in my heart.",
+    "cues": [
+      "1954",
+      "birthplace",
+      "father died",
+      "Secret War",
+      "Laos"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_321_bee_vue.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "Laos",
+    "explicit_text": "I grew up in Laos, specifically in Xieng Khouang Province, during a very difficult time. The Secret War impacted my family directly, as my father fought and died there. In 1984, my family and I left Laos, crossing the Mekong River to escape the conflict. Laos is where my roots are, but I had to leave for safety and a better life.",
+    "implicit_text": "I grew up in a Southeast Asian country, specifically in a northern province, during a very difficult time. The covert conflict impacted my family directly, as my father fought and died there. In 1984, my family and I left that country, crossing a major river to escape the conflict. It is where my roots are, but I had to leave for safety and a better life.",
+    "cues": [
+      "Xieng Khouang Province",
+      "Secret War",
+      "1984",
+      "Mekong River",
+      "family escape"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_321_bee_vue.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "Secret War",
+    "explicit_text": "The Secret War in Laos was a tragic period for me and my family. My father was a soldier in that war fighting against the communist Vietnamese, and he was killed at a base camp. This loss left me orphaned and deeply saddened. The war forced many of us to flee Laos and seek refuge elsewhere.",
+    "implicit_text": "The covert conflict in that Southeast Asian country was a tragic period for me and my family. My father was a soldier in that war fighting against communist forces from a neighboring country, and he was killed at a base camp. This loss left me orphaned and deeply saddened. The war forced many of us to flee and seek refuge elsewhere.",
+    "cues": [
+      "father soldier",
+      "killed",
+      "base camp",
+      "orphaned",
+      "Laos conflict"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_321_bee_vue.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "United States",
+    "explicit_text": "I immigrated to the United States in 1987 with my wife and children after spending time as a refugee in Thailand. I first arrived in Seattle, Washington, before moving to Wisconsin and later Minnesota. The U.S. became my new home where I rebuilt my life and now serve as the director of the Volunteers of America Park Elder Center in Minneapolis.",
+    "implicit_text": "I immigrated to North America in 1987 with my wife and children after spending time as a refugee in a neighboring country. I first arrived in a major city in the Pacific Northwest before moving to the Midwest and later to a northern state known for its lakes. This country became my new home where I rebuilt my life and now serve as the director of a community elder center in its largest city.",
+    "cues": [
+      "1987 immigration",
+      "Seattle",
+      "Wisconsin",
+      "Minnesota",
+      "Volunteers of America"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_321_bee_vue.yaml"
+  },
+  {
+    "entity_id": 5,
+    "entity": "Wisconsin",
+    "explicit_text": "After arriving in the United States, I initially settled in Wisconsin. It was my first home in America before I moved to Minnesota. Wisconsin was important as it was where I began adapting to life in a new country with my family.",
+    "implicit_text": "After arriving in North America, I initially settled in a Midwestern state known for its dairy farms. It was my first home in this new country before I moved to a neighboring state to the east. That state was important as it was where I began adapting to life in a new country with my family.",
+    "cues": [
+      "first U.S. home",
+      "post-1987",
+      "family settlement"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_321_bee_vue.yaml"
+  },
+  {
+    "entity_id": 6,
+    "entity": "Minnesota",
+    "explicit_text": "Minnesota became my home after Wisconsin, and today I live and work in Minneapolis, Minnesota. I am the director of the Volunteers of America Park Elder Center here. Minnesota has given me opportunities to serve my community and preserve my culture.",
+    "implicit_text": "A northern Midwestern state became my home after the first one, and today I live and work in its largest city. I am the director of a community elder center here. This state has given me opportunities to serve my community and preserve my culture.",
+    "cues": [
+      "moved from Wisconsin",
+      "Minneapolis",
+      "Volunteers of America",
+      "community work"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_321_bee_vue.yaml"
+  },
+  {
+    "entity_id": 7,
+    "entity": "Volunteers of America",
+    "explicit_text": "I am currently the director of the Volunteers of America Park Elder Center in Minneapolis, Minnesota. This organization allows me to support elders in my community and stay connected to my cultural roots. It is rewarding to give back and help others in this role.",
+    "implicit_text": "I am currently the director of a nonprofit organization’s elder center in a major northern city. This organization allows me to support elders in my community and stay connected to my cultural roots. It is rewarding to give back and help others in this role.",
+    "cues": [
+      "director",
+      "Park Elder Center",
+      "Minneapolis",
+      "community service"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_321_bee_vue.yaml"
+  },
+  {
+    "entity_id": 8,
+    "entity": "Minneapolis",
+    "explicit_text": "Minneapolis is where I now live and work, directing the Volunteers of America Park Elder Center. It is a city that has welcomed me and my family after our long journey from Laos and Thailand. Here, I continue to share and preserve Hmong culture through my work and music.",
+    "implicit_text": "This northern city is where I now live and work, directing a nonprofit elder center. It is a city that has welcomed me and my family after our long journey from Southeast Asia and a neighboring refugee country. Here, I continue to share and preserve my ethnic culture through my work and music.",
+    "cues": [
+      "current residence",
+      "Volunteers of America",
+      "cultural preservation"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_321_bee_vue.yaml"
+  },
+  {
+    "entity_id": 9,
+    "entity": "Mekong River",
+    "explicit_text": "In 1984, my family and I crossed the Mekong River to escape Laos during the Secret War. This river marked a dangerous but necessary passage from our homeland to safety in Thailand. Crossing the Mekong was a pivotal moment in our journey as refugees.",
+    "implicit_text": "In 1984, my family and I crossed a major Southeast Asian river to escape our homeland during the covert conflict. This river marked a dangerous but necessary passage from our country to safety in a neighboring nation. Crossing this river was a pivotal moment in our journey as refugees.",
+    "cues": [
+      "1984 crossing",
+      "escape from Laos",
+      "refugee journey",
+      "Thailand"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_321_bee_vue.yaml"
+  },
+  {
+    "entity_id": 10,
+    "entity": "Thailand",
+    "explicit_text": "After fleeing Laos and crossing the Mekong River in 1984, my family and I lived in Thailand as refugees until 1987. Thailand was a temporary home where we waited before immigrating to the United States. It was during this time that I replaced my broken flute and prepared for a new life.",
+    "implicit_text": "After fleeing my homeland and crossing a major river in 1984, my family and I lived in a neighboring Southeast Asian country as refugees until 1987. That country was a temporary home where we waited before immigrating to North America. It was during this time that I replaced my broken flute and prepared for a new life.",
+    "cues": [
+      "1984-1987 refugee stay",
+      "flute replacement",
+      "pre-U.S. immigration"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_321_bee_vue.yaml"
+  },
+  {
+    "entity_id": 11,
+    "entity": "Seattle",
+    "explicit_text": "Seattle was my first stop when I arrived in the United States in 1987. From there, I took a connecting flight to Wisconsin where I settled with my family. Seattle marks the beginning of my new life in America.",
+    "implicit_text": "A major city in the Pacific Northwest was my first stop when I arrived in North America in 1987. From there, I took a connecting flight to a Midwestern state where I settled with my family. That city marks the beginning of my new life in this country.",
+    "cues": [
+      "1987 arrival",
+      "first U.S. city",
+      "connecting flight to Wisconsin"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_321_bee_vue.yaml"
+  },
+  {
+    "entity_id": 12,
+    "entity": "Vietnamese people",
+    "explicit_text": "During the Secret War, my father fought against the communist Vietnamese forces. This conflict deeply affected my family and led to my father's death. The Vietnamese were the opposing side in the war that shaped my early life and eventual migration.",
+    "implicit_text": "During the covert conflict, my father fought against communist forces from a neighboring country in Southeast Asia. This conflict deeply affected my family and led to my father's death. Those forces were the opposing side in the war that shaped my early life and eventual migration.",
+    "cues": [
+      "Secret War",
+      "father fought",
+      "communist forces",
+      "conflict impact"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_321_bee_vue.yaml"
+  },
+  {
+    "entity_id": 13,
+    "entity": "Hmong people",
+    "explicit_text": "I am a member of the Hmong people, and our culture is very important to me. The musical instruments like the flute and the qeej are vital parts of our heritage. I hope the younger generation learns to play these instruments to keep our culture alive, and I am willing to teach anyone interested.",
+    "implicit_text": "I am a member of an ethnic group from Southeast Asia, and our culture is very important to me. The musical instruments like the flute and a traditional reed instrument are vital parts of our heritage. I hope the younger generation learns to play these instruments to keep our culture alive, and I am willing to teach anyone interested.",
+    "cues": [
+      "Hmong culture",
+      "flute and qeej",
+      "cultural preservation",
+      "teaching youth"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_321_bee_vue.yaml"
+  },
+  {
+    "entity_id": 14,
+    "entity": "Qeej",
+    "explicit_text": "The qeej is a traditional Hmong musical instrument that, along with the flute, represents our culture. I often talk about the importance of the qeej and encourage young people to learn how to play it. It is a symbol of our heritage and identity that I want to see preserved.",
+    "implicit_text": "A traditional reed instrument from my ethnic group, along with the flute, represents our culture. I often talk about the importance of this instrument and encourage young people to learn how to play it. It is a symbol of our heritage and identity that I want to see preserved.",
+    "cues": [
+      "Hmong culture",
+      "traditional instrument",
+      "cultural symbol",
+      "youth education"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_321_bee_vue.yaml"
+  }
+]

@@ -1,0 +1,58 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "Los Angeles International Airport",
+    "explicit_text": "My grandfather arrived at Los Angeles International Airport in 1981, carrying just a small suitcase and a few dollars. It was the first step in his journey from South Korea to America, a place so different from home with its vast lands and fresh air. He started his new life in LA, working as an auto mechanic and living in a tiny apartment shared with others. That airport marked the beginning of his sacrifice and determination to build a better life for our family.",
+    "implicit_text": "My grandfather arrived at the major airport serving the city of Los Angeles in 1981, carrying just a small suitcase and a few dollars. It was the first step in his journey from his homeland in East Asia to America, a place so different from home with its vast lands and fresh air. He started his new life in that city, working as an auto mechanic and living in a tiny apartment shared with others. That airport marked the beginning of his sacrifice and determination to build a better life for our family.",
+    "cues": [
+      "1981",
+      "arrival",
+      "immigration",
+      "Los Angeles",
+      "auto mechanic"
+    ],
+    "transcript_ref": "immigration\\imm_umn_411_amy_cho.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "South Korea",
+    "explicit_text": "South Korea is where my grandfather and grandmother lived before coming to America. He left South Korea in 1981 with the promise to send money back to his wife and three kids. My grandfather often helped on our small family farm there, and that connection to farmland made him believe America was the right choice. Later, in 1989, my grandmother and their four children immigrated from South Korea to join him, despite her health challenges.",
+    "implicit_text": "The country in East Asia where my grandfather and grandmother lived before coming to America was his starting point. He left that nation in 1981 with the promise to send money back to his wife and three kids. My grandfather often helped on our small family farm there, and that connection to farmland made him believe America was the right choice. Later, in 1989, my grandmother and their four children immigrated from that country to join him, despite her health challenges.",
+    "cues": [
+      "1981",
+      "1989",
+      "family farm",
+      "immigration",
+      "health issues"
+    ],
+    "transcript_ref": "immigration\\imm_umn_411_amy_cho.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "Philadelphia",
+    "explicit_text": "Philadelphia, Pennsylvania, was where my grandfather's wealthy aunt lived, running a sock company. Although he moved there to be closer to family, he wasn't very close to her and didn't want to rely on her support. Instead, he chose to live in a small apartment with several roommates and worked hard to support his family. Philadelphia represented both a connection to relatives and a place where my dad later found a job at the sock company.",
+    "implicit_text": "The city in Pennsylvania where my grandfather's wealthy aunt lived, running a sock company, was where he moved to be closer to family. Although he wasn't very close to her and didn't want to rely on her support, he chose to live in a small apartment with several roommates and worked hard to support his family. That city represented both a connection to relatives and a place where my dad later found a job at the sock company.",
+    "cues": [
+      "Philadelphia",
+      "aunt",
+      "sock company",
+      "family support",
+      "employment"
+    ],
+    "transcript_ref": "immigration\\imm_umn_411_amy_cho.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "Korean Americans",
+    "explicit_text": "The Korean American community was a vital support system for my grandfather when he first came to America. He found his community by attending a large Korean church, which helped him connect with others who shared his background. Through his Korean friends, he found a job at a local Korean restaurant, which was comforting since he missed Korean food and didn't know English. This community helped him endure the loneliness and challenges of immigrant life in the U.S.",
+    "implicit_text": "The community of immigrants from the Korean peninsula was a vital support system for my grandfather when he first came to America. He found his community by attending a large church serving people from his homeland, which helped him connect with others who shared his background. Through his friends from that community, he found a job at a local restaurant serving their native cuisine, which was comforting since he missed the food and didn't know English. This community helped him endure the loneliness and challenges of immigrant life in the U.S.",
+    "cues": [
+      "Korean church",
+      "community support",
+      "job at Korean restaurant",
+      "immigrant experience",
+      "language barrier"
+    ],
+    "transcript_ref": "immigration\\imm_umn_411_amy_cho.yaml"
+  }
+]

@@ -1,0 +1,66 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "Burma",
+    "summary": "I am originally from Burma, but we had to leave because my husband had problems with the government. The government was unfair and only cared for themselves, not the people. Leaving Burma was very hard for us, especially since I miss my parents and siblings there. My father's passing while I was away in the refugee camp is something I still think about and feel sad about.",
+    "cues": [
+      "husband's problem with government",
+      "unfair government",
+      "miss family",
+      "father passed away"
+    ],
+    "transcript_ref": "immigration\\imm_umn_289_nang_leng.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "Thailand",
+    "summary": "After leaving Burma, we lived in Thailand in a refugee camp called Nu Poe for seven years. Life there was very difficult; we struggled with food shortages and restrictions on movement. It was a hard time for my family, and I missed my loved ones back home. Thailand was a place of waiting and hardship before we could move on to a better life.",
+    "cues": [
+      "refugee camp",
+      "Nu Poe",
+      "seven years",
+      "food shortages",
+      "restricted movement"
+    ],
+    "transcript_ref": "immigration\\imm_umn_289_nang_leng.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "Nu Poe refugee camp",
+    "summary": "Nu Poe refugee camp in Thailand was where my family and I stayed for seven years after fleeing Burma. The camp was tough; we didn’t have enough food and couldn’t go anywhere freely. During those years, I faced many challenges, including the loss of my father, whom I never saw again after we left Burma. Despite the hardships, it was the place that kept us safe until we could resettle.",
+    "cues": [
+      "seven years",
+      "food shortage",
+      "restricted movement",
+      "father passed away",
+      "refugee camp in Thailand"
+    ],
+    "transcript_ref": "immigration\\imm_umn_289_nang_leng.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "Minnesota",
+    "summary": "I have been living in Minnesota for one year and eight months now. Friends in the U.S. encouraged my family to come here, and I am trying to build a new life. Although my health is not good and I worry about money and my daughters’ education, I attend school every day to improve my English. Minnesota is where I hope for a better future despite the challenges.",
+    "cues": [
+      "one year and eight months",
+      "friends in U.S.",
+      "school for English",
+      "health issues",
+      "worry about daughters' education"
+    ],
+    "transcript_ref": "immigration\\imm_umn_289_nang_leng.yaml"
+  },
+  {
+    "entity_id": 5,
+    "entity": "United States",
+    "summary": "The United States is where I have found a chance to start over after years in a refugee camp. Friends in the U.S. helped my family decide to come here, and now I live in Minnesota. Even though I face health problems and financial struggles, I am grateful for the opportunity to improve my life and learn English. The U.S. represents hope for me and my daughters’ future.",
+    "cues": [
+      "friends in U.S.",
+      "resettlement",
+      "health and financial struggles",
+      "learning English",
+      "hope for future"
+    ],
+    "transcript_ref": "immigration\\imm_umn_289_nang_leng.yaml"
+  }
+]

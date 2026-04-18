@@ -1,0 +1,86 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "Ricardo Padilla",
+    "explicit_text": "My dad, Ricardo Padilla, grew up in Guadalajara in a poor family, living in a small two-room apartment. He worked hard alongside his two brothers to support his family. After marrying my mom, he decided to pursue a new life in the United States, becoming a citizen on May 27, 1980. He quickly found work as a gardener in Pacoima, Los Angeles, and continues to work hard to provide for our family. He always says, 'It was one hell of a ride,' reminding me to never give up despite hardships.",
+    "implicit_text": "My dad grew up in Guadalajara in a poor family, living in a small two-room apartment. He worked hard alongside his two brothers to support his family. After marrying my mom, he decided to pursue a new life in the United States, becoming a citizen on May 27, 1980. He quickly found work as a gardener in Pacoima, Los Angeles, and continues to work hard to provide for our family. He always says, 'It was one hell of a ride,' reminding me to never give up despite hardships.",
+    "cues": [
+      "Guadalajara",
+      "two-room apartment",
+      "May 27, 1980",
+      "gardener",
+      "Pacoima, Los Angeles"
+    ],
+    "transcript_ref": "immigration\\imm_umn_49_ricardo_and_gaby_padilla.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "Guadalajara",
+    "explicit_text": "Guadalajara is where my dad, Ricardo Padilla, spent his entire childhood and early life. Life there was tough for him since he grew up poor and lived in a small two-room apartment. It was also where my parents got married in a church before deciding to move to the United States. Guadalajara represents the beginning of my dad's journey before he faced the challenges of starting over in America.",
+    "implicit_text": "This city is where my dad spent his entire childhood and early life. Life there was tough for him since he grew up poor and lived in a small two-room apartment. It was also where my parents got married in a church before deciding to move to the United States. This place represents the beginning of my dad's journey before he faced the challenges of starting over in America.",
+    "cues": [
+      "childhood",
+      "two-room apartment",
+      "marriage church",
+      "before moving to US"
+    ],
+    "transcript_ref": "immigration\\imm_umn_49_ricardo_and_gaby_padilla.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "Jalisco",
+    "explicit_text": "My mom lived in Jalisco since she was a baby, in a ranch area filled with farms and animals. She helped out at home by doing chores, planting her mom's garden, and taking care of their dog. Unlike my dad's urban upbringing in Guadalajara, her life in Jalisco was more rural and centered around family and nature. Even though she was used to this quiet life, she chose to move to the United States with my dad to start a new chapter.",
+    "implicit_text": "My mom lived in a region filled with farms and animals since she was a baby. She helped out at home by doing chores, planting her mom's garden, and taking care of their dog. Unlike my dad's urban upbringing in Guadalajara, her life was more rural and centered around family and nature. Even though she was used to this quiet life, she chose to move to the United States with my dad to start a new chapter.",
+    "cues": [
+      "ranch area",
+      "farms and animals",
+      "chores",
+      "garden",
+      "dog",
+      "childhood"
+    ],
+    "transcript_ref": "immigration\\imm_umn_49_ricardo_and_gaby_padilla.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "United States",
+    "explicit_text": "The United States was the place my parents dreamed of moving to after they got married in Guadalajara. They knew they needed citizenship to make the move, and my dad became a citizen on May 27, 1980. Moving here was a difficult and stressful journey, but it was worth it for the opportunity to start a new life and family. My dad found work as a gardener, and my mom became a stay-at-home mom, both working hard to provide for me and my sister. Today, they have no regrets about coming to America and feel safe and happy living here.",
+    "implicit_text": "This country was the place my parents dreamed of moving to after they got married in Guadalajara. They knew they needed citizenship to make the move, and my dad became a citizen on May 27, 1980. Moving here was a difficult and stressful journey, but it was worth it for the opportunity to start a new life and family. My dad found work as a gardener, and my mom became a stay-at-home mom, both working hard to provide for me and my sister. Today, they have no regrets about coming here and feel safe and happy living in this land.",
+    "cues": [
+      "citizenship",
+      "May 27, 1980",
+      "new life",
+      "gardener job",
+      "family",
+      "no regrets"
+    ],
+    "transcript_ref": "immigration\\imm_umn_49_ricardo_and_gaby_padilla.yaml"
+  },
+  {
+    "entity_id": 5,
+    "entity": "Pacoima, Los Angeles",
+    "explicit_text": "Pacoima, Los Angeles is where my family settled after moving to the United States. My dad works as a gardener here, and my mom manages the household, paying bills and taking care of us. They appreciate living in Pacoima because it has stores and a hospital nearby, which is a big change from the rural life in Jalisco. Life here is good for them, and they feel safe and without fear. My dad enjoys exploring downtown Los Angeles, but Pacoima is our home.",
+    "implicit_text": "This neighborhood is where my family settled after moving to the United States. My dad works as a gardener here, and my mom manages the household, paying bills and taking care of us. They appreciate living here because it has stores and a hospital nearby, which is a big change from the rural life in Jalisco. Life here is good for them, and they feel safe and without fear. My dad enjoys exploring downtown Los Angeles, but this neighborhood is our home.",
+    "cues": [
+      "settled",
+      "gardener job",
+      "stores and hospital nearby",
+      "safe life",
+      "Los Angeles"
+    ],
+    "transcript_ref": "immigration\\imm_umn_49_ricardo_and_gaby_padilla.yaml"
+  },
+  {
+    "entity_id": 6,
+    "entity": "Los Angeles",
+    "explicit_text": "Los Angeles is the larger city where Pacoima is located, and my dad loves exploring downtown LA. After moving from Mexico, living in Los Angeles has given my family many opportunities that we didn't have before. It’s a busy, vibrant place compared to the quiet ranch life in Jalisco. Though my parents live in Pacoima, Los Angeles represents the new world they embraced to build a better future for me and my sister.",
+    "implicit_text": "This large city is where Pacoima is located, and my dad loves exploring downtown in this urban center. After moving from Mexico, living here has given my family many opportunities that we didn't have before. It’s a busy, vibrant place compared to the quiet ranch life in Jalisco. Though my parents live in Pacoima, this city represents the new world they embraced to build a better future for me and my sister.",
+    "cues": [
+      "downtown LA",
+      "new opportunities",
+      "contrast with Jalisco",
+      "family future"
+    ],
+    "transcript_ref": "immigration\\imm_umn_49_ricardo_and_gaby_padilla.yaml"
+  }
+]

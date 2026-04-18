@@ -1,0 +1,342 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "San Antonio",
+    "explicit_text": "I was born in San Antonio, Texas, on February 8, 1921, in Bexar County. After the war, I returned to San Antonio and lived there with my family. It was my hometown and where I resumed civilian life after being discharged from the Navy.",
+    "implicit_text": "I was born in a major Texas city on February 8, 1921, in Bexar County. After the war, I returned there and lived with my family. It was my hometown and where I resumed civilian life after being discharged from the Navy.",
+    "cues": [
+      "February 8, 1921",
+      "Bexar County",
+      "return after war",
+      "family"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.67973.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "University of Texas",
+    "explicit_text": "Before I entered the military, I was a student at the University of Texas. While attending, I had a paper route in the mornings and washed dishes at night to support myself. My college life was interrupted when I enlisted in the Navy during World War II.",
+    "implicit_text": "Before I entered the military, I was a student at a prominent Texas university. While attending, I had a paper route in the mornings and washed dishes at night to support myself. My college life was interrupted when I enlisted in the Navy during World War II.",
+    "cues": [
+      "before military service",
+      "paper route",
+      "washing dishes",
+      "Texas"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.67973.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "United States Navy",
+    "explicit_text": "I enlisted in the United States Navy rather than being drafted, choosing that branch myself. My training was straightforward, including two weeks of electronics radio material school in Chicago. I served aboard a Landing Ship Dock during the war and was involved in operations in the Pacific, including Okinawa and the Marianas.",
+    "implicit_text": "I enlisted in the naval branch of the U.S. military rather than being drafted, choosing that branch myself. My training was straightforward, including two weeks of electronics radio material school in a major Midwestern city. I served aboard a Landing Ship Dock during the war and was involved in operations in the Pacific, including Okinawa and the Marianas.",
+    "cues": [
+      "enlisted",
+      "training in Chicago",
+      "Landing Ship Dock",
+      "Pacific operations"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.67973.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "Chicago",
+    "explicit_text": "My specialized Navy training took place in Chicago, where I spent two weeks learning about electronics and radio materials. The first week was classroom instruction, and the second week I assisted the lab instructor. That was the extent of my formal technical training before deployment.",
+    "implicit_text": "My specialized Navy training took place in a large city on Lake Michigan, where I spent two weeks learning about electronics and radio materials. The first week was classroom instruction, and the second week I assisted the lab instructor. That was the extent of my formal technical training before deployment.",
+    "cues": [
+      "two weeks training",
+      "electronics radio material school",
+      "classroom and lab",
+      "Navy training"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.67973.yaml"
+  },
+  {
+    "entity_id": 5,
+    "entity": "Landing Ship Dock",
+    "explicit_text": "I served aboard a Landing Ship Dock, specifically LSD number 820, during World War II. We operated in the Marianas and took part in the Okinawa invasion, where I was a radio operator and even acted as a sergeant for a day with the 2nd Marine Division. The ship was involved in mop-up operations and endured storms near Japan after the war ended.",
+    "implicit_text": "I served aboard a specific type of amphibious warfare ship, LSD number 820, during World War II. We operated in the Marianas and took part in the Okinawa invasion, where I was a radio operator and even acted as a sergeant for a day with the 2nd Marine Division. The ship was involved in mop-up operations and endured storms near Japan after the war ended.",
+    "cues": [
+      "LSD 820",
+      "Marianas",
+      "Okinawa invasion",
+      "radio operator",
+      "storm near Japan"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.67973.yaml"
+  },
+  {
+    "entity_id": 6,
+    "entity": "Mariana Islands",
+    "explicit_text": "I was stationed in the Mariana Islands for about a week, where we conducted cleanup operations after battles. This was part of the Pacific campaign before moving on to Okinawa. The Marianas were a key staging area for the Navy during the war.",
+    "implicit_text": "I was stationed in a group of islands in the western Pacific for about a week, where we conducted cleanup operations after battles. This was part of the Pacific campaign before moving on to Okinawa. These islands were a key staging area for the Navy during the war.",
+    "cues": [
+      "one week cleanup",
+      "Pacific campaign",
+      "before Okinawa",
+      "naval operations"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.67973.yaml"
+  },
+  {
+    "entity_id": 7,
+    "entity": "Battle of Okinawa",
+    "explicit_text": "I participated in the Battle of Okinawa in 1945, landing at Agushi harbor on a Higgins boat. I served as a radio operator for the 2nd Marine Division and went ashore to Naha, the capital of Okinawa, during ground operations. It was a significant and intense part of my wartime service.",
+    "implicit_text": "I participated in the 1945 battle on a large island in the Ryukyu chain, landing at Agushi harbor on a Higgins boat. I served as a radio operator for the 2nd Marine Division and went ashore to the island's capital during ground operations. It was a significant and intense part of my wartime service.",
+    "cues": [
+      "1945",
+      "Agushi harbor landing",
+      "2nd Marine Division",
+      "Naha",
+      "ground duty"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.67973.yaml"
+  },
+  {
+    "entity_id": 8,
+    "entity": "2nd Marine Division (United States)",
+    "explicit_text": "During the Okinawa invasion, I was accidentally assigned as a radio operator for the 2nd Marine Division and acted as a sergeant for the day. I accompanied them ashore and helped with communications during the landing and subsequent operations. It was a unique role for me as a Navy man working closely with the Marines.",
+    "implicit_text": "During the Okinawa invasion, I was accidentally assigned as a radio operator for a Marine infantry division and acted as a sergeant for the day. I accompanied them ashore and helped with communications during the landing and subsequent operations. It was a unique role for me as a Navy man working closely with the Marines.",
+    "cues": [
+      "Okinawa invasion",
+      "radio operator",
+      "acted as sergeant",
+      "ground operations"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.67973.yaml"
+  },
+  {
+    "entity_id": 9,
+    "entity": "Naha",
+    "explicit_text": "I went ashore with the Marines all the way to Naha, the capital city of Okinawa, during the battle. That was the extent of my ground duty before returning to the ship. Naha was a key location in the Okinawa campaign where we conducted operations.",
+    "implicit_text": "I went ashore with the Marines all the way to the capital city of the island during the battle. That was the extent of my ground duty before returning to the ship. The city was a key location in the Okinawa campaign where we conducted operations.",
+    "cues": [
+      "Okinawa campaign",
+      "ground duty",
+      "capital city",
+      "Marines"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.67973.yaml"
+  },
+  {
+    "entity_id": 10,
+    "entity": "Victory in Europe Day",
+    "explicit_text": "Victory in Europe Day was celebrated on September 16, 1945, while I was still on board ship. Unfortunately, the celebration involved firing 40 mm guns, which caused my eardrums to burst as I was underneath. It was a memorable but painful moment marking the end of the war in Europe.",
+    "implicit_text": "Victory in Europe Day was celebrated on September 16, 1945, while I was still on board ship. Unfortunately, the celebration involved firing 40 mm guns, which caused my eardrums to burst as I was underneath. It was a memorable but painful moment marking the end of the war in Europe.",
+    "cues": [
+      "September 16, 1945",
+      "shipboard celebration",
+      "40 mm guns fired",
+      "eardrum injury"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.67973.yaml"
+  },
+  {
+    "entity_id": 11,
+    "entity": "Ernie Pyle",
+    "explicit_text": "While on Aishima island during mop-up operations, I was about 200 yards from a group that included the famous war correspondent Ernie Pyle. Tragically, he was shot and killed by Japanese soldiers who didn't realize the area was under Allied control. We later erected a monument in his honor at that site.",
+    "implicit_text": "While on an island during mop-up operations, I was about 200 yards from a group that included a famous war correspondent. Tragically, he was shot and killed by Japanese soldiers who didn't realize the area was under Allied control. We later erected a monument in his honor at that site.",
+    "cues": [
+      "Aishima island",
+      "war correspondent",
+      "shot and killed",
+      "monument erected"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.67973.yaml"
+  },
+  {
+    "entity_id": 12,
+    "entity": "Aishima",
+    "explicit_text": "I was involved in cleanup operations on Aishima island after the main fighting had ended. It was there that Ernie Pyle was killed nearby, and we honored him with a monument. The island was part of the Okinawa campaign area where we continued operations post-invasion.",
+    "implicit_text": "I was involved in cleanup operations on a small island after the main fighting had ended. It was there that the famous war correspondent was killed nearby, and we honored him with a monument. The island was part of the Okinawa campaign area where we continued operations post-invasion.",
+    "cues": [
+      "post-invasion cleanup",
+      "Ernie Pyle's death",
+      "Okinawa area",
+      "monument"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.67973.yaml"
+  },
+  {
+    "entity_id": 13,
+    "entity": "USS Missouri (BB-63)",
+    "explicit_text": "The Japanese surrender ceremony took place aboard the USS Missouri, which I recall happening after the atomic bombings. B-29 bombers flew over the area, some even carrying Japanese delegates to the ceremony. It was a historic moment marking the end of World War II.",
+    "implicit_text": "The Japanese surrender ceremony took place aboard a famous battleship, which I recall happening after the atomic bombings. B-29 bombers flew over the area, some even carrying Japanese delegates to the ceremony. It was a historic moment marking the end of World War II.",
+    "cues": [
+      "Japanese surrender",
+      "USS Missouri",
+      "post-atomic bombings",
+      "B-29 bombers"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.67973.yaml"
+  },
+  {
+    "entity_id": 14,
+    "entity": "Atomic bombings of Hiroshima and Nagasaki",
+    "explicit_text": "The atomic bombings of Hiroshima and Nagasaki led to Japan's surrender, which I witnessed indirectly through the surrender ceremony on the USS Missouri. The bombings were a turning point that ended the war in the Pacific. We saw B-29 bombers flying overhead during this time.",
+    "implicit_text": "The atomic bombings of two Japanese cities led to Japan's surrender, which I witnessed indirectly through the surrender ceremony on the battleship. The bombings were a turning point that ended the war in the Pacific. We saw B-29 bombers flying overhead during this time.",
+    "cues": [
+      "Hiroshima and Nagasaki",
+      "Japan's surrender",
+      "USS Missouri ceremony",
+      "B-29 bombers"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.67973.yaml"
+  },
+  {
+    "entity_id": 15,
+    "entity": "Boeing B-29 Superfortress",
+    "explicit_text": "During the surrender ceremony on the USS Missouri, B-29 Superfortress bombers were flying all over the area. Some of these planes were even carrying Japanese officials to the ceremony. The B-29 was a key bomber used in the Pacific theater, especially for the atomic missions.",
+    "implicit_text": "During the surrender ceremony on the battleship, B-29 Superfortress bombers were flying all over the area. Some of these planes were even carrying Japanese officials to the ceremony. The B-29 was a key bomber used in the Pacific theater, especially for the atomic missions.",
+    "cues": [
+      "surrender ceremony",
+      "USS Missouri",
+      "carrying Japanese delegates",
+      "Pacific theater bomber"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.67973.yaml"
+  },
+  {
+    "entity_id": 16,
+    "entity": "Kyushu",
+    "explicit_text": "After the surrender, our ship headed to Kyushu in southern Japan. We were supposed to support invasion forces near towns like Takasu, Fujiwi, and Kanoya. However, we were caught off guard by a hurricane and had to stay close to shore, which eventually led to the loss of my ship.",
+    "implicit_text": "After the surrender, our ship headed to the southernmost of Japan's four main islands. We were supposed to support invasion forces near towns like Takasu, Fujiwi, and Kanoya. However, we were caught off guard by a hurricane and had to stay close to shore, which eventually led to the loss of my ship.",
+    "cues": [
+      "southern Japan",
+      "post-surrender operations",
+      "storm and hurricane",
+      "ship lost"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.67973.yaml"
+  },
+  {
+    "entity_id": 17,
+    "entity": "Takasu",
+    "explicit_text": "Takasu was one of the towns near where we were supposed to support invasion forces after the war ended. We stayed close to shore near Takasu due to a hurricane, which contributed to the loss of our ship. It was part of the southern Japan area around Kyushu.",
+    "implicit_text": "Takasu was one of the towns near where we were supposed to support invasion forces after the war ended. We stayed close to shore near Takasu due to a hurricane, which contributed to the loss of our ship. It was part of the southern Japan area around Kyushu.",
+    "cues": [
+      "southern Japan",
+      "post-war operations",
+      "hurricane",
+      "ship loss"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.67973.yaml"
+  },
+  {
+    "entity_id": 18,
+    "entity": "Fujiwi",
+    "explicit_text": "Fujiwi was another town near where our ship was stationed after the war, along with Takasu and Kanoya. We remained close to shore there because of a hurricane that prevented us from going out to sea. It was part of the area where we awaited further orders in southern Japan.",
+    "implicit_text": "Fujiwi was another town near where our ship was stationed after the war, along with Takasu and Kanoya. We remained close to shore there because of a hurricane that prevented us from going out to sea. It was part of the area where we awaited further orders in southern Japan.",
+    "cues": [
+      "southern Japan",
+      "post-war stationing",
+      "hurricane",
+      "naval operations"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.67973.yaml"
+  },
+  {
+    "entity_id": 19,
+    "entity": "Kanoya",
+    "explicit_text": "Kanoya was one of the three towns near where we stayed after the war ended, along with Takasu and Fujiwi. We were caught in a storm and had to remain in the harbor near Kanoya, which was part of the southern Japan region. This was when I lost my ship.",
+    "implicit_text": "Kanoya was one of the three towns near where we stayed after the war ended, along with Takasu and Fujiwi. We were caught in a storm and had to remain in the harbor near Kanoya, which was part of the southern Japan region. This was when I lost my ship.",
+    "cues": [
+      "southern Japan",
+      "harbor stay",
+      "storm",
+      "ship loss"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.67973.yaml"
+  },
+  {
+    "entity_id": 20,
+    "entity": "Kadena Air Base",
+    "explicit_text": "After being discharged from my ship, I walked to Kadena Air Force Base to seek transportation. There was only one plane, a C-46, and I asked for a flight out of there. Kadena was a key air base in Okinawa where I transitioned from ship to air travel.",
+    "implicit_text": "After being discharged from my ship, I walked to a major air force base on Okinawa to seek transportation. There was only one plane, a C-46, and I asked for a flight out of there. This base was a key air facility where I transitioned from ship to air travel.",
+    "cues": [
+      "discharge",
+      "Okinawa",
+      "C-46 plane",
+      "air transportation"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.67973.yaml"
+  },
+  {
+    "entity_id": 21,
+    "entity": "Buckner Bay",
+    "explicit_text": "Buckner Bay was a place I traveled to after leaving Kadena Air Base. I was there to get an LCVP assault boat to continue my journey. The bay was near Agushi harbor, and it was also the area where General Simon Bolivar Buckner Jr. was killed during the Okinawa campaign.",
+    "implicit_text": "I traveled to a bay named after a U.S. general after leaving the Okinawa air base. I was there to get an LCVP assault boat to continue my journey. The bay was near Agushi harbor, and it was also the area where that general was killed during the Okinawa campaign.",
+    "cues": [
+      "Okinawa",
+      "LCVP pickup",
+      "near Agushi harbor",
+      "General Buckner's death"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.67973.yaml"
+  },
+  {
+    "entity_id": 22,
+    "entity": "LCVP",
+    "explicit_text": "I obtained an LCVP, which is a type of assault boat, at Aishima to travel to Buckner Bay. This small landing craft was essential for moving between islands and harbors in the Okinawa area. It was part of the naval amphibious operations I was involved with.",
+    "implicit_text": "I obtained an LCVP, which is a type of assault boat, at the small island to travel to the bay named after a U.S. general. This small landing craft was essential for moving between islands and harbors in the Okinawa area. It was part of the naval amphibious operations I was involved with.",
+    "cues": [
+      "assault boat",
+      "Aishima",
+      "Buckner Bay",
+      "naval amphibious operations"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.67973.yaml"
+  },
+  {
+    "entity_id": 23,
+    "entity": "Simon Bolivar Buckner Jr.",
+    "explicit_text": "General Simon Bolivar Buckner Jr. was killed in the same area as Ernie Pyle during the Okinawa campaign. His death was a significant loss, and I was near the location when it happened. The area around Buckner Bay is named after him.",
+    "implicit_text": "The U.S. general was killed in the same area as the famous war correspondent during the Okinawa campaign. His death was a significant loss, and I was near the location when it happened. The area around the bay is named after him.",
+    "cues": [
+      "Okinawa campaign",
+      "death near Ernie Pyle",
+      "Buckner Bay",
+      "general"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.67973.yaml"
+  },
+  {
+    "entity_id": 24,
+    "entity": "Terminal Island",
+    "explicit_text": "When I returned to the United States, I arrived at Terminal Island in California and San Francisco. It was there that I finally drew pay for my Navy service, which I had not received while overseas. Terminal Island was a key point in my transition back to civilian life.",
+    "implicit_text": "When I returned to the United States, I arrived at a naval station in California and a major city nearby. It was there that I finally drew pay for my Navy service, which I had not received while overseas. This location was a key point in my transition back to civilian life.",
+    "cues": [
+      "return to US",
+      "California",
+      "pay received",
+      "transition home"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.67973.yaml"
+  },
+  {
+    "entity_id": 25,
+    "entity": "San Francisco",
+    "explicit_text": "San Francisco was part of my journey home after the war, where I landed along with Terminal Island. It was a major port for returning servicemen like myself. From there, I continued my trip back to Texas to be discharged.",
+    "implicit_text": "A major West Coast city was part of my journey home after the war, where I landed along with a naval station nearby. It was a major port for returning servicemen like myself. From there, I continued my trip back to Texas to be discharged.",
+    "cues": [
+      "return from war",
+      "major port",
+      "transition to discharge",
+      "California"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.67973.yaml"
+  },
+  {
+    "entity_id": 26,
+    "entity": "Camp Walters",
+    "explicit_text": "Camp Walters in Texas City was where I was officially discharged from the Navy. After arriving there, I received a sum of money and railroad tickets to get home. It marked the end of my military service and the beginning of my post-war civilian life.",
+    "implicit_text": "A military camp in Texas City was where I was officially discharged from the Navy. After arriving there, I received a sum of money and railroad tickets to get home. It marked the end of my military service and the beginning of my post-war civilian life.",
+    "cues": [
+      "discharge",
+      "Texas City",
+      "end of service",
+      "railroad tickets"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.67973.yaml"
+  }
+]

@@ -1,0 +1,405 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "Chicago",
+    "explicit_text": "I was living in Chicago when I entered the service in May 1943. Specifically, I lived near the border of South Shore. Chicago was where I was inducted into the Army and started my military journey.",
+    "implicit_text": "I was living in a major Midwestern city when I entered the service in May 1943. Specifically, I lived near the border of South Shore. This city was where I was inducted into the Army and started my military journey.",
+    "cues": [
+      "May 1943",
+      "induction",
+      "South Shore",
+      "living place"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_David_Besser.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "South Shore, Chicago",
+    "explicit_text": "At the time I was drafted in 1943, I was living on the border of South Shore in Chicago. It was part of my early life before entering the Army. Although I lived near there, my junior college was in Englewood, not South Shore.",
+    "implicit_text": "At the time I was drafted in 1943, I was living on the border of a lakeside neighborhood in a large Midwestern city. It was part of my early life before entering the Army. Although I lived near there, my junior college was in a different neighborhood called Englewood, not that lakeside area.",
+    "cues": [
+      "1943",
+      "living location",
+      "border area",
+      "Chicago"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_David_Besser.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "Hyde Park High School",
+    "explicit_text": "I graduated from Hyde Park High School in January 1943, just a few months before I was drafted. It was the school I attended before joining the Army. That graduation marked the end of my formal education before military service.",
+    "implicit_text": "I graduated from the high school located in the Hyde Park neighborhood in January 1943, just a few months before I was drafted. It was the school I attended before joining the Army. That graduation marked the end of my formal education before military service.",
+    "cues": [
+      "January 1943",
+      "graduation",
+      "high school",
+      "Chicago"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_David_Besser.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "Wilson Junior College",
+    "explicit_text": "After graduating high school in January 1943, I attended Wilson Junior College in Englewood for about three months before entering the service. I went there because I didn't want to stay home waiting to be drafted. It was a brief but important stop before my military induction.",
+    "implicit_text": "After graduating high school in January 1943, I attended a junior college in the Englewood neighborhood for about three months before entering the service. I went there because I didn't want to stay home waiting to be drafted. It was a brief but important stop before my military induction.",
+    "cues": [
+      "January-May 1943",
+      "junior college",
+      "Englewood",
+      "pre-service education"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_David_Besser.yaml"
+  },
+  {
+    "entity_id": 5,
+    "entity": "Camp Grant",
+    "explicit_text": "Camp Grant was the first military base I went to after being drafted in May 1943. I only spent a few days there and honestly don't remember much about it. It was just the starting point of my Army experience.",
+    "implicit_text": "The first military base I went to after being drafted in May 1943 was a training camp located in northern Illinois. I only spent a few days there and honestly don't remember much about it. It was just the starting point of my Army experience.",
+    "cues": [
+      "May 1943",
+      "induction",
+      "first military base",
+      "brief stay"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_David_Besser.yaml"
+  },
+  {
+    "entity_id": 6,
+    "entity": "Harrisburg, Pennsylvania",
+    "explicit_text": "After Camp Grant, I was sent to a base about 40 miles from Harrisburg, Pennsylvania, where I spent about 13 weeks in Basic Training. It was a good program, and I met some older soldiers who were very disciplined. This was where I prepared for my Air Cadet enlistment.",
+    "implicit_text": "After that initial camp, I was sent to a base about 40 miles from the capital of Pennsylvania, where I spent about 13 weeks in Basic Training. It was a good program, and I met some older soldiers who were very disciplined. This was where I prepared for my Air Cadet enlistment.",
+    "cues": [
+      "1943",
+      "Basic Training",
+      "13 weeks",
+      "near Harrisburg"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_David_Besser.yaml"
+  },
+  {
+    "entity_id": 7,
+    "entity": "United States Army Air Corps",
+    "explicit_text": "I enlisted in the United States Army Air Corps after Basic Training and spent about nine or ten months in the Air Cadet Program. We trained to fly Piper Cubs and other planes, but near the end of the war, most of us were eliminated from pilot training. I ended up returning to the Army before going overseas.",
+    "implicit_text": "I enlisted in the Army's aviation branch after Basic Training and spent about nine or ten months in the Air Cadet Program. We trained to fly basic two-seat planes, but near the end of the war, most of us were eliminated from pilot training. I ended up returning to the infantry before going overseas.",
+    "cues": [
+      "1943-1944",
+      "Air Cadet Program",
+      "pilot training",
+      "Piper Cubs"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_David_Besser.yaml"
+  },
+  {
+    "entity_id": 8,
+    "entity": "Santa Ana Army Air Base",
+    "explicit_text": "Santa Ana Army Air Base in California was where I went after Air Corps training. We stayed there briefly before moving on to Monterey for further training. It was part of my transition from Air Corps back to the Army.",
+    "implicit_text": "I went to a military air base in Southern California after Air Corps training. We stayed there briefly before moving on to a training center on the central coast. It was part of my transition from aviation back to the infantry.",
+    "cues": [
+      "1944",
+      "training base",
+      "California",
+      "transition"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_David_Besser.yaml"
+  },
+  {
+    "entity_id": 9,
+    "entity": "Monterey, California",
+    "explicit_text": "I spent about four weeks in Monterey, California, after Santa Ana as part of my military training. It was one step in the sequence before heading to Florida for amphibious training. Monterey was a short but necessary stop.",
+    "implicit_text": "I spent about four weeks in a coastal California city after the Southern California base as part of my military training. It was one step in the sequence before heading to Florida for amphibious training. That city was a short but necessary stop.",
+    "cues": [
+      "1944",
+      "four weeks",
+      "training",
+      "California"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_David_Besser.yaml"
+  },
+  {
+    "entity_id": 10,
+    "entity": "Carrabelle, Florida",
+    "explicit_text": "Carrabelle, Florida, was where I trained with an amphibious boat outfit for about three months. It's located about 60 miles south of Tallahassee. This training was part of preparing for overseas deployment during World War II.",
+    "implicit_text": "I trained with an amphibious boat unit for about three months in a small town on the Gulf Coast of Florida, located about 60 miles south of the state capital. This training was part of preparing for overseas deployment during World War II.",
+    "cues": [
+      "1944",
+      "three months",
+      "amphibious training",
+      "Florida"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_David_Besser.yaml"
+  },
+  {
+    "entity_id": 11,
+    "entity": "Tallahassee, Florida",
+    "explicit_text": "Tallahassee was near where I trained in Carrabelle, Florida. It was about 60 miles north of Carrabelle. Though I didn't stay in Tallahassee itself, it was a geographic reference point during my amphibious training period.",
+    "implicit_text": "The state capital of Florida was near where I trained in that Gulf Coast town. It was about 60 miles north of the training site. Though I didn't stay in the capital itself, it was a geographic reference point during my amphibious training period.",
+    "cues": [
+      "1944",
+      "near Carrabelle",
+      "training location",
+      "Florida"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_David_Besser.yaml"
+  },
+  {
+    "entity_id": 12,
+    "entity": "Piper Cub",
+    "explicit_text": "During my Air Cadet training, I flew Piper Cubs, which were basic two-seat planes with an instructor in front and the cadet behind. The planes were simple and not very mechanical, used for initial flight training. I flew briefly in them before being removed from pilot training.",
+    "implicit_text": "During my Air Cadet training, I flew small, simple two-seat planes with an instructor in front and the cadet behind. These planes were basic and not very mechanical, used for initial flight training. I flew briefly in them before being removed from pilot training.",
+    "cues": [
+      "1943-1944",
+      "flight training",
+      "two-seat plane",
+      "basic aircraft"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_David_Besser.yaml"
+  },
+  {
+    "entity_id": 13,
+    "entity": "England",
+    "explicit_text": "When I went overseas in August 1944, we were first stationed in England for about four months. England was our base before crossing over to the continent. It was a key staging area during the later part of World War II.",
+    "implicit_text": "When I went overseas in August 1944, we were first stationed in the United Kingdom for about four months. That country was our base before crossing over to the continent. It was a key staging area during the later part of World War II.",
+    "cues": [
+      "August-December 1944",
+      "overseas base",
+      "staging area",
+      "World War II"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_David_Besser.yaml"
+  },
+  {
+    "entity_id": 14,
+    "entity": "Le Havre",
+    "explicit_text": "We landed in Le Havre, France, after leaving England, around August 1944. It was close to Normandy but well after the initial invasion. From there, we moved inland as the Allies advanced.",
+    "implicit_text": "We landed in a French port city on the northern coast after leaving the UK, around August 1944. It was close to the Normandy region but well after the initial invasion. From there, we moved inland as the Allies advanced.",
+    "cues": [
+      "August 1944",
+      "landing point",
+      "France",
+      "post-Normandy invasion"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_David_Besser.yaml"
+  },
+  {
+    "entity_id": 15,
+    "entity": "Normandy",
+    "explicit_text": "The Invasion of Normandy happened on June 6, 1944, but I arrived in France about six months later, so I missed the initial landing. By the time I got there, the front had moved well inland. Normandy was the starting point for the Allied advance into France.",
+    "implicit_text": "The major Allied invasion on the northern coast of France happened on June 6, 1944, but I arrived in France about six months later, so I missed the initial landing. By the time I got there, the front had moved well inland. That region was the starting point for the Allied advance into France.",
+    "cues": [
+      "June 6, 1944",
+      "invasion date",
+      "France",
+      "World War II"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_David_Besser.yaml"
+  },
+  {
+    "entity_id": 16,
+    "entity": "Invasion of Normandy",
+    "explicit_text": "The Invasion of Normandy was a pivotal event on June 6, 1944. I arrived in France about six months after the invasion, so I didn't participate in the landing itself. However, I was part of the forces advancing through France afterward.",
+    "implicit_text": "The large-scale amphibious assault on June 6, 1944, was a pivotal event. I arrived in France about six months after the invasion, so I didn't participate in the landing itself. However, I was part of the forces advancing through France afterward.",
+    "cues": [
+      "June 6, 1944",
+      "D-Day",
+      "France",
+      "World War II"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_David_Besser.yaml"
+  },
+  {
+    "entity_id": 17,
+    "entity": "Paris",
+    "explicit_text": "After advancing through France, we reached Paris, which had been liberated by the time I arrived. I spent some time there, including a memorable visit to jazz clubs and meeting musicians like Django Reinhardt. Paris was vibrant but still recovering from the war.",
+    "implicit_text": "After advancing through France, we reached the capital city, which had been liberated by the time I arrived. I spent some time there, including a memorable visit to jazz clubs and meeting musicians like a famous jazz guitarist. The city was vibrant but still recovering from the war.",
+    "cues": [
+      "1944-1945",
+      "liberated city",
+      "jazz scene",
+      "post-war recovery"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_David_Besser.yaml"
+  },
+  {
+    "entity_id": 18,
+    "entity": "Rhine River",
+    "explicit_text": "We marched all the way to the Rhine River, which marks the border between Belgium and Germany. This was near the end of the war in Europe. Being at the Rhine was significant as it represented the push into German territory.",
+    "implicit_text": "We marched all the way to a major European river that marks the border between Belgium and Germany. This was near the end of the war in Europe. Being at that river was significant as it represented the push into German territory.",
+    "cues": [
+      "1945",
+      "border area",
+      "Belgium-Germany",
+      "end of European war"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_David_Besser.yaml"
+  },
+  {
+    "entity_id": 19,
+    "entity": "Belgium",
+    "explicit_text": "Our route took us through Belgium on the way to Germany and the Rhine River. Belgium was part of the European theater where we moved after France. It was a key transit area during the final months of the war.",
+    "implicit_text": "Our route took us through a Western European country on the way to Germany and the Rhine River. That country was part of the European theater where we moved after France. It was a key transit area during the final months of the war.",
+    "cues": [
+      "1945",
+      "European campaign",
+      "transit area",
+      "World War II"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_David_Besser.yaml"
+  },
+  {
+    "entity_id": 20,
+    "entity": "Germany",
+    "explicit_text": "We entered Germany near the end of the war, passing through Luxembourg and reaching the Rhine River. After Germany surrendered, I was among the first American troops stationed in Berlin. Germany was the main battleground in the final phase of the European war.",
+    "implicit_text": "We entered the main Axis country near the end of the war, passing through Luxembourg and reaching the Rhine River. After that country surrendered, I was among the first American troops stationed in its capital. It was the main battleground in the final phase of the European war.",
+    "cues": [
+      "1945",
+      "end of war",
+      "Berlin occupation",
+      "European theater"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_David_Besser.yaml"
+  },
+  {
+    "entity_id": 21,
+    "entity": "Luxembourg",
+    "explicit_text": "On our way to Germany, we passed through Luxembourg. It was part of the route during the Allied advance across Europe. Luxembourg was a small but important country in the final push into Germany.",
+    "implicit_text": "On our way to Germany, we passed through a small European Grand Duchy. It was part of the route during the Allied advance across Europe. That country was small but important in the final push into Germany.",
+    "cues": [
+      "1945",
+      "European advance",
+      "transit country",
+      "World War II"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_David_Besser.yaml"
+  },
+  {
+    "entity_id": 22,
+    "entity": "World War II",
+    "explicit_text": "I was drafted in 1943 during World War II and served in various capacities until the war ended. I trained in the Army Air Corps, served in Europe from 1944 to 1945, and witnessed the end of the war in Berlin. The war shaped much of my early adult life and military experience.",
+    "implicit_text": "I was drafted in 1943 during the global conflict of the early 1940s and served in various capacities until the war ended. I trained in the Army Air Corps, served in Europe from 1944 to 1945, and witnessed the end of the war in Berlin. The war shaped much of my early adult life and military experience.",
+    "cues": [
+      "1943-1945",
+      "European theater",
+      "Army service",
+      "end of war"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_David_Besser.yaml"
+  },
+  {
+    "entity_id": 23,
+    "entity": "Atomic bombings of Hiroshima and Nagasaki",
+    "explicit_text": "Just as we were preparing to be sent to Japan, the United States dropped atomic bombs on Hiroshima and Nagasaki in August 1945. This sudden end to the war in the Pacific meant I was instead sent to Berlin. The bombings changed the course of my military deployment.",
+    "implicit_text": "Just as we were preparing to be sent to the Pacific theater, the United States dropped atomic bombs on two Japanese cities in August 1945. This sudden end to the war in the Pacific meant I was instead sent to Berlin. Those bombings changed the course of my military deployment.",
+    "cues": [
+      "August 1945",
+      "end of Pacific war",
+      "deployment change",
+      "World War II"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_David_Besser.yaml"
+  },
+  {
+    "entity_id": 24,
+    "entity": "Berlin",
+    "explicit_text": "I was among the first American troops stationed in Berlin after the war ended. Berlin was divided into four zones controlled by the Allies, and life there was chaotic and disorganized. I worked in General Lucius D. Clay's Public Relations Department for a few months before returning to the US.",
+    "implicit_text": "I was among the first American troops stationed in the German capital after the war ended. The city was divided into four zones controlled by the Allies, and life there was chaotic and disorganized. I worked in the Public Relations Department under the American military government for a few months before returning to the US.",
+    "cues": [
+      "1945-1946",
+      "post-war occupation",
+      "divided city",
+      "General Clay"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_David_Besser.yaml"
+  },
+  {
+    "entity_id": 25,
+    "entity": "United States Army",
+    "explicit_text": "I was drafted into the United States Army in 1943 and served in various roles including Basic Training, Air Corps, and infantry overseas. After pilot training was cut short, I returned to the Army and fought in Europe. The Army was my main military organization throughout the war.",
+    "implicit_text": "I was drafted into the main branch of the US military in 1943 and served in various roles including Basic Training, Air Corps, and infantry overseas. After pilot training was cut short, I returned to the infantry and fought in Europe. That organization was my main military group throughout the war.",
+    "cues": [
+      "1943-1946",
+      "drafted",
+      "infantry",
+      "European campaign"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_David_Besser.yaml"
+  },
+  {
+    "entity_id": 26,
+    "entity": "General Lucius D. Clay",
+    "explicit_text": "While stationed in Berlin, I worked in the Public Relations Department under General Lucius D. Clay for about three or four months. He was the commanding general overseeing the American sector. My job involved writing news releases about soldiers and running errands for officers.",
+    "implicit_text": "While stationed in Berlin, I worked in the Public Relations Department under the commanding general overseeing the American sector for about three or four months. My job involved writing news releases about soldiers and running errands for officers.",
+    "cues": [
+      "1945-1946",
+      "Berlin occupation",
+      "Public Relations",
+      "American command"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_David_Besser.yaml"
+  },
+  {
+    "entity_id": 27,
+    "entity": "London",
+    "explicit_text": "After Berlin, I went to London for a few weeks of business training in early 1946. It was a school meant to prepare us for civilian life after the war, though it was not very consequential. I had actually wanted to go to Paris first, but eventually attended the course in London.",
+    "implicit_text": "After Berlin, I went to the capital of the United Kingdom for a few weeks of business training in early 1946. It was a school meant to prepare us for civilian life after the war, though it was not very consequential. I had actually wanted to go to the French capital first, but eventually attended the course in London.",
+    "cues": [
+      "1946",
+      "post-war training",
+      "business school",
+      "civilian preparation"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_David_Besser.yaml"
+  },
+  {
+    "entity_id": 28,
+    "entity": "Templehof Airport",
+    "explicit_text": "While in Berlin, I had a friend at Templehof Airport who helped me get a plane ticket to Paris despite my lack of proper documents. This allowed me to visit Paris during my time overseas. Templehof was a key air hub in post-war Berlin.",
+    "implicit_text": "While in Berlin, I had a friend at the main airport who helped me get a plane ticket to Paris despite my lack of proper documents. This allowed me to visit the French capital during my time overseas. That airport was a key air hub in post-war Berlin.",
+    "cues": [
+      "1945",
+      "Berlin",
+      "flight to Paris",
+      "friend assistance"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_David_Besser.yaml"
+  },
+  {
+    "entity_id": 29,
+    "entity": "Django Reinhardt",
+    "explicit_text": "In Paris after the war, I sought out Django Reinhardt, a famous jazz guitarist I had read about as a teenager. I visited his apartment where he was teaching jazz piano to kids and later saw him perform in a jazz club. Despite restrictions on GIs in some clubs, I managed to hear his music and enjoyed the vibrant jazz scene.",
+    "implicit_text": "In Paris after the war, I sought out a famous jazz guitarist I had read about as a teenager. I visited his apartment where he was teaching jazz piano to kids and later saw him perform in a jazz club. Despite restrictions on GIs in some clubs, I managed to hear his music and enjoyed the vibrant jazz scene.",
+    "cues": [
+      "1945",
+      "Paris",
+      "jazz musician",
+      "post-war cultural life"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_David_Besser.yaml"
+  },
+  {
+    "entity_id": 30,
+    "entity": "Mauritania (ship)",
+    "explicit_text": "I traveled overseas on a ship called the Mauritania, which was a sister ship to a famous civilian vessel before the war. It was during this voyage that I first did some writing for the service. The ship was part of the troop transport to Europe.",
+    "implicit_text": "I traveled overseas on a troop transport ship that was a sister ship to a famous civilian vessel before the war. It was during this voyage that I first did some writing for the service. The ship was part of the troop transport to Europe.",
+    "cues": [
+      "1944",
+      "troop transport",
+      "overseas voyage",
+      "writing experience"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_David_Besser.yaml"
+  },
+  {
+    "entity_id": 31,
+    "entity": "SS Mariposa",
+    "explicit_text": "I went overseas on the SS Mariposa, a ship used to transport troops during World War II. It was a significant part of my journey from the United States to Europe. The ship experience was my introduction to being deployed overseas.",
+    "implicit_text": "I went overseas on a ship used to transport troops during World War II. It was a significant part of my journey from the United States to Europe. The ship experience was my introduction to being deployed overseas.",
+    "cues": [
+      "1944",
+      "troop transport",
+      "overseas deployment",
+      "World War II"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_David_Besser.yaml"
+  }
+]

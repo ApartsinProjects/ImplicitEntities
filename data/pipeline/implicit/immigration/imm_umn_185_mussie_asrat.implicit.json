@@ -1,0 +1,110 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "Eritrea",
+    "explicit_text": "Eritrea is my homeland, located in eastern Africa, sharing borders with Sudan, Ethiopia, and Djibouti. It is a country with nine ethnic tribes, each with unique traditions, especially around coffee. I cherish the memories of celebrating Easter with my family there, where coffee brewed in a jebena played a central role in our gatherings. Even though I now live far away, Eritrea remains close to my heart through these traditions.",
+    "implicit_text": "My homeland is located in eastern Africa, sharing borders with Sudan, Ethiopia, and Djibouti. It is a country with nine ethnic tribes, each with unique traditions, especially around coffee. I cherish the memories of celebrating Easter with my family there, where coffee brewed in a special clay pot played a central role in our gatherings. Even though I now live far away, this place remains close to my heart through these traditions.",
+    "cues": [
+      "eastern Africa",
+      "nine ethnic tribes",
+      "Easter celebrations",
+      "family gatherings",
+      "coffee traditions"
+    ],
+    "transcript_ref": "immigration\\imm_umn_185_mussie_asrat.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "Sudan",
+    "explicit_text": "Sudan is one of the neighboring countries to Eritrea, sharing a border with it. While I haven't spoken much about Sudan itself, its proximity to Eritrea is part of the regional context I grew up in. The coffee culture we have in Eritrea, using the jebena, is also popular in surrounding countries like Sudan. This connection reminds me of the broader cultural ties in this part of Africa.",
+    "implicit_text": "One of the neighboring countries to my homeland shares a border with it. While I haven't spoken much about this country itself, its proximity is part of the regional context I grew up in. The coffee culture we have, using the traditional clay coffee pot, is also popular in surrounding countries like this one. This connection reminds me of the broader cultural ties in this part of Africa.",
+    "cues": [
+      "border with Eritrea",
+      "regional context",
+      "coffee culture",
+      "neighboring countries"
+    ],
+    "transcript_ref": "immigration\\imm_umn_185_mussie_asrat.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "Ethiopia",
+    "explicit_text": "Ethiopia borders Eritrea and shares some cultural similarities, especially when it comes to coffee traditions. The jebena coffee maker is popular in both Eritrea and Ethiopia, and the way coffee is brewed and served is a cherished ritual in both countries. Growing up, I was aware of these shared customs, which highlight the close ties between our peoples despite being different nations.",
+    "implicit_text": "This country borders my homeland and shares some cultural similarities, especially when it comes to coffee traditions. The traditional clay coffee maker is popular in both places, and the way coffee is brewed and served is a cherished ritual in both countries. Growing up, I was aware of these shared customs, which highlight the close ties between our peoples despite being different nations.",
+    "cues": [
+      "border with Eritrea",
+      "shared coffee traditions",
+      "jebena",
+      "cultural similarities"
+    ],
+    "transcript_ref": "immigration\\imm_umn_185_mussie_asrat.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "Djibouti",
+    "explicit_text": "Djibouti is another country that borders Eritrea, located in the Horn of Africa. Though I haven't detailed much about Djibouti, it is part of the geographic and cultural landscape surrounding my home country. The coffee culture that I treasure in Eritrea, especially using the jebena, is also appreciated in neighboring countries like Djibouti, which connects us in subtle ways.",
+    "implicit_text": "Another country that borders my homeland is located in the Horn of Africa. Though I haven't detailed much about this country, it is part of the geographic and cultural landscape surrounding where I come from. The coffee culture that I treasure, especially using the traditional clay pot, is also appreciated in neighboring countries like this one, which connects us in subtle ways.",
+    "cues": [
+      "border with Eritrea",
+      "Horn of Africa",
+      "regional coffee culture",
+      "neighboring countries"
+    ],
+    "transcript_ref": "immigration\\imm_umn_185_mussie_asrat.yaml"
+  },
+  {
+    "entity_id": 5,
+    "entity": "Jebena",
+    "explicit_text": "The jebena is a special clay coffee maker from Eritrea that holds a special place in my heart. It has a round base, a cylindrical neck, and a curved handle, and comes in many colors and designs like Selam, Eritrea, Asmara, and Peace. My family and I used the jebena during Easter celebrations and Sunday gatherings back home, brewing coffee in three rounds called awel, calatey, and bereka. Even after moving to Minnesota four years ago, we brought our jebena with us to keep our coffee traditions alive and remind us of home.",
+    "implicit_text": "This special clay coffee maker from my homeland holds a special place in my heart. It has a round base, a cylindrical neck, and a curved handle, and comes in many colors and designs like Selam, the capital city, and Peace. My family and I used it during Easter celebrations and Sunday gatherings back home, brewing coffee in three rounds called awel, calatey, and bereka. Even after moving to Minnesota four years ago, we brought this coffee pot with us to keep our traditions alive and remind us of home.",
+    "cues": [
+      "clay coffee maker",
+      "Eritrean tradition",
+      "Easter celebrations",
+      "Sunday family gatherings",
+      "Minnesota"
+    ],
+    "transcript_ref": "immigration\\imm_umn_185_mussie_asrat.yaml"
+  },
+  {
+    "entity_id": 6,
+    "entity": "Asmara",
+    "explicit_text": "Asmara is the capital city of Eritrea, and it is also a name used for one of the jebena designs. When I see the jebena with the Asmara design, it brings back memories of my life in Eritrea and the times my family spent together there. Asmara represents not just a place but a connection to my roots and the cultural heritage we carry with us, even here in Minnesota.",
+    "implicit_text": "The capital city of my homeland is also a name used for one of the traditional coffee pot designs. When I see the coffee pot with this design, it brings back memories of my life there and the times my family spent together. This city represents not just a place but a connection to my roots and the cultural heritage we carry with us, even here in Minnesota.",
+    "cues": [
+      "capital of Eritrea",
+      "jebena design",
+      "family memories",
+      "cultural heritage"
+    ],
+    "transcript_ref": "immigration\\imm_umn_185_mussie_asrat.yaml"
+  },
+  {
+    "entity_id": 7,
+    "entity": "Minnesota",
+    "explicit_text": "I moved to Minnesota about four years ago with my family, bringing our jebena all the way from Eritrea. Here in Minnesota, we continue our tradition of making coffee using the jebena on Sundays after church and during holidays. Though we eat American food, the coffee ritual helps us remember our homeland and create new happy memories together. Minnesota has become our new home, but Eritrea and its traditions remain close to us.",
+    "implicit_text": "I moved to this U.S. state about four years ago with my family, bringing our traditional coffee pot all the way from my homeland. Here, we continue our tradition of making coffee using the clay pot on Sundays after church and during holidays. Though we eat American food, the coffee ritual helps us remember where we come from and create new happy memories together. This state has become our new home, but my homeland and its traditions remain close to us.",
+    "cues": [
+      "moved four years ago",
+      "family",
+      "jebena coffee tradition",
+      "Sundays after church",
+      "new home"
+    ],
+    "transcript_ref": "immigration\\imm_umn_185_mussie_asrat.yaml"
+  },
+  {
+    "entity_id": 8,
+    "entity": "Easter",
+    "explicit_text": "Easter was always a special time for my family back in Eritrea, when everyone would come to my house and stay for three days. During Easter, my mom would make coffee using the jebena, and we would all gather around, sharing stories, laughter, and snacks like bread, popcorn, and candy. These celebrations created warm memories that I cherish deeply, and even now, I try to keep that spirit alive with my family here in Minnesota.",
+    "implicit_text": "This holiday was always a special time for my family back in my homeland, when everyone would come to my house and stay for three days. During this time, my mom would make coffee using the traditional clay pot, and we would all gather around, sharing stories, laughter, and snacks like bread, popcorn, and candy. These celebrations created warm memories that I cherish deeply, and even now, I try to keep that spirit alive with my family here in Minnesota.",
+    "cues": [
+      "family gathering",
+      "three days",
+      "coffee with jebena",
+      "snacks",
+      "warm memories"
+    ],
+    "transcript_ref": "immigration\\imm_umn_185_mussie_asrat.yaml"
+  }
+]

@@ -1,0 +1,467 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "Baltimore",
+    "explicit_text": "I was living in Baltimore, Maryland when I entered the Service in April 1942. Before joining, I was going to school there and working for Kraft Foods. Baltimore was my hometown and the place where I began my journey toward the medical field, inspired partly by Johns Hopkins University being located there.",
+    "implicit_text": "I was living in the city known for its Inner Harbor in Maryland when I entered the Service in April 1942. Before joining, I was going to school there and working for a major food company. This city was my hometown and the place where I began my journey toward the medical field, inspired partly by a renowned medical university located there.",
+    "cues": [
+      "April 1942",
+      "living",
+      "school",
+      "Kraft Foods",
+      "Johns Hopkins University"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_August_Habighurst.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "Maryland",
+    "explicit_text": "Maryland was home to me during the early years of my life and service. I trained at Fort Meade and Walter Reed Hospital in Bethesda, Maryland, where I graduated as a registered male nurse in 1943. My connection to Maryland was strong, as it was the state where I received my medical training and began my military career.",
+    "implicit_text": "This Mid-Atlantic state was home to me during the early years of my life and service. I trained at a military installation near Baltimore and a famous military hospital in Bethesda, where I graduated as a registered male nurse in 1943. My connection to this state was strong, as it was where I received my medical training and began my military career.",
+    "cues": [
+      "Fort Meade",
+      "Walter Reed Hospital",
+      "Bethesda",
+      "1943",
+      "medical training"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_August_Habighurst.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "Johns Hopkins University",
+    "explicit_text": "Johns Hopkins University was a familiar name to me growing up in Baltimore. Although I never attended, it represented the medical field I aspired to join. My goal was to work in medicine, inspired by my mother who was a nurse, and Johns Hopkins was a symbol of that ambition.",
+    "implicit_text": "The prestigious medical institution in my hometown was a familiar name to me growing up. Although I never attended, it represented the medical field I aspired to join. My goal was to work in medicine, inspired by my mother who was a nurse, and this university was a symbol of that ambition.",
+    "cues": [
+      "Baltimore",
+      "medical field",
+      "aspiration",
+      "mother nurse"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_August_Habighurst.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "Kraft Foods",
+    "explicit_text": "Before entering the Service, I worked for Kraft Foods in Baltimore. My job there helped me qualify as a medical technician for the Army, which influenced my military occupational specialty. I stayed with Kraft Foods for twenty-five years after the war, so it was a significant part of my life both before and after my military service.",
+    "implicit_text": "Before entering the Service, I worked for a large American food manufacturing company in my hometown. My job there helped me qualify as a medical technician for the Army, which influenced my military occupational specialty. I stayed with that company for twenty-five years after the war, so it was a significant part of my life both before and after my military service.",
+    "cues": [
+      "Baltimore",
+      "medical technician",
+      "Army",
+      "twenty-five years employment"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_August_Habighurst.yaml"
+  },
+  {
+    "entity_id": 5,
+    "entity": "Walter Reed National Military Medical Center",
+    "explicit_text": "I graduated as a registered male nurse in 1943 at Walter Reed Hospital in Bethesda, Maryland. My medical training there was extensive and prepared me for my role in the Army Air Corps. Walter Reed was where I solidified my skills before being sent overseas.",
+    "implicit_text": "I graduated as a registered male nurse in 1943 at the prominent military hospital located in Bethesda, Maryland. My medical training there was extensive and prepared me for my role in the Army Air Corps. This hospital was where I solidified my skills before being sent overseas.",
+    "cues": [
+      "1943",
+      "Bethesda",
+      "nurse graduation",
+      "medical training"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_August_Habighurst.yaml"
+  },
+  {
+    "entity_id": 6,
+    "entity": "Pearl Harbor",
+    "explicit_text": "I enlisted right after the attack on Pearl Harbor in December 1941. That event was unforgettable and motivated me to serve my country. It was a turning point that pushed me to join the military despite my personal challenges.",
+    "implicit_text": "I enlisted right after the surprise attack on the U.S. naval base in Hawaii in December 1941. That event was unforgettable and motivated me to serve my country. It was a turning point that pushed me to join the military despite my personal challenges.",
+    "cues": [
+      "December 7, 1941",
+      "enlistment motivation",
+      "military service"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_August_Habighurst.yaml"
+  },
+  {
+    "entity_id": 7,
+    "entity": "United States Navy",
+    "explicit_text": "I initially wanted to join the United States Navy because my cousin was in it and traveled the world. However, they rejected me due to my glasses and an umbilical hernia. The Navy was my first choice, but ultimately, I served in the Army Air Corps instead.",
+    "implicit_text": "I initially wanted to join the naval branch of the U.S. armed forces because my cousin was in it and traveled the world. However, they rejected me due to my glasses and an umbilical hernia. The Navy was my first choice, but ultimately, I served in the Army Air Corps instead.",
+    "cues": [
+      "cousin in Navy",
+      "rejection due to glasses and hernia",
+      "initial preference"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_August_Habighurst.yaml"
+  },
+  {
+    "entity_id": 8,
+    "entity": "United States Army Air Forces",
+    "explicit_text": "I served in the United States Army Air Forces during World War II, starting in 1942. I trained in medical fields and was assigned to the 225th Medical Dispensary Aviation unit. My service took me from the U.S. to North Africa, India, and China, where I supported air operations medically.",
+    "implicit_text": "I served in the aerial warfare service branch of the U.S. Army during World War II, starting in 1942. I trained in medical fields and was assigned to the 225th Medical Dispensary Aviation unit. My service took me from the U.S. to North Africa, India, and China, where I supported air operations medically.",
+    "cues": [
+      "1942 enlistment",
+      "medical training",
+      "225th Medical Dispensary Aviation",
+      "overseas service"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_August_Habighurst.yaml"
+  },
+  {
+    "entity_id": 9,
+    "entity": "Fort Meade",
+    "explicit_text": "My basic training began at Fort Meade, Maryland, which was close to my home. It was my first experience away from Baltimore and introduced me to military life. The time there was short before I was sent to further training in Florida and Maryland.",
+    "implicit_text": "My basic training began at the large Army installation near Baltimore, Maryland, which was close to my home. It was my first experience away from my hometown and introduced me to military life. The time there was short before I was sent to further training in Florida and Maryland.",
+    "cues": [
+      "basic training",
+      "Maryland",
+      "first military experience"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_August_Habighurst.yaml"
+  },
+  {
+    "entity_id": 10,
+    "entity": "Tampa",
+    "explicit_text": "After Fort Meade, I was sent to Tampa, Florida, for Air Corps training. Tampa was where I received additional military instruction before going to Walter Reed for medical training. It was a key stop in my preparation for overseas deployment.",
+    "implicit_text": "After initial training, I was sent to the city on the west coast of Florida for Air Corps training. This city was where I received additional military instruction before going to the military hospital in Bethesda for medical training. It was a key stop in my preparation for overseas deployment.",
+    "cues": [
+      "Air Corps training",
+      "Florida",
+      "preparation for service"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_August_Habighurst.yaml"
+  },
+  {
+    "entity_id": 11,
+    "entity": "Florida",
+    "explicit_text": "Florida was part of my military training journey, specifically in Tampa and Drew Field. At Drew Field, near Tampa, I took more Air Corps training before being sent overseas. Florida was an important training location during my early service.",
+    "implicit_text": "This southeastern U.S. state was part of my military training journey, specifically in the city on the west coast and a nearby airfield. At the airfield near that city, I took more Air Corps training before being sent overseas. This state was an important training location during my early service.",
+    "cues": [
+      "Tampa",
+      "Drew Field",
+      "Air Corps training"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_August_Habighurst.yaml"
+  },
+  {
+    "entity_id": 12,
+    "entity": "Drew Field",
+    "explicit_text": "I was sent to Drew Field, Florida, after Walter Reed to continue my Air Corps training. Drew Field was adjacent to Tampa and was where I prepared for deployment overseas. It was part of the rapid training process during the war.",
+    "implicit_text": "I was sent to the airfield in Florida after medical training to continue my Air Corps preparation. This field was adjacent to the city on the west coast of Florida and was where I prepared for deployment overseas. It was part of the rapid training process during the war.",
+    "cues": [
+      "Florida",
+      "Air Corps training",
+      "preparation for overseas"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_August_Habighurst.yaml"
+  },
+  {
+    "entity_id": 13,
+    "entity": "Aberdeen Proving Ground",
+    "explicit_text": "I was initially worried I might be assigned to Aberdeen Proving Ground in Maryland because of its work with poison gases and toxic weapons. I did not want to be involved in that kind of work, as I wanted to help rather than harm. Fortunately, I was assigned to medical duties instead.",
+    "implicit_text": "I was initially worried I might be assigned to the military testing site in Maryland known for its work with chemical weapons. I did not want to be involved in that kind of work, as I wanted to help rather than harm. Fortunately, I was assigned to medical duties instead.",
+    "cues": [
+      "Maryland",
+      "toxic weapons",
+      "medical preference"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_August_Habighurst.yaml"
+  },
+  {
+    "entity_id": 14,
+    "entity": "Sicily",
+    "explicit_text": "Our original orders were to participate in the invasion of Sicily during World War II. We left from Hampton Roads, Virginia, on a Liberty ship bound for Sicily, but our ship was sunk by German submarines in the Atlantic. After being rescued and hospitalized in Oran, North Africa, our orders changed and we never made it to Sicily.",
+    "implicit_text": "Our original orders were to participate in the invasion of the Mediterranean island during World War II. We left from a major naval base in Virginia on a Liberty ship bound for that island, but our ship was sunk by German submarines in the Atlantic. After being rescued and hospitalized in a North African port city, our orders changed and we never made it to that island.",
+    "cues": [
+      "invasion of Sicily",
+      "Hampton Roads",
+      "Liberty ship",
+      "ship sunk",
+      "Oran hospital"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_August_Habighurst.yaml"
+  },
+  {
+    "entity_id": 15,
+    "entity": "Hampton Roads",
+    "explicit_text": "We departed from Hampton Roads, Virginia, on a Liberty ship heading to Sicily. It was from this port that our ill-fated journey began, ending with our ship being sunk by German submarines. Hampton Roads was the launching point for that mission.",
+    "implicit_text": "We departed from the large naval base and harbor area in Virginia on a Liberty ship heading to the Mediterranean island. It was from this port that our ill-fated journey began, ending with our ship being sunk by German submarines. This harbor area was the launching point for that mission.",
+    "cues": [
+      "Virginia",
+      "Liberty ship departure",
+      "Sicily mission"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_August_Habighurst.yaml"
+  },
+  {
+    "entity_id": 16,
+    "entity": "Virginia",
+    "explicit_text": "Virginia was where Hampton Roads is located, the port from which we sailed on a Liberty ship during the war. It was the starting point for our mission to Sicily before the ship was sunk. So, Virginia was part of the early phase of my overseas deployment.",
+    "implicit_text": "This Mid-Atlantic state was where the naval base and harbor from which we sailed on a Liberty ship during the war is located. It was the starting point for our mission to the Mediterranean island before the ship was sunk. So, this state was part of the early phase of my overseas deployment.",
+    "cues": [
+      "Hampton Roads",
+      "Liberty ship",
+      "start of mission"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_August_Habighurst.yaml"
+  },
+  {
+    "entity_id": 17,
+    "entity": "Liberty ship",
+    "explicit_text": "I traveled on a Liberty ship from Hampton Roads, Virginia, bound for the invasion of Sicily. Unfortunately, our ship was attacked and sunk by German submarines in the Atlantic Ocean. We were rescued and taken to a hospital in Oran, North Africa, but never reached Sicily.",
+    "implicit_text": "I traveled on a type of cargo ship built rapidly during World War II from the naval base in Virginia, bound for the invasion of the Mediterranean island. Unfortunately, our ship was attacked and sunk by German submarines in the Atlantic Ocean. We were rescued and taken to a hospital in a North African port city, but never reached that island.",
+    "cues": [
+      "Hampton Roads",
+      "Atlantic Ocean",
+      "ship sunk",
+      "German submarine",
+      "Oran hospital"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_August_Habighurst.yaml"
+  },
+  {
+    "entity_id": 18,
+    "entity": "German submarine",
+    "explicit_text": "Our Liberty ship was sunk by two German submarines in the Atlantic during World War II. It was a terrifying experience, and we were left floating in oil before being rescued. This attack changed our mission and led to hospitalization in Oran, North Africa.",
+    "implicit_text": "Our Liberty ship was sunk by two enemy underwater vessels in the Atlantic during World War II. It was a terrifying experience, and we were left floating in oil before being rescued. This attack changed our mission and led to hospitalization in a North African port city.",
+    "cues": [
+      "Atlantic Ocean",
+      "Liberty ship sunk",
+      "rescue",
+      "Oran hospital"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_August_Habighurst.yaml"
+  },
+  {
+    "entity_id": 19,
+    "entity": "Oran",
+    "explicit_text": "After our ship was sunk by German submarines, we were rescued and taken to a hospital in Oran, North Africa. It was there that I recuperated before receiving new orders to go to India. Oran was a critical recovery point in my wartime journey.",
+    "implicit_text": "After our ship was sunk by enemy submarines, we were rescued and taken to a hospital in this North African coastal city. It was there that I recuperated before receiving new orders to go to India. This city was a critical recovery point in my wartime journey.",
+    "cues": [
+      "North Africa",
+      "hospital",
+      "recuperation",
+      "post-ship sinking"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_August_Habighurst.yaml"
+  },
+  {
+    "entity_id": 20,
+    "entity": "North Africa",
+    "explicit_text": "North Africa was where I was hospitalized in Oran after our ship was sunk. It was a brief but important stop before being sent on to India. North Africa was part of the larger theater of operations during the war.",
+    "implicit_text": "This region was where I was hospitalized in a coastal city after our ship was sunk. It was a brief but important stop before being sent on to India. This region was part of the larger theater of operations during the war.",
+    "cues": [
+      "Oran hospital",
+      "recuperation",
+      "transition to India"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_August_Habighurst.yaml"
+  },
+  {
+    "entity_id": 21,
+    "entity": "India",
+    "explicit_text": "After recovering in North Africa, I was sent to India as part of my overseas service. We were formed as a unit in Bombay and then moved to Calcutta. India was a key base for our medical aviation unit during the war.",
+    "implicit_text": "After recovering in North Africa, I was sent to the South Asian country as part of my overseas service. We were formed as a unit in its western coastal city and then moved to its eastern city. This country was a key base for our medical aviation unit during the war.",
+    "cues": [
+      "Bombay",
+      "Calcutta",
+      "225th Medical Dispensary Aviation",
+      "overseas service"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_August_Habighurst.yaml"
+  },
+  {
+    "entity_id": 22,
+    "entity": "Suez Canal",
+    "explicit_text": "Our journey to India took us through the Suez Canal and the Red Sea. This route was part of the long trip from North Africa to the Indian subcontinent. The Suez Canal was a strategic passage during the war.",
+    "implicit_text": "Our journey to South Asia took us through the man-made waterway in Egypt and the adjacent sea. This route was part of the long trip from North Africa to the Indian subcontinent. This canal was a strategic passage during the war.",
+    "cues": [
+      "North Africa to India",
+      "Red Sea",
+      "strategic route"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_August_Habighurst.yaml"
+  },
+  {
+    "entity_id": 23,
+    "entity": "Red Sea",
+    "explicit_text": "We traveled through the Red Sea on our way to India after leaving North Africa. The Red Sea was part of the maritime route that connected us to the Indian theater of operations. It was a significant leg of our overseas deployment.",
+    "implicit_text": "We traveled through this sea on our way to South Asia after leaving North Africa. This sea was part of the maritime route that connected us to the Indian theater of operations. It was a significant leg of our overseas deployment.",
+    "cues": [
+      "maritime route",
+      "North Africa to India",
+      "Suez Canal"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_August_Habighurst.yaml"
+  },
+  {
+    "entity_id": 24,
+    "entity": "225th Medical Dispensary Aviation",
+    "explicit_text": "I served most of my time with the 225th Medical Dispensary Aviation unit. We were formed in Bombay, India, and then moved to Calcutta. Our work involved medical support for aviation operations, and we operated in challenging environments including the Burma Road and China.",
+    "implicit_text": "I served most of my time with the medical aviation unit numbered 225. We were formed in the western coastal city of South Asia and then moved to the eastern city. Our work involved medical support for aviation operations, and we operated in challenging environments including the supply route through Burma and China.",
+    "cues": [
+      "Bombay",
+      "Calcutta",
+      "India",
+      "medical aviation",
+      "Burma Road"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_August_Habighurst.yaml"
+  },
+  {
+    "entity_id": 25,
+    "entity": "Bombay",
+    "explicit_text": "Our unit was formed in Bombay, India, which is on the west coast. From there, we traveled by troop train across India to Calcutta on the east coast. Bombay was the starting point for our operations in the region.",
+    "implicit_text": "Our unit was formed in the western coastal city of the South Asian country. From there, we traveled by troop train across the country to the eastern city. This city was the starting point for our operations in the region.",
+    "cues": [
+      "India",
+      "west coast",
+      "unit formation",
+      "troop train to Calcutta"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_August_Habighurst.yaml"
+  },
+  {
+    "entity_id": 26,
+    "entity": "Calcutta",
+    "explicit_text": "After forming in Bombay, we moved to Calcutta by troop train. Calcutta was our base on the east coast of India and a hub for our medical aviation unit. From there, we supported operations along the Burma Road and into China.",
+    "implicit_text": "After forming in the western city, we moved to the eastern city by troop train. This eastern city was our base and a hub for our medical aviation unit. From there, we supported operations along the supply route through Burma and into China.",
+    "cues": [
+      "India",
+      "east coast",
+      "troop train from Bombay",
+      "medical aviation base"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_August_Habighurst.yaml"
+  },
+  {
+    "entity_id": 27,
+    "entity": "Burma Road",
+    "explicit_text": "We traveled the Burma Road from Ledo in Burma to Kunming in China. The road was treacherous, with narrow precipices and dangerous driving conditions that claimed many lives. It was a vital supply route but very hazardous for our ambulances and vehicles.",
+    "implicit_text": "We traveled the dangerous supply route from a town in Burma to a city in China. The road was treacherous, with narrow precipices and dangerous driving conditions that claimed many lives. It was a vital supply route but very hazardous for our ambulances and vehicles.",
+    "cues": [
+      "Ledo",
+      "Burma",
+      "Kunming",
+      "China",
+      "dangerous road conditions"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_August_Habighurst.yaml"
+  },
+  {
+    "entity_id": 28,
+    "entity": "Ledo",
+    "explicit_text": "Ledo was the starting point in Burma for the Burma Road journey to China. We drove ambulances and supplies from Ledo over the dangerous mountain roads. Ledo was a critical junction in the supply chain to China during the war.",
+    "implicit_text": "This town in Burma was the starting point for the supply route journey to China. We drove ambulances and supplies from there over the dangerous mountain roads. This town was a critical junction in the supply chain to China during the war.",
+    "cues": [
+      "Burma",
+      "Burma Road",
+      "ambulance driving",
+      "supply route"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_August_Habighurst.yaml"
+  },
+  {
+    "entity_id": 29,
+    "entity": "Burma",
+    "explicit_text": "Burma was part of the route we took on the Burma Road from Ledo to China. The terrain was extremely dangerous with narrow roads and high precipices. Burma was a challenging but essential area for our medical and supply operations.",
+    "implicit_text": "This Southeast Asian country was part of the route we took on the supply road from Ledo to China. The terrain was extremely dangerous with narrow roads and high precipices. This country was a challenging but essential area for our medical and supply operations.",
+    "cues": [
+      "Ledo",
+      "Burma Road",
+      "dangerous terrain",
+      "supply operations"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_August_Habighurst.yaml"
+  },
+  {
+    "entity_id": 30,
+    "entity": "Kunming",
+    "explicit_text": "Kunming was the endpoint of the Burma Road in China. We traveled there by truck from Burma and then flew to other locations like Chengdu. Kunming was a key city in the China theater where we operated during the war.",
+    "implicit_text": "This city in China was the endpoint of the supply route from Burma. We traveled there by truck from Burma and then flew to other locations like a city further north. This city was a key location in the China theater where we operated during the war.",
+    "cues": [
+      "Burma Road endpoint",
+      "China",
+      "truck travel",
+      "air transport"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_August_Habighurst.yaml"
+  },
+  {
+    "entity_id": 31,
+    "entity": "Chengdu",
+    "explicit_text": "I spent time in Chengdu, which is north of Kunming in central China. We built our hospital there and operated from that area. Chengdu was an important base for our medical unit in the China theater.",
+    "implicit_text": "I spent time in this major city in central China, north of Kunming. We built our hospital there and operated from that area. This city was an important base for our medical unit in the China theater.",
+    "cues": [
+      "central China",
+      "hospital construction",
+      "medical operations"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_August_Habighurst.yaml"
+  },
+  {
+    "entity_id": 32,
+    "entity": "Himalayas",
+    "explicit_text": "The Himalayas were a formidable natural barrier we had to fly over to supply China. Because heavy equipment couldn't be flown over the mountains, they had to be disassembled and transported in parts. The Himalayas made logistics extremely difficult in the China-Burma-India theater.",
+    "implicit_text": "The formidable mountain range in Asia was a natural barrier we had to fly over to supply China. Because heavy equipment couldn't be flown over the mountains, they had to be disassembled and transported in parts. These mountains made logistics extremely difficult in the China-Burma-India theater.",
+    "cues": [
+      "China supply route",
+      "heavy equipment transport",
+      "logistical challenges"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_August_Habighurst.yaml"
+  },
+  {
+    "entity_id": 33,
+    "entity": "Japanese zero",
+    "explicit_text": "We faced the threat of Japanese zero fighters in the China theater. The Japanese zero was a formidable enemy aircraft during the war. Our medical unit operated under the constant risk of enemy air attacks.",
+    "implicit_text": "We faced the threat of enemy fighter aircraft in the China theater. These fighters were formidable enemy planes during the war. Our medical unit operated under the constant risk of enemy air attacks.",
+    "cues": [
+      "China theater",
+      "enemy aircraft",
+      "wartime danger"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_August_Habighurst.yaml"
+  },
+  {
+    "entity_id": 34,
+    "entity": "Lockheed P-38 Lightning",
+    "explicit_text": "The Lockheed P-38 Lightning was one of the aircraft types operating in the China-Burma-India theater. Our medical unit supported air operations involving planes like the P-38. It was part of the air power we worked alongside during the war.",
+    "implicit_text": "This twin-engine American fighter aircraft was one of the types operating in the China-Burma-India theater. Our medical unit supported air operations involving planes like this one. It was part of the air power we worked alongside during the war.",
+    "cues": [
+      "China-Burma-India theater",
+      "air operations",
+      "military aircraft"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_August_Habighurst.yaml"
+  },
+  {
+    "entity_id": 35,
+    "entity": "Dick Silviera",
+    "explicit_text": "Dick Silviera was not mentioned in my story, so I have no personal experience or connection with him during my service.",
+    "implicit_text": "This individual was not mentioned in my story, so I have no personal experience or connection with him during my service.",
+    "cues": [],
+    "transcript_ref": "veterans\\niles_library\\niles_August_Habighurst.yaml"
+  },
+  {
+    "entity_id": 36,
+    "entity": "Franklin D. Roosevelt",
+    "explicit_text": "President Franklin D. Roosevelt was leading the United States during the war. His administration was responsible for programs like Reverse Lend-Lease, which supported troops like us in China with supplies and funding. Roosevelt's policies impacted our living conditions and operations overseas.",
+    "implicit_text": "The President leading the United States during the war was responsible for programs like Reverse Lend-Lease, which supported troops like us in China with supplies and funding. His administration's policies impacted our living conditions and operations overseas.",
+    "cues": [
+      "World War II",
+      "Reverse Lend-Lease",
+      "support for troops"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_August_Habighurst.yaml"
+  },
+  {
+    "entity_id": 37,
+    "entity": "Reverse Lend-Lease",
+    "explicit_text": "Reverse Lend-Lease was a program during World War II where the U.S. provided money and supplies to support allied forces, including us in China. It helped pay for food, billeting, and other necessities. We lived off what was locally available, like cabbage or peanuts, depending on the indigenous crops, thanks to this program.",
+    "implicit_text": "This World War II program involved the U.S. providing money and supplies to support allied forces, including us in China. It helped pay for food, billeting, and other necessities. We lived off what was locally available, like cabbage or peanuts, depending on the indigenous crops, thanks to this program.",
+    "cues": [
+      "World War II",
+      "China theater",
+      "food and supplies",
+      "local crops"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_August_Habighurst.yaml"
+  }
+]

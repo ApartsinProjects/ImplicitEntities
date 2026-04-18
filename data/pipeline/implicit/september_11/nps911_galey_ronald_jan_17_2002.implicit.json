@@ -1,0 +1,324 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "World Trade Center",
+    "explicit_text": "On the morning of September 11, 2001, I was at the hangar when Suely came out and told me a plane had hit the World Trade Center. Initially, we thought it was an accident, but when the second plane hit, we realized it was a deliberate attack. Watching the smoke rise from the Trade Center was chilling, and it set off a chain of events that had us immediately preparing for further responses.",
+    "implicit_text": "On the morning of September 11, 2001, I was at the hangar when Suely came out and told me a plane had hit the twin towers in New York City. Initially, we thought it was an accident, but when the second plane hit, we realized it was a deliberate attack. Watching the smoke rise from those iconic skyscrapers was chilling, and it set off a chain of events that had us immediately preparing for further responses.",
+    "cues": [
+      "September 11, 2001",
+      "hangar",
+      "plane hit",
+      "smoke",
+      "deliberate attack"
+    ],
+    "transcript_ref": "september_11\\nps911_galey_ronald_jan_17_2002.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "Pentagon",
+    "explicit_text": "Shortly after the attacks on the World Trade Center, I heard a tremendous explosion and saw smoke coming from the Pentagon. The emergency tower line informed us that a 757 had crashed into the building, and we scrambled to respond within minutes. We flew medevac missions there, coordinating patient evacuations and assisting the Arlington County Fire Department in firefighting efforts from the air.",
+    "implicit_text": "Shortly after the attacks on the twin towers, I heard a tremendous explosion and saw smoke coming from the large five-sided government building in Arlington. The emergency tower line informed us that a 757 had crashed into the building, and we scrambled to respond within minutes. We flew medevac missions there, coordinating patient evacuations and assisting the local fire department in firefighting efforts from the air.",
+    "cues": [
+      "September 11, 2001",
+      "explosion",
+      "757 crash",
+      "medevac",
+      "Arlington County Fire Department"
+    ],
+    "transcript_ref": "september_11\\nps911_galey_ronald_jan_17_2002.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "NORAD",
+    "explicit_text": "During the Pentagon response, the air traffic control tower became overwhelmed with smoke and handed over control to us. I was instructed to contact NORAD, and they informed me about an unauthorized aircraft inbound from Pennsylvania headed toward D.C. We coordinated closely with NORAD throughout the incident to manage airspace and respond to threats.",
+    "implicit_text": "During the response to the attack on the large five-sided building, the air traffic control tower became overwhelmed with smoke and handed over control to us. I was instructed to contact the North American aerospace defense command, and they informed me about an unauthorized aircraft inbound from Pennsylvania headed toward D.C. We coordinated closely with that defense command throughout the incident to manage airspace and respond to threats.",
+    "cues": [
+      "September 11, 2001",
+      "air traffic control",
+      "unauthorized aircraft",
+      "Pennsylvania",
+      "airspace coordination"
+    ],
+    "transcript_ref": "september_11\\nps911_galey_ronald_jan_17_2002.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "Pennsylvania",
+    "explicit_text": "NORAD notified us about an unauthorized aircraft coming from the Pennsylvania area, estimated to arrive in D.C. within twenty minutes. This added to the tension as we were already responding to the Pentagon attack. We had to make quick decisions on whether to stay and continue our medevac missions or respond to this new threat.",
+    "implicit_text": "The aerospace defense command notified us about an unauthorized aircraft coming from the Pennsylvania area, estimated to arrive in D.C. within twenty minutes. This added to the tension as we were already responding to the attack on the government building in Arlington. We had to make quick decisions on whether to stay and continue our medevac missions or respond to this new threat.",
+    "cues": [
+      "September 11, 2001",
+      "unauthorized aircraft",
+      "estimated arrival",
+      "threat assessment"
+    ],
+    "transcript_ref": "september_11\\nps911_galey_ronald_jan_17_2002.yaml"
+  },
+  {
+    "entity_id": 5,
+    "entity": "Arlington County Fire Department",
+    "explicit_text": "About an hour and a half into the Pentagon response, the chief of the Arlington County Fire Department requested to board our aircraft to direct firefighting efforts from the air. The fire was stubborn and difficult to control, so having aerial command was crucial. We flew with him for about an hour, helping coordinate the ground units battling the blaze.",
+    "implicit_text": "About an hour and a half into the response at the large five-sided building, the chief of the local Arlington County fire department requested to board our aircraft to direct firefighting efforts from the air. The fire was stubborn and difficult to control, so having aerial command was crucial. We flew with him for about an hour, helping coordinate the ground units battling the blaze.",
+    "cues": [
+      "September 11, 2001",
+      "Pentagon fire",
+      "aerial firefighting command",
+      "Arlington County",
+      "fire chief"
+    ],
+    "transcript_ref": "september_11\\nps911_galey_ronald_jan_17_2002.yaml"
+  },
+  {
+    "entity_id": 6,
+    "entity": "FBI",
+    "explicit_text": "The FBI requested our assistance to provide video downlink to their command center during the immediate aftermath of the attacks. Later, we transported FBI agents to assess damage at the Pentagon. Throughout the following weeks, we worked closely with the FBI, responding to their requests for surveillance and security support as they hunted for suspects and monitored threats.",
+    "implicit_text": "The federal investigative agency requested our assistance to provide video downlink to their command center during the immediate aftermath of the attacks. Later, we transported agents from that agency to assess damage at the large government building in Arlington. Throughout the following weeks, we worked closely with them, responding to their requests for surveillance and security support as they hunted for suspects and monitored threats.",
+    "cues": [
+      "September 11, 2001",
+      "video downlink",
+      "Pentagon damage assessment",
+      "security support",
+      "suspect tracking"
+    ],
+    "transcript_ref": "september_11\\nps911_galey_ronald_jan_17_2002.yaml"
+  },
+  {
+    "entity_id": 7,
+    "entity": "Secret Service",
+    "explicit_text": "The Secret Service also requested our help for video surveillance over the incident sites and later asked us to maintain 24-hour aerial patrols over key locations like the White House, Capitol, and memorials. We relieved each other on station for about two days, providing constant monitoring to prevent further attacks. Their coordination was vital in securing the capital during those tense weeks.",
+    "implicit_text": "The federal protective service also requested our help for video surveillance over the incident sites and later asked us to maintain 24-hour aerial patrols over key locations like the president's residence, the Capitol, and memorials. We relieved each other on station for about two days, providing constant monitoring to prevent further attacks. Their coordination was vital in securing the capital during those tense weeks.",
+    "cues": [
+      "September 11, 2001",
+      "video surveillance",
+      "24-hour patrol",
+      "White House",
+      "United States Capitol"
+    ],
+    "transcript_ref": "september_11\\nps911_galey_ronald_jan_17_2002.yaml"
+  },
+  {
+    "entity_id": 8,
+    "entity": "Department of Defense",
+    "explicit_text": "We transported Department of Defense personnel from the Secretary of Defense's office to the Pentagon to assess the damage after the attack. The Department of Defense was heavily involved in the response and security operations, and we coordinated with them frequently. Later, we also flew a Green Beret Commander who took over some of the Pentagon's security responsibilities.",
+    "implicit_text": "We transported personnel from the national defense department from the Secretary of Defense's office to the large government building in Arlington to assess the damage after the attack. That department was heavily involved in the response and security operations, and we coordinated with them frequently. Later, we also flew a special operations commander who took over some of the building's security responsibilities.",
+    "cues": [
+      "September 11, 2001",
+      "Pentagon damage assessment",
+      "Secretary of Defense",
+      "Green Beret Commander",
+      "security operations"
+    ],
+    "transcript_ref": "september_11\\nps911_galey_ronald_jan_17_2002.yaml"
+  },
+  {
+    "entity_id": 9,
+    "entity": "White House",
+    "explicit_text": "Following the attacks, the Secret Service asked us to maintain continuous aerial patrols over the White House to monitor for any threats. We flew regular patrols checking the White House along with other high-profile targets. This was part of a broader effort to secure the capital and prevent further attacks in the days and weeks after September 11.",
+    "implicit_text": "Following the attacks, the federal protective service asked us to maintain continuous aerial patrols over the president's residence to monitor for any threats. We flew regular patrols checking the executive mansion along with other high-profile targets. This was part of a broader effort to secure the capital and prevent further attacks in the days and weeks after September 11.",
+    "cues": [
+      "September 11, 2001",
+      "Secret Service",
+      "aerial patrol",
+      "threat monitoring",
+      "Washington, D.C."
+    ],
+    "transcript_ref": "september_11\\nps911_galey_ronald_jan_17_2002.yaml"
+  },
+  {
+    "entity_id": 10,
+    "entity": "United States Capitol",
+    "explicit_text": "The United States Capitol was one of the key sites we monitored continuously after the September 11 attacks. The Secret Service requested 24-hour aerial surveillance over the Capitol to ensure its security. Our patrols included checking the Capitol along with other memorials and government buildings to detect any suspicious activity.",
+    "implicit_text": "The national legislative building was one of the key sites we monitored continuously after the September 11 attacks. The federal protective service requested 24-hour aerial surveillance over the Capitol to ensure its security. Our patrols included checking the Capitol along with other memorials and government buildings to detect any suspicious activity.",
+    "cues": [
+      "September 11, 2001",
+      "Secret Service",
+      "aerial surveillance",
+      "security",
+      "Washington, D.C."
+    ],
+    "transcript_ref": "september_11\\nps911_galey_ronald_jan_17_2002.yaml"
+  },
+  {
+    "entity_id": 11,
+    "entity": "Arlington National Cemetery",
+    "explicit_text": "During our patrols following the attacks, Arlington National Cemetery was one of the locations we regularly checked. We had never done such thorough surveillance of memorials and parks before, but given the circumstances, it became a priority. Our flights over Arlington National Cemetery were part of a broader effort to secure all potential targets in the area.",
+    "implicit_text": "During our patrols following the attacks, the large military cemetery in Arlington was one of the locations we regularly checked. We had never done such thorough surveillance of memorials and parks before, but given the circumstances, it became a priority. Our flights over that cemetery were part of a broader effort to secure all potential targets in the area.",
+    "cues": [
+      "September 11, 2001",
+      "aerial patrol",
+      "memorial security",
+      "Washington, D.C.",
+      "new security measures"
+    ],
+    "transcript_ref": "september_11\\nps911_galey_ronald_jan_17_2002.yaml"
+  },
+  {
+    "entity_id": 12,
+    "entity": "Mount Vernon",
+    "explicit_text": "Mount Vernon was included in the list of sites we patrolled regularly after the September 11 attacks. We were tasked with monitoring all high-profile memorials and parks, including Mount Vernon, to prevent any further incidents. This was part of a continuous 24/7 operation that lasted about a month, significantly increasing our flight hours and vigilance.",
+    "implicit_text": "The historic estate and museum that was George Washington's home was included in the list of sites we patrolled regularly after the September 11 attacks. We were tasked with monitoring all high-profile memorials and parks, including that estate, to prevent any further incidents. This was part of a continuous 24/7 operation that lasted about a month, significantly increasing our flight hours and vigilance.",
+    "cues": [
+      "September 11, 2001",
+      "aerial patrol",
+      "memorial security",
+      "Mount Vernon",
+      "increased flight hours"
+    ],
+    "transcript_ref": "september_11\\nps911_galey_ronald_jan_17_2002.yaml"
+  },
+  {
+    "entity_id": 13,
+    "entity": "Joint Operations Center",
+    "explicit_text": "The Joint Operations Center, or JOC, located downtown, took over the coordination of the entire event and intelligence flow after the attacks. They fed us information about suspicious vehicles and potential threats, such as Ryder trucks coming from Richmond or Frederick, Maryland. We responded to their calls regularly, locating and stopping vehicles as part of the heightened security measures.",
+    "implicit_text": "The central coordination center located downtown took over the coordination of the entire event and intelligence flow after the attacks. They fed us information about suspicious vehicles and potential threats, such as Ryder trucks coming from Richmond or Frederick, Maryland. We responded to their calls regularly, locating and stopping vehicles as part of the heightened security measures.",
+    "cues": [
+      "September 11, 2001",
+      "downtown",
+      "intelligence coordination",
+      "vehicle tracking",
+      "Richmond and Frederick, Maryland"
+    ],
+    "transcript_ref": "september_11\\nps911_galey_ronald_jan_17_2002.yaml"
+  },
+  {
+    "entity_id": 14,
+    "entity": "Richmond, Virginia",
+    "explicit_text": "The Joint Operations Center alerted us to a convoy of Ryder trucks coming from Richmond, Virginia, heading toward D.C. We located and stopped them in Quantico as part of our security operations. This was one example of the many specific threats we were tasked to monitor in the weeks following the attacks.",
+    "implicit_text": "The central coordination center alerted us to a convoy of Ryder trucks coming from the capital of Virginia, heading toward D.C. We located and stopped them in Quantico as part of our security operations. This was one example of the many specific threats we were tasked to monitor in the weeks following the attacks.",
+    "cues": [
+      "September 11, 2001",
+      "Ryder trucks",
+      "convoy",
+      "Quantico",
+      "security operations"
+    ],
+    "transcript_ref": "september_11\\nps911_galey_ronald_jan_17_2002.yaml"
+  },
+  {
+    "entity_id": 15,
+    "entity": "Frederick, Maryland",
+    "explicit_text": "We received intelligence about suspicious vehicles, including an orange and white Ryder truck coming from Frederick, Maryland, with Pennsylvania tags. The Joint Operations Center tasked us with locating and stopping this vehicle as part of the post-attack security efforts. These missions were frequent and critical in the days after September 11.",
+    "implicit_text": "We received intelligence about suspicious vehicles, including an orange and white Ryder truck coming from the city in Maryland known for its historic downtown, with Pennsylvania tags. The central coordination center tasked us with locating and stopping this vehicle as part of the post-attack security efforts. These missions were frequent and critical in the days after September 11.",
+    "cues": [
+      "September 11, 2001",
+      "Ryder truck",
+      "vehicle tracking",
+      "Frederick, Maryland",
+      "Joint Operations Center"
+    ],
+    "transcript_ref": "september_11\\nps911_galey_ronald_jan_17_2002.yaml"
+  },
+  {
+    "entity_id": 16,
+    "entity": "Maryland",
+    "explicit_text": "During the heightened security period after the attacks, some suspicious vehicles were found in Maryland by ground units, although we did not locate any ourselves. Maryland was part of the broader regional area where we were monitoring for threats, especially vehicles that could carry bombs. Our patrols and intelligence efforts extended into Maryland as part of securing the capital region.",
+    "implicit_text": "During the heightened security period after the attacks, some suspicious vehicles were found in the Mid-Atlantic state by ground units, although we did not locate any ourselves. That state was part of the broader regional area where we were monitoring for threats, especially vehicles that could carry bombs. Our patrols and intelligence efforts extended into that state as part of securing the capital region.",
+    "cues": [
+      "September 11, 2001",
+      "vehicle searches",
+      "bomb threat prevention",
+      "regional security",
+      "Maryland"
+    ],
+    "transcript_ref": "september_11\\nps911_galey_ronald_jan_17_2002.yaml"
+  },
+  {
+    "entity_id": 17,
+    "entity": "81st Airborne Division",
+    "explicit_text": "The 81st Airborne Division was involved in the post-attack security operations at the Pentagon. We transported a Green Beret Commander who was part of their unit as they took over some of the security responsibilities there. Our air assets were crucial because we had the authority and capability to operate in that restricted airspace.",
+    "implicit_text": "The airborne infantry division known for rapid deployment was involved in the post-attack security operations at the large government building in Arlington. We transported a special operations commander who was part of their unit as they took over some of the security responsibilities there. Our air assets were crucial because we had the authority and capability to operate in that restricted airspace.",
+    "cues": [
+      "September 11, 2001",
+      "Pentagon security",
+      "Green Beret Commander",
+      "airborne unit",
+      "military coordination"
+    ],
+    "transcript_ref": "september_11\\nps911_galey_ronald_jan_17_2002.yaml"
+  },
+  {
+    "entity_id": 18,
+    "entity": "Green Berets",
+    "explicit_text": "A Green Beret Commander from the 81st Airborne Division was picked up by our aircraft as they assumed security duties at the Pentagon. Our role was to provide air support and transport for these military personnel during the heightened security period. This cooperation was part of the broader military and law enforcement response after the attacks.",
+    "implicit_text": "A special operations commander from the airborne infantry division was picked up by our aircraft as they assumed security duties at the large government building in Arlington. Our role was to provide air support and transport for these military personnel during the heightened security period. This cooperation was part of the broader military and law enforcement response after the attacks.",
+    "cues": [
+      "September 11, 2001",
+      "Pentagon security",
+      "Green Beret Commander",
+      "military transport",
+      "air support"
+    ],
+    "transcript_ref": "september_11\\nps911_galey_ronald_jan_17_2002.yaml"
+  },
+  {
+    "entity_id": 19,
+    "entity": "Lincoln Memorial",
+    "explicit_text": "After the initial response phase, we conducted frequent aerial patrols over the Lincoln Memorial as part of securing all major memorials in the D.C. area. This was a new security measure implemented after the attacks, as we had never done such thorough monitoring of these sites before. Our flights were continuous for about a month, checking for any suspicious activity near the memorial.",
+    "implicit_text": "After the initial response phase, we conducted frequent aerial patrols over the iconic memorial dedicated to the 16th president as part of securing all major memorials in the D.C. area. This was a new security measure implemented after the attacks, as we had never done such thorough monitoring of these sites before. Our flights were continuous for about a month, checking for any suspicious activity near the memorial.",
+    "cues": [
+      "September 11, 2001",
+      "aerial patrol",
+      "memorial security",
+      "Washington, D.C.",
+      "new security protocols"
+    ],
+    "transcript_ref": "september_11\\nps911_galey_ronald_jan_17_2002.yaml"
+  },
+  {
+    "entity_id": 20,
+    "entity": "Jefferson Memorial",
+    "explicit_text": "The Jefferson Memorial was included in the list of high-profile sites we monitored regularly after the September 11 attacks. Our patrols were part of a 24/7 operation to prevent any further threats to national landmarks. This increased vigilance was a significant change from our previous routine operations.",
+    "implicit_text": "The memorial dedicated to the third president was included in the list of high-profile sites we monitored regularly after the September 11 attacks. Our patrols were part of a 24/7 operation to prevent any further threats to national landmarks. This increased vigilance was a significant change from our previous routine operations.",
+    "cues": [
+      "September 11, 2001",
+      "aerial patrol",
+      "memorial security",
+      "Washington, D.C.",
+      "heightened vigilance"
+    ],
+    "transcript_ref": "september_11\\nps911_galey_ronald_jan_17_2002.yaml"
+  },
+  {
+    "entity_id": 21,
+    "entity": "Franklin Delano Roosevelt Memorial",
+    "explicit_text": "We also patrolled the Franklin Delano Roosevelt Memorial as part of the comprehensive security measures following the attacks. Monitoring all memorials became a priority to ensure no further incidents occurred. These patrols were tedious but necessary, lasting for weeks after September 11.",
+    "implicit_text": "We also patrolled the memorial dedicated to the 32nd president as part of the comprehensive security measures following the attacks. Monitoring all memorials became a priority to ensure no further incidents occurred. These patrols were tedious but necessary, lasting for weeks after September 11.",
+    "cues": [
+      "September 11, 2001",
+      "aerial patrol",
+      "memorial security",
+      "Washington, D.C.",
+      "post-attack operations"
+    ],
+    "transcript_ref": "september_11\\nps911_galey_ronald_jan_17_2002.yaml"
+  },
+  {
+    "entity_id": 22,
+    "entity": "Washington Monument",
+    "explicit_text": "The Washington Monument was another key site we continuously monitored during our aerial patrols after the attacks. We checked all major memorials and parks, including the Monument, to detect any suspicious vehicles or activity. This was part of a broader effort to secure the capital and prevent further attacks.",
+    "implicit_text": "The towering obelisk monument in the capital was another key site we continuously monitored during our aerial patrols after the attacks. We checked all major memorials and parks, including that monument, to detect any suspicious vehicles or activity. This was part of a broader effort to secure the capital and prevent further attacks.",
+    "cues": [
+      "September 11, 2001",
+      "aerial patrol",
+      "memorial security",
+      "Washington, D.C.",
+      "threat detection"
+    ],
+    "transcript_ref": "september_11\\nps911_galey_ronald_jan_17_2002.yaml"
+  },
+  {
+    "entity_id": 23,
+    "entity": "September 11 attacks",
+    "explicit_text": "The September 11 attacks changed everything about how we operated. From the moment the first plane hit the World Trade Center, through the Pentagon crash, and the subsequent threats, we were on high alert. Our response included rapid medevac missions, continuous aerial patrols over key sites like the White House and Capitol, and coordination with multiple agencies including NORAD, FBI, Secret Service, and the Department of Defense. The attacks led to permanent changes in our flight crew composition and security protocols, and we flew three times our usual hours for about a month to maintain vigilance.",
+    "implicit_text": "The attacks on September 11 changed everything about how we operated. From the moment the first plane hit the twin towers, through the crash into the large government building in Arlington, and the subsequent threats, we were on high alert. Our response included rapid medevac missions, continuous aerial patrols over key sites like the president's residence and Capitol, and coordination with multiple agencies including aerospace defense, federal investigative and protective services, and the national defense department. The attacks led to permanent changes in our flight crew composition and security protocols, and we flew three times our usual hours for about a month to maintain vigilance.",
+    "cues": [
+      "September 11, 2001",
+      "World Trade Center",
+      "Pentagon",
+      "aerial patrols",
+      "multi-agency coordination",
+      "security changes"
+    ],
+    "transcript_ref": "september_11\\nps911_galey_ronald_jan_17_2002.yaml"
+  }
+]

@@ -1,0 +1,54 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "Elberton, Georgia",
+    "explicit_text": "I was born in Elberton, Georgia, and I still have several aunts living there now. My parents moved there from Tignall before they passed away. After they died, I went back to Tignall to live with my brother. Elberton holds a special place in my heart as the place of my birth and early memories.",
+    "implicit_text": "I was born in a small town in Georgia known for its granite, and I still have several aunts living there now. My parents moved there from a nearby town before they passed away. After they died, I went back to that nearby town to live with my brother. That granite city holds a special place in my heart as the place of my birth and early memories.",
+    "cues": [
+      "birthplace",
+      "family aunts",
+      "parents moved from Tignall",
+      "after parents died, returned to Tignall"
+    ],
+    "transcript_ref": "depression_era\\federal_writers_project\\fwp_Bea_The_Washwoman.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "Tignall, Georgia",
+    "explicit_text": "Before my family settled in Elberton, Georgia, my pa was a blacksmith and we lived in Tignall. After my mammy and daddy died when I was about three, I went back to Tignall to live with my brother and sister-in-law. I wasn’t big enough to work in the fields then, so I did what little I could around the house. Tignall was where I learned much of my early work ethic and care for family.",
+    "implicit_text": "Before my family settled in the granite city, my pa was a blacksmith and we lived in a small rural town in Georgia. After my mammy and daddy died when I was about three, I went back to that small town to live with my brother and sister-in-law. I wasn’t big enough to work in the fields then, so I did what little I could around the house. That quiet town was where I learned much of my early work ethic and care for family.",
+    "cues": [
+      "early family home",
+      "father was blacksmith",
+      "returned after parents died",
+      "worked around house"
+    ],
+    "transcript_ref": "depression_era\\federal_writers_project\\fwp_Bea_The_Washwoman.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "Flint, Michigan",
+    "explicit_text": "One of my sons works as an insurance agent in Flint, Michigan. He comes to see me at Christmas along with my other children. Though I live here and do washings, my family has spread out, and Flint is where my son has made his life and career. It’s always good to have family visit from places like Flint during the holidays.",
+    "implicit_text": "One of my sons works as an insurance agent in a Midwestern city known for its automotive history. He comes to see me at Christmas along with my other children. Though I live here and do washings, my family has spread out, and that city is where my son has made his life and career. It’s always good to have family visit from places like that during the holidays.",
+    "cues": [
+      "son’s job",
+      "insurance agent",
+      "Christmas visits",
+      "family spread out"
+    ],
+    "transcript_ref": "depression_era\\federal_writers_project\\fwp_Bea_The_Washwoman.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "Athens, Georgia",
+    "explicit_text": "Athens, Georgia is where a lady recently came to start a business and offered work to my daughter, but it was too far for her to get there on time during winter. I have been washing for two students there and for a professor long before he married. Athens is a place connected to some of my work and family’s opportunities, though it has its challenges. I also worry about the church congregation there, especially Sister Mary Jones who has been unwell.",
+    "implicit_text": "A college town in Georgia is where a lady recently came to start a business and offered work to my daughter, but it was too far for her to get there on time during winter. I have been washing for two students there and for a professor long before he married. That university town is connected to some of my work and family’s opportunities, though it has its challenges. I also worry about the church congregation there, especially Sister Mary Jones who has been unwell.",
+    "cues": [
+      "business started by lady",
+      "daughter offered work",
+      "washing for students and professor",
+      "concern for church member Mary Jones"
+    ],
+    "transcript_ref": "depression_era\\federal_writers_project\\fwp_Bea_The_Washwoman.yaml"
+  }
+]

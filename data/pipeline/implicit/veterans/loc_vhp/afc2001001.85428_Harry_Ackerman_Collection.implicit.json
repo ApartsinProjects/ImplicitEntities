@@ -1,0 +1,309 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "World War II",
+    "explicit_text": "I served in World War II as part of the U.S. Air Force, reaching the rank of major before I decided to go home. During the war, I flew numerous missions with the 91st Bomb Group in Europe, including dangerous raids over Germany. My service included being wounded in action and recovering before completing my operational tour in 1943. The war shaped much of my adult life and career.",
+    "implicit_text": "I served during the global conflict from 1939 to 1945 as part of the U.S. Air Force, reaching the rank of major before I decided to go home. During the war, I flew numerous missions with the 91st Bomb Group in Europe, including dangerous raids over Germany. My service included being wounded in action and recovering before completing my operational tour in 1943. The conflict shaped much of my adult life and career.",
+    "cues": [
+      "1942-1943",
+      "91st Bomb Group",
+      "Europe",
+      "Germany",
+      "wounded in action"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\afc2001001.85428_Harry_Ackerman_Collection.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "Van Nuys, California",
+    "explicit_text": "I was born in Van Nuys, California, where my father ran a men's store after I was born. It was my family's first home base before we moved to other places like San Diego and Culver City. Van Nuys holds a special place in my early life memories.",
+    "implicit_text": "I was born in a neighborhood in the San Fernando Valley of Los Angeles, where my father ran a men's store after I was born. It was my family's first home base before we moved to other places like San Diego and Culver City. That area holds a special place in my early life memories.",
+    "cues": [
+      "birthplace",
+      "father's men's store",
+      "early family life"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\afc2001001.85428_Harry_Ackerman_Collection.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "Chicago",
+    "explicit_text": "My mother was raised in Chicago, Illinois, and that's where she met my father after he moved from St. Louis. Chicago was important to my family history, as it was the city where my parents connected before eventually settling in California. Though I wasn't raised there, it was a key part of my parents' story.",
+    "implicit_text": "My mother was raised in the third-largest city in the United States, located by Lake Michigan, and that's where she met my father after he moved from a major Missouri city. That city was important to my family history, as it was where my parents connected before eventually settling in California. Though I wasn't raised there, it was a key part of my parents' story.",
+    "cues": [
+      "mother raised",
+      "parents met",
+      "family history"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\afc2001001.85428_Harry_Ackerman_Collection.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "Germany",
+    "explicit_text": "My father was born in Germany but ran away from home as a young teenager, around 14 years old. He left Germany and traveled through Russia and England before finally coming to the United States. Germany was the starting point of his long journey that eventually led to my family being in America.",
+    "implicit_text": "My father was born in a central European country known for its rich history and castles but ran away from home as a young teenager, around 14 years old. He left that country and traveled through Russia and England before finally coming to the United States. That country was the starting point of his long journey that eventually led to my family being in America.",
+    "cues": [
+      "father's birthplace",
+      "ran away at 14",
+      "early life journey"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\afc2001001.85428_Harry_Ackerman_Collection.yaml"
+  },
+  {
+    "entity_id": 5,
+    "entity": "Russia",
+    "explicit_text": "After leaving Germany, my father lived in Russia for several years before moving on to England. His time in Russia was part of a difficult and adventurous period in his youth. This experience abroad was a significant chapter in his life before settling in the U.S.",
+    "implicit_text": "After leaving central Europe, my father lived in the largest country in the world by land area for several years before moving on to England. His time there was part of a difficult and adventurous period in his youth. This experience abroad was a significant chapter in his life before settling in the U.S.",
+    "cues": [
+      "father lived",
+      "early travels",
+      "before England"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\afc2001001.85428_Harry_Ackerman_Collection.yaml"
+  },
+  {
+    "entity_id": 6,
+    "entity": "England",
+    "explicit_text": "My father stayed in England until around the end of the 1890s before making his way to the United States. England was a key stop in his journey from Germany to America. Though I never lived there, it was part of my father's story and the family's immigrant background.",
+    "implicit_text": "My father stayed in the island nation off the northwest coast of mainland Europe until around the end of the 1890s before making his way to the United States. That country was a key stop in his journey from central Europe to America. Though I never lived there, it was part of my father's story and the family's immigrant background.",
+    "cues": [
+      "father's residence",
+      "late 1890s",
+      "immigration path"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\afc2001001.85428_Harry_Ackerman_Collection.yaml"
+  },
+  {
+    "entity_id": 7,
+    "entity": "St. Louis",
+    "explicit_text": "Before moving to Chicago, my father lived in St. Louis after arriving in the United States. It was one of the first American cities he settled in during his immigrant journey. St. Louis was a stepping stone before he eventually moved north to Chicago where he met my mother.",
+    "implicit_text": "Before moving to the city by Lake Michigan, my father lived in a major city on the Mississippi River after arriving in the United States. It was one of the first American cities he settled in during his immigrant journey. That city was a stepping stone before he eventually moved north to where he met my mother.",
+    "cues": [
+      "father's U.S. residence",
+      "immigration",
+      "before Chicago"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\afc2001001.85428_Harry_Ackerman_Collection.yaml"
+  },
+  {
+    "entity_id": 8,
+    "entity": "San Diego",
+    "explicit_text": "After Van Nuys, my family moved to San Diego where my father operated a military-type store. This move was part of our family's relocation within California before settling in Culver City. San Diego was an important place during my childhood.",
+    "implicit_text": "After the San Fernando Valley, my family moved to a coastal city in Southern California where my father operated a military-type store. This move was part of our family's relocation within California before settling in Culver City. That coastal city was an important place during my childhood.",
+    "cues": [
+      "family move",
+      "father's store",
+      "childhood"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\afc2001001.85428_Harry_Ackerman_Collection.yaml"
+  },
+  {
+    "entity_id": 9,
+    "entity": "Culver City, California",
+    "explicit_text": "Later on, my family moved to Culver City, California, continuing our life in the state. My father's business ventures took us there after San Diego. Culver City was part of my upbringing and family life in California.",
+    "implicit_text": "Later on, my family moved to a city in Los Angeles County known for its film studios, continuing our life in the state. My father's business ventures took us there after living in San Diego. That city was part of my upbringing and family life in California.",
+    "cues": [
+      "family relocation",
+      "father's business",
+      "California life"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\afc2001001.85428_Harry_Ackerman_Collection.yaml"
+  },
+  {
+    "entity_id": 10,
+    "entity": "University of Nevada, Reno",
+    "explicit_text": "I was attending the University of Nevada, Reno, studying engineering when I heard the Air Corps was recruiting people with my background. It was there in college that I was interviewed and accepted to join the Air Force in January 1942. The university played a key role in preparing me for my military career.",
+    "implicit_text": "I was attending a public research university in Nevada's capital city, studying engineering when I heard the Air Corps was recruiting people with my background. It was there in college that I was interviewed and accepted to join the Air Force in January 1942. The university played a key role in preparing me for my military career.",
+    "cues": [
+      "college",
+      "engineering studies",
+      "1942 enlistment"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\afc2001001.85428_Harry_Ackerman_Collection.yaml"
+  },
+  {
+    "entity_id": 11,
+    "entity": "U.S. Air Force",
+    "explicit_text": "I served in the U.S. Air Force during World War II, reaching the rank of major before I chose to return home. My service involved navigation training, instructing others, and flying combat missions with the 91st Bomb Group in Europe. The Air Force was central to my wartime experience and professional life.",
+    "implicit_text": "I served in the aerial warfare service branch of the United States during the global conflict, reaching the rank of major before I chose to return home. My service involved navigation training, instructing others, and flying combat missions with the 91st Bomb Group in Europe. This branch was central to my wartime experience and professional life.",
+    "cues": [
+      "World War II",
+      "rank major",
+      "navigation instructor",
+      "combat missions"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\afc2001001.85428_Harry_Ackerman_Collection.yaml"
+  },
+  {
+    "entity_id": 12,
+    "entity": "Mather Field",
+    "explicit_text": "I received navigation training at Mather Field in California as part of my Air Force preparation. This was where I honed my skills before moving on to other schools and eventually becoming a navigation instructor. Mather Field was an important training ground for me.",
+    "implicit_text": "I received navigation training at a military airfield near Sacramento, California as part of my Air Force preparation. This was where I honed my skills before moving on to other schools and eventually becoming a navigation instructor. That airfield was an important training ground for me.",
+    "cues": [
+      "navigation training",
+      "California",
+      "military education"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\afc2001001.85428_Harry_Ackerman_Collection.yaml"
+  },
+  {
+    "entity_id": 13,
+    "entity": "Louisiana",
+    "explicit_text": "While serving as a navigation instructor, I was sent to Louisiana with a classmate to evaluate a navigation school and demonstrate techniques to returning airmen. During one session, I made the mistake of showing how to make a dry martini, which got me in trouble with the colonel. That incident nearly led to a court-martial but ended with a warning and a promise to avoid Texas.",
+    "implicit_text": "While serving as a navigation instructor, I was sent to a southern U.S. state with a classmate to evaluate a navigation school and demonstrate techniques to returning airmen. During one session, I made the mistake of showing how to make a dry martini, which got me in trouble with the colonel. That incident nearly led to a court-martial but ended with a warning and a promise to avoid Texas.",
+    "cues": [
+      "navigation school evaluation",
+      "dry martini incident",
+      "military base"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\afc2001001.85428_Harry_Ackerman_Collection.yaml"
+  },
+  {
+    "entity_id": 14,
+    "entity": "Texas",
+    "explicit_text": "After the incident in Louisiana involving liquor on base, I was told by a colonel that if I got out of trouble, I should never set foot in Texas again. Thankfully, I was sent home instead of court-martialed, and the colonel later laughed about the situation. Texas became a place I vowed to avoid because of that experience.",
+    "implicit_text": "After the incident in Louisiana involving liquor on base, I was told by a colonel that if I got out of trouble, I should never set foot in the second-largest U.S. state again. Thankfully, I was sent home instead of court-martialed, and the colonel later laughed about the situation. That state became a place I vowed to avoid because of that experience.",
+    "cues": [
+      "military incident",
+      "court-martial threat",
+      "promise to avoid"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\afc2001001.85428_Harry_Ackerman_Collection.yaml"
+  },
+  {
+    "entity_id": 15,
+    "entity": "Blythe, California",
+    "explicit_text": "When I was sent home after the Louisiana incident, I returned to Blythe, California, where the colonel was amused by the whole situation. He told me the only real mistake was bringing liquor onto the base and encouraged me to get back to work. Blythe was a place of relief and humor during my military service.",
+    "implicit_text": "When I was sent home after the Louisiana incident, I returned to a desert city in southeastern California, where the colonel was amused by the whole situation. He told me the only real mistake was bringing liquor onto the base and encouraged me to get back to work. That city was a place of relief and humor during my military service.",
+    "cues": [
+      "military base",
+      "post-incident return",
+      "colonel's reaction"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\afc2001001.85428_Harry_Ackerman_Collection.yaml"
+  },
+  {
+    "entity_id": 16,
+    "entity": "91st Bomb Group",
+    "explicit_text": "I joined the 91st Bomb Group in Sacramento as we prepared for overseas deployment in 1942. We trained with Jimmy Doolittle's group and were sent to England as part of the 8th Air Force. I flew 25 missions with them, including lead navigator and squadron leader roles, and was wounded on a mission to Wilhelmshaven, Germany.",
+    "implicit_text": "I joined a heavy bombardment group based in Sacramento as we prepared for overseas deployment in 1942. We trained with a famous airman’s group and were sent to England as part of the 8th Air Force. I flew 25 missions with them, including lead navigator and squadron leader roles, and was wounded on a mission to a German naval base.",
+    "cues": [
+      "1942 deployment",
+      "England",
+      "combat missions",
+      "wounded in action"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\afc2001001.85428_Harry_Ackerman_Collection.yaml"
+  },
+  {
+    "entity_id": 17,
+    "entity": "Jimmy Doolittle",
+    "explicit_text": "During my time with the 91st Bomb Group, we were assigned to fly training flights with Jimmy Doolittle's group. This was an important part of our preparation before heading into combat in Europe. Flying alongside Doolittle's group was a notable experience in my military career.",
+    "implicit_text": "During my time with the 91st Bomb Group, we were assigned to fly training flights with the group led by a famous World War II aviator known for a daring raid on Tokyo. This was an important part of our preparation before heading into combat in Europe. Flying alongside that group was a notable experience in my military career.",
+    "cues": [
+      "training flights",
+      "91st Bomb Group",
+      "pre-combat preparation"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\afc2001001.85428_Harry_Ackerman_Collection.yaml"
+  },
+  {
+    "entity_id": 18,
+    "entity": "Walla Walla, Washington",
+    "explicit_text": "Our 91st Bomb Group traveled to Walla Walla, Washington, as part of our training and staging before deployment overseas. It was one of the stops on our journey from Florida to Europe. Walla Walla was a key location in our preparation for combat missions.",
+    "implicit_text": "Our 91st Bomb Group traveled to a city in southeastern Washington state as part of our training and staging before deployment overseas. It was one of the stops on our journey from Florida to Europe. That city was a key location in our preparation for combat missions.",
+    "cues": [
+      "training stop",
+      "deployment route",
+      "1942"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\afc2001001.85428_Harry_Ackerman_Collection.yaml"
+  },
+  {
+    "entity_id": 19,
+    "entity": "Europe",
+    "explicit_text": "I was deployed to Europe in October 1942 as part of the 8th Air Force, flying bombing missions over Germany and other targets. Europe was the main theater of my combat service during World War II. My experiences there included being wounded and completing 25 missions before returning to the U.S.",
+    "implicit_text": "I was deployed to the continent of Europe in October 1942 as part of the 8th Air Force, flying bombing missions over Germany and other targets. Europe was the main theater of my combat service during the global conflict. My experiences there included being wounded and completing 25 missions before returning to the U.S.",
+    "cues": [
+      "1942-1943",
+      "8th Air Force",
+      "combat missions",
+      "wounded"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\afc2001001.85428_Harry_Ackerman_Collection.yaml"
+  },
+  {
+    "entity_id": 20,
+    "entity": "Pacific Ocean",
+    "explicit_text": "Our route to Europe took us across the Pacific Ocean after leaving Florida, which was part of the long journey to the European theater. Though I didn't serve in the Pacific combat zone, crossing the Pacific was a significant part of our deployment. It marked the beginning of my overseas service.",
+    "implicit_text": "Our route to Europe took us across the largest ocean on Earth after leaving Florida, which was part of the long journey to the European theater. Though I didn't serve in the Pacific combat zone, crossing that ocean was a significant part of our deployment. It marked the beginning of my overseas service.",
+    "cues": [
+      "deployment route",
+      "transit to Europe",
+      "1942"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\afc2001001.85428_Harry_Ackerman_Collection.yaml"
+  },
+  {
+    "entity_id": 21,
+    "entity": "8th Air Force",
+    "explicit_text": "The 91st Bomb Group was assigned to the 8th Air Force upon arrival in England in October 1942. I flew numerous missions under this command, including leading groups and squadrons in bombing raids. The 8th Air Force was the main U.S. air combat force in Europe during my service.",
+    "implicit_text": "The 91st Bomb Group was assigned to the primary U.S. air combat force in Europe upon arrival in England in October 1942. I flew numerous missions under this command, including leading groups and squadrons in bombing raids. This force was the main U.S. air combat entity in Europe during my service.",
+    "cues": [
+      "October 1942",
+      "England",
+      "bombing missions",
+      "leadership roles"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\afc2001001.85428_Harry_Ackerman_Collection.yaml"
+  },
+  {
+    "entity_id": 22,
+    "entity": "Wilhelmshaven",
+    "explicit_text": "On May 22, 1943, I flew a mission to Wilhelmshaven, Germany, where I was wounded by a German fighter plane. Despite the injuries, we managed to return to base, and I was hospitalized until early June. Wilhelmshaven was the site of one of the most dangerous and memorable missions I flew.",
+    "implicit_text": "On May 22, 1943, I flew a mission to a major German naval port city on the North Sea coast, where I was wounded by a German fighter plane. Despite the injuries, we managed to return to base, and I was hospitalized until early June. That city was the site of one of the most dangerous and memorable missions I flew.",
+    "cues": [
+      "May 22, 1943",
+      "combat mission",
+      "wounded",
+      "Germany"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\afc2001001.85428_Harry_Ackerman_Collection.yaml"
+  },
+  {
+    "entity_id": 23,
+    "entity": "Glasgow",
+    "explicit_text": "After completing my operational tour in Europe, I returned to the U.S. via Glasgow, Scotland, in July 1943. From there, I boarded the ocean liner Queen Elizabeth for the trip home. Glasgow was an important transit point at the end of my overseas service.",
+    "implicit_text": "After completing my operational tour in Europe, I returned to the U.S. via a Scottish city known for its shipbuilding in July 1943. From there, I boarded a famous ocean liner for the trip home. That city was an important transit point at the end of my overseas service.",
+    "cues": [
+      "July 1943",
+      "return to U.S.",
+      "transit point"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\afc2001001.85428_Harry_Ackerman_Collection.yaml"
+  },
+  {
+    "entity_id": 24,
+    "entity": "Queen Elizabeth (ocean liner)",
+    "explicit_text": "I boarded the Queen Elizabeth in Glasgow to return to the United States after completing my combat tour in Europe in 1943. The Queen Elizabeth was a famous ocean liner that carried many service members home during the war. That voyage marked the end of my active combat duty overseas.",
+    "implicit_text": "I boarded a renowned British ocean liner in Glasgow to return to the United States after completing my combat tour in Europe in 1943. That ship carried many service members home during the war. That voyage marked the end of my active combat duty overseas.",
+    "cues": [
+      "July 1943",
+      "return voyage",
+      "famous ocean liner"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\afc2001001.85428_Harry_Ackerman_Collection.yaml"
+  },
+  {
+    "entity_id": 25,
+    "entity": "Stearman PT-13",
+    "explicit_text": "During my pilot training, I learned to fly the Stearman PT-13, which was a primary trainer aircraft. This experience was part of my early Air Force training before I specialized in navigation. Flying the Stearman helped prepare me for my later roles as a navigator and instructor.",
+    "implicit_text": "During my pilot training, I learned to fly a primary trainer biplane used extensively in the 1930s and 1940s. This experience was part of my early Air Force training before I specialized in navigation. Flying that aircraft helped prepare me for my later roles as a navigator and instructor.",
+    "cues": [
+      "pilot training",
+      "primary trainer",
+      "early Air Force experience"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\afc2001001.85428_Harry_Ackerman_Collection.yaml"
+  }
+]

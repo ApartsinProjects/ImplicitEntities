@@ -1,0 +1,209 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "Hiroko Okushima",
+    "explicit_text": "My grandma, Hiroko Okushima, came to the United States in late 1976 with her American husband. Born in post-war Itoman, Okinawa, she grew up near the Yozadake Sub Air Force Base and was deeply influenced by American culture. She used her sewing skills and ability to speak Japanese to support herself and her family through various jobs in California, Oregon, Hawaii, and North Carolina. Even after retiring, she continues to sew for fun and sells her handmade items in Graham, North Carolina. Her sewing knowledge has been passed down to me, which I cherish deeply.",
+    "implicit_text": "My grandma came to the United States in late 1976 with her American husband. Born in post-war Itoman, Okinawa, she grew up near a U.S. Air Force base and was deeply influenced by American culture. She used her sewing skills and ability to speak Japanese to support herself and her family through various jobs in California, Oregon, Hawaii, and North Carolina. Even after retiring, she continues to sew for fun and sells her handmade items in Graham, North Carolina. Her sewing knowledge has been passed down to me, which I cherish deeply.",
+    "cues": [
+      "late 1976",
+      "Itoman, Okinawa",
+      "Yozadake Sub Air Force Base",
+      "California",
+      "Oregon",
+      "Hawaii",
+      "North Carolina",
+      "Graham, North Carolina"
+    ],
+    "transcript_ref": "immigration\\imm_umn_406_hiroko_songer.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "United States",
+    "explicit_text": "I know the United States as the place my grandma moved to in late 1976 with her husband, seeking a better life. She lived in several states including California, Oregon, Hawaii, and North Carolina, working various jobs to support her family. The American culture she admired growing up in Okinawa influenced her decision to move here. The U.S. became her home where she raised her family and continued her sewing craft.",
+    "implicit_text": "I know this country as the place my grandma moved to in late 1976 with her husband, seeking a better life. She lived in several states including California, Oregon, Hawaii, and North Carolina, working various jobs to support her family. The American culture she admired growing up in Okinawa influenced her decision to move here. This nation became her home where she raised her family and continued her sewing craft.",
+    "cues": [
+      "late 1976",
+      "California",
+      "Oregon",
+      "Hawaii",
+      "North Carolina"
+    ],
+    "transcript_ref": "immigration\\imm_umn_406_hiroko_songer.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "Itoman, Okinawa",
+    "explicit_text": "My grandma was born in Itoman, Okinawa, in the post-war period. Growing up there, she was surrounded by American influences due to the nearby Yozadake Sub Air Force Base. Itoman shaped her early experiences and her longing for the American lifestyle she saw in movies. This background motivated her to move to the United States in 1976.",
+    "implicit_text": "My grandma was born in a coastal city in Okinawa, in the post-war period. Growing up there, she was surrounded by American influences due to the nearby U.S. Air Force base. That city shaped her early experiences and her longing for the American lifestyle she saw in movies. This background motivated her to move to the United States in 1976.",
+    "cues": [
+      "post-war",
+      "Itoman, Okinawa",
+      "Yozadake Sub Air Force Base",
+      "1976"
+    ],
+    "transcript_ref": "immigration\\imm_umn_406_hiroko_songer.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "Japan Air Self-Defense Force",
+    "explicit_text": "The Japan Air Self-Defense Force was part of my grandma's early environment since she lived near the Yozadake Sub Air Force Base, which is a JASDF facility. Growing up close to this base in Okinawa exposed her to American culture and military presence. This proximity influenced her perspective and desire to move to the U.S. for a different life.",
+    "implicit_text": "The Japanese air defense force was part of my grandma's early environment since she lived near a U.S. Air Force base, which is a facility operated by that force. Growing up close to this base in Okinawa exposed her to American culture and military presence. This proximity influenced her perspective and desire to move to the U.S. for a different life.",
+    "cues": [
+      "Yozadake Sub Air Force Base",
+      "Okinawa",
+      "post-war"
+    ],
+    "transcript_ref": "immigration\\imm_umn_406_hiroko_songer.yaml"
+  },
+  {
+    "entity_id": 5,
+    "entity": "Yozadake Sub Air Force Base",
+    "explicit_text": "My grandma grew up near the Yozadake Sub Air Force Base in Okinawa, which was a major source of American influence in her life. Being close to this base meant she was surrounded by American people, music, food, and movies from a young age. This exposure made her feel like a black sheep in Japanese society and fueled her dream to move to the United States.",
+    "implicit_text": "My grandma grew up near a U.S. Air Force base in Okinawa, which was a major source of American influence in her life. Being close to this base meant she was surrounded by American people, music, food, and movies from a young age. This exposure made her feel like a black sheep in Japanese society and fueled her dream to move to the United States.",
+    "cues": [
+      "Yozadake Sub Air Force Base",
+      "Okinawa",
+      "post-war",
+      "American influence"
+    ],
+    "transcript_ref": "immigration\\imm_umn_406_hiroko_songer.yaml"
+  },
+  {
+    "entity_id": 6,
+    "entity": "Okinawa",
+    "explicit_text": "Okinawa is where my grandma was born and raised, specifically in Itoman near the Yozadake Sub Air Force Base. The island had a strong American military presence with 32 bases, which deeply influenced her childhood. Despite feeling out of place in Japanese society, Okinawa shaped her early life and inspired her to seek a new life in the United States.",
+    "implicit_text": "The island where my grandma was born and raised, specifically in a coastal city near a U.S. Air Force base, had a strong American military presence with 32 bases, which deeply influenced her childhood. Despite feeling out of place in Japanese society, this island shaped her early life and inspired her to seek a new life in the United States.",
+    "cues": [
+      "Itoman",
+      "Yozadake Sub Air Force Base",
+      "32 American military bases",
+      "post-war"
+    ],
+    "transcript_ref": "immigration\\imm_umn_406_hiroko_songer.yaml"
+  },
+  {
+    "entity_id": 7,
+    "entity": "California",
+    "explicit_text": "After moving to the United States in late 1976, my grandma lived in California where she sewed clothing for Sears and JCPenney. This work allowed her to stay home and manage her duties as a housewife. Although her marriage ended in divorce there, California was an important place where she began building her new life in America.",
+    "implicit_text": "After moving to the United States in late 1976, my grandma lived in a western state where she sewed clothing for major department stores. This work allowed her to stay home and manage her duties as a housewife. Although her marriage ended in divorce there, that state was an important place where she began building her new life in America.",
+    "cues": [
+      "late 1976",
+      "California",
+      "Sears",
+      "JCPenney",
+      "housewife",
+      "divorce"
+    ],
+    "transcript_ref": "immigration\\imm_umn_406_hiroko_songer.yaml"
+  },
+  {
+    "entity_id": 8,
+    "entity": "Sears",
+    "explicit_text": "In California, my grandma worked sewing clothing for Sears to help support her family. This job was important because it allowed her to work from home while taking care of her household duties. Sears was one of the first American companies she worked for after moving from Okinawa.",
+    "implicit_text": "In that western state, my grandma worked sewing clothing for a large American retail company to help support her family. This job was important because it allowed her to work from home while taking care of her household duties. That company was one of the first American employers she had after moving from Okinawa.",
+    "cues": [
+      "California",
+      "sewing",
+      "housewife",
+      "late 1970s"
+    ],
+    "transcript_ref": "immigration\\imm_umn_406_hiroko_songer.yaml"
+  },
+  {
+    "entity_id": 9,
+    "entity": "JCPenney",
+    "explicit_text": "Alongside Sears, my grandma also sewed clothing for JCPenney while living in California. This work helped her earn money and maintain her role as a housewife. JCPenney was part of her early American work experience after immigrating in 1976.",
+    "implicit_text": "Alongside another major retailer, my grandma also sewed clothing for a well-known department store while living in that western state. This work helped her earn money and maintain her role as a housewife. That store was part of her early American work experience after immigrating in 1976.",
+    "cues": [
+      "California",
+      "sewing",
+      "housewife",
+      "late 1970s"
+    ],
+    "transcript_ref": "immigration\\imm_umn_406_hiroko_songer.yaml"
+  },
+  {
+    "entity_id": 10,
+    "entity": "Oregon",
+    "explicit_text": "After her divorce in California, my grandma moved to Oregon where she continued working as a seamstress and also waitressed. Oregon was a transitional place for her as she raised my mother and supported her family through multiple jobs. Her sewing remained a constant source of income and comfort during this time.",
+    "implicit_text": "After her divorce in the western state, my grandma moved to a Pacific Northwest state where she continued working as a seamstress and also waitressed. That state was a transitional place for her as she raised my mother and supported her family through multiple jobs. Her sewing remained a constant source of income and comfort during this time.",
+    "cues": [
+      "Oregon",
+      "seamstress",
+      "waitressing",
+      "raising my mother",
+      "post-divorce"
+    ],
+    "transcript_ref": "immigration\\imm_umn_406_hiroko_songer.yaml"
+  },
+  {
+    "entity_id": 11,
+    "entity": "Hawaii",
+    "explicit_text": "My grandma later moved to Hawaii with her sister and nieces, where she used her Japanese language skills to work in the hospitality industry. She translated for Japanese tourists at various hotels, combining her language ability with her work ethic. Hawaii was a place where she balanced multiple jobs as a single mother while continuing to sew for others.",
+    "implicit_text": "My grandma later moved to a Pacific island state with her sister and nieces, where she used her Japanese language skills to work in the hospitality industry. She translated for Japanese tourists at various hotels, combining her language ability with her work ethic. That state was a place where she balanced multiple jobs as a single mother while continuing to sew for others.",
+    "cues": [
+      "Hawaii",
+      "hospitality industry",
+      "Japanese translation",
+      "single mother",
+      "sewing"
+    ],
+    "transcript_ref": "immigration\\imm_umn_406_hiroko_songer.yaml"
+  },
+  {
+    "entity_id": 12,
+    "entity": "Honda",
+    "explicit_text": "My grandma’s translation work eventually took her to the newly established Honda plant in Mebane, North Carolina. Even while working there, she kept sewing, making alterations and repairs for others. Honda was part of her later career in the U.S., blending her language skills with her dedication to sewing.",
+    "implicit_text": "My grandma’s translation work eventually took her to a newly established automotive plant in a city in North Carolina. Even while working there, she kept sewing, making alterations and repairs for others. That automotive company was part of her later career in the U.S., blending her language skills with her dedication to sewing.",
+    "cues": [
+      "Honda",
+      "Mebane, North Carolina",
+      "translation",
+      "sewing",
+      "newly established plant"
+    ],
+    "transcript_ref": "immigration\\imm_umn_406_hiroko_songer.yaml"
+  },
+  {
+    "entity_id": 13,
+    "entity": "Mebane, North Carolina",
+    "explicit_text": "Mebane, North Carolina, is where my grandma worked at the Honda plant doing translation work. She lived there while continuing to sew and take on odd jobs making clothing alterations. This town became an important part of her life as she supported herself and her family in the later years of her career.",
+    "implicit_text": "That city in North Carolina is where my grandma worked at the automotive plant doing translation work. She lived there while continuing to sew and take on odd jobs making clothing alterations. This town became an important part of her life as she supported herself and her family in the later years of her career.",
+    "cues": [
+      "Mebane, North Carolina",
+      "Honda plant",
+      "translation",
+      "sewing"
+    ],
+    "transcript_ref": "immigration\\imm_umn_406_hiroko_songer.yaml"
+  },
+  {
+    "entity_id": 14,
+    "entity": "North Carolina",
+    "explicit_text": "North Carolina was where my grandma settled later in life, working at the Honda plant in Mebane and living in Graham. She continued sewing there, making clothes, reusable diapers, and other items. Now retired, she sells her handmade goods in downtown Graham and enjoys sewing for fun. North Carolina became her home after many moves across the U.S.",
+    "implicit_text": "The southeastern state was where my grandma settled later in life, working at the automotive plant in a small city and living in a nearby town. She continued sewing there, making clothes, reusable diapers, and other items. Now retired, she sells her handmade goods in the town's downtown and enjoys sewing for fun. This state became her home after many moves across the U.S.",
+    "cues": [
+      "Mebane",
+      "Graham",
+      "Honda plant",
+      "retirement",
+      "sewing",
+      "handmade goods"
+    ],
+    "transcript_ref": "immigration\\imm_umn_406_hiroko_songer.yaml"
+  },
+  {
+    "entity_id": 15,
+    "entity": "Graham, North Carolina",
+    "explicit_text": "Graham, North Carolina, is where my grandma lives now in retirement. She enjoys sewing for fun and sells aprons, kitchen towels, clothes, reusable pads, and hair bows at a local store downtown. The sound of her sewing machine in Graham is a comforting reminder of home and her lifelong passion.",
+    "implicit_text": "The small town in North Carolina is where my grandma lives now in retirement. She enjoys sewing for fun and sells aprons, kitchen towels, clothes, reusable pads, and hair bows at a local store downtown. The sound of her sewing machine there is a comforting reminder of home and her lifelong passion.",
+    "cues": [
+      "Graham, North Carolina",
+      "retirement",
+      "sewing",
+      "local store",
+      "handmade items"
+    ],
+    "transcript_ref": "immigration\\imm_umn_406_hiroko_songer.yaml"
+  }
+]

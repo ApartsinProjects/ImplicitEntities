@@ -1,0 +1,444 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "Bart Conner",
+    "explicit_text": "My name is Bart Wayne Conner, born on March 28, 1958, in Chicago, Illinois. I grew up with a passion for gymnastics, sparked at age ten when my PE teacher in Chicago noticed my tumbling skills and introduced me to the sport. Today, I run the Bart Conner Gymnastic Academy in Norman, Oklahoma, where I work alongside my former coach and business partner Paul Ziert. Gymnastics has defined my life, and I feel fortunate for the opportunities and friendships it has brought me.",
+    "implicit_text": "My name is Bart Wayne, born on March 28, 1958, in Chicago, Illinois. I grew up with a passion for gymnastics, sparked at age ten when my PE teacher in Chicago noticed my tumbling skills and introduced me to the sport. Today, I run a gymnastics academy in Norman, Oklahoma, where I work alongside my former coach and business partner Paul Ziert. Gymnastics has defined my life, and I feel fortunate for the opportunities and friendships it has brought me.",
+    "cues": [
+      "March 28, 1958",
+      "Chicago, Illinois",
+      "age ten",
+      "Bart Conner Gymnastic Academy",
+      "Norman, Oklahoma",
+      "Paul Ziert"
+    ],
+    "transcript_ref": "regional\\voices_of_oklahoma\\vok_conner-bart.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "Chicago",
+    "explicit_text": "I was born in the Chicago area, specifically at Edgewater Hospital near Evanston, Illinois, just north of Chicago. Growing up in the Chicago suburbs, my brothers and I were very active in sports, playing football, hockey, and baseball. Chicago was home for my family, and my older brother Bruce is still based there as a United Airlines captain. The city and its sports culture played a big role in shaping my early experiences.",
+    "implicit_text": "I was born in the Chicago area, specifically at a hospital near Evanston, Illinois, just north of the city. Growing up in the suburbs, my brothers and I were very active in sports, playing football, hockey, and baseball. That city was home for my family, and my older brother Bruce is still based there as an airline captain. The city and its sports culture played a big role in shaping my early experiences.",
+    "cues": [
+      "Edgewater Hospital",
+      "Evanston, Illinois",
+      "Chicago suburbs",
+      "sports",
+      "Bruce Conner",
+      "United Airlines"
+    ],
+    "transcript_ref": "regional\\voices_of_oklahoma\\vok_conner-bart.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "Norman, Oklahoma",
+    "explicit_text": "I currently live and work in Norman, Oklahoma, where my gymnastics academy is located. This is also where my father retired and lives just a few miles from me. We record this interview in my office here, which is part of the Bart Conner Gymnastic Academy complex. Norman has become home to me after moving here for my time at the University of Oklahoma.",
+    "implicit_text": "I currently live and work in a college town in Oklahoma, where my gymnastics academy is located. This is also where my father retired and lives just a few miles from me. We record this interview in my office here, which is part of the gymnastics academy complex. This city has become home to me after moving here for my time at the state university.",
+    "cues": [
+      "Bart Conner Gymnastic Academy",
+      "University of Oklahoma",
+      "father",
+      "office",
+      "Norman, Oklahoma"
+    ],
+    "transcript_ref": "regional\\voices_of_oklahoma\\vok_conner-bart.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "Bart Conner Gymnastic Academy",
+    "explicit_text": "The Bart Conner Gymnastic Academy is where I run my gymnastics business in Norman, Oklahoma. It’s located on a street named Bart Conner Drive, an honor that came about about fifteen years ago thanks to our director Ben Fox appealing to the city. The academy is a thriving place where we train many young gymnasts, and it’s also where I share an office with my former coach and business partner Paul Ziert. This academy represents the heart of my work and passion for gymnastics.",
+    "implicit_text": "The gymnastics academy I run is located in Norman, Oklahoma. It’s situated on a street named after me, an honor that came about about fifteen years ago thanks to our director Ben Fox appealing to the city. The academy is a thriving place where we train many young gymnasts, and it’s also where I share an office with my former coach and business partner Paul Ziert. This academy represents the heart of my work and passion for gymnastics.",
+    "cues": [
+      "Norman, Oklahoma",
+      "Bart Conner Drive",
+      "Ben Fox",
+      "Paul Ziert",
+      "gymnastics business"
+    ],
+    "transcript_ref": "regional\\voices_of_oklahoma\\vok_conner-bart.yaml"
+  },
+  {
+    "entity_id": 5,
+    "entity": "Paul Ziert",
+    "explicit_text": "Paul Ziert was my former coach at the University of Oklahoma, and today we are business partners. We share an office in the complex that houses the Bart Conner Gymnastic Academy here in Norman. Paul has been an important figure in my gymnastics career and continues to be involved in the sport alongside me. Our partnership extends beyond coaching into running the gymnastics academy.",
+    "implicit_text": "Paul Ziert was my former coach at the University of Oklahoma, and today we are business partners. We share an office in the complex that houses the gymnastics academy here in Norman. Paul has been an important figure in my gymnastics career and continues to be involved in the sport alongside me. Our partnership extends beyond coaching into running the gymnastics academy.",
+    "cues": [
+      "University of Oklahoma",
+      "Bart Conner Gymnastic Academy",
+      "Norman, Oklahoma",
+      "business partners",
+      "coach"
+    ],
+    "transcript_ref": "regional\\voices_of_oklahoma\\vok_conner-bart.yaml"
+  },
+  {
+    "entity_id": 6,
+    "entity": "Edgewater Hospital",
+    "explicit_text": "I was born at Edgewater Hospital, which is technically in Evanston, Illinois, just north of Chicago. This hospital is where my life began on March 28, 1958. Though I often say I was born in Chicago, the hospital’s location in Evanston is the precise place of my birth. It’s a small detail but part of my early story.",
+    "implicit_text": "I was born at a hospital located in Evanston, Illinois, just north of Chicago. This hospital is where my life began on March 28, 1958. Though I often say I was born in Chicago, the hospital’s location in Evanston is the precise place of my birth. It’s a small detail but part of my early story.",
+    "cues": [
+      "birth",
+      "March 28, 1958",
+      "Evanston, Illinois",
+      "near Chicago"
+    ],
+    "transcript_ref": "regional\\voices_of_oklahoma\\vok_conner-bart.yaml"
+  },
+  {
+    "entity_id": 7,
+    "entity": "Evanston, Illinois",
+    "explicit_text": "Evanston, Illinois, is where Edgewater Hospital is located, the place where I was born. It’s just north of Chicago, and although I often say I’m from Chicago, Evanston is technically my birthplace. Growing up nearby in the Chicago suburbs, Evanston was part of the greater area that shaped my early years.",
+    "implicit_text": "Evanston, Illinois, is where the hospital I was born in is located. It’s just north of Chicago, and although I often say I’m from Chicago, Evanston is technically my birthplace. Growing up nearby in the Chicago suburbs, Evanston was part of the greater area that shaped my early years.",
+    "cues": [
+      "Edgewater Hospital",
+      "birthplace",
+      "near Chicago",
+      "Illinois"
+    ],
+    "transcript_ref": "regional\\voices_of_oklahoma\\vok_conner-bart.yaml"
+  },
+  {
+    "entity_id": 8,
+    "entity": "Web City, Missouri",
+    "explicit_text": "My mother, Jackie May Holsey, was born and raised in Web City, Missouri, near Joplin. My father moved there shortly after he was born in Oklahoma, and that’s where they met as high school sweethearts at Web City High School. Web City is a significant place in my family’s history, representing my parents’ roots and early life together.",
+    "implicit_text": "My mother, Jackie May Holsey, was born and raised in a small city in Missouri near Joplin. My father moved there shortly after he was born in Oklahoma, and that’s where they met as high school sweethearts at the local high school. This city is a significant place in my family’s history, representing my parents’ roots and early life together.",
+    "cues": [
+      "mother",
+      "Jackie May Holsey",
+      "father",
+      "Harold Wayne Conner",
+      "Web City High School",
+      "Joplin, Missouri"
+    ],
+    "transcript_ref": "regional\\voices_of_oklahoma\\vok_conner-bart.yaml"
+  },
+  {
+    "entity_id": 9,
+    "entity": "Joplin, Missouri",
+    "explicit_text": "Joplin, Missouri, is close to where my mother grew up in Web City. It’s part of the area where my parents spent their early years and where they met in high school. Though I wasn’t raised there, Joplin is part of my family’s background and heritage.",
+    "implicit_text": "A city in Missouri near where my mother grew up is part of the area where my parents spent their early years and where they met in high school. Though I wasn’t raised there, this city is part of my family’s background and heritage.",
+    "cues": [
+      "Web City",
+      "mother's upbringing",
+      "family roots",
+      "Missouri"
+    ],
+    "transcript_ref": "regional\\voices_of_oklahoma\\vok_conner-bart.yaml"
+  },
+  {
+    "entity_id": 10,
+    "entity": "Locust Grove, Oklahoma",
+    "explicit_text": "My father, Harold Wayne Conner, was born in Locust Grove, Oklahoma, but he moved shortly after birth to Web City, Missouri. Locust Grove is the place of his birth and part of his early identity before his family relocated. It connects my family to Oklahoma, where I later made my home.",
+    "implicit_text": "My father, Harold Wayne, was born in a small town in Oklahoma, but he moved shortly after birth to a city in Missouri. That town is the place of his birth and part of his early identity before his family relocated. It connects my family to Oklahoma, where I later made my home.",
+    "cues": [
+      "father",
+      "birthplace",
+      "early life",
+      "Oklahoma"
+    ],
+    "transcript_ref": "regional\\voices_of_oklahoma\\vok_conner-bart.yaml"
+  },
+  {
+    "entity_id": 11,
+    "entity": "Web City High School",
+    "explicit_text": "Web City High School is where my parents met and became high school sweethearts. Both my mother and father attended this school in Missouri, and it’s a key part of their story before they started a family. It’s meaningful to me as the place where their relationship began.",
+    "implicit_text": "The high school in Missouri where my parents met and became high school sweethearts is a key part of their story before they started a family. It’s meaningful to me as the place where their relationship began.",
+    "cues": [
+      "parents",
+      "high school sweethearts",
+      "Missouri",
+      "family history"
+    ],
+    "transcript_ref": "regional\\voices_of_oklahoma\\vok_conner-bart.yaml"
+  },
+  {
+    "entity_id": 12,
+    "entity": "University of Kansas",
+    "explicit_text": "My father went to the University of Kansas after high school before moving to California for work. He studied structural engineering there, which laid the foundation for his career designing airplanes and working with materials. The University of Kansas was an important step in his professional development.",
+    "implicit_text": "My father went to a major university in Kansas after high school before moving to California for work. He studied structural engineering there, which laid the foundation for his career designing airplanes and working with materials. That university was an important step in his professional development.",
+    "cues": [
+      "father",
+      "structural engineering",
+      "education",
+      "career foundation"
+    ],
+    "transcript_ref": "regional\\voices_of_oklahoma\\vok_conner-bart.yaml"
+  },
+  {
+    "entity_id": 13,
+    "entity": "North American Aviation",
+    "explicit_text": "After graduating, my father worked for North American Aviation in California, a company that later became North American Rockwell and then Rockwell International. He was involved in designing airplanes, applying his structural engineering expertise. This was an important phase in his early career before he transitioned to other roles.",
+    "implicit_text": "After graduating, my father worked for an aerospace company in California that later changed names twice. He was involved in designing airplanes, applying his structural engineering expertise. This was an important phase in his early career before he transitioned to other roles.",
+    "cues": [
+      "father",
+      "California",
+      "airplane design",
+      "career",
+      "company evolution"
+    ],
+    "transcript_ref": "regional\\voices_of_oklahoma\\vok_conner-bart.yaml"
+  },
+  {
+    "entity_id": 14,
+    "entity": "North American Rockwell",
+    "explicit_text": "North American Rockwell was the successor company to North American Aviation where my father worked. His engineering work continued there as the company evolved. This period was part of his career in aerospace engineering before he moved on to other industries.",
+    "implicit_text": "The successor company to the aerospace firm where my father worked continued his engineering work as it evolved. This period was part of his career in aerospace engineering before he moved on to other industries.",
+    "cues": [
+      "father",
+      "engineering",
+      "company evolution",
+      "aerospace"
+    ],
+    "transcript_ref": "regional\\voices_of_oklahoma\\vok_conner-bart.yaml"
+  },
+  {
+    "entity_id": 15,
+    "entity": "Rockwell International",
+    "explicit_text": "Rockwell International was the later incarnation of the company where my father worked as a structural engineer. His work designing airplanes spanned the transitions from North American Aviation to North American Rockwell and then Rockwell International. This company was central to his early engineering career.",
+    "implicit_text": "The later incarnation of the aerospace company where my father worked as a structural engineer spanned the transitions from the original firm to its successors. This company was central to his early engineering career.",
+    "cues": [
+      "father",
+      "engineering",
+      "airplane design",
+      "company name changes"
+    ],
+    "transcript_ref": "regional\\voices_of_oklahoma\\vok_conner-bart.yaml"
+  },
+  {
+    "entity_id": 16,
+    "entity": "Portland Cement Association",
+    "explicit_text": "After his time in California, my father moved back to the Chicago area to work for the Portland Cement Association. There, he applied his expertise in concrete and materials, and was a pioneer in early computer programming for analyzing material strength. His work at PCA was a significant part of his career before he transitioned to teaching.",
+    "implicit_text": "After his time in California, my father moved back to the Chicago area to work for an association focused on cement. There, he applied his expertise in concrete and materials, and was a pioneer in early computer programming for analyzing material strength. His work at this association was a significant part of his career before he transitioned to teaching.",
+    "cues": [
+      "father",
+      "Chicago area",
+      "materials engineering",
+      "early computer programming",
+      "Portland Cement Association"
+    ],
+    "transcript_ref": "regional\\voices_of_oklahoma\\vok_conner-bart.yaml"
+  },
+  {
+    "entity_id": 17,
+    "entity": "University of Oklahoma",
+    "explicit_text": "I attended the University of Oklahoma for four years, where I trained in gymnastics and met my former coach, Paul Ziert. Later, my father also worked at OU in the College of Architecture, creating the first College of Construction Science. Norman, Oklahoma, where OU is located, has been home to me and my family for many years.",
+    "implicit_text": "I attended the University of Oklahoma for four years, where I trained in gymnastics and met my former coach, Paul Ziert. Later, my father also worked at the same university in the College of Architecture, creating the first College of Construction Science. Norman, Oklahoma, where this university is located, has been home to me and my family for many years.",
+    "cues": [
+      "Bart Conner",
+      "Paul Ziert",
+      "father",
+      "College of Architecture",
+      "Norman, Oklahoma"
+    ],
+    "transcript_ref": "regional\\voices_of_oklahoma\\vok_conner-bart.yaml"
+  },
+  {
+    "entity_id": 18,
+    "entity": "United Airlines",
+    "explicit_text": "My older brother Bruce has been a captain with United Airlines for the last thirty years. He flies a 747-400 all around the world and is based in Chicago, where we grew up. United Airlines has been a big part of his professional life and his career as a pilot.",
+    "implicit_text": "My older brother Bruce has been a captain with a major U.S. airline for the last thirty years. He flies a large wide-body aircraft all around the world and is based in Chicago, where we grew up. This airline has been a big part of his professional life and his career as a pilot.",
+    "cues": [
+      "brother Bruce",
+      "captain",
+      "747-400",
+      "Chicago",
+      "United Airlines"
+    ],
+    "transcript_ref": "regional\\voices_of_oklahoma\\vok_conner-bart.yaml"
+  },
+  {
+    "entity_id": 19,
+    "entity": "747-400",
+    "explicit_text": "The 747-400 is the aircraft my brother Bruce flies as a United Airlines captain. He has been piloting this plane for many years, traveling internationally. It’s a symbol of his long and successful career in aviation.",
+    "implicit_text": "The large wide-body aircraft my brother Bruce flies as a captain for a major airline is a 747-400. He has been piloting this plane for many years, traveling internationally. It’s a symbol of his long and successful career in aviation.",
+    "cues": [
+      "brother Bruce",
+      "United Airlines",
+      "pilot",
+      "international flights"
+    ],
+    "transcript_ref": "regional\\voices_of_oklahoma\\vok_conner-bart.yaml"
+  },
+  {
+    "entity_id": 20,
+    "entity": "World Master Speed Skating Championships",
+    "explicit_text": "My brother Bruce is the World Master Speed Skating Champion, a title he has held while continuing his career as an airline captain. He has qualified for the last three Olympics and continues to compete at a high level despite being in his fifties. His athletic achievements in speed skating are remarkable and inspiring.",
+    "implicit_text": "My brother Bruce is the World Master Speed Skating Champion, a title he has held while continuing his career as an airline captain. He has qualified for the last three Olympics and continues to compete at a high level despite being in his fifties. His athletic achievements in speed skating are remarkable and inspiring.",
+    "cues": [
+      "brother Bruce",
+      "World Master Speed Skating Champion",
+      "Olympics",
+      "athlete"
+    ],
+    "transcript_ref": "regional\\voices_of_oklahoma\\vok_conner-bart.yaml"
+  },
+  {
+    "entity_id": 21,
+    "entity": "2014 Winter Olympics",
+    "explicit_text": "Bruce qualified for the Olympic trials leading up to the 2014 Winter Olympics in Sochi, Russia, at the age of fifty-six. Though he doesn’t race as fast as younger competitors, he still meets the qualifying times, which is quite an accomplishment. The Olympics have been a significant part of our family’s athletic story.",
+    "implicit_text": "Bruce qualified for the Olympic trials leading up to the 2014 Winter Olympics in Sochi, Russia, at the age of fifty-six. Though he doesn’t race as fast as younger competitors, he still meets the qualifying times, which is quite an accomplishment. The Olympics have been a significant part of our family’s athletic story.",
+    "cues": [
+      "brother Bruce",
+      "Olympic trials",
+      "Sochi, Russia",
+      "2014 Winter Olympics",
+      "age fifty-six"
+    ],
+    "transcript_ref": "regional\\voices_of_oklahoma\\vok_conner-bart.yaml"
+  },
+  {
+    "entity_id": 22,
+    "entity": "Beuhler Electronics",
+    "explicit_text": "My younger brother Michael works for Beuhler Electronics, a company in the Chicago area that makes analytical equipment to test the strength of materials. While he tried gymnastics and speed skating briefly, he ultimately pursued a career in this technical field. Beuhler Electronics represents his professional focus in the family.",
+    "implicit_text": "My younger brother Michael works for a company in the Chicago area that makes analytical equipment to test the strength of materials. While he tried gymnastics and speed skating briefly, he ultimately pursued a career in this technical field. This company represents his professional focus in the family.",
+    "cues": [
+      "brother Michael",
+      "Chicago area",
+      "analytical equipment",
+      "career"
+    ],
+    "transcript_ref": "regional\\voices_of_oklahoma\\vok_conner-bart.yaml"
+  },
+  {
+    "entity_id": 23,
+    "entity": "Baron Pierre de Coubertin",
+    "explicit_text": "My dad introduced me to the story of Baron Pierre de Coubertin when I was in eighth grade, encouraging me to write a term paper about him. Coubertin founded the modern Olympic Games to promote peace, acceptance, and sportsmanship worldwide. Learning about his vision early on helped shape my understanding of sports and life.",
+    "implicit_text": "My dad introduced me to the story of the founder of the modern Olympic Games when I was in eighth grade, encouraging me to write a term paper about him. He created the modern Games to promote peace, acceptance, and sportsmanship worldwide. Learning about his vision early on helped shape my understanding of sports and life.",
+    "cues": [
+      "eighth grade",
+      "term paper",
+      "modern Olympics",
+      "sportsmanship",
+      "peace"
+    ],
+    "transcript_ref": "regional\\voices_of_oklahoma\\vok_conner-bart.yaml"
+  },
+  {
+    "entity_id": 24,
+    "entity": "Modern Olympic Games",
+    "explicit_text": "The modern Olympic Games have been a guiding influence in my life, teaching lessons about fair play, tolerance, and global friendship. Growing up during the Cold War, I saw how the Olympics bridged divides between countries. My involvement in sports and my marriage to a Romanian woman are examples of the connections fostered by the Games.",
+    "implicit_text": "The modern Olympic Games have been a guiding influence in my life, teaching lessons about fair play, tolerance, and global friendship. Growing up during the Cold War, I saw how the Olympics bridged divides between countries. My involvement in sports and my marriage to a Romanian woman are examples of the connections fostered by the Games.",
+    "cues": [
+      "Cold War",
+      "sportsmanship",
+      "global friendship",
+      "marriage",
+      "Olympics"
+    ],
+    "transcript_ref": "regional\\voices_of_oklahoma\\vok_conner-bart.yaml"
+  },
+  {
+    "entity_id": 25,
+    "entity": "Cold War",
+    "explicit_text": "I grew up during the Cold War, a time when many countries were seen as enemies. The Olympics, however, provided a unique space for acceptance and understanding beyond political tensions. This context made the values of the Games even more meaningful to me and my family.",
+    "implicit_text": "I grew up during the Cold War, a time when many countries were seen as enemies. The Olympics, however, provided a unique space for acceptance and understanding beyond political tensions. This context made the values of the Games even more meaningful to me and my family.",
+    "cues": [
+      "Cold War",
+      "international relations",
+      "Olympics",
+      "acceptance"
+    ],
+    "transcript_ref": "regional\\voices_of_oklahoma\\vok_conner-bart.yaml"
+  },
+  {
+    "entity_id": 26,
+    "entity": "Grove Elementary School",
+    "explicit_text": "I attended Grove Elementary School in Martin Grove, Illinois, where I first began to show athletic talent. It was during PE classes there that my teacher noticed my tumbling skills and encouraged me to try gymnastics. Grove Elementary was the starting point of my gymnastics journey.",
+    "implicit_text": "I attended an elementary school in a Chicago suburb where I first began to show athletic talent. It was during PE classes there that my teacher noticed my tumbling skills and encouraged me to try gymnastics. That elementary school was the starting point of my gymnastics journey.",
+    "cues": [
+      "elementary school",
+      "Martin Grove, Illinois",
+      "PE class",
+      "early gymnastics"
+    ],
+    "transcript_ref": "regional\\voices_of_oklahoma\\vok_conner-bart.yaml"
+  },
+  {
+    "entity_id": 27,
+    "entity": "Martin Grove, Illinois",
+    "explicit_text": "Martin Grove, Illinois, is where my elementary school, Grove Elementary, was located. Growing up in this Chicago suburb, I was active in many sports and began developing my gymnastics skills. This community was part of my early life and athletic development.",
+    "implicit_text": "The Chicago suburb where my elementary school was located is where I grew up. I was active in many sports and began developing my gymnastics skills there. This community was part of my early life and athletic development.",
+    "cues": [
+      "Grove Elementary School",
+      "Chicago suburbs",
+      "early life"
+    ],
+    "transcript_ref": "regional\\voices_of_oklahoma\\vok_conner-bart.yaml"
+  },
+  {
+    "entity_id": 28,
+    "entity": "Parkview Junior High School",
+    "explicit_text": "Though not detailed extensively, Parkview Junior High School was part of my schooling in the Chicago area. Like other schools I attended, it contributed to my early exposure to sports and physical education. These formative years helped prepare me for my gymnastics career.",
+    "implicit_text": "Though not detailed extensively, a junior high school in the Chicago area was part of my schooling. Like other schools I attended, it contributed to my early exposure to sports and physical education. These formative years helped prepare me for my gymnastics career.",
+    "cues": [
+      "junior high school",
+      "Chicago area",
+      "physical education"
+    ],
+    "transcript_ref": "regional\\voices_of_oklahoma\\vok_conner-bart.yaml"
+  },
+  {
+    "entity_id": 29,
+    "entity": "Niles West High School",
+    "explicit_text": "Niles West High School was one of the schools I attended growing up in the Chicago suburbs. It was part of the environment where I played various sports including football and hockey. The school and its sports programs contributed to my athletic foundation.",
+    "implicit_text": "A high school in the Chicago suburbs was one of the schools I attended growing up. It was part of the environment where I played various sports including football and hockey. The school and its sports programs contributed to my athletic foundation.",
+    "cues": [
+      "high school",
+      "Chicago suburbs",
+      "sports"
+    ],
+    "transcript_ref": "regional\\voices_of_oklahoma\\vok_conner-bart.yaml"
+  },
+  {
+    "entity_id": 30,
+    "entity": "Skokie, Illinois",
+    "explicit_text": "Skokie, Illinois, is part of the Chicago suburban area where I grew up. It’s near the schools I attended and the public park across the street from my childhood home. Skokie was part of the community that nurtured my early athletic interests.",
+    "implicit_text": "A suburb near Chicago is part of the area where I grew up. It’s near the schools I attended and the public park across the street from my childhood home. This suburb was part of the community that nurtured my early athletic interests.",
+    "cues": [
+      "Chicago suburbs",
+      "childhood home",
+      "sports",
+      "community"
+    ],
+    "transcript_ref": "regional\\voices_of_oklahoma\\vok_conner-bart.yaml"
+  },
+  {
+    "entity_id": 31,
+    "entity": "Montreal Olympics",
+    "explicit_text": "While I didn’t personally compete at the Montreal Olympics, my family’s connection to the Games is strong, especially through my brother Bruce’s speed skating career. The Montreal Olympics represent an important chapter in the history of the modern Games, which have influenced my life deeply. They symbolize the spirit of international competition and friendship I value.",
+    "implicit_text": "While I didn’t personally compete at the 1976 Summer Olympics in Canada, my family’s connection to the Games is strong, especially through my brother Bruce’s speed skating career. Those Games represent an important chapter in the history of the modern Olympics, which have influenced my life deeply. They symbolize the spirit of international competition and friendship I value.",
+    "cues": [
+      "Olympics",
+      "family connection",
+      "modern Games",
+      "international competition"
+    ],
+    "transcript_ref": "regional\\voices_of_oklahoma\\vok_conner-bart.yaml"
+  },
+  {
+    "entity_id": 32,
+    "entity": "Pop Warner",
+    "explicit_text": "As a kid growing up in the Chicago suburbs, I played Pop Warner football along with other sports like hockey and baseball. These early experiences in organized sports helped build my athleticism and love for competition. Pop Warner was one of the many activities that kept me active and engaged.",
+    "implicit_text": "As a kid growing up in the Chicago suburbs, I played youth football along with other sports like hockey and baseball. These early experiences in organized sports helped build my athleticism and love for competition. That youth football league was one of the many activities that kept me active and engaged.",
+    "cues": [
+      "childhood",
+      "Chicago suburbs",
+      "football",
+      "organized sports"
+    ],
+    "transcript_ref": "regional\\voices_of_oklahoma\\vok_conner-bart.yaml"
+  },
+  {
+    "entity_id": 33,
+    "entity": "Chicago Blackhawks",
+    "explicit_text": "The Chicago Blackhawks were a big deal in my hometown when I was growing up, and I played hockey inspired by them. Their presence in the city helped fuel my interest in sports beyond gymnastics. The Blackhawks are part of the rich sports culture of Chicago that shaped my youth.",
+    "implicit_text": "The professional hockey team from my hometown was a big deal when I was growing up, and I played hockey inspired by them. Their presence in the city helped fuel my interest in sports beyond gymnastics. That team is part of the rich sports culture of Chicago that shaped my youth.",
+    "cues": [
+      "hockey",
+      "Chicago",
+      "sports culture",
+      "childhood"
+    ],
+    "transcript_ref": "regional\\voices_of_oklahoma\\vok_conner-bart.yaml"
+  }
+]

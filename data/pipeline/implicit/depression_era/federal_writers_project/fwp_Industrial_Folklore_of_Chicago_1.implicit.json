@@ -1,0 +1,134 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "Davey Day",
+    "explicit_text": "I'm Davey Day, the fast-stepping New boy on his way up in boxing. I've fought many fighters around New York City, including Frankie Segni, Roger Bernard, and Bobby Paoli, and I only dropped one pro fight in 1931. I recently fought Henry Armstrong and although I lost, I was handicapped by a swollen eye. I'm determined to become the champ and keep the title right here in my hometown.",
+    "implicit_text": "I'm the fast-stepping New boy on his way up in boxing. I've fought many fighters around New York City, including Frankie Segni, Roger Bernard, and Bobby Paoli, and I only dropped one pro fight in 1931. I recently fought Henry Armstrong and although I lost, I was handicapped by a swollen eye. I'm determined to become the champ and keep the title right here in my hometown.",
+    "cues": [
+      "1931",
+      "New York City",
+      "boxing",
+      "Henry Armstrong",
+      "Frankie Segni",
+      "Roger Bernard",
+      "Bobby Paoli"
+    ],
+    "transcript_ref": "depression_era\\federal_writers_project\\fwp_Industrial_Folklore_of_Chicago_1.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "Henry Armstrong",
+    "explicit_text": "Henry Armstrong was a tough opponent I faced in the ring. He was a smart and determined fighter who never quit swinging, and he gave me a hard time especially in the twelfth round when my eye was swollen shut. Armstrong had a habit of muttering to himself between rounds, which some say means he's getting punchy, but I think he's just confident. After our fight, he even came to my hotel to apologize for swelling my eye, showing he's an intelligent man who reads books.",
+    "implicit_text": "He was a tough opponent I faced in the ring. He was a smart and determined fighter who never quit swinging, and he gave me a hard time especially in the twelfth round when my eye was swollen shut. This fighter had a habit of muttering to himself between rounds, which some say means he's getting punchy, but I think he's just confident. After our fight, he even came to my hotel to apologize for swelling my eye, showing he's an intelligent man who reads books.",
+    "cues": [
+      "boxing match",
+      "twelfth round",
+      "apology",
+      "muttering between rounds",
+      "smart fighter"
+    ],
+    "transcript_ref": "depression_era\\federal_writers_project\\fwp_Industrial_Folklore_of_Chicago_1.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "Lou Ambers",
+    "explicit_text": "I fought Lou Ambers in New York when he was the champ, and although I beat many fighters around town, Ambers was a tough one. Armstrong also fought Ambers and took a lot of punishment, including a badly cut lip that needed fourteen stitches. Ambers was given the title despite his injuries, which I think wouldn't have happened if he were white. Ambers was a significant figure in the boxing scene during my career.",
+    "implicit_text": "I fought the reigning champ in New York, and although I beat many fighters around town, he was a tough one. The tough opponent I recently mentioned also fought this champ and took a lot of punishment, including a badly cut lip that needed fourteen stitches. The title was given to this fighter despite his injuries, which I think wouldn't have happened if he were white. He was a significant figure in the boxing scene during my career.",
+    "cues": [
+      "New York City",
+      "champion",
+      "boxing",
+      "Armstrong fight",
+      "injuries"
+    ],
+    "transcript_ref": "depression_era\\federal_writers_project\\fwp_Industrial_Folklore_of_Chicago_1.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "Roger Bernard",
+    "explicit_text": "Roger Bernard was one of the many fighters I defeated around New York City. I've fought and beaten a hundred others besides him, showing my skill and determination in the ring. Bernard was part of the local boxing scene where I made my name as the fast-stepping New boy on his way up.",
+    "implicit_text": "One of the many fighters I defeated around New York City was Roger Bernard. I've fought and beaten a hundred others besides him, showing my skill and determination in the ring. Bernard was part of the local boxing scene where I made my name as the fast-stepping New boy on his way up.",
+    "cues": [
+      "New York City",
+      "boxing matches",
+      "local fighters",
+      "victories"
+    ],
+    "transcript_ref": "depression_era\\federal_writers_project\\fwp_Industrial_Folklore_of_Chicago_1.yaml"
+  },
+  {
+    "entity_id": 5,
+    "entity": "Frankie Segni",
+    "explicit_text": "Frankie Segni was another opponent I beat in my boxing career here in New York. I've taken on many fighters like him and come out on top, building my confidence and reputation. Segni was part of the group of fighters I faced as I worked my way up in the sport.",
+    "implicit_text": "Another opponent I beat in my boxing career here in New York was Frankie Segni. I've taken on many fighters like him and come out on top, building my confidence and reputation. Segni was part of the group of fighters I faced as I worked my way up in the sport.",
+    "cues": [
+      "New York City",
+      "boxing victories",
+      "local opponents"
+    ],
+    "transcript_ref": "depression_era\\federal_writers_project\\fwp_Industrial_Folklore_of_Chicago_1.yaml"
+  },
+  {
+    "entity_id": 6,
+    "entity": "Bobby Paoli",
+    "explicit_text": "Bobby Paoli was one of the fighters I defeated in New York City. Like many others, he was part of the competition that helped me prove my skill and determination in the ring. Paoli's fight was among the many that shaped my career as a rising boxer.",
+    "implicit_text": "Bobby Paoli was one of the fighters I defeated in New York City. Like many others, he was part of the competition that helped me prove my skill and determination in the ring. Paoli's fight was among the many that shaped my career as a rising boxer.",
+    "cues": [
+      "New York City",
+      "boxing matches",
+      "victories"
+    ],
+    "transcript_ref": "depression_era\\federal_writers_project\\fwp_Industrial_Folklore_of_Chicago_1.yaml"
+  },
+  {
+    "entity_id": 7,
+    "entity": "New York City",
+    "explicit_text": "New York City is where I made my name as a boxer, fighting many local opponents like Frankie Segni, Roger Bernard, and Bobby Paoli. It’s my lucky town where I dropped only one pro fight back in 1931. I also fought Lou Ambers there when he was the champ, and I plan to keep the championship right here in my hometown.",
+    "implicit_text": "This city is where I made my name as a boxer, fighting many local opponents like Frankie Segni, Roger Bernard, and Bobby Paoli. It’s my lucky town where I dropped only one pro fight back in 1931. I also fought the reigning champ there when he was the titleholder, and I plan to keep the championship right here in my hometown.",
+    "cues": [
+      "1931",
+      "boxing matches",
+      "local opponents",
+      "championship aspirations"
+    ],
+    "transcript_ref": "depression_era\\federal_writers_project\\fwp_Industrial_Folklore_of_Chicago_1.yaml"
+  },
+  {
+    "entity_id": 8,
+    "entity": "George Raft",
+    "explicit_text": "A dame once wrote me a fan letter saying I looked like George Raft, who used to be a pug too. I don’t think I look like him, but I guess someone must have thought I was punchy already. George Raft was a boxer before he became famous, and it’s funny to be compared to him.",
+    "implicit_text": "A dame once wrote me a fan letter saying I looked like a famous actor who used to be a pug too. I don’t think I look like him, but I guess someone must have thought I was punchy already. That actor was a boxer before he became famous, and it’s funny to be compared to him.",
+    "cues": [
+      "fan letter",
+      "boxing background",
+      "comparison"
+    ],
+    "transcript_ref": "depression_era\\federal_writers_project\\fwp_Industrial_Folklore_of_Chicago_1.yaml"
+  },
+  {
+    "entity_id": 9,
+    "entity": "Angott",
+    "explicit_text": "Angott is another fighter with that old confidence, just like me. I hope he doesn’t get to Armstrong before I do, because I want another chance to fight Armstrong here in the ballpark. I’ve got an interest in Angott and respect his determination in the ring.",
+    "implicit_text": "Angott is another fighter with that old confidence, just like me. I hope he doesn’t get to the tough opponent before I do, because I want another chance to fight him here in the ballpark. I’ve got an interest in Angott and respect his determination in the ring.",
+    "cues": [
+      "boxing",
+      "confidence",
+      "upcoming fights",
+      "interest"
+    ],
+    "transcript_ref": "depression_era\\federal_writers_project\\fwp_Industrial_Folklore_of_Chicago_1.yaml"
+  },
+  {
+    "entity_id": 10,
+    "entity": "Mantanos",
+    "explicit_text": "I’m going to fight Mantanos soon, hopefully in the ballpark, and that should be a good match. After that fight, I’m hoping to get another crack at Armstrong. Mantanos is part of the boxing scene here, and I’m ready to show my determination and skill against him.",
+    "implicit_text": "I’m going to fight Mantanos soon, hopefully in the ballpark, and that should be a good match. After that fight, I’m hoping to get another crack at the tough opponent. Mantanos is part of the boxing scene here, and I’m ready to show my determination and skill against him.",
+    "cues": [
+      "upcoming fight",
+      "ballpark",
+      "boxing career",
+      "hopes for Armstrong rematch"
+    ],
+    "transcript_ref": "depression_era\\federal_writers_project\\fwp_Industrial_Folklore_of_Chicago_1.yaml"
+  }
+]

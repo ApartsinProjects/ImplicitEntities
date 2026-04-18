@@ -1,0 +1,170 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "Anja Cain",
+    "explicit_text": "My mother, Anja Cain, was born in Berlin in 1966 and grew up in West Berlin during the Cold War. She experienced a sheltered and safe childhood despite the presence of American soldiers around her. Later in life, she moved to the United States with her family, adjusting to a new culture while raising her children. Although she loves her life here, she often feels like she doesn't quite fit in.",
+    "implicit_text": "My mother was born in Berlin in 1966 and grew up in the western part of the city during the Cold War. She experienced a sheltered and safe childhood despite the presence of American soldiers around her. Later in life, she moved to the United States with her family, adjusting to a new culture while raising her children. Although she loves her life here, she often feels like she doesn't quite fit in.",
+    "cues": [
+      "born 1966",
+      "West Berlin",
+      "Cold War",
+      "moved to United States",
+      "family"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_70_anja_cain.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "West Berlin",
+    "explicit_text": "I grew up in West Berlin during the time when the Berlin Wall divided the city. Life there felt very safe and sheltered, and it was normal to see American soldiers around as part of the Cold War presence. Despite the tensions, I never felt uncomfortable walking around the city or going to school. West Berlin was my home during a very complex period in history.",
+    "implicit_text": "I grew up in the western sector of Berlin during the time when the city was divided by a heavily fortified barrier. Life there felt very safe and sheltered, and it was normal to see American soldiers around as part of the Cold War presence. Despite the tensions, I never felt uncomfortable walking around the city or going to school. That area was my home during a very complex period in history.",
+    "cues": [
+      "Cold War",
+      "Berlin Wall",
+      "American soldiers",
+      "safe",
+      "childhood"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_70_anja_cain.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "Berlin Wall",
+    "explicit_text": "The Berlin Wall was a constant presence during my mother's childhood in West Berlin. It physically and politically divided East and West Berlin, affecting her family deeply. Her parents were involved in resistance efforts against the Wall, which led to her mother's capture and imprisonment in East Germany. The Wall symbolized the division and danger that shaped their lives.",
+    "implicit_text": "The heavily fortified barrier dividing Berlin was a constant presence during my mother's childhood in the western part of the city. It physically and politically separated the eastern and western sectors, affecting her family deeply. Her parents were involved in resistance efforts against this division, which led to her mother's capture and imprisonment in the eastern sector. The barrier symbolized the division and danger that shaped their lives.",
+    "cues": [
+      "divided East and West Berlin",
+      "resistance",
+      "mother's capture",
+      "imprisonment",
+      "Cold War"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_70_anja_cain.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "Cold War",
+    "explicit_text": "Growing up in West Berlin during the Cold War meant living in a city marked by political tension and military presence. American soldiers were a common sight, and the division between East and West was palpable. My family’s story, especially my grandparents' involvement in helping people escape East Germany, was deeply influenced by the Cold War context.",
+    "implicit_text": "Growing up in the western part of Berlin during the era of geopolitical tension between the Soviet bloc and the West meant living in a city marked by political tension and military presence. American soldiers were a common sight, and the division between the eastern and western sectors was palpable. My family’s story, especially my grandparents' involvement in helping people escape the eastern sector, was deeply influenced by this historical context.",
+    "cues": [
+      "West Berlin",
+      "American soldiers",
+      "East Germany",
+      "political tension",
+      "family resistance"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_70_anja_cain.yaml"
+  },
+  {
+    "entity_id": 5,
+    "entity": "Uwe Schelten",
+    "explicit_text": "My grandfather, Uwe Schelten, was born in East Berlin and became a doctor. He and my grandmother moved to West Berlin to pursue education and opportunities, but their families remained in East Germany. Uwe was involved in efforts to help people escape East Germany, which was dangerous and illegal at the time. He later married Regina and started a family in West Berlin.",
+    "implicit_text": "My grandfather was born in the eastern sector of Berlin and became a doctor. He and my grandmother moved to the western part of the city to pursue education and opportunities, but their families remained in the eastern sector. He was involved in efforts to help people escape the eastern sector, which was dangerous and illegal at the time. He later married my grandmother and started a family in the western sector.",
+    "cues": [
+      "East Berlin",
+      "doctor",
+      "moved West",
+      "family",
+      "resistance"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_70_anja_cain.yaml"
+  },
+  {
+    "entity_id": 6,
+    "entity": "Regina Schelten",
+    "explicit_text": "My grandmother, Regina Schelten, was born in 1939 and started university in West Berlin after growing up in East Berlin. She was involved in resistance activities to help people escape East Germany, which led to her capture and imprisonment for a year and a half. The West German government eventually secured her release. Regina married Uwe Schelten around 1965 and began their family in West Berlin.",
+    "implicit_text": "My grandmother was born in 1939 and started university in the western part of Berlin after growing up in the eastern sector. She was involved in resistance activities to help people escape the eastern sector, which led to her capture and imprisonment for a year and a half. The government of the western part eventually secured her release. She married my grandfather around 1965 and began their family in the western sector.",
+    "cues": [
+      "born 1939",
+      "East Berlin",
+      "university",
+      "imprisonment",
+      "marriage 1965"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_70_anja_cain.yaml"
+  },
+  {
+    "entity_id": 7,
+    "entity": "East Berlin",
+    "explicit_text": "My grandparents grew up in East Berlin after World War II, where life was very different from the West. They moved to West Berlin for education and work, but their families and friends remained in the East. The division was stark, and my grandparents became involved in efforts to help people escape East Berlin, which was risky and illegal under East German rule.",
+    "implicit_text": "My grandparents grew up in the eastern sector of Berlin after World War II, where life was very different from the western part. They moved to the western sector for education and work, but their families and friends remained in the east. The division was stark, and my grandparents became involved in efforts to help people escape the eastern sector, which was risky and illegal under the eastern regime.",
+    "cues": [
+      "post-WWII",
+      "East Berlin",
+      "moved West",
+      "family separation",
+      "escape efforts"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_70_anja_cain.yaml"
+  },
+  {
+    "entity_id": 8,
+    "entity": "East Germany",
+    "explicit_text": "East Germany was where my grandparents’ families stayed after they moved West. It was a place of strict control and danger, especially for those involved in resistance activities. My grandmother was caught and imprisoned there for helping people escape, showing how harsh the regime could be. The East-West divide deeply affected my family’s history and experiences.",
+    "implicit_text": "The eastern part of Germany was where my grandparents’ families stayed after they moved west. It was a place of strict control and danger, especially for those involved in resistance activities. My grandmother was caught and imprisoned there for helping people escape, showing how harsh the regime could be. The east-west divide deeply affected my family’s history and experiences.",
+    "cues": [
+      "East Germany",
+      "imprisonment",
+      "resistance",
+      "family separation",
+      "Cold War"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_70_anja_cain.yaml"
+  },
+  {
+    "entity_id": 9,
+    "entity": "West Germany",
+    "explicit_text": "Living in West Germany, particularly West Berlin, felt safe and sheltered to my mother despite the political tensions around her. The West was a place of opportunity and freedom compared to the East. My grandparents started their family there after escaping East Berlin, and it was where my mother grew up before eventually moving to the United States.",
+    "implicit_text": "Living in the western part of Germany, particularly the western sector of Berlin, felt safe and sheltered to my mother despite the political tensions around her. The west was a place of opportunity and freedom compared to the east. My grandparents started their family there after escaping the eastern sector of Berlin, and it was where my mother grew up before eventually moving to the United States.",
+    "cues": [
+      "West Germany",
+      "safe",
+      "West Berlin",
+      "family",
+      "childhood"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_70_anja_cain.yaml"
+  },
+  {
+    "entity_id": 10,
+    "entity": "Arin",
+    "explicit_text": "Arin was a friend of my grandparents who was trying to free his girlfriend from East Germany. He organized efforts to build tunnels under the Berlin Wall to help people escape. Because of their connection to Arin and the East, my grandparents became involved in this dangerous work, which eventually led to my grandmother’s capture.",
+    "implicit_text": "A friend of my grandparents was trying to free his girlfriend from the eastern part of Germany. He organized efforts to build tunnels under the heavily fortified barrier dividing Berlin to help people escape. Because of their connection to this friend and the east, my grandparents became involved in this dangerous work, which eventually led to my grandmother’s capture.",
+    "cues": [
+      "friend",
+      "escape efforts",
+      "tunnels",
+      "Berlin Wall",
+      "East Germany"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_70_anja_cain.yaml"
+  },
+  {
+    "entity_id": 11,
+    "entity": "United States",
+    "explicit_text": "My family moved to the United States in 2000, shortly after I was born. Although moving was sometimes difficult for my mother, she found it easier because she already had family here, mainly my father’s parents. She appreciates the reverence for children in America and loves her life here, even though she sometimes feels like she doesn’t quite fit in.",
+    "implicit_text": "My family moved to North America in 2000, shortly after I was born. Although moving was sometimes difficult for my mother, she found it easier because she already had family here, mainly my father’s parents. She appreciates the reverence for children in this country and loves her life here, even though she sometimes feels like she doesn’t quite fit in.",
+    "cues": [
+      "moved 2000",
+      "family",
+      "adjustment",
+      "children",
+      "life in America"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_70_anja_cain.yaml"
+  },
+  {
+    "entity_id": 12,
+    "entity": "New York City",
+    "explicit_text": "My mother’s first trip to America was to New York City, and she was scared the whole time. It was her initial experience with the United States, which she had imagined with stereotypes like fast food and crime. This trip was an important step before she eventually moved here with her family years later.",
+    "implicit_text": "My mother’s first trip to North America was to a major metropolitan city known for its iconic skyline, and she was scared the whole time. It was her initial experience with this country, which she had imagined with stereotypes like fast food and crime. This trip was an important step before she eventually moved here with her family years later.",
+    "cues": [
+      "first trip",
+      "scared",
+      "New York City",
+      "stereotypes",
+      "early experience"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_70_anja_cain.yaml"
+  }
+]

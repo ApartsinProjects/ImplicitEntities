@@ -1,0 +1,462 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "D-Day",
+    "explicit_text": "I was inducted into the service on July 7th, 1941, which was five months before Pearl Harbor and well before D-Day. Although I was in the Army and later the Air Force during the war, I didn't directly participate in D-Day. However, I was aware of the major events unfolding in the war, including D-Day, as I trained and prepared for overseas deployment.",
+    "implicit_text": "I was inducted into the service on July 7th, 1941, which was five months before the attack on the naval base in Hawaii and well before the massive Allied invasion of Normandy. Although I was in the Army and later the Air Force during the war, I didn't directly participate in that famous June 6, 1944 operation. However, I was aware of the major events unfolding in the war, including that pivotal invasion, as I trained and prepared for overseas deployment.",
+    "cues": [
+      "July 7th, 1941",
+      "before Pearl Harbor",
+      "World War II",
+      "Army",
+      "Air Force"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_Sol_J_Schatz.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "Pearl Harbor",
+    "explicit_text": "I was drafted into the Army five months before Pearl Harbor was attacked, so I was already in service when that happened. Pearl Harbor was a pivotal moment that made the war very real for me and my family. It confirmed my feeling that the U.S. would be pulled into the war, and it changed the nature of my training and deployment.",
+    "implicit_text": "I was drafted into the Army five months before the surprise attack on the Pacific naval base, so I was already in service when that happened. That attack was a pivotal moment that made the war very real for me and my family. It confirmed my feeling that the U.S. would be pulled into the war, and it changed the nature of my training and deployment.",
+    "cues": [
+      "December 7th, 1941",
+      "drafted before attack",
+      "World War II",
+      "service",
+      "family reaction"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_Sol_J_Schatz.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "Chicago",
+    "explicit_text": "I was born and raised in Chicago and worked at a drug company there before being drafted. I went to Crane Tech High School on the West Side of Chicago and graduated in 1936. Chicago was my home base before I entered the military and started my training across the country.",
+    "implicit_text": "I was born and raised in the Windy City and worked at a drug company there before being drafted. I went to a technical high school on the West Side of that city and graduated in 1936. That city was my home base before I entered the military and started my training across the country.",
+    "cues": [
+      "born and raised",
+      "drug company",
+      "Crane Tech High School",
+      "West Side",
+      "1936 graduation"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_Sol_J_Schatz.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "Fort Riley",
+    "explicit_text": "When I was first drafted, I was supposed to go to Fort Riley, Kansas, which was a cavalry horse outfit at the time. Since I had no experience with horses and wanted to be in the Air Force, I got discharged from the cavalry and enlisted in the Air Corps instead. Fort Riley was the place that started me on the path away from cavalry and toward aviation.",
+    "implicit_text": "When I was first drafted, I was supposed to go to a cavalry horse outfit in Kansas. Since I had no experience with horses and wanted to be in the Air Force, I got discharged from the cavalry and enlisted in the Air Corps instead. That Kansas base was the place that started me on the path away from cavalry and toward aviation.",
+    "cues": [
+      "drafted",
+      "Fort Riley, Kansas",
+      "cavalry horse outfit",
+      "discharged",
+      "Air Corps enlistment"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_Sol_J_Schatz.yaml"
+  },
+  {
+    "entity_id": 5,
+    "entity": "United States Air Force",
+    "explicit_text": "I enlisted in the Air Force after being discharged from the cavalry, believing it was a better branch. I trained as an airplane mechanic and later as a gunner, serving with the 8th Air Force during World War II. The Air Force was my military home throughout the war, and I flew many missions with them over Europe.",
+    "implicit_text": "I enlisted in the air service after being discharged from the cavalry, believing it was a better branch. I trained as an airplane mechanic and later as a gunner, serving with the 8th Air Force during World War II. That air service was my military home throughout the war, and I flew many missions with them over Europe.",
+    "cues": [
+      "enlisted after cavalry",
+      "airplane mechanic training",
+      "gunner training",
+      "8th Air Force",
+      "World War II missions"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_Sol_J_Schatz.yaml"
+  },
+  {
+    "entity_id": 6,
+    "entity": "Crane High School",
+    "explicit_text": "I attended Crane Tech High School on the West Side of Chicago after junior high was closed. I graduated from Crane in 1936. It was the school where I completed my formal education before entering the workforce and eventually the military.",
+    "implicit_text": "I attended a technical high school on the West Side of Chicago after junior high was closed. I graduated from there in 1936. It was the school where I completed my formal education before entering the workforce and eventually the military.",
+    "cues": [
+      "Crane Tech",
+      "West Side Chicago",
+      "graduated 1936",
+      "junior high closure"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_Sol_J_Schatz.yaml"
+  },
+  {
+    "entity_id": 7,
+    "entity": "Fort Sheridan",
+    "explicit_text": "After enlisting in the Air Force, I was sent to Fort Sheridan for initial processing before being sent to Jefferson Barracks for basic training. Fort Sheridan was one of the first military bases I experienced as a new recruit. It marked the beginning of my formal military journey.",
+    "implicit_text": "After enlisting in the air service, I was sent to a military base in Illinois for initial processing before being sent to another base in Missouri for basic training. That Illinois base was one of the first military bases I experienced as a new recruit. It marked the beginning of my formal military journey.",
+    "cues": [
+      "enlistment",
+      "initial processing",
+      "before Jefferson Barracks",
+      "start of military service"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_Sol_J_Schatz.yaml"
+  },
+  {
+    "entity_id": 8,
+    "entity": "Jefferson Barracks",
+    "explicit_text": "I went to Jefferson Barracks in Saint Louis for basic training after Fort Sheridan. The training there was pretty minimal, mostly marching between tents and the mess hall for six weeks. It was early in the war, so the Air Force was still ramping up its training programs.",
+    "implicit_text": "I went to a military base near Saint Louis for basic training after processing in Illinois. The training there was pretty minimal, mostly marching between tents and the mess hall for six weeks. It was early in the war, so the air service was still ramping up its training programs.",
+    "cues": [
+      "basic training",
+      "Saint Louis",
+      "six weeks",
+      "early Air Force training"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_Sol_J_Schatz.yaml"
+  },
+  {
+    "entity_id": 9,
+    "entity": "Saint Louis",
+    "explicit_text": "I was sent to Saint Louis for basic training at Jefferson Barracks. It was my first real military experience after enlisting in the Air Force. The city was a stop on my path through various training bases across the country.",
+    "implicit_text": "I was sent to a city on the Mississippi River for basic training at a nearby military base. It was my first real military experience after enlisting in the air service. That city was a stop on my path through various training bases across the country.",
+    "cues": [
+      "basic training",
+      "Jefferson Barracks",
+      "military experience",
+      "training base"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_Sol_J_Schatz.yaml"
+  },
+  {
+    "entity_id": 10,
+    "entity": "Chinook Field",
+    "explicit_text": "After basic training, I was sent to Chinook Field near Champaign, Illinois, for airplane mechanic school. We completed our schooling there around January or February of 1942. Chinook Field was where I gained technical skills that prepared me for my later roles in the Air Force.",
+    "implicit_text": "After basic training, I was sent to an airfield near a university town in Illinois for airplane mechanic school. We completed our schooling there around January or February of 1942. That airfield was where I gained technical skills that prepared me for my later roles in the air service.",
+    "cues": [
+      "airplane mechanic school",
+      "Chinook Field",
+      "near Champaign, Illinois",
+      "early 1942"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_Sol_J_Schatz.yaml"
+  },
+  {
+    "entity_id": 11,
+    "entity": "Champaign, Illinois",
+    "explicit_text": "Chinook Field, where I trained as an airplane mechanic, is located near Champaign, Illinois. I spent part of early 1942 in that area completing my technical training. It was an important step before I moved on to other bases for further training and assignments.",
+    "implicit_text": "The airfield where I trained as an airplane mechanic is located near a university town in Illinois. I spent part of early 1942 in that area completing my technical training. It was an important step before I moved on to other bases for further training and assignments.",
+    "cues": [
+      "Chinook Field",
+      "airplane mechanic school",
+      "early 1942",
+      "training location"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_Sol_J_Schatz.yaml"
+  },
+  {
+    "entity_id": 12,
+    "entity": "Greenville, Mississippi",
+    "explicit_text": "After mechanic school, I was sent to Greenville, Mississippi, which was a basic training base for cadets. I became an instructor there around August 1942. Greenville was where I met my wife, who came down to be with me while I was stationed there.",
+    "implicit_text": "After mechanic school, I was sent to a training base in Mississippi, which was a basic training base for cadets. I became an instructor there around August 1942. That Mississippi town was where I met my wife, who came down to be with me while I was stationed there.",
+    "cues": [
+      "basic training base",
+      "cadet instructor",
+      "August 1942",
+      "met wife"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_Sol_J_Schatz.yaml"
+  },
+  {
+    "entity_id": 13,
+    "entity": "Greenwood, Mississippi",
+    "explicit_text": "Later, I was transferred to Greenwood, Mississippi, where I worked as a mechanic on the cable controls of B-13A planes. It was during this time that I volunteered for gunnery school. Greenwood was a key place in my transition from mechanic to aircrew member.",
+    "implicit_text": "Later, I was transferred to another Mississippi town, where I worked as a mechanic on the cable controls of B-13A planes. It was during this time that I volunteered for gunnery school. That town was a key place in my transition from mechanic to aircrew member.",
+    "cues": [
+      "mechanic on B-13A",
+      "volunteered for gunnery school",
+      "transfer",
+      "Mississippi"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_Sol_J_Schatz.yaml"
+  },
+  {
+    "entity_id": 14,
+    "entity": "B-13",
+    "explicit_text": "While stationed in Greenwood, Mississippi, I worked on the cable controls of B-13A planes. These aircraft were part of my early Air Force experience before I became a gunner. The B-13 was a significant part of my mechanic duties during that period.",
+    "implicit_text": "While stationed in that Mississippi town, I worked on the cable controls of B-13A planes. These aircraft were part of my early air service experience before I became a gunner. The B-13 was a significant part of my mechanic duties during that period.",
+    "cues": [
+      "B-13A planes",
+      "mechanic duties",
+      "Greenwood, Mississippi",
+      "early Air Force experience"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_Sol_J_Schatz.yaml"
+  },
+  {
+    "entity_id": 15,
+    "entity": "Fort Myers, Florida",
+    "explicit_text": "In June, I was sent to Fort Myers, Florida, for six weeks of gunnery school. This training was exciting because it promised wings, extra pay, and stripes. Fort Myers was where I officially transitioned into a combat aircrew role.",
+    "implicit_text": "In June, I was sent to a Florida base for six weeks of gunnery school. This training was exciting because it promised wings, extra pay, and stripes. That Florida base was where I officially transitioned into a combat aircrew role.",
+    "cues": [
+      "gunnery school",
+      "six weeks",
+      "June 1942",
+      "transition to gunner"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_Sol_J_Schatz.yaml"
+  },
+  {
+    "entity_id": 16,
+    "entity": "Salt Lake City",
+    "explicit_text": "After gunnery school, I was sent to Salt Lake City, Utah, for further training and assignment to B-24 or B-17 crews. Salt Lake City was one of several stops as I moved closer to deployment overseas. It was part of the process of forming and training my crew.",
+    "implicit_text": "After gunnery school, I was sent to a city in Utah for further training and assignment to B-24 or B-17 crews. That city was one of several stops as I moved closer to deployment overseas. It was part of the process of forming and training my crew.",
+    "cues": [
+      "post-gunnery training",
+      "crew assignment",
+      "B-24 or B-17",
+      "Salt Lake City, Utah"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_Sol_J_Schatz.yaml"
+  },
+  {
+    "entity_id": 17,
+    "entity": "Boise, Idaho",
+    "explicit_text": "From Salt Lake City, I went to Boise, Idaho, where I was put on a crew that I stayed with through the rest of training. Boise was an important place for bonding with my crew and preparing for combat missions. It was part of the final stages of our stateside training.",
+    "implicit_text": "From Utah, I went to a city in Idaho, where I was put on a crew that I stayed with through the rest of training. That city was an important place for bonding with my crew and preparing for combat missions. It was part of the final stages of our stateside training.",
+    "cues": [
+      "crew assignment",
+      "training",
+      "Boise, Idaho",
+      "stateside preparation"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_Sol_J_Schatz.yaml"
+  },
+  {
+    "entity_id": 18,
+    "entity": "Casper, Wyoming",
+    "explicit_text": "We moved on to Casper, Wyoming, for phase training as part of the Cecil Isbell Group, led by Colonel Isbell, a former football star. My wife came out to be with me during this time. Casper was where we polished our skills before heading overseas.",
+    "implicit_text": "We moved on to a city in Wyoming for phase training as part of a group led by a former football star colonel. My wife came out to be with me during this time. That Wyoming city was where we polished our skills before heading overseas.",
+    "cues": [
+      "phase training",
+      "Cecil Isbell Group",
+      "Colonel Isbell",
+      "wife visit",
+      "Casper, Wyoming"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_Sol_J_Schatz.yaml"
+  },
+  {
+    "entity_id": 19,
+    "entity": "Cecil Isbell",
+    "explicit_text": "While training in Casper, Wyoming, I was part of the Cecil Isbell Group, named after Colonel Cecil Isbell, who was a big football player with the Army. He led our group during this phase of training. His leadership was a notable part of our preparation before deployment.",
+    "implicit_text": "While training in Wyoming, I was part of a group named after a colonel who was a big football player with the Army. He led our group during this phase of training. His leadership was a notable part of our preparation before deployment.",
+    "cues": [
+      "Colonel Cecil Isbell",
+      "football player",
+      "training leader",
+      "Casper, Wyoming"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_Sol_J_Schatz.yaml"
+  },
+  {
+    "entity_id": 20,
+    "entity": "Topeka, Kansas",
+    "explicit_text": "After finishing training, my crew was sent to Topeka, Kansas, to pick up our plane for overseas deployment. Unfortunately, the base only had B-17s, so our crew was split between two planes and flown overseas by the Army transport command. Topeka was the last stop before heading to Europe.",
+    "implicit_text": "After finishing training, my crew was sent to a Kansas city to pick up our plane for overseas deployment. Unfortunately, the base only had B-17s, so our crew was split between two planes and flown overseas by the Army transport command. That Kansas city was the last stop before heading to Europe.",
+    "cues": [
+      "crew assignment",
+      "plane pickup",
+      "B-17 shortage",
+      "overseas deployment",
+      "Topeka, Kansas"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_Sol_J_Schatz.yaml"
+  },
+  {
+    "entity_id": 21,
+    "entity": "Syracuse, New York",
+    "explicit_text": "Our route overseas took us through Syracuse, New York, as part of the journey to Europe. It was one of several stops including Presque Isle and Gander Lake before crossing the Atlantic. Syracuse was a key waypoint in our transit to the war front.",
+    "implicit_text": "Our route overseas took us through a city in New York as part of the journey to Europe. It was one of several stops including a base in Maine and a refueling point in Newfoundland before crossing the Atlantic. That New York city was a key waypoint in our transit to the war front.",
+    "cues": [
+      "overseas route",
+      "transit stop",
+      "Syracuse, New York",
+      "World War II deployment"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_Sol_J_Schatz.yaml"
+  },
+  {
+    "entity_id": 22,
+    "entity": "Presque Isle, Maine",
+    "explicit_text": "Presque Isle, Maine, was another stop on our way to Europe after leaving Syracuse. From there, we went to Gander Lake in Newfoundland before making the transatlantic flight. Presque Isle was part of the chain of bases used for ferrying crews overseas.",
+    "implicit_text": "A base in northern Maine was another stop on our way to Europe after leaving New York. From there, we went to a refueling point in Newfoundland before making the transatlantic flight. That Maine base was part of the chain of bases used for ferrying crews overseas.",
+    "cues": [
+      "transit stop",
+      "Presque Isle, Maine",
+      "overseas flight",
+      "World War II"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_Sol_J_Schatz.yaml"
+  },
+  {
+    "entity_id": 23,
+    "entity": "Gander Lake",
+    "explicit_text": "Gander Lake in Newfoundland was the last stop in North America before we flew across the Atlantic to Scotland. It was a critical refueling and staging point for many crews heading to the European theater. We landed in Prestwick, Scotland, shortly after leaving Gander Lake.",
+    "implicit_text": "A refueling and staging point in Newfoundland was the last stop in North America before we flew across the Atlantic to Scotland. It was a critical point for many crews heading to the European theater. We landed in Scotland shortly after leaving there.",
+    "cues": [
+      "Newfoundland",
+      "Atlantic crossing",
+      "staging point",
+      "Gander Lake",
+      "Prestwick, Scotland"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_Sol_J_Schatz.yaml"
+  },
+  {
+    "entity_id": 24,
+    "entity": "Prestwick, Scotland",
+    "explicit_text": "We landed in Prestwick, Scotland, just before Thanksgiving of 1943. It was our first arrival in a foreign country and the start of our combat deployment. From Prestwick, we were sent to Tring, near London, to join operational units.",
+    "implicit_text": "We landed in a Scottish airfield just before Thanksgiving of 1943. It was our first arrival in a foreign country and the start of our combat deployment. From there, we were sent to a town near London to join operational units.",
+    "cues": [
+      "arrival overseas",
+      "November 1943",
+      "foreign country",
+      "Prestwick, Scotland",
+      "start of combat"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_Sol_J_Schatz.yaml"
+  },
+  {
+    "entity_id": 25,
+    "entity": "Tring",
+    "explicit_text": "From Prestwick, we were sent to Tring, about an hour north of London, where we were replacement crews for various bases. Our crew was assigned to the 448th Bomb Group after replacing a crew that had been shot down. Tring was where we integrated into active combat units.",
+    "implicit_text": "From Scotland, we were sent to a town about an hour north of London, where we were replacement crews for various bases. Our crew was assigned to a bomb group after replacing a crew that had been shot down. That town was where we integrated into active combat units.",
+    "cues": [
+      "replacement crews",
+      "near London",
+      "448th Bomb Group",
+      "combat integration",
+      "Tring"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_Sol_J_Schatz.yaml"
+  },
+  {
+    "entity_id": 26,
+    "entity": "London",
+    "explicit_text": "Tring, where we were stationed for a time, was about an hour's train ride north of London. Being so close to London was a constant reminder of the war going on in England and Europe. London was the major city near our base and part of the backdrop of our deployment.",
+    "implicit_text": "That town, where we were stationed for a time, was about an hour's train ride north of London. Being so close to London was a constant reminder of the war going on in England and Europe. London was the major city near our base and part of the backdrop of our deployment.",
+    "cues": [
+      "proximity to base",
+      "wartime England",
+      "London",
+      "Tring",
+      "European theater"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_Sol_J_Schatz.yaml"
+  },
+  {
+    "entity_id": 27,
+    "entity": "448th Bomb Group",
+    "explicit_text": "Our crew was assigned to the 448th Bomb Group after arriving in England. We replaced a crew that had been shot down and flew our first mission on February 5th, 1944. The 448th was part of the 8th Air Force and conducted strategic bombing missions over Europe.",
+    "implicit_text": "Our crew was assigned to a bomb group after arriving in England. We replaced a crew that had been shot down and flew our first mission on February 5th, 1944. That bomb group was part of the 8th Air Force and conducted strategic bombing missions over Europe.",
+    "cues": [
+      "448th Bomb Group",
+      "replacement crew",
+      "first mission Feb 5, 1944",
+      "8th Air Force",
+      "strategic bombing"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_Sol_J_Schatz.yaml"
+  },
+  {
+    "entity_id": 28,
+    "entity": "Focke-Wulf Fw 190",
+    "explicit_text": "On our first mission, our plane was attacked by a Focke-Wulf Fw 190 fighter. It hit the wing position of our plane, the Mary Michelle, which was later rebuilt and flown on another mission. The Fw 190 was a formidable enemy aircraft we faced during combat.",
+    "implicit_text": "On our first mission, our plane was attacked by a German fighter known for its speed and firepower. It hit the wing position of our plane, which was later rebuilt and flown on another mission. That fighter was a formidable enemy aircraft we faced during combat.",
+    "cues": [
+      "first mission",
+      "enemy fighter",
+      "Fw 190",
+      "Mary Michelle plane",
+      "combat attack"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_Sol_J_Schatz.yaml"
+  },
+  {
+    "entity_id": 29,
+    "entity": "Mary Michelle",
+    "explicit_text": "The Mary Michelle was the plane we flew on our first mission after it was rebuilt from damage sustained in combat. It was a B-17 that burned too much gas and was eventually taken out of service. Flying the Mary Michelle was a memorable part of my combat experience.",
+    "implicit_text": "The plane we flew on our first mission after it was rebuilt from damage sustained in combat was a B-17 that burned too much gas and was eventually taken out of service. Flying that plane was a memorable part of my combat experience.",
+    "cues": [
+      "B-17 plane",
+      "first mission",
+      "rebuilt after attack",
+      "fuel issues",
+      "combat service"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_Sol_J_Schatz.yaml"
+  },
+  {
+    "entity_id": 30,
+    "entity": "8th Air Force",
+    "explicit_text": "I served with the 8th Air Force, specifically the 184th Bomb Group, which was part of the strategic bombing campaign over Germany. We flew many missions targeting airfields, factories, and other military assets. The 8th Air Force was known for its heavy bombing raids and was a major part of the air war in Europe.",
+    "implicit_text": "I served with the 8th Air Force, specifically a bomb group which was part of the strategic bombing campaign over Germany. We flew many missions targeting airfields, factories, and other military assets. That air force was known for its heavy bombing raids and was a major part of the air war in Europe.",
+    "cues": [
+      "8th Air Force",
+      "184th Bomb Group",
+      "strategic bombing",
+      "missions over Germany",
+      "World War II"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_Sol_J_Schatz.yaml"
+  },
+  {
+    "entity_id": 31,
+    "entity": "184th Bomb Group",
+    "explicit_text": "I was part of the 184th Bomb Group within the 8th Air Force. Our group flew numerous missions over Germany and occupied Europe, targeting key military and industrial sites. The 184th was a tight-knit unit, and my crew was lucky to complete our tour without casualties.",
+    "implicit_text": "I was part of a bomb group within the 8th Air Force. Our group flew numerous missions over Germany and occupied Europe, targeting key military and industrial sites. That bomb group was a tight-knit unit, and my crew was lucky to complete our tour without casualties.",
+    "cues": [
+      "184th Bomb Group",
+      "8th Air Force",
+      "missions over Germany",
+      "crew safety",
+      "World War II"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_Sol_J_Schatz.yaml"
+  },
+  {
+    "entity_id": 32,
+    "entity": "V-2 rocket",
+    "explicit_text": "We flew a mission targeting the ski sites or launching pads of the V-2 rockets. On that mission, our lead ship was shot down, and we had to abort the bomb run and return to base with our bombs. The V-2 rocket sites were high-value targets during the war.",
+    "implicit_text": "We flew a mission targeting the ski sites or launching pads of the German long-range rockets. On that mission, our lead ship was shot down, and we had to abort the bomb run and return to base with our bombs. Those rocket sites were high-value targets during the war.",
+    "cues": [
+      "V-2 rocket launch sites",
+      "bombing mission",
+      "lead ship shot down",
+      "mission abort",
+      "World War II"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_Sol_J_Schatz.yaml"
+  },
+  {
+    "entity_id": 33,
+    "entity": "James H. Doolittle",
+    "explicit_text": "Although I did not directly mention James H. Doolittle in my story, he was a famous figure in the Air Force during World War II. My service with the 8th Air Force was part of the broader air war that leaders like Doolittle helped shape. His legacy was part of the Air Force culture during my time.",
+    "implicit_text": "Although I did not directly mention a famous Air Force leader in my story, he was a renowned figure during World War II. My service with the 8th Air Force was part of the broader air war that leaders like him helped shape. His legacy was part of the air service culture during my time.",
+    "cues": [
+      "World War II Air Force",
+      "famous leader",
+      "air war legacy",
+      "James H. Doolittle"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_Sol_J_Schatz.yaml"
+  },
+  {
+    "entity_id": 34,
+    "entity": "Surgeon General of the United States",
+    "explicit_text": "The Surgeon General of the United States was responsible for medical policies during the war, including the use of escape kits and medical supplies carried on our planes. We had morphine and other medications in our kits in case of injury. The medical support was crucial for aircrews like mine during combat missions.",
+    "implicit_text": "The top medical officer of the United States was responsible for medical policies during the war, including the use of escape kits and medical supplies carried on our planes. We had morphine and other medications in our kits in case of injury. The medical support was crucial for aircrews like mine during combat missions.",
+    "cues": [
+      "medical policies",
+      "escape kits",
+      "morphine",
+      "aircrew medical support",
+      "Surgeon General"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_Sol_J_Schatz.yaml"
+  }
+]

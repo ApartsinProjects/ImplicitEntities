@@ -1,0 +1,74 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "Romania",
+    "summary": "I grew up in Romania under a harsh government led by Nicolae Ceaușescu. My family lived in fear because my father was critical of the regime, which eventually led to his disappearance. Life there was oppressive, and we constantly worried about being watched or followed. Fleeing Romania was a desperate attempt to find safety and freedom.",
+    "cues": [
+      "father disappeared",
+      "government under Nicolae Ceaușescu",
+      "fear of being watched",
+      "oppressive regime"
+    ],
+    "transcript_ref": "immigration\\imm_umn_7_emanuel_rosetti.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "Nicolae Ceaușescu",
+    "summary": "Nicolae Ceaușescu was the leader of Romania when I was growing up, and his government was very oppressive. My father spoke out against Ceaușescu's regime, which led to his disappearance and forced my family to flee the country. Living under Ceaușescu meant constant fear and lack of freedom, which is why escaping Romania was so important for us.",
+    "cues": [
+      "government under Nicolae Ceaușescu",
+      "father critical of government",
+      "father disappeared",
+      "oppressive regime"
+    ],
+    "transcript_ref": "immigration\\imm_umn_7_emanuel_rosetti.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "Ukraine",
+    "summary": "After fleeing Romania, my family ended up in a refugee camp in Ukraine. The camp was dirty and grimy, and it was a tough place to be, but it was all we had at the time. We stayed there for a while before deciding to start over in the United States. Ukraine was a difficult but necessary stop on our journey to safety.",
+    "cues": [
+      "refugee camp",
+      "dirty and grimy",
+      "after fleeing Romania",
+      "before moving to the United States"
+    ],
+    "transcript_ref": "immigration\\imm_umn_7_emanuel_rosetti.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "United States",
+    "summary": "Coming to the United States was a huge change for me and my family. We arrived in Phoenix, Arizona, because my mother had some distant relatives there. Adjusting to the culture, language, and school system was very challenging, especially without my father. Over time, with support and activities like baseball, I began to feel safe and at home in America.",
+    "cues": [
+      "arrived in Phoenix, Arizona",
+      "adjusting to culture and language",
+      "father not with us",
+      "feeling safe and at home"
+    ],
+    "transcript_ref": "immigration\\imm_umn_7_emanuel_rosetti.yaml"
+  },
+  {
+    "entity_id": 5,
+    "entity": "Phoenix, Arizona",
+    "summary": "Phoenix, Arizona was where my family settled when we arrived in the United States. My mother had some distant family there, which helped us get started. The heat and culture were very different from what I was used to, and school was a challenge because of my accent and background. It took about a year, but Phoenix eventually became a place where I felt like I belonged.",
+    "cues": [
+      "arrived in Phoenix",
+      "mother's distant family",
+      "heat and culture",
+      "school challenges"
+    ],
+    "transcript_ref": "immigration\\imm_umn_7_emanuel_rosetti.yaml"
+  },
+  {
+    "entity_id": 6,
+    "entity": "Baseball",
+    "summary": "Baseball played a big role in helping me adjust to life in the United States. My mother encouraged me to take it up, and through baseball, I was able to make friends and feel more connected. It was about a year after moving here that I started to feel acclimated and safe, and baseball was a big part of that transition.",
+    "cues": [
+      "mother encouraged baseball",
+      "helped make friends",
+      "about a year after moving",
+      "feeling acclimated and safe"
+    ],
+    "transcript_ref": "immigration\\imm_umn_7_emanuel_rosetti.yaml"
+  }
+]

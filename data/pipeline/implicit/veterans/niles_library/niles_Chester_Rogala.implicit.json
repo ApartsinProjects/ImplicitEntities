@@ -1,0 +1,321 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "Michigan",
+    "explicit_text": "I was inducted into the Service in Michigan on August 19th, 1943. That was where I first gathered with the group of people I was going to serve with. It was a significant moment because I was just eighteen and fresh out of school, ready to start my military journey.",
+    "implicit_text": "I was inducted into the Service in the Great Lakes region on August 19th, 1943. That was where I first gathered with the group of people I was going to serve with. It was a significant moment because I was just eighteen and fresh out of school, ready to start my military journey.",
+    "cues": [
+      "August 19th, 1943",
+      "induction",
+      "group of people",
+      "military start"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_Chester_Rogala.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "Crane High School",
+    "explicit_text": "I attended Crane Tech High School before I was drafted into the Service. I lived nearby on Thomas Street in the North Austin area. It was just before I was inducted in 1943, and I was planning to go to college before the draft changed my plans.",
+    "implicit_text": "I attended the technical high school in the Austin area before I was drafted into the Service. I lived nearby on Thomas Street in the northern part of the city. It was just before I was inducted in 1943, and I was planning to go to college before the draft changed my plans.",
+    "cues": [
+      "Crane Tech High School",
+      "Thomas Street",
+      "North Austin",
+      "1943",
+      "draft"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_Chester_Rogala.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "North Austin",
+    "explicit_text": "I lived in the North Austin area on Thomas Street when I was going to Crane Tech High School. That neighborhood was where I grew up before entering the Service in 1943. It was a typical community with many young men like me getting ready to be drafted or involved in war projects.",
+    "implicit_text": "I lived in the northern part of Austin on Thomas Street when I was going to the technical high school there. That neighborhood was where I grew up before entering the Service in 1943. It was a typical community with many young men like me getting ready to be drafted or involved in war projects.",
+    "cues": [
+      "Thomas Street",
+      "Crane Tech High School",
+      "1943",
+      "draft",
+      "community"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_Chester_Rogala.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "United States Army Air Forces",
+    "explicit_text": "I was drafted into the United States Army Air Forces in 1943 and went through six weeks of basic training at Jefferson Barracks in St. Louis. Although I wanted to be a pilot, I was told I lacked the coordination needed, but they kept me in the Air Force. I was sent to various bases like Del Mar, Texas, and Gulfport, Mississippi, and flew missions all over the world during World War II.",
+    "implicit_text": "I was drafted into the Army Air Forces in 1943 and went through six weeks of basic training at a military post in St. Louis. Although I wanted to be a pilot, I was told I lacked the coordination needed, but they kept me in the Air Force. I was sent to various bases like one in Texas and another in Mississippi, and flew missions all over the world during World War II.",
+    "cues": [
+      "1943",
+      "Jefferson Barracks",
+      "St. Louis",
+      "Del Mar, Texas",
+      "Gulfport, Mississippi",
+      "pilot training",
+      "missions"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_Chester_Rogala.yaml"
+  },
+  {
+    "entity_id": 5,
+    "entity": "Jefferson Barracks",
+    "explicit_text": "Jefferson Barracks in St. Louis was where I underwent six weeks of basic training after being drafted in 1943. It was the start of my time in the Army Air Forces and where I hoped to become a pilot. Although I didn't make it as a pilot, Jefferson Barracks was a key place in my early military experience.",
+    "implicit_text": "The military post in St. Louis was where I underwent six weeks of basic training after being drafted in 1943. It was the start of my time in the Army Air Forces and where I hoped to become a pilot. Although I didn't make it as a pilot, that post was a key place in my early military experience.",
+    "cues": [
+      "Jefferson Barracks",
+      "St. Louis",
+      "six weeks basic training",
+      "1943",
+      "Army Air Forces"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_Chester_Rogala.yaml"
+  },
+  {
+    "entity_id": 6,
+    "entity": "St. Louis",
+    "explicit_text": "St. Louis was important to me because I trained at Jefferson Barracks there in 1943. It was my first stop after being drafted into the Army Air Forces. The city marked the beginning of my military career before I was sent to other bases across the country and overseas.",
+    "implicit_text": "The city on the Mississippi River was important to me because I trained at a military post there in 1943. It was my first stop after being drafted into the Army Air Forces. The city marked the beginning of my military career before I was sent to other bases across the country and overseas.",
+    "cues": [
+      "St. Louis",
+      "Jefferson Barracks",
+      "1943",
+      "basic training"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_Chester_Rogala.yaml"
+  },
+  {
+    "entity_id": 7,
+    "entity": "Del Mar, Texas",
+    "explicit_text": "After basic training, I was sent to Del Mar, Texas, as part of my service in the Army Air Forces. It was one of the bases where I was stationed before picking up my B-17 plane. Del Mar was a stepping stone in my journey before heading overseas for combat missions.",
+    "implicit_text": "After basic training, I was sent to a base in southern Texas as part of my service in the Army Air Forces. It was one of the bases where I was stationed before picking up my B-17 plane. That Texas base was a stepping stone in my journey before heading overseas for combat missions.",
+    "cues": [
+      "Del Mar, Texas",
+      "Army Air Forces",
+      "post-basic training",
+      "B-17 plane"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_Chester_Rogala.yaml"
+  },
+  {
+    "entity_id": 8,
+    "entity": "Gulfport, Mississippi",
+    "explicit_text": "Gulfport, Mississippi was where I picked up a brand new Boeing B-17 Flying Fortress. From there, we flew to various locations including Maine and Iceland. Gulfport was a critical place where I transitioned from training to active flying missions during World War II.",
+    "implicit_text": "A Gulf Coast city in Mississippi was where I picked up a brand new Boeing B-17 Flying Fortress. From there, we flew to various locations including Maine and Iceland. That city was a critical place where I transitioned from training to active flying missions during World War II.",
+    "cues": [
+      "Gulfport, Mississippi",
+      "Boeing B-17 Flying Fortress",
+      "transition to missions",
+      "World War II"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_Chester_Rogala.yaml"
+  },
+  {
+    "entity_id": 9,
+    "entity": "Boeing B-17 Flying Fortress",
+    "explicit_text": "I flew a brand new Boeing B-17 Flying Fortress starting from Gulfport, Mississippi. This plane carried me through many missions across the world, including places like Maine, Iceland, the Aleutian Islands, and Europe. It was a tough but reliable aircraft that I flew during my 51 missions in World War II.",
+    "implicit_text": "I flew a brand new four-engine heavy bomber starting from a Gulf Coast city in Mississippi. This plane carried me through many missions across the world, including places like Maine, Iceland, the Aleutian Islands, and Europe. It was a tough but reliable aircraft that I flew during my 51 missions in World War II.",
+    "cues": [
+      "Boeing B-17 Flying Fortress",
+      "Gulfport, Mississippi",
+      "51 missions",
+      "World War II",
+      "multiple locations"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_Chester_Rogala.yaml"
+  },
+  {
+    "entity_id": 10,
+    "entity": "Maine",
+    "explicit_text": "Maine was one of the first stops after we picked up our B-17 in Gulfport. From there, we flew to Iceland and then on to other distant locations. Maine was part of the route that took me closer to the European and North Atlantic theaters during the war.",
+    "implicit_text": "The northeastern state was one of the first stops after we picked up our heavy bomber in Mississippi. From there, we flew to Iceland and then on to other distant locations. That state was part of the route that took me closer to the European and North Atlantic theaters during the war.",
+    "cues": [
+      "Maine",
+      "post-Gulfport flight",
+      "Iceland",
+      "World War II route"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_Chester_Rogala.yaml"
+  },
+  {
+    "entity_id": 11,
+    "entity": "Iceland",
+    "explicit_text": "Iceland became like a home base for me during my missions in World War II. We lived in tents near Foggia, close to Naples, but Iceland was a key location where we stayed for a time. It was an interesting and strategic place during the war, and I flew many missions from there.",
+    "implicit_text": "The island nation in the North Atlantic became like a home base for me during my missions in World War II. We lived in tents near a city in southern Italy, but that island was a key location where we stayed for a time. It was an interesting and strategic place during the war, and I flew many missions from there.",
+    "cues": [
+      "Iceland",
+      "home base",
+      "World War II",
+      "missions",
+      "Foggia",
+      "Naples"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_Chester_Rogala.yaml"
+  },
+  {
+    "entity_id": 12,
+    "entity": "Aleutian Islands",
+    "explicit_text": "The Aleutian Islands were among the many places I flew missions to during the war. After leaving the U.S., our route took us through Maine, Iceland, and then the Aleutians. It was part of the vast and challenging areas where I served as a crew member on the B-17.",
+    "implicit_text": "The chain of islands in the northern Pacific was among the many places I flew missions to during the war. After leaving the U.S., our route took us through Maine, Iceland, and then those islands. It was part of the vast and challenging areas where I served as a crew member on the B-17.",
+    "cues": [
+      "Aleutian Islands",
+      "missions",
+      "Maine",
+      "Iceland",
+      "World War II"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_Chester_Rogala.yaml"
+  },
+  {
+    "entity_id": 13,
+    "entity": "Madagascar",
+    "explicit_text": "Madagascar was one of the far-flung locations where I flew missions during World War II. Our flights took us across multiple continents, and Madagascar was part of that extensive route. It was an unusual and memorable place in my military service journey.",
+    "implicit_text": "An island off the southeast coast of Africa was one of the far-flung locations where I flew missions during World War II. Our flights took us across multiple continents, and that island was part of that extensive route. It was an unusual and memorable place in my military service journey.",
+    "cues": [
+      "Madagascar",
+      "missions",
+      "World War II",
+      "long-range flights"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_Chester_Rogala.yaml"
+  },
+  {
+    "entity_id": 14,
+    "entity": "Tunisia",
+    "explicit_text": "Tunisia was another key location where I flew missions during the war. It was part of the North African campaign, and I remember flying there as part of my 51 missions. The conditions were tough, and every day was uncertain, but Tunisia was a significant theater in my service.",
+    "implicit_text": "A North African country was another key location where I flew missions during the war. It was part of the campaign in that region, and I remember flying there as part of my 51 missions. The conditions were tough, and every day was uncertain, but that country was a significant theater in my service.",
+    "cues": [
+      "Tunisia",
+      "North African campaign",
+      "missions",
+      "World War II"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_Chester_Rogala.yaml"
+  },
+  {
+    "entity_id": 15,
+    "entity": "Foggia",
+    "explicit_text": "We lived in tents near Foggia, close to Naples, around August 1944. It was a harsh and unpredictable environment where we never knew what the next day would bring. Foggia was a base area from which I flew many of my combat missions in Europe.",
+    "implicit_text": "We lived in tents near a city in southern Italy, close to the coast, around August 1944. It was a harsh and unpredictable environment where we never knew what the next day would bring. That area was a base from which I flew many of my combat missions in Europe.",
+    "cues": [
+      "Foggia",
+      "tents",
+      "August 1944",
+      "Naples",
+      "combat missions"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_Chester_Rogala.yaml"
+  },
+  {
+    "entity_id": 16,
+    "entity": "Naples",
+    "explicit_text": "Naples was near where we were stationed in tents during the summer of 1944. From that area, including Foggia, we launched many missions into Europe. Naples was part of the Italian theater where I served after being deployed overseas.",
+    "implicit_text": "A coastal city in southern Italy was near where we were stationed in tents during the summer of 1944. From that area, including a nearby city, we launched many missions into Europe. That city was part of the Italian theater where I served after being deployed overseas.",
+    "cues": [
+      "Naples",
+      "Foggia",
+      "summer 1944",
+      "Italian theater",
+      "missions"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_Chester_Rogala.yaml"
+  },
+  {
+    "entity_id": 17,
+    "entity": "Yugoslavia",
+    "explicit_text": "On November 16th, 1944, I was shot down over Yugoslavia after our plane was hit by flak. Tito's partisans surrounded us and were very friendly, helping us after the crash. I stayed in a town there for a couple of days before making my way alone to Bari, Italy. It was a frightening but memorable experience during my service.",
+    "implicit_text": "On November 16th, 1944, I was shot down over a Balkan country after our plane was hit by flak. The local partisan fighters led by a famous resistance leader surrounded us and were very friendly, helping us after the crash. I stayed in a town there for a couple of days before making my way alone to a city in southern Italy. It was a frightening but memorable experience during my service.",
+    "cues": [
+      "November 16th, 1944",
+      "shot down",
+      "Yugoslavia",
+      "Tito's partisans",
+      "crash",
+      "escape"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_Chester_Rogala.yaml"
+  },
+  {
+    "entity_id": 18,
+    "entity": "Poland",
+    "explicit_text": "Poland was one of the countries I flew missions over during World War II. It was part of the dangerous European airspace where we faced flak and fighter attacks. Flying over Poland was just one of many challenging parts of my 51 missions.",
+    "implicit_text": "A central European country was one of the places I flew missions over during World War II. It was part of the dangerous European airspace where we faced flak and fighter attacks. Flying over that country was just one of many challenging parts of my 51 missions.",
+    "cues": [
+      "Poland",
+      "missions",
+      "World War II",
+      "European airspace",
+      "danger"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_Chester_Rogala.yaml"
+  },
+  {
+    "entity_id": 19,
+    "entity": "Germany",
+    "explicit_text": "Germany was a primary target during many of my bombing missions. We flew over German territory multiple times, facing heavy flak and enemy fighters. It was a perilous part of the war, and many of my fellow crew members were lost in these missions.",
+    "implicit_text": "A major Axis power was a primary target during many of my bombing missions. We flew over its territory multiple times, facing heavy flak and enemy fighters. It was a perilous part of the war, and many of my fellow crew members were lost in these missions.",
+    "cues": [
+      "Germany",
+      "bombing missions",
+      "flak",
+      "enemy fighters",
+      "World War II"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_Chester_Rogala.yaml"
+  },
+  {
+    "entity_id": 20,
+    "entity": "Bari",
+    "explicit_text": "After being shot down in Yugoslavia, I made my way alone to Bari, Italy. When I arrived, there was still fighting going on, so I hid in the hills until someone picked me up and took me back to base. Bari was a critical place for me to recover and regroup after that harrowing experience.",
+    "implicit_text": "After being shot down in the Balkans, I made my way alone to a port city in southern Italy. When I arrived, there was still fighting going on, so I hid in the hills until someone picked me up and took me back to base. That city was a critical place for me to recover and regroup after that harrowing experience.",
+    "cues": [
+      "Bari",
+      "Italy",
+      "post-shot down",
+      "hiding",
+      "return to base"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_Chester_Rogala.yaml"
+  },
+  {
+    "entity_id": 21,
+    "entity": "France",
+    "explicit_text": "After flying missions in Italy, I went on to fly missions in France as well. Following my recovery from being shot down, I was assigned to fly a few more missions there. Eventually, I was asked to participate in bond rallies, but I decided I didn’t want to fly anymore.",
+    "implicit_text": "After flying missions in Italy, I went on to fly missions in a Western European country as well. Following my recovery from being shot down, I was assigned to fly a few more missions there. Eventually, I was asked to participate in bond rallies, but I decided I didn’t want to fly anymore.",
+    "cues": [
+      "France",
+      "missions",
+      "post-recovery",
+      "bond rallies",
+      "decision to stop flying"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_Chester_Rogala.yaml"
+  },
+  {
+    "entity_id": 22,
+    "entity": "Josip Broz Tito",
+    "explicit_text": "When I was shot down over Yugoslavia, Tito's partisans surrounded our plane and were very friendly to us. They helped us after the crash, and their support was crucial in that dangerous moment. It was remarkable to be assisted by Tito's forces during the war.",
+    "implicit_text": "When I was shot down over the Balkans, the partisan fighters led by the communist resistance leader surrounded our plane and were very friendly to us. They helped us after the crash, and their support was crucial in that dangerous moment. It was remarkable to be assisted by those forces during the war.",
+    "cues": [
+      "Josip Broz Tito",
+      "Yugoslavia",
+      "partisans",
+      "shot down",
+      "friendly assistance"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_Chester_Rogala.yaml"
+  },
+  {
+    "entity_id": 23,
+    "entity": "Tuskegee Airmen",
+    "explicit_text": "The Tuskegee Airmen played a vital role in protecting us during one of our missions when we were heavily attacked. They were black pilots who provided crucial air cover, and without their help, we might not have made it back to base. Their bravery and skill left a lasting impression on me during the war.",
+    "implicit_text": "A group of African American military pilots played a vital role in protecting us during one of our missions when we were heavily attacked. They provided crucial air cover, and without their help, we might not have made it back to base. Their bravery and skill left a lasting impression on me during the war.",
+    "cues": [
+      "Tuskegee Airmen",
+      "black pilots",
+      "air cover",
+      "protection",
+      "World War II"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_Chester_Rogala.yaml"
+  }
+]

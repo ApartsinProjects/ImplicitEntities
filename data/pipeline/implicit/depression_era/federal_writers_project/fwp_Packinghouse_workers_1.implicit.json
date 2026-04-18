@@ -1,0 +1,72 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "Armour and Company",
+    "explicit_text": "I've worked for Armour and Company for about two years, though not steadily since I've been laid off twice. At Armour's, I do various jobs including peeling vegetables in the soup room and running a tractor to haul finished products. The work is tough and sometimes dangerous, especially when handling hot meat or packing tamales with burning sauce. Armour's management is known to be tough on union men like me, and I've seen how they try to push us out by piling on work or promoting others over us. Despite that, I plan to keep my job there because it has less responsibility and I want to stay in the union fight.",
+    "implicit_text": "I've worked for a major meatpacking company for about two years, though not steadily since I've been laid off twice. At this plant, I do various jobs including peeling vegetables in the soup room and running a tractor to haul finished products. The work is tough and sometimes dangerous, especially when handling hot meat or packing tamales with burning sauce. Management there is known to be tough on union men like me, and I've seen how they try to push us out by piling on work or promoting others over us. Despite that, I plan to keep my job because it has less responsibility and I want to stay in the union fight.",
+    "cues": [
+      "two years",
+      "soup room",
+      "tractor man",
+      "union",
+      "laid off twice"
+    ],
+    "transcript_ref": "depression_era\\federal_writers_project\\fwp_Packinghouse_workers_1.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "CIO",
+    "explicit_text": "I was part of the CIO union, and it made a big difference in how we worked and fought for our rights. Some bosses tried to put me and another girl on the worst jobs, like the vinegar job, hoping we'd quit, but we stuck it out because we had our union cards. The colored girls especially jumped at the chance to join the CIO and fought hard once they got involved. Even some of the most religious Polish women became fierce union fighters once they understood the union's power. The CIO gave us a voice against unfair treatment and helped us stand up to bosses who tried to push us around.",
+    "implicit_text": "I was part of a powerful labor organization that made a big difference in how we worked and fought for our rights. Some bosses tried to put me and another girl on the worst jobs, like the vinegar job, hoping we'd quit, but we stuck it out because we had our union cards. The colored girls especially jumped at the chance to join this union and fought hard once they got involved. Even some of the most religious Polish women became fierce union fighters once they understood the union's power. This organization gave us a voice against unfair treatment and helped us stand up to bosses who tried to push us around.",
+    "cues": [
+      "vinegar job",
+      "colored girls",
+      "Polish women",
+      "Mexican women",
+      "union cards"
+    ],
+    "transcript_ref": "depression_era\\federal_writers_project\\fwp_Packinghouse_workers_1.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "Wilson's",
+    "explicit_text": "I worked in Wilson's sausage department, which was a wet and greasy place. The meat was put into a stuffer machine, and then three girls on each side of the table linked the sausages. The sausages were heavy, with the smallest weighing about twenty pounds, and women had to carry full cages that sometimes weighed up to 200 pounds. It was tough work, and I even got my finger joints cut to the bone from handling the sausages. Wilson's was one of the places where I experienced the hard labor women had to endure in the meatpacking industry.",
+    "implicit_text": "I worked in a well-known sausage department, which was a wet and greasy place. The meat was put into a stuffer machine, and then three girls on each side of the table linked the sausages. The sausages were heavy, with the smallest weighing about twenty pounds, and women had to carry full cages that sometimes weighed up to 200 pounds. It was tough work, and I even got my finger joints cut to the bone from handling the sausages. This plant was one of the places where I experienced the hard labor women had to endure in the meatpacking industry.",
+    "cues": [
+      "sausage department",
+      "wet and greasy",
+      "linking sausages",
+      "heavy cages",
+      "finger injuries"
+    ],
+    "transcript_ref": "depression_era\\federal_writers_project\\fwp_Packinghouse_workers_1.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "Cudahy Packing Company",
+    "explicit_text": "I worked at Cudahy Packing Company alongside Wilson's sausage department. The work was physically demanding, involving heavy lifting and handling meat in difficult conditions. It was part of the same tough environment where women had to do jobs that were really meant for strong men. I saw how the work affected us all, especially the older women who struggled with the heavy sausages. Cudahy was one of the companies where I learned just how hard the meatpacking industry could be for women.",
+    "implicit_text": "I worked at another major packing company alongside the sausage department I mentioned. The work was physically demanding, involving heavy lifting and handling meat in difficult conditions. It was part of the same tough environment where women had to do jobs that were really meant for strong men. I saw how the work affected us all, especially the older women who struggled with the heavy sausages. This company was one of the places where I learned just how hard the meatpacking industry could be for women.",
+    "cues": [
+      "Cudahy Packing Company",
+      "heavy lifting",
+      "sausage work",
+      "older women",
+      "meatpacking industry"
+    ],
+    "transcript_ref": "depression_era\\federal_writers_project\\fwp_Packinghouse_workers_1.yaml"
+  },
+  {
+    "entity_id": 5,
+    "entity": "Sikora Hall",
+    "explicit_text": "Sikora Hall was a place where many of us union members would gather, especially those from the CIO. It was a hub for meetings and organizing efforts, a place where we could come together to talk about our rights and plan our actions. The hall was important for building solidarity among the workers, including the Polish, Mexican, and colored women who were all fighting for better conditions. It gave us a sense of community and strength in the struggle against the harsh conditions we faced at work.",
+    "implicit_text": "There was a hall where many of us union members would gather, especially those from the labor organization I was part of. It was a hub for meetings and organizing efforts, a place where we could come together to talk about our rights and plan our actions. The hall was important for building solidarity among the workers, including the Polish, Mexican, and colored women who were all fighting for better conditions. It gave us a sense of community and strength in the struggle against the harsh conditions we faced at work.",
+    "cues": [
+      "union meetings",
+      "CIO",
+      "organizing",
+      "worker solidarity",
+      "Polish, Mexican, colored women"
+    ],
+    "transcript_ref": "depression_era\\federal_writers_project\\fwp_Packinghouse_workers_1.yaml"
+  }
+]

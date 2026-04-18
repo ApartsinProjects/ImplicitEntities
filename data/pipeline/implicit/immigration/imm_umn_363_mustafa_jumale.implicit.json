@@ -1,0 +1,87 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "Somalia",
+    "explicit_text": "I was born in Somalia but only lived there for about a year before my family fled in the early 1990s due to the civil war. My parents rarely talked about life in Somalia, probably because it was painful and uncertain whether peace would ever return. Even though I grew up mostly in the United States, I have always felt a strong connection to Somalia and struggle with my identity as a Somali in exile. Understanding Somalia and its history has become a personal quest for me.",
+    "implicit_text": "I was born in the Horn of Africa but only lived there for about a year before my family fled in the early 1990s due to the civil war. My parents rarely talked about life in that country, probably because it was painful and uncertain whether peace would ever return. Even though I grew up mostly in the United States, I have always felt a strong connection to my birthplace and struggle with my identity as someone in exile from there. Understanding its history has become a personal quest for me.",
+    "cues": [
+      "early 1990s",
+      "civil war",
+      "birth",
+      "family fleeing",
+      "identity"
+    ],
+    "transcript_ref": "immigration\\imm_umn_363_mustafa_jumale.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "United States Embassy",
+    "explicit_text": "My father worked as a driver for the United States Embassy while we were still in Somalia. He was very dedicated to his job, and even now he keeps his Somali driver's license as a reminder of that time. His role at the embassy was an important part of our family's story before we left Somalia during the civil war in the early 1990s.",
+    "implicit_text": "My father worked as a driver for the American diplomatic mission while we were still in that East African country. He was very dedicated to his job, and even now he keeps his original driver's license as a reminder of that time. His role at the embassy was an important part of our family's story before we left during the civil war in the early 1990s.",
+    "cues": [
+      "early 1990s",
+      "father's job",
+      "driver",
+      "Somalia",
+      "United States Embassy"
+    ],
+    "transcript_ref": "immigration\\imm_umn_363_mustafa_jumale.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "United States",
+    "explicit_text": "After fleeing Somalia, my family settled in the United States where we built a new life. We first lived in Mankato, Minnesota, and later moved to Eden Prairie, Minnesota. Life in the United States was good in many ways—my father found work as a security guard and community worker, and my mother started a successful Somali business in south Minneapolis. However, I struggled with discrimination and financial challenges, which made it hard for me to fully embrace being American. Still, the United States became our home, even as I continue to identify strongly as Somali.",
+    "implicit_text": "After fleeing my birth country, my family settled in North America where we built a new life. We first lived in Mankato, Minnesota, and later moved to Eden Prairie, Minnesota. Life there was good in many ways—my father found work as a security guard and community worker, and my mother started a successful business serving our community in south Minneapolis. However, I struggled with discrimination and financial challenges, which made it hard for me to fully embrace being part of this nation. Still, it became our home, even as I continue to identify strongly with my heritage.",
+    "cues": [
+      "early 1990s",
+      "immigration",
+      "Mankato, Minnesota",
+      "Eden Prairie, Minnesota",
+      "Minneapolis",
+      "father's jobs",
+      "mother's business",
+      "discrimination"
+    ],
+    "transcript_ref": "immigration\\imm_umn_363_mustafa_jumale.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "Mankato, Minnesota",
+    "explicit_text": "When my family first arrived in the United States, we lived in Mankato, Minnesota. I didn't question our life there at first and saw myself simply as an American. It was only after we moved the following year that I began to realize our differences and started to explore my Somali identity. Mankato was the first place I called home in the US, even if I didn't fully understand what that meant at the time.",
+    "implicit_text": "When my family first arrived in the new country, we lived in Mankato, Minnesota. I didn't question our life there at first and saw myself simply as an American. It was only after we moved the following year that I began to realize our differences and started to explore my cultural identity. Mankato was the first place I called home in this country, even if I didn't fully understand what that meant at the time.",
+    "cues": [
+      "early 1990s",
+      "first US home",
+      "identity realization",
+      "Minnesota"
+    ],
+    "transcript_ref": "immigration\\imm_umn_363_mustafa_jumale.yaml"
+  },
+  {
+    "entity_id": 5,
+    "entity": "Eden Prairie, Minnesota",
+    "explicit_text": "The year after living in Mankato, my family moved to Eden Prairie, Minnesota, where there was a Somali neighborhood. It was there that I began to understand that we were different from others around us and started asking questions about why we were in the United States and what life was like back in Somalia. This move marked a turning point in my awareness of my cultural identity and my desire to learn more about my heritage.",
+    "implicit_text": "The year after living in Mankato, my family moved to Eden Prairie, Minnesota, where there was a neighborhood of people from my homeland. It was there that I began to understand that we were different from others around us and started asking questions about why we were in this country and what life was like back home. This move marked a turning point in my awareness of my cultural identity and my desire to learn more about my heritage.",
+    "cues": [
+      "mid-1990s",
+      "Somali neighborhood",
+      "identity questions",
+      "Minnesota"
+    ],
+    "transcript_ref": "immigration\\imm_umn_363_mustafa_jumale.yaml"
+  },
+  {
+    "entity_id": 6,
+    "entity": "Minneapolis",
+    "explicit_text": "My mother established a successful Somali business in south Minneapolis, which became a cornerstone for our family. Minneapolis was also where my siblings graduated high school and started their own families, showing how we built our lives here. Despite these successes, I still feel caught between two worlds, as Minneapolis represents both opportunity and the challenges of being Somali in America.",
+    "implicit_text": "My mother established a successful business serving our community in the southern part of this major Midwestern city, which became a cornerstone for our family. This city was also where my siblings graduated high school and started their own families, showing how we built our lives here. Despite these successes, I still feel caught between two worlds, as this city represents both opportunity and the challenges of being from my heritage while living in America.",
+    "cues": [
+      "south Minneapolis",
+      "mother's business",
+      "siblings' education",
+      "family life",
+      "Minnesota"
+    ],
+    "transcript_ref": "immigration\\imm_umn_363_mustafa_jumale.yaml"
+  }
+]

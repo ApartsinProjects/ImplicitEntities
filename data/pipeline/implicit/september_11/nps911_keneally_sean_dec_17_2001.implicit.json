@@ -1,0 +1,361 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "Rehoboth Beach, Delaware",
+    "explicit_text": "We were on vacation in Rehoboth Beach, Delaware, with my wife, our 12-month-old daughter, and some family and friends when the September 11 attacks happened. We rent a house there every year, about 140 miles from Washington, D.C. It was surreal watching the news unfold from there, especially seeing the second plane hit on TV. Being away from the city somewhat helped, but it was still an unbelievable experience.",
+    "implicit_text": "We were on vacation at a popular Delaware beach town, with my wife, our 12-month-old daughter, and some family and friends when the September 11 attacks happened. We rent a house there every year, about 140 miles from Washington, D.C. It was surreal watching the news unfold from there, especially seeing the second plane hit on TV. Being away from the city somewhat helped, but it was still an unbelievable experience.",
+    "cues": [
+      "September 11 attacks",
+      "vacation",
+      "family",
+      "140 miles from Washington, D.C."
+    ],
+    "transcript_ref": "september_11\\nps911_keneally_sean_dec_17_2001.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "Pentagon",
+    "explicit_text": "When we heard the Pentagon was hit during the September 11 attacks, it was extremely disturbing because my wife and I live about a mile from the Pentagon. Our home is near Fort Myer and the Pentagon, so naturally we were very concerned. The news of the fourth plane possibly heading toward the White House or Capitol added to the tension. Living so close made the events feel very personal and frightening.",
+    "implicit_text": "When we heard the large five-sided government building was hit during the September 11 attacks, it was extremely disturbing because my wife and I live about a mile from that site. Our home is near a major military installation and that building, so naturally we were very concerned. The news of the fourth plane possibly heading toward the White House or Capitol added to the tension. Living so close made the events feel very personal and frightening.",
+    "cues": [
+      "September 11 attacks",
+      "lived near Pentagon",
+      "Fort Myer",
+      "concern about attacks"
+    ],
+    "transcript_ref": "september_11\\nps911_keneally_sean_dec_17_2001.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "Fort Myer",
+    "explicit_text": "My wife and I live near Fort Myer, close to the Pentagon, which made the events of September 11 especially concerning for us. Being so close to these key locations heightened our awareness and worry about the attacks. Our neighborhood borders this area, so we felt the impact both personally and through our work. Fort Myer is part of the landscape we know well and live near.",
+    "implicit_text": "My wife and I live near a prominent military base adjacent to the large five-sided government building, which made the events of September 11 especially concerning for us. Being so close to these key locations heightened our awareness and worry about the attacks. Our neighborhood borders this area, so we felt the impact both personally and through our work. That military base is part of the landscape we know well and live near.",
+    "cues": [
+      "September 11 attacks",
+      "lived near Fort Myer",
+      "Pentagon proximity",
+      "personal concern"
+    ],
+    "transcript_ref": "september_11\\nps911_keneally_sean_dec_17_2001.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "White House",
+    "explicit_text": "The White House was a major focus after the September 11 attacks, especially since our maintenance division does a lot of work there. On September 16, I got a call from the White House and Secret Service about closing E Street near the White House with Jersey barriers. We worked through the night to install barriers protecting the ellipse area around the White House. It was a direct response to the heightened security concerns following the attacks.",
+    "implicit_text": "The executive residence was a major focus after the September 11 attacks, especially since our maintenance division does a lot of work there. On September 16, I got a call from the residence and its protective agency about closing a nearby street with Jersey barriers. We worked through the night to install barriers protecting the ellipse area around the residence. It was a direct response to the heightened security concerns following the attacks.",
+    "cues": [
+      "September 11 attacks",
+      "White House maintenance",
+      "Secret Service",
+      "E Street closure",
+      "Jersey barriers"
+    ],
+    "transcript_ref": "september_11\\nps911_keneally_sean_dec_17_2001.yaml"
+  },
+  {
+    "entity_id": 5,
+    "entity": "United States Capitol",
+    "explicit_text": "The United States Capitol was mentioned as a potential target during the September 11 attacks, which added to the uncertainty and concern. Although we didn’t work directly there that day, the possibility of an attack on the Capitol was part of the tense atmosphere. Our maintenance responsibilities include areas around the Capitol, so it’s always on our radar. The Capitol is a significant landmark in the area we maintain.",
+    "implicit_text": "The legislative building was mentioned as a potential target during the September 11 attacks, which added to the uncertainty and concern. Although we didn’t work directly there that day, the possibility of an attack on that building was part of the tense atmosphere. Our maintenance responsibilities include areas around the legislative complex, so it’s always on our radar. That building is a significant landmark in the area we maintain.",
+    "cues": [
+      "September 11 attacks",
+      "potential target",
+      "maintenance area",
+      "Washington, D.C."
+    ],
+    "transcript_ref": "september_11\\nps911_keneally_sean_dec_17_2001.yaml"
+  },
+  {
+    "entity_id": 6,
+    "entity": "September 11 attacks",
+    "explicit_text": "I was on vacation with my family when the September 11 attacks happened, and we watched in disbelief as the events unfolded on TV. Seeing the second plane hit live was especially shocking. After returning, I got involved directly by helping the Secret Service and White House close off streets with Jersey barriers to increase security. The attacks changed how we approached maintenance and security in Washington, D.C., with many new barriers installed at key monuments and parks.",
+    "implicit_text": "I was on vacation with my family when the attacks on September 11 happened, and we watched in disbelief as the events unfolded on TV. Seeing the second plane hit live was especially shocking. After returning, I got involved directly by helping the protective agency and executive residence close off streets with Jersey barriers to increase security. The attacks changed how we approached maintenance and security in Washington, D.C., with many new barriers installed at key monuments and parks.",
+    "cues": [
+      "vacation",
+      "second plane hit",
+      "White House security",
+      "Jersey barriers",
+      "monument protection"
+    ],
+    "transcript_ref": "september_11\\nps911_keneally_sean_dec_17_2001.yaml"
+  },
+  {
+    "entity_id": 7,
+    "entity": "Secret Service",
+    "explicit_text": "The Secret Service contacted me on September 16, 2001, requesting Jersey barriers to close E Street near the White House. We worked closely with them to secure the ellipse area by installing over a hundred barriers overnight. The Secret Service made critical decisions about security measures in response to the September 11 attacks, and our maintenance team supported their efforts daily. Our collaboration was essential to protect key government sites during that tense period.",
+    "implicit_text": "The protective agency contacted me on September 16, 2001, requesting Jersey barriers to close a street near the executive residence. We worked closely with them to secure the ellipse area by installing over a hundred barriers overnight. That agency made critical decisions about security measures in response to the September 11 attacks, and our maintenance team supported their efforts daily. Our collaboration was essential to protect key government sites during that tense period.",
+    "cues": [
+      "September 16, 2001",
+      "Jersey barriers",
+      "E Street closure",
+      "White House security",
+      "collaboration"
+    ],
+    "transcript_ref": "september_11\\nps911_keneally_sean_dec_17_2001.yaml"
+  },
+  {
+    "entity_id": 8,
+    "entity": "E Street (Washington, D.C.)",
+    "explicit_text": "E Street, just south of the White House between 15th and 17th Streets, was closed off after the September 11 attacks. On September 16, we installed Jersey barriers there at the request of the Secret Service to block traffic and protect the area. This closure was part of a broader effort to secure the ellipse and White House grounds. It was a significant change to the usual flow of traffic and security in that part of Washington, D.C.",
+    "implicit_text": "A street just south of the executive residence between 15th and 17th Streets was closed off after the September 11 attacks. On September 16, we installed Jersey barriers there at the request of the protective agency to block traffic and protect the area. This closure was part of a broader effort to secure the ellipse and grounds around the residence. It was a significant change to the usual flow of traffic and security in that part of Washington, D.C.",
+    "cues": [
+      "September 16, 2001",
+      "E Street closure",
+      "White House security",
+      "Jersey barriers",
+      "Secret Service"
+    ],
+    "transcript_ref": "september_11\\nps911_keneally_sean_dec_17_2001.yaml"
+  },
+  {
+    "entity_id": 9,
+    "entity": "Lincoln Memorial",
+    "explicit_text": "After the September 11 attacks, we installed Jersey barriers around the entire perimeter of the Lincoln Memorial to enhance security. The Lincoln Memorial was considered a high-risk target, so protecting it became a priority. Our maintenance team was responsible for setting up these barriers as part of the heightened security measures in Washington, D.C. It was one of several monuments where we increased physical protections.",
+    "implicit_text": "After the September 11 attacks, we installed Jersey barriers around the entire perimeter of the memorial dedicated to the 16th president to enhance security. That memorial was considered a high-risk target, so protecting it became a priority. Our maintenance team was responsible for setting up these barriers as part of the heightened security measures in Washington, D.C. It was one of several monuments where we increased physical protections.",
+    "cues": [
+      "September 11 attacks",
+      "Jersey barriers",
+      "Lincoln Memorial security",
+      "high-risk target"
+    ],
+    "transcript_ref": "september_11\\nps911_keneally_sean_dec_17_2001.yaml"
+  },
+  {
+    "entity_id": 10,
+    "entity": "Jefferson Memorial",
+    "explicit_text": "Similar to the Lincoln Memorial, the Jefferson Memorial was secured with Jersey barriers after the September 11 attacks. We installed barriers around its perimeter to protect it from potential threats. This was part of a broader effort to safeguard key monuments in the National Mall area. Our maintenance division played a key role in implementing these security enhancements.",
+    "implicit_text": "Similar to the memorial dedicated to the 16th president, the memorial honoring the third president was secured with Jersey barriers after the September 11 attacks. We installed barriers around its perimeter to protect it from potential threats. This was part of a broader effort to safeguard key monuments in the National Mall area. Our maintenance division played a key role in implementing these security enhancements.",
+    "cues": [
+      "September 11 attacks",
+      "Jersey barriers",
+      "Jefferson Memorial security",
+      "National Mall"
+    ],
+    "transcript_ref": "september_11\\nps911_keneally_sean_dec_17_2001.yaml"
+  },
+  {
+    "entity_id": 11,
+    "entity": "Washington Monument",
+    "explicit_text": "We had already installed Jersey barriers at the Washington Monument about a year and a half before the September 11 attacks due to heightened security concerns. These barriers have been a visible part of protecting the monument for some time. After 9/11, security measures around the monument and other key sites increased even more. Our maintenance staff was responsible for putting those barriers in place initially and maintaining them.",
+    "implicit_text": "We had already installed Jersey barriers at the tall obelisk monument about a year and a half before the September 11 attacks due to heightened security concerns. These barriers have been a visible part of protecting the monument for some time. After 9/11, security measures around the monument and other key sites increased even more. Our maintenance staff was responsible for putting those barriers in place initially and maintaining them.",
+    "cues": [
+      "Washington Monument",
+      "Jersey barriers",
+      "pre-September 11 security",
+      "maintenance staff"
+    ],
+    "transcript_ref": "september_11\\nps911_keneally_sean_dec_17_2001.yaml"
+  },
+  {
+    "entity_id": 12,
+    "entity": "National Mall",
+    "explicit_text": "The National Mall and the monumental core are part of the large area we maintain, which includes installing temporary fencing for pedestrian and crowd control. After the September 11 attacks, we put up miles of snow fencing and chain link fencing to help the Park Police manage security and traffic. The Mall is a central focus of our maintenance and security efforts, especially given its importance and the number of visitors it receives.",
+    "implicit_text": "The large park area and monumental core are part of the extensive grounds we maintain, which includes installing temporary fencing for pedestrian and crowd control. After the September 11 attacks, we put up miles of snow fencing and chain link fencing to help the Park Police manage security and traffic. This central park area is a major focus of our maintenance and security efforts, especially given its importance and the number of visitors it receives.",
+    "cues": [
+      "National Mall",
+      "crowd control",
+      "snow fencing",
+      "chain link fencing",
+      "Park Police"
+    ],
+    "transcript_ref": "september_11\\nps911_keneally_sean_dec_17_2001.yaml"
+  },
+  {
+    "entity_id": 13,
+    "entity": "National Capital Parks-Central",
+    "explicit_text": "I work in the Maintenance Division of National Capital Parks-Central, which has about 260 employees. We maintain 153 reservations including the National Mall, monumental core, and many smaller park areas throughout Washington, D.C. Our responsibilities cover a huge area, from the Capitol to the Kennedy Center and various parks like West Potomac and East Potomac. We handle everything from roads and trails to grounds maintenance and vehicle repair.",
+    "implicit_text": "I work in the Maintenance Division of the central park service for the capital region, which has about 260 employees. We maintain 153 reservations including the large central park area, monumental core, and many smaller park areas throughout the city. Our responsibilities cover a huge area, from the legislative complex to the performing arts center and various parks like West Potomac and East Potomac. We handle everything from roads and trails to grounds maintenance and vehicle repair.",
+    "cues": [
+      "National Capital Parks-Central",
+      "260 employees",
+      "153 reservations",
+      "Washington, D.C.",
+      "maintenance"
+    ],
+    "transcript_ref": "september_11\\nps911_keneally_sean_dec_17_2001.yaml"
+  },
+  {
+    "entity_id": 14,
+    "entity": "Washington, D.C.",
+    "explicit_text": "Washington, D.C. is where I live and work, and the city was deeply affected by the September 11 attacks. Our maintenance division supports many important landmarks and government buildings here, including the White House, Capitol, and numerous parks. We maintain a large area of the city, including the National Mall and various circles and waterfronts. The events of 9/11 changed how we approach security and maintenance throughout the city.",
+    "implicit_text": "The U.S. capital city is where I live and work, and the city was deeply affected by the September 11 attacks. Our maintenance division supports many important landmarks and government buildings here, including the executive residence, legislative complex, and numerous parks. We maintain a large area of the city, including the central park area and various circles and waterfronts. The events of 9/11 changed how we approach security and maintenance throughout the city.",
+    "cues": [
+      "Washington, D.C.",
+      "September 11 attacks",
+      "landmarks",
+      "maintenance",
+      "security"
+    ],
+    "transcript_ref": "september_11\\nps911_keneally_sean_dec_17_2001.yaml"
+  },
+  {
+    "entity_id": 15,
+    "entity": "Florida Avenue",
+    "explicit_text": "Florida Avenue is part of the boundary line of the area we maintain for National Capital Parks-Central. Our maintenance responsibilities extend along Florida Avenue as it loops around the northern part of our jurisdiction. We maintain even small park areas near Florida Avenue, such as little triangles of park land. It’s one of the many streets that define the large area we care for in Washington, D.C.",
+    "implicit_text": "A major avenue is part of the boundary line of the area we maintain for the central park service. Our maintenance responsibilities extend along this avenue as it loops around the northern part of our jurisdiction. We maintain even small park areas near this avenue, such as little triangles of park land. It’s one of the many streets that define the large area we care for in the city.",
+    "cues": [
+      "Florida Avenue",
+      "maintenance boundary",
+      "Washington, D.C.",
+      "park land"
+    ],
+    "transcript_ref": "september_11\\nps911_keneally_sean_dec_17_2001.yaml"
+  },
+  {
+    "entity_id": 16,
+    "entity": "First Street NW (Washington, D.C.)",
+    "explicit_text": "First Street NW marks part of the boundary of the National Capital Parks-Central maintenance area. Starting at the west side of the Capitol, our jurisdiction goes north along First Street all the way to Florida Avenue. This street helps define the large area we maintain, which includes many parks and reservations. It’s an important reference point for our work in the city.",
+    "implicit_text": "A street marking part of the boundary of the central park service maintenance area starts at the west side of the legislative complex and goes north all the way to a major avenue. This street helps define the large area we maintain, which includes many parks and reservations. It’s an important reference point for our work in the city.",
+    "cues": [
+      "First Street NW",
+      "maintenance boundary",
+      "Capitol",
+      "Washington, D.C."
+    ],
+    "transcript_ref": "september_11\\nps911_keneally_sean_dec_17_2001.yaml"
+  },
+  {
+    "entity_id": 17,
+    "entity": "Kennedy Center",
+    "explicit_text": "The Kennedy Center is included in the area we maintain as part of National Capital Parks-Central. Our maintenance responsibilities extend from the Capitol area all the way to the Kennedy Center. This includes grounds, roads, and other infrastructure around the center. It’s a key landmark within the large jurisdiction we oversee in Washington, D.C.",
+    "implicit_text": "The performing arts center is included in the area we maintain as part of the central park service. Our maintenance responsibilities extend from the legislative complex area all the way to this center. This includes grounds, roads, and other infrastructure around the center. It’s a key landmark within the large jurisdiction we oversee in the city.",
+    "cues": [
+      "Kennedy Center",
+      "maintenance area",
+      "Washington, D.C.",
+      "National Capital Parks-Central"
+    ],
+    "transcript_ref": "september_11\\nps911_keneally_sean_dec_17_2001.yaml"
+  },
+  {
+    "entity_id": 18,
+    "entity": "West Potomac Park",
+    "explicit_text": "West Potomac Park is one of the parks we maintain as part of our National Capital Parks-Central responsibilities. Along with East Potomac Park and other areas, it forms part of the monumental core and parklands in Washington, D.C. Our maintenance staff takes care of grounds, pathways, and other infrastructure there. It’s a significant part of the city’s green space that we help keep in good condition.",
+    "implicit_text": "A large park on the west side of the Potomac River is one of the parks we maintain as part of our central park service responsibilities. Along with the park on the east side of the river and other areas, it forms part of the monumental core and parklands in the city. Our maintenance staff takes care of grounds, pathways, and other infrastructure there. It’s a significant part of the city’s green space that we help keep in good condition.",
+    "cues": [
+      "West Potomac Park",
+      "maintenance",
+      "Washington, D.C.",
+      "National Capital Parks-Central"
+    ],
+    "transcript_ref": "september_11\\nps911_keneally_sean_dec_17_2001.yaml"
+  },
+  {
+    "entity_id": 19,
+    "entity": "East Potomac Park",
+    "explicit_text": "East Potomac Park is another key park within the area we maintain for National Capital Parks-Central. Together with West Potomac Park and other reservations, it’s part of the green spaces we care for in Washington, D.C. Our maintenance operations include groundskeeping, road and trail repairs, and other upkeep in this park. It’s an important recreational and scenic area in the city.",
+    "implicit_text": "A key park on the east side of the Potomac River is another important area within the territory we maintain for the central park service. Together with the park on the west side and other reservations, it’s part of the green spaces we care for in the city. Our maintenance operations include groundskeeping, road and trail repairs, and other upkeep in this park. It’s an important recreational and scenic area in the city.",
+    "cues": [
+      "East Potomac Park",
+      "maintenance",
+      "Washington, D.C.",
+      "National Capital Parks-Central"
+    ],
+    "transcript_ref": "september_11\\nps911_keneally_sean_dec_17_2001.yaml"
+  },
+  {
+    "entity_id": 20,
+    "entity": "Southwest Waterfront",
+    "explicit_text": "The Southwest Waterfront is included in the large area we maintain around Washington, D.C. Our jurisdiction extends to this area, which is part of the city’s parklands and public spaces. We handle grounds maintenance and infrastructure repairs there as part of our broad responsibilities. It’s one of many diverse locations within our maintenance boundary.",
+    "implicit_text": "The waterfront area in the southwest part of the city is included in the large area we maintain. Our jurisdiction extends to this area, which is part of the city’s parklands and public spaces. We handle grounds maintenance and infrastructure repairs there as part of our broad responsibilities. It’s one of many diverse locations within our maintenance boundary.",
+    "cues": [
+      "Southwest Waterfront",
+      "maintenance area",
+      "Washington, D.C.",
+      "parklands"
+    ],
+    "transcript_ref": "september_11\\nps911_keneally_sean_dec_17_2001.yaml"
+  },
+  {
+    "entity_id": 21,
+    "entity": "Scott Circle",
+    "explicit_text": "Scott Circle is one of the 153 reservations we maintain within National Capital Parks-Central. It’s a smaller park area compared to the National Mall but still important as part of the city’s green spaces. Our maintenance staff takes care of landscaping, pathways, and general upkeep there. It’s part of the network of circles and parks we are responsible for in Washington, D.C.",
+    "implicit_text": "A small circle park is one of the 153 reservations we maintain within the central park service. It’s a smaller park area compared to the large central park but still important as part of the city’s green spaces. Our maintenance staff takes care of landscaping, pathways, and general upkeep there. It’s part of the network of circles and parks we are responsible for in the city.",
+    "cues": [
+      "Scott Circle",
+      "maintenance",
+      "Washington, D.C.",
+      "National Capital Parks-Central"
+    ],
+    "transcript_ref": "september_11\\nps911_keneally_sean_dec_17_2001.yaml"
+  },
+  {
+    "entity_id": 22,
+    "entity": "Thomas Circle",
+    "explicit_text": "Thomas Circle is another park reservation we maintain as part of National Capital Parks-Central. Like Scott Circle and Washington Circle, it’s a smaller but significant green space in the city. Our team handles groundskeeping and maintenance tasks there to keep it in good condition. It’s part of the many park areas we support throughout Washington, D.C.",
+    "implicit_text": "Another circle park is part of the reservations we maintain as part of the central park service. Like the other small circles, it’s a significant green space in the city. Our team handles groundskeeping and maintenance tasks there to keep it in good condition. It’s part of the many park areas we support throughout the city.",
+    "cues": [
+      "Thomas Circle",
+      "maintenance",
+      "Washington, D.C.",
+      "National Capital Parks-Central"
+    ],
+    "transcript_ref": "september_11\\nps911_keneally_sean_dec_17_2001.yaml"
+  },
+  {
+    "entity_id": 23,
+    "entity": "Washington Circle",
+    "explicit_text": "Washington Circle is one of the park reservations we maintain within National Capital Parks-Central. It’s a smaller park area but important for the city’s landscape and public space. Our maintenance division takes care of all aspects of upkeep there, from grounds to pathways. It’s part of the extensive network of parks and circles we manage in Washington, D.C.",
+    "implicit_text": "A third circle park is one of the reservations we maintain within the central park service. It’s a smaller park area but important for the city’s landscape and public space. Our maintenance division takes care of all aspects of upkeep there, from grounds to pathways. It’s part of the extensive network of parks and circles we manage in the city.",
+    "cues": [
+      "Washington Circle",
+      "maintenance",
+      "Washington, D.C.",
+      "National Capital Parks-Central"
+    ],
+    "transcript_ref": "september_11\\nps911_keneally_sean_dec_17_2001.yaml"
+  },
+  {
+    "entity_id": 24,
+    "entity": "Union Station (Washington, D.C.)",
+    "explicit_text": "We maintain Union Station as part of our responsibilities in National Capital Parks-Central. It’s a major transportation hub in Washington, D.C., and keeping it well maintained is important for the city and visitors. Our maintenance work there includes grounds and infrastructure upkeep. It’s one of the many key sites within our jurisdiction.",
+    "implicit_text": "We maintain the major transportation hub in the city as part of our responsibilities in the central park service. It’s a key location for both residents and visitors, and keeping it well maintained is important. Our maintenance work there includes grounds and infrastructure upkeep. It’s one of the many key sites within our jurisdiction.",
+    "cues": [
+      "Union Station",
+      "maintenance",
+      "Washington, D.C.",
+      "National Capital Parks-Central"
+    ],
+    "transcript_ref": "september_11\\nps911_keneally_sean_dec_17_2001.yaml"
+  },
+  {
+    "entity_id": 25,
+    "entity": "Japanese American Memorial to Patriotism During World War II",
+    "explicit_text": "We are going to maintain the new Japanese American Memorial to Patriotism During World War II, located at Louisiana Avenue and New Jersey Avenue. I haven’t had a chance to see it yet, but it’s right down the street from my location on Fourth Street. It’s another important site within the area we maintain in Washington, D.C. Our maintenance division will be responsible for its upkeep alongside many other memorials and parks.",
+    "implicit_text": "We are going to maintain the new memorial dedicated to Japanese American patriotism during World War II, located at the intersection of two avenues. I haven’t had a chance to see it yet, but it’s right down the street from my location on Fourth Street. It’s another important site within the area we maintain in the city. Our maintenance division will be responsible for its upkeep alongside many other memorials and parks.",
+    "cues": [
+      "Japanese American Memorial",
+      "maintenance",
+      "Louisiana Avenue",
+      "New Jersey Avenue",
+      "Washington, D.C."
+    ],
+    "transcript_ref": "september_11\\nps911_keneally_sean_dec_17_2001.yaml"
+  },
+  {
+    "entity_id": 26,
+    "entity": "Louisiana Avenue NW",
+    "explicit_text": "Louisiana Avenue NW is part of the location of the new Japanese American Memorial to Patriotism During World War II, which we will maintain. It’s within the area covered by National Capital Parks-Central. This avenue is part of the network of streets and parklands we oversee in Washington, D.C. Our maintenance responsibilities include sites along Louisiana Avenue.",
+    "implicit_text": "One of the avenues where the new memorial dedicated to Japanese American patriotism during World War II is located is part of the area we maintain. It’s within the jurisdiction covered by the central park service. This avenue is part of the network of streets and parklands we oversee in the city. Our maintenance responsibilities include sites along this avenue.",
+    "cues": [
+      "Louisiana Avenue NW",
+      "Japanese American Memorial",
+      "maintenance",
+      "Washington, D.C."
+    ],
+    "transcript_ref": "september_11\\nps911_keneally_sean_dec_17_2001.yaml"
+  },
+  {
+    "entity_id": 27,
+    "entity": "New Jersey Avenue NW",
+    "explicit_text": "New Jersey Avenue NW is another street where the Japanese American Memorial is located, and it falls within our maintenance area. We will be responsible for maintaining the memorial and surrounding parkland there. It’s part of the broader jurisdiction of National Capital Parks-Central in Washington, D.C. Our maintenance work extends to this avenue and its important landmarks.",
+    "implicit_text": "Another avenue where the memorial dedicated to Japanese American patriotism during World War II is located falls within our maintenance area. We will be responsible for maintaining the memorial and surrounding parkland there. It’s part of the broader jurisdiction of the central park service in the city. Our maintenance work extends to this avenue and its important landmarks.",
+    "cues": [
+      "New Jersey Avenue NW",
+      "Japanese American Memorial",
+      "maintenance",
+      "Washington, D.C."
+    ],
+    "transcript_ref": "september_11\\nps911_keneally_sean_dec_17_2001.yaml"
+  }
+]

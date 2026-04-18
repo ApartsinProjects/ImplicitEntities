@@ -1,0 +1,126 @@
+[
+  {
+    "entity_id": 2,
+    "entity": "Thailand",
+    "explicit_text": "I was born in Thailand in 1998, specifically in a refugee camp. Thailand was where my family lived before we applied for resettlement to the United States in 2009. I also spent time in different places within Thailand, like Mae Sariang and Mae Sot, during important moments such as school and medical checks.",
+    "implicit_text": "I was born in Southeast Asia in 1998, specifically in a refugee camp. That country was where my family lived before we applied for resettlement to the United States in 2009. I also spent time in different places within that country, like Mae Sariang and Mae Sot, during important moments such as school and medical checks.",
+    "cues": [
+      "born in 1998",
+      "refugee camp",
+      "resettlement application 2009",
+      "Mae Sariang",
+      "Mae Sot"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_69_taw_loe_moo.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "Mae Ra Moe refugee camp",
+    "explicit_text": "I studied at Mae Ra Moe refugee camp starting in kindergarten when I was five years old. I went to school there from kindergarten through seventh grade, learning subjects like English, math, Karen, and science. In 2009, my family applied for U.S. resettlement and had interviews at Mae Ra Moe camp before going to Mae Sot for medical checks.",
+    "implicit_text": "I studied at a refugee camp known for hosting displaced Karen people starting in kindergarten when I was five years old. I went to school there from kindergarten through seventh grade, learning subjects like English, math, Karen, and science. In 2009, my family applied for U.S. resettlement and had interviews at that camp before going to Mae Sot for medical checks.",
+    "cues": [
+      "kindergarten at age five",
+      "school from K to 7th grade",
+      "interviews in 2009",
+      "refugee camp",
+      "Thailand"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_69_taw_loe_moo.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "Mae Sariang",
+    "explicit_text": "During summer school when I was in middle school, I lived with my dad in Mae Sariang city in Thailand. I was very happy there, especially when I went swimming in the Mae Sariang River. It was a special time for me outside of the refugee camp experience.",
+    "implicit_text": "During summer school when I was in middle school, I lived with my dad in a small city in northern Thailand. I was very happy there, especially when I went swimming in the local river. It was a special time for me outside of the refugee camp experience.",
+    "cues": [
+      "summer school",
+      "middle school",
+      "living with dad",
+      "Mae Sariang River",
+      "Thailand"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_69_taw_loe_moo.yaml"
+  },
+  {
+    "entity_id": 5,
+    "entity": "Mae Sot",
+    "explicit_text": "After applying for U.S. resettlement, my family went to Mae Sot for a seven-day medical check in 2009. We sometimes went to the hospital for tests and I played soccer with friends during that time. Later, in May 2011, we returned to Mae Sot for a one-week training before traveling to Bangkok and then to the United States.",
+    "implicit_text": "After applying for U.S. resettlement, my family went to a border town in western Thailand for a seven-day medical check in 2009. We sometimes went to the hospital for tests and I played soccer with friends during that time. Later, in May 2011, we returned there for a one-week training before traveling to the capital city and then to the United States.",
+    "cues": [
+      "medical check 2009",
+      "seven days",
+      "hospital visits",
+      "training in May 2011",
+      "Thailand"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_69_taw_loe_moo.yaml"
+  },
+  {
+    "entity_id": 6,
+    "entity": "Bangkok",
+    "explicit_text": "After completing our training in Mae Sot in 2011, my family traveled by bus to Bangkok where we stayed one night. The next morning, we went to the airport in Bangkok to begin our journey to the United States. Bangkok was the last city in Thailand we stayed in before flying abroad.",
+    "implicit_text": "After completing our training in Mae Sot in 2011, my family traveled by bus to the capital city of Thailand where we stayed one night. The next morning, we went to the airport in that city to begin our journey to the United States. This city was the last stop in Thailand before flying abroad.",
+    "cues": [
+      "May 2011",
+      "one night stay",
+      "airport",
+      "departure to U.S.",
+      "Thailand"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_69_taw_loe_moo.yaml"
+  },
+  {
+    "entity_id": 7,
+    "entity": "Japan",
+    "explicit_text": "Our flight from Bangkok to the United States included a stopover in Japan where we changed airplanes. This was part of our long journey in May 2011 from Thailand to Minnesota. Although we only passed through Japan briefly, it was an important connection point on our trip.",
+    "implicit_text": "Our flight from the Thai capital to the United States included a stopover in an East Asian country where we changed airplanes. This was part of our long journey in May 2011 from Southeast Asia to Minnesota. Although we only passed through this country briefly, it was an important connection point on our trip.",
+    "cues": [
+      "May 2011",
+      "flight connection",
+      "airplane change",
+      "travel from Thailand to U.S."
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_69_taw_loe_moo.yaml"
+  },
+  {
+    "entity_id": 8,
+    "entity": "Los Angeles",
+    "explicit_text": "After flying from Japan, we landed in Los Angeles where we changed airplanes again before continuing to Minnesota. Los Angeles was another stop on our journey to start a new life in the United States in May 2011. It was part of the long travel process from Thailand to St. Paul.",
+    "implicit_text": "After flying from the East Asian stopover, we landed in a major West Coast U.S. city where we changed airplanes again before continuing to Minnesota. This city was another stop on our journey to start a new life in the United States in May 2011. It was part of the long travel process from Southeast Asia to St. Paul.",
+    "cues": [
+      "May 2011",
+      "flight connection",
+      "airplane change",
+      "travel to Minnesota"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_69_taw_loe_moo.yaml"
+  },
+  {
+    "entity_id": 9,
+    "entity": "St. Paul, Minnesota",
+    "explicit_text": "My family arrived in St. Paul, Minnesota on May 24, 2011, after a long journey from Thailand. At the airport, we were greeted by our caseworker, our nephew, and our sponsors, which made us feel welcomed. We moved into our apartment that day and soon after started appointments and school, beginning a new chapter of our lives.",
+    "implicit_text": "My family arrived in the capital of Minnesota on May 24, 2011, after a long journey from Southeast Asia. At the airport, we were greeted by our caseworker, our nephew, and our sponsors, which made us feel welcomed. We moved into our apartment that day and soon after started appointments and school, beginning a new chapter of our lives.",
+    "cues": [
+      "arrival May 24, 2011",
+      "airport welcome",
+      "caseworker and sponsors",
+      "new apartment",
+      "Minnesota"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_69_taw_loe_moo.yaml"
+  },
+  {
+    "entity_id": 10,
+    "entity": "Washington School (St. Paul, Minnesota)",
+    "explicit_text": "In the United States, I started attending Washington School in St. Paul in September 2011, beginning in seventh grade. My older brother and I also attended summer school there starting June 19, 2011. At Washington School, I studied English, math, science, and social studies, and I especially enjoyed math and playing sports like soccer and wrestling.",
+    "implicit_text": "In the United States, I started attending a public school in the capital of Minnesota in September 2011, beginning in seventh grade. My older brother and I also attended summer school there starting June 19, 2011. At this school, I studied English, math, science, and social studies, and I especially enjoyed math and playing sports like soccer and wrestling.",
+    "cues": [
+      "started September 2011",
+      "seventh grade",
+      "summer school June 19, 2011",
+      "subjects studied",
+      "St. Paul, Minnesota"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_69_taw_loe_moo.yaml"
+  }
+]

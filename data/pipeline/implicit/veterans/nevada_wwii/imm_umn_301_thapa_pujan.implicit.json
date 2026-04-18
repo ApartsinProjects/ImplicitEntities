@@ -1,0 +1,164 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "Nepal",
+    "explicit_text": "I was born and spent the first 16 years of my life in Nepal, living in a refugee camp with my family. Our life there was very hard, as we lived in fragile huts without basic necessities like food, electricity, or proper homes. Nepal was a place where many Bhutanese-Nepali refugees like us stayed for decades, but we were not accepted as citizens. Despite the hardships, I had a supportive community and friends who spoke the same language as me. It was in Nepal that we awaited resettlement to other countries through organizations like the International Organization for Migration.",
+    "implicit_text": "I was born and spent the first 16 years of my life in a South Asian country, living in a refugee camp with my family. Our life there was very hard, as we lived in fragile huts without basic necessities like food, electricity, or proper homes. This country was a place where many Bhutanese-Nepali refugees like us stayed for decades, but we were not accepted as citizens. Despite the hardships, I had a supportive community and friends who spoke the same language as me. It was there that we awaited resettlement to other countries through organizations like the International Organization for Migration.",
+    "cues": [
+      "born 1999",
+      "16 years",
+      "refugee camp",
+      "lack of food and electricity",
+      "community",
+      "International Organization for Migration"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_301_thapa_pujan.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "Bhutan",
+    "explicit_text": "My parents and grandparents were born in Bhutan, a landlocked Himalayan kingdom ruled by kings since 1907. In the 1980s, Bhutan introduced harsh citizenship laws targeting people of Nepali origin like my family, requiring knowledge of Dzongkha and Bhutanese customs. This led to cultural cleansing and persecution, forcing many, including my family, to flee to Nepal. Though Bhutan was our motherland, the government’s actions made it impossible for us to stay. The violence and discrimination deeply affected our community and shaped our refugee journey.",
+    "implicit_text": "My parents and grandparents were born in a landlocked Himalayan kingdom ruled by kings since 1907. In the 1980s, this kingdom introduced harsh citizenship laws targeting people of Nepali origin like my family, requiring knowledge of the national language and customs. This led to cultural cleansing and persecution, forcing many, including my family, to flee to a neighboring country. Though this kingdom was our motherland, the government’s actions made it impossible for us to stay. The violence and discrimination deeply affected our community and shaped our refugee journey.",
+    "cues": [
+      "landlocked Himalayan kingdom",
+      "kingdom since 1907",
+      "1980 citizenship law",
+      "cultural cleansing",
+      "persecution",
+      "flight to Nepal"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_301_thapa_pujan.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "Saint Paul, Minnesota",
+    "explicit_text": "My family and I moved to Saint Paul, Minnesota on December 9th, 2016, after leaving Nepal. It became our final destination in the United States, where we were welcomed by members of the Blue Cross Society. Living in Saint Paul, I faced challenges adapting to a new language and culture, especially at school, but with hard work and support, I improved. Saint Paul represents a new beginning for me, a place where I could continue my education and build a better future for my family.",
+    "implicit_text": "My family and I moved to the capital city of Minnesota on December 9th, 2016, after leaving the refugee camp. It became our final destination in the United States, where we were welcomed by members of a local refugee support organization. Living in this city, I faced challenges adapting to a new language and culture, especially at school, but with hard work and support, I improved. This city represents a new beginning for me, a place where I could continue my education and build a better future for my family.",
+    "cues": [
+      "December 9th, 2016",
+      "final destination in USA",
+      "Blue Cross Society",
+      "school challenges",
+      "new beginning"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_301_thapa_pujan.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "United States",
+    "explicit_text": "The United States became my new home when my family resettled here in December 2016 after years as refugees in Nepal. Moving here meant adapting to a new language, culture, and environment, which was tough at first, especially in school. However, the USA offered opportunities I had never seen before, like better education, healthcare, and modern technology. Living here with my family and community has been a journey of resilience and hope, and I am grateful for the chance to build a brighter future.",
+    "implicit_text": "This North American country became my new home when my family resettled here in December 2016 after years as refugees in a South Asian camp. Moving here meant adapting to a new language, culture, and environment, which was tough at first, especially in school. However, this country offered opportunities I had never seen before, like better education, healthcare, and modern technology. Living here with my family and community has been a journey of resilience and hope, and I am grateful for the chance to build a brighter future.",
+    "cues": [
+      "December 2016",
+      "resettlement",
+      "language and culture adaptation",
+      "education and healthcare",
+      "opportunities"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_301_thapa_pujan.yaml"
+  },
+  {
+    "entity_id": 5,
+    "entity": "UNHCR",
+    "explicit_text": "The UNHCR played a crucial role in our lives when we were refugees in Nepal by providing food rations and establishing camps for Bhutanese refugees like my family. Without their support, survival would have been even more difficult in the harsh conditions we faced. Their assistance gave us a place to live and helped sustain our community during those challenging years. I am thankful for the help they provided during that painful time.",
+    "implicit_text": "The United Nations agency for refugees played a crucial role in our lives when we were refugees in a South Asian camp by providing food rations and establishing camps for Bhutanese refugees like my family. Without their support, survival would have been even more difficult in the harsh conditions we faced. Their assistance gave us a place to live and helped sustain our community during those challenging years. I am thankful for the help they provided during that painful time.",
+    "cues": [
+      "food rations",
+      "refugee camps",
+      "support in Nepal",
+      "Bhutanese refugees"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_301_thapa_pujan.yaml"
+  },
+  {
+    "entity_id": 6,
+    "entity": "International Organization for Migration",
+    "explicit_text": "The International Organization for Migration was instrumental in helping my family and many others resettle from Nepal to countries like the USA, Canada, and Norway. They facilitated our journey to places where we could access education, electricity, and better living standards. Thanks to IOM, my family was able to make the difficult decision to move to the United States in search of a better life. Their work gave us hope and a pathway to new opportunities.",
+    "implicit_text": "The international migration organization was instrumental in helping my family and many others resettle from a South Asian refugee camp to countries like the United States, Canada, and Norway. They facilitated our journey to places where we could access education, electricity, and better living standards. Thanks to this organization, my family was able to make the difficult decision to move to the United States in search of a better life. Their work gave us hope and a pathway to new opportunities.",
+    "cues": [
+      "resettlement from Nepal",
+      "USA, Canada, Norway",
+      "education and better living standards",
+      "facilitated migration"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_301_thapa_pujan.yaml"
+  },
+  {
+    "entity_id": 8,
+    "entity": "Dzongkha language",
+    "explicit_text": "Dzongkha is the official language of Bhutan and became a requirement for citizenship under the 1980 laws imposed by the Bhutanese government. My parents and grandparents, who are of Nepali origin, did not speak Dzongkha and instead had their own languages and customs. This language requirement was used as a tool of exclusion and persecution against our community. It was one of the reasons my family was forced to flee Bhutan and live as refugees in Nepal.",
+    "implicit_text": "The official language of the Himalayan kingdom became a requirement for citizenship under the 1980 laws imposed by the government there. My parents and grandparents, who are of Nepali origin, did not speak this language and instead had their own languages and customs. This language requirement was used as a tool of exclusion and persecution against our community. It was one of the reasons my family was forced to flee that kingdom and live as refugees in a neighboring country.",
+    "cues": [
+      "official language of Bhutan",
+      "1980 citizenship law",
+      "language requirement",
+      "exclusion and persecution"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_301_thapa_pujan.yaml"
+  },
+  {
+    "entity_id": 9,
+    "entity": "Kingdom of Bhutan",
+    "explicit_text": "The Kingdom of Bhutan is where my family’s roots lie, ruled by kings since 1907. However, in the 1980s, the kingdom introduced strict citizenship laws that targeted the Nepali-origin population, including my parents and grandparents. This led to cultural cleansing, persecution, and forced displacement of many Bhutanese-Nepali people. Though Bhutan was our homeland, the political climate forced us to flee and seek refuge in Nepal.",
+    "implicit_text": "The Himalayan kingdom is where my family’s roots lie, ruled by kings since 1907. However, in the 1980s, the kingdom introduced strict citizenship laws that targeted the Nepali-origin population, including my parents and grandparents. This led to cultural cleansing, persecution, and forced displacement of many Bhutanese-Nepali people. Though this kingdom was our homeland, the political climate forced us to flee and seek refuge in a neighboring country.",
+    "cues": [
+      "ruled by kings since 1907",
+      "1980 citizenship laws",
+      "persecution of Nepali-origin people",
+      "forced displacement"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_301_thapa_pujan.yaml"
+  },
+  {
+    "entity_id": 10,
+    "entity": "Blue Cross Society",
+    "explicit_text": "When my family arrived in Saint Paul, Minnesota, on December 9th, 2016, members of the Blue Cross Society welcomed us and helped us settle. They played an important role in supporting refugees like us during our transition to life in the United States. Their assistance made the difficult adjustment period easier as we adapted to a new culture and environment. I am grateful for their kindness and support during that time.",
+    "implicit_text": "When my family arrived in the capital city of Minnesota on December 9th, 2016, members of a local refugee support organization welcomed us and helped us settle. They played an important role in supporting refugees like us during our transition to life in the United States. Their assistance made the difficult adjustment period easier as we adapted to a new culture and environment. I am grateful for their kindness and support during that time.",
+    "cues": [
+      "December 9th, 2016",
+      "Saint Paul, Minnesota",
+      "refugee support",
+      "settlement assistance"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_301_thapa_pujan.yaml"
+  },
+  {
+    "entity_id": 11,
+    "entity": "Miami, Florida",
+    "explicit_text": "Our journey to the United States began with a brief stay in Miami, Florida, where we stayed at a hotel for one day after arriving on December 8th, 2016. Miami was our first stop before moving on to our final destination in Saint Paul, Minnesota. It was a mix of excitement and fear as I traveled by plane for the first time and faced a new environment. Miami marked the beginning of our new life in America.",
+    "implicit_text": "Our journey to the United States began with a brief stay in a major Florida city, where we stayed at a hotel for one day after arriving on December 8th, 2016. This city was our first stop before moving on to our final destination in Minnesota’s capital. It was a mix of excitement and fear as I traveled by plane for the first time and faced a new environment. This city marked the beginning of our new life in America.",
+    "cues": [
+      "December 8th, 2016",
+      "one-day hotel stay",
+      "first stop in USA",
+      "beginning of new life"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_301_thapa_pujan.yaml"
+  },
+  {
+    "entity_id": 12,
+    "entity": "Canada",
+    "explicit_text": "Canada was one of the countries where the International Organization for Migration resettled Bhutanese-Nepali refugees like my family. Although we did not move there ourselves, Canada represented a place of opportunity and better living conditions compared to the refugee camps in Nepal. It was part of the broader resettlement options offered to us by international agencies. Knowing that countries like Canada welcomed refugees gave us hope for a better future.",
+    "implicit_text": "This North American country was one of the places where the international migration organization resettled Bhutanese-Nepali refugees like my family. Although we did not move there ourselves, it represented a place of opportunity and better living conditions compared to the refugee camps in South Asia. It was part of the broader resettlement options offered to us by international agencies. Knowing that countries like this welcomed refugees gave us hope for a better future.",
+    "cues": [
+      "resettlement country",
+      "International Organization for Migration",
+      "better living conditions",
+      "hope for refugees"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_301_thapa_pujan.yaml"
+  },
+  {
+    "entity_id": 13,
+    "entity": "Norway",
+    "explicit_text": "Norway was another country where Bhutanese-Nepali refugees were resettled through the International Organization for Migration. Like Canada and the USA, Norway offered access to education, electricity, and modern facilities that we never had in the refugee camps. Although my family chose to move to the United States, Norway symbolized the international support available to displaced Bhutanese-Nepali people. It was part of the network of countries providing new opportunities for refugees.",
+    "implicit_text": "This Scandinavian country was another place where Bhutanese-Nepali refugees were resettled through the international migration organization. Like Canada and the United States, it offered access to education, electricity, and modern facilities that we never had in the refugee camps. Although my family chose to move to the United States, this country symbolized the international support available to displaced Bhutanese-Nepali people. It was part of the network of countries providing new opportunities for refugees.",
+    "cues": [
+      "resettlement country",
+      "International Organization for Migration",
+      "education and modern facilities",
+      "support for refugees"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_301_thapa_pujan.yaml"
+  }
+]

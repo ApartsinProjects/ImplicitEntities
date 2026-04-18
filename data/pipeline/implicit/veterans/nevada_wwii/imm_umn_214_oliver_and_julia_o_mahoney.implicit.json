@@ -1,0 +1,123 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "Ireland",
+    "explicit_text": "I was born in Ireland on July 3rd, 1938, in Dundalk where my father was the chief of police. After my father passed away, I decided to enlist in the US Army and eventually left Ireland to serve overseas. Ireland will always be my homeland, but my journey took me far from there, shaping my life in ways I never imagined.",
+    "implicit_text": "I was born on July 3rd, 1938, in Dundalk where my father was the chief of police. After my father passed away, I decided to enlist in the US Army and eventually left my homeland to serve overseas. That country will always be my homeland, but my journey took me far from there, shaping my life in ways I never imagined.",
+    "cues": [
+      "born July 3rd, 1938",
+      "Dundalk",
+      "father chief of police",
+      "early 1960s",
+      "immigration"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_214_oliver_and_julia_o_mahoney.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "Philippines",
+    "explicit_text": "I met my wife Julia while I was stationed in the Philippines during my time in the US Army preparing for the Vietnam War. Julia was born in Manila in 1939 and was there when we first met. The Philippines was the place where our story began, even though we both eventually moved to the United States to build our lives.",
+    "implicit_text": "I met my wife Julia while I was stationed in a Southeast Asian archipelago during my time in the US Army preparing for the Vietnam War. Julia was born in its capital city in 1939 and was there when we first met. That country was the place where our story began, even though we both eventually moved to the United States to build our lives.",
+    "cues": [
+      "stationed in Philippines",
+      "met Julia",
+      "born Manila 1939",
+      "Vietnam War preparation",
+      "early 1960s"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_214_oliver_and_julia_o_mahoney.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "United States Army",
+    "explicit_text": "After my father died, I enlisted in the United States Army because I wanted to serve and not just be drafted. The Army sent me to the Philippines and later to Hawaii and New Jersey. It was through my service in the Army that I was able to gain my US citizenship quickly, which was very important to me.",
+    "implicit_text": "After my father died, I enlisted in the military of the United States because I wanted to serve and not just be drafted. The military sent me to the Philippines and later to Hawaii and New Jersey. It was through my service there that I was able to gain my US citizenship quickly, which was very important to me.",
+    "cues": [
+      "enlisted after father's death",
+      "stationed Philippines, Hawaii, New Jersey",
+      "Vietnam War preparation",
+      "citizenship through Army",
+      "early 1960s"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_214_oliver_and_julia_o_mahoney.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "Vietnam War",
+    "explicit_text": "My time in the Army included being stationed in the Philippines to help prepare for the Vietnam War. Although I never fought directly in Vietnam, the war shaped where I was sent and how I met my wife. The whole period was a significant backdrop to our early years together.",
+    "implicit_text": "My time in the military included being stationed in the Philippines to help prepare for the conflict in Southeast Asia during the 1960s and 70s. Although I never fought directly in that war, the conflict shaped where I was sent and how I met my wife. The whole period was a significant backdrop to our early years together.",
+    "cues": [
+      "stationed Philippines",
+      "Vietnam War preparation",
+      "early 1960s",
+      "military service"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_214_oliver_and_julia_o_mahoney.yaml"
+  },
+  {
+    "entity_id": 5,
+    "entity": "California",
+    "explicit_text": "When I was first sent back to the US, I thought I would be stationed in California because I had an uncle living there. I kept requesting a transfer to California while I was in Hawaii, hoping to be closer to Julia. Unfortunately, I ended up in New Jersey instead, which was a surprise since Julia was also nearby there.",
+    "implicit_text": "When I was first sent back to the US, I thought I would be stationed on the West Coast because I had an uncle living there. I kept requesting a transfer to that state while I was in Hawaii, hoping to be closer to Julia. Unfortunately, I ended up in New Jersey instead, which was a surprise since Julia was also nearby there.",
+    "cues": [
+      "requested transfer from Hawaii",
+      "uncle in California",
+      "early 1960s",
+      "military stationing"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_214_oliver_and_julia_o_mahoney.yaml"
+  },
+  {
+    "entity_id": 6,
+    "entity": "Hawaii",
+    "explicit_text": "After the Philippines, I was stationed in Hawaii for a few months. I kept requesting to be transferred to California because I wanted to be near Julia, but the Army initially kept me there. Hawaii was a temporary stop on my journey before I finally moved to New Jersey.",
+    "implicit_text": "After the Philippines, I was stationed on an island chain in the Pacific for a few months. I kept requesting to be transferred to California because I wanted to be near Julia, but the military initially kept me there. That place was a temporary stop on my journey before I finally moved to New Jersey.",
+    "cues": [
+      "stationed in Hawaii",
+      "transfer requests to California",
+      "early 1960s",
+      "military service"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_214_oliver_and_julia_o_mahoney.yaml"
+  },
+  {
+    "entity_id": 7,
+    "entity": "Chicago",
+    "explicit_text": "Julia moved to Chicago with her eldest sister when she first came to the US as part of a student nurse exchange program. It was her first step in America before she was placed to work in Newark, New Jersey. Chicago was an important transitional place for her during that time.",
+    "implicit_text": "Julia moved to a major Midwestern city with her eldest sister when she first came to the US as part of a student nurse exchange program. It was her first step in America before she was placed to work in Newark, New Jersey. That city was an important transitional place for her during that time.",
+    "cues": [
+      "Julia moved with sister",
+      "student nurse exchange program",
+      "early 1960s",
+      "before Newark placement"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_214_oliver_and_julia_o_mahoney.yaml"
+  },
+  {
+    "entity_id": 8,
+    "entity": "Newark, New Jersey",
+    "explicit_text": "I was stationed in Newark, New Jersey, and it turned out Julia was working there too after her nursing program. Even though I had hoped to be in California, being in Newark brought us close together again. We got married there, became citizens, and started our family in that area.",
+    "implicit_text": "I was stationed in a city in northern New Jersey, and it turned out Julia was working there too after her nursing program. Even though I had hoped to be in California, being in that city brought us close together again. We got married there, became citizens, and started our family in that area.",
+    "cues": [
+      "stationed in Newark",
+      "Julia working in Newark hospital",
+      "marriage",
+      "early 1960s",
+      "US citizenship"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_214_oliver_and_julia_o_mahoney.yaml"
+  },
+  {
+    "entity_id": 9,
+    "entity": "Campbell Soup Company",
+    "explicit_text": "After I finished my military service, I worked for the Campbell Soup Company while I was studying to earn my pilot's license. I stayed there for about four years before I left to sell airplanes domestically and internationally. Campbell Soup was an important part of my post-military career and helped me transition to civilian life.",
+    "implicit_text": "After I finished my military service, I worked for a well-known American food company while I was studying to earn my pilot's license. I stayed there for about four years before I left to sell airplanes domestically and internationally. That company was an important part of my post-military career and helped me transition to civilian life.",
+    "cues": [
+      "worked after military",
+      "studying pilot's license",
+      "four years",
+      "post-military career"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_214_oliver_and_julia_o_mahoney.yaml"
+  }
+]

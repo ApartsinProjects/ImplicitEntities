@@ -1,0 +1,100 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "Secret War",
+    "explicit_text": "My dad fought in the Secret War starting in 1967 when he was just 13 years old. He was part of the Secret Army and trained by the Americans for almost a year, learning skills like field medic and dentistry. The war was dangerous, with constant threats from the Viet Cong, and my dad experienced intense battles and injuries. His stories about the Secret War are filled with both bravery and pain, and they deeply affected our family.",
+    "implicit_text": "My dad fought in a covert conflict starting in 1967 when he was just 13 years old. He was part of a clandestine army and trained by the Americans for almost a year, learning skills like field medic and dentistry. The war was dangerous, with constant threats from communist guerrillas, and my dad experienced intense battles and injuries. His stories about this hidden conflict are filled with both bravery and pain, and they deeply affected our family.",
+    "cues": [
+      "1967",
+      "Secret Army",
+      "American training",
+      "battles",
+      "injuries"
+    ],
+    "transcript_ref": "immigration\\imm_umn_253_cha_toua_her.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "Viet Cong",
+    "explicit_text": "The Viet Cong were a constant threat to my dad and his people during the Secret War. He told me about how they could attack at any moment, and once his base was attacked by roughly 300 to 350 Viet Cong fighters at night. They fought fiercely using weapons supplied by the U.S., and though my dad’s camp was in a tough spot, they managed to win. The Viet Cong’s attacks left my dad with serious wounds and scars that he carried for life.",
+    "implicit_text": "The communist guerrillas were a constant threat to my dad and his people during that covert conflict. He told me about how they could attack at any moment, and once his base was attacked by roughly 300 to 350 fighters at night. They fought fiercely using weapons supplied by the U.S., and though my dad’s camp was in a tough spot, they managed to win. Their attacks left my dad with serious wounds and scars that he carried for life.",
+    "cues": [
+      "night attack",
+      "300 to 350 fighters",
+      "U.S. weapons",
+      "wounds",
+      "Secret War"
+    ],
+    "transcript_ref": "immigration\\imm_umn_253_cha_toua_her.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "Laos",
+    "explicit_text": "My dad grew up in Laos during a very dangerous time when the Secret War was happening. The Viet Cong threatened the people there, especially the Miao or Hmong community that my dad belonged to. He fought in Laos as part of the Secret Army and faced many battles on its soil. Laos was the backdrop of his youth, his struggles, and his service before he eventually moved to the United States.",
+    "implicit_text": "My dad grew up in a Southeast Asian country during a very dangerous time when the secret conflict was happening. The communist guerrillas threatened the people there, especially the Miao or Hmong community that my dad belonged to. He fought in that country as part of the clandestine army and faced many battles on its soil. This nation was the backdrop of his youth, his struggles, and his service before he eventually moved to the United States.",
+    "cues": [
+      "Secret War",
+      "Miao/Hmong people",
+      "battles",
+      "youth",
+      "service"
+    ],
+    "transcript_ref": "immigration\\imm_umn_253_cha_toua_her.yaml"
+  },
+  {
+    "entity_id": 5,
+    "entity": "Special Guerrilla Unit",
+    "explicit_text": "When my dad enlisted in the Secret Army in 1967, he was placed in the Special Guerrilla Unit, or SGU. He trained for about fifty-two weeks with the Americans, where he excelled and was chosen to learn field medic and dentistry skills. The SGU was where he faced many challenges, including combat and injuries, and it shaped much of his experience during the war. Being part of the SGU was a defining part of his life before coming to the United States.",
+    "implicit_text": "When my dad enlisted in the clandestine army in 1967, he was placed in a special guerrilla unit. He trained for about fifty-two weeks with the Americans, where he excelled and was chosen to learn field medic and dentistry skills. This unit was where he faced many challenges, including combat and injuries, and it shaped much of his experience during the war. Being part of this elite group was a defining part of his life before coming to the United States.",
+    "cues": [
+      "1967 enlistment",
+      "fifty-two weeks training",
+      "field medic and dentistry",
+      "American trainers",
+      "combat"
+    ],
+    "transcript_ref": "immigration\\imm_umn_253_cha_toua_her.yaml"
+  },
+  {
+    "entity_id": 6,
+    "entity": "United States",
+    "explicit_text": "My dad came to the United States in 1988 with my mother and seven siblings after serving in the Secret War. They settled in Appleton, Wisconsin, where he had relatives who encouraged him to pursue schooling, like becoming a dentist, though he later declined. Life in the U.S. was hard for him; he worked at a pizza store and farmed, feeling that despite all he did for both countries, he received little in return. The transition was difficult and left a lasting impact on him and our family.",
+    "implicit_text": "My dad came to this North American country in 1988 with my mother and seven siblings after serving in the secret conflict. They settled in a city in Wisconsin, where he had relatives who encouraged him to pursue schooling, like becoming a dentist, though he later declined. Life there was hard for him; he worked at a pizza store and farmed, feeling that despite all he did for both countries, he received little in return. The transition was difficult and left a lasting impact on him and our family.",
+    "cues": [
+      "1988 arrival",
+      "Appleton, Wisconsin",
+      "relatives",
+      "work at pizza store",
+      "regret"
+    ],
+    "transcript_ref": "immigration\\imm_umn_253_cha_toua_her.yaml"
+  },
+  {
+    "entity_id": 7,
+    "entity": "Ban Vinai Refugee Camp",
+    "explicit_text": "My dad remembers the Ban Vinai camp vividly, where he was stationed during the war. He told me about digging trenches there and the day his best friend was shot and fell into his lap, a moment that changed him forever. Ban Vinai was a place of both survival and loss, and it holds many of the memories and scars from his time in the Secret Army. It was one of the key locations in his story before he came to the United States.",
+    "implicit_text": "My dad remembers a refugee camp vividly, where he was stationed during the war. He told me about digging trenches there and the day his best friend was shot and fell into his lap, a moment that changed him forever. That camp was a place of both survival and loss, and it holds many of the memories and scars from his time in the clandestine army. It was one of the key locations in his story before he came to the United States.",
+    "cues": [
+      "Ban Vinai camp",
+      "digging trenches",
+      "friend shot",
+      "Secret Army",
+      "war memories"
+    ],
+    "transcript_ref": "immigration\\imm_umn_253_cha_toua_her.yaml"
+  },
+  {
+    "entity_id": 8,
+    "entity": "Appleton, Wisconsin",
+    "explicit_text": "After coming to the United States in 1988, my dad and our family started a new life in Appleton, Wisconsin. He had relatives there who helped him settle in, and although he was encouraged to go to school to become a dentist, he chose a different path. In Appleton, he worked at a pizza store and farmed to support us, but he often felt the weight of his sacrifices during the war and the hardships of starting over. Appleton became our home, but the memories of the past always stayed with him.",
+    "implicit_text": "After coming to that North American country in 1988, my dad and our family started a new life in a city in Wisconsin. He had relatives there who helped him settle in, and although he was encouraged to go to school to become a dentist, he chose a different path. In that city, he worked at a pizza store and farmed to support us, but he often felt the weight of his sacrifices during the war and the hardships of starting over. That city became our home, but the memories of the past always stayed with him.",
+    "cues": [
+      "1988 arrival",
+      "relatives",
+      "dentist schooling offer",
+      "pizza store job",
+      "farming"
+    ],
+    "transcript_ref": "immigration\\imm_umn_253_cha_toua_her.yaml"
+  }
+]

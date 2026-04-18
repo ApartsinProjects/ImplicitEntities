@@ -1,0 +1,30 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "Dominican Republic",
+    "explicit_text": "I am originally from the Dominican Republic, a beautiful country that I deeply miss. Life there was very stressful, especially as a single mother trying to support my children. I used to be a teacher back home, a role I loved dearly, but the challenges of raising my family made things difficult. Despite the hardships, my ties to my uncles and cousins remain strong, and I often think about them.",
+    "implicit_text": "I am originally from a Caribbean nation known for its beautiful landscapes, a place I deeply miss. Life there was very stressful, especially as a single mother trying to support my children. I used to be a teacher back home, a role I loved dearly, but the challenges of raising my family made things difficult. Despite the hardships, my ties to my uncles and cousins remain strong, and I often think about them.",
+    "cues": [
+      "home country",
+      "single mother",
+      "teacher",
+      "uncles and cousins",
+      "stressful life"
+    ],
+    "transcript_ref": "immigration\\imm_umn_51_juana_rose.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "United States",
+    "explicit_text": "I arrived in the United States three months ago, and since then, my children's lives have improved significantly. Although my parents and sister live here, adjusting to life in the U.S. has been tough for me, especially because of the language barrier. I haven't been able to continue teaching here due to this challenge, but I see this as an opportunity to build a better future. The new way of life is different, and I am working hard to adapt.",
+    "implicit_text": "I arrived in a North American country three months ago, and since then, my children's lives have improved significantly. Although my parents and sister live here, adjusting to life in this new country has been tough for me, especially because of the language barrier. I haven't been able to continue teaching here due to this challenge, but I see this as an opportunity to build a better future. The new way of life is different, and I am working hard to adapt.",
+    "cues": [
+      "arrived three months ago",
+      "parents and sister",
+      "language barrier",
+      "cannot teach",
+      "opportunity to improve life"
+    ],
+    "transcript_ref": "immigration\\imm_umn_51_juana_rose.yaml"
+  }
+]

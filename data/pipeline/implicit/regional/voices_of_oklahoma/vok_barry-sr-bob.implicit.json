@@ -1,0 +1,435 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "Wesley Hospital",
+    "explicit_text": "I was born at Wesley Hospital in Oklahoma City, which later became Presbyterian Hospital. When I had a serious accident at age 7, my parents rushed me back to Wesley Hospital for treatment. The care I received there was critical, especially since I had severe head injuries and had to keep my head on the pillow for eight weeks. Wesley Hospital played a big role in my early life and recovery.",
+    "implicit_text": "I was born at the main hospital in Oklahoma City, which later changed its name. When I had a serious accident at age 7, my parents rushed me back to that same hospital for treatment. The care I received there was critical, especially since I had severe head injuries and had to keep my head on the pillow for eight weeks. That hospital played a big role in my early life and recovery.",
+    "cues": [
+      "birth",
+      "Oklahoma City",
+      "7-year-old accident",
+      "head injury",
+      "treatment"
+    ],
+    "transcript_ref": "regional\\voices_of_oklahoma\\vok_barry-sr-bob.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "Oklahoma City",
+    "explicit_text": "Oklahoma City is where I grew up and where many important events in my life took place. My parents met here after moving from Texas during the Great Depression. I attended schools like Gatewood Elementary, Cleveland Grade School, Taft Junior High, and Classen High School all in Oklahoma City. I also spent a lot of time at Holland Field and Texas League Park watching the Oklahoma City Indians play baseball.",
+    "implicit_text": "This city is where I grew up and where many important events in my life took place. My parents met here after moving from Texas during the Great Depression. I attended schools like Gatewood Elementary, Cleveland Grade School, Taft Junior High, and Classen High School all in this city. I also spent a lot of time at Holland Field and Texas League Park watching the local baseball team play.",
+    "cues": [
+      "childhood",
+      "schools",
+      "baseball",
+      "Great Depression",
+      "family"
+    ],
+    "transcript_ref": "regional\\voices_of_oklahoma\\vok_barry-sr-bob.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "Presbyterian Hospital",
+    "explicit_text": "Presbyterian Hospital is what Wesley Hospital later became. It’s where I was born in Oklahoma City. The hospital was significant in my early life, especially since I was treated there after my serious fall at age 7. It’s a place tied closely to my family’s history in Oklahoma City.",
+    "implicit_text": "The hospital that my birthplace was renamed to after originally being known by another name. It’s where I was born in the city. The hospital was significant in my early life, especially since I was treated there after my serious fall at age 7. It’s a place tied closely to my family’s history in this Oklahoma city.",
+    "cues": [
+      "birth",
+      "Oklahoma City",
+      "Wesley Hospital",
+      "medical treatment"
+    ],
+    "transcript_ref": "regional\\voices_of_oklahoma\\vok_barry-sr-bob.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "Gainesville, Texas",
+    "explicit_text": "My mother, Francis Glasgow, was originally from Gainesville, Texas. She grew up there before moving to Oklahoma City during the Great Depression. It was in Oklahoma City that she met my father and eventually married him. So Gainesville is part of my family’s roots before they came to Oklahoma.",
+    "implicit_text": "My mother, Francis Glasgow, was originally from a town in Texas known for its proximity to the Oklahoma border. She grew up there before moving to the Oklahoma city during the Great Depression. It was in that city that she met my father and eventually married him. So that Texas town is part of my family’s roots before they came to Oklahoma.",
+    "cues": [
+      "mother",
+      "Texas",
+      "Great Depression",
+      "family origin"
+    ],
+    "transcript_ref": "regional\\voices_of_oklahoma\\vok_barry-sr-bob.yaml"
+  },
+  {
+    "entity_id": 5,
+    "entity": "Paris, Texas",
+    "explicit_text": "My father, Jack Emmett Barry, was born in Paris, Texas. Like my mother’s family, his family faced financial hardship during the Great Depression and moved to Oklahoma City. Paris is where his early life began before he relocated and built his career in Oklahoma. It’s part of my paternal family background.",
+    "implicit_text": "My father, Jack Emmett Barry, was born in a northeastern Texas city known for its historic courthouse. Like my mother’s family, his family faced financial hardship during the Great Depression and moved to the Oklahoma city. That Texas city is where his early life began before he relocated and built his career in Oklahoma. It’s part of my paternal family background.",
+    "cues": [
+      "father",
+      "Texas",
+      "Great Depression",
+      "family origin"
+    ],
+    "transcript_ref": "regional\\voices_of_oklahoma\\vok_barry-sr-bob.yaml"
+  },
+  {
+    "entity_id": 6,
+    "entity": "Great Depression",
+    "explicit_text": "The Great Depression had a big impact on my family. Both my mother’s and father’s fathers went bankrupt in 1929, which forced them to move to Oklahoma City to start over. This economic hardship shaped how my parents met and eventually settled down. It was a tough time but also a turning point for my family.",
+    "implicit_text": "The economic crisis of the 1930s had a big impact on my family. Both my mother’s and father’s fathers went bankrupt in 1929, which forced them to move to the Oklahoma city to start over. This economic hardship shaped how my parents met and eventually settled down. It was a tough time but also a turning point for my family.",
+    "cues": [
+      "1929",
+      "family bankruptcy",
+      "relocation",
+      "Oklahoma City"
+    ],
+    "transcript_ref": "regional\\voices_of_oklahoma\\vok_barry-sr-bob.yaml"
+  },
+  {
+    "entity_id": 7,
+    "entity": "Texas Christian University",
+    "explicit_text": "My father attended Texas Christian University when he lived in Texas. However, due to financial difficulties during the Great Depression, he couldn’t finish there and instead went to night school in Oklahoma City. TCU represents part of his early education before he became a self-made man in Oklahoma.",
+    "implicit_text": "My father attended a private university in Texas known for its Christian affiliation when he lived there. However, due to financial difficulties during the Great Depression, he couldn’t finish there and instead went to night school in the Oklahoma city. That university represents part of his early education before he became a self-made man in Oklahoma.",
+    "cues": [
+      "father",
+      "education",
+      "Texas",
+      "Great Depression"
+    ],
+    "transcript_ref": "regional\\voices_of_oklahoma\\vok_barry-sr-bob.yaml"
+  },
+  {
+    "entity_id": 8,
+    "entity": "Northwest 20th Street (Oklahoma City)",
+    "explicit_text": "The first house I remember living in Oklahoma City was on Northwest 20th Street near Classen High School. It was a neighborhood where I started my early schooling and childhood activities. This area was part of my formative years before my family moved closer to Taft Stadium.",
+    "implicit_text": "The first house I remember living in the Oklahoma city was on a street near Classen High School. It was a neighborhood where I started my early schooling and childhood activities. This area was part of my formative years before my family moved closer to Taft Stadium.",
+    "cues": [
+      "childhood home",
+      "Oklahoma City",
+      "Classen High School",
+      "early years"
+    ],
+    "transcript_ref": "regional\\voices_of_oklahoma\\vok_barry-sr-bob.yaml"
+  },
+  {
+    "entity_id": 9,
+    "entity": "Classen School of Advanced Studies",
+    "explicit_text": "I attended Classen High School in Oklahoma City, which is now known as Classen School of Advanced Studies. It was part of my education journey growing up in the city. Being near my first home on Northwest 20th Street, Classen was a familiar place during my teenage years.",
+    "implicit_text": "I attended the high school in Oklahoma city that is now known as the School of Advanced Studies at the same location. It was part of my education journey growing up in the city. Being near my first home on Northwest 20th Street, that school was a familiar place during my teenage years.",
+    "cues": [
+      "high school",
+      "Oklahoma City",
+      "education",
+      "youth"
+    ],
+    "transcript_ref": "regional\\voices_of_oklahoma\\vok_barry-sr-bob.yaml"
+  },
+  {
+    "entity_id": 10,
+    "entity": "Gatewood Elementary School",
+    "explicit_text": "I went to kindergarten at Gatewood Elementary School in Oklahoma City. It was one of the first schools I attended as a child before moving on to Cleveland Grade School. Gatewood was part of my early education and neighborhood experience.",
+    "implicit_text": "I went to kindergarten at an elementary school in Oklahoma city named Gatewood. It was one of the first schools I attended as a child before moving on to Cleveland Grade School. That school was part of my early education and neighborhood experience.",
+    "cues": [
+      "kindergarten",
+      "Oklahoma City",
+      "early education"
+    ],
+    "transcript_ref": "regional\\voices_of_oklahoma\\vok_barry-sr-bob.yaml"
+  },
+  {
+    "entity_id": 11,
+    "entity": "Taft Stadium",
+    "explicit_text": "My family eventually bought a home near Taft Stadium in Oklahoma City, which was then on the outskirts of town. I attended Taft Junior High School nearby. Taft Stadium was a landmark in my neighborhood and part of the community where I grew up.",
+    "implicit_text": "My family eventually bought a home near a stadium called Taft in Oklahoma city, which was then on the outskirts of town. I attended the junior high school nearby that shared the stadium’s name. That stadium was a landmark in my neighborhood and part of the community where I grew up.",
+    "cues": [
+      "home location",
+      "Oklahoma City",
+      "junior high school",
+      "neighborhood"
+    ],
+    "transcript_ref": "regional\\voices_of_oklahoma\\vok_barry-sr-bob.yaml"
+  },
+  {
+    "entity_id": 12,
+    "entity": "Cleveland Elementary School (Oklahoma City)",
+    "explicit_text": "I attended Cleveland Grade School in Oklahoma City after Gatewood. It was during this time that I participated in activities like scrap metal drives during World War II. Cleveland Elementary was a key part of my childhood education and community involvement.",
+    "implicit_text": "I attended Cleveland Grade School in Oklahoma city after Gatewood. It was during this time that I participated in activities like scrap metal drives during World War II. That elementary school was a key part of my childhood education and community involvement.",
+    "cues": [
+      "grade school",
+      "Oklahoma City",
+      "World War II",
+      "childhood"
+    ],
+    "transcript_ref": "regional\\voices_of_oklahoma\\vok_barry-sr-bob.yaml"
+  },
+  {
+    "entity_id": 13,
+    "entity": "Taft Junior High School",
+    "explicit_text": "I went to Taft Junior High School in Oklahoma City after Cleveland Grade School. This school was close to where my family lived near Taft Stadium. It was part of my middle school years before I moved on to Classen High School.",
+    "implicit_text": "I went to the junior high school named Taft in Oklahoma city after Cleveland Grade School. This school was close to where my family lived near the stadium with the same name. It was part of my middle school years before I moved on to Classen High School.",
+    "cues": [
+      "junior high",
+      "Oklahoma City",
+      "education",
+      "youth"
+    ],
+    "transcript_ref": "regional\\voices_of_oklahoma\\vok_barry-sr-bob.yaml"
+  },
+  {
+    "entity_id": 14,
+    "entity": "World War II",
+    "explicit_text": "World War II was a significant part of my childhood. My older brother served in the war, and I remember the community efforts like scrap metal drives at Cleveland Grade School. My father and I also played music for workers at Tinker Air Force Base during the war to boost morale. The war shaped many aspects of life in Oklahoma City during those years.",
+    "implicit_text": "World War II was a significant part of my childhood. My older brother served in the war, and I remember the community efforts like scrap metal drives at my grade school. My father and I also played music for workers at the local air force base during the war to boost morale. The war shaped many aspects of life in Oklahoma city during those years.",
+    "cues": [
+      "1940s",
+      "brother's service",
+      "community drives",
+      "Tinker Air Force Base",
+      "music"
+    ],
+    "transcript_ref": "regional\\voices_of_oklahoma\\vok_barry-sr-bob.yaml"
+  },
+  {
+    "entity_id": 15,
+    "entity": "Oklahoma City Indians",
+    "explicit_text": "The Oklahoma City Indians were my favorite baseball team growing up. My dad’s grandmother’s great-uncle owned half the team, so I got free tickets and even pitched batting practice to the players. I was at every game at Holland Field and Texas League Park, watching future major leaguers like Al Rosen and Paul Easterling. The Indians were a big part of my childhood and love for baseball.",
+    "implicit_text": "The local minor league baseball team in Oklahoma city was my favorite growing up. My dad’s grandmother’s great-uncle owned half the team, so I got free tickets and even pitched batting practice to the players. I was at every game at Holland Field and Texas League Park, watching future major leaguers like Al Rosen and Paul Easterling. That team was a big part of my childhood and love for baseball.",
+    "cues": [
+      "minor league baseball",
+      "Oklahoma City",
+      "childhood",
+      "free tickets",
+      "batting practice"
+    ],
+    "transcript_ref": "regional\\voices_of_oklahoma\\vok_barry-sr-bob.yaml"
+  },
+  {
+    "entity_id": 16,
+    "entity": "Holland Field",
+    "explicit_text": "Holland Field was the ballpark at 4th and Pennsylvania in Oklahoma City where the Oklahoma City Indians played. I spent many nights there as a kid watching games and pitching batting practice. It was a special place for me and a big part of my baseball memories.",
+    "implicit_text": "The ballpark located at 4th and Pennsylvania in Oklahoma city was where the local minor league team played. I spent many nights there as a kid watching games and pitching batting practice. It was a special place for me and a big part of my baseball memories.",
+    "cues": [
+      "baseball park",
+      "Oklahoma City",
+      "Oklahoma City Indians",
+      "childhood"
+    ],
+    "transcript_ref": "regional\\voices_of_oklahoma\\vok_barry-sr-bob.yaml"
+  },
+  {
+    "entity_id": 17,
+    "entity": "Texas League Park",
+    "explicit_text": "Texas League Park was the later name for Holland Field, where the Oklahoma City Indians played minor league baseball. I was there every night as a kid, soaking in the games and the atmosphere. It was my baseball home field and a place I cherished deeply.",
+    "implicit_text": "The later name for the ballpark known as Holland Field was Texas League Park, where the Oklahoma city minor league team played baseball. I was there every night as a kid, soaking in the games and the atmosphere. It was my baseball home field and a place I cherished deeply.",
+    "cues": [
+      "baseball park",
+      "Oklahoma City",
+      "Oklahoma City Indians",
+      "childhood"
+    ],
+    "transcript_ref": "regional\\voices_of_oklahoma\\vok_barry-sr-bob.yaml"
+  },
+  {
+    "entity_id": 18,
+    "entity": "Cleveland Indians",
+    "explicit_text": "The Oklahoma City Indians were the farm team for the Cleveland Indians, so I followed some players who went on to the majors. I remember watching players like Al Rosen and Paul Easterling before they became well known. The connection to Cleveland Indians made the minor league games even more exciting for me.",
+    "implicit_text": "The local minor league team was the farm team for a major league team from Cleveland, so I followed some players who went on to the majors. I remember watching players like Al Rosen and Paul Easterling before they became well known. The connection to that major league team made the minor league games even more exciting for me.",
+    "cues": [
+      "major league baseball",
+      "farm team",
+      "players",
+      "baseball"
+    ],
+    "transcript_ref": "regional\\voices_of_oklahoma\\vok_barry-sr-bob.yaml"
+  },
+  {
+    "entity_id": 19,
+    "entity": "Al Rosen",
+    "explicit_text": "Al Rosen was one of the standout players I saw when watching the Oklahoma City Indians. I even had an Al Rosen baseball card as a kid. He was a big star and one of the players who made a lasting impression on me during those minor league games.",
+    "implicit_text": "One of the standout players I saw when watching the Oklahoma city minor league team was a future star who had a baseball card I treasured as a kid. He was a big star and one of the players who made a lasting impression on me during those minor league games.",
+    "cues": [
+      "baseball player",
+      "Oklahoma City Indians",
+      "childhood",
+      "baseball card"
+    ],
+    "transcript_ref": "regional\\voices_of_oklahoma\\vok_barry-sr-bob.yaml"
+  },
+  {
+    "entity_id": 20,
+    "entity": "Paul Easterling",
+    "explicit_text": "Paul Easterling was another player I remember from the Oklahoma City Indians. He was part of the team before integration and before I was old enough to know about the black players. Watching him play was part of my early baseball experiences.",
+    "implicit_text": "Another player I remember from the Oklahoma city minor league team was part of the team before integration and before I was old enough to know about the black players. Watching him play was part of my early baseball experiences.",
+    "cues": [
+      "baseball player",
+      "Oklahoma City Indians",
+      "childhood"
+    ],
+    "transcript_ref": "regional\\voices_of_oklahoma\\vok_barry-sr-bob.yaml"
+  },
+  {
+    "entity_id": 21,
+    "entity": "Rogers Hornsby",
+    "explicit_text": "Rogers Hornsby briefly managed the Oklahoma City Indians while I was about 10 years old. He was a legendary player but not a successful manager for the team. I saw him every night at the games, and it was clear he struggled with managing minor league players.",
+    "implicit_text": "A legendary player who briefly managed the Oklahoma city minor league team when I was about 10 years old was there every night at the games. Although famous as a player, he was not a successful manager for the team. It was clear he struggled with managing minor league players.",
+    "cues": [
+      "manager",
+      "Oklahoma City Indians",
+      "childhood",
+      "baseball"
+    ],
+    "transcript_ref": "regional\\voices_of_oklahoma\\vok_barry-sr-bob.yaml"
+  },
+  {
+    "entity_id": 22,
+    "entity": "Tinker Air Force Base",
+    "explicit_text": "During World War II, my dad and I played music at Tinker Air Force Base in Oklahoma City. We performed for the workers building airplanes to help boost their spirits. It was a meaningful way for us to contribute to the war effort through music.",
+    "implicit_text": "During World War II, my dad and I played music at the air force base in Oklahoma city. We performed for the workers building airplanes to help boost their spirits. It was a meaningful way for us to contribute to the war effort through music.",
+    "cues": [
+      "World War II",
+      "music performances",
+      "Oklahoma City",
+      "airplane production"
+    ],
+    "transcript_ref": "regional\\voices_of_oklahoma\\vok_barry-sr-bob.yaml"
+  },
+  {
+    "entity_id": 23,
+    "entity": "Musicians Union",
+    "explicit_text": "I joined the Musicians Union in Oklahoma City as a drummer and played with dance bands for many years. This was a big part of my adult life and helped me support my family, even putting my kids through college. Music was a passion I inherited from my father and carried on professionally.",
+    "implicit_text": "I joined the local musicians union in Oklahoma city as a drummer and played with dance bands for many years. This was a big part of my adult life and helped me support my family, even putting my kids through college. Music was a passion I inherited from my father and carried on professionally.",
+    "cues": [
+      "professional music",
+      "Oklahoma City",
+      "drummer",
+      "family support"
+    ],
+    "transcript_ref": "regional\\voices_of_oklahoma\\vok_barry-sr-bob.yaml"
+  },
+  {
+    "entity_id": 24,
+    "entity": "Channel 4 (Oklahoma City)",
+    "explicit_text": "My younger son, Bobby, works at Channel 4 in Oklahoma City and does a great job there. It’s nice to see him succeed in broadcasting, which is different from my musical background but still connected to media. Channel 4 is part of my family’s current story in Oklahoma City.",
+    "implicit_text": "My younger son, Bobby, works at the local television station Channel 4 in Oklahoma city and does a great job there. It’s nice to see him succeed in broadcasting, which is different from my musical background but still connected to media. That station is part of my family’s current story in Oklahoma city.",
+    "cues": [
+      "son's career",
+      "Oklahoma City",
+      "broadcasting",
+      "family"
+    ],
+    "transcript_ref": "regional\\voices_of_oklahoma\\vok_barry-sr-bob.yaml"
+  },
+  {
+    "entity_id": 25,
+    "entity": "December 7, 1941",
+    "explicit_text": "I vividly remember December 7, 1941, the day of the Pearl Harbor attack. I was 10 years old and playing outside with my neighbor when we heard about the airplane that might be bombing us. I went inside to find my dad listening anxiously to the Philco radio trying to understand what was happening. That day marked a turning point in my childhood and the start of the U.S. involvement in World War II.",
+    "implicit_text": "I vividly remember the day of the Pearl Harbor attack. I was 10 years old and playing outside with my neighbor when we heard about the airplane that might be bombing us. I went inside to find my dad listening anxiously to the large radio trying to understand what was happening. That day marked a turning point in my childhood and the start of the U.S. involvement in World War II.",
+    "cues": [
+      "age 10",
+      "Pearl Harbor attack",
+      "radio",
+      "Oklahoma City",
+      "neighbor"
+    ],
+    "transcript_ref": "regional\\voices_of_oklahoma\\vok_barry-sr-bob.yaml"
+  },
+  {
+    "entity_id": 26,
+    "entity": "Pearl Harbor attack",
+    "explicit_text": "The Pearl Harbor attack on December 7, 1941, is etched in my memory. I was just a boy playing outside when the news broke, and my family gathered around the radio to listen. It was a frightening and uncertain time that changed everything, including my brother going off to war. The attack brought the war home to Oklahoma City in a very real way.",
+    "implicit_text": "The surprise attack on the naval base in Hawaii on December 7, 1941, is etched in my memory. I was just a boy playing outside when the news broke, and my family gathered around the radio to listen. It was a frightening and uncertain time that changed everything, including my brother going off to war. The attack brought the war home to Oklahoma city in a very real way.",
+    "cues": [
+      "December 7, 1941",
+      "radio",
+      "family reaction",
+      "brother's service",
+      "World War II"
+    ],
+    "transcript_ref": "regional\\voices_of_oklahoma\\vok_barry-sr-bob.yaml"
+  },
+  {
+    "entity_id": 27,
+    "entity": "Bill Stern",
+    "explicit_text": "Bill Stern was one of the famous radio play-by-play announcers I listened to while I was bedridden after my accident at age 7. With no TV, radio announcers like him became my connection to the outside world and fueled my love for baseball and sports broadcasting. His voice was a big part of my childhood entertainment and inspiration.",
+    "implicit_text": "One of the famous radio play-by-play announcers I listened to while I was bedridden after my accident at age 7 became my connection to the outside world. With no TV, announcers like him fueled my love for baseball and sports broadcasting. His voice was a big part of my childhood entertainment and inspiration.",
+    "cues": [
+      "radio announcer",
+      "childhood",
+      "baseball",
+      "accident recovery"
+    ],
+    "transcript_ref": "regional\\voices_of_oklahoma\\vok_barry-sr-bob.yaml"
+  },
+  {
+    "entity_id": 28,
+    "entity": "Coca-Cola Bottling Company",
+    "explicit_text": "In the 1930s, I used to buy fruit drinks from the Coca-Cola Bottling Company to sell at our pop-stand in the front yard. I loved strawberry pop and would sometimes borrow money from neighbors to get more. The Coca-Cola Bottling Company was part of my childhood neighborhood life and small entrepreneurial adventures.",
+    "implicit_text": "In the 1930s, I used to buy fruit drinks from the local bottling company of a famous soda brand to sell at our pop-stand in the front yard. I loved strawberry pop and would sometimes borrow money from neighbors to get more. That bottling company was part of my childhood neighborhood life and small entrepreneurial adventures.",
+    "cues": [
+      "1930s",
+      "childhood",
+      "pop-stand",
+      "Oklahoma City"
+    ],
+    "transcript_ref": "regional\\voices_of_oklahoma\\vok_barry-sr-bob.yaml"
+  },
+  {
+    "entity_id": 29,
+    "entity": "Philco",
+    "explicit_text": "Philco was the brand of the large radio my family had at home before TV. On December 7, 1941, my dad was glued to that Philco radio trying to understand the Pearl Harbor attack. That radio was central to how we received news and entertainment during my childhood.",
+    "implicit_text": "The brand of the large radio my family had at home before TV was central to how we received news and entertainment during my childhood. On December 7, 1941, my dad was glued to that radio trying to understand the Pearl Harbor attack. That radio was a key part of our household during those years.",
+    "cues": [
+      "radio",
+      "Pearl Harbor",
+      "family",
+      "1940s"
+    ],
+    "transcript_ref": "regional\\voices_of_oklahoma\\vok_barry-sr-bob.yaml"
+  },
+  {
+    "entity_id": 30,
+    "entity": "Curt Gowdy",
+    "explicit_text": "Curt Gowdy was one of the great play-by-play announcers I listened to on the radio while I was recovering from my accident. His broadcasts helped me stay connected to baseball and fueled my passion for the sport. He was part of the golden era of sports radio that shaped my youth.",
+    "implicit_text": "One of the great play-by-play announcers I listened to on the radio while I was recovering from my accident helped me stay connected to baseball and fueled my passion for the sport. He was part of the golden era of sports radio that shaped my youth.",
+    "cues": [
+      "radio announcer",
+      "baseball",
+      "childhood",
+      "accident recovery"
+    ],
+    "transcript_ref": "regional\\voices_of_oklahoma\\vok_barry-sr-bob.yaml"
+  },
+  {
+    "entity_id": 31,
+    "entity": "Edmond, Oklahoma",
+    "explicit_text": "Edmond, Oklahoma, was not directly mentioned in my story, but it’s part of the greater Oklahoma City area where I grew up and lived. My experiences are rooted mostly in Oklahoma City itself, but Edmond is nearby and part of the region I know well.",
+    "implicit_text": "This nearby city was not directly mentioned in my story, but it’s part of the greater metropolitan area where I grew up and lived. My experiences are rooted mostly in the main city itself, but this neighboring city is nearby and part of the region I know well.",
+    "cues": [
+      "Oklahoma region",
+      "proximity"
+    ],
+    "transcript_ref": "regional\\voices_of_oklahoma\\vok_barry-sr-bob.yaml"
+  },
+  {
+    "entity_id": 32,
+    "entity": "Broadway",
+    "explicit_text": "I remember hearing about the end of World War II while I was sick in bed, listening to the celebrations on the radio from Broadway and New York City. The sounds of Broadway’s celebrations symbolized the victory and relief felt across the nation. Broadway represented the joyous end of a long and difficult war.",
+    "implicit_text": "I remember hearing about the end of World War II while I was sick in bed, listening to the celebrations on the radio from the famous theater district in New York City. The sounds of those celebrations symbolized the victory and relief felt across the nation. That theater district represented the joyous end of a long and difficult war.",
+    "cues": [
+      "end of World War II",
+      "radio",
+      "celebrations",
+      "Broadway",
+      "New York City"
+    ],
+    "transcript_ref": "regional\\voices_of_oklahoma\\vok_barry-sr-bob.yaml"
+  },
+  {
+    "entity_id": 33,
+    "entity": "New York City",
+    "explicit_text": "New York City was where the big celebrations happened at the end of World War II, which I heard about on the radio while I was home sick. The city’s jubilant atmosphere was broadcast nationwide and brought hope and happiness to people like me in Oklahoma City. It was a symbol of victory and peace returning to the world.",
+    "implicit_text": "The big celebrations at the end of World War II happened in the largest city in the United States, which I heard about on the radio while I was home sick. The city’s jubilant atmosphere was broadcast nationwide and brought hope and happiness to people like me in Oklahoma city. It was a symbol of victory and peace returning to the world.",
+    "cues": [
+      "end of World War II",
+      "radio",
+      "celebrations",
+      "Broadway",
+      "victory"
+    ],
+    "transcript_ref": "regional\\voices_of_oklahoma\\vok_barry-sr-bob.yaml"
+  }
+]

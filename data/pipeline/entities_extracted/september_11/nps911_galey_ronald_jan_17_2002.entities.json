@@ -1,0 +1,428 @@
+[
+  {
+    "id": 1,
+    "entity": "World Trade Center",
+    "type": "Place",
+    "surface_forms": [
+      "World Trade Center",
+      "Trade Center"
+    ],
+    "wikipedia_title": "World_Trade_Center_(1973–2001)",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/World_Trade_Center_(1973–2001)",
+    "wikidata_qid": "Q11235",
+    "aliases": [
+      "WTC",
+      "Original World Trade Center",
+      "World Trade Center (1973–2001)"
+    ],
+    "description": "former skyscraper complex in Manhattan, New York (1968-2001)",
+    "description_wiki": "The original World Trade Center (WTC) was a complex of seven buildings in the Financial District of Lower Manhattan in New York City."
+  },
+  {
+    "id": 2,
+    "entity": "Pentagon",
+    "type": "Place",
+    "surface_forms": [
+      "Pentagon"
+    ],
+    "wikipedia_title": "The_Pentagon",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/The_Pentagon",
+    "wikidata_qid": "Q11208",
+    "aliases": [
+      "Pentagon",
+      "Headquarters of the United States Department of Defense",
+      "Pentagon Office Building Complex",
+      "Headquarters of the United States Department of War (2025–present)",
+      "Headquarters of the United States Department of Defense (1947–2025)",
+      "Headquarters of the United States Department of War (1789–1947)"
+    ],
+    "description": "headquarters of the United States Department of Defense; named after the shape of the building, a polygon with five (greek: penta) sides",
+    "description_wiki": "The Pentagon is the headquarters of the United States Department of Defense, in Arlington County, Virginia, across the Potomac River from Washington, D.C. The building was constructed on an accelerated schedule during World War II. As a symbol of the U.S. military, the phrase The Pentagon is often used as a metonym for the Department of Defense and its leadership."
+  },
+  {
+    "id": 3,
+    "entity": "NORAD",
+    "type": "Organization",
+    "surface_forms": [
+      "NORAD"
+    ],
+    "wikipedia_title": "North_American_Aerospace_Defense_Command",
+    "wikipedia_url": "",
+    "wikidata_qid": "Q748010",
+    "aliases": [
+      "NORAD",
+      "North American Air Defense Command"
+    ],
+    "description": "combined organization of the US and Canada providing air defence for North America",
+    "description_wiki": ""
+  },
+  {
+    "id": 4,
+    "entity": "Pennsylvania",
+    "type": "Place",
+    "surface_forms": [
+      "Pennsylvania"
+    ],
+    "wikipedia_title": "Pennsylvania",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Pennsylvania",
+    "wikidata_qid": "Q1400",
+    "aliases": [
+      "Commonwealth of Pennsylvania",
+      "PA",
+      "Keystone State",
+      "Penna.",
+      "Pennsylvania, United States",
+      "State of Pennsylvania",
+      "Pa.",
+      "US-PA"
+    ],
+    "description": "state of the United States of America",
+    "description_wiki": "Pennsylvania, officially the Commonwealth of Pennsylvania, is a U.S. state located in the Mid-Atlantic, Northeastern, Appalachian, and Great Lakes regions of the United States."
+  },
+  {
+    "id": 5,
+    "entity": "Arlington County Fire Department",
+    "type": "Organization",
+    "surface_forms": [
+      "Arlington County Fire Department"
+    ],
+    "wikipedia_title": "Arlington_Fire_Department",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Arlington_Fire_Department"
+  },
+  {
+    "id": 6,
+    "entity": "FBI",
+    "type": "Organization",
+    "surface_forms": [
+      "FBI"
+    ],
+    "wikipedia_title": "Federal_Bureau_of_Investigation",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Federal_Bureau_of_Investigation",
+    "wikidata_qid": "Q8333",
+    "aliases": [],
+    "description": "U.S. federal law enforcement agency",
+    "description_wiki": "The Federal Bureau of Investigation (FBI) is the domestic intelligence and security service of the United States and its principal federal law enforcement agency."
+  },
+  {
+    "id": 7,
+    "entity": "Secret Service",
+    "type": "Organization",
+    "surface_forms": [
+      "Secret Service"
+    ],
+    "wikipedia_title": "United_States_Secret_Service",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/United_States_Secret_Service",
+    "wikidata_qid": "Q503224",
+    "aliases": [
+      "USSS",
+      "US Secret Service",
+      "U.S. Secret Service",
+      "Secret Service"
+    ],
+    "description": "U.S. federal law enforcement agency",
+    "description_wiki": "The United States Secret Service (USSS or Secret Service) is a federal law enforcement agency under the United States Department of Homeland Security."
+  },
+  {
+    "id": 8,
+    "entity": "Department of Defense",
+    "type": "Organization",
+    "surface_forms": [
+      "Department of Defense",
+      "Secretary of Defense's office"
+    ],
+    "wikipedia_title": "United_States_Department_of_Defense",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/United_States_Department_of_Defense",
+    "wikidata_qid": "Q11209",
+    "aliases": [
+      "Pentagon",
+      "Department of War",
+      "US Department of War",
+      "DOW",
+      "US DOW",
+      "U.S. DOD",
+      "U.S. DOW",
+      "DoW",
+      "USDOW",
+      "War Department"
+    ],
+    "description": "The United States Department of War was a cabinet department that managed and oversaw the United States Army.",
+    "description_wiki": "The United States Department of Defense (DOD), also referred to as the Department of War (DOW), is an executive department of the United States federal government charged with coordinating and supervising the United States Armed Forces—the Army, Navy, Marines, Air Force, Space Force, and, for some purposes, the Coast Guard—and related functions and agencies."
+  },
+  {
+    "id": 9,
+    "entity": "White House",
+    "type": "Place",
+    "surface_forms": [
+      "White House"
+    ],
+    "wikipedia_title": "White_House",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/White_House",
+    "wikidata_qid": "Q35525",
+    "aliases": [
+      "Executive Mansion",
+      "President's Palace",
+      "Presidential Mansion",
+      "President's House",
+      "the White House",
+      "1600 Pennsylvania Avenue"
+    ],
+    "description": "official residence and office of the President of the United States",
+    "description_wiki": "The White House is the official residence and workplace of the President of the United States."
+  },
+  {
+    "id": 10,
+    "entity": "United States Capitol",
+    "type": "Place",
+    "surface_forms": [
+      "Capitol"
+    ],
+    "wikipedia_title": "United_States_Capitol",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/United_States_Capitol",
+    "wikidata_qid": "Q54109",
+    "aliases": [
+      "US Capitol",
+      "Capitol",
+      "US Capitol Building",
+      "United States Capitol building",
+      "Punchbowl",
+      "U.S. Capitol",
+      "Capitol building",
+      "U.S. Capitol Building"
+    ],
+    "description": "meeting place of the United States Congress",
+    "description_wiki": "The United States Capitol, often called the Capitol or the Capitol Building, is the seat of the United States Congress, the legislative branch of the federal government."
+  },
+  {
+    "id": 11,
+    "entity": "Arlington National Cemetery",
+    "type": "Place",
+    "surface_forms": [
+      "Arlington Cemetery"
+    ],
+    "wikipedia_title": "Arlington_National_Cemetery",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Arlington_National_Cemetery",
+    "wikidata_qid": "Q216344",
+    "aliases": [],
+    "description": "national cemetery in Virginia, United States",
+    "description_wiki": "Arlington National Cemetery is the largest cemetery in the United States National Cemetery System, one of two maintained by the United States Army."
+  },
+  {
+    "id": 12,
+    "entity": "Mount Vernon",
+    "type": "Place",
+    "surface_forms": [
+      "Mount Vernon"
+    ],
+    "wikipedia_title": "Mount_Vernon",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Mount_Vernon",
+    "wikidata_qid": "Q731635",
+    "aliases": [
+      "Mount Vernon Estate",
+      "Mount Vernon Estate & Gardens",
+      "Epsewasson",
+      "Little Hunting Creek Plantation",
+      "Mansion House Farm",
+      "George Washington's Mount Vernon"
+    ],
+    "description": "plantation estate of George Washington, in Fairfax County, Virginia, United States",
+    "description_wiki": "Mount Vernon is the former residence and plantation of George Washington, a Founding Father, commander of the Continental Army in the Revolutionary War, and the first president of the United States, and his wife, Martha."
+  },
+  {
+    "id": 13,
+    "entity": "Joint Operations Center",
+    "type": "Organization",
+    "surface_forms": [
+      "Joint Operations Center",
+      "JOC"
+    ],
+    "wikipedia_title": "Joint_operations_center",
+    "wikipedia_url": "",
+    "wikidata_qid": "Q64185910",
+    "aliases": [],
+    "description": "series in the National Archives and Records Administration's holdings",
+    "description_wiki": ""
+  },
+  {
+    "id": 14,
+    "entity": "Richmond, Virginia",
+    "type": "Place",
+    "surface_forms": [
+      "Richmond"
+    ],
+    "wikipedia_title": "Richmond,_Virginia",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Richmond,_Virginia",
+    "wikidata_qid": "Q43421",
+    "aliases": [
+      "Richmond, Virginia",
+      "Richmond, VA",
+      "Richmond City"
+    ],
+    "description": "capital city of Virginia, United States of America",
+    "description_wiki": "Richmond (, RITCH-mənd) is the capital city of the U.S. state of Virginia."
+  },
+  {
+    "id": 15,
+    "entity": "Frederick, Maryland",
+    "type": "Place",
+    "surface_forms": [
+      "Frederick, Maryland",
+      "Frederick"
+    ],
+    "wikipedia_title": "Frederick,_Maryland",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Frederick,_Maryland",
+    "wikidata_qid": "Q472675",
+    "aliases": [
+      "Frederick, Maryland",
+      "Frederick, MD"
+    ],
+    "description": "city in Frederick County, Maryland, United States",
+    "description_wiki": "Frederick is a city in and the county seat of Frederick County, Maryland, United States."
+  },
+  {
+    "id": 16,
+    "entity": "Maryland",
+    "type": "Place",
+    "surface_forms": [
+      "Maryland"
+    ],
+    "wikipedia_title": "Maryland",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Maryland",
+    "wikidata_qid": "Q1391",
+    "aliases": [
+      "State of Maryland",
+      "Maryland, United States",
+      "MD",
+      "Md.",
+      "Old Line State",
+      "US-MD"
+    ],
+    "description": "state of the United States of America",
+    "description_wiki": "Maryland (US:  ) is a state in the Mid-Atlantic and Southeastern regions of the United States."
+  },
+  {
+    "id": 17,
+    "entity": "81st Airborne Division",
+    "type": "Military_Unit",
+    "surface_forms": [
+      "81st Airborne"
+    ],
+    "wikipedia_title": "81st_Airborne_Division",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/81st_Airborne_Division"
+  },
+  {
+    "id": 18,
+    "entity": "Green Berets",
+    "type": "Military_Unit",
+    "surface_forms": [
+      "Green Beret Commander"
+    ],
+    "wikipedia_title": "Green_Beret",
+    "wikipedia_url": "",
+    "wikidata_qid": "Q482421",
+    "aliases": [
+      "Green Berets",
+      "U.S. Army Special Forces"
+    ],
+    "description": "US Army special operations force",
+    "description_wiki": ""
+  },
+  {
+    "id": 19,
+    "entity": "Lincoln Memorial",
+    "type": "Place",
+    "surface_forms": [
+      "Lincoln Memorial"
+    ],
+    "wikipedia_title": "Lincoln_Memorial",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Lincoln_Memorial",
+    "wikidata_qid": "Q213559",
+    "aliases": [
+      "LINC"
+    ],
+    "description": "memorial in Washington, D.C., United States",
+    "description_wiki": "The Lincoln Memorial is  a U.S. national memorial honoring Abraham Lincoln, the 16th president of the United States, located on the western end of the National Mall of Washington, D.C. The memorial is built in a neoclassical style in the form of a classical temple."
+  },
+  {
+    "id": 20,
+    "entity": "Jefferson Memorial",
+    "type": "Place",
+    "surface_forms": [
+      "Jefferson Memorial"
+    ],
+    "wikipedia_title": "Jefferson_Memorial",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Jefferson_Memorial",
+    "wikidata_qid": "Q326183",
+    "aliases": [
+      "Thomas Jefferson Memorial",
+      "JEFM",
+      "THJE"
+    ],
+    "description": "memorial in Washington, D.C., United States",
+    "description_wiki": "The Thomas Jefferson Memorial is a national memorial in Washington, D.C., built in honor of Thomas Jefferson, the principal author of the United States Declaration of Independence and the nation's third president."
+  },
+  {
+    "id": 21,
+    "entity": "Franklin Delano Roosevelt Memorial",
+    "type": "Place",
+    "surface_forms": [
+      "Roosevelt Memorial",
+      "Roosevelt"
+    ],
+    "wikipedia_title": "Franklin_Delano_Roosevelt_Memorial",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Franklin_Delano_Roosevelt_Memorial",
+    "wikidata_qid": "Q592198",
+    "aliases": [
+      "FRDE",
+      "FDR Memorial"
+    ],
+    "description": "national memorial honoring Franklin Delano Roosevelt",
+    "description_wiki": "The Franklin Delano Roosevelt Memorial is a presidential memorial in Washington D.C., dedicated to the memory of Franklin Delano Roosevelt, the 32nd president of the United States, and to the era he represents."
+  },
+  {
+    "id": 22,
+    "entity": "Washington Monument",
+    "type": "Place",
+    "surface_forms": [
+      "Washington Monument"
+    ],
+    "wikipedia_title": "Washington_Monument",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Washington_Monument",
+    "wikidata_qid": "Q178114",
+    "aliases": [
+      "WAMO",
+      "Washington National Monument"
+    ],
+    "description": "obelisk on the National Mall in Washington, D.C.",
+    "description_wiki": "The Washington Monument is a 555-foot (169 m) tall obelisk on the National Mall in Washington, D.C., built to commemorate George Washington, a Founding Father of the United States and the nation's first president."
+  },
+  {
+    "id": 23,
+    "entity": "September 11 attacks",
+    "type": "Event",
+    "surface_forms": [
+      "11th",
+      "the 11th",
+      "September 11th",
+      "Pentagon attack",
+      "the scenario",
+      "the event"
+    ],
+    "wikipedia_title": "September_11_attacks",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/September_11_attacks",
+    "wikidata_qid": "Q10806",
+    "aliases": [
+      "September 11",
+      "11 September",
+      "11 September 2001",
+      "September 11, 2001",
+      "9/11",
+      "911",
+      "11 September Attacks",
+      "September 11th Attacks",
+      "9/11 Attacks",
+      "September 11, 2001 terrorist attacks"
+    ],
+    "description": "2001 attacks in the United States",
+    "description_wiki": "The September 11 attacks, colloquially known as 9/11, were a coordinated series of suicide attacks perpetrated by the Islamist terrorist organization al-Qaeda against the United States in 2001."
+  }
+]

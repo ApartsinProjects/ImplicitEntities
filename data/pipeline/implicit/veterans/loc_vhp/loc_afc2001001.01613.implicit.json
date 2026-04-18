@@ -1,0 +1,268 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "Louisville, Kentucky",
+    "explicit_text": "I left from Louisville, Kentucky when I was inducted into the Army. That’s where I went for my induction process before heading to basic training. Louisville was the starting point of my military journey, and I remember them telling me they’d see me in a month or so. It was a big moment leaving home from there.",
+    "implicit_text": "I left from the largest city in Kentucky when I was inducted into the Army. That’s where I went for my induction process before heading to basic training. That city was the starting point of my military journey, and I remember them telling me they’d see me in a month or so. It was a big moment leaving home from there.",
+    "cues": [
+      "induction",
+      "basic training",
+      "military start",
+      "home"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.01613.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "United States Air Force",
+    "explicit_text": "I had hoped to join the United States Air Force because I thought their training would be more applicable to civilian life. An Air Force doctor even examined my knees and asked why I was in the Army, suggesting I might have had better luck getting into the Air Force. But ultimately, I ended up in the Army and not the Air Force. I also knew a guy from Newburgh, Indiana who had been in the Air Force before joining the Army and volunteering for Vietnam.",
+    "implicit_text": "I had hoped to join the branch of the military known for its air and space operations because I thought their training would be more applicable to civilian life. An Air Force doctor even examined my knees and asked why I was in the Army, suggesting I might have had better luck getting into that air-focused service. But ultimately, I ended up in the Army and not that other branch. I also knew a guy from Newburgh, Indiana who had been in that air service before joining the Army and volunteering for Vietnam.",
+    "cues": [
+      "Air Force doctor",
+      "training applicability",
+      "Newburgh, Indiana",
+      "Vietnam volunteer"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.01613.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "Fort Knox",
+    "explicit_text": "I took my basic training at Fort Knox, which was a mix of National Guard and regular Army trainees. After basic, I stayed at Fort Knox for reconnaissance scout training, which was very tough and demanding. Fort Knox was where I learned vital skills like map reading, camouflage, and artillery adjustment. It was a key place in my military preparation before going overseas.",
+    "implicit_text": "I took my basic training at the Army post famous for its armored and cavalry training, which was a mix of National Guard and regular Army trainees. After basic, I stayed there for reconnaissance scout training, which was very tough and demanding. That post was where I learned vital skills like map reading, camouflage, and artillery adjustment. It was a key place in my military preparation before going overseas.",
+    "cues": [
+      "basic training",
+      "reconnaissance scout training",
+      "map reading",
+      "artillery adjustment"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.01613.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "Fort Bliss",
+    "explicit_text": "I was originally scheduled to go to Fort Bliss, Texas, for missile school after basic training. However, during training, I got a foot infection from the rain and couldn’t transfer until my profile expired. Eventually, my orders to Fort Bliss were pulled, and I stayed at Fort Knox instead for reconnaissance scout training. So, I never actually went to Fort Bliss.",
+    "implicit_text": "I was originally scheduled to go to the large Army installation in Texas known for missile training after basic training. However, during training, I got a foot infection from the rain and couldn’t transfer until my profile expired. Eventually, my orders to that Texas post were pulled, and I stayed at the Kentucky post instead for reconnaissance scout training. So, I never actually went to that Texas base.",
+    "cues": [
+      "missile school",
+      "foot infection",
+      "order pulled",
+      "Fort Knox stay"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.01613.yaml"
+  },
+  {
+    "entity_id": 5,
+    "entity": "Newburgh, Indiana",
+    "explicit_text": "I remember a guy from Newburgh, Indiana, who had previously served in the Air Force and then joined the Army. He volunteered to go to Vietnam but was instead sent to Germany, which I thought was ironic. He was one of the few people I knew personally who had a strong desire to serve in Vietnam. Newburgh was mentioned in connection with his military path.",
+    "implicit_text": "I remember a guy from a small Indiana town near the Ohio River who had previously served in the air service and then joined the Army. He volunteered to go to Vietnam but was instead sent to Germany, which I thought was ironic. He was one of the few people I knew personally who had a strong desire to serve in Vietnam. That Indiana town was mentioned in connection with his military path.",
+    "cues": [
+      "Air Force veteran",
+      "volunteered for Vietnam",
+      "sent to Germany",
+      "personal acquaintance"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.01613.yaml"
+  },
+  {
+    "entity_id": 6,
+    "entity": "World War II",
+    "explicit_text": "My father was a World War II veteran who landed at Omaha Beach on D-Day. He didn’t talk much about his experiences, but I learned a lot from my mom and from Time Life books on World War II that I got after I married. My dad would sometimes point out his unit insignia in photos and tell me about being in Luxembourg and Germany. His service shaped some of my views on military duty.",
+    "implicit_text": "My father was a veteran of the global conflict from 1939 to 1945 who landed at Omaha Beach on D-Day. He didn’t talk much about his experiences, but I learned a lot from my mom and from a well-known series of history books on that war that I got after I married. My dad would sometimes point out his unit insignia in photos and tell me about being in Luxembourg and Germany. His service shaped some of my views on military duty.",
+    "cues": [
+      "father's service",
+      "Omaha Beach",
+      "D-Day",
+      "Luxembourg",
+      "Germany",
+      "Time Life books"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.01613.yaml"
+  },
+  {
+    "entity_id": 7,
+    "entity": "Omaha Beach",
+    "explicit_text": "Omaha Beach was where my father landed during World War II on D-Day. He carried shrapnel from that battle and had firsthand recollections, though he rarely spoke about it. I only really understood the significance of Omaha Beach because of a schoolteacher who also participated in D-Day and would talk about it at school assemblies. Omaha Beach was a key part of my dad’s military story.",
+    "implicit_text": "The beach where my father landed during the 1944 Normandy invasion was Omaha Beach. He carried shrapnel from that battle and had firsthand recollections, though he rarely spoke about it. I only really understood the significance of that landing site because of a schoolteacher who also participated in the invasion and would talk about it at school assemblies. That beach was a key part of my dad’s military story.",
+    "cues": [
+      "father's landing",
+      "D-Day",
+      "school assemblies",
+      "shrapnel injury"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.01613.yaml"
+  },
+  {
+    "entity_id": 8,
+    "entity": "D-Day",
+    "explicit_text": "D-Day was a significant event in my father’s life during World War II when he landed at Omaha Beach. He was on the third wave, and a schoolteacher who spoke at our school was on the seventeenth wave, which created some tension. My father didn’t glorify his experience but it was clear it affected him deeply. D-Day was a defining moment in his military service and influenced my understanding of war.",
+    "implicit_text": "The Allied invasion of Normandy was a significant event in my father’s life during the Second World War when he landed at Omaha Beach. He was on the third wave, and a schoolteacher who spoke at our school was on the seventeenth wave, which created some tension. My father didn’t glorify his experience but it was clear it affected him deeply. That invasion day was a defining moment in his military service and influenced my understanding of war.",
+    "cues": [
+      "father's landing",
+      "Omaha Beach",
+      "third wave",
+      "schoolteacher",
+      "World War II"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.01613.yaml"
+  },
+  {
+    "entity_id": 9,
+    "entity": "Luxembourg",
+    "explicit_text": "My father was stationed in Luxembourg during World War II, and he would sometimes point out where he had been on a map or in photos. He didn’t talk much about it, but I knew he was there from what he shared and from my mom’s stories. Luxembourg was part of the European theater where he served before moving on to Germany. It was a piece of his military journey I came to appreciate later.",
+    "implicit_text": "My father was stationed in the small European country between Belgium, France, and Germany during World War II, and he would sometimes point out where he had been on a map or in photos. He didn’t talk much about it, but I knew he was there from what he shared and from my mom’s stories. That country was part of the European theater where he served before moving on to Germany. It was a piece of his military journey I came to appreciate later.",
+    "cues": [
+      "father's service",
+      "World War II",
+      "map pointing",
+      "European theater"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.01613.yaml"
+  },
+  {
+    "entity_id": 10,
+    "entity": "Germany",
+    "explicit_text": "Germany was another place where my father served during World War II after Luxembourg. He would sometimes point out locations on maps or in books, showing me where he had been. I learned about his time in Germany mostly through my mom and later through reading Time Life books on the war. Germany was part of the path he took during his military service.",
+    "implicit_text": "Germany was another place where my father served during World War II after his time in Luxembourg. He would sometimes point out locations on maps or in books, showing me where he had been. I learned about his time in Germany mostly through my mom and later through reading a popular series of books on the war. Germany was part of the path he took during his military service.",
+    "cues": [
+      "father's service",
+      "World War II",
+      "map pointing",
+      "Time Life books"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.01613.yaml"
+  },
+  {
+    "entity_id": 11,
+    "entity": "Time Life",
+    "explicit_text": "After I got married, I bought the Time Life books on World War II, which helped me understand my father’s experiences better. He would come over and look at the pictures, sometimes pointing out his unit insignia or where he had been. Those books were a valuable resource for connecting with my dad’s past and learning more about the war. Time Life helped me bridge the gap in stories my father rarely shared.",
+    "implicit_text": "After I got married, I bought a well-known series of illustrated history books on World War II, which helped me understand my father’s experiences better. He would come over and look at the pictures, sometimes pointing out his unit insignia or where he had been. Those books were a valuable resource for connecting with my dad’s past and learning more about the war. That series helped me bridge the gap in stories my father rarely shared.",
+    "cues": [
+      "World War II books",
+      "father's stories",
+      "unit insignia",
+      "historical context"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.01613.yaml"
+  },
+  {
+    "entity_id": 12,
+    "entity": "Vietnam War",
+    "explicit_text": "I was drafted during the Vietnam War and eventually sent there after my training. The war wasn’t openly discussed much at my school or in my community, though there were some casualties and a few people I knew who served. I trained as a reconnaissance scout and went through Vietnam-specific training before deployment. My time in Vietnam was a defining part of my military service and life experience.",
+    "implicit_text": "I was drafted during the conflict in Southeast Asia and eventually sent there after my training. The war wasn’t openly discussed much at my school or in my community, though there were some casualties and a few people I knew who served. I trained as a reconnaissance scout and went through Vietnam-specific training before deployment. My time in that war was a defining part of my military service and life experience.",
+    "cues": [
+      "drafted",
+      "training",
+      "reconnaissance scout",
+      "Vietnam-specific training",
+      "casualties"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.01613.yaml"
+  },
+  {
+    "entity_id": 13,
+    "entity": "Fort Knox Reconnaissance Scout Training",
+    "explicit_text": "At Fort Knox, I went through reconnaissance scout training, which was very demanding and covered a wide range of skills like camouflage, explosives, map reading, and artillery adjustment. The training emphasized stealth and intelligence gathering rather than direct fighting. We had to complete a tough final test involving a timed ten-mile run with various tasks. This training prepared me for the complex missions I would face in Vietnam.",
+    "implicit_text": "At the Kentucky Army post, I went through reconnaissance scout training, which was very demanding and covered a wide range of skills like camouflage, explosives, map reading, and artillery adjustment. The training emphasized stealth and intelligence gathering rather than direct fighting. We had to complete a tough final test involving a timed ten-mile run with various tasks. This training prepared me for the complex missions I would face in Vietnam.",
+    "cues": [
+      "Fort Knox",
+      "reconnaissance scout",
+      "camouflage",
+      "explosives",
+      "artillery",
+      "final test"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.01613.yaml"
+  },
+  {
+    "entity_id": 14,
+    "entity": "Oakland, California",
+    "explicit_text": "I flew out of Oakland, California when I left the United States for Vietnam. It was my first experience at O'Hare Airport, and luckily my mother’s second cousin was on the same flight, which helped me navigate the airport. We barely made our connecting flight, which was a bit stressful. Oakland was the departure point for my overseas deployment.",
+    "implicit_text": "I flew out of the major West Coast city in California when I left the United States for Vietnam. It was my first experience at the large Chicago airport, and luckily my mother’s second cousin was on the same flight, which helped me navigate the airport. We barely made our connecting flight, which was a bit stressful. That California city was the departure point for my overseas deployment.",
+    "cues": [
+      "departure",
+      "flight",
+      "O'Hare Airport",
+      "mother’s cousin",
+      "Vietnam deployment"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.01613.yaml"
+  },
+  {
+    "entity_id": 15,
+    "entity": "Evansville, Indiana",
+    "explicit_text": "My mother’s second cousin was traveling from Evansville, Indiana, to Green Bay, Wisconsin, for business and happened to be on the same flight out of Evansville as me. He helped me get through O'Hare Airport, which was a big help since I was unfamiliar with it. Evansville was the starting location for that part of my journey to Vietnam.",
+    "implicit_text": "My mother’s second cousin was traveling from a city in southwestern Indiana to a city in northeastern Wisconsin for business and happened to be on the same flight out of the Indiana city as me. He helped me get through the large Chicago airport, which was a big help since I was unfamiliar with it. That Indiana city was the starting location for that part of my journey to Vietnam.",
+    "cues": [
+      "mother’s cousin",
+      "flight",
+      "O'Hare Airport",
+      "travel assistance"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.01613.yaml"
+  },
+  {
+    "entity_id": 16,
+    "entity": "Green Bay, Wisconsin",
+    "explicit_text": "My mother’s second cousin was flying to Green Bay, Wisconsin, for business when he was on the same flight as me out of Evansville. He helped me navigate the airport during our layover at O'Hare. Green Bay was his destination, and it played a small but helpful role in my travel story to Vietnam.",
+    "implicit_text": "My mother’s second cousin was flying to a city in northeastern Wisconsin for business when he was on the same flight as me out of Indiana. He helped me navigate the airport during our layover at the large Chicago airport. That Wisconsin city was his destination, and it played a small but helpful role in my travel story to Vietnam.",
+    "cues": [
+      "flight",
+      "business trip",
+      "airport assistance",
+      "O'Hare layover"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.01613.yaml"
+  },
+  {
+    "entity_id": 17,
+    "entity": "O'Hare International Airport",
+    "explicit_text": "O'Hare International Airport was my first experience there during my trip to Vietnam. I had a tight connection and was unfamiliar with the airport, but my mother’s second cousin helped me get through it. We barely made the connecting flight, which was stressful but memorable. O'Hare was a key transit point on my way overseas.",
+    "implicit_text": "The large Chicago airport was my first experience there during my trip to Vietnam. I had a tight connection and was unfamiliar with the airport, but my mother’s second cousin helped me get through it. We barely made the connecting flight, which was stressful but memorable. That airport was a key transit point on my way overseas.",
+    "cues": [
+      "first experience",
+      "tight connection",
+      "mother’s cousin",
+      "flight connection"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.01613.yaml"
+  },
+  {
+    "entity_id": 18,
+    "entity": "Bien Hoa Air Base",
+    "explicit_text": "When I arrived in Vietnam, I landed at Bien Hoa Air Base, which was hot, dirty, and had mostly low buildings that looked like sheds or huts. The heat and smells hit you immediately, but you adjust quickly over time. Bien Hoa was my first impression of Vietnam and the place where I started my deployment. It was a tough environment but one I learned to live with.",
+    "implicit_text": "When I arrived in Vietnam, I landed at the air base near Saigon, which was hot, dirty, and had mostly low buildings that looked like sheds or huts. The heat and smells hit you immediately, but you adjust quickly over time. That base was my first impression of Vietnam and the place where I started my deployment. It was a tough environment but one I learned to live with.",
+    "cues": [
+      "arrival",
+      "hot climate",
+      "low buildings",
+      "adjustment",
+      "Vietnam deployment"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.01613.yaml"
+  },
+  {
+    "entity_id": 19,
+    "entity": "Long Binh",
+    "explicit_text": "Long Binh was one of the places mentioned in relation to my Vietnam service, though I didn’t elaborate much about it in the interview. It was part of the area where troops were stationed during the war. Long Binh was one of the key military locations I was connected to during my time in Vietnam.",
+    "implicit_text": "Long Binh was one of the places mentioned in relation to my Vietnam service, though I didn’t elaborate much about it in the interview. It was part of the area where troops were stationed during the war. That location was one of the key military sites I was connected to during my time in Vietnam.",
+    "cues": [
+      "Vietnam service",
+      "military location",
+      "troop station"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.01613.yaml"
+  },
+  {
+    "entity_id": 20,
+    "entity": "Nha Trang",
+    "explicit_text": "Nha Trang was another location associated with my service in Vietnam, though I didn’t go into detail about it in the interview. It was one of the places where American forces operated during the war. Nha Trang was part of the broader context of my deployment in Vietnam.",
+    "implicit_text": "Nha Trang was another location associated with my service in Vietnam, though I didn’t go into detail about it in the interview. It was one of the places where American forces operated during the war. That coastal city was part of the broader context of my deployment in Vietnam.",
+    "cues": [
+      "Vietnam service",
+      "military location",
+      "American forces"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.01613.yaml"
+  }
+]

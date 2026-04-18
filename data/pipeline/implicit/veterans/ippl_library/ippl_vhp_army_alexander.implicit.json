@@ -1,0 +1,380 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "Alabama",
+    "explicit_text": "I was living in Alabama before I entered the service, specifically in Talladega County. It was a rural area where I helped my father and a neighbor with farming. We mostly grew cotton, corn, and soybeans, and I also helped with cattle. After finishing school, I worked at a textile plant but it closed, so I decided to join the Army for better opportunities.",
+    "implicit_text": "I was living in a southern rural state before I entered the service, specifically in a county known for its farming. It was a rural area where I helped my father and a neighbor with farming. We mostly grew cotton, corn, and soybeans, and I also helped with cattle. After finishing school, I worked at a textile plant but it closed, so I decided to join the Army for better opportunities.",
+    "cues": [
+      "Talladega County",
+      "farming",
+      "textile plant",
+      "before enlistment"
+    ],
+    "transcript_ref": "veterans\\ippl_library\\ippl_vhp_army_alexander.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "Talladega County, Alabama",
+    "explicit_text": "Talladega County is where I lived before joining the Army. It’s a farming community near Childersburg where I helped on my father's farm and a neighbor's farm. The main crops were cotton, corn, and soybeans, and we also raised cattle. It was a typical rural life until I started working at Bonnet and then enlisted.",
+    "implicit_text": "This county in the southern state is where I lived before joining the Army. It’s a farming community near a small town where I helped on my father's farm and a neighbor's farm. The main crops were cotton, corn, and soybeans, and we also raised cattle. It was a typical rural life until I started working at a textile company and then enlisted.",
+    "cues": [
+      "Childersburg",
+      "farming",
+      "cotton",
+      "before enlistment"
+    ],
+    "transcript_ref": "veterans\\ippl_library\\ippl_vhp_army_alexander.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "Childersburg, Alabama",
+    "explicit_text": "Childersburg is the town in Talladega County where I lived before joining the Army. I was farming nearby and later worked at Bonnet, a textile company there. When I was inducted, I was bused from Childersburg to Atlanta for processing. It was my hometown and the place where my civilian life was rooted before the military.",
+    "implicit_text": "This town in the farming county was where I lived before joining the Army. I was farming nearby and later worked at a local textile company there. When I was inducted, I was bused from this town to a major city in Georgia for processing. It was my hometown and the place where my civilian life was rooted before the military.",
+    "cues": [
+      "Talladega County",
+      "Bonnet",
+      "induction bus",
+      "before enlistment"
+    ],
+    "transcript_ref": "veterans\\ippl_library\\ippl_vhp_army_alexander.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "Bonnet (textile company)",
+    "explicit_text": "After finishing school, I started working at Bonnet, which was a textile plant in my area. Unfortunately, the plant closed shortly after I started, which pushed me to look for other opportunities. That’s when I decided farming wasn’t the future for me and I enlisted in the Army. Bonnet was a brief but important part of my life transition.",
+    "implicit_text": "After finishing school, I started working at a local textile plant in my area. Unfortunately, the plant closed shortly after I started, which pushed me to look for other opportunities. That’s when I decided farming wasn’t the future for me and I enlisted in the Army. This company was a brief but important part of my life transition.",
+    "cues": [
+      "textile plant",
+      "early employment",
+      "plant closure",
+      "before enlistment"
+    ],
+    "transcript_ref": "veterans\\ippl_library\\ippl_vhp_army_alexander.yaml"
+  },
+  {
+    "entity_id": 5,
+    "entity": "United States Army",
+    "explicit_text": "I enlisted in the United States Army when I was 20 years old because they offered the career path and education in mechanics that I wanted. My mother was initially against it, but she came around after I explained my reasons. I went through induction in Atlanta, basic training at Fort Jackson, and advanced infantry training at Fort Dix. The Army was a new chapter in my life, offering discipline, training, and a future.",
+    "implicit_text": "I enlisted in the national military service when I was 20 years old because they offered the career path and education in mechanics that I wanted. My mother was initially against it, but she came around after I explained my reasons. I went through induction in a major southern city, basic training at a South Carolina base, and advanced infantry training at a New Jersey post. The military was a new chapter in my life, offering discipline, training, and a future.",
+    "cues": [
+      "enlistment at age 20",
+      "induction in Atlanta",
+      "basic training Fort Jackson",
+      "advanced training Fort Dix"
+    ],
+    "transcript_ref": "veterans\\ippl_library\\ippl_vhp_army_alexander.yaml"
+  },
+  {
+    "entity_id": 6,
+    "entity": "Atlanta, Georgia",
+    "explicit_text": "Atlanta, Georgia was where I was inducted into the Army after enlisting in Childersburg. They bused us from Alabama to Atlanta for the induction process, which included physicals and issuing gear. The induction center was close to the bus station, and about 50 men were there with me. It was the first step in my military journey.",
+    "implicit_text": "This major city in Georgia was where I was inducted into the military after enlisting in my hometown. They bused us from Alabama to this city for the induction process, which included physicals and issuing gear. The induction center was close to the bus station, and about 50 men were there with me. It was the first step in my military journey.",
+    "cues": [
+      "induction center",
+      "bus from Childersburg",
+      "physical exams",
+      "early 1960s"
+    ],
+    "transcript_ref": "veterans\\ippl_library\\ippl_vhp_army_alexander.yaml"
+  },
+  {
+    "entity_id": 7,
+    "entity": "Fort Jackson",
+    "explicit_text": "After induction, I went to Fort Jackson in South Carolina for basic training. It was a two-floor barracks with about 25 men per floor, and I always slept on the bottom bunk. The training was tough, with strict rules about cleanliness and discipline, daily inspections, and physical exercises like running on 'Sand Hill.' Fort Jackson was where I learned the basics of soldiering, including rifle shooting and combat tactics.",
+    "implicit_text": "After induction, I went to a South Carolina military base for basic training. It was a two-floor barracks with about 25 men per floor, and I always slept on the bottom bunk. The training was tough, with strict rules about cleanliness and discipline, daily inspections, and physical exercises like running on a hill known among trainees. This base was where I learned the basics of soldiering, including rifle shooting and combat tactics.",
+    "cues": [
+      "basic training",
+      "South Carolina",
+      "barracks life",
+      "discipline",
+      "early 1960s"
+    ],
+    "transcript_ref": "veterans\\ippl_library\\ippl_vhp_army_alexander.yaml"
+  },
+  {
+    "entity_id": 8,
+    "entity": "South Carolina",
+    "explicit_text": "South Carolina was the state where I went for my basic training at Fort Jackson. It was a bit north from Alabama and Georgia where I was inducted. The training there was all field-based and very disciplined, preparing me for infantry duties. South Carolina marked the start of my formal military education.",
+    "implicit_text": "This southern state was where I went for my basic training at a well-known military base. It was a bit north from the states where I was inducted and lived. The training there was all field-based and very disciplined, preparing me for infantry duties. This state marked the start of my formal military education.",
+    "cues": [
+      "Fort Jackson",
+      "basic training",
+      "field exercises",
+      "early 1960s"
+    ],
+    "transcript_ref": "veterans\\ippl_library\\ippl_vhp_army_alexander.yaml"
+  },
+  {
+    "entity_id": 9,
+    "entity": "K.P.",
+    "explicit_text": "During basic training, we were assigned various duties including K.P., which stands for Kitchen Patrol. It was a detail where you helped with kitchen and mess hall chores. Everyone had to take turns doing it as part of the discipline and daily routine. It wasn’t glamorous, but it was part of the Army life at Fort Jackson.",
+    "implicit_text": "During basic training, we were assigned various duties including kitchen patrol. It was a detail where you helped with kitchen and mess hall chores. Everyone had to take turns doing it as part of the discipline and daily routine. It wasn’t glamorous, but it was part of the military life at the South Carolina base.",
+    "cues": [
+      "basic training",
+      "Fort Jackson",
+      "daily chores",
+      "discipline"
+    ],
+    "transcript_ref": "veterans\\ippl_library\\ippl_vhp_army_alexander.yaml"
+  },
+  {
+    "entity_id": 10,
+    "entity": "M14 rifle",
+    "explicit_text": "At Fort Jackson, we trained with the M14 rifle, which was a step up from the .22 rifles I used growing up hunting. I was comfortable with shooting because I was raised in the country, but the M14 was more powerful and effective at longer ranges. We practiced shooting at distances like 500 yards, and it was part of our rifle training in basic.",
+    "implicit_text": "At the South Carolina base, we trained with a semi-automatic rifle that was a step up from the .22 rifles I used growing up hunting. I was comfortable with shooting because I was raised in the country, but this rifle was more powerful and effective at longer ranges. We practiced shooting at distances like 500 yards, and it was part of our rifle training in basic.",
+    "cues": [
+      "rifle training",
+      "Fort Jackson",
+      "basic training",
+      "early 1960s"
+    ],
+    "transcript_ref": "veterans\\ippl_library\\ippl_vhp_army_alexander.yaml"
+  },
+  {
+    "entity_id": 11,
+    "entity": "World War I",
+    "explicit_text": "I learned that K rations, which we sometimes ate during training, were originally made back in World War I. The food tasted old and pretty bad, which made me think about how long those rations had been around. It was interesting to see how military food evolved from that era to what we had in my time.",
+    "implicit_text": "I learned that the field rations we sometimes ate during training were originally made back in the First World War. The food tasted old and pretty bad, which made me think about how long those rations had been around. It was interesting to see how military food evolved from that era to what we had in my time.",
+    "cues": [
+      "K rations",
+      "military food history",
+      "World War I",
+      "ration taste"
+    ],
+    "transcript_ref": "veterans\\ippl_library\\ippl_vhp_army_alexander.yaml"
+  },
+  {
+    "entity_id": 12,
+    "entity": "K-ration",
+    "explicit_text": "K rations were part of the food we ate sometimes during basic training to get used to field rations. They were mostly dried foods and tasted pretty bad, almost like they were from World War I. We usually ate them cold, and I never liked them much. They were different from the C rations, which were canned and better tasting.",
+    "implicit_text": "These field rations were part of the food we ate sometimes during basic training to get used to eating in the field. They were mostly dried foods and tasted pretty bad, almost like they were from the First World War. We usually ate them cold, and I never liked them much. They were different from the canned rations, which were better tasting.",
+    "cues": [
+      "basic training",
+      "Fort Jackson",
+      "field rations",
+      "military food"
+    ],
+    "transcript_ref": "veterans\\ippl_library\\ippl_vhp_army_alexander.yaml"
+  },
+  {
+    "entity_id": 13,
+    "entity": "C-ration",
+    "explicit_text": "C rations were the other type of field food we had during training, and they were much better than K rations. They came in cans and were high in calories, which helped me gain weight during basic training. We usually ate them cold in the field but sometimes heated them up in the barracks. They were designed to keep soldiers fueled during combat or field exercises.",
+    "implicit_text": "These canned field rations were the other type of food we had during training, and they were much better than the dried rations. They came in cans and were high in calories, which helped me gain weight during basic training. We usually ate them cold in the field but sometimes heated them up in the barracks. They were designed to keep soldiers fueled during combat or field exercises.",
+    "cues": [
+      "basic training",
+      "field food",
+      "high calorie",
+      "military rations"
+    ],
+    "transcript_ref": "veterans\\ippl_library\\ippl_vhp_army_alexander.yaml"
+  },
+  {
+    "entity_id": 14,
+    "entity": "Fort Dix",
+    "explicit_text": "After basic training, I was sent to Fort Dix in New Jersey for advanced infantry training around 1965. It was a bit north from Fort Jackson and outside Trenton. This training focused more on heavy guns and preparing us for potential combat situations. It was during this time that the Vietnam buildup was starting to be heard about.",
+    "implicit_text": "After basic training, I was sent to a New Jersey military post for advanced infantry training around 1965. It was a bit north from the South Carolina base and outside the state capital. This training focused more on heavy guns and preparing us for potential combat situations. It was during this time that the buildup for the conflict in Southeast Asia was starting to be heard about.",
+    "cues": [
+      "advanced infantry training",
+      "New Jersey",
+      "1965",
+      "Vietnam buildup"
+    ],
+    "transcript_ref": "veterans\\ippl_library\\ippl_vhp_army_alexander.yaml"
+  },
+  {
+    "entity_id": 15,
+    "entity": "New Jersey",
+    "explicit_text": "New Jersey was where Fort Dix is located, and that's where I went for my advanced infantry training after basic. It was a change from the South to the North, and the training was more specialized with heavy weapons. This was in 1965, just as the Vietnam War buildup was beginning to be talked about.",
+    "implicit_text": "This northeastern state was where the advanced infantry training post is located, and that's where I went after basic training. It was a change from the South to the North, and the training was more specialized with heavy weapons. This was in 1965, just as the buildup for the Southeast Asia conflict was beginning to be talked about.",
+    "cues": [
+      "Fort Dix",
+      "advanced training",
+      "1965",
+      "Vietnam buildup"
+    ],
+    "transcript_ref": "veterans\\ippl_library\\ippl_vhp_army_alexander.yaml"
+  },
+  {
+    "entity_id": 16,
+    "entity": "Vietnam War",
+    "explicit_text": "During my time at Fort Dix in 1965, we started hearing more about the Vietnam War buildup. Although it wasn't a big concern at first, the war was becoming more prominent in the news and military planning. My training was gearing up for potential deployment, focusing on infantry and heavy weapons that would be useful in Vietnam.",
+    "implicit_text": "During my time at the New Jersey post in 1965, we started hearing more about the buildup for the Southeast Asia conflict. Although it wasn't a big concern at first, the war was becoming more prominent in the news and military planning. My training was gearing up for potential deployment, focusing on infantry and heavy weapons that would be useful in that war.",
+    "cues": [
+      "1965",
+      "Fort Dix",
+      "military buildup",
+      "infantry training"
+    ],
+    "transcript_ref": "veterans\\ippl_library\\ippl_vhp_army_alexander.yaml"
+  },
+  {
+    "entity_id": 17,
+    "entity": "105 mm howitzer M2",
+    "explicit_text": "At Fort Dix, part of the advanced infantry training involved learning about heavy weapons like the 105 mm howitzer M2. We were taught how to operate and understand these artillery pieces as part of our preparation for combat roles. It was a step beyond basic infantry skills and important for the kind of warfare expected in Vietnam.",
+    "implicit_text": "At the New Jersey post, part of the advanced infantry training involved learning about heavy weapons like a 105 mm artillery piece. We were taught how to operate and understand these artillery pieces as part of our preparation for combat roles. It was a step beyond basic infantry skills and important for the kind of warfare expected in Southeast Asia.",
+    "cues": [
+      "advanced infantry training",
+      "Fort Dix",
+      "heavy weapons",
+      "1965"
+    ],
+    "transcript_ref": "veterans\\ippl_library\\ippl_vhp_army_alexander.yaml"
+  },
+  {
+    "entity_id": 18,
+    "entity": "Richard Leitner",
+    "explicit_text": "Richard Leitner was one of the men I trained with during my time in the Army. We went through basic and advanced training together, sharing the challenges and routines of military life. He was part of the group that helped make the experience more bearable and memorable.",
+    "implicit_text": "This was one of the men I trained with during my time in the military. We went through basic and advanced training together, sharing the challenges and routines of military life. He was part of the group that helped make the experience more bearable and memorable.",
+    "cues": [
+      "basic training",
+      "advanced training",
+      "Army comrades"
+    ],
+    "transcript_ref": "veterans\\ippl_library\\ippl_vhp_army_alexander.yaml"
+  },
+  {
+    "entity_id": 19,
+    "entity": "Larry Liebeck",
+    "explicit_text": "Larry Liebeck was another soldier I served alongside during my Army training. We shared the same company and went through the same rigorous schedules and duties. Having comrades like Larry made the tough times in training easier to handle.",
+    "implicit_text": "This soldier was another comrade I served alongside during my military training. We shared the same company and went through the same rigorous schedules and duties. Having comrades like him made the tough times in training easier to handle.",
+    "cues": [
+      "basic training",
+      "company mates",
+      "Army life"
+    ],
+    "transcript_ref": "veterans\\ippl_library\\ippl_vhp_army_alexander.yaml"
+  },
+  {
+    "entity_id": 20,
+    "entity": "Mike McCormack",
+    "explicit_text": "Mike McCormack was one of the guys in my training group. We all went through the induction and training phases together, supporting each other through the discipline and physical demands. He was part of the team that graduated with me from basic training.",
+    "implicit_text": "He was one of the guys in my training group. We all went through the induction and training phases together, supporting each other through the discipline and physical demands. He was part of the team that graduated with me from basic training.",
+    "cues": [
+      "basic training",
+      "training group",
+      "Army comrades"
+    ],
+    "transcript_ref": "veterans\\ippl_library\\ippl_vhp_army_alexander.yaml"
+  },
+  {
+    "entity_id": 21,
+    "entity": "Pete Konecky",
+    "explicit_text": "Pete Konecky was a fellow soldier in my unit during training. We shared the experience of learning combat tactics, weapons handling, and the strict discipline of Army life. Pete was part of the group that made the training environment more familiar and supportive.",
+    "implicit_text": "This fellow soldier was in my unit during training. We shared the experience of learning combat tactics, weapons handling, and the strict discipline of military life. He was part of the group that made the training environment more familiar and supportive.",
+    "cues": [
+      "basic training",
+      "unit mates",
+      "Army training"
+    ],
+    "transcript_ref": "veterans\\ippl_library\\ippl_vhp_army_alexander.yaml"
+  },
+  {
+    "entity_id": 22,
+    "entity": "Fort Benning",
+    "explicit_text": "Fort Benning in Columbus, Georgia was mentioned as a notable Army post, but I did not train there myself. It is known for infantry and airborne training, and it’s close to where I was inducted in Atlanta. It’s part of the broader military landscape I was familiar with during my service.",
+    "implicit_text": "This military base in a Georgia city was mentioned as a notable Army post, but I did not train there myself. It is known for infantry and airborne training, and it’s close to where I was inducted in Atlanta. It’s part of the broader military landscape I was familiar with during my service.",
+    "cues": [
+      "Columbus, Georgia",
+      "Army training posts",
+      "military context"
+    ],
+    "transcript_ref": "veterans\\ippl_library\\ippl_vhp_army_alexander.yaml"
+  },
+  {
+    "entity_id": 23,
+    "entity": "Columbus, Georgia",
+    "explicit_text": "Columbus, Georgia is where Fort Benning is located, a major Army training base. While I didn't train there, I knew it as a significant military installation near where I was inducted in Atlanta. It was part of the regional military infrastructure during my time in service.",
+    "implicit_text": "This Georgia city is where the notable infantry and airborne training base is located. While I didn't train there, I knew it as a significant military installation near where I was inducted in Atlanta. It was part of the regional military infrastructure during my time in service.",
+    "cues": [
+      "Fort Benning",
+      "military base",
+      "Georgia"
+    ],
+    "transcript_ref": "veterans\\ippl_library\\ippl_vhp_army_alexander.yaml"
+  },
+  {
+    "entity_id": 24,
+    "entity": "Fort Campbell",
+    "explicit_text": "Fort Campbell in Kentucky was another Army post I was aware of, but I did not train or serve there. It’s known for housing the 101st Airborne Division and is part of the network of bases that support Army operations. It was part of the military environment during my service years.",
+    "implicit_text": "This military post in Kentucky was another Army base I was aware of, but I did not train or serve there. It’s known for housing an airborne division and is part of the network of bases that support Army operations. It was part of the military environment during my service years.",
+    "cues": [
+      "Kentucky",
+      "Army base",
+      "military context"
+    ],
+    "transcript_ref": "veterans\\ippl_library\\ippl_vhp_army_alexander.yaml"
+  },
+  {
+    "entity_id": 25,
+    "entity": "Kentucky",
+    "explicit_text": "Kentucky is the state where Fort Campbell is located, a well-known Army base. Although I did not serve there, it was part of the broader military landscape during my time. It housed important units and was part of the Army’s training and deployment network.",
+    "implicit_text": "This state is where the well-known military base housing an airborne division is located. Although I did not serve there, it was part of the broader military landscape during my time. It housed important units and was part of the Army’s training and deployment network.",
+    "cues": [
+      "Fort Campbell",
+      "Army base",
+      "military context"
+    ],
+    "transcript_ref": "veterans\\ippl_library\\ippl_vhp_army_alexander.yaml"
+  },
+  {
+    "entity_id": 26,
+    "entity": "801st Tank Destroyer Battalion",
+    "explicit_text": "The 801st Tank Destroyer Battalion was a unit I heard about but was not directly involved with during my service. It was a specialized battalion in the Army, known for tank destroyer operations. It represents the kind of units that were part of the Army's combat forces during my era.",
+    "implicit_text": "This specialized battalion was a unit I heard about but was not directly involved with during my service. It was known for tank destroyer operations. It represents the kind of units that were part of the Army's combat forces during my era.",
+    "cues": [
+      "Army units",
+      "tank destroyer",
+      "military context"
+    ],
+    "transcript_ref": "veterans\\ippl_library\\ippl_vhp_army_alexander.yaml"
+  },
+  {
+    "entity_id": 27,
+    "entity": "Can Tho",
+    "explicit_text": "Can Tho is a place in Vietnam that was significant during the Vietnam War, which I was trained for. While I did not serve there personally, it was part of the operational area that soldiers like me were preparing to be deployed to. It symbolizes the combat zones related to my military training period.",
+    "implicit_text": "This location in Southeast Asia was significant during the war I was trained for. While I did not serve there personally, it was part of the operational area that soldiers like me were preparing to be deployed to. It symbolizes the combat zones related to my military training period.",
+    "cues": [
+      "Vietnam War",
+      "combat zones",
+      "military context"
+    ],
+    "transcript_ref": "veterans\\ippl_library\\ippl_vhp_army_alexander.yaml"
+  },
+  {
+    "entity_id": 28,
+    "entity": "Pan Am",
+    "explicit_text": "Pan Am was an airline company I knew of during my time in the service era, though I didn’t have direct dealings with them. They were a major international airline during the 1960s and 70s, often associated with military and civilian travel. They represent the commercial aviation context of that time.",
+    "implicit_text": "This international airline company was known during my time in the service era, though I didn’t have direct dealings with them. They were a major airline during the 1960s and 70s, often associated with military and civilian travel. They represent the commercial aviation context of that time.",
+    "cues": [
+      "1960s",
+      "aviation",
+      "military and civilian travel"
+    ],
+    "transcript_ref": "veterans\\ippl_library\\ippl_vhp_army_alexander.yaml"
+  },
+  {
+    "entity_id": 29,
+    "entity": "Alaska",
+    "explicit_text": "Alaska was a place I was aware of as part of the broader U.S. military geography, but I did not serve there. It was a strategic location during the Cold War era and had military installations. It was part of the national defense landscape during my service years.",
+    "implicit_text": "This northernmost U.S. state was a place I was aware of as part of the broader military geography, but I did not serve there. It was a strategic location during the Cold War era and had military installations. It was part of the national defense landscape during my service years.",
+    "cues": [
+      "military geography",
+      "Cold War",
+      "U.S. defense"
+    ],
+    "transcript_ref": "veterans\\ippl_library\\ippl_vhp_army_alexander.yaml"
+  },
+  {
+    "entity_id": 30,
+    "entity": "Guam",
+    "explicit_text": "Guam was another strategic U.S. territory known for its military bases during my service period. Although I was not stationed there, it was important for Pacific operations and logistics. Guam was part of the military’s global reach during the Vietnam War era.",
+    "implicit_text": "This U.S. territory in the Pacific was known for its military bases during my service period. Although I was not stationed there, it was important for Pacific operations and logistics. It was part of the military’s global reach during the Southeast Asia conflict era.",
+    "cues": [
+      "military bases",
+      "Pacific operations",
+      "Vietnam War era"
+    ],
+    "transcript_ref": "veterans\\ippl_library\\ippl_vhp_army_alexander.yaml"
+  }
+]

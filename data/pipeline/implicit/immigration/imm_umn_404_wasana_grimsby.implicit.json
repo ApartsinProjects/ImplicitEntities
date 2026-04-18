@@ -1,0 +1,121 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "Wasana Grimsby",
+    "explicit_text": "My mother, Wasana Grimsby, originally Wasana Kraipinit, grew up in a small town in northeast Thailand called Bahn Phai. After her father passed away when she was nine, she took on the responsibility of caring for her younger siblings. She worked hard to put herself through Ramkhamhaeng University in Bangkok, juggling three jobs while earning her bachelor's degree in English Literature. In 1999, she married my father and moved to Ann Arbor, Michigan, where she adapted to a new culture and eventually became a stay-at-home mom to me and my twin brother. Her resilience and ability to create a home wherever she went have always inspired me.",
+    "implicit_text": "My mother, originally named Wasana Kraipinit, grew up in a small town in northeast Thailand called Bahn Phai. After her father passed away when she was nine, she took on the responsibility of caring for her younger siblings. She worked hard to put herself through university in Bangkok, juggling three jobs while earning her bachelor's degree in English Literature. In 1999, she married my father and moved to Ann Arbor, Michigan, where she adapted to a new culture and eventually became a stay-at-home mom to me and my twin brother. Her resilience and ability to create a home wherever she went have always inspired me.",
+    "cues": [
+      "northeast Thailand",
+      "Bahn Phai",
+      "Ramkhamhaeng University",
+      "Bangkok",
+      "1999",
+      "Ann Arbor, Michigan",
+      "stay-at-home mom",
+      "English Literature"
+    ],
+    "transcript_ref": "immigration\\imm_umn_404_wasana_grimsby.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "Bahn Phai",
+    "explicit_text": "Bahn Phai is the small town in northeast Thailand where my mother, Wasana Grimsby, grew up with her four siblings. Despite being a small community, the people there were very kind and close-knit, often sharing food, tools, and toys. My mother lived in a large two-story wooden house that fit all her siblings comfortably. It was in Bahn Phai that she learned the importance of family and community, especially after her father passed away when she was just nine years old. She often speaks fondly of those early years and the warmth of the town.",
+    "implicit_text": "This small town in northeast Thailand is where my mother grew up with her four siblings. Despite being a small community, the people there were very kind and close-knit, often sharing food, tools, and toys. My mother lived in a large two-story wooden house that fit all her siblings comfortably. It was in this town that she learned the importance of family and community, especially after her father passed away when she was just nine years old. She often speaks fondly of those early years and the warmth of the place.",
+    "cues": [
+      "northeast Thailand",
+      "small town",
+      "close-knit community",
+      "two-story wooden house",
+      "father passed away"
+    ],
+    "transcript_ref": "immigration\\imm_umn_404_wasana_grimsby.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "Thailand",
+    "explicit_text": "Thailand is where my mother, Wasana Grimsby, was born and raised, starting in the northeast town of Bahn Phai. After finishing high school, she moved to Bangkok to attend Ramkhamhaeng University and worked multiple jobs to support herself. She met my father in Thailand in 1998 during his business trip, and soon after, she decided to marry him and move to the United States. Even after moving abroad, she returned to Thailand occasionally to visit her mother and siblings. Thailand remains an important part of her identity and story.",
+    "implicit_text": "The country where my mother was born and raised, starting in the northeast town of Bahn Phai, played a central role in her early life. After finishing high school, she moved to the capital city to attend university and worked multiple jobs to support herself. She met my father there in 1998 during his business trip, and soon after, she decided to marry him and move to the United States. Even after moving abroad, she returned occasionally to visit her mother and siblings. This country remains an important part of her identity and story.",
+    "cues": [
+      "northeast Thailand",
+      "Bahn Phai",
+      "Bangkok",
+      "Ramkhamhaeng University",
+      "1998",
+      "family visits"
+    ],
+    "transcript_ref": "immigration\\imm_umn_404_wasana_grimsby.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "Bangkok",
+    "explicit_text": "Bangkok is the city where my mother moved after high school to pursue higher education at Ramkhamhaeng University. She lived there with her older sister in a small condo in the heart of the city and worked three jobs, including selling lottery tickets and working at a call center, to support herself through school. After graduating with a bachelor's degree in English Literature, she continued to live and work in Bangkok before meeting my father in 1998. Bangkok was a pivotal place in her life, marking her transition from a small-town girl to a determined university graduate.",
+    "implicit_text": "This capital city is where my mother moved after high school to pursue higher education at a well-known university. She lived there with her older sister in a small condo in the heart of the city and worked three jobs, including selling lottery tickets and working at a call center, to support herself through school. After graduating with a bachelor's degree in English Literature, she continued to live and work there before meeting my father in 1998. This city was a pivotal place in her life, marking her transition from a small-town girl to a determined university graduate.",
+    "cues": [
+      "Ramkhamhaeng University",
+      "older sister",
+      "small condo",
+      "three jobs",
+      "1998"
+    ],
+    "transcript_ref": "immigration\\imm_umn_404_wasana_grimsby.yaml"
+  },
+  {
+    "entity_id": 5,
+    "entity": "Ramkhamhaeng University",
+    "explicit_text": "Ramkhamhaeng University in Bangkok is where my mother earned her bachelor's degree in English Literature after seven years of hard work. While attending, she balanced her studies with three jobs to support herself, showing incredible determination and resilience. Graduating from Ramkhamhaeng University was a major milestone that helped shape her future, including her eventual move to the United States. This university played a crucial role in her journey from a small town in Thailand to becoming a first-generation immigrant.",
+    "implicit_text": "The university in the capital city is where my mother earned her bachelor's degree in English Literature after seven years of hard work. While attending, she balanced her studies with three jobs to support herself, showing incredible determination and resilience. Graduating from this institution was a major milestone that helped shape her future, including her eventual move to the United States. This university played a crucial role in her journey from a small town in Thailand to becoming a first-generation immigrant.",
+    "cues": [
+      "Bangkok",
+      "seven years",
+      "English Literature",
+      "three jobs",
+      "bachelor's degree"
+    ],
+    "transcript_ref": "immigration\\imm_umn_404_wasana_grimsby.yaml"
+  },
+  {
+    "entity_id": 6,
+    "entity": "United States",
+    "explicit_text": "The United States became my mother's new home after she married my father in 1999 and moved to Ann Arbor, Michigan. Adjusting to the US was a big cultural shift for her—everything from the food to the weather was different than she expected. She worked as a waitress for a time before becoming a stay-at-home mom to me and my twin brother. Despite the challenges, she found a supportive community through the Thai temple and new friends who shared the immigrant experience. To her, the US is home because that's where our family is.",
+    "implicit_text": "This country became my mother's new home after she married my father in 1999 and moved to Ann Arbor, Michigan. Adjusting to this place was a big cultural shift for her—everything from the food to the weather was different than she expected. She worked as a waitress for a time before becoming a stay-at-home mom to me and my twin brother. Despite the challenges, she found a supportive community through the local temple and new friends who shared the immigrant experience. To her, this country is home because that's where our family is.",
+    "cues": [
+      "1999",
+      "Ann Arbor, Michigan",
+      "cultural shift",
+      "waitress",
+      "stay-at-home mom",
+      "Thai temple"
+    ],
+    "transcript_ref": "immigration\\imm_umn_404_wasana_grimsby.yaml"
+  },
+  {
+    "entity_id": 7,
+    "entity": "Ann Arbor, Michigan",
+    "explicit_text": "Ann Arbor, Michigan is where my mother settled after moving from Thailand in 1999 following her marriage to my father. It was here that she gave birth to me and my twin brother in 2003 and began her life as a mother in a new country. Though initially working as a waitress, she eventually became a stay-at-home mom, dedicating herself to raising us. Ann Arbor represents the place where my mother built a new home and community, including connections through the local Thai temple. This city holds a special place in her story as the site of her immigrant journey.",
+    "implicit_text": "This city in Michigan is where my mother settled after moving from Thailand in 1999 following her marriage to my father. It was here that she gave birth to me and my twin brother in 2003 and began her life as a mother in a new country. Though initially working as a waitress, she eventually became a stay-at-home mom, dedicating herself to raising us. This city represents the place where my mother built a new home and community, including connections through the local temple. It holds a special place in her story as the site of her immigrant journey.",
+    "cues": [
+      "1999",
+      "marriage",
+      "2003",
+      "birth of twins",
+      "waitress",
+      "stay-at-home mom",
+      "Thai temple"
+    ],
+    "transcript_ref": "immigration\\imm_umn_404_wasana_grimsby.yaml"
+  },
+  {
+    "entity_id": 8,
+    "entity": "Thai temple",
+    "explicit_text": "The Thai temple here in the United States became an important community space for my mother after she immigrated. It helped her connect with other immigrants who shared similar experiences, providing a sense of belonging in a new country. Through the temple, she found friendships and cultural ties that eased the transition from Thailand to the US. The temple symbolizes a link to her heritage and a place where she could maintain her cultural identity while building a new life. It played a key role in making the US feel like home for her.",
+    "implicit_text": "The temple associated with her cultural heritage here in the United States became an important community space for my mother after she immigrated. It helped her connect with other immigrants who shared similar experiences, providing a sense of belonging in a new country. Through this place of worship, she found friendships and cultural ties that eased the transition from Thailand to the US. The temple symbolizes a link to her heritage and a place where she could maintain her cultural identity while building a new life. It played a key role in making this country feel like home for her.",
+    "cues": [
+      "United States",
+      "immigrant community",
+      "cultural ties",
+      "sense of belonging",
+      "heritage"
+    ],
+    "transcript_ref": "immigration\\imm_umn_404_wasana_grimsby.yaml"
+  }
+]

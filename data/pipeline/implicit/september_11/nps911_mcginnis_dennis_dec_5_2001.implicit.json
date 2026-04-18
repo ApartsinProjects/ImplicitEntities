@@ -1,0 +1,239 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "Shenandoah National Park",
+    "explicit_text": "I am the chief of maintenance at Shenandoah National Park, and I also serve as the Operations Section Chief for the National Park Service Incident Management Team. Shenandoah is a large park east of the Mississippi and has a competent Type-3 Incident Management Team made up of park employees. During the 9/11 attacks, I was based at Shenandoah Dispatch, which is the national dispatch center, and we coordinated many of the initial responses from there.",
+    "implicit_text": "I am the chief of maintenance at a large national park located east of the Mississippi, and I also serve as the Operations Section Chief for the National Park Service Incident Management Team. This park has a competent Type-3 Incident Management Team made up of park employees. During the 9/11 attacks, I was based at the national dispatch center, which coordinates many of the initial responses.",
+    "cues": [
+      "chief of maintenance",
+      "Operations Section Chief",
+      "Type-3 Incident Management Team",
+      "east of Mississippi",
+      "9/11 attacks",
+      "Shenandoah Dispatch"
+    ],
+    "transcript_ref": "september_11\\nps911_mcginnis_dennis_dec_5_2001.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "National Park Service",
+    "explicit_text": "I have worked extensively with the National Park Service, especially in developing and participating in their national incident management teams since about 1990. The Park Service adopted a fire model command structure for incident management, which I have been part of for over a decade. During events like Pearl Harbor commemorations and the 9/11 attacks, the National Park Service coordinated resources across many parks, including law enforcement and emergency personnel.",
+    "implicit_text": "I have worked extensively with the federal agency responsible for managing national parks, especially in developing and participating in their national incident management teams since about 1990. This agency adopted a fire model command structure for incident management, which I have been part of for over a decade. During events like Pearl Harbor commemorations and the 9/11 attacks, this agency coordinated resources across many parks, including law enforcement and emergency personnel.",
+    "cues": [
+      "national incident management teams",
+      "fire model",
+      "1990",
+      "Pearl Harbor commemorative event 1991",
+      "9/11 attacks",
+      "resource coordination"
+    ],
+    "transcript_ref": "september_11\\nps911_mcginnis_dennis_dec_5_2001.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "Independence National Historical Park",
+    "explicit_text": "I began my involvement with incident management about 15 years ago while working special events at Independence National Historical Park. This experience led me into the incident command structure and eventually into the National Park Service's national incident management teams. Independence National Historical Park was one of the key sites we had to consider during national incidents like 9/11.",
+    "implicit_text": "I began my involvement with incident management about 15 years ago while working special events at a historic national park in Philadelphia. This experience led me into the incident command structure and eventually into the national incident management teams of the federal park agency. This historic park was one of the key sites we had to consider during national incidents like 9/11.",
+    "cues": [
+      "special events",
+      "15 years ago",
+      "incident command structure",
+      "national incident management teams",
+      "9/11 attacks"
+    ],
+    "transcript_ref": "september_11\\nps911_mcginnis_dennis_dec_5_2001.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "Pearl Harbor",
+    "explicit_text": "I have been a member of the National Park Service Incident Management Team since the early 1990s and have participated in every incident since the Pearl Harbor commemorative event in 1991. That event was one of the first major incidents where this incident management structure was tested. It helped establish the framework we use today for managing large-scale events.",
+    "implicit_text": "I have been a member of the National Park Service Incident Management Team since the early 1990s and have participated in every incident since the 1991 commemorative event marking the attack on the naval base in Hawaii. That event was one of the first major incidents where this incident management structure was tested. It helped establish the framework we use today for managing large-scale events.",
+    "cues": [
+      "Pearl Harbor commemorative event",
+      "1991",
+      "incident management team",
+      "early 1990s"
+    ],
+    "transcript_ref": "september_11\\nps911_mcginnis_dennis_dec_5_2001.yaml"
+  },
+  {
+    "entity_id": 5,
+    "entity": "9/11 attacks",
+    "explicit_text": "I was in the Outer Banks of North Carolina when the 9/11 attacks happened, and I watched the second plane hit the World Trade Center while getting a haircut. I immediately contacted Shenandoah Dispatch and the incident commander to prepare for deployment. We were on the ground by 10 p.m. that Tuesday night, coordinating a national response that involved prioritizing resources to protect sites like the Statue of Liberty, Independence Hall, and Old Ironsides. The incident required 24-hour operational periods and constant revision of plans to manage the evolving situation.",
+    "implicit_text": "I was in the Outer Banks of North Carolina when the terrorist attacks on September 11, 2001, happened, and I watched the second plane hit the World Trade Center while getting a haircut. I immediately contacted the national dispatch center and the incident commander to prepare for deployment. We were on the ground by 10 p.m. that Tuesday night, coordinating a national response that involved prioritizing resources to protect sites like the Statue of Liberty, Independence Hall, and a historic naval ship. The incident required 24-hour operational periods and constant revision of plans to manage the evolving situation.",
+    "cues": [
+      "Outer Banks, North Carolina",
+      "September 11, 2001",
+      "World Trade Center",
+      "Shenandoah Dispatch",
+      "national response",
+      "Statue of Liberty",
+      "Independence Hall",
+      "Old Ironsides",
+      "24-hour operational periods"
+    ],
+    "transcript_ref": "september_11\\nps911_mcginnis_dennis_dec_5_2001.yaml"
+  },
+  {
+    "entity_id": 6,
+    "entity": "Office of the Secretary of the Interior",
+    "explicit_text": "During the 9/11 incident, our National Park Service Incident Management Team worked closely with the Office of the Secretary of the Interior. Someone from the Secretary's office was directly involved in setting objectives and responsibilities for our team. We were tasked with coordinating resources nationally and reporting back to the Secretary's office on the status and allocation of Park Service resources.",
+    "implicit_text": "During the 9/11 incident, our National Park Service Incident Management Team worked closely with the senior leadership office responsible for overseeing the nation's natural resources and public lands. Someone from that office was directly involved in setting objectives and responsibilities for our team. We were tasked with coordinating resources nationally and reporting back to that office on the status and allocation of Park Service resources.",
+    "cues": [
+      "9/11 attacks",
+      "Office of the Secretary of the Interior",
+      "setting objectives",
+      "resource coordination",
+      "reporting"
+    ],
+    "transcript_ref": "september_11\\nps911_mcginnis_dennis_dec_5_2001.yaml"
+  },
+  {
+    "entity_id": 7,
+    "entity": "Philadelphia",
+    "explicit_text": "Philadelphia was one of the key locations involved in the national response to 9/11. The Regional Director there called on the Type-2 Incident Management Team to coordinate efforts. Our national team worked to prioritize resources across Philadelphia, New York City, Boston, and other sites to ensure effective protection and response.",
+    "implicit_text": "The city known as the birthplace of the United States was one of the key locations involved in the national response to 9/11. The Regional Director there called on the Type-2 Incident Management Team to coordinate efforts. Our national team worked to prioritize resources across this city, New York City, Boston, and other sites to ensure effective protection and response.",
+    "cues": [
+      "9/11 attacks",
+      "Regional Director",
+      "Type-2 Incident Management Team",
+      "resource coordination",
+      "national response"
+    ],
+    "transcript_ref": "september_11\\nps911_mcginnis_dennis_dec_5_2001.yaml"
+  },
+  {
+    "entity_id": 8,
+    "entity": "New York City",
+    "explicit_text": "New York City was a central focus during the 9/11 attacks, especially with the World Trade Center being the target. The Northeast Region's Type-2 Incident Management Team was dispatched to Philadelphia but managed resources related to New York City. I personally witnessed the attacks while in North Carolina and knew our teams would be heavily involved in the response there.",
+    "implicit_text": "The largest city in the United States was a central focus during the 9/11 attacks, especially with the World Trade Center being the target. The Northeast Region's Type-2 Incident Management Team was dispatched to Philadelphia but managed resources related to this city. I personally witnessed the attacks while in North Carolina and knew our teams would be heavily involved in the response there.",
+    "cues": [
+      "9/11 attacks",
+      "World Trade Center",
+      "Northeast Region Type-2 Team",
+      "resource management",
+      "personal observation"
+    ],
+    "transcript_ref": "september_11\\nps911_mcginnis_dennis_dec_5_2001.yaml"
+  },
+  {
+    "entity_id": 9,
+    "entity": "Boston",
+    "explicit_text": "Boston was one of the cities where the National Park Service had to consider resource allocation during the 9/11 incident. Along with Philadelphia and New York City, Boston was part of the regional coordination efforts to protect key sites and manage emergency responses. Our national team ensured that resources were prioritized effectively across these locations.",
+    "implicit_text": "This historic New England city was one of the places where the National Park Service had to consider resource allocation during the 9/11 incident. Along with Philadelphia and New York City, it was part of the regional coordination efforts to protect key sites and manage emergency responses. Our national team ensured that resources were prioritized effectively across these locations.",
+    "cues": [
+      "9/11 attacks",
+      "resource allocation",
+      "regional coordination",
+      "emergency response"
+    ],
+    "transcript_ref": "september_11\\nps911_mcginnis_dennis_dec_5_2001.yaml"
+  },
+  {
+    "entity_id": 10,
+    "entity": "Lake Mead",
+    "explicit_text": "Lake Mead was significant during the 9/11 response because of concerns about dam security. As part of the national incident management effort, we had to prioritize resources to protect critical infrastructure like dams at Lake Mead. This required balancing resources between sites like Lake Mead, the Statue of Liberty, and Independence Hall to ensure all were adequately protected.",
+    "implicit_text": "A large reservoir and dam in the southwestern United States was significant during the 9/11 response because of concerns about dam security. As part of the national incident management effort, we had to prioritize resources to protect critical infrastructure like dams at this location. This required balancing resources between sites like this reservoir, the Statue of Liberty, and Independence Hall to ensure all were adequately protected.",
+    "cues": [
+      "9/11 attacks",
+      "dam security",
+      "resource prioritization",
+      "critical infrastructure"
+    ],
+    "transcript_ref": "september_11\\nps911_mcginnis_dennis_dec_5_2001.yaml"
+  },
+  {
+    "entity_id": 11,
+    "entity": "Statue of Liberty",
+    "explicit_text": "The Statue of Liberty was one of the iconic sites we had to protect during the 9/11 response. Our national incident management team had to carefully prioritize resources to ensure its security alongside other important sites like Independence Hall and Old Ironsides. This was part of a broader effort to look at the incident from a national perspective and allocate limited resources effectively.",
+    "implicit_text": "An iconic American landmark located on Liberty Island was one of the sites we had to protect during the 9/11 response. Our national incident management team had to carefully prioritize resources to ensure its security alongside other important sites like Independence Hall and a historic naval ship. This was part of a broader effort to look at the incident from a national perspective and allocate limited resources effectively.",
+    "cues": [
+      "9/11 attacks",
+      "resource prioritization",
+      "national perspective",
+      "security"
+    ],
+    "transcript_ref": "september_11\\nps911_mcginnis_dennis_dec_5_2001.yaml"
+  },
+  {
+    "entity_id": 12,
+    "entity": "Old Ironsides",
+    "explicit_text": "Old Ironsides was among the historic sites we were tasked with protecting during the 9/11 incident. Along with the Statue of Liberty and Independence Hall, it was a priority for resource allocation by the National Park Service Incident Management Team. Protecting such landmarks was part of our holistic national approach to the incident.",
+    "implicit_text": "A historic naval vessel preserved as a museum ship was among the sites we were tasked with protecting during the 9/11 incident. Along with the Statue of Liberty and Independence Hall, it was a priority for resource allocation by the National Park Service Incident Management Team. Protecting such landmarks was part of our holistic national approach to the incident.",
+    "cues": [
+      "9/11 attacks",
+      "historic site",
+      "resource allocation",
+      "National Park Service"
+    ],
+    "transcript_ref": "september_11\\nps911_mcginnis_dennis_dec_5_2001.yaml"
+  },
+  {
+    "entity_id": 13,
+    "entity": "United States Department of Agriculture",
+    "explicit_text": "While my primary focus has been with the National Park Service, I am aware that other Interior agencies and departments like the United States Department of Agriculture have their own resources. However, during incidents like 9/11, our team primarily managed Park Service resources, which include law enforcement, emergency medical, and maintenance personnel.",
+    "implicit_text": "While my primary focus has been with the National Park Service, I am aware that other federal agencies like the one responsible for agriculture have their own resources. However, during incidents like 9/11, our team primarily managed Park Service resources, which include law enforcement, emergency medical, and maintenance personnel.",
+    "cues": [
+      "9/11 attacks",
+      "resource management",
+      "other agencies",
+      "law enforcement",
+      "emergency medical"
+    ],
+    "transcript_ref": "september_11\\nps911_mcginnis_dennis_dec_5_2001.yaml"
+  },
+  {
+    "entity_id": 14,
+    "entity": "United States Forest Service",
+    "explicit_text": "The United States Forest Service is another agency with incident management capabilities similar to the National Park Service. While I have not directly managed their resources, I know that the Park Service incident management teams coordinate primarily with their own resources during national incidents. The Forest Service's fire model influenced the structure we use in incident command.",
+    "implicit_text": "The federal agency responsible for managing national forests is another organization with incident management capabilities similar to the National Park Service. While I have not directly managed their resources, I know that the Park Service incident management teams coordinate primarily with their own resources during national incidents. The Forest Service's fire model influenced the structure we use in incident command.",
+    "cues": [
+      "incident management",
+      "fire model",
+      "resource coordination",
+      "National Park Service"
+    ],
+    "transcript_ref": "september_11\\nps911_mcginnis_dennis_dec_5_2001.yaml"
+  },
+  {
+    "entity_id": 15,
+    "entity": "West Virginia",
+    "explicit_text": "During the 9/11 attacks, the Secretary of the Interior, assistant secretaries, and the National Park Service director were moved to a bunker in West Virginia for safety. This was part of the rapid response and protective measures taken early in the incident. Our incident management team coordinated closely with leadership during this time.",
+    "implicit_text": "During the 9/11 attacks, the Secretary of the Interior, assistant secretaries, and the director of the federal agency managing national parks were moved to a secure bunker in West Virginia for safety. This was part of the rapid response and protective measures taken early in the incident. Our incident management team coordinated closely with leadership during this time.",
+    "cues": [
+      "9/11 attacks",
+      "bunker",
+      "West Virginia",
+      "Secretary of the Interior",
+      "protective measures"
+    ],
+    "transcript_ref": "september_11\\nps911_mcginnis_dennis_dec_5_2001.yaml"
+  },
+  {
+    "entity_id": 16,
+    "entity": "Outer Banks",
+    "explicit_text": "I was in the Outer Banks of North Carolina visiting my parents when the 9/11 attacks occurred. It was there, in a local barber shop, that I watched the second plane hit the World Trade Center. From that moment, I knew I would be called to duty and immediately began coordinating with Shenandoah Dispatch and the incident commander.",
+    "implicit_text": "I was in the Outer Banks of North Carolina visiting my parents when the 9/11 attacks occurred. It was there, in a local barber shop, that I watched the second plane hit the World Trade Center. From that moment, I knew I would be called to duty and immediately began coordinating with the national dispatch center and the incident commander.",
+    "cues": [
+      "Outer Banks, North Carolina",
+      "9/11 attacks",
+      "personal location",
+      "immediate response"
+    ],
+    "transcript_ref": "september_11\\nps911_mcginnis_dennis_dec_5_2001.yaml"
+  },
+  {
+    "entity_id": 17,
+    "entity": "North Carolina",
+    "explicit_text": "I was in North Carolina, specifically the Outer Banks, attending to family matters when the 9/11 attacks happened. Despite being away from work, I was prepared with my go-bag and government emergency telephone system card, allowing me to quickly respond when the National Park Service Incident Management Team was activated. North Carolina was the place where I first learned of the attacks and began mobilizing.",
+    "implicit_text": "I was in North Carolina, specifically the Outer Banks, attending to family matters when the 9/11 attacks happened. Despite being away from work, I was prepared with my go-bag and government emergency telephone system card, allowing me to quickly respond when the National Park Service Incident Management Team was activated. North Carolina was the place where I first learned of the attacks and began mobilizing.",
+    "cues": [
+      "North Carolina",
+      "Outer Banks",
+      "9/11 attacks",
+      "go-bag",
+      "emergency response"
+    ],
+    "transcript_ref": "september_11\\nps911_mcginnis_dennis_dec_5_2001.yaml"
+  }
+]

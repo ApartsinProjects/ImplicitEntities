@@ -1,0 +1,100 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "Colombia",
+    "explicit_text": "My grandparents started their immigrant story by leaving Colombia in 1966. Although my grandfather had a good job there, he chose to move to Chicago and work as a bus driver to give his children better opportunities. After about ten years in the U.S., they returned to Colombia, where the climate was kinder and family ties were stronger. My father's Colombian roots remained important to me, especially as I struggled with my cultural identity.",
+    "implicit_text": "My grandparents started their immigrant story by leaving their South American homeland in 1966. Although my grandfather had a good job there, he chose to move to Chicago and work as a bus driver to give his children better opportunities. After about ten years in the U.S., they returned to their native country, where the climate was kinder and family ties were stronger. My father's roots from that country remained important to me, especially as I struggled with my cultural identity.",
+    "cues": [
+      "1966",
+      "grandparents' journey",
+      "comfortable life",
+      "family and friends",
+      "Colombian heritage"
+    ],
+    "transcript_ref": "immigration\\imm_umn_369_natasha_gomez.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "Chicago",
+    "explicit_text": "Chicago was the first American city my grandparents settled in after leaving Colombia in 1966. My grandfather gave up his well-paying job back home to become a bus driver there, hoping to provide more opportunities for his children. They lived in Chicago for about a decade before returning to Colombia. Though I never lived there myself, Chicago represents the beginning of my family's American journey.",
+    "implicit_text": "The Windy City was the first American city my grandparents settled in after leaving their South American homeland in 1966. My grandfather gave up his well-paying job back home to become a bus driver there, hoping to provide more opportunities for his children. They lived in this major Midwestern city for about a decade before returning to their native country. Though I never lived there myself, this city represents the beginning of my family's American journey.",
+    "cues": [
+      "1966",
+      "grandparents' settlement",
+      "bus driver job",
+      "decade-long stay",
+      "start of American journey"
+    ],
+    "transcript_ref": "immigration\\imm_umn_369_natasha_gomez.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "United States Navy",
+    "explicit_text": "My father joined the United States Navy when he was 19 after barely passing the English aptitude test. His service took him to Yokosuka, Japan, where he met my mother. The Navy was a turning point in his life, allowing him to build a career and eventually earn a degree that helped us settle in Florida. His time in the Navy shaped much of my early life and family story.",
+    "implicit_text": "My father joined the naval branch of the U.S. armed forces when he was 19 after barely passing the English aptitude test. His service took him to Yokosuka, Japan, where he met my mother. The military was a turning point in his life, allowing him to build a career and eventually earn a degree that helped us settle in Florida. His time in the service shaped much of my early life and family story.",
+    "cues": [
+      "father joined at 19",
+      "English test",
+      "stationed in Yokosuka",
+      "career and degree",
+      "family life"
+    ],
+    "transcript_ref": "immigration\\imm_umn_369_natasha_gomez.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "Yokosuka",
+    "explicit_text": "I was born in Yokosuka, Japan, where my father was stationed while serving in the U.S. Navy. I lived there until I was six years old, surrounded by my mother's family and immersed in the Japanese language and culture. Those early years in Yokosuka deeply shaped my identity and childhood memories. It was a place of intimacy and belonging before we moved to the United States.",
+    "implicit_text": "I was born in a Japanese port city where my father was stationed while serving in the U.S. Navy. I lived there until I was six years old, surrounded by my mother's family and immersed in the Japanese language and culture. Those early years in that coastal city deeply shaped my identity and childhood memories. It was a place of intimacy and belonging before we moved to the United States.",
+    "cues": [
+      "birthplace",
+      "father's Navy station",
+      "early childhood",
+      "Japanese family",
+      "language immersion"
+    ],
+    "transcript_ref": "immigration\\imm_umn_369_natasha_gomez.yaml"
+  },
+  {
+    "entity_id": 5,
+    "entity": "Japan",
+    "explicit_text": "Japan was my home from birth until age six, thanks to my father's Navy posting in Yokosuka. Living there with my mother's family, I grew up speaking Japanese and feeling deeply connected to the culture. Leaving Japan to move to Florida was difficult, as I felt torn between my Japanese identity and the pressures to assimilate into American culture. Even as an adult, I have returned to Japan and studied Japanese at the University of Florida to reconnect with that part of myself.",
+    "implicit_text": "That East Asian country was my home from birth until age six, thanks to my father's Navy posting in a port city. Living there with my mother's family, I grew up speaking the local language and feeling deeply connected to the culture. Leaving that country to move to Florida was difficult, as I felt torn between my Asian identity and the pressures to assimilate into American culture. Even as an adult, I have returned there and studied the language at a Florida university to reconnect with that part of myself.",
+    "cues": [
+      "birth to age six",
+      "mother's family",
+      "language and culture",
+      "move to Florida",
+      "adult studies"
+    ],
+    "transcript_ref": "immigration\\imm_umn_369_natasha_gomez.yaml"
+  },
+  {
+    "entity_id": 6,
+    "entity": "St. Petersburg, Florida",
+    "explicit_text": "After my father finished his Navy service, we moved to St. Petersburg, Florida, so he could start a career using the degree he earned while in the service. In Florida, we were isolated from my mother's Japanese family and had few Colombian relatives nearby. It was a challenging time as my family faced strong pressures to assimilate into American culture. This move marked a major shift in my life and identity.",
+    "implicit_text": "After my father finished his Navy service, we moved to a city on Florida's Gulf Coast so he could start a career using the degree he earned while in the service. In this southern city, we were isolated from my mother's Japanese family and had few Colombian relatives nearby. It was a challenging time as my family faced strong pressures to assimilate into American culture. This move marked a major shift in my life and identity.",
+    "cues": [
+      "post-Navy move",
+      "father's career",
+      "isolation from family",
+      "assimilation pressures",
+      "identity shift"
+    ],
+    "transcript_ref": "immigration\\imm_umn_369_natasha_gomez.yaml"
+  },
+  {
+    "entity_id": 7,
+    "entity": "University of Florida",
+    "explicit_text": "I decided to take advanced Japanese classes at the University of Florida after a recent trip to Japan. This was my way of resisting the forces pushing me toward Americanization and reconnecting with the language and culture of my childhood. Studying there also made me reflect on balancing my Japanese and Spanish heritage, as I didn't want to lose touch with either side of my family. The University became a place where I could nurture both parts of my identity.",
+    "implicit_text": "I decided to take advanced Japanese classes at a large public university in Gainesville after a recent trip to Japan. This was my way of resisting the forces pushing me toward Americanization and reconnecting with the language and culture of my childhood. Studying there also made me reflect on balancing my Japanese and Spanish heritage, as I didn't want to lose touch with either side of my family. The university became a place where I could nurture both parts of my identity.",
+    "cues": [
+      "advanced Japanese classes",
+      "post-trip decision",
+      "cultural balance",
+      "language learning",
+      "identity exploration"
+    ],
+    "transcript_ref": "immigration\\imm_umn_369_natasha_gomez.yaml"
+  }
+]

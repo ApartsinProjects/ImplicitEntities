@@ -1,0 +1,351 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "George Groves",
+    "explicit_text": "My name is George Groves, born in Saint Helens, England, near Liverpool. From a young age, I was deeply involved in music, playing trumpet and French horn, which later influenced my career path. I pursued an engineering scholarship at Liverpool University, specializing in Communications Engineering, and eventually moved to the United States to work at Bell Labs. My journey led me to play a key role in early sound film technology, including working with Warner Brothers on synchronized sound pictures.",
+    "implicit_text": "My name is George Groves, born in a town near Liverpool. From a young age, I was deeply involved in music, playing trumpet and French horn, which later influenced my career path. I pursued an engineering scholarship at a university in Liverpool, specializing in Communications Engineering, and eventually moved to the United States to work at a major research laboratory. My journey led me to play a key role in early sound film technology, including working with a prominent Hollywood studio on synchronized sound pictures.",
+    "cues": [
+      "Saint Helens",
+      "Liverpool University",
+      "Communications Engineering",
+      "Bell Labs",
+      "Warner Brothers",
+      "1923-1925"
+    ],
+    "transcript_ref": "academic\\ucla_oral_history\\ucla_ucla_George_Groves_oral_history_transcript_sound_director.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "England",
+    "explicit_text": "I was born in England, in a manufacturing town called Saint Helens, famous for Beechams Pills. Growing up there, I had a musical upbringing and attended Cowley School before earning a scholarship to Liverpool University. England was where I first developed my skills in music and engineering before moving to the United States to further my career in communications and sound technology.",
+    "implicit_text": "I was born in a country known for its manufacturing towns, including the one famous for a well-known pill brand. Growing up there, I had a musical upbringing and attended a grammar school before earning a scholarship to a university in Liverpool. This country was where I first developed my skills in music and engineering before moving to the United States to further my career in communications and sound technology.",
+    "cues": [
+      "Saint Helens",
+      "Cowley School",
+      "Liverpool University",
+      "early 1900s"
+    ],
+    "transcript_ref": "academic\\ucla_oral_history\\ucla_ucla_George_Groves_oral_history_transcript_sound_director.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "Liverpool",
+    "explicit_text": "Liverpool was close to my hometown and a place where I spent time playing music during summer vacations in theaters. It was also home to Liverpool University, where I earned my engineering degree. The city played a significant role in my early life, both musically and academically.",
+    "implicit_text": "This city was close to my hometown and a place where I spent time playing music during summer vacations in theaters. It was also home to the university where I earned my engineering degree. The city played a significant role in my early life, both musically and academically.",
+    "cues": [
+      "Liverpool University",
+      "summer vacations",
+      "theaters",
+      "early 1900s"
+    ],
+    "transcript_ref": "academic\\ucla_oral_history\\ucla_ucla_George_Groves_oral_history_transcript_sound_director.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "Saint Helens",
+    "explicit_text": "I was born in Saint Helens, a manufacturing town near Liverpool, known mainly for Beechams Pills. The town had a strong musical culture, with brass bands and notable figures like the father of Sir Thomas Beecham serving as mayor. My early musical education and first theater job as a trumpet player happened there, shaping my future career.",
+    "implicit_text": "I was born in a manufacturing town near Liverpool, known mainly for a famous pill brand. The town had a strong musical culture, with brass bands and notable figures like the father of a renowned conductor serving as mayor. My early musical education and first theater job as a trumpet player happened there, shaping my future career.",
+    "cues": [
+      "birthplace",
+      "Beechams Pills",
+      "Sir Thomas Beecham's father",
+      "early music education"
+    ],
+    "transcript_ref": "academic\\ucla_oral_history\\ucla_ucla_George_Groves_oral_history_transcript_sound_director.yaml"
+  },
+  {
+    "entity_id": 5,
+    "entity": "Sir Thomas Beecham",
+    "explicit_text": "As a boy in Saint Helens, I knew that the father of Sir Thomas Beecham, the great conductor, was the mayor of our town. This connection highlighted the musical environment I grew up in. Though I never met Sir Thomas personally, his family's prominence in music was part of my early cultural backdrop.",
+    "implicit_text": "As a boy in my hometown, I knew that the father of a great conductor was the mayor of our town. This connection highlighted the musical environment I grew up in. Though I never met the conductor personally, his family's prominence in music was part of my early cultural backdrop.",
+    "cues": [
+      "Saint Helens",
+      "early 1900s",
+      "musical environment",
+      "mayor"
+    ],
+    "transcript_ref": "academic\\ucla_oral_history\\ucla_ucla_George_Groves_oral_history_transcript_sound_director.yaml"
+  },
+  {
+    "entity_id": 6,
+    "entity": "Cowley School",
+    "explicit_text": "I attended Cowley School, a grammar school in England equivalent to an American high school, on a scholarship. While there, I balanced my studies with playing trumpet in local theaters, even missing school for performances until the headmaster objected. Eventually, I left Cowley School and was tutored privately before competing for university scholarships.",
+    "implicit_text": "I attended a grammar school in England equivalent to an American high school, on a scholarship. While there, I balanced my studies with playing trumpet in local theaters, even missing school for performances until the headmaster objected. Eventually, I left that school and was tutored privately before competing for university scholarships.",
+    "cues": [
+      "grammar school",
+      "scholarship",
+      "early music performances",
+      "England"
+    ],
+    "transcript_ref": "academic\\ucla_oral_history\\ucla_ucla_George_Groves_oral_history_transcript_sound_director.yaml"
+  },
+  {
+    "entity_id": 7,
+    "entity": "Liverpool University",
+    "explicit_text": "I won an engineering scholarship to Liverpool University where I specialized in Communications Engineering. The university helped place me in employment after graduation, which led me to work at the Peal-Connor Telephone Company. My time at Liverpool University was pivotal in shaping my technical expertise and future career in transmission engineering.",
+    "implicit_text": "I won an engineering scholarship to a university in Liverpool where I specialized in Communications Engineering. The university helped place me in employment after graduation, which led me to work at a telephone company. My time at this university was pivotal in shaping my technical expertise and future career in transmission engineering.",
+    "cues": [
+      "engineering scholarship",
+      "Communications Engineering",
+      "employment placement",
+      "early 1900s"
+    ],
+    "transcript_ref": "academic\\ucla_oral_history\\ucla_ucla_George_Groves_oral_history_transcript_sound_director.yaml"
+  },
+  {
+    "entity_id": 8,
+    "entity": "Peal-Connor Telephone Company",
+    "explicit_text": "After graduating from Liverpool University, I was placed at the Peal-Connor Telephone Company in Coventry, which was a branch of the General Electric Company. There, I worked in transmission engineering, focusing on speech circuits rather than power engineering. This job was my first professional role in the field of communications technology.",
+    "implicit_text": "After graduating from university, I was placed at a telephone company in Coventry, which was a branch of a major electrical corporation. There, I worked in transmission engineering, focusing on speech circuits rather than power engineering. This job was my first professional role in the field of communications technology.",
+    "cues": [
+      "Coventry",
+      "branch of General Electric",
+      "transmission engineering",
+      "post-graduation"
+    ],
+    "transcript_ref": "academic\\ucla_oral_history\\ucla_ucla_George_Groves_oral_history_transcript_sound_director.yaml"
+  },
+  {
+    "entity_id": 9,
+    "entity": "Coventry",
+    "explicit_text": "Coventry was where I worked at the Peal-Connor Telephone Company after university. It was a telephone factory producing equipment for transmitting intelligence, such as speech and radio. My experience there was an important step in my engineering career before I moved to the United States.",
+    "implicit_text": "This city was where I worked at a telephone company after university. It was a telephone factory producing equipment for transmitting intelligence, such as speech and radio. My experience there was an important step in my engineering career before I moved to the United States.",
+    "cues": [
+      "Peal-Connor Telephone Company",
+      "telephone factory",
+      "early career"
+    ],
+    "transcript_ref": "academic\\ucla_oral_history\\ucla_ucla_George_Groves_oral_history_transcript_sound_director.yaml"
+  },
+  {
+    "entity_id": 10,
+    "entity": "General Electric Company",
+    "explicit_text": "The Peal-Connor Telephone Company where I worked was a branch of the General Electric Company. Although I initially contacted General Electric in the U.S. seeking employment, they were unable to hire me as I was an alien. Nonetheless, my work at their Coventry branch gave me valuable experience in communications engineering.",
+    "implicit_text": "The telephone company where I worked was a branch of a major electrical corporation. Although I initially contacted the American branch seeking employment, they were unable to hire me as I was an alien. Nonetheless, my work at their Coventry branch gave me valuable experience in communications engineering.",
+    "cues": [
+      "Peal-Connor Telephone Company",
+      "employment inquiries",
+      "early 1900s"
+    ],
+    "transcript_ref": "academic\\ucla_oral_history\\ucla_ucla_George_Groves_oral_history_transcript_sound_director.yaml"
+  },
+  {
+    "entity_id": 11,
+    "entity": "United States",
+    "explicit_text": "I had a strong desire to come to the United States because I believed it was the leading country in telephone and broadcasting technology. After some initial difficulties due to my alien status, I eventually secured a position at Bell Labs in New York. The U.S. became the place where I contributed to pioneering work in sound recording and talking pictures.",
+    "implicit_text": "I had a strong desire to come to this country because I believed it was the leading nation in telephone and broadcasting technology. After some initial difficulties due to my alien status, I eventually secured a position at a major research laboratory in New York. This country became the place where I contributed to pioneering work in sound recording and talking pictures.",
+    "cues": [
+      "Bell Labs",
+      "New York",
+      "1920s",
+      "telephone and broadcasting technology"
+    ],
+    "transcript_ref": "academic\\ucla_oral_history\\ucla_ucla_George_Groves_oral_history_transcript_sound_director.yaml"
+  },
+  {
+    "entity_id": 12,
+    "entity": "Western Electric Company",
+    "explicit_text": "I wrote to the Western Electric Company in the U.S. seeking employment, but they initially could not hire me because I was a foreigner. However, their Director of Research met with me in Manchester and encouraged me to come to the United States, promising support for my education and training. This connection helped me eventually join Bell Labs.",
+    "implicit_text": "I wrote to a major American electrical manufacturing company seeking employment, but they initially could not hire me because I was a foreigner. However, their Director of Research met with me in Manchester and encouraged me to come to the United States, promising support for my education and training. This connection helped me eventually join the prominent research laboratory.",
+    "cues": [
+      "employment inquiry",
+      "Manchester meeting",
+      "support for education",
+      "early 1920s"
+    ],
+    "transcript_ref": "academic\\ucla_oral_history\\ucla_ucla_George_Groves_oral_history_transcript_sound_director.yaml"
+  },
+  {
+    "entity_id": 13,
+    "entity": "Westinghouse Electric Corporation",
+    "explicit_text": "I also contacted the Westinghouse Electric Corporation in the U.S. about employment opportunities, but like others, they could not offer me a position due to my status as an alien. Despite this, I remained determined to come to the United States to pursue my career in communications engineering.",
+    "implicit_text": "I also contacted a large American electrical company about employment opportunities, but like others, they could not offer me a position due to my status as an alien. Despite this, I remained determined to come to the United States to pursue my career in communications engineering.",
+    "cues": [
+      "employment inquiry",
+      "alien status",
+      "early 1920s"
+    ],
+    "transcript_ref": "academic\\ucla_oral_history\\ucla_ucla_George_Groves_oral_history_transcript_sound_director.yaml"
+  },
+  {
+    "entity_id": 14,
+    "entity": "Manchester",
+    "explicit_text": "While in England, I met the Director of Research from Western Electric Company in Manchester. He was unable to offer me a job but encouraged me to come to the United States for further opportunities. This meeting was a key step in my journey to working at Bell Labs in New York.",
+    "implicit_text": "While in England, I met the Director of Research from a major American electrical company in this city. He was unable to offer me a job but encouraged me to come to the United States for further opportunities. This meeting was a key step in my journey to working at a leading research laboratory in New York.",
+    "cues": [
+      "meeting with Western Electric Director",
+      "early 1920s",
+      "encouragement to move to U.S."
+    ],
+    "transcript_ref": "academic\\ucla_oral_history\\ucla_ucla_George_Groves_oral_history_transcript_sound_director.yaml"
+  },
+  {
+    "entity_id": 15,
+    "entity": "Bell Labs",
+    "explicit_text": "I worked at Bell Labs in New York from 1923 to 1925 after arriving in the United States. Initially, I was placed in the Research Service Department, which involved managing scientific projects including the development of transatlantic telephone cables and phonograph record technology. It was at Bell Labs that I became involved with the Orthophonic Phonograph and eventually the early synchronized sound motion picture work.",
+    "implicit_text": "I worked at a renowned research laboratory in New York from 1923 to 1925 after arriving in the United States. Initially, I was placed in the Research Service Department, which involved managing scientific projects including the development of transatlantic telephone cables and phonograph record technology. It was at this lab that I became involved with the Orthophonic Phonograph and eventually the early synchronized sound motion picture work.",
+    "cues": [
+      "New York",
+      "1923-1925",
+      "Research Service Department",
+      "Orthophonic Phonograph",
+      "sound motion pictures"
+    ],
+    "transcript_ref": "academic\\ucla_oral_history\\ucla_ucla_George_Groves_oral_history_transcript_sound_director.yaml"
+  },
+  {
+    "entity_id": 16,
+    "entity": "New York City",
+    "explicit_text": "In New York City, I worked at Bell Labs and was active musically, playing with various orchestras such as the Germania Club and the American Orchestral Society. I also participated in chamber music groups and conducted a small orchestra of Bell Labs employees. New York was both my professional and musical home during the mid-1920s.",
+    "implicit_text": "In this city, I worked at a major research laboratory and was active musically, playing with various orchestras such as the Germania Club and the American Orchestral Society. I also participated in chamber music groups and conducted a small orchestra of employees from the lab. This city was both my professional and musical home during the mid-1920s.",
+    "cues": [
+      "Bell Labs",
+      "Germania Club",
+      "American Orchestral Society",
+      "1920s"
+    ],
+    "transcript_ref": "academic\\ucla_oral_history\\ucla_ucla_George_Groves_oral_history_transcript_sound_director.yaml"
+  },
+  {
+    "entity_id": 17,
+    "entity": "Orthophonic Phonograph",
+    "explicit_text": "While at Bell Labs, I was involved in the development of the Orthophonic Phonograph, a new electrical recording system adopted by the Victor Company. This method replaced the old acoustic recording system by using electrical signals to record sound, greatly improving phonograph record quality. It was a significant technological advancement in sound reproduction during the 1920s.",
+    "implicit_text": "While at the research laboratory, I was involved in the development of a new electrical recording system adopted by a leading phonograph company. This method replaced the old acoustic recording system by using electrical signals to record sound, greatly improving phonograph record quality. It was a significant technological advancement in sound reproduction during the 1920s.",
+    "cues": [
+      "Bell Labs",
+      "Victor Company",
+      "electrical recording",
+      "1920s"
+    ],
+    "transcript_ref": "academic\\ucla_oral_history\\ucla_ucla_George_Groves_oral_history_transcript_sound_director.yaml"
+  },
+  {
+    "entity_id": 18,
+    "entity": "Victor Company",
+    "explicit_text": "The Victor Company adopted the Orthophonic Phonograph system developed at Bell Labs, which I was involved with. This new electrical recording method replaced the older acoustic systems and improved the quality of phonograph records. Victor was a major player in the phonograph industry during my time at Bell Labs.",
+    "implicit_text": "A major phonograph company adopted the new electrical recording system developed at the research laboratory, which I was involved with. This new method replaced the older acoustic systems and improved the quality of phonograph records. This company was a major player in the phonograph industry during my time at the lab.",
+    "cues": [
+      "Orthophonic Phonograph",
+      "Bell Labs",
+      "phonograph industry",
+      "1920s"
+    ],
+    "transcript_ref": "academic\\ucla_oral_history\\ucla_ucla_George_Groves_oral_history_transcript_sound_director.yaml"
+  },
+  {
+    "entity_id": 19,
+    "entity": "Germania Club",
+    "explicit_text": "In New York, I played trumpet with the Germania Club orchestra, which met in the Academy of Music Building in Brooklyn. The club was composed of German businessmen who were also talented musicians, and the orchestra had about fifty to sixty pieces. Playing with them was part of my musical life outside of my engineering work.",
+    "implicit_text": "In New York, I played trumpet with an orchestra composed of German businessmen who were also talented musicians. The group met in a notable music building in Brooklyn and had about fifty to sixty pieces. Playing with them was part of my musical life outside of my engineering work.",
+    "cues": [
+      "New York",
+      "Academy of Music Building",
+      "Brooklyn",
+      "1920s"
+    ],
+    "transcript_ref": "academic\\ucla_oral_history\\ucla_ucla_George_Groves_oral_history_transcript_sound_director.yaml"
+  },
+  {
+    "entity_id": 20,
+    "entity": "Academy of Music (Brooklyn)",
+    "explicit_text": "The Germania Club orchestra, which I played with, rehearsed in the Academy of Music Building in Brooklyn. This venue was a central location for musical gatherings of the German community in New York. It was an important place for my musical activities during the 1920s.",
+    "implicit_text": "The orchestra I played with rehearsed in a prominent music building in Brooklyn. This venue was a central location for musical gatherings of the German community in New York. It was an important place for my musical activities during the 1920s.",
+    "cues": [
+      "Germania Club",
+      "Brooklyn",
+      "1920s",
+      "musical rehearsals"
+    ],
+    "transcript_ref": "academic\\ucla_oral_history\\ucla_ucla_George_Groves_oral_history_transcript_sound_director.yaml"
+  },
+  {
+    "entity_id": 21,
+    "entity": "American Orchestral Society",
+    "explicit_text": "I played with the American Orchestral Society in New York, which met every Sunday morning. This was one of several orchestras I joined for the love of music while working at Bell Labs. It was a large group and part of my active musical involvement in the city.",
+    "implicit_text": "I played with a large orchestral society in New York, which met every Sunday morning. This was one of several orchestras I joined for the love of music while working at the research laboratory. It was a large group and part of my active musical involvement in the city.",
+    "cues": [
+      "New York",
+      "Sunday rehearsals",
+      "1920s",
+      "musical involvement"
+    ],
+    "transcript_ref": "academic\\ucla_oral_history\\ucla_ucla_George_Groves_oral_history_transcript_sound_director.yaml"
+  },
+  {
+    "entity_id": 22,
+    "entity": "City College of New York",
+    "explicit_text": "At City College of New York, I played in an orchestra of over one hundred pieces that met midweek under the direction of Christian Kriens. This was another musical outlet for me during my time in New York, balancing my engineering career with my passion for music.",
+    "implicit_text": "At a well-known college in New York, I played in an orchestra of over one hundred pieces that met midweek under the direction of a conductor named Christian Kriens. This was another musical outlet for me during my time in the city, balancing my engineering career with my passion for music.",
+    "cues": [
+      "New York",
+      "Christian Kriens",
+      "1920s",
+      "large orchestra"
+    ],
+    "transcript_ref": "academic\\ucla_oral_history\\ucla_ucla_George_Groves_oral_history_transcript_sound_director.yaml"
+  },
+  {
+    "entity_id": 23,
+    "entity": "Christian Kriens",
+    "explicit_text": "Christian Kriens was the conductor of the large orchestra at City College of New York where I played trumpet. The orchestra met midweek and had over one hundred musicians. Playing under his direction was part of my rich musical life in New York during the 1920s.",
+    "implicit_text": "Christian Kriens was the conductor of the large orchestra at a New York college where I played trumpet. The orchestra met midweek and had over one hundred musicians. Playing under his direction was part of my rich musical life in New York during the 1920s.",
+    "cues": [
+      "City College of New York",
+      "orchestra conductor",
+      "1920s"
+    ],
+    "transcript_ref": "academic\\ucla_oral_history\\ucla_ucla_George_Groves_oral_history_transcript_sound_director.yaml"
+  },
+  {
+    "entity_id": 24,
+    "entity": "Warner Bros.",
+    "explicit_text": "In 1925, after two years at Bell Labs, I was transferred to Warner Brothers as part of a package deal involving the synchronized sound motion picture project. Warner Bros. contracted with the Bell System to develop and exploit talking pictures, and I was involved in installing the original recording equipment at their studios. This marked my transition from research to the film industry.",
+    "implicit_text": "In 1925, after two years at the research laboratory, I was transferred to a major Hollywood studio as part of a package deal involving the synchronized sound motion picture project. This studio contracted with the Bell System to develop and exploit talking pictures, and I was involved in installing the original recording equipment at their studios. This marked my transition from research to the film industry.",
+    "cues": [
+      "1925",
+      "synchronized sound pictures",
+      "contract with Bell System",
+      "Warner Brothers studios"
+    ],
+    "transcript_ref": "academic\\ucla_oral_history\\ucla_ucla_George_Groves_oral_history_transcript_sound_director.yaml"
+  },
+  {
+    "entity_id": 25,
+    "entity": "Sam Warner",
+    "explicit_text": "Sam Warner, one of the Warner Brothers, saw the demonstration of synchronized sound and picture at Bell Labs in New York. He was enthusiastic about the technology and helped secure the contract between Warner Brothers and the Bell System to develop talking pictures. Sadly, he passed away some years ago, but his vision was crucial to the project I worked on.",
+    "implicit_text": "One of the brothers who founded the Hollywood studio saw the demonstration of synchronized sound and picture at the research laboratory in New York. He was enthusiastic about the technology and helped secure the contract between the studio and the Bell System to develop talking pictures. Sadly, he passed away some years ago, but his vision was crucial to the project I worked on.",
+    "cues": [
+      "Warner Brothers",
+      "Bell Labs demonstration",
+      "early synchronized sound",
+      "1920s"
+    ],
+    "transcript_ref": "academic\\ucla_oral_history\\ucla_ucla_George_Groves_oral_history_transcript_sound_director.yaml"
+  },
+  {
+    "entity_id": 26,
+    "entity": "Vitagraph Studios",
+    "explicit_text": "The first synchronized sound pictures were made at the old Vitagraph Studios in Brooklyn, which Warner Brothers owned. We installed the initial recording equipment there and attempted to acoustically treat the studio to improve sound quality. These early experiments were crude by today's standards but were groundbreaking at the time.",
+    "implicit_text": "The first synchronized sound pictures were made at an old studio in Brooklyn owned by the Hollywood company. We installed the initial recording equipment there and attempted to acoustically treat the studio to improve sound quality. These early experiments were crude by today's standards but were groundbreaking at the time.",
+    "cues": [
+      "Brooklyn",
+      "Warner Brothers",
+      "early synchronized sound films",
+      "1920s"
+    ],
+    "transcript_ref": "academic\\ucla_oral_history\\ucla_ucla_George_Groves_oral_history_transcript_sound_director.yaml"
+  },
+  {
+    "entity_id": 27,
+    "entity": "Brooklyn",
+    "explicit_text": "Brooklyn was the location of the Academy of Music Building where I played with the Germania Club orchestra and also the site of the Vitagraph Studios where Warner Brothers produced early synchronized sound pictures. It was an important place for both my musical and professional activities in the 1920s.",
+    "implicit_text": "This borough was the location of the music building where I played with the German businessmen's orchestra and also the site of the studio where the Hollywood company produced early synchronized sound pictures. It was an important place for both my musical and professional activities in the 1920s.",
+    "cues": [
+      "Academy of Music",
+      "Vitagraph Studios",
+      "1920s",
+      "musical and film work"
+    ],
+    "transcript_ref": "academic\\ucla_oral_history\\ucla_ucla_George_Groves_oral_history_transcript_sound_director.yaml"
+  }
+]

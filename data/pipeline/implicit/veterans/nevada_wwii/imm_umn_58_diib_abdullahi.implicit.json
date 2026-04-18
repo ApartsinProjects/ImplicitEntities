@@ -1,0 +1,82 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "Somalia",
+    "explicit_text": "I was born in Somalia in 1987, on the west side of the country. My family lived there until 1991 when the Somali Civil War broke out, forcing us to leave. Somalia is where my family's traditions, like the xeedho wedding gift, originated and have been passed down for generations.",
+    "implicit_text": "I was born in the western region of my East African homeland in 1987. My family lived there until 1991 when the civil war erupted, forcing us to leave. This country is where my family's traditions, like the xeedho wedding gift, originated and have been passed down for generations.",
+    "cues": [
+      "1987",
+      "west side of Somalia",
+      "family traditions",
+      "Somali Civil War"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_58_diib_abdullahi.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "Kenya",
+    "explicit_text": "After we fled Somalia in 1991 because of the civil war, my family lived in a refugee camp in Kenya for many years. Kenya became our temporary home until my older brother sponsored us to come to the United States. We left Kenya in 2006, bringing with us important family heirlooms like the xeedho.",
+    "implicit_text": "After we fled our homeland in 1991 because of the civil war, my family lived in a refugee camp in a neighboring East African country for many years. This country became our temporary home until my older brother sponsored us to come to the United States. We left there in 2006, bringing with us important family heirlooms like the xeedho.",
+    "cues": [
+      "1991",
+      "refugee camp",
+      "sponsorship",
+      "2006",
+      "family heirlooms"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_58_diib_abdullahi.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "Somali Civil War",
+    "explicit_text": "The Somali Civil War started in 1991, and it was the reason my family had to leave Somalia. This conflict disrupted our lives and forced us to seek refuge in Kenya. The war changed everything for us, but it also made our family traditions, like the xeedho, even more precious as a connection to our homeland.",
+    "implicit_text": "The civil conflict that began in 1991 in my home country was the reason my family had to leave. This war disrupted our lives and forced us to seek refuge in a neighboring country. The conflict changed everything for us, but it also made our family traditions, like the xeedho, even more precious as a connection to our homeland.",
+    "cues": [
+      "1991",
+      "family displacement",
+      "refugee life",
+      "Somalia"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_58_diib_abdullahi.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "Minnesota",
+    "explicit_text": "In 2006, my family moved to Minnesota after my older brother sponsored us to join him in the United States. Minnesota became our new home where we started rebuilding our lives. It’s where I am now studying at Century College and where our family treasures, like the xeedho, found a safe place.",
+    "implicit_text": "In 2006, my family moved to a northern U.S. state after my older brother sponsored us to join him in the United States. This state became our new home where we started rebuilding our lives. It’s where I am now studying at Century College and where our family treasures, like the xeedho, found a safe place.",
+    "cues": [
+      "2006",
+      "family sponsorship",
+      "new home",
+      "studying",
+      "Century College"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_58_diib_abdullahi.yaml"
+  },
+  {
+    "entity_id": 5,
+    "entity": "St. Paul, Minnesota",
+    "explicit_text": "We arrived in St. Paul, Minnesota in February 2006, joining my brother who had settled there earlier. St. Paul was the city where our family began a new chapter after years in refugee camps. It’s also where we carefully reunited the pieces of the xeedho and kept it safe as a symbol of our heritage.",
+    "implicit_text": "We arrived in the capital city of that northern U.S. state in February 2006, joining my brother who had settled there earlier. This city was where our family began a new chapter after years in refugee camps. It’s also where we carefully reunited the pieces of the xeedho and kept it safe as a symbol of our heritage.",
+    "cues": [
+      "February 2006",
+      "family reunion",
+      "new chapter",
+      "xeedho preservation"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_58_diib_abdullahi.yaml"
+  },
+  {
+    "entity_id": 6,
+    "entity": "Century College",
+    "explicit_text": "I am currently a student at Century College, which is part of my journey here in Minnesota. Attending Century College helps me pursue my education and build a future for myself and my family. It’s a place where I continue to grow while honoring my Somali roots and family traditions.",
+    "implicit_text": "I am currently a student at a community college in Minnesota, which is part of my journey here. Attending this college helps me pursue my education and build a future for myself and my family. It’s a place where I continue to grow while honoring my Somali roots and family traditions.",
+    "cues": [
+      "current student",
+      "Minnesota",
+      "education",
+      "personal growth"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_58_diib_abdullahi.yaml"
+  }
+]

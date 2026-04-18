@@ -1,0 +1,354 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "Jacksonville, Florida",
+    "explicit_text": "My family moved to Jacksonville, Florida, from Flint, Michigan, in 1870 when I was very young. We lived in South Jacksonville near the St. Johns River, boarding first with ex-Governor Harrison Reed's family. Jacksonville grew rapidly during my youth, and I witnessed events like the Great Fire of 1901 from across the river. I also attended school here and watched the city develop with the coming of the Florida East Coast Railway and the building of bridges connecting Jacksonville and South Jacksonville.",
+    "implicit_text": "My family moved to a rapidly growing city in northeastern Florida from a Michigan town in 1870 when I was very young. We lived in the southern part of the city near a major river, boarding first with the family of a former territorial governor. I witnessed events like the devastating 1901 fire from across the river and attended school here, watching the city develop with the arrival of a prominent railway and the construction of bridges connecting the two sides of the river.",
+    "cues": [
+      "1870",
+      "South Jacksonville",
+      "Great Fire of 1901",
+      "St. Johns River",
+      "Florida East Coast Railway"
+    ],
+    "transcript_ref": "depression_era\\loc_depression\\dep_Mrs_Alexander_Mitchell.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "Flint, Michigan",
+    "explicit_text": "I was born in Flint, Michigan, but my family moved to Florida when I was a small child in 1870 because my father was ill with consumption. The Gibsons were early settlers in Michigan, and my father was of the fourth generation there. Though we left Flint behind, our roots and family history remained important to us as we settled in Jacksonville.",
+    "implicit_text": "I was born in a Midwestern industrial city but my family moved south to Florida when I was a small child in 1870 due to my father's illness. My family had deep roots as early settlers in that Michigan city, with my father representing the fourth generation there. Though we left that place behind, our family history remained important as we settled in the growing Florida city.",
+    "cues": [
+      "1870",
+      "family move",
+      "consumption",
+      "early settlers"
+    ],
+    "transcript_ref": "depression_era\\loc_depression\\dep_Mrs_Alexander_Mitchell.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "Harrison Reed",
+    "explicit_text": "Harrison Reed was the first Territorial Governor of Florida and a Yankee from Milwaukee, Wisconsin, like my family. When we arrived in Jacksonville, we boarded with his family in his old Reed house on Platt Street in South Jacksonville. His son, Harrison Reed Jr., was my close playmate during childhood. Governor Reed was also the brother of Mrs. Alexander Mitchell, linking two prominent families in the area.",
+    "implicit_text": "The first Territorial Governor of Florida was a Yankee from Wisconsin, like my family. When we arrived in the Florida city, we boarded with his family in his old house on Platt Street in the southern part of town. His son was my close childhood playmate, and the governor was also the brother of a prominent local woman, linking two influential families.",
+    "cues": [
+      "first Territorial Governor",
+      "Milwaukee",
+      "Platt Street",
+      "South Jacksonville",
+      "brother of Mrs. Alexander Mitchell"
+    ],
+    "transcript_ref": "depression_era\\loc_depression\\dep_Mrs_Alexander_Mitchell.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "Milwaukee",
+    "explicit_text": "Milwaukee, Wisconsin, was the original home of Governor Harrison Reed and Mrs. Alexander Mitchell, who were siblings. My family, also Yankees, found a connection with them when we moved to Florida. The Mitchell family, including Mrs. Alexander Mitchell and her son David, had ties back to Milwaukee, which was often mentioned in family stories and court proceedings.",
+    "implicit_text": "A major city in Wisconsin was the original home of the first Territorial Governor of Florida and his sister, a notable local figure. My family, also from the North, found a connection with them when we moved south. The sister's family, including her son, had ties back to that Midwestern city, which was often mentioned in family stories and legal matters.",
+    "cues": [
+      "Governor Harrison Reed",
+      "Mrs. Alexander Mitchell",
+      "family ties",
+      "court proceedings"
+    ],
+    "transcript_ref": "depression_era\\loc_depression\\dep_Mrs_Alexander_Mitchell.yaml"
+  },
+  {
+    "entity_id": 5,
+    "entity": "Barnett Bank",
+    "explicit_text": "My father began working at the Barnett Bank as a bookkeeper and was the third man employed there. The bank was then called the Bank of Jacksonville and was located at the corner of Forsyth and Main, now Duval Street. By the time of my father's death in 1891, he was assistant cashier. I have seen the bank grow from a small operation with three employees to a large institution employing hundreds.",
+    "implicit_text": "My father began working at one of the earliest banks in the Florida city as a bookkeeper and was the third man employed there. The bank was then known by a different name and located at the corner of Forsyth and Main streets, now called Duval Street. By the time of his death in 1891, he had risen to assistant cashier. I witnessed the bank grow from a small operation with just three employees to a large institution employing hundreds.",
+    "cues": [
+      "bookkeeper",
+      "third man employed",
+      "Forsyth and Main",
+      "assistant cashier",
+      "1891"
+    ],
+    "transcript_ref": "depression_era\\loc_depression\\dep_Mrs_Alexander_Mitchell.yaml"
+  },
+  {
+    "entity_id": 6,
+    "entity": "Forsyth Street",
+    "explicit_text": "Forsyth Street was the location of the Barnett Bank when my father worked there in the late 1800s. The bank stood at the corner of Forsyth and Main, which is now known as Duval Street. This area was central to Jacksonville's business district as it grew during that period.",
+    "implicit_text": "Forsyth Street was where the early bank my father worked at was located in the late 1800s. The bank stood at the corner of Forsyth and Main, which today is known by a different name. This area was central to the city's business district as it expanded during that period.",
+    "cues": [
+      "Barnett Bank",
+      "late 1800s",
+      "corner of Forsyth and Main",
+      "business district"
+    ],
+    "transcript_ref": "depression_era\\loc_depression\\dep_Mrs_Alexander_Mitchell.yaml"
+  },
+  {
+    "entity_id": 7,
+    "entity": "Duval Street",
+    "explicit_text": "Duval Street, formerly known as Main Street, was part of the downtown Jacksonville area where the Barnett Bank was located. My father worked at the bank on the southwest corner of Forsyth and Main, which today is called Duval Street. This street was a hub of commerce as Jacksonville expanded.",
+    "implicit_text": "The street now called Duval, formerly known as Main Street, was part of the downtown area where the bank employing my father was located. He worked at the bank on the southwest corner of Forsyth and Main, which today bears the new street name. This street was a hub of commerce as the city grew.",
+    "cues": [
+      "Barnett Bank",
+      "Forsyth and Main",
+      "downtown Jacksonville",
+      "commerce"
+    ],
+    "transcript_ref": "depression_era\\loc_depression\\dep_Mrs_Alexander_Mitchell.yaml"
+  },
+  {
+    "entity_id": 8,
+    "entity": "Alexander Mitchell",
+    "explicit_text": "Mrs. Alexander Mitchell was the sister of Governor Harrison Reed and a prominent figure in Jacksonville society. She owned Villa Alexandria on A. Johns Avenue and was a cultured, dignified woman who traveled widely. I often stayed with her as a child and admired her beautiful home and refined manners. Her son, John Mitchell, had a son named David, who figures prominently in our family stories.",
+    "implicit_text": "A prominent local woman, sister to the first Territorial Governor of Florida, was a cultured and dignified figure in society. She owned a grand home on A. Johns Avenue and traveled widely. I often stayed with her as a child and admired her beautiful residence and refined manners. Her son had a son who figures prominently in our family stories.",
+    "cues": [
+      "sister of Harrison Reed",
+      "Villa Alexandria",
+      "A. Johns Avenue",
+      "cultured woman",
+      "mother of John Mitchell"
+    ],
+    "transcript_ref": "depression_era\\loc_depression\\dep_Mrs_Alexander_Mitchell.yaml"
+  },
+  {
+    "entity_id": 9,
+    "entity": "Villa Alexandria",
+    "explicit_text": "Villa Alexandria was the grand home of Mrs. Alexander Mitchell on A. Johns Avenue in north Jacksonville. It was a large, three-story frame house with exquisitely decorated rooms, including a French room and a Japanese bedroom. I often stayed there as a child and was fascinated by the beautiful furnishings, imported china, and the magnificent dining room overlooking the St. Johns River.",
+    "implicit_text": "The grand home of the prominent local woman on A. Johns Avenue in the northern part of the city was a large, three-story frame house with exquisitely decorated rooms, including a French room and a Japanese bedroom. I often stayed there as a child and was fascinated by the beautiful furnishings, imported china, and the magnificent dining room overlooking the nearby river.",
+    "cues": [
+      "Mrs. Alexander Mitchell",
+      "A. Johns Avenue",
+      "north Jacksonville",
+      "three-story house",
+      "St. Johns River"
+    ],
+    "transcript_ref": "depression_era\\loc_depression\\dep_Mrs_Alexander_Mitchell.yaml"
+  },
+  {
+    "entity_id": 10,
+    "entity": "St. Johns River",
+    "explicit_text": "The St. Johns River was a constant presence in my life growing up in Jacksonville. Our property was fenced to the river's edge, and I remember crossing it by rowboat daily, especially when visiting friends or going to school. The river also provided a vantage point to witness events like the Great Fire of 1901 and was the site of early ferryboats such as the Armington and the Mechanic.",
+    "implicit_text": "The major river running through the city was a constant presence in my life growing up. Our property was fenced to the river's edge, and I remember crossing it by rowboat daily, especially when visiting friends or going to school. The river also provided a vantage point to witness events like the great 1901 fire and was the site of early ferryboats such as the Armington and the Mechanic.",
+    "cues": [
+      "fenced property",
+      "rowboat crossings",
+      "Great Fire of 1901",
+      "Armington ferryboat",
+      "Mechanic ferryboat"
+    ],
+    "transcript_ref": "depression_era\\loc_depression\\dep_Mrs_Alexander_Mitchell.yaml"
+  },
+  {
+    "entity_id": 11,
+    "entity": "David Mitchell",
+    "explicit_text": "David Mitchell was the young son of John Mitchell and grandson of Mrs. Alexander Mitchell. I first saw him in 1893 when his grandmother brought him back to South Jacksonville after a family divorce. He was a lively boy, fond of his bulldogs, and was the apple of his grandmother's eye. Later, he married Kittie Parrott, and they had a son named Alexander Mitchell. David suffered a serious polo accident that left him incapacitated for a long time.",
+    "implicit_text": "The young son of a prominent local family member was first brought to the southern part of the city in 1893 after a family divorce. He was a lively boy, fond of his bulldogs, and was the apple of his grandmother's eye. Later, he married a woman determined to marry the richest man in the city, and they had a son named after the family. He suffered a serious polo accident that left him incapacitated for a long time.",
+    "cues": [
+      "1893",
+      "grandson of Mrs. Alexander Mitchell",
+      "bulldogs",
+      "married Kittie Parrott",
+      "polo accident"
+    ],
+    "transcript_ref": "depression_era\\loc_depression\\dep_Mrs_Alexander_Mitchell.yaml"
+  },
+  {
+    "entity_id": 12,
+    "entity": "Kittie Parrott",
+    "explicit_text": "Kittie Parrott, originally Kittie Sutton, was the woman who married David Mitchell. She was adopted by Mr. Parrott after her mother remarried and was determined to marry the richest man in Jacksonville, setting her sights on David. Their marriage produced a son, Alexander Mitchell, but after David's accident, Kittie sought a divorce and later caused scandal by living with another man before eventually remarrying and settling in West Palm Beach.",
+    "implicit_text": "A woman originally surnamed Sutton, adopted by a Mr. Parrott after her mother remarried, was determined to marry the wealthiest man in the city and set her sights on a young man from a prominent family. Their marriage produced a son, but after her husband's accident, she sought a divorce and later caused scandal by living with another man before eventually remarrying and settling in a well-known Florida city on the east coast.",
+    "cues": [
+      "married David Mitchell",
+      "adopted by Mr. Parrott",
+      "divorce",
+      "scandal",
+      "West Palm Beach"
+    ],
+    "transcript_ref": "depression_era\\loc_depression\\dep_Mrs_Alexander_Mitchell.yaml"
+  },
+  {
+    "entity_id": 13,
+    "entity": "Florida East Coast Railway",
+    "explicit_text": "The Florida East Coast Railway played a significant role in Jacksonville's development during my youth. The Mechanic ferryboat, owned by the Flagler system, carried passengers and freight across the river to the railway station. Kittie Parrott's father was an important official with the railway, which added to the family's prominence. The railway's expansion coincided with the building of bridges that eventually joined Jacksonville and South Jacksonville.",
+    "implicit_text": "A major railway played a significant role in the city's development during my youth. One of its ferryboats carried passengers and freight across the river to the railway station. The father of the woman who married into a prominent local family was an important official with this railway, which added to their prominence. The railway's expansion coincided with the building of bridges that eventually joined the two sides of the city.",
+    "cues": [
+      "Flagler system",
+      "Mechanic ferryboat",
+      "freight and passengers",
+      "Kittie Parrott's father",
+      "bridge construction"
+    ],
+    "transcript_ref": "depression_era\\loc_depression\\dep_Mrs_Alexander_Mitchell.yaml"
+  },
+  {
+    "entity_id": 14,
+    "entity": "West Palm Beach, Florida",
+    "explicit_text": "West Palm Beach, Florida, became the later home of Kittie Parrott after her tumultuous years in Jacksonville. Following her divorce from David Mitchell and a scandalous relationship, she eventually remarried and settled in West Palm Beach. It was there she regained some respectability after her earlier wild behavior.",
+    "implicit_text": "A city on Florida's east coast became the later home of a woman after her tumultuous years in the northern Florida city. Following her divorce and a scandalous relationship, she eventually remarried and settled there. It was in this city that she regained some respectability after her earlier wild behavior.",
+    "cues": [
+      "Kittie Parrott",
+      "remarriage",
+      "scandal",
+      "regained respectability"
+    ],
+    "transcript_ref": "depression_era\\loc_depression\\dep_Mrs_Alexander_Mitchell.yaml"
+  },
+  {
+    "entity_id": 15,
+    "entity": "Armington (ferryboat)",
+    "explicit_text": "The Armington was the first ferryboat operating on the St. Johns River around 1894 or 1896. I used to take this ferry to cross over to Jacksonville to attend the Bradford Institute, a private Episcopal school. It was a small but important means of transportation before the bridge was built connecting Jacksonville and South Jacksonville.",
+    "implicit_text": "The first ferryboat operating on the major river around 1894 or 1896 was a small but important means of transportation. I used to take this ferry to cross over to the city to attend a private Episcopal school. This ferry was essential before the bridge was built connecting the two sides of the city.",
+    "cues": [
+      "first ferryboat",
+      "1894 or 1896",
+      "St. Johns River",
+      "Bradford Institute",
+      "Episcopal Church"
+    ],
+    "transcript_ref": "depression_era\\loc_depression\\dep_Mrs_Alexander_Mitchell.yaml"
+  },
+  {
+    "entity_id": 16,
+    "entity": "Bradford Institute",
+    "explicit_text": "The Bradford Institute was a private school in Jacksonville operated by Mrs. Drow Williams under the Episcopal Church. I attended this school and often crossed the St. Johns River on the Armington ferryboat to get there. It was a notable part of my early education and social life in the city.",
+    "implicit_text": "A private school in the city operated under the Episcopal Church was where I attended. The school was run by Mrs. Drow Williams, and I often crossed the river on the Armington ferryboat to get there. It was a notable part of my early education and social life.",
+    "cues": [
+      "private school",
+      "Mrs. Drow Williams",
+      "Episcopal Church",
+      "Armington ferryboat",
+      "Jacksonville"
+    ],
+    "transcript_ref": "depression_era\\loc_depression\\dep_Mrs_Alexander_Mitchell.yaml"
+  },
+  {
+    "entity_id": 17,
+    "entity": "Episcopal Church (United States)",
+    "explicit_text": "The Episcopal Church was connected to the Bradford Institute, the private school I attended in Jacksonville. Mrs. Drow Williams operated the school under its auspices, providing a religious and educational foundation during my youth. The church's influence was part of the community fabric at that time.",
+    "implicit_text": "The Episcopal Church was connected to the private school I attended in the city. Mrs. Drow Williams operated the school under its auspices, providing a religious and educational foundation during my youth. The church's influence was part of the community fabric at that time.",
+    "cues": [
+      "Bradford Institute",
+      "Mrs. Drow Williams",
+      "Jacksonville",
+      "education",
+      "religious foundation"
+    ],
+    "transcript_ref": "depression_era\\loc_depression\\dep_Mrs_Alexander_Mitchell.yaml"
+  },
+  {
+    "entity_id": 18,
+    "entity": "Mechanic (ferryboat)",
+    "explicit_text": "The Mechanic was the second ferryboat on the St. Johns River, owned by the Florida East Coast Railway's Flagler system. It transported freight and passengers between the foot of Hogan Street and the south side railway station. This ferry was part of the growing transportation network before the bridge was completed.",
+    "implicit_text": "The second ferryboat on the major river was owned by the railway's system and transported freight and passengers between the foot of Hogan Street and the south side railway station. This ferry was part of the growing transportation network before the bridge was completed.",
+    "cues": [
+      "second ferryboat",
+      "Florida East Coast Railway",
+      "Flagler system",
+      "Hogan Street",
+      "freight and passengers"
+    ],
+    "transcript_ref": "depression_era\\loc_depression\\dep_Mrs_Alexander_Mitchell.yaml"
+  },
+  {
+    "entity_id": 19,
+    "entity": "Florida East Coast Railway",
+    "explicit_text": "The Florida East Coast Railway was instrumental in Jacksonville's growth, operating ferryboats like the Mechanic and expanding rail service. My family had connections through Kittie Parrott's father, an important official with the railway. The railway's development coincided with infrastructure improvements, including the bridge joining Jacksonville and South Jacksonville.",
+    "implicit_text": "This railway was instrumental in the city's growth, operating ferryboats like the Mechanic and expanding rail service. My family had connections through the father of a woman who married into a prominent local family. The railway's development coincided with infrastructure improvements, including the bridge joining the two sides of the city.",
+    "cues": [
+      "railway expansion",
+      "Mechanic ferryboat",
+      "Kittie Parrott's father",
+      "bridge construction",
+      "Jacksonville growth"
+    ],
+    "transcript_ref": "depression_era\\loc_depression\\dep_Mrs_Alexander_Mitchell.yaml"
+  },
+  {
+    "entity_id": 20,
+    "entity": "Great Fire of 1901",
+    "explicit_text": "I vividly remember the Great Fire of 1901 in Jacksonville, which started around noon on May 3rd. My siblings and I watched the flames and smoke from the south side of the St. Johns River, climbing onto our roof for a better view. The fire destroyed much of the city, including the Catholic Church, and left many homeless. My father stayed at the Barnett Bank through the night to keep things running, and our home sheltered nineteen displaced guests.",
+    "implicit_text": "I vividly remember the great fire that started around noon on May 3rd, 1901, in the city. My siblings and I watched the flames and smoke from the south side of the river, climbing onto our roof for a better view. The fire destroyed much of the city, including the Catholic Church, and left many homeless. My father stayed at the bank through the night to keep things running, and our home sheltered nineteen displaced guests.",
+    "cues": [
+      "May 3, 1901",
+      "Jacksonville",
+      "St. Johns River",
+      "Catholic Church",
+      "Barnett Bank"
+    ],
+    "transcript_ref": "depression_era\\loc_depression\\dep_Mrs_Alexander_Mitchell.yaml"
+  },
+  {
+    "entity_id": 21,
+    "entity": "Women's Club of Jacksonville",
+    "explicit_text": "The Women's Club of Jacksonville was located in a block that was destroyed during the Great Fire of 1901. I recall that the fire consumed everything in that area, emphasizing the devastation the city faced. The club's site marked part of the downtown that had to be rebuilt after the disaster.",
+    "implicit_text": "A women's club was located in a block that was destroyed during the great 1901 fire. I recall that the fire consumed everything in that area, emphasizing the devastation the city faced. The club's site marked part of the downtown that had to be rebuilt after the disaster.",
+    "cues": [
+      "Great Fire of 1901",
+      "destruction",
+      "downtown Jacksonville",
+      "rebuilding"
+    ],
+    "transcript_ref": "depression_era\\loc_depression\\dep_Mrs_Alexander_Mitchell.yaml"
+  },
+  {
+    "entity_id": 22,
+    "entity": "Lite Hubbard Hardware Co.",
+    "explicit_text": "Harrison Reed Jr., the son of Governor Reed, worked for the Lite Hubbard Hardware Co. after finishing school. Later, he moved on to a position with the Standard Oil Company, eventually becoming Florida manager. His early employment at Lite Hubbard was the start of his career in Jacksonville's business community.",
+    "implicit_text": "The son of the first Territorial Governor worked for a local hardware company after finishing school. Later, he moved on to a position with a major oil company, eventually becoming its Florida manager. His early employment at the hardware company was the start of his career in the city's business community.",
+    "cues": [
+      "Harrison Reed Jr.",
+      "post-school employment",
+      "Standard Oil",
+      "Florida manager"
+    ],
+    "transcript_ref": "depression_era\\loc_depression\\dep_Mrs_Alexander_Mitchell.yaml"
+  },
+  {
+    "entity_id": 23,
+    "entity": "Standard Oil",
+    "explicit_text": "Standard Oil was a major company in Jacksonville where Harrison Reed Jr. worked after leaving Lite Hubbard Hardware Co. He was initially in charge of their warehouse and later promoted to Florida manager. The company grew in influence during his tenure, reflecting the economic development of the city.",
+    "implicit_text": "A major oil company in the city employed the governor's son after he left the hardware company. He was initially in charge of their warehouse and later promoted to Florida manager. The company grew in influence during his tenure, reflecting the economic development of the city.",
+    "cues": [
+      "Harrison Reed Jr.",
+      "warehouse manager",
+      "Florida manager",
+      "economic growth"
+    ],
+    "transcript_ref": "depression_era\\loc_depression\\dep_Mrs_Alexander_Mitchell.yaml"
+  },
+  {
+    "entity_id": 24,
+    "entity": "San Jose, Jacksonville",
+    "explicit_text": "San Jose is a north Jacksonville suburb near where Mrs. Alexander Mitchell's Villa Alexandria was located on A. Johns Avenue. This area was fashionable and home to prominent families like the Mitchells. My family had connections here through visits and property ownership.",
+    "implicit_text": "A northern suburb of the city near where the prominent local woman's grand home was located on A. Johns Avenue was a fashionable area home to notable families. My family had connections here through visits and property ownership.",
+    "cues": [
+      "north Jacksonville",
+      "Villa Alexandria",
+      "A. Johns Avenue",
+      "fashionable suburb"
+    ],
+    "transcript_ref": "depression_era\\loc_depression\\dep_Mrs_Alexander_Mitchell.yaml"
+  },
+  {
+    "entity_id": 25,
+    "entity": "All Saints Chapel (Jacksonville, Florida)",
+    "explicit_text": "While not directly mentioned in detail, All Saints Chapel was part of the Episcopal Church community connected to the Bradford Institute where I studied. The chapel represented the religious life in Jacksonville during my youth and was part of the church's presence in the city.",
+    "implicit_text": "Although not directly mentioned in detail, a chapel was part of the Episcopal Church community connected to the private school where I studied. The chapel represented the religious life in the city during my youth and was part of the church's presence there.",
+    "cues": [
+      "Episcopal Church",
+      "Bradford Institute",
+      "Jacksonville religious community"
+    ],
+    "transcript_ref": "depression_era\\loc_depression\\dep_Mrs_Alexander_Mitchell.yaml"
+  },
+  {
+    "entity_id": 26,
+    "entity": "Yellow fever epidemic of 1888",
+    "explicit_text": "The yellow fever epidemic of 1888 is not directly mentioned in my recollections, but it was a significant event in Florida's history during my childhood years. My family had moved to Jacksonville by then, and such epidemics shaped public health and community responses in the region.",
+    "implicit_text": "The yellow fever epidemic of 1888 is not directly mentioned in my recollections, but it was a significant event in Florida's history during my childhood years. My family had moved to the city by then, and such epidemics shaped public health and community responses in the region.",
+    "cues": [
+      "1888",
+      "Florida history",
+      "public health",
+      "childhood period"
+    ],
+    "transcript_ref": "depression_era\\loc_depression\\dep_Mrs_Alexander_Mitchell.yaml"
+  }
+]

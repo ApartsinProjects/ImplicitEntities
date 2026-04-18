@@ -1,0 +1,72 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "Iran",
+    "explicit_text": "I am originally from Iran, where I lived until about 26 years ago before my family and I decided to leave. The political situation changed drastically after the Shah was overthrown by a religious leader, and the new Islamic laws made life very difficult, especially for women like me. Despite the challenges, I always tried to make the best of what I had, but the corrupt government system limited my opportunities and freedoms. Leaving Iran was hard because I had to leave friends and family behind, but I knew that escaping was necessary for a better future.",
+    "implicit_text": "I am originally from the country in the Middle East where I lived until about 26 years ago before my family and I decided to leave. The political situation changed drastically after the monarch was overthrown by a religious leader, and the new Islamic laws made life very difficult, especially for women like me. Despite the challenges, I always tried to make the best of what I had, but the corrupt government system limited my opportunities and freedoms. Leaving that country was hard because I had to leave friends and family behind, but I knew that escaping was necessary for a better future.",
+    "cues": [
+      "26 years ago",
+      "Shah overthrown",
+      "Islamic laws",
+      "corrupt government",
+      "women's rights"
+    ],
+    "transcript_ref": "immigration\\imm_umn_48_afsaneh_nozari.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "Shah of Iran",
+    "explicit_text": "The Shah of Iran was the king who ruled before the religious leader took over and changed the government system. I remember when the Shah was rolled out, it marked a turning point for my family and me because the new regime imposed strict Islamic laws that affected everyone’s lives. This political upheaval forced us to seek a way out of Iran to escape the unfair system. The Shah's removal was the beginning of a difficult journey for us, but it was also the reason we eventually left our homeland.",
+    "implicit_text": "The king who ruled before the religious leader took over and changed the government system was the monarch of my homeland. I remember when he was removed, it marked a turning point for my family and me because the new regime imposed strict Islamic laws that affected everyone’s lives. This political upheaval forced us to seek a way out of our country to escape the unfair system. His removal was the beginning of a difficult journey for us, but it was also the reason we eventually left our homeland.",
+    "cues": [
+      "Shah overthrown",
+      "regime change",
+      "religious leader",
+      "Islamic laws",
+      "family escape"
+    ],
+    "transcript_ref": "immigration\\imm_umn_48_afsaneh_nozari.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "United States of America",
+    "explicit_text": "The United States of America became my new home after my family and I left Iran. My parents were the first to get visas here, and after they settled, they helped me and my siblings get green cards. When I arrived, I didn’t speak any English, but I took classes and made friends with other immigrants who were very kind and supportive. Living in America gave me freedoms and opportunities I never had in Iran, like the right to an education and the chance to build a family on my own terms. I’m very grateful for the life I have here, and I feel proud to raise my children in this land of opportunity.",
+    "implicit_text": "The country in North America became my new home after my family and I left our homeland. My parents were the first to get visas there, and after they settled, they helped me and my siblings get green cards. When I arrived, I didn’t speak any English, but I took classes and made friends with other immigrants who were very kind and supportive. Living in that country gave me freedoms and opportunities I never had before, like the right to an education and the chance to build a family on my own terms. I’m very grateful for the life I have here, and I feel proud to raise my children in this land of opportunity.",
+    "cues": [
+      "green card",
+      "immigrant classes",
+      "freedom",
+      "education",
+      "family"
+    ],
+    "transcript_ref": "immigration\\imm_umn_48_afsaneh_nozari.yaml"
+  },
+  {
+    "entity_id": 5,
+    "entity": "Pakistan",
+    "explicit_text": "Before I could come to the United States, I had to spend about eight months in Pakistan, which was a very difficult time for me. The conditions were harsh; we didn’t have clean water, good food, or even a fridge, but we managed to survive there while waiting for our visas. Karachi was the city where I stayed during this period, and although it was tough, I held on to hope that I would soon join my family in America. That time in Pakistan was a test of endurance, but it was a necessary step in my journey to a better life.",
+    "implicit_text": "Before I could come to the North American country, I had to spend about eight months in a South Asian nation, which was a very difficult time for me. The conditions were harsh; we didn’t have clean water, good food, or even a fridge, but we managed to survive there while waiting for our visas. The city where I stayed during this period was the largest in that country, and although it was tough, I held on to hope that I would soon join my family in the new land. That time in this South Asian country was a test of endurance, but it was a necessary step in my journey to a better life.",
+    "cues": [
+      "eight months",
+      "harsh conditions",
+      "waiting for visa",
+      "Karachi",
+      "journey"
+    ],
+    "transcript_ref": "immigration\\imm_umn_48_afsaneh_nozari.yaml"
+  },
+  {
+    "entity_id": 6,
+    "entity": "Karachi",
+    "explicit_text": "Karachi, Pakistan, was where I stayed for about eight months before finally getting my visa to the United States. Life there was very challenging; we lacked basic necessities like clean water and good food, and the living conditions were far from comfortable. Despite these hardships, Karachi was a crucial stop on my path to America, and I was determined to make it through so I could reunite with my family. Looking back, those months in Karachi tested my resilience but also strengthened my hope for a brighter future.",
+    "implicit_text": "The largest city in the South Asian country was where I stayed for about eight months before finally getting my visa to the North American country. Life there was very challenging; we lacked basic necessities like clean water and good food, and the living conditions were far from comfortable. Despite these hardships, this city was a crucial stop on my path to the new land, and I was determined to make it through so I could reunite with my family. Looking back, those months in that city tested my resilience but also strengthened my hope for a brighter future.",
+    "cues": [
+      "eight months",
+      "living conditions",
+      "waiting for visa",
+      "Pakistan",
+      "resilience"
+    ],
+    "transcript_ref": "immigration\\imm_umn_48_afsaneh_nozari.yaml"
+  }
+]

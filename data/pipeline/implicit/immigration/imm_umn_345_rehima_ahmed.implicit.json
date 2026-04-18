@@ -1,0 +1,163 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "Ethiopia",
+    "explicit_text": "I was born and raised in Ethiopia, a country rich in culture and tradition. My family still lives there, including my father Nasir Ahmed and mother Shetu Mohammed. Leaving Ethiopia was difficult because I left behind my brothers, sisters, and close friends. Ethiopia is where my roots are, especially connected to the Gurage ethnic group I belong to.",
+    "implicit_text": "I was born and raised in a country rich in culture and tradition. My family still lives there, including my father Nasir Ahmed and mother Shetu Mohammed. Leaving that place was difficult because I left behind my brothers, sisters, and close friends. It is where my roots are, especially connected to the Gurage ethnic group I belong to.",
+    "cues": [
+      "born in Ethiopia",
+      "family still lives in Ethiopia",
+      "Gurage ethnic group",
+      "father Nasir Ahmed",
+      "mother Shetu Mohammed"
+    ],
+    "transcript_ref": "immigration\\imm_umn_345_rehima_ahmed.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "Adama, Ethiopia",
+    "explicit_text": "I grew up in Adama, also known as Nazret, which is a beautiful city in central Ethiopia southeast of Addis Ababa. The city is surrounded by mountains and changes with the seasons, green in winter and brown in summer. My family and I lived together on the same property with my brother's family nearby. Adama holds many of my childhood memories.",
+    "implicit_text": "I grew up in a city also known as Nazret, which is a beautiful place in central Ethiopia southeast of the capital. The city is surrounded by mountains and changes with the seasons, green in winter and brown in summer. My family and I lived together on the same property with my brother's family nearby. That city holds many of my childhood memories.",
+    "cues": [
+      "grew up in Adama (Nazret)",
+      "central Ethiopia",
+      "southeast of Addis Ababa",
+      "mountains",
+      "family property"
+    ],
+    "transcript_ref": "immigration\\imm_umn_345_rehima_ahmed.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "Addis Ababa",
+    "explicit_text": "Addis Ababa is the capital city of Ethiopia, located northwest of Adama where I grew up. Although I did not live there, it was close enough that I knew of it as the center of the country. My hometown Adama is southeast of Addis Ababa, so the capital city was always a point of reference for me.",
+    "implicit_text": "The capital city of my country is located northwest of the city where I grew up. Although I did not live there, it was close enough that I knew of it as the center of the country. My hometown is southeast of this capital, so it was always a point of reference for me.",
+    "cues": [
+      "capital city of Ethiopia",
+      "northwest of Adama",
+      "close to hometown"
+    ],
+    "transcript_ref": "immigration\\imm_umn_345_rehima_ahmed.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "Qatar",
+    "explicit_text": "In 2007, I traveled to Qatar and stayed there for four years. It was my first experience living outside Ethiopia, and it prepared me for my later move to the United States. Qatar was an important chapter in my journey before settling in America.",
+    "implicit_text": "In 2007, I traveled to a small Middle Eastern country and stayed there for four years. It was my first experience living outside my home country, and it prepared me for my later move to the United States. That place was an important chapter in my journey before settling in America.",
+    "cues": [
+      "traveled to Qatar in 2007",
+      "stayed 4 years",
+      "first experience abroad"
+    ],
+    "transcript_ref": "immigration\\imm_umn_345_rehima_ahmed.yaml"
+  },
+  {
+    "entity_id": 5,
+    "entity": "United States",
+    "explicit_text": "I came to the United States in 2011 after living in Qatar. My first stop was Ohio, where I stayed for 20 days before moving to Dallas, Texas. The U.S. has been my home since then, and I have lived in different states like Texas and Minnesota while building a new life away from my family in Ethiopia.",
+    "implicit_text": "I came to the United States in 2011 after living in the Middle Eastern country. My first stop was a Midwestern state, where I stayed for 20 days before moving to Dallas, Texas. The U.S. has been my home since then, and I have lived in different states like Texas and Minnesota while building a new life away from my family in Africa.",
+    "cues": [
+      "came to USA in 2011",
+      "Ohio 20 days",
+      "Dallas Texas 2 years 10 months",
+      "currently in Minnesota"
+    ],
+    "transcript_ref": "immigration\\imm_umn_345_rehima_ahmed.yaml"
+  },
+  {
+    "entity_id": 6,
+    "entity": "Ohio",
+    "explicit_text": "When I first arrived in the United States in 2011, I stayed in Ohio for about 20 days. It was a short stop before I moved on to Dallas, Texas. Ohio was my initial introduction to life in America.",
+    "implicit_text": "When I first arrived in the United States in 2011, I stayed in a Midwestern state for about 20 days. It was a short stop before I moved on to Dallas, Texas. That state was my initial introduction to life in America.",
+    "cues": [
+      "USA arrival 2011",
+      "Ohio 20 days",
+      "first stop in USA"
+    ],
+    "transcript_ref": "immigration\\imm_umn_345_rehima_ahmed.yaml"
+  },
+  {
+    "entity_id": 7,
+    "entity": "Dallas",
+    "explicit_text": "After Ohio, I moved to Dallas, Texas, where I lived for almost three years. Dallas was where I spent a significant part of my early years in the U.S. adjusting to a new culture and environment. Texas became a second home before I eventually moved to Minnesota.",
+    "implicit_text": "After the Midwestern state, I moved to Dallas, Texas, where I lived for almost three years. Dallas was where I spent a significant part of my early years in the U.S. adjusting to a new culture and environment. Texas became a second home before I eventually moved to Minnesota.",
+    "cues": [
+      "moved to Dallas, Texas",
+      "lived 2 years 10 months",
+      "early years in USA"
+    ],
+    "transcript_ref": "immigration\\imm_umn_345_rehima_ahmed.yaml"
+  },
+  {
+    "entity_id": 8,
+    "entity": "Texas",
+    "explicit_text": "Texas, specifically Dallas, was where I lived after arriving in the United States. I spent nearly three years there, which helped me settle into American life. Texas was an important place in my journey from Ethiopia to the U.S.",
+    "implicit_text": "Texas, specifically Dallas, was where I lived after arriving in the United States. I spent nearly three years there, which helped me settle into American life. That state was an important place in my journey from Africa to the U.S.",
+    "cues": [
+      "Dallas, Texas residence",
+      "2 years 10 months",
+      "transition to American life"
+    ],
+    "transcript_ref": "immigration\\imm_umn_345_rehima_ahmed.yaml"
+  },
+  {
+    "entity_id": 9,
+    "entity": "Minnesota",
+    "explicit_text": "Currently, I live in Minnesota. After my time in Texas, I moved here to continue building my life in the United States. Minnesota is where I am now, while my family remains in Ethiopia.",
+    "implicit_text": "Currently, I live in a northern U.S. state. After my time in Texas, I moved here to continue building my life in the United States. This state is where I am now, while my family remains in Africa.",
+    "cues": [
+      "currently in Minnesota",
+      "moved after Texas",
+      "family still in Ethiopia"
+    ],
+    "transcript_ref": "immigration\\imm_umn_345_rehima_ahmed.yaml"
+  },
+  {
+    "entity_id": 10,
+    "entity": "Gurage people",
+    "explicit_text": "My family is from the Gurage ethnic group in Ethiopia, and I am proud of that heritage. Growing up, I learned a lot about Gurage culture from my father and aunt, including traditions around marriage and family gatherings. The Gurage people have a close-knit community, and I cherish the memories of our traditional foods and celebrations.",
+    "implicit_text": "My family is from an ethnic group in my home country, and I am proud of that heritage. Growing up, I learned a lot about this culture from my father and aunt, including traditions around marriage and family gatherings. This group has a close-knit community, and I cherish the memories of our traditional foods and celebrations.",
+    "cues": [
+      "family from Gurage ethnic group",
+      "father and aunt taught me culture",
+      "Gurage traditions and foods"
+    ],
+    "transcript_ref": "immigration\\imm_umn_345_rehima_ahmed.yaml"
+  },
+  {
+    "entity_id": 11,
+    "entity": "Kitfo",
+    "explicit_text": "Kitfo is one of the traditional foods from my Gurage culture that I always remember fondly. It was a staple at family gatherings where we would eat together and have fun. Even now, I miss sharing kitfo with my family back in Ethiopia.",
+    "implicit_text": "One of the traditional foods from my ethnic culture that I always remember fondly is a spiced raw beef dish. It was a staple at family gatherings where we would eat together and have fun. Even now, I miss sharing this dish with my family back home.",
+    "cues": [
+      "traditional Gurage food",
+      "family gatherings",
+      "nostalgic memories"
+    ],
+    "transcript_ref": "immigration\\imm_umn_345_rehima_ahmed.yaml"
+  },
+  {
+    "entity_id": 12,
+    "entity": "Kocho",
+    "explicit_text": "Kocho is another traditional dish from my Gurage heritage that I grew up eating. It was always part of our family meals during celebrations and everyday life. Kocho reminds me of home and the close family ties we shared in Ethiopia.",
+    "implicit_text": "Another traditional dish from my heritage that I grew up eating is made from fermented enset. It was always part of our family meals during celebrations and everyday life. This dish reminds me of home and the close family ties we shared.",
+    "cues": [
+      "traditional Gurage food",
+      "family meals",
+      "cultural heritage"
+    ],
+    "transcript_ref": "immigration\\imm_umn_345_rehima_ahmed.yaml"
+  },
+  {
+    "entity_id": 13,
+    "entity": "Gomen",
+    "explicit_text": "Gomen is a traditional vegetable dish from my Gurage culture that I remember well. It was often served alongside other foods like kitfo and kocho during family gatherings. Gomen brings back warm memories of my childhood and the strong bonds within my family.",
+    "implicit_text": "A traditional vegetable dish from my ethnic culture that I remember well is made from collard greens. It was often served alongside other foods like the spiced raw beef and fermented enset during family gatherings. This dish brings back warm memories of my childhood and the strong bonds within my family.",
+    "cues": [
+      "traditional Gurage food",
+      "served at family gatherings",
+      "childhood memories"
+    ],
+    "transcript_ref": "immigration\\imm_umn_345_rehima_ahmed.yaml"
+  }
+]

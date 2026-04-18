@@ -1,0 +1,340 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "El Paso, Texas",
+    "explicit_text": "I was born in El Paso, Texas, on June 17th, 1919. I left El Paso looking for work after The Great Depression hit, which was a tough time for many people across the country. Eventually, I made my way to Northwest Indiana where I later got drafted into the Army.",
+    "implicit_text": "I was born in a border city in western Texas on June 17th, 1919. I left that city looking for work after the nationwide economic collapse hit, which was a tough time for many people across the country. Eventually, I made my way to Northwest Indiana where I later got drafted into the Army.",
+    "cues": [
+      "born June 17th, 1919",
+      "left after The Great Depression",
+      "moved to Northwest Indiana"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.00672.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "The Great Depression",
+    "explicit_text": "The Great Depression was a hard time for everyone, and it was right after that period that I came looking for work. It affected the whole country, and many people, including myself, had to move around to find jobs. It was during this time that I left El Paso and eventually ended up in Northwest Indiana.",
+    "implicit_text": "That severe economic downturn was a hard time for everyone, and it was right after that period that I came looking for work. It affected the whole country, and many people, including myself, had to move around to find jobs. It was during this time that I left my hometown in Texas and eventually ended up in Northwest Indiana.",
+    "cues": [
+      "post-Great Depression",
+      "looking for work",
+      "nationwide economic hardship"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.00672.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "United States Army",
+    "explicit_text": "I was drafted into the United States Army on April 12th, 1941, and served in the infantry. I stayed with the same company throughout my service, which was part of the 38th Infantry Division. My Army experience took me from training in the U.S. to fighting in the Philippines during World War II.",
+    "implicit_text": "I was drafted into the national military forces on April 12th, 1941, and served in the infantry. I stayed with the same company throughout my service, which was part of the 38th Infantry Division. My military experience took me from training in the U.S. to fighting in the Philippines during World War II.",
+    "cues": [
+      "drafted April 12, 1941",
+      "infantry",
+      "38th Infantry Division",
+      "World War II service"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.00672.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "38th Infantry Division (United States)",
+    "explicit_text": "I served in the 38th Infantry Division, specifically in the 152nd Infantry, K Company. We trained together from the start and stayed as one unit throughout the war. The division was involved in security duties in Hawaii before moving on to combat in the Philippines.",
+    "implicit_text": "I served in the 38th Infantry Division, specifically in the 152nd Infantry, K Company. We trained together from the start and stayed as one unit throughout the war. The division was involved in security duties in Hawaii before moving on to combat in the Philippines.",
+    "cues": [
+      "38th Infantry Division",
+      "152nd Infantry, K Company",
+      "training and combat",
+      "Hawaii and Philippines"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.00672.yaml"
+  },
+  {
+    "entity_id": 5,
+    "entity": "Fort Benjamin Harrison",
+    "explicit_text": "After being drafted, I went to Fort Benjamin Harrison in Indianapolis for my initial processing and swearing-in. From there, I was sent to Camp Shelby, Mississippi, for my infantry training. Fort Benjamin Harrison was the starting point of my military journey.",
+    "implicit_text": "After being drafted, I went to a military post in Indianapolis for my initial processing and swearing-in. From there, I was sent to a training camp in Mississippi for my infantry training. That post was the starting point of my military journey.",
+    "cues": [
+      "Fort Benjamin Harrison",
+      "Indianapolis",
+      "initial processing",
+      "before Camp Shelby training"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.00672.yaml"
+  },
+  {
+    "entity_id": 6,
+    "entity": "Camp Shelby",
+    "explicit_text": "I trained at Camp Shelby in Mississippi with the Indiana National Guard. The training was tough, especially in the hot swamps, and we did maneuvers in Louisiana, Texas, and Florida. Camp Shelby was where I learned the skills that prepared me for combat overseas.",
+    "implicit_text": "I trained at a large military training camp in Mississippi with the Indiana National Guard. The training was tough, especially in the hot swamps, and we did maneuvers in Louisiana, Texas, and Florida. That camp was where I learned the skills that prepared me for combat overseas.",
+    "cues": [
+      "Camp Shelby, Mississippi",
+      "Indiana National Guard",
+      "training in swamps",
+      "maneuvers in Louisiana, Texas, Florida"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.00672.yaml"
+  },
+  {
+    "entity_id": 7,
+    "entity": "Indiana National Guard",
+    "explicit_text": "While training at Camp Shelby, we were sent with the Indiana National Guard. They were part of our unit during the preparation phase before we went overseas. The Guard helped shape our infantry skills and readiness for the war.",
+    "implicit_text": "While training at the Mississippi camp, we were sent with the Indiana National Guard. They were part of our unit during the preparation phase before we went overseas. The Guard helped shape our infantry skills and readiness for the war.",
+    "cues": [
+      "Indiana National Guard",
+      "training at Camp Shelby",
+      "infantry preparation"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.00672.yaml"
+  },
+  {
+    "entity_id": 8,
+    "entity": "Louisiana",
+    "explicit_text": "During our training period, we went on maneuvers in Louisiana. It was part of the preparation exercises before heading overseas. Louisiana's environment helped us get ready for the tough conditions we would face later.",
+    "implicit_text": "During our training period, we went on maneuvers in the southern U.S. state known for its bayous and jazz culture. It was part of the preparation exercises before heading overseas. That state's environment helped us get ready for the tough conditions we would face later.",
+    "cues": [
+      "training maneuvers",
+      "Louisiana",
+      "preparation exercises"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.00672.yaml"
+  },
+  {
+    "entity_id": 9,
+    "entity": "Texas",
+    "explicit_text": "Texas was another state where we conducted training maneuvers while preparing for combat. Along with Louisiana and Florida, Texas provided a variety of terrain and conditions to get us ready. These exercises were crucial before we deployed overseas.",
+    "implicit_text": "Another southern state where we conducted training maneuvers while preparing for combat was the one famous for its size and oil production. Along with Louisiana and Florida, it provided a variety of terrain and conditions to get us ready. These exercises were crucial before we deployed overseas.",
+    "cues": [
+      "training maneuvers",
+      "Texas",
+      "pre-deployment exercises"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.00672.yaml"
+  },
+  {
+    "entity_id": 10,
+    "entity": "Tallahassee, Florida",
+    "explicit_text": "We went to Tallahassee, Florida, for amphibious training as part of our preparation. This was important because we were going to be involved in island campaigns in the Pacific. Florida's training helped us get ready for those amphibious operations.",
+    "implicit_text": "We went to the capital city of Florida for amphibious training as part of our preparation. This was important because we were going to be involved in island campaigns in the Pacific. That city's training helped us get ready for those amphibious operations.",
+    "cues": [
+      "amphibious training",
+      "Tallahassee, Florida",
+      "preparation for Pacific theater"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.00672.yaml"
+  },
+  {
+    "entity_id": 11,
+    "entity": "Vince Kimberland",
+    "explicit_text": "Vince Kimberland was an officer in our battalion who kept a detailed diary of our movements and experiences. He sometimes exaggerated his role, but his records helped me remember dates and events, like when we left for overseas duty on Christmas Day, 1943. His diary was a useful reference during our service.",
+    "implicit_text": "An officer in our battalion kept a detailed diary of our movements and experiences. He sometimes exaggerated his role, but his records helped me remember dates and events, like when we left for overseas duty on Christmas Day, 1943. His diary was a useful reference during our service.",
+    "cues": [
+      "Vince Kimberland",
+      "battalion officer",
+      "kept diary",
+      "Christmas 1943 departure"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.00672.yaml"
+  },
+  {
+    "entity_id": 12,
+    "entity": "New Orleans",
+    "explicit_text": "New Orleans was the port where we embarked on December 30th, 1943, to head overseas. We loaded onto the troop ship SS Manta Ray there and started our journey to the Pacific. It was a memorable departure point with a band playing and lots of anticipation.",
+    "implicit_text": "We embarked at a famous Louisiana port city on December 30th, 1943, to head overseas. We loaded onto the troop ship SS Manta Ray there and started our journey to the Pacific. It was a memorable departure point with a band playing and lots of anticipation.",
+    "cues": [
+      "New Orleans port",
+      "December 30, 1943",
+      "embarkation",
+      "SS Manta Ray"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.00672.yaml"
+  },
+  {
+    "entity_id": 13,
+    "entity": "Panama Canal",
+    "explicit_text": "Our ship passed through the Panama Canal on the way from New Orleans to Hawaii. It took about 11 hours to get from New Orleans to Panama, and then we transited the canal. This was an important leg of our journey to the Pacific theater.",
+    "implicit_text": "Our ship passed through the canal connecting the Atlantic and Pacific Oceans on the way from New Orleans to Hawaii. It took about 11 hours to get from New Orleans to the canal, and then we transited the waterway. This was an important leg of our journey to the Pacific theater.",
+    "cues": [
+      "Panama Canal transit",
+      "route from New Orleans to Hawaii",
+      "11-hour trip to Panama"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.00672.yaml"
+  },
+  {
+    "entity_id": 14,
+    "entity": "Hawaii",
+    "explicit_text": "We arrived in Hawaii after about 17 days at sea, landing around mid-January 1944. We stayed there for about six months, doing guard duty and rotating around the main island, Maui. Our division was responsible for security, and we relieved the 20th Infantry of the 6th Division while training there.",
+    "implicit_text": "We arrived in the central Pacific islands after about 17 days at sea, landing around mid-January 1944. We stayed there for about six months, doing guard duty and rotating around the main island, Maui. Our division was responsible for security, and we relieved another infantry unit of the 6th Division while training there.",
+    "cues": [
+      "arrived January 1944",
+      "guard duty on Maui",
+      "relieved 20th Infantry",
+      "training and security"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.00672.yaml"
+  },
+  {
+    "entity_id": 15,
+    "entity": "Philippines",
+    "explicit_text": "After training in Hawaii and New Guinea, we went to the Philippines where we fought in the war. We landed in Manila and operated around Subic Bay. The Philippines was where most of our combat action took place during the latter part of the war.",
+    "implicit_text": "After training in the central Pacific and New Guinea, we went to the archipelago where we fought in the war. We landed in the capital city and operated around a major bay. That country was where most of our combat action took place during the latter part of the war.",
+    "cues": [
+      "Philippines combat",
+      "Manila landing",
+      "Subic Bay operations",
+      "World War II"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.00672.yaml"
+  },
+  {
+    "entity_id": 16,
+    "entity": "Manila",
+    "explicit_text": "We landed in Manila when we arrived in the Philippines. It was one of the main locations where we were stationed and fought. Manila was a key city in the campaign, and we spent significant time there during the war.",
+    "implicit_text": "We landed in the capital city of that archipelago when we arrived. It was one of the main locations where we were stationed and fought. This city was a key location in the campaign, and we spent significant time there during the war.",
+    "cues": [
+      "Manila landing",
+      "Philippines campaign",
+      "stationed and fought"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.00672.yaml"
+  },
+  {
+    "entity_id": 17,
+    "entity": "Subic Bay",
+    "explicit_text": "Subic Bay was another important location in the Philippines where we operated. It was part of our area of responsibility during the campaign. We moved through there as part of our fighting and security duties in the islands.",
+    "implicit_text": "A major naval bay in the Philippines was another important location where we operated. It was part of our area of responsibility during the campaign. We moved through there as part of our fighting and security duties in the islands.",
+    "cues": [
+      "Subic Bay",
+      "Philippines operations",
+      "military area"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.00672.yaml"
+  },
+  {
+    "entity_id": 18,
+    "entity": "Hickam Air Force Base",
+    "explicit_text": "We passed by Hickam Air Force Base when we arrived in Hawaii, but we were not stationed there. Hickam was a large Air Force installation near Pearl Harbor. Our unit was focused on infantry security and training on the islands rather than air operations.",
+    "implicit_text": "We passed by a large air force base near Pearl Harbor when we arrived in Hawaii, but we were not stationed there. That base was a major Air Force installation. Our unit was focused on infantry security and training on the islands rather than air operations.",
+    "cues": [
+      "passed Hickam Air Force Base",
+      "Hawaii arrival",
+      "infantry unit"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.00672.yaml"
+  },
+  {
+    "entity_id": 19,
+    "entity": "SS Manta Ray",
+    "explicit_text": "The SS Manta Ray was the troop ship we sailed on from New Orleans to Hawaii starting December 30th, 1943. It was a former medicine liner, and the food on board was the best I had ever eaten. We spent about 17 days on that ship during the voyage.",
+    "implicit_text": "The troop ship we sailed on from New Orleans to Hawaii starting December 30th, 1943, was a former medicine liner, and the food on board was the best I had ever eaten. We spent about 17 days on that ship during the voyage.",
+    "cues": [
+      "SS Manta Ray",
+      "troop ship",
+      "New Orleans to Hawaii",
+      "December 1943",
+      "17-day voyage"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.00672.yaml"
+  },
+  {
+    "entity_id": 20,
+    "entity": "Mississippi River",
+    "explicit_text": "On New Year's Day, 1944, while on the SS Manta Ray, we sailed down the Mississippi River and out into the Gulf of Mexico. It was part of our journey heading toward the Pacific, and we still didn't know exactly where we were going at that time. It was a memorable start to our long voyage.",
+    "implicit_text": "On New Year's Day, 1944, while on that troop ship, we sailed down the longest river in the United States and out into the Gulf of Mexico. It was part of our journey heading toward the Pacific, and we still didn't know exactly where we were going at that time. It was a memorable start to our long voyage.",
+    "cues": [
+      "Mississippi River",
+      "January 1, 1944",
+      "departure",
+      "Gulf of Mexico"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.00672.yaml"
+  },
+  {
+    "entity_id": 21,
+    "entity": "Gulf of Mexico",
+    "explicit_text": "After sailing down the Mississippi River, we entered the Gulf of Mexico on our way to the Pacific. We were still unsure of our final destination as we traveled through the Gulf. This was early in our voyage aboard the SS Manta Ray.",
+    "implicit_text": "After sailing down the Mississippi River, we entered the large gulf bordering the southern U.S. on our way to the Pacific. We were still unsure of our final destination as we traveled through the gulf. This was early in our voyage aboard the troop ship.",
+    "cues": [
+      "Gulf of Mexico",
+      "early 1944 voyage",
+      "en route to Pacific"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.00672.yaml"
+  },
+  {
+    "entity_id": 22,
+    "entity": "20th Infantry Regiment (United States)",
+    "explicit_text": "When we arrived in Hawaii, we relieved the 20th Infantry Regiment of the 6th Infantry Division. They had been responsible for security before us, and we took over those duties while continuing our training. It was part of the rotation of units on the island.",
+    "implicit_text": "When we arrived in Hawaii, we relieved the 20th Infantry Regiment of the 6th Infantry Division. They had been responsible for security before us, and we took over those duties while continuing our training. It was part of the rotation of units on the island.",
+    "cues": [
+      "relieved 20th Infantry",
+      "Hawaii security",
+      "6th Infantry Division"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.00672.yaml"
+  },
+  {
+    "entity_id": 23,
+    "entity": "6th Infantry Division (United States)",
+    "explicit_text": "The 6th Infantry Division was the unit whose 20th Infantry Regiment we relieved in Hawaii. They had been doing security and training duties before we arrived. Our division took over their responsibilities as part of the island's defense.",
+    "implicit_text": "The 6th Infantry Division was the unit whose 20th Infantry Regiment we relieved in Hawaii. They had been doing security and training duties before we arrived. Our division took over their responsibilities as part of the island's defense.",
+    "cues": [
+      "6th Infantry Division",
+      "20th Infantry Regiment",
+      "Hawaii security"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.00672.yaml"
+  },
+  {
+    "entity_id": 24,
+    "entity": "Funafuti",
+    "explicit_text": "On July 10th, 1944, we reached the island of Funafuti during our transit to New Guinea. It was a stopover point on our way to the combat zones. The island was already secured, so there was little action there, and we conducted patrols while we were there.",
+    "implicit_text": "On July 10th, 1944, we reached a small island in the Pacific during our transit to New Guinea. It was a stopover point on our way to the combat zones. The island was already secured, so there was little action there, and we conducted patrols while we were there.",
+    "cues": [
+      "Funafuti",
+      "July 10, 1944",
+      "transit to New Guinea",
+      "patrols"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.00672.yaml"
+  },
+  {
+    "entity_id": 25,
+    "entity": "New Hebrides",
+    "explicit_text": "We passed by the New Hebrides on our way to New Guinea. It was part of the route we took in the Pacific, but we did not stop there. It was one of the many islands we passed during our journey to the front lines.",
+    "implicit_text": "We passed by a group of islands in the South Pacific on our way to New Guinea. It was part of the route we took in the Pacific, but we did not stop there. It was one of the many islands we passed during our journey to the front lines.",
+    "cues": [
+      "New Hebrides",
+      "Pacific transit",
+      "en route to New Guinea"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.00672.yaml"
+  },
+  {
+    "entity_id": 26,
+    "entity": "Oro Bay",
+    "explicit_text": "We arrived at Oro Bay, New Guinea, on July 17th, 1944, where we unloaded troops and supplies. It took about three days to get all the supplies off the ship. Oro Bay was where we began to rebuild our fighting strength by bringing in new men and preparing for combat.",
+    "implicit_text": "We arrived at a bay in New Guinea on July 17th, 1944, where we unloaded troops and supplies. It took about three days to get all the supplies off the ship. That bay was where we began to rebuild our fighting strength by bringing in new men and preparing for combat.",
+    "cues": [
+      "Oro Bay",
+      "New Guinea",
+      "July 17, 1944",
+      "troop and supply unloading"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.00672.yaml"
+  },
+  {
+    "entity_id": 27,
+    "entity": "Austin Daly",
+    "explicit_text": "The Austin Daly was a cargo ship we boarded on December 1st, 1944, to sail for the island of Leyte in the Philippines. It was part of our movement closer to the front lines as we advanced in the Pacific campaign. This ship carried us into the next phase of the war.",
+    "implicit_text": "A cargo ship we boarded on December 1st, 1944, took us to an island in the Philippines. It was part of our movement closer to the front lines as we advanced in the Pacific campaign. This ship carried us into the next phase of the war.",
+    "cues": [
+      "Austin Daly",
+      "cargo ship",
+      "December 1, 1944",
+      "sailing to Leyte"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.00672.yaml"
+  }
+]

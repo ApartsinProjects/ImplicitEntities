@@ -1,0 +1,402 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "New York Field Office",
+    "summary": "I am the commander of the New York Field Office of the Park Police. Our office provides law enforcement services at Gateway National Recreation Area units including Jamaica Bay and Staten Island, as well as at the Statue of Liberty and Ellis Island. I report directly to the deputy chief of the field offices division in Washington, D.C. During the September 11 attacks, I coordinated security efforts and liaised with other agencies from this office.",
+    "cues": [
+      "commander",
+      "law enforcement",
+      "Gateway National Recreation Area",
+      "Washington, D.C.",
+      "September 11 attacks"
+    ],
+    "transcript_ref": "september_11\\nps911_wilkins_thomas_may_8_2002.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "United States Park Police",
+    "summary": "I serve as a commander within the United States Park Police, specifically overseeing the New York Field Office. The Park Police provide law enforcement at several key sites such as the Statue of Liberty and Ellis Island, and work closely with unit superintendents. During the events of September 11, we quickly mobilized to secure locations like Fort Wadsworth and coordinated with other agencies including the Coast Guard and NYPD.",
+    "cues": [
+      "commander",
+      "law enforcement",
+      "Statue of Liberty",
+      "Ellis Island",
+      "September 11 attacks"
+    ],
+    "transcript_ref": "september_11\\nps911_wilkins_thomas_may_8_2002.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "Gateway National Recreation Area",
+    "summary": "Gateway National Recreation Area is one of the key locations where our New York Field Office provides law enforcement services. It includes units like Jamaica Bay and Staten Island, and also encompasses Floyd Bennett Field, which was used as a staging area during the September 11 attacks. We worked closely with NYPD Special Operations there to secure the area and control access.",
+    "cues": [
+      "law enforcement",
+      "Jamaica Bay",
+      "Staten Island",
+      "Floyd Bennett Field",
+      "September 11 attacks"
+    ],
+    "transcript_ref": "september_11\\nps911_wilkins_thomas_may_8_2002.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "Jamaica Bay Wildlife Refuge",
+    "summary": "Jamaica Bay Wildlife Refuge is one of the units within Gateway National Recreation Area where our New York Field Office provides law enforcement. While I did not mention specific events there, it is part of our jurisdiction along with Staten Island and other units. Our responsibilities include coordinating with superintendents and maintaining security across these areas.",
+    "cues": [
+      "Gateway National Recreation Area",
+      "law enforcement",
+      "jurisdiction"
+    ],
+    "transcript_ref": "september_11\\nps911_wilkins_thomas_may_8_2002.yaml"
+  },
+  {
+    "entity_id": 5,
+    "entity": "Staten Island",
+    "summary": "I live in Fort Wadsworth on Staten Island and the New York Field Office covers law enforcement responsibilities there as part of Gateway National Recreation Area. On the morning of September 11, I was at home on Staten Island when the attacks began, and I worked with local commanders like Captain Lauro and Lieutenant Buckley who also operate in the area. Staten Island's Fort Wadsworth became a key security site during the response.",
+    "cues": [
+      "Fort Wadsworth",
+      "September 11 attacks",
+      "Captain Lauro",
+      "Lieutenant Buckley"
+    ],
+    "transcript_ref": "september_11\\nps911_wilkins_thomas_may_8_2002.yaml"
+  },
+  {
+    "entity_id": 6,
+    "entity": "Statue of Liberty",
+    "summary": "Since about 1995, the Park Police have provided law enforcement services at the Statue of Liberty, transitioning from law enforcement rangers. We still have three law enforcement rangers integrated into our operations there. During the September 11 attacks, Captain Lauro was contacting the Statue of Liberty as part of our immediate response efforts.",
+    "cues": [
+      "law enforcement",
+      "1995 transition",
+      "law enforcement rangers",
+      "Captain Lauro",
+      "September 11 attacks"
+    ],
+    "transcript_ref": "september_11\\nps911_wilkins_thomas_may_8_2002.yaml"
+  },
+  {
+    "entity_id": 7,
+    "entity": "Ellis Island",
+    "summary": "Ellis Island is another key site where the Park Police provide law enforcement services. On September 11, Captain Lauro and Lieutenant Buckley headed out to Ellis Island as part of the emergency response. Our office coordinates closely with the superintendents of these units to maintain security and operations.",
+    "cues": [
+      "law enforcement",
+      "Captain Lauro",
+      "Lieutenant Buckley",
+      "September 11 attacks"
+    ],
+    "transcript_ref": "september_11\\nps911_wilkins_thomas_may_8_2002.yaml"
+  },
+  {
+    "entity_id": 8,
+    "entity": "Washington, D.C.",
+    "summary": "I report directly to the deputy chief of the field offices division for the Park Police in Washington, D.C. On September 11, I called Washington to advise them of our actions and to keep them informed of the situation. Washington, D.C. is the headquarters for the Park Police and the command structure flows through there.",
+    "cues": [
+      "deputy chief",
+      "field offices division",
+      "Park Police headquarters",
+      "September 11 attacks"
+    ],
+    "transcript_ref": "september_11\\nps911_wilkins_thomas_may_8_2002.yaml"
+  },
+  {
+    "entity_id": 9,
+    "entity": "World Trade Center",
+    "summary": "I first became aware of the attacks on the World Trade Center early on the morning of September 11 while at home on Staten Island. I watched the planes strike both towers from an overlook with a clear view of downtown Manhattan. After the towers collapsed, I headed into the city to the NYPD command post at One Police Plaza to assist with coordination and response efforts.",
+    "cues": [
+      "September 11 attacks",
+      "Staten Island",
+      "overlook",
+      "downtown Manhattan",
+      "One Police Plaza"
+    ],
+    "transcript_ref": "september_11\\nps911_wilkins_thomas_may_8_2002.yaml"
+  },
+  {
+    "entity_id": 10,
+    "entity": "United Airlines",
+    "summary": "On the morning of September 11, while watching the attacks unfold, I saw a United Airlines plane flying unusually low near Newark Airport. Initially, I thought it was a normal flight path, but then I witnessed the plane turn and crash into the second World Trade Center tower. That moment made it clear this was a coordinated attack, not an accident.",
+    "cues": [
+      "September 11 attacks",
+      "United Airlines plane",
+      "Newark Airport",
+      "World Trade Center"
+    ],
+    "transcript_ref": "september_11\\nps911_wilkins_thomas_may_8_2002.yaml"
+  },
+  {
+    "entity_id": 11,
+    "entity": "Newark Liberty International Airport",
+    "summary": "Newark Liberty International Airport is located near where I saw the United Airlines plane flying low on the morning of September 11. I initially assumed the plane was departing from Newark and following a normal route. The airport's proximity to New York City made it a relevant point in the unfolding events that day.",
+    "cues": [
+      "September 11 attacks",
+      "United Airlines",
+      "plane flight path",
+      "New York City"
+    ],
+    "transcript_ref": "september_11\\nps911_wilkins_thomas_may_8_2002.yaml"
+  },
+  {
+    "entity_id": 12,
+    "entity": "Fort Wadsworth",
+    "summary": "I live at Fort Wadsworth on Staten Island, and it also serves as the headquarters for the Coast Guard in New York Harbor. On September 11, we immediately increased security there by closing the back gate and posting officers, since normally the gate is open during the day. I coordinated with the Coast Guard and assigned Lieutenant Waite as a liaison to manage security measures with the superintendent and Coast Guard personnel.",
+    "cues": [
+      "Staten Island",
+      "Coast Guard headquarters",
+      "September 11 attacks",
+      "security measures"
+    ],
+    "transcript_ref": "september_11\\nps911_wilkins_thomas_may_8_2002.yaml"
+  },
+  {
+    "entity_id": 13,
+    "entity": "United States Coast Guard",
+    "summary": "The United States Coast Guard has its headquarters at Fort Wadsworth, Staten Island, where I worked closely with them on security during the September 11 attacks. We coordinated to shut down access points and assign officers to guard gates. Lieutenant Waite was designated as the liaison between the Park Police, the Coast Guard, and the superintendent to ensure security requests were properly managed.",
+    "cues": [
+      "Fort Wadsworth",
+      "security coordination",
+      "September 11 attacks",
+      "Lieutenant Waite"
+    ],
+    "transcript_ref": "september_11\\nps911_wilkins_thomas_may_8_2002.yaml"
+  },
+  {
+    "entity_id": 14,
+    "entity": "New York City Police Department",
+    "summary": "During the September 11 attacks, I went to the NYPD command post at One Police Plaza to serve as a liaison for the Park Police. The NYPD was the primary local agency managing the response, with representatives from each borough and specialized units present. Communication with NYPD was critical because their dispatch and borough commands were overloaded, so having a direct liaison helped coordination.",
+    "cues": [
+      "One Police Plaza",
+      "September 11 attacks",
+      "liaison",
+      "command post",
+      "communication"
+    ],
+    "transcript_ref": "september_11\\nps911_wilkins_thomas_may_8_2002.yaml"
+  },
+  {
+    "entity_id": 15,
+    "entity": "One Police Plaza",
+    "summary": "One Police Plaza served as the NYPD command post during the September 11 attacks where I went to establish a liaison role for the Park Police. Upon arrival, the building was chaotic with reports of tremendous loss of life among civilians and emergency personnel. The elevators were shut off, so I had to walk eight flights to reach the command post, where I helped coordinate communication between agencies.",
+    "cues": [
+      "September 11 attacks",
+      "NYPD command post",
+      "liaison",
+      "chaotic scene"
+    ],
+    "transcript_ref": "september_11\\nps911_wilkins_thomas_may_8_2002.yaml"
+  },
+  {
+    "entity_id": 16,
+    "entity": "September 11 attacks",
+    "summary": "On the morning of September 11, 2001, I was at home in Fort Wadsworth when I first saw news of a plane hitting the World Trade Center. I witnessed both towers being struck and later collapsing from an overlook with a clear view of Manhattan. I immediately mobilized security efforts at Fort Wadsworth, coordinated with the Coast Guard, and then went into the city to the NYPD command post to assist in the response and communication efforts.",
+    "cues": [
+      "September 11, 2001",
+      "Fort Wadsworth",
+      "World Trade Center",
+      "NYPD command post",
+      "emergency response"
+    ],
+    "transcript_ref": "september_11\\nps911_wilkins_thomas_may_8_2002.yaml"
+  },
+  {
+    "entity_id": 17,
+    "entity": "Captain Lauro",
+    "summary": "Captain Lauro is my district commander whose office is on Staten Island. On the morning of September 11, he came to the overlook with Lieutenant Buckley and me to watch the events unfold. He was actively involved in contacting the Statue of Liberty and later headed out to Ellis Island as part of the emergency response.",
+    "cues": [
+      "district commander",
+      "Staten Island",
+      "September 11 attacks",
+      "Statue of Liberty",
+      "Ellis Island"
+    ],
+    "transcript_ref": "september_11\\nps911_wilkins_thomas_may_8_2002.yaml"
+  },
+  {
+    "entity_id": 18,
+    "entity": "Lieutenant Buckley",
+    "summary": "Lieutenant Buckley is the station commander for the Staten Island office and also commands the SWAT team. On September 11, he joined Captain Lauro and me at the overlook to observe the attacks. He later went out to Ellis Island as the SWAT team commander and was involved in coordinating security efforts during the crisis.",
+    "cues": [
+      "station commander",
+      "Staten Island",
+      "SWAT team",
+      "September 11 attacks",
+      "Ellis Island"
+    ],
+    "transcript_ref": "september_11\\nps911_wilkins_thomas_may_8_2002.yaml"
+  },
+  {
+    "entity_id": 19,
+    "entity": "Lieutenant Waite",
+    "summary": "Lieutenant Waite was assigned as a liaison between the Park Police, the superintendent at Staten Island unit, and the Coast Guard during the September 11 attacks. Since Lieutenant Buckley was deployed to Ellis Island, Waite took over coordinating security requests and measures at Fort Wadsworth. His role was essential in managing communication and ensuring proper security protocols were followed.",
+    "cues": [
+      "liaison",
+      "Staten Island unit",
+      "Coast Guard",
+      "September 11 attacks",
+      "security coordination"
+    ],
+    "transcript_ref": "september_11\\nps911_wilkins_thomas_may_8_2002.yaml"
+  },
+  {
+    "entity_id": 20,
+    "entity": "Captain Zweig",
+    "summary": "Captain Zweig was in charge of operations in Brooklyn during the September 11 attacks. He managed requests and calls that came into the Brooklyn area, including a request from Federal Hall to send personnel there. While I was at One Police Plaza, Captain Zweig was handling field operations and coordinating resources in Brooklyn.",
+    "cues": [
+      "Brooklyn",
+      "September 11 attacks",
+      "Federal Hall",
+      "operations management"
+    ],
+    "transcript_ref": "september_11\\nps911_wilkins_thomas_may_8_2002.yaml"
+  },
+  {
+    "entity_id": 21,
+    "entity": "Dale Ditmanson",
+    "summary": "Dale Ditmanson is the assistant regional director for operations whom I contacted during the September 11 attacks. I spoke with him to update on our actions and to discuss whether the Park Service needed to provide assistance. At that time, the city had sufficient resources, but we maintained communication with regional leadership.",
+    "cues": [
+      "assistant regional director",
+      "operations",
+      "September 11 attacks",
+      "communication"
+    ],
+    "transcript_ref": "september_11\\nps911_wilkins_thomas_may_8_2002.yaml"
+  },
+  {
+    "entity_id": 22,
+    "entity": "New Jersey Office of Emergency Management",
+    "summary": "The New Jersey Office of Emergency Management eventually showed up at the NYPD command post at One Police Plaza during the September 11 response. Initially, the command post was primarily staffed by state and local agencies, especially NYPD, but the New Jersey OEM's presence reflected the regional nature of the emergency coordination.",
+    "cues": [
+      "September 11 attacks",
+      "One Police Plaza",
+      "emergency coordination",
+      "regional response"
+    ],
+    "transcript_ref": "september_11\\nps911_wilkins_thomas_may_8_2002.yaml"
+  },
+  {
+    "entity_id": 23,
+    "entity": "Floyd Bennett Field",
+    "summary": "Floyd Bennett Field, part of Gateway National Recreation Area, was used as a staging area during the September 11 attacks. NYPD Special Operations was located there and requested additional security, so we placed Park Police officers at the front gate to help control access. This was part of our support role in managing resources and securing key locations.",
+    "cues": [
+      "Gateway National Recreation Area",
+      "staging area",
+      "September 11 attacks",
+      "NYPD Special Operations"
+    ],
+    "transcript_ref": "september_11\\nps911_wilkins_thomas_may_8_2002.yaml"
+  },
+  {
+    "entity_id": 24,
+    "entity": "Brooklyn Battery Tunnel",
+    "summary": "On September 11, while driving into Manhattan, I had the option to take the Brooklyn Battery Tunnel or the Brooklyn Bridge. Most traffic was going into the Brooklyn Battery Tunnel, but since it led directly into lower Manhattan near the collapsed towers, I chose not to go that way to avoid interfering with emergency operations. Instead, I took the Brooklyn Bridge to reach One Police Plaza.",
+    "cues": [
+      "September 11 attacks",
+      "traffic",
+      "lower Manhattan",
+      "emergency response"
+    ],
+    "transcript_ref": "september_11\\nps911_wilkins_thomas_may_8_2002.yaml"
+  },
+  {
+    "entity_id": 25,
+    "entity": "Brooklyn Bridge",
+    "summary": "I took the Brooklyn Bridge into Manhattan on September 11 to reach the NYPD command post at One Police Plaza. The Brooklyn Bridge dumped me out near the command center, and it was a safer route compared to the Brooklyn Battery Tunnel, which was close to the disaster site. The drive was surreal with ash falling like snow as I approached the city.",
+    "cues": [
+      "September 11 attacks",
+      "Brooklyn Bridge",
+      "One Police Plaza",
+      "approach to Manhattan"
+    ],
+    "transcript_ref": "september_11\\nps911_wilkins_thomas_may_8_2002.yaml"
+  },
+  {
+    "entity_id": 26,
+    "entity": "Verrazzano-Narrows Bridge",
+    "summary": "I crossed the Verrazzano-Narrows Bridge on the morning of September 11 while heading into the city. Traffic was stopped except for emergency vehicles and off-duty firefighters and police officers coming into work. This was one of the first points of access from Staten Island to Brooklyn during the emergency response.",
+    "cues": [
+      "September 11 attacks",
+      "Staten Island",
+      "emergency vehicles",
+      "traffic control"
+    ],
+    "transcript_ref": "september_11\\nps911_wilkins_thomas_may_8_2002.yaml"
+  },
+  {
+    "entity_id": 27,
+    "entity": "Office of Emergency Management (New York City)",
+    "summary": "The Office of Emergency Management command post was located in Number 7 World Trade Center, right next to the towers. Because of the attacks and the collapse, it was not a viable location for us to use during the emergency. Instead, I went to the NYPD command post at One Police Plaza to coordinate our response efforts.",
+    "cues": [
+      "Number 7 World Trade Center",
+      "September 11 attacks",
+      "command post",
+      "emergency response"
+    ],
+    "transcript_ref": "september_11\\nps911_wilkins_thomas_may_8_2002.yaml"
+  },
+  {
+    "entity_id": 28,
+    "entity": "Fire Department of New York",
+    "summary": "The Fire Department of New York was heavily involved in the response to the September 11 attacks. At One Police Plaza, their EMS representatives were present alongside NYPD and other agencies. The loss of life among firefighters was apparent and deeply felt during the chaotic response efforts.",
+    "cues": [
+      "September 11 attacks",
+      "One Police Plaza",
+      "EMS",
+      "loss of life"
+    ],
+    "transcript_ref": "september_11\\nps911_wilkins_thomas_may_8_2002.yaml"
+  },
+  {
+    "entity_id": 29,
+    "entity": "Transit Police",
+    "summary": "Transit Police were among the various NYPD units represented at the command post during the September 11 attacks. They worked alongside housing police and other specialized units to manage the emergency response. Their presence was part of the broad law enforcement coordination at One Police Plaza.",
+    "cues": [
+      "September 11 attacks",
+      "NYPD",
+      "command post",
+      "law enforcement coordination"
+    ],
+    "transcript_ref": "september_11\\nps911_wilkins_thomas_may_8_2002.yaml"
+  },
+  {
+    "entity_id": 30,
+    "entity": "Housing Police",
+    "summary": "Housing Police were also present at the NYPD command post during the September 11 emergency response. They collaborated with other NYPD units and agencies to manage the crisis. Their role was part of the comprehensive law enforcement effort in the city that day.",
+    "cues": [
+      "September 11 attacks",
+      "NYPD",
+      "command post",
+      "law enforcement"
+    ],
+    "transcript_ref": "september_11\\nps911_wilkins_thomas_may_8_2002.yaml"
+  },
+  {
+    "entity_id": 31,
+    "entity": "AT&T",
+    "summary": "AT&T was not directly mentioned in my account of the September 11 attacks or the response efforts. Therefore, I do not have a specific role or interaction with AT&T to describe from that day.",
+    "cues": [],
+    "transcript_ref": "september_11\\nps911_wilkins_thomas_may_8_2002.yaml"
+  },
+  {
+    "entity_id": 32,
+    "entity": "Brooklyn",
+    "summary": "Brooklyn was part of the route I took when driving into Manhattan on September 11. I traveled on the Prospect Expressway through Brooklyn and then chose to take the Brooklyn Bridge rather than the Brooklyn Battery Tunnel to avoid the disaster area. Captain Zweig was stationed in Brooklyn managing operations during the attacks.",
+    "cues": [
+      "September 11 attacks",
+      "Prospect Expressway",
+      "Brooklyn Bridge",
+      "Captain Zweig"
+    ],
+    "transcript_ref": "september_11\\nps911_wilkins_thomas_may_8_2002.yaml"
+  },
+  {
+    "entity_id": 33,
+    "entity": "Manhattan",
+    "summary": "Manhattan was the center of the September 11 attacks, where the World Trade Center towers were located. From my home on Staten Island, I had a clear view of downtown Manhattan and witnessed the planes hitting the towers and their subsequent collapse. Later, I entered Manhattan to coordinate with the NYPD at One Police Plaza and observe the aftermath of the disaster.",
+    "cues": [
+      "September 11 attacks",
+      "World Trade Center",
+      "downtown Manhattan",
+      "One Police Plaza"
+    ],
+    "transcript_ref": "september_11\\nps911_wilkins_thomas_may_8_2002.yaml"
+  }
+]

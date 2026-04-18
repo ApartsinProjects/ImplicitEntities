@@ -1,0 +1,176 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "LaGrange, Illinois",
+    "explicit_text": "Before I entered the service, I was living in LaGrange, Illinois, where I had just finished high school in June. That summer, I mostly spent time with some of my boyfriends and my high school baseball teammates who later went into the service with me. LaGrange was my home base before I was drafted into the Army in the fall at age 18.",
+    "implicit_text": "Before I entered the service, I was living in a suburb west of Chicago, where I had just finished high school in June. That summer, I mostly spent time with some of my boyfriends and my high school baseball teammates who later went into the service with me. That town was my home base before I was drafted into the Army in the fall at age 18.",
+    "cues": [
+      "high school graduation June",
+      "summer before service",
+      "living in LaGrange",
+      "age 18"
+    ],
+    "transcript_ref": "veterans\\ippl_library\\ippl_vhp_army_johnson.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "Fort Sheridan",
+    "explicit_text": "I was inducted into the United States Army at Fort Sheridan, right in Chicago, shortly after graduating high school. The first days there were mostly medical exams and testing in a large room with many other men. It was the place where I officially entered the Army before heading off to basic training.",
+    "implicit_text": "I was inducted into the United States Army at a military post located just north of Chicago, shortly after graduating high school. The first days there were mostly medical exams and testing in a large room with many other men. It was the place where I officially entered the Army before heading off to basic training.",
+    "cues": [
+      "induction",
+      "Fort Sheridan Chicago",
+      "medical exams",
+      "post high school"
+    ],
+    "transcript_ref": "veterans\\ippl_library\\ippl_vhp_army_johnson.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "Little Rock, Arkansas",
+    "explicit_text": "After induction, I was sent to a camp near Little Rock, Arkansas, for my basic training. We traveled there by troop train, which took about a day or a day and a half. The camp was about twenty miles from the train station, and we were taken there by trucks. I spent seventeen weeks there learning all the basic skills needed for the Army.",
+    "implicit_text": "After induction, I was sent to a camp near the capital city of Arkansas for my basic training. We traveled there by troop train, which took about a day or a day and a half. The camp was about twenty miles from the train station, and we were taken there by trucks. I spent seventeen weeks there learning all the basic skills needed for the Army.",
+    "cues": [
+      "basic training",
+      "troop train",
+      "camp near Little Rock",
+      "seventeen weeks"
+    ],
+    "transcript_ref": "veterans\\ippl_library\\ippl_vhp_army_johnson.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "United States Army",
+    "explicit_text": "I was drafted into the United States Army right after high school in 1944. My induction was at Fort Sheridan, and I went through seventeen weeks of basic training near Little Rock, Arkansas. I learned practical skills like digging foxholes, handling the M1 Garand rifle, and jungle and landing craft training later on. The Army was a big change from civilian life, but I made it through with the support of my high school teammates who were drafted with me.",
+    "implicit_text": "I was drafted into the Army right after high school in 1944. My induction was at a military post near Chicago, and I went through seventeen weeks of basic training near the capital of Arkansas. I learned practical skills like digging foxholes, handling the standard-issue rifle, and jungle and landing craft training later on. The military was a big change from civilian life, but I made it through with the support of my high school teammates who were drafted with me.",
+    "cues": [
+      "drafted 1944",
+      "Fort Sheridan induction",
+      "basic training Arkansas",
+      "M1 Garand",
+      "jungle training"
+    ],
+    "transcript_ref": "veterans\\ippl_library\\ippl_vhp_army_johnson.yaml"
+  },
+  {
+    "entity_id": 5,
+    "entity": "M1 Garand",
+    "explicit_text": "During basic training, I learned to use the M1 Garand, which was the standard Army rifle. I had never handled a gun before except for a BB gun, so I took classes on shooting, cleaning, and maintaining it. I even won a sharpshooting medal with the M1, which was a proud moment for me during those seventeen weeks of training.",
+    "implicit_text": "During basic training, I learned to use the standard-issue semi-automatic rifle. I had never handled a gun before except for a BB gun, so I took classes on shooting, cleaning, and maintaining it. I even won a sharpshooting medal with that rifle, which was a proud moment for me during those seventeen weeks of training.",
+    "cues": [
+      "basic training",
+      "rifle training",
+      "sharpshooting medal",
+      "M1 Garand rifle"
+    ],
+    "transcript_ref": "veterans\\ippl_library\\ippl_vhp_army_johnson.yaml"
+  },
+  {
+    "entity_id": 6,
+    "entity": "San Francisco, California",
+    "explicit_text": "After my two-week leave following basic training, I traveled with my two buddies to San Francisco, California. We stayed at an Army-used resort on the Pacific Ocean for about five days while awaiting further orders. It was a brief stop before we moved on to Portland and eventually shipped out to the Pacific theater.",
+    "implicit_text": "After my two-week leave following basic training, I traveled with my two buddies to a major West Coast city in California. We stayed at an Army-used resort on the Pacific Ocean for about five days while awaiting further orders. It was a brief stop before we moved on to a city in Oregon and eventually shipped out to the Pacific theater.",
+    "cues": [
+      "post-basic training",
+      "two-week leave",
+      "Army resort",
+      "Pacific Ocean",
+      "five days stay"
+    ],
+    "transcript_ref": "veterans\\ippl_library\\ippl_vhp_army_johnson.yaml"
+  },
+  {
+    "entity_id": 7,
+    "entity": "Portland, Oregon",
+    "explicit_text": "From San Francisco, I went to Portland, Oregon, where I stayed only a couple of days before shipping out. We boarded an old Javanese ship there, and the ocean conditions were rough, especially during winter. It was my first time on a ship, and I got seasick almost immediately as we headed out into the Pacific Ocean.",
+    "implicit_text": "From the West Coast city in California, I went to a city in Oregon, where I stayed only a couple of days before shipping out. We boarded an old Javanese ship there, and the ocean conditions were rough, especially during winter. It was my first time on a ship, and I got seasick almost immediately as we headed out into the Pacific Ocean.",
+    "cues": [
+      "short stay",
+      "boarding ship",
+      "rough ocean",
+      "winter",
+      "first time on ship"
+    ],
+    "transcript_ref": "veterans\\ippl_library\\ippl_vhp_army_johnson.yaml"
+  },
+  {
+    "entity_id": 8,
+    "entity": "Philippines",
+    "explicit_text": "One of my friends who was drafted with me ended up going to the Philippines and was involved in battles there. I didn't go there myself, but I remember hearing about his experience and how dangerous it was. The Philippines was a significant combat zone during the war, and it was tough on the men who fought there.",
+    "implicit_text": "One of my friends who was drafted with me ended up going to a Southeast Asian archipelago and was involved in battles there. I didn't go there myself, but I remember hearing about his experience and how dangerous it was. That area was a significant combat zone during the war, and it was tough on the men who fought there.",
+    "cues": [
+      "friend deployed",
+      "combat",
+      "Philippines battle",
+      "Pacific theater"
+    ],
+    "transcript_ref": "veterans\\ippl_library\\ippl_vhp_army_johnson.yaml"
+  },
+  {
+    "entity_id": 9,
+    "entity": "Oahu",
+    "explicit_text": "Our ship stopped at Oahu, Hawaii, where we spent some time enjoying the warm weather after the rough voyage. While there, we underwent jungle and landing craft training to prepare for combat. The landing craft exercises were particularly tough, with rough waves making many of us seasick again.",
+    "implicit_text": "Our ship stopped at an island in Hawaii, where we spent some time enjoying the warm weather after the rough voyage. While there, we underwent jungle and landing craft training to prepare for combat. The landing craft exercises were particularly tough, with rough waves making many of us seasick again.",
+    "cues": [
+      "stopover",
+      "Hawaii",
+      "jungle training",
+      "landing craft training",
+      "winter relief"
+    ],
+    "transcript_ref": "veterans\\ippl_library\\ippl_vhp_army_johnson.yaml"
+  },
+  {
+    "entity_id": 10,
+    "entity": "Honolulu",
+    "explicit_text": "Although I didn't mention Honolulu specifically, it is the main city on Oahu where we likely stayed during our training stop. The warm weather and ocean environment were a welcome change from the cold winter back home. It was a brief but important part of our preparation before heading further into the Pacific theater.",
+    "implicit_text": "Although I didn't mention the main city specifically, it is the primary urban area on the Hawaiian island where we likely stayed during our training stop. The warm weather and ocean environment were a welcome change from the cold winter back home. It was a brief but important part of our preparation before heading further into the Pacific theater.",
+    "cues": [
+      "Oahu stop",
+      "training",
+      "warm weather",
+      "Pacific Ocean"
+    ],
+    "transcript_ref": "veterans\\ippl_library\\ippl_vhp_army_johnson.yaml"
+  },
+  {
+    "entity_id": 11,
+    "entity": "Eniwetok",
+    "explicit_text": "Eniwetok was one of the Pacific islands we passed or stopped at during our deployment, though I don't recall many details about it. It was part of the broader Pacific Ocean campaign where we were stationed or trained. The island was significant in the war effort, but my memories are mostly about the journey and training rather than specific battles there.",
+    "implicit_text": "We passed or stopped at one of the Pacific islands during our deployment, though I don't recall many details about it. It was part of the broader Pacific Ocean campaign where we were stationed or trained. The island was significant in the war effort, but my memories are mostly about the journey and training rather than specific battles there.",
+    "cues": [
+      "Pacific island",
+      "deployment",
+      "training",
+      "Pacific Ocean campaign"
+    ],
+    "transcript_ref": "veterans\\ippl_library\\ippl_vhp_army_johnson.yaml"
+  },
+  {
+    "entity_id": 12,
+    "entity": "Pacific Ocean",
+    "explicit_text": "Traveling across the Pacific Ocean was a challenging experience, especially during the winter months when the seas were rough. I got seasick on the ship leaving Portland and again during landing craft training near Oahu. The vastness of the Pacific was daunting, but it was the route to where we would be fighting and training for the war.",
+    "implicit_text": "Traveling across the vast ocean between the Americas and Asia was a challenging experience, especially during the winter months when the seas were rough. I got seasick on the ship leaving the Pacific Northwest and again during landing craft training near Hawaii. The vastness of that ocean was daunting, but it was the route to where we would be fighting and training for the war.",
+    "cues": [
+      "ship voyage",
+      "winter storms",
+      "seasickness",
+      "training near Oahu",
+      "Pacific theater"
+    ],
+    "transcript_ref": "veterans\\ippl_library\\ippl_vhp_army_johnson.yaml"
+  },
+  {
+    "entity_id": 13,
+    "entity": "Saipan",
+    "explicit_text": "While I didn't mention Saipan directly in my story, it was one of the key islands involved in the Pacific campaign. Many soldiers like me trained and prepared for operations that included places like Saipan. It was part of the broader context of the war in the Pacific that shaped my military experience.",
+    "implicit_text": "While I didn't mention a particular island directly in my story, it was one of the key locations involved in the Pacific campaign. Many soldiers like me trained and prepared for operations that included places like that island. It was part of the broader context of the war in the Pacific that shaped my military experience.",
+    "cues": [
+      "Pacific campaign",
+      "training context",
+      "war operations",
+      "island battles"
+    ],
+    "transcript_ref": "veterans\\ippl_library\\ippl_vhp_army_johnson.yaml"
+  }
+]

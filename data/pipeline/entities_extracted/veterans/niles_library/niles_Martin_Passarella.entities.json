@@ -1,0 +1,709 @@
+[
+  {
+    "id": 1,
+    "entity": "Chicago",
+    "type": "Place",
+    "surface_forms": [
+      "Chicago",
+      "Chicago, Illinois",
+      "north of Chicago Avenue"
+    ],
+    "wikipedia_title": "Chicago",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Chicago",
+    "wikidata_qid": "Q1297",
+    "aliases": [
+      "Chicago, Illinois",
+      "The Windy City",
+      "City by the Lake",
+      "The Queen of the West",
+      "Chi-Town",
+      "Chitown",
+      "The Second City",
+      "City of Chicago",
+      "City of Broad Shoulders",
+      "Chi-Raq"
+    ],
+    "description": "city and county seat of Cook County, and largest city in State of Illinois, United States of America",
+    "description_wiki": "Chicago is the most populous city in the U.S. state of Illinois and in the Midwestern United States."
+  },
+  {
+    "id": 2,
+    "entity": "Fort Leonard Wood",
+    "type": "Place",
+    "surface_forms": [
+      "Fort Leonard Wood",
+      "Fort Leonard"
+    ],
+    "wikipedia_title": "Fort_Leonard_Wood",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Fort_Leonard_Wood",
+    "wikidata_qid": "Q964399",
+    "aliases": [
+      "Fort Leonard Wood, MO"
+    ],
+    "description": "census-designated place in Pulaski County, Missouri, United States",
+    "description_wiki": "Fort Leonard Wood is a U.S. Army training installation located in the Missouri Ozarks."
+  },
+  {
+    "id": 3,
+    "entity": "Glenwood School for Boys",
+    "type": "Organization",
+    "surface_forms": [
+      "Glenwood School for Boys",
+      "Glenwood School"
+    ],
+    "wikipedia_title": "Glenwood_School_for_Boys",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Glenwood_School_for_Boys"
+  },
+  {
+    "id": 4,
+    "entity": "M1 rifle",
+    "type": "Work",
+    "surface_forms": [
+      "M1 rifle"
+    ],
+    "wikipedia_title": "M1_garand",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/M1_Garand",
+    "wikidata_qid": "Q204046",
+    "aliases": [
+      "M1 rifle",
+      "Garand",
+      "M1 semiautomatic"
+    ],
+    "description": "Semi-automatic rifle",
+    "description_wiki": "The M1 Garand or M1 rifle is a semi-automatic rifle that was the service rifle of the U.S. Army during World War II and the Korean War."
+  },
+  {
+    "id": 5,
+    "entity": "Humboldt Park, Chicago",
+    "type": "Place",
+    "surface_forms": [
+      "Humboldt Park neighborhood",
+      "Humboldt Park"
+    ],
+    "wikipedia_title": "Humboldt_Park,_Chicago",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Humboldt_Park,_Chicago",
+    "wikidata_qid": "Q3143236",
+    "aliases": [
+      "Humboldt Park, Chicago"
+    ],
+    "description": "neighborhood in Chicago, Illinois, USA",
+    "description_wiki": "Humboldt Park is one of the 77 community areas of Chicago in Illinois, United States, located on the West Side of Chicago."
+  },
+  {
+    "id": 6,
+    "entity": "Army",
+    "type": "Organization",
+    "surface_forms": [
+      "Army"
+    ],
+    "wikipedia_title": "United_States_Army",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/United_States_Army",
+    "wikidata_qid": "Q9212",
+    "aliases": [
+      "US Army",
+      "U.S. Army",
+      "USAR",
+      "American Army",
+      "Ground forces of the United States Armed Forces",
+      "US land forces",
+      "US troop",
+      "US troops",
+      "U. S. Army",
+      "USA"
+    ],
+    "description": "land service branch of the United States Armed Forces",
+    "description_wiki": "The United States Army (U.S. Army) is the land service branch of the United States Armed Forces."
+  },
+  {
+    "id": 7,
+    "entity": "Marine Corps",
+    "type": "Organization",
+    "surface_forms": [
+      "Marine Corps",
+      "the Marines",
+      "USMC"
+    ],
+    "wikipedia_title": "United_States_Marine_Corps",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/United_States_Marine_Corps",
+    "wikidata_qid": "Q11218",
+    "aliases": [
+      "USMC",
+      "Marine Corps",
+      "US Marine Corps",
+      "United States Marines",
+      "U.S. Marines",
+      "U.S. Marine Corps"
+    ],
+    "description": "maritime land force service branch of the United States Armed Forces",
+    "description_wiki": "The United States Marine Corps (USMC), also referred to as the United States Marines or simply the Marines, is the naval infantry service branch of the United States Armed Forces."
+  },
+  {
+    "id": 8,
+    "entity": "Fort Bliss",
+    "type": "Place",
+    "surface_forms": [
+      "Fort Bliss",
+      "Fort Bliss, Texas",
+      "Fort Bliss, Texas, at El Paso"
+    ],
+    "wikipedia_title": "Fort_Bliss",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Fort_Bliss",
+    "wikidata_qid": "Q707110",
+    "aliases": [
+      "Fort Bliss, Texas",
+      "Fort Bliss, TX"
+    ],
+    "description": "census designated place in Texas, United States",
+    "description_wiki": "Fort Bliss is a United States Army post in New Mexico and Texas, with its headquarters in El Paso, Texas."
+  },
+  {
+    "id": 9,
+    "entity": "Aberdeen Proving Ground",
+    "type": "Place",
+    "surface_forms": [
+      "Aberdeen Proving Ground",
+      "Aberdeen Proving Ground, Maryland",
+      "Aberdeen, Maryland"
+    ],
+    "wikipedia_title": "Aberdeen_Proving_Ground",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Aberdeen_Proving_Ground",
+    "wikidata_qid": "Q319506",
+    "aliases": [
+      "Aberdeen Proving Ground, MD"
+    ],
+    "description": "U.S. Army facility located adjacent to Aberdeen, Maryland",
+    "description_wiki": "Aberdeen Proving Ground (APG) is a U.S. Army facility located adjacent to Aberdeen, Maryland, United States."
+  },
+  {
+    "id": 10,
+    "entity": "Vietnam War",
+    "type": "Event",
+    "surface_forms": [
+      "Vietnam",
+      "Vietnam War",
+      "Vietnam, one was killed in Vietnam",
+      "Vietnamese"
+    ],
+    "wikipedia_title": "Vietnam_War",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Vietnam_War",
+    "wikidata_qid": "Q8740",
+    "aliases": [
+      "American War",
+      "Second Indochina War",
+      "American War in Vietnam"
+    ],
+    "description": "armed conflict in Vietnam, Laos, and Cambodia between North Vietnam and South Vietnam, from 1955 to 1975",
+    "description_wiki": "The Vietnam War (1 November 1955 – 30 April 1975) was an armed conflict in Vietnam, Laos, and Cambodia fought between North Vietnam (Democratic Republic of Vietnam) and South Vietnam (Republic of Vietnam) and their allies."
+  },
+  {
+    "id": 11,
+    "entity": "TWA",
+    "type": "Organization",
+    "surface_forms": [
+      "TWA"
+    ],
+    "wikipedia_title": "Trans_World_Airlines",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Trans_World_Airlines",
+    "wikidata_qid": "Q527341",
+    "aliases": [
+      "Trans World Airlines, Inc.",
+      "TWA",
+      "TWA Trans World Airlines",
+      "Trans World Airlines, TWA"
+    ],
+    "description": "defunct airline in the United States (1930–2001)",
+    "description_wiki": "Trans World Airlines (TWA) was a trunk carrier, a scheduled airline in the United States that operated from 1930 until it was acquired by American Airlines in 2001."
+  },
+  {
+    "id": 12,
+    "entity": "Travis Air Force Base",
+    "type": "Place",
+    "surface_forms": [
+      "Travis Airbase",
+      "Travis Airbase in San Francisco, California"
+    ],
+    "wikipedia_title": "Travis_Air_Force_Base",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Travis_Air_Force_Base",
+    "wikidata_qid": "Q3497425",
+    "aliases": [
+      "SUU",
+      "KSUU",
+      "Fairfield-Suisun Army Air Base"
+    ],
+    "description": "US Air Force base near Fairfield, California, United States",
+    "description_wiki": "Travis Air Force Base (IATA: SUU, ICAO: KSUU, FAA LID: SUU) is a United States Air Force base under the operational control of Air Mobility Command (AMC), located three miles (5 km) east of the central business district of the city of Fairfield, in Solano County, California."
+  },
+  {
+    "id": 13,
+    "entity": "San Francisco",
+    "type": "Place",
+    "surface_forms": [
+      "San Francisco",
+      "San Francisco, California"
+    ],
+    "wikipedia_title": "San_Francisco",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/San_Francisco",
+    "wikidata_qid": "Q62",
+    "aliases": [
+      "San Francisco, California",
+      "The City by the Bay",
+      "SF",
+      "SFO",
+      "The Golden City",
+      "Paris of the West",
+      "Baghdad by the Bay",
+      "San Francisco County",
+      "San Francisco County, California",
+      "San Fran"
+    ],
+    "description": "consolidated city and county in California, United States",
+    "description_wiki": "San Francisco, officially the City and County of San Francisco, is the fourth-most populous city in California and the 17th-most populous in the United States, with a population of 826,079 in 2025."
+  },
+  {
+    "id": 14,
+    "entity": "Honolulu",
+    "type": "Place",
+    "surface_forms": [
+      "Honolulu"
+    ],
+    "wikipedia_title": "Honolulu",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Honolulu",
+    "wikidata_qid": "Q18094",
+    "aliases": [
+      "Honolulu, Hawaii",
+      "Urban Honolulu",
+      "Honolulu CDP",
+      "Honolulu, HI",
+      "Hanarourou"
+    ],
+    "description": "city in and county seat of Honolulu County, Hawaii, United States, that is also the capital city of Hawaii",
+    "description_wiki": "Honolulu (  HON-ə-LOO-loo; Hawaiian: [honoˈlulu]) is the capital and most populous city of the U.S. state of Hawaii, located in the Pacific Ocean."
+  },
+  {
+    "id": 15,
+    "entity": "Kadena Air Base",
+    "type": "Place",
+    "surface_forms": [
+      "Kadena, Okinawa",
+      "Kadena"
+    ],
+    "wikipedia_title": "Kadena_Air_Base",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Kadena_Air_Base",
+    "wikidata_qid": "Q608289",
+    "aliases": [
+      "Kadena Air Force Base",
+      "RODN",
+      "Kadena airfield",
+      "Yara Hikojo"
+    ],
+    "description": "United States Air Force base in Japan, former Japanese WW2 airfield",
+    "description_wiki": "Kadena Air Base (嘉手納飛行場, Kadena Hikōjō) (IATA: DNA, ICAO: RODN) is a United States Air Force base in the towns of Kadena and Chatan and the city of Okinawa, in Okinawa Prefecture, Japan."
+  },
+  {
+    "id": 16,
+    "entity": "Bien Hoa Air Base",
+    "type": "Place",
+    "surface_forms": [
+      "Bien Hoa Airbase",
+      "Bien Hoa"
+    ],
+    "wikipedia_title": "Bien_Hoa_Air_Base",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Bien_Hoa_Air_Base",
+    "wikidata_qid": "Q619905",
+    "aliases": [],
+    "description": "military airfield in Vietnam",
+    "description_wiki": "Bien Hoa Air Base (Vietnamese: Sân bay Biên Hòa) is a Vietnam Air Defence - Air Force (VN ADAF) military airfield located in South-Central southern Vietnam about 25 km (16 miles) from Ho Chi Minh City,  across the Dong Nai river in the northern ward of Tân Phong, and within the city of Biên Hòa within Đồng Nai Province."
+  },
+  {
+    "id": 17,
+    "entity": "Pan American World Airways",
+    "type": "Organization",
+    "surface_forms": [
+      "PanAm"
+    ],
+    "wikipedia_title": "Pan_Am",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Pan_Am",
+    "wikidata_qid": "Q8681",
+    "aliases": [
+      "Pan American Airways",
+      "Pan American World",
+      "Pan-Am",
+      "PanAm",
+      "PAA",
+      "Pan American World Airways Inc."
+    ],
+    "description": "1927–2025 airline in the United States, former primary international carrier",
+    "description_wiki": "Pan American World Airways, originally founded as Pan American Airways and more commonly known as Pan Am, was an airline that was the principal and largest international air carrier and unofficial flag carrier of the United States for much of the 20th century."
+  },
+  {
+    "id": 18,
+    "entity": "Ton Son Nhut Air Base",
+    "type": "Place",
+    "surface_forms": [
+      "Ton Son Nhut airbase",
+      "Ton Son Nhut"
+    ],
+    "wikipedia_title": "Tan_Son_Nhat_International_Airport",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Tan_Son_Nhat_International_Airport",
+    "wikidata_qid": "Q478595",
+    "aliases": [
+      "Tân Sơn Nhứt airport"
+    ],
+    "description": "International airport in Ho Chi Minh City, Vietnam",
+    "description_wiki": "Tan Son Nhat International Airport (IATA: SGN, ICAO: VVTS) is an international airport serving Ho Chi Minh City, the most populous city in Vietnam."
+  },
+  {
+    "id": 19,
+    "entity": "Long Binh Post",
+    "type": "Place",
+    "surface_forms": [
+      "Long Binh Post"
+    ],
+    "wikipedia_title": "Long_Binh_Post",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Long_Binh_Post",
+    "wikidata_qid": "Q27627856",
+    "aliases": [],
+    "description": "US military base at Long Bình ward, 1965–1975",
+    "description_wiki": "Long Binh Post (Tổng kho Long Bình) is a former U.S. Army base located in Long Bình, Đồng Nai between Biên Hòa and Saigon, Vietnam."
+  },
+  {
+    "id": 20,
+    "entity": "90th Replacement Battalion",
+    "type": "Military_Unit",
+    "surface_forms": [
+      "90th Replacement Battalion",
+      "90th Replacement Battalion-Camp Alpha"
+    ],
+    "wikipedia_title": "90th_Replacement_Battalion",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/90th_Replacement_Battalion"
+  },
+  {
+    "id": 21,
+    "entity": "II Field Force Vietnam",
+    "type": "Military_Unit",
+    "surface_forms": [
+      "II Field Force",
+      "II Field Force Vietnam"
+    ],
+    "wikipedia_title": "II_Field_Force_Vietnam",
+    "wikipedia_url": "",
+    "wikidata_qid": "Q497842",
+    "aliases": [
+      "II FFV"
+    ],
+    "description": "military unit",
+    "description_wiki": ""
+  },
+  {
+    "id": 22,
+    "entity": "2nd Battalion, 34th Armor Regiment",
+    "type": "Military_Unit",
+    "surface_forms": [
+      "2,34th Armor",
+      "2,34th Armor Battalion",
+      "2,34th Armor Battalion",
+      "2,34th Armor"
+    ],
+    "wikipedia_title": "2nd_Battalion,_34th_Armor_Regiment",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/2nd_Battalion,_34th_Armor_Regiment"
+  },
+  {
+    "id": 23,
+    "entity": "4th Infantry Division (United States)",
+    "type": "Military_Unit",
+    "surface_forms": [
+      "4th Infantry Division",
+      "4th Infantry Division (United States)"
+    ],
+    "wikipedia_title": "4th_Infantry_Division_(United_States)",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/4th_Infantry_Division_(United_States)",
+    "wikidata_qid": "Q231293",
+    "aliases": [
+      "4th Infantry Division, United States Army",
+      "US 4th Infantry Division",
+      "U.S.Army 4th Infantry Division",
+      "Ivy",
+      "Iron Horse"
+    ],
+    "description": "active United States Army formation",
+    "description_wiki": "The 4th Infantry Division is a division of the United States Army based at Fort Carson, Colorado."
+  },
+  {
+    "id": 24,
+    "entity": "25th Infantry Division (United States)",
+    "type": "Military_Unit",
+    "surface_forms": [
+      "25th Infantry Division",
+      "25th Infantry Division (United States)"
+    ],
+    "wikipedia_title": "25th_Infantry_Division_(United_States)",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/25th_Infantry_Division_(United_States)",
+    "wikidata_qid": "Q217777",
+    "aliases": [
+      "25th Infantry Division, United States Army",
+      "US 25th Infantry Division",
+      "25 ID",
+      "Tropic Lightning",
+      "Tropic Lightning Division"
+    ],
+    "description": "active United States Army formation",
+    "description_wiki": "The 25th Infantry Division (nicknamed \"Tropic Lightning\") is a United States Army division based at Schofield Barracks in Hawaii."
+  },
+  {
+    "id": 25,
+    "entity": "Cu Chi Base Camp",
+    "type": "Place",
+    "surface_forms": [
+      "Cu Chi",
+      "Cu Chi Base Camp"
+    ],
+    "wikipedia_title": "Củ_Chi_tunnels",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Củ_Chi_tunnels",
+    "wikidata_qid": "Q192721",
+    "aliases": [
+      "Cu Chi tunnels",
+      "Cu Chi Tunnels"
+    ],
+    "description": "network of underground tunnels used by Viet Cong soldiers during combat",
+    "description_wiki": "The tunnels of Củ Chi (Vietnamese: Địa đạo Củ Chi) are an immense network of connecting tunnels located in the Củ Chi District of Ho Chi Minh City (Saigon), Vietnam, and are part of a much larger network of tunnels that underlie much of the country."
+  },
+  {
+    "id": 26,
+    "entity": "1st Infantry Division (United States)",
+    "type": "Military_Unit",
+    "surface_forms": [
+      "1st Infantry Division"
+    ],
+    "wikipedia_title": "1st_Infantry_Division_(United_States)",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/1st_Infantry_Division_(United_States)",
+    "wikidata_qid": "Q163659",
+    "aliases": [
+      "The Fighting First",
+      "The Big Red One",
+      "US 1st Infantry Division",
+      "1st Infantry Division, United States Army",
+      "Fighting First",
+      "Big Red One",
+      "1st Infantry Division (United States Army)",
+      "1 ID"
+    ],
+    "description": "active United States Army formation, oldest continuously serving division in the Regular Army",
+    "description_wiki": "The 1st Infantry Division (1ID) is a combined arms division of the United States Army, and is the oldest continuously serving division in the Regular Army."
+  },
+  {
+    "id": 27,
+    "entity": "Lai Khe",
+    "type": "Place",
+    "surface_forms": [
+      "Lai Khe"
+    ],
+    "wikipedia_title": "Lai_Khe",
+    "wikipedia_url": "",
+    "wikidata_qid": "Q6473619",
+    "aliases": [
+      "Lai Khe"
+    ],
+    "description": "military base in southern Vietnam",
+    "description_wiki": ""
+  },
+  {
+    "id": 28,
+    "entity": "Demilitarized Zone (Vietnam)",
+    "type": "Place",
+    "surface_forms": [
+      "DMZ",
+      "the DMZ"
+    ],
+    "wikipedia_title": "Vietnam_Demilitarized_Zone",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Vietnam_Demilitarized_Zone"
+  },
+  {
+    "id": 29,
+    "entity": "Camp Ashley",
+    "type": "Place",
+    "surface_forms": [
+      "Camp Ashley"
+    ],
+    "wikipedia_title": "Camp_Ashley",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Camp_Ashley"
+  },
+  {
+    "id": 30,
+    "entity": "Saigon",
+    "type": "Place",
+    "surface_forms": [
+      "Saigon"
+    ],
+    "wikipedia_title": "Ho_Chi_Minh_City",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Ho_Chi_Minh_City",
+    "wikidata_qid": "Q1854",
+    "aliases": [
+      "Ho Chi Minh",
+      "Sài Gòn",
+      "Saïgon",
+      "HCMC",
+      "Sai Gon",
+      "Saigon",
+      "Thành-Phô Hồ Chí Minh",
+      "Hôchiminh Ville",
+      "Thành Phố Hồ Chí Minh",
+      "Prey Nokor"
+    ],
+    "description": "largest city in Vietnam",
+    "description_wiki": "Ho Chi Minh City (HCMC; Vietnamese: Thành phố Hồ Chí Minh, IPA: [tʰaɲ˨˩ fow˦˥ ho˨˩ cɪj˦˥ mɨn˧˧] ), also known as Saigon, is the most populous municipality of Vietnam, with a population of more than 14 million in 2025."
+  },
+  {
+    "id": 31,
+    "entity": "Highway 1 (Vietnam)",
+    "type": "Place",
+    "surface_forms": [
+      "Highway One",
+      "QL 1",
+      "QL 22"
+    ],
+    "wikipedia_title": "National_Highway_1_(Vietnam)",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/National_Highway_1_(Vietnam)"
+  },
+  {
+    "id": 32,
+    "entity": "Tay Ninh Province",
+    "type": "Place",
+    "surface_forms": [
+      "Tay-Ninh",
+      "Tay Ninh"
+    ],
+    "wikipedia_title": "Tây_Ninh_Province",
+    "wikipedia_url": "",
+    "wikidata_qid": "Q36608",
+    "aliases": [
+      "Tay Ninh",
+      "Tây Ninh province"
+    ],
+    "description": "province of Vietnam in Southern Vietnam",
+    "description_wiki": ""
+  },
+  {
+    "id": 33,
+    "entity": "Model 88 VTR",
+    "type": "Work",
+    "surface_forms": [
+      "Model 88 VTR",
+      "Tank Recovery Vehicle",
+      "VTR"
+    ],
+    "wikipedia_title": "M88_recovery_vehicle",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/M88_recovery_vehicle",
+    "wikidata_qid": "Q1394498",
+    "aliases": [
+      "M88 Armored Recovery Vehicle",
+      "M88 ARV"
+    ],
+    "description": "armored recovery vehicle",
+    "description_wiki": "The M88 recovery vehicle is one of the largest armored recovery vehicles (ARV) in use by United States Armed Forces."
+  },
+  {
+    "id": 34,
+    "entity": "Tet Offensive",
+    "type": "Event",
+    "surface_forms": [
+      "Tet offensive",
+      "Tet Offensive started on January 31st, '68"
+    ],
+    "wikipedia_title": "Tet_Offensive",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Tet_Offensive",
+    "wikidata_qid": "Q82542",
+    "aliases": [
+      "Tet",
+      "The Tet Offensive",
+      "Viet Cong Tet Offensive, 1968"
+    ],
+    "description": "1968 military campaign during the Vietnam War",
+    "description_wiki": "The Tet Offensive was both a major escalation and one of the largest military campaigns of the Vietnam War."
+  },
+  {
+    "id": 35,
+    "entity": "Alpha Company",
+    "type": "Military_Unit",
+    "surface_forms": [
+      "Alpha Company"
+    ],
+    "wikipedia_title": "Alpha_Company",
+    "wikipedia_url": "",
+    "wikidata_qid": "Q101243298",
+    "aliases": [],
+    "description": "sole company of TBS Class 1-68 with 219 graduates",
+    "description_wiki": ""
+  },
+  {
+    "id": 36,
+    "entity": "Bravo Company",
+    "type": "Military_Unit",
+    "surface_forms": [
+      "Bravo Company"
+    ],
+    "wikipedia_title": "Bravo_Company",
+    "wikipedia_url": "",
+    "wikidata_qid": "Q55525881",
+    "aliases": [],
+    "description": "",
+    "description_wiki": ""
+  },
+  {
+    "id": 37,
+    "entity": "Charlie Company",
+    "type": "Military_Unit",
+    "surface_forms": [
+      "Charlie Company"
+    ],
+    "wikipedia_title": "Charlie_Company",
+    "wikipedia_url": "",
+    "wikidata_qid": "Q109417326",
+    "aliases": [
+      "Charlie Company, 2nd Battalion, 12th Infantry Regiment"
+    ],
+    "description": "company within the United States Army",
+    "description_wiki": ""
+  },
+  {
+    "id": 38,
+    "entity": "Kole Kole",
+    "type": "Event",
+    "surface_forms": [
+      "Kole Kole"
+    ],
+    "wikipedia_title": "Operation_Kole_Kole",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Operation_Kole_Kole",
+    "wikidata_qid": "Q85790952",
+    "aliases": [],
+    "description": "Part of the Vietnam War (1967)",
+    "description_wiki": "Operation Kole Kole was a search and destroy operation during the Vietnam War conducted by the 2nd Brigade, 25th Infantry Division that took place in Hậu Nghĩa and Tây Ninh Provinces, lasting from 14 May to 7 December 1967."
+  },
+  {
+    "id": 39,
+    "entity": "Kunia",
+    "type": "Place",
+    "surface_forms": [
+      "Kunia"
+    ],
+    "wikipedia_title": "Kunia,_Hawaii",
+    "wikipedia_url": "",
+    "wikidata_qid": "Q6444620",
+    "aliases": [
+      "Kunia Camp, Hawaii",
+      "Kunia, Hawaii",
+      "Kunia Camp, HI"
+    ],
+    "description": "unincorporated community in Honolulu County, Hawaii, United States of America",
+    "description_wiki": ""
+  },
+  {
+    "id": 40,
+    "entity": "Bernard Pelligrino",
+    "type": "Person",
+    "surface_forms": [
+      "Bernard Pelligrino"
+    ],
+    "wikipedia_title": "Bernard_Pelligrino",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Bernard_Pelligrino"
+  }
+]

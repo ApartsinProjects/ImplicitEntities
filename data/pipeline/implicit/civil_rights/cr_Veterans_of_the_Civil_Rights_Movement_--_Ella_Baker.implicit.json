@@ -1,0 +1,191 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "Norfolk, Virginia",
+    "explicit_text": "I was born in Norfolk, Virginia, and lived there until I was about seven or eight years old. My father moved there to make his fortune and worked as a waiter on a steamer running from Norfolk to Washington. Norfolk is nearly surrounded by water and was connected to other places by boat before bridges were built. It was a significant place in my early childhood and family history.",
+    "implicit_text": "I was born in a coastal city in southeastern Virginia and lived there until I was about seven or eight years old. My father moved there to make his fortune and worked as a waiter on a steamer running from that city to Washington. This city is nearly surrounded by water and was connected to other places by boat before bridges were built. It was a significant place in my early childhood and family history.",
+    "cues": [
+      "born in Norfolk",
+      "lived until age 7 or 8",
+      "father worked as waiter",
+      "steamer to Washington",
+      "surrounded by water"
+    ],
+    "transcript_ref": "civil_rights\\cr_Veterans_of_the_Civil_Rights_Movement_--_Ella_Baker.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "North Carolina",
+    "explicit_text": "Both my parents were from North Carolina, specifically from Warren County, though from different sections. After I was about seven or eight, our family moved back to North Carolina from Norfolk. My mother stayed in her home area and taught school there, while my father had gone to Norfolk first. North Carolina was where much of my extended family lived and where I spent many summers.",
+    "implicit_text": "Both my parents were from a southeastern U.S. state, specifically from Warren County, though from different sections. After I was about seven or eight, our family moved back to that state from the coastal city in Virginia. My mother stayed in her home area and taught school there, while my father had gone to the Virginia city first. This state was where much of my extended family lived and where I spent many summers.",
+    "cues": [
+      "parents from North Carolina",
+      "Warren County",
+      "moved back at age 7 or 8",
+      "mother taught school",
+      "family summers"
+    ],
+    "transcript_ref": "civil_rights\\cr_Veterans_of_the_Civil_Rights_Movement_--_Ella_Baker.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "Warren County, North Carolina",
+    "explicit_text": "Warren County is where my parents came from and where much of my mother's family lived. My grandfather, Mitchell R. Ross, was a minister there and owned land that was settled by relatives after Emancipation. Several family members, including my mother, father, and brother, are buried there. It was also the location of the academy where my parents met and where my mother taught school.",
+    "implicit_text": "This county is where my parents came from and where much of my mother's family lived. My grandfather, Mitchell R. Ross, was a minister there and owned land that was settled by relatives after the abolition of slavery. Several family members, including my mother, father, and brother, are buried there. It was also the location of the academy where my parents met and where my mother taught school.",
+    "cues": [
+      "parents from Warren County",
+      "grandfather minister and landowner",
+      "family burial site",
+      "academy where parents met",
+      "mother taught school"
+    ],
+    "transcript_ref": "civil_rights\\cr_Veterans_of_the_Civil_Rights_Movement_--_Ella_Baker.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "New England",
+    "explicit_text": "The academy where my parents met was established by a black New Englander who carried on the old New England tradition. It might have been connected to northern or New England Baptists, though it wasn't directly church-related like other local schools. This New England influence shaped the educational environment where my parents first encountered each other.",
+    "implicit_text": "The academy where my parents met was established by a black person from the northeastern U.S. who carried on the old traditions of that region. It might have been connected to northern Baptists, though it wasn't directly church-related like other local schools. This northeastern influence shaped the educational environment where my parents first encountered each other.",
+    "cues": [
+      "academy established by black New Englander",
+      "old New England tradition",
+      "possible Baptist connection",
+      "parents met at academy"
+    ],
+    "transcript_ref": "civil_rights\\cr_Veterans_of_the_Civil_Rights_Movement_--_Ella_Baker.yaml"
+  },
+  {
+    "entity_id": 5,
+    "entity": "Baptist",
+    "explicit_text": "I became a church member at the age of nine in the good old Baptist tradition. My grandfather on my mother's side was a minister with several churches in Warren County. The academy where my parents met may have had ties to New England Baptists, and my father's brother was prominent in Cherry Street Baptist Church in Philadelphia. The Baptist faith was a strong part of my family's life and heritage.",
+    "implicit_text": "I became a church member at the age of nine in the good old traditional Protestant denomination known for baptism by immersion. My grandfather on my mother's side was a minister with several churches in Warren County. The academy where my parents met may have had ties to northern Baptists, and my father's brother was prominent in a church of this denomination in Philadelphia. This faith was a strong part of my family's life and heritage.",
+    "cues": [
+      "church member at age nine",
+      "grandfather minister",
+      "possible New England Baptist academy",
+      "father's brother in Cherry Street Baptist Church"
+    ],
+    "transcript_ref": "civil_rights\\cr_Veterans_of_the_Civil_Rights_Movement_--_Ella_Baker.yaml"
+  },
+  {
+    "entity_id": 6,
+    "entity": "Emancipation",
+    "explicit_text": "Both of my parents' parents were ex-slaves, and after Emancipation, my mother's father, who was a minister, managed to secure a large portion of land in Warren County. This land was divided into plots for family members, and I even sent my first earnings to help pay taxes on it. Emancipation was a pivotal event that shaped my family's opportunities and land ownership.",
+    "implicit_text": "Both of my parents' parents were formerly enslaved, and after the abolition of slavery, my mother's father, who was a minister, managed to secure a large portion of land in Warren County. This land was divided into plots for family members, and I even sent my first earnings to help pay taxes on it. This historic event was a pivotal moment that shaped my family's opportunities and land ownership.",
+    "cues": [
+      "parents' parents ex-slaves",
+      "mother's father minister",
+      "land secured after Emancipation",
+      "family plots",
+      "helped pay taxes"
+    ],
+    "transcript_ref": "civil_rights\\cr_Veterans_of_the_Civil_Rights_Movement_--_Ella_Baker.yaml"
+  },
+  {
+    "entity_id": 7,
+    "entity": "Philadelphia",
+    "explicit_text": "Philadelphia was where some of my father's family settled, including his oldest brother and Aunt Eliza's grown sons. I was going to visit a first cousin there in 1974, but I had an accident at Pennsylvania Station and couldn't make the trip. My father's brother was prominent in a church there, likely Cherry Street Baptist Church, and the city was an important place for part of my family.",
+    "implicit_text": "This northeastern U.S. city was where some of my father's family settled, including his oldest brother and Aunt Eliza's grown sons. I was going to visit a first cousin there in 1974, but I had an accident at the main train station and couldn't make the trip. My father's brother was prominent in a church there, likely one known for its Baptist congregation, and the city was an important place for part of my family.",
+    "cues": [
+      "father's family in Philadelphia",
+      "oldest brother and Aunt Eliza's sons",
+      "1974 visit planned",
+      "accident at Pennsylvania Station",
+      "church involvement"
+    ],
+    "transcript_ref": "civil_rights\\cr_Veterans_of_the_Civil_Rights_Movement_--_Ella_Baker.yaml"
+  },
+  {
+    "entity_id": 8,
+    "entity": "Pennsylvania Station",
+    "explicit_text": "In 1974, I had an eerie accident at Pennsylvania Station in Philadelphia where I fell between two cars and cracked my ankle. This injury prevented me from visiting a first cousin who had more information about my father's side of the family. It was a significant moment because by the time I recovered, my cousin had passed away.",
+    "implicit_text": "In 1974, I had an eerie accident at the main train station in Philadelphia where I fell between two cars and cracked my ankle. This injury prevented me from visiting a first cousin who had more information about my father's side of the family. It was a significant moment because by the time I recovered, my cousin had passed away.",
+    "cues": [
+      "1974 accident",
+      "fell between two cars",
+      "cracked ankle",
+      "missed visit to cousin",
+      "Philadelphia"
+    ],
+    "transcript_ref": "civil_rights\\cr_Veterans_of_the_Civil_Rights_Movement_--_Ella_Baker.yaml"
+  },
+  {
+    "entity_id": 9,
+    "entity": "Cherry Street Baptist Church",
+    "explicit_text": "My father's oldest brother was very prominent in Cherry Street Baptist Church in Philadelphia. Although I didn't know all the details, this church was an important part of his life and community. It connected my family to the Baptist tradition beyond North Carolina and Virginia.",
+    "implicit_text": "My father's oldest brother was very prominent in a Baptist church located on Cherry Street in Philadelphia. Although I didn't know all the details, this church was an important part of his life and community. It connected my family to the Baptist tradition beyond North Carolina and Virginia.",
+    "cues": [
+      "father's brother prominent",
+      "Philadelphia church",
+      "Baptist tradition",
+      "family connection"
+    ],
+    "transcript_ref": "civil_rights\\cr_Veterans_of_the_Civil_Rights_Movement_--_Ella_Baker.yaml"
+  },
+  {
+    "entity_id": 10,
+    "entity": "Cape Charles, Virginia",
+    "explicit_text": "During my day, a branch of the Pennsylvania Railroad ran into the Cape Charles area, but you still had to take a boat to reach Norfolk. This area was part of the transportation route connecting Virginia to the mainland and Washington, D.C. It was an important geographic point related to my father's work and travel.",
+    "implicit_text": "During my day, a branch of the Pennsylvania Railroad ran into a town on Virginia's Eastern Shore, but you still had to take a boat to reach the coastal city in southeastern Virginia. This area was part of the transportation route connecting Virginia to the mainland and Washington, D.C. It was an important geographic point related to my father's work and travel.",
+    "cues": [
+      "Pennsylvania Railroad branch",
+      "boat to Norfolk",
+      "transportation route",
+      "Virginia area"
+    ],
+    "transcript_ref": "civil_rights\\cr_Veterans_of_the_Civil_Rights_Movement_--_Ella_Baker.yaml"
+  },
+  {
+    "entity_id": 11,
+    "entity": "Pennsylvania Railroad",
+    "explicit_text": "The Pennsylvania Railroad had a branch that ran into the Cape Charles area in Virginia during my youth. However, to get from Cape Charles to Norfolk, you still had to take a boat. This railroad was part of the transportation network that connected my family's region to larger cities and was relevant to my father's travels.",
+    "implicit_text": "The major railroad company headquartered in Pennsylvania had a branch that ran into the Eastern Shore town in Virginia during my youth. However, to get from that town to the coastal city in southeastern Virginia, you still had to take a boat. This railroad was part of the transportation network that connected my family's region to larger cities and was relevant to my father's travels.",
+    "cues": [
+      "branch to Cape Charles",
+      "boat connection to Norfolk",
+      "transportation network",
+      "father's travel"
+    ],
+    "transcript_ref": "civil_rights\\cr_Veterans_of_the_Civil_Rights_Movement_--_Ella_Baker.yaml"
+  },
+  {
+    "entity_id": 12,
+    "entity": "Chesapeake Bay",
+    "explicit_text": "Norfolk is nearly surrounded by water, including the Chesapeake Bay, where five waters come together between Norfolk and Washington. My father worked as a waiter on a passenger steamer that ran through this area, which was the main mode of transportation before bridges were built. The Chesapeake Bay was central to the geography and travel of my early life.",
+    "implicit_text": "The coastal city in southeastern Virginia is nearly surrounded by water, including a large estuary where five waters come together between that city and Washington. My father worked as a waiter on a passenger steamer that ran through this area, which was the main mode of transportation before bridges were built. This estuary was central to the geography and travel of my early life.",
+    "cues": [
+      "Norfolk surrounded by water",
+      "five waters converge",
+      "father's steamer route",
+      "transportation before bridges"
+    ],
+    "transcript_ref": "civil_rights\\cr_Veterans_of_the_Civil_Rights_Movement_--_Ella_Baker.yaml"
+  },
+  {
+    "entity_id": 13,
+    "entity": "Curtis Publishing Company",
+    "explicit_text": "My brother was named Blake Curtis, and I have a hunch his middle name came from the Curtis Publishing Company, which had early magazine distributors. My mother was a great reader and may have sold their magazines, but I never confirmed the exact reason for the name. It was a small but interesting part of our family story.",
+    "implicit_text": "My brother was named Blake Curtis, and I have a hunch his middle name came from a well-known publishing company that had early magazine distributors. My mother was a great reader and may have sold their magazines, but I never confirmed the exact reason for the name. It was a small but interesting part of our family story.",
+    "cues": [
+      "brother named Blake Curtis",
+      "possible link to Curtis Publishing",
+      "mother was reader and seller",
+      "family name story"
+    ],
+    "transcript_ref": "civil_rights\\cr_Veterans_of_the_Civil_Rights_Movement_--_Ella_Baker.yaml"
+  },
+  {
+    "entity_id": 14,
+    "entity": "Warrenton, North Carolina",
+    "explicit_text": "Warrenton was the county seat where my father rode horseback to court my mother in a nearby area called Flums. They married there after he had settled in Norfolk for a time. Warrenton was also the location of the academy where my parents met and near where my mother's family lived and taught school.",
+    "implicit_text": "This town was the county seat where my father rode horseback to court my mother in a nearby area called Flums. They married there after he had settled in the Virginia coastal city for a time. This town was also the location of the academy where my parents met and near where my mother's family lived and taught school.",
+    "cues": [
+      "county seat",
+      "father's horseback courtship",
+      "parents married there",
+      "academy location",
+      "mother's family area"
+    ],
+    "transcript_ref": "civil_rights\\cr_Veterans_of_the_Civil_Rights_Movement_--_Ella_Baker.yaml"
+  }
+]

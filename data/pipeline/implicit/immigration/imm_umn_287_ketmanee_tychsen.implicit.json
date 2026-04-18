@@ -1,0 +1,82 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "Bangkok",
+    "explicit_text": "I was born in Bangkok, Thailand, but I didn't spend much of my childhood there. My family soon moved to a northeastern village, Ban Nong Phai, where I grew up. Bangkok is where my story begins, but my roots and early memories are more connected to the village and my family there.",
+    "implicit_text": "I was born in the capital city of Thailand, but I didn't spend much of my childhood there. My family soon moved to a northeastern village, Ban Nong Phai, where I grew up. The city where my story begins, but my roots and early memories are more connected to the village and my family there.",
+    "cues": [
+      "birthplace",
+      "Thailand",
+      "early childhood"
+    ],
+    "transcript_ref": "immigration\\imm_umn_287_ketmanee_tychsen.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "Thailand",
+    "explicit_text": "Thailand is my homeland where I was born and raised, especially in a small village called Ban Nong Phai. My family and I have strong cultural traditions there, like the Sai Sin string tying ceremony blessed by monks. Even though I moved to the United States for education, Thailand remains central to my identity and values.",
+    "implicit_text": "My homeland is where I was born and raised, especially in a small village called Ban Nong Phai. My family and I have strong cultural traditions there, like the Sai Sin string tying ceremony blessed by monks. Even though I moved abroad for education, this country remains central to my identity and values.",
+    "cues": [
+      "birthplace",
+      "Ban Nong Phai",
+      "cultural traditions",
+      "family"
+    ],
+    "transcript_ref": "immigration\\imm_umn_287_ketmanee_tychsen.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "Ban Nong Phai",
+    "explicit_text": "I grew up in Ban Nong Phai, a northeastern village in Thailand where life was simple and quiet. I spent my days riding my tricycle and playing badminton, and my grandmother nurtured my love for music there. It was a place where my family’s values, especially about education, were deeply instilled in me.",
+    "implicit_text": "I grew up in a northeastern village in Thailand where life was simple and quiet. I spent my days riding my tricycle and playing badminton, and my grandmother nurtured my love for music there. It was a place where my family’s values, especially about education, were deeply instilled in me.",
+    "cues": [
+      "northeastern Thailand",
+      "childhood",
+      "grandmother",
+      "music",
+      "education"
+    ],
+    "transcript_ref": "immigration\\imm_umn_287_ketmanee_tychsen.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "United States",
+    "explicit_text": "My family moved to the United States so my sister and I could have better educational opportunities. I attended a small school here with about sixty students, where I sometimes felt like an outsider because of my background. Despite that, I focused on my studies, graduated high school with honors, and now I’m pursuing a degree at the University of Minnesota.",
+    "implicit_text": "My family moved to North America so my sister and I could have better educational opportunities. I attended a small school here with about sixty students, where I sometimes felt like an outsider because of my background. Despite that, I focused on my studies, graduated high school with honors, and now I’m pursuing a degree at a university in Minnesota.",
+    "cues": [
+      "immigration",
+      "education",
+      "small school",
+      "high honors",
+      "University of Minnesota"
+    ],
+    "transcript_ref": "immigration\\imm_umn_287_ketmanee_tychsen.yaml"
+  },
+  {
+    "entity_id": 5,
+    "entity": "University of Minnesota",
+    "explicit_text": "Currently, I am a student at the University of Minnesota, working hard to further my education and make my family proud. This university represents a big step in my journey from a small village in Thailand to achieving my academic goals in the United States. It’s where I’m building a future not just for myself but for my family as well.",
+    "implicit_text": "Currently, I am a student at a major public university in Minnesota, working hard to further my education and make my family proud. This institution represents a big step in my journey from a small village in Thailand to achieving my academic goals in North America. It’s where I’m building a future not just for myself but for my family as well.",
+    "cues": [
+      "current education",
+      "United States",
+      "academic goals",
+      "family pride"
+    ],
+    "transcript_ref": "immigration\\imm_umn_287_ketmanee_tychsen.yaml"
+  },
+  {
+    "entity_id": 6,
+    "entity": "Sai Sin",
+    "explicit_text": "The Sai Sin bracelet is very special to me; it symbolizes family, perseverance, and my Thai heritage. It comes from a traditional Thai string tying ceremony where monks bless the string over holy water. My mother tied this bracelet on me last year after returning from Thailand, and I wear it always as a reminder of my roots and the blessings I carry with me.",
+    "implicit_text": "The traditional string bracelet is very special to me; it symbolizes family, perseverance, and my Thai heritage. It comes from a ceremony where monks bless the string over holy water. My mother tied this bracelet on me last year after returning from my home country, and I wear it always as a reminder of my roots and the blessings I carry with me.",
+    "cues": [
+      "Thai tradition",
+      "string tying ceremony",
+      "monks",
+      "family blessing",
+      "heritage"
+    ],
+    "transcript_ref": "immigration\\imm_umn_287_ketmanee_tychsen.yaml"
+  }
+]

@@ -1,0 +1,70 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "Laos",
+    "explicit_text": "I lived in Laos with my family before we had to escape in May 1979 during the planting season. Our country was falling apart, and people were leaving for Thailand. We left Laos with many relatives, about 50 to 100 people, carrying what we could and struggling especially with my young children. It was a difficult time, and we had to hide in caves and survive on roots and vegetation as we fled.",
+    "implicit_text": "I lived in the country in Southeast Asia with my family before we had to escape in May 1979 during the planting season. Our homeland was falling apart, and people were leaving for the neighboring kingdom to the west. We left with many relatives, about 50 to 100 people, carrying what we could and struggling especially with my young children. It was a difficult time, and we had to hide in caves and survive on roots and vegetation as we fled.",
+    "cues": [
+      "May 1979",
+      "planting season",
+      "escape",
+      "relatives",
+      "children"
+    ],
+    "transcript_ref": "immigration\\imm_umn_78_song_vue.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "China",
+    "explicit_text": "Though I never experienced it myself, my parents often told us about escaping from China. It was a story passed down through generations, and now I understand what they went through because we faced a similar fate. Our journey reminded me of those stories as we fled Laos, just like our elders fled China. It was a harsh and sad experience that connected me to my family's past.",
+    "implicit_text": "Though I never experienced it myself, my parents often told us about escaping from the large East Asian country known for its ancient civilization. It was a story passed down through generations, and now I understand what they went through because we faced a similar fate. Our journey reminded me of those stories as we fled the landlocked Southeast Asian country, just like our elders fled the vast nation to the north. It was a harsh and sad experience that connected me to my family's past.",
+    "cues": [
+      "family stories",
+      "escape",
+      "generational hardship",
+      "connection to past"
+    ],
+    "transcript_ref": "immigration\\imm_umn_78_song_vue.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "Thailand",
+    "explicit_text": "After leaving Laos, we crossed into Thailand in May 1979 under the bright moonlight. Many others had already fled there, and we stayed in Thailand for about ten years. It was a place of refuge but not a permanent home, as we wondered whether to stay or move on to America. Eventually, we prepared ourselves and left Thailand on September 7th, spending a year in Phanat Nikhon before coming to the United States.",
+    "implicit_text": "After leaving the landlocked country in Southeast Asia, we crossed into the neighboring kingdom to the west in May 1979 under the bright moonlight. Many others had already fled there, and we stayed in that country for about ten years. It was a place of refuge but not a permanent home, as we wondered whether to stay or move on to America. Eventually, we prepared ourselves and left that kingdom on September 7th, spending a year in a small town before coming to the United States.",
+    "cues": [
+      "May 1979",
+      "refuge",
+      "ten years",
+      "September 7th departure",
+      "Phanat Nikhon"
+    ],
+    "transcript_ref": "immigration\\imm_umn_78_song_vue.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "Phanat Nikhom",
+    "explicit_text": "Before coming to the United States, we stayed in Phanat Nikhon for one year after leaving Thailand. It was a transitional place for us as we prepared for the next step in our journey. From there, we departed to the U.S. seeking a better life and opportunities for our children and grandchildren. Phanat Nikhon was an important stop on our long path to a new home.",
+    "implicit_text": "Before coming to the United States, we stayed in a small town in the neighboring kingdom for one year after leaving the refugee camps. It was a transitional place for us as we prepared for the next step in our journey. From there, we departed to the U.S. seeking a better life and opportunities for our children and grandchildren. That town was an important stop on our long path to a new home.",
+    "cues": [
+      "one year stay",
+      "transition",
+      "departure to U.S.",
+      "preparation for new life"
+    ],
+    "transcript_ref": "immigration\\imm_umn_78_song_vue.yaml"
+  },
+  {
+    "entity_id": 5,
+    "entity": "United States",
+    "explicit_text": "We came to the United States for a better life and the chance to see our children and grandchildren grow up. When we arrived, we were too old to learn new skills or attend school, so we lived simply and endured hardships. Our children, however, were young and able to learn new things. The U.S. gave us hope and opportunity, even though we had to be patient and humble in this new land.",
+    "implicit_text": "We came to the land of opportunity for a better life and the chance to see our children and grandchildren grow up. When we arrived, we were too old to learn new skills or attend school, so we lived simply and endured hardships. Our children, however, were young and able to learn new things. This country gave us hope and opportunity, even though we had to be patient and humble in this new land.",
+    "cues": [
+      "arrival",
+      "older age",
+      "children learning",
+      "hope",
+      "better life"
+    ],
+    "transcript_ref": "immigration\\imm_umn_78_song_vue.yaml"
+  }
+]

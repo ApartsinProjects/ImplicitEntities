@@ -1,0 +1,129 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "Afghanistan",
+    "explicit_text": "I grew up in Afghanistan during a very violent and unstable time. The country was torn apart by fighting between different militant groups, which made life dangerous and unpredictable. I worked there supporting projects aimed at rebuilding Afghanistan, but eventually, I decided to leave for safety reasons. My experience in Afghanistan shaped my desire to see peace and stability in my homeland.",
+    "implicit_text": "I grew up in a country during a very violent and unstable time. The nation was torn apart by fighting between different militant groups, which made life dangerous and unpredictable. I worked there supporting projects aimed at rebuilding the homeland, but eventually, I decided to leave for safety reasons. My experience in that place shaped my desire to see peace and stability in my homeland.",
+    "cues": [
+      "childhood",
+      "violence",
+      "militant groups",
+      "rebuilding",
+      "safety"
+    ],
+    "transcript_ref": "refugee\\ref_rfmi_fardin_ghafoor.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "Kabul",
+    "explicit_text": "Kabul was where I spent my childhood, but it was far from peaceful. Different groups controlled parts of the city and fired rockets at each other, making it unsafe to go outside or attend school. The constant danger in Kabul forced my family to move between provinces frequently. Despite the hardships, Kabul is where my early life unfolded amid conflict.",
+    "implicit_text": "The capital city was where I spent my childhood, but it was far from peaceful. Different groups controlled parts of the city and fired rockets at each other, making it unsafe to go outside or attend school. The constant danger in the capital forced my family to move between provinces frequently. Despite the hardships, the capital is where my early life unfolded amid conflict.",
+    "cues": [
+      "childhood",
+      "rockets",
+      "militant groups",
+      "unsafe",
+      "moving between provinces"
+    ],
+    "transcript_ref": "refugee\\ref_rfmi_fardin_ghafoor.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "Russia",
+    "explicit_text": "During my childhood in Kabul, Russian forces were one of the groups involved in the fighting. They were part of the conflict alongside the mujahideen and later the Taliban. Their presence contributed to the violence that made daily life so dangerous for me and my family. The Russian involvement was a significant part of the turmoil in Afghanistan at that time.",
+    "implicit_text": "During my childhood in the capital, forces from a large neighboring country were one of the groups involved in the fighting. They were part of the conflict alongside local resistance fighters and later an Islamist militant group. Their presence contributed to the violence that made daily life so dangerous for me and my family. The involvement of that foreign power was a significant part of the turmoil in the country at that time.",
+    "cues": [
+      "childhood",
+      "conflict",
+      "militant groups",
+      "violence",
+      "Kabul"
+    ],
+    "transcript_ref": "refugee\\ref_rfmi_fardin_ghafoor.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "Mujahideen",
+    "explicit_text": "The mujahideen were one of the militant groups fighting in Kabul during my childhood. They controlled parts of the city and were engaged in violent clashes with other groups like the Russians and the Taliban. Their fighting made it impossible for me to attend school safely. The mujahideen were a constant presence in the conflict that shaped my early years.",
+    "implicit_text": "One of the militant groups fighting in the capital during my childhood was the local resistance fighters. They controlled parts of the city and were engaged in violent clashes with other groups like the foreign forces and the Islamist militants. Their fighting made it impossible for me to attend school safely. These fighters were a constant presence in the conflict that shaped my early years.",
+    "cues": [
+      "childhood",
+      "militant groups",
+      "fighting",
+      "Kabul",
+      "unsafe"
+    ],
+    "transcript_ref": "refugee\\ref_rfmi_fardin_ghafoor.yaml"
+  },
+  {
+    "entity_id": 5,
+    "entity": "Taliban",
+    "explicit_text": "The Taliban came into the conflict in Kabul after the Russians and mujahideen, continuing the violence that disrupted my childhood. Their control over parts of the city made it dangerous to be outside or attend school. Later, I worked with the US military, which opposed the Taliban, and this put me and my family at risk of attacks and death threats. The Taliban's presence deeply affected my life and decisions.",
+    "implicit_text": "An Islamist militant group came into the conflict in the capital after the foreign forces and local resistance fighters, continuing the violence that disrupted my childhood. Their control over parts of the city made it dangerous to be outside or attend school. Later, I worked with the American military, which opposed this group, and this put me and my family at risk of attacks and death threats. Their presence deeply affected my life and decisions.",
+    "cues": [
+      "childhood",
+      "militant groups",
+      "violence",
+      "US military",
+      "death threats"
+    ],
+    "transcript_ref": "refugee\\ref_rfmi_fardin_ghafoor.yaml"
+  },
+  {
+    "entity_id": 6,
+    "entity": "United States",
+    "explicit_text": "I eventually moved to the United States in 2018 after applying through the Special Immigrant Visa Program. Adjusting to life here has been challenging due to language barriers and cultural differences, but I want to raise my children in a place where they can be free and happy. Before moving, I had worked closely with American military projects in Afghanistan, which influenced my decision to come here for safety.",
+    "implicit_text": "I eventually moved to North America in 2018 after applying through a special immigrant visa program. Adjusting to life here has been challenging due to language barriers and cultural differences, but I want to raise my children in a place where they can be free and happy. Before moving, I had worked closely with American military projects in my home country, which influenced my decision to come here for safety.",
+    "cues": [
+      "2018",
+      "Special Immigrant Visa Program",
+      "adjustment",
+      "language barrier",
+      "freedom"
+    ],
+    "transcript_ref": "refugee\\ref_rfmi_fardin_ghafoor.yaml"
+  },
+  {
+    "entity_id": 7,
+    "entity": "United States military",
+    "explicit_text": "I worked for a contractor supporting the United States military in Afghanistan, delivering supplies and teaching languages to the Afghan National Security Forces. I believed the US military's projects were meant to help rebuild the country, and I felt proud to contribute. However, this work also put me in danger, as I received death threats and was attacked multiple times because of my association with them.",
+    "implicit_text": "I worked for a contractor supporting the American military in my home country, delivering supplies and teaching languages to the national security forces. I believed the American military's projects were meant to help rebuild the country, and I felt proud to contribute. However, this work also put me in danger, as I received death threats and was attacked multiple times because of my association with them.",
+    "cues": [
+      "contractor",
+      "deliveries",
+      "teaching",
+      "support",
+      "danger",
+      "attacks"
+    ],
+    "transcript_ref": "refugee\\ref_rfmi_fardin_ghafoor.yaml"
+  },
+  {
+    "entity_id": 8,
+    "entity": "Afghan National Security Forces",
+    "explicit_text": "Part of my work involved teaching Dari and Pashto to the Afghan National Security Forces. This role was important because it helped improve communication and effectiveness within the forces. I saw this as a way to contribute to rebuilding Afghanistan and supporting security efforts during a difficult time. Working with them connected me directly to the efforts to stabilize the country.",
+    "implicit_text": "Part of my work involved teaching Dari and Pashto to the national security forces of my country. This role was important because it helped improve communication and effectiveness within the forces. I saw this as a way to contribute to rebuilding my homeland and supporting security efforts during a difficult time. Working with them connected me directly to the efforts to stabilize the country.",
+    "cues": [
+      "teaching",
+      "Dari",
+      "Pashto",
+      "security",
+      "rebuilding"
+    ],
+    "transcript_ref": "refugee\\ref_rfmi_fardin_ghafoor.yaml"
+  },
+  {
+    "entity_id": 9,
+    "entity": "Special Immigrant Visa Program",
+    "explicit_text": "In 2014, I applied for the Special Immigrant Visa Program to leave Afghanistan safely. It took four years before I was granted the visa, allowing me to come to the United States in November 2018. This program was crucial for me and my family to escape the threats we faced due to my work with the US military. Without it, we would not have had the opportunity to start a new life here.",
+    "implicit_text": "In 2014, I applied for a special immigrant visa program to leave my home country safely. It took four years before I was granted the visa, allowing me to come to North America in November 2018. This program was crucial for me and my family to escape the threats we faced due to my work with the American military. Without it, we would not have had the opportunity to start a new life here.",
+    "cues": [
+      "2014 application",
+      "four years",
+      "2018 arrival",
+      "safety",
+      "US immigration"
+    ],
+    "transcript_ref": "refugee\\ref_rfmi_fardin_ghafoor.yaml"
+  }
+]

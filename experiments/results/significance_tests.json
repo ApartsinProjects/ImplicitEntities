@@ -1,0 +1,122 @@
+[
+  {
+    "comparison": "ZS vs FS (GPT-4o)",
+    "exp_a": "O1",
+    "exp_b": "O2",
+    "n_common": 4632,
+    "acc_a": 0.3506,
+    "acc_b": 0.4111,
+    "mcnemar": {
+      "chi2": 149.6942,
+      "p_value": 0.0,
+      "b_discordant": 120,
+      "c_discordant": 400
+    },
+    "bootstrap_a": {
+      "mean": 0.3506,
+      "ci_lower": 0.3361,
+      "ci_upper": 0.3644
+    },
+    "bootstrap_b": {
+      "mean": 0.4111,
+      "ci_lower": 0.3953,
+      "ci_upper": 0.4255
+    }
+  },
+  {
+    "comparison": "ZS vs FS (mini)",
+    "exp_a": "O3",
+    "exp_b": "O4",
+    "n_common": 3507,
+    "acc_a": 0.3516,
+    "acc_b": 0.3872,
+    "mcnemar": {
+      "chi2": 36.1788,
+      "p_value": 0.0,
+      "b_discordant": 150,
+      "c_discordant": 275
+    },
+    "bootstrap_a": {
+      "mean": 0.3514,
+      "ci_lower": 0.3356,
+      "ci_upper": 0.3673
+    },
+    "bootstrap_b": {
+      "mean": 0.3871,
+      "ci_lower": 0.3713,
+      "ci_upper": 0.404
+    }
+  },
+  {
+    "comparison": "GPT-4o vs Llama 8B",
+    "exp_a": "O1",
+    "exp_b": "O5",
+    "n_common": 4632,
+    "acc_a": 0.3506,
+    "acc_b": 0.2019,
+    "mcnemar": {
+      "chi2": 432.2776,
+      "p_value": 0.0,
+      "b_discordant": 892,
+      "c_discordant": 203
+    },
+    "bootstrap_a": {
+      "mean": 0.3506,
+      "ci_lower": 0.3361,
+      "ci_upper": 0.3644
+    },
+    "bootstrap_b": {
+      "mean": 0.2022,
+      "ci_lower": 0.1911,
+      "ci_upper": 0.2133
+    }
+  },
+  {
+    "comparison": "Open vs Closed world",
+    "exp_a": "O1",
+    "exp_b": "C2",
+    "n_common": 4632,
+    "acc_a": 0.3506,
+    "acc_b": 0.2258,
+    "mcnemar": {
+      "chi2": 181.9284,
+      "p_value": 0.0,
+      "b_discordant": 1204,
+      "c_discordant": 626
+    },
+    "bootstrap_a": {
+      "mean": 0.3506,
+      "ci_lower": 0.3361,
+      "ci_upper": 0.3644
+    },
+    "bootstrap_b": {
+      "mean": 0.2258,
+      "ci_lower": 0.2144,
+      "ci_upper": 0.2383
+    }
+  },
+  {
+    "comparison": "8B vs 1B",
+    "exp_a": "O5",
+    "exp_b": "O7",
+    "n_common": 4633,
+    "acc_a": 0.2018,
+    "acc_b": 0.1727,
+    "mcnemar": {
+      "chi2": 12.6362,
+      "p_value": 0.000378,
+      "b_discordant": 778,
+      "c_discordant": 643
+    },
+    "bootstrap_a": {
+      "mean": 0.2022,
+      "ci_lower": 0.1917,
+      "ci_upper": 0.2135
+    },
+    "bootstrap_b": {
+      "mean": 0.1724,
+      "ci_lower": 0.1619,
+      "ci_upper": 0.1833
+    }
+  }
+]

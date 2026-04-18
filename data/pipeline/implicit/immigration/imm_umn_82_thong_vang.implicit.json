@@ -1,0 +1,120 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "Laos",
+    "explicit_text": "My educational journey took place in Laos, where I grew up and faced many challenges. From the age of 12, I moved between villages and towns within Laos to pursue schooling, often living away from my family. Despite the hardships, Laos is where I earned my degree and developed my resilience before eventually leaving for the United States in 2007.",
+    "implicit_text": "My educational journey took place in the Southeast Asian country where I grew up and faced many challenges. From the age of 12, I moved between villages and towns within that nation to pursue schooling, often living away from my family. Despite the hardships, it is where I earned my degree and developed my resilience before eventually leaving for the United States in 2007.",
+    "cues": [
+      "age 12",
+      "education",
+      "villages and towns",
+      "degree",
+      "2007",
+      "family separation"
+    ],
+    "transcript_ref": "immigration\\imm_umn_82_thong_vang.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "Muang Cha",
+    "explicit_text": "When I was 12, my father sent me to live with my uncle in Muang Cha so I could attend elementary school. It was about 50 miles away and took me two and a half days to walk there. Living in Muang Cha meant I had to balance school with hard chores like feeding pigs and chickens, and I only saw my family a few times a year during that period.",
+    "implicit_text": "When I was 12, my father sent me to live with my uncle in a small town about 50 miles away so I could attend elementary school. It took me two and a half days to walk there. Living in that rural area meant I had to balance school with hard chores like feeding pigs and chickens, and I only saw my family a few times a year during that period.",
+    "cues": [
+      "age 12",
+      "elementary school",
+      "50 miles",
+      "two and a half days' walk",
+      "chores",
+      "family visits"
+    ],
+    "transcript_ref": "immigration\\imm_umn_82_thong_vang.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "Phon Hong",
+    "explicit_text": "After finishing elementary school, I moved even farther to Phon Hong for middle school, which was 250 kilometers away. Unlike before, I was lucky to ride in an old soldier's truck that had been used during the Vietnam War. In Phon Hong, I lived with my uncle on my mother's side and helped with farming on weekends while attending school during the week.",
+    "implicit_text": "After finishing elementary school, I moved even farther to a district 250 kilometers away for middle school. Unlike before, I was lucky to ride in an old soldier's truck that had been used during the Vietnam War. There, I lived with my uncle on my mother's side and helped with farming on weekends while attending school during the week.",
+    "cues": [
+      "middle school",
+      "250 kilometers",
+      "old soldier's truck",
+      "Vietnam War",
+      "uncle",
+      "farming"
+    ],
+    "transcript_ref": "immigration\\imm_umn_82_thong_vang.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "Vietnam War",
+    "explicit_text": "The Vietnam War indirectly affected my life and education, especially through my father who worked for the Central Intelligence Agency during that time. The truck I rode to Phon Hong for middle school was once used by soldiers in the war. The conflict also influenced my family's decisions, as both my parents eventually left Laos for the United States during and after those years.",
+    "implicit_text": "That conflict indirectly affected my life and education, especially through my father who worked for the American intelligence agency during that time. The truck I rode to middle school was once used by soldiers in the war. The conflict also influenced my family's decisions, as both my parents eventually left the country for the United States during and after those years.",
+    "cues": [
+      "father worked for CIA",
+      "soldier's truck",
+      "middle school commute",
+      "parents leaving Laos",
+      "Vietnam War period"
+    ],
+    "transcript_ref": "immigration\\imm_umn_82_thong_vang.yaml"
+  },
+  {
+    "entity_id": 5,
+    "entity": "Vientiane",
+    "explicit_text": "I eventually moved to Vientiane, the capital city of Laos, to attend college. This was a big step for me, and I was fortunate to receive a scholarship and live in the dormitory. In Vientiane, I balanced part-time work delivering newspapers and volunteering at the university library while studying to become a physician assistant.",
+    "implicit_text": "I eventually moved to the capital city of my home country to attend college. This was a big step for me, and I was fortunate to receive a scholarship and live in the dormitory. In the capital, I balanced part-time work delivering newspapers and volunteering at the university library while studying to become a physician assistant.",
+    "cues": [
+      "college",
+      "capital city",
+      "scholarship",
+      "dormitory",
+      "part-time job",
+      "physician assistant degree"
+    ],
+    "transcript_ref": "immigration\\imm_umn_82_thong_vang.yaml"
+  },
+  {
+    "entity_id": 6,
+    "entity": "Central Intelligence Agency",
+    "explicit_text": "My father worked for the Central Intelligence Agency during the Vietnam War, which had a significant impact on our family. Because of his work, he left Laos for the United States while I was still in middle school. This separation was difficult, and later my mother also moved to the U.S., leaving me alone in Laos until 2007.",
+    "implicit_text": "My father worked for the American intelligence agency during the Vietnam War, which had a significant impact on our family. Because of his work, he left my home country for the United States while I was still in middle school. This separation was difficult, and later my mother also moved to the U.S., leaving me alone in my homeland until 2007.",
+    "cues": [
+      "father",
+      "Vietnam War",
+      "left Laos",
+      "United States",
+      "family separation",
+      "middle school years"
+    ],
+    "transcript_ref": "immigration\\imm_umn_82_thong_vang.yaml"
+  },
+  {
+    "entity_id": 7,
+    "entity": "United States",
+    "explicit_text": "The United States became my family's new home when my parents left Laos during my middle school years. I finally reunited with them in 2007 when I immigrated to the U.S. myself. However, starting over here has been challenging because my Laotian college degree is not recognized, and I have to learn English and pursue education again to find meaningful work.",
+    "implicit_text": "That North American country became my family's new home when my parents left my homeland during my middle school years. I finally reunited with them in 2007 when I immigrated there myself. However, starting over has been challenging because my college degree from back home is not recognized, and I have to learn English and pursue education again to find meaningful work.",
+    "cues": [
+      "parents moved",
+      "middle school years",
+      "2007 reunion",
+      "immigration",
+      "education challenges",
+      "English learning"
+    ],
+    "transcript_ref": "immigration\\imm_umn_82_thong_vang.yaml"
+  },
+  {
+    "entity_id": 8,
+    "entity": "Hubbs Center",
+    "explicit_text": "Currently, I am studying at the Hubbs Center as I continue my education here in the United States. This time, my experience is different because I am close to my family, which gives me more support. The Hubbs Center is helping me work toward my goal of gaining competency in English and earning a college degree that will allow me to use my knowledge effectively.",
+    "implicit_text": "Currently, I am studying at a community education center here in the United States as I continue my education. This time, my experience is different because I am close to my family, which gives me more support. The center is helping me work toward my goal of gaining competency in English and earning a college degree that will allow me to use my knowledge effectively.",
+    "cues": [
+      "current studies",
+      "United States",
+      "family support",
+      "English competency",
+      "college degree goal"
+    ],
+    "transcript_ref": "immigration\\imm_umn_82_thong_vang.yaml"
+  }
+]

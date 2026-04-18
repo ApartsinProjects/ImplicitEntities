@@ -1,0 +1,68 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "Saint Paul, Minnesota",
+    "explicit_text": "I was born and raised in Saint Paul, Minnesota, where much of my childhood unfolded. My family lived near the old Schmidt Brewery on the West End, and later we moved around the west side of Saint Paul. After my parents separated, I stayed in Saint Paul with my grandmother while my mom eventually moved back to be closer to me and my sister. Growing up in Saint Paul shaped much of my early life and family dynamics.",
+    "implicit_text": "I was born and raised in the capital city of Minnesota, where much of my childhood unfolded. My family lived near the old brewery on the West End, and later we moved around the west side of that city. After my parents separated, I stayed there with my grandmother while my mom eventually moved back to be closer to me and my sister. Growing up in that city shaped much of my early life and family dynamics.",
+    "cues": [
+      "birthplace",
+      "West End",
+      "old Schmidt Brewery",
+      "west side",
+      "mother moved back"
+    ],
+    "transcript_ref": "immigration\\imm_umn_230_jacob_sieber.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "Schmidt Brewery",
+    "explicit_text": "As a child, I lived near the old Schmidt Brewery in Saint Paul, Minnesota, specifically on the West End. It was a notable landmark close to where my family and I resided with my parents and grandfather. The brewery was part of the neighborhood environment that surrounded my early years before my parents separated.",
+    "implicit_text": "As a child, I lived near the old historic brewery in the capital city of Minnesota, specifically on the West End. It was a notable landmark close to where my family and I resided with my parents and grandfather. The brewery was part of the neighborhood environment that surrounded my early years before my parents separated.",
+    "cues": [
+      "childhood",
+      "West End",
+      "Saint Paul",
+      "family residence"
+    ],
+    "transcript_ref": "immigration\\imm_umn_230_jacob_sieber.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "Monroe Elementary School",
+    "explicit_text": "We lived across the street from Monroe Elementary School when I was very young, near my grandfather's house in Saint Paul. Although I don't mention attending it directly, the school was a familiar part of my neighborhood and childhood environment. It was part of the community where my family lived before my parents separated.",
+    "implicit_text": "We lived across the street from the local elementary school named after a U.S. president when I was very young, near my grandfather's house in the capital city of Minnesota. Although I don't mention attending it directly, the school was a familiar part of my neighborhood and childhood environment. It was part of the community where my family lived before my parents separated.",
+    "cues": [
+      "early childhood",
+      "across the street",
+      "grandfather's house",
+      "Saint Paul"
+    ],
+    "transcript_ref": "immigration\\imm_umn_230_jacob_sieber.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "Grand Forks, North Dakota",
+    "explicit_text": "When I was three years old, after my parents split up, my mom moved back to her hometown of Grand Forks, North Dakota. This move separated me and my sister, as we stayed behind with our grandmother in Saint Paul. My mom's return to Grand Forks marked a significant change in our family dynamics and living arrangements during my early childhood.",
+    "implicit_text": "When I was three years old, after my parents split up, my mom moved back to her hometown in eastern North Dakota. This move separated me and my sister, as we stayed behind with our grandmother in the capital city of Minnesota. My mom's return to that North Dakota city marked a significant change in our family dynamics and living arrangements during my early childhood.",
+    "cues": [
+      "age three",
+      "parents split",
+      "mom's hometown",
+      "family separation"
+    ],
+    "transcript_ref": "immigration\\imm_umn_230_jacob_sieber.yaml"
+  },
+  {
+    "entity_id": 5,
+    "entity": "Apple Valley, Minnesota",
+    "explicit_text": "After my parents separated, my dad moved to a townhome in Apple Valley, Minnesota. Meanwhile, my sister and I stayed in Saint Paul with our grandmother. Apple Valley represented where my dad started his new life apart from my mom and us, marking a physical and emotional distance within our family during that time.",
+    "implicit_text": "After my parents separated, my dad moved to a townhome in a suburb south of the Twin Cities. Meanwhile, my sister and I stayed in the capital city of Minnesota with our grandmother. That suburb represented where my dad started his new life apart from my mom and us, marking a physical and emotional distance within our family during that time.",
+    "cues": [
+      "parents separated",
+      "dad's new home",
+      "townhome",
+      "family division"
+    ],
+    "transcript_ref": "immigration\\imm_umn_230_jacob_sieber.yaml"
+  }
+]

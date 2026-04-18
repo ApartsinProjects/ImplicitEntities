@@ -1,0 +1,234 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "Arizona",
+    "explicit_text": "Penelope had a sickness that was similar to what killed my brothers, and Nick decided to take her to Arizona for her health. He waited to move out there to see if it would help her. It was a place we thought might improve her condition, but sadly, she passed away not long after.",
+    "implicit_text": "Penelope had a sickness that was similar to what killed my brothers, and Nick decided to take her to the desert state in the Southwest for her health. He waited to move out there to see if it would help her. It was a place we thought might improve her condition, but sadly, she passed away not long after.",
+    "cues": [
+      "Penelope's illness",
+      "Nick's decision",
+      "health trip",
+      "early 20th century"
+    ],
+    "transcript_ref": "depression_era\\loc_influenza\\flu_George_Mehales.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "Charlotte, North Carolina",
+    "explicit_text": "Penelope was from Charlotte, North Carolina, and she came here to visit her brother, whom I met. We started going together and eventually decided to get married, even though I didn't have much to offer at the time. Charlotte was where she lived before we began our life together here.",
+    "implicit_text": "Penelope was from the largest city in North Carolina, and she came here to visit her brother, whom I met. We started going together and eventually decided to get married, even though I didn't have much to offer at the time. That city was where she lived before we began our life together here.",
+    "cues": [
+      "Penelope's origin",
+      "visit to brother",
+      "marriage",
+      "early 20th century"
+    ],
+    "transcript_ref": "depression_era\\loc_influenza\\flu_George_Mehales.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "Greenville, South Carolina",
+    "explicit_text": "I got Nick a job in Greenville, South Carolina, hoping it would help him straighten out. Unfortunately, he stole money from his bosses there, and I had to step in and have him arrested to make things right. Thankfully, he eventually made good in Greenville, and I even have a small interest in one of the best restaurants in that town now.",
+    "implicit_text": "I got Nick a job in a city in South Carolina known for its textile history, hoping it would help him straighten out. Unfortunately, he stole money from his bosses there, and I had to step in and have him arrested to make things right. Thankfully, he eventually made good in that city, and I even have a small interest in one of the best restaurants there now.",
+    "cues": [
+      "Nick's job",
+      "theft incident",
+      "restaurant interest",
+      "early 20th century"
+    ],
+    "transcript_ref": "depression_era\\loc_influenza\\flu_George_Mehales.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "New York City",
+    "explicit_text": "I enlisted in the United States Army in New York City during the war. After my service and a trip to Greece, I stayed in New York for a while before returning to Spartanburg. It was a place of transition for me between military service and settling back into civilian life.",
+    "implicit_text": "I enlisted in the United States Army in the largest city in the United States during the war. After my service and a trip to Greece, I stayed in that city for a while before returning to Spartanburg. It was a place of transition for me between military service and settling back into civilian life.",
+    "cues": [
+      "enlistment",
+      "post-war stay",
+      "early 20th century"
+    ],
+    "transcript_ref": "depression_era\\loc_influenza\\flu_George_Mehales.yaml"
+  },
+  {
+    "entity_id": 5,
+    "entity": "Spartanburg, South Carolina",
+    "explicit_text": "I came to Spartanburg with the 17th Division during the war and spent a lot of time at Camp Wadsworth nearby. After the war, I returned to Spartanburg because I had always wanted to come back here. I lived with some Greek friends, took up school teaching, and eventually went into the restaurant business in Spartanburg.",
+    "implicit_text": "I came to a city in South Carolina with the 17th Division during the war and spent a lot of time at a nearby military camp. After the war, I returned to that city because I had always wanted to come back here. I lived with some Greek friends, took up school teaching, and eventually went into the restaurant business there.",
+    "cues": [
+      "17th Division",
+      "Camp Wadsworth",
+      "post-war life",
+      "early 20th century"
+    ],
+    "transcript_ref": "depression_era\\loc_influenza\\flu_George_Mehales.yaml"
+  },
+  {
+    "entity_id": 6,
+    "entity": "Penelope",
+    "explicit_text": "Penelope was a nice Greek girl I met after selling my café. She was from Charlotte and reminded me of my mother. We married despite my financial struggles, but she sadly died about six months later from what the doctor called the flu, though I believe it was pneumonia. Before she passed, she asked me to look out for her brother Nick.",
+    "implicit_text": "She was a nice Greek girl I met after selling my café. She was from the largest city in North Carolina and reminded me of my mother. We married despite my financial struggles, but she sadly died about six months later from what the doctor called the flu, though I believe it was pneumonia. Before she passed, she asked me to look out for her brother Nick.",
+    "cues": [
+      "marriage",
+      "Charlotte",
+      "illness and death",
+      "early 20th century"
+    ],
+    "transcript_ref": "depression_era\\loc_influenza\\flu_George_Mehales.yaml"
+  },
+  {
+    "entity_id": 7,
+    "entity": "Nick",
+    "explicit_text": "Nick was Penelope's brother, and after she died, I took it upon myself to look after him. I got him a job in Greenville, but he stole money from his bosses. I had him arrested with the help of Gus, but thankfully Nick turned his life around. I paid back every cent I ever spent on him and now have a small interest in a restaurant in Greenville.",
+    "implicit_text": "He was Penelope's brother, and after she died, I took it upon myself to look after him. I got him a job in a South Carolina city known for its textile industry, but he stole money from his bosses. I had him arrested with the help of Gus, but thankfully he turned his life around. I paid back every cent I ever spent on him and now have a small interest in a restaurant in that city.",
+    "cues": [
+      "Penelope's brother",
+      "job in Greenville",
+      "theft and arrest",
+      "recovery"
+    ],
+    "transcript_ref": "depression_era\\loc_influenza\\flu_George_Mehales.yaml"
+  },
+  {
+    "entity_id": 8,
+    "entity": "Gus",
+    "explicit_text": "Gus was involved when Nick got into trouble for stealing money from his bosses. I told Gus I would pay everything back if he would have Nick arrested, and Gus agreed to turn Nick over to me. Gus played a key role in helping me handle that difficult situation with Nick.",
+    "implicit_text": "Gus was involved when Nick got into trouble for stealing money from his bosses. I told Gus I would pay everything back if he would have Nick arrested, and Gus agreed to turn Nick over to me. Gus played a key role in helping me handle that difficult situation with Nick.",
+    "cues": [
+      "Nick's theft",
+      "arrest arrangement",
+      "early 20th century"
+    ],
+    "transcript_ref": "depression_era\\loc_influenza\\flu_George_Mehales.yaml"
+  },
+  {
+    "entity_id": 9,
+    "entity": "Cornelius Vanderbilt Jr.",
+    "explicit_text": "While I was in the hospital recovering from a bad ankle break at Camp Wadsworth, Cornelius Vanderbilt Jr. came to visit me. I told him about my troubles, and he went to see his father, Colonel Vanderbilt, to help my situation. Thanks to their intervention, I was allowed to stay in the army and continue working despite my injury.",
+    "implicit_text": "While I was in the hospital recovering from a bad ankle break at the military camp near Spartanburg, a wealthy young man from a famous family came to visit me. I told him about my troubles, and he went to see his father, a colonel, to help my situation. Thanks to their intervention, I was allowed to stay in the army and continue working despite my injury.",
+    "cues": [
+      "hospital visit",
+      "Camp Wadsworth",
+      "military service",
+      "early 20th century"
+    ],
+    "transcript_ref": "depression_era\\loc_influenza\\flu_George_Mehales.yaml"
+  },
+  {
+    "entity_id": 10,
+    "entity": "Cornelius Vanderbilt",
+    "explicit_text": "Colonel Cornelius Vanderbilt was the father of Cornelius Vanderbilt Jr., and he helped me when I was injured and hospitalized at Camp Wadsworth. After his son spoke to him about my case, the officers allowed me to remain in the army and continue working. Their support meant a lot during a difficult time in my military service.",
+    "implicit_text": "The colonel, father of the wealthy young man who visited me, helped me when I was injured and hospitalized at the military camp near Spartanburg. After his son spoke to him about my case, the officers allowed me to remain in the army and continue working. Their support meant a lot during a difficult time in my military service.",
+    "cues": [
+      "Camp Wadsworth",
+      "hospital recovery",
+      "military officers",
+      "early 20th century"
+    ],
+    "transcript_ref": "depression_era\\loc_influenza\\flu_George_Mehales.yaml"
+  },
+  {
+    "entity_id": 11,
+    "entity": "17th Division (United States)",
+    "explicit_text": "I enlisted in New York and was assigned to the 17th Division, which brought me to Spartanburg during the war. I was told I would serve as an interpreter because of the many Greeks in the division, but instead, I was put to work cooking in Company C, 106th Infantry Regiment. The 17th Division eventually moved out for France, but I was left behind due to my injury.",
+    "implicit_text": "I enlisted in New York and was assigned to the infantry division that brought me to Spartanburg during the war. I was told I would serve as an interpreter because of the many Greeks in the division, but instead, I was put to work cooking in a company of the 106th Infantry Regiment. The division eventually moved out for France, but I was left behind due to my injury.",
+    "cues": [
+      "enlistment",
+      "Spartanburg",
+      "interpreter role",
+      "World War I"
+    ],
+    "transcript_ref": "depression_era\\loc_influenza\\flu_George_Mehales.yaml"
+  },
+  {
+    "entity_id": 12,
+    "entity": "Camp Wadsworth",
+    "explicit_text": "Camp Wadsworth near Spartanburg was where I was stationed with the 17th Division during the war. It was there that I broke my ankle slipping on snow from the mess truck and spent six weeks in the hospital. The camp was also where I experienced Armistice Day and where I worked in the kitchen supervising cooking duties after my injury.",
+    "implicit_text": "The military camp near Spartanburg was where I was stationed with the infantry division during the war. It was there that I broke my ankle slipping on snow from the mess truck and spent six weeks in the hospital. The camp was also where I experienced Armistice Day and where I worked in the kitchen supervising cooking duties after my injury.",
+    "cues": [
+      "Spartanburg",
+      "ankle injury",
+      "hospital stay",
+      "World War I"
+    ],
+    "transcript_ref": "depression_era\\loc_influenza\\flu_George_Mehales.yaml"
+  },
+  {
+    "entity_id": 13,
+    "entity": "Company C, 106th Infantry Regiment",
+    "explicit_text": "I was assigned to Company C of the 106th Infantry Regiment while at Camp Wadsworth. Although I was supposed to be an interpreter, I ended up cooking for the company. After my injury, I continued to work in the mess shack for Company C, even supervising cooking while on crutches, and the men appreciated having me there.",
+    "implicit_text": "I was assigned to a company of the 106th Infantry Regiment while at the military camp near Spartanburg. Although I was supposed to be an interpreter, I ended up cooking for the company. After my injury, I continued to work in the mess shack for that company, even supervising cooking while on crutches, and the men appreciated having me there.",
+    "cues": [
+      "Camp Wadsworth",
+      "cooking duties",
+      "ankle injury",
+      "World War I"
+    ],
+    "transcript_ref": "depression_era\\loc_influenza\\flu_George_Mehales.yaml"
+  },
+  {
+    "entity_id": 14,
+    "entity": "91st Division (United States)",
+    "explicit_text": "After the 17th Division left for France, new men from the 91st Division, many of whom were Native Americans, came to Camp Wadsworth. I ate with them while I was recovering and waiting for reassignment. They were swell fellows and helped keep my spirits up during that uncertain time.",
+    "implicit_text": "After the infantry division left for France, new men from another division, many of whom were Native Americans, came to the military camp near Spartanburg. I ate with them while I was recovering and waiting for reassignment. They were swell fellows and helped keep my spirits up during that uncertain time.",
+    "cues": [
+      "Camp Wadsworth",
+      "post-17th Division",
+      "Native American soldiers",
+      "World War I"
+    ],
+    "transcript_ref": "depression_era\\loc_influenza\\flu_George_Mehales.yaml"
+  },
+  {
+    "entity_id": 15,
+    "entity": "United States Army",
+    "explicit_text": "I enlisted in the United States Army in New York during World War I and was assigned to the 17th Division. Despite an injury that broke my ankle, I stayed with the army, working in the kitchen and supervising cooking. After some administrative confusion that led to a temporary discharge, I was reinstated and continued serving until the end of the war.",
+    "implicit_text": "I enlisted in the United States Army in New York during World War I and was assigned to the infantry division. Despite an injury that broke my ankle, I stayed with the army, working in the kitchen and supervising cooking. After some administrative confusion that led to a temporary discharge, I was reinstated and continued serving until the end of the war.",
+    "cues": [
+      "enlistment",
+      "ankle injury",
+      "kitchen work",
+      "World War I"
+    ],
+    "transcript_ref": "depression_era\\loc_influenza\\flu_George_Mehales.yaml"
+  },
+  {
+    "entity_id": 16,
+    "entity": "Armistice Day",
+    "explicit_text": "Armistice Day at Camp Wadsworth was a great celebration for us. Our company had leftover food allotments, so the quartermaster allowed us to have a special spread. We went to Spartanburg and bought turkey, spending the whole day preparing, and had a wonderful dinner that night to mark the end of the war.",
+    "implicit_text": "Armistice Day at the military camp near Spartanburg was a great celebration for us. Our company had leftover food allotments, so the quartermaster allowed us to have a special spread. We went to the nearby city and bought turkey, spending the whole day preparing, and had a wonderful dinner that night to mark the end of the war.",
+    "cues": [
+      "Camp Wadsworth",
+      "Spartanburg",
+      "company celebration",
+      "World War I"
+    ],
+    "transcript_ref": "depression_era\\loc_influenza\\flu_George_Mehales.yaml"
+  },
+  {
+    "entity_id": 17,
+    "entity": "Great Depression",
+    "explicit_text": "The Great Depression hit me hard after the stock market crash in 1929. I had invested all my money in stocks and was trading on margin, but when the market crashed, I was wiped out and lost my café. It was a tough lesson about paying debts and managing money, and it almost killed me emotionally to see my business go at a rock bottom price.",
+    "implicit_text": "The economic crisis that began in 1929 hit me hard after the stock market crash. I had invested all my money in stocks and was trading on margin, but when the market crashed, I was wiped out and lost my café. It was a tough lesson about paying debts and managing money, and it almost killed me emotionally to see my business go at a rock bottom price.",
+    "cues": [
+      "1929 stock market crash",
+      "business loss",
+      "financial hardship",
+      "early 1930s"
+    ],
+    "transcript_ref": "depression_era\\loc_influenza\\flu_George_Mehales.yaml"
+  },
+  {
+    "entity_id": 18,
+    "entity": "Stock market",
+    "explicit_text": "I got involved in the stock market during its boom in the late 1920s, investing all the money I made from my restaurant. At first, I was making good money and felt rich, but I was trading on margin and didn't pay enough attention to my business. When the market crashed in October 1929, I lost everything and had to sell my café at a loss to pay my debts.",
+    "implicit_text": "I got involved in the stock market during its boom in the late 1920s, investing all the money I made from my restaurant. At first, I was making good money and felt rich, but I was trading on margin and didn't pay enough attention to my business. When the market crashed in October 1929, I lost everything and had to sell my café at a loss to pay my debts.",
+    "cues": [
+      "late 1920s boom",
+      "October 1929 crash",
+      "margin trading",
+      "financial loss"
+    ],
+    "transcript_ref": "depression_era\\loc_influenza\\flu_George_Mehales.yaml"
+  }
+]

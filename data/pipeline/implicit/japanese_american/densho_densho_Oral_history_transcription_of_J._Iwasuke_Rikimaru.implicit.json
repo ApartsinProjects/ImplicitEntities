@@ -1,0 +1,373 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "Fukuoka Prefecture",
+    "explicit_text": "I was born in Fukuoka Prefecture on December 23, 1891. It was a rural area where my family owned a lot of land and worked as farmers. I spent my childhood playing on the hills and fields around our village, near a branch of the Okawa river. My father was a village leader there, and I often visited the village office where he worked.",
+    "implicit_text": "I was born in a rural area on December 23, 1891, where my family owned a lot of land and worked as farmers. I spent my childhood playing on the hills and fields around our village, near a branch of the Okawa river. My father was a village leader there, and I often visited the village office where he worked.",
+    "cues": [
+      "December 23, 1891",
+      "village",
+      "Okawa river",
+      "father as village leader"
+    ],
+    "transcript_ref": "japanese_american\\densho_densho_Oral_history_transcription_of_J._Iwasuke_Rikimaru.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "Shin Buddhism",
+    "explicit_text": "Our family religion was Shinshu, which is a form of Shin Buddhism. My father was a religious man and followed this faith. My mother was also an ardent Buddhist, and religion was an important part of our family life. It gave us a sense of tradition and moral guidance.",
+    "implicit_text": "Our family religion was a form of Pure Land Buddhism. My father was a religious man and followed this faith. My mother was also an ardent Buddhist, and religion was an important part of our family life. It gave us a sense of tradition and moral guidance.",
+    "cues": [
+      "family religion",
+      "father religious",
+      "mother ardent Buddhist",
+      "Shinshu"
+    ],
+    "transcript_ref": "japanese_american\\densho_densho_Oral_history_transcription_of_J._Iwasuke_Rikimaru.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "Sino-Japanese War",
+    "explicit_text": "I heard stories about the Sino-Japanese War from my father, especially about the siege of a castle in Botandai. My father would tell me these stories after supper, and I remember that Mr. Onodera's grandfather led the troops attacking the castle. These tales connected me to the history of Japan and its military past.",
+    "implicit_text": "I heard stories about the war between China and Japan from my father, especially about the siege of a castle in Botandai. My father would tell me these stories after supper, and I remember that Mr. Onodera's grandfather led the troops attacking the castle. These tales connected me to the history of Japan and its military past.",
+    "cues": [
+      "Sino-Japanese War",
+      "siege of castle",
+      "Botandai",
+      "Mr. Onodera's grandfather"
+    ],
+    "transcript_ref": "japanese_american\\densho_densho_Oral_history_transcription_of_J._Iwasuke_Rikimaru.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "Botandai",
+    "explicit_text": "Botandai was the place where a castle was besieged during the Sino-Japanese War. My father told me about this event, and it was significant because a relative of a family friend led the troops there. It was part of the historical stories I grew up hearing in my village in Fukuoka Prefecture.",
+    "implicit_text": "The place where a castle was besieged during the war between China and Japan was significant in my childhood stories. My father told me about this event, and it was important because a relative of a family friend led the troops there. It was part of the historical stories I grew up hearing in my village in the region where I was born.",
+    "cues": [
+      "siege of castle",
+      "Sino-Japanese War",
+      "family stories",
+      "Fukuoka Prefecture"
+    ],
+    "transcript_ref": "japanese_american\\densho_densho_Oral_history_transcription_of_J._Iwasuke_Rikimaru.yaml"
+  },
+  {
+    "entity_id": 5,
+    "entity": "Takeda Shingen",
+    "explicit_text": "My uncle, who was knowledgeable about history, often told me stories about Takeda Shingen. These stories were part of the lessons I learned about great historical figures in Japan. I listened carefully and admired the tales of his leadership and battles.",
+    "implicit_text": "My uncle, who was knowledgeable about history, often told me stories about a famous feudal lord known for his leadership and battles. These stories were part of the lessons I learned about great historical figures in Japan. I listened carefully and admired the tales of his leadership and battles.",
+    "cues": [
+      "uncle's stories",
+      "historical figure",
+      "Japanese history",
+      "Takeda Shingen"
+    ],
+    "transcript_ref": "japanese_american\\densho_densho_Oral_history_transcription_of_J._Iwasuke_Rikimaru.yaml"
+  },
+  {
+    "entity_id": 6,
+    "entity": "Oda Nobunaga",
+    "explicit_text": "Oda Nobunaga was another historical figure my uncle talked about. I learned about him through these stories and at school, where ethics and history were important subjects. Nobunaga's role in Japan's history fascinated me as a young student in Fukuoka.",
+    "implicit_text": "Another historical figure my uncle talked about was a powerful daimyo who played a key role in unifying Japan. I learned about him through these stories and at school, where ethics and history were important subjects. His role in Japan's history fascinated me as a young student in my home region.",
+    "cues": [
+      "uncle's stories",
+      "ethics class",
+      "Japanese history",
+      "Oda Nobunaga"
+    ],
+    "transcript_ref": "japanese_american\\densho_densho_Oral_history_transcription_of_J._Iwasuke_Rikimaru.yaml"
+  },
+  {
+    "entity_id": 7,
+    "entity": "Ishida Mitsunari",
+    "explicit_text": "Ishida Mitsunari was one of the great people I learned about from my uncle and at school. His story was part of the moral lessons we studied, and I found his role in history interesting. These lessons helped me understand loyalty and leadership.",
+    "implicit_text": "One of the great people I learned about from my uncle and at school was a samurai known for his loyalty and leadership during a pivotal battle. His story was part of the moral lessons we studied, and I found his role in history interesting. These lessons helped me understand loyalty and leadership.",
+    "cues": [
+      "uncle's stories",
+      "ethics class",
+      "Japanese history",
+      "Ishida Mitsunari"
+    ],
+    "transcript_ref": "japanese_american\\densho_densho_Oral_history_transcription_of_J._Iwasuke_Rikimaru.yaml"
+  },
+  {
+    "entity_id": 8,
+    "entity": "Takayama Hikokurō",
+    "explicit_text": "I remember learning about Takayama Hikokurō in school as a loyal subject to the Emperor. He worshipped the Emperor every morning from the Sanjō Bridge in Kyoto and showed great loyalty by encouraging the imprisoned Emperor with a Chinese poem. His story was taught as an example of devotion and patriotism.",
+    "implicit_text": "I remember learning about a loyal subject to the Emperor who worshipped him every morning from a famous bridge in Kyoto. He showed great loyalty by encouraging the imprisoned Emperor with a Chinese poem. His story was taught as an example of devotion and patriotism.",
+    "cues": [
+      "school lessons",
+      "loyalty to Emperor",
+      "Sanjo Bridge",
+      "Kyoto"
+    ],
+    "transcript_ref": "japanese_american\\densho_densho_Oral_history_transcription_of_J._Iwasuke_Rikimaru.yaml"
+  },
+  {
+    "entity_id": 9,
+    "entity": "Sanjō Bridge",
+    "explicit_text": "Sanjō Bridge in Kyoto is where Takayama Hikokurō used to worship the Emperor every morning. I learned about this place in school as part of the story of his loyalty. It became a symbol of dedication and hope in the history lessons I received.",
+    "implicit_text": "A well-known bridge in Kyoto is where the loyal subject to the Emperor used to worship every morning. I learned about this place in school as part of the story of his loyalty. It became a symbol of dedication and hope in the history lessons I received.",
+    "cues": [
+      "Kyoto",
+      "Takayama Hikokurō",
+      "school history lessons",
+      "loyalty"
+    ],
+    "transcript_ref": "japanese_american\\densho_densho_Oral_history_transcription_of_J._Iwasuke_Rikimaru.yaml"
+  },
+  {
+    "entity_id": 10,
+    "entity": "Ninomiya Sontoku",
+    "explicit_text": "Ninomiya Sontoku was a reformer of farm villages and a representative figure of Japanese farmers. We studied his biography in ethics classes, and I learned a lot about his efforts to improve rural life. His example was inspiring for me as someone from a farming family.",
+    "implicit_text": "We studied the biography of a reformer of farm villages and a representative figure of Japanese farmers in ethics classes. I learned a lot about his efforts to improve rural life. His example was inspiring for me as someone from a farming family.",
+    "cues": [
+      "ethics class",
+      "farmer reformer",
+      "Japanese history",
+      "Ninomiya Sontoku"
+    ],
+    "transcript_ref": "japanese_american\\densho_densho_Oral_history_transcription_of_J._Iwasuke_Rikimaru.yaml"
+  },
+  {
+    "entity_id": 11,
+    "entity": "Amaterasu",
+    "explicit_text": "In school, I learned about Amaterasu Okami, who is said to have descended to Kyushu. The myth connected to the Emperor's ancestors coming from the Continent and conquering the native Kumaso before ascending the throne in Kyoto. At first, I accepted it as a story of gods, but later I thought of it as the story of people who built Japan.",
+    "implicit_text": "In school, I learned about a sun goddess who is said to have descended to the southern island of Japan. The myth connected to the Emperor's ancestors coming from the Continent and conquering the native people before ascending the throne in Kyoto. At first, I accepted it as a story of gods, but later I thought of it as the story of people who built Japan.",
+    "cues": [
+      "Amaterasu Okami",
+      "Kyushu",
+      "Emperor's ancestor",
+      "Japanese myth"
+    ],
+    "transcript_ref": "japanese_american\\densho_densho_Oral_history_transcription_of_J._Iwasuke_Rikimaru.yaml"
+  },
+  {
+    "entity_id": 12,
+    "entity": "Kyushu",
+    "explicit_text": "Kyushu is the place where Amaterasu Okami is said to have descended according to Japanese myth. It was also near my birthplace in Fukuoka Prefecture. The myths and history I learned connected Kyushu to the origins of Japan's imperial family and early history.",
+    "implicit_text": "The southernmost of Japan's four main islands is said in myth to be where the sun goddess descended. It was also near my birthplace in the northern part of this island. The myths and history I learned connected this region to the origins of Japan's imperial family and early history.",
+    "cues": [
+      "Amaterasu myth",
+      "Fukuoka Prefecture",
+      "Japanese origin",
+      "Kyushu"
+    ],
+    "transcript_ref": "japanese_american\\densho_densho_Oral_history_transcription_of_J._Iwasuke_Rikimaru.yaml"
+  },
+  {
+    "entity_id": 13,
+    "entity": "Kumaso",
+    "explicit_text": "Kumaso were the native people who were conquered by the ancestors of the Emperor, according to the myths I learned in school. This story was part of the history of how the imperial family came to power and moved to Kyoto. It helped me understand the early history of Japan from a young age.",
+    "implicit_text": "The native people who were conquered by the ancestors of the Emperor, according to the myths I learned in school, were part of the early history of Japan. This story was part of how the imperial family came to power and moved to the ancient capital. It helped me understand the early history of Japan from a young age.",
+    "cues": [
+      "Japanese myth",
+      "Emperor's ancestors",
+      "Kyoto",
+      "Kumaso natives"
+    ],
+    "transcript_ref": "japanese_american\\densho_densho_Oral_history_transcription_of_J._Iwasuke_Rikimaru.yaml"
+  },
+  {
+    "entity_id": 14,
+    "entity": "Kyoto",
+    "explicit_text": "Kyoto was the place where the Emperor ascended the throne after conquering the Kumaso, as I learned in school. It is also where Takayama Hikokurō worshipped the Emperor from the Sanjō Bridge. Kyoto holds a special place in the history and stories I grew up with in Japan.",
+    "implicit_text": "The ancient capital where the Emperor ascended the throne after conquering the native people was a central place in my education. It is also where the loyal subject worshipped the Emperor from a famous bridge. This city holds a special place in the history and stories I grew up with in Japan.",
+    "cues": [
+      "Emperor's throne",
+      "Sanjo Bridge",
+      "Takayama Hikokuro",
+      "Japanese history"
+    ],
+    "transcript_ref": "japanese_american\\densho_densho_Oral_history_transcription_of_J._Iwasuke_Rikimaru.yaml"
+  },
+  {
+    "entity_id": 15,
+    "entity": "United States",
+    "explicit_text": "I came to the United States when I was about 17 years old, around 1908 or so, because my older sister had married and moved here. I arrived after traveling through Victoria and Vancouver, finally landing in San Francisco shortly after the great earthquake. I studied in Sacramento and worked hard on farms, selling strawberries and learning English while attending night school.",
+    "implicit_text": "I came to North America when I was about 17 years old, around 1908 or so, because my older sister had married and moved here. I arrived after traveling through Victoria and Vancouver, finally landing in a major West Coast city shortly after a great earthquake. I studied in Sacramento and worked hard on farms, selling strawberries and learning English while attending night school.",
+    "cues": [
+      "arrival around 1908",
+      "Victoria",
+      "Vancouver",
+      "San Francisco earthquake",
+      "Sacramento",
+      "farm work"
+    ],
+    "transcript_ref": "japanese_american\\densho_densho_Oral_history_transcription_of_J._Iwasuke_Rikimaru.yaml"
+  },
+  {
+    "entity_id": 16,
+    "entity": "Matthew Perry",
+    "explicit_text": "I learned about Admiral Matthew Perry in Japanese history classes as the man who opened Japan to the West. Before coming to America, I had a vague idea of the country, partly shaped by what I learned about Perry's expedition. His role was important in bringing Western culture to Japan, which influenced my perception of America.",
+    "implicit_text": "I learned about the American naval officer who opened Japan to the West in Japanese history classes. Before coming to North America, I had a vague idea of the country, partly shaped by what I learned about his expedition. His role was important in bringing Western culture to Japan, which influenced my perception of this country.",
+    "cues": [
+      "Japanese history class",
+      "opening of Japan",
+      "Western culture",
+      "Matthew Perry"
+    ],
+    "transcript_ref": "japanese_american\\densho_densho_Oral_history_transcription_of_J._Iwasuke_Rikimaru.yaml"
+  },
+  {
+    "entity_id": 17,
+    "entity": "Yokohama",
+    "explicit_text": "My journey to America began from the port of Yokohama, where I boarded a ship as a third-class passenger. I was seasick only for one day but soon got used to the voyage. Yokohama was the gateway for many Japanese immigrants like me heading to the United States.",
+    "implicit_text": "My journey to North America began from a major Japanese port city, where I boarded a ship as a third-class passenger. I was seasick only for one day but soon got used to the voyage. This port was the gateway for many Japanese immigrants like me heading to the West Coast.",
+    "cues": [
+      "departure port",
+      "third-class passenger",
+      "sea voyage",
+      "Yokohama"
+    ],
+    "transcript_ref": "japanese_american\\densho_densho_Oral_history_transcription_of_J._Iwasuke_Rikimaru.yaml"
+  },
+  {
+    "entity_id": 18,
+    "entity": "Victoria, British Columbia",
+    "explicit_text": "We stopped in Victoria for two or three nights on the way to America. I thought it was a fine city and stayed at a Japanese hotel there. Victoria was an important transit point for immigrants like me traveling from Japan to the United States.",
+    "implicit_text": "We stopped in a Canadian city on Vancouver Island for two or three nights on the way to North America. I thought it was a fine city and stayed at a Japanese hotel there. This city was an important transit point for immigrants like me traveling from Japan to the United States.",
+    "cues": [
+      "transit stop",
+      "Japanese hotel",
+      "two or three nights",
+      "Victoria, BC"
+    ],
+    "transcript_ref": "japanese_american\\densho_densho_Oral_history_transcription_of_J._Iwasuke_Rikimaru.yaml"
+  },
+  {
+    "entity_id": 19,
+    "entity": "Vancouver",
+    "explicit_text": "After Victoria, I went to Vancouver by ferry and stayed at a Japanese hotel there as well. Vancouver was another key stop on my journey to America. I traveled by ship from Vancouver to San Francisco, continuing my path to settle in the United States.",
+    "implicit_text": "After Victoria, I went to a major Canadian city on the mainland by ferry and stayed at a Japanese hotel there as well. This city was another key stop on my journey to North America. I traveled by ship from there to San Francisco, continuing my path to settle in the United States.",
+    "cues": [
+      "Japanese hotel",
+      "ferry from Victoria",
+      "ship to San Francisco",
+      "Vancouver"
+    ],
+    "transcript_ref": "japanese_american\\densho_densho_Oral_history_transcription_of_J._Iwasuke_Rikimaru.yaml"
+  },
+  {
+    "entity_id": 20,
+    "entity": "San Francisco earthquake",
+    "explicit_text": "I arrived in San Francisco shortly after the great earthquake, and the city was still in ruins. I remember being taken by carriage through the damaged streets to a Japanese hotel. It was a striking introduction to America, seeing the destruction but also the resilience of the people.",
+    "implicit_text": "I arrived in a major West Coast city shortly after the great earthquake, and the city was still in ruins. I remember being taken by carriage through the damaged streets to a Japanese hotel. It was a striking introduction to this country, seeing the destruction but also the resilience of the people.",
+    "cues": [
+      "arrival after earthquake",
+      "city in ruins",
+      "carriage ride",
+      "Japanese hotel"
+    ],
+    "transcript_ref": "japanese_american\\densho_densho_Oral_history_transcription_of_J._Iwasuke_Rikimaru.yaml"
+  },
+  {
+    "entity_id": 21,
+    "entity": "San Francisco",
+    "explicit_text": "San Francisco was my first stop in the United States after arriving from Canada. The city was recovering from the earthquake, and I stayed there for a few days before moving on. It was a place of transition as I prepared to join my family in Sacramento.",
+    "implicit_text": "This major West Coast city was my first stop in the United States after arriving from Canada. The city was recovering from the earthquake, and I stayed there for a few days before moving on. It was a place of transition as I prepared to join my family in Sacramento.",
+    "cues": [
+      "arrival city",
+      "post-earthquake recovery",
+      "short stay",
+      "San Francisco"
+    ],
+    "transcript_ref": "japanese_american\\densho_densho_Oral_history_transcription_of_J._Iwasuke_Rikimaru.yaml"
+  },
+  {
+    "entity_id": 22,
+    "entity": "Sacramento, California",
+    "explicit_text": "I lived in Sacramento until 1941, where my foster father had a ranch growing grapes and strawberries near Florin Road. I attended grammar school there and later night school, working hard on the farm and selling strawberries at the market. Sacramento became my home for many years and shaped much of my American experience.",
+    "implicit_text": "I lived in the capital city of California until 1941, where my foster father had a ranch growing grapes and strawberries near Florin Road. I attended grammar school there and later night school, working hard on the farm and selling strawberries at the market. This city became my home for many years and shaped much of my American experience.",
+    "cues": [
+      "residence until 1941",
+      "grape and strawberry ranch",
+      "Florin Road",
+      "school and work"
+    ],
+    "transcript_ref": "japanese_american\\densho_densho_Oral_history_transcription_of_J._Iwasuke_Rikimaru.yaml"
+  },
+  {
+    "entity_id": 23,
+    "entity": "Florin Road",
+    "explicit_text": "Florin Road was near where my foster father's ranch was located in Sacramento. I worked on the ranch growing grapes and strawberries and sold the fruit at the market. It was a place of hard work and learning, where I adapted to life in America.",
+    "implicit_text": "This road was near where my foster father's ranch was located in Sacramento. I worked on the ranch growing grapes and strawberries and sold the fruit at the market. It was a place of hard work and learning, where I adapted to life in America.",
+    "cues": [
+      "Sacramento",
+      "foster father's ranch",
+      "grape and strawberry farming",
+      "Florin Road"
+    ],
+    "transcript_ref": "japanese_american\\densho_densho_Oral_history_transcription_of_J._Iwasuke_Rikimaru.yaml"
+  },
+  {
+    "entity_id": 24,
+    "entity": "Methodist Church",
+    "explicit_text": "After finishing grammar school, my foster father placed me under the care of a pastor at a Methodist Church in Sacramento. I stayed at the church in winter and attended night school, studying the Bible and eventually teaching Sunday School. I served as a Sunday School principal for many years, which was an important part of my life in America.",
+    "implicit_text": "After finishing grammar school, my foster father placed me under the care of a pastor at a Protestant church in Sacramento. I stayed at the church in winter and attended night school, studying the Bible and eventually teaching Sunday School. I served as a Sunday School principal for many years, which was an important part of my life in America.",
+    "cues": [
+      "Sacramento",
+      "pastor care",
+      "Bible study",
+      "Sunday School principal"
+    ],
+    "transcript_ref": "japanese_american\\densho_densho_Oral_history_transcription_of_J._Iwasuke_Rikimaru.yaml"
+  },
+  {
+    "entity_id": 25,
+    "entity": "Great Depression",
+    "explicit_text": "Though I lived in America during the time of the Great Depression, the transcript does not mention specific experiences related to it. My work selling strawberries and attending school continued through those years. Life was hard but I kept working without complaint.",
+    "implicit_text": "Though I lived in America during the time of the severe economic downturn in the 1930s, the transcript does not mention specific experiences related to it. My work selling strawberries and attending school continued through those years. Life was hard but I kept working without complaint.",
+    "cues": [
+      "Great Depression era",
+      "work and school",
+      "hardship",
+      "no specific mention"
+    ],
+    "transcript_ref": "japanese_american\\densho_densho_Oral_history_transcription_of_J._Iwasuke_Rikimaru.yaml"
+  },
+  {
+    "entity_id": 26,
+    "entity": "Livingston, California",
+    "explicit_text": "The transcript does not mention Livingston, California directly, so I have no personal story about that place. My life was mostly centered around Sacramento and nearby areas where I worked and studied.",
+    "implicit_text": "The transcript does not mention this small California city directly, so I have no personal story about that place. My life was mostly centered around Sacramento and nearby areas where I worked and studied.",
+    "cues": [
+      "no direct mention",
+      "Sacramento area focus"
+    ],
+    "transcript_ref": "japanese_american\\densho_densho_Oral_history_transcription_of_J._Iwasuke_Rikimaru.yaml"
+  },
+  {
+    "entity_id": 27,
+    "entity": "Grape Growers' Association",
+    "explicit_text": "The transcript does not provide details about the Grape Growers' Association. However, since my foster father grew grapes on his ranch, I may have had indirect contact with such organizations through farm work and selling produce.",
+    "implicit_text": "The transcript does not provide details about the local growers' organization for grapes. However, since my foster father grew grapes on his ranch, I may have had indirect contact with such organizations through farm work and selling produce.",
+    "cues": [
+      "no direct mention",
+      "grape farming context"
+    ],
+    "transcript_ref": "japanese_american\\densho_densho_Oral_history_transcription_of_J._Iwasuke_Rikimaru.yaml"
+  },
+  {
+    "entity_id": 28,
+    "entity": "Fruit Growers' Association",
+    "explicit_text": "I do not recall any specific involvement with the Fruit Growers' Association in the transcript. My work involved selling strawberries from my foster father's ranch, which might have connected me to local growers' groups, but no details were given.",
+    "implicit_text": "I do not recall any specific involvement with the local fruit growers' group in the transcript. My work involved selling strawberries from my foster father's ranch, which might have connected me to local growers' groups, but no details were given.",
+    "cues": [
+      "no direct mention",
+      "strawberry selling"
+    ],
+    "transcript_ref": "japanese_american\\densho_densho_Oral_history_transcription_of_J._Iwasuke_Rikimaru.yaml"
+  },
+  {
+    "entity_id": 29,
+    "entity": "Cortez, California",
+    "explicit_text": "Cortez, California is not mentioned in my story. My experiences in America were mainly in Sacramento and surrounding areas, so I have no personal connection to Cortez.",
+    "implicit_text": "This small California town is not mentioned in my story. My experiences in America were mainly in Sacramento and surrounding areas, so I have no personal connection to that place.",
+    "cues": [
+      "no mention",
+      "Sacramento focus"
+    ],
+    "transcript_ref": "japanese_american\\densho_densho_Oral_history_transcription_of_J._Iwasuke_Rikimaru.yaml"
+  }
+]

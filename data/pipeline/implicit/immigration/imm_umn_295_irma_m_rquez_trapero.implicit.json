@@ -1,0 +1,83 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "Culiacán",
+    "explicit_text": "I was born in Culiacán, which is the capital of the State of Sinaloa. Growing up there by the Pacific Ocean shaped a lot of my early experiences. Culiacán is where my roots are, and even though I moved to the United States, I always carry a connection to that city. It’s the place that started my journey and where my family’s story began.",
+    "implicit_text": "I was born in the capital city of the state on Mexico's west coast. Growing up there by the Pacific Ocean shaped a lot of my early experiences. That city is where my roots are, and even though I moved to the United States, I always carry a connection to that place. It’s the place that started my journey and where my family’s story began.",
+    "cues": [
+      "birthplace",
+      "capital of Sinaloa",
+      "west coast",
+      "Pacific Ocean"
+    ],
+    "transcript_ref": "immigration\\imm_umn_295_irma_m_rquez_trapero.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "Sinaloa",
+    "explicit_text": "Sinaloa is the state where I was born, with Culiacán as its capital. It’s located on the west coast of Mexico by the Pacific Ocean, which gives it a unique cultural and geographic identity. My family’s traditions and values come from Sinaloa, and even after immigrating to the United States, that connection has remained strong. Sinaloa is more than just a place; it’s part of who I am.",
+    "implicit_text": "The state where I was born has a capital city by the Pacific Ocean on Mexico’s west coast, giving it a unique cultural and geographic identity. My family’s traditions and values come from that region, and even after immigrating to the United States, that connection has remained strong. That state is more than just a place; it’s part of who I am.",
+    "cues": [
+      "state of Mexico",
+      "west coast",
+      "capital Culiacán",
+      "family roots"
+    ],
+    "transcript_ref": "immigration\\imm_umn_295_irma_m_rquez_trapero.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "Pacific Ocean",
+    "explicit_text": "The Pacific Ocean is right by where I was born, in Sinaloa, Mexico. Growing up near the ocean influenced my sense of place and belonging. It’s part of the landscape of my childhood in Culiacán, and it reminds me of home even when I’m far away in the United States. The ocean’s presence is a quiet but constant part of my story.",
+    "implicit_text": "The large body of water along the west coast of Mexico is right by where I was born. Growing up near that ocean influenced my sense of place and belonging. It’s part of the landscape of my childhood in the capital city of the state, and it reminds me of home even when I’m far away in the United States. The ocean’s presence is a quiet but constant part of my story.",
+    "cues": [
+      "west coast",
+      "near Culiacán",
+      "childhood landscape",
+      "Mexico"
+    ],
+    "transcript_ref": "immigration\\imm_umn_295_irma_m_rquez_trapero.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "United States",
+    "explicit_text": "My family and I moved to the United States, and that experience has been one of survival and adjustment. Living in a country where we didn’t always feel included was challenging, but our faith helped hold us together. The United States is where I pursued education and worked hard to succeed, always carrying the values from Mexico with me. It’s been a place of both struggle and achievement for my family.",
+    "implicit_text": "My family and I moved to the country north of Mexico, and that experience has been one of survival and adjustment. Living in a place where we didn’t always feel included was challenging, but our faith helped hold us together. That nation is where I pursued education and worked hard to succeed, always carrying the values from my birthplace with me. It’s been a place of both struggle and achievement for my family.",
+    "cues": [
+      "immigration",
+      "survival",
+      "adjustment",
+      "education",
+      "lack of inclusion"
+    ],
+    "transcript_ref": "immigration\\imm_umn_295_irma_m_rquez_trapero.yaml"
+  },
+  {
+    "entity_id": 5,
+    "entity": "Mexico",
+    "explicit_text": "Mexico is my homeland, where I was born and raised before moving to the United States. The culture and traditions of Mexico, especially our faith, have stayed with me and my family even after immigrating. When I think about phrases like 'Si Dios Quiere,' it reminds me of the Mexican way of life and the strength we carry. Mexico is the foundation of my identity and the source of my family’s resilience.",
+    "implicit_text": "The country where I was born and raised before moving north is my homeland. The culture and traditions there, especially our faith, have stayed with me and my family even after immigrating. When I think about phrases like 'Si Dios Quiere,' it reminds me of that way of life and the strength we carry. That country is the foundation of my identity and the source of my family’s resilience.",
+    "cues": [
+      "homeland",
+      "culture",
+      "faith",
+      "Si Dios Quiere",
+      "identity"
+    ],
+    "transcript_ref": "immigration\\imm_umn_295_irma_m_rquez_trapero.yaml"
+  },
+  {
+    "entity_id": 6,
+    "entity": "La Virgen de Guadalupe",
+    "explicit_text": "La Virgen de Guadalupe symbolizes strong women for me. I see her as a representation of the strength and leadership of the women in my family, especially my mother who made the decision to immigrate. Praying to La Virgen reminds me of that womanhood and resilience that has kept us together. She’s more than a religious figure; she’s a source of inspiration and strength in my life.",
+    "implicit_text": "A revered religious figure symbolizes strong women for me. I see her as a representation of the strength and leadership of the women in my family, especially my mother who made the decision to immigrate. Praying to this figure reminds me of that womanhood and resilience that has kept us together. She’s more than a religious symbol; she’s a source of inspiration and strength in my life.",
+    "cues": [
+      "symbol of strong women",
+      "family leadership",
+      "mother’s decision",
+      "faith",
+      "inspiration"
+    ],
+    "transcript_ref": "immigration\\imm_umn_295_irma_m_rquez_trapero.yaml"
+  }
+]

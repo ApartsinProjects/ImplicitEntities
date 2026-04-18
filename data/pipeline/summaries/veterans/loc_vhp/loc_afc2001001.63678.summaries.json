@@ -1,0 +1,269 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "United States Navy",
+    "summary": "I enlisted in the United States Navy along with two friends because we wanted to ride instead of walk. We went to Dallas for our examination and then to San Diego for boot camp. The Navy was different from other branches; for example, we had to buy our own clothes and initially earned less pay than later. I served aboard several battleships and was part of the crew during critical moments like the attack on Pearl Harbor and later in the Pacific theater during World War II.",
+    "cues": [
+      "enlistment",
+      "Dallas",
+      "San Diego",
+      "boot camp",
+      "World War II",
+      "battleships",
+      "Pearl Harbor"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.63678.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "Dallas",
+    "summary": "Dallas was where my group and I went to take our Navy examinations before boot camp. It was the first step in our journey into the service. I remember being a bit excited and nervous, but we were accepted and sent on to San Diego. That was the start of my Navy career during World War II.",
+    "cues": [
+      "Navy examination",
+      "enlistment",
+      "pre-boot camp",
+      "World War II"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.63678.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "San Diego",
+    "summary": "San Diego was where I went for boot camp after passing the examination in Dallas. We were told not to bring any clothes because the Navy would issue us uniforms and our old clothes would be given to the Salvation Army. Boot camp lasted eight weeks, and I was lucky not to have to do kitchen patrol duties. After training, I was sent to Long Beach to join the USS California.",
+    "cues": [
+      "boot camp",
+      "uniforms",
+      "Salvation Army",
+      "eight weeks",
+      "Long Beach",
+      "USS California"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.63678.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "Salvation Army",
+    "summary": "When we arrived for boot camp in San Diego, we were told not to bring any clothes because the ones we had would be given away to the Salvation Army. I remember that because it was part of the process of getting our Navy uniforms. It was a small but memorable detail from the start of my Navy service.",
+    "cues": [
+      "San Diego",
+      "boot camp",
+      "clothes donation",
+      "Navy uniforms"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.63678.yaml"
+  },
+  {
+    "entity_id": 5,
+    "entity": "World War II",
+    "summary": "I served in the United States Navy during World War II, starting before the attack on Pearl Harbor and continuing through the Pacific campaigns. My brothers also served during the war. I was aboard several battleships, including the USS California and later the USS West Virginia, and participated in significant battles such as the Philippines landings and defending against kamikaze attacks.",
+    "cues": [
+      "United States Navy",
+      "Pearl Harbor",
+      "Pacific theater",
+      "Philippines",
+      "kamikaze attacks",
+      "brothers' service"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.63678.yaml"
+  },
+  {
+    "entity_id": 6,
+    "entity": "Long Beach, California",
+    "summary": "After completing boot camp in San Diego, I had to go up to Long Beach, California, to join the USS California. It was there that I received my shots and uniforms before boarding the ship. Long Beach was an important transition point from training to active duty aboard a battleship.",
+    "cues": [
+      "post-boot camp",
+      "USS California",
+      "shots",
+      "uniforms",
+      "California"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.63678.yaml"
+  },
+  {
+    "entity_id": 7,
+    "entity": "USS California (BB-44)",
+    "summary": "I was assigned to the USS California after boot camp, and we left for Hawaii on October 1st. On December 7th, 1941, during the attack on Pearl Harbor, I was on the California and had the 4-8 afternoon watch. The ship was hit by torpedoes and bombs, but we managed to keep it from rolling over by flooding the opposite side. We evacuated and returned multiple times during the attack, and the Nevada helped protect us by running aground to block the channel.",
+    "cues": [
+      "USS California",
+      "October 1941",
+      "Pearl Harbor",
+      "attack",
+      "torpedo and bomb hits",
+      "Nevada"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.63678.yaml"
+  },
+  {
+    "entity_id": 8,
+    "entity": "Pearl Harbor",
+    "summary": "I was stationed at Pearl Harbor aboard the USS California in the months leading up to the attack on December 7th, 1941. During the attack, I was on watch and witnessed the chaos as our ship was hit by torpedoes and bombs. We evacuated to the nearby island and then returned to fight fires and man anti-aircraft guns. The attack was devastating, with many ships damaged or sunk, including the Arizona and Oklahoma.",
+    "cues": [
+      "Pearl Harbor",
+      "December 7th, 1941",
+      "USS California",
+      "attack",
+      "evacuation",
+      "anti-aircraft defense"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.63678.yaml"
+  },
+  {
+    "entity_id": 9,
+    "entity": "Attack on Pearl Harbor",
+    "summary": "On December 7th, 1941, I was on the USS California during the Attack on Pearl Harbor. I was on the 4-8 watch when the Japanese planes struck, and our ship took multiple torpedo and bomb hits. We evacuated to the island nearby and then returned to fight fires and defend the ship with anti-aircraft guns. The attack was sudden and terrifying, and I remember the chaos and the bravery of the crew as we tried to save the ship and ourselves.",
+    "cues": [
+      "December 7th, 1941",
+      "USS California",
+      "torpedo and bomb hits",
+      "evacuation",
+      "anti-aircraft guns"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.63678.yaml"
+  },
+  {
+    "entity_id": 10,
+    "entity": "USS Oklahoma (BB-37)",
+    "summary": "During the attack on Pearl Harbor, the USS Oklahoma was hit and rolled over after being struck by torpedoes. I remember that the California flooded the opposite side to keep from rolling over like the Oklahoma did. The Oklahoma's loss was a stark reminder of how dangerous the attack was and how close we were to similar fate.",
+    "cues": [
+      "Pearl Harbor",
+      "attack",
+      "torpedo hits",
+      "rolled over",
+      "USS California damage control"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.63678.yaml"
+  },
+  {
+    "entity_id": 11,
+    "entity": "USS Nevada (BB-36)",
+    "summary": "The USS Nevada played a crucial role during the Pearl Harbor attack by running aground a few hundred yards from us to keep from blocking the channel. This action helped protect the USS California and others. The Nevada was the only battleship to get underway during the attack, and its sacrifice saved lives and kept the harbor from being completely blocked.",
+    "cues": [
+      "Pearl Harbor",
+      "attack",
+      "ran aground",
+      "protected USS California",
+      "channel access"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.63678.yaml"
+  },
+  {
+    "entity_id": 12,
+    "entity": "USS West Virginia (BB-48)",
+    "summary": "After the attack on Pearl Harbor, I was transferred to the USS West Virginia in 1943 while it was being repaired and refitted. I stayed on the West Virginia until the end of the war. The ship was heavily damaged during the attack but was rebuilt and returned to service. I have a picture of the West Virginia after it was redone, showing the upgrades like the quad 40-millimeter guns.",
+    "cues": [
+      "USS West Virginia",
+      "1943 transfer",
+      "repairs",
+      "refit",
+      "end of World War II",
+      "Pearl Harbor damage"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.63678.yaml"
+  },
+  {
+    "entity_id": 13,
+    "entity": "USS Maryland (BB-46)",
+    "summary": "During the Pearl Harbor attack, the USS Maryland was in port and took a bomb hit but was not vulnerable to torpedoes. After the attack, I was assigned to the Maryland when it returned to the States for repairs and upgrades. The Maryland was part of the battleship group that suffered damage but was quickly repaired to return to action.",
+    "cues": [
+      "Pearl Harbor",
+      "bomb hit",
+      "USS Maryland",
+      "repairs",
+      "post-attack assignment"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.63678.yaml"
+  },
+  {
+    "entity_id": 14,
+    "entity": "USS Tennessee (BB-43)",
+    "summary": "The USS Tennessee was also hit during the Pearl Harbor attack; a bomb struck the middle gun turret. The shrapnel from that hit killed the captain of the USS West Virginia. The Tennessee was pulled out after the attack as part of the effort to clear the harbor and repair the fleet.",
+    "cues": [
+      "Pearl Harbor",
+      "bomb hit",
+      "middle gun turret",
+      "shrapnel",
+      "USS West Virginia captain"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.63678.yaml"
+  },
+  {
+    "entity_id": 15,
+    "entity": "USS Arizona (BB-39)",
+    "summary": "I heard the USS Arizona blew up during the attack on Pearl Harbor, though I didn't realize what had happened at first. The explosion was massive and devastating, and it was one of the greatest losses that day. The Arizona's destruction was a symbol of the attack's severity and the lives lost—around 2,600 people were killed that day overall.",
+    "cues": [
+      "Pearl Harbor",
+      "attack",
+      "explosion",
+      "USS Arizona",
+      "casualties"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.63678.yaml"
+  },
+  {
+    "entity_id": 16,
+    "entity": "Imperial Japanese Navy",
+    "summary": "The Imperial Japanese Navy launched the surprise attack on Pearl Harbor on December 7th, 1941. They used aircraft carriers and two-man submarines, some of which ran aground due to poor navigation. Their attack caused massive damage to our battleships and naval facilities, marking the United States' entry into World War II.",
+    "cues": [
+      "Pearl Harbor",
+      "December 7th, 1941",
+      "attack",
+      "aircraft carriers",
+      "two-man submarines"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.63678.yaml"
+  },
+  {
+    "entity_id": 17,
+    "entity": "Philippines",
+    "summary": "Later in the war, we went to the Philippines where the Navy was heavily involved in supporting the landings. We could see ships everywhere, and we used our 16-inch guns to support the army by taking out targets they called for. General Douglas MacArthur was brought ashore there with reporters to document the event, which was a significant moment in the Pacific campaign.",
+    "cues": [
+      "Philippines",
+      "Pacific theater",
+      "16-inch guns",
+      "army support",
+      "Douglas MacArthur",
+      "landings"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.63678.yaml"
+  },
+  {
+    "entity_id": 18,
+    "entity": "Douglas MacArthur",
+    "summary": "During the Philippines campaign, General Douglas MacArthur was brought ashore from our fleet along with newsreel reporters. They had to redo the filming because the first attempt wasn't good enough. MacArthur's arrival was a big morale boost for us and symbolized the turning point in the Pacific war.",
+    "cues": [
+      "Philippines",
+      "Douglas MacArthur",
+      "newsreel",
+      "Pacific campaign",
+      "morale"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.63678.yaml"
+  },
+  {
+    "entity_id": 19,
+    "entity": "China Sea",
+    "summary": "After some of the battles, we moved out into the China Sea during a storm. We had a couple of destroyers with us, but they ran out of fuel and we couldn't rescue them. The waves were huge, sometimes reaching 40 to 50 feet, and it made me glad I wasn't on one of the smaller destroyers but rather on a battleship like the West Virginia.",
+    "cues": [
+      "China Sea",
+      "storm",
+      "destroyers",
+      "fuel shortage",
+      "waves 40-50 feet",
+      "USS West Virginia"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.63678.yaml"
+  },
+  {
+    "entity_id": 20,
+    "entity": "USS Pennsylvania (BB-38)",
+    "summary": "The USS Pennsylvania was in dry dock during the Pearl Harbor attack and was spared the worst damage. However, two smaller ships in dry dock in front of her were destroyed, and the carriers tied up nearby were sunk. The Pennsylvania was lucky to avoid major damage, which helped preserve some of our battleship strength after the attack.",
+    "cues": [
+      "USS Pennsylvania",
+      "Pearl Harbor",
+      "dry dock",
+      "attack damage",
+      "nearby ships destroyed"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.63678.yaml"
+  }
+]

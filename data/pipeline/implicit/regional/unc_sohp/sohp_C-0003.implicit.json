@@ -1,0 +1,231 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "St. Andrew's Hotel",
+    "explicit_text": "I was actually born in the St. Andrew's Hotel in New York City on January 30, 1908. The hotel was located at the northwest corner of Broadway and Seventy-second Street, but it was torn down sometime in the twenties or thirties. My mother was staying there to give birth to me since she was originally from New York. It was quite common back then for children to be born at home or in places like hotels, not hospitals.",
+    "implicit_text": "I was actually born in a well-known hotel in New York City on January 30, 1908. The hotel was located at the northwest corner of Broadway and Seventy-second Street, but it was torn down sometime in the twenties or thirties. My mother was staying there to give birth to me since she was originally from New York. It was quite common back then for children to be born at home or in places like hotels, not hospitals.",
+    "cues": [
+      "January 30, 1908",
+      "New York City",
+      "northwest corner of Broadway and Seventy-second Street",
+      "hotel torn down in twenties or thirties",
+      "mother gave birth there"
+    ],
+    "transcript_ref": "regional\\unc_sohp\\sohp_C-0003.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "New York City",
+    "explicit_text": "New York City was where I was born, specifically in the St. Andrew's Hotel. My mother was from New York originally, and my father spent a lot of time there because he helped start the Cone Export and Commission Company's office around 1890. Both my older brothers were also born in New York. My parents met in New York before courting at the World's Columbian Exposition in Chicago.",
+    "implicit_text": "The city where I was born, specifically in that famous hotel, was the place my mother originally came from. My father spent a lot of time there because he helped start the Cone Export and Commission Company's office around 1890. Both my older brothers were also born in that city. My parents met there before courting at the big fair in Chicago.",
+    "cues": [
+      "birthplace in 1908",
+      "Cone Export and Commission Company office in 1890",
+      "parents met there",
+      "older brothers born there"
+    ],
+    "transcript_ref": "regional\\unc_sohp\\sohp_C-0003.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "Broadway (Manhattan)",
+    "explicit_text": "The St. Andrew's Hotel where I was born was located on the northwest corner of Broadway and Seventy-second Street in Manhattan. This area was part of New York City where my mother stayed to have me. It was a notable location because the hotel was eventually torn down in the twenties or thirties, but it was a significant place in my family's early story.",
+    "implicit_text": "The hotel where I was born was located on the northwest corner of a major thoroughfare and Seventy-second Street in Manhattan. This area was part of that large northeastern city where my mother stayed to have me. It was a notable location because the hotel was eventually torn down in the twenties or thirties, but it was a significant place in my family's early story.",
+    "cues": [
+      "northwest corner of Broadway and Seventy-second Street",
+      "birthplace in 1908",
+      "hotel torn down in twenties or thirties"
+    ],
+    "transcript_ref": "regional\\unc_sohp\\sohp_C-0003.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "Catskill Mountains",
+    "explicit_text": "My brother Ben was born in the summertime, and since our family doctor had a summer place in the Catskill Mountains, my mother rented a house there that summer for his birth. This was back in August, and it was common at the time for children to be born at home rather than hospitals. The Catskill Mountains were a peaceful retreat for my family during that period.",
+    "implicit_text": "My brother Ben was born in the summertime, and since our family doctor had a summer place in a mountain region known for its peaceful retreats, my mother rented a house there that summer for his birth. This was back in August, and it was common at the time for children to be born at home rather than hospitals. That mountain area was a peaceful retreat for my family during that period.",
+    "cues": [
+      "summer birth of brother Ben",
+      "family doctor’s summer place",
+      "August birth",
+      "home birth tradition"
+    ],
+    "transcript_ref": "regional\\unc_sohp\\sohp_C-0003.yaml"
+  },
+  {
+    "entity_id": 5,
+    "entity": "World's Columbian Exposition",
+    "explicit_text": "My parents courted quite a bit at the World's Columbian Exposition in Chicago around 1892 or 1893 before they got married. Both their families took trips to this fair, which was a big event at the time. It was a significant moment in their relationship and family history.",
+    "implicit_text": "My parents courted quite a bit at the major world's fair in Chicago around 1892 or 1893 before they got married. Both their families took trips to this fair, which was a big event at the time. It was a significant moment in their relationship and family history.",
+    "cues": [
+      "courtship in 1892-1893",
+      "Chicago",
+      "parents' families attended",
+      "important family event"
+    ],
+    "transcript_ref": "regional\\unc_sohp\\sohp_C-0003.yaml"
+  },
+  {
+    "entity_id": 6,
+    "entity": "Chicago",
+    "explicit_text": "Chicago was the city where the World's Columbian Exposition took place in 1893, and it was there that my parents spent considerable time courting. Both my mother’s and father’s families traveled to Chicago for this event. It was an important backdrop to their early relationship before they married in 1893.",
+    "implicit_text": "The city where the World's Columbian Exposition took place in 1893 was where my parents spent considerable time courting. Both my mother’s and father’s families traveled there for this event. It was an important backdrop to their early relationship before they married in 1893.",
+    "cues": [
+      "World's Columbian Exposition 1893",
+      "parents courted there",
+      "family trips"
+    ],
+    "transcript_ref": "regional\\unc_sohp\\sohp_C-0003.yaml"
+  },
+  {
+    "entity_id": 7,
+    "entity": "Greensboro, North Carolina",
+    "explicit_text": "My family moved to Greensboro in 1895, about thirteen years before I was born. I grew up there on Summit Avenue, which was outside the city limits at the time. Greensboro was also where my parents bought the Carolina Steel and Iron Company property and built their manufacturing plant and home. I was educated there and later became involved in various civic roles in Greensboro.",
+    "implicit_text": "My family moved to a city in North Carolina in 1895, about thirteen years before I was born. I grew up there on Summit Avenue, which was outside the city limits at the time. This city was also where my parents bought the steel and iron company property and built their manufacturing plant and home. I was educated there and later became involved in various civic roles in that city.",
+    "cues": [
+      "moved in 1895",
+      "grew up on Summit Avenue",
+      "Carolina Steel and Iron Company property",
+      "civic roles in Greensboro"
+    ],
+    "transcript_ref": "regional\\unc_sohp\\sohp_C-0003.yaml"
+  },
+  {
+    "entity_id": 8,
+    "entity": "Carolina Steel and Iron Company",
+    "explicit_text": "My parents bought the defunct Carolina Steel and Iron Company property northeast of Greensboro, which was originally organized around 1880 to make steel. The company had failed, but my family used the land to build a manufacturing plant and their home. This property was essentially a farm where I grew up, complete with cows, chickens, horses, and a silo.",
+    "implicit_text": "My parents bought the defunct steel and iron company property northeast of that North Carolina city, which was originally organized around 1880 to make steel. The company had failed, but my family used the land to build a manufacturing plant and their home. This property was essentially a farm where I grew up, complete with cows, chickens, horses, and a silo.",
+    "cues": [
+      "property bought northeast of Greensboro",
+      "originally organized circa 1880",
+      "steel manufacturing",
+      "family farm"
+    ],
+    "transcript_ref": "regional\\unc_sohp\\sohp_C-0003.yaml"
+  },
+  {
+    "entity_id": 9,
+    "entity": "Pittsburgh",
+    "explicit_text": "Greensboro was once envisioned as the southern Pittsburgh because of the steel industry ambitions, including the Carolina Steel and Iron Company. However, that steel company went bust, and the vision didn't fully materialize. My family’s involvement with the steel company property was part of that early industrial dream.",
+    "implicit_text": "That North Carolina city was once envisioned as the southern version of a famous steel-producing city in Pennsylvania because of the steel industry ambitions, including the steel and iron company. However, that steel company went bust, and the vision didn't fully materialize. My family’s involvement with the steel company property was part of that early industrial dream.",
+    "cues": [
+      "Greensboro as southern Pittsburgh",
+      "steel industry ambitions",
+      "Carolina Steel and Iron Company failure"
+    ],
+    "transcript_ref": "regional\\unc_sohp\\sohp_C-0003.yaml"
+  },
+  {
+    "entity_id": 10,
+    "entity": "Summit Avenue (Greensboro, North Carolina)",
+    "explicit_text": "I grew up in my parents' home on Summit Avenue in Greensboro, which was outside the city limits when we lived there. The house was on the large property they bought from the Carolina Steel and Iron Company. It was a farm-like setting with cows, chickens, horses, and a silo, providing a rural upbringing despite being near the city.",
+    "implicit_text": "I grew up in my parents' home on Summit Avenue in that North Carolina city, which was outside the city limits when we lived there. The house was on the large property they bought from the steel and iron company. It was a farm-like setting with cows, chickens, horses, and a silo, providing a rural upbringing despite being near the city.",
+    "cues": [
+      "childhood home",
+      "outside city limits",
+      "property from Carolina Steel and Iron Company",
+      "farm environment"
+    ],
+    "transcript_ref": "regional\\unc_sohp\\sohp_C-0003.yaml"
+  },
+  {
+    "entity_id": 11,
+    "entity": "Oak Ridge Military Academy",
+    "explicit_text": "For my last two years of high school, I attended Oak Ridge Military Academy after completing two years of high school in Greensboro. This was part of my early education before I went on to the University of North Carolina and later Harvard Business School. Oak Ridge helped prepare me for college and beyond.",
+    "implicit_text": "For my last two years of high school, I attended a military academy in North Carolina after completing two years of high school in that city. This was part of my early education before I went on to the University of North Carolina and later Harvard Business School. That academy helped prepare me for college and beyond.",
+    "cues": [
+      "last two years of high school",
+      "after Greensboro schooling",
+      "preparation for university"
+    ],
+    "transcript_ref": "regional\\unc_sohp\\sohp_C-0003.yaml"
+  },
+  {
+    "entity_id": 12,
+    "entity": "University of North Carolina",
+    "explicit_text": "I graduated from the University of North Carolina in 1928, where I took many courses in history and economics. My older brothers also attended UNC, though they did not complete full degrees. UNC was an important part of my education before I went on to Harvard Business School.",
+    "implicit_text": "I graduated from the University of North Carolina in 1928, where I took many courses in history and economics. My older brothers also attended that university, though they did not complete full degrees. It was an important part of my education before I went on to Harvard Business School.",
+    "cues": [
+      "graduated 1928",
+      "studied history and economics",
+      "brothers attended",
+      "pre-business school education"
+    ],
+    "transcript_ref": "regional\\unc_sohp\\sohp_C-0003.yaml"
+  },
+  {
+    "entity_id": 13,
+    "entity": "Harvard Business School",
+    "explicit_text": "I attended Harvard Business School after the University of North Carolina, although it wasn't my choice; my family decided it for me after my father died when I was nine. The case method there taught me to reason through problems rather than just memorize answers, which was very helpful in my business career. I found that ordinary intelligence and practical reasoning mattered more than just academic brilliance.",
+    "implicit_text": "I attended a prestigious business school after the University of North Carolina, although it wasn't my choice; my family decided it for me after my father died when I was nine. The case method there taught me to reason through problems rather than just memorize answers, which was very helpful in my business career. I found that ordinary intelligence and practical reasoning mattered more than just academic brilliance.",
+    "cues": [
+      "post-UNC education",
+      "family decision",
+      "case method learning",
+      "business career preparation"
+    ],
+    "transcript_ref": "regional\\unc_sohp\\sohp_C-0003.yaml"
+  },
+  {
+    "entity_id": 14,
+    "entity": "Thomas Wolfe",
+    "explicit_text": "My brother Ben went to school with the famous Thomas Wolfe at the University of North Carolina. Although I didn't attend school with him, Thomas Wolfe was a notable figure connected to my family through my brother's education. It was interesting to have such a literary figure in our circle.",
+    "implicit_text": "My brother Ben went to school with the famous author Thomas Wolfe at the University of North Carolina. Although I didn't attend school with him, that literary figure was a notable connection to my family through my brother's education. It was interesting to have such a literary figure in our circle.",
+    "cues": [
+      "brother Ben's schoolmate",
+      "University of North Carolina",
+      "connection to family"
+    ],
+    "transcript_ref": "regional\\unc_sohp\\sohp_C-0003.yaml"
+  },
+  {
+    "entity_id": 15,
+    "entity": "New York Stock Exchange",
+    "explicit_text": "Our company was listed on the New York Stock Exchange in 1951, which marked a turning point in how we ran the business. I was Treasurer at that time, and my oldest brother was President. Going public meant we had to move away from nepotism and start recruiting professional management, which was a significant change for our family company.",
+    "implicit_text": "Our company was listed on the major American stock exchange in 1951, which marked a turning point in how we ran the business. I was Treasurer at that time, and my oldest brother was President. Going public meant we had to move away from nepotism and start recruiting professional management, which was a significant change for our family company.",
+    "cues": [
+      "listed in 1951",
+      "I was Treasurer",
+      "brother was President",
+      "shift from nepotism to professional management"
+    ],
+    "transcript_ref": "regional\\unc_sohp\\sohp_C-0003.yaml"
+  },
+  {
+    "entity_id": 16,
+    "entity": "Moses H. Cone Memorial Hospital",
+    "explicit_text": "I served as President of the Moses H. Cone Memorial Hospital in Greensboro for a while. It was one of the many civic roles I took on beyond my business career. Although I was involved in its leadership, I have been critical of how such institutions are run today, especially regarding spending and borrowing.",
+    "implicit_text": "I served as President of a prominent hospital in Greensboro for a while. It was one of the many civic roles I took on beyond my business career. Although I was involved in its leadership, I have been critical of how such institutions are run today, especially regarding spending and borrowing.",
+    "cues": [
+      "Presidency",
+      "Greensboro",
+      "civic involvement",
+      "concerns about modern management"
+    ],
+    "transcript_ref": "regional\\unc_sohp\\sohp_C-0003.yaml"
+  },
+  {
+    "entity_id": 17,
+    "entity": "Franklin D. Roosevelt",
+    "explicit_text": "Since the time of Franklin D. Roosevelt, I have observed a shift in how money is spent on projects, whether business or civic. Roosevelt's era introduced the idea of throwing more money at problems to solve them, which I believe has led to excessive borrowing and spending. I think this approach burdens future generations with debt and interest.",
+    "implicit_text": "Since the time of the thirty-second president of the United States, I have observed a shift in how money is spent on projects, whether business or civic. That president's era introduced the idea of throwing more money at problems to solve them, which I believe has led to excessive borrowing and spending. I think this approach burdens future generations with debt and interest.",
+    "cues": [
+      "post-Roosevelt spending policies",
+      "increased borrowing",
+      "economic impact on future generations"
+    ],
+    "transcript_ref": "regional\\unc_sohp\\sohp_C-0003.yaml"
+  },
+  {
+    "entity_id": 18,
+    "entity": "New York City Subway",
+    "explicit_text": "The New York City Subway system was built in a time without inflation, and people today benefit from that infrastructure which would cost billions to build now. I think many don't realize how valuable those early investments were. However, I worry about the future generations who will have to bear the costs of maintaining and expanding such systems.",
+    "implicit_text": "The subway system in that large northeastern city was built in a time without inflation, and people today benefit from that infrastructure which would cost billions to build now. I think many don't realize how valuable those early investments were. However, I worry about the future generations who will have to bear the costs of maintaining and expanding such systems.",
+    "cues": [
+      "built pre-inflation",
+      "current benefit to people",
+      "high replacement cost",
+      "concern for future financial burden"
+    ],
+    "transcript_ref": "regional\\unc_sohp\\sohp_C-0003.yaml"
+  }
+]

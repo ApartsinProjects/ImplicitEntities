@@ -1,0 +1,84 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "University of Minnesota Twin Cities",
+    "explicit_text": "I am currently a sophomore attending the University of Minnesota Twin Cities. Being a Hmong American student here, I balance my cultural traditions with my academic life. The university has been a place where I continue to grow and explore my interests beyond high school. It feels like a second home as I pursue my education and personal development.",
+    "implicit_text": "I am currently a sophomore attending a major public research university in Minneapolis and Saint Paul. Being a Hmong American student here, I balance my cultural traditions with my academic life. This institution has been a place where I continue to grow and explore my interests beyond high school. It feels like a second home as I pursue my education and personal development.",
+    "cues": [
+      "sophomore",
+      "Hmong American",
+      "academic life",
+      "personal development"
+    ],
+    "transcript_ref": "immigration\\imm_umn_166_va_xiong.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "Hmong New Year",
+    "explicit_text": "Every year, I celebrate the Hmong New Year with my community, wearing traditional clothing and enjoying great food. We spend the day at the River Centre, which is a central place for our festivities. This event is very important to me as it connects me to my heritage and allows me to see many of my peers and family members. It’s a time of joy and cultural pride.",
+    "implicit_text": "Every year, I celebrate the traditional New Year of my ethnic community with my peers, wearing traditional clothing and enjoying great food. We spend the day at a well-known event center in downtown Saint Paul, which is a central place for our festivities. This event is very important to me as it connects me to my heritage and allows me to see many of my peers and family members. It’s a time of joy and cultural pride.",
+    "cues": [
+      "annual celebration",
+      "traditional clothing",
+      "food",
+      "River Centre",
+      "community"
+    ],
+    "transcript_ref": "immigration\\imm_umn_166_va_xiong.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "RiverCentre",
+    "explicit_text": "The RiverCentre is where we gather every year to celebrate the Hmong New Year. It’s a special place for me because it hosts so many cultural events that bring our community together. I look forward to spending the day there, surrounded by family and friends, enjoying the festivities. It really feels like the heart of our celebration.",
+    "implicit_text": "The downtown Saint Paul event center is where we gather every year to celebrate the traditional New Year of my ethnic community. It’s a special place for me because it hosts so many cultural events that bring our community together. I look forward to spending the day there, surrounded by family and friends, enjoying the festivities. It really feels like the heart of our celebration.",
+    "cues": [
+      "Hmong New Year",
+      "annual event",
+      "community gathering",
+      "cultural festivities"
+    ],
+    "transcript_ref": "immigration\\imm_umn_166_va_xiong.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "Phanat Nikhom",
+    "explicit_text": "I was actually born in Phanat Nikhom, Thailand, in a refugee camp. There’s a photo of me at just 20 days old with my mom there. It’s a place that marks the beginning of my life before my family moved to the United States a year later. Even though I grew up here, Phanat Nikhom is an important part of my story and identity.",
+    "implicit_text": "I was actually born in a refugee camp located in a district of Chonburi Province, Thailand. There’s a photo of me at just 20 days old with my mom there. It’s a place that marks the beginning of my life before my family moved to the United States a year later. Even though I grew up here, that district is an important part of my story and identity.",
+    "cues": [
+      "birthplace",
+      "refugee camp",
+      "Thailand",
+      "photo at 20 days old",
+      "family migration"
+    ],
+    "transcript_ref": "immigration\\imm_umn_166_va_xiong.yaml"
+  },
+  {
+    "entity_id": 5,
+    "entity": "Thailand",
+    "explicit_text": "Thailand is where I was born, specifically in a refugee camp in Phanat Nikhom. My early days were spent there before my family immigrated to the United States when I was about a year old. Though I don’t remember much from that time, it’s a significant part of my background and my family’s journey. Thailand represents the start of our new life before coming to America.",
+    "implicit_text": "The country in Southeast Asia where I was born, specifically in a refugee camp in a district of Chonburi Province, is where my early days were spent before my family immigrated to the United States when I was about a year old. Though I don’t remember much from that time, it’s a significant part of my background and my family’s journey. That nation represents the start of our new life before coming to America.",
+    "cues": [
+      "birthplace",
+      "refugee camp",
+      "Phanat Nikhom",
+      "family immigration",
+      "early life"
+    ],
+    "transcript_ref": "immigration\\imm_umn_166_va_xiong.yaml"
+  },
+  {
+    "entity_id": 6,
+    "entity": "United States",
+    "explicit_text": "My family came to the United States when I was about a year old, and this is where I’ve grown up and built my life. Being a Hmong American here has shaped much of who I am, from celebrating cultural events like the Hmong New Year to attending school and university. The United States has given me opportunities to explore my talents in music and sports, and it’s where I continue to pursue my dreams.",
+    "implicit_text": "My family came to North America when I was about a year old, and this is where I’ve grown up and built my life. Being a Hmong American here has shaped much of who I am, from celebrating cultural events like the traditional New Year of my ethnic community to attending school and university. This country has given me opportunities to explore my talents in music and sports, and it’s where I continue to pursue my dreams.",
+    "cues": [
+      "immigration",
+      "Hmong American identity",
+      "education",
+      "cultural events",
+      "personal growth"
+    ],
+    "transcript_ref": "immigration\\imm_umn_166_va_xiong.yaml"
+  }
+]

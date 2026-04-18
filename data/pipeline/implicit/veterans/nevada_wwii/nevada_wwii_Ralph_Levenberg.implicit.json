@@ -1,0 +1,391 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "17th Pursuit Squadron",
+    "explicit_text": "In October 1940, I was transferred to the 17th Pursuit Squadron and sent to Manila in the Philippine Islands. We trained and prepared for war, eventually flying P-40 Warhawks and facing the Japanese invasion. The squadron was part of the desperate defense during the early days of World War II in the Philippines.",
+    "implicit_text": "In October 1940, I was transferred to a fighter squadron and sent to Manila in the Philippine Islands. We trained and prepared for war, eventually flying P-40 Warhawks and facing the Japanese invasion. This unit was part of the desperate defense during the early days of World War II in the Philippines.",
+    "cues": [
+      "October 1940",
+      "Manila",
+      "Philippine Islands",
+      "P-40 Warhawk",
+      "World War II"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\nevada_wwii_Ralph_Levenberg.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "Manila",
+    "explicit_text": "Manila was our initial base when I arrived with the 17th Pursuit Squadron in 1940. It was a strategic location in the Philippine Islands, and we faced intense Japanese attacks there after Pearl Harbor. The city was eventually evacuated, and we were forced to retreat to the Bataan Peninsula.",
+    "implicit_text": "This city was our initial base when I arrived with the fighter squadron in 1940. It was a strategic location in the Philippine Islands, and we faced intense Japanese attacks there after Pearl Harbor. The city was eventually evacuated, and we were forced to retreat to the Bataan Peninsula.",
+    "cues": [
+      "1940",
+      "17th Pursuit Squadron",
+      "Philippine Islands",
+      "Japanese attacks",
+      "evacuation"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\nevada_wwii_Ralph_Levenberg.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "Philippine Islands",
+    "explicit_text": "I was stationed in the Philippine Islands during the early part of World War II, starting in 1940. We trained, flew missions, and endured the Japanese invasion and occupation. The islands were the site of fierce battles, including the defense of Bataan and Corregidor.",
+    "implicit_text": "I was stationed in this archipelago during the early part of World War II, starting in 1940. We trained, flew missions, and endured the Japanese invasion and occupation. The islands were the site of fierce battles, including the defense of Bataan and Corregidor.",
+    "cues": [
+      "1940",
+      "World War II",
+      "training",
+      "Japanese invasion",
+      "Bataan",
+      "Corregidor"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\nevada_wwii_Ralph_Levenberg.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "Detroit",
+    "explicit_text": "Our journey to the Philippines began in Detroit, where we boarded trains for deployment. The military kept the train windows covered to avoid alerting anyone about our destination. Detroit was the starting point of a long and secretive trip across the country.",
+    "implicit_text": "Our journey to the Philippines began in a major industrial city in Michigan, where we boarded trains for deployment. The military kept the train windows covered to avoid alerting anyone about our destination. This city was the starting point of a long and secretive trip across the country.",
+    "cues": [
+      "train journey",
+      "deployment",
+      "military secrecy",
+      "Detroit to San Francisco"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\nevada_wwii_Ralph_Levenberg.yaml"
+  },
+  {
+    "entity_id": 5,
+    "entity": "San Francisco",
+    "explicit_text": "San Francisco was a key stop on our way to the Philippines. We traveled from Detroit to San Francisco by train, and from there, we boarded a ship headed to Hawaii and then Manila. The city marked the transition from land to sea travel for us.",
+    "implicit_text": "This city on the West Coast was a key stop on our way to the Philippines. We traveled from Detroit to this port city by train, and from there, we boarded a ship headed to Hawaii and then Manila. The city marked the transition from land to sea travel for us.",
+    "cues": [
+      "train journey",
+      "Detroit to San Francisco",
+      "ship to Hawaii",
+      "deployment"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\nevada_wwii_Ralph_Levenberg.yaml"
+  },
+  {
+    "entity_id": 6,
+    "entity": "Reno, Nevada",
+    "explicit_text": "During our train trip to the Philippines, we stopped in Reno, Nevada, to stretch our legs. It was a brief break, but some soldiers got lost there and had to be rounded up by military police. Reno was a small moment of relief during a tense journey.",
+    "implicit_text": "During our train trip to the Philippines, we stopped in a city in Nevada to stretch our legs. It was a brief break, but some soldiers got lost there and had to be rounded up by military police. This city was a small moment of relief during a tense journey.",
+    "cues": [
+      "train journey",
+      "Reno stop",
+      "military police",
+      "deployment"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\nevada_wwii_Ralph_Levenberg.yaml"
+  },
+  {
+    "entity_id": 7,
+    "entity": "Hawaii",
+    "explicit_text": "Our ship stopped in Hawaii, but only officers and some non-coms were allowed ashore in Honolulu. We saw a lot of ammunition being loaded in preparation for war. Hawaii was a critical point before heading to Nichols Field near Manila.",
+    "implicit_text": "Our ship stopped in this Pacific territory, but only officers and some non-coms were allowed ashore in its capital. We saw a lot of ammunition being loaded in preparation for war. This place was a critical point before heading to Nichols Field near Manila.",
+    "cues": [
+      "ship stop",
+      "Honolulu",
+      "ammunition loading",
+      "preparation for war",
+      "Nichols Field"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\nevada_wwii_Ralph_Levenberg.yaml"
+  },
+  {
+    "entity_id": 8,
+    "entity": "Honolulu",
+    "explicit_text": "In Honolulu, only officers and some non-commissioned officers were allowed to disembark while we were en route to the Philippines. It was a busy port with a lot of military activity, especially ammunition loading. Honolulu was a brief but important stop on our journey.",
+    "implicit_text": "In this city, only officers and some non-commissioned officers were allowed to disembark while we were en route to the Philippines. It was a busy port with a lot of military activity, especially ammunition loading. This city was a brief but important stop on our journey.",
+    "cues": [
+      "Hawaii",
+      "officers only",
+      "ammunition loading",
+      "military transit"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\nevada_wwii_Ralph_Levenberg.yaml"
+  },
+  {
+    "entity_id": 9,
+    "entity": "Nichols Field",
+    "explicit_text": "Nichols Field was our main base near Manila where we were stationed before the war broke out. We returned there after training at Iba and faced constant air raid warnings and preparations for attack. It was also where we suffered heavy losses during the Japanese air raids.",
+    "implicit_text": "This air base near Manila was our main station before the war broke out. We returned there after training at Iba and faced constant air raid warnings and preparations for attack. It was also where we suffered heavy losses during the Japanese air raids.",
+    "cues": [
+      "Manila suburb",
+      "pre-war base",
+      "air raid warnings",
+      "Japanese attacks"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\nevada_wwii_Ralph_Levenberg.yaml"
+  },
+  {
+    "entity_id": 10,
+    "entity": "Iba",
+    "explicit_text": "From June to October 1941, we were stationed at Iba for air-to-ground gunnery training. It was there that we received our first P-40 Warhawks, which felt like toys to us pilots. Iba was a crucial training ground just before the war erupted in the Pacific.",
+    "implicit_text": "From June to October 1941, we were stationed at a training base for air-to-ground gunnery. It was there that we received our first P-40 Warhawks, which felt like toys to us pilots. This location was a crucial training ground just before the war erupted in the Pacific.",
+    "cues": [
+      "June to October 1941",
+      "air-to-ground gunnery",
+      "P-40 Warhawk",
+      "training"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\nevada_wwii_Ralph_Levenberg.yaml"
+  },
+  {
+    "entity_id": 11,
+    "entity": "P-40 Warhawk",
+    "explicit_text": "The P-40 Warhawk was the first modern fighter we received at Iba in 1941. We were excited and felt like kids with new toys flying these planes. Unfortunately, many were destroyed early in the Japanese attacks, but they represented our best hope in the air.",
+    "implicit_text": "This fighter plane was the first modern aircraft we received at Iba in 1941. We were excited and felt like kids with new toys flying these planes. Unfortunately, many were destroyed early in the Japanese attacks, but they represented our best hope in the air.",
+    "cues": [
+      "1941",
+      "Iba",
+      "first modern fighter",
+      "Japanese attacks"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\nevada_wwii_Ralph_Levenberg.yaml"
+  },
+  {
+    "entity_id": 12,
+    "entity": "Pearl Harbor attack",
+    "explicit_text": "We learned on December 8th, 1941, that Pearl Harbor had been bombed, which was a turning point for us. Shortly after, Japanese bombers attacked our airfields in the Philippines, including Nichols Field. The Pearl Harbor attack marked the beginning of our direct involvement in World War II combat.",
+    "implicit_text": "We learned on December 8th, 1941, that the naval base in Hawaii had been bombed, which was a turning point for us. Shortly after, Japanese bombers attacked our airfields in the Philippines, including Nichols Field. This attack marked the beginning of our direct involvement in World War II combat.",
+    "cues": [
+      "December 8th, 1941",
+      "Pearl Harbor",
+      "Japanese bombers",
+      "Nichols Field",
+      "World War II"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\nevada_wwii_Ralph_Levenberg.yaml"
+  },
+  {
+    "entity_id": 13,
+    "entity": "Japanese dive bomber",
+    "explicit_text": "During the initial Japanese air raids on our airfields, Japanese dive bombers attacked our planes as they were landing to refuel. Their precision and aggression were terrifying, and it was my first real experience of war. They caused heavy damage to our aircraft and facilities.",
+    "implicit_text": "During the initial Japanese air raids on our airfields, enemy dive bombers attacked our planes as they were landing to refuel. Their precision and aggression were terrifying, and it was my first real experience of war. They caused heavy damage to our aircraft and facilities.",
+    "cues": [
+      "December 1941",
+      "Philippine airfields",
+      "Japanese air raids",
+      "war experience"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\nevada_wwii_Ralph_Levenberg.yaml"
+  },
+  {
+    "entity_id": 14,
+    "entity": "Mitsubishi A6M Zero",
+    "explicit_text": "The Mitsubishi A6M Zero was one of the Japanese fighter planes that attacked us during the early days of the war. They were fast and deadly, strafing and bombing our airfields relentlessly. Facing the Zeros was a terrifying introduction to aerial combat.",
+    "implicit_text": "One of the Japanese fighter planes that attacked us during the early days of the war was a fast and deadly model known for strafing and bombing our airfields relentlessly. Facing these fighters was a terrifying introduction to aerial combat.",
+    "cues": [
+      "December 1941",
+      "Japanese fighter",
+      "airfield attacks",
+      "aerial combat"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\nevada_wwii_Ralph_Levenberg.yaml"
+  },
+  {
+    "entity_id": 15,
+    "entity": "Boyd Wagner",
+    "explicit_text": "Boyd 'Buzz' Wagner was our commanding officer and a West Point graduate, one of the first aces in World War II. He was blinded in a dogfight over Manila but managed to land safely by radio guidance. His leadership was inspiring during those chaotic early battles.",
+    "implicit_text": "Our commanding officer was a West Point graduate and one of the first aces in World War II. He was blinded in a dogfight over Manila but managed to land safely by radio guidance. His leadership was inspiring during those chaotic early battles.",
+    "cues": [
+      "Boyd Wagner",
+      "West Point",
+      "World War II ace",
+      "dogfight",
+      "Manila"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\nevada_wwii_Ralph_Levenberg.yaml"
+  },
+  {
+    "entity_id": 16,
+    "entity": "West Point",
+    "explicit_text": "Our commanding officer, Boyd Wagner, was a graduate of West Point, which gave him a strong military background. His training and experience helped him lead us through the difficult early days of the war in the Philippines. West Point graduates like him were respected leaders.",
+    "implicit_text": "Our commanding officer was a graduate of the United States Military Academy, which gave him a strong military background. His training and experience helped him lead us through the difficult early days of the war in the Philippines. Graduates from this academy were respected leaders.",
+    "cues": [
+      "Boyd Wagner",
+      "military leadership",
+      "World War II",
+      "Philippines"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\nevada_wwii_Ralph_Levenberg.yaml"
+  },
+  {
+    "entity_id": 17,
+    "entity": "World War II",
+    "explicit_text": "I served during World War II, starting in 1940 in the Philippines. I witnessed the Japanese invasion, air raids, and the desperate defense of Bataan. The war changed everything for us, from flying P-40s to becoming infantry and enduring the brutal Bataan Death March.",
+    "implicit_text": "I served during the global conflict that started in 1940 in the Philippines. I witnessed the Japanese invasion, air raids, and the desperate defense of Bataan. The war changed everything for us, from flying P-40s to becoming infantry and enduring the brutal Bataan Death March.",
+    "cues": [
+      "1940-1942",
+      "Philippines",
+      "Japanese invasion",
+      "Bataan",
+      "air raids"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\nevada_wwii_Ralph_Levenberg.yaml"
+  },
+  {
+    "entity_id": 18,
+    "entity": "Bataan Peninsula",
+    "explicit_text": "After evacuating Manila, we were stationed on the Bataan Peninsula to defend against the Japanese. Conditions were harsh, with limited food and medical supplies, and we eventually had to surrender. Bataan was a place of intense fighting and suffering during the war.",
+    "implicit_text": "After evacuating Manila, we were stationed on a peninsula to defend against the Japanese. Conditions were harsh, with limited food and medical supplies, and we eventually had to surrender. This place was a site of intense fighting and suffering during the war.",
+    "cues": [
+      "December 1941",
+      "defense",
+      "harsh conditions",
+      "surrender",
+      "World War II"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\nevada_wwii_Ralph_Levenberg.yaml"
+  },
+  {
+    "entity_id": 19,
+    "entity": "P-35",
+    "explicit_text": "At Bataan, we had only one P-35 airplane left, which our mechanics desperately kept flying despite its condition. Our lone pilot flew along the coast to gather whatever support he could. The P-35 was outdated but all we had left to try to resist the Japanese advance.",
+    "implicit_text": "At Bataan, we had only one outdated fighter left, which our mechanics desperately kept flying despite its condition. Our lone pilot flew along the coast to gather whatever support he could. This plane was all we had left to try to resist the Japanese advance.",
+    "cues": [
+      "Bataan",
+      "single airplane",
+      "mechanics",
+      "pilot",
+      "World War II"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\nevada_wwii_Ralph_Levenberg.yaml"
+  },
+  {
+    "entity_id": 20,
+    "entity": "71st Philippine Provisional Group",
+    "explicit_text": "We joined the 71st Philippine Provisional Group, where all personnel, regardless of their original roles, were formed into infantry companies. Quartermasters, cooks, medics, and others were issued rifles and sent into combat. It was a desperate measure reflecting how dire the situation was.",
+    "implicit_text": "We joined a provisional group where all personnel, regardless of their original roles, were formed into infantry companies. Quartermasters, cooks, medics, and others were issued rifles and sent into combat. It was a desperate measure reflecting how dire the situation was.",
+    "cues": [
+      "Bataan",
+      "infantry formation",
+      "mixed personnel",
+      "World War II"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\nevada_wwii_Ralph_Levenberg.yaml"
+  },
+  {
+    "entity_id": 21,
+    "entity": "Springfield Rifle",
+    "explicit_text": "I was issued a .30 caliber Springfield Rifle, made in 1918, when we were turned into infantry on Bataan. It was an old weapon, but it was what we had to defend ourselves with. I carried it along with a bandolier of ammunition during patrols and combat.",
+    "implicit_text": "I was issued a .30 caliber rifle made in 1918 when we were turned into infantry on Bataan. It was an old weapon, but it was what we had to defend ourselves with. I carried it along with a bandolier of ammunition during patrols and combat.",
+    "cues": [
+      "Bataan",
+      "infantry",
+      "rifle issued",
+      "World War II"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\nevada_wwii_Ralph_Levenberg.yaml"
+  },
+  {
+    "entity_id": 22,
+    "entity": "Tommy gun",
+    "explicit_text": "During a jungle patrol, I grabbed a .45 caliber Tommy gun I spotted, even though I didn't know how to operate it. I had seen them in movies and thought it could be effective. The jungle fighting was chaotic and dangerous, but the Tommy gun gave me a sense of firepower.",
+    "implicit_text": "During a jungle patrol, I grabbed a .45 caliber submachine gun I spotted, even though I didn't know how to operate it. I had seen them in movies and thought it could be effective. The jungle fighting was chaotic and dangerous, but this weapon gave me a sense of firepower.",
+    "cues": [
+      "jungle patrol",
+      "Bataan",
+      "infantry",
+      "weapon"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\nevada_wwii_Ralph_Levenberg.yaml"
+  },
+  {
+    "entity_id": 23,
+    "entity": "Corregidor",
+    "explicit_text": "On April 8, 1942, we received a message from Corregidor ordering us to surrender the next morning. Corregidor was the last stronghold in the Philippines, and its fall signaled the end of organized resistance on Bataan. The surrender was a moment of relief but also despair.",
+    "implicit_text": "On April 8, 1942, we received a message from the last stronghold in the Philippines ordering us to surrender the next morning. Its fall signaled the end of organized resistance on Bataan. The surrender was a moment of relief but also despair.",
+    "cues": [
+      "April 1942",
+      "surrender order",
+      "Bataan",
+      "Philippines",
+      "World War II"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\nevada_wwii_Ralph_Levenberg.yaml"
+  },
+  {
+    "entity_id": 24,
+    "entity": "Cabcaben Air Field",
+    "explicit_text": "We were ordered to turn in our weapons at Cabcaben Air Field on Bataan after the surrender. It was a large open space where many units gathered to relinquish arms. The mood was somber as we faced the reality of captivity.",
+    "implicit_text": "We were ordered to turn in our weapons at an airfield on Bataan after the surrender. It was a large open space where many units gathered to relinquish arms. The mood was somber as we faced the reality of captivity.",
+    "cues": [
+      "April 1942",
+      "surrender",
+      "Bataan",
+      "weapon turn-in"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\nevada_wwii_Ralph_Levenberg.yaml"
+  },
+  {
+    "entity_id": 25,
+    "entity": "Japanese Empire",
+    "explicit_text": "The Japanese Empire was our enemy during the war in the Philippines. Their soldiers captured us after the fall of Bataan, and we endured harsh treatment and brutal marches under their control. They were disciplined but also capable of terrible atrocities.",
+    "implicit_text": "The enemy during the war in the Philippines was the imperial forces of Japan. Their soldiers captured us after the fall of Bataan, and we endured harsh treatment and brutal marches under their control. They were disciplined but also capable of terrible atrocities.",
+    "cues": [
+      "World War II",
+      "Philippines",
+      "captivity",
+      "Bataan Death March"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\nevada_wwii_Ralph_Levenberg.yaml"
+  },
+  {
+    "entity_id": 26,
+    "entity": "Bataan Death March",
+    "explicit_text": "After surrendering, we were forced to march for days in brutal heat during what became known as the Bataan Death March. Many men died from exhaustion, dehydration, and abuse by Japanese guards. It was one of the darkest experiences of the war for me and my comrades.",
+    "implicit_text": "After surrendering, we were forced to march for days in brutal heat during a forced transfer that became known by this name. Many men died from exhaustion, dehydration, and abuse by Japanese guards. It was one of the darkest experiences of the war for me and my comrades.",
+    "cues": [
+      "April 1942",
+      "Bataan",
+      "captivity",
+      "Japanese guards",
+      "death march"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\nevada_wwii_Ralph_Levenberg.yaml"
+  },
+  {
+    "entity_id": 27,
+    "entity": "San Fernando, Pampanga",
+    "explicit_text": "During the Bataan Death March, we passed through San Fernando, Pampanga, where prisoners were gathered before being transported further. The conditions were terrible, and the local Filipinos risked their lives to help us by slipping food. San Fernando was a grim waypoint on the march.",
+    "implicit_text": "During the forced march, we passed through a town in Pampanga where prisoners were gathered before being transported further. The conditions were terrible, and the local Filipinos risked their lives to help us by slipping food. This town was a grim waypoint on the march.",
+    "cues": [
+      "Bataan Death March",
+      "April 1942",
+      "Philippines",
+      "Filipino aid"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\nevada_wwii_Ralph_Levenberg.yaml"
+  },
+  {
+    "entity_id": 28,
+    "entity": "Capas, Tarlac",
+    "explicit_text": "Capas, Tarlac was another stop on the Bataan Death March where prisoners were loaded onto trains. The conditions remained brutal, with little food or water and constant abuse. Capas marked the transition from the forced march to transport into captivity.",
+    "implicit_text": "This town in Tarlac was another stop on the forced march where prisoners were loaded onto trains. The conditions remained brutal, with little food or water and constant abuse. This place marked the transition from the forced march to transport into captivity.",
+    "cues": [
+      "Bataan Death March",
+      "April 1942",
+      "Philippines",
+      "prisoner transport"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\nevada_wwii_Ralph_Levenberg.yaml"
+  },
+  {
+    "entity_id": 29,
+    "entity": "C-ration",
+    "explicit_text": "During the march and captivity, I found discarded chocolate squares from old C-rations, which became a vital food source for me. These small bits of food helped sustain me when we were given nothing to eat. C-rations were a rare comfort in a desperate time.",
+    "implicit_text": "During the march and captivity, I found discarded chocolate squares from old military rations, which became a vital food source for me. These small bits of food helped sustain me when we were given nothing to eat. These rations were a rare comfort in a desperate time.",
+    "cues": [
+      "Bataan Death March",
+      "food scarcity",
+      "chocolate",
+      "survival"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\nevada_wwii_Ralph_Levenberg.yaml"
+  }
+]

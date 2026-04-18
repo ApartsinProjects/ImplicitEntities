@@ -1,0 +1,202 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "Eritrea",
+    "summary": "I am originally from Eritrea, where I grew up speaking several local languages like Bilen, Tigrinya, and Tigre. Life in Eritrea was difficult due to political hardships and compulsory military service for those over eighteen. The government’s policies and economic struggles made me leave my home country to seek a better life elsewhere.",
+    "cues": [
+      "origin",
+      "languages spoken",
+      "political hardship",
+      "military service",
+      "economic struggles"
+    ],
+    "transcript_ref": "immigration\\imm_umn_26_simon_ghilamichael.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "Bilen language",
+    "summary": "Bilen is my native language from Eritrea, and it holds a special place in my heart. I grew up speaking Bilen at home before learning other languages like Tigrinya in school. It connects me deeply to my cultural roots and family, especially when my mother calls me with sweet words in Bilen.",
+    "cues": [
+      "native language",
+      "Eritrea",
+      "family",
+      "cultural roots"
+    ],
+    "transcript_ref": "immigration\\imm_umn_26_simon_ghilamichael.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "Tigrinya language",
+    "summary": "Tigrinya is the official language in Eritrea that I learned in elementary school, although it was hard for me at first since I didn’t know it when I started. My teacher asked me questions in Tigrinya, and I struggled to answer, which made me feel sad. Many people in Eritrea study Tigrinya, and it is used widely in education and daily life.",
+    "cues": [
+      "official language",
+      "elementary school",
+      "Eritrea",
+      "language learning difficulty"
+    ],
+    "transcript_ref": "immigration\\imm_umn_26_simon_ghilamichael.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "Tigre language",
+    "summary": "I learned Tigre from my neighborhood in Eritrea, where Tigre-speaking people are mostly Muslim and have their own schools. I really enjoy Tigre music, poems, drama, and films because they are very expressive and funny. Tigre culture and language have been a joyful part of my life back home.",
+    "cues": [
+      "neighborhood",
+      "Eritrea",
+      "Muslim community",
+      "music and drama",
+      "cultural enjoyment"
+    ],
+    "transcript_ref": "immigration\\imm_umn_26_simon_ghilamichael.yaml"
+  },
+  {
+    "entity_id": 5,
+    "entity": "Arabic language",
+    "summary": "I learned Arabic while living in Sudan and Egypt after leaving Eritrea. Arabic helped me communicate in these countries, and I like words such as 'Habibi' and 'Habibti,' which mean beloved. Speaking Arabic connected me to the people there and enriched my language skills during those years.",
+    "cues": [
+      "Sudan",
+      "Egypt",
+      "language learning",
+      "communication",
+      "Arabic words"
+    ],
+    "transcript_ref": "immigration\\imm_umn_26_simon_ghilamichael.yaml"
+  },
+  {
+    "entity_id": 6,
+    "entity": "English language",
+    "summary": "I started learning English in elementary school in Eritrea and continued through middle and high school. English became very important when I moved to Israel and later to the USA, where I improved my skills by taking classes at Hubbs Center. Learning English helped me pass my driver’s test and get better jobs, including my current work as a cook.",
+    "cues": [
+      "elementary school",
+      "Israel",
+      "USA",
+      "Hubbs Center",
+      "job opportunities"
+    ],
+    "transcript_ref": "immigration\\imm_umn_26_simon_ghilamichael.yaml"
+  },
+  {
+    "entity_id": 7,
+    "entity": "Sudan",
+    "summary": "After leaving Eritrea, I lived in Sudan for about a year and a half. During that time, I was exposed to Arabic language and culture, which helped me communicate and adjust to life outside my home country. Sudan was an important step in my journey before moving on to Egypt and Israel.",
+    "cues": [
+      "refugee journey",
+      "language exposure",
+      "cultural adjustment",
+      "one and a half years"
+    ],
+    "transcript_ref": "immigration\\imm_umn_26_simon_ghilamichael.yaml"
+  },
+  {
+    "entity_id": 8,
+    "entity": "Egypt",
+    "summary": "I stayed in Egypt for a few months after Sudan, where I continued to learn Arabic and interact with local people. Egypt was a brief but meaningful part of my journey as I prepared to move to Israel. The Arabic language and culture there left a positive impression on me.",
+    "cues": [
+      "few months stay",
+      "Arabic language",
+      "cultural interaction",
+      "transit to Israel"
+    ],
+    "transcript_ref": "immigration\\imm_umn_26_simon_ghilamichael.yaml"
+  },
+  {
+    "entity_id": 9,
+    "entity": "Israel",
+    "summary": "I lived in Israel for five years, working in a restaurant in Tel Aviv where I learned to speak and read Hebrew with help from my coworkers. Speaking Hebrew improved my job opportunities and wages. However, life was uncertain because the government could deport me back to Eritrea at any time, which made me decide to move to the USA.",
+    "cues": [
+      "five years",
+      "restaurant work",
+      "Tel Aviv",
+      "Hebrew language learning",
+      "deportation risk"
+    ],
+    "transcript_ref": "immigration\\imm_umn_26_simon_ghilamichael.yaml"
+  },
+  {
+    "entity_id": 10,
+    "entity": "Tel Aviv",
+    "summary": "In Tel Aviv, Israel, I worked in a restaurant for five years, which was where I learned Hebrew from my coworkers. This city was central to my experience of adapting to a new culture and language while supporting myself. Tel Aviv was both a workplace and a place where I grew my language skills.",
+    "cues": [
+      "restaurant work",
+      "Hebrew learning",
+      "five years",
+      "Israel"
+    ],
+    "transcript_ref": "immigration\\imm_umn_26_simon_ghilamichael.yaml"
+  },
+  {
+    "entity_id": 11,
+    "entity": "Hebrew language",
+    "summary": "I learned Hebrew while working in Israel, especially in Tel Aviv, by asking coworkers to teach me the alphabet and practicing reading whenever I had time. Knowing Hebrew made me more comfortable and helped me get better jobs and higher wages. It was a crucial skill during my five years living in Israel.",
+    "cues": [
+      "learning from coworkers",
+      "alphabet",
+      "job improvement",
+      "Israel",
+      "Tel Aviv"
+    ],
+    "transcript_ref": "immigration\\imm_umn_26_simon_ghilamichael.yaml"
+  },
+  {
+    "entity_id": 12,
+    "entity": "United States of America",
+    "summary": "I came to the United States to live with my brother, who applied for my visa because he was lonely. When I arrived, I worked hard to learn English by reading the driver’s license book and attending classes at Hubbs Center. The USA has given me opportunities to improve my language skills and work as a cook at Old Country Buffet.",
+    "cues": [
+      "brother sponsorship",
+      "visa",
+      "English learning",
+      "Hubbs Center",
+      "job as cook"
+    ],
+    "transcript_ref": "immigration\\imm_umn_26_simon_ghilamichael.yaml"
+  },
+  {
+    "entity_id": 13,
+    "entity": "Hubbs Center",
+    "summary": "At Hubbs Center, I have been studying English for over a year and a half, taking classes like ELL6, ELL7, Writing, Math, Social Studies, and Science. The center has helped me improve my English significantly and prepare for better job opportunities. It is an important part of my life here in the USA.",
+    "cues": [
+      "English classes",
+      "one year seven months",
+      "USA",
+      "language improvement"
+    ],
+    "transcript_ref": "immigration\\imm_umn_26_simon_ghilamichael.yaml"
+  },
+  {
+    "entity_id": 14,
+    "entity": "ServSafe",
+    "summary": "I took a three-month ServSafe class and earned my ServSafe certification, which made me very excited because it increased my wages. Studying for this certification involved a lot of hard work, but it was worth it for my career as a cook. ServSafe has helped me advance in the food service industry here in the USA.",
+    "cues": [
+      "three months study",
+      "certification",
+      "wage increase",
+      "cook job",
+      "USA"
+    ],
+    "transcript_ref": "immigration\\imm_umn_26_simon_ghilamichael.yaml"
+  },
+  {
+    "entity_id": 15,
+    "entity": "Old Country Buffet",
+    "summary": "Currently, I work as a cook at Old Country Buffet, where I apply my cooking skills and ServSafe certification. This job is important to me because it provides a stable income and a chance to practice English with coworkers. Old Country Buffet is part of my new life in the USA.",
+    "cues": [
+      "cook job",
+      "ServSafe certification",
+      "English practice",
+      "USA"
+    ],
+    "transcript_ref": "immigration\\imm_umn_26_simon_ghilamichael.yaml"
+  },
+  {
+    "entity_id": 16,
+    "entity": "Spanish language",
+    "summary": "I am interested in learning Spanish and have started practicing by speaking with classmates and coworkers who speak Spanish. I also search for Spanish words on the internet to improve my vocabulary. Learning Spanish is part of my goal to know more languages and be successful in a global world.",
+    "cues": [
+      "language learning",
+      "classmates and coworkers",
+      "internet study",
+      "global success"
+    ],
+    "transcript_ref": "immigration\\imm_umn_26_simon_ghilamichael.yaml"
+  }
+]

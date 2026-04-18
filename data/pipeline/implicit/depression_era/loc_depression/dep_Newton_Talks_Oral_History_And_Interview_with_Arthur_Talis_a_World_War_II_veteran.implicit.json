@@ -1,0 +1,336 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "Newton Highlands, Massachusetts",
+    "explicit_text": "After my service in the Navy, I lived in Newton Highlands, Massachusetts. It was a peaceful place to settle down after the war. Before that, I had lived in Boston, so moving to Newton was a new chapter in my life. It was where I started my post-service civilian life.",
+    "implicit_text": "After my service in the Navy, I lived in a quiet suburb of a Massachusetts city known for its colonial history. It was a peaceful place to settle down after the war. Before that, I had lived in the state's capital, so moving to this suburb was a new chapter in my life. It was where I started my post-service civilian life.",
+    "cues": [
+      "post-Navy service",
+      "residence",
+      "Newton Highlands",
+      "Massachusetts"
+    ],
+    "transcript_ref": "depression_era\\loc_depression\\dep_Newton_Talks_Oral_History_And_Interview_with_Arthur_Talis_a_World_War_II_veteran.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "South End, Boston",
+    "explicit_text": "Before I joined the Navy, I lived in the South End of Boston. That was my home during my early years and before I started college in the evenings in 1945. It was a vibrant neighborhood where I grew up and prepared for my future.",
+    "implicit_text": "Before I joined the Navy, I lived in a historic neighborhood of the Massachusetts capital known for its Victorian brownstones. That was my home during my early years and before I started college in the evenings in 1945. It was a vibrant neighborhood where I grew up and prepared for my future.",
+    "cues": [
+      "pre-service residence",
+      "South End",
+      "Boston",
+      "early life"
+    ],
+    "transcript_ref": "depression_era\\loc_depression\\dep_Newton_Talks_Oral_History_And_Interview_with_Arthur_Talis_a_World_War_II_veteran.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "United States Navy",
+    "explicit_text": "I joined the United States Navy in 1945, following my older brother who was also in the Navy and Harvard ROTC. My time in the Navy was disciplined but rewarding, and I adapted well to military life. I served aboard the USS Puget Sound and was involved in delivering the first jet planes overseas during the post-war period.",
+    "implicit_text": "I joined the naval forces of my country in 1945, following my older brother who was also in the same branch and part of a prestigious university's ROTC program. My time in this military branch was disciplined but rewarding, and I adapted well to military life. I served aboard an escort carrier and was involved in delivering the first jet planes overseas during the post-war period.",
+    "cues": [
+      "joined 1945",
+      "military discipline",
+      "brother in Navy",
+      "USS Puget Sound",
+      "jet plane delivery"
+    ],
+    "transcript_ref": "depression_era\\loc_depression\\dep_Newton_Talks_Oral_History_And_Interview_with_Arthur_Talis_a_World_War_II_veteran.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "Great Lakes Naval Training Center",
+    "explicit_text": "When I first entered the Navy in 1945, I was sent to the Great Lakes Naval Training Center for five weeks of schooling. It was my introduction to military life and discipline. This training prepared me for my subsequent duties in the Navy.",
+    "implicit_text": "When I first entered the naval service in 1945, I was sent to a major training facility near Chicago for five weeks of schooling. It was my introduction to military life and discipline. This training prepared me for my subsequent duties in the Navy.",
+    "cues": [
+      "1945",
+      "initial Navy training",
+      "five weeks",
+      "Great Lakes Naval Training Center"
+    ],
+    "transcript_ref": "depression_era\\loc_depression\\dep_Newton_Talks_Oral_History_And_Interview_with_Arthur_Talis_a_World_War_II_veteran.yaml"
+  },
+  {
+    "entity_id": 5,
+    "entity": "St. Louis",
+    "explicit_text": "After my training, I was sent to the St. Louis Personnel Separation Center to help discharge veterans returning from the war. I also worked in St. Louis as a disbursing clerk before boarding the USS Puget Sound. It was a key location in my Navy service.",
+    "implicit_text": "After my training, I was sent to a personnel separation center in a large Missouri city to help discharge veterans returning from the war. I also worked there as a disbursing clerk before boarding the escort carrier. It was a key location in my Navy service.",
+    "cues": [
+      "post-training assignment",
+      "personnel separation",
+      "disbursing clerk",
+      "St. Louis, Missouri"
+    ],
+    "transcript_ref": "depression_era\\loc_depression\\dep_Newton_Talks_Oral_History_And_Interview_with_Arthur_Talis_a_World_War_II_veteran.yaml"
+  },
+  {
+    "entity_id": 6,
+    "entity": "Harvard College",
+    "explicit_text": "My older brother was in Harvard College Training ROTC, which influenced me to join the Navy as well. Although I did not attend Harvard myself, his connection to the college shaped my decision to serve in the Navy. It was part of my family's military tradition.",
+    "implicit_text": "My older brother was in the ROTC program at an Ivy League university in Cambridge, which influenced me to join the Navy as well. Although I did not attend that university myself, his connection to the college shaped my decision to serve in the Navy. It was part of my family's military tradition.",
+    "cues": [
+      "brother's ROTC",
+      "Harvard College",
+      "military influence",
+      "family connection"
+    ],
+    "transcript_ref": "depression_era\\loc_depression\\dep_Newton_Talks_Oral_History_And_Interview_with_Arthur_Talis_a_World_War_II_veteran.yaml"
+  },
+  {
+    "entity_id": 7,
+    "entity": "USS Puget Sound (CVE-113)",
+    "explicit_text": "I served aboard the USS Puget Sound, an escort carrier stationed in Alameda, California. We sailed from there in March 1946, carrying the first P-80 Shooting Star jet planes to Manila in the Philippine Islands. My role included disbursing and storekeeping duties on the ship.",
+    "implicit_text": "I served aboard an escort carrier stationed in a naval base in the San Francisco Bay Area. We sailed from there in March 1946, carrying the first jet fighters to Manila in the Philippine Islands. My role included disbursing and storekeeping duties on the ship.",
+    "cues": [
+      "USS Puget Sound",
+      "CVE-113",
+      "Alameda, California",
+      "March 1946",
+      "jet plane delivery",
+      "Manila"
+    ],
+    "transcript_ref": "depression_era\\loc_depression\\dep_Newton_Talks_Oral_History_And_Interview_with_Arthur_Talis_a_World_War_II_veteran.yaml"
+  },
+  {
+    "entity_id": 8,
+    "entity": "Alameda, California",
+    "explicit_text": "The USS Puget Sound was stationed in Alameda, California, where I boarded the ship in March 1946. Alameda was our home port before we set sail for the Philippines. It was from there that my journey across the Pacific began.",
+    "implicit_text": "The escort carrier was stationed in a city on the east side of San Francisco Bay, where I boarded the ship in March 1946. This city was our home port before we set sail for the Philippines. It was from there that my journey across the Pacific began.",
+    "cues": [
+      "USS Puget Sound home port",
+      "boarding March 1946",
+      "departure point",
+      "Alameda, California"
+    ],
+    "transcript_ref": "depression_era\\loc_depression\\dep_Newton_Talks_Oral_History_And_Interview_with_Arthur_Talis_a_World_War_II_veteran.yaml"
+  },
+  {
+    "entity_id": 9,
+    "entity": "Manila",
+    "explicit_text": "We arrived in Manila after a 20-day voyage in 1946, and the harbor was eerie with sunken ships and masts protruding from the water. Our mission was to deliver the first P-80 Shooting Star jet planes to Clark Field in Manila. It was a memorable experience seeing the aftermath of the war there.",
+    "implicit_text": "We arrived in the capital of the Philippines after a 20-day voyage in 1946, and the harbor was eerie with sunken ships and masts protruding from the water. Our mission was to deliver the first jet fighters to an airfield near the city. It was a memorable experience seeing the aftermath of the war there.",
+    "cues": [
+      "arrival 1946",
+      "20-day voyage",
+      "Manila harbor",
+      "Clark Field",
+      "jet plane delivery"
+    ],
+    "transcript_ref": "depression_era\\loc_depression\\dep_Newton_Talks_Oral_History_And_Interview_with_Arthur_Talis_a_World_War_II_veteran.yaml"
+  },
+  {
+    "entity_id": 10,
+    "entity": "Philippine Islands",
+    "explicit_text": "In 1946, I sailed with the USS Puget Sound to the Philippine Islands, specifically to deliver jet planes to Clark Field in Manila. The harbor was filled with sunken ships, a stark reminder of the war's impact. It was a significant part of my Navy service in the post-war period.",
+    "implicit_text": "In 1946, I sailed with the escort carrier to a Southeast Asian archipelago, specifically to deliver jet planes to an airfield near its capital. The harbor was filled with sunken ships, a stark reminder of the war's impact. It was a significant part of my Navy service in the post-war period.",
+    "cues": [
+      "1946 voyage",
+      "Philippine Islands",
+      "Manila",
+      "post-war delivery mission"
+    ],
+    "transcript_ref": "depression_era\\loc_depression\\dep_Newton_Talks_Oral_History_And_Interview_with_Arthur_Talis_a_World_War_II_veteran.yaml"
+  },
+  {
+    "entity_id": 11,
+    "entity": "P-80 Shooting Star",
+    "explicit_text": "Our ship was loaded with the first P-80 Shooting Star jet planes that the United States was shipping overseas. These jets were tied down on the deck as we made our way to Manila in 1946. I wasn't a pilot, but I took pictures of these remarkable new planes during the voyage.",
+    "implicit_text": "Our ship was loaded with the first jet fighters that the United States was shipping overseas. These jets were tied down on the deck as we made our way to Manila in 1946. I wasn't a pilot, but I took pictures of these remarkable new planes during the voyage.",
+    "cues": [
+      "first jets",
+      "1946 delivery",
+      "tied down on deck",
+      "Manila",
+      "USS Puget Sound"
+    ],
+    "transcript_ref": "depression_era\\loc_depression\\dep_Newton_Talks_Oral_History_And_Interview_with_Arthur_Talis_a_World_War_II_veteran.yaml"
+  },
+  {
+    "entity_id": 12,
+    "entity": "Nagasaki",
+    "explicit_text": "I remember the day Nagasaki was bombed with the atomic bomb; it was a turning point in the war. The lights suddenly went on at 3:00 in the morning, and everyone was shouting that Japan had surrendered. It was a moment of relief and hope for all of us in the Navy.",
+    "implicit_text": "I remember the day a Japanese city was bombed with the atomic bomb; it was a turning point in the war. The lights suddenly went on at 3:00 in the morning, and everyone was shouting that Japan had surrendered. It was a moment of relief and hope for all of us in the Navy.",
+    "cues": [
+      "atomic bombing",
+      "Nagasaki",
+      "lights on at 3 a.m.",
+      "Japan surrender",
+      "World War II"
+    ],
+    "transcript_ref": "depression_era\\loc_depression\\dep_Newton_Talks_Oral_History_And_Interview_with_Arthur_Talis_a_World_War_II_veteran.yaml"
+  },
+  {
+    "entity_id": 13,
+    "entity": "Atomic bombings of Hiroshima and Nagasaki",
+    "explicit_text": "The atomic bombings of Hiroshima and Nagasaki in 1945 were pivotal events that led to Japan's surrender. I recall the night of the Nagasaki bombing vividly, when the lights came on suddenly and the news spread quickly. These bombings marked the end of hostilities and my eventual discharge from the Navy in August 1946.",
+    "implicit_text": "The atomic bombings of two Japanese cities in 1945 were pivotal events that led to Japan's surrender. I recall the night of the second bombing vividly, when the lights came on suddenly and the news spread quickly. These bombings marked the end of hostilities and my eventual discharge from the Navy in August 1946.",
+    "cues": [
+      "1945 bombings",
+      "Japan surrender",
+      "end of World War II",
+      "Navy discharge August 1946"
+    ],
+    "transcript_ref": "depression_era\\loc_depression\\dep_Newton_Talks_Oral_History_And_Interview_with_Arthur_Talis_a_World_War_II_veteran.yaml"
+  },
+  {
+    "entity_id": 14,
+    "entity": "Japan",
+    "explicit_text": "During my service, Japan was the enemy nation that surrendered after the atomic bombings in 1945. I remember the eerie silence and the news of their surrender that brought relief to us all. Our Navy duties continued in the Pacific until the war officially ended.",
+    "implicit_text": "During my service, the enemy nation in the Pacific surrendered after the atomic bombings in 1945. I remember the eerie silence and the news of their surrender that brought relief to us all. Our Navy duties continued in the Pacific until the war officially ended.",
+    "cues": [
+      "World War II enemy",
+      "atomic bombings",
+      "Japan surrender",
+      "Pacific theater"
+    ],
+    "transcript_ref": "depression_era\\loc_depression\\dep_Newton_Talks_Oral_History_And_Interview_with_Arthur_Talis_a_World_War_II_veteran.yaml"
+  },
+  {
+    "entity_id": 15,
+    "entity": "Germany",
+    "explicit_text": "Germany surrendered in August 1945, shortly after Japan's surrender. The end of the war in Europe was a significant milestone, and I was glad because it meant my service would soon end. The war's conclusion allowed me to return to civilian life and continue my education.",
+    "implicit_text": "The European Axis power surrendered in August 1945, shortly after Japan's surrender. The end of the war in Europe was a significant milestone, and I was glad because it meant my service would soon end. The war's conclusion allowed me to return to civilian life and continue my education.",
+    "cues": [
+      "Germany surrender August 1945",
+      "end of European war",
+      "service ending",
+      "World War II"
+    ],
+    "transcript_ref": "depression_era\\loc_depression\\dep_Newton_Talks_Oral_History_And_Interview_with_Arthur_Talis_a_World_War_II_veteran.yaml"
+  },
+  {
+    "entity_id": 16,
+    "entity": "World War II",
+    "explicit_text": "World War II shaped much of my early adult life. I served in the Navy during the final year and the immediate aftermath of the war. The conflict affected my family deeply, and I always prayed for those who gave their lives. After the war, I resumed my education and career with a new appreciation for peace and freedom.",
+    "implicit_text": "The global conflict that lasted from 1939 to 1945 shaped much of my early adult life. I served in the Navy during the final year and the immediate aftermath of the war. The conflict affected my family deeply, and I always prayed for those who gave their lives. After the war, I resumed my education and career with a new appreciation for peace and freedom.",
+    "cues": [
+      "final year service",
+      "Navy",
+      "family impact",
+      "post-war education",
+      "prayers for fallen"
+    ],
+    "transcript_ref": "depression_era\\loc_depression\\dep_Newton_Talks_Oral_History_And_Interview_with_Arthur_Talis_a_World_War_II_veteran.yaml"
+  },
+  {
+    "entity_id": 17,
+    "entity": "Works Progress Administration",
+    "explicit_text": "During the Great Depression, my father was out of work for years until he found a job with the Works Progress Administration. He worked on pick and shovel projects for $15 a week, which was the most allowed to spread employment. This period was tough for my family, but the WPA helped us survive.",
+    "implicit_text": "During the Great Depression, my father was out of work for years until he found a job with a federal agency that provided public works jobs. He worked on pick and shovel projects for $15 a week, which was the most allowed to spread employment. This period was tough for my family, but that agency helped us survive.",
+    "cues": [
+      "Great Depression",
+      "father's employment",
+      "Works Progress Administration",
+      "pick and shovel work",
+      "$15 per week"
+    ],
+    "transcript_ref": "depression_era\\loc_depression\\dep_Newton_Talks_Oral_History_And_Interview_with_Arthur_Talis_a_World_War_II_veteran.yaml"
+  },
+  {
+    "entity_id": 18,
+    "entity": "Internal Revenue Service",
+    "explicit_text": "After the war and my schooling, I took an exam for the Internal Revenue Service and was selected as a Deputy Collector Agent. I worked as an Internal Revenue Agent in Springfield, Illinois, which was a significant part of my civilian career. This job came during the Truman administration's civil service reforms.",
+    "implicit_text": "After the war and my schooling, I took an exam for the federal tax collection agency and was selected as a Deputy Collector Agent. I worked as an agent in Springfield, Illinois, which was a significant part of my civilian career. This job came during the Truman administration's civil service reforms.",
+    "cues": [
+      "post-war career",
+      "IRS Deputy Collector",
+      "Springfield, Illinois",
+      "Truman administration",
+      "civil service"
+    ],
+    "transcript_ref": "depression_era\\loc_depression\\dep_Newton_Talks_Oral_History_And_Interview_with_Arthur_Talis_a_World_War_II_veteran.yaml"
+  },
+  {
+    "entity_id": 19,
+    "entity": "Truman administration",
+    "explicit_text": "During the Truman administration, civil service exams were set for positions like Deputy Collector of Internal Revenue. I took advantage of this opportunity and passed the exam, which led to my career as an IRS agent. This period marked my transition from military to civilian government service.",
+    "implicit_text": "During the presidency of the man who succeeded Roosevelt, civil service exams were set for positions like Deputy Collector of Internal Revenue. I took advantage of this opportunity and passed the exam, which led to my career as a federal tax agent. This period marked my transition from military to civilian government service.",
+    "cues": [
+      "Truman administration",
+      "civil service exams",
+      "IRS career start",
+      "post-World War II"
+    ],
+    "transcript_ref": "depression_era\\loc_depression\\dep_Newton_Talks_Oral_History_And_Interview_with_Arthur_Talis_a_World_War_II_veteran.yaml"
+  },
+  {
+    "entity_id": 20,
+    "entity": "Boston Latin School",
+    "explicit_text": "I started high school at Boston Latin School but found it too rigorous with Latin, Greek, and English studies. After a few weeks, I told my brother I couldn't handle the regimented environment. So, I switched to a commercial high school across the street, which suited me better.",
+    "implicit_text": "I started high school at a prestigious and rigorous public school in the Massachusetts capital known for its classical curriculum including Latin and Greek. But I found it too rigorous with Latin, Greek, and English studies. After a few weeks, I told my brother I couldn't handle the regimented environment. So, I switched to a commercial high school across the street, which suited me better.",
+    "cues": [
+      "early high school",
+      "Boston Latin School",
+      "Latin and Greek studies",
+      "school transfer"
+    ],
+    "transcript_ref": "depression_era\\loc_depression\\dep_Newton_Talks_Oral_History_And_Interview_with_Arthur_Talis_a_World_War_II_veteran.yaml"
+  },
+  {
+    "entity_id": 21,
+    "entity": "High School of Commerce (Boston)",
+    "explicit_text": "After leaving Boston Latin School, I enrolled at the High School of Commerce in Boston. It was a commercial high school where I completed my studies and graduated. This school was a better fit for me and prepared me for my business studies later on.",
+    "implicit_text": "After leaving the rigorous classical high school, I enrolled at a commercial high school in the Massachusetts capital. It was a place where I completed my studies and graduated. This school was a better fit for me and prepared me for my business studies later on.",
+    "cues": [
+      "high school transfer",
+      "commercial studies",
+      "Boston",
+      "graduation"
+    ],
+    "transcript_ref": "depression_era\\loc_depression\\dep_Newton_Talks_Oral_History_And_Interview_with_Arthur_Talis_a_World_War_II_veteran.yaml"
+  },
+  {
+    "entity_id": 22,
+    "entity": "International Date Line",
+    "explicit_text": "On our voyage to Manila in 1946, we crossed the International Date Line on Easter Sunday. It was interesting because we experienced two Easter Sundays in a row. That was a unique and memorable moment during my Navy service.",
+    "implicit_text": "On our voyage to Manila in 1946, we crossed the imaginary line that separates calendar days on Easter Sunday. It was interesting because we experienced two Easter Sundays in a row. That was a unique and memorable moment during my Navy service.",
+    "cues": [
+      "1946 voyage",
+      "crossing International Date Line",
+      "two Easter Sundays",
+      "Pacific crossing"
+    ],
+    "transcript_ref": "depression_era\\loc_depression\\dep_Newton_Talks_Oral_History_And_Interview_with_Arthur_Talis_a_World_War_II_veteran.yaml"
+  },
+  {
+    "entity_id": 23,
+    "entity": "Buzz bomb",
+    "explicit_text": "During the war, the Germans blitzed England with their buzz bombs, which were early jet planes. Our Navy ship was later loaded with American jets, the P-80 Shooting Stars, which were the first jets we shipped overseas. The development of these jets was remarkable and could have changed the war's outcome if the Germans had perfected theirs.",
+    "implicit_text": "During the war, the Germans blitzed England with their early jet-powered flying bombs. Our Navy ship was later loaded with American jets, the first ones we shipped overseas. The development of these jets was remarkable and could have changed the war's outcome if the Germans had perfected theirs.",
+    "cues": [
+      "German buzz bombs",
+      "jet plane development",
+      "P-80 Shooting Star",
+      "World War II aviation"
+    ],
+    "transcript_ref": "depression_era\\loc_depression\\dep_Newton_Talks_Oral_History_And_Interview_with_Arthur_Talis_a_World_War_II_veteran.yaml"
+  },
+  {
+    "entity_id": 24,
+    "entity": "Methodist Church",
+    "explicit_text": "One of my shipmates, Paul Beech, went on to become a Methodist Minister in Illinois. We stayed in touch through Christmas cards over the years. It was nice to have that connection from my Navy days continue into civilian life.",
+    "implicit_text": "One of my shipmates, Paul Beech, went on to become a minister in a Protestant denomination in Illinois. We stayed in touch through Christmas cards over the years. It was nice to have that connection from my Navy days continue into civilian life.",
+    "cues": [
+      "shipmate Paul Beech",
+      "Methodist Minister",
+      "Illinois",
+      "post-service friendship"
+    ],
+    "transcript_ref": "depression_era\\loc_depression\\dep_Newton_Talks_Oral_History_And_Interview_with_Arthur_Talis_a_World_War_II_veteran.yaml"
+  },
+  {
+    "entity_id": 25,
+    "entity": "Springfield, Illinois",
+    "explicit_text": "After passing the IRS exam, I was assigned to work as an Internal Revenue Agent in Springfield, Illinois. This was an important phase in my post-military career. It was also where I maintained correspondence with my friend who became a Methodist Minister.",
+    "implicit_text": "After passing the federal tax exam, I was assigned to work as an agent in the capital city of Illinois. This was an important phase in my post-military career. It was also where I maintained correspondence with my friend who became a Methodist Minister.",
+    "cues": [
+      "IRS career",
+      "Internal Revenue Agent",
+      "Springfield, Illinois",
+      "post-war civilian life"
+    ],
+    "transcript_ref": "depression_era\\loc_depression\\dep_Newton_Talks_Oral_History_And_Interview_with_Arthur_Talis_a_World_War_II_veteran.yaml"
+  }
+]

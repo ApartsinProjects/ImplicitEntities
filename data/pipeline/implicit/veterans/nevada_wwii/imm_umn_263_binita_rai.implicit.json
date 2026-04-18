@@ -1,0 +1,109 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "Bhutan",
+    "explicit_text": "My parents were born in Bhutan, but they had to leave in 1992 because of the civil war. The government there did not allow Nepali people to stay, so they moved to Nepal. Before they left Bhutan, my parents lived near each other and later got married in 1995.",
+    "implicit_text": "My parents were born in a small Himalayan kingdom, but they had to leave in 1992 because of the civil war. The government there did not allow Nepali people to stay, so they moved to Nepal. Before they left that kingdom, my parents lived near each other and later got married in 1995.",
+    "cues": [
+      "1992",
+      "civil war",
+      "Nepali people",
+      "parents born",
+      "marriage 1995"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_263_binita_rai.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "Nepal",
+    "explicit_text": "I was born in a refugee camp in Nepal in 1997 after my parents fled Bhutan. They first stayed in the forest before the Nepalese government allowed them to build bamboo houses and provided food supplies. Later, when we left the camp, we flew from Nepal’s capital, Kathmandu, on our way to the United States.",
+    "implicit_text": "I was born in a refugee camp in a South Asian country in 1997 after my parents fled the Himalayan kingdom. They first stayed in the forest before the government there allowed them to build bamboo houses and provided food supplies. Later, when we left the camp, we flew from the capital city of that country on our way to the United States.",
+    "cues": [
+      "1997 birth",
+      "refugee camp",
+      "forest stay",
+      "Nepalese government aid",
+      "Kathmandu airport"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_263_binita_rai.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "United States",
+    "explicit_text": "In 2014, my family applied for resettlement in the United States because our relatives told us we could have a better life there. After a long process, we arrived in the U.S. in September 2015, first landing in Los Angeles and then moving to Colorado. A year later, we relocated to Minnesota to be closer to family.",
+    "implicit_text": "In 2014, my family applied for resettlement in a North American country because our relatives told us we could have a better life there. After a long process, we arrived there in September 2015, first landing in Los Angeles and then moving to a mountain state. A year later, we relocated to a northern Midwestern state to be closer to family.",
+    "cues": [
+      "2014 application",
+      "September 2015 arrival",
+      "Los Angeles",
+      "Colorado",
+      "Minnesota move"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_263_binita_rai.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "Colorado",
+    "explicit_text": "When we first arrived in the United States in September 2015, we settled in Colorado. We stayed there for almost a year, but since we didn’t have relatives there, we decided to move to Minnesota where many of our family members lived.",
+    "implicit_text": "When we first arrived in the United States in September 2015, we settled in a mountain state. We stayed there for almost a year, but since we didn’t have relatives there, we decided to move to a northern Midwestern state where many of our family members lived.",
+    "cues": [
+      "September 2015 arrival",
+      "first U.S. home",
+      "one year stay",
+      "lack of relatives"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_263_binita_rai.yaml"
+  },
+  {
+    "entity_id": 5,
+    "entity": "Minnesota",
+    "explicit_text": "After living in Colorado for about a year, my family moved to Minnesota to join our relatives. It felt good to be closer to family, and that’s where we have been since. Minnesota became our new home after the long journey from Nepal and Bhutan.",
+    "implicit_text": "After living in a mountain state for about a year, my family moved to a northern Midwestern state to join our relatives. It felt good to be closer to family, and that’s where we have been since. This northern state became our new home after the long journey from Nepal and the Himalayan kingdom.",
+    "cues": [
+      "move after one year in Colorado",
+      "joining relatives",
+      "new home"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_263_binita_rai.yaml"
+  },
+  {
+    "entity_id": 6,
+    "entity": "Kathmandu",
+    "explicit_text": "After leaving the refugee camp in Nepal, we flew to Kathmandu, the capital city, where we stayed for five days waiting for our turn to move. It was my first time seeing so many new things and it was both scary and exciting. Kathmandu was an important stop on our journey to the United States.",
+    "implicit_text": "After leaving the refugee camp in Nepal, we flew to the capital city of that country, where we stayed for five days waiting for our turn to move. It was my first time seeing so many new things and it was both scary and exciting. That capital was an important stop on our journey to the United States.",
+    "cues": [
+      "arrival after camp",
+      "five-day stay",
+      "capital city",
+      "first new experiences"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_263_binita_rai.yaml"
+  },
+  {
+    "entity_id": 7,
+    "entity": "Hong Kong",
+    "explicit_text": "On our way to the United States, we had a layover in Hong Kong where we stayed for five hours waiting for our next flight. It was a long journey, and I remember feeling sick on the plane. Luckily, my mom found a Nepali speaker there who helped us communicate since she didn’t speak English.",
+    "implicit_text": "On our way to the United States, we had a layover in a major Asian financial hub where we stayed for five hours waiting for our next flight. It was a long journey, and I remember feeling sick on the plane. Luckily, my mom found a Nepali speaker there who helped us communicate since she didn’t speak English.",
+    "cues": [
+      "five-hour layover",
+      "long flight",
+      "help from Nepali speaker",
+      "language barrier"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_263_binita_rai.yaml"
+  },
+  {
+    "entity_id": 8,
+    "entity": "Bhutanese refugee camp",
+    "explicit_text": "My parents lived in a Bhutanese refugee camp in Nepal after fleeing Bhutan in 1992. At first, they had no proper shelter and stayed in the forest until the Nepalese government allowed them to build bamboo houses and provided food supplies. I was born there in 1997, and it was the place where our family started before moving to the United States.",
+    "implicit_text": "My parents lived in a refugee camp in Nepal after fleeing the Himalayan kingdom in 1992. At first, they had no proper shelter and stayed in the forest until the Nepalese government allowed them to build bamboo houses and provided food supplies. I was born there in 1997, and it was the place where our family started before moving to the United States.",
+    "cues": [
+      "1992 arrival",
+      "forest stay",
+      "bamboo houses",
+      "food aid",
+      "1997 birth"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_263_binita_rai.yaml"
+  }
+]

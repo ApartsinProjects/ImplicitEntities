@@ -1,0 +1,132 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "Westmont, Illinois",
+    "explicit_text": "I was living in the Village of Westmont, Illinois when I decided to join the Army in 1965. At the time, I was working construction and a friend and I were thinking about military service as the Vietnam War was heating up. Westmont was home for me as I prepared to take on what I thought would be a great adventure.",
+    "implicit_text": "I was living in a small village in Illinois when I decided to join the Army in 1965. At the time, I was working construction and a friend and I were thinking about military service as the conflict in Southeast Asia was heating up. That village was home for me as I prepared to take on what I thought would be a great adventure.",
+    "cues": [
+      "1965",
+      "construction work",
+      "Vietnam War",
+      "military enlistment"
+    ],
+    "transcript_ref": "veterans\\ippl_library\\ippl_vhp_army_trout.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "Vietnam War",
+    "explicit_text": "The Vietnam War was just starting to escalate when I joined the Army in 1965. I saw it on TV every night and believed we were stopping the Communists from taking over another country. I thought it would be like Korea, a short conflict, and I was ready to do my duty and serve my country during that time.",
+    "implicit_text": "The conflict in Southeast Asia was just starting to escalate when I joined the Army in 1965. I saw it on TV every night and believed we were stopping the Communists from taking over another country. I thought it would be like Korea, a short conflict, and I was ready to do my duty and serve my country during that time.",
+    "cues": [
+      "1965",
+      "TV news coverage",
+      "Communism",
+      "Korean War comparison"
+    ],
+    "transcript_ref": "veterans\\ippl_library\\ippl_vhp_army_trout.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "United States Army",
+    "explicit_text": "I enlisted in the United States Army at age 20 in 1965, motivated by a friend who was a paratrooper and the emerging reputation of the Special Forces. I was inducted in Chicago and went through basic training at Fort Knox, Kentucky. The Army was a place where all kinds of men came together, and it was about becoming a soldier regardless of background.",
+    "implicit_text": "I enlisted in the national military at age 20 in 1965, motivated by a friend who was a paratrooper and the emerging reputation of the Special Forces. I was inducted in Chicago and went through basic training at a Kentucky base known for armored training. The military was a place where all kinds of men came together, and it was about becoming a soldier regardless of background.",
+    "cues": [
+      "1965",
+      "Chicago induction",
+      "Fort Knox basic training",
+      "paratrooper influence"
+    ],
+    "transcript_ref": "veterans\\ippl_library\\ippl_vhp_army_trout.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "United States Army Special Forces",
+    "explicit_text": "When I joined the Army, I wanted to become a paratrooper and then move into the United States Army Special Forces, the Green Berets, which were just becoming well known. I admired a friend who was a paratrooper and thought Special Forces would be the best. It was part of my goal to be the best in the military.",
+    "implicit_text": "When I joined the military, I wanted to become a paratrooper and then move into the elite special operations unit known for their distinctive headgear, which were just becoming well known. I admired a friend who was a paratrooper and thought this elite group would be the best. It was part of my goal to be the best in the military.",
+    "cues": [
+      "1965",
+      "Green Berets",
+      "paratrooper friend",
+      "Army career goals"
+    ],
+    "transcript_ref": "veterans\\ippl_library\\ippl_vhp_army_trout.yaml"
+  },
+  {
+    "entity_id": 5,
+    "entity": "World War II",
+    "explicit_text": "My uncle served in World War II, and my father was a railroad engineer during that time, so he was exempt from military service. While I didn't have direct family in the military except my uncle, their experiences influenced my respect for service. World War II was a backdrop to my family's history as I prepared to join the Army during Vietnam.",
+    "implicit_text": "My uncle served in the global conflict of the early 1940s, and my father was a railroad engineer during that time, so he was exempt from military service. While I didn't have direct family in the military except my uncle, their experiences influenced my respect for service. That major war was a backdrop to my family's history as I prepared to join the Army during the conflict in Southeast Asia.",
+    "cues": [
+      "uncle's service",
+      "father's railroad work",
+      "family military history",
+      "World War II era"
+    ],
+    "transcript_ref": "veterans\\ippl_library\\ippl_vhp_army_trout.yaml"
+  },
+  {
+    "entity_id": 6,
+    "entity": "Chicago",
+    "explicit_text": "I was inducted into the Army in Chicago in 1965, at an induction center downtown possibly near Dearborn Street. My friends and I left Chicago by train from Union Station heading to Fort Campbell, Kentucky. Chicago was the place where my military journey officially began.",
+    "implicit_text": "I was inducted into the military in a major Midwestern city in 1965, at an induction center downtown possibly near Dearborn Street. My friends and I left that city by train from its main station heading to a Kentucky base. That city was the place where my military journey officially began.",
+    "cues": [
+      "1965",
+      "induction center",
+      "Dearborn Street",
+      "Union Station train departure"
+    ],
+    "transcript_ref": "veterans\\ippl_library\\ippl_vhp_army_trout.yaml"
+  },
+  {
+    "entity_id": 7,
+    "entity": "Fort Knox",
+    "explicit_text": "After induction, I went to Fort Knox, Kentucky for basic training in August 1965. The barracks were old World War II style with coal-fed furnaces, and the training was tough with strict discipline and daily inspections. Fort Knox was where I transformed from a civilian into a soldier, learning to live and work under Army standards.",
+    "implicit_text": "After induction, I went to a Kentucky base famous for its armored training in August 1965 for basic training. The barracks were old World War II style with coal-fed furnaces, and the training was tough with strict discipline and daily inspections. That base was where I transformed from a civilian into a soldier, learning to live and work under military standards.",
+    "cues": [
+      "August 1965",
+      "basic training",
+      "World War II barracks",
+      "Kentucky"
+    ],
+    "transcript_ref": "veterans\\ippl_library\\ippl_vhp_army_trout.yaml"
+  },
+  {
+    "entity_id": 8,
+    "entity": "Fort Campbell",
+    "explicit_text": "We took a train from Chicago to Louisville, Kentucky, and then a Greyhound bus to Fort Knox, but the train actually stopped at Fort Campbell, Kentucky first. It was part of the journey to basic training, and I remember arriving in Louisville at night and seeing segregation for the first time. Fort Campbell was on the route as we moved toward Fort Knox.",
+    "implicit_text": "We took a train from the Midwestern city to Louisville, Kentucky, and then a bus to the armored training base, but the train actually stopped at another Kentucky base first. It was part of the journey to basic training, and I remember arriving in Louisville at night and seeing segregation for the first time. That Kentucky base was on the route as we moved toward the armored training facility.",
+    "cues": [
+      "1965",
+      "train route",
+      "Louisville",
+      "segregation experience"
+    ],
+    "transcript_ref": "veterans\\ippl_library\\ippl_vhp_army_trout.yaml"
+  },
+  {
+    "entity_id": 9,
+    "entity": "Louisville, Kentucky",
+    "explicit_text": "When we arrived in Louisville, Kentucky by train on the way to Fort Knox, it was dark and I experienced segregation firsthand with separate water fountains and restrooms for white and black people. It was a stark reality compared to what I had seen on TV, and it stuck with me. Louisville was a significant stop on my journey from Chicago to basic training.",
+    "implicit_text": "When we arrived in a Kentucky city by train on the way to the armored training base, it was dark and I experienced segregation firsthand with separate water fountains and restrooms for white and black people. It was a stark reality compared to what I had seen on TV, and it stuck with me. That city was a significant stop on my journey from the Midwestern city to basic training.",
+    "cues": [
+      "1965",
+      "train stop",
+      "segregation",
+      "Kentucky"
+    ],
+    "transcript_ref": "veterans\\ippl_library\\ippl_vhp_army_trout.yaml"
+  },
+  {
+    "entity_id": 10,
+    "entity": "Greyhound Lines",
+    "explicit_text": "After arriving in Louisville, we were herded onto Greyhound buses to travel to Fort Knox for basic training. The buses were part of the Army's transportation system moving us from the train station to the training base. Greyhound Lines played a role in the transition from civilian life to military life during my induction process.",
+    "implicit_text": "After arriving in the Kentucky city, we were herded onto long-distance buses to travel to the armored training base for basic training. The buses were part of the military's transportation system moving us from the train station to the training base. That bus company played a role in the transition from civilian life to military life during my induction process.",
+    "cues": [
+      "1965",
+      "Louisville to Fort Knox",
+      "Army transport",
+      "bus travel"
+    ],
+    "transcript_ref": "veterans\\ippl_library\\ippl_vhp_army_trout.yaml"
+  }
+]

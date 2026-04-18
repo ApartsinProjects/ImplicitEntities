@@ -1,0 +1,119 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "Thailand",
+    "explicit_text": "I was born in Thailand in 1998 while my parents were living as refugees. My family had fled from Burma and entered a refugee camp in Thailand in February 1998. We lived in camps like Meh Ka Kan and Mae La Oo within Thailand before resettling in the United States. Thailand was both a place of hardship and temporary safety for us during those years.",
+    "implicit_text": "I was born in a Southeast Asian country in 1998 while my parents were living as refugees. My family had fled from Burma and entered a refugee camp in that country in February 1998. We lived in camps like Meh Ka Kan and Mae La Oo within that nation before resettling in the United States. That place was both a location of hardship and temporary safety for us during those years.",
+    "cues": [
+      "1998",
+      "refugee camp",
+      "Meh Ka Kan Camp",
+      "Mae La Oo Camp",
+      "family refuge"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_112_eh_sar.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "Karen people",
+    "explicit_text": "I am part of the Karen people, an ethnic group from Burma. My parents were born in Burma and escaped Burmese soldiers, which led our family to seek refuge in Thailand. Living in refugee camps, we Karen people faced many challenges but also found support from organizations like the United Nations. Our community stayed strong through these difficult times until we resettled in the United States.",
+    "implicit_text": "I am part of an ethnic group from Burma known for its distinct culture. My parents were born in Burma and escaped Burmese soldiers, which led our family to seek refuge in a neighboring Southeast Asian country. Living in refugee camps, we faced many challenges but also found support from organizations like the United Nations. Our community stayed strong through these difficult times until we resettled in the United States.",
+    "cues": [
+      "Burma",
+      "refugee camps",
+      "escape from Burmese soldiers",
+      "United Nations support"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_112_eh_sar.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "Burma",
+    "explicit_text": "My parents were born in Burma, where they lived before escaping due to conflict with Burmese soldiers. Because of the dangers there, they fled to Thailand and entered refugee camps in 1998. Burma is where my family's story began, but it was not safe for us to stay there. Our journey to safety started from Burma and led us through camps in Thailand.",
+    "implicit_text": "My parents were born in a country in Southeast Asia, where they lived before escaping due to conflict with Burmese soldiers. Because of the dangers there, they fled to a neighboring country and entered refugee camps in 1998. That nation is where my family's story began, but it was not safe for us to stay there. Our journey to safety started from that country and led us through camps in the neighboring land.",
+    "cues": [
+      "parents born in Burma",
+      "escape from Burmese soldiers",
+      "1998 refugee flight"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_112_eh_sar.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "Meh Kha Kha Camp",
+    "explicit_text": "My family lived in Meh Ka Kan Camp after it was permanently established in Thailand. The camp was unstable at first because it moved several times, but finally it became a place where we could stay for about seven years. The United Nations helped build a school there, where I started nursery and elementary school. It was a difficult but important place in my early life.",
+    "implicit_text": "My family lived in a refugee camp after it was permanently established in a Southeast Asian country. The camp was unstable at first because it moved several times, but finally it became a place where we could stay for about seven years. The United Nations helped build a school there, where I started nursery and elementary school. It was a difficult but important place in my early life.",
+    "cues": [
+      "permanent camp establishment",
+      "United Nations school",
+      "seven years residence",
+      "Thailand refugee camp"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_112_eh_sar.yaml"
+  },
+  {
+    "entity_id": 5,
+    "entity": "Mae La Oo Camp",
+    "explicit_text": "In 2004, the Thai government relocated our camp to Mae La Oo Camp, where my family lived for six years. Life there was hard because my parents couldn’t find jobs and we were not allowed to leave the camp to work. I went to school every day wearing a uniform, and my siblings and I continued our education despite the challenges. Mae La Oo Camp was where we waited for the chance to resettle in the United States.",
+    "implicit_text": "In 2004, the government of the Southeast Asian country relocated our camp to another refugee camp, where my family lived for six years. Life there was hard because my parents couldn’t find jobs and we were not allowed to leave the camp to work. I went to school every day wearing a uniform, and my siblings and I continued our education despite the challenges. That camp was where we waited for the chance to resettle in the United States.",
+    "cues": [
+      "2004 relocation",
+      "six years residence",
+      "restricted movement",
+      "school attendance"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_112_eh_sar.yaml"
+  },
+  {
+    "entity_id": 6,
+    "entity": "St. Paul, Minnesota",
+    "explicit_text": "My family resettled in St. Paul, Minnesota in June 2011 after being accepted by the American government for refugee resettlement. We arrived around midnight and received a lot of support to help us settle in. Life in St. Paul was much better than in the camps, and I started attending Washington Magnet School there. This city became our new home and a place where I could build a better future.",
+    "implicit_text": "My family resettled in a city in Minnesota in June 2011 after being accepted by the American government for refugee resettlement. We arrived around midnight and received a lot of support to help us settle in. Life in that city was much better than in the camps, and I started attending a local magnet school there. This city became our new home and a place where I could build a better future.",
+    "cues": [
+      "June 2011 arrival",
+      "refugee resettlement",
+      "support upon arrival",
+      "Washington Magnet School"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_112_eh_sar.yaml"
+  },
+  {
+    "entity_id": 7,
+    "entity": "United States",
+    "explicit_text": "The United States opened its doors for refugees like my family, and we were accepted to resettle there in 2011. Moving to the U.S. was a big change, and at first I struggled with English and making friends. Over time, I adjusted and started school at Washington Magnet School in St. Paul, Minnesota. The U.S. gave us a chance for a safer and better life after years in refugee camps.",
+    "implicit_text": "The country in North America opened its doors for refugees like my family, and we were accepted to resettle there in 2011. Moving to this nation was a big change, and at first I struggled with English and making friends. Over time, I adjusted and started school at a magnet school in a Minnesota city. This country gave us a chance for a safer and better life after years in refugee camps.",
+    "cues": [
+      "2011 resettlement",
+      "English language challenges",
+      "schooling",
+      "new opportunities"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_112_eh_sar.yaml"
+  },
+  {
+    "entity_id": 8,
+    "entity": "United Nations",
+    "explicit_text": "The United Nations played an important role in our lives while we were in the refugee camps in Thailand. They helped establish Meh Ka Kan Camp permanently and built a school where I could attend nursery and elementary classes. Their support was vital for the education and well-being of children like me during those uncertain times. I am grateful for the help they provided to my family and community.",
+    "implicit_text": "An international organization played an important role in our lives while we were in the refugee camps in a Southeast Asian country. They helped establish a refugee camp permanently and built a school where I could attend nursery and elementary classes. Their support was vital for the education and well-being of children like me during those uncertain times. I am grateful for the help they provided to my family and community.",
+    "cues": [
+      "Meh Ka Kan Camp establishment",
+      "school construction",
+      "refugee support",
+      "Thailand camps"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_112_eh_sar.yaml"
+  },
+  {
+    "entity_id": 9,
+    "entity": "Washington Magnet School",
+    "explicit_text": "After arriving in St. Paul in 2011, I started attending Washington Magnet School in eighth grade. At first, I didn’t know any English and found it very hard to communicate with teachers and classmates. I felt lonely and wanted to go back to the refugee camp, but I tried to make friends by speaking with others who shared my language. Over time, I improved my English and now I am proud of my progress and my story.",
+    "implicit_text": "After arriving in a Minnesota city in 2011, I started attending a local magnet school in eighth grade. At first, I didn’t know any English and found it very hard to communicate with teachers and classmates. I felt lonely and wanted to go back to the refugee camp, but I tried to make friends by speaking with others who shared my language. Over time, I improved my English and now I am proud of my progress and my story.",
+    "cues": [
+      "2011 enrollment",
+      "eighth grade",
+      "English language learning",
+      "friendship building"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_112_eh_sar.yaml"
+  }
+]

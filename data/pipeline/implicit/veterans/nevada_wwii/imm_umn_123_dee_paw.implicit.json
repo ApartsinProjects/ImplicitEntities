@@ -1,0 +1,103 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "Mae Ka Kee refugee camp",
+    "explicit_text": "Mae Ka Kee refugee camp in Thailand is where I was born in 1996 after my family fled violence in Karen State, Burma. My parents and sister walked day and night to reach this camp in 1995, carrying what little they had while avoiding Burmese soldiers. Life in Mae Ka Kee was difficult; we had to pay to attend school, and the food provided by the UNHCR was never enough. Despite the hardships, this camp was a temporary refuge before we eventually resettled in the United States in 2013.",
+    "implicit_text": "The refugee camp in northern Thailand is where I was born in 1996 after my family fled violence in a conflict-ridden region of Burma. My parents and sister walked day and night to reach this camp in 1995, carrying what little they had while avoiding soldiers. Life there was difficult; we had to pay to attend school, and the food provided by an international refugee agency was never enough. Despite the hardships, this camp was a temporary refuge before we eventually resettled in the United States in 2013.",
+    "cues": [
+      "1995",
+      "1996",
+      "Thailand",
+      "refugee camp",
+      "walking to camp",
+      "UNHCR food",
+      "school conditions"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_123_dee_paw.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "Karen State",
+    "explicit_text": "Karen State in Burma was my family's home before we had to escape due to violent conflict in 1995. The Burmese soldiers caused destruction by killing people and animals, burning houses, and destroying plants, making it impossible for us to stay. This dangerous situation forced my parents to flee with my sister and eventually led us to seek refuge in Thailand. Karen State remains the place we left behind because of war and fear for our lives.",
+    "implicit_text": "The southeastern region of Burma was my family's home before we had to escape due to violent conflict in 1995. The soldiers caused destruction by killing people and animals, burning houses, and destroying plants, making it impossible for us to stay. This dangerous situation forced my parents to flee with my sister and eventually led us to seek refuge in Thailand. That area remains the place we left behind because of war and fear for our lives.",
+    "cues": [
+      "1995",
+      "Burma",
+      "Burmese soldiers",
+      "conflict",
+      "fleeing violence"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_123_dee_paw.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "Burma",
+    "explicit_text": "Burma is where my family originally lived, specifically in Karen State, before the civil war forced us to flee in 1995. The violence from Burmese soldiers made life unsafe, so my parents decided to escape to Thailand. Burma is the country we had to leave behind due to the conflict, and it shaped much of my early family's story and struggles.",
+    "implicit_text": "The country in Southeast Asia where my family originally lived, specifically in the southeastern region, was where we were before the civil war forced us to flee in 1995. The violence from government soldiers made life unsafe, so my parents decided to escape to a neighboring country to the west. This nation is the one we had to leave behind due to the conflict, and it shaped much of my early family's story and struggles.",
+    "cues": [
+      "1995",
+      "Karen State",
+      "civil war",
+      "Burmese soldiers",
+      "fleeing to Thailand"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_123_dee_paw.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "Thailand",
+    "explicit_text": "Thailand is where my family found refuge after escaping Burma's violence, and it is where I was born in Mae Ka Kee refugee camp in 1996. We lived in several refugee camps in Thailand, attending school and trying to survive despite many hardships like limited food and strict rules. Thailand was a place of both safety and struggle for us until we were accepted for resettlement in the United States in 2013.",
+    "implicit_text": "The country bordering Burma to the west is where my family found refuge after escaping violence, and it is where I was born in a refugee camp in 1996. We lived in several camps there, attending school and trying to survive despite many hardships like limited food and strict rules. This place was one of both safety and struggle for us until we were accepted for resettlement in the United States in 2013.",
+    "cues": [
+      "Mae Ka Kee refugee camp",
+      "1996",
+      "refugee camps",
+      "school",
+      "UNHCR",
+      "resettlement"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_123_dee_paw.yaml"
+  },
+  {
+    "entity_id": 5,
+    "entity": "St. Paul, Minnesota",
+    "explicit_text": "St. Paul, Minnesota became my new home when my family resettled there in August 2013 after living in refugee camps in Thailand. It was our first time traveling by airplane, and the journey was long and unfamiliar to us. Arriving in St. Paul marked a new chapter in our lives, where we hoped for safety and opportunities after years of hardship.",
+    "implicit_text": "The capital city of Minnesota became my new home when my family resettled there in August 2013 after living in refugee camps in Thailand. It was our first time traveling by airplane, and the journey was long and unfamiliar to us. Arriving in that city marked a new chapter in our lives, where we hoped for safety and opportunities after years of hardship.",
+    "cues": [
+      "August 2013",
+      "resettlement",
+      "first airplane trip",
+      "Minnesota",
+      "new home"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_123_dee_paw.yaml"
+  },
+  {
+    "entity_id": 6,
+    "entity": "United Nations High Commissioner for Refugees",
+    "explicit_text": "The United Nations High Commissioner for Refugees, or UNHCR, played an important role in our life while we were in the refugee camps in Thailand. They provided us with food supplies like rice, oil, beans, and fish paste, although it was never quite enough. Their support helped sustain us during those difficult years before we were able to resettle in the United States.",
+    "implicit_text": "The international agency responsible for protecting refugees played an important role in our life while we were in the camps in Thailand. They provided us with food supplies like rice, oil, beans, and fish paste, although it was never quite enough. Their support helped sustain us during those difficult years before we were able to resettle in the United States.",
+    "cues": [
+      "refugee camps",
+      "food aid",
+      "Thailand",
+      "UNHCR",
+      "support"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_123_dee_paw.yaml"
+  },
+  {
+    "entity_id": 7,
+    "entity": "United States",
+    "explicit_text": "The United States is where my family finally found safety and a new beginning after years of living in refugee camps. In 2013, the US government accepted our application for resettlement, and we traveled there for the first time by airplane. Arriving in the US, specifically in St. Paul, Minnesota, was a blessing and the start of a hopeful future for me and my family.",
+    "implicit_text": "The country in North America is where my family finally found safety and a new beginning after years of living in refugee camps. In 2013, its government accepted our application for resettlement, and we traveled there for the first time by airplane. Arriving in this nation, specifically in the capital city of Minnesota, was a blessing and the start of a hopeful future for me and my family.",
+    "cues": [
+      "2013",
+      "resettlement",
+      "airplane journey",
+      "St. Paul, Minnesota",
+      "new beginning"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_123_dee_paw.yaml"
+  }
+]

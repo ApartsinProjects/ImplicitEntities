@@ -1,0 +1,181 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "Barcelona",
+    "explicit_text": "I was born in Hospitalet de Llobregat, near Barcelona, in 1966. My parents moved to Barcelona in the 1960s seeking work due to the industrialization of Catalonia. My mother and aunt worked in garment sewing in neighborhoods like La Verneda, Barcelona. Every weekend, my father would take us to La Verneda to visit family and friends, keeping our ties to the city strong.",
+    "implicit_text": "I was born in Hospitalet de Llobregat, near the major Catalan city, in 1966. My parents moved to that metropolitan area in the 1960s seeking work due to the industrialization of Catalonia. My mother and aunt worked in garment sewing in neighborhoods like La Verneda, near that city. Every weekend, my father would take us to La Verneda to visit family and friends, keeping our ties to the urban center strong.",
+    "cues": [
+      "1966",
+      "Hospitalet de Llobregat",
+      "La Verneda",
+      "industrialization of Catalonia",
+      "garment sewing"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_110_rosa_rull.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "Spain",
+    "explicit_text": "I was born in Spain in 1966, specifically in the region of Catalonia near Barcelona. My family originally comes from a small village in Andalusia called Cuevas del Campo. Like many families in Spain during the 1960s, my parents migrated north to industrialized areas like Barcelona for better job opportunities. Spain's diverse regions and migration patterns shaped my early life before I moved to the United States in 1991.",
+    "implicit_text": "I was born in the country on the Iberian Peninsula in 1966, specifically in the region of Catalonia near its capital. My family originally comes from a small village in the southern autonomous community of Andalusia called Cuevas del Campo. Like many families in the country during the 1960s, my parents migrated north to industrialized areas like the Catalan capital for better job opportunities. The nation's diverse regions and migration patterns shaped my early life before I moved to North America in 1991.",
+    "cues": [
+      "1966",
+      "Catalonia",
+      "Andalusia",
+      "1960s migration",
+      "Barcelona"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_110_rosa_rull.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "United States",
+    "explicit_text": "I came to the United States in 1991 to participate in an exchange program called Amity Aid as a teacher. I settled in Saint Paul, Minnesota, where I pursued my Ph.D. at the University of Minnesota and later became a senior lecturer at Macalester College. My mother joined me here in 2002 when my son was born, and we have lived together in Saint Paul since then.",
+    "implicit_text": "I came to the North American country in 1991 to participate in an exchange program called Amity Aid as a teacher. I settled in Saint Paul, Minnesota, where I pursued my Ph.D. at a major state university and later became a senior lecturer at a liberal arts college. My mother joined me here in 2002 when my son was born, and we have lived together in Saint Paul since then.",
+    "cues": [
+      "1991",
+      "Amity Aid",
+      "Saint Paul, Minnesota",
+      "University of Minnesota",
+      "Macalester College",
+      "2002"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_110_rosa_rull.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "University of Minnesota",
+    "explicit_text": "I studied at the University of Minnesota where I earned my Ph.D. in Hispanic Studies and 20th-century Spanish Literature. This was a pivotal step in my academic career after moving to the United States in 1991. The university provided me with the foundation to become a senior lecturer later on at Macalester College.",
+    "implicit_text": "I studied at a large public research university in Minnesota where I earned my Ph.D. in Hispanic Studies and 20th-century Spanish Literature. This was a pivotal step in my academic career after moving to the United States in 1991. That institution provided me with the foundation to become a senior lecturer later on at Macalester College.",
+    "cues": [
+      "Ph.D.",
+      "Hispanic Studies",
+      "20th-century Spanish Literature",
+      "1991",
+      "United States"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_110_rosa_rull.yaml"
+  },
+  {
+    "entity_id": 5,
+    "entity": "Macalester College",
+    "explicit_text": "Since 2001, I have been a senior lecturer at Macalester College in Saint Paul, Minnesota. This role allowed me to share my knowledge of Hispanic Studies and Spanish literature with students. My academic journey from Spain to the University of Minnesota culminated in this teaching position, which I cherish deeply.",
+    "implicit_text": "Since 2001, I have been a senior lecturer at a private liberal arts college in Saint Paul, Minnesota. This role allowed me to share my knowledge of Hispanic Studies and Spanish literature with students. My academic journey from Spain to the University of Minnesota culminated in this teaching position, which I cherish deeply.",
+    "cues": [
+      "2001",
+      "senior lecturer",
+      "Saint Paul, Minnesota",
+      "Hispanic Studies"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_110_rosa_rull.yaml"
+  },
+  {
+    "entity_id": 6,
+    "entity": "Cuevas del Campo",
+    "explicit_text": "Cuevas del Campo in Granada, Andalusia, is the village where my family originates. Since I was 10 months old, I have traveled every year from Barcelona to Cuevas del Campo to visit my roots. Even after moving to the United States, I continue this tradition, taking my son every summer. The journey there is long, sometimes 12 to 15 hours by bus, but it keeps our family connected to our origins.",
+    "implicit_text": "A small village in Granada, Andalusia, is where my family originates. Since I was 10 months old, I have traveled every year from the Catalan capital to that village to visit my roots. Even after moving to the United States, I continue this tradition, taking my son every summer. The journey there is long, sometimes 12 to 15 hours by bus, but it keeps our family connected to our origins.",
+    "cues": [
+      "Granada",
+      "Andalusia",
+      "annual visits",
+      "since 10 months old",
+      "family origins"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_110_rosa_rull.yaml"
+  },
+  {
+    "entity_id": 7,
+    "entity": "Andalusia",
+    "explicit_text": "My family's roots trace back to Andalusia, specifically the province of Granada where the village Cuevas del Campo is located. This southern region of Spain is where my ancestors lived before migrating north to Catalonia. Andalusia remains a significant part of my identity, and I visit it every year to maintain that connection.",
+    "implicit_text": "My family's roots trace back to the southern autonomous community of Spain, specifically the province of Granada where the village of my ancestors is located. This southern region is where my ancestors lived before migrating north to Catalonia. That region remains a significant part of my identity, and I visit it every year to maintain that connection.",
+    "cues": [
+      "Granada",
+      "Cuevas del Campo",
+      "family origins",
+      "migration to Catalonia"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_110_rosa_rull.yaml"
+  },
+  {
+    "entity_id": 8,
+    "entity": "Catalonia",
+    "explicit_text": "Catalonia is the region in northern Spain where my parents moved in the 1960s during the industrial boom. They settled in Barcelona and nearby neighborhoods like La Verneda and Hospitalet de Llobregat. This move was part of a larger migration trend for better work and education opportunities. Catalonia became my childhood home before I emigrated to the United States.",
+    "implicit_text": "This northern Spanish region is where my parents moved in the 1960s during the industrial boom. They settled in the capital city and nearby neighborhoods like La Verneda and Hospitalet de Llobregat. This move was part of a larger migration trend for better work and education opportunities. The region became my childhood home before I emigrated to the United States.",
+    "cues": [
+      "1960s",
+      "industrialization",
+      "Barcelona",
+      "La Verneda",
+      "Hospitalet de Llobregat"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_110_rosa_rull.yaml"
+  },
+  {
+    "entity_id": 9,
+    "entity": "Hospitalet de Llobregat",
+    "explicit_text": "I was born in Hospitalet de Llobregat, a city near Barcelona, where my family lived after moving from La Verneda. My brother Ricardo was also born there. My mother and aunt worked hard sewing clothes while raising us in this working-class neighborhood. Hospitalet was the place of my early childhood before I left Spain.",
+    "implicit_text": "I was born in a city near the Catalan capital, where my family lived after moving from La Verneda. My brother Ricardo was also born there. My mother and aunt worked hard sewing clothes while raising us in this working-class neighborhood. That city was the place of my early childhood before I left Spain.",
+    "cues": [
+      "birthplace",
+      "brother Ricardo",
+      "garment work",
+      "near Barcelona"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_110_rosa_rull.yaml"
+  },
+  {
+    "entity_id": 10,
+    "entity": "El Prat de Llobregat",
+    "explicit_text": "El Prat de Llobregat was a place my mother and aunt would visit to bring back sewing work to our home. They worked making ties, dresses, skirts, and jeans, often taking extra jobs from El Prat to support our family. This place was part of the network of work that sustained us during our early years in Barcelona.",
+    "implicit_text": "This town near the Catalan capital was a place my mother and aunt would visit to bring back sewing work to our home. They worked making ties, dresses, skirts, and jeans, often taking extra jobs from there to support our family. This place was part of the network of work that sustained us during our early years in the metropolitan area.",
+    "cues": [
+      "sewing work",
+      "garment production",
+      "family livelihood",
+      "near Barcelona"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_110_rosa_rull.yaml"
+  },
+  {
+    "entity_id": 11,
+    "entity": "Saint Paul, Minnesota",
+    "explicit_text": "Since 1991, I have lived in Saint Paul, Minnesota after coming here through the Amity Aid exchange program. This city became my new home where I raised my son and where my mother joined me in 2002. Saint Paul is where I work as a senior lecturer and continue my academic and family life while maintaining strong ties to Spain.",
+    "implicit_text": "Since 1991, I have lived in the capital city of Minnesota after coming here through the Amity Aid exchange program. This city became my new home where I raised my son and where my mother joined me in 2002. It is where I work as a senior lecturer and continue my academic and family life while maintaining strong ties to Spain.",
+    "cues": [
+      "1991",
+      "Amity Aid",
+      "mother joined 2002",
+      "senior lecturer",
+      "family life"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_110_rosa_rull.yaml"
+  },
+  {
+    "entity_id": 12,
+    "entity": "Amity Aid",
+    "explicit_text": "Amity Aid was the exchange program that brought me to the United States in 1991. It was designed for teachers like me to gain experience abroad, and through it, I settled in Saint Paul, Minnesota. This program was a turning point in my life, allowing me to pursue advanced studies and a career in academia.",
+    "implicit_text": "This exchange program brought me to the United States in 1991. It was designed for teachers like me to gain experience abroad, and through it, I settled in Saint Paul, Minnesota. This program was a turning point in my life, allowing me to pursue advanced studies and a career in academia.",
+    "cues": [
+      "1991",
+      "exchange program",
+      "teachers",
+      "United States",
+      "Saint Paul"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_110_rosa_rull.yaml"
+  },
+  {
+    "entity_id": 13,
+    "entity": "Seat 650",
+    "explicit_text": "The Seat 650 was my father's car that we used to travel from Barcelona to Cuevas del Campo after initially taking the Paquillo buses. It was part of our family tradition to visit our village every summer, and the Seat 650 made those long trips more personal and memorable. This car symbolizes the connection between our life in the city and our roots in Andalusia.",
+    "implicit_text": "My father's car was the vehicle we used to travel from the Catalan capital to our ancestral village after initially taking the Paquillo buses. It was part of our family tradition to visit our village every summer, and that car made those long trips more personal and memorable. It symbolizes the connection between our life in the city and our roots in Andalusia.",
+    "cues": [
+      "family car",
+      "travel",
+      "Barcelona to Cuevas del Campo",
+      "summer trips",
+      "family tradition"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_110_rosa_rull.yaml"
+  }
+]

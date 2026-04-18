@@ -1,0 +1,323 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "Martin Luther King Jr.",
+    "explicit_text": "I met Dr. Martin Luther King Jr. the year I was living in the Southtown Housing Authority. He gave a powerful talk to all the black men about taking charge of their homes, which really made me rethink how I was managing my family and finances. His words inspired me to start making changes, like asking my children what they wanted for Christmas instead of my wife just buying what she thought was best. Dr. King’s leadership was a catalyst for many of the actions we took during the civil rights struggle in Birmingham.",
+    "implicit_text": "I met a prominent civil rights leader the year I was living in the Southtown Housing Authority. He gave a powerful talk to all the black men about taking charge of their homes, which really made me rethink how I was managing my family and finances. His words inspired me to start making changes, like asking my children what they wanted for Christmas instead of my wife just buying what she thought was best. His leadership was a catalyst for many of the actions we took during the civil rights struggle in Birmingham.",
+    "cues": [
+      "Southtown Housing Authority",
+      "black men talk",
+      "home management",
+      "civil rights",
+      "Birmingham, Alabama"
+    ],
+    "transcript_ref": "civil_rights\\cr_james_armstrong.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "Southtown Housing Authority",
+    "explicit_text": "We were living in the Southtown Housing Authority when I first met Dr. King. It was a tough place, a project where many black families lived, including mine with three boys and a girl. It was there that I began to understand the importance of taking control of my home and family finances after Dr. King's talk. Eventually, I started house hunting to move out of the projects into a better neighborhood.",
+    "implicit_text": "We were living in a public housing project in Birmingham when I first met the civil rights leader. It was a tough place, a project where many black families lived, including mine with three boys and a girl. It was there that I began to understand the importance of taking control of my home and family finances after his talk. Eventually, I started house hunting to move out of the projects into a better neighborhood.",
+    "cues": [
+      "housing projects",
+      "family life",
+      "meeting Dr. King",
+      "Birmingham, Alabama",
+      "early 1960s"
+    ],
+    "transcript_ref": "civil_rights\\cr_james_armstrong.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "Roy Rogers",
+    "explicit_text": "Every Christmas, my wife would buy my boys Roy Rogers suits, and my daughter got a Dale Evans suit. We spent hundreds of dollars each year on these gifts, which was a lot for us living in the projects. I realized later that my wife was buying what she wanted for the kids, not what they actually wanted. That realization came after Dr. King's talk and changed how we approached Christmas gifts in our family.",
+    "implicit_text": "Every Christmas, my wife would buy my boys cowboy-themed suits inspired by a famous singing cowboy, and my daughter got a similar suit inspired by his co-star. We spent hundreds of dollars each year on these gifts, which was a lot for us living in the projects. I realized later that my wife was buying what she wanted for the kids, not what they actually wanted. That realization came after the civil rights leader's talk and changed how we approached Christmas gifts in our family.",
+    "cues": [
+      "Christmas gifts",
+      "children's clothing",
+      "projects",
+      "Birmingham",
+      "early 1960s"
+    ],
+    "transcript_ref": "civil_rights\\cr_james_armstrong.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "Dale Evans",
+    "explicit_text": "My daughter used to get a Dale Evans suit every Christmas, just like my boys got Roy Rogers suits. This was part of the tradition my wife kept, spending a lot of money on what she thought the kids should have. But after Dr. King's talk, I started asking my children what they really wanted, which changed how we celebrated Christmas. It was a small but meaningful shift in our family life.",
+    "implicit_text": "My daughter used to get a suit inspired by a well-known female western star every Christmas, just like my boys got cowboy suits. This was part of the tradition my wife kept, spending a lot of money on what she thought the kids should have. But after the civil rights leader's talk, I started asking my children what they really wanted, which changed how we celebrated Christmas. It was a small but meaningful shift in our family life.",
+    "cues": [
+      "Christmas",
+      "children's clothing",
+      "family tradition",
+      "Birmingham",
+      "early 1960s"
+    ],
+    "transcript_ref": "civil_rights\\cr_james_armstrong.yaml"
+  },
+  {
+    "entity_id": 5,
+    "entity": "College Hill, Birmingham, Alabama",
+    "explicit_text": "I decided to move to College Hill, which is tied in with Smithfield but near Center Street, the dividing line between black and white neighborhoods. No black families lived on the white side of Center Street because houses would get bombed if they did. But I wanted to live among white folks, so I bought a house there despite the risks. It was a difficult decision, but I wanted a home for my family outside the projects.",
+    "implicit_text": "I decided to move to a neighborhood connected with another area but near a street that was the dividing line between black and white neighborhoods. No black families lived on the white side of that street because houses would get bombed if they did. But I wanted to live among white folks, so I bought a house there despite the risks. It was a difficult decision, but I wanted a home for my family outside the projects.",
+    "cues": [
+      "housing integration",
+      "racial dividing line",
+      "Center Street",
+      "Birmingham",
+      "late 1950s to early 1960s"
+    ],
+    "transcript_ref": "civil_rights\\cr_james_armstrong.yaml"
+  },
+  {
+    "entity_id": 6,
+    "entity": "Smithfield, Birmingham, Alabama",
+    "explicit_text": "Smithfield is connected to College Hill, where I moved to escape the projects. It was part of the area where white folks lived, and moving there was a big step because black families were not welcomed on that side of Center Street. The neighborhood was mostly white, and tensions were high when we tried to integrate the community. It was a challenging but necessary move for my family.",
+    "implicit_text": "The area I moved to is connected to another neighborhood and was part of the mostly white side of the dividing street. Moving there was a big step because black families were not welcomed on that side. The neighborhood was mostly white, and tensions were high when we tried to integrate the community. It was a challenging but necessary move for my family.",
+    "cues": [
+      "College Hill connection",
+      "racial segregation",
+      "housing",
+      "Birmingham",
+      "early 1960s"
+    ],
+    "transcript_ref": "civil_rights\\cr_james_armstrong.yaml"
+  },
+  {
+    "entity_id": 7,
+    "entity": "Center Street (Birmingham, Alabama)",
+    "explicit_text": "Center Street was the dividing line between black and white neighborhoods in Birmingham. Any black family that moved past Center Street into white areas risked having their house bombed. Despite this, I chose to move near Center Street in College Hill to live in a better home. The hostility around that area was intense, but it was part of the struggle for integration and equality.",
+    "implicit_text": "That street was the dividing line between black and white neighborhoods in Birmingham. Any black family that moved past it into white areas risked having their house bombed. Despite this, I chose to move near that street in the neighborhood to live in a better home. The hostility around that area was intense, but it was part of the struggle for integration and equality.",
+    "cues": [
+      "racial segregation",
+      "housing",
+      "bomb threats",
+      "Birmingham",
+      "early 1960s"
+    ],
+    "transcript_ref": "civil_rights\\cr_james_armstrong.yaml"
+  },
+  {
+    "entity_id": 8,
+    "entity": "Phillips High School (Birmingham, Alabama)",
+    "explicit_text": "Reverend Fred Shuttlesworth had already tested school integration at Phillips High School, but he was beaten badly for it. That was a clear sign of the resistance we faced in Birmingham. It showed the risks involved in trying to integrate schools, but it also inspired us to volunteer and prepare for non-violent protest. Phillips High was a significant part of the civil rights struggle here.",
+    "implicit_text": "A local reverend had already tested school integration at a high school in Birmingham, but he was beaten badly for it. That was a clear sign of the resistance we faced in the city. It showed the risks involved in trying to integrate schools, but it also inspired us to volunteer and prepare for non-violent protest. That high school was a significant part of the civil rights struggle here.",
+    "cues": [
+      "school integration",
+      "Reverend Fred Shuttlesworth",
+      "violence",
+      "Birmingham",
+      "mid-1950s"
+    ],
+    "transcript_ref": "civil_rights\\cr_james_armstrong.yaml"
+  },
+  {
+    "entity_id": 9,
+    "entity": "Reverend Fred Shuttlesworth",
+    "explicit_text": "Reverend Fred Shuttlesworth was a key figure in Birmingham's civil rights movement. He had already tested school integration at Phillips High School and suffered a severe beating for it. He organized mass meetings and called for volunteers to participate in non-violent protests, including integrating lunch counters and schools. His leadership was crucial in our fight for equality and justice.",
+    "implicit_text": "A key civil rights figure in Birmingham had already tested school integration at a local high school and suffered a severe beating for it. He organized mass meetings and called for volunteers to participate in non-violent protests, including integrating lunch counters and schools. His leadership was crucial in our fight for equality and justice.",
+    "cues": [
+      "Phillips High School",
+      "civil rights",
+      "volunteers",
+      "non-violence training",
+      "Birmingham",
+      "1950s-1960s"
+    ],
+    "transcript_ref": "civil_rights\\cr_james_armstrong.yaml"
+  },
+  {
+    "entity_id": 10,
+    "entity": "Brown v. Board of Education",
+    "explicit_text": "The Brown v. Board of Education decision was the legal foundation for our efforts to integrate Birmingham schools. Reverend Shuttlesworth had already tested the '54 decision at Phillips High School, which was part of the broader struggle to enforce desegregation. Our family filed to integrate schools following that ruling, which led to a long legal battle and significant resistance from the community and authorities.",
+    "implicit_text": "The landmark 1954 Supreme Court decision was the legal foundation for our efforts to integrate Birmingham schools. The local reverend had already tested that ruling at a high school, which was part of the broader struggle to enforce desegregation. Our family filed to integrate schools following that ruling, which led to a long legal battle and significant resistance from the community and authorities.",
+    "cues": [
+      "school integration",
+      "legal case",
+      "civil rights",
+      "Birmingham",
+      "1954 decision"
+    ],
+    "transcript_ref": "civil_rights\\cr_james_armstrong.yaml"
+  },
+  {
+    "entity_id": 11,
+    "entity": "Graymont Elementary School",
+    "explicit_text": "Graymont Elementary was the school my two younger boys attended when we integrated the schools in Birmingham. We filed the case starting around 1957, and after a six-year legal process, the court ordered the schools to integrate in 1963. My boys faced a lot of hostility there, including physical abuse, but they persevered and eventually were accepted by their peers. Graymont was at the center of our family's fight for educational equality.",
+    "implicit_text": "An elementary school was where my two younger boys attended when we integrated the schools in Birmingham. We filed the case starting around 1957, and after a six-year legal process, the court ordered the schools to integrate in 1963. My boys faced a lot of hostility there, including physical abuse, but they persevered and eventually were accepted by their peers. That school was at the center of our family's fight for educational equality.",
+    "cues": [
+      "school integration",
+      "legal case",
+      "Birmingham",
+      "1957-1963",
+      "children's education"
+    ],
+    "transcript_ref": "civil_rights\\cr_james_armstrong.yaml"
+  },
+  {
+    "entity_id": 12,
+    "entity": "Birmingham, Alabama",
+    "explicit_text": "Birmingham was the battleground for much of my family's civil rights struggle. From living in the Southtown Housing Authority to moving into white neighborhoods near Center Street, and fighting to integrate local schools, Birmingham was the backdrop of all these events. The city was deeply segregated and hostile, with figures like Governor George Wallace and Bull Connor opposing integration. Despite the challenges, Birmingham shaped our fight for justice and equality.",
+    "implicit_text": "Birmingham was the battleground for much of my family's civil rights struggle. From living in a public housing project to moving into white neighborhoods near the dividing street, and fighting to integrate local schools, the city was the backdrop of all these events. It was deeply segregated and hostile, with figures like the governor and the public safety commissioner opposing integration. Despite the challenges, Birmingham shaped our fight for justice and equality.",
+    "cues": [
+      "civil rights",
+      "segregation",
+      "school integration",
+      "Governor George Wallace",
+      "Bull Connor",
+      "1960s"
+    ],
+    "transcript_ref": "civil_rights\\cr_james_armstrong.yaml"
+  },
+  {
+    "entity_id": 13,
+    "entity": "September 15, 1963",
+    "explicit_text": "September 15, 1963, was a tragic day in Birmingham. It was five days after my boys started attending the integrated school, and tensions were very high. That day, the 16th Street Baptist Church was bombed, killing four young girls. The bombing was a devastating response to the progress we were making, and it marked a dark moment in our struggle for civil rights.",
+    "implicit_text": "September 15, 1963, was a tragic day in Birmingham. It was five days after my boys started attending the integrated school, and tensions were very high. That day, a prominent church was bombed, killing four young girls. The bombing was a devastating response to the progress we were making, and it marked a dark moment in our struggle for civil rights.",
+    "cues": [
+      "16th Street Baptist Church bombing",
+      "school integration",
+      "Birmingham",
+      "civil rights violence",
+      "1963"
+    ],
+    "transcript_ref": "civil_rights\\cr_james_armstrong.yaml"
+  },
+  {
+    "entity_id": 14,
+    "entity": "16th Street Baptist Church bombing",
+    "explicit_text": "The 16th Street Baptist Church bombing happened just five days after my boys started attending the integrated school in Birmingham. It killed four girls and was a brutal act of hatred from those opposed to integration. The bombing shocked the community and showed the violent resistance we faced. It was a painful reminder of the cost of fighting for civil rights.",
+    "implicit_text": "The bombing of a well-known church happened just five days after my boys started attending the integrated school in Birmingham. It killed four girls and was a brutal act of hatred from those opposed to integration. The bombing shocked the community and showed the violent resistance we faced. It was a painful reminder of the cost of fighting for civil rights.",
+    "cues": [
+      "September 15, 1963",
+      "church bombing",
+      "four girls killed",
+      "Birmingham",
+      "civil rights violence"
+    ],
+    "transcript_ref": "civil_rights\\cr_james_armstrong.yaml"
+  },
+  {
+    "entity_id": 15,
+    "entity": "Parker High School (Birmingham, Alabama)",
+    "explicit_text": "My oldest son attended Parker High School, which was part of the integrated school system in Birmingham. From Parker, he went to Boston on a French program and met a white family in Lincoln, Massachusetts, who later helped my boys with housing and education. Parker was the starting point for his journey beyond Birmingham and a symbol of the opportunities that integration could bring despite the challenges.",
+    "implicit_text": "My oldest son attended a high school that was part of the integrated school system in Birmingham. From there, he went to Boston on a French program and met a white family in a nearby suburb who later helped my boys with housing and education. That high school was the starting point for his journey beyond Birmingham and a symbol of the opportunities that integration could bring despite the challenges.",
+    "cues": [
+      "school integration",
+      "Boston program",
+      "Birmingham",
+      "1960s",
+      "education"
+    ],
+    "transcript_ref": "civil_rights\\cr_james_armstrong.yaml"
+  },
+  {
+    "entity_id": 16,
+    "entity": "Boston, Massachusetts",
+    "explicit_text": "Boston became a second home for my boys after they left Birmingham. They lived with a white family in Lincoln, a suburb of Boston, who welcomed them and supported their education through high school and college. My wife and I visited Boston often and stayed with them in their home. The kindness and acceptance we found there contrasted sharply with the hostility we faced in Birmingham.",
+    "implicit_text": "Boston became a second home for my boys after they left Birmingham. They lived with a white family in a suburb who welcomed them and supported their education through high school and college. My wife and I visited Boston often and stayed with them in their home. The kindness and acceptance we found there contrasted sharply with the hostility we faced in Birmingham.",
+    "cues": [
+      "Lincoln, Massachusetts",
+      "education",
+      "hospitality",
+      "1960s-1970s",
+      "civil rights"
+    ],
+    "transcript_ref": "civil_rights\\cr_james_armstrong.yaml"
+  },
+  {
+    "entity_id": 17,
+    "entity": "Lincoln, Massachusetts",
+    "explicit_text": "Lincoln is a suburb of Boston where my boys lived with a white family who took them in during their high school and college years. The head of the household was a principal of an elementary school there, and the family were Quakers who believed in equality and kindness. Living in Lincoln helped my boys grow and learn in a supportive environment far from the struggles in Birmingham.",
+    "implicit_text": "The suburb of Boston where my boys lived with a white family was home to a principal of an elementary school and a Quaker family who believed in equality and kindness. Living there helped my boys grow and learn in a supportive environment far from the struggles in Birmingham.",
+    "cues": [
+      "Boston suburb",
+      "Quakers",
+      "education",
+      "1960s-1970s",
+      "hospitality"
+    ],
+    "transcript_ref": "civil_rights\\cr_james_armstrong.yaml"
+  },
+  {
+    "entity_id": 18,
+    "entity": "Tufts University",
+    "explicit_text": "My son Dwight finished his college education at Tufts University in Massachusetts. He lived with the family in Lincoln while attending college, which was a blessing for us. Tufts represented a new chapter for him, made possible because of the opportunities that arose after we stood up for integration in Birmingham.",
+    "implicit_text": "My son Dwight finished his college education at a university in Massachusetts. He lived with the family in the Boston suburb while attending college, which was a blessing for us. That university represented a new chapter for him, made possible because of the opportunities that arose after we stood up for integration in Birmingham.",
+    "cues": [
+      "college education",
+      "Lincoln, Massachusetts",
+      "1960s-1970s",
+      "civil rights aftermath"
+    ],
+    "transcript_ref": "civil_rights\\cr_james_armstrong.yaml"
+  },
+  {
+    "entity_id": 19,
+    "entity": "Boston College",
+    "explicit_text": "My son Floyd graduated from Boston College after living with the family in Lincoln, Massachusetts. Like his brother, he benefited from the support and kindness of that family, which helped him succeed academically. Boston College was part of the journey that started with our fight for school integration back in Birmingham.",
+    "implicit_text": "My son Floyd graduated from a college in Boston after living with the family in the nearby suburb. Like his brother, he benefited from the support and kindness of that family, which helped him succeed academically. That college was part of the journey that started with our fight for school integration back in Birmingham.",
+    "cues": [
+      "college education",
+      "Lincoln, Massachusetts",
+      "1960s-1970s",
+      "civil rights aftermath"
+    ],
+    "transcript_ref": "civil_rights\\cr_james_armstrong.yaml"
+  },
+  {
+    "entity_id": 20,
+    "entity": "Eastern Air Lines",
+    "explicit_text": "Eastern Air Lines was the airline that provided my boys with round-trip tickets to come home to Birmingham for Christmas while they were in college. This was a special gift from the family who took them in, showing their generosity and care. It allowed us to stay connected despite the distance and hardships we endured back home.",
+    "implicit_text": "A major airline provided my boys with round-trip tickets to come home to Birmingham for Christmas while they were in college. This was a special gift from the family who took them in, showing their generosity and care. It allowed us to stay connected despite the distance and hardships we endured back home.",
+    "cues": [
+      "air travel",
+      "college visits",
+      "Boston to Birmingham",
+      "1960s-1970s",
+      "family connection"
+    ],
+    "transcript_ref": "civil_rights\\cr_james_armstrong.yaml"
+  },
+  {
+    "entity_id": 21,
+    "entity": "Quakers",
+    "explicit_text": "The family in Lincoln, Massachusetts, who took in my boys were Quakers. They practiced what they preached about equality and kindness, not seeing color but seeing people as human beings. Their faith and values inspired them to open their home and hearts to my children during a difficult time. Their support was a beautiful example of humanity during the civil rights era.",
+    "implicit_text": "The family in the Boston suburb who took in my boys were members of a religious group known for their commitment to equality and kindness. They practiced what they preached about seeing people as human beings beyond color. Their faith and values inspired them to open their home and hearts to my children during a difficult time. Their support was a beautiful example of humanity during the civil rights era.",
+    "cues": [
+      "Lincoln, Massachusetts",
+      "hospitality",
+      "equality",
+      "1960s-1970s",
+      "civil rights"
+    ],
+    "transcript_ref": "civil_rights\\cr_james_armstrong.yaml"
+  },
+  {
+    "entity_id": 22,
+    "entity": "George Wallace",
+    "explicit_text": "Governor George Wallace was a staunch opponent of school integration in Alabama. He famously said that before integration came to this state, blood would run in the streets. His stance made the fight for civil rights in Birmingham even more dangerous and difficult. Wallace's resistance was a major obstacle we had to face during the early 1960s.",
+    "implicit_text": "The governor of Alabama was a staunch opponent of school integration. He famously said that before integration came to this state, blood would run in the streets. His stance made the fight for civil rights in Birmingham even more dangerous and difficult. His resistance was a major obstacle we had to face during the early 1960s.",
+    "cues": [
+      "Governor of Alabama",
+      "school integration opposition",
+      "Birmingham",
+      "1963",
+      "civil rights struggle"
+    ],
+    "transcript_ref": "civil_rights\\cr_james_armstrong.yaml"
+  },
+  {
+    "entity_id": 23,
+    "entity": "Bull Connor",
+    "explicit_text": "Bull Connor was the Birmingham official who enforced segregation and violently opposed the civil rights movement. He was known for his harsh tactics against those trying to integrate schools and public spaces. His actions made the struggle for equality in Birmingham very dangerous for families like mine. Connor's role was a symbol of the entrenched racism we were fighting against.",
+    "implicit_text": "The public safety commissioner in Birmingham enforced segregation and violently opposed the civil rights movement. He was known for his harsh tactics against those trying to integrate schools and public spaces. His actions made the struggle for equality in Birmingham very dangerous for families like mine. His role was a symbol of the entrenched racism we were fighting against.",
+    "cues": [
+      "Birmingham",
+      "segregation enforcement",
+      "civil rights opposition",
+      "1960s"
+    ],
+    "transcript_ref": "civil_rights\\cr_james_armstrong.yaml"
+  }
+]

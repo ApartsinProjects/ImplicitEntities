@@ -1,0 +1,403 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "United States Army",
+    "explicit_text": "I served in the United States Army infantry for three years during World War II. My division was the 84th Infantry Division, and we fought primarily in the European Theater of Operations. The Army was my organization throughout the war, and I experienced many campaigns and battles under its command.",
+    "implicit_text": "I served in the infantry branch of the U.S. military for three years during World War II. My division was the 84th Infantry Division, and we fought primarily in the European Theater of Operations. This military branch was my organization throughout the war, and I experienced many campaigns and battles under its command.",
+    "cues": [
+      "three years",
+      "World War II",
+      "infantry",
+      "European Theater of Operations",
+      "84th Infantry Division"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\afc2001001.12848_John_Adamec_Collection.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "84th Infantry Division",
+    "explicit_text": "I was proud to serve in the 84th Infantry Division during World War II. We landed in Normandy in September and fought through France, Paris, Holland, and into Germany. The division took part in major campaigns like the Rhineland and Central Europe, and we were heavily involved in the Battle of the Bulge. I even got to reconnect with fellow veterans at reunions and the World War II Memorial.",
+    "implicit_text": "I was proud to serve in the 84th Infantry Division during World War II. We landed in Normandy in September and fought through France, Paris, Holland, and into Germany. The unit took part in major campaigns like the Rhineland and Central Europe, and we were heavily involved in the Battle of the Bulge. I even got to reconnect with fellow veterans at reunions and the World War II Memorial.",
+    "cues": [
+      "Normandy September",
+      "France",
+      "Paris",
+      "Holland",
+      "Germany",
+      "Battle of the Bulge",
+      "Rhineland Campaign",
+      "Central European campaign",
+      "reunions",
+      "World War II Memorial"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\afc2001001.12848_John_Adamec_Collection.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "European Theater of World War II",
+    "explicit_text": "I served in the European Theater of World War II for three years with the 84th Infantry Division. We landed in Normandy and fought across France, Holland, and into Germany. Our campaigns included the Rhineland and Central Europe, and we faced tough battles like the Battle of the Bulge during the harsh winter of 1944-45.",
+    "implicit_text": "I served in the European Theater of World War II for three years with the 84th Infantry Division. We landed in Normandy and fought across France, Holland, and into Germany. Our campaigns included the Rhineland and Central Europe, and we faced tough battles like the Battle of the Bulge during the harsh winter of 1944-45.",
+    "cues": [
+      "three years",
+      "84th Infantry Division",
+      "Normandy",
+      "France",
+      "Holland",
+      "Germany",
+      "Rhineland Campaign",
+      "Central European campaign",
+      "Battle of the Bulge",
+      "winter 1944-45"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\afc2001001.12848_John_Adamec_Collection.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "Battle of the Bulge",
+    "explicit_text": "The Battle of the Bulge was my most memorable wartime experience. We were pretty isolated for a long time because of the weather, and we couldn’t get any support. It was around Christmas time 1944, and after surviving that tough battle, getting relieved felt like a vacation. We stayed involved there until late January before moving back to the Rhineland.",
+    "implicit_text": "The Battle of the Bulge was my most memorable wartime experience. We were pretty isolated for a long time because of the weather, and we couldn’t get any support. It was around Christmas time 1944, and after surviving that tough battle, getting relieved felt like a vacation. We stayed involved there until late January before moving back to the Rhineland.",
+    "cues": [
+      "Christmas 1944",
+      "weather isolation",
+      "no support",
+      "late January 1945",
+      "Rhineland"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\afc2001001.12848_John_Adamec_Collection.yaml"
+  },
+  {
+    "entity_id": 5,
+    "entity": "Central Europe campaign",
+    "explicit_text": "Our division was part of the Central Europe campaign after we pushed through the Rhineland. We advanced from the western border of Germany about 20-30 miles in and then moved toward Hanover and Geilenkirchen. We made it all the way to the Elbe River outside Berlin, where we held position while the Russians took the city.",
+    "implicit_text": "Our division was part of the Central Europe campaign after we pushed through the Rhineland. We advanced from the western border of Germany about 20-30 miles in and then moved toward Hanover and Geilenkirchen. We made it all the way to the Elbe River outside Berlin, where we held position while the Russians took the city.",
+    "cues": [
+      "Central Europe campaign",
+      "Rhineland",
+      "western Germany",
+      "Hanover",
+      "Geilenkirchen",
+      "Elbe River",
+      "Berlin"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\afc2001001.12848_John_Adamec_Collection.yaml"
+  },
+  {
+    "entity_id": 6,
+    "entity": "Rhineland Campaign",
+    "explicit_text": "I fought in the Rhineland Campaign with the 84th Infantry Division. We pushed from the western boundary of Germany into the Rhineland and later returned there after the Battle of the Bulge. Our efforts took us to places like Hanover and Geilenkirchen as we advanced toward the Elbe River.",
+    "implicit_text": "I fought in the Rhineland Campaign with the 84th Infantry Division. We pushed from the western boundary of Germany into the Rhineland and later returned there after the Battle of the Bulge. Our efforts took us to places like Hanover and Geilenkirchen as we advanced toward the Elbe River.",
+    "cues": [
+      "Rhineland Campaign",
+      "western Germany",
+      "Battle of the Bulge",
+      "Hanover",
+      "Geilenkirchen",
+      "Elbe River"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\afc2001001.12848_John_Adamec_Collection.yaml"
+  },
+  {
+    "entity_id": 7,
+    "entity": "Normandy landings",
+    "explicit_text": "We arrived in Normandy in September 1944, after the initial landings, and began our push through France. From Normandy, we moved through Paris and then on to Holland before establishing a rallying point. This was the starting point for our assault on the Siegfried Line in Germany.",
+    "implicit_text": "We arrived in Normandy in September 1944, after the initial landings, and began our push through France. From Normandy, we moved through Paris and then on to Holland before establishing a rallying point. This was the starting point for our assault on the Siegfried Line in Germany.",
+    "cues": [
+      "Normandy September 1944",
+      "France",
+      "Paris",
+      "Holland",
+      "Siegfried Line"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\afc2001001.12848_John_Adamec_Collection.yaml"
+  },
+  {
+    "entity_id": 8,
+    "entity": "France",
+    "explicit_text": "After landing in Normandy, we fought our way through France, including Paris. Our division moved steadily across the country as part of the European campaign. France was a key area in our advance toward Germany and the Siegfried Line.",
+    "implicit_text": "After landing in Normandy, we fought our way through France, including Paris. Our division moved steadily across the country as part of the European campaign. France was a key area in our advance toward Germany and the Siegfried Line.",
+    "cues": [
+      "Normandy",
+      "Paris",
+      "European campaign",
+      "advance toward Germany",
+      "Siegfried Line"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\afc2001001.12848_John_Adamec_Collection.yaml"
+  },
+  {
+    "entity_id": 9,
+    "entity": "Paris",
+    "explicit_text": "We passed through Paris after landing in Normandy in September 1944. It was part of our route as we moved north toward Holland and then Germany. Paris was a significant waypoint during our European campaign with the 84th Infantry Division.",
+    "implicit_text": "We passed through Paris after landing in Normandy in September 1944. It was part of our route as we moved north toward Holland and then Germany. Paris was a significant waypoint during our European campaign with the 84th Infantry Division.",
+    "cues": [
+      "Paris",
+      "Normandy September 1944",
+      "route to Holland and Germany",
+      "European campaign"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\afc2001001.12848_John_Adamec_Collection.yaml"
+  },
+  {
+    "entity_id": 10,
+    "entity": "Holland",
+    "explicit_text": "Our division reached Holland after moving through France and Paris. We set up our rallying point there before launching the attack on the Siegfried Line in Germany. Holland was an important staging area for the next phase of our campaign.",
+    "implicit_text": "Our division reached Holland after moving through France and Paris. We set up our rallying point there before launching the attack on the Siegfried Line in Germany. Holland was an important staging area for the next phase of our campaign.",
+    "cues": [
+      "Holland",
+      "France",
+      "Paris",
+      "rallying point",
+      "Siegfried Line"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\afc2001001.12848_John_Adamec_Collection.yaml"
+  },
+  {
+    "entity_id": 11,
+    "entity": "Siegfried Line",
+    "explicit_text": "The Siegfried Line was the German defensive line we attacked after regrouping in Holland. We crossed into Germany through this line during the Rhineland Campaign. It was a tough barrier but a critical part of our advance into German territory.",
+    "implicit_text": "The Siegfried Line was the German defensive line we attacked after regrouping in Holland. We crossed into Germany through this line during the Rhineland Campaign. It was a tough barrier but a critical part of our advance into German territory.",
+    "cues": [
+      "Siegfried Line",
+      "Holland",
+      "Germany",
+      "Rhineland Campaign"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\afc2001001.12848_John_Adamec_Collection.yaml"
+  },
+  {
+    "entity_id": 12,
+    "entity": "Germany",
+    "explicit_text": "We fought extensively in Germany after breaking through the Siegfried Line. Our division advanced from the western border into cities like Hanover and Geilenkirchen, eventually reaching the Elbe River near Berlin. We were held there while the Russians took Berlin, but we processed thousands of prisoners who preferred surrendering to us rather than the Soviets.",
+    "implicit_text": "We fought extensively in Germany after breaking through the Siegfried Line. Our division advanced from the western border into cities like Hanover and Geilenkirchen, eventually reaching the Elbe River near Berlin. We were held there while the Russians took Berlin, but we processed thousands of prisoners who preferred surrendering to us rather than the Soviets.",
+    "cues": [
+      "Germany",
+      "Siegfried Line",
+      "Hanover",
+      "Geilenkirchen",
+      "Elbe River",
+      "Berlin",
+      "prisoners",
+      "Russians"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\afc2001001.12848_John_Adamec_Collection.yaml"
+  },
+  {
+    "entity_id": 13,
+    "entity": "Hanover",
+    "explicit_text": "During the Rhineland and Central Europe campaigns, we pushed through Hanover as part of our advance into Germany. It was one of the key cities we passed on our way toward the Elbe River and Berlin. The fighting there was tough but important to our progress.",
+    "implicit_text": "During the Rhineland and Central Europe campaigns, we pushed through Hanover as part of our advance into Germany. It was one of the key cities we passed on our way toward the Elbe River and Berlin. The fighting there was tough but important to our progress.",
+    "cues": [
+      "Hanover",
+      "Rhineland Campaign",
+      "Central Europe campaign",
+      "Germany",
+      "Elbe River",
+      "Berlin"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\afc2001001.12848_John_Adamec_Collection.yaml"
+  },
+  {
+    "entity_id": 14,
+    "entity": "Geilenkirchen",
+    "explicit_text": "Geilenkirchen was another city we fought through during the Rhineland Campaign. It was near Hanover and part of our push deeper into Germany. The 84th Infantry Division made significant advances in this area before moving toward the Elbe River.",
+    "implicit_text": "Geilenkirchen was another city we fought through during the Rhineland Campaign. It was near Hanover and part of our push deeper into Germany. The 84th Infantry Division made significant advances in this area before moving toward the Elbe River.",
+    "cues": [
+      "Geilenkirchen",
+      "Rhineland Campaign",
+      "Hanover",
+      "Germany",
+      "Elbe River"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\afc2001001.12848_John_Adamec_Collection.yaml"
+  },
+  {
+    "entity_id": 15,
+    "entity": "Elbe River",
+    "explicit_text": "We reached the Elbe River outside Berlin near the end of the war in Europe. We were held there instead of advancing into Berlin, which the Russians took. At the Elbe, we processed thousands of German prisoners who preferred surrendering to us rather than the Soviets, and we even had a joint celebration with British and Russian troops.",
+    "implicit_text": "We reached the Elbe River outside Berlin near the end of the war in Europe. We were held there instead of advancing into Berlin, which the Russians took. At the Elbe, we processed thousands of German prisoners who preferred surrendering to us rather than the Soviets, and we even had a joint celebration with British and Russian troops.",
+    "cues": [
+      "Elbe River",
+      "Berlin",
+      "Russians",
+      "prisoners",
+      "British troops",
+      "end of war in Europe"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\afc2001001.12848_John_Adamec_Collection.yaml"
+  },
+  {
+    "entity_id": 16,
+    "entity": "Berlin",
+    "explicit_text": "Although we reached the Elbe River near Berlin, we were held back and did not enter the city. The Soviets took Berlin before we could get there, but I believe we could have arrived a week earlier. It was a memorable moment, watching history unfold as the Russians took the city while we held the western shore.",
+    "implicit_text": "Although we reached the Elbe River near Berlin, we were held back and did not enter the city. The Soviets took Berlin before we could get there, but I believe we could have arrived a week earlier. It was a memorable moment, watching history unfold as the Russians took the city while we held the western shore.",
+    "cues": [
+      "Berlin",
+      "Elbe River",
+      "Soviet Union",
+      "held back",
+      "end of war"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\afc2001001.12848_John_Adamec_Collection.yaml"
+  },
+  {
+    "entity_id": 17,
+    "entity": "Soviet Union",
+    "explicit_text": "The Soviet Union was our ally in the European Theater, but they took Berlin before we could get there. We held the western bank of the Elbe River while the Russians entered the city. We also had a memorable party with British and Russian troops during the final days of the war in Europe.",
+    "implicit_text": "The Soviet Union was our ally in the European Theater, but they took Berlin before we could get there. We held the western bank of the Elbe River while the Russians entered the city. We also had a memorable party with British and Russian troops during the final days of the war in Europe.",
+    "cues": [
+      "Soviet Union",
+      "Berlin",
+      "Elbe River",
+      "British troops",
+      "end of war in Europe"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\afc2001001.12848_John_Adamec_Collection.yaml"
+  },
+  {
+    "entity_id": 18,
+    "entity": "United Kingdom",
+    "explicit_text": "British troops supported us during the final stages of the war in Europe. We shared a celebration with them and the Russians at the Elbe River near Berlin. Their support was important throughout the campaign, and I appreciated the camaraderie we had with them.",
+    "implicit_text": "British troops supported us during the final stages of the war in Europe. We shared a celebration with them and the Russians at the Elbe River near Berlin. Their support was important throughout the campaign, and I appreciated the camaraderie we had with them.",
+    "cues": [
+      "United Kingdom",
+      "British troops",
+      "Elbe River",
+      "Berlin",
+      "end of war in Europe"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\afc2001001.12848_John_Adamec_Collection.yaml"
+  },
+  {
+    "entity_id": 19,
+    "entity": "Karlsruhe",
+    "explicit_text": "During the occupation after the war in Europe ended, we were stationed in southern Germany around Karlsruhe. It was part of the area where we helped maintain order and begin rebuilding. We stayed there before moving on to Mannheim and Heidelberg.",
+    "implicit_text": "During the occupation after the war in Europe ended, we were stationed in southern Germany around Karlsruhe. It was part of the area where we helped maintain order and begin rebuilding. We stayed there before moving on to Mannheim and Heidelberg.",
+    "cues": [
+      "Karlsruhe",
+      "occupation",
+      "southern Germany",
+      "post-war"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\afc2001001.12848_John_Adamec_Collection.yaml"
+  },
+  {
+    "entity_id": 20,
+    "entity": "Mannheim",
+    "explicit_text": "Mannheim was another city in southern Germany where we were stationed during the occupation. After the fighting ended, we spent time there helping with the transition period before heading to Heidelberg. It was part of our post-war duties.",
+    "implicit_text": "Mannheim was another city in southern Germany where we were stationed during the occupation. After the fighting ended, we spent time there helping with the transition period before heading to Heidelberg. It was part of our post-war duties.",
+    "cues": [
+      "Mannheim",
+      "southern Germany",
+      "occupation",
+      "post-war"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\afc2001001.12848_John_Adamec_Collection.yaml"
+  },
+  {
+    "entity_id": 21,
+    "entity": "Heidelberg",
+    "explicit_text": "We stayed in Heidelberg for a while during the occupation of Germany after the war in Europe ended. It was a key location for us before we prepared to ship out to the China Burma India Theater. Heidelberg was part of our time helping stabilize the region.",
+    "implicit_text": "We stayed in Heidelberg for a while during the occupation of Germany after the war in Europe ended. It was a key location for us before we prepared to ship out to the China Burma India Theater. Heidelberg was part of our time helping stabilize the region.",
+    "cues": [
+      "Heidelberg",
+      "occupation",
+      "Germany",
+      "post-war",
+      "China Burma India Theater"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\afc2001001.12848_John_Adamec_Collection.yaml"
+  },
+  {
+    "entity_id": 22,
+    "entity": "Marseille",
+    "explicit_text": "We waited in Heidelberg before heading to Marseille to embark for the China Burma India Theater. The war in Japan was still ongoing, so we were preparing to continue fighting in the Pacific. Fortunately, the war ended in mid-August before we deployed there.",
+    "implicit_text": "We waited in Heidelberg before heading to Marseille to embark for the China Burma India Theater. The war in Japan was still ongoing, so we were preparing to continue fighting in the Pacific. Fortunately, the war ended in mid-August before we deployed there.",
+    "cues": [
+      "Marseille",
+      "Heidelberg",
+      "China Burma India Theater",
+      "war in Japan",
+      "mid-August 1945"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\afc2001001.12848_John_Adamec_Collection.yaml"
+  },
+  {
+    "entity_id": 23,
+    "entity": "China Burma India Theater",
+    "explicit_text": "After the war in Europe ended, our division was slated to go to the China Burma India Theater to continue fighting against Japan. We were preparing to deploy from Marseille, but the war ended in mid-August before we left. So instead, we returned home after a long journey across the Atlantic.",
+    "implicit_text": "After the war in Europe ended, our division was slated to go to the China Burma India Theater to continue fighting against Japan. We were preparing to deploy from Marseille, but the war ended in mid-August before we left. So instead, we returned home after a long journey across the Atlantic.",
+    "cues": [
+      "China Burma India Theater",
+      "post-Europe war",
+      "Marseille",
+      "war ended mid-August 1945"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\afc2001001.12848_John_Adamec_Collection.yaml"
+  },
+  {
+    "entity_id": 24,
+    "entity": "World War II Memorial",
+    "explicit_text": "I visited the World War II Memorial about two weeks ago and was very impressed by it. While I appreciated the overall design, I wished there were more personal touches related to specific battles like Iwo Jima that veterans could connect with. Still, it’s a beautiful tribute and a credit to those who built it, especially considering concerns about disrupting the view of the Mall.",
+    "implicit_text": "I visited the World War II Memorial about two weeks ago and was very impressed by it. While I appreciated the overall design, I wished there were more personal touches related to specific battles like Iwo Jima that veterans could connect with. Still, it’s a beautiful tribute and a credit to those who built it, especially considering concerns about disrupting the view of the Mall.",
+    "cues": [
+      "World War II Memorial",
+      "visited two weeks ago",
+      "personal touches",
+      "Iwo Jima",
+      "The Mall, Washington, D.C."
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\afc2001001.12848_John_Adamec_Collection.yaml"
+  },
+  {
+    "entity_id": 25,
+    "entity": "Iwo Jima",
+    "explicit_text": "Iwo Jima was mentioned as an example of a battle that could have been better represented at the World War II Memorial. I think veterans who fought there would appreciate seeing something that connects them personally to the memorial. Although I didn’t serve there, I understand the importance of recognizing all theaters of the war.",
+    "implicit_text": "Iwo Jima was mentioned as an example of a battle that could have been better represented at the World War II Memorial. I think veterans who fought there would appreciate seeing something that connects them personally to the memorial. Although I didn’t serve there, I understand the importance of recognizing all theaters of the war.",
+    "cues": [
+      "Iwo Jima",
+      "World War II Memorial",
+      "veteran recognition"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\afc2001001.12848_John_Adamec_Collection.yaml"
+  },
+  {
+    "entity_id": 26,
+    "entity": "The Mall, Washington, D.C.",
+    "explicit_text": "The World War II Memorial is located on The Mall in Washington, D.C., and there were concerns that it might disrupt the view. I was initially worried about that too, but the memorial turned out beautifully and fits well within the space. Visiting it there was a moving experience for me.",
+    "implicit_text": "The World War II Memorial is located on The Mall in Washington, D.C., and there were concerns that it might disrupt the view. I was initially worried about that too, but the memorial turned out beautifully and fits well within the space. Visiting it there was a moving experience for me.",
+    "cues": [
+      "The Mall, Washington, D.C.",
+      "World War II Memorial",
+      "concerns about view",
+      "memorial design"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\afc2001001.12848_John_Adamec_Collection.yaml"
+  },
+  {
+    "entity_id": 27,
+    "entity": "Puerto Rico",
+    "explicit_text": "On the way back to New York after the war in Europe ended, we traveled on a Puerto Rican banana boat across the Atlantic. It was a flat-bottom boat with no keel, and the storms made the trip very rough. I spent most of the fourteen-day journey in my bunk trying to get through the seasickness.",
+    "implicit_text": "On the way back to New York after the war in Europe ended, we traveled on a Puerto Rican banana boat across the Atlantic. It was a flat-bottom boat with no keel, and the storms made the trip very rough. I spent most of the fourteen-day journey in my bunk trying to get through the seasickness.",
+    "cues": [
+      "Puerto Rico",
+      "banana boat",
+      "Atlantic crossing",
+      "fourteen days",
+      "post-Europe war"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\afc2001001.12848_John_Adamec_Collection.yaml"
+  },
+  {
+    "entity_id": 28,
+    "entity": "New York City",
+    "explicit_text": "After the rough Atlantic crossing on the Puerto Rican banana boat, we finally arrived in New York City. It was a relief to be back home after years of fighting in Europe. New York was the port where we disembarked and began our transition back to civilian life.",
+    "implicit_text": "After the rough Atlantic crossing on the Puerto Rican banana boat, we finally arrived in New York City. It was a relief to be back home after years of fighting in Europe. New York was the port where we disembarked and began our transition back to civilian life.",
+    "cues": [
+      "New York City",
+      "Atlantic crossing",
+      "post-Europe war",
+      "disembarkation"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\afc2001001.12848_John_Adamec_Collection.yaml"
+  }
+]

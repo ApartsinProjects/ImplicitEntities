@@ -1,0 +1,87 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "Mogadishu",
+    "explicit_text": "I was born in Mogadishu in December, and I grew up in a beautiful neighborhood where everyone knew each other. My childhood memories include visiting my great-grandfather who had many livestock like goats, cows, and sheep. Mogadishu was my home until the civil war began in 1991, which forced me and my family to leave for safety.",
+    "implicit_text": "I was born in the capital city of Somalia in December, and I grew up in a beautiful neighborhood where everyone knew each other. My childhood memories include visiting my great-grandfather who had many livestock like goats, cows, and sheep. This city was my home until the civil war began in 1991, which forced me and my family to leave for safety.",
+    "cues": [
+      "born in December",
+      "beautiful neighborhood",
+      "great-grandfather's livestock",
+      "civil war 1991",
+      "home city"
+    ],
+    "transcript_ref": "immigration\\imm_umn_293_maryama_hussein.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "Somali Civil War",
+    "explicit_text": "The Somali Civil War started in 1991 when the government began to collapse and people started fighting each other. During those chaotic weeks, many relatives of mine, including my uncle, were killed and a lot of property was destroyed. This war forced me and my son to leave Somalia in 2002 to save our lives.",
+    "implicit_text": "The civil conflict in Somalia started in 1991 when the government began to collapse and people started fighting each other. During those chaotic weeks, many relatives of mine, including my uncle, were killed and a lot of property was destroyed. This war forced me and my son to leave the country in 2002 to save our lives.",
+    "cues": [
+      "1991",
+      "government collapse",
+      "relatives killed",
+      "property destroyed",
+      "fleeing in 2002"
+    ],
+    "transcript_ref": "immigration\\imm_umn_293_maryama_hussein.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "Cairo",
+    "explicit_text": "After fleeing Somalia, my son and I went to Cairo in Egypt in 2002 because we had a friend there. We lived peacefully in Cairo but struggled with missing essentials like food, clothes, and education. I found it very hard to support my son and to afford school because jobs were scarce for immigrants.",
+    "implicit_text": "After fleeing Somalia, my son and I went to the capital of Egypt in 2002 because we had a friend there. We lived peacefully in that city but struggled with missing essentials like food, clothes, and education. I found it very hard to support my son and to afford school because jobs were scarce for immigrants.",
+    "cues": [
+      "2002",
+      "friend in Cairo",
+      "peaceful life",
+      "lack of food, clothes, education",
+      "job scarcity for immigrants"
+    ],
+    "transcript_ref": "immigration\\imm_umn_293_maryama_hussein.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "Egypt",
+    "explicit_text": "We lived in Egypt after leaving Somalia, specifically in Cairo, starting in 2002. Although Egypt was peaceful, life was difficult because I couldn't find work and school was too expensive for my son. I was also pregnant with my daughter during this time and felt frustrated by the challenges we faced as immigrants.",
+    "implicit_text": "We lived in the North African country after leaving Somalia, specifically in its capital city, starting in 2002. Although the country was peaceful, life was difficult because I couldn't find work and school was too expensive for my son. I was also pregnant with my daughter during this time and felt frustrated by the challenges we faced as immigrants.",
+    "cues": [
+      "2002",
+      "Cairo residence",
+      "lack of jobs",
+      "expensive education",
+      "pregnancy"
+    ],
+    "transcript_ref": "immigration\\imm_umn_293_maryama_hussein.yaml"
+  },
+  {
+    "entity_id": 5,
+    "entity": "United Nations High Commissioner for Refugees",
+    "explicit_text": "When I was pregnant and struggling in Egypt, I reached out to the United Nations High Commissioner for Refugees for help. They have been assisting refugees worldwide for over five decades, and after waiting four years, they accepted me as a refugee. Thanks to them, I was able to move to the United States to start a new life.",
+    "implicit_text": "When I was pregnant and struggling in that North African country, I reached out to the international agency responsible for protecting refugees worldwide for help. They have been assisting displaced people for over five decades, and after waiting four years, they accepted me as a refugee. Thanks to them, I was able to move to North America to start a new life.",
+    "cues": [
+      "pregnancy",
+      "contacted UNHCR",
+      "five decades of refugee aid",
+      "four-year wait",
+      "accepted as refugee"
+    ],
+    "transcript_ref": "immigration\\imm_umn_293_maryama_hussein.yaml"
+  },
+  {
+    "entity_id": 6,
+    "entity": "United States",
+    "explicit_text": "After being accepted as a refugee, I moved to the United States, hoping my life would change immediately. However, it was still a struggle because I had no money and couldn't speak English. I worked hard, found a job, and now I balance studying and working while raising my children, always hoping for a better future here.",
+    "implicit_text": "After being accepted as a refugee, I moved to the country in North America known for its diversity, hoping my life would change immediately. However, it was still a struggle because I had no money and couldn't speak English. I worked hard, found a job, and now I balance studying and working while raising my children, always hoping for a better future here.",
+    "cues": [
+      "refugee acceptance",
+      "initial struggles",
+      "no English",
+      "found job",
+      "studying and working",
+      "hope for future"
+    ],
+    "transcript_ref": "immigration\\imm_umn_293_maryama_hussein.yaml"
+  }
+]

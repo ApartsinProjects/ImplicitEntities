@@ -1,0 +1,491 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "Pomona, California",
+    "explicit_text": "I was born in Pomona, California, and raised by my maternal grandparents and aunts on a ranch there. Growing up in Pomona shaped my early years, where I began drawing at the age of three and engaged in activities like sports, Boy Scouts, and the YMCA. Although I initially planned to attend Pomona College, my artistic path took me elsewhere.",
+    "implicit_text": "I was born in a city in California's Pomona Valley and raised by my maternal grandparents and aunts on a ranch there. Growing up in that city shaped my early years, where I began drawing at the age of three and engaged in activities like sports, scouting, and community programs. Although I initially planned to attend a local liberal arts college, my artistic path took me elsewhere.",
+    "cues": [
+      "born",
+      "raised",
+      "ranch",
+      "early drawing",
+      "sports",
+      "Boy Scouts",
+      "YMCA"
+    ],
+    "transcript_ref": "academic\\ucla_oral_history\\ucla_ucla_Millard_Sheets_oral_history_transcript.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "Boy Scouts of America",
+    "explicit_text": "During my childhood in Pomona, I was deeply involved in the Boy Scouts of America, which complemented my interests in sports and outdoor activities. This involvement helped build my character and discipline from a young age. It was part of a balanced upbringing alongside my early passion for art.",
+    "implicit_text": "During my childhood in that California city, I was deeply involved in a national youth scouting organization, which complemented my interests in sports and outdoor activities. This involvement helped build my character and discipline from a young age. It was part of a balanced upbringing alongside my early passion for art.",
+    "cues": [
+      "childhood",
+      "Pomona",
+      "sports",
+      "character building"
+    ],
+    "transcript_ref": "academic\\ucla_oral_history\\ucla_ucla_Millard_Sheets_oral_history_transcript.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "YMCA",
+    "explicit_text": "As a child growing up in Pomona, I was active in the YMCA, which provided me with opportunities for physical activity and community engagement. This involvement was alongside my participation in the Boy Scouts and my early art lessons. The YMCA was part of the supportive environment that nurtured my development.",
+    "implicit_text": "As a child growing up in that California city, I was active in a community organization focused on youth development, which provided me with opportunities for physical activity and community engagement. This involvement was alongside my participation in scouting and my early art lessons. The organization was part of the supportive environment that nurtured my development.",
+    "cues": [
+      "childhood",
+      "Pomona",
+      "sports",
+      "community engagement"
+    ],
+    "transcript_ref": "academic\\ucla_oral_history\\ucla_ucla_Millard_Sheets_oral_history_transcript.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "Theodore Modra",
+    "explicit_text": "In my junior high years, I attended monthly criticism sessions with professional artists, including Theodore Modra. These sessions were invaluable in developing my artistic skills and understanding. Modra's guidance, along with Clarence Hinkle's, helped shape my early artistic education.",
+    "implicit_text": "In my junior high years, I attended monthly criticism sessions with professional artists, including one named Theodore Modra. These sessions were invaluable in developing my artistic skills and understanding. Modra's guidance, along with another artist's, helped shape my early artistic education.",
+    "cues": [
+      "junior high",
+      "monthly criticism sessions",
+      "professional artists",
+      "artistic development"
+    ],
+    "transcript_ref": "academic\\ucla_oral_history\\ucla_ucla_Millard_Sheets_oral_history_transcript.yaml"
+  },
+  {
+    "entity_id": 5,
+    "entity": "Clarence Hinkle",
+    "explicit_text": "Clarence Hinkle was one of the professional artists who led monthly criticism sessions I attended during junior high. His insights and critiques were instrumental in refining my art during those formative years. Alongside Theodore Modra, Hinkle played a key role in my early artistic growth.",
+    "implicit_text": "A professional artist named Clarence Hinkle was one of the leaders of monthly criticism sessions I attended during junior high. His insights and critiques were instrumental in refining my art during those formative years. Alongside Theodore Modra, he played a key role in my early artistic growth.",
+    "cues": [
+      "junior high",
+      "monthly criticism sessions",
+      "professional artists",
+      "artistic growth"
+    ],
+    "transcript_ref": "academic\\ucla_oral_history\\ucla_ucla_Millard_Sheets_oral_history_transcript.yaml"
+  },
+  {
+    "entity_id": 6,
+    "entity": "Chouinard Art Institute",
+    "explicit_text": "I chose to attend the Chouinard Art Institute instead of Pomona College because it offered professional-level art courses. I commuted daily on the Red Car to study drawing, painting, and design, developing a particular passion for watercolor painting. After two years, I was promoted to instructor there, teaching watercolor and delineation to architects.",
+    "implicit_text": "I chose to attend a renowned Los Angeles art institute instead of the local liberal arts college because it offered professional-level art courses. I commuted daily on the Pacific Electric Railway to study drawing, painting, and design, developing a particular passion for watercolor painting. After two years, I was promoted to instructor there, teaching watercolor and delineation to architects.",
+    "cues": [
+      "attendance",
+      "commute on Red Car",
+      "drawing, painting, design",
+      "watercolor",
+      "instructor"
+    ],
+    "transcript_ref": "academic\\ucla_oral_history\\ucla_ucla_Millard_Sheets_oral_history_transcript.yaml"
+  },
+  {
+    "entity_id": 7,
+    "entity": "Red Car",
+    "explicit_text": "While studying at Chouinard Art Institute, I commuted daily on the Red Car, which was a key part of my routine in Los Angeles during that time. This transportation allowed me to access professional art education conveniently. It was an important link between my home and school.",
+    "implicit_text": "While studying at that Los Angeles art institute, I commuted daily on the Pacific Electric Railway, which was a key part of my routine in the city during that time. This transportation allowed me to access professional art education conveniently. It was an important link between my home and school.",
+    "cues": [
+      "commute",
+      "Chouinard Art Institute",
+      "Los Angeles",
+      "daily routine"
+    ],
+    "transcript_ref": "academic\\ucla_oral_history\\ucla_ucla_Millard_Sheets_oral_history_transcript.yaml"
+  },
+  {
+    "entity_id": 8,
+    "entity": "Dalzell Hatfield",
+    "explicit_text": "In 1928, Dalzell Hatfield approached me to represent my work at his gallery, which led to a successful one-man exhibition in 1929. This opportunity was a significant milestone early in my career, helping me gain recognition in the art community. Hatfield's support was instrumental in advancing my professional path.",
+    "implicit_text": "In 1928, a gallery owner named Dalzell Hatfield approached me to represent my work at his gallery, which led to a successful one-man exhibition in 1929. This opportunity was a significant milestone early in my career, helping me gain recognition in the art community. His support was instrumental in advancing my professional path.",
+    "cues": [
+      "1928",
+      "gallery representation",
+      "1929 exhibition",
+      "career milestone"
+    ],
+    "transcript_ref": "academic\\ucla_oral_history\\ucla_ucla_Millard_Sheets_oral_history_transcript.yaml"
+  },
+  {
+    "entity_id": 9,
+    "entity": "Davis Prize",
+    "explicit_text": "Winning the Davis Prize in 1929 was a pivotal moment for me, as it provided the means to travel extensively through Central and South America and Europe. This award enabled me to study art and culture abroad, enriching my artistic perspective. It marked the beginning of a significant period of growth and exploration.",
+    "implicit_text": "Winning a prestigious art prize in 1929 was a pivotal moment for me, as it provided the means to travel extensively through Central and South America and Europe. This award enabled me to study art and culture abroad, enriching my artistic perspective. It marked the beginning of a significant period of growth and exploration.",
+    "cues": [
+      "1929",
+      "travel funding",
+      "Central America",
+      "South America",
+      "Europe"
+    ],
+    "transcript_ref": "academic\\ucla_oral_history\\ucla_ucla_Millard_Sheets_oral_history_transcript.yaml"
+  },
+  {
+    "entity_id": 10,
+    "entity": "Central America",
+    "explicit_text": "After winning the Davis Prize in 1929, I traveled through Central America, immersing myself in the region's culture and landscapes. This journey was part of a broader exploration that included South America and Europe, greatly influencing my artistic work. The experience expanded my horizons beyond California.",
+    "implicit_text": "After winning that art prize in 1929, I traveled through Central America, immersing myself in the region's culture and landscapes. This journey was part of a broader exploration that included South America and Europe, greatly influencing my artistic work. The experience expanded my horizons beyond California.",
+    "cues": [
+      "1929 travel",
+      "Davis Prize",
+      "cultural immersion",
+      "artistic influence"
+    ],
+    "transcript_ref": "academic\\ucla_oral_history\\ucla_ucla_Millard_Sheets_oral_history_transcript.yaml"
+  },
+  {
+    "entity_id": 11,
+    "entity": "South America",
+    "explicit_text": "My travels after receiving the Davis Prize took me through South America, where I continued to draw and paint, inspired by the diverse environments and cultures. This period was crucial in broadening my artistic vision and techniques. South America was an important stop on my journey of artistic development.",
+    "implicit_text": "My travels after receiving the art prize took me through South America, where I continued to draw and paint, inspired by the diverse environments and cultures. This period was crucial in broadening my artistic vision and techniques. South America was an important stop on my journey of artistic development.",
+    "cues": [
+      "1929 travel",
+      "Davis Prize",
+      "drawing and painting",
+      "cultural inspiration"
+    ],
+    "transcript_ref": "academic\\ucla_oral_history\\ucla_ucla_Millard_Sheets_oral_history_transcript.yaml"
+  },
+  {
+    "entity_id": 12,
+    "entity": "Europe",
+    "explicit_text": "During my travels funded by the Davis Prize, I visited Europe extensively, including France, Germany, the Netherlands, and Spain. I spent time in museums and monuments, drawing and painting continuously, and even worked in a lithography studio in Paris. This European experience deeply enriched my art and led to my admission to the Autumn Salon in Paris.",
+    "implicit_text": "During my travels funded by the art prize, I visited Europe extensively, including France, Germany, the Netherlands, and Spain. I spent time in museums and monuments, drawing and painting continuously, and even worked in a lithography studio in Paris. This European experience deeply enriched my art and led to my admission to a prestigious Parisian exhibition.",
+    "cues": [
+      "1929 travel",
+      "Davis Prize",
+      "France",
+      "Germany",
+      "Netherlands",
+      "Spain",
+      "Paris",
+      "Autumn Salon"
+    ],
+    "transcript_ref": "academic\\ucla_oral_history\\ucla_ucla_Millard_Sheets_oral_history_transcript.yaml"
+  },
+  {
+    "entity_id": 13,
+    "entity": "France",
+    "explicit_text": "While in France during my 1929 European travels, I visited major museums and monuments and worked in a lithography studio in Paris. My work there was recognized with admission to the Autumn Salon, a prestigious exhibition. France was a significant place for artistic growth and exposure to European art traditions.",
+    "implicit_text": "While in France during my 1929 European travels, I visited major museums and monuments and worked in a lithography studio in Paris. My work there was recognized with admission to a prestigious autumn exhibition. France was a significant place for artistic growth and exposure to European art traditions.",
+    "cues": [
+      "1929 travel",
+      "Paris",
+      "museums",
+      "lithography studio",
+      "Autumn Salon"
+    ],
+    "transcript_ref": "academic\\ucla_oral_history\\ucla_ucla_Millard_Sheets_oral_history_transcript.yaml"
+  },
+  {
+    "entity_id": 14,
+    "entity": "Germany",
+    "explicit_text": "Germany was one of the European countries I visited during my travels after winning the Davis Prize in 1929. I studied its museums and monuments, drawing and painting throughout my stay. This exposure contributed to my expanding artistic knowledge and practice.",
+    "implicit_text": "Germany was one of the European countries I visited during my travels after winning the art prize in 1929. I studied its museums and monuments, drawing and painting throughout my stay. This exposure contributed to my expanding artistic knowledge and practice.",
+    "cues": [
+      "1929 travel",
+      "museums",
+      "monuments",
+      "drawing and painting"
+    ],
+    "transcript_ref": "academic\\ucla_oral_history\\ucla_ucla_Millard_Sheets_oral_history_transcript.yaml"
+  },
+  {
+    "entity_id": 15,
+    "entity": "Netherlands",
+    "explicit_text": "During my European tour funded by the Davis Prize, I spent time in the Netherlands, exploring its art and culture. I continuously drew and painted, absorbing the unique qualities of the region. This experience was part of a broader artistic journey across Europe.",
+    "implicit_text": "During my European tour funded by the art prize, I spent time in the Netherlands, exploring its art and culture. I continuously drew and painted, absorbing the unique qualities of the region. This experience was part of a broader artistic journey across Europe.",
+    "cues": [
+      "1929 travel",
+      "drawing and painting",
+      "art and culture"
+    ],
+    "transcript_ref": "academic\\ucla_oral_history\\ucla_ucla_Millard_Sheets_oral_history_transcript.yaml"
+  },
+  {
+    "entity_id": 16,
+    "entity": "Spain",
+    "explicit_text": "Spain was among the countries I visited in Europe during my post-Davis Prize travels in 1929. I engaged in drawing and painting there, inspired by the local environment and artistic heritage. Spain added to the rich tapestry of influences that shaped my work.",
+    "implicit_text": "Spain was among the countries I visited in Europe during my post-prize travels in 1929. I engaged in drawing and painting there, inspired by the local environment and artistic heritage. Spain added to the rich tapestry of influences that shaped my work.",
+    "cues": [
+      "1929 travel",
+      "drawing and painting",
+      "artistic inspiration"
+    ],
+    "transcript_ref": "academic\\ucla_oral_history\\ucla_ucla_Millard_Sheets_oral_history_transcript.yaml"
+  },
+  {
+    "entity_id": 17,
+    "entity": "Paris",
+    "explicit_text": "In Paris, during my 1929 European travels, I was admitted to the Autumn Salon and worked in a lithography studio. Paris was a vibrant center of art that offered me invaluable experiences and exposure. I ended my trip early to return to Los Angeles to marry Mary Baskerville, an art student at UCLA.",
+    "implicit_text": "In Paris, during my 1929 European travels, I was admitted to a prestigious autumn exhibition and worked in a lithography studio. Paris was a vibrant center of art that offered me invaluable experiences and exposure. I ended my trip early to return to Los Angeles to marry an art student at UCLA named Mary Baskerville.",
+    "cues": [
+      "1929 travel",
+      "Autumn Salon",
+      "lithography studio",
+      "marriage",
+      "Mary Baskerville"
+    ],
+    "transcript_ref": "academic\\ucla_oral_history\\ucla_ucla_Millard_Sheets_oral_history_transcript.yaml"
+  },
+  {
+    "entity_id": 18,
+    "entity": "Autumn Salon",
+    "explicit_text": "Being admitted to the Autumn Salon in Paris during my 1929 travels was a significant honor and recognition of my work. This exhibition placed me among notable artists and deepened my connection to the European art scene. It was a highlight of my time abroad.",
+    "implicit_text": "Being admitted to the prestigious autumn exhibition in Paris during my 1929 travels was a significant honor and recognition of my work. This exhibition placed me among notable artists and deepened my connection to the European art scene. It was a highlight of my time abroad.",
+    "cues": [
+      "1929",
+      "Paris",
+      "art exhibition",
+      "recognition"
+    ],
+    "transcript_ref": "academic\\ucla_oral_history\\ucla_ucla_Millard_Sheets_oral_history_transcript.yaml"
+  },
+  {
+    "entity_id": 19,
+    "entity": "Los Angeles",
+    "explicit_text": "Los Angeles was my home base where I returned after my European travels to marry Mary Baskerville. It was also where I commuted on the Red Car to Chouinard Art Institute and later taught at various institutions. My career in art education and mural painting largely developed in Los Angeles.",
+    "implicit_text": "Los Angeles was my home base where I returned after my European travels to marry Mary Baskerville. It was also where I commuted on the Pacific Electric Railway to the art institute and later taught at various institutions. My career in art education and mural painting largely developed in this city.",
+    "cues": [
+      "home",
+      "marriage",
+      "commute",
+      "teaching",
+      "mural painting"
+    ],
+    "transcript_ref": "academic\\ucla_oral_history\\ucla_ucla_Millard_Sheets_oral_history_transcript.yaml"
+  },
+  {
+    "entity_id": 20,
+    "entity": "Mary Baskerville",
+    "explicit_text": "Mary Baskerville was an art student at UCLA whom I married shortly after returning early from my European travels in 1929. Our relationship was a personal milestone that coincided with my growing career in Los Angeles. She was part of my life as I developed both as an artist and educator.",
+    "implicit_text": "Mary Baskerville was an art student at UCLA whom I married shortly after returning early from my European travels in 1929. Our relationship was a personal milestone that coincided with my growing career in Los Angeles. She was part of my life as I developed both as an artist and educator.",
+    "cues": [
+      "marriage",
+      "1929",
+      "UCLA art student",
+      "Los Angeles"
+    ],
+    "transcript_ref": "academic\\ucla_oral_history\\ucla_ucla_Millard_Sheets_oral_history_transcript.yaml"
+  },
+  {
+    "entity_id": 21,
+    "entity": "University of California, Berkeley",
+    "explicit_text": "I held a part-time teaching position at the University of California, Berkeley, during the early 1930s while also teaching at other institutions. This role was part of my broader involvement in art education before my long tenure at Scripps College. Berkeley contributed to my experience as an art instructor.",
+    "implicit_text": "I held a part-time teaching position at a major University of California campus in Berkeley during the early 1930s while also teaching at other institutions. This role was part of my broader involvement in art education before my long tenure at a Southern California liberal arts college. Berkeley contributed to my experience as an art instructor.",
+    "cues": [
+      "early 1930s",
+      "part-time teaching",
+      "art education"
+    ],
+    "transcript_ref": "academic\\ucla_oral_history\\ucla_ucla_Millard_Sheets_oral_history_transcript.yaml"
+  },
+  {
+    "entity_id": 22,
+    "entity": "University of Hawaii",
+    "explicit_text": "In the early 1930s, I also taught part-time at the University of Hawaii, expanding my teaching experience beyond the mainland. This position complemented my roles at other institutions and enriched my perspective as an educator. It was part of my diverse teaching background before settling at Scripps College.",
+    "implicit_text": "In the early 1930s, I also taught part-time at a university in Hawaii, expanding my teaching experience beyond the mainland. This position complemented my roles at other institutions and enriched my perspective as an educator. It was part of my diverse teaching background before settling at a Southern California liberal arts college.",
+    "cues": [
+      "early 1930s",
+      "part-time teaching",
+      "art education"
+    ],
+    "transcript_ref": "academic\\ucla_oral_history\\ucla_ucla_Millard_Sheets_oral_history_transcript.yaml"
+  },
+  {
+    "entity_id": 23,
+    "entity": "Stickney Art Institute",
+    "explicit_text": "I taught part-time at the Stickney Art Institute in the early 1930s, which was one of several teaching positions I held before my long-term role at Scripps College. This experience helped me refine my teaching skills and connect with the art community in Southern California.",
+    "implicit_text": "I taught part-time at an art institute in Pasadena in the early 1930s, which was one of several teaching positions I held before my long-term role at a Southern California liberal arts college. This experience helped me refine my teaching skills and connect with the art community in the region.",
+    "cues": [
+      "early 1930s",
+      "part-time teaching",
+      "Southern California"
+    ],
+    "transcript_ref": "academic\\ucla_oral_history\\ucla_ucla_Millard_Sheets_oral_history_transcript.yaml"
+  },
+  {
+    "entity_id": 24,
+    "entity": "Scripps College",
+    "explicit_text": "In 1931, I was invited to paint a mural at Scripps College, which led to a teaching appointment and eventually a 23-year tenure as chairman of the art department. At Scripps, I developed the art program extensively, introduced the MFA degree, expanded faculty and students, and built new studio facilities with support from Florence Lang and the Fine Arts Foundation. This was a major chapter in my career.",
+    "implicit_text": "In 1931, I was invited to paint a mural at a women's liberal arts college in Claremont, which led to a teaching appointment and eventually a 23-year tenure as chairman of the art department. There, I developed the art program extensively, introduced the MFA degree, expanded faculty and students, and built new studio facilities with support from a benefactor named Florence Lang and a Fine Arts Foundation. This was a major chapter in my career.",
+    "cues": [
+      "1931",
+      "mural commission",
+      "teaching",
+      "chairman",
+      "program development",
+      "MFA degree",
+      "Florence Lang",
+      "Fine Arts Foundation"
+    ],
+    "transcript_ref": "academic\\ucla_oral_history\\ucla_ucla_Millard_Sheets_oral_history_transcript.yaml"
+  },
+  {
+    "entity_id": 25,
+    "entity": "Hartley Alexander",
+    "explicit_text": "Professor Hartley Alexander was a senior philosopher whose weekly discussions I attended for over five years. His ideas about educating artists in a liberal tradition greatly influenced the art program I developed at Scripps College. His mentorship helped shape my approach to art education.",
+    "implicit_text": "Professor Hartley Alexander was a senior philosopher whose weekly discussions I attended for over five years. His ideas about educating artists in a liberal tradition greatly influenced the art program I developed at the Claremont college. His mentorship helped shape my approach to art education.",
+    "cues": [
+      "weekly discussions",
+      "five years",
+      "liberal tradition",
+      "Scripps College",
+      "mentorship"
+    ],
+    "transcript_ref": "academic\\ucla_oral_history\\ucla_ucla_Millard_Sheets_oral_history_transcript.yaml"
+  },
+  {
+    "entity_id": 26,
+    "entity": "Florence Lang",
+    "explicit_text": "Mrs. Florence Lang was a generous benefactor whose three large gifts helped fund the new studio facilities at Scripps College. Her support, along with the establishment of the Fine Arts Foundation, was crucial in expanding the college’s art resources. I worked closely with her contributions to enhance the art department.",
+    "implicit_text": "Mrs. Florence Lang was a generous benefactor whose three large gifts helped fund the new studio facilities at the Claremont college. Her support, along with the establishment of the Fine Arts Foundation, was crucial in expanding the college’s art resources. I worked closely with her contributions to enhance the art department.",
+    "cues": [
+      "philanthropy",
+      "studio facilities",
+      "Scripps College",
+      "Fine Arts Foundation"
+    ],
+    "transcript_ref": "academic\\ucla_oral_history\\ucla_ucla_Millard_Sheets_oral_history_transcript.yaml"
+  },
+  {
+    "entity_id": 27,
+    "entity": "Fine Arts Foundation",
+    "explicit_text": "The Fine Arts Foundation was established to support the expansion of art facilities at Scripps College. It worked alongside donations from Florence Lang to realize new studio buildings and strengthen the art program. This foundation was key in advancing the college’s art education infrastructure.",
+    "implicit_text": "The Fine Arts Foundation was established to support the expansion of art facilities at the Claremont college. It worked alongside donations from Florence Lang to realize new studio buildings and strengthen the art program. This foundation was key in advancing the college’s art education infrastructure.",
+    "cues": [
+      "Scripps College",
+      "studio facilities",
+      "art program expansion",
+      "philanthropy"
+    ],
+    "transcript_ref": "academic\\ucla_oral_history\\ucla_ucla_Millard_Sheets_oral_history_transcript.yaml"
+  },
+  {
+    "entity_id": 28,
+    "entity": "MFA degree",
+    "explicit_text": "I introduced the MFA degree at Scripps College as part of my efforts to professionalize and expand the art program. This graduate degree helped elevate the academic standing of the college’s art department and attract more advanced students and faculty. It was a significant achievement in my educational career.",
+    "implicit_text": "I introduced the Master of Fine Arts degree at the Claremont college as part of my efforts to professionalize and expand the art program. This graduate degree helped elevate the academic standing of the college’s art department and attract more advanced students and faculty. It was a significant achievement in my educational career.",
+    "cues": [
+      "Scripps College",
+      "program development",
+      "graduate education",
+      "professionalization"
+    ],
+    "transcript_ref": "academic\\ucla_oral_history\\ucla_ucla_Millard_Sheets_oral_history_transcript.yaml"
+  },
+  {
+    "entity_id": 29,
+    "entity": "Otis Art Institute",
+    "explicit_text": "In 1954, while recovering from a horseback riding injury, I was consulted on the development of Otis Art Institute. I advocated for a major overhaul to create a professionally sound program and served as acting director, then full-time director from 1955 to 1962. During my tenure, I expanded facilities, hired faculty, emphasized the MFA degree and liberal arts, and introduced a gallery program.",
+    "implicit_text": "In 1954, while recovering from a horseback riding injury, I was consulted on the development of a prominent Los Angeles art institute. I advocated for a major overhaul to create a professionally sound program and served as acting director, then full-time director from 1955 to 1962. During my tenure, I expanded facilities, hired faculty, emphasized the MFA degree and liberal arts, and introduced a gallery program.",
+    "cues": [
+      "1954 consultation",
+      "acting director",
+      "1955-1962 director",
+      "program overhaul",
+      "facility expansion",
+      "MFA degree",
+      "gallery program"
+    ],
+    "transcript_ref": "academic\\ucla_oral_history\\ucla_ucla_Millard_Sheets_oral_history_transcript.yaml"
+  },
+  {
+    "entity_id": 30,
+    "entity": "Howard Ahmanson",
+    "explicit_text": "In the mid-1950s, I collaborated with Howard Ahmanson on designing offices for Home Savings. Our successful integration of architecture, landscaping, and decoration led to over forty offices throughout California. Ahmanson's involvement was pivotal in expanding my work in mural painting and large-scale design projects.",
+    "implicit_text": "In the mid-1950s, I collaborated with a financier named Howard Ahmanson on designing offices for a major savings and loan institution. Our successful integration of architecture, landscaping, and decoration led to over forty offices throughout California. His involvement was pivotal in expanding my work in mural painting and large-scale design projects.",
+    "cues": [
+      "mid-1950s",
+      "Home Savings",
+      "office design",
+      "California",
+      "mural painting"
+    ],
+    "transcript_ref": "academic\\ucla_oral_history\\ucla_ucla_Millard_Sheets_oral_history_transcript.yaml"
+  },
+  {
+    "entity_id": 31,
+    "entity": "Home Savings",
+    "explicit_text": "Home Savings was the client for whom I designed office buildings in the mid-1950s, incorporating murals, mosaics, stained glass, and landscaping. These projects, developed with Howard Ahmanson, resulted in over forty offices across California and established my reputation in mural and architectural art. It was a major phase in my career.",
+    "implicit_text": "A major savings and loan institution was the client for whom I designed office buildings in the mid-1950s, incorporating murals, mosaics, stained glass, and landscaping. These projects, developed with Howard Ahmanson, resulted in over forty offices across California and established my reputation in mural and architectural art. It was a major phase in my career.",
+    "cues": [
+      "mid-1950s",
+      "office design",
+      "California",
+      "murals",
+      "collaboration with Ahmanson"
+    ],
+    "transcript_ref": "academic\\ucla_oral_history\\ucla_ucla_Millard_Sheets_oral_history_transcript.yaml"
+  },
+  {
+    "entity_id": 32,
+    "entity": "Detroit Public Library",
+    "explicit_text": "In 1962, I won a competition to design a mosaic mural for the Detroit Public Library, illustrating great periods of learning. This commission was a prestigious project that showcased my skills in large-scale mosaic art. It marked a significant achievement in my mural painting career.",
+    "implicit_text": "In 1962, I won a competition to design a mosaic mural for a major public library in Detroit, illustrating great periods of learning. This commission was a prestigious project that showcased my skills in large-scale mosaic art. It marked a significant achievement in my mural painting career.",
+    "cues": [
+      "1962",
+      "mosaic mural",
+      "competition win",
+      "Detroit Public Library",
+      "great periods of learning"
+    ],
+    "transcript_ref": "academic\\ucla_oral_history\\ucla_ucla_Millard_Sheets_oral_history_transcript.yaml"
+  },
+  {
+    "entity_id": 33,
+    "entity": "National Shrine",
+    "explicit_text": "In 1965, I designed a mosaic mural for a dome in the National Shrine located in Washington, D.C. This work was part of my expanding portfolio of monumental public art projects. The commission reflected my growing prominence in the field of mural and mosaic art.",
+    "implicit_text": "In 1965, I designed a mosaic mural for a dome in the National Shrine located in the U.S. capital. This work was part of my expanding portfolio of monumental public art projects. The commission reflected my growing prominence in the field of mural and mosaic art.",
+    "cues": [
+      "1965",
+      "mosaic mural",
+      "dome",
+      "National Shrine",
+      "Washington, D.C."
+    ],
+    "transcript_ref": "academic\\ucla_oral_history\\ucla_ucla_Millard_Sheets_oral_history_transcript.yaml"
+  },
+  {
+    "entity_id": 34,
+    "entity": "Washington, D.C.",
+    "explicit_text": "Washington, D.C. was the site of the National Shrine where I created a mosaic mural in 1965. This project was among my major public art commissions and contributed to my national recognition. The city was important in my career as a place for monumental art installations.",
+    "implicit_text": "The U.S. capital was the site of the National Shrine where I created a mosaic mural in 1965. This project was among my major public art commissions and contributed to my national recognition. The city was important in my career as a place for monumental art installations.",
+    "cues": [
+      "1965",
+      "National Shrine",
+      "mosaic mural",
+      "public art"
+    ],
+    "transcript_ref": "academic\\ucla_oral_history\\ucla_ucla_Millard_Sheets_oral_history_transcript.yaml"
+  },
+  {
+    "entity_id": 35,
+    "entity": "Los Angeles City Hall",
+    "explicit_text": "I created tile murals representing civilizations of man and California history for the Los Angeles City Hall annex. These murals were part of my significant contributions to public art in Los Angeles. The City Hall project highlighted my commitment to integrating art into civic spaces.",
+    "implicit_text": "I created tile murals representing civilizations of man and California history for the annex of the Los Angeles City Hall. These murals were part of my significant contributions to public art in the city. The City Hall project highlighted my commitment to integrating art into civic spaces.",
+    "cues": [
+      "tile murals",
+      "civilizations of man",
+      "California history",
+      "Los Angeles City Hall annex",
+      "public art"
+    ],
+    "transcript_ref": "academic\\ucla_oral_history\\ucla_ucla_Millard_Sheets_oral_history_transcript.yaml"
+  },
+  {
+    "entity_id": 36,
+    "entity": "University of Notre Dame",
+    "explicit_text": "One of my most monumental commissions was a 9,000 square foot granite mural for the University of Notre Dame library facade, unveiled in 1963. This large-scale work stands as a testament to my career in mural art and public commissions. It was a crowning achievement in my artistic legacy.",
+    "implicit_text": "One of my most monumental commissions was a 9,000 square foot granite mural for the library facade at a major Midwestern university, unveiled in 1963. This large-scale work stands as a testament to my career in mural art and public commissions. It was a crowning achievement in my artistic legacy.",
+    "cues": [
+      "1963",
+      "granite mural",
+      "library facade",
+      "University of Notre Dame",
+      "monumental commission"
+    ],
+    "transcript_ref": "academic\\ucla_oral_history\\ucla_ucla_Millard_Sheets_oral_history_transcript.yaml"
+  }
+]

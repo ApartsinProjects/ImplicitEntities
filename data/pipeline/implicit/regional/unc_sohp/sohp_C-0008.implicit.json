@@ -1,0 +1,115 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "Charleston County, South Carolina",
+    "explicit_text": "I was born in Charleston County, South Carolina, specifically on one of the islands surrounding Charleston called Young's Island. Although I was born there, my family moved immediately to the City of Charleston when I was an infant. Charleston was a significant naval base during the war, and my father found work in the war industries there. Growing up, I lived in public housing in Charleston city before we moved to our own house in the center of Charleston as my father's economic situation improved.",
+    "implicit_text": "I was born in a coastal county in South Carolina, specifically on one of the islands near the historic city known for its port and naval significance. Although I was born there, my family moved immediately to the city itself when I was an infant. That city was a significant naval base during the war, and my father found work in the war industries there. Growing up, I lived in public housing in the city before we moved to our own house in the center of town as my father's economic situation improved.",
+    "cues": [
+      "Charleston County",
+      "Young's Island",
+      "City of Charleston",
+      "war industries",
+      "naval base",
+      "public housing"
+    ],
+    "transcript_ref": "regional\\unc_sohp\\sohp_C-0008.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "Young's Island",
+    "explicit_text": "Young's Island is where my family roots run deep. Both my mother's and father's families came from different parts of the island—my father from the Adams Run area and my mother from the Oakville area. We visited the island regularly during my childhood, especially my paternal grandmother's home, where my sisters and I spent summers. Our family held considerable land there, and we even took a historical tour of our family holdings on the island recently. It was a place that connected me to the rural life of South Carolina and my family's heritage.",
+    "implicit_text": "This island is where my family roots run deep. Both my mother's and father's families came from different parts of this island—my father from one area and my mother from another. We visited the island regularly during my childhood, especially my paternal grandmother's home, where my sisters and I spent summers. Our family held considerable land there, and we even took a historical tour of our family holdings on the island recently. It was a place that connected me to the rural life of South Carolina and my family's heritage.",
+    "cues": [
+      "Young's Island",
+      "Adams Run",
+      "Oakville",
+      "paternal grandmother",
+      "family landholdings",
+      "summer visits"
+    ],
+    "transcript_ref": "regional\\unc_sohp\\sohp_C-0008.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "Adams Run, South Carolina",
+    "explicit_text": "Adams Run is the section of Young's Island where my father's family came from. My father's side, the Gantts, were a large family there and owned considerable land, which was respected among the local community. We believe some of our ancestors might have owned plantations in that area generations ago. Growing up, I often visited my paternal grandmother's home in that region, which gave me a strong connection to the rural heritage of Adams Run.",
+    "implicit_text": "This is the section of the island where my father's family came from. His side was a large family there and owned considerable land, which was respected among the local community. We believe some of our ancestors might have owned plantations in that area generations ago. Growing up, I often visited my paternal grandmother's home in that region, which gave me a strong connection to the rural heritage of that community.",
+    "cues": [
+      "Adams Run",
+      "Young's Island",
+      "Gantt family",
+      "landholdings",
+      "paternal grandmother"
+    ],
+    "transcript_ref": "regional\\unc_sohp\\sohp_C-0008.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "Oakville, South Carolina",
+    "explicit_text": "Oakville is the part of Young's Island where my mother's family originated. She was an only child from that area, and although we spent less time there compared to my father's side, it was still part of my family background. My maternal grandfather had a small farm there and passed away when I was about eleven. While we didn't visit Oakville as often, it remained a part of my family's story and roots on Young's Island.",
+    "implicit_text": "This part of the island is where my mother's family originated. She was an only child from that area, and although we spent less time there compared to my father's side, it was still part of my family background. My maternal grandfather had a small farm there and passed away when I was about eleven. While we didn't visit that community as often, it remained a part of my family's story and roots on the island.",
+    "cues": [
+      "Oakville",
+      "Young's Island",
+      "maternal grandfather",
+      "small farm",
+      "family origins"
+    ],
+    "transcript_ref": "regional\\unc_sohp\\sohp_C-0008.yaml"
+  },
+  {
+    "entity_id": 5,
+    "entity": "Alex Haley",
+    "explicit_text": "Alex Haley came up in conversations about our family history because of the Gantt family connections on Young's Island. We assumed there might be some link to plantations owned by our ancestors, possibly a couple of generations back, which is something Haley explored in his work. While I don't have direct interactions with him, his research helped us think about our family's past and the landholdings in the area.",
+    "implicit_text": "This author came up in conversations about our family history because of the Gantt family connections on the island. We assumed there might be some link to plantations owned by our ancestors, possibly a couple of generations back, which this researcher explored in his work. While I don't have direct interactions with him, his research helped us think about our family's past and the landholdings in the area.",
+    "cues": [
+      "Alex Haley",
+      "Gantt family",
+      "Young's Island",
+      "plantation history",
+      "family heritage"
+    ],
+    "transcript_ref": "regional\\unc_sohp\\sohp_C-0008.yaml"
+  },
+  {
+    "entity_id": 6,
+    "entity": "United States Navy",
+    "explicit_text": "The United States Navy played a big role in my early life because Charleston was a major naval base during the war and still is. My father worked at the naval shipyard as a rigger mechanic and later moved up to supervisory roles there. His work with the Navy was the family's main source of income, and it shaped much of our economic and social life growing up in Charleston.",
+    "implicit_text": "The naval military branch played a big role in my early life because the city was a major naval base during the war and still is. My father worked at the naval shipyard as a rigger mechanic and later moved up to supervisory roles there. His work with the naval forces was the family's main source of income, and it shaped much of our economic and social life growing up in that city.",
+    "cues": [
+      "United States Navy",
+      "naval base",
+      "Charleston",
+      "naval shipyard",
+      "father's employment"
+    ],
+    "transcript_ref": "regional\\unc_sohp\\sohp_C-0008.yaml"
+  },
+  {
+    "entity_id": 7,
+    "entity": "Morris Street Baptist Church",
+    "explicit_text": "I grew up attending Morris Street Baptist Church with my family. It was the only church our family has ever known, and both my parents were very active members. I literally grew up in that church, participating in the choir and the Boy Scouts, which were central parts of my childhood. Our family's faith and community life were deeply rooted there, connecting us to our heritage and values.",
+    "implicit_text": "I grew up attending a historic Baptist church on Morris Street with my family. It was the only church our family has ever known, and both my parents were very active members. I literally grew up in that church, participating in the choir and the Boy Scouts, which were central parts of my childhood. Our family's faith and community life were deeply rooted there, connecting us to our heritage and values.",
+    "cues": [
+      "Morris Street Baptist Church",
+      "family church",
+      "choir",
+      "Boy Scouts",
+      "church community"
+    ],
+    "transcript_ref": "regional\\unc_sohp\\sohp_C-0008.yaml"
+  },
+  {
+    "entity_id": 8,
+    "entity": "Boy Scouts of America",
+    "explicit_text": "As a child, I was involved in the Boy Scouts of America through my church, Morris Street Baptist Church. Being a Scout was part of the central activities I participated in growing up, alongside the choir and other church events. It helped shape my early experiences and sense of community in Charleston during those years.",
+    "implicit_text": "As a child, I was involved in a national scouting organization through my church on Morris Street. Being a Scout was part of the central activities I participated in growing up, alongside the choir and other church events. It helped shape my early experiences and sense of community in that city during those years.",
+    "cues": [
+      "Boy Scouts of America",
+      "Morris Street Baptist Church",
+      "childhood activities",
+      "community involvement"
+    ],
+    "transcript_ref": "regional\\unc_sohp\\sohp_C-0008.yaml"
+  }
+]

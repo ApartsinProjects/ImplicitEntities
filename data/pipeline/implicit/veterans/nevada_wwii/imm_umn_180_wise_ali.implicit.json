@@ -1,0 +1,174 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "Mogadishu",
+    "explicit_text": "I was born in Mogadishu, Somalia in 1989. It was my home until the Somali Civil War broke out in 1991, forcing my family and me to flee. Mogadishu was where my early childhood memories are rooted before the turmoil changed everything.",
+    "implicit_text": "I was born in the capital city of Somalia in 1989. It was my home until the Somali Civil War broke out in 1991, forcing my family and me to flee. That city was where my early childhood memories are rooted before the turmoil changed everything.",
+    "cues": [
+      "1989",
+      "birthplace",
+      "Somali Civil War",
+      "early childhood"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_180_wise_ali.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "Somalia",
+    "explicit_text": "Somalia is where I was born and lived until the civil war erupted in 1991. The war made life unbearable, with armed militias and violence spreading across towns and cities. My family had to escape Somalia to seek safety in Kenya, leaving behind everything we knew.",
+    "implicit_text": "The country where I was born and lived until the civil war erupted in 1991. The war made life unbearable, with armed militias and violence spreading across towns and cities. My family had to escape that nation to seek safety in Kenya, leaving behind everything we knew.",
+    "cues": [
+      "birthplace",
+      "1991 civil war",
+      "armed militias",
+      "escape to Kenya"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_180_wise_ali.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "Somali Civil War",
+    "explicit_text": "The Somali Civil War began when I was just a child, around 1991, and it completely changed my life. It caused widespread violence, lawlessness, and forced my family to flee Somalia. The war's chaos was evident during our journey, with armed militias stopping our bus and killing young men.",
+    "implicit_text": "The civil war in my home country began when I was just a child, around 1991, and it completely changed my life. It caused widespread violence, lawlessness, and forced my family to flee. The chaos was evident during our journey, with armed militias stopping our bus and killing young men.",
+    "cues": [
+      "1991",
+      "armed militias",
+      "bus attack",
+      "forced migration"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_180_wise_ali.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "Kenya",
+    "explicit_text": "After fleeing Somalia, my family and I arrived in Kenya in 1991 seeking refuge. Kenya became our home for 21 years, where we lived in various refugee camps like Utange and Kakuma. Despite the challenges, Kenya provided us shelter and basic necessities through the support of organizations like the UNHCR.",
+    "implicit_text": "After fleeing my home country, my family and I arrived in the neighboring East African nation in 1991 seeking refuge. That country became our home for 21 years, where we lived in various refugee camps like Utange and Kakuma. Despite the challenges, it provided us shelter and basic necessities through the support of international organizations.",
+    "cues": [
+      "1991 arrival",
+      "refugee camps",
+      "Utange",
+      "Kakuma",
+      "UNHCR support"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_180_wise_ali.yaml"
+  },
+  {
+    "entity_id": 5,
+    "entity": "Dobley",
+    "explicit_text": "Dobley is a border town in Kenya where our bus was stopped by armed militia during our escape from Somalia. It was a terrifying moment when men and women were separated and young men were killed. Dobley marked a dangerous point in our journey to safety.",
+    "implicit_text": "A border town in the East African nation where our bus was stopped by armed militia during our escape from Somalia. It was a terrifying moment when men and women were separated and young men were killed. This town marked a dangerous point in our journey to safety.",
+    "cues": [
+      "border town",
+      "bus stopped",
+      "armed militia",
+      "separation and killings"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_180_wise_ali.yaml"
+  },
+  {
+    "entity_id": 6,
+    "entity": "United Nations High Commissioner for Refugees",
+    "explicit_text": "The United Nations High Commissioner for Refugees, or UNHCR, played a crucial role in helping my family and me after we arrived in Kenya. They provided us with basic supplies and relocated us to different refugee camps like Utange and Kakuma. Later, UNHCR facilitated our resettlement process to the United States in 2012.",
+    "implicit_text": "The international agency responsible for aiding refugees played a crucial role in helping my family and me after we arrived in Kenya. They provided us with basic supplies and relocated us to different refugee camps like Utange and Kakuma. Later, this agency facilitated our resettlement process to the United States in 2012.",
+    "cues": [
+      "Kenya refugee support",
+      "basic supplies",
+      "camp relocation",
+      "resettlement to US"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_180_wise_ali.yaml"
+  },
+  {
+    "entity_id": 7,
+    "entity": "Utange",
+    "explicit_text": "Utange refugee camp in Coast Province, Kenya, was where my family was relocated in 1992 after the initial camp became overcrowded. We lived there for several years until clashes between refugees and local citizens led to the camp's closure in 1997. Utange was a place of relative calm before we had to move again.",
+    "implicit_text": "A refugee camp in the coastal region of Kenya where my family was relocated in 1992 after the initial camp became overcrowded. We lived there for several years until clashes between refugees and local citizens led to the camp's closure in 1997. It was a place of relative calm before we had to move again.",
+    "cues": [
+      "1992 relocation",
+      "Coast Province",
+      "clashes and closure",
+      "refugee camp"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_180_wise_ali.yaml"
+  },
+  {
+    "entity_id": 8,
+    "entity": "Coast Province",
+    "explicit_text": "Coast Province in Kenya is where the Utange refugee camp was located, where my family stayed after being relocated in 1992. It was a region that hosted many refugees like us before tensions caused the camp to close in 1997. Coast Province was part of our long journey living as refugees in Kenya.",
+    "implicit_text": "The coastal region of Kenya where the Utange refugee camp was located, where my family stayed after being relocated in 1992. It was a region that hosted many refugees like us before tensions caused the camp to close in 1997. This area was part of our long journey living as refugees in Kenya.",
+    "cues": [
+      "location of Utange camp",
+      "1992-1997",
+      "refugee tensions",
+      "Kenya"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_180_wise_ali.yaml"
+  },
+  {
+    "entity_id": 9,
+    "entity": "Kakuma refugee camp",
+    "explicit_text": "After Utange camp closed in 1997, my family and I were moved to Kakuma refugee camp in Rift Valley Province, Kenya. We lived there for 16 years, facing many hardships such as insecurity, hunger, and lack of medical care. Kakuma was a difficult place, but it was our home until we were resettled to the United States in 2012.",
+    "implicit_text": "After the closure of the previous camp in 1997, my family and I were moved to a large refugee camp in the Rift Valley region of Kenya. We lived there for 16 years, facing many hardships such as insecurity, hunger, and lack of medical care. This camp was a difficult place, but it was our home until we were resettled to the United States in 2012.",
+    "cues": [
+      "1997 relocation",
+      "Rift Valley Province",
+      "16 years stay",
+      "hardships",
+      "resettlement"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_180_wise_ali.yaml"
+  },
+  {
+    "entity_id": 10,
+    "entity": "Rift Valley Province",
+    "explicit_text": "Rift Valley Province in Kenya is where Kakuma refugee camp is located, where my family lived from 1997 until 2012. It was a challenging environment with many security and health issues. Rift Valley Province became the longest home for us during our years as refugees.",
+    "implicit_text": "The region in Kenya where the Kakuma refugee camp is located, where my family lived from 1997 until 2012. It was a challenging environment with many security and health issues. This area became the longest home for us during our years as refugees.",
+    "cues": [
+      "location of Kakuma camp",
+      "1997-2012",
+      "security challenges",
+      "Kenya"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_180_wise_ali.yaml"
+  },
+  {
+    "entity_id": 11,
+    "entity": "United States",
+    "explicit_text": "In November 2012, my family and I arrived in the United States after being approved for resettlement. The US was very different from what we knew, with new culture, weather, and language. Although it was tough at first, I am now a college student here and hopeful for a better future.",
+    "implicit_text": "In November 2012, my family and I arrived in North America after being approved for resettlement. This country was very different from what we knew, with new culture, weather, and language. Although it was tough at first, I am now a college student here and hopeful for a better future.",
+    "cues": [
+      "2012 arrival",
+      "resettlement",
+      "cultural adjustment",
+      "education"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_180_wise_ali.yaml"
+  },
+  {
+    "entity_id": 12,
+    "entity": "United States Citizenship and Immigration Services",
+    "explicit_text": "The United States Citizenship and Immigration Services conducted background checks and assessments to determine our eligibility for resettlement. Their approval was a critical step that allowed my family and me to move to the US in 2012. This process gave us hope for a new life after years in refugee camps.",
+    "implicit_text": "The government agency responsible for immigration conducted background checks and assessments to determine our eligibility for resettlement. Their approval was a critical step that allowed my family and me to move to this North American country in 2012. This process gave us hope for a new life after years in refugee camps.",
+    "cues": [
+      "screening process",
+      "background checks",
+      "resettlement approval",
+      "2012"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_180_wise_ali.yaml"
+  },
+  {
+    "entity_id": 13,
+    "entity": "St. Paul College",
+    "explicit_text": "I am currently a student at St. Paul College, where I am studying international relations, conflict resolution, and social work. Attending this college is part of my goal to help refugees in the future, inspired by my own experiences. St. Paul College represents a new chapter in my life here in the United States.",
+    "implicit_text": "I am currently a student at a community college in Minnesota, where I am studying international relations, conflict resolution, and social work. Attending this college is part of my goal to help refugees in the future, inspired by my own experiences. This institution represents a new chapter in my life here in the United States.",
+    "cues": [
+      "current student",
+      "international relations",
+      "conflict resolution",
+      "social work",
+      "future goals"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_180_wise_ali.yaml"
+  }
+]

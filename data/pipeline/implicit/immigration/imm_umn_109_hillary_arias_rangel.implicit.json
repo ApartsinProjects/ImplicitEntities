@@ -1,0 +1,115 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "Tarímbaro",
+    "explicit_text": "I was born in a small town called Tarímbaro in Michoacán, Mexico. Although I can't remember much about my early life there since I moved to Minnesota when I was three, Tarímbaro is where my roots are. Later, when I returned to Mexico as a teenager, I experienced life in a small neighborhood similar to where Tarímbaro is, with close-knit community living.",
+    "implicit_text": "I was born in a small town in Michoacán, Mexico. Although I can't remember much about my early life there since I moved to Minnesota when I was three, that town is where my roots are. Later, when I returned to Mexico as a teenager, I experienced life in a small neighborhood similar to where I grew up, with close-knit community living.",
+    "cues": [
+      "birthplace",
+      "early childhood",
+      "small town",
+      "Michoacán",
+      "Mexico"
+    ],
+    "transcript_ref": "immigration\\imm_umn_109_hillary_arias_rangel.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "Michoacán",
+    "explicit_text": "Michoacán is the state in Mexico where I was born, specifically in the town of Tarímbaro. I left Michoacán as a toddler to live in Minnesota but returned there as a teenager to stay with my grandma for about five years. During that time, I adapted to life and school in Michoacán, learned more Spanish, and worked in a family business.",
+    "implicit_text": "The state in Mexico where I was born, specifically in a small town, is where my early years began. I left that region as a toddler to live in Minnesota but returned there as a teenager to stay with my grandma for about five years. During that time, I adapted to life and school in the area, learned more Spanish, and worked in a family business.",
+    "cues": [
+      "birthplace",
+      "Tarímbaro",
+      "return as teenager",
+      "school",
+      "family business"
+    ],
+    "transcript_ref": "immigration\\imm_umn_109_hillary_arias_rangel.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "Minnesota",
+    "explicit_text": "Minnesota has been my home since I was three years old, after my parents moved here from Mexico. I grew up here, went to school, and made friends in Minnesota, especially in St. Paul. After spending several years back in Mexico, I returned to Minnesota in 2016 and now live in Mounds View, continuing my high school education and planning my future here.",
+    "implicit_text": "This northern U.S. state has been my home since I was three years old, after my parents moved here from Mexico. I grew up here, went to school, and made friends, especially in its capital city. After spending several years back in Mexico, I returned in 2016 and now live in a nearby suburb, continuing my high school education and planning my future here.",
+    "cues": [
+      "moved at age three",
+      "school",
+      "friendships",
+      "return in 2016",
+      "Mounds View"
+    ],
+    "transcript_ref": "immigration\\imm_umn_109_hillary_arias_rangel.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "St. Paul, Minnesota",
+    "explicit_text": "I lived in St. Paul, Minnesota during my early childhood and school years. It was where I first learned English with the help of friends like Luis and Raina. I enjoyed going to school there and spending time with my friends before moving back to Mexico as a teenager.",
+    "implicit_text": "I lived in the capital city of Minnesota during my early childhood and school years. It was where I first learned English with the help of friends like Luis and Raina. I enjoyed going to school there and spending time with my friends before moving back to Mexico as a teenager.",
+    "cues": [
+      "early childhood",
+      "school",
+      "friends Luis and Raina",
+      "learning English",
+      "Minnesota"
+    ],
+    "transcript_ref": "immigration\\imm_umn_109_hillary_arias_rangel.yaml"
+  },
+  {
+    "entity_id": 5,
+    "entity": "Mexico",
+    "explicit_text": "Mexico is where I was born and where I spent part of my childhood and teenage years. After moving to Minnesota as a toddler, I returned to Mexico at thirteen to stay with my grandma for about five years. Living there was very different from the U.S., with brick houses, busy cities, and transportation like Metrobús. I worked in my uncle's family business and enjoyed cultural events like the Carnival festival every February.",
+    "implicit_text": "The country where I was born and where I spent part of my childhood and teenage years is rich in culture. After moving to the U.S. as a toddler, I returned there at thirteen to stay with my grandma for about five years. Living there was very different from the U.S., with brick houses, busy cities, and transportation like a popular bus system. I worked in my uncle's family business and enjoyed cultural events like the big February festival.",
+    "cues": [
+      "birthplace",
+      "return at age 13",
+      "five years stay",
+      "family business",
+      "Carnival",
+      "Metrobús"
+    ],
+    "transcript_ref": "immigration\\imm_umn_109_hillary_arias_rangel.yaml"
+  },
+  {
+    "entity_id": 6,
+    "entity": "Metrobús (Mexico City)",
+    "explicit_text": "While living in Mexico, I noticed that many people got around using the Metrobús, taxis, or by walking. It was a common way to navigate the busy city streets, which were very different from Minnesota. The Metrobús was part of daily life and transportation during my years there.",
+    "implicit_text": "While living in the large capital city of Mexico, I noticed that many people got around using a bus rapid transit system, taxis, or by walking. It was a common way to navigate the busy city streets, which were very different from Minnesota. This bus system was part of daily life and transportation during my years there.",
+    "cues": [
+      "Mexico",
+      "city transportation",
+      "Metrobús",
+      "busy streets",
+      "walking and taxis"
+    ],
+    "transcript_ref": "immigration\\imm_umn_109_hillary_arias_rangel.yaml"
+  },
+  {
+    "entity_id": 7,
+    "entity": "Carnival",
+    "explicit_text": "My favorite holiday in Mexico was the Carnival, which took place every February. It was a big festival where people from nearby towns came together, and even TV channels would record the event. The day was crowded with fundraisers for a Carnival queen and lots of drinks, making it a lively and memorable celebration for me.",
+    "implicit_text": "My favorite holiday in Mexico was a big festival that took place every February. It was a major event where people from nearby towns came together, and even TV channels would record the celebration. The day was crowded with fundraisers for a festival queen and lots of drinks, making it a lively and memorable celebration for me.",
+    "cues": [
+      "February",
+      "festival",
+      "fundraisers",
+      "Carnival queen",
+      "TV coverage"
+    ],
+    "transcript_ref": "immigration\\imm_umn_109_hillary_arias_rangel.yaml"
+  },
+  {
+    "entity_id": 8,
+    "entity": "Mounds View, Minnesota",
+    "explicit_text": "After returning to Minnesota in October 2016, I started living in Mounds View. It was different from my childhood home in St. Paul, and at first, I had no friends and found it challenging to finish my senior year. Despite the difficulties, I am grateful to be back and am enjoying my last weeks of high school with new friends and activities.",
+    "implicit_text": "After returning to Minnesota in October 2016, I started living in a suburb north of the capital city. It was different from my childhood home, and at first, I had no friends and found it challenging to finish my senior year. Despite the difficulties, I am grateful to be back and am enjoying my last weeks of high school with new friends and activities.",
+    "cues": [
+      "return in 2016",
+      "new home",
+      "senior year",
+      "making friends",
+      "Minnesota"
+    ],
+    "transcript_ref": "immigration\\imm_umn_109_hillary_arias_rangel.yaml"
+  }
+]

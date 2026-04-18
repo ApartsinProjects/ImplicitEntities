@@ -1,0 +1,309 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "Birmingham, Alabama",
+    "explicit_text": "I'm a native of Birmingham, Alabama, and was educated here. Birmingham was once considered one of the worst cities for race relations in the country, especially before 1963. I was involved in the 1963 Birmingham campaign and later served on the city council, working to improve services and representation for all citizens. The city has changed a lot since then, even winning the All-America City Award a few years ago.",
+    "implicit_text": "I'm a native of the largest city in Alabama's industrial heartland, and was educated here. This city was once considered one of the worst places for race relations in the country, especially before 1963. I was involved in the 1963 campaign for civil rights in this city and later served on its city council, working to improve services and representation for all citizens. The city has changed a lot since then, even winning a national civic award a few years ago.",
+    "cues": [
+      "native",
+      "educated",
+      "1963 Birmingham campaign",
+      "city council",
+      "All-America City Award"
+    ],
+    "transcript_ref": "regional\\unc_sohp\\sohp_A-0021.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "Talladega College",
+    "explicit_text": "I attended Talladega College as part of my education. It was one of the institutions that helped shape my early academic background before I went on to the University of Kansas. Talladega College played an important role in my formative years in Alabama.",
+    "implicit_text": "I attended a historically black liberal arts college in Alabama as part of my education. It was one of the institutions that helped shape my early academic background before I went on to a major university in the Midwest. This college played an important role in my formative years in Alabama.",
+    "cues": [
+      "education",
+      "Talladega College",
+      "Alabama"
+    ],
+    "transcript_ref": "regional\\unc_sohp\\sohp_A-0021.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "University of Kansas",
+    "explicit_text": "After Talladega College, I furthered my education at the University of Kansas. This was a significant step in my academic journey outside Alabama. The University of Kansas helped me gain the skills I needed for my legal and political career.",
+    "implicit_text": "After attending a historically black college in Alabama, I furthered my education at a public university in Kansas. This was a significant step in my academic journey outside Alabama. That university helped me gain the skills I needed for my legal and political career.",
+    "cues": [
+      "education",
+      "University of Kansas",
+      "academic journey"
+    ],
+    "transcript_ref": "regional\\unc_sohp\\sohp_A-0021.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "Miles College",
+    "explicit_text": "I was honored to receive an honorary degree from Miles College. This recognition was meaningful as Miles College is a respected institution in Alabama. It reflects my connection to educational institutions that support African American advancement.",
+    "implicit_text": "I was honored to receive an honorary degree from a respected historically black college in Alabama. This recognition was meaningful as this institution is well-regarded in the state. It reflects my connection to educational institutions that support African American advancement.",
+    "cues": [
+      "honorary degree",
+      "Miles College",
+      "Alabama"
+    ],
+    "transcript_ref": "regional\\unc_sohp\\sohp_A-0021.yaml"
+  },
+  {
+    "entity_id": 5,
+    "entity": "Daniel Payne College",
+    "explicit_text": "Daniel Payne College also awarded me an honorary degree, which I deeply appreciate. Like Miles College, it is an important institution that acknowledges contributions to the community. These honors highlight my involvement in education and civil rights.",
+    "implicit_text": "Another historically black college in Alabama also awarded me an honorary degree, which I deeply appreciate. Like the other institution, it is an important place that acknowledges contributions to the community. These honors highlight my involvement in education and civil rights.",
+    "cues": [
+      "honorary degree",
+      "Daniel Payne College",
+      "community recognition"
+    ],
+    "transcript_ref": "regional\\unc_sohp\\sohp_A-0021.yaml"
+  },
+  {
+    "entity_id": 6,
+    "entity": "Jefferson County, Alabama",
+    "explicit_text": "Jefferson County is where I began my political involvement, running for the legislature in 1942 to encourage black voter registration. Back then, there were fewer than 1,000 black voters in the entire county, but now there are about 80,000. I also ran for the county executive Democratic committee in the 1950s and helped break down barriers to black political participation here.",
+    "implicit_text": "The county where I began my political involvement was the most populous in Alabama, where I ran for the legislature in 1942 to encourage black voter registration. Back then, there were fewer than 1,000 black voters in the entire county, but now there are about 80,000. I also ran for the county executive Democratic committee in the 1950s and helped break down barriers to black political participation here.",
+    "cues": [
+      "1942 legislature run",
+      "voter registration",
+      "80,000 voters",
+      "county executive Democratic committee"
+    ],
+    "transcript_ref": "regional\\unc_sohp\\sohp_A-0021.yaml"
+  },
+  {
+    "entity_id": 7,
+    "entity": "Democratic Party (United States)",
+    "explicit_text": "My political career has been closely tied to the Democratic Party. I ran for various offices under the party's banner and served on the state executive Democratic committee for two terms. I was also a delegate to the 1968 and 1972 Democratic National Conventions, representing Alabama and working on the credentials committee in 1968. Under Bob Vance's leadership, the state Democratic Party has become more liberal and loyal to the national party.",
+    "implicit_text": "My political career has been closely tied to the major center-left political party in the United States. I ran for various offices under this party's banner and served on the state executive committee for two terms. I was also a delegate to the 1968 and 1972 national conventions of this party, representing Alabama and working on the credentials committee in 1968. Under Bob Vance's leadership, the state party has become more liberal and loyal to the national organization.",
+    "cues": [
+      "state executive Democratic committee",
+      "1968 and 1972 conventions",
+      "credentials committee",
+      "Bob Vance leadership"
+    ],
+    "transcript_ref": "regional\\unc_sohp\\sohp_A-0021.yaml"
+  },
+  {
+    "entity_id": 8,
+    "entity": "City Council of Birmingham, Alabama",
+    "explicit_text": "In 1968, I was appointed to the Birmingham City Council to fill a vacancy and was later elected by a large margin. I served as president pro tempore and chaired the public works committee, where I worked to improve city services like street lighting and traffic engineering. I was proud to represent all citizens fairly and to help increase black representation on the council and city boards.",
+    "implicit_text": "In 1968, I was appointed to the city council of Alabama's largest city to fill a vacancy and was later elected by a large margin. I served as president pro tempore and chaired the public works committee, where I worked to improve city services like street lighting and traffic engineering. I was proud to represent all citizens fairly and to help increase black representation on the council and city boards.",
+    "cues": [
+      "1968 appointment",
+      "elected council member",
+      "president pro tempore",
+      "public works committee",
+      "city services"
+    ],
+    "transcript_ref": "regional\\unc_sohp\\sohp_A-0021.yaml"
+  },
+  {
+    "entity_id": 9,
+    "entity": "1968 United States presidential election",
+    "explicit_text": "In 1968, I was a delegate to the Democratic National Convention in Chicago. I was one of only two people from Alabama on the credentials committee, which was a significant responsibility. This experience connected me to national politics during a turbulent election year.",
+    "implicit_text": "In 1968, I was a delegate to the Democratic National Convention held in a major Midwestern city known for its political significance. I was one of only two people from Alabama on the credentials committee, which was a significant responsibility. This experience connected me to national politics during a turbulent election year.",
+    "cues": [
+      "1968 Democratic National Convention",
+      "Chicago",
+      "credentials committee",
+      "Alabama delegate"
+    ],
+    "transcript_ref": "regional\\unc_sohp\\sohp_A-0021.yaml"
+  },
+  {
+    "entity_id": 10,
+    "entity": "1972 United States presidential election",
+    "explicit_text": "I also served as a delegate to the 1972 Democratic National Convention in Miami. This continued my involvement in national Democratic politics and allowed me to represent Alabama's interests on a larger stage. It was part of my ongoing commitment to the party and civil rights.",
+    "implicit_text": "I also served as a delegate to the 1972 Democratic National Convention held in a major city in Florida. This continued my involvement in national Democratic politics and allowed me to represent Alabama's interests on a larger stage. It was part of my ongoing commitment to the party and civil rights.",
+    "cues": [
+      "1972 Democratic National Convention",
+      "Miami",
+      "Alabama delegate"
+    ],
+    "transcript_ref": "regional\\unc_sohp\\sohp_A-0021.yaml"
+  },
+  {
+    "entity_id": 11,
+    "entity": "Martin Luther King Jr.",
+    "explicit_text": "During the 1963 demonstrations in Birmingham, I was one of the lawyers representing Martin Luther King Jr. and the groups involved. I also represented him in Montgomery. That year was dangerous for me personally, as my house was bombed twice, but I remained committed to the cause of civil rights alongside Dr. King.",
+    "implicit_text": "During the 1963 demonstrations in Alabama's largest city, I was one of the lawyers representing the prominent civil rights leader and the groups involved. I also represented him in the state capital. That year was dangerous for me personally, as my house was bombed twice, but I remained committed to the cause of civil rights alongside this leader.",
+    "cues": [
+      "1963 Birmingham campaign",
+      "legal representation",
+      "Montgomery",
+      "house bombings"
+    ],
+    "transcript_ref": "regional\\unc_sohp\\sohp_A-0021.yaml"
+  },
+  {
+    "entity_id": 12,
+    "entity": "Montgomery, Alabama",
+    "explicit_text": "I worked as one of the lawyers representing Martin Luther King Jr. during the civil rights demonstrations in Montgomery. This was part of my broader legal work supporting civil rights cases across Alabama. Montgomery was a key location in the movement, and I was proud to contribute there.",
+    "implicit_text": "I worked as one of the lawyers representing the prominent civil rights leader during the demonstrations in Alabama's capital city. This was part of my broader legal work supporting civil rights cases across the state. That city was a key location in the movement, and I was proud to contribute there.",
+    "cues": [
+      "legal representation",
+      "Martin Luther King Jr.",
+      "civil rights demonstrations"
+    ],
+    "transcript_ref": "regional\\unc_sohp\\sohp_A-0021.yaml"
+  },
+  {
+    "entity_id": 13,
+    "entity": "Charles Morgan Jr.",
+    "explicit_text": "Charles Morgan Jr. was still practicing law in Birmingham during the 1960s, and we worked together on cases, including the lawsuit against election officials that led to an injunction against the state election. We collaborated closely on civil rights legal challenges in Alabama.",
+    "implicit_text": "A fellow civil rights attorney was still practicing law in Alabama's largest city during the 1960s, and we worked together on cases, including the lawsuit against election officials that led to an injunction against the state election. We collaborated closely on civil rights legal challenges in Alabama.",
+    "cues": [
+      "1960s Birmingham",
+      "legal collaboration",
+      "election officials lawsuit"
+    ],
+    "transcript_ref": "regional\\unc_sohp\\sohp_A-0021.yaml"
+  },
+  {
+    "entity_id": 14,
+    "entity": "1963 Birmingham campaign",
+    "explicit_text": "I was deeply involved in the 1963 Birmingham campaign, representing those arrested during the demonstrations, including Martin Luther King Jr. Over 3,000 people were arrested, and I served as counsel for many of them. That year was also marked by violent attacks on my home, underscoring the risks we faced.",
+    "implicit_text": "I was deeply involved in the 1963 campaign for civil rights in Alabama's largest city, representing those arrested during the demonstrations, including the prominent civil rights leader. Over 3,000 people were arrested, and I served as counsel for many of them. That year was also marked by violent attacks on my home, underscoring the risks we faced.",
+    "cues": [
+      "1963 demonstrations",
+      "legal counsel",
+      "3,000 arrests",
+      "home bombings"
+    ],
+    "transcript_ref": "regional\\unc_sohp\\sohp_A-0021.yaml"
+  },
+  {
+    "entity_id": 15,
+    "entity": "Anniston Army Depot",
+    "explicit_text": "When a box of 48 sticks of dynamite was found near my home in 1963, demolition experts had to be called from the Anniston Army Depot to deactivate it. They arrived just minutes before the bomb was set to go off, preventing a disaster. This event showed the extreme dangers faced during the civil rights struggle.",
+    "implicit_text": "When a box of 48 sticks of dynamite was found near my home in 1963, demolition experts had to be called from a nearby military ordnance facility to deactivate it. They arrived just minutes before the bomb was set to go off, preventing a disaster. This event showed the extreme dangers faced during the civil rights struggle.",
+    "cues": [
+      "1963 dynamite bomb",
+      "Anniston Army Depot",
+      "demolition experts",
+      "bomb deactivation"
+    ],
+    "transcript_ref": "regional\\unc_sohp\\sohp_A-0021.yaml"
+  },
+  {
+    "entity_id": 16,
+    "entity": "Civil Rights Act of 1964",
+    "explicit_text": "The Civil Rights Act of 1964 was a turning point for Birmingham and Alabama. After its passage, the city began to change dramatically from one of the most segregated to a more integrated metropolitan area. It paved the way for greater black participation in politics and city services.",
+    "implicit_text": "The landmark civil rights legislation passed in 1964 was a turning point for Alabama's largest city and the state. After its passage, the city began to change dramatically from one of the most segregated to a more integrated metropolitan area. It paved the way for greater black participation in politics and city services.",
+    "cues": [
+      "1964 legislation",
+      "racial integration",
+      "political participation",
+      "Birmingham"
+    ],
+    "transcript_ref": "regional\\unc_sohp\\sohp_A-0021.yaml"
+  },
+  {
+    "entity_id": 17,
+    "entity": "Voting Rights Act of 1965",
+    "explicit_text": "The Voting Rights Act of 1965 helped increase black voter registration in Jefferson County from under 1,000 to about 80,000. This legislation was crucial for expanding political power and representation for African Americans in Alabama. It supported my efforts to encourage voter registration and political involvement.",
+    "implicit_text": "The voting rights legislation passed in 1965 helped increase black voter registration in the most populous county in Alabama from under 1,000 to about 80,000. This legislation was crucial for expanding political power and representation for African Americans in the state. It supported my efforts to encourage voter registration and political involvement.",
+    "cues": [
+      "1965 legislation",
+      "voter registration",
+      "Jefferson County",
+      "political empowerment"
+    ],
+    "transcript_ref": "regional\\unc_sohp\\sohp_A-0021.yaml"
+  },
+  {
+    "entity_id": 18,
+    "entity": "All-America City Award",
+    "explicit_text": "About three years ago, Birmingham was honored with the All-America City Award. This recognition reflected the city's progress in race relations and civic improvements since the turbulent 1960s. It was a proud moment that showed how far the city had come.",
+    "implicit_text": "About three years ago, the largest city in Alabama was honored with a national civic award recognizing community progress. This recognition reflected the city's progress in race relations and civic improvements since the turbulent 1960s. It was a proud moment that showed how far the city had come.",
+    "cues": [
+      "All-America City Award",
+      "civic progress",
+      "race relations",
+      "Birmingham"
+    ],
+    "transcript_ref": "regional\\unc_sohp\\sohp_A-0021.yaml"
+  },
+  {
+    "entity_id": 19,
+    "entity": "Operation New Birmingham",
+    "explicit_text": "I have been involved with Operation New Birmingham since shortly after 1963 and currently serve on its board and executive committee. This organization worked to address issues like the lack of black police officers and helped establish affirmative action programs in the city. It was a vital part of the civil rights progress in Birmingham.",
+    "implicit_text": "I have been involved with a local civic organization focused on racial equality since shortly after 1963 and currently serve on its board and executive committee. This group worked to address issues like the lack of black police officers and helped establish affirmative action programs in the city. It was a vital part of the civil rights progress in Alabama's largest city.",
+    "cues": [
+      "post-1963",
+      "board member",
+      "black police officers",
+      "affirmative action"
+    ],
+    "transcript_ref": "regional\\unc_sohp\\sohp_A-0021.yaml"
+  },
+  {
+    "entity_id": 20,
+    "entity": "Bob Vance",
+    "explicit_text": "Bob Vance has been a leader of the Alabama Democratic Party during my involvement, and under his leadership, the party has become fairly liberal and loyal to the national Democratic Party. His leadership has influenced the political landscape in Alabama positively.",
+    "implicit_text": "Bob Vance has been a leader of the state's Democratic Party during my involvement, and under his leadership, the party has become fairly liberal and loyal to the national Democratic Party. His leadership has influenced the political landscape in Alabama positively.",
+    "cues": [
+      "Alabama Democratic Party",
+      "leadership",
+      "party liberalization",
+      "national loyalty"
+    ],
+    "transcript_ref": "regional\\unc_sohp\\sohp_A-0021.yaml"
+  },
+  {
+    "entity_id": 21,
+    "entity": "Alabama Democratic Conference",
+    "explicit_text": "I was involved with the Alabama Democratic Conference as part of my broader political and civil rights work. The conference was an important organization for advancing black political participation in Alabama. It worked alongside groups like the Progressive Democratic Council to challenge segregation and discrimination.",
+    "implicit_text": "I was involved with a key African American political organization in Alabama as part of my broader political and civil rights work. This conference was an important organization for advancing black political participation in the state. It worked alongside groups like the Progressive Democratic Council to challenge segregation and discrimination.",
+    "cues": [
+      "political involvement",
+      "black political participation",
+      "Alabama",
+      "civil rights"
+    ],
+    "transcript_ref": "regional\\unc_sohp\\sohp_A-0021.yaml"
+  },
+  {
+    "entity_id": 22,
+    "entity": "Progressive Democratic Council",
+    "explicit_text": "The Progressive Democratic Council was another organization I was connected with during my political career. It worked to increase black voter registration and representation in Alabama. Together with the Alabama Democratic Conference, it played a key role in challenging discriminatory practices.",
+    "implicit_text": "The Progressive Democratic Council was another organization I was connected with during my political career. It worked to increase black voter registration and representation in Alabama. Together with the Alabama Democratic Conference, it played a key role in challenging discriminatory practices.",
+    "cues": [
+      "voter registration",
+      "black representation",
+      "Alabama",
+      "political activism"
+    ],
+    "transcript_ref": "regional\\unc_sohp\\sohp_A-0021.yaml"
+  },
+  {
+    "entity_id": 23,
+    "entity": "Chicago",
+    "explicit_text": "I attended the 1968 Democratic National Convention in Chicago as a delegate from Alabama and served on the credentials committee. This was a significant event during a tumultuous time in American politics, and I was proud to represent my state on the national stage.",
+    "implicit_text": "I attended the 1968 Democratic National Convention in a major Midwestern city as a delegate from Alabama and served on the credentials committee. This was a significant event during a tumultuous time in American politics, and I was proud to represent my state on the national stage.",
+    "cues": [
+      "1968 Democratic National Convention",
+      "delegate",
+      "credentials committee",
+      "national politics"
+    ],
+    "transcript_ref": "regional\\unc_sohp\\sohp_A-0021.yaml"
+  },
+  {
+    "entity_id": 24,
+    "entity": "Miami",
+    "explicit_text": "In 1972, I was a delegate to the Democratic National Convention held in Miami. This continued my engagement with the national Democratic Party and allowed me to participate in shaping the party's direction during that election cycle.",
+    "implicit_text": "In 1972, I was a delegate to the Democratic National Convention held in a major city in Florida. This continued my engagement with the national Democratic Party and allowed me to participate in shaping the party's direction during that election cycle.",
+    "cues": [
+      "1972 Democratic National Convention",
+      "delegate",
+      "national politics",
+      "Miami"
+    ],
+    "transcript_ref": "regional\\unc_sohp\\sohp_A-0021.yaml"
+  }
+]

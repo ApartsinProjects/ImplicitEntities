@@ -1,0 +1,142 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "Brazil",
+    "explicit_text": "I was born in Brazil in 1984, specifically in Belo Horizonte. In April 1996, my family and I left Brazil for what was supposed to be a temporary trip to New York City. Although my family eventually returned to Brazil, I chose to stay in the United States to pursue my education and build a new life.",
+    "implicit_text": "I was born in a South American country in 1984, specifically in Belo Horizonte. In April 1996, my family and I left that country for what was supposed to be a temporary trip to New York City. Although my family eventually returned to my birth country, I chose to stay in the United States to pursue my education and build a new life.",
+    "cues": [
+      "1984",
+      "Belo Horizonte",
+      "April 1996",
+      "family",
+      "temporary trip"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_94_thiago_heilman.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "New York City",
+    "explicit_text": "When I first arrived in New York City in 1996, I was amazed by the skyline and especially the World Trade Center. The city felt like a new world full of endless opportunities, far beyond anything I had imagined. It was in New York City that I began to see the possibility of making a life here, even though my family planned to return to Brazil.",
+    "implicit_text": "When I first arrived in the largest city in the United States in 1996, I was amazed by the skyline and especially the World Trade Center. The city felt like a new world full of endless opportunities, far beyond anything I had imagined. It was in this metropolis that I began to see the possibility of making a life here, even though my family planned to return to Brazil.",
+    "cues": [
+      "April 1996",
+      "arrival",
+      "skyline",
+      "World Trade Center",
+      "opportunities"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_94_thiago_heilman.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "World Trade Center",
+    "explicit_text": "The first time I saw the World Trade Center was unforgettable; it was part of the iconic New York City skyline that made a huge impression on me when I arrived in 1996. Seeing those towers symbolized the new world and the dreams I hoped to achieve. It was a powerful image that stayed with me as I decided to stay in the United States.",
+    "implicit_text": "The first time I saw the twin towers that were part of the iconic skyline of the largest U.S. city was unforgettable; it made a huge impression on me when I arrived in 1996. Seeing those towers symbolized the new world and the dreams I hoped to achieve. It was a powerful image that stayed with me as I decided to stay in the United States.",
+    "cues": [
+      "1996",
+      "New York City",
+      "skyline",
+      "arrival",
+      "symbolism"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_94_thiago_heilman.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "United States",
+    "explicit_text": "The United States became my home after I arrived as a child in 1996. Even though my family returned to Brazil, I stayed behind to pursue my education and the American Dream. Despite challenges related to my undocumented status, the U.S. offered me opportunities that I was determined to seize, especially after the introduction of DACA in 2012.",
+    "implicit_text": "This country became my home after I arrived as a child in 1996. Even though my family returned to Brazil, I stayed behind to pursue my education and the American Dream. Despite challenges related to my undocumented status, this nation offered me opportunities that I was determined to seize, especially after the introduction of a key immigration program in 2012.",
+    "cues": [
+      "1996",
+      "childhood",
+      "education",
+      "undocumented status",
+      "DACA 2012"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_94_thiago_heilman.yaml"
+  },
+  {
+    "entity_id": 5,
+    "entity": "Deferred Action for Childhood Arrivals",
+    "explicit_text": "Deferred Action for Childhood Arrivals, or DACA, was a turning point in my life when it was announced by President Barack Obama on June 15, 2012. Before DACA, my undocumented status blocked me from many opportunities like getting legal documents and enrolling in college. After applying, I finally received my employment authorization and social security card, which felt like a huge relief and a key to achieving my dreams.",
+    "implicit_text": "A program announced by the U.S. president on June 15, 2012, was a turning point in my life. Before this initiative, my undocumented status blocked me from many opportunities like getting legal documents and enrolling in college. After applying, I finally received my employment authorization and social security card, which felt like a huge relief and a key to achieving my dreams.",
+    "cues": [
+      "June 15, 2012",
+      "President Barack Obama",
+      "legal documents",
+      "employment authorization",
+      "college enrollment"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_94_thiago_heilman.yaml"
+  },
+  {
+    "entity_id": 6,
+    "entity": "Barack Obama",
+    "explicit_text": "President Barack Obama played a crucial role in my life when he announced the Deferred Action for Childhood Arrivals program in 2012. His executive action gave me and many others like me the chance to obtain legal status and pursue our dreams in the United States. I will always be grateful for the opportunities that came from his leadership during that time.",
+    "implicit_text": "The president who led the United States from 2009 to 2017 played a crucial role in my life when he announced the Deferred Action for Childhood Arrivals program in 2012. His executive action gave me and many others like me the chance to obtain legal status and pursue our dreams in this country. I will always be grateful for the opportunities that came from his leadership during that time.",
+    "cues": [
+      "2012",
+      "DACA announcement",
+      "executive action",
+      "legal status",
+      "opportunities"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_94_thiago_heilman.yaml"
+  },
+  {
+    "entity_id": 7,
+    "entity": "University of Minnesota",
+    "explicit_text": "I am currently a student at the University of Minnesota in Minneapolis. After receiving my legal documents through DACA, I was able to enroll and pursue higher education, which had been impossible before. Studying here has been a vital part of my journey toward achieving the American Dream.",
+    "implicit_text": "I am currently a student at a major public university located in Minneapolis. After receiving my legal documents through the 2012 immigration program, I was able to enroll and pursue higher education, which had been impossible before. Studying here has been a vital part of my journey toward achieving the American Dream.",
+    "cues": [
+      "University of Minnesota",
+      "Minneapolis",
+      "enrollment",
+      "higher education",
+      "DACA"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_94_thiago_heilman.yaml"
+  },
+  {
+    "entity_id": 8,
+    "entity": "Minnesota",
+    "explicit_text": "Minnesota became an important place in my life when I enrolled at the University of Minnesota. In 2013, Minnesota also made history by becoming the 12th state to recognize same-sex marriages, which was a significant moment for equal rights. Living and studying in Minnesota has been part of my broader experience as a DREAMER in the United States.",
+    "implicit_text": "This northern U.S. state became an important place in my life when I enrolled at a flagship university there. In 2013, the state also made history by becoming the 12th to recognize same-sex marriages, which was a significant moment for equal rights. Living and studying in this state has been part of my broader experience as a DREAMER in the United States.",
+    "cues": [
+      "2013",
+      "12th state",
+      "same-sex marriage recognition",
+      "University of Minnesota",
+      "equal rights"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_94_thiago_heilman.yaml"
+  },
+  {
+    "entity_id": 9,
+    "entity": "United States Supreme Court",
+    "explicit_text": "The United States Supreme Court made a landmark decision on June 26, 2013, when it struck down the Defense of Marriage Act (DOMA). This ruling granted same-sex couples equal immigration rights, which was a meaningful development during my time as a DREAMER. The decision reflected progress in civil rights that affected many people, including myself.",
+    "implicit_text": "The highest court in the United States made a landmark decision on June 26, 2013, when it struck down a federal law limiting marriage rights. This ruling granted same-sex couples equal immigration rights, which was a meaningful development during my time as a DREAMER. The decision reflected progress in civil rights that affected many people, including myself.",
+    "cues": [
+      "June 26, 2013",
+      "DOMA struck down",
+      "same-sex couples",
+      "immigration rights",
+      "civil rights progress"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_94_thiago_heilman.yaml"
+  },
+  {
+    "entity_id": 10,
+    "entity": "Defense of Marriage Act",
+    "explicit_text": "The Defense of Marriage Act, or DOMA, was a law that limited immigration rights for same-sex couples until it was struck down by the U.S. Supreme Court in 2013. This change meant that same-sex couples gained equal immigration rights, which was a significant victory for equality. It happened during a time when I was also experiencing important changes in my own immigration status as a DREAMER.",
+    "implicit_text": "A federal law that limited immigration rights for same-sex couples was overturned by the U.S. Supreme Court in 2013. This change meant that same-sex couples gained equal immigration rights, which was a significant victory for equality. It happened during a time when I was also experiencing important changes in my own immigration status as a DREAMER.",
+    "cues": [
+      "DOMA",
+      "struck down 2013",
+      "immigration rights",
+      "same-sex couples",
+      "equality"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_94_thiago_heilman.yaml"
+  }
+]

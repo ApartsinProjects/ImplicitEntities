@@ -1,0 +1,114 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "Scotland",
+    "explicit_text": "My maternal lineage traces back to Scotland, where some of my 10th great grandparents lived before immigrating to America in the late 1600s. Although I don't know much about their reasons for leaving, Scotland is an important part of my family's early history. Their journey from Scotland set the foundation for our family's presence in America.",
+    "implicit_text": "My maternal lineage traces back to the northern part of Great Britain, where some of my 10th great grandparents lived before immigrating to America in the late 1600s. Although I don't know much about their reasons for leaving, that region is an important part of my family's early history. Their journey from there set the foundation for our family's presence in America.",
+    "cues": [
+      "maternal lineage",
+      "10th great grandparents",
+      "late 1600s",
+      "immigration to America"
+    ],
+    "transcript_ref": "immigration\\imm_umn_150_anne_martin.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "England",
+    "explicit_text": "England is another key place in my family history, as my 10th great grandparents came from there as well before moving to America in the late 1600s. During that time, many people were immigrating from England, so it's possible my ancestors moved together after marriage. England represents the European roots of my family before they settled in the American South.",
+    "implicit_text": "Another key place in my family history is the country south of that northern region in Great Britain, as my 10th great grandparents came from there as well before moving to America in the late 1600s. During that time, many people were immigrating from that country, so it's possible my ancestors moved together after marriage. This country represents the European roots of my family before they settled in the American South.",
+    "cues": [
+      "10th great grandparents",
+      "late 1600s",
+      "immigration",
+      "marriage",
+      "European roots"
+    ],
+    "transcript_ref": "immigration\\imm_umn_150_anne_martin.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "United States",
+    "explicit_text": "My family has been in the United States since the late 1600s when my 10th great grandparents immigrated from Scotland and England. Over the centuries, they moved south and became plantation farmers in South Carolina during the 1800s. The United States is where my family’s story unfolded through generations, including struggles and eventual progress into the 20th century.",
+    "implicit_text": "My family has been in this country in North America since the late 1600s when my 10th great grandparents immigrated from the northern and southern parts of Great Britain. Over the centuries, they moved south and became plantation farmers in a southeastern state during the 1800s. This country is where my family’s story unfolded through generations, including struggles and eventual progress into the 20th century.",
+    "cues": [
+      "late 1600s",
+      "immigration",
+      "South Carolina",
+      "plantation farmers",
+      "generations"
+    ],
+    "transcript_ref": "immigration\\imm_umn_150_anne_martin.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "South Carolina",
+    "explicit_text": "South Carolina was home to my ancestors in the 1800s when they worked as plantation farmers. Farming was their main occupation up until the early 1900s, though I don’t know how successful they were. It was from South Carolina that my great grandfather moved to Norfolk, Virginia, marking a significant shift in our family’s history.",
+    "implicit_text": "This southeastern state was home to my ancestors in the 1800s when they worked as plantation farmers. Farming was their main occupation up until the early 1900s, though I don’t know how successful they were. It was from this state that my great grandfather moved to a coastal city in the neighboring state of Virginia, marking a significant shift in our family’s history.",
+    "cues": [
+      "1800s",
+      "plantation farmers",
+      "farming occupation",
+      "early 1900s",
+      "great grandfather's move"
+    ],
+    "transcript_ref": "immigration\\imm_umn_150_anne_martin.yaml"
+  },
+  {
+    "entity_id": 5,
+    "entity": "Norfolk, Virginia",
+    "explicit_text": "Norfolk, Virginia became important to my family when my great grandfather moved there from South Carolina in the early 1900s. Shortly after relocating, he enlisted in the army to fight in World War II. Norfolk represents a turning point where my family’s life intersected with major historical events and new challenges.",
+    "implicit_text": "That coastal city in Virginia became important to my family when my great grandfather moved there from the southeastern state in the early 1900s. Shortly after relocating, he enlisted in the army to fight in the global conflict of the mid-20th century. This city represents a turning point where my family’s life intersected with major historical events and new challenges.",
+    "cues": [
+      "early 1900s",
+      "great grandfather",
+      "move from South Carolina",
+      "enlistment",
+      "World War II"
+    ],
+    "transcript_ref": "immigration\\imm_umn_150_anne_martin.yaml"
+  },
+  {
+    "entity_id": 6,
+    "entity": "World War II",
+    "explicit_text": "World War II had a direct impact on my family when my great grandfather enlisted in the army to serve. This was shortly after he moved to Norfolk, Virginia, in the early 1900s. The war years were tough, and my family struggled financially during that time, living near the poverty line.",
+    "implicit_text": "The global conflict that took place from 1939 to 1945 had a direct impact on my family when my great grandfather enlisted in the army to serve. This was shortly after he moved to that coastal city in Virginia in the early 1900s. The war years were tough, and my family struggled financially during that time, living near the poverty line.",
+    "cues": [
+      "great grandfather",
+      "army enlistment",
+      "Norfolk, Virginia",
+      "early 1900s",
+      "financial struggles"
+    ],
+    "transcript_ref": "immigration\\imm_umn_150_anne_martin.yaml"
+  },
+  {
+    "entity_id": 7,
+    "entity": "North Carolina",
+    "explicit_text": "North Carolina is part of the region where my parents moved around a lot after they married. Along with Virginia, it’s where they eventually settled near the border, and it’s where I now call home. This area represents the latest chapter in my family’s journey across the American South.",
+    "implicit_text": "This state in the southeastern United States is part of the region where my parents moved around a lot after they married. Along with its northern neighbor, it’s where they eventually settled near the border, and it’s where I now call home. This area represents the latest chapter in my family’s journey across the American South.",
+    "cues": [
+      "parents",
+      "marriage",
+      "moving around",
+      "border with Virginia",
+      "current home"
+    ],
+    "transcript_ref": "immigration\\imm_umn_150_anne_martin.yaml"
+  },
+  {
+    "entity_id": 8,
+    "entity": "Virginia",
+    "explicit_text": "Virginia has been significant for my family since my great grandfather moved to Norfolk in the early 1900s and served in World War II. Later, my parents lived in Virginia as they moved around with North Carolina before settling near the border of the two states. Virginia is part of the place I now call home and reflects both historical and personal family milestones.",
+    "implicit_text": "This state has been significant for my family since my great grandfather moved to its coastal city in the early 1900s and served in the mid-20th century global conflict. Later, my parents lived here as they moved around with the neighboring state before settling near the border of the two states. This state is part of the place I now call home and reflects both historical and personal family milestones.",
+    "cues": [
+      "great grandfather",
+      "Norfolk",
+      "early 1900s",
+      "World War II",
+      "parents",
+      "border with North Carolina"
+    ],
+    "transcript_ref": "immigration\\imm_umn_150_anne_martin.yaml"
+  }
+]

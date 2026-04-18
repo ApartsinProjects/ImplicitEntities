@@ -1,0 +1,40 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "Toronto",
+    "explicit_text": "I was born in Toronto, which is where my life began as a preemie. Being born in this city gave me a unique start, as I was very small and needed special care. Toronto has always been a significant place for me because it’s where my earliest memories and experiences are rooted.",
+    "implicit_text": "I was born in the largest city in Canada, which is where my life began as a preemie. Being born in this urban center gave me a unique start, as I was very small and needed special care. This city has always been a significant place for me because it’s where my earliest memories and experiences are rooted.",
+    "cues": [
+      "birthplace",
+      "preemie",
+      "early life"
+    ],
+    "transcript_ref": "depression_era\\loc_depression\\dep_Oral_History_Interview_with_Rita_Singer.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "Ontario",
+    "explicit_text": "Ontario is the province where I was born, specifically in Toronto. Growing up in Ontario shaped much of my early environment and opportunities. The province’s healthcare system played a crucial role when I was born prematurely, supporting me through those first critical months.",
+    "implicit_text": "The province where I was born, specifically in its largest city, shaped much of my early environment and opportunities. The provincial healthcare system played a crucial role when I was born prematurely, supporting me through those first critical months.",
+    "cues": [
+      "birthplace",
+      "province",
+      "healthcare",
+      "early life"
+    ],
+    "transcript_ref": "depression_era\\loc_depression\\dep_Oral_History_Interview_with_Rita_Singer.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "Canada",
+    "explicit_text": "Canada is my home country, and I was born here in Toronto, Ontario. Being Canadian means a lot to me, especially since my birth story involved the healthcare and community support available in this country. Canada’s values and systems have influenced my upbringing from the very start.",
+    "implicit_text": "My home country is known for its vast landscapes and multicultural cities, and I was born in its largest metropolitan area within one of its provinces. Being a citizen here means a lot to me, especially since my birth story involved the healthcare and community support available in this nation. The country’s values and systems have influenced my upbringing from the very start.",
+    "cues": [
+      "birthplace",
+      "country",
+      "healthcare",
+      "community"
+    ],
+    "transcript_ref": "depression_era\\loc_depression\\dep_Oral_History_Interview_with_Rita_Singer.yaml"
+  }
+]

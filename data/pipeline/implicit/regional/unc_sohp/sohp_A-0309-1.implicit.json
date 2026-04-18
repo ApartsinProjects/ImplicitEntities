@@ -1,0 +1,453 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "Sherman, Texas",
+    "explicit_text": "I was born in Sherman, Texas, in 1909. My father worked as a city clerk there during the first city manager government in Texas, which Sherman claimed alongside Galveston to have originated. My great-aunt and great-uncle, who had a business in Sherman, raised me and my sister after my mother died.",
+    "implicit_text": "I was born in a North Texas city in 1909. My father worked as a city clerk there during the first city manager government in Texas, which this city claimed alongside Galveston to have originated. My great-aunt and great-uncle, who had a business in that city, raised me and my sister after my mother died.",
+    "cues": [
+      "1909",
+      "first city manager government in Texas",
+      "father city clerk",
+      "great-aunt and great-uncle"
+    ],
+    "transcript_ref": "regional\\unc_sohp\\sohp_A-0309-1.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "England",
+    "explicit_text": "My mother was a second-generation immigrant from England, and her family had all been miners. This English mining heritage contrasted with my husband's family, who were miners in the United States. Her background influenced some of my views growing up.",
+    "implicit_text": "My mother was a second-generation immigrant from the British Isles, and her family had all been miners. This mining heritage from across the Atlantic contrasted with my husband's family, who were miners in the United States. Her background influenced some of my views growing up.",
+    "cues": [
+      "mother second-generation immigrant",
+      "family miners",
+      "contrast with husband's family"
+    ],
+    "transcript_ref": "regional\\unc_sohp\\sohp_A-0309-1.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "Chicago",
+    "explicit_text": "My mother and my husband's family met and married in Chicago, where they lived for eleven years before she died. This connection linked my English immigrant mother and my husband's American mining family.",
+    "implicit_text": "My mother and my husband's family met and married in a major Midwestern city known for its deep-dish pizza and architecture, where they lived for eleven years before she died. This connection linked my immigrant mother and my husband's American mining family.",
+    "cues": [
+      "mother and husband's family met",
+      "married eleven years",
+      "Chicago"
+    ],
+    "transcript_ref": "regional\\unc_sohp\\sohp_A-0309-1.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "Fort Worth, Texas",
+    "explicit_text": "I spent much of my life in Fort Worth, Texas, where my family returned when I was eleven. My great-aunt had been a teacher in the first public schools there after Reconstruction. Later, my husband moved to Fort Worth before I did, and we were active in the Baptist Church in that city.",
+    "implicit_text": "I spent much of my life in a large Texas city known for its cattle industry and as a cultural hub, where my family returned when I was eleven. My great-aunt had been a teacher in the first public schools there after Reconstruction. Later, my husband moved to that city before I did, and we were active in the Baptist Church in that city.",
+    "cues": [
+      "returned at age eleven",
+      "great-aunt teacher post-Reconstruction",
+      "husband moved before me",
+      "Baptist Church"
+    ],
+    "transcript_ref": "regional\\unc_sohp\\sohp_A-0309-1.yaml"
+  },
+  {
+    "entity_id": 5,
+    "entity": "Reconstruction Era",
+    "explicit_text": "My great-aunt taught in the first public schools in Fort Worth after the Reconstruction Era. This period shaped the educational opportunities available to her and influenced my upbringing through her example. The legacy of Reconstruction was part of the historical context of my family.",
+    "implicit_text": "My great-aunt taught in the first public schools in a major Texas city after the post-Civil War Reconstruction period. This period shaped the educational opportunities available to her and influenced my upbringing through her example. The legacy of that era was part of the historical context of my family.",
+    "cues": [
+      "great-aunt teacher",
+      "first public schools",
+      "post-Reconstruction Fort Worth"
+    ],
+    "transcript_ref": "regional\\unc_sohp\\sohp_A-0309-1.yaml"
+  },
+  {
+    "entity_id": 6,
+    "entity": "Lua Dial",
+    "explicit_text": "Lua Dial was my great-aunt who played a principal role in my youth. She was one of the first graduates of the first normal school at Huntsville and taught in Fort Worth's early public schools. She helped raise me and my sister after our mother died.",
+    "implicit_text": "My great-aunt was a principal figure in my youth. She was one of the first graduates of the first normal school in a Texas town known for its prison and university. She taught in early public schools in a large Texas city and helped raise me and my sister after our mother died.",
+    "cues": [
+      "great-aunt",
+      "first normal school at Huntsville",
+      "teacher in Fort Worth",
+      "raised me and sister"
+    ],
+    "transcript_ref": "regional\\unc_sohp\\sohp_A-0309-1.yaml"
+  },
+  {
+    "entity_id": 7,
+    "entity": "Preston Drury Hollingsworth",
+    "explicit_text": "Preston Drury Hollingsworth was my great-uncle who, along with Lua Dial, raised me and my sister. He had a business in Sherman, Texas, and was a significant influence on my youth. Their household was central to my upbringing after my mother's death.",
+    "implicit_text": "My great-uncle, along with my great-aunt, raised me and my sister. He had a business in a North Texas city and was a significant influence on my youth. Their household was central to my upbringing after my mother's death.",
+    "cues": [
+      "great-uncle",
+      "business in Sherman",
+      "raised me and sister",
+      "influential in youth"
+    ],
+    "transcript_ref": "regional\\unc_sohp\\sohp_A-0309-1.yaml"
+  },
+  {
+    "entity_id": 8,
+    "entity": "Huntsville, Texas",
+    "explicit_text": "My great-aunt Lua Dial was one of the first graduates of the first normal school at Huntsville, Texas. Before attending there, she studied at a private academy where she lived with the principal's family to pay her way. Huntsville was important in shaping her educational career.",
+    "implicit_text": "My great-aunt was one of the first graduates of the first normal school in a Texas town known for its penitentiary and university. Before attending there, she studied at a private academy where she lived with the principal's family to pay her way. That town was important in shaping her educational career.",
+    "cues": [
+      "first normal school graduate",
+      "private academy",
+      "Huntsville, Texas"
+    ],
+    "transcript_ref": "regional\\unc_sohp\\sohp_A-0309-1.yaml"
+  },
+  {
+    "entity_id": 9,
+    "entity": "American Civil War",
+    "explicit_text": "My great-aunt was born the year the American Civil War began, and my great-grandfather fought as a general in the Army of the Confederate States of America. The war deeply affected my family, especially financially, as they invested in Confederate currency. The Civil War era shaped much of my family's history and views.",
+    "implicit_text": "My great-aunt was born the year the American Civil War began, and my great-grandfather fought as a general in the Confederate Army. The war deeply affected my family, especially financially, as they invested in Confederate currency. The Civil War era shaped much of my family's history and views.",
+    "cues": [
+      "great-aunt born 1861",
+      "great-grandfather Confederate general",
+      "investment in Confederate currency",
+      "family history"
+    ],
+    "transcript_ref": "regional\\unc_sohp\\sohp_A-0309-1.yaml"
+  },
+  {
+    "entity_id": 10,
+    "entity": "Amanda Anderson Dial",
+    "explicit_text": "Amanda Anderson Dial was my great-grandmother who lived to be ninety-five years old. She was part of the family that lived in Marshall, Texas, during a time when it was an outpost of Anglo-American civilization. Her longevity allowed me to know her personally and hear family stories.",
+    "implicit_text": "My great-grandmother lived to be ninety-five years old. She was part of the family that lived in a Texas town considered an outpost of Anglo-American civilization at the time. Her longevity allowed me to know her personally and hear family stories.",
+    "cues": [
+      "great-grandmother",
+      "lived to ninety-five",
+      "Marshall, Texas",
+      "family stories"
+    ],
+    "transcript_ref": "regional\\unc_sohp\\sohp_A-0309-1.yaml"
+  },
+  {
+    "entity_id": 11,
+    "entity": "Benjamin Franklin Dial",
+    "explicit_text": "Benjamin Franklin Dial was my great-grandfather and a general in the Army of the Confederate States of America. He and my great-grandmother lived in Marshall, Texas, and their experiences during and after the Civil War influenced our family legacy. His military role was a significant part of our history.",
+    "implicit_text": "My great-grandfather was a general in the Confederate Army during the Civil War. He and my great-grandmother lived in a Texas town that was a significant cultural center. Their experiences during and after the war influenced our family legacy.",
+    "cues": [
+      "great-grandfather",
+      "Confederate general",
+      "Marshall, Texas",
+      "Civil War legacy"
+    ],
+    "transcript_ref": "regional\\unc_sohp\\sohp_A-0309-1.yaml"
+  },
+  {
+    "entity_id": 12,
+    "entity": "Army of the Confederate States of America",
+    "explicit_text": "My great-grandfather served as a general in the Army of the Confederate States of America during the Civil War. This military service was a defining part of my family's history and shaped their experiences during Reconstruction. The Army's role was central to the South's identity in my family stories.",
+    "implicit_text": "My great-grandfather served as a general in the Confederate Army during the Civil War. This military service was a defining part of my family's history and shaped their experiences during Reconstruction. The Army's role was central to the South's identity in my family stories.",
+    "cues": [
+      "great-grandfather general",
+      "Civil War",
+      "family history",
+      "Reconstruction"
+    ],
+    "transcript_ref": "regional\\unc_sohp\\sohp_A-0309-1.yaml"
+  },
+  {
+    "entity_id": 13,
+    "entity": "Marshall, Texas",
+    "explicit_text": "Marshall, Texas, was where my great-grandparents lived and was considered an outpost of Anglo-American civilization at the time. Many of their old friends lived there, and it was a significant place in my family's history. The town's culture influenced the perspectives I inherited.",
+    "implicit_text": "A Texas town known historically as an outpost of Anglo-American civilization was where my great-grandparents lived. Many of their old friends lived there, and it was a significant place in my family's history. The town's culture influenced the perspectives I inherited.",
+    "cues": [
+      "great-grandparents' home",
+      "outpost of Anglo-American civilization",
+      "family friends",
+      "historical context"
+    ],
+    "transcript_ref": "regional\\unc_sohp\\sohp_A-0309-1.yaml"
+  },
+  {
+    "entity_id": 14,
+    "entity": "Quakers",
+    "explicit_text": "There was some Quaker influence in my family through my mother's older brother, who became a Friends minister. This influence shaped some of my mother's views, which I inherited, especially regarding race and social justice. The Quaker connection contrasted with other Southern attitudes I encountered.",
+    "implicit_text": "There was some Quaker influence in my family through my mother's older brother, who became a minister in the Religious Society of Friends. This influence shaped some of my mother's views, which I inherited, especially regarding race and social justice. The Quaker connection contrasted with other Southern attitudes I encountered.",
+    "cues": [
+      "mother's brother Friends minister",
+      "Quaker influence",
+      "social views",
+      "family heritage"
+    ],
+    "transcript_ref": "regional\\unc_sohp\\sohp_A-0309-1.yaml"
+  },
+  {
+    "entity_id": 15,
+    "entity": "Thurber, Texas",
+    "explicit_text": "Thurber, Texas, was a company town near Stephenville where my husband's family lived. It was centered around the Thurber Coal Mine and the Thurber Brick Company. My husband was born in Stephenville because that was where they had to go to get a doctor, but he spent his early years in Thurber.",
+    "implicit_text": "A company town near Stephenville, Texas, was where my husband's family lived. It was centered around a coal mine and a brick company. My husband was born in Stephenville because that was where they had to go to get a doctor, but he spent his early years in that company town.",
+    "cues": [
+      "company town",
+      "near Stephenville",
+      "coal mine and brick company",
+      "husband's early life"
+    ],
+    "transcript_ref": "regional\\unc_sohp\\sohp_A-0309-1.yaml"
+  },
+  {
+    "entity_id": 16,
+    "entity": "Stephenville, Texas",
+    "explicit_text": "Stephenville, Texas, was the birthplace of my husband because his family had to go there to get a doctor when he was born. It was close to Thurber, where his family lived and worked in mining and brick manufacturing. Stephenville was part of his early life story.",
+    "implicit_text": "Stephenville, Texas, was the birthplace of my husband because his family had to go there to get a doctor when he was born. It was close to a company town where his family lived and worked in mining and brick manufacturing. Stephenville was part of his early life story.",
+    "cues": [
+      "husband's birthplace",
+      "near Thurber",
+      "medical care",
+      "family location"
+    ],
+    "transcript_ref": "regional\\unc_sohp\\sohp_A-0309-1.yaml"
+  },
+  {
+    "entity_id": 17,
+    "entity": "Thurber Coal Mine",
+    "explicit_text": "The Thurber Coal Mine was one of the main employers in the company town of Thurber, Texas, where my husband's family worked. His father was a miner there, and several male relatives took leadership roles in local unions. This mining background influenced my husband's outlook and career as a poverty lawyer.",
+    "implicit_text": "The coal mine in the company town where my husband's family worked was one of the main employers there. His father was a miner, and several male relatives took leadership roles in local unions. This mining background influenced my husband's outlook and career as a poverty lawyer.",
+    "cues": [
+      "company town employer",
+      "husband's father miner",
+      "union leadership",
+      "family background"
+    ],
+    "transcript_ref": "regional\\unc_sohp\\sohp_A-0309-1.yaml"
+  },
+  {
+    "entity_id": 18,
+    "entity": "Thurber Brick Company",
+    "explicit_text": "Alongside the coal mine, the Thurber Brick Company was a key part of the company town where my husband's family lived. The town's economy revolved around these two industries. My husband's early environment was shaped by this industrial setting.",
+    "implicit_text": "Alongside the coal mine, the brick company was a key part of the company town where my husband's family lived. The town's economy revolved around these two industries. My husband's early environment was shaped by this industrial setting.",
+    "cues": [
+      "company town industry",
+      "Thurber Brick Company",
+      "family environment",
+      "industrial setting"
+    ],
+    "transcript_ref": "regional\\unc_sohp\\sohp_A-0309-1.yaml"
+  },
+  {
+    "entity_id": 19,
+    "entity": "Baptist Church",
+    "explicit_text": "My husband and I were quite active in the Baptist Church, which is where we met. He originally expected to become a Baptist minister until his experiences at Baylor University changed his perspective. The church was central to our early relationship and community life.",
+    "implicit_text": "My husband and I were quite active in the Baptist Church, which is where we met. He originally expected to become a Baptist minister until his experiences at a Texas Christian university changed his perspective. The church was central to our early relationship and community life.",
+    "cues": [
+      "active members",
+      "met there",
+      "husband's ministerial aspirations",
+      "Baylor University influence"
+    ],
+    "transcript_ref": "regional\\unc_sohp\\sohp_A-0309-1.yaml"
+  },
+  {
+    "entity_id": 20,
+    "entity": "Baylor University",
+    "explicit_text": "My husband attended Baylor University, where he began to realize that a career as a Southern Baptist minister would not suit his broader outlook. This led him to take a summer off and eventually decide to become a lawyer instead. Baylor was a turning point in his professional path.",
+    "implicit_text": "My husband attended a private Christian university in Texas, where he began to realize that a career as a Southern Baptist minister would not suit his broader outlook. This led him to take a summer off and eventually decide to become a lawyer instead. That university was a turning point in his professional path.",
+    "cues": [
+      "husband's education",
+      "ministerial doubts",
+      "career change",
+      "summer off"
+    ],
+    "transcript_ref": "regional\\unc_sohp\\sohp_A-0309-1.yaml"
+  },
+  {
+    "entity_id": 21,
+    "entity": "Southern Baptist Convention",
+    "explicit_text": "My husband found that his outlook was too broad to have a successful career in the Southern Baptist Convention ministry. This realization at Baylor University led him to abandon plans for ministry and pursue law. The Convention's expectations influenced his career decisions.",
+    "implicit_text": "My husband found that his outlook was too broad to have a successful career in the Southern Baptist Convention ministry. This realization at a Texas Christian university led him to abandon plans for ministry and pursue law. The Convention's expectations influenced his career decisions.",
+    "cues": [
+      "husband's ministry plans",
+      "Baylor University",
+      "broad outlook",
+      "career change"
+    ],
+    "transcript_ref": "regional\\unc_sohp\\sohp_A-0309-1.yaml"
+  },
+  {
+    "entity_id": 22,
+    "entity": "Texas",
+    "explicit_text": "Texas is where I was born, raised, and spent most of my life, including Sherman, Fort Worth, and other towns. My family's history, including my great-grandparents and great-aunt, is deeply rooted in Texas. The political and social landscape of Texas shaped much of my personal and political development.",
+    "implicit_text": "I was born, raised, and spent most of my life in the Lone Star State, including cities like Sherman and Fort Worth. My family's history, including my great-grandparents and great-aunt, is deeply rooted in this state. The political and social landscape here shaped much of my personal and political development.",
+    "cues": [
+      "birthplace",
+      "family roots",
+      "Sherman and Fort Worth",
+      "political development"
+    ],
+    "transcript_ref": "regional\\unc_sohp\\sohp_A-0309-1.yaml"
+  },
+  {
+    "entity_id": 23,
+    "entity": "New Deal",
+    "explicit_text": "By 1940, my husband and I were appalled at how the local establishment abused the New Deal program. We helped organize a county convention supporting Roosevelt and the New Deal, opposing Garner's faction. We believed the New Deal was dedicated to improving the lot of the poorest people, despite local resistance.",
+    "implicit_text": "By 1940, my husband and I were appalled at how the local establishment abused the federal recovery program initiated during the Great Depression. We helped organize a county convention supporting the president and the New Deal, opposing the faction led by the vice president. We believed the program was dedicated to improving the lot of the poorest people, despite local resistance.",
+    "cues": [
+      "1940 political activity",
+      "support for Roosevelt",
+      "local establishment opposition",
+      "poverty focus"
+    ],
+    "transcript_ref": "regional\\unc_sohp\\sohp_A-0309-1.yaml"
+  },
+  {
+    "entity_id": 24,
+    "entity": "Maury Maverick Sr.",
+    "explicit_text": "In 1940, we cooperated with Maury Maverick Sr. to organize our county convention in support of Roosevelt and the New Deal. This collaboration was part of our effort to counter the local political machine's opposition. Maverick was an important ally in our political activism.",
+    "implicit_text": "In 1940, we cooperated with a prominent Texas politician and reformer to organize our county convention in support of the president and the New Deal. This collaboration was part of our effort to counter the local political machine's opposition. He was an important ally in our political activism.",
+    "cues": [
+      "1940 county convention",
+      "Roosevelt support",
+      "political collaboration",
+      "local opposition"
+    ],
+    "transcript_ref": "regional\\unc_sohp\\sohp_A-0309-1.yaml"
+  },
+  {
+    "entity_id": 25,
+    "entity": "Roosevelt",
+    "explicit_text": "I became an enthusiastic supporter of Roosevelt after his election and the first hundred days of his presidency. Despite initial skepticism, I believed in his leadership and the New Deal's potential to help the poor. My husband and I worked politically to sustain support for Roosevelt in our county.",
+    "implicit_text": "I became an enthusiastic supporter of the president after his election and the first hundred days of his presidency. Despite initial skepticism, I believed in his leadership and the New Deal's potential to help the poor. My husband and I worked politically to sustain support for him in our county.",
+    "cues": [
+      "1932 election",
+      "first hundred days",
+      "New Deal",
+      "political activism"
+    ],
+    "transcript_ref": "regional\\unc_sohp\\sohp_A-0309-1.yaml"
+  },
+  {
+    "entity_id": 26,
+    "entity": "John Nance Garner",
+    "explicit_text": "During the 1940 county convention, we worked to support Roosevelt without continuing support for Vice President John Nance Garner. Garner was part of the local political establishment we opposed. Our efforts aimed to shift delegate support away from Garner's faction.",
+    "implicit_text": "During the 1940 county convention, we worked to support the president without continuing support for the vice president who was part of the local political establishment we opposed. Our efforts aimed to shift delegate support away from that faction.",
+    "cues": [
+      "1940 county convention",
+      "opposition to Garner",
+      "local politics",
+      "delegate support"
+    ],
+    "transcript_ref": "regional\\unc_sohp\\sohp_A-0309-1.yaml"
+  },
+  {
+    "entity_id": 27,
+    "entity": "1932 United States presidential election",
+    "explicit_text": "The 1932 presidential election was my first to vote in, and I did not vote for Roosevelt but for Norman Thomas, the socialist candidate. At the time, Roosevelt's campaign did not seem very different from Hoover's to me. This election marked the beginning of my political awareness.",
+    "implicit_text": "The 1932 presidential election was my first to vote in, and I did not vote for the eventual winner but for the socialist candidate. At the time, the winner's campaign did not seem very different from the incumbent's to me. This election marked the beginning of my political awareness.",
+    "cues": [
+      "first presidential vote",
+      "voted Norman Thomas",
+      "Roosevelt vs Hoover",
+      "political awakening"
+    ],
+    "transcript_ref": "regional\\unc_sohp\\sohp_A-0309-1.yaml"
+  },
+  {
+    "entity_id": 28,
+    "entity": "Norman Thomas",
+    "explicit_text": "I voted for Norman Thomas, the socialist candidate, in the 1932 election, which was unusual in Fort Worth. I have kept that vote somewhat private because of the stigma attached. It was a personal choice reflecting my early political views before becoming more involved in Democratic politics.",
+    "implicit_text": "I voted for the socialist candidate in the 1932 election, which was unusual in my Texas city. I have kept that vote somewhat private because of the stigma attached. It was a personal choice reflecting my early political views before becoming more involved in Democratic politics.",
+    "cues": [
+      "1932 vote",
+      "socialist candidate",
+      "uncommon choice",
+      "political views"
+    ],
+    "transcript_ref": "regional\\unc_sohp\\sohp_A-0309-1.yaml"
+  },
+  {
+    "entity_id": 29,
+    "entity": "John Tower",
+    "explicit_text": "I voted for John Tower in the 1961 Texas United States Senate special election, seeing him as the lesser of two evils compared to Blakley. Tower was a Republican, and my vote was unusual for a Texas Democrat, but I felt he was easier to remove later. Unfortunately, I was mistaken in that judgment.",
+    "implicit_text": "I voted for a Republican candidate in the 1961 special election for the U.S. Senate from Texas, seeing him as the lesser of two evils compared to the other candidate. My vote was unusual for a Texas Democrat, but I felt he was easier to remove later. Unfortunately, I was mistaken in that judgment.",
+    "cues": [
+      "1961 special election",
+      "voted Republican",
+      "lesser of two evils",
+      "political judgment"
+    ],
+    "transcript_ref": "regional\\unc_sohp\\sohp_A-0309-1.yaml"
+  },
+  {
+    "entity_id": 30,
+    "entity": "1961 Texas United States Senate special election",
+    "explicit_text": "In the 1961 Texas Senate special election, I voted for John Tower against Blakley, who had lost the Democratic primary. This election was unique because Blakley was not the official Democratic nominee, so party loyalty was less binding. My vote reflected my political pragmatism at the time.",
+    "implicit_text": "In the 1961 Texas Senate special election, I voted for the Republican candidate against the Democrat who had lost the primary. This election was unique because the Democrat was not the official nominee, so party loyalty was less binding. My vote reflected my political pragmatism at the time.",
+    "cues": [
+      "1961 special election",
+      "John Tower vs Blakley",
+      "Democratic primary",
+      "party loyalty"
+    ],
+    "transcript_ref": "regional\\unc_sohp\\sohp_A-0309-1.yaml"
+  },
+  {
+    "entity_id": 31,
+    "entity": "Blakley",
+    "explicit_text": "Blakley ran in the 1961 Texas Senate special election after losing the Democratic primary. I chose not to support him, instead voting for John Tower, believing Tower was the lesser evil. This decision was part of my complex political views and experiences.",
+    "implicit_text": "The candidate who lost the Democratic primary ran in the 1961 Texas Senate special election. I chose not to support him, instead voting for the Republican, believing the Republican was the lesser evil. This decision was part of my complex political views and experiences.",
+    "cues": [
+      "1961 election",
+      "lost Democratic primary",
+      "opponent to John Tower",
+      "political choice"
+    ],
+    "transcript_ref": "regional\\unc_sohp\\sohp_A-0309-1.yaml"
+  },
+  {
+    "entity_id": 32,
+    "entity": "Texas Christian University",
+    "explicit_text": "I attended graduate school at Texas Christian University, where I taught high school history. The head of the history department, Jack Hammond, was a reform-minded Disciples minister who inspired my political awareness. TCU was important in shaping my understanding of social issues in the 1930s.",
+    "implicit_text": "I attended graduate school at a private Christian university in Texas, where I taught high school history. The head of the history department was a reform-minded Disciples minister who inspired my political awareness. That university was important in shaping my understanding of social issues in the 1930s.",
+    "cues": [
+      "graduate school",
+      "history teaching",
+      "Jack Hammond influence",
+      "1930s social awareness"
+    ],
+    "transcript_ref": "regional\\unc_sohp\\sohp_A-0309-1.yaml"
+  },
+  {
+    "entity_id": 33,
+    "entity": "Jack Hammond",
+    "explicit_text": "Jack Hammond was the head of the history department at Texas Christian University and a successful reform candidate for mayor of Fort Worth. As a Disciples minister, he preached about social justice and the need for local government to help the poorest people. His example motivated my husband and me to become politically active.",
+    "implicit_text": "The head of the history department at a Texas Christian university was a successful reform candidate for mayor of a large Texas city. As a Disciples minister, he preached about social justice and the need for local government to help the poorest people. His example motivated my husband and me to become politically active.",
+    "cues": [
+      "TCU history head",
+      "mayor of Fort Worth",
+      "Disciples minister",
+      "social justice advocate"
+    ],
+    "transcript_ref": "regional\\unc_sohp\\sohp_A-0309-1.yaml"
+  },
+  {
+    "entity_id": 34,
+    "entity": "Disciples of Christ",
+    "explicit_text": "Jack Hammond, who influenced me greatly, was a minister in the Disciples of Christ. He used his religious platform to advocate for social reform and help for the poor during the 1930s. This religious perspective helped shape my political consciousness and commitment to social justice.",
+    "implicit_text": "The minister who influenced me greatly was part of the Disciples of Christ denomination. He used his religious platform to advocate for social reform and help for the poor during the 1930s. This religious perspective helped shape my political consciousness and commitment to social justice.",
+    "cues": [
+      "Jack Hammond minister",
+      "social reform",
+      "1930s",
+      "religious influence"
+    ],
+    "transcript_ref": "regional\\unc_sohp\\sohp_A-0309-1.yaml"
+  },
+  {
+    "entity_id": 35,
+    "entity": "Wichita Falls, Texas",
+    "explicit_text": "I once voted for a relatively impecunious teacher from Wichita Falls in a political context, seeing him as a preferable candidate to a wealthy opponent. Wichita Falls was the hometown of this candidate, and my choice reflected my desire for more accessible representation. This was part of my broader political experiences in Texas.",
+    "implicit_text": "I once voted for a relatively impecunious teacher from a North Texas city known for its oil industry in a political context, seeing him as a preferable candidate to a wealthy opponent. That city was the hometown of this candidate, and my choice reflected my desire for more accessible representation. This was part of my broader political experiences in Texas.",
+    "cues": [
+      "candidate from Wichita Falls",
+      "political vote",
+      "preference for modest background",
+      "Texas politics"
+    ],
+    "transcript_ref": "regional\\unc_sohp\\sohp_A-0309-1.yaml"
+  }
+]

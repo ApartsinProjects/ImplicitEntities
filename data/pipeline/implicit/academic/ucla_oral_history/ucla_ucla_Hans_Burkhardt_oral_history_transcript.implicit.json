@@ -1,0 +1,57 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "Basel",
+    "explicit_text": "I was born in Basel, Switzerland, on December 20, 1904. After my father left for New York when I was three and my mother died when I was six, my two sisters and I were raised in an orphanage in Basel. Life there was very hard, especially during the wartime, with constant poverty and scarcity of food. Despite these hardships, Basel was where I first developed my love for drawing and art, inspired by the paintings I saw in the local museum.",
+    "implicit_text": "I was born in a city in northwestern Switzerland on December 20, 1904. After my father left for New York when I was three and my mother died when I was six, my two sisters and I were raised in an orphanage in that same city. Life there was very hard, especially during the wartime, with constant poverty and scarcity of food. Despite these hardships, that city was where I first developed my love for drawing and art, inspired by the paintings I saw in the local museum.",
+    "cues": [
+      "December 20, 1904",
+      "orphanage",
+      "wartime",
+      "museum",
+      "Basel"
+    ],
+    "transcript_ref": "academic\\ucla_oral_history\\ucla_ucla_Hans_Burkhardt_oral_history_transcript.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "Switzerland",
+    "explicit_text": "I grew up in Switzerland during a very difficult time, especially through the war years. Even after the war ended, conditions remained tough, and we often didn't have enough to eat. Switzerland was the backdrop of my childhood struggles and my early exposure to art, which helped me appreciate the better things in life despite the hardships. My experiences there shaped my work ethic and my appreciation for creativity.",
+    "implicit_text": "I grew up in a central European country known for its mountains and neutrality during a very difficult time, especially through the war years. Even after the war ended, conditions remained tough, and we often didn't have enough to eat. This country was the backdrop of my childhood struggles and my early exposure to art, which helped me appreciate the better things in life despite the hardships. My experiences there shaped my work ethic and my appreciation for creativity.",
+    "cues": [
+      "wartime",
+      "post-war conditions",
+      "poverty",
+      "Switzerland"
+    ],
+    "transcript_ref": "academic\\ucla_oral_history\\ucla_ucla_Hans_Burkhardt_oral_history_transcript.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "Arnold Böcklin",
+    "explicit_text": "While growing up in Basel, I admired the romantic paintings I saw in the museum, and Arnold Böcklin was one of the artists I liked. His work didn't try to replicate nature exactly but created something imaginative, which really spoke to me. Although I didn't know much about art at the time, Böcklin's paintings were among those that inspired my early interest in drawing and creativity.",
+    "implicit_text": "While growing up in that Swiss city, I admired the romantic paintings I saw in the museum, and one of the artists I liked was known for his imaginative works rather than exact nature replication. His style really spoke to me. Although I didn't know much about art at the time, his paintings were among those that inspired my early interest in drawing and creativity.",
+    "cues": [
+      "museum",
+      "romantic paintings",
+      "early 1900s",
+      "Basel",
+      "Arnold Böcklin"
+    ],
+    "transcript_ref": "academic\\ucla_oral_history\\ucla_ucla_Hans_Burkhardt_oral_history_transcript.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "Ferdinand Hodler",
+    "explicit_text": "Ferdinand Hodler was another artist whose work I admired deeply during my childhood in Basel. I especially liked Hodler's paintings, which I found more progressive compared to others, even though I didn't have much formal art knowledge then. Seeing his art in the museum helped fuel my passion for drawing and inspired me to pursue my own artistic path despite the difficult circumstances I faced growing up.",
+    "implicit_text": "Another artist whose work I admired deeply during my childhood in that Swiss city created paintings I found more progressive compared to others, even though I didn't have much formal art knowledge then. Seeing his art in the museum helped fuel my passion for drawing and inspired me to pursue my own artistic path despite the difficult circumstances I faced growing up.",
+    "cues": [
+      "museum",
+      "progressive art",
+      "early 1900s",
+      "Basel",
+      "Ferdinand Hodler"
+    ],
+    "transcript_ref": "academic\\ucla_oral_history\\ucla_ucla_Hans_Burkhardt_oral_history_transcript.yaml"
+  }
+]

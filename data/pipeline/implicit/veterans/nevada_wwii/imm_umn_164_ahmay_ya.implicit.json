@@ -1,0 +1,100 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "Burma",
+    "explicit_text": "I was born and raised in Burma in 1987, but my life there was very difficult because my father was a well-known Karen activist and peacemaker. I had to hide my true identity and live under a different name to avoid being captured or tortured by the Burmese military. After graduating with a social work degree, the military discovered who I really was, and I had to escape from Burma to Thailand to save my life.",
+    "implicit_text": "I was born and raised in a Southeast Asian country in 1987, but my life there was very difficult because my father was a well-known Karen activist and peacemaker. I had to hide my true identity and live under a different name to avoid being captured or tortured by the military regime. After graduating with a social work degree, the military discovered who I really was, and I had to escape to a neighboring country to save my life.",
+    "cues": [
+      "1987",
+      "Karen minority",
+      "Burmese military",
+      "social work degree",
+      "escape to Thailand"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_164_ahmay_ya.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "Thailand",
+    "explicit_text": "After fleeing Burma, I lived in a refugee camp in Thailand for several years. My father sent men to escort me safely across the border, and I was introduced to Dr. Cynthia Maung, a Karen doctor providing free healthcare to refugees along the Thai-Burma border. I volunteered as a midwife, nurse educator, and counselor at her clinic while preparing to resettle in the United States.",
+    "implicit_text": "After fleeing my home country, I lived in a refugee camp in a neighboring Southeast Asian nation for several years. My father sent men to escort me safely across the border, and I was introduced to a Karen doctor providing free healthcare to refugees along the border between my homeland and this country. I volunteered as a midwife, nurse educator, and counselor at her clinic while preparing to resettle in North America.",
+    "cues": [
+      "refugee camp",
+      "Thai-Burma border",
+      "Dr. Cynthia Maung",
+      "volunteer work",
+      "refugee resettlement"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_164_ahmay_ya.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "United States",
+    "explicit_text": "I came to the United States as a refugee in 2009, choosing it because it accepts many refugees from Burma. Minnesota became my new home, where I could reconnect with my culture and access resources to help me adjust. I studied social work at Metropolitan State University and later worked as a social worker in Ramsey County, advocating for the Karen community in the Twin Cities.",
+    "implicit_text": "I came to North America as a refugee in 2009, choosing it because it accepts many refugees from my home country. A Midwestern state became my new home, where I could reconnect with my culture and access resources to help me adjust. I studied social work at a local university and later worked as a social worker in a county known for its diverse population, advocating for the Karen community in the Twin Cities.",
+    "cues": [
+      "2009",
+      "refugee resettlement",
+      "Minnesota",
+      "social work",
+      "advocacy"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_164_ahmay_ya.yaml"
+  },
+  {
+    "entity_id": 5,
+    "entity": "Metropolitan State University",
+    "explicit_text": "I pursued my education in social work at Metropolitan State University in St. Paul after arriving in the United States. This education helped me gain the skills needed to serve my community effectively. While studying there, I also worked toward becoming a licensed clinical social worker to better support Karen refugees and youth in Minnesota.",
+    "implicit_text": "I pursued my education in social work at a university located in St. Paul after arriving in North America. This education helped me gain the skills needed to serve my community effectively. While studying there, I also worked toward becoming a licensed clinical social worker to better support Karen refugees and youth in that Midwestern state.",
+    "cues": [
+      "social work degree",
+      "St. Paul",
+      "licensed clinical social work",
+      "education",
+      "community service"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_164_ahmay_ya.yaml"
+  },
+  {
+    "entity_id": 6,
+    "entity": "Ramsey County, Minnesota",
+    "explicit_text": "I worked as a social worker in Ramsey County, Minnesota, where I served Karen youth and refugees with their medical and mental health needs. This role allowed me to directly support my community in navigating challenges in a new country. Ramsey County became an important place for me to contribute and advocate for culturally appropriate services for the Karen population.",
+    "implicit_text": "I worked as a social worker in a county within Minnesota, where I served Karen youth and refugees with their medical and mental health needs. This role allowed me to directly support my community in navigating challenges in a new country. That county became an important place for me to contribute and advocate for culturally appropriate services for the Karen population.",
+    "cues": [
+      "social worker",
+      "Karen youth",
+      "medical and mental health needs",
+      "Minnesota",
+      "community support"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_164_ahmay_ya.yaml"
+  },
+  {
+    "entity_id": 7,
+    "entity": "Karen Human Services of America",
+    "explicit_text": "In 2014, I founded Karen Human Services of America, a nonprofit organization dedicated to serving the Karen community in the United States. I established this with seven board members to address the lack of culturally appropriate services for Karen refugees. This organization carries on the legacy of my father and my commitment to volunteerism and community empowerment.",
+    "implicit_text": "In 2014, I founded a nonprofit organization dedicated to serving the Karen community in the United States. I established this with seven board members to address the lack of culturally appropriate services for Karen refugees. This organization carries on the legacy of my father and my commitment to volunteerism and community empowerment.",
+    "cues": [
+      "2014",
+      "501c3 nonprofit",
+      "Karen community",
+      "culturally appropriate services",
+      "founder"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_164_ahmay_ya.yaml"
+  },
+  {
+    "entity_id": 8,
+    "entity": "Cynthia Maung",
+    "explicit_text": "When I arrived in Thailand, my father introduced me to Dr. Cynthia Maung, a Karen doctor who provides free healthcare to refugees along the Thai-Burma border. I volunteered at her clinic as a midwife, nurse educator, and counselor, gaining valuable experience while helping others in need. Dr. Maung's work inspired me to continue serving my community and pursue social work.",
+    "implicit_text": "When I arrived in the neighboring Southeast Asian country, my father introduced me to a Karen doctor who provides free healthcare to refugees along the border between my homeland and this country. I volunteered at her clinic as a midwife, nurse educator, and counselor, gaining valuable experience while helping others in need. Her work inspired me to continue serving my community and pursue social work.",
+    "cues": [
+      "Karen doctor",
+      "Thai-Burma border",
+      "free healthcare",
+      "volunteer work",
+      "clinic"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_164_ahmay_ya.yaml"
+  }
+]

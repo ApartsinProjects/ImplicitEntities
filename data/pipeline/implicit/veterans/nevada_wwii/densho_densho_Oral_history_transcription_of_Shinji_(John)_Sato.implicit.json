@@ -1,0 +1,261 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "Chiba Prefecture",
+    "explicit_text": "I was born in Chiba Prefecture and lived there until I was 14 years old. My father was originally from there, and I obtained my non-immigrant passport from the Chiba Prefectural office when I came to America. I have returned to Japan several times and visited friends from my childhood neighborhood in Chiba. It holds many memories of my early life and family.",
+    "implicit_text": "I was born in a coastal prefecture east of Tokyo and lived there until I was 14 years old. My father was originally from that area, and I obtained my non-immigrant passport from the local prefectural office when I came to America. I have returned to Japan several times and visited friends from my childhood neighborhood in that prefecture. It holds many memories of my early life and family.",
+    "cues": [
+      "born in Chiba Prefecture",
+      "non-immigrant passport from Chiba Prefectural office",
+      "returned to Japan several times",
+      "childhood neighborhood"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\densho_densho_Oral_history_transcription_of_Shinji_(John)_Sato.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "Napa, California",
+    "explicit_text": "My father was the boss of a fruit ranch in Napa, California, and I came to the United States to join him when I was 14. During the 1906 San Francisco earthquake, many people from Chiba Prefecture fled to Napa and worked on my father's ranch. After working as a farm laborer there, I eventually became a foreman at the ranch. Napa was where I started my life in America and learned to work hard.",
+    "implicit_text": "My father was the boss of a fruit ranch in a famous California wine region, and I came to the United States to join him when I was 14. During the 1906 San Francisco earthquake, many people from my home prefecture fled to that region and worked on my father's ranch. After working as a farm laborer there, I eventually became a foreman at the ranch. That area was where I started my life in America and learned to work hard.",
+    "cues": [
+      "father was boss of fruit ranch in Napa",
+      "1906 San Francisco earthquake refugees came to Napa",
+      "worked as farm laborer and foreman",
+      "came to America at 14"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\densho_densho_Oral_history_transcription_of_Shinji_(John)_Sato.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "1906 San Francisco earthquake",
+    "explicit_text": "I heard that during the 1906 San Francisco earthquake, many people from Chiba Prefecture escaped from San Francisco and came to my father's ranch in Napa. My father provided them with food and work picking pears. This event affected the Japanese immigrant community and brought many people to Napa where my family was working.",
+    "implicit_text": "I heard that during the major earthquake in 1906 that struck a northern California city, many people from my home prefecture escaped from that city and came to my father's ranch in the nearby valley. My father provided them with food and work picking pears. This event affected the Japanese immigrant community and brought many people to that agricultural region where my family was working.",
+    "cues": [
+      "1906 San Francisco earthquake",
+      "people from Chiba Prefecture escaped San Francisco",
+      "father gave food and work",
+      "Napa ranch"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\densho_densho_Oral_history_transcription_of_Shinji_(John)_Sato.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "San Francisco",
+    "explicit_text": "San Francisco was the city affected by the 1906 earthquake, which caused many Japanese immigrants from Chiba Prefecture to flee. My father was in Napa at the time, and many of these refugees came to work on his fruit ranch. Although I did not live in San Francisco, the events there impacted my family and community.",
+    "implicit_text": "The northern California city on the bay was the one affected by the 1906 earthquake, which caused many Japanese immigrants from my home prefecture to flee. My father was in the nearby agricultural valley at the time, and many of these refugees came to work on his fruit ranch. Although I did not live in that city, the events there impacted my family and community.",
+    "cues": [
+      "1906 earthquake in San Francisco",
+      "Japanese refugees fled San Francisco",
+      "father in Napa at the time"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\densho_densho_Oral_history_transcription_of_Shinji_(John)_Sato.yaml"
+  },
+  {
+    "entity_id": 5,
+    "entity": "Sacramento, California",
+    "explicit_text": "My sister Yasuko married a man from Hiroshima and has been living in Sacramento for a few years. She visits us regularly. Also, after my brother and I paid off our ranch in Oregon, he moved to Sacramento to grow strawberries, and I helped him there before buying his share.",
+    "implicit_text": "My sister Yasuko married a man from a western Japanese city known for its peace memorial and has been living in the capital of California's Central Valley for a few years. She visits us regularly. Also, after my brother and I paid off our ranch in the Pacific Northwest, he moved to that Central Valley city to grow strawberries, and I helped him there before buying his share.",
+    "cues": [
+      "sister Yasuko lives in Sacramento",
+      "brother grew strawberries in Sacramento",
+      "helped brother in Sacramento"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\densho_densho_Oral_history_transcription_of_Shinji_(John)_Sato.yaml"
+  },
+  {
+    "entity_id": 6,
+    "entity": "Hiroshima",
+    "explicit_text": "My sister Yasuko married a man from Hiroshima, and they have been living in Sacramento for several years. She is the youngest daughter of my sister and visits us often. Hiroshima is connected to my family through her marriage.",
+    "implicit_text": "My sister Yasuko married a man from the western Japanese city famous for its atomic history, and they have been living in the capital of California's Central Valley for several years. She is the youngest daughter of my sister and visits us often. That city in western Japan is connected to my family through her marriage.",
+    "cues": [
+      "sister Yasuko married man from Hiroshima",
+      "living in Sacramento",
+      "family connection"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\densho_densho_Oral_history_transcription_of_Shinji_(John)_Sato.yaml"
+  },
+  {
+    "entity_id": 7,
+    "entity": "Oregon",
+    "explicit_text": "After selling the fruit ranch in Napa, my brother and I bought an Italian prune ranch in Salem, Oregon. We worked hard there and paid off half of the ranch each. However, work was scarce, so eventually we moved on to other places like Sacramento and Imperial Valley. Oregon was an important step in our farming career.",
+    "implicit_text": "After selling the fruit ranch in the California wine region, my brother and I bought an Italian prune ranch in the capital city of a Pacific Northwest state. We worked hard there and paid off half of the ranch each. However, work was scarce, so eventually we moved on to other places like Sacramento and a desert valley in Southern California. That state was an important step in our farming career.",
+    "cues": [
+      "bought Italian prune ranch in Salem, Oregon",
+      "worked hard and paid off ranch",
+      "moved on due to lack of work"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\densho_densho_Oral_history_transcription_of_Shinji_(John)_Sato.yaml"
+  },
+  {
+    "entity_id": 8,
+    "entity": "Salem, Oregon",
+    "explicit_text": "In Salem, Oregon, my brother and I bought an Italian prune ranch and worked hard to pay it off. It was a challenging but rewarding experience. After some time, my brother moved to Sacramento to grow strawberries, and I bought his share of the Oregon ranch.",
+    "implicit_text": "In the capital city of a Pacific Northwest state, my brother and I bought an Italian prune ranch and worked hard to pay it off. It was a challenging but rewarding experience. After some time, my brother moved to the Central Valley city to grow strawberries, and I bought his share of the ranch in that state.",
+    "cues": [
+      "Italian prune ranch in Salem",
+      "paid off ranch",
+      "brother moved to Sacramento"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\densho_densho_Oral_history_transcription_of_Shinji_(John)_Sato.yaml"
+  },
+  {
+    "entity_id": 9,
+    "entity": "Imperial Valley",
+    "explicit_text": "I worked in the Imperial Valley where the temperature reached 115 degrees and the wind felt like fire. We grew cantaloupes by contract on a 40-acre ranch, working long hours sometimes until 10 p.m. The roads were unpaved and dusty, and transportation was by horseback. It was tough work, but I earned about $10 a day and persevered.",
+    "implicit_text": "I worked in a desert valley in Southern California where the temperature reached 115 degrees and the wind felt like fire. We grew cantaloupes by contract on a 40-acre ranch, working long hours sometimes until 10 p.m. The roads were unpaved and dusty, and transportation was by horseback. It was tough work, but I earned about $10 a day and persevered.",
+    "cues": [
+      "Imperial Valley 115 degrees heat",
+      "contract cantaloupe farming",
+      "unpaved dusty roads",
+      "worked long hours"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\densho_densho_Oral_history_transcription_of_Shinji_(John)_Sato.yaml"
+  },
+  {
+    "entity_id": 10,
+    "entity": "Mexico",
+    "explicit_text": "Many people smuggled themselves into America from Mexico during my time working in Imperial Valley. My brother and I were among the few who had passports, but others did not. I remember visiting a man named Nakamura who was caught and jailed in Brawley before being deported back to Mexico. It was a difficult situation for many young immigrants.",
+    "implicit_text": "Many people smuggled themselves into America from the neighboring country to the south during my time working in that desert valley. My brother and I were among the few who had passports, but others did not. I remember visiting a man named Nakamura who was caught and jailed in a nearby small city before being deported back to that country. It was a difficult situation for many young immigrants.",
+    "cues": [
+      "smuggling from Mexico",
+      "Nakamura jailed in Brawley",
+      "brother and I had passports",
+      "deportation"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\densho_densho_Oral_history_transcription_of_Shinji_(John)_Sato.yaml"
+  },
+  {
+    "entity_id": 11,
+    "entity": "Brawley, California",
+    "explicit_text": "I visited a man named Nakamura in jail in Brawley, California, after he was caught smuggling himself into America from Mexico. He was only 27 and was sent back to Mexico as it was his first offense. This experience made me feel sorry for him and highlighted the struggles of immigrants at that time.",
+    "implicit_text": "I visited a man named Nakamura in jail in a small city in Southern California after he was caught smuggling himself into America from the neighboring country to the south. He was only 27 and was sent back to that country as it was his first offense. This experience made me feel sorry for him and highlighted the struggles of immigrants at that time.",
+    "cues": [
+      "Nakamura jailed in Brawley",
+      "smuggling from Mexico",
+      "first offense deportation"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\densho_densho_Oral_history_transcription_of_Shinji_(John)_Sato.yaml"
+  },
+  {
+    "entity_id": 12,
+    "entity": "Arizona",
+    "explicit_text": "After working in Imperial Valley, my brother and I went to Arizona, specifically Phoenix, where it was very hot. We worked on Mr. Yamamoto's ranch, who was a graduate of Waseda University and managed 200 acres using horses. One night a big thunderstorm blew away our camp, but luckily no one was hurt. It was hard work but a memorable experience.",
+    "implicit_text": "After working in the desert valley, my brother and I went to Arizona, specifically its capital city, where it was very hot. We worked on Mr. Yamamoto's ranch, who was a graduate of a prestigious Tokyo university and managed 200 acres using horses. One night a big thunderstorm blew away our camp, but luckily no one was hurt. It was hard work but a memorable experience.",
+    "cues": [
+      "worked in Phoenix, Arizona",
+      "Mr. Yamamoto's ranch",
+      "Waseda University graduate",
+      "thunderstorm blew camp away"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\densho_densho_Oral_history_transcription_of_Shinji_(John)_Sato.yaml"
+  },
+  {
+    "entity_id": 13,
+    "entity": "Waseda University",
+    "explicit_text": "Mr. Yamamoto, the ranch owner in Arizona where I worked, was a graduate of Waseda University. He was a frank and hearty man who managed a large ranch using horses. Knowing his background made me respect him and the work we did there.",
+    "implicit_text": "Mr. Yamamoto, the ranch owner in Arizona where I worked, was a graduate of a well-known Tokyo university. He was a frank and hearty man who managed a large ranch using horses. Knowing his background made me respect him and the work we did there.",
+    "cues": [
+      "Mr. Yamamoto graduated from Waseda University",
+      "worked on his ranch in Arizona"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\densho_densho_Oral_history_transcription_of_Shinji_(John)_Sato.yaml"
+  },
+  {
+    "entity_id": 14,
+    "entity": "North Pomona, California",
+    "explicit_text": "Before going to Imperial Valley, I worked picking oranges in North Pomona with my brother. We stayed at Mr. Sasaki's camp until June. I preferred working silently in the fields, and it was better for my brother's health after he caught measles in Los Angeles. North Pomona was one of the places where we labored hard to make a living.",
+    "implicit_text": "Before going to the desert valley, I worked picking oranges in a northern area of a Southern California city with my brother. We stayed at Mr. Sasaki's camp until June. I preferred working silently in the fields, and it was better for my brother's health after he caught measles in Los Angeles. That northern area was one of the places where we labored hard to make a living.",
+    "cues": [
+      "picked oranges in North Pomona",
+      "worked at Mr. Sasaki's camp",
+      "brother recovered from measles",
+      "before Imperial Valley"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\densho_densho_Oral_history_transcription_of_Shinji_(John)_Sato.yaml"
+  },
+  {
+    "entity_id": 15,
+    "entity": "Kanagawa Prefecture",
+    "explicit_text": "Immigrants had to get their passports from the Kanagawa Prefectural office, but I was a non-immigrant and received mine from the Chiba Prefectural office. This distinction was important when I came to America. It shows the different immigration procedures depending on status and origin.",
+    "implicit_text": "Immigrants had to get their passports from the prefectural office near Tokyo, but I was a non-immigrant and received mine from the prefectural office in my home coastal prefecture east of Tokyo. This distinction was important when I came to America. It shows the different immigration procedures depending on status and origin.",
+    "cues": [
+      "immigrants got passports from Kanagawa Prefecture",
+      "I got mine from Chiba Prefecture",
+      "non-immigrant status"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\densho_densho_Oral_history_transcription_of_Shinji_(John)_Sato.yaml"
+  },
+  {
+    "entity_id": 16,
+    "entity": "Heald College",
+    "explicit_text": "When I was about 25 years old, I attended Heald College for a while to further my education. However, I quit after some time, partly because of the Woodbridge Act passing in 1924. Education was important to me, but circumstances made me focus on farming and family.",
+    "implicit_text": "When I was about 25 years old, I attended a technical college in San Francisco for a while to further my education. However, I quit after some time, partly because of a restrictive immigration law passing in 1924. Education was important to me, but circumstances made me focus on farming and family.",
+    "cues": [
+      "attended Heald College at age 25",
+      "quit after Woodbridge Act",
+      "importance of education"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\densho_densho_Oral_history_transcription_of_Shinji_(John)_Sato.yaml"
+  },
+  {
+    "entity_id": 17,
+    "entity": "Woodbridge Act",
+    "explicit_text": "The Woodbridge Act passed Congress when I was 27 years old in 1924, which prohibited Japanese from entering America after July of that year. This law affected my plans and the Japanese immigrant community. After it passed, I went back to Japan to meet a prospective bride but eventually married my present wife and returned to America in 1922.",
+    "implicit_text": "The restrictive immigration law passed Congress when I was 27 years old in 1924, which prohibited Japanese from entering America after July of that year. This law affected my plans and the Japanese immigrant community. After it passed, I went back to Japan to meet a prospective bride but eventually married my present wife and returned to America in 1922.",
+    "cues": [
+      "Woodbridge Act passed 1924",
+      "no Japanese entry after July 1924",
+      "went back to Japan to meet bride",
+      "married and returned 1922"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\densho_densho_Oral_history_transcription_of_Shinji_(John)_Sato.yaml"
+  },
+  {
+    "entity_id": 18,
+    "entity": "University of Michigan",
+    "explicit_text": "The transcript does not mention any connection to the University of Michigan in my story. I did not attend or have any direct relationship with that institution.",
+    "implicit_text": "The transcript does not mention any connection to a major Midwestern university in my story. I did not attend or have any direct relationship with that institution.",
+    "cues": [],
+    "transcript_ref": "veterans\\nevada_wwii\\densho_densho_Oral_history_transcription_of_Shinji_(John)_Sato.yaml"
+  },
+  {
+    "entity_id": 19,
+    "entity": "Valley Forge",
+    "explicit_text": "Valley Forge is not mentioned in my experiences or story. I have no personal connection or memories related to that place.",
+    "implicit_text": "A historic Revolutionary War site in Pennsylvania is not mentioned in my experiences or story. I have no personal connection or memories related to that place.",
+    "cues": [],
+    "transcript_ref": "veterans\\nevada_wwii\\densho_densho_Oral_history_transcription_of_Shinji_(John)_Sato.yaml"
+  },
+  {
+    "entity_id": 20,
+    "entity": "Baptist Church",
+    "explicit_text": "The Baptist Church does not appear in my narrative or experiences. I did not mention any involvement or relationship with that organization.",
+    "implicit_text": "A Protestant denomination known for its emphasis on baptism does not appear in my narrative or experiences. I did not mention any involvement or relationship with that organization.",
+    "cues": [],
+    "transcript_ref": "veterans\\nevada_wwii\\densho_densho_Oral_history_transcription_of_Shinji_(John)_Sato.yaml"
+  },
+  {
+    "entity_id": 21,
+    "entity": "Camp II",
+    "explicit_text": "Camp II is not referenced in my story or experiences. I have no memories or connections to that place.",
+    "implicit_text": "A camp referred to as Camp II is not referenced in my story or experiences. I have no memories or connections to that place.",
+    "cues": [],
+    "transcript_ref": "veterans\\nevada_wwii\\densho_densho_Oral_history_transcription_of_Shinji_(John)_Sato.yaml"
+  },
+  {
+    "entity_id": 22,
+    "entity": "Kingsburg, Colorado",
+    "explicit_text": "Kingsburg, Colorado is not mentioned in my transcript. I have no association or experiences related to that place.",
+    "implicit_text": "A town in Colorado named Kingsburg is not mentioned in my transcript. I have no association or experiences related to that place.",
+    "cues": [],
+    "transcript_ref": "veterans\\nevada_wwii\\densho_densho_Oral_history_transcription_of_Shinji_(John)_Sato.yaml"
+  },
+  {
+    "entity_id": 23,
+    "entity": "James Crawford",
+    "explicit_text": "James Crawford is not mentioned in my story or experiences. I have no relationship or memories involving this person.",
+    "implicit_text": "A person named James Crawford is not mentioned in my story or experiences. I have no relationship or memories involving this person.",
+    "cues": [],
+    "transcript_ref": "veterans\\nevada_wwii\\densho_densho_Oral_history_transcription_of_Shinji_(John)_Sato.yaml"
+  }
+]

@@ -1,0 +1,84 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "Burma",
+    "explicit_text": "I was born and raised in Burma, where life was very hard for my family because we are Karen. When I was about five years old, the Burmese military restricted our movements and made it difficult to get enough food. My family lived in constant fear, especially after an incident when soldiers confronted my mother and me. Eventually, in 2006, my family decided to leave Burma to escape the violence and hardship.",
+    "implicit_text": "I was born and raised in a Southeast Asian country where life was very hard for my family because we belong to an ethnic minority group. When I was about five years old, the national military restricted our movements and made it difficult to get enough food. My family lived in constant fear, especially after an incident when soldiers confronted my mother and me. Eventually, in 2006, my family decided to leave that country to escape the violence and hardship.",
+    "cues": [
+      "born in Burma",
+      "about five years old",
+      "Burmese military restrictions",
+      "2006 family left Burma"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_262_ta_nay_gay.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "Karen people",
+    "explicit_text": "I am part of the Karen people, an ethnic group in Burma who have faced a lot of discrimination and violence from the Burmese military. Growing up, my family and I experienced severe restrictions and hardships because of our identity. Even in the refugee camp in Thailand, we maintained our Karen traditions, like weaving traditional clothes. Being Karen has shaped my life journey from Burma to Thailand and finally to Minnesota in the United States.",
+    "implicit_text": "I am part of an ethnic group in that Southeast Asian country who have faced a lot of discrimination and violence from the national military. Growing up, my family and I experienced severe restrictions and hardships because of our identity. Even in the refugee camp in a neighboring country, we maintained our traditional customs, like weaving traditional clothes. Being from this group has shaped my life journey from my homeland to the refugee camp and finally to a state in the northern United States.",
+    "cues": [
+      "Karen people identity",
+      "discrimination by Burmese military",
+      "weaving traditional clothes",
+      "refugee camp in Thailand",
+      "resettlement in Minnesota"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_262_ta_nay_gay.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "Burmese military",
+    "explicit_text": "The Burmese military caused a lot of fear and suffering for my family and the Karen people in Burma. When I was a child, their soldiers wouldn't let us go outside or feed our animals, and they spoke only Burmese, which my mother didn't understand. One time, soldiers surrounded us and questioned my mother, and I was scared they might kill her. Their oppression was a major reason why my family decided to flee Burma in 2006.",
+    "implicit_text": "The national military caused a lot of fear and suffering for my family and my ethnic group in our home country. When I was a child, their soldiers wouldn't let us go outside or feed our animals, and they spoke only the official language, which my mother didn't understand. One time, soldiers surrounded us and questioned my mother, and I was scared they might kill her. Their oppression was a major reason why my family decided to flee our country in 2006.",
+    "cues": [
+      "Burmese military restrictions",
+      "soldiers questioning my mother",
+      "fear of violence",
+      "2006 family fled Burma"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_262_ta_nay_gay.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "Thailand",
+    "explicit_text": "After leaving Burma in 2006, my family and I lived in a refugee camp in Thailand for several years. Life there was difficult; we received free rice and food but had little money for other needs. My father worked hard, sneaking out to find jobs with local Thai people, even though it was illegal, while my mother weaved Karen traditional clothes to help support us. We stayed in Thailand until 2012, when we were accepted for resettlement in the United States.",
+    "implicit_text": "After leaving my home country in 2006, my family and I lived in a refugee camp in a neighboring Southeast Asian country for several years. Life there was difficult; we received free rice and food but had little money for other needs. My father worked hard, sneaking out to find jobs with local people, even though it was illegal, while my mother weaved traditional clothes from our ethnic group to help support us. We stayed there until 2012, when we were accepted for resettlement in the United States.",
+    "cues": [
+      "2006 moved to refugee camp in Thailand",
+      "free rice and food",
+      "father worked illegally",
+      "mother wove traditional clothes",
+      "2012 resettlement application"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_262_ta_nay_gay.yaml"
+  },
+  {
+    "entity_id": 5,
+    "entity": "Minnesota",
+    "explicit_text": "My family and I arrived in Minnesota on September 29, 2013, not knowing anyone and feeling very lonely at first. We stayed inside and cried every day, but after about a year and a half, I got to know more Karen people here and started feeling better. Minnesota has given me opportunities to learn and attend a great school, and I am grateful that my family can live happily in this state. It feels like a new beginning for us after all the hardships we faced.",
+    "implicit_text": "My family and I arrived in a northern U.S. state on September 29, 2013, not knowing anyone and feeling very lonely at first. We stayed inside and cried every day, but after about a year and a half, I got to know more people from my ethnic group here and started feeling better. This state has given me opportunities to learn and attend a great school, and I am grateful that my family can live happily here. It feels like a new beginning for us after all the hardships we faced.",
+    "cues": [
+      "arrived September 29, 2013",
+      "initial loneliness",
+      "knowing Karen people",
+      "school opportunities",
+      "family happiness"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_262_ta_nay_gay.yaml"
+  },
+  {
+    "entity_id": 6,
+    "entity": "United States",
+    "explicit_text": "The United States opened its doors to refugees like my family who lived in camps in Thailand, allowing us to start a new life here. We applied for resettlement in 2012 and were accepted, arriving in Minnesota in 2013. Living in the U.S. has given me hope and opportunities to learn and grow, and I am very thankful for the chance to live safely and happily with my family. I believe that as long as we are alive, everything will get better here.",
+    "implicit_text": "This country opened its doors to refugees like my family who lived in camps in a neighboring nation, allowing us to start a new life here. We applied for resettlement in 2012 and were accepted, arriving in the northern U.S. state in 2013. Living here has given me hope and opportunities to learn and grow, and I am very thankful for the chance to live safely and happily with my family. I believe that as long as we are alive, everything will get better here.",
+    "cues": [
+      "U.S. refugee resettlement program",
+      "2012 application",
+      "2013 arrival",
+      "opportunities to learn",
+      "family safety and happiness"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_262_ta_nay_gay.yaml"
+  }
+]

@@ -1,0 +1,337 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "Jonathan Worth Daniels",
+    "explicit_text": "My name is Jonathan Worth Daniels, born on April 26, 1902, in Raleigh, North Carolina. I grew up in my grandfather's house near Shaw University, in a predominantly black neighborhood. My family background is quite rich, with connections to the Civil War and Southern politics, and my father was a significant figure in North Carolina's Democratic Party and newspaper world. I had a complex but respectful relationship with my father, especially regarding race relations and politics.",
+    "implicit_text": "I was born on April 26, 1902, in the capital city of North Carolina. I grew up in my grandfather's house near a historically black university, in a predominantly black neighborhood. My family background is quite rich, with connections to the Civil War and Southern politics, and my father was a significant figure in the state's Democratic Party and newspaper world. I had a complex but respectful relationship with my father, especially regarding race relations and politics.",
+    "cues": [
+      "April 26, 1902",
+      "Raleigh, North Carolina",
+      "Shaw University",
+      "Democratic Party",
+      "father",
+      "Civil War ancestry"
+    ],
+    "transcript_ref": "regional\\unc_sohp\\sohp_A-0313.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "Raleigh, North Carolina",
+    "explicit_text": "I was born in Raleigh, North Carolina, right at the corner of South and Blount Street, across from Shaw University. Raleigh was the place where my grandfather built our family home shortly after the Civil War, and though the neighborhood deteriorated over time, it was a happy place with wonderful neighbors. Raleigh's social and racial dynamics deeply influenced my upbringing and family history.",
+    "implicit_text": "I was born in the capital city of North Carolina, right at the corner of South and Blount Street, across from a historically black university. This city was where my grandfather built our family home shortly after the Civil War, and though the neighborhood deteriorated over time, it was a happy place with wonderful neighbors. The social and racial dynamics of this city deeply influenced my upbringing and family history.",
+    "cues": [
+      "corner of South and Blount Street",
+      "across from Shaw University",
+      "post-Civil War",
+      "family home"
+    ],
+    "transcript_ref": "regional\\unc_sohp\\sohp_A-0313.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "Shaw University",
+    "explicit_text": "Shaw University was right across the street from where I was born in Raleigh. Growing up near Shaw University placed me in a unique position within a predominantly black neighborhood, which shaped much of my early social experience. It was part of the environment where my family lived and interacted with our neighbors.",
+    "implicit_text": "The historically black university was right across the street from where I was born in the capital city of North Carolina. Growing up near this institution placed me in a unique position within a predominantly black neighborhood, which shaped much of my early social experience. It was part of the environment where my family lived and interacted with our neighbors.",
+    "cues": [
+      "Raleigh",
+      "across the street from birthplace",
+      "predominantly black neighborhood"
+    ],
+    "transcript_ref": "regional\\unc_sohp\\sohp_A-0313.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "American Civil War",
+    "explicit_text": "The American Civil War was a defining backdrop for my family history. My grandfather, Jonathan Worth, was a major in the Confederate States Army and served as treasurer during the war. The war's aftermath shaped my grandfather's political career and the family's standing in North Carolina, and it influenced my father's upbringing and values.",
+    "implicit_text": "The Civil War was a defining backdrop for my family history. My grandfather was a major in the Confederate army and served as treasurer during the war. The war's aftermath shaped my grandfather's political career and the family's standing in North Carolina, and it influenced my father's upbringing and values.",
+    "cues": [
+      "Confederate States Army",
+      "Jonathan Worth",
+      "post-war politics",
+      "North Carolina"
+    ],
+    "transcript_ref": "regional\\unc_sohp\\sohp_A-0313.yaml"
+  },
+  {
+    "entity_id": 5,
+    "entity": "Little Washington, North Carolina",
+    "explicit_text": "Little Washington, North Carolina, was where my father's father worked as a ship carpenter before the Civil War. He left for Rhode Island because he opposed slavery but returned to North Carolina to marry my grandmother. Later, when my father became Secretary of the Navy, Little Washington tried to honor him, though my grandmother was skeptical of the town's welcome.",
+    "implicit_text": "A small town in North Carolina was where my father's father worked as a ship carpenter before the Civil War. He left for a northern state because he opposed slavery but returned to North Carolina to marry my grandmother. Later, when my father became Secretary of the Navy, that town tried to honor him, though my grandmother was skeptical of the welcome.",
+    "cues": [
+      "father's father",
+      "ship carpenter",
+      "opposed slavery",
+      "Secretary of the Navy",
+      "family roots"
+    ],
+    "transcript_ref": "regional\\unc_sohp\\sohp_A-0313.yaml"
+  },
+  {
+    "entity_id": 6,
+    "entity": "Rhode Island",
+    "explicit_text": "Rhode Island was where my paternal grandfather went to live and work because he did not believe in slavery. Despite this, he returned to North Carolina to marry my grandmother before the Civil War began. His time in Rhode Island reflects the complex personal and regional loyalties in my family history.",
+    "implicit_text": "The northern state was where my paternal grandfather went to live and work because he did not believe in slavery. Despite this, he returned to North Carolina to marry my grandmother before the Civil War began. His time in that state reflects the complex personal and regional loyalties in my family history.",
+    "cues": [
+      "grandfather",
+      "anti-slavery stance",
+      "marriage",
+      "pre-Civil War"
+    ],
+    "transcript_ref": "regional\\unc_sohp\\sohp_A-0313.yaml"
+  },
+  {
+    "entity_id": 7,
+    "entity": "CSS Virginia",
+    "explicit_text": "My grandfather was a skilled ship carpenter who helped build the Merrimack, which later became the CSS Virginia during the Civil War. This connection to the famous ironclad ship is a notable part of my family's maritime and military heritage. It symbolizes the intersection of craftsmanship and conflict in our history.",
+    "implicit_text": "My grandfather was a skilled ship carpenter who helped build the Merrimack, which later became a famous ironclad ship during the Civil War. This connection to the renowned warship is a notable part of my family's maritime and military heritage. It symbolizes the intersection of craftsmanship and conflict in our history.",
+    "cues": [
+      "grandfather",
+      "ship carpenter",
+      "Merrimack",
+      "CSS Virginia",
+      "Civil War"
+    ],
+    "transcript_ref": "regional\\unc_sohp\\sohp_A-0313.yaml"
+  },
+  {
+    "entity_id": 8,
+    "entity": "Goldsboro, North Carolina",
+    "explicit_text": "Goldsboro, North Carolina, was where my grandmother lived with my Uncle Frank when my father visited after becoming Secretary of the Navy. It was during this visit that my grandmother expressed her skepticism about the town's welcome for my father, reflecting complex family and social dynamics. Goldsboro thus figures into my family's later history and relationships.",
+    "implicit_text": "A city in North Carolina was where my grandmother lived with my Uncle Frank when my father visited after becoming Secretary of the Navy. It was during this visit that my grandmother expressed her skepticism about the town's welcome for my father, reflecting complex family and social dynamics. This city thus figures into my family's later history and relationships.",
+    "cues": [
+      "grandmother",
+      "Uncle Frank",
+      "father's visit",
+      "Secretary of the Navy",
+      "family relations"
+    ],
+    "transcript_ref": "regional\\unc_sohp\\sohp_A-0313.yaml"
+  },
+  {
+    "entity_id": 9,
+    "entity": "Quakers",
+    "explicit_text": "My mother's family originally came from Quaker roots, and my grandfather Jonathan Worth was a Quaker who opposed secession during the Civil War. This background influenced his election as governor by the white population after the war, though he was later removed from office. Despite this heritage, my grandmother was quite different from the typical Quaker stereotype, being a strong and dominant woman.",
+    "implicit_text": "My mother's family originally came from a religious group known for pacifism, and my grandfather was a member who opposed secession during the Civil War. This background influenced his election as governor by the white population after the war, though he was later removed from office. Despite this heritage, my grandmother was quite different from the typical stereotype, being a strong and dominant woman.",
+    "cues": [
+      "mother's family",
+      "Jonathan Worth",
+      "anti-secession",
+      "post-Civil War governor",
+      "Quaker heritage"
+    ],
+    "transcript_ref": "regional\\unc_sohp\\sohp_A-0313.yaml"
+  },
+  {
+    "entity_id": 10,
+    "entity": "Jonathan Worth",
+    "explicit_text": "Jonathan Worth was my maternal grandfather and served as governor of North Carolina after the Civil War. He was a Quaker and opposed secession, which helped him gain office, though he was removed by the military commander General Canby. His letters were compiled by De Roulhac Hamilton, and he was a moderate figure during a turbulent time.",
+    "implicit_text": "My maternal grandfather served as governor of North Carolina after the Civil War. He was a member of a pacifist religious group and opposed secession, which helped him gain office, though he was removed by the military commander General Canby. His letters were compiled by a historian, and he was a moderate figure during a turbulent time.",
+    "cues": [
+      "maternal grandfather",
+      "governor",
+      "post-Civil War",
+      "Quaker",
+      "De Roulhac Hamilton"
+    ],
+    "transcript_ref": "regional\\unc_sohp\\sohp_A-0313.yaml"
+  },
+  {
+    "entity_id": 11,
+    "entity": "Daniel E. Sickles",
+    "explicit_text": "Daniel E. Sickles was not directly mentioned in my family story or experiences, so I have no personal connection or recollection related to him.",
+    "implicit_text": "This individual was not directly mentioned in my family story or experiences, so I have no personal connection or recollection related to him.",
+    "cues": [],
+    "transcript_ref": "regional\\unc_sohp\\sohp_A-0313.yaml"
+  },
+  {
+    "entity_id": 12,
+    "entity": "William Woods Holden",
+    "explicit_text": "William Woods Holden was appointed governor of North Carolina after my grandfather Jonathan Worth was removed by General Canby. He was a significant figure during Reconstruction, and his governorship marked a shift in political control. Holden's role is part of the political context surrounding my grandfather's tenure.",
+    "implicit_text": "The governor appointed after my maternal grandfather was removed by General Canby was a significant figure during Reconstruction, and his governorship marked a shift in political control. His role is part of the political context surrounding my grandfather's tenure.",
+    "cues": [
+      "governor",
+      "post-Civil War",
+      "General Canby",
+      "Reconstruction"
+    ],
+    "transcript_ref": "regional\\unc_sohp\\sohp_A-0313.yaml"
+  },
+  {
+    "entity_id": 13,
+    "entity": "Worth Bagley",
+    "explicit_text": "Worth Bagley was my uncle and a celebrated figure as the first officer to fall in the Spanish–American War. He was a great football player at the United States Naval Academy, and his death was seen as symbolic, being the first blood shed by a Confederate officer's son. Though largely forgotten now, his legacy was important to my grandmother, who regarded him with great pride.",
+    "implicit_text": "My uncle was a celebrated figure as the first officer to fall in the Spanish–American War. He was a great football player at the naval academy, and his death was seen as symbolic, being the first blood shed by a Confederate officer's son. Though largely forgotten now, his legacy was important to my grandmother, who regarded him with great pride.",
+    "cues": [
+      "uncle",
+      "Spanish–American War",
+      "first officer killed",
+      "United States Naval Academy",
+      "family pride"
+    ],
+    "transcript_ref": "regional\\unc_sohp\\sohp_A-0313.yaml"
+  },
+  {
+    "entity_id": 14,
+    "entity": "United States Naval Academy",
+    "explicit_text": "The United States Naval Academy was where my uncle Worth Bagley excelled as a football player before his death in the Spanish–American War. This institution was part of his path to becoming a naval officer and a family hero. The Academy represents a connection between my family and national military service.",
+    "implicit_text": "The naval academy was where my uncle excelled as a football player before his death in the Spanish–American War. This institution was part of his path to becoming a naval officer and a family hero. The academy represents a connection between my family and national military service.",
+    "cues": [
+      "uncle Worth Bagley",
+      "football player",
+      "naval officer",
+      "Spanish–American War"
+    ],
+    "transcript_ref": "regional\\unc_sohp\\sohp_A-0313.yaml"
+  },
+  {
+    "entity_id": 15,
+    "entity": "Spanish–American War",
+    "explicit_text": "The Spanish–American War was a significant event for my family because my uncle Worth Bagley was the first officer to fall in that conflict. His death was widely noted at the time, symbolizing the participation of Confederate descendants in the United States military. This war marked a moment of pride and sorrow for my family.",
+    "implicit_text": "The Spanish–American War was a significant event for my family because my uncle was the first officer to fall in that conflict. His death was widely noted at the time, symbolizing the participation of Confederate descendants in the United States military. This war marked a moment of pride and sorrow for my family.",
+    "cues": [
+      "uncle Worth Bagley",
+      "first officer killed",
+      "family legacy",
+      "1898"
+    ],
+    "transcript_ref": "regional\\unc_sohp\\sohp_A-0313.yaml"
+  },
+  {
+    "entity_id": 16,
+    "entity": "Confederate States Army",
+    "explicit_text": "My grandfather Jonathan Worth served as a major in the Confederate States Army during the American Civil War. He was also the treasurer during the war and a moderate figure who hoped to placate the conquering Yankees after the conflict. His service and political role deeply influenced my family's history and identity.",
+    "implicit_text": "My grandfather served as a major in the Confederate army during the Civil War. He was also the treasurer during the war and a moderate figure who hoped to placate the conquering Yankees after the conflict. His service and political role deeply influenced my family's history and identity.",
+    "cues": [
+      "Jonathan Worth",
+      "major",
+      "treasurer",
+      "Civil War",
+      "Confederate Army"
+    ],
+    "transcript_ref": "regional\\unc_sohp\\sohp_A-0313.yaml"
+  },
+  {
+    "entity_id": 17,
+    "entity": "Sharon, North Carolina",
+    "explicit_text": "Sharon was the name of my great-grandfather Worth's plantation near Raleigh, which later became a black public school. This place connects my family to the history of slavery and education in North Carolina. It symbolizes the transition from antebellum plantation life to post-war social changes.",
+    "implicit_text": "A plantation near the capital city of North Carolina was the name of my great-grandfather Worth's estate, which later became a black public school. This place connects my family to the history of slavery and education in North Carolina. It symbolizes the transition from antebellum plantation life to post-war social changes.",
+    "cues": [
+      "great-grandfather Worth",
+      "plantation",
+      "near Raleigh",
+      "black public school"
+    ],
+    "transcript_ref": "regional\\unc_sohp\\sohp_A-0313.yaml"
+  },
+  {
+    "entity_id": 18,
+    "entity": "De Roulhac Hamilton",
+    "explicit_text": "De Roulhac Hamilton was a historian who compiled two volumes of letters from my grandfather Jonathan Worth. His work helped preserve and interpret my grandfather's thoughts and experiences during the Civil War era. I consider Hamilton's scholarship important for understanding my family's past.",
+    "implicit_text": "A historian compiled two volumes of letters from my grandfather, preserving and interpreting his thoughts and experiences during the Civil War era. I consider this scholar's work important for understanding my family's past.",
+    "cues": [
+      "historian",
+      "compiled letters",
+      "Jonathan Worth",
+      "Civil War era"
+    ],
+    "transcript_ref": "regional\\unc_sohp\\sohp_A-0313.yaml"
+  },
+  {
+    "entity_id": 19,
+    "entity": "Presbyterian Church",
+    "explicit_text": "My mother was a Presbyterian, and although my father was a Methodist, they maintained their separate church memberships. They would alternate attending services together, showing a respectful but distinct religious practice in our family. This dynamic reflected the religious diversity and tolerance in my upbringing.",
+    "implicit_text": "My mother was a member of a particular Protestant denomination, and although my father belonged to another, they maintained their separate church memberships. They would alternate attending services together, showing a respectful but distinct religious practice in our family. This dynamic reflected the religious diversity and tolerance in my upbringing.",
+    "cues": [
+      "mother",
+      "Presbyterian",
+      "father Methodist",
+      "church attendance",
+      "family religion"
+    ],
+    "transcript_ref": "regional\\unc_sohp\\sohp_A-0313.yaml"
+  },
+  {
+    "entity_id": 20,
+    "entity": "Methodism",
+    "explicit_text": "My father was a Methodist and held to his church membership even though my mother was Presbyterian. They respected each other's faiths and attended services together alternately but never joined the other's church. This arrangement was part of the religious fabric of my family life.",
+    "implicit_text": "My father was a member of a Methodist church and held to his church membership even though my mother was Presbyterian. They respected each other's faiths and attended services together alternately but never joined the other's church. This arrangement was part of the religious fabric of my family life.",
+    "cues": [
+      "father",
+      "Methodist",
+      "mother Presbyterian",
+      "church attendance",
+      "family religion"
+    ],
+    "transcript_ref": "regional\\unc_sohp\\sohp_A-0313.yaml"
+  },
+  {
+    "entity_id": 21,
+    "entity": "Democratic Party",
+    "explicit_text": "My father was deeply involved with the Democratic Party in North Carolina and was chosen to travel throughout the South to devise legislation to disenfranchise illiterate blacks while preserving white voting rights. He worked closely with Governor Charles Brantley Aycock and was influential in the white supremacy campaigns of the early 20th century. Despite the harshness of those times, he was known for his gentleness and fairness in personal relations.",
+    "implicit_text": "My father was deeply involved with the Democratic Party in North Carolina and was chosen to travel throughout the South to devise legislation to disenfranchise illiterate blacks while preserving white voting rights. He worked closely with a governor named Charles Brantley Aycock and was influential in the white supremacy campaigns of the early 20th century. Despite the harshness of those times, he was known for his gentleness and fairness in personal relations.",
+    "cues": [
+      "father",
+      "Democratic Party",
+      "disenfranchisement legislation",
+      "Charles Brantley Aycock",
+      "early 1900s"
+    ],
+    "transcript_ref": "regional\\unc_sohp\\sohp_A-0313.yaml"
+  },
+  {
+    "entity_id": 22,
+    "entity": "Louisiana",
+    "explicit_text": "Louisiana was one of the states my father visited as part of his work for the Democratic Party to develop constitutional methods to disenfranchise illiterate black voters while protecting illiterate white voters. He brought back legislation from Louisiana and other places that was adopted in North Carolina. This work was part of the racial politics of the South in the early 20th century.",
+    "implicit_text": "A southern state was one of the places my father visited as part of his work for the Democratic Party to develop constitutional methods to disenfranchise illiterate black voters while protecting illiterate white voters. He brought back legislation from there and other places that was adopted in North Carolina. This work was part of the racial politics of the South in the early 20th century.",
+    "cues": [
+      "father",
+      "Democratic Party",
+      "disenfranchisement",
+      "early 1900s",
+      "legislation"
+    ],
+    "transcript_ref": "regional\\unc_sohp\\sohp_A-0313.yaml"
+  },
+  {
+    "entity_id": 23,
+    "entity": "Charles Brantley Aycock",
+    "explicit_text": "Charles Brantley Aycock was a close friend of my father and my Uncle Frank's law partner. They shared a strong interest in education for both races and worked together politically in North Carolina. Aycock was also involved in the white supremacy campaigns, but he and my father opposed dividing tax revenues racially for education.",
+    "implicit_text": "Charles Brantley Aycock was a close friend of my father and my Uncle Frank's law partner. They shared a strong interest in education for both races and worked together politically in North Carolina. Aycock was also involved in the white supremacy campaigns, but he and my father opposed dividing tax revenues racially for education.",
+    "cues": [
+      "friend of father",
+      "Uncle Frank's law partner",
+      "education advocate",
+      "white supremacy campaigns",
+      "early 1900s"
+    ],
+    "transcript_ref": "regional\\unc_sohp\\sohp_A-0313.yaml"
+  },
+  {
+    "entity_id": 24,
+    "entity": "The News & Observer",
+    "explicit_text": "The News & Observer was the newspaper my father edited and later I took over. It was a strong voice in North Carolina politics, especially during the white supremacy campaigns. My father's editorial stance was often fierce, though personally he was gentle, and I inherited the paper with some differences in views, especially on Prohibition and civil rights.",
+    "implicit_text": "The newspaper my father edited and later I took over was a strong voice in North Carolina politics, especially during the white supremacy campaigns. My father's editorial stance was often fierce, though personally he was gentle, and I inherited the paper with some differences in views, especially on Prohibition and civil rights.",
+    "cues": [
+      "father editor",
+      "I took over",
+      "North Carolina newspaper",
+      "white supremacy campaigns",
+      "editorial stance"
+    ],
+    "transcript_ref": "regional\\unc_sohp\\sohp_A-0313.yaml"
+  },
+  {
+    "entity_id": 25,
+    "entity": "Wesley Hoover",
+    "explicit_text": "Wesley Hoover was our next-door neighbor in Raleigh, a black man who became fairly wealthy running a saloon, which my father disapproved of but still respected. My grandmother taught him to read and write, and despite social taboos, my father treated him with courtesy, though never calling him 'Mr. Hoover.' Wesley even acted as a secret bodyguard for my father during a tense political campaign.",
+    "implicit_text": "Our next-door neighbor in the capital city of North Carolina was a black man who became fairly wealthy running a saloon, which my father disapproved of but still respected. My grandmother taught him to read and write, and despite social taboos, my father treated him with courtesy, though never calling him 'Mr.' He even acted as a secret bodyguard for my father during a tense political campaign.",
+    "cues": [
+      "next-door neighbor",
+      "black businessman",
+      "saloon owner",
+      "taught to read",
+      "bodyguard"
+    ],
+    "transcript_ref": "regional\\unc_sohp\\sohp_A-0313.yaml"
+  }
+]

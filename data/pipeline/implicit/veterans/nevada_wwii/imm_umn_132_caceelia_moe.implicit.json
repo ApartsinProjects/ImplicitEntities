@@ -1,0 +1,260 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "Chumphon",
+    "explicit_text": "I was born in Chumphon, Thailand in 1991. It was a place my family stayed briefly before moving to refugee camps to escape persecution in Myanmar. Although I didn't live there long, Chumphon marks the beginning of my journey as a Karen refugee.",
+    "implicit_text": "I was born in a southern coastal province of Thailand in 1991. It was a place my family stayed briefly before moving to refugee camps to escape persecution in Myanmar. Although I didn't live there long, this province marks the beginning of my journey as a Karen refugee.",
+    "cues": [
+      "1991",
+      "birthplace",
+      "Thailand",
+      "start of journey"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_132_caceelia_moe.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "Thailand",
+    "explicit_text": "Thailand was the country where I was born and where my family sought refuge from the conflict in Myanmar. We lived in refugee camps near the Thai border, including Mawker and Maneeloy, and also stayed in places like Mae Sot and Bangkok during our resettlement process. Thailand was a temporary home during a difficult time before we moved to the United States.",
+    "implicit_text": "The country where I was born and where my family sought refuge from the conflict in Myanmar was in Southeast Asia. We lived in refugee camps near its border, including Mawker and Maneeloy, and also stayed in places like Mae Sot and its capital city during our resettlement process. This nation was a temporary home during a difficult time before we moved to the United States.",
+    "cues": [
+      "birthplace",
+      "refugee camps",
+      "Mawker",
+      "Maneeloy",
+      "Mae Sot",
+      "Bangkok",
+      "1991-2001"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_132_caceelia_moe.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "Mawker refugee camp",
+    "explicit_text": "My family moved to Mawker refugee camp in 1992, which was home to about 8,400 Karen refugees. I grew up there and attended school, not fully realizing it was a refugee camp. However, in March 1998, the camp was violently attacked by DKBA and SPDC forces, which was a terrifying experience I will never forget.",
+    "implicit_text": "My family moved to a refugee camp in 1992, which was home to about 8,400 Karen refugees. I grew up there and attended school, not fully realizing it was a refugee camp. However, in March 1998, the camp was violently attacked by armed groups, which was a terrifying experience I will never forget.",
+    "cues": [
+      "1992-1998",
+      "refugee camp",
+      "8,400 Karen refugees",
+      "attack by DKBA/SPDC",
+      "education"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_132_caceelia_moe.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "Maneeloy refugee camp",
+    "explicit_text": "After the attack on Mawker, my family stayed with relatives in Klee Thoo Klo before moving to Maneeloy refugee camp in November 1999. Maneeloy was smaller, with about 2,000 refugees, and was fenced in, so we could only leave on Saturdays for the flea market. I went to school there and made many friends, but I was aware this was a camp unlike Mawker.",
+    "implicit_text": "After the attack on the larger camp, my family stayed with relatives in a village near Mae Sot before moving to a smaller fenced refugee camp in November 1999. This camp housed about 2,000 refugees, and we could only leave on Saturdays for the flea market. I went to school there and made many friends, but I was aware this was a camp unlike the previous one.",
+    "cues": [
+      "November 1999",
+      "2,000 refugees",
+      "fenced camp",
+      "school",
+      "flea market",
+      "refugee life"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_132_caceelia_moe.yaml"
+  },
+  {
+    "entity_id": 5,
+    "entity": "St. Paul, Minnesota",
+    "explicit_text": "My family was resettled to St. Paul, Minnesota in 2001 because my father's side of the family had already settled there. When we arrived, we stayed in the basement of the First Baptist Church of Saint Paul before moving into an apartment. St. Paul became our new home where we learned English and adjusted to life in the United States.",
+    "implicit_text": "My family was resettled to the capital city of Minnesota in 2001 because my father's side of the family had already settled there. When we arrived, we stayed in the basement of a local Baptist church before moving into an apartment. This city became our new home where we learned English and adjusted to life in the United States.",
+    "cues": [
+      "2001",
+      "resettlement",
+      "family reunion",
+      "First Baptist Church of Saint Paul",
+      "new home",
+      "language learning"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_132_caceelia_moe.yaml"
+  },
+  {
+    "entity_id": 7,
+    "entity": "Myanmar",
+    "explicit_text": "Myanmar, also known as Burma, is where my parents lived near the Thai border before we fled due to persecution. The civil war there has been ongoing since 1948, and as Karen people, we faced constant threats from the Burmese government. Myanmar is the homeland we had to leave behind to find safety.",
+    "implicit_text": "The country bordering Thailand where my parents lived before we fled due to persecution has been embroiled in civil war since 1948. As Karen people, we faced constant threats from the ruling military government. This homeland is the place we had to leave behind to find safety.",
+    "cues": [
+      "birthplace of parents",
+      "civil war since 1948",
+      "Karen ethnic minority",
+      "persecution",
+      "border with Thailand"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_132_caceelia_moe.yaml"
+  },
+  {
+    "entity_id": 8,
+    "entity": "Burmese government",
+    "explicit_text": "The Burmese government has persecuted the Karen people since 1948, which forced my family to flee Myanmar. Their actions led to ongoing conflict and violence, including attacks on refugee camps like Mawker. This persecution is the reason my family sought refuge in Thailand and eventually resettled in the United States.",
+    "implicit_text": "The military government of the country we fled has persecuted the Karen people since 1948, which forced my family to leave. Their actions led to ongoing conflict and violence, including attacks on refugee camps like Mawker. This persecution is the reason my family sought refuge in Thailand and eventually resettled in the United States.",
+    "cues": [
+      "persecution since 1948",
+      "Karen ethnic minority",
+      "civil war",
+      "refugee camps attacked"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_132_caceelia_moe.yaml"
+  },
+  {
+    "entity_id": 9,
+    "entity": "DKBA",
+    "explicit_text": "The DKBA, or Democratic Karen Buddhist Army, was involved in the attack on Mawker refugee camp in March 1998 alongside the State Peace and Development Council. That night was terrifying as mortars and grenades were fired, and many people were injured. The attack forced my family to flee the camp and seek safety elsewhere.",
+    "implicit_text": "An armed Buddhist Karen group was involved in the attack on Mawker refugee camp in March 1998 alongside the ruling military junta. That night was terrifying as mortars and grenades were fired, and many people were injured. The attack forced my family to flee the camp and seek safety elsewhere.",
+    "cues": [
+      "March 1998 attack",
+      "Mawker refugee camp",
+      "violence",
+      "forced displacement"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_132_caceelia_moe.yaml"
+  },
+  {
+    "entity_id": 10,
+    "entity": "State Peace and Development Council",
+    "explicit_text": "The State Peace and Development Council, or SPDC, was the military junta governing Myanmar and collaborated with the DKBA in attacking Mawker refugee camp in 1998. Their forces used mortars and grenades, causing destruction and fear among the refugees. This event was a pivotal moment in my family's journey to safety.",
+    "implicit_text": "The military junta governing the country was responsible for collaborating with the armed Karen group in attacking Mawker refugee camp in 1998. Their forces used mortars and grenades, causing destruction and fear among the refugees. This event was a pivotal moment in my family's journey to safety.",
+    "cues": [
+      "1998 attack",
+      "Mawker refugee camp",
+      "military junta",
+      "violence"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_132_caceelia_moe.yaml"
+  },
+  {
+    "entity_id": 11,
+    "entity": "Klee Thoo Klo",
+    "explicit_text": "After the attack on Mawker, my family stayed with my mother's sister in Klee Thoo Klo, a village in Mae Sot, Thailand. It was a temporary refuge before we moved to Maneeloy refugee camp. Staying there helped us recover from the trauma of the attack and prepare for the next step in our journey.",
+    "implicit_text": "After the attack on Mawker, my family stayed with my mother's sister in a village near Mae Sot, Thailand. It was a temporary refuge before we moved to a smaller refugee camp. Staying there helped us recover from the trauma of the attack and prepare for the next step in our journey.",
+    "cues": [
+      "post-1998 attack",
+      "Mae Sot",
+      "temporary refuge",
+      "family support"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_132_caceelia_moe.yaml"
+  },
+  {
+    "entity_id": 12,
+    "entity": "Mae Sot",
+    "explicit_text": "Mae Sot is a town in Thailand near the border where my family stayed in the village of Klee Thoo Klo after fleeing Mawker camp. It was a place of temporary safety before moving to Maneeloy refugee camp. Mae Sot is significant as part of our transition during those difficult years.",
+    "implicit_text": "A town near the border where my family stayed in a village after fleeing Mawker camp was a place of temporary safety before moving to another refugee camp. This town is significant as part of our transition during those difficult years.",
+    "cues": [
+      "border town",
+      "Klee Thoo Klo village",
+      "temporary refuge",
+      "transition point"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_132_caceelia_moe.yaml"
+  },
+  {
+    "entity_id": 13,
+    "entity": "United Nations High Commissioner for Refugees",
+    "explicit_text": "The United Nations High Commissioner for Refugees, or UNHCR, ran both Mawker and Maneeloy refugee camps where my family lived. They provided some structure and support for the thousands of Karen refugees there. Their presence was important in managing the camps and assisting refugees like us during our displacement.",
+    "implicit_text": "The international agency responsible for managing both Mawker and Maneeloy refugee camps where my family lived provided some structure and support for the thousands of Karen refugees there. Their presence was important in managing the camps and assisting refugees like us during our displacement.",
+    "cues": [
+      "Mawker camp",
+      "Maneeloy camp",
+      "refugee support",
+      "UN agency"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_132_caceelia_moe.yaml"
+  },
+  {
+    "entity_id": 14,
+    "entity": "United States",
+    "explicit_text": "The United States became my family's new home when we were resettled in 2001. We first landed in Los Angeles before flying to Minneapolis-Saint Paul, where we reunited with family and began our new life. The U.S. offered us safety and opportunities we never had before as refugees.",
+    "implicit_text": "The country in North America became my family's new home when we were resettled in 2001. We first landed in Los Angeles before flying to Minneapolis-Saint Paul, where we reunited with family and began our new life. This nation offered us safety and opportunities we never had before as refugees.",
+    "cues": [
+      "2001 resettlement",
+      "Los Angeles arrival",
+      "Minneapolis-Saint Paul",
+      "new life",
+      "family reunion"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_132_caceelia_moe.yaml"
+  },
+  {
+    "entity_id": 15,
+    "entity": "Songthaew",
+    "explicit_text": "We left Maneeloy refugee camp on the night of April 1st, 2001, riding in a Songthaew, which is a truck converted into a two-bench taxi. It was how we traveled from the camp to Bangkok before our flights to the United States. That ride marked the beginning of our journey to a new life.",
+    "implicit_text": "We left the smaller refugee camp on the night of April 1st, 2001, riding in a truck converted into a two-bench taxi. It was how we traveled from the camp to the capital city before our flights to the United States. That ride marked the beginning of our journey to a new life.",
+    "cues": [
+      "April 1, 2001",
+      "departure from Maneeloy",
+      "transportation",
+      "Thailand"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_132_caceelia_moe.yaml"
+  },
+  {
+    "entity_id": 16,
+    "entity": "Bangkok",
+    "explicit_text": "Before flying to the United States, my family stayed in Bangkok for three days to complete physical check-ups and immunizations. It was the first time we were in a big city and the first time any of us had been on a plane. Bangkok was a brief but important stop on our journey to safety.",
+    "implicit_text": "Before flying to the United States, my family stayed in the capital city of Thailand for three days to complete physical check-ups and immunizations. It was the first time we were in a big city and the first time any of us had been on a plane. This city was a brief but important stop on our journey to safety.",
+    "cues": [
+      "2001",
+      "medical check-ups",
+      "immunizations",
+      "first plane ride",
+      "Thailand capital"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_132_caceelia_moe.yaml"
+  },
+  {
+    "entity_id": 17,
+    "entity": "Tokyo",
+    "explicit_text": "Our first stop on the plane ride to the United States was Tokyo, Japan. It was a new and unfamiliar place for us, but just a brief layover before continuing on to Los Angeles. Tokyo marked the beginning of our international journey to resettlement.",
+    "implicit_text": "Our first stop on the plane ride to the United States was a major city in Japan. It was a new and unfamiliar place for us, but just a brief layover before continuing on to Los Angeles. This city marked the beginning of our international journey to resettlement.",
+    "cues": [
+      "2001 flight",
+      "first international stop",
+      "layover",
+      "Japan"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_132_caceelia_moe.yaml"
+  },
+  {
+    "entity_id": 18,
+    "entity": "Los Angeles",
+    "explicit_text": "Los Angeles was the first city we landed in when we arrived in the United States. From there, we took another flight to Minneapolis-Saint Paul. Landing in Los Angeles was a big moment, as it was our first step into our new country.",
+    "implicit_text": "The city on the west coast where we first landed when we arrived in the United States was Los Angeles. From there, we took another flight to Minneapolis-Saint Paul. Landing there was a big moment, as it was our first step into our new country.",
+    "cues": [
+      "2001 arrival",
+      "first U.S. city",
+      "flight connection",
+      "California"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_132_caceelia_moe.yaml"
+  },
+  {
+    "entity_id": 19,
+    "entity": "Minneapolis–Saint Paul International Airport",
+    "explicit_text": "Our final stop on the journey was Minneapolis-Saint Paul International Airport, where we were met by my father's family. It was the place where our new life in the United States truly began. From there, we went to stay at the First Baptist Church of Saint Paul before settling into an apartment.",
+    "implicit_text": "Our final stop on the journey was the international airport serving the Twin Cities, where we were met by my father's family. It was the place where our new life in the United States truly began. From there, we went to stay at a local Baptist church before settling into an apartment.",
+    "cues": [
+      "2001 arrival",
+      "family reunion",
+      "Minnesota",
+      "start of new life"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_132_caceelia_moe.yaml"
+  },
+  {
+    "entity_id": 20,
+    "entity": "First Baptist Church of Saint Paul",
+    "explicit_text": "When we first arrived in St. Paul, my family stayed in the basement of the First Baptist Church of Saint Paul for a few months. It was a temporary home while we found an apartment. The church was a place of refuge and support as we adjusted to life in the United States.",
+    "implicit_text": "When we first arrived in the capital city of Minnesota, my family stayed in the basement of a Baptist church for a few months. It was a temporary home while we found an apartment. The church was a place of refuge and support as we adjusted to life in the United States.",
+    "cues": [
+      "2001",
+      "temporary housing",
+      "St. Paul",
+      "refugee support"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_132_caceelia_moe.yaml"
+  }
+]

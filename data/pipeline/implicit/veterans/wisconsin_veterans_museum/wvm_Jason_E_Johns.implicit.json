@@ -1,0 +1,461 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "Dubuque, Iowa",
+    "explicit_text": "I was born in Dubuque, Iowa on May 27, 1976. Although my family lived in a few places around there, Dubuque is where my story begins. It’s where my early childhood roots are before we moved to Wisconsin.",
+    "implicit_text": "I was born in a river city in Iowa on May 27, 1976. Although my family lived in a few places around there, this city is where my story begins. It’s where my early childhood roots are before we moved to Wisconsin.",
+    "cues": [
+      "born May 27, 1976",
+      "early childhood",
+      "birthplace"
+    ],
+    "transcript_ref": "veterans\\wisconsin_veterans_museum\\wvm_Jason_E_Johns.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "Louisburg, Wisconsin",
+    "explicit_text": "I grew up in Louisburg, Wisconsin after being born in Dubuque. It’s a small place near where I went to school and where my family still lives. I worked at a supper club in Louisburg during my high school years, bussing tables on weekends.",
+    "implicit_text": "I grew up in a small community in Wisconsin after being born in that Iowa river city. It’s near where I went to school and where my family still lives. I worked at a supper club there during my high school years, bussing tables on weekends.",
+    "cues": [
+      "grew up",
+      "worked at supper club",
+      "family residence"
+    ],
+    "transcript_ref": "veterans\\wisconsin_veterans_museum\\wvm_Jason_E_Johns.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "Hazel Green, Wisconsin",
+    "explicit_text": "I attended school in Hazel Green, Wisconsin, specifically at Southwestern High School. It was a key place in my youth where I was active in sports and theater. Hazel Green shaped much of my early education and extracurricular activities.",
+    "implicit_text": "I attended school in a small Wisconsin village, specifically at the local high school. It was a key place in my youth where I was active in sports and theater. That village shaped much of my early education and extracurricular activities.",
+    "cues": [
+      "school location",
+      "Southwestern High School",
+      "sports and theater"
+    ],
+    "transcript_ref": "veterans\\wisconsin_veterans_museum\\wvm_Jason_E_Johns.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "Southwestern High School (Hazel Green, Wisconsin)",
+    "explicit_text": "I graduated from Southwestern High School in Hazel Green, Wisconsin. During my time there, I was very involved in sports like football, wrestling, track, and baseball, while also taking lead roles in musicals. It was a unique experience balancing athletics and performing arts.",
+    "implicit_text": "I graduated from the high school in that Wisconsin village. During my time there, I was very involved in sports like football, wrestling, track, and baseball, while also taking lead roles in musicals. It was a unique experience balancing athletics and performing arts.",
+    "cues": [
+      "graduated",
+      "sports participation",
+      "lead roles in musicals",
+      "Hazel Green"
+    ],
+    "transcript_ref": "veterans\\wisconsin_veterans_museum\\wvm_Jason_E_Johns.yaml"
+  },
+  {
+    "entity_id": 5,
+    "entity": "Little Shop of Horrors",
+    "explicit_text": "In high school, I was one of the leads in the musical Little Shop of Horrors, playing Mr. Mushnik, the shop owner. It was funny because I was also a four-sport athlete, so being a lead in a musical was a surprising contrast. This was during my junior and senior years at Southwestern High School.",
+    "implicit_text": "In high school, I was one of the leads in a musical about a man-eating plant, playing the shop owner. It was funny because I was also a four-sport athlete, so being a lead in a musical was a surprising contrast. This was during my junior and senior years at the local high school.",
+    "cues": [
+      "high school musical",
+      "lead role",
+      "junior and senior years",
+      "Southwestern High School"
+    ],
+    "transcript_ref": "veterans\\wisconsin_veterans_museum\\wvm_Jason_E_Johns.yaml"
+  },
+  {
+    "entity_id": 6,
+    "entity": "Damn Yankees (musical)",
+    "explicit_text": "I also played the devil character, the lead, in the musical Damn Yankees during high school. It was one of the two lead roles I had, the other being in Little Shop of Horrors. This was part of my involvement in theater while balancing sports and work.",
+    "implicit_text": "I also played the devil character, the lead, in a musical about a man who sells his soul to win baseball games during high school. It was one of the two lead roles I had, the other being in the plant-themed musical. This was part of my involvement in theater while balancing sports and work.",
+    "cues": [
+      "high school musical",
+      "lead role",
+      "Southwestern High School"
+    ],
+    "transcript_ref": "veterans\\wisconsin_veterans_museum\\wvm_Jason_E_Johns.yaml"
+  },
+  {
+    "entity_id": 7,
+    "entity": "LA Law",
+    "explicit_text": "From a young age, I wanted to be a lawyer, and I partly blame that on watching the TV show LA Law religiously. It inspired me to pursue law alongside my military ambitions. LA Law shaped my early career goals before I even joined the military.",
+    "implicit_text": "From a young age, I wanted to be a lawyer, and I partly blame that on watching a popular legal drama on TV religiously. It inspired me to pursue law alongside my military ambitions. That show shaped my early career goals before I even joined the military.",
+    "cues": [
+      "early inspiration",
+      "law career goal",
+      "TV show influence"
+    ],
+    "transcript_ref": "veterans\\wisconsin_veterans_museum\\wvm_Jason_E_Johns.yaml"
+  },
+  {
+    "entity_id": 8,
+    "entity": "JAG (TV series)",
+    "explicit_text": "The TV show JAG came out between my freshman and senior years of high school, and it made being a JAG officer look very cool and exciting. Ironically, I refused to watch it because it was unrealistic, showing JAG officers flying jets and doing field investigations. It influenced my military and legal career aspirations, even though the recruiting scholarship I hoped for was later discontinued.",
+    "implicit_text": "A military legal drama TV show came out between my freshman and senior years of high school, and it made being a military lawyer look very cool and exciting. Ironically, I refused to watch it because it was unrealistic, showing officers flying jets and doing field investigations. It influenced my military and legal career aspirations, even though the recruiting scholarship I hoped for was later discontinued.",
+    "cues": [
+      "high school years",
+      "military legal career",
+      "recruiting scholarship",
+      "TV show influence"
+    ],
+    "transcript_ref": "veterans\\wisconsin_veterans_museum\\wvm_Jason_E_Johns.yaml"
+  },
+  {
+    "entity_id": 9,
+    "entity": "Wisconsin Army National Guard",
+    "explicit_text": "I joined the Wisconsin Army National Guard out of Platteville when I was old enough to enlist, around 1994. It was a way to serve while getting tuition reimbursement to help pay for college. I stayed with the 229th Engineer Battalion in the Guard through college and was called back to active duty in 2003.",
+    "implicit_text": "I joined the Wisconsin Army National Guard out of a nearby college town when I was old enough to enlist, around 1994. It was a way to serve while getting tuition reimbursement to help pay for college. I stayed with an engineer battalion in the Guard through college and was called back to active duty in 2003.",
+    "cues": [
+      "joined 1994",
+      "Platteville unit",
+      "tuition reimbursement",
+      "229th Engineer Battalion",
+      "called up 2003"
+    ],
+    "transcript_ref": "veterans\\wisconsin_veterans_museum\\wvm_Jason_E_Johns.yaml"
+  },
+  {
+    "entity_id": 10,
+    "entity": "University of Wisconsin–Platteville",
+    "explicit_text": "I started my college education at the University of Wisconsin–Platteville for two years before transferring. It was close to where I was serving in the National Guard, so it made sense to start there. This was part of my undergraduate path before moving on to the University of Northern Iowa.",
+    "implicit_text": "I started my college education at a university in a southwestern Wisconsin city for two years before transferring. It was close to where I was serving in the National Guard, so it made sense to start there. This was part of my undergraduate path before moving on to a university in northern Iowa.",
+    "cues": [
+      "college start",
+      "two years",
+      "close to Guard unit",
+      "before transfer"
+    ],
+    "transcript_ref": "veterans\\wisconsin_veterans_museum\\wvm_Jason_E_Johns.yaml"
+  },
+  {
+    "entity_id": 11,
+    "entity": "University of Northern Iowa",
+    "explicit_text": "After two years at Platteville, I transferred to the University of Northern Iowa to continue my undergraduate studies. This move was part of my plan while balancing military service and education. It helped me progress toward my goal of law school.",
+    "implicit_text": "After two years at the Wisconsin university, I transferred to a university in northern Iowa to continue my undergraduate studies. This move was part of my plan while balancing military service and education. It helped me progress toward my goal of law school.",
+    "cues": [
+      "transfer from Platteville",
+      "undergraduate studies",
+      "education and military balance"
+    ],
+    "transcript_ref": "veterans\\wisconsin_veterans_museum\\wvm_Jason_E_Johns.yaml"
+  },
+  {
+    "entity_id": 12,
+    "entity": "Chosin Reservoir",
+    "explicit_text": "My grandfather was a survivor of the Battle of Chosin Reservoir during the Korean War, serving with the 101st Airborne Division. Although I didn’t know him well, his military history was part of my family legacy. His service inspired my own military path.",
+    "implicit_text": "My grandfather was a survivor of a brutal Korean War battle involving freezing conditions and encirclement, serving with an airborne infantry division. Although I didn’t know him well, his military history was part of my family legacy. His service inspired my own military path.",
+    "cues": [
+      "grandfather's service",
+      "Korean War",
+      "101st Airborne",
+      "family military legacy"
+    ],
+    "transcript_ref": "veterans\\wisconsin_veterans_museum\\wvm_Jason_E_Johns.yaml"
+  },
+  {
+    "entity_id": 13,
+    "entity": "101st Airborne Division",
+    "explicit_text": "My grandfather served in the 101st Airborne Division and survived the Chosin Reservoir battle. This unit’s history was part of my family’s military background. It gave me a sense of pride and connection to airborne infantry traditions.",
+    "implicit_text": "My grandfather served in a famous airborne infantry division and survived a notorious Korean War battle. This unit’s history was part of my family’s military background. It gave me a sense of pride and connection to airborne infantry traditions.",
+    "cues": [
+      "grandfather's unit",
+      "Chosin Reservoir",
+      "family military heritage"
+    ],
+    "transcript_ref": "veterans\\wisconsin_veterans_museum\\wvm_Jason_E_Johns.yaml"
+  },
+  {
+    "entity_id": 14,
+    "entity": "82nd Airborne Division",
+    "explicit_text": "My dad served in the 82nd Airborne Division, although he never deployed to combat. His service influenced my understanding of military life, even if he was more casual about it. The airborne tradition runs strong in my family.",
+    "implicit_text": "My dad served in a well-known airborne infantry division, although he never deployed to combat. His service influenced my understanding of military life, even if he was more casual about it. The airborne tradition runs strong in my family.",
+    "cues": [
+      "father's service",
+      "82nd Airborne",
+      "non-combat",
+      "family influence"
+    ],
+    "transcript_ref": "veterans\\wisconsin_veterans_museum\\wvm_Jason_E_Johns.yaml"
+  },
+  {
+    "entity_id": 15,
+    "entity": "World War II",
+    "explicit_text": "A great uncle of mine served in World War II and fought in the Battle of the Bulge. I interviewed him in fourth grade for a school project, and his stories about being wounded and awarded the Purple Heart and Bronze Star left a lasting impression on me. His service deepened my interest in military history.",
+    "implicit_text": "A great uncle of mine served in the Second World War and fought in a major battle in the Ardennes forest. I interviewed him in fourth grade for a school project, and his stories about being wounded and awarded the Purple Heart and Bronze Star left a lasting impression on me. His service deepened my interest in military history.",
+    "cues": [
+      "great uncle's service",
+      "Battle of the Bulge",
+      "Purple Heart",
+      "Bronze Star",
+      "school interview"
+    ],
+    "transcript_ref": "veterans\\wisconsin_veterans_museum\\wvm_Jason_E_Johns.yaml"
+  },
+  {
+    "entity_id": 16,
+    "entity": "Battle of the Bulge",
+    "explicit_text": "My great uncle fought in the Battle of the Bulge during World War II. He was injured by artillery shrapnel and hospitalized in France, earning a Purple Heart and Bronze Star. His firsthand stories made the battle very real to me growing up.",
+    "implicit_text": "My great uncle fought in the major Ardennes battle during the Second World War. He was injured by artillery shrapnel and hospitalized in France, earning a Purple Heart and Bronze Star. His firsthand stories made the battle very real to me growing up.",
+    "cues": [
+      "great uncle",
+      "WWII",
+      "injury and awards",
+      "school oral history"
+    ],
+    "transcript_ref": "veterans\\wisconsin_veterans_museum\\wvm_Jason_E_Johns.yaml"
+  },
+  {
+    "entity_id": 17,
+    "entity": "M44",
+    "explicit_text": "My great uncle gave me an old M44 German machine gun cartridge casing, with the gunpowder removed, which I carried around for years. It was a tangible connection to his World War II service and the Battle of the Bulge. That artifact sparked my deeper interest in military history.",
+    "implicit_text": "My great uncle gave me an old German machine gun cartridge casing from World War II, with the gunpowder removed, which I carried around for years. It was a tangible connection to his service and the Ardennes battle. That artifact sparked my deeper interest in military history.",
+    "cues": [
+      "great uncle gift",
+      "WWII artifact",
+      "military history interest"
+    ],
+    "transcript_ref": "veterans\\wisconsin_veterans_museum\\wvm_Jason_E_Johns.yaml"
+  },
+  {
+    "entity_id": 18,
+    "entity": "September 11 attacks",
+    "explicit_text": "I was living in Arlington, Virginia, working as a lawyer when the September 11 attacks happened in 2001. I witnessed the Pentagon attack from the nearby Air Force Memorial hilltop and tried to help, though I wasn’t in uniform. The chaos of that day deeply affected me and led me to return temporarily to military service.",
+    "implicit_text": "I was living in Arlington, Virginia, working as a lawyer when the September 11 attacks happened in 2001. I witnessed the attack on a major military headquarters from a nearby memorial hilltop and tried to help, though I wasn’t in uniform. The chaos of that day deeply affected me and led me to return temporarily to military service.",
+    "cues": [
+      "2001",
+      "Arlington residence",
+      "Pentagon attack witness",
+      "Air Force Memorial",
+      "military reactivation"
+    ],
+    "transcript_ref": "veterans\\wisconsin_veterans_museum\\wvm_Jason_E_Johns.yaml"
+  },
+  {
+    "entity_id": 19,
+    "entity": "Washington, D.C.",
+    "explicit_text": "After graduating law school in 2001, I moved to Washington, D.C. to work at a law firm. I was there during the September 11 attacks and experienced the immediate aftermath firsthand. Washington was a place I loved and wanted to build my career in, even as I balanced military duties.",
+    "implicit_text": "After graduating law school in 2001, I moved to the U.S. capital to work at a law firm. I was there during the September 11 attacks and experienced the immediate aftermath firsthand. The capital was a place I loved and wanted to build my career in, even as I balanced military duties.",
+    "cues": [
+      "moved 2001",
+      "law career",
+      "9/11 experience",
+      "career aspirations"
+    ],
+    "transcript_ref": "veterans\\wisconsin_veterans_museum\\wvm_Jason_E_Johns.yaml"
+  },
+  {
+    "entity_id": 20,
+    "entity": "Arlington, Virginia",
+    "explicit_text": "I lived in Arlington, Virginia, just across the river from D.C., when the September 11 attacks occurred. From there, I saw the Pentagon attack and the rescue efforts at the Air Force Memorial. Arlington was my home during a pivotal moment in history.",
+    "implicit_text": "I lived in Arlington, Virginia, just across the river from the capital, when the September 11 attacks occurred. From there, I saw the attack on a major defense building and the rescue efforts at a nearby memorial. Arlington was my home during a pivotal moment in history.",
+    "cues": [
+      "residence 2001",
+      "Pentagon attack view",
+      "Air Force Memorial",
+      "9/11"
+    ],
+    "transcript_ref": "veterans\\wisconsin_veterans_museum\\wvm_Jason_E_Johns.yaml"
+  },
+  {
+    "entity_id": 21,
+    "entity": "Air Force Memorial",
+    "explicit_text": "On 9/11, I went up to the hill where the Air Force Memorial now stands to watch the Pentagon attack and rescue efforts. It was a vantage point that allowed me to witness the tragedy unfold. That place became a significant part of my 9/11 experience.",
+    "implicit_text": "On 9/11, I went up to the hill where a memorial dedicated to air force personnel now stands to watch the attack on a defense building and rescue efforts. It was a vantage point that allowed me to witness the tragedy unfold. That place became a significant part of my 9/11 experience.",
+    "cues": [
+      "9/11",
+      "Pentagon attack observation",
+      "rescue efforts",
+      "Arlington"
+    ],
+    "transcript_ref": "veterans\\wisconsin_veterans_museum\\wvm_Jason_E_Johns.yaml"
+  },
+  {
+    "entity_id": 22,
+    "entity": "Pentagon",
+    "explicit_text": "I witnessed the attack on the Pentagon on September 11, 2001, from the Air Force Memorial hill. I tried to help at the scene but was not allowed in without clearance since I wasn’t in uniform. The Pentagon attack was a defining moment during my time living in the D.C. area.",
+    "implicit_text": "I witnessed the attack on a major defense headquarters on September 11, 2001, from the nearby memorial hill. I tried to help at the scene but was not allowed in without clearance since I wasn’t in uniform. That attack was a defining moment during my time living in the D.C. area.",
+    "cues": [
+      "9/11 attack",
+      "witness",
+      "attempted assistance",
+      "Arlington"
+    ],
+    "transcript_ref": "veterans\\wisconsin_veterans_museum\\wvm_Jason_E_Johns.yaml"
+  },
+  {
+    "entity_id": 23,
+    "entity": "George Washington University",
+    "explicit_text": "One of my roommates in Arlington was a graduate student at George Washington University during 9/11. She was from Britain and was understandably frightened when the attacks happened. Her presence added to the shared experience of that chaotic day.",
+    "implicit_text": "One of my roommates in Arlington was a graduate student at a prominent university in the capital during 9/11. She was from Britain and was understandably frightened when the attacks happened. Her presence added to the shared experience of that chaotic day.",
+    "cues": [
+      "roommate",
+      "graduate student",
+      "9/11",
+      "Arlington residence"
+    ],
+    "transcript_ref": "veterans\\wisconsin_veterans_museum\\wvm_Jason_E_Johns.yaml"
+  },
+  {
+    "entity_id": 24,
+    "entity": "Fort Belvoir",
+    "explicit_text": "After 9/11, I was called back on temporary duty to Fort Belvoir, Virginia, to assist with street security as part of an MP unit. Although I was in an audible role, I helped with driving and other support tasks. Fort Belvoir was where I re-engaged with military service during the heightened security period.",
+    "implicit_text": "After 9/11, I was called back on temporary duty to a military installation in Virginia to assist with street security as part of a military police unit. Although I was in an audible role, I helped with driving and other support tasks. That base was where I re-engaged with military service during the heightened security period.",
+    "cues": [
+      "post-9/11",
+      "temporary duty",
+      "MP unit",
+      "security support",
+      "Virginia"
+    ],
+    "transcript_ref": "veterans\\wisconsin_veterans_museum\\wvm_Jason_E_Johns.yaml"
+  },
+  {
+    "entity_id": 25,
+    "entity": "Republican National Committee",
+    "explicit_text": "After working in D.C., I returned to Wisconsin to work on a political campaign for Governor McCallum through the Republican National Committee. It was a way to gain campaign experience before possibly returning to Washington. The RNC role marked a transition from law and military to politics.",
+    "implicit_text": "After working in the capital, I returned to Wisconsin to work on a political campaign for the gubernatorial candidate through the national committee of a major political party. It was a way to gain campaign experience before possibly returning to Washington. That role marked a transition from law and military to politics.",
+    "cues": [
+      "political campaign",
+      "Governor McCallum",
+      "RNC involvement",
+      "Wisconsin"
+    ],
+    "transcript_ref": "veterans\\wisconsin_veterans_museum\\wvm_Jason_E_Johns.yaml"
+  },
+  {
+    "entity_id": 26,
+    "entity": "Governor Jim Doyle",
+    "explicit_text": "I worked at the Wisconsin State Capitol starting in December 2002, during the time Governor Jim Doyle was in office. My job was as a staffer, gaining political experience. This was after returning from D.C. and before being mobilized with the 229th Engineer Battalion.",
+    "implicit_text": "I worked at the state capitol in Wisconsin starting in December 2002, during the time a Democratic governor was in office. My job was as a staffer, gaining political experience. This was after returning from D.C. and before being mobilized with my engineer battalion.",
+    "cues": [
+      "staffer",
+      "Wisconsin State Capitol",
+      "Governor Doyle's administration",
+      "2002"
+    ],
+    "transcript_ref": "veterans\\wisconsin_veterans_museum\\wvm_Jason_E_Johns.yaml"
+  },
+  {
+    "entity_id": 27,
+    "entity": "Wisconsin State Capitol",
+    "explicit_text": "I started working as a staffer at the Wisconsin State Capitol in December 2002. It was a new chapter in my career after returning from Washington, D.C., and before being called up for deployment with my National Guard unit. The Capitol was where I gained political and legislative experience.",
+    "implicit_text": "I started working as a staffer at the Wisconsin State Capitol in December 2002. It was a new chapter in my career after returning from Washington, D.C., and before being called up for deployment with my National Guard unit. The Capitol was where I gained political and legislative experience.",
+    "cues": [
+      "staffer role",
+      "2002",
+      "political experience",
+      "Madison, Wisconsin"
+    ],
+    "transcript_ref": "veterans\\wisconsin_veterans_museum\\wvm_Jason_E_Johns.yaml"
+  },
+  {
+    "entity_id": 28,
+    "entity": "229th Engineer Battalion",
+    "explicit_text": "I served with the 229th Engineer Battalion in the Wisconsin Army National Guard from 1994 through college and beyond. In 2003, the unit was mobilized, and I re-enlisted to deploy with them. I loved the unit and my fellow soldiers, which made the decision to return easy.",
+    "implicit_text": "I served with an engineer battalion in the Wisconsin Army National Guard from 1994 through college and beyond. In 2003, the unit was mobilized, and I re-enlisted to deploy with them. I loved the unit and my fellow soldiers, which made the decision to return easy.",
+    "cues": [
+      "unit service 1994-2003",
+      "mobilized 2003",
+      "re-enlistment",
+      "Wisconsin National Guard"
+    ],
+    "transcript_ref": "veterans\\wisconsin_veterans_museum\\wvm_Jason_E_Johns.yaml"
+  },
+  {
+    "entity_id": 29,
+    "entity": "United States Army Reserve",
+    "explicit_text": "When I started law school in Minneapolis, I transferred to a U.S. Army Reserve unit at Fort Snelling to stay close to school. I completed my initial six-year enlistment there from 1994 to 2000. The Reserve allowed me to balance military service with education and career development.",
+    "implicit_text": "When I started law school in Minneapolis, I transferred to a U.S. Army Reserve unit at a historic fort to stay close to school. I completed my initial six-year enlistment there from 1994 to 2000. The Reserve allowed me to balance military service with education and career development.",
+    "cues": [
+      "transfer for law school",
+      "Fort Snelling",
+      "1994-2000",
+      "Reserve service"
+    ],
+    "transcript_ref": "veterans\\wisconsin_veterans_museum\\wvm_Jason_E_Johns.yaml"
+  },
+  {
+    "entity_id": 30,
+    "entity": "Fort Snelling",
+    "explicit_text": "Fort Snelling in Minneapolis was where I drilled with the Army Reserve unit while attending law school. It was a convenient location that helped me maintain my military obligations during that time. Fort Snelling was part of my military journey before returning to active duty.",
+    "implicit_text": "A historic fort in Minneapolis was where I drilled with the Army Reserve unit while attending law school. It was a convenient location that helped me maintain my military obligations during that time. That fort was part of my military journey before returning to active duty.",
+    "cues": [
+      "Army Reserve drill location",
+      "law school period",
+      "Minneapolis"
+    ],
+    "transcript_ref": "veterans\\wisconsin_veterans_museum\\wvm_Jason_E_Johns.yaml"
+  },
+  {
+    "entity_id": 31,
+    "entity": "Military Entrance Processing Station",
+    "explicit_text": "When I re-enlisted in 2003 after being called up with the 229th, I went through MEPS again like a new recruit. The adjutant general expedited my processing because of the urgent mobilization. MEPS was where I officially re-entered active military service after years in the IRR and Reserve.",
+    "implicit_text": "When I re-enlisted in 2003 after being called up with my engineer battalion, I went through the military entrance processing station again like a new recruit. The adjutant general expedited my processing because of the urgent mobilization. That station was where I officially re-entered active military service after years in the Individual Ready Reserve and Reserve.",
+    "cues": [
+      "re-enlistment 2003",
+      "MEPS processing",
+      "mobilization",
+      "Wisconsin"
+    ],
+    "transcript_ref": "veterans\\wisconsin_veterans_museum\\wvm_Jason_E_Johns.yaml"
+  },
+  {
+    "entity_id": 32,
+    "entity": "Fort McCoy",
+    "explicit_text": "After re-enlisting in 2003, I reported to Fort McCoy for training with the 229th Engineer Battalion before deployment. Fort McCoy was the staging and preparation site for our mobilization. It was the start of my active duty deployment cycle.",
+    "implicit_text": "After re-enlisting in 2003, I reported to a military training center in Wisconsin for training with my engineer battalion before deployment. That center was the staging and preparation site for our mobilization. It was the start of my active duty deployment cycle.",
+    "cues": [
+      "2003 mobilization",
+      "training site",
+      "Wisconsin",
+      "229th Engineer Battalion"
+    ],
+    "transcript_ref": "veterans\\wisconsin_veterans_museum\\wvm_Jason_E_Johns.yaml"
+  },
+  {
+    "entity_id": 33,
+    "entity": "Third Armored Division (United States)",
+    "explicit_text": "The transcript does not mention my involvement with the Third Armored Division, so I have no direct experience or story related to that unit.",
+    "implicit_text": "The transcript does not mention my involvement with a famous armored division, so I have no direct experience or story related to that unit.",
+    "cues": [],
+    "transcript_ref": "veterans\\wisconsin_veterans_museum\\wvm_Jason_E_Johns.yaml"
+  },
+  {
+    "entity_id": 34,
+    "entity": "Turkey",
+    "explicit_text": "Turkey was not mentioned in my military or personal story, so I don't have any direct connection or experience with that place.",
+    "implicit_text": "A country straddling Europe and Asia was not mentioned in my military or personal story, so I don't have any direct connection or experience with that place.",
+    "cues": [],
+    "transcript_ref": "veterans\\wisconsin_veterans_museum\\wvm_Jason_E_Johns.yaml"
+  },
+  {
+    "entity_id": 35,
+    "entity": "Fourth Infantry Division (United States)",
+    "explicit_text": "I have no direct connection or experience with the Fourth Infantry Division mentioned in the transcript. It was not part of my military service.",
+    "implicit_text": "I have no direct connection or experience with a well-known infantry division mentioned in the transcript. It was not part of my military service.",
+    "cues": [],
+    "transcript_ref": "veterans\\wisconsin_veterans_museum\\wvm_Jason_E_Johns.yaml"
+  },
+  {
+    "entity_id": 36,
+    "entity": "Kuwait",
+    "explicit_text": "Kuwait was not referenced in my story or military service, so I don't have any personal experience related to that place.",
+    "implicit_text": "A small Middle Eastern country was not referenced in my story or military service, so I don't have any personal experience related to that place.",
+    "cues": [],
+    "transcript_ref": "veterans\\wisconsin_veterans_museum\\wvm_Jason_E_Johns.yaml"
+  },
+  {
+    "entity_id": 37,
+    "entity": "Tikrit",
+    "explicit_text": "Tikrit was not mentioned in my oral history, so I have no personal connection or experience with that location.",
+    "implicit_text": "A city in Iraq was not mentioned in my oral history, so I have no personal connection or experience with that location.",
+    "cues": [],
+    "transcript_ref": "veterans\\wisconsin_veterans_museum\\wvm_Jason_E_Johns.yaml"
+  },
+  {
+    "entity_id": 38,
+    "entity": "Iraqi Air Force",
+    "explicit_text": "The Iraqi Air Force was not part of my military experience or narrative, so I have no relevant story or connection to share.",
+    "implicit_text": "The air force of Iraq was not part of my military experience or narrative, so I have no relevant story or connection to share.",
+    "cues": [],
+    "transcript_ref": "veterans\\wisconsin_veterans_museum\\wvm_Jason_E_Johns.yaml"
+  }
+]

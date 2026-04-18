@@ -1,0 +1,396 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "Rockford, Illinois",
+    "explicit_text": "I was born in Rockford, Illinois, at Saint Anthony Hospital on April 25th, 1920. My early life was deeply connected to Rockford, where my father worked and where I graduated from Rockford High School in 1937. Later, I enlisted at Camp Grant in Rockford during World War II, marking a significant chapter in my life.",
+    "implicit_text": "I was born in the city known as the Forest City in Illinois, at the local Catholic hospital on April 25th, 1920. My early life was deeply connected to this Midwestern city, where my father worked and where I graduated from the main high school in 1937. Later, I enlisted at the nearby military training camp during World War II, marking a significant chapter in my life.",
+    "cues": [
+      "April 25th, 1920",
+      "Saint Anthony Hospital",
+      "Rockford High School 1937",
+      "Camp Grant enlistment"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.60566.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "Saint Anthony Hospital",
+    "explicit_text": "Saint Anthony Hospital in Rockford is where I was born and later where I began my nurse's training in August 1938. I loved my time there, especially working in the laboratory and starting the blood bank with Dr. Matthews. This hospital was the foundation of my nursing career and my first real connection to the medical field.",
+    "implicit_text": "The Catholic hospital in the Forest City of Illinois is where I was born and later where I began my nurse's training in August 1938. I loved my time there, especially working in the laboratory and starting the blood bank with Dr. Matthews. This hospital was the foundation of my nursing career and my first real connection to the medical field.",
+    "cues": [
+      "Birthplace 1920",
+      "Nurse's training 1938",
+      "Blood bank start",
+      "Dr. Matthews"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.60566.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "Sweden",
+    "explicit_text": "My father, John Elof Anderson, was an immigrant from Sweden who came to America through Ellis Island. He was advised to go by his middle name because there were so many John Andersons from Sweden. His Swedish roots were an important part of our family story.",
+    "implicit_text": "My father, John Elof Anderson, was an immigrant from the Scandinavian country known for its fjords and northern lights who came to America through the famous New York immigration station. He was advised to go by his middle name because there were so many John Andersons from that country. His Nordic roots were an important part of our family story.",
+    "cues": [
+      "Father's immigration",
+      "Ellis Island",
+      "Name change",
+      "Swedish heritage"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.60566.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "Ellis Island",
+    "explicit_text": "Ellis Island was the entry point for my father when he immigrated from Sweden. It was there that officials suggested he use his middle name to distinguish himself from others. This moment was a key part of our family's journey to America.",
+    "implicit_text": "The famous New York immigration station was the entry point for my father when he immigrated from the Scandinavian country known for its fjords and northern lights. It was there that officials suggested he use his middle name to distinguish himself from others. This moment was a key part of our family's journey to America.",
+    "cues": [
+      "Father's immigration",
+      "Name change advice",
+      "Swedish immigrants"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.60566.yaml"
+  },
+  {
+    "entity_id": 5,
+    "entity": "Union Furniture Company",
+    "explicit_text": "My father was a furniture-maker who worked for the Union Furniture Company. He also did a lot of furniture work in our home after he and my mother married. His craftsmanship was a steady part of our family life in Rockford.",
+    "implicit_text": "My father was a furniture-maker who worked for a well-known local furniture manufacturer in the Forest City of Illinois. He also did a lot of furniture work in our home after he and my mother married. His craftsmanship was a steady part of our family life in that city.",
+    "cues": [
+      "Father's occupation",
+      "Furniture-making",
+      "Union Furniture Company"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.60566.yaml"
+  },
+  {
+    "entity_id": 6,
+    "entity": "Great Depression",
+    "explicit_text": "The Great Depression affected my family deeply; when I was 14, my father had just gotten a job again after the hard times. It was a difficult period, but my aunt helped me through it after my father passed away. The economic struggles shaped much of my early life.",
+    "implicit_text": "The severe economic downturn of the 1930s affected my family deeply; when I was 14, my father had just gotten a job again after the hard times. It was a difficult period, but my aunt helped me through it after my father passed away. The economic struggles shaped much of my early life.",
+    "cues": [
+      "Father's job loss and return",
+      "Age 14",
+      "Family hardship",
+      "Aunt's support"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.60566.yaml"
+  },
+  {
+    "entity_id": 7,
+    "entity": "Burson Knitting Company",
+    "explicit_text": "After graduating high school in 1937, I worked in the office at Burson Knitting Company. I earned 25 cents an hour, but during the slack season and the following spring, I was laid off along with everyone else in the office. This job was a stepping stone before I entered nurse's training.",
+    "implicit_text": "After graduating high school in 1937, I worked in the office at a local knitting company. I earned 25 cents an hour, but during the slack season and the following spring, I was laid off along with everyone else in the office. This job was a stepping stone before I entered nurse's training.",
+    "cues": [
+      "Employment after high school",
+      "1937-1938",
+      "Office work",
+      "Laid off in spring"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.60566.yaml"
+  },
+  {
+    "entity_id": 8,
+    "entity": "Michigan",
+    "explicit_text": "Michigan became important to me during World War II when I was assigned to Percy Jones Hospital in Battle Creek. I also made lifelong friends with two roommates from Michigan during my nurse's training. My time in Michigan was marked by intense nursing work and preparation for military service.",
+    "implicit_text": "The Great Lakes state became important to me during World War II when I was assigned to a military hospital in Battle Creek. I also made lifelong friends with two roommates from that state during my nurse's training. My time there was marked by intense nursing work and preparation for military service.",
+    "cues": [
+      "Percy Jones Hospital",
+      "Battle Creek",
+      "Roommates from Michigan",
+      "World War II service"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.60566.yaml"
+  },
+  {
+    "entity_id": 9,
+    "entity": "World War II",
+    "explicit_text": "World War II was a defining period in my life. I trained as a nurse and eventually enlisted in the Army, serving at Percy Jones Hospital and later with the 86th Field Hospital. The war influenced everything from my work with wounded soldiers to my deployment in the Pacific theater.",
+    "implicit_text": "The global conflict from 1939 to 1945 was a defining period in my life. I trained as a nurse and eventually enlisted in the Army, serving at a military hospital in Battle Creek and later with a field hospital unit. The war influenced everything from my work with wounded soldiers to my deployment in the Pacific theater.",
+    "cues": [
+      "Nurse training during war",
+      "Army enlistment",
+      "Percy Jones Hospital",
+      "Pacific deployment"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.60566.yaml"
+  },
+  {
+    "entity_id": 10,
+    "entity": "Germany",
+    "explicit_text": "During my nurse training, the sisters at Saint Anthony Hospital were originally from Germany and sent care packages to relatives there. We heard many stories about the situation in Germany, though we didn't fully understand it at the time. The war made Germany a distant but significant presence in our lives.",
+    "implicit_text": "During my nurse training, the sisters at the Catholic hospital were originally from the European country known for its castles and beer and sent care packages to relatives there. We heard many stories about the situation in that country, though we didn't fully understand it at the time. The war made that nation a distant but significant presence in our lives.",
+    "cues": [
+      "Sisters from Germany",
+      "Care packages",
+      "World War II context"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.60566.yaml"
+  },
+  {
+    "entity_id": 11,
+    "entity": "Army",
+    "explicit_text": "I enlisted in the Army with two roommates at Camp Grant in Rockford during World War II. Despite initial hurdles like being underweight, I signed a release and was accepted. The Army assigned me to Percy Jones Hospital and later to the 86th Field Hospital, shaping my military nursing career.",
+    "implicit_text": "I enlisted in the military with two roommates at the training camp near the Forest City during World War II. Despite initial hurdles like being underweight, I signed a release and was accepted. The Army assigned me to a hospital in Battle Creek and later to a field hospital unit, shaping my military nursing career.",
+    "cues": [
+      "Enlistment at Camp Grant",
+      "World War II",
+      "Percy Jones Hospital",
+      "86th Field Hospital"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.60566.yaml"
+  },
+  {
+    "entity_id": 12,
+    "entity": "Camp Grant",
+    "explicit_text": "Camp Grant in Rockford was where I enlisted in the Army with my roommates. We underwent examinations and paperwork there before waiting for orders. It was the starting point of my military service during World War II.",
+    "implicit_text": "The military training camp near the Forest City was where I enlisted in the Army with my roommates. We underwent examinations and paperwork there before waiting for orders. It was the starting point of my military service during World War II.",
+    "cues": [
+      "Enlistment location",
+      "Rockford",
+      "Army induction",
+      "World War II"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.60566.yaml"
+  },
+  {
+    "entity_id": 13,
+    "entity": "Percy Jones Hospital",
+    "explicit_text": "I was assigned to Percy Jones Hospital in Battle Creek, Michigan, in July 1943. It had been the Kellogg Sanitarium and was a beautiful facility where I worked on orthopedic and neuromuscular wards. I also participated in penicillin research there, which was groundbreaking at the time.",
+    "implicit_text": "I was assigned to a military hospital in Battle Creek, Michigan, in July 1943. It had been a famous health sanitarium and was a beautiful facility where I worked on orthopedic and neuromuscular wards. I also participated in penicillin research there, which was groundbreaking at the time.",
+    "cues": [
+      "Assignment July 1943",
+      "Battle Creek",
+      "Orthopedic and neuromuscular wards",
+      "Penicillin research"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.60566.yaml"
+  },
+  {
+    "entity_id": 14,
+    "entity": "Battle Creek, Michigan",
+    "explicit_text": "Battle Creek was where Percy Jones Hospital was located, where I served as a nurse during World War II. The hospital was formerly the Kellogg Sanitarium, and I spent a year and a half there caring for wounded soldiers. It was a pivotal place in my nursing and military career.",
+    "implicit_text": "The city known for its cereal production was where the military hospital I served at during World War II was located. The hospital was formerly a well-known sanitarium, and I spent a year and a half there caring for wounded soldiers. It was a pivotal place in my nursing and military career.",
+    "cues": [
+      "Percy Jones Hospital location",
+      "World War II service",
+      "Nursing experience"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.60566.yaml"
+  },
+  {
+    "entity_id": 15,
+    "entity": "Kellogg Sanitarium",
+    "explicit_text": "Percy Jones Hospital, where I worked, was formerly the Kellogg Sanitarium in Battle Creek, Michigan. The building was beautiful with excellent facilities, which impressed me when I arrived in 1943. This history added a unique character to the hospital environment.",
+    "implicit_text": "The military hospital where I worked was formerly a famous health sanitarium in the cereal-producing city of Michigan. The building was beautiful with excellent facilities, which impressed me when I arrived in 1943. This history added a unique character to the hospital environment.",
+    "cues": [
+      "Former name of Percy Jones Hospital",
+      "Battle Creek",
+      "Arrival 1943"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.60566.yaml"
+  },
+  {
+    "entity_id": 16,
+    "entity": "Chicago",
+    "explicit_text": "Chicago was where the 86th Field Hospital was formed, and where my roommate and I met with others before deployment. We flew from Chicago to Seattle as part of our journey to the Pacific theater. Chicago was a key transit point in my military service.",
+    "implicit_text": "The major Midwestern city on Lake Michigan was where the field hospital unit was formed, and where my roommate and I met with others before deployment. We flew from there to the Pacific Northwest as part of our journey to the Pacific theater. That city was a key transit point in my military service.",
+    "cues": [
+      "86th Field Hospital formation",
+      "Departure point",
+      "Flight to Seattle"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.60566.yaml"
+  },
+  {
+    "entity_id": 17,
+    "entity": "Seattle",
+    "explicit_text": "Seattle was our arrival point after leaving Chicago, where we received warm clothing before learning we were headed to the Pacific, not Europe. We stayed at Fort Lawton for basic training and medical shots, and waited there for our orders to embark. Seattle marked the beginning of our overseas deployment.",
+    "implicit_text": "The largest city in the Pacific Northwest was our arrival point after leaving the Midwest, where we received warm clothing before learning we were headed to the Pacific, not Europe. We stayed at a nearby army post for basic training and medical shots, and waited there for our orders to embark. That city marked the beginning of our overseas deployment.",
+    "cues": [
+      "Arrival after Chicago",
+      "Fort Lawton training",
+      "Medical shots",
+      "Pacific deployment"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.60566.yaml"
+  },
+  {
+    "entity_id": 18,
+    "entity": "Fort Lawton",
+    "explicit_text": "At Fort Lawton near Seattle, we finally received basic training, which we hadn't had before enlisting. We learned to climb rope ladders, crawl through obstacle courses, and marched extensively. It was also where we met the officers of the 86th Field Hospital before heading overseas.",
+    "implicit_text": "At the army post near the largest city in the Pacific Northwest, we finally received basic training, which we hadn't had before enlisting. We learned to climb rope ladders, crawl through obstacle courses, and marched extensively. It was also where we met the officers of the field hospital unit before heading overseas.",
+    "cues": [
+      "Basic training location",
+      "Near Seattle",
+      "86th Field Hospital officers",
+      "Pre-deployment"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.60566.yaml"
+  },
+  {
+    "entity_id": 19,
+    "entity": "Oahu",
+    "explicit_text": "We were based on Oahu at Koko Head, a medical training place in Hawaii, after arriving in the Pacific. There we lived in comfortable tents, did marching drills, hikes, and training courses like target practice and plane identification. We also toured the island and visited Pearl Harbor and Hickam Field during our stay.",
+    "implicit_text": "We were based on the Hawaiian island of Oahu at a medical training site near Koko Head after arriving in the Pacific. There we lived in comfortable tents, did marching drills, hikes, and training courses like target practice and plane identification. We also toured the island and visited the famous naval base and an airfield during our stay.",
+    "cues": [
+      "Koko Head base",
+      "Hawaii",
+      "Training and drills",
+      "Pearl Harbor visits"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.60566.yaml"
+  },
+  {
+    "entity_id": 20,
+    "entity": "Pearl Harbor",
+    "explicit_text": "While stationed on Oahu, we visited Pearl Harbor, which at the time was not as famous as it is now. It was part of our tours of the island during our medical training stay in Hawaii. Seeing Pearl Harbor gave us a sense of the war's realities in the Pacific.",
+    "implicit_text": "While stationed on Oahu, we visited the naval base that would later become infamous. It was part of our tours of the island during our medical training stay in Hawaii. Seeing the base gave us a sense of the war's realities in the Pacific.",
+    "cues": [
+      "Visit during Oahu stay",
+      "Prevalence before fame",
+      "World War II context"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.60566.yaml"
+  },
+  {
+    "entity_id": 21,
+    "entity": "Hickam Field",
+    "explicit_text": "During our time on Oahu, we also visited Hickam Field, one of the major military installations on the island. It was part of the broader experience of being stationed in Hawaii during the war. These visits helped us understand the scale of the military presence there.",
+    "implicit_text": "During our time on Oahu, we also visited a major military airfield on the island. It was part of the broader experience of being stationed in Hawaii during the war. These visits helped us understand the scale of the military presence there.",
+    "cues": [
+      "Oahu visit",
+      "Military installation",
+      "World War II"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.60566.yaml"
+  },
+  {
+    "entity_id": 22,
+    "entity": "Easter",
+    "explicit_text": "Easter Sunday, April 1st, 1945, was a memorable day because while we were in chapel on Oahu, we were interrupted with the news that Okinawa had been invaded. This marked a turning point as the men prepared to leave immediately for the battle. It was a solemn and significant moment during my service.",
+    "implicit_text": "Easter Sunday, April 1st, 1945, was a memorable day because while we were in chapel on Oahu, we were interrupted with the news that the invasion of a key Pacific island had begun. This marked a turning point as the men prepared to leave immediately for the battle. It was a solemn and significant moment during my service.",
+    "cues": [
+      "April 1st, 1945",
+      "Okinawa invasion announcement",
+      "Oahu chapel",
+      "World War II"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.60566.yaml"
+  },
+  {
+    "entity_id": 23,
+    "entity": "Battle of Okinawa",
+    "explicit_text": "The Battle of Okinawa began on Easter Sunday, April 1st, 1945, while we were stationed in Hawaii. Shortly after the invasion, we received orders to board ship and head to Okinawa as part of the 86th Field Hospital. The battle was a major event that shaped the final stages of the war in the Pacific.",
+    "implicit_text": "The battle that began on Easter Sunday, April 1st, 1945, while we were stationed in Hawaii, was a major campaign in the Pacific theater. Shortly after the invasion, we received orders to board ship and head to the island as part of our field hospital unit. The battle was a major event that shaped the final stages of the war in the Pacific.",
+    "cues": [
+      "April 1st, 1945",
+      "Okinawa invasion",
+      "Deployment from Hawaii",
+      "World War II"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.60566.yaml"
+  },
+  {
+    "entity_id": 24,
+    "entity": "Ulithi Atoll",
+    "explicit_text": "On our way to Okinawa aboard the Florence Nightingale, we stopped at Ulithi Atoll where we were allowed to swim. The island had been shelled and was devastated, with no standing palm trees, but it featured beautiful sand beaches. It was a brief respite during our journey through the Pacific.",
+    "implicit_text": "On our way to the Pacific island battle aboard the hospital ship, we stopped at a remote atoll where we were allowed to swim. The island had been shelled and was devastated, with no standing palm trees, but it featured beautiful sand beaches. It was a brief respite during our journey through the Pacific.",
+    "cues": [
+      "Stopover en route to Okinawa",
+      "Swimming allowed",
+      "Devastated island",
+      "World War II"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.60566.yaml"
+  },
+  {
+    "entity_id": 25,
+    "entity": "Kwajalein Atoll",
+    "explicit_text": "Kwajalein Atoll was another stop on our voyage to Okinawa where we could get out and swim. Like Ulithi, it had been shelled and was devastated but had beautiful sand beaches. These stops were rare moments of relief during our tense journey.",
+    "implicit_text": "Another atoll was a stop on our voyage to the Pacific island battle where we could get out and swim. Like the previous atoll, it had been shelled and was devastated but had beautiful sand beaches. These stops were rare moments of relief during our tense journey.",
+    "cues": [
+      "Stopover en route to Okinawa",
+      "Swimming allowed",
+      "Devastated island",
+      "World War II"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.60566.yaml"
+  },
+  {
+    "entity_id": 26,
+    "entity": "Franklin D. Roosevelt",
+    "explicit_text": "While we were on the ship heading to Okinawa, it was announced over the loudspeaker that President Franklin D. Roosevelt had died. This news caused much speculation about the war's future, as we had never heard of his successor, Harry S. Truman. Roosevelt's death was a significant moment during our deployment.",
+    "implicit_text": "While we were on the ship heading to the Pacific island battle, it was announced over the loudspeaker that the President of the United States had died. This news caused much speculation about the war's future, as we had never heard of his successor. The president's death was a significant moment during our deployment.",
+    "cues": [
+      "Death announced en route to Okinawa",
+      "War speculation",
+      "Transition to Truman",
+      "World War II"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.60566.yaml"
+  },
+  {
+    "entity_id": 27,
+    "entity": "Harry S. Truman",
+    "explicit_text": "After President Roosevelt's death, Harry S. Truman became our new president while we were en route to Okinawa. We had not heard of him before, and there were many rumors and uncertainties about how he would handle the war. His presidency marked a new chapter during our service.",
+    "implicit_text": "After the president's death, his successor became our new leader while we were en route to the Pacific island battle. We had not heard of him before, and there were many rumors and uncertainties about how he would handle the war. His presidency marked a new chapter during our service.",
+    "cues": [
+      "Became president during deployment",
+      "Uncertainty about war direction",
+      "World War II"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.60566.yaml"
+  },
+  {
+    "entity_id": 28,
+    "entity": "Florence Nightingale (ship)",
+    "explicit_text": "The Florence Nightingale was the ship that carried us from Seattle to Okinawa. It was full of nurses and corpsmen, and we endured rough seas and heat during the voyage. We drilled regularly for emergencies, but thankfully never had to use those skills.",
+    "implicit_text": "The hospital ship that carried us from the Pacific Northwest to the Pacific island battle was full of nurses and corpsmen, and we endured rough seas and heat during the voyage. We drilled regularly for emergencies, but thankfully never had to use those skills.",
+    "cues": [
+      "Transport ship to Okinawa",
+      "Nurses and corpsmen aboard",
+      "Rough seas",
+      "World War II"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.60566.yaml"
+  },
+  {
+    "entity_id": 29,
+    "entity": "86th Field Hospital",
+    "explicit_text": "I was assigned to the 86th Field Hospital, which formed in Chicago before deploying to the Pacific. My roommate and I joined this unit, traveling through Seattle, Hawaii, and eventually to Okinawa. The 86th was our home during the latter part of the war.",
+    "implicit_text": "I was assigned to a field hospital unit that formed in a major Midwestern city before deploying to the Pacific. My roommate and I joined this unit, traveling through the Pacific Northwest, Hawaii, and eventually to the Pacific island battle. That unit was our home during the latter part of the war.",
+    "cues": [
+      "Formation in Chicago",
+      "Pacific deployment",
+      "Okinawa service",
+      "World War II"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.60566.yaml"
+  },
+  {
+    "entity_id": 30,
+    "entity": "76th Field Hospital",
+    "explicit_text": "The 76th Field Hospital was mentioned as one of the groups of nurses aboard the Florence Nightingale along with our 86th Field Hospital unit. We traveled together on the ship heading to Okinawa. It was part of the broader medical support network in the Pacific.",
+    "implicit_text": "Another field hospital unit was mentioned as one of the groups of nurses aboard the hospital ship along with our unit. We traveled together on the ship heading to the Pacific island battle. It was part of the broader medical support network in the Pacific.",
+    "cues": [
+      "Travel companion unit",
+      "Florence Nightingale voyage",
+      "Pacific theater",
+      "World War II"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.60566.yaml"
+  },
+  {
+    "entity_id": 31,
+    "entity": "United States Navy",
+    "explicit_text": "The United States Navy provided gun ships to escort our transport ship through submarine-infested waters in the Pacific. Their protection was crucial during our voyage to Okinawa, especially given the threat of Japanese submarines near Hawaii. The Navy's role ensured our safe passage.",
+    "implicit_text": "The naval forces of the United States provided gun ships to escort our transport ship through submarine-infested waters in the Pacific. Their protection was crucial during our voyage to the Pacific island battle, especially given the threat of enemy submarines near Hawaii. Their role ensured our safe passage.",
+    "cues": [
+      "Escort during Pacific voyage",
+      "Submarine threat",
+      "World War II",
+      "Protection of medical personnel"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.60566.yaml"
+  }
+]

@@ -1,0 +1,379 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "New Carlisle, Ohio",
+    "explicit_text": "I was living in New Carlisle, Ohio, at my parents' house when I decided to join the military. Growing up there, I was influenced by my family’s military background, especially my father who was a United States Marine. It was a small town near Dayton and Springfield, and coming from that rural area shaped a lot of my perspective before I enlisted.",
+    "implicit_text": "I was living in a small town near Dayton and Springfield, Ohio, at my parents' house when I decided to join the military. Growing up there, I was influenced by my family’s military background, especially my father who was a United States Marine. Coming from that rural area shaped a lot of my perspective before I enlisted.",
+    "cues": [
+      "parents' house",
+      "Dayton area",
+      "Springfield, Ohio",
+      "family military influence"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.80735.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "United States Marine Corps",
+    "explicit_text": "I joined the United States Marine Corps because I wanted to be the best, following in my father's footsteps who was also a Marine. My experience started with boot camp at either Parris Island or San Diego, where the discipline and intensity were unlike anything I'd seen before. Serving as a Marine shaped my life profoundly, especially through my deployments during Operation Iraqi Freedom.",
+    "implicit_text": "I joined the branch of the military known for its elite infantry because I wanted to be the best, following in my father's footsteps who was also part of that force. My experience started with boot camp at either the East Coast or West Coast recruit training depots, where the discipline and intensity were unlike anything I'd seen before. Serving in this branch shaped my life profoundly, especially through my deployments during the early 2000s conflicts in the Middle East.",
+    "cues": [
+      "boot camp",
+      "Parris Island",
+      "San Diego",
+      "father was a Marine",
+      "Operation Iraqi Freedom"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.80735.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "Vietnam War",
+    "explicit_text": "My father was drafted into the United States Marine Corps during the Vietnam War, and his service was a big influence on me joining the military. Although I did not serve in Vietnam myself, the legacy of that war and my father's experience were always present in my decision to enlist. It was a part of my family history that I carried with me into my own service.",
+    "implicit_text": "My father was drafted into the branch of the military famous for its rigorous training during the conflict in Southeast Asia, and his service was a big influence on me joining the military. Although I did not serve in that war myself, the legacy of that conflict and my father's experience were always present in my decision to enlist. It was a part of my family history that I carried with me into my own service.",
+    "cues": [
+      "father drafted",
+      "Vietnam War",
+      "family military background"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.80735.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "Marine Corps Recruit Depot Parris Island",
+    "explicit_text": "When I arrived at Marine Corps Recruit Depot Parris Island, I vividly remember stepping onto the yellow footprints, which marked where I was to stand during boot camp. The drill instructors immediately began their intense training, and it was a shock to the system but also exhilarating. Parris Island was one of the places where I learned discipline and the fundamentals of being a Marine.",
+    "implicit_text": "When I arrived at the East Coast recruit training depot famous for its intense boot camp, I vividly remember stepping onto the yellow footprints, which marked where I was to stand during training. The drill instructors immediately began their intense training, and it was a shock to the system but also exhilarating. That location was one of the places where I learned discipline and the fundamentals of becoming a Marine.",
+    "cues": [
+      "yellow footprints",
+      "boot camp",
+      "drill instructors",
+      "intense training"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.80735.yaml"
+  },
+  {
+    "entity_id": 5,
+    "entity": "Marine Corps Recruit Depot San Diego",
+    "explicit_text": "Marine Corps Recruit Depot San Diego was another location where recruits like me experienced the rigorous start of Marine life. Like Parris Island, it had the iconic yellow footprints that marked the beginning of our transformation. The training there was tough, and the drill instructors were strict, but it prepared me well for my future deployments.",
+    "implicit_text": "The West Coast recruit training depot was another location where recruits like me experienced the rigorous start of Marine life. Like its East Coast counterpart, it had the iconic yellow footprints that marked the beginning of our transformation. The training there was tough, and the drill instructors were strict, but it prepared me well for my future deployments.",
+    "cues": [
+      "yellow footprints",
+      "boot camp",
+      "drill instructors",
+      "Marine training"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.80735.yaml"
+  },
+  {
+    "entity_id": 6,
+    "entity": "Staff Sergeant",
+    "explicit_text": "During boot camp, I remember several drill instructors, including Senior Drill Instructor Staff Sergeant Pree and Staff Sergeant Mejia. These Staff Sergeants were key figures in our training, enforcing discipline and pushing us to meet the high standards of the Marine Corps. Their leadership was memorable and shaped much of my early military experience.",
+    "implicit_text": "During boot camp, I remember several drill instructors, including Senior Drill Instructor Staff Sergeant Pree and Staff Sergeant Mejia. These noncommissioned officers were key figures in our training, enforcing discipline and pushing us to meet the high standards of the Marine infantry. Their leadership was memorable and shaped much of my early military experience.",
+    "cues": [
+      "Senior Drill Instructor Staff Sergeant Pree",
+      "Staff Sergeant Mejia",
+      "boot camp",
+      "drill instructors"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.80735.yaml"
+  },
+  {
+    "entity_id": 7,
+    "entity": "Operation Iraqi Freedom",
+    "explicit_text": "I served two tours during Operation Iraqi Freedom, first in 2003 and then later during Operation Iraqi Freedom Four. My first deployment started in Kuwait at Mutalla Ranch and then moved into Iraq, reaching Baghdad. The second tour was at Al Asad Airbase in Al Anbar Province, near Syria, and also included a stint in Haqlaniyah. These deployments were challenging but also gave me a unique perspective on the region and the Marine Corps' role there.",
+    "implicit_text": "I served two tours during the early 2000s Middle Eastern conflict, first in 2003 and then later during the fourth phase of the operation. My first deployment started in Kuwait at Mutalla Ranch and then moved into Iraq, reaching Baghdad. The second tour was at a major airbase in western Iraq near Syria, and also included a stint in a northern province town. These deployments were challenging but also gave me a unique perspective on the region and the Marine infantry's role there.",
+    "cues": [
+      "Operation Iraqi Freedom One",
+      "Operation Iraqi Freedom Four",
+      "Kuwait",
+      "Iraq",
+      "Al Asad Airbase",
+      "Al Anbar Province",
+      "Haqlaniyah"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.80735.yaml"
+  },
+  {
+    "entity_id": 8,
+    "entity": "Kuwait",
+    "explicit_text": "My first deployment during Operation Iraqi Freedom began in Kuwait at a place called Mutalla Ranch, which was really just desert. The temperatures there were extreme, reaching 110 to 115 degrees, and it was a harsh environment to adjust to. From Kuwait, we moved into Iraq, crossing the border on the main MSR to Baghdad, marking the start of our combat operations.",
+    "implicit_text": "My first deployment during the early 2000s Middle Eastern conflict began in Kuwait at a place called Mutalla Ranch, which was really just desert. The temperatures there were extreme, reaching 110 to 115 degrees, and it was a harsh environment to adjust to. From Kuwait, we moved into Iraq, crossing the border on the main supply route to Baghdad, marking the start of our combat operations.",
+    "cues": [
+      "Mutalla Ranch",
+      "110-115 degrees",
+      "Operation Iraqi Freedom One",
+      "border crossing to Iraq"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.80735.yaml"
+  },
+  {
+    "entity_id": 9,
+    "entity": "Mutalla Ranch",
+    "explicit_text": "Mutalla Ranch in Kuwait was where we were stationed at the start of Operation Iraqi Freedom One. Despite its name, it was really just a desert area with no real ranch features. The heat there was intense, and it was a stark introduction to the environment we would be operating in during our deployment.",
+    "implicit_text": "Mutalla Ranch in Kuwait was where we were stationed at the start of the first phase of the early 2000s Middle Eastern conflict. Despite its name, it was really just a desert area with no real ranch features. The heat there was intense, and it was a stark introduction to the environment we would be operating in during our deployment.",
+    "cues": [
+      "Kuwait",
+      "Operation Iraqi Freedom One",
+      "desert",
+      "extreme heat"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.80735.yaml"
+  },
+  {
+    "entity_id": 10,
+    "entity": "Iraq",
+    "explicit_text": "Iraq was the main area where I served during both of my deployments in Operation Iraqi Freedom. I traveled from the southern border near Kuwait all the way to Baghdad on my first tour, and on my second tour, I was stationed further north at Al Asad Airbase and Haqlaniyah in Al Anbar Province. The country has a harsh climate but also beautiful historical sites like the Tigris and Euphrates rivers, which I found remarkable despite the conflict around us.",
+    "implicit_text": "Iraq was the main area where I served during both of my deployments in the early 2000s Middle Eastern conflict. I traveled from the southern border near Kuwait all the way to Baghdad on my first tour, and on my second tour, I was stationed further north at a major airbase and a town in western Iraq. The country has a harsh climate but also beautiful historical sites like the Tigris and Euphrates rivers, which I found remarkable despite the conflict around us.",
+    "cues": [
+      "Baghdad",
+      "Al Asad Airbase",
+      "Haqlaniyah",
+      "Al Anbar Province",
+      "Tigris and Euphrates rivers",
+      "Operation Iraqi Freedom"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.80735.yaml"
+  },
+  {
+    "entity_id": 11,
+    "entity": "Al Asad Airbase",
+    "explicit_text": "During my second tour in Iraq, I was stationed at Al Asad Airbase, located in the northern part of Al Anbar Province. It was a strategic location not far from the Syrian border, and we operated in a challenging environment with seasonal climate changes. Al Asad was one of the main bases where we conducted our missions during Operation Iraqi Freedom Four.",
+    "implicit_text": "During my second tour in Iraq, I was stationed at a large airbase located in the northern part of a western province. It was a strategic location not far from the Syrian border, and we operated in a challenging environment with seasonal climate changes. This base was one of the main locations where we conducted our missions during the fourth phase of the operation.",
+    "cues": [
+      "Al Anbar Province",
+      "near Syria",
+      "Operation Iraqi Freedom Four",
+      "northern Iraq"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.80735.yaml"
+  },
+  {
+    "entity_id": 12,
+    "entity": "Al Anbar Governorate",
+    "explicit_text": "Al Anbar Governorate was where I spent much of my second deployment in Iraq, including time at Al Asad Airbase. This western province borders Syria and has a harsh climate with brutal winters and summers. Serving there gave me a deeper understanding of the operational challenges faced by Marines in that region.",
+    "implicit_text": "The western province of Iraq was where I spent much of my second deployment, including time at a major airbase. This area borders Syria and has a harsh climate with brutal winters and summers. Serving there gave me a deeper understanding of the operational challenges faced by Marines in that region.",
+    "cues": [
+      "Al Asad Airbase",
+      "near Syria",
+      "western Iraq",
+      "harsh climate",
+      "Operation Iraqi Freedom Four"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.80735.yaml"
+  },
+  {
+    "entity_id": 13,
+    "entity": "Syria",
+    "explicit_text": "Syria is a neighboring country to the area where I was stationed during my second tour in Iraq, specifically near Al Anbar Province. Although I did not serve in Syria, its proximity influenced the strategic importance of our operations at places like Al Asad Airbase. The border region was a critical area for military activity during Operation Iraqi Freedom.",
+    "implicit_text": "The neighboring country to the area where I was stationed during my second tour in Iraq, specifically near the western province, influenced the strategic importance of our operations at places like the large airbase. Although I did not serve in that country, its proximity was a critical factor for military activity during the operation.",
+    "cues": [
+      "near Al Anbar Province",
+      "border region",
+      "Operation Iraqi Freedom"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.80735.yaml"
+  },
+  {
+    "entity_id": 14,
+    "entity": "Haqlaniyah",
+    "explicit_text": "Haqlaniyah was one of the locations in Iraq where I served for a short period during my second deployment. It was part of the northern Al Anbar Province operations and contributed to the overall mission in the region. My time there was brief but important as part of our broader efforts in Iraq.",
+    "implicit_text": "A town in northern western Iraq was one of the locations where I served for a short period during my second deployment. It was part of the operations in that province and contributed to the overall mission in the region. My time there was brief but important as part of our broader efforts in Iraq.",
+    "cues": [
+      "Iraq",
+      "Al Anbar Province",
+      "Operation Iraqi Freedom Four"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.80735.yaml"
+  },
+  {
+    "entity_id": 15,
+    "entity": "Tigris",
+    "explicit_text": "One of the most memorable sights during my deployment in Iraq was seeing the Tigris River. It’s part of the cradle of civilization and a beautiful natural landmark that I never expected to see firsthand. Despite the conflict around us, the Tigris stood out as a symbol of history and life in the region.",
+    "implicit_text": "One of the most memorable sights during my deployment in Iraq was seeing a major river known as part of the cradle of civilization. It’s a beautiful natural landmark that I never expected to see firsthand. Despite the conflict around us, this river stood out as a symbol of history and life in the region.",
+    "cues": [
+      "Iraq",
+      "cradle of civilization",
+      "natural landmark",
+      "Operation Iraqi Freedom"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.80735.yaml"
+  },
+  {
+    "entity_id": 16,
+    "entity": "Euphrates",
+    "explicit_text": "Along with the Tigris, the Euphrates River was another incredible sight I witnessed during my time in Iraq. These rivers are historically significant and beautiful, contrasting sharply with the harsh realities of war. Seeing the Euphrates gave me a deeper appreciation for the region’s rich history.",
+    "implicit_text": "Along with the other great river, this second river was another incredible sight I witnessed during my time in Iraq. These rivers are historically significant and beautiful, contrasting sharply with the harsh realities of war. Seeing this river gave me a deeper appreciation for the region’s rich history.",
+    "cues": [
+      "Iraq",
+      "cradle of civilization",
+      "natural landmark",
+      "Operation Iraqi Freedom"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.80735.yaml"
+  },
+  {
+    "entity_id": 17,
+    "entity": "Presidential Unit Citation",
+    "explicit_text": "I was proud to be part of the mortuary affairs company that was awarded the Presidential Unit Citation during Operation Iraqi Freedom. This was notable because mortuary affairs, or Graves Registration, had not been used since Vietnam until it was reinstated for our mission. Receiving this citation recognized the reverent and important work we did during the conflict.",
+    "implicit_text": "I was proud to be part of the mortuary affairs company that was awarded a prestigious unit citation during the early 2000s Middle Eastern conflict. This was notable because mortuary affairs, or Graves Registration, had not been used since the Vietnam era until it was reinstated for our mission. Receiving this citation recognized the reverent and important work we did during the conflict.",
+    "cues": [
+      "mortuary affairs",
+      "Graves Registration",
+      "Operation Iraqi Freedom",
+      "Presidential Unit Citation"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.80735.yaml"
+  },
+  {
+    "entity_id": 18,
+    "entity": "Combat Action Ribbon",
+    "explicit_text": "I was awarded the Combat Action Ribbon during my service, which signifies that I saw combat. Although I don’t consider my experiences to be something to brag about, it was an honor to receive it. Our unit was recognized for their actions, and I was proud to be part of that team.",
+    "implicit_text": "I was awarded a combat recognition ribbon during my service, which signifies that I saw combat. Although I don’t consider my experiences to be something to brag about, it was an honor to receive it. Our unit was recognized for their actions, and I was proud to be part of that team.",
+    "cues": [
+      "combat experience",
+      "unit recognition",
+      "Combat Action Ribbon"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.80735.yaml"
+  },
+  {
+    "entity_id": 19,
+    "entity": "Meal, Ready-to-Eat",
+    "explicit_text": "During my first tour in Iraq, I ate a lot of Meal, Ready-to-Eat packages, or MREs. I actually enjoyed them; they’re a big bag of food with a long shelf life, and they kept us well-fed in the field. Having reliable food like MREs was important given the conditions we faced.",
+    "implicit_text": "During my first tour in Iraq, I ate a lot of pre-packaged field rations designed for military use. I actually enjoyed them; they’re a big bag of food with a long shelf life, and they kept us well-fed in the field. Having reliable food like these rations was important given the conditions we faced.",
+    "cues": [
+      "Operation Iraqi Freedom One",
+      "field rations",
+      "Meal, Ready-to-Eat",
+      "MREs"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.80735.yaml"
+  },
+  {
+    "entity_id": 20,
+    "entity": "Bible",
+    "explicit_text": "I carried a pocket Bible with me during both of my tours in Iraq. It was my father’s Bible, with a metal shield on the front, and I kept it in my left breast pocket over my heart. It was a source of faith and good luck for me throughout my deployments.",
+    "implicit_text": "I carried a pocket religious text with me during both of my tours in Iraq. It was my father’s copy, with a metal shield on the front, and I kept it in my left breast pocket over my heart. It was a source of faith and good luck for me throughout my deployments.",
+    "cues": [
+      "father’s Bible",
+      "pocket Bible",
+      "faith",
+      "Operation Iraqi Freedom"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.80735.yaml"
+  },
+  {
+    "entity_id": 21,
+    "entity": "USO",
+    "explicit_text": "While deployed, we sometimes had entertainment from organizations like the USO, which helped boost morale. Although I didn’t go into detail about specific shows, the USO’s presence was appreciated by Marines far from home. Their efforts helped us stay connected to home and keep spirits up during tough times.",
+    "implicit_text": "While deployed, we sometimes had entertainment from organizations dedicated to supporting troops, which helped boost morale. Although I didn’t go into detail about specific shows, their presence was appreciated by Marines far from home. Their efforts helped us stay connected to home and keep spirits up during tough times.",
+    "cues": [
+      "entertainment",
+      "morale",
+      "deployed Marines",
+      "USO shows"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.80735.yaml"
+  },
+  {
+    "entity_id": 22,
+    "entity": "Al Franken",
+    "explicit_text": "Al Franken was mentioned in the context of entertainment for troops, likely as part of USO shows or similar events. While I didn’t personally interact with him, his involvement in supporting service members was recognized. Such entertainers played a role in lifting our spirits during deployment.",
+    "implicit_text": "A well-known entertainer was mentioned in the context of shows for troops, likely as part of morale-boosting events. While I didn’t personally interact with him, his involvement in supporting service members was recognized. Such entertainers played a role in lifting our spirits during deployment.",
+    "cues": [
+      "entertainment",
+      "USO",
+      "support for troops"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.80735.yaml"
+  },
+  {
+    "entity_id": 23,
+    "entity": "Montgomery Gentry",
+    "explicit_text": "Montgomery Gentry was another entertainer referenced in relation to shows for deployed troops. Their music and performances were part of the morale-boosting efforts we experienced while overseas. These moments of entertainment were important breaks from the daily challenges of deployment.",
+    "implicit_text": "A popular country music duo was another entertainer referenced in relation to shows for deployed troops. Their music and performances were part of the morale-boosting efforts we experienced while overseas. These moments of entertainment were important breaks from the daily challenges of deployment.",
+    "cues": [
+      "entertainment",
+      "USO shows",
+      "morale",
+      "deployed troops"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.80735.yaml"
+  },
+  {
+    "entity_id": 24,
+    "entity": "R. Lee Ermey",
+    "explicit_text": "R. Lee Ermey is well known for his role as a drill instructor in the movie Full Metal Jacket, which I related to my own boot camp experience. His portrayal captures the intensity and discipline of Marine boot camp, similar to what I went through at Parris Island or San Diego. Ermey’s work helped me and others understand the drill instructor’s role in shaping Marines.",
+    "implicit_text": "An actor known for portraying a drill instructor in a famous Marine boot camp movie helped me relate to my own boot camp experience. His portrayal captures the intensity and discipline of Marine boot camp, similar to what I went through at the recruit training depots. His work helped me and others understand the drill instructor’s role in shaping Marines.",
+    "cues": [
+      "Full Metal Jacket",
+      "drill instructor",
+      "boot camp",
+      "Marine Corps"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.80735.yaml"
+  },
+  {
+    "entity_id": 25,
+    "entity": "Full Metal Jacket",
+    "explicit_text": "Full Metal Jacket is a movie that depicts Marine Corps boot camp and combat, and it resonated with my own experiences. The film’s portrayal of drill instructors and training reminded me of my first days at boot camp, especially the shock and discipline involved. It’s a cultural reference that many Marines recognize.",
+    "implicit_text": "A well-known film depicts Marine Corps boot camp and combat, and it resonated with my own experiences. The film’s portrayal of drill instructors and training reminded me of my first days at boot camp, especially the shock and discipline involved. It’s a cultural reference that many Marines recognize.",
+    "cues": [
+      "movie",
+      "boot camp",
+      "drill instructors",
+      "Marine Corps"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.80735.yaml"
+  },
+  {
+    "entity_id": 26,
+    "entity": "Mail Call",
+    "explicit_text": "Mail Call was an important part of staying connected during my deployments, as letter writing was the main way I communicated with family and friends. Although I had limited email and a few phone calls, receiving mail was a morale booster. Mail Call moments were eagerly anticipated by all of us in the field.",
+    "implicit_text": "Receiving letters was an important part of staying connected during my deployments, as letter writing was the main way I communicated with family and friends. Although I had limited email and a few phone calls, getting mail was a morale booster. Those moments when mail arrived were eagerly anticipated by all of us in the field.",
+    "cues": [
+      "letter writing",
+      "limited email",
+      "phone calls",
+      "morale"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.80735.yaml"
+  },
+  {
+    "entity_id": 27,
+    "entity": "History Channel",
+    "explicit_text": "The History Channel was mentioned as a source where some people might learn about military history or documentaries related to the Marine Corps. While I didn’t discuss it in detail, it’s a channel that many service members and veterans watch to understand and reflect on military events. It helps keep the history alive for those of us who served.",
+    "implicit_text": "A popular television channel focused on historical documentaries was mentioned as a source where some people might learn about military history or stories related to the Marine infantry. While I didn’t discuss it in detail, it’s a channel that many service members and veterans watch to understand and reflect on military events. It helps keep the history alive for those of us who served.",
+    "cues": [
+      "military history",
+      "documentaries",
+      "Marine Corps",
+      "veterans"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.80735.yaml"
+  },
+  {
+    "entity_id": 28,
+    "entity": "Curacao",
+    "explicit_text": "Curacao was mentioned briefly in the context of places related to the Royal Netherlands Marine Corps, but I did not have personal experience there. It’s an island in the Caribbean associated with Dutch military presence. My service was focused in the Middle East, so Curacao was not part of my deployments.",
+    "implicit_text": "An island in the Caribbean was mentioned briefly in the context of places related to a European marine corps, but I did not have personal experience there. It’s associated with Dutch military presence. My service was focused in the Middle East, so that island was not part of my deployments.",
+    "cues": [
+      "Caribbean",
+      "Royal Netherlands Marine Corps",
+      "military locations"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.80735.yaml"
+  },
+  {
+    "entity_id": 29,
+    "entity": "Royal Netherlands Marine Corps",
+    "explicit_text": "The Royal Netherlands Marine Corps was referenced in relation to Curacao, but I did not have direct interaction with them during my service. They are a respected military organization from the Netherlands. My focus was on the United States Marine Corps and my deployments in Iraq and Kuwait.",
+    "implicit_text": "The marine corps from the Netherlands was referenced in relation to the Caribbean island, but I did not have direct interaction with them during my service. They are a respected military organization from Europe. My focus was on the United States Marine infantry and my deployments in Iraq and Kuwait.",
+    "cues": [
+      "Curacao",
+      "Netherlands",
+      "military organization"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.80735.yaml"
+  }
+]

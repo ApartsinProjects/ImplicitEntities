@@ -1,0 +1,71 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "Brooklyn Park, Minnesota",
+    "explicit_text": "I grew up in Brooklyn Park, Minnesota, where life was pretty calm. I lived in an apartment with just my mom and uncle, and although my neighbors were noisy and often had parties, I enjoyed spending summers going to the pool and parks nearby. Brooklyn Park was my home during my childhood, and even though it was quiet, I always felt connected to the community around me.",
+    "implicit_text": "I grew up in a quiet suburb in Minnesota, where life was pretty calm. I lived in an apartment with just my mom and uncle, and although my neighbors were noisy and often had parties, I enjoyed spending summers going to the pool and parks nearby. That suburb was my home during my childhood, and even though it was quiet, I always felt connected to the community around me.",
+    "cues": [
+      "childhood",
+      "apartment living",
+      "summer activities",
+      "neighbors",
+      "Brooklyn Park, MN"
+    ],
+    "transcript_ref": "immigration\\imm_umn_342_yessenia_gutierrez.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "Dominican Republic",
+    "explicit_text": "In the summer of 2011, I traveled to the Dominican Republic for the first time to meet my grandparents, whom I hadn't seen since I was three years old. I went with my aunt, cousins, and brother, and later my dad joined us because my grandfather had undergone surgery and might not have much time left. Visiting the Dominican Republic was also special because I got to meet my older sister for the first time, which was something I had always wanted since childhood.",
+    "implicit_text": "In the summer of 2011, I traveled to a Caribbean country for the first time to meet my grandparents, whom I hadn't seen since I was three years old. I went with my aunt, cousins, and brother, and later my dad joined us because my grandfather had undergone surgery and might not have much time left. Visiting that country was also special because I got to meet my older sister for the first time, which was something I had always wanted since childhood.",
+    "cues": [
+      "summer 2011",
+      "first trip",
+      "meeting grandparents",
+      "family reunion",
+      "older sister"
+    ],
+    "transcript_ref": "immigration\\imm_umn_342_yessenia_gutierrez.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "United States",
+    "explicit_text": "I have lived most of my life in the United States, specifically in Minnesota, where my family and I have settled. My grandparents often travel to the U.S., but they usually visit New Jersey rather than Minnesota, where my aunt and other relatives live. The U.S. has been my home, but my roots and family connections stretch between here and places like the Dominican Republic and New Jersey.",
+    "implicit_text": "I have lived most of my life in this North American country, specifically in Minnesota, where my family and I have settled. My grandparents often travel here, but they usually visit New Jersey rather than Minnesota, where my aunt and other relatives live. This country has been my home, but my roots and family connections stretch between here and places like the Caribbean nation and New Jersey.",
+    "cues": [
+      "residence",
+      "family visits",
+      "Minnesota",
+      "New Jersey",
+      "immigration"
+    ],
+    "transcript_ref": "immigration\\imm_umn_342_yessenia_gutierrez.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "Minnesota",
+    "explicit_text": "Minnesota is where I grew up, particularly in Brooklyn Park, and it's where my immediate family lives. Although my grandparents visit the United States often, they usually come to New Jersey instead of Minnesota, where my aunt and other relatives reside. Minnesota has been the backdrop of my childhood and daily life, even as my family connections extend beyond the state.",
+    "implicit_text": "This northern U.S. state is where I grew up, particularly in a suburb known for its calm environment, and it's where my immediate family lives. Although my grandparents visit the United States often, they usually come to New Jersey instead of this state, where my aunt and other relatives reside. This state has been the backdrop of my childhood and daily life, even as my family connections extend beyond its borders.",
+    "cues": [
+      "Brooklyn Park",
+      "family residence",
+      "grandparents' visits",
+      "aunt in New Jersey",
+      "childhood"
+    ],
+    "transcript_ref": "immigration\\imm_umn_342_yessenia_gutierrez.yaml"
+  },
+  {
+    "entity_id": 5,
+    "entity": "New Jersey",
+    "explicit_text": "My grandparents often visit the United States, but they usually go to New Jersey to see my aunt and other family members who live there. Although I live in Minnesota, New Jersey is an important place for my extended family, including my great aunts and uncle. It’s a place where my grandparents feel connected, and it contrasts with my own experience growing up in Minnesota.",
+    "implicit_text": "My grandparents often visit the United States, but they usually go to a northeastern state to see my aunt and other family members who live there. Although I live in Minnesota, that state is an important place for my extended family, including my great aunts and uncle. It’s a place where my grandparents feel connected, and it contrasts with my own experience growing up in Minnesota.",
+    "cues": [
+      "grandparents' visits",
+      "aunt and relatives",
+      "family connections",
+      "contrast with Minnesota"
+    ],
+    "transcript_ref": "immigration\\imm_umn_342_yessenia_gutierrez.yaml"
+  }
+]

@@ -1,0 +1,240 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "Omaha Beach",
+    "explicit_text": "On June 6, 1944, I landed at Omaha Beach during the D-Day invasion. The water was deep and cold, and enemy fire was intense, especially from the German 88mm guns on the cliffs. Despite the chaos and heavy casualties, my unit managed to reach the shore and push inland, holding a sea wall and eventually moving up to higher ground. Returning there decades later with my wife was an emotional experience, seeing the graves and remnants of the battle that marked the biggest event of my life.",
+    "implicit_text": "On June 6, 1944, I landed on one of the Normandy beaches during the D-Day invasion. The water was deep and cold, and enemy fire was intense, especially from the German 88mm guns on the cliffs. Despite the chaos and heavy casualties, my unit managed to reach the shore and push inland, holding a sea wall and eventually moving up to higher ground. Returning there decades later with my wife was an emotional experience, seeing the graves and remnants of the battle that marked the biggest event of my life.",
+    "cues": [
+      "June 6, 1944",
+      "D-Day",
+      "German 88mm guns",
+      "sea wall",
+      "emotional return"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\nevada_wwii_Benedict_J_Dasher.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "D-Day",
+    "explicit_text": "D-Day was the turning point of my World War II service, beginning on June 6, 1944. We assembled in a forest on June 4th, then embarked across the Channel amid bad weather and heavy seasickness. The landings were chaotic, with many units off course and heavy enemy fire, especially at Omaha Beach where I landed. The experience was harrowing but defined my military career and shaped my life forever.",
+    "implicit_text": "The invasion of Normandy was the turning point of my World War II service, beginning on June 6, 1944. We assembled in a forest on June 4th, then embarked across the Channel amid bad weather and heavy seasickness. The landings were chaotic, with many units off course and heavy enemy fire, especially at the beach where I landed. The experience was harrowing but defined my military career and shaped my life forever.",
+    "cues": [
+      "June 6, 1944",
+      "assembly forest June 4",
+      "Channel crossing",
+      "Omaha Beach",
+      "chaotic landings"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\nevada_wwii_Benedict_J_Dasher.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "Germany",
+    "explicit_text": "Germany was the enemy we faced during the Normandy invasion and the broader European campaign. Their defenses at Omaha Beach, including the 88mm gun emplacements, made our landing incredibly difficult and deadly. Although I never described fighting inside Germany itself, the German forces' presence and resistance were a constant threat throughout our operations in France and beyond.",
+    "implicit_text": "The enemy we faced during the Normandy invasion and the broader European campaign was the country whose forces manned the defenses at the beaches, including the 88mm gun emplacements that made our landing incredibly difficult and deadly. Although I never described fighting inside their homeland itself, their forces' presence and resistance were a constant threat throughout our operations in France and beyond.",
+    "cues": [
+      "Normandy invasion",
+      "Omaha Beach defenses",
+      "88mm guns",
+      "enemy resistance"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\nevada_wwii_Benedict_J_Dasher.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "Caen",
+    "explicit_text": "After landing at Omaha Beach, we could see the town of Caen being bombed from our hilltop position. The sight of British Lancaster bombers flying overhead in waves was unforgettable, lighting up the sky with their bomb fires. Caen was a significant objective in the Normandy campaign and symbolized the intense fighting happening inland after the beachhead was secured.",
+    "implicit_text": "After landing on the beach, we could see the town of Caen being bombed from our hilltop position. The sight of British Lancaster bombers flying overhead in waves was unforgettable, lighting up the sky with their bomb fires. That town was a significant objective in the Normandy campaign and symbolized the intense fighting happening inland after the beachhead was secured.",
+    "cues": [
+      "Normandy campaign",
+      "bombing of Caen",
+      "British Lancaster bombers",
+      "hilltop observation"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\nevada_wwii_Benedict_J_Dasher.yaml"
+  },
+  {
+    "entity_id": 5,
+    "entity": "British Lancaster bomber",
+    "explicit_text": "During the Normandy campaign, I witnessed wave after wave of British Lancaster bombers flying over Caen, dropping bombs that lit the night sky. Their massive bombing runs were a critical part of the Allied effort to break German defenses. Seeing those bombers was a vivid reminder of the scale and intensity of the air war supporting our ground operations.",
+    "implicit_text": "During the Normandy campaign, I witnessed wave after wave of heavy British bombers flying over Caen, dropping bombs that lit the night sky. Their massive bombing runs were a critical part of the Allied effort to break German defenses. Seeing those bombers was a vivid reminder of the scale and intensity of the air war supporting our ground operations.",
+    "cues": [
+      "Normandy campaign",
+      "bombing of Caen",
+      "air support",
+      "British Lancaster bombers"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\nevada_wwii_Benedict_J_Dasher.yaml"
+  },
+  {
+    "entity_id": 6,
+    "entity": "Channel",
+    "explicit_text": "Crossing the Channel on June 6, 1944, was miserable; the weather was bad, and everyone was seasick. The Channel was a rough body of water, and the rain made the voyage even more unpleasant. Despite this, we had to push forward, knowing we were headed for a heavily defended enemy beach.",
+    "implicit_text": "Crossing the body of water separating England from France on June 6, 1944, was miserable; the weather was bad, and everyone was seasick. The channel was a rough body of water, and the rain made the voyage even more unpleasant. Despite this, we had to push forward, knowing we were headed for a heavily defended enemy beach.",
+    "cues": [
+      "June 6, 1944",
+      "bad weather",
+      "seasickness",
+      "crossing to Normandy"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\nevada_wwii_Benedict_J_Dasher.yaml"
+  },
+  {
+    "entity_id": 7,
+    "entity": "Purple Heart",
+    "explicit_text": "After being injured by magnesium from a bursting shell, I was asked to fill out the paperwork for a Purple Heart. However, I refused because I felt my wounds were minor compared to the horrific injuries others suffered around me. The Purple Heart was a symbol of sacrifice, but I couldn't accept it when so many were far worse off.",
+    "implicit_text": "After being injured by magnesium from a bursting shell, I was asked to fill out the paperwork for a military decoration awarded for wounds. However, I refused because I felt my wounds were minor compared to the horrific injuries others suffered around me. The medal was a symbol of sacrifice, but I couldn't accept it when so many were far worse off.",
+    "cues": [
+      "injury from magnesium shell",
+      "hospital near London",
+      "refused Purple Heart",
+      "comparison to others' wounds"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\nevada_wwii_Benedict_J_Dasher.yaml"
+  },
+  {
+    "entity_id": 8,
+    "entity": "London",
+    "explicit_text": "I spent about two months recovering in a hospital near London after being injured in Normandy. During that time, I experienced buzz bomb attacks, including one that flattened the roof of the Quonset hut where I was billeted. For a few days, I stayed in a London home, and during a blackout, I chose not to go to the shelters because I felt the danger was less than what I'd faced on the battlefield.",
+    "implicit_text": "I spent about two months recovering in a hospital near the British capital after being injured in Normandy. During that time, I experienced buzz bomb attacks, including one that flattened the roof of the Quonset hut where I was billeted. For a few days, I stayed in a home in the city, and during a blackout, I chose not to go to the shelters because I felt the danger was less than what I'd faced on the battlefield.",
+    "cues": [
+      "hospital near London",
+      "buzz bomb attacks",
+      "Quonset hut damage",
+      "blackout experience"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\nevada_wwii_Benedict_J_Dasher.yaml"
+  },
+  {
+    "entity_id": 9,
+    "entity": "Quonset hut",
+    "explicit_text": "While recovering near London, I was billeted in a Quonset hut that was hit by a buzz bomb, which flattened its roof. This experience brought the war home in a different way, showing that danger existed even far from the front lines. After the attack, I stayed in a London home for a few days, which was a welcome change from the cramped hut.",
+    "implicit_text": "While recovering near the British capital, I was billeted in a Quonset hut that was hit by a buzz bomb, which flattened its roof. This experience brought the war home in a different way, showing that danger existed even far from the front lines. After the attack, I stayed in a city home for a few days, which was a welcome change from the cramped hut.",
+    "cues": [
+      "buzz bomb attack",
+      "roof flattened",
+      "billeted near London",
+      "wartime housing"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\nevada_wwii_Benedict_J_Dasher.yaml"
+  },
+  {
+    "entity_id": 10,
+    "entity": "United States Army",
+    "explicit_text": "I served as an officer in the United States Army during World War II, participating in the D-Day invasion and subsequent campaigns in Europe. My role included leading men under fire, managing replacements, and later assisting with troop evacuations in Brussels. The Army shaped my experience of the war and tested my leadership and endurance in ways I never imagined.",
+    "implicit_text": "I served as an officer in the American military during World War II, participating in the D-Day invasion and subsequent campaigns in Europe. My role included leading men under fire, managing replacements, and later assisting with troop evacuations in Brussels. The military shaped my experience of the war and tested my leadership and endurance in ways I never imagined.",
+    "cues": [
+      "World War II",
+      "D-Day",
+      "officer role",
+      "troop evacuation",
+      "Brussels"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\nevada_wwii_Benedict_J_Dasher.yaml"
+  },
+  {
+    "entity_id": 11,
+    "entity": "Mark Clark",
+    "explicit_text": "General Mark Clark passed through the replacement depot where I was stationed after recovering from my wounds. There was a tent set up for him with galoshes of all sizes, and I found a pair of size fifteen that fit me perfectly, though I doubted he wore that size. I kept those galoshes as a memento from the war until I threw them away years later.",
+    "implicit_text": "A general passed through the replacement depot where I was stationed after recovering from my wounds. There was a tent set up for him with galoshes of all sizes, and I found a pair of size fifteen that fit me perfectly, though I doubted he wore that size. I kept those galoshes as a memento from the war until I threw them away years later.",
+    "cues": [
+      "replacement depot",
+      "General Mark Clark visit",
+      "size fifteen galoshes",
+      "wartime memento"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\nevada_wwii_Benedict_J_Dasher.yaml"
+  },
+  {
+    "entity_id": 12,
+    "entity": "Brussels",
+    "explicit_text": "After my recovery, I was stationed in Brussels for about eight months before I could return home. There, I helped set up procedures for evacuating American troops back to the United States. Living standards improved significantly, and I stayed with a Belgian family in a loft, enjoying a brief respite from the hardships of combat.",
+    "implicit_text": "After my recovery, I was stationed in the capital of Belgium for about eight months before I could return home. There, I helped set up procedures for evacuating American troops back to the United States. Living standards improved significantly, and I stayed with a Belgian family in a loft, enjoying a brief respite from the hardships of combat.",
+    "cues": [
+      "post-recovery station",
+      "troop evacuation",
+      "Belgian family housing",
+      "end of war"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\nevada_wwii_Benedict_J_Dasher.yaml"
+  },
+  {
+    "entity_id": 13,
+    "entity": "World War II",
+    "explicit_text": "World War II was the defining event of my life, shaping my youth and testing my courage and leadership. From training and the D-Day invasion to recovery and post-war duties in Europe, the war was a constant presence. I believe our generation showed true patriotism and unity during this time, accomplishing tremendous things that seem unlikely to be repeated today.",
+    "implicit_text": "The global conflict from 1939 to 1945 was the defining event of my life, shaping my youth and testing my courage and leadership. From training and the D-Day invasion to recovery and post-war duties in Europe, the war was a constant presence. I believe our generation showed true patriotism and unity during this time, accomplishing tremendous things that seem unlikely to be repeated today.",
+    "cues": [
+      "D-Day",
+      "European campaign",
+      "post-war duties",
+      "patriotism",
+      "generational test"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\nevada_wwii_Benedict_J_Dasher.yaml"
+  },
+  {
+    "entity_id": 14,
+    "entity": "United States",
+    "explicit_text": "Returning to the United States at the end of 1945 was a difficult transition for me. I arrived in Times Square on New Year's Eve without a place to live, so I enrolled at Northwestern University to have housing and a chance to adjust to civilian life. The country had changed, and so had I, but I was grateful to be home after the war.",
+    "implicit_text": "Returning to my home country at the end of 1945 was a difficult transition for me. I arrived in a major New York City landmark on New Year's Eve without a place to live, so I enrolled at a university in Illinois to have housing and a chance to adjust to civilian life. The country had changed, and so had I, but I was grateful to be home after the war.",
+    "cues": [
+      "return end of 1945",
+      "Times Square New Year's Eve",
+      "Northwestern University enrollment",
+      "civilian transition"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\nevada_wwii_Benedict_J_Dasher.yaml"
+  },
+  {
+    "entity_id": 15,
+    "entity": "Northwestern University",
+    "explicit_text": "After the war, I enrolled at Northwestern University because I had no place to live and needed a way to transition back to civilian life. Living in university housing was a challenge since I didn't know how to conduct myself outside the military. Despite the difficulties, I managed to make it through and start a new chapter.",
+    "implicit_text": "After the war, I enrolled at a prominent Midwestern university because I had no place to live and needed a way to transition back to civilian life. Living in university housing was a challenge since I didn't know how to conduct myself outside the military. Despite the difficulties, I managed to make it through and start a new chapter.",
+    "cues": [
+      "post-war enrollment",
+      "university housing",
+      "civilian adjustment",
+      "personal challenge"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\nevada_wwii_Benedict_J_Dasher.yaml"
+  },
+  {
+    "entity_id": 16,
+    "entity": "Atomic bombings of Hiroshima and Nagasaki",
+    "explicit_text": "I was in Brussels when the atomic bombs were dropped on Hiroshima and Nagasaki, and I remember thinking, 'Thank God!' I saw it as a necessary, though tragic, end to the war. While I wished the location had been better chosen to avoid innocent lives, I understood that war is a brutal, mindless force.",
+    "implicit_text": "I was in the Belgian capital when the atomic bombs were dropped on the two Japanese cities, and I remember thinking, 'Thank God!' I saw it as a necessary, though tragic, end to the war. While I wished the location had been better chosen to avoid innocent lives, I understood that war is a brutal, mindless force.",
+    "cues": [
+      "Brussels",
+      "end of World War II",
+      "atomic bombings",
+      "mixed feelings about war"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\nevada_wwii_Benedict_J_Dasher.yaml"
+  },
+  {
+    "entity_id": 17,
+    "entity": "Japan",
+    "explicit_text": "Japan was the final adversary in World War II, and I learned about the atomic bombings of Hiroshima and Nagasaki while stationed in Brussels. The bombings marked the end of the war and brought relief, though I was saddened by the loss of innocent lives. Japan's role in the war was a reminder of the global scale and devastating impact of the conflict.",
+    "implicit_text": "The Asian adversary was the final opponent in World War II, and I learned about the atomic bombings of the two cities while stationed in the Belgian capital. The bombings marked the end of the war and brought relief, though I was saddened by the loss of innocent lives. Their role in the war was a reminder of the global scale and devastating impact of the conflict.",
+    "cues": [
+      "atomic bombings",
+      "end of war",
+      "Brussels stationing",
+      "global conflict"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\nevada_wwii_Benedict_J_Dasher.yaml"
+  },
+  {
+    "entity_id": 18,
+    "entity": "Liberty ship",
+    "explicit_text": "After being wounded, I was transported back across the Channel on a Liberty ship, surrounded by severely wounded soldiers. The sight of men with missing limbs and terrible injuries was hard to believe and left a lasting impression on me. That ship was a grim reminder of the cost of war and the sacrifices made by so many.",
+    "implicit_text": "After being wounded, I was transported back across the Channel on a cargo ship designed for wartime logistics, surrounded by severely wounded soldiers. The sight of men with missing limbs and terrible injuries was hard to believe and left a lasting impression on me. That ship was a grim reminder of the cost of war and the sacrifices made by so many.",
+    "cues": [
+      "wounded evacuation",
+      "Channel crossing",
+      "severely wounded soldiers",
+      "wartime transport"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\nevada_wwii_Benedict_J_Dasher.yaml"
+  }
+]

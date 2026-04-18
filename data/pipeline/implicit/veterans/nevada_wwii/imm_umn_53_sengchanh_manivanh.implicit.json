@@ -1,0 +1,134 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "Vientiane",
+    "explicit_text": "I was born in Vientiane, Laos in 1960. It was where my early childhood unfolded until my parents separated when I was five. Although I later had to leave my village, Vientiane remains the place of my roots and early family life.",
+    "implicit_text": "I was born in the capital city of Laos in 1960. It was where my early childhood unfolded until my parents separated when I was five. Although I later had to leave my village, that city remains the place of my roots and early family life.",
+    "cues": [
+      "1960",
+      "birthplace",
+      "early childhood",
+      "Laos"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_53_sengchanh_manivanh.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "Laos",
+    "explicit_text": "I grew up and worked across different parts of Laos after finishing high school. The Vietnam War was ending around that time, but Laos was still dangerous, especially for young men like me. Eventually, I was forced to leave my village in Laos and cross the Mekong River to escape the threats.",
+    "implicit_text": "I grew up and worked across different parts of my home country after finishing high school. The Vietnam War was ending around that time, but the nation was still dangerous, especially for young men like me. Eventually, I was forced to leave my village and cross a major river to escape the threats.",
+    "cues": [
+      "post-high school",
+      "Vietnam War ending",
+      "dangerous conditions",
+      "forced to leave village"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_53_sengchanh_manivanh.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "Mekong River",
+    "explicit_text": "The Mekong River was the barrier I had to cross to escape to safety. I was scared because many people crossing it were shot, and my friends couldn't swim. I swam about a mile across the river, pulling my two friends behind me with plastic wrap, even helping one who got a clam on his leg. Crossing the Mekong was the turning point that led me to a refugee camp in Thailand.",
+    "implicit_text": "The large river bordering my country was the barrier I had to cross to escape to safety. I was scared because many people crossing it were shot, and my friends couldn't swim. I swam about a mile across the river, pulling my two friends behind me with plastic wrap, even helping one who got a clam on his leg. Crossing that river was the turning point that led me to a refugee camp in the neighboring country.",
+    "cues": [
+      "river crossing",
+      "dangerous",
+      "pulled friends",
+      "refugee camp access"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_53_sengchanh_manivanh.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "Thailand",
+    "explicit_text": "After crossing the Mekong River, I stayed in a refugee camp in Thailand for two years. While there, I was allowed to leave the camp to work fixing cars, which helped me survive. Thailand was a place of refuge and work before I was sponsored to come to the United States.",
+    "implicit_text": "After crossing the river, I stayed in a refugee camp in the neighboring Southeast Asian country for two years. While there, I was allowed to leave the camp to work fixing cars, which helped me survive. That country was a place of refuge and work before I was sponsored to come to the United States.",
+    "cues": [
+      "refugee camp",
+      "two years",
+      "car repair work",
+      "transition point"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_53_sengchanh_manivanh.yaml"
+  },
+  {
+    "entity_id": 5,
+    "entity": "United States",
+    "explicit_text": "I came to the United States with the help of a sponsor from Michigan, though I ended up settling in Minnesota to be near family. When I arrived, I couldn't speak English and struggled to get government assistance due to law changes. Over time, I worked various jobs, became a citizen, and built a life here with my family.",
+    "implicit_text": "I came to North America with the help of a sponsor from the Great Lakes region, though I ended up settling in the Midwest to be near family. When I arrived, I couldn't speak English and struggled to get government assistance due to law changes. Over time, I worked various jobs, became a citizen, and built a life here with my family.",
+    "cues": [
+      "sponsored arrival",
+      "Michigan",
+      "Minnesota",
+      "language barrier",
+      "citizenship"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_53_sengchanh_manivanh.yaml"
+  },
+  {
+    "entity_id": 6,
+    "entity": "Michigan",
+    "explicit_text": "My sponsor lived in Michigan, and that was where I was supposed to go when I first arrived in the United States. I never actually met her, but she was the reason I was able to come here. Before I could meet her, my cousin heard I was coming and brought me to Minnesota instead.",
+    "implicit_text": "My sponsor lived in a Midwestern state known for its Great Lakes, and that was where I was supposed to go when I first arrived in the United States. I never actually met her, but she was the reason I was able to come here. Before I could meet her, my cousin heard I was coming and brought me to another Midwestern state instead.",
+    "cues": [
+      "sponsor location",
+      "first US destination",
+      "unmet sponsor",
+      "transition to Minnesota"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_53_sengchanh_manivanh.yaml"
+  },
+  {
+    "entity_id": 7,
+    "entity": "Minnesota",
+    "explicit_text": "I moved to Minnesota to join my cousin after arriving in the United States. I lived in a small house with nine other relatives and worked many low-paying jobs for years. Minnesota became my home where I raised my family, worked for 27 years at Waymar, and eventually became a citizen.",
+    "implicit_text": "I moved to the northern Midwestern state to join my cousin after arriving in the United States. I lived in a small house with nine other relatives and worked many low-paying jobs for years. That state became my home where I raised my family, worked for 27 years at Waymar, and eventually became a citizen.",
+    "cues": [
+      "cousin",
+      "residence",
+      "jobs",
+      "family life",
+      "citizenship"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_53_sengchanh_manivanh.yaml"
+  },
+  {
+    "entity_id": 8,
+    "entity": "Vietnam War",
+    "explicit_text": "The Vietnam War was ending when I was finishing high school and starting work in Laos. Even though the war was over, there was still a lot of danger left behind, especially for young men like me. My village warned us not to fight back or risk being taken away, but I was kicked out instead and had to flee.",
+    "implicit_text": "The conflict in Southeast Asia was ending when I was finishing high school and starting work in my country. Even though the war was over, there was still a lot of danger left behind, especially for young men like me. My village warned us not to fight back or risk being taken away, but I was kicked out instead and had to flee.",
+    "cues": [
+      "end of war",
+      "dangerous aftermath",
+      "village warnings",
+      "forced to leave"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_53_sengchanh_manivanh.yaml"
+  },
+  {
+    "entity_id": 9,
+    "entity": "Corvette",
+    "explicit_text": "One of my favorite cars I ever owned was a Corvette. I bought it after working for many years and enjoying better jobs. However, I had to sell it when I had kids because it couldn’t fit a car seat in the back, and family needs came first.",
+    "implicit_text": "One of my favorite cars I ever owned was a classic American sports car. I bought it after working for many years and enjoying better jobs. However, I had to sell it when I had kids because it couldn’t fit a car seat in the back, and family needs came first.",
+    "cues": [
+      "sports car",
+      "favorite",
+      "sold due to kids",
+      "family priorities"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_53_sengchanh_manivanh.yaml"
+  },
+  {
+    "entity_id": 10,
+    "entity": "Prior Lake, Minnesota",
+    "explicit_text": "Now I live in Prior Lake, Minnesota with my family. After many years of hard work and building a life here, this is where I call home. It’s a peaceful place where I continue to support my loved ones and enjoy my American citizenship.",
+    "implicit_text": "Now I live in a small city in the northern Midwestern state with my family. After many years of hard work and building a life here, this is where I call home. It’s a peaceful place where I continue to support my loved ones and enjoy my American citizenship.",
+    "cues": [
+      "current residence",
+      "family life",
+      "American citizenship",
+      "Minnesota"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_53_sengchanh_manivanh.yaml"
+  }
+]

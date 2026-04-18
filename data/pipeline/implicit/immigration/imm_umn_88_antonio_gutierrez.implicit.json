@@ -1,0 +1,85 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "California",
+    "explicit_text": "At the age of 16, after my father's sudden death, I immigrated to California with close family relatives. It was a new beginning for me, and I settled in Hayward, California. California became the place where I built my life, attended high school, and eventually started a family despite the challenges I faced.",
+    "implicit_text": "At the age of 16, after my father's sudden death, I immigrated to the West Coast with close family relatives. It was a new beginning for me, and I settled in a city in the Bay Area. This state became the place where I built my life, attended high school, and eventually started a family despite the challenges I faced.",
+    "cues": [
+      "age 16",
+      "immigration",
+      "father's death",
+      "Hayward",
+      "new beginning"
+    ],
+    "transcript_ref": "immigration\\imm_umn_88_antonio_gutierrez.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "Hayward, California",
+    "explicit_text": "I established myself in Hayward, California, after moving there as a teenager. It was the community where I attended San Leandro High School and began my welding career. Hayward was the backdrop of my youth and early adulthood, a place tied to both hardship and hope.",
+    "implicit_text": "I established myself in a Bay Area city after moving there as a teenager. It was the community where I attended San Leandro High School and began my welding career. This city was the backdrop of my youth and early adulthood, a place tied to both hardship and hope.",
+    "cues": [
+      "established",
+      "teenager",
+      "San Leandro High School",
+      "welding career"
+    ],
+    "transcript_ref": "immigration\\imm_umn_88_antonio_gutierrez.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "San Leandro High School",
+    "explicit_text": "I attended San Leandro High School after moving to California. It was there during my last year that I joined a youth program which introduced me to welding. San Leandro High was also where I met Anna Wildman, the love of my life, and where we shared secret moments despite the town's racial tensions.",
+    "implicit_text": "I attended a high school in the East Bay after moving to the West Coast. It was there during my last year that I joined a youth program which introduced me to welding. This school was also where I met the love of my life, and where we shared secret moments despite the town's racial tensions.",
+    "cues": [
+      "last year of high school",
+      "youth program",
+      "welding",
+      "Anna Wildman",
+      "racial tensions"
+    ],
+    "transcript_ref": "immigration\\imm_umn_88_antonio_gutierrez.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "Sundown town",
+    "explicit_text": "San Leandro was a Sundown town when I was growing up, which meant it was mostly white and enforced discrimination against people of color like me. Being out after dark was dangerous, especially for a Latino man seen with a white woman like Anna. This reality forced us to keep our relationship secret and live in fear of the consequences.",
+    "implicit_text": "The town where I grew up was known for being mostly white and enforcing discrimination against people of color like me. Being out after dark was dangerous, especially for a Latino man seen with a white woman like my partner. This reality forced us to keep our relationship secret and live in fear of the consequences.",
+    "cues": [
+      "San Leandro",
+      "mostly white",
+      "discrimination",
+      "danger after dark",
+      "secret relationship"
+    ],
+    "transcript_ref": "immigration\\imm_umn_88_antonio_gutierrez.yaml"
+  },
+  {
+    "entity_id": 5,
+    "entity": "Anna Wildman",
+    "explicit_text": "Anna Wildman was the young woman I fell in love with in the welding program at San Leandro High School. Despite the risks of being a biracial couple in a Sundown town, we met secretly and cherished every moment together. After years of dating and overcoming societal disapproval, we married and started a family, though tragically she died giving birth to our son.",
+    "implicit_text": "She was the young woman I fell in love with in the welding program at my high school. Despite the risks of being a biracial couple in a town hostile to people of color, we met secretly and cherished every moment together. After years of dating and overcoming societal disapproval, we married and started a family, though tragically she died giving birth to our son.",
+    "cues": [
+      "welding program",
+      "San Leandro High School",
+      "biracial relationship",
+      "marriage",
+      "death in childbirth"
+    ],
+    "transcript_ref": "immigration\\imm_umn_88_antonio_gutierrez.yaml"
+  },
+  {
+    "entity_id": 6,
+    "entity": "Antonio Jr.",
+    "explicit_text": "Antonio Jr. was born to me and Anna Wildman on December 28, 1977, at 3:37 am. His birth was bittersweet because Anna died during childbirth, but he became my reason to keep living and honoring Anna's memory. I raised Antonio Jr. with the promise to never be belittled by anyone or anything, commemorating every sunset in Anna's name.",
+    "implicit_text": "My son was born to me and my wife on December 28, 1977, at 3:37 am. His birth was bittersweet because she died during childbirth, but he became my reason to keep living and honoring her memory. I raised him with the promise to never be belittled by anyone or anything, commemorating every sunset in her name.",
+    "cues": [
+      "December 28, 1977",
+      "birth",
+      "Anna Wildman's death",
+      "fatherhood",
+      "commemoration"
+    ],
+    "transcript_ref": "immigration\\imm_umn_88_antonio_gutierrez.yaml"
+  }
+]

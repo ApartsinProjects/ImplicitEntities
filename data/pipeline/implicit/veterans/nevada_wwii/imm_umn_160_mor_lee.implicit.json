@@ -1,0 +1,68 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "Laos",
+    "explicit_text": "I was born in Laos, where my life and family were deeply affected by the conflicts that took place there. My husband joined the fight in Laos during the Secret War, and we lived through many hardships together. Unfortunately, the war brought great loss to my family while we were still in Laos before I eventually came to the United States in 1978.",
+    "implicit_text": "I was born in a Southeast Asian country where my life and family were deeply affected by the conflicts that took place there. My husband joined the fight during a covert conflict in that region, and we lived through many hardships together. Unfortunately, the war brought great loss to my family while we were still in that country before I eventually came to North America in 1978.",
+    "cues": [
+      "born in Laos",
+      "Secret War",
+      "family losses",
+      "before 1978"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_160_mor_lee.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "Secret War",
+    "explicit_text": "My husband joined the Secret War in Laos, starting by transporting weapons in the village of Laj Huab. Later, when the Americans arrived, he enlisted for combat around 1960. This war brought tragedy to my family, as my husband, children, and grandson were all killed by the communists during the conflict.",
+    "implicit_text": "My husband joined a covert conflict in Southeast Asia, starting by transporting weapons in a small village. Later, when American forces arrived, he enlisted for combat around 1960. This war brought tragedy to my family, as my husband, children, and grandson were all killed by communist forces during the conflict.",
+    "cues": [
+      "Secret War",
+      "1960",
+      "Laj Huab",
+      "American involvement",
+      "family deaths"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_160_mor_lee.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "United States",
+    "explicit_text": "I arrived in the United States in 1978 after fleeing the violence in Laos. The United States became my new home, but I carry the memories of my lost family members who were killed during the war back in Laos. It was a place of refuge after so much suffering and loss.",
+    "implicit_text": "I arrived in North America in 1978 after fleeing the violence in my homeland. This country became my new home, but I carry the memories of my lost family members who were killed during the war back in Southeast Asia. It was a place of refuge after so much suffering and loss.",
+    "cues": [
+      "arrived 1978",
+      "refuge",
+      "escape from Laos",
+      "new home"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_160_mor_lee.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "Laj Huab",
+    "explicit_text": "Laj Huab was the village where my husband first helped by transferring weapons during the early days of the Secret War. It was a significant place in the beginning of his involvement in the conflict. This village marks the start of the dangerous path that eventually led to the loss of my husband and family.",
+    "implicit_text": "This small village was where my husband first helped by transferring weapons during the early days of the covert conflict in Southeast Asia. It was a significant place in the beginning of his involvement in the fighting. This village marks the start of the dangerous path that eventually led to the loss of my husband and family.",
+    "cues": [
+      "Laj Huab village",
+      "weapon transfer",
+      "start of husband's involvement",
+      "Secret War"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_160_mor_lee.yaml"
+  },
+  {
+    "entity_id": 5,
+    "entity": "Communist Party of Laos",
+    "explicit_text": "The Communist Party of Laos was the force that pursued us and caused the deaths of my husband, children, and grandson. They followed us as we fled and were responsible for killing my loved ones, including my husband who died in my arms. Their actions brought immense grief and loss to my family during the war.",
+    "implicit_text": "The communist forces in my homeland were the ones who pursued us and caused the deaths of my husband, children, and grandson. They followed us as we fled and were responsible for killing my loved ones, including my husband who died in my arms. Their actions brought immense grief and loss to my family during the war.",
+    "cues": [
+      "Communist Party of Laos",
+      "pursued family",
+      "killed husband and children",
+      "war violence"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_160_mor_lee.yaml"
+  }
+]

@@ -1,0 +1,337 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "Chicago",
+    "explicit_text": "When I entered the service, I was living in Chicago. Before being drafted, I worked there for the Crane Company assembling valves for ships. Chicago was my home base before I was inducted into the army at Camp Grant, Illinois.",
+    "implicit_text": "When I entered the service, I was living in a major Midwestern city known for its deep-dish pizza and towering skyline. Before being drafted, I worked there for a company assembling valves for ships. That city was my home base before I was inducted into the army at a training camp in Illinois.",
+    "cues": [
+      "living in Chicago",
+      "worked for Crane Company",
+      "before service",
+      "inducted at Camp Grant, IL"
+    ],
+    "transcript_ref": "veterans\\ippl_library\\ippl_vhp_army_bailey.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "Crane Company",
+    "explicit_text": "Before I was drafted into the army, I worked for the Crane Company in Chicago. My job was assembling valves for ships, and I operated blueprint machines. When the war broke out, I was transferred to the shop, but soon after, I was drafted into the service.",
+    "implicit_text": "Before I was drafted into the army, I worked for a well-known manufacturing company in Chicago. My job was assembling valves for ships, and I operated blueprint machines. When the war broke out, I was transferred to the shop, but soon after, I was drafted into the service.",
+    "cues": [
+      "worked before service",
+      "Chicago",
+      "assembling valves for ships",
+      "blueprint machine operator"
+    ],
+    "transcript_ref": "veterans\\ippl_library\\ippl_vhp_army_bailey.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "Camp Grant",
+    "explicit_text": "I was inducted into the army at Camp Grant, Illinois. After induction, I was sent home for a two-week furlough before heading to basic training. Camp Grant was where my military journey officially began.",
+    "implicit_text": "I was inducted into the army at a large training facility located in Illinois. After induction, I was sent home for a two-week furlough before heading to basic training. That camp was where my military journey officially began.",
+    "cues": [
+      "inducted into army",
+      "Camp Grant, IL",
+      "two-week furlough"
+    ],
+    "transcript_ref": "veterans\\ippl_library\\ippl_vhp_army_bailey.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "Camp Walters",
+    "explicit_text": "After my furlough, I went to Camp Walters, Texas, for basic training. The training there was tough but effective—they made a man out of me with calisthenics, hand-to-hand combat, rifle range, and long forced marches. I gained weight and strength during those weeks at Camp Walters.",
+    "implicit_text": "After my furlough, I went to a Texas training camp for basic training. The training there was tough but effective—they made a man out of me with calisthenics, hand-to-hand combat, rifle range, and long forced marches. I gained weight and strength during those weeks at that Texas camp.",
+    "cues": [
+      "basic training",
+      "Camp Walters, TX",
+      "calisthenics",
+      "hand-to-hand combat",
+      "forced marches"
+    ],
+    "transcript_ref": "veterans\\ippl_library\\ippl_vhp_army_bailey.yaml"
+  },
+  {
+    "entity_id": 5,
+    "entity": "Fairfield, California",
+    "explicit_text": "Fairfield, California, was the debarkation point where we boarded the USS Bliss to sail across the Pacific Ocean. After finishing basic training and shipping out from Jacksonville, Florida, I arrived in Fairfield to embark on the troop transport ship. It was the last stop in the States before heading overseas.",
+    "implicit_text": "A city in California was the debarkation point where we boarded a troop transport ship to sail across the Pacific Ocean. After finishing basic training and shipping out from Florida, I arrived there to embark on the ship. It was the last stop in the States before heading overseas.",
+    "cues": [
+      "debarkation point",
+      "Fairfield, CA",
+      "boarded USS Bliss",
+      "after basic training"
+    ],
+    "transcript_ref": "veterans\\ippl_library\\ippl_vhp_army_bailey.yaml"
+  },
+  {
+    "entity_id": 6,
+    "entity": "USS Bliss",
+    "explicit_text": "I sailed on the USS Bliss from Fairfield, California, across the Pacific Ocean to New Guinea. The ship was designed as a troop transport, and I volunteered to work in the butcher shop below decks, which was a good place to be since many were seasick above. I later heard the USS Bliss was sunk in the European theater, but all troops had disembarked by then.",
+    "implicit_text": "I sailed on a troop transport ship from California across the Pacific Ocean to New Guinea. The ship was designed to carry troops, and I volunteered to work in the butcher shop below decks, which was a good place to be since many were seasick above. I later heard that ship was sunk in the European theater, but all troops had disembarked by then.",
+    "cues": [
+      "troop transport ship",
+      "sailed from Fairfield, CA",
+      "Pacific Ocean crossing",
+      "butcher shop volunteer",
+      "later sunk in Europe"
+    ],
+    "transcript_ref": "veterans\\ippl_library\\ippl_vhp_army_bailey.yaml"
+  },
+  {
+    "entity_id": 7,
+    "entity": "Pacific Ocean",
+    "explicit_text": "The trip across the Pacific Ocean took 23 days, sailing from California to New Guinea. The ocean was beautiful, and we passed islands like New Caledonia, where I saw a leper colony waving at us. The journey was memorable, and I volunteered to work in the ship's butcher shop to avoid seasickness.",
+    "implicit_text": "The trip across a vast ocean took 23 days, sailing from California to New Guinea. The ocean was beautiful, and we passed islands like New Caledonia, where I saw a leper colony waving at us. The journey was memorable, and I volunteered to work in the ship's butcher shop to avoid seasickness.",
+    "cues": [
+      "23-day trip",
+      "Pacific Ocean crossing",
+      "passed New Caledonia",
+      "leper colony",
+      "volunteered in butcher shop"
+    ],
+    "transcript_ref": "veterans\\ippl_library\\ippl_vhp_army_bailey.yaml"
+  },
+  {
+    "entity_id": 8,
+    "entity": "New Caledonia",
+    "explicit_text": "During our Pacific crossing, we passed New Caledonia Island, which had a leper colony. I remember the people there waving to us as we sailed by. It was one of the few islands we saw on the way to New Guinea.",
+    "implicit_text": "During our Pacific crossing, we passed an island that had a leper colony. I remember the people there waving to us as we sailed by. It was one of the few islands we saw on the way to New Guinea.",
+    "cues": [
+      "passed New Caledonia",
+      "leper colony",
+      "waving islanders",
+      "Pacific Ocean trip"
+    ],
+    "transcript_ref": "veterans\\ippl_library\\ippl_vhp_army_bailey.yaml"
+  },
+  {
+    "entity_id": 9,
+    "entity": "New Guinea",
+    "explicit_text": "We landed at Buna Mission in New Guinea around early June 1944, shortly after the area had been secured. My platoon was assigned guard duty by a river north of Buna, and I was attached to the 32nd Infantry Division to replace losses from the Battle of Buna–Gona. I stayed there about a month before moving on with the division to other battles along the New Guinea coast.",
+    "implicit_text": "We landed at a mission in New Guinea around early June 1944, shortly after the area had been secured. My platoon was assigned guard duty by a river north of that mission, and I was attached to an infantry division to replace losses from a recent battle. I stayed there about a month before moving on with the division to other battles along the New Guinea coast.",
+    "cues": [
+      "landed Buna Mission",
+      "early June 1944",
+      "guard duty north of Buna",
+      "attached to 32nd Infantry Division",
+      "post-Battle of Buna–Gona"
+    ],
+    "transcript_ref": "veterans\\ippl_library\\ippl_vhp_army_bailey.yaml"
+  },
+  {
+    "entity_id": 10,
+    "entity": "Buna",
+    "explicit_text": "Buna was where we landed in New Guinea, at Buna Mission, just after the area was secured. My platoon guarded a river north of Buna for about a month, watching for Japanese soldiers coming out of the jungle. It was a critical point in the campaign, and I was part of the 32nd Infantry Division filling in for heavy losses.",
+    "implicit_text": "The place where we landed in New Guinea was at a mission just after the area was secured. My platoon guarded a river north of that location for about a month, watching for Japanese soldiers coming out of the jungle. It was a critical point in the campaign, and I was part of an infantry division filling in for heavy losses.",
+    "cues": [
+      "Buna Mission landing",
+      "guard duty north of Buna",
+      "post-securing area",
+      "32nd Infantry Division"
+    ],
+    "transcript_ref": "veterans\\ippl_library\\ippl_vhp_army_bailey.yaml"
+  },
+  {
+    "entity_id": 11,
+    "entity": "32nd Infantry Division (United States)",
+    "explicit_text": "I was attached to the 32nd Infantry Division, also known as the Red Arrow Division, after landing at Buna. The division got its name from World War I, symbolizing piercing enemy lines. We fought in New Guinea and moved through places like Aitape, Saidor, Finchhaven, Hollandia, and Morotai. I was part of the 126th Infantry Regiment within the division and volunteered for reconnaissance patrols behind enemy lines.",
+    "implicit_text": "I was attached to an infantry division known by a nickname symbolizing piercing enemy lines after landing at Buna. The division got its name from World War I. We fought in New Guinea and moved through places like Aitape, Saidor, Finchhaven, Hollandia, and Morotai. I was part of a regiment within the division and volunteered for reconnaissance patrols behind enemy lines.",
+    "cues": [
+      "attached after landing Buna",
+      "Red Arrow Division",
+      "World War I origin",
+      "fought New Guinea and beyond",
+      "126th Infantry Regiment"
+    ],
+    "transcript_ref": "veterans\\ippl_library\\ippl_vhp_army_bailey.yaml"
+  },
+  {
+    "entity_id": 12,
+    "entity": "Battle of Buna–Gona",
+    "explicit_text": "The 32nd Infantry Division suffered heavy losses during the Battle of Buna–Gona, which was just before I arrived in New Guinea. Because of those losses, my platoon was assigned to fill in as replacements. The battle was fierce, and the division needed fresh troops to continue the campaign.",
+    "implicit_text": "The infantry division suffered heavy losses during a fierce battle just before I arrived in New Guinea. Because of those losses, my platoon was assigned to fill in as replacements. The battle was intense, and the division needed fresh troops to continue the campaign.",
+    "cues": [
+      "heavy losses",
+      "preceded my arrival",
+      "32nd Infantry Division",
+      "replacement troops"
+    ],
+    "transcript_ref": "veterans\\ippl_library\\ippl_vhp_army_bailey.yaml"
+  },
+  {
+    "entity_id": 13,
+    "entity": "7th Cavalry Regiment",
+    "explicit_text": "While I was with the 32nd Infantry Division in New Guinea, the 7th Cavalry Regiment was also fighting in the same area. They were one of the other units engaged alongside us, helping to secure the region. I remember hearing about their presence during the campaign.",
+    "implicit_text": "While I was with my infantry division in New Guinea, a cavalry regiment was also fighting in the same area. They were one of the other units engaged alongside us, helping to secure the region. I remember hearing about their presence during the campaign.",
+    "cues": [
+      "fought alongside 32nd",
+      "New Guinea campaign",
+      "7th Cavalry Regiment"
+    ],
+    "transcript_ref": "veterans\\ippl_library\\ippl_vhp_army_bailey.yaml"
+  },
+  {
+    "entity_id": 14,
+    "entity": "33rd Infantry Division (United States)",
+    "explicit_text": "The 33rd Infantry Division was another division fighting in the same New Guinea area as the 32nd. Though I was with the 32nd, I knew the 33rd was also engaged in the campaign. It was part of the larger effort to secure the region from Japanese forces.",
+    "implicit_text": "Another infantry division was fighting in the same New Guinea area as my unit. Though I was with my division, I knew this other division was also engaged in the campaign. It was part of the larger effort to secure the region from Japanese forces.",
+    "cues": [
+      "fought in New Guinea",
+      "alongside 32nd Infantry Division",
+      "part of campaign"
+    ],
+    "transcript_ref": "veterans\\ippl_library\\ippl_vhp_army_bailey.yaml"
+  },
+  {
+    "entity_id": 15,
+    "entity": "Aitape",
+    "explicit_text": "After Buna, the 32nd Infantry Division moved forward and fought at Aitape, among other locations. Different companies within the division were assigned to these battles along the New Guinea coast. I was at Buna initially but later joined the division at Hollandia after these battles.",
+    "implicit_text": "After Buna, my infantry division moved forward and fought at a coastal location called Aitape, among other places. Different companies within the division were assigned to these battles along the New Guinea coast. I was at Buna initially but later joined the division at Hollandia after these battles.",
+    "cues": [
+      "32nd Division fought at Aitape",
+      "post-Buna operations",
+      "New Guinea coast battles"
+    ],
+    "transcript_ref": "veterans\\ippl_library\\ippl_vhp_army_bailey.yaml"
+  },
+  {
+    "entity_id": 16,
+    "entity": "Saidor",
+    "explicit_text": "Saidor was another battle site where elements of the 32nd Infantry Division fought after Buna. The division pushed through several locations along the New Guinea coast, including Saidor, as part of the campaign to secure the area. I was aware of these operations while on duty at Buna and later Hollandia.",
+    "implicit_text": "Saidor was another battle site where elements of my infantry division fought after Buna. The division pushed through several locations along the New Guinea coast, including Saidor, as part of the campaign to secure the area. I was aware of these operations while on duty at Buna and later Hollandia.",
+    "cues": [
+      "32nd Division fought at Saidor",
+      "New Guinea campaign",
+      "post-Buna operations"
+    ],
+    "transcript_ref": "veterans\\ippl_library\\ippl_vhp_army_bailey.yaml"
+  },
+  {
+    "entity_id": 17,
+    "entity": "Finchhaven",
+    "explicit_text": "Finchhaven was one of the places along the New Guinea coast where the 32nd Infantry Division engaged the Japanese. Different companies of the division fought there as we advanced. I was stationed at Buna and later joined the division at Hollandia after these battles.",
+    "implicit_text": "Finchhaven was one of the places along the New Guinea coast where my infantry division engaged the Japanese. Different companies of the division fought there as we advanced. I was stationed at Buna and later joined the division at Hollandia after these battles.",
+    "cues": [
+      "32nd Division fought at Finchhaven",
+      "New Guinea coast",
+      "post-Buna operations"
+    ],
+    "transcript_ref": "veterans\\ippl_library\\ippl_vhp_army_bailey.yaml"
+  },
+  {
+    "entity_id": 18,
+    "entity": "Hollandia",
+    "explicit_text": "I joined the rest of the 32nd Infantry Division at Hollandia after they had fought at Aitape, Saidor, and Finchhaven. Hollandia was a key point where the division regrouped before moving on to Morotai Island. It marked the end of our New Guinea campaign before heading to other operations.",
+    "implicit_text": "I joined the rest of my infantry division at Hollandia after they had fought at Aitape, Saidor, and Finchhaven. Hollandia was a key point where the division regrouped before moving on to Morotai Island. It marked the end of our New Guinea campaign before heading to other operations.",
+    "cues": [
+      "joined 32nd Division at Hollandia",
+      "post-New Guinea battles",
+      "staging point for Morotai"
+    ],
+    "transcript_ref": "veterans\\ippl_library\\ippl_vhp_army_bailey.yaml"
+  },
+  {
+    "entity_id": 19,
+    "entity": "Morotai",
+    "explicit_text": "After securing New Guinea, the 32nd Infantry Division moved on to Morotai Island in the Dutch East Indies. We stayed there about three weeks, resting since there was no combat. While we were there, General Douglas MacArthur made his first landing returning to the Philippines.",
+    "implicit_text": "After securing New Guinea, my infantry division moved on to an island in the Dutch East Indies. We stayed there about three weeks, resting since there was no combat. While we were there, a famous general made his first landing returning to the Philippines.",
+    "cues": [
+      "Morotai Island",
+      "Dutch East Indies",
+      "three weeks rest",
+      "MacArthur's first landing"
+    ],
+    "transcript_ref": "veterans\\ippl_library\\ippl_vhp_army_bailey.yaml"
+  },
+  {
+    "entity_id": 20,
+    "entity": "Douglas MacArthur",
+    "explicit_text": "While we were on Morotai Island, General Douglas MacArthur landed there, marking his first landing on the way back to the Philippines. It was a significant moment, and we were there resting while he made that historic return. MacArthur's presence was a morale boost for us troops.",
+    "implicit_text": "While we were on that island, a general known for his leadership in the Pacific landed there, marking his first landing on the way back to the Philippines. It was a significant moment, and we were there resting while he made that historic return. His presence was a morale boost for us troops.",
+    "cues": [
+      "MacArthur landed Morotai",
+      "first landing returning to Philippines",
+      "rest period on Morotai"
+    ],
+    "transcript_ref": "veterans\\ippl_library\\ippl_vhp_army_bailey.yaml"
+  },
+  {
+    "entity_id": 21,
+    "entity": "Dutch East Indies",
+    "explicit_text": "Morotai Island, where we stayed after New Guinea, is part of the Dutch East Indies. It was a small island with little Japanese resistance by the time we arrived. We destroyed their supplies and held the island while the Japanese surrendered one by one from the mountains.",
+    "implicit_text": "The island where we stayed after New Guinea is part of a group of islands in Southeast Asia. It was a small island with little Japanese resistance by the time we arrived. We destroyed their supplies and held the island while the Japanese surrendered one by one from the mountains.",
+    "cues": [
+      "Morotai Island location",
+      "Dutch East Indies",
+      "small island",
+      "Japanese surrender"
+    ],
+    "transcript_ref": "veterans\\ippl_library\\ippl_vhp_army_bailey.yaml"
+  },
+  {
+    "entity_id": 22,
+    "entity": "Leyte",
+    "explicit_text": "After Morotai, we traveled by Landing Craft, Infantry to Leyte in the Philippines. When we arrived, the beachhead was already secure, and we moved up into the mountains. I was with the 126th Infantry Regiment of the 32nd Division and volunteered for reconnaissance patrols behind enemy lines there.",
+    "implicit_text": "After Morotai, we traveled by landing craft to an island in the Philippines. When we arrived, the beachhead was already secure, and we moved up into the mountains. I was with my infantry regiment and volunteered for reconnaissance patrols behind enemy lines there.",
+    "cues": [
+      "traveled to Leyte",
+      "Landing Craft, Infantry",
+      "beachhead secure",
+      "126th Infantry Regiment",
+      "reconnaissance patrols"
+    ],
+    "transcript_ref": "veterans\\ippl_library\\ippl_vhp_army_bailey.yaml"
+  },
+  {
+    "entity_id": 23,
+    "entity": "Landing Craft, Infantry",
+    "explicit_text": "We used Landing Craft, Infantry (LCI) to travel from Morotai to Leyte in the Philippines. These boats were crucial for moving troops during amphibious operations. The trip brought us to a secured beachhead where we then advanced inland.",
+    "implicit_text": "We used small troop-carrying boats to travel from Morotai to Leyte in the Philippines. These boats were crucial for moving troops during amphibious operations. The trip brought us to a secured beachhead where we then advanced inland.",
+    "cues": [
+      "transport from Morotai to Leyte",
+      "amphibious landing",
+      "troop movement"
+    ],
+    "transcript_ref": "veterans\\ippl_library\\ippl_vhp_army_bailey.yaml"
+  },
+  {
+    "entity_id": 24,
+    "entity": "126th Infantry Regiment (United States)",
+    "explicit_text": "I was assigned to Company K of the 126th Infantry Regiment within the 32nd Infantry Division. We fought in New Guinea and later in the Philippines, including Leyte. At Leyte, I volunteered for reconnaissance patrols that operated behind Japanese lines.",
+    "implicit_text": "I was assigned to Company K of a regiment within my infantry division. We fought in New Guinea and later in the Philippines, including Leyte. At Leyte, I volunteered for reconnaissance patrols that operated behind Japanese lines.",
+    "cues": [
+      "Company K, 126th Infantry",
+      "part of 32nd Division",
+      "New Guinea and Leyte",
+      "reconnaissance patrol volunteer"
+    ],
+    "transcript_ref": "veterans\\ippl_library\\ippl_vhp_army_bailey.yaml"
+  },
+  {
+    "entity_id": 25,
+    "entity": "World War I",
+    "explicit_text": "The 32nd Infantry Division got its nickname, the Red Arrow, from its actions in World War I. The arrow symbolized piercing enemy lines, which was a proud legacy carried into World War II. I learned about this history when I joined the division in New Guinea.",
+    "implicit_text": "My infantry division got its nickname from its actions in the First World War. The arrow symbolized piercing enemy lines, which was a proud legacy carried into the Second World War. I learned about this history when I joined the division in New Guinea.",
+    "cues": [
+      "32nd Division nickname origin",
+      "Red Arrow symbol",
+      "piercing enemy lines",
+      "World War I legacy"
+    ],
+    "transcript_ref": "veterans\\ippl_library\\ippl_vhp_army_bailey.yaml"
+  },
+  {
+    "entity_id": 26,
+    "entity": "M1 carbine",
+    "explicit_text": "During my reconnaissance patrols behind Japanese lines in the Philippines, I carried an M1 carbine as my primary weapon. It was lightweight and suitable for the kind of silent, stealthy missions we conducted. Along with hand grenades, it was all the firepower I needed on those patrols.",
+    "implicit_text": "During my reconnaissance patrols behind Japanese lines in the Philippines, I carried a lightweight semi-automatic rifle as my primary weapon. It was suitable for the kind of silent, stealthy missions we conducted. Along with hand grenades, it was all the firepower I needed on those patrols.",
+    "cues": [
+      "weapon on reconnaissance patrols",
+      "M1 carbine",
+      "lightweight rifle",
+      "Philippines operations"
+    ],
+    "transcript_ref": "veterans\\ippl_library\\ippl_vhp_army_bailey.yaml"
+  }
+]

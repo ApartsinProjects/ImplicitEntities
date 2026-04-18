@@ -1,0 +1,76 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "Astrakhan",
+    "explicit_text": "My mom was born in Astrakhan, Russia, in 1981. Astrakhan was a very communist city with no freedom of religion, which made life difficult for my family. Some of my mother's relatives were even jailed because they were Christian. This harsh environment is why my mom and her family decided to leave Astrakhan and move to the United States in 1996.",
+    "implicit_text": "My mom was born in a city in southern Russia in 1981. It was a very communist place with no freedom of religion, which made life difficult for my family. Some of my mother's relatives were even jailed because they were Christian. This harsh environment is why my mom and her family decided to leave that city and move to the United States in 1996.",
+    "cues": [
+      "1981",
+      "Russia",
+      "communist city",
+      "no freedom of religion",
+      "family jailed",
+      "1996"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_175_luba_vasilchenko.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "United States",
+    "explicit_text": "My family moved to the United States in 1996 seeking freedom of religion and a better life. We were happy to leave the communist restrictions of Russia and start fresh in America, where people could practice their faith freely. Life was different here, with English as the main language and a warmer climate in Portland, Oregon, where we settled. My mom quickly learned English and finished high school and some college here. I was born in Portland in 2004, and my family feels very blessed to live in the United States.",
+    "implicit_text": "My family moved to a country in North America in 1996 seeking freedom of religion and a better life. We were happy to leave the communist restrictions of Russia and start fresh in a land where people could practice their faith freely. Life was different here, with English as the main language and a warmer climate in Portland, Oregon, where we settled. My mom quickly learned English and finished high school and some college here. I was born in Portland in 2004, and my family feels very blessed to live in this country.",
+    "cues": [
+      "1996",
+      "freedom of religion",
+      "better life",
+      "English language",
+      "Portland, Oregon",
+      "2004",
+      "family blessings"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_175_luba_vasilchenko.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "Portland, Oregon",
+    "explicit_text": "Portland, Oregon, is where my family settled after leaving Russia in 1996. The weather was warmer than in Astrakhan, and it was a new experience for us. My mom started middle school here and had to learn English quickly to keep up. I was born in Portland in 2004, and all my siblings were born here too. Most of our extended family lives in Portland, so we often gather to celebrate holidays like Thanksgiving, Easter, and Christmas.",
+    "implicit_text": "This city in the Pacific Northwest is where my family settled after leaving Russia in 1996. The weather was warmer than in Astrakhan, and it was a new experience for us. My mom started middle school here and had to learn English quickly to keep up. I was born in this city in 2004, and all my siblings were born here too. Most of our extended family lives here, so we often gather to celebrate holidays like Thanksgiving, Easter, and Christmas.",
+    "cues": [
+      "1996",
+      "warmer weather",
+      "middle school",
+      "English learning",
+      "2004",
+      "family gatherings",
+      "holidays"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_175_luba_vasilchenko.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "Concordia University",
+    "explicit_text": "My sister is currently attending Concordia University in Portland, Oregon. She finished high school recently and is studying to become a nurse. Concordia University has been a great place for her to pursue her education close to home. Our family supports her goals and is proud of her progress there.",
+    "implicit_text": "My sister is currently attending a private university in Portland, Oregon. She finished high school recently and is studying to become a nurse. This university has been a great place for her to pursue her education close to home. Our family supports her goals and is proud of her progress there.",
+    "cues": [
+      "Portland, Oregon",
+      "high school graduation",
+      "nursing studies",
+      "family support"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_175_luba_vasilchenko.yaml"
+  },
+  {
+    "entity_id": 5,
+    "entity": "USSR",
+    "explicit_text": "My mom and her family lived in the USSR before moving to the United States in 1996. The USSR was a communist country where there was no freedom of religion, which caused many hardships for my family. Some relatives were even imprisoned for their Christian faith. Leaving the USSR was a big decision, but it allowed my family to seek freedom and a better life in America.",
+    "implicit_text": "My mom and her family lived in a communist country before moving to the United States in 1996. That country had no freedom of religion, which caused many hardships for my family. Some relatives were even imprisoned for their Christian faith. Leaving that nation was a big decision, but it allowed my family to seek freedom and a better life in America.",
+    "cues": [
+      "before 1996",
+      "communist country",
+      "no freedom of religion",
+      "family imprisonment",
+      "seeking freedom"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_175_luba_vasilchenko.yaml"
+  }
+]

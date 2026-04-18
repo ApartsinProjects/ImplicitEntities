@@ -1,0 +1,98 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "Mogadishu",
+    "explicit_text": "I was born in Mogadishu, Somalia in 1988. It is where my life began before the hardships that followed. Although I left Mogadishu at a young age, it remains an important part of my identity and memories.",
+    "implicit_text": "I was born in the capital city of Somalia in 1988. It is where my life began before the hardships that followed. Although I left that city at a young age, it remains an important part of my identity and memories.",
+    "cues": [
+      "born in 1988",
+      "Mogadishu",
+      "Somalia",
+      "birthplace"
+    ],
+    "transcript_ref": "immigration\\imm_umn_277_roda_yussuf.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "Somalia",
+    "explicit_text": "Somalia is my homeland, where I was born and where my culture comes from. Even though I left Somalia as a child, I still hold on to Somali traditions and cultural clothes. I hope to return someday to bring back the things I lost and keep our culture alive here in Minnesota.",
+    "implicit_text": "My homeland is in the Horn of Africa, where I was born and where my culture comes from. Even though I left that country as a child, I still hold on to its traditions and cultural clothes. I hope to return someday to bring back the things I lost and keep our culture alive here in Minnesota.",
+    "cues": [
+      "born in Somalia",
+      "Somali cultural clothes",
+      "injera pan (dawa)",
+      "cultural preservation",
+      "return to Somalia"
+    ],
+    "transcript_ref": "immigration\\imm_umn_277_roda_yussuf.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "Ethiopia",
+    "explicit_text": "After leaving Somalia, I grew up in a refugee camp in Ethiopia. It was a difficult time, but it was where I spent my childhood before resettlement. Ethiopia was a place of waiting and hope for a new life elsewhere.",
+    "implicit_text": "After leaving my birth country, I grew up in a refugee camp in the neighboring country to the west. It was a difficult time, but it was where I spent my childhood before resettlement. That country was a place of waiting and hope for a new life elsewhere.",
+    "cues": [
+      "refugee camp",
+      "childhood",
+      "Ethiopia",
+      "resettlement"
+    ],
+    "transcript_ref": "immigration\\imm_umn_277_roda_yussuf.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "United States",
+    "explicit_text": "I arrived in the United States on December 7, 2011, after being resettled. The U.S. has given me opportunities for work, education, and a better future. Though I faced challenges like losing my suitcase and adjusting to new places, I am grateful for the support from the government and the chance to build a new life here.",
+    "implicit_text": "I arrived in North America on December 7, 2011, after being resettled. This country has given me opportunities for work, education, and a better future. Though I faced challenges like losing my suitcase and adjusting to new places, I am grateful for the support from the government and the chance to build a new life here.",
+    "cues": [
+      "arrived December 7, 2011",
+      "resettlement",
+      "work and education",
+      "government support",
+      "new life"
+    ],
+    "transcript_ref": "immigration\\imm_umn_277_roda_yussuf.yaml"
+  },
+  {
+    "entity_id": 5,
+    "entity": "New York City",
+    "explicit_text": "My first stop in the United States was New York City, where I landed and experienced some confusion and challenges. I lost one of my suitcases there, which had precious photos and cultural items. I stayed one night in a New York hotel before continuing my journey to Texas.",
+    "implicit_text": "My first stop in the United States was the largest city on the East Coast, where I landed and experienced some confusion and challenges. I lost one of my suitcases there, which had precious photos and cultural items. I stayed one night in a hotel in that city before continuing my journey to Texas.",
+    "cues": [
+      "New York City arrival",
+      "lost suitcase",
+      "hotel stay",
+      "December 2011",
+      "first U.S. city"
+    ],
+    "transcript_ref": "immigration\\imm_umn_277_roda_yussuf.yaml"
+  },
+  {
+    "entity_id": 6,
+    "entity": "Amarillo, Texas",
+    "explicit_text": "After New York, I flew to Amarillo, Texas, where I lived for about nine months. I worked in a meat company in Cactus, Texas, which was hard and cold work. Despite the difficulties, I was relieved when I got my first paycheck, which helped me support my children and basic needs.",
+    "implicit_text": "After New York, I flew to a city in the Texas Panhandle, where I lived for about nine months. I worked in a meat company in a nearby small town, which was hard and cold work. Despite the difficulties, I was relieved when I got my first paycheck, which helped me support my children and basic needs.",
+    "cues": [
+      "Amarillo, Texas",
+      "meat company work",
+      "Cactus, Texas",
+      "nine months",
+      "first paycheck"
+    ],
+    "transcript_ref": "immigration\\imm_umn_277_roda_yussuf.yaml"
+  },
+  {
+    "entity_id": 7,
+    "entity": "Minnesota",
+    "explicit_text": "I decided to move to Minnesota because life seemed better there than in Texas. Now I have work and school opportunities, thanks to the government’s support. Minnesota is where I am building my future, continuing my education and work to improve my life and keep my culture alive.",
+    "implicit_text": "I decided to move to the northern Midwestern state because life seemed better there than in Texas. Now I have work and school opportunities, thanks to the government’s support. This state is where I am building my future, continuing my education and work to improve my life and keep my culture alive.",
+    "cues": [
+      "moved to Minnesota",
+      "better life",
+      "work and school",
+      "government support",
+      "future and culture"
+    ],
+    "transcript_ref": "immigration\\imm_umn_277_roda_yussuf.yaml"
+  }
+]

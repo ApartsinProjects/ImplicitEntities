@@ -1,0 +1,128 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "Bhutan",
+    "explicit_text": "My parents were born in Bhutan, but they had to leave because of the civil war and the government's policy against Nepali people staying there. They left Bhutan in 1992 and moved to Nepal. Before my parents got married, their homes in Bhutan were near each other, which is how they met and eventually married in 1995.",
+    "implicit_text": "My parents were born in a small Himalayan kingdom, but they had to leave because of the civil war and the government's policy against Nepali people staying there. They left that country in 1992 and moved to a neighboring nation. Before my parents got married, their homes in that kingdom were near each other, which is how they met and eventually married in 1995.",
+    "cues": [
+      "1992",
+      "civil war",
+      "government policy",
+      "parents' birthplace",
+      "marriage 1995"
+    ],
+    "transcript_ref": "immigration\\imm_umn_263_binita_rai.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "Nepal",
+    "explicit_text": "After leaving Bhutan in 1992 due to the civil war, my family moved to Nepal where we lived in a Bhutanese refugee camp. The Nepalese government helped us by allowing us to build bamboo houses and providing food supplies. Later, when we left the refugee camp, we traveled through Kathmandu before continuing our journey to the United States.",
+    "implicit_text": "After leaving the Himalayan kingdom in 1992 due to the civil war, my family moved to the country next door where we lived in a refugee camp for people from our original home. The local government helped us by allowing us to build bamboo houses and providing food supplies. Later, when we left the refugee camp, we traveled through the capital city before continuing our journey to the United States.",
+    "cues": [
+      "1992",
+      "refugee camp",
+      "Nepalese government aid",
+      "Kathmandu transit",
+      "refugee life"
+    ],
+    "transcript_ref": "immigration\\imm_umn_263_binita_rai.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "Bhutanese refugee camp",
+    "explicit_text": "My parents and I lived in a Bhutanese refugee camp in Nepal after leaving Bhutan in 1992. Initially, we had no proper shelter and stayed in the forest until the Nepalese government allowed us to build bamboo houses and provided us with food like rice and oil. We stayed in the camp until 2014 when we started the process to move to the United States.",
+    "implicit_text": "My parents and I lived in a refugee camp for people from our homeland in the neighboring country after leaving our original home in 1992. Initially, we had no proper shelter and stayed in the forest until the local government allowed us to build bamboo houses and provided us with food like rice and oil. We stayed in the camp until 2014 when we started the process to move to the United States.",
+    "cues": [
+      "1992",
+      "refugee camp life",
+      "bamboo houses",
+      "Nepalese government aid",
+      "2014 resettlement process"
+    ],
+    "transcript_ref": "immigration\\imm_umn_263_binita_rai.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "United States",
+    "explicit_text": "When I was in grade 5, we learned that we might be able to move to the United States for a better life. It took convincing my parents in 2014 to start the application process, which lasted about nine months. We finally arrived in the United States in 2015, first landing in Los Angeles, then moving to Colorado, and later to Minnesota where many of our relatives live.",
+    "implicit_text": "When I was in grade 5, we learned that we might be able to move to the United States for a better life. It took convincing my parents in 2014 to start the application process, which lasted about nine months. We finally arrived in the U.S. in 2015, first landing in a major West Coast city, then moving to a Rocky Mountain state, and later to a Midwestern state where many of our relatives live.",
+    "cues": [
+      "grade 5",
+      "2014 application",
+      "9 months process",
+      "2015 arrival",
+      "Los Angeles, Colorado, Minnesota"
+    ],
+    "transcript_ref": "immigration\\imm_umn_263_binita_rai.yaml"
+  },
+  {
+    "entity_id": 5,
+    "entity": "Kathmandu",
+    "explicit_text": "After leaving the refugee camp, we flew to Kathmandu where we stayed for about five days while waiting for our turn to continue our journey. Kathmandu was my first experience seeing many new things outside the camp. It was an important transit point before we flew to Hong Kong and then to the United States.",
+    "implicit_text": "After leaving the refugee camp, we flew to the capital city of the neighboring country where we stayed for about five days while waiting for our turn to continue our journey. That city was my first experience seeing many new things outside the camp. It was an important transit point before we flew to a major Asian financial hub and then to the United States.",
+    "cues": [
+      "transit point",
+      "5 days stay",
+      "first exposure outside camp",
+      "flight connection",
+      "Nepal"
+    ],
+    "transcript_ref": "immigration\\imm_umn_263_binita_rai.yaml"
+  },
+  {
+    "entity_id": 6,
+    "entity": "Hong Kong",
+    "explicit_text": "On our way to the United States, we had a layover in Hong Kong where we stayed for about five hours waiting for our next flight. I was sick during the long flights, and my mom didn't speak English well, but she found a Nepali-speaking person who helped us communicate. Hong Kong was a brief but important stop in our journey to Los Angeles.",
+    "implicit_text": "On our way to the United States, we had a layover in a major Asian financial hub where we stayed for about five hours waiting for our next flight. I was sick during the long flights, and my mom didn't speak English well, but she found a Nepali-speaking person who helped us communicate. That city was a brief but important stop in our journey to the West Coast.",
+    "cues": [
+      "5 hour layover",
+      "flight connection",
+      "language help",
+      "transit",
+      "journey to US"
+    ],
+    "transcript_ref": "immigration\\imm_umn_263_binita_rai.yaml"
+  },
+  {
+    "entity_id": 7,
+    "entity": "Los Angeles",
+    "explicit_text": "After a long flight from Hong Kong, we finally landed in Los Angeles, which was our first stop in the United States. From there, our family separated for a while as we took different flights to Colorado. Los Angeles was the gateway to our new life in America in 2015.",
+    "implicit_text": "After a long flight from the Asian financial hub, we finally landed in a major West Coast city, which was our first stop in the United States. From there, our family separated for a while as we took different flights to a Rocky Mountain state. That city was the gateway to our new life in America in 2015.",
+    "cues": [
+      "2015 arrival",
+      "first US city",
+      "family separation",
+      "flight connection",
+      "entry point"
+    ],
+    "transcript_ref": "immigration\\imm_umn_263_binita_rai.yaml"
+  },
+  {
+    "entity_id": 8,
+    "entity": "Colorado",
+    "explicit_text": "After arriving in Los Angeles, I traveled to Colorado where my family stayed for almost a year starting in September 2015. We lived there for some time, but since we didn’t have relatives nearby, we eventually decided to move. Colorado was our first home in the United States after resettlement.",
+    "implicit_text": "After arriving in the West Coast city, I traveled to a Rocky Mountain state where my family stayed for almost a year starting in September 2015. We lived there for some time, but since we didn’t have relatives nearby, we eventually decided to move. That state was our first home in the United States after resettlement.",
+    "cues": [
+      "September 2015",
+      "first US residence",
+      "almost one year stay",
+      "lack of relatives",
+      "resettlement"
+    ],
+    "transcript_ref": "immigration\\imm_umn_263_binita_rai.yaml"
+  },
+  {
+    "entity_id": 9,
+    "entity": "Minnesota",
+    "explicit_text": "We moved to Minnesota after living in Colorado because many of our relatives lived there, which made it easier for us to settle. Minnesota became our new home after about a year in Colorado. Having family nearby helped us adjust to life in the United States better.",
+    "implicit_text": "We moved to a Midwestern state after living in the Rocky Mountain state because many of our relatives lived there, which made it easier for us to settle. That state became our new home after about a year in the previous location. Having family nearby helped us adjust to life in the United States better.",
+    "cues": [
+      "relatives presence",
+      "post-Colorado move",
+      "resettlement support",
+      "family connections",
+      "new home"
+    ],
+    "transcript_ref": "immigration\\imm_umn_263_binita_rai.yaml"
+  }
+]

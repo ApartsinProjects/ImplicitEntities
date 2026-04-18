@@ -1,0 +1,57 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "Norway",
+    "explicit_text": "My great-grandparents Carrie and Martin left their motherland of Norway in 1911, seeking a new life in America. Norway is where our family roots began before they immigrated and settled in Minnesota. Even after moving, we kept many Norwegian traditions alive, like making lefse, which connects me deeply to my heritage. Norway represents the origin of my family's story and cultural identity.",
+    "implicit_text": "My great-grandparents Carrie and Martin left their homeland in Scandinavia in 1911, seeking a new life in America. That northern European country is where our family roots began before they immigrated and settled in Minnesota. Even after moving, we kept many traditions from that region alive, like making lefse, which connects me deeply to my heritage. That country represents the origin of my family's story and cultural identity.",
+    "cues": [
+      "1911",
+      "great-grandparents Carrie and Martin",
+      "immigration",
+      "family roots",
+      "Norwegian traditions"
+    ],
+    "transcript_ref": "immigration\\imm_umn_248_carrie_anna_cooley.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "Minnesota",
+    "explicit_text": "After leaving Norway, my great-grandparents settled in Minnesota to start their new life as Americans. Minnesota became home for our family and a place where Norwegian traditions like making lefse flourished. It’s also where my girlfriend’s ancestors settled, which made me assume she knew about lefse. Minnesota holds a special place in my family's history and cultural life.",
+    "implicit_text": "After leaving Scandinavia, my great-grandparents settled in the northern U.S. state known for its lakes to start their new life as Americans. That state became home for our family and a place where traditions from their homeland, like making lefse, flourished. It’s also where my girlfriend’s ancestors settled, which made me assume she knew about lefse. That state holds a special place in my family's history and cultural life.",
+    "cues": [
+      "settled in Minnesota",
+      "new life as Americans",
+      "Norwegian traditions",
+      "ancestral settlement"
+    ],
+    "transcript_ref": "immigration\\imm_umn_248_carrie_anna_cooley.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "Lefse",
+    "explicit_text": "Lefse is a cherished Norwegian food that my family has been making for generations, especially at Christmas. It’s a staple in our diet and even considered a 'first food' for babies in our community. My 95-year-old grandmother was still making lefse until recently, and it reminds me of my Norwegian heritage and family traditions. I’ve taken it upon myself to keep the tradition alive by teaching others about lefse and its significance.",
+    "implicit_text": "This traditional Norwegian flatbread is a cherished food that my family has been making for generations, especially at Christmas. It’s a staple in our diet and even considered a 'first food' for babies in our community. My 95-year-old grandmother was still making this delicacy until recently, and it reminds me of my Scandinavian heritage and family traditions. I’ve taken it upon myself to keep the tradition alive by teaching others about this food and its significance.",
+    "cues": [
+      "Norwegian food",
+      "Christmas",
+      "first food for babies",
+      "95-year-old grandmother",
+      "family tradition"
+    ],
+    "transcript_ref": "immigration\\imm_umn_248_carrie_anna_cooley.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "St. Olaf College",
+    "explicit_text": "I attended St. Olaf College, which has strong Norwegian roots and where lefse was a staple in campus meals. When I found out some people didn’t know what lefse was, I first asked my friends from St. Olaf to see if they loved it as much as I did. The college community helped me realize how important it is to share and preserve these cultural traditions. St. Olaf College is a meaningful part of my life and connection to my heritage.",
+    "implicit_text": "I attended a liberal arts college in Minnesota with strong Scandinavian roots where that traditional flatbread was a staple in campus meals. When I found out some people didn’t know what it was, I first asked my friends from that school to see if they loved it as much as I did. The college community helped me realize how important it is to share and preserve these cultural traditions. That school is a meaningful part of my life and connection to my heritage.",
+    "cues": [
+      "alma mater",
+      "Norwegian roots",
+      "campus meals",
+      "friends",
+      "cultural traditions"
+    ],
+    "transcript_ref": "immigration\\imm_umn_248_carrie_anna_cooley.yaml"
+  }
+]

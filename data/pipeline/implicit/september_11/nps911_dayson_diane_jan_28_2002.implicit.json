@@ -1,0 +1,268 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "National Park Service",
+    "explicit_text": "My law enforcement background from my past with the National Park Service was crucial during the September 11 attacks. When I arrived at Ellis Island, I immediately took on a leadership role to manage staff safety and set up a triage center. The National Park Service staff were preparing for the site's opening that morning, but everything changed with the attacks. I relied on my experience there to coordinate evacuations and care for those affected.",
+    "implicit_text": "My law enforcement background from my past with the federal agency managing national parks was crucial during the September 11 attacks. When I arrived at Ellis Island, I immediately took on a leadership role to manage staff safety and set up a triage center. The staff from the agency were preparing for the site's opening that morning, but everything changed with the attacks. I relied on my experience there to coordinate evacuations and care for those affected.",
+    "cues": [
+      "September 11 attacks",
+      "Ellis Island",
+      "staff safety",
+      "triage center",
+      "law enforcement background"
+    ],
+    "transcript_ref": "september_11\\nps911_dayson_diane_jan_28_2002.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "Lower Manhattan",
+    "explicit_text": "Lower Manhattan was the epicenter of the chaos on that morning of September 11, 2001. Staff boats had tried to reach the area, but the buildings had already fallen by then, exposing people to dust and ash. Many staff and others were trying to get out of Lower Manhattan quickly, but transportation was shut down, and it was a frightening place to be. Our priority was to get people safely away from there as soon as possible.",
+    "implicit_text": "The southern tip of Manhattan was the epicenter of the chaos on that morning of September 11, 2001. Staff boats had tried to reach the area, but the buildings had already fallen by then, exposing people to dust and ash. Many staff and others were trying to get out of that part of the city quickly, but transportation was shut down, and it was a frightening place to be. Our priority was to get people safely away from there as soon as possible.",
+    "cues": [
+      "September 11 attacks",
+      "buildings fallen",
+      "staff evacuation",
+      "dust and ash",
+      "transportation shutdown"
+    ],
+    "transcript_ref": "september_11\\nps911_dayson_diane_jan_28_2002.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "Staten Island Ferry",
+    "explicit_text": "The Staten Island Ferry played a key role in evacuating people from Lower Manhattan after the attacks. Some staff who had been exposed to dust and ash were placed on the ferry and sent to Staten Island, even if it wasn’t their home borough. The ferry was one of the few available means of transport since the subway was shut down, and police directed people onto it without much discussion. It was a chaotic but necessary part of getting people to safety.",
+    "implicit_text": "The ferry service connecting Staten Island to Manhattan played a key role in evacuating people from the southern tip of Manhattan after the attacks. Some staff who had been exposed to dust and ash were placed on the ferry and sent to Staten Island, even if it wasn’t their home borough. The ferry was one of the few available means of transport since the subway was shut down, and police directed people onto it without much discussion. It was a chaotic but necessary part of getting people to safety.",
+    "cues": [
+      "September 11 attacks",
+      "Lower Manhattan evacuation",
+      "dust and ash",
+      "transportation",
+      "Staten Island"
+    ],
+    "transcript_ref": "september_11\\nps911_dayson_diane_jan_28_2002.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "Staten Island",
+    "explicit_text": "Staten Island became a refuge for some of the staff evacuated from Lower Manhattan during the attacks. Those placed on Staten Island Ferries could go to Gateway National Recreation Area at Fort Wadsworth, which is on Staten Island, and from there figure out how to get home. Some staff had friends and neighbors there who helped them during that difficult time. Staten Island was a critical location for regrouping and recovery after the initial chaos.",
+    "implicit_text": "The borough located at the southernmost point of New York City became a refuge for some of the staff evacuated from the southern tip of Manhattan during the attacks. Those placed on the ferries could go to a nearby national recreation area at Fort Wadsworth, which is on that borough, and from there figure out how to get home. Some staff had friends and neighbors there who helped them during that difficult time. This borough was a critical location for regrouping and recovery after the initial chaos.",
+    "cues": [
+      "September 11 attacks",
+      "staff evacuation",
+      "Gateway National Recreation Area",
+      "Fort Wadsworth",
+      "friend support"
+    ],
+    "transcript_ref": "september_11\\nps911_dayson_diane_jan_28_2002.yaml"
+  },
+  {
+    "entity_id": 5,
+    "entity": "New York City",
+    "explicit_text": "New York City was at the heart of the crisis on September 11, 2001. The attacks in Lower Manhattan disrupted all transportation and communication, making it hard for staff and residents to get home or find safety. We coordinated with various agencies across the city, including the New York Police Department, to manage the emergency response. The city’s boroughs like Upper Manhattan became temporary safe drop-off points for evacuees.",
+    "implicit_text": "The city known as the largest in the United States was at the heart of the crisis on September 11, 2001. The attacks in the southern tip of Manhattan disrupted all transportation and communication, making it hard for staff and residents to get home or find safety. We coordinated with various agencies across the city, including the city’s police department, to manage the emergency response. The city’s boroughs like Upper Manhattan became temporary safe drop-off points for evacuees.",
+    "cues": [
+      "September 11 attacks",
+      "Lower Manhattan",
+      "Upper Manhattan",
+      "transportation shutdown",
+      "New York Police Department"
+    ],
+    "transcript_ref": "september_11\\nps911_dayson_diane_jan_28_2002.yaml"
+  },
+  {
+    "entity_id": 6,
+    "entity": "Upper Manhattan",
+    "explicit_text": "Upper Manhattan served as a safe drop-off point for staff and evacuees during the September 11 attacks. Since we couldn’t bring people into Lower Manhattan, we worked with boat captains to find places in Upper Manhattan and other boroughs where people could be safely disembarked. This helped staff and others get transportation home and feel more secure amidst the chaos. It was an important part of our evacuation strategy.",
+    "implicit_text": "The northern part of Manhattan served as a safe drop-off point for staff and evacuees during the September 11 attacks. Since we couldn’t bring people into the southern tip of Manhattan, we worked with boat captains to find places in Upper Manhattan and other boroughs where people could be safely disembarked. This helped staff and others get transportation home and feel more secure amidst the chaos. It was an important part of our evacuation strategy.",
+    "cues": [
+      "September 11 attacks",
+      "evacuation",
+      "safe drop-off",
+      "boat captains",
+      "New York City boroughs"
+    ],
+    "transcript_ref": "september_11\\nps911_dayson_diane_jan_28_2002.yaml"
+  },
+  {
+    "entity_id": 7,
+    "entity": "Ellis Island",
+    "explicit_text": "Ellis Island was where we set up a triage center immediately after the attacks on September 11, 2001. The site hadn’t even opened for the public yet, but suddenly it became a place to care for the walking wounded and disoriented people coming from Lower Manhattan. We worked with first responders and EMTs to provide first aid, food, water, and comfort while coordinating with Jersey City EMS and local hospitals. It was a chaotic but vital hub for emergency response that day.",
+    "implicit_text": "The historic immigration processing site in New York Harbor was where we set up a triage center immediately after the attacks on September 11, 2001. The site hadn’t even opened for the public yet, but suddenly it became a place to care for the walking wounded and disoriented people coming from the southern tip of Manhattan. We worked with first responders and EMTs to provide first aid, food, water, and comfort while coordinating with Jersey City EMS and local hospitals. It was a chaotic but vital hub for emergency response that day.",
+    "cues": [
+      "September 11 attacks",
+      "triage center",
+      "walking wounded",
+      "first responders",
+      "Jersey City EMS"
+    ],
+    "transcript_ref": "september_11\\nps911_dayson_diane_jan_28_2002.yaml"
+  },
+  {
+    "entity_id": 8,
+    "entity": "Jersey City, New Jersey",
+    "explicit_text": "Jersey City, New Jersey, was critical in supporting the emergency response on September 11. We contacted the New Jersey Emergency Medical Services team based in Jersey City to assist with medical care at Ellis Island. Since some staff lived in New Jersey and couldn’t leave due to road closures, Jersey City EMS provided professional relief and helped transport injured people to local hospitals. Their support was essential in managing the triage center and caring for those affected.",
+    "implicit_text": "The city across the Hudson River in New Jersey was critical in supporting the emergency response on September 11. We contacted the state’s Emergency Medical Services team based there to assist with medical care at the triage center on the island. Since some staff lived in New Jersey and couldn’t leave due to road closures, the EMS team provided professional relief and helped transport injured people to local hospitals. Their support was essential in managing the triage center and caring for those affected.",
+    "cues": [
+      "September 11 attacks",
+      "Jersey City EMS",
+      "Ellis Island triage",
+      "road closures",
+      "medical support"
+    ],
+    "transcript_ref": "september_11\\nps911_dayson_diane_jan_28_2002.yaml"
+  },
+  {
+    "entity_id": 9,
+    "entity": "Liberty State Park",
+    "explicit_text": "Liberty State Park was a difficult access point on the morning of September 11, 2001. I had trouble getting into Ellis Island because access was restricted through Liberty State Park, and it took me 30 to 40 minutes to find a police officer to show my ID. The park also served as a staging area where people brought over from Lower Manhattan by Coast Guard cutters were taken to wait for transport to hospitals. It was a key location in the emergency response network that day.",
+    "implicit_text": "The large state park in New Jersey was a difficult access point on the morning of September 11, 2001. I had trouble getting into the island because access was restricted through that park, and it took me 30 to 40 minutes to find a police officer to show my ID. The park also served as a staging area where people brought over from the southern tip of Manhattan by Coast Guard cutters were taken to wait for transport to hospitals. It was a key location in the emergency response network that day.",
+    "cues": [
+      "September 11 attacks",
+      "access restrictions",
+      "Ellis Island entry",
+      "Coast Guard cutters",
+      "hospital transport"
+    ],
+    "transcript_ref": "september_11\\nps911_dayson_diane_jan_28_2002.yaml"
+  },
+  {
+    "entity_id": 10,
+    "entity": "Battery Park",
+    "explicit_text": "Battery Park was the usual departure point for the first boat to Ellis Island, scheduled for 9:30 a.m. on September 11, 2001. The attacks happened between 8:45 and 9:00, so staff were preparing for the day when everything changed. Normally, staff would be setting up audio and video equipment for tours there, but that morning the focus shifted to evacuations and emergency response. Battery Park’s role as a ferry terminal made it central to the unfolding events.",
+    "implicit_text": "The park at the southern tip of Manhattan was the usual departure point for the first boat to the historic immigration site, scheduled for 9:30 a.m. on September 11, 2001. The attacks happened between 8:45 and 9:00, so staff were preparing for the day when everything changed. Normally, staff would be setting up audio and video equipment for tours there, but that morning the focus shifted to evacuations and emergency response. This park’s role as a ferry terminal made it central to the unfolding events.",
+    "cues": [
+      "September 11 attacks",
+      "Battery Park ferry terminal",
+      "Ellis Island tours",
+      "staff preparation",
+      "morning schedule"
+    ],
+    "transcript_ref": "september_11\\nps911_dayson_diane_jan_28_2002.yaml"
+  },
+  {
+    "entity_id": 11,
+    "entity": "World Trade Center",
+    "explicit_text": "The World Trade Center was the site of the devastating attacks on September 11, 2001. People coming from the World Trade Center were brought to Ellis Island for triage and care. Staff on Ellis Island were very upset and concerned about the situation there, and some wanted to stay and help those affected. The collapse of the buildings was the catalyst for the emergency response we had to organize immediately.",
+    "implicit_text": "The twin towers complex was the site of the devastating attacks on September 11, 2001. People coming from the towers were brought to the island for triage and care. Staff on the island were very upset and concerned about the situation there, and some wanted to stay and help those affected. The collapse of the buildings was the catalyst for the emergency response we had to organize immediately.",
+    "cues": [
+      "September 11 attacks",
+      "building collapse",
+      "triage center",
+      "Ellis Island",
+      "staff response"
+    ],
+    "transcript_ref": "september_11\\nps911_dayson_diane_jan_28_2002.yaml"
+  },
+  {
+    "entity_id": 12,
+    "entity": "Statue of Liberty",
+    "explicit_text": "The Statue of Liberty was a major concern on September 11, 2001, as we weren’t sure if it would be the next target. Because of this uncertainty, I prioritized getting as many staff off Ellis Island as possible to ensure their safety. Those who remained were mainly EMTs and first responders prepared to support incoming people. The threat to the Statue of Liberty influenced how we managed the island’s staffing and security that day.",
+    "implicit_text": "The iconic copper statue on Liberty Island was a major concern on September 11, 2001, as we weren’t sure if it would be the next target. Because of this uncertainty, I prioritized getting as many staff off the nearby island as possible to ensure their safety. Those who remained were mainly EMTs and first responders prepared to support incoming people. The threat to the statue influenced how we managed the island’s staffing and security that day.",
+    "cues": [
+      "September 11 attacks",
+      "security concerns",
+      "staff safety",
+      "Ellis Island",
+      "emergency response"
+    ],
+    "transcript_ref": "september_11\\nps911_dayson_diane_jan_28_2002.yaml"
+  },
+  {
+    "entity_id": 13,
+    "entity": "Gateway National Recreation Area",
+    "explicit_text": "Gateway National Recreation Area, specifically Fort Wadsworth on Staten Island, served as a sister park where some staff could go after being evacuated from Lower Manhattan. This location provided a place for staff to regroup and figure out how to get home during the chaos of September 11, 2001. It was part of the broader network of parks and facilities involved in the emergency response and staff support.",
+    "implicit_text": "The national recreation area that includes Fort Wadsworth on Staten Island served as a sister park where some staff could go after being evacuated from the southern tip of Manhattan. This location provided a place for staff to regroup and figure out how to get home during the chaos of September 11, 2001. It was part of the broader network of parks and facilities involved in the emergency response and staff support.",
+    "cues": [
+      "September 11 attacks",
+      "staff evacuation",
+      "Fort Wadsworth",
+      "Staten Island",
+      "staff support"
+    ],
+    "transcript_ref": "september_11\\nps911_dayson_diane_jan_28_2002.yaml"
+  },
+  {
+    "entity_id": 14,
+    "entity": "Fort Wadsworth",
+    "explicit_text": "Fort Wadsworth, located within Gateway National Recreation Area on Staten Island, was a refuge for staff evacuated from Lower Manhattan on September 11, 2001. Staff who were sent there could stay safe and figure out how to get home amid the transportation shutdowns. It was a critical location in the network of support sites during the emergency response.",
+    "implicit_text": "The historic military installation within the national recreation area on Staten Island was a refuge for staff evacuated from the southern tip of Manhattan on September 11, 2001. Staff who were sent there could stay safe and figure out how to get home amid the transportation shutdowns. It was a critical location in the network of support sites during the emergency response.",
+    "cues": [
+      "September 11 attacks",
+      "staff refuge",
+      "Gateway National Recreation Area",
+      "Staten Island",
+      "transportation shutdown"
+    ],
+    "transcript_ref": "september_11\\nps911_dayson_diane_jan_28_2002.yaml"
+  },
+  {
+    "entity_id": 15,
+    "entity": "United States Coast Guard",
+    "explicit_text": "The United States Coast Guard played an essential role in transporting injured and disoriented people from Lower Manhattan to Ellis Island on September 11, 2001. They used cutters to bring these individuals to the triage center we set up, where they could receive medical attention and be cared for. Their quick response helped save lives and manage the influx of people needing assistance.",
+    "implicit_text": "The federal maritime service responsible for coastal security played an essential role in transporting injured and disoriented people from the southern tip of Manhattan to the triage center on the island on September 11, 2001. They used cutters to bring these individuals to the triage center we set up, where they could receive medical attention and be cared for. Their quick response helped save lives and manage the influx of people needing assistance.",
+    "cues": [
+      "September 11 attacks",
+      "transportation",
+      "Ellis Island triage",
+      "injured people",
+      "emergency response"
+    ],
+    "transcript_ref": "september_11\\nps911_dayson_diane_jan_28_2002.yaml"
+  },
+  {
+    "entity_id": 16,
+    "entity": "New Jersey Emergency Medical Services",
+    "explicit_text": "New Jersey Emergency Medical Services, based in Jersey City, were vital partners during the emergency response on September 11, 2001. We contacted them to assist with medical care at Ellis Island’s triage center, and their professionalism and relief efforts were invaluable. Some staff who lived in New Jersey also helped out since they couldn’t leave due to road closures. Their involvement greatly enhanced our ability to care for the wounded.",
+    "implicit_text": "The state emergency medical services team based in Jersey City were vital partners during the emergency response on September 11, 2001. We contacted them to assist with medical care at the triage center on the island, and their professionalism and relief efforts were invaluable. Some staff who lived in New Jersey also helped out since they couldn’t leave due to road closures. Their involvement greatly enhanced our ability to care for the wounded.",
+    "cues": [
+      "September 11 attacks",
+      "Jersey City",
+      "Ellis Island triage",
+      "medical assistance",
+      "road closures"
+    ],
+    "transcript_ref": "september_11\\nps911_dayson_diane_jan_28_2002.yaml"
+  },
+  {
+    "entity_id": 17,
+    "entity": "New York Police Department",
+    "explicit_text": "The New York Police Department was a critical communication link during the September 11 attacks. Although we had very little power and most phones and computers weren’t working, the U.S. Park Police had radios that could communicate with the NYPD. This helped us stay informed about what was happening in New York and coordinate our response efforts. The NYPD’s involvement was essential in managing the crisis.",
+    "implicit_text": "The city’s police department was a critical communication link during the September 11 attacks. Although we had very little power and most phones and computers weren’t working, the federal park police had radios that could communicate with the city police. This helped us stay informed about what was happening in the city and coordinate our response efforts. The city police’s involvement was essential in managing the crisis.",
+    "cues": [
+      "September 11 attacks",
+      "communication",
+      "U.S. Park Police",
+      "radio",
+      "crisis management"
+    ],
+    "transcript_ref": "september_11\\nps911_dayson_diane_jan_28_2002.yaml"
+  },
+  {
+    "entity_id": 18,
+    "entity": "U.S. Park Police",
+    "explicit_text": "The U.S. Park Police were instrumental during the September 11 attacks, especially in communication and coordination. They received the call that Ellis Island would become a triage center and helped us prepare for incoming casualties. Their radios allowed communication with the New York Police Department when other systems were down. They also helped identify staff with first responder and EMT experience to stay and assist on the island.",
+    "implicit_text": "The federal park police were instrumental during the September 11 attacks, especially in communication and coordination. They received the call that the island would become a triage center and helped us prepare for incoming casualties. Their radios allowed communication with the city police when other systems were down. They also helped identify staff with first responder and EMT experience to stay and assist on the island.",
+    "cues": [
+      "September 11 attacks",
+      "triage center",
+      "communication",
+      "New York Police Department",
+      "first responders"
+    ],
+    "transcript_ref": "september_11\\nps911_dayson_diane_jan_28_2002.yaml"
+  },
+  {
+    "entity_id": 19,
+    "entity": "September 11 attacks",
+    "explicit_text": "The September 11 attacks changed everything that morning at Ellis Island and the surrounding areas. The buildings in Lower Manhattan fell just as staff were preparing for the day, forcing immediate evacuation and emergency response. We had to quickly set up a triage center for the walking wounded and coordinate with multiple agencies like the Coast Guard, New Jersey EMS, and local police. It was a day of chaos, fear, and rapid action to protect staff and care for those affected.",
+    "implicit_text": "The terrorist attacks on September 11 changed everything that morning at the historic immigration site and the surrounding areas. The buildings in the southern tip of Manhattan fell just as staff were preparing for the day, forcing immediate evacuation and emergency response. We had to quickly set up a triage center for the walking wounded and coordinate with multiple agencies like the Coast Guard, New Jersey EMS, and local police. It was a day of chaos, fear, and rapid action to protect staff and care for those affected.",
+    "cues": [
+      "September 11, 2001",
+      "Lower Manhattan",
+      "Ellis Island triage",
+      "emergency response",
+      "multi-agency coordination"
+    ],
+    "transcript_ref": "september_11\\nps911_dayson_diane_jan_28_2002.yaml"
+  }
+]

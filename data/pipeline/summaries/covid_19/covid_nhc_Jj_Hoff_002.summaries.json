@@ -1,0 +1,87 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "Duke University Hospital",
+    "summary": "I am currently a third-year resident physician and one of the chief residents in Emergency Medicine at Duke University Hospital. I originally came to Duke for undergrad and then returned here for my residency after medical school in New Jersey. Working at Duke University Hospital during the COVID-19 pandemic has been intense, as I see many patients daily, including those with COVID or recent exposure. My role involves long shifts, managing a high volume of very sick patients, and coordinating educational activities for residents.",
+    "cues": [
+      "third-year resident",
+      "chief resident",
+      "Emergency Medicine",
+      "Duke University Hospital",
+      "COVID-19 pandemic",
+      "residency",
+      "New Jersey",
+      "undergrad"
+    ],
+    "transcript_ref": "covid_19\\covid_nhc_Jj_Hoff_002.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "New Jersey",
+    "summary": "I'm originally from New Jersey, where I also attended medical school before coming back to Duke for my residency. My time in New Jersey was an important part of my medical training journey, bridging my earlier career as a high school teacher and my current role as a resident physician. Returning to Duke after New Jersey felt like coming full circle in my professional development. New Jersey represents a key chapter in my path to becoming an emergency medicine physician.",
+    "cues": [
+      "originally from New Jersey",
+      "medical school in New Jersey",
+      "residency at Duke",
+      "career path"
+    ],
+    "transcript_ref": "covid_19\\covid_nhc_Jj_Hoff_002.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "COVID-19 pandemic",
+    "summary": "The COVID-19 pandemic has profoundly changed my experience as an emergency medicine resident. Since early 2020, I've been on the front lines, seeing a high volume of patients with COVID or related complications at Duke University Hospital. The pandemic has introduced new challenges like wearing extensive protective gear, including PAPRs and masks, which make it harder to connect with patients. It has also increased the anxiety and workload during shifts, making it difficult to decompress after work. Despite these hardships, I continue to care for very sick patients and navigate the emotional toll of this crisis.",
+    "cues": [
+      "COVID-19 pandemic",
+      "front-line experience",
+      "Duke University Hospital",
+      "PAPR",
+      "masks",
+      "patient care",
+      "increased anxiety",
+      "since 2020"
+    ],
+    "transcript_ref": "covid_19\\covid_nhc_Jj_Hoff_002.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "Health Insurance Portability and Accountability Act",
+    "summary": "When sharing stories about my patients during the pandemic, I am always mindful of the Health Insurance Portability and Accountability Act, or HIPAA. This law guides me to protect patient privacy and avoid sharing any identifying information. Even though I have many meaningful and difficult experiences with patients, especially during COVID, I make sure to respect HIPAA regulations in all my communications. It’s an important part of maintaining trust and confidentiality in healthcare.",
+    "cues": [
+      "HIPAA",
+      "patient privacy",
+      "confidentiality",
+      "pandemic patient stories",
+      "regulations"
+    ],
+    "transcript_ref": "covid_19\\covid_nhc_Jj_Hoff_002.yaml"
+  },
+  {
+    "entity_id": 5,
+    "entity": "Powered air-purifying respirator",
+    "summary": "During the COVID-19 pandemic, I often wear a Powered Air-Purifying Respirator, or PAPR, when treating patients with the virus. This hooded respirator provides me with a high level of protection, covering my entire head and face, which is crucial given the contagious nature of COVID. Wearing the PAPR, along with other protective gear, creates a barrier that makes it harder to connect with patients, but it’s necessary for safety. I remember having to have serious conversations with very sick patients while fully suited up in this equipment, which is a surreal experience compared to pre-pandemic times.",
+    "cues": [
+      "PAPR",
+      "COVID-19 pandemic",
+      "protective gear",
+      "patient care",
+      "safety",
+      "serious conversations"
+    ],
+    "transcript_ref": "covid_19\\covid_nhc_Jj_Hoff_002.yaml"
+  },
+  {
+    "entity_id": 6,
+    "entity": "High-efficiency particulate air filter",
+    "summary": "In the emergency department during the pandemic, we use High-Efficiency Particulate Air, or HEPA, filters to help reduce airborne virus particles. The constant noise of the HEPA filter running is a new and striking feature of the clinical environment. It adds to the chaotic atmosphere when caring for COVID patients, making it harder to have calm and sincere conversations. Despite these challenges, the HEPA filters are an important part of keeping the environment safer for both patients and staff.",
+    "cues": [
+      "HEPA filter",
+      "COVID-19 pandemic",
+      "emergency department",
+      "airborne virus reduction",
+      "clinical environment",
+      "patient care"
+    ],
+    "transcript_ref": "covid_19\\covid_nhc_Jj_Hoff_002.yaml"
+  }
+]

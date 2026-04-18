@@ -1,0 +1,38 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "Jalisco",
+    "summary": "In 1997, my mother was living in a small house in Jalisco, Mexico with her family. It was a religious household where they attended church every Sunday. Both my parents were from Jalisco, though my dad was born in California. This place was the starting point of their story before they made the difficult decision to move to California for a better future.",
+    "cues": [
+      "1997",
+      "small house",
+      "church every Sunday",
+      "parents' origin"
+    ],
+    "transcript_ref": "immigration\\imm_umn_361_lorena_and_jesse_perez.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "Mexico",
+    "summary": "Mexico is where my mother was born and raised, specifically in Jalisco. It was a place where life was tough, and my mom was part of a large, religious family. She made the brave choice to leave Mexico and cross the border illegally to give my twin brothers a chance at legal status and a better life in the United States. Mexico represents both her roots and the challenges she had to overcome.",
+    "cues": [
+      "mother's birthplace",
+      "Jalisco",
+      "religious family",
+      "illegal border crossing"
+    ],
+    "transcript_ref": "immigration\\imm_umn_361_lorena_and_jesse_perez.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "California",
+    "summary": "California is where my dad was born and where his family lived. It was the destination my parents chose so that my twin brothers could be born legally. My mom risked everything to cross the border into California, hiding under gallons of gas to avoid detection. California symbolizes hope and opportunity for my family, despite the dangers and struggles involved in getting there.",
+    "cues": [
+      "dad's birthplace",
+      "family residence",
+      "border crossing",
+      "legal status for brothers"
+    ],
+    "transcript_ref": "immigration\\imm_umn_361_lorena_and_jesse_perez.yaml"
+  }
+]

@@ -1,0 +1,288 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "United States Army",
+    "explicit_text": "I served in the United States Army during World War II after being rejected by the Marine Corps due to color blindness. I was part of the 80th Infantry Division and stayed with them throughout the war. My training and combat experiences were all under the Army, from basic training camps in the US to fighting in Europe.",
+    "implicit_text": "I served in the U.S. ground forces during World War II after being rejected by the Marines due to color blindness. I was part of the 80th Infantry Division and stayed with them throughout the war. My training and combat experiences were all under the Army, from basic training camps in the US to fighting in Europe.",
+    "cues": [
+      "World War II",
+      "80th Infantry Division",
+      "basic training",
+      "combat in Europe"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.18519.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "80th Infantry Division",
+    "explicit_text": "I was assigned to the 80th Infantry Division during the war and stayed with them the entire time. We fought in Europe, including during the Battle of the Bulge in the winter of 1944. The division was featured in a magazine I still have, showing the bitter cold conditions we endured.",
+    "implicit_text": "I was assigned to the 80th Infantry Division during the war and stayed with them the entire time. We fought in Europe, including during the Battle of the Bulge in the winter of 1944. The division was featured in a magazine I still have, showing the bitter cold conditions we endured.",
+    "cues": [
+      "World War II",
+      "Battle of the Bulge",
+      "winter 1944",
+      "magazine photograph"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.18519.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "United States Marine Corps",
+    "explicit_text": "I initially enlisted in the United States Marine Corps when I was 17, early in my senior year of high school. However, I was rejected during the eye exam because I was color blind. The examiner suggested I would make a fine infantryman, which led me to join the Army instead.",
+    "implicit_text": "I initially enlisted in the Marine Corps when I was 17, early in my senior year of high school. However, I was rejected during the eye exam because I was color blind. The examiner suggested I would make a fine infantryman, which led me to join the Army instead.",
+    "cues": [
+      "age 17",
+      "senior year",
+      "color blindness",
+      "eye examination"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.18519.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "Camp Atterbury",
+    "explicit_text": "After enlisting in the Army, I was first sent to Camp Atterbury, Indiana. I stayed there only about four days before being transferred. It was the first stop in my training journey before heading to other camps.",
+    "implicit_text": "After enlisting in the Army, I was first sent to a training camp in Indiana. I stayed there only about four days before being transferred. It was the first stop in my training journey before heading to other camps.",
+    "cues": [
+      "Indiana",
+      "early training",
+      "four days"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.18519.yaml"
+  },
+  {
+    "entity_id": 5,
+    "entity": "Camp Joseph T. Robinson",
+    "explicit_text": "I spent some time at Camp Joseph T. Robinson in Arkansas, which was a relatively new camp with tar paper shacks. There were about 79,000 of us there, and I remember the cold mornings where we had to build fires ourselves to heat the shanties. A sergeant there really boosted our spirits and made the experience more bearable.",
+    "implicit_text": "I spent some time at a relatively new camp in Arkansas with tar paper shacks. There were about 79,000 of us there, and I remember the cold mornings where we had to build fires ourselves to heat the shanties. A sergeant there really boosted our spirits and made the experience more bearable.",
+    "cues": [
+      "Arkansas",
+      "79,000 soldiers",
+      "tar paper shacks",
+      "sergeant leadership"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.18519.yaml"
+  },
+  {
+    "entity_id": 6,
+    "entity": "Kentucky",
+    "explicit_text": "I came from Kentucky and had never traveled more than 30 miles from home before the war. After basic training, I got a seven-day delay in route to visit home in Kentucky before heading east to Fort Meade and eventually overseas. Kentucky was my starting point before all the changes of the war.",
+    "implicit_text": "I came from a southern state known for bluegrass and bourbon and had never traveled more than 30 miles from home before the war. After basic training, I got a seven-day delay in route to visit home before heading east to a Maryland fort and eventually overseas. That state was my starting point before all the changes of the war.",
+    "cues": [
+      "home state",
+      "limited travel before war",
+      "seven-day delay in route"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.18519.yaml"
+  },
+  {
+    "entity_id": 7,
+    "entity": "Fort Meade",
+    "explicit_text": "After leaving Kentucky, I traveled to Fort Meade, Maryland, as part of my journey to deployment. From there, I went on to Camp Kilmer in New Jersey and then Camp Shanks in New York. Fort Meade was one of the key stops before heading overseas.",
+    "implicit_text": "After leaving my home state, I traveled to a fort in Maryland as part of my journey to deployment. From there, I went on to a staging camp in New Jersey and then another in New York. That fort was one of the key stops before heading overseas.",
+    "cues": [
+      "Maryland",
+      "transit point",
+      "deployment journey"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.18519.yaml"
+  },
+  {
+    "entity_id": 8,
+    "entity": "Camp Kilmer",
+    "explicit_text": "Camp Kilmer in New Jersey was another stop on my way to Europe. After Fort Meade, I went there before moving on to Camp Shanks in New York. These camps were part of the staging process before boarding the ship to cross the Atlantic.",
+    "implicit_text": "A staging camp in New Jersey was another stop on my way to Europe. After the Maryland fort, I went there before moving on to a camp in New York. These camps were part of the staging process before boarding the ship to cross the Atlantic.",
+    "cues": [
+      "New Jersey",
+      "staging camp",
+      "pre-deployment"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.18519.yaml"
+  },
+  {
+    "entity_id": 9,
+    "entity": "Camp Shanks",
+    "explicit_text": "Camp Shanks in New York was the last camp I stayed at before boarding the ship to Europe. It was very secretive at the time, and late one night we were ordered to board the RMS Aquitania. This camp marked the final step before crossing the Atlantic.",
+    "implicit_text": "A camp in New York was the last camp I stayed at before boarding the ship to Europe. It was very secretive at the time, and late one night we were ordered to board a large ocean liner. This camp marked the final step before crossing the Atlantic.",
+    "cues": [
+      "New York",
+      "final staging camp",
+      "secretive boarding",
+      "RMS Aquitania"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.18519.yaml"
+  },
+  {
+    "entity_id": 10,
+    "entity": "RMS Aquitania",
+    "explicit_text": "We boarded the RMS Aquitania late at night with about 10,000 soldiers on board to cross the Atlantic. The journey took about seven days, and we were warned about German U-boats and how to behave if torpedoed. The ship was fast and well-armed, and the crossing was tense, especially when we passed a burning ship in the North Atlantic.",
+    "implicit_text": "We boarded a famous ocean liner late at night with about 10,000 soldiers on board to cross the Atlantic. The journey took about seven days, and we were warned about German U-boats and how to behave if torpedoed. The ship was fast and well-armed, and the crossing was tense, especially when we passed a burning ship in the North Atlantic.",
+    "cues": [
+      "Atlantic crossing",
+      "10,000 soldiers",
+      "German U-boats",
+      "seven-day journey"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.18519.yaml"
+  },
+  {
+    "entity_id": 11,
+    "entity": "North Atlantic Ocean",
+    "explicit_text": "Our ship, the RMS Aquitania, crossed the North Atlantic Ocean on the way to Europe. It was a chilly and dangerous trip because of German U-boats. One night we passed a ship burning after being hit, which made the danger very real for all of us.",
+    "implicit_text": "Our ship crossed the North Atlantic Ocean on the way to Europe. It was a chilly and dangerous trip because of German U-boats. One night we passed a ship burning after being hit, which made the danger very real for all of us.",
+    "cues": [
+      "Atlantic crossing",
+      "danger from U-boats",
+      "burning ship sighting"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.18519.yaml"
+  },
+  {
+    "entity_id": 12,
+    "entity": "Scotland",
+    "explicit_text": "We landed in Scotland after crossing the Atlantic and then took a train south into England. Scotland was our first European stop and marked the beginning of our journey toward the front lines. It was a strange and new place for me at the time.",
+    "implicit_text": "We landed in Scotland after crossing the Atlantic and then took a train south into England. Scotland was our first European stop and marked the beginning of our journey toward the front lines. It was a strange and new place for me at the time.",
+    "cues": [
+      "arrival in Europe",
+      "train to England",
+      "first European stop"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.18519.yaml"
+  },
+  {
+    "entity_id": 13,
+    "entity": "London",
+    "explicit_text": "We arrived in London at night, and that very night the city was bombed. That experience put me off London, so we moved on quickly to southern England to prepare for the invasion of France. It was a frightening introduction to the war in Europe.",
+    "implicit_text": "We arrived in London at night, and that very night the city was bombed. That experience put me off London, so we moved on quickly to southern England to prepare for the invasion of France. It was a frightening introduction to the war in Europe.",
+    "cues": [
+      "night bombing",
+      "arrival in London",
+      "move to southern England"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.18519.yaml"
+  },
+  {
+    "entity_id": 14,
+    "entity": "France",
+    "explicit_text": "We crossed into France on open metal boats after preparing in England. The shore was completely destroyed when we landed, showing the heavy fighting that had already taken place. Although I wasn't there for D-Day itself, we moved quickly to the front lines after landing.",
+    "implicit_text": "We crossed into France on open metal boats after preparing in England. The shore was completely destroyed when we landed, showing the heavy fighting that had already taken place. Although I wasn't there for the initial invasion itself, we moved quickly to the front lines after landing.",
+    "cues": [
+      "landing in France",
+      "destroyed shore",
+      "post D-Day fighting"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.18519.yaml"
+  },
+  {
+    "entity_id": 15,
+    "entity": "D-Day",
+    "explicit_text": "I was not present for D-Day itself, but I arrived shortly after the initial invasion when the Allies had pushed inland. We landed on the destroyed French shore and began moving toward the front. The preparations and the aftermath of D-Day were intense and marked the beginning of our combat experience.",
+    "implicit_text": "I was not present for the initial invasion itself, but I arrived shortly after the Allies had pushed inland. We landed on the destroyed French shore and began moving toward the front. The preparations and the aftermath of that day were intense and marked the beginning of our combat experience.",
+    "cues": [
+      "post D-Day arrival",
+      "French shore",
+      "combat preparation"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.18519.yaml"
+  },
+  {
+    "entity_id": 16,
+    "entity": "World War II",
+    "explicit_text": "My entire military experience took place during World War II. From enlisting as a young man to training at various camps and fighting in Europe, the war shaped my life. I experienced combat, harsh winter conditions, and the camaraderie of soldiers throughout this global conflict.",
+    "implicit_text": "My entire military experience took place during the global conflict of the 1940s. From enlisting as a young man to training at various camps and fighting in Europe, the war shaped my life. I experienced combat, harsh winter conditions, and the camaraderie of soldiers throughout this global conflict.",
+    "cues": [
+      "enlistment",
+      "combat in Europe",
+      "winter 1944",
+      "training camps"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.18519.yaml"
+  },
+  {
+    "entity_id": 17,
+    "entity": "M1 Garand",
+    "explicit_text": "I was an expert marksman with the M1 Garand rifle, which was our standard weapon. During training and combat, I used the M1 extensively, including live-fire exercises under artillery and machine gun fire. It was a reliable weapon that I carried along with my other gear throughout the war.",
+    "implicit_text": "I was an expert marksman with the standard-issue semi-automatic rifle. During training and combat, I used it extensively, including live-fire exercises under artillery and machine gun fire. It was a reliable weapon that I carried along with my other gear throughout the war.",
+    "cues": [
+      "expert marksman",
+      "training with live ammunition",
+      "combat use"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.18519.yaml"
+  },
+  {
+    "entity_id": 18,
+    "entity": "Kentucky",
+    "explicit_text": "Kentucky was my home state where I grew up and had never traveled far before joining the Army. After training, I returned there briefly for a seven-day delay before heading overseas. It was a place of comfort before the uncertainty of war.",
+    "implicit_text": "That southern state was my home where I grew up and had never traveled far before joining the Army. After training, I returned there briefly for a seven-day delay before heading overseas. It was a place of comfort before the uncertainty of war.",
+    "cues": [
+      "home state",
+      "limited travel before war",
+      "seven-day delay"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.18519.yaml"
+  },
+  {
+    "entity_id": 19,
+    "entity": "Battle of the Bulge",
+    "explicit_text": "I fought during the Battle of the Bulge in the bitter winter of 1944. We marched long distances in the snow, carrying heavy loads and enduring freezing temperatures. It was one of the toughest campaigns I experienced, and I still have a magazine photo of my division from that time.",
+    "implicit_text": "I fought during the Battle of the Bulge in the bitter winter of 1944. We marched long distances in the snow, carrying heavy loads and enduring freezing temperatures. It was one of the toughest campaigns I experienced, and I still have a magazine photo of my division from that time.",
+    "cues": [
+      "winter 1944",
+      "snow and cold",
+      "long march",
+      "80th Infantry Division"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.18519.yaml"
+  },
+  {
+    "entity_id": 20,
+    "entity": "Luxembourg",
+    "explicit_text": "During the winter of 1944, we moved through Luxembourg as part of the Battle of the Bulge campaign. The fighting was intense and conditions harsh as we pushed through the region toward Germany. Luxembourg was one of the key places in that critical battle.",
+    "implicit_text": "During the winter of 1944, we moved through a small European country as part of the Battle of the Bulge campaign. The fighting was intense and conditions harsh as we pushed through the region toward Germany. That country was one of the key places in that critical battle.",
+    "cues": [
+      "winter 1944",
+      "Battle of the Bulge",
+      "movement toward Germany"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.18519.yaml"
+  },
+  {
+    "entity_id": 21,
+    "entity": "Germany",
+    "explicit_text": "We fought in southern Germany during the later stages of the war, including near the Siegfried Line. The German defenses were formidable, with dragon's teeth and pillboxes designed to stop us. Moving through Germany was difficult and dangerous as we pushed toward the heart of the enemy territory.",
+    "implicit_text": "We fought in southern Germany during the later stages of the war, including near a major defensive line. The enemy defenses were formidable, with dragon's teeth and pillboxes designed to stop us. Moving through that country was difficult and dangerous as we pushed toward the heart of enemy territory.",
+    "cues": [
+      "southern Germany",
+      "Siegfried Line",
+      "combat operations"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.18519.yaml"
+  },
+  {
+    "entity_id": 22,
+    "entity": "Siegfried Line",
+    "explicit_text": "The Siegfried Line was an impressive German defensive line we encountered in southern Germany. It stretched for miles and was fortified with dragon's teeth and pillboxes. The pillboxes were arranged to create crossfire, making it very difficult to break through, but we eventually overcame it.",
+    "implicit_text": "The major German defensive line we encountered in southern Germany stretched for miles and was fortified with dragon's teeth and pillboxes. The pillboxes were arranged to create crossfire, making it very difficult to break through, but we eventually overcame it.",
+    "cues": [
+      "southern Germany",
+      "dragon's teeth",
+      "pillboxes",
+      "fortifications"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.18519.yaml"
+  },
+  {
+    "entity_id": 23,
+    "entity": "Adolf Hitler",
+    "explicit_text": "Adolf Hitler was the German leader during the war we fought in Europe. His forces built the Siegfried Line and launched the offensive that led to the Battle of the Bulge. Facing his army was a daunting challenge throughout my combat experience.",
+    "implicit_text": "The German leader during the war we fought in Europe commanded the forces that built the Siegfried Line and launched the offensive that led to the Battle of the Bulge. Facing his army was a daunting challenge throughout my combat experience.",
+    "cues": [
+      "German leader",
+      "Siegfried Line",
+      "Battle of the Bulge",
+      "World War II"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.18519.yaml"
+  }
+]

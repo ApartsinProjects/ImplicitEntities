@@ -1,0 +1,151 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "Cambodia",
+    "explicit_text": "My journey began in Cambodia when I was 18 years old. My family and I traveled on foot from Cambodia to Thailand, facing many hardships including crossing rivers and encounters with Vietnamese soldiers. Cambodia is where my story started before we sought refuge elsewhere.",
+    "implicit_text": "My journey began in a Southeast Asian country when I was 18 years old. My family and I traveled on foot from there to a neighboring nation, facing many hardships including crossing rivers and encounters with Vietnamese soldiers. That country is where my story started before we sought refuge elsewhere.",
+    "cues": [
+      "18 years old",
+      "family journey",
+      "crossing rivers",
+      "Vietnamese soldiers"
+    ],
+    "transcript_ref": "immigration\\imm_umn_213_meloney_len.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "Thailand",
+    "explicit_text": "After leaving Cambodia, my family and I reached Thailand. It was a difficult part of our journey as refugees traveling on foot. Thailand was our first stop outside Cambodia before we continued on to other countries like Indonesia and Singapore.",
+    "implicit_text": "After leaving the country where I was born, my family and I reached a nearby Southeast Asian nation. It was a difficult part of our journey as refugees traveling on foot. This nation was our first stop outside my homeland before we continued on to other countries like Indonesia and Singapore.",
+    "cues": [
+      "refugee journey",
+      "first stop after Cambodia",
+      "traveling on foot"
+    ],
+    "transcript_ref": "immigration\\imm_umn_213_meloney_len.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "Indonesia",
+    "explicit_text": "Following our time in Thailand, we moved to Indonesia as part of our journey to safety. While in Indonesia and later Singapore, we focused on learning English to prepare for a new life. These countries were important stepping stones before coming to the United States.",
+    "implicit_text": "Following our time in the neighboring Southeast Asian country, we moved to an island nation in the region as part of our journey to safety. While in this island nation and later in another city-state, we focused on learning English to prepare for a new life. These places were important stepping stones before coming to the United States.",
+    "cues": [
+      "post-Thailand",
+      "learning English",
+      "preparing for America"
+    ],
+    "transcript_ref": "immigration\\imm_umn_213_meloney_len.yaml"
+  },
+  {
+    "entity_id": 5,
+    "entity": "Singapore",
+    "explicit_text": "Singapore was one of the places my family and I stayed after leaving Thailand and Indonesia. During our time there, we worked hard to learn English, which was crucial for our future in America. Singapore was part of our transition before being sponsored to come to the United States.",
+    "implicit_text": "This city-state was one of the places my family and I stayed after leaving the neighboring country and the island nation. During our time there, we worked hard to learn English, which was crucial for our future in America. It was part of our transition before being sponsored to come to the United States.",
+    "cues": [
+      "learning English",
+      "transition country",
+      "preparing for U.S. sponsorship"
+    ],
+    "transcript_ref": "immigration\\imm_umn_213_meloney_len.yaml"
+  },
+  {
+    "entity_id": 6,
+    "entity": "Catholic Church",
+    "explicit_text": "The Catholic Church played a vital role in our journey by sponsoring my family and me to come to America. Without their support, our move to the United States might not have been possible. Their sponsorship was a turning point in our lives.",
+    "implicit_text": "A major religious institution played a vital role in our journey by sponsoring my family and me to come to America. Without their support, our move to the United States might not have been possible. Their sponsorship was a turning point in our lives.",
+    "cues": [
+      "sponsorship",
+      "move to America",
+      "support for refugees"
+    ],
+    "transcript_ref": "immigration\\imm_umn_213_meloney_len.yaml"
+  },
+  {
+    "entity_id": 7,
+    "entity": "United States",
+    "explicit_text": "The United States became our new home after a long and difficult journey through Southeast Asia. We first arrived in Alaska, then moved to Minnesota, and finally settled in California. America offered us opportunities to build a new life, learn English, and grow as a family.",
+    "implicit_text": "This country became our new home after a long and difficult journey through Southeast Asia. We first arrived in its northernmost state, then moved to a Midwestern state, and finally settled in a state on the West Coast. It offered us opportunities to build a new life, learn English, and grow as a family.",
+    "cues": [
+      "arrival in Alaska",
+      "living in Minnesota and California",
+      "new opportunities"
+    ],
+    "transcript_ref": "immigration\\imm_umn_213_meloney_len.yaml"
+  },
+  {
+    "entity_id": 8,
+    "entity": "Alaska",
+    "explicit_text": "Alaska was the first place we arrived in the United States. It was a cold and unfamiliar environment, but it marked the beginning of our American experience. After some time there, we moved on to Minnesota to continue building our new life.",
+    "implicit_text": "This northernmost state was the first place we arrived in the United States. It was a cold and unfamiliar environment, but it marked the beginning of our American experience. After some time there, we moved on to a Midwestern state to continue building our new life.",
+    "cues": [
+      "first U.S. stop",
+      "cold environment",
+      "start of American journey"
+    ],
+    "transcript_ref": "immigration\\imm_umn_213_meloney_len.yaml"
+  },
+  {
+    "entity_id": 9,
+    "entity": "Minnesota",
+    "explicit_text": "We lived in Minnesota for about a year after arriving in the U.S. It was a meaningful time for our family; we even took a family photo to celebrate a family member winning an award in junior high. Although it was a good experience, we eventually moved to California for more opportunities.",
+    "implicit_text": "We lived in this Midwestern state for about a year after arriving in the U.S. It was a meaningful time for our family; we even took a family photo to celebrate a family member winning an award in junior high. Although it was a good experience, we eventually moved to a West Coast state for more opportunities.",
+    "cues": [
+      "one year stay",
+      "family photo",
+      "junior high award",
+      "transition to California"
+    ],
+    "transcript_ref": "immigration\\imm_umn_213_meloney_len.yaml"
+  },
+  {
+    "entity_id": 10,
+    "entity": "California",
+    "explicit_text": "California became our permanent home after Minnesota. We lived in an apartment in San Jose, where I truly began my life as an American. It was challenging at first, especially with the language barrier and discrimination, but I persevered and graduated from high school there.",
+    "implicit_text": "This West Coast state became our permanent home after the Midwest. We lived in an apartment in its tech hub city, where I truly began my life as an American. It was challenging at first, especially with the language barrier and discrimination, but I persevered and graduated from high school there.",
+    "cues": [
+      "permanent home",
+      "San Jose apartment",
+      "language challenges",
+      "graduation"
+    ],
+    "transcript_ref": "immigration\\imm_umn_213_meloney_len.yaml"
+  },
+  {
+    "entity_id": 11,
+    "entity": "San Jose, California",
+    "explicit_text": "San Jose was where my family settled when we moved to California. Living there, I attended Yerbabuena High School and faced challenges due to my limited English. Despite the difficulties, San Jose is where I started building my adult life and future.",
+    "implicit_text": "This city was where my family settled when we moved to the West Coast state. Living there, I attended a local high school and faced challenges due to my limited English. Despite the difficulties, this city is where I started building my adult life and future.",
+    "cues": [
+      "family settlement",
+      "Yerbabuena High School",
+      "language challenges"
+    ],
+    "transcript_ref": "immigration\\imm_umn_213_meloney_len.yaml"
+  },
+  {
+    "entity_id": 12,
+    "entity": "Yerbabuena High School",
+    "explicit_text": "I attended Yerbabuena High School in San Jose, California. It was tough because I was discriminated against for not knowing English well. However, I worked hard to improve my language skills and eventually graduated, which was a proud moment for me.",
+    "implicit_text": "I attended a high school in that West Coast city. It was tough because I was discriminated against for not knowing English well. However, I worked hard to improve my language skills and eventually graduated, which was a proud moment for me.",
+    "cues": [
+      "San Jose",
+      "discrimination",
+      "language barrier",
+      "graduation"
+    ],
+    "transcript_ref": "immigration\\imm_umn_213_meloney_len.yaml"
+  },
+  {
+    "entity_id": 13,
+    "entity": "Wendy's",
+    "explicit_text": "My first job in the United States was flipping burgers at Wendy's. It was an important step in starting my adult life and gaining work experience. Later, I was able to open and run my own donut shop and deli for 16 years, building on that early experience.",
+    "implicit_text": "My first job in the United States was flipping burgers at a popular fast-food chain. It was an important step in starting my adult life and gaining work experience. Later, I was able to open and run my own donut shop and deli for 16 years, building on that early experience.",
+    "cues": [
+      "first job",
+      "flipping burgers",
+      "start of adult life",
+      "later business ownership"
+    ],
+    "transcript_ref": "immigration\\imm_umn_213_meloney_len.yaml"
+  }
+]

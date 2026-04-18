@@ -1,0 +1,222 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "Springfield, Ohio",
+    "explicit_text": "I grew up in Springfield, Ohio, and when I was drafted, I didn't have much choice but to go into the military. It was a small town, and the options back then were pretty limited. Leaving Springfield was tough, but I knew joining the Marine Corps was the best path for me.",
+    "implicit_text": "I grew up in a small Midwestern town in Ohio, and when I was drafted, I didn't have much choice but to go into the military. It was a small town, and the options back then were pretty limited. Leaving that hometown was tough, but I knew joining the Marine Corps was the best path for me.",
+    "cues": [
+      "drafted",
+      "small town",
+      "limited choices",
+      "military service"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.76195.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "United States Army",
+    "explicit_text": "I was actually drafted and had the option to join either the United States Army or the Marine Corps. I ended up choosing the Marine Corps because I felt their training was superior. Later, when I got malaria, I was treated at an Army hospital, which was a memorable experience with movies and USO shows.",
+    "implicit_text": "I was actually drafted and had the option to join either the Army or the Marine Corps. I ended up choosing the Marine Corps because I felt their training was superior. Later, when I got malaria, I was treated at a military hospital run by the other branch, which was a memorable experience with movies and USO shows.",
+    "cues": [
+      "drafted",
+      "Army hospital",
+      "malaria treatment",
+      "Vietnam War"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.76195.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "United States Marine Corps",
+    "explicit_text": "I chose the United States Marine Corps because I believed they gave the best training. Basic training was brutal but transformative; it really turned boys into men. The Marine Corps is a unique fraternity, and even my son later joined because of that bond. I served as a rifleman during the Vietnam War and experienced the tough conditions firsthand.",
+    "implicit_text": "I chose the branch known for its rigorous training because I believed they gave the best preparation. Basic training was brutal but transformative; it really turned boys into men. That military fraternity is unique, and even my son later joined because of that bond. I served as a rifleman during the Vietnam conflict and experienced the tough conditions firsthand.",
+    "cues": [
+      "basic training",
+      "rifleman",
+      "Vietnam War",
+      "father and son",
+      "unique fraternity"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.76195.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "San Diego",
+    "explicit_text": "When we first arrived for boot camp in 1969, we couldn't fly into San Diego because of fog, so we were diverted to Los Angeles. After a rough night of standing on yellow footprints, we finally got to San Diego around 3:30 in the morning. It was the start of my Marine Corps training journey.",
+    "implicit_text": "When we first arrived for boot camp in 1969, we couldn't fly into the usual West Coast naval base because of fog, so we were diverted to a major city nearby. After a rough night of standing on yellow footprints, we finally got to the training base around 3:30 in the morning. It was the start of my Marine Corps training journey.",
+    "cues": [
+      "1969",
+      "boot camp",
+      "fog",
+      "arrival",
+      "Marine Corps training"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.76195.yaml"
+  },
+  {
+    "entity_id": 5,
+    "entity": "Los Angeles",
+    "explicit_text": "Our plane was diverted to Los Angeles because San Diego was fogged in back in 1969. We landed there around 1:30 in the morning, and it was a ghost town compared to what we expected. A drill instructor was there to meet us, and he immediately started yelling and enforcing discipline as we were loaded onto a bus to head to San Diego.",
+    "implicit_text": "Our plane was diverted to a large California city because the usual West Coast base was fogged in back in 1969. We landed there around 1:30 in the morning, and it was a ghost town compared to what we expected. A drill instructor was there to meet us, and he immediately started yelling and enforcing discipline as we were loaded onto a bus to head to the training base.",
+    "cues": [
+      "1969",
+      "fog",
+      "late night arrival",
+      "drill instructor",
+      "Marine Corps"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.76195.yaml"
+  },
+  {
+    "entity_id": 6,
+    "entity": "Vietnam War",
+    "explicit_text": "I served as a rifleman in the Vietnam War, arriving in Da Nang in the pouring rain without a rifle initially. We spent most of our time out in the bush rather than at rear bases like An Hoa or Hill 65. The conditions were tough with rain, mosquitoes, and constant stress, but we adapted and persevered through it all.",
+    "implicit_text": "I served as a rifleman in the Vietnam conflict, arriving in a coastal city in the pouring rain without a rifle initially. We spent most of our time out in the bush rather than at rear bases like An Hoa or Hill 65. The conditions were tough with rain, mosquitoes, and constant stress, but we adapted and persevered through it all.",
+    "cues": [
+      "Vietnam War",
+      "Da Nang",
+      "rifleman",
+      "An Hoa",
+      "Hill 65",
+      "combat conditions"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.76195.yaml"
+  },
+  {
+    "entity_id": 7,
+    "entity": "An Hoa",
+    "explicit_text": "An Hoa was where our regimental rear was located during the Vietnam War, but we rarely spent time there. It was considered a rear area with better facilities like cots and a chow hall, but infantrymen like us preferred staying out in the bush. Going back there sometimes felt like being treated as second-class citizens.",
+    "implicit_text": "There was a regimental rear area during the Vietnam conflict where we rarely spent time. It was considered a rear area with better facilities like cots and a chow hall, but infantrymen like us preferred staying out in the bush. Going back there sometimes felt like being treated as second-class citizens.",
+    "cues": [
+      "Vietnam War",
+      "regimental rear",
+      "rear base",
+      "infantry",
+      "living conditions"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.76195.yaml"
+  },
+  {
+    "entity_id": 8,
+    "entity": "Hill 65",
+    "explicit_text": "Hill 65 was the battalion rear area during my time in Vietnam, but like An Hoa, we didn't spend much time there. It had better sleeping arrangements and food than the bush, but infantry guys often felt looked down upon when sent back. Most of my time was spent out in the field rather than at places like Hill 65.",
+    "implicit_text": "Hill 65 was the battalion rear area during my time in Vietnam, but like the other rear area, we didn't spend much time there. It had better sleeping arrangements and food than the bush, but infantry guys often felt looked down upon when sent back. Most of my time was spent out in the field rather than at places like that.",
+    "cues": [
+      "Vietnam War",
+      "battalion rear",
+      "living conditions",
+      "infantry",
+      "field duty"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.76195.yaml"
+  },
+  {
+    "entity_id": 9,
+    "entity": "Da Nang",
+    "explicit_text": "I flew into Da Nang on a commercial airline during the Vietnam War, which surprised me. It was raining heavily when we landed, and I didn't even have a rifle yet despite training for months. Da Nang was a relatively secure area back then, but it was still a shock to arrive in such a different world.",
+    "implicit_text": "I flew into a major Vietnamese coastal city on a commercial airline during the Vietnam conflict, which surprised me. It was raining heavily when we landed, and I didn't even have a rifle yet despite training for months. That city was a relatively secure area back then, but it was still a shock to arrive in such a different world.",
+    "cues": [
+      "Vietnam War",
+      "arrival",
+      "commercial airline",
+      "rain",
+      "rifleman"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.76195.yaml"
+  },
+  {
+    "entity_id": 10,
+    "entity": "Iraq War",
+    "explicit_text": "My son served in the Marine Corps and went to Iraq twice during the Iraq War. I tried to talk him out of it, suggesting he find somewhere to learn something else, but he was determined to be a Marine. His experiences in Iraq made me proud of the Marine Corps fraternity and the values it instills.",
+    "implicit_text": "My son served in the Marine Corps and went to the Middle East twice during the early 2000s conflict. I tried to talk him out of it, suggesting he find somewhere to learn something else, but he was determined to be a Marine. His experiences in that war made me proud of the Marine Corps fraternity and the values it instills.",
+    "cues": [
+      "Iraq War",
+      "son",
+      "Marine Corps",
+      "two tours",
+      "family"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.76195.yaml"
+  },
+  {
+    "entity_id": 11,
+    "entity": "World War II",
+    "explicit_text": "My dad served in World War II, and he carried a Bible with a brass shield that his mother sent him. He often talked about the terrible conditions, like the snow and cold. Hearing his stories gave me perspective on the hardships of war and the sacrifices made by those before me.",
+    "implicit_text": "My dad served in the global conflict of the 1940s, and he carried a Bible with a brass shield that his mother sent him. He often talked about the terrible conditions, like the snow and cold. Hearing his stories gave me perspective on the hardships of war and the sacrifices made by those before me.",
+    "cues": [
+      "World War II",
+      "father",
+      "Bible with brass shield",
+      "harsh conditions",
+      "family history"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.76195.yaml"
+  },
+  {
+    "entity_id": 12,
+    "entity": "Hawaii",
+    "explicit_text": "During my Vietnam tour, I got to meet my wife in Hawaii for a week of R&R, which was a great experience. It was a welcome break from the hardships of the war and a chance to reconnect with loved ones. Hawaii felt like a peaceful contrast to the combat zones I was used to.",
+    "implicit_text": "During my Vietnam tour, I got to meet my wife in a Pacific island state for a week of R&R, which was a great experience. It was a welcome break from the hardships of the war and a chance to reconnect with loved ones. That place felt like a peaceful contrast to the combat zones I was used to.",
+    "cues": [
+      "Vietnam War",
+      "R&R",
+      "meeting wife",
+      "peaceful break",
+      "family"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.76195.yaml"
+  },
+  {
+    "entity_id": 13,
+    "entity": "National Defense Service Medal",
+    "explicit_text": "I was awarded the National Defense Service Medal during my military service. It was one of the standard medals given for serving during a time of conflict like the Vietnam War. While it wasn't as prestigious as some others, it still represented my commitment and service.",
+    "implicit_text": "I was awarded a medal given for service during a time of conflict during my military service. It was one of the standard medals given for serving during a war like Vietnam. While it wasn't as prestigious as some others, it still represented my commitment and service.",
+    "cues": [
+      "Vietnam War",
+      "military awards",
+      "standard medal",
+      "service recognition"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.76195.yaml"
+  },
+  {
+    "entity_id": 14,
+    "entity": "Combat Action Ribbon",
+    "explicit_text": "I received the Combat Action Ribbon for my time in Vietnam as a rifleman. It recognized that I was actively engaged in combat situations during my deployment. That ribbon reminds me of the tough experiences and the dangers we faced in the field.",
+    "implicit_text": "I received a combat recognition ribbon for my time in Vietnam as a rifleman. It recognized that I was actively engaged in combat situations during my deployment. That ribbon reminds me of the tough experiences and the dangers we faced in the field.",
+    "cues": [
+      "Vietnam War",
+      "rifleman",
+      "combat",
+      "military awards"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.76195.yaml"
+  },
+  {
+    "entity_id": 15,
+    "entity": "Bronze Star Medal",
+    "explicit_text": "I did not receive the Bronze Star Medal during my service, but I was aware of its significance. It was awarded for acts of heroism or meritorious service, and while I earned some ribbons, the Bronze Star was not among them. Still, I respected those who earned it.",
+    "implicit_text": "I did not receive a certain medal awarded for heroism or meritorious service during my service, but I was aware of its significance. It was given for acts of valor, and while I earned some ribbons, that particular medal was not among them. Still, I respected those who earned it.",
+    "cues": [
+      "military awards",
+      "Vietnam War",
+      "Bronze Star",
+      "recognition"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.76195.yaml"
+  },
+  {
+    "entity_id": 16,
+    "entity": "United Service Organizations",
+    "explicit_text": "While I was hospitalized with malaria during the Vietnam War, the United Service Organizations (USO) put on shows every three days. Those USO shows were a memorable morale boost during a tough time. They helped us feel connected to home and lifted our spirits.",
+    "implicit_text": "While I was hospitalized with malaria during the Vietnam conflict, an organization known for entertaining troops put on shows every three days. Those shows were a memorable morale boost during a tough time. They helped us feel connected to home and lifted our spirits.",
+    "cues": [
+      "Vietnam War",
+      "hospital",
+      "malaria",
+      "USO shows",
+      "morale"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.76195.yaml"
+  }
+]

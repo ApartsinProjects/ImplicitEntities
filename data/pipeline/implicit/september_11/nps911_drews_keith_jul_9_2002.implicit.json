@@ -1,0 +1,245 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "Jan Sucholdowski",
+    "explicit_text": "Jan Sucholdowski was the maintenance worker who mostly worked in the garden. On the morning of the September 11 attacks, he was the first person to come in and mention that an aircraft had crashed into the World Trade Center. His information was the initial indication that something serious was happening. I remember that moment clearly because it set everything else in motion for us that day.",
+    "implicit_text": "The maintenance worker who mostly worked in the garden was the first person to come in and mention that an aircraft had crashed into the Twin Towers on the morning of the September 11 attacks. His information was the initial indication that something serious was happening. I remember that moment clearly because it set everything else in motion for us that day.",
+    "cues": [
+      "September 11 attacks",
+      "maintenance worker",
+      "garden",
+      "office"
+    ],
+    "transcript_ref": "september_11\\nps911_drews_keith_jul_9_2002.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "World Trade Center",
+    "explicit_text": "The World Trade Center was the first site hit that morning, and it was shocking to hear that an aircraft had crashed into it. I tried to get more information online by checking CNN.com and ABC News, but the internet was jammed with traffic. We saw pictures of the crash on CNN, but couldn't get much more detail. It was the beginning of a very tense day.",
+    "implicit_text": "The first site hit that morning was the pair of iconic towers in New York City, and it was shocking to hear that an aircraft had crashed into them. I tried to get more information online by checking major news websites, but the internet was jammed with traffic. We saw pictures of the crash on television, but couldn't get much more detail. It was the beginning of a very tense day.",
+    "cues": [
+      "September 11 attacks",
+      "CNN.com",
+      "ABC News",
+      "aircraft crash"
+    ],
+    "transcript_ref": "september_11\\nps911_drews_keith_jul_9_2002.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "Malcolm",
+    "explicit_text": "Malcolm was in the office with me that morning, and some people started looking at his television to get news about the attacks. He stayed with me later in the day when most of the staff had left, and we listened to a portable transistor radio together to keep up with the news. Malcolm was a key companion during those tense hours at the house.",
+    "implicit_text": "He was in the office with me that morning, and some people started looking at his television to get news about the attacks. He stayed with me later in the day when most of the staff had left, and we listened to a portable transistor radio together to keep up with the news. He was a key companion during those tense hours at the house.",
+    "cues": [
+      "September 11 attacks",
+      "office",
+      "television",
+      "portable radio"
+    ],
+    "transcript_ref": "september_11\\nps911_drews_keith_jul_9_2002.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "CNN",
+    "explicit_text": "I tried to access CNN.com early on September 11 to get news about the World Trade Center crash. Although the site was jammed, I was able to see some pictures of the plane crash. CNN was one of the few sources where we could get initial visual confirmation of what was happening, even if the connection was slow.",
+    "implicit_text": "I tried to access a major cable news network's website early on September 11 to get news about the crash into the Twin Towers. Although the site was jammed, I was able to see some pictures of the plane crash. That network was one of the few sources where we could get initial visual confirmation of what was happening, even if the connection was slow.",
+    "cues": [
+      "September 11 attacks",
+      "CNN.com",
+      "internet",
+      "World Trade Center"
+    ],
+    "transcript_ref": "september_11\\nps911_drews_keith_jul_9_2002.yaml"
+  },
+  {
+    "entity_id": 5,
+    "entity": "ABC News",
+    "explicit_text": "I also tried to check ABC News online for updates about the attacks, but their site was tied up and I couldn't get through. It was frustrating because everyone was trying to get information at the same time. ABC News was one of the main news outlets we looked for, but the internet traffic made it difficult.",
+    "implicit_text": "I also tried to check another major television news outlet online for updates about the attacks, but their site was tied up and I couldn't get through. It was frustrating because everyone was trying to get information at the same time. That outlet was one of the main news sources we looked for, but the internet traffic made it difficult.",
+    "cues": [
+      "September 11 attacks",
+      "internet",
+      "ABC News",
+      "news access"
+    ],
+    "transcript_ref": "september_11\\nps911_drews_keith_jul_9_2002.yaml"
+  },
+  {
+    "entity_id": 6,
+    "entity": "Karen",
+    "explicit_text": "Karen was at the back door when I heard the large boom that rattled the windows. She was there as I went outside to investigate the strange white cloud drifting nearby. I remember her presence because it was a moment of confusion and concern for all of us.",
+    "implicit_text": "She was at the back door when I heard the large boom that rattled the windows. She was there as I went outside to investigate the strange white cloud drifting nearby. I remember her presence because it was a moment of confusion and concern for all of us.",
+    "cues": [
+      "September 11 attacks",
+      "back door",
+      "white cloud",
+      "investigation"
+    ],
+    "transcript_ref": "september_11\\nps911_drews_keith_jul_9_2002.yaml"
+  },
+  {
+    "entity_id": 7,
+    "entity": "Pentagon",
+    "explicit_text": "I saw smoke and flames rising from the Pentagon after the second crash on September 11. From the edge of the hill near the house, I could look down and see the fire and black smoke coming from the building. It was a sobering sight, and I said a prayer for those inside. Later, FBI agents were stationed on the hill above the Kennedy gravesite to watch for any further threats to the Pentagon.",
+    "implicit_text": "I saw smoke and flames rising from the military headquarters building after the second crash on September 11. From the edge of the hill near the house, I could look down and see the fire and black smoke coming from the building. It was a sobering sight, and I said a prayer for those inside. Later, federal agents were stationed on the hill above the presidential gravesite to watch for any further threats to that building.",
+    "cues": [
+      "September 11 attacks",
+      "smoke and flames",
+      "edge of hill",
+      "FBI spotters",
+      "Kennedy gravesite"
+    ],
+    "transcript_ref": "september_11\\nps911_drews_keith_jul_9_2002.yaml"
+  },
+  {
+    "entity_id": 8,
+    "entity": "Mark Jones",
+    "explicit_text": "Mark Jones was at the house with Linda Kacmarcik when I arrived after seeing the Pentagon fire. They were opening the house, but the decision was made not to open it that day because of the attacks. Mark later asked if I wanted to take their car since I was staying longer, but I declined. He was part of the small group managing the situation at the house.",
+    "implicit_text": "He was at the house with another key person when I arrived after seeing the fire at the military headquarters. They were opening the house, but the decision was made not to open it that day because of the attacks. He later asked if I wanted to take their car since I was staying longer, but I declined. He was part of the small group managing the situation at the house.",
+    "cues": [
+      "September 11 attacks",
+      "house",
+      "Linda Kacmarcik",
+      "car offer"
+    ],
+    "transcript_ref": "september_11\\nps911_drews_keith_jul_9_2002.yaml"
+  },
+  {
+    "entity_id": 9,
+    "entity": "Linda Kacmarcik",
+    "explicit_text": "Linda Kacmarcik was with Mark Jones at the house on September 11 when the attacks happened. She was involved in the decision not to open the house after the Pentagon crash. Linda also offered me her car to get home since I was staying longer, but I chose to stay without it. She was one of the key people managing the house during the crisis.",
+    "implicit_text": "She was with a colleague at the house on September 11 when the attacks happened. She was involved in the decision not to open the house after the crash at the military headquarters. She also offered me her car to get home since I was staying longer, but I chose to stay without it. She was one of the key people managing the house during the crisis.",
+    "cues": [
+      "September 11 attacks",
+      "house",
+      "Mark Jones",
+      "car offer"
+    ],
+    "transcript_ref": "september_11\\nps911_drews_keith_jul_9_2002.yaml"
+  },
+  {
+    "entity_id": 10,
+    "entity": "Frank Cucurullo",
+    "explicit_text": "Frank Cucurullo was at the house on September 11 and asked me to stay longer because of my law enforcement background. He wanted some people to remain until the security guards arrived in the afternoon. Frank, Malcolm, and I stayed behind after most staff left, monitoring the situation and listening to the news. He was instrumental in coordinating security during the uncertain hours.",
+    "implicit_text": "He was at the house on September 11 and asked me to stay longer because of my law enforcement background. He wanted some people to remain until the security guards arrived in the afternoon. He, Malcolm, and I stayed behind after most staff left, monitoring the situation and listening to the news. He was instrumental in coordinating security during the uncertain hours.",
+    "cues": [
+      "September 11 attacks",
+      "house",
+      "law enforcement",
+      "security coordination"
+    ],
+    "transcript_ref": "september_11\\nps911_drews_keith_jul_9_2002.yaml"
+  },
+  {
+    "entity_id": 11,
+    "entity": "FBI",
+    "explicit_text": "On September 11, FBI agents were stationed on the hill above the Kennedy gravesite as spotters to watch for any additional planes that might threaten the Pentagon. This was after they had pulled back from the Pentagon due to concerns about another incoming plane. Their presence was part of the heightened security measures during the attacks, and they stayed until the all-clear was given.",
+    "implicit_text": "On September 11, federal agents were stationed on the hill above the presidential gravesite as spotters to watch for any additional planes that might threaten the military headquarters. This was after they had pulled back from that building due to concerns about another incoming plane. Their presence was part of the heightened security measures during the attacks, and they stayed until the all-clear was given.",
+    "cues": [
+      "September 11 attacks",
+      "FBI agents",
+      "spotters",
+      "Kennedy gravesite",
+      "Pentagon"
+    ],
+    "transcript_ref": "september_11\\nps911_drews_keith_jul_9_2002.yaml"
+  },
+  {
+    "entity_id": 12,
+    "entity": "Arlington National Cemetery",
+    "explicit_text": "The events of September 11 unfolded near Arlington National Cemetery, where I was at the time. The house I was at is located near the cemetery, and we could see the smoke from the Pentagon from the edge of the hill overlooking the area. FBI agents were posted on the hill above the Kennedy gravesite within the cemetery to watch for further threats. The cemetery was closed that day, and visitors were sent home as the situation developed.",
+    "implicit_text": "The events of September 11 unfolded near the national military cemetery, where I was at the time. The house I was at is located near the cemetery, and we could see the smoke from the military headquarters from the edge of the hill overlooking the area. Federal agents were posted on the hill above the presidential gravesite within the cemetery to watch for further threats. The cemetery was closed that day, and visitors were sent home as the situation developed.",
+    "cues": [
+      "September 11 attacks",
+      "house near cemetery",
+      "smoke from Pentagon",
+      "FBI spotters",
+      "Kennedy gravesite"
+    ],
+    "transcript_ref": "september_11\\nps911_drews_keith_jul_9_2002.yaml"
+  },
+  {
+    "entity_id": 13,
+    "entity": "Kennedy gravesite",
+    "explicit_text": "The Kennedy gravesite at Arlington National Cemetery was near where FBI agents were stationed as spotters on September 11. From the hill above the gravesite, they watched the skies for any additional planes that might be targeting the Pentagon. It was a vantage point that became important during the heightened alert that day.",
+    "implicit_text": "The presidential gravesite at the national military cemetery was near where federal agents were stationed as spotters on September 11. From the hill above the gravesite, they watched the skies for any additional planes that might be targeting the military headquarters. It was a vantage point that became important during the heightened alert that day.",
+    "cues": [
+      "September 11 attacks",
+      "FBI spotters",
+      "Arlington National Cemetery",
+      "Pentagon"
+    ],
+    "transcript_ref": "september_11\\nps911_drews_keith_jul_9_2002.yaml"
+  },
+  {
+    "entity_id": 14,
+    "entity": "Camp David",
+    "explicit_text": "During the confusion on September 11, there was a false report about a plane crashing near Camp David. Since Catoctin Mountain Park is close to Camp David and I know someone who works there, I was concerned about what was happening. Thankfully, that report turned out to be false, but it added to the tension of the day.",
+    "implicit_text": "During the confusion on September 11, there was a false report about a plane crashing near the presidential retreat in Maryland. Since the nearby state park is close to that retreat and I know someone who works there, I was concerned about what was happening. Thankfully, that report turned out to be false, but it added to the tension of the day.",
+    "cues": [
+      "September 11 attacks",
+      "false report",
+      "plane crash",
+      "Camp David",
+      "Catoctin Mountain Park"
+    ],
+    "transcript_ref": "september_11\\nps911_drews_keith_jul_9_2002.yaml"
+  },
+  {
+    "entity_id": 15,
+    "entity": "Catoctin Mountain Park",
+    "explicit_text": "Catoctin Mountain Park is near Camp David, and on September 11 I was worried because of a false report about a plane crash in that area. I know someone who works at the park, so I was keeping an eye on the news to see if anything serious had happened. Fortunately, the report was incorrect, but it was part of the many confusing moments that day.",
+    "implicit_text": "This state park near the presidential retreat in Maryland was on my mind on September 11 because of a false report about a plane crash in that area. I know someone who works at the park, so I was keeping an eye on the news to see if anything serious had happened. Fortunately, the report was incorrect, but it was part of the many confusing moments that day.",
+    "cues": [
+      "September 11 attacks",
+      "false report",
+      "plane crash",
+      "Camp David",
+      "personal connection"
+    ],
+    "transcript_ref": "september_11\\nps911_drews_keith_jul_9_2002.yaml"
+  },
+  {
+    "entity_id": 16,
+    "entity": "State Department",
+    "explicit_text": "On September 11, there were rumors about possible bombs going off at the State Department building. I recall an Army person walking by who had come back from the State Department and was talking about these false reports. It was part of the chaotic and uncertain atmosphere as people tried to make sense of what was happening.",
+    "implicit_text": "On September 11, there were rumors about possible bombs going off at the U.S. foreign affairs building. I recall an Army person walking by who had come back from that building and was talking about these false reports. It was part of the chaotic and uncertain atmosphere as people tried to make sense of what was happening.",
+    "cues": [
+      "September 11 attacks",
+      "rumors",
+      "bomb threats",
+      "State Department",
+      "Army personnel"
+    ],
+    "transcript_ref": "september_11\\nps911_drews_keith_jul_9_2002.yaml"
+  },
+  {
+    "entity_id": 17,
+    "entity": "Fort Myer",
+    "explicit_text": "I remember an Army person who might have been stationed at Fort Myer walking by on September 11. He was coming back from the State Department area and was just looking around the hill near the house. With all the traffic and confusion that day, it was hard to get around, but his presence was a reminder of the military's involvement in the response.",
+    "implicit_text": "I remember an Army person who might have been stationed at the nearby military base walking by on September 11. He was coming back from the foreign affairs building area and was just looking around the hill near the house. With all the traffic and confusion that day, it was hard to get around, but his presence was a reminder of the military's involvement in the response.",
+    "cues": [
+      "September 11 attacks",
+      "Army personnel",
+      "Fort Myer",
+      "State Department",
+      "traffic"
+    ],
+    "transcript_ref": "september_11\\nps911_drews_keith_jul_9_2002.yaml"
+  },
+  {
+    "entity_id": 18,
+    "entity": "September 11 attacks",
+    "explicit_text": "The September 11 attacks began with news from Jan Sucholdowski about a plane crashing into the World Trade Center. I tried to get updates online but the internet was jammed, and soon after, we heard a large boom and saw smoke rising from the Pentagon. The house near Arlington National Cemetery was closed, and FBI agents were stationed as spotters. The day was filled with uncertainty, false reports, and a gradual clearing as the immediate threats passed. It was a day that profoundly affected everyone present.",
+    "implicit_text": "The attacks on that day began with news from the maintenance worker about a plane crashing into the Twin Towers. I tried to get updates online but the internet was jammed, and soon after, we heard a large boom and saw smoke rising from the military headquarters. The house near the national military cemetery was closed, and federal agents were stationed as spotters. The day was filled with uncertainty, false reports, and a gradual clearing as the immediate threats passed. It was a day that profoundly affected everyone present.",
+    "cues": [
+      "September 11, 2001",
+      "World Trade Center",
+      "Pentagon",
+      "FBI",
+      "Arlington National Cemetery",
+      "false reports"
+    ],
+    "transcript_ref": "september_11\\nps911_drews_keith_jul_9_2002.yaml"
+  }
+]

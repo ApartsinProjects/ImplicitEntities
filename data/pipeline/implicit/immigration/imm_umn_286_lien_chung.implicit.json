@@ -1,0 +1,141 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "Vietnam",
+    "explicit_text": "I grew up hearing about Vietnam, especially the city of Can Tho where my mother spent her childhood. It was a place of warmth and prosperity for her family before the rise of Communism and the Vietnam War disrupted everything. Vietnam was both her homeland and the place she was forced to flee from in search of safety and a better future.",
+    "implicit_text": "I grew up hearing about the Southeast Asian country, especially the city of Can Tho where my mother spent her childhood. It was a place of warmth and prosperity for her family before the rise of a communist regime and the war disrupted everything. This country was both her homeland and the place she was forced to flee from in search of safety and a better future.",
+    "cues": [
+      "Can Tho",
+      "Communism",
+      "Vietnam War",
+      "family",
+      "childhood"
+    ],
+    "transcript_ref": "immigration\\imm_umn_286_lien_chung.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "Communism",
+    "explicit_text": "Communism was the force that changed my mother's life forever. As it grew stronger in Vietnam, it brought fear and danger to her family, especially with the Vietcongs becoming more daring. It was the threat of Communism that pushed them to escape their home and risk everything to find safety abroad.",
+    "implicit_text": "The political ideology that took hold was the force that changed my mother's life forever. As it grew stronger in that Southeast Asian country, it brought fear and danger to her family, especially with the Vietcongs becoming more daring. It was the threat of this ideology that pushed them to escape their home and risk everything to find safety abroad.",
+    "cues": [
+      "Vietcongs",
+      "Vietnam",
+      "family escape",
+      "threat",
+      "Communist regime"
+    ],
+    "transcript_ref": "immigration\\imm_umn_286_lien_chung.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "Can Tho",
+    "explicit_text": "Can Tho was where my mother grew up in a wealthy and loving family. They had a grand home, silk beds, and the best Vietnamese food, with neighbors often visiting to watch TV. But as the Vietnam War escalated and Communism spread, Can Tho became a dangerous place, forcing my mother and her family to flee.",
+    "implicit_text": "The city in the Mekong Delta was where my mother grew up in a wealthy and loving family. They had a grand home, silk beds, and the best Vietnamese food, with neighbors often visiting to watch TV. But as the war escalated and the communist ideology spread, this city became a dangerous place, forcing my mother and her family to flee.",
+    "cues": [
+      "wealthy family",
+      "grand home",
+      "Vietnam War",
+      "Communism",
+      "escape"
+    ],
+    "transcript_ref": "immigration\\imm_umn_286_lien_chung.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "Vietnam War",
+    "explicit_text": "The Vietnam War was the major reason my mother and her family had to leave their homeland. It brought violence and fear, including the Vietcongs breaking into their home and imprisoning family members. The war made staying in Vietnam too dangerous, so they planned a risky escape by boat to find safety.",
+    "implicit_text": "The conflict in Southeast Asia was the major reason my mother and her family had to leave their homeland. It brought violence and fear, including the Vietcongs breaking into their home and imprisoning family members. The war made staying in that country too dangerous, so they planned a risky escape by boat to find safety.",
+    "cues": [
+      "Vietcongs",
+      "imprisonment",
+      "escape",
+      "danger",
+      "family"
+    ],
+    "transcript_ref": "immigration\\imm_umn_286_lien_chung.yaml"
+  },
+  {
+    "entity_id": 5,
+    "entity": "Ho Chi Minh City",
+    "explicit_text": "During the time my baby brother and grandmother were imprisoned, my mother and the rest of the family lived in Ho Chi Minh City with their grandmother. It was a temporary refuge while they awaited their release and planned their escape from Vietnam. Ho Chi Minh City was part of their journey through hardship before leaving the country.",
+    "implicit_text": "During the time my baby brother and grandmother were imprisoned, my mother and the rest of the family lived in the largest city of that Southeast Asian country with their grandmother. It was a temporary refuge while they awaited their release and planned their escape from their homeland. This city was part of their journey through hardship before leaving the country.",
+    "cues": [
+      "imprisonment",
+      "family regrouping",
+      "escape planning",
+      "temporary refuge"
+    ],
+    "transcript_ref": "immigration\\imm_umn_286_lien_chung.yaml"
+  },
+  {
+    "entity_id": 6,
+    "entity": "Thailand",
+    "explicit_text": "While fleeing Vietnam by boat, my mother’s family encountered pirates from Thailand who robbed passengers and caused great fear. These pirates took valuables, including gold fillings from elderly passengers, and even kidnapped young women. Thailand was a dangerous part of their escape journey across the sea.",
+    "implicit_text": "While fleeing by boat from their war-torn country, my mother’s family encountered pirates from the neighboring kingdom who robbed passengers and caused great fear. These pirates took valuables, including gold fillings from elderly passengers, and even kidnapped young women. This neighboring country was a dangerous part of their escape journey across the sea.",
+    "cues": [
+      "pirates",
+      "robbery",
+      "kidnapping",
+      "escape by boat",
+      "sea journey"
+    ],
+    "transcript_ref": "immigration\\imm_umn_286_lien_chung.yaml"
+  },
+  {
+    "entity_id": 7,
+    "entity": "Malaysia",
+    "explicit_text": "After nearly 30 days at sea, my mother’s family finally landed in Malaysia where they were taken to a refugee camp. There, they received medical care and processed paperwork before deciding where to resettle. Malaysia was a crucial stop on their path to starting a new life in North America.",
+    "implicit_text": "After nearly 30 days at sea, my mother’s family finally landed in the Southeast Asian nation where they were taken to a refugee camp. There, they received medical care and processed paperwork before deciding where to resettle. This country was a crucial stop on their path to starting a new life in North America.",
+    "cues": [
+      "refugee camp",
+      "medical care",
+      "paperwork",
+      "resettlement",
+      "arrival after sea journey"
+    ],
+    "transcript_ref": "immigration\\imm_umn_286_lien_chung.yaml"
+  },
+  {
+    "entity_id": 8,
+    "entity": "United States",
+    "explicit_text": "The United States was the final destination for my mother and her family after fleeing Vietnam. They arrived at the Minneapolis airport in June 1975 and were welcomed by relatives and sponsors. Life in America was challenging at first, with cultural adjustments, language barriers, and racism, but it eventually became home.",
+    "implicit_text": "The North American country was the final destination for my mother and her family after fleeing their war-torn homeland. They arrived at the Minneapolis airport in June 1975 and were welcomed by relatives and sponsors. Life in this country was challenging at first, with cultural adjustments, language barriers, and racism, but it eventually became home.",
+    "cues": [
+      "Minneapolis airport",
+      "June 3rd, 1975",
+      "relatives and sponsors",
+      "adjustment",
+      "new life"
+    ],
+    "transcript_ref": "immigration\\imm_umn_286_lien_chung.yaml"
+  },
+  {
+    "entity_id": 9,
+    "entity": "Canada",
+    "explicit_text": "Canada was one of the options my mother’s family had for resettlement after leaving the refugee camp in Malaysia. Although the wait time was shorter for Canada, my family chose the United States because they already had relatives there. Canada represented hope and opportunity for many refugees like my family during that time.",
+    "implicit_text": "The northern neighbor of the United States was one of the options my mother’s family had for resettlement after leaving the refugee camp in Southeast Asia. Although the wait time was shorter for this country, my family chose the U.S. because they already had relatives there. This country represented hope and opportunity for many refugees like my family during that time.",
+    "cues": [
+      "refugee camp",
+      "resettlement options",
+      "wait time",
+      "family decision",
+      "hope"
+    ],
+    "transcript_ref": "immigration\\imm_umn_286_lien_chung.yaml"
+  },
+  {
+    "entity_id": 10,
+    "entity": "Minneapolis–Saint Paul International Airport",
+    "explicit_text": "My mother and her family arrived at the Minneapolis–Saint Paul International Airport on June 3rd, 1975, marking the beginning of their new life in America. They were greeted by family and sponsors who helped them adjust to their new environment. This airport was the gateway from their difficult journey to a hopeful future.",
+    "implicit_text": "My mother and her family arrived at the major airport serving the Twin Cities on June 3rd, 1975, marking the beginning of their new life in North America. They were greeted by family and sponsors who helped them adjust to their new environment. This airport was the gateway from their difficult journey to a hopeful future.",
+    "cues": [
+      "arrival date June 3rd, 1975",
+      "family reception",
+      "sponsors",
+      "new beginning",
+      "adjustment"
+    ],
+    "transcript_ref": "immigration\\imm_umn_286_lien_chung.yaml"
+  }
+]

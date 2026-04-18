@@ -1,0 +1,55 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "Somalia",
+    "explicit_text": "I was born and raised in Somalia, and it was my home until the civil war started in 1991. The war spread throughout the entire country, making it unsafe for families like mine. I lost my mother during the early days of the conflict, which left a deep hole in my heart. Eventually, I had to leave Somalia behind to find safety and opportunity elsewhere.",
+    "implicit_text": "I was born and raised in the Horn of Africa, and it was my home until the civil war started in 1991. The war spread throughout the entire country, making it unsafe for families like mine. I lost my mother during the early days of the conflict, which left a deep hole in my heart. Eventually, I had to leave that place behind to find safety and opportunity elsewhere.",
+    "cues": [
+      "born and raised",
+      "1991 civil war start",
+      "loss of mother",
+      "unsafe country"
+    ],
+    "transcript_ref": "immigration\\imm_umn_22_fartun_mohamed.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "Mogadishu",
+    "explicit_text": "Mogadishu is where I grew up, the capital city of Somalia. It was my home until the civil war began in 1991, and the violence made the city unsafe like the rest of the country. Leaving Mogadishu was difficult because it was where all my family and memories were. I left the city in 2004 to come to the United States, hoping to build a better life.",
+    "implicit_text": "The capital city where I grew up was my home until the civil war began in 1991, and the violence made the city unsafe like the rest of the country. Leaving that coastal capital was difficult because it was where all my family and memories were. I left the city in 2004 to come to the United States, hoping to build a better life.",
+    "cues": [
+      "grew up",
+      "capital city",
+      "1991 civil war",
+      "left in 2004"
+    ],
+    "transcript_ref": "immigration\\imm_umn_22_fartun_mohamed.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "Somali Civil War",
+    "explicit_text": "The Somali Civil War started in 1991 and changed everything for me and my family. It spread across the country, making no place safe, and tragically, my mother was one of the many who lost their lives during that time. The war forced me to leave Somalia and eventually come to the United States in 2004. It was a painful chapter, but it also shaped my determination to create a better future.",
+    "implicit_text": "The conflict that started in 1991 and changed everything for me and my family spread across the country, making no place safe, and tragically, my mother was one of the many who lost their lives during that time. This war forced me to leave my homeland and eventually come to the United States in 2004. It was a painful chapter, but it also shaped my determination to create a better future.",
+    "cues": [
+      "started 1991",
+      "spread countrywide",
+      "mother died",
+      "forced migration"
+    ],
+    "transcript_ref": "immigration\\imm_umn_22_fartun_mohamed.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "United States",
+    "explicit_text": "I came to the United States in 2004 when I was 21 years old, joining my husband who lived here. The U.S. became my new home and a place of opportunity, even though I left behind six siblings in Somalia. I worked hard, starting with housekeeping jobs, while attending night school to learn English and later earn my high school diploma. The United States gave me the chance to pursue education and build a future for my children and myself.",
+    "implicit_text": "I came to North America in 2004 when I was 21 years old, joining my husband who lived here. This country became my new home and a place of opportunity, even though I left behind six siblings in East Africa. I worked hard, starting with housekeeping jobs, while attending night school to learn English and later earn my high school diploma. This new land gave me the chance to pursue education and build a future for my children and myself.",
+    "cues": [
+      "arrived 2004",
+      "husband in U.S.",
+      "worked housekeeping",
+      "night school",
+      "earned diploma"
+    ],
+    "transcript_ref": "immigration\\imm_umn_22_fartun_mohamed.yaml"
+  }
+]

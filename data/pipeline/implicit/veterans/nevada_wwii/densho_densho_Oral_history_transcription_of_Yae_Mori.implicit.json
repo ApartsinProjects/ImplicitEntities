@@ -1,0 +1,280 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "Osaka",
+    "explicit_text": "I was born in Osaka in 1900, where my father was in the printing business serving churches. Both my parents were members of Temma Church in Osaka, and my father served as a deacon for many years. Although there were not many people from Osaka in the community here, I grew up there until I was 16 before moving to Tokyo.",
+    "implicit_text": "I was born in a major Japanese city in 1900, where my father was in the printing business serving churches. Both my parents were members of a local church there, and my father served as a deacon for many years. Although there were not many people from my hometown in the community here, I grew up there until I was 16 before moving to the capital city.",
+    "cues": [
+      "born 1900",
+      "father's printing business",
+      "Temma Church",
+      "Osaka"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\densho_densho_Oral_history_transcription_of_Yae_Mori.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "Hiroshima",
+    "explicit_text": "In the community here, I heard there were many people from Hiroshima and Wakayama Prefecture, but not many from Osaka like me. Though I didn't have direct connections with Hiroshima, I knew it was a place many of our people came from.",
+    "implicit_text": "In the community here, I heard there were many people from a city known for its tragic World War II history and a nearby prefecture, but not many from my hometown like me. Though I didn't have direct connections with that city, I knew it was a place many of our people came from.",
+    "cues": [
+      "community composition",
+      "Hiroshima immigrants"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\densho_densho_Oral_history_transcription_of_Yae_Mori.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "Wakayama Prefecture",
+    "explicit_text": "Like Hiroshima, Wakayama Prefecture was a common place of origin for many people in our community here. I noticed there were many from Wakayama, but not so many from Osaka where I was born.",
+    "implicit_text": "Like the city known for its World War II history, the neighboring prefecture was a common place of origin for many people in our community here. I noticed there were many from that prefecture, but not so many from the city where I was born.",
+    "cues": [
+      "community composition",
+      "Wakayama immigrants"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\densho_densho_Oral_history_transcription_of_Yae_Mori.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "Temma Church",
+    "explicit_text": "My parents were members of Temma Church in Osaka, and my father served as a deacon there for many years. The church was an important part of our family life and community back in Osaka. It connected us to the Christian faith and to others in the area.",
+    "implicit_text": "My parents were members of a well-known church in my hometown, and my father served as a deacon there for many years. The church was an important part of our family life and community back in that city. It connected us to the Christian faith and to others in the area.",
+    "cues": [
+      "Osaka",
+      "parents' membership",
+      "father as deacon"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\densho_densho_Oral_history_transcription_of_Yae_Mori.yaml"
+  },
+  {
+    "entity_id": 5,
+    "entity": "Tokyo",
+    "explicit_text": "When I was 16, I moved to Tokyo to live with my brother because my father could no longer support my schooling. My mother's cousin was a pastor at Bancho Church in Kojimachi, Tokyo, and he played a role in arranging my marriage. I lived in Tokyo from then on until I came to America after marrying my husband in 1923.",
+    "implicit_text": "When I was 16, I moved to the capital city to live with my brother because my father could no longer support my schooling. My mother's cousin was a pastor at a church in a central district of the capital, and he played a role in arranging my marriage. I lived in the capital from then on until I came to America after marrying my husband in 1923.",
+    "cues": [
+      "age 16 move",
+      "brother's home",
+      "Bancho Church",
+      "marriage 1923"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\densho_densho_Oral_history_transcription_of_Yae_Mori.yaml"
+  },
+  {
+    "entity_id": 6,
+    "entity": "Bancho Church",
+    "explicit_text": "Bancho Church in Kojimachi, Tokyo was pastored by my mother's cousin for many years. He often traveled to America as a peace representative before the war and was the one who introduced my husband to me. We were married in that church in Tokyo before coming to America together.",
+    "implicit_text": "A church in a central district of the capital city was pastored by my mother's cousin for many years. He often traveled to America as a peace representative before the war and was the one who introduced my husband to me. We were married in that church before coming to America together.",
+    "cues": [
+      "Tokyo",
+      "mother's cousin pastor",
+      "marriage 1923",
+      "peace representative"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\densho_densho_Oral_history_transcription_of_Yae_Mori.yaml"
+  },
+  {
+    "entity_id": 7,
+    "entity": "Kojimachi",
+    "explicit_text": "Kojimachi is a place in Tokyo where Bancho Church is located. My mother's cousin served as pastor there, and it was in Kojimachi that I was married in 1923 before moving to America with my husband.",
+    "implicit_text": "The central district of the capital city is where the church pastored by my mother's cousin is located. It was there that I was married in 1923 before moving to America with my husband.",
+    "cues": [
+      "Tokyo",
+      "Bancho Church",
+      "marriage 1923"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\densho_densho_Oral_history_transcription_of_Yae_Mori.yaml"
+  },
+  {
+    "entity_id": 8,
+    "entity": "Berkeley, California",
+    "explicit_text": "My husband worked as a tailor in Berkeley when we first came to America. Later, he started a dry cleaning business there around 1929, which we ran until the war broke out. Berkeley was where we lived and worked before the forced evacuation during World War II.",
+    "implicit_text": "My husband worked as a tailor in a city in California when we first came to America. Later, he started a dry cleaning business there around 1929, which we ran until the war broke out. That city was where we lived and worked before the forced evacuation during World War II.",
+    "cues": [
+      "husband's tailoring",
+      "dry cleaning business 1929",
+      "pre-war residence"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\densho_densho_Oral_history_transcription_of_Yae_Mori.yaml"
+  },
+  {
+    "entity_id": 9,
+    "entity": "Great Depression",
+    "explicit_text": "The Great Depression started around 1930, shortly after my husband began his dry cleaning business. We struggled financially and lived from hand to mouth during those years, but we managed to get some installment money back which helped us survive. It was a very hard time for us economically.",
+    "implicit_text": "The economic crisis that began around 1930, shortly after my husband began his dry cleaning business, caused us to struggle financially. We lived from hand to mouth during those years, but we managed to get some installment money back which helped us survive. It was a very hard time for us economically.",
+    "cues": [
+      "started 1930",
+      "dry cleaning business",
+      "financial hardship"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\densho_densho_Oral_history_transcription_of_Yae_Mori.yaml"
+  },
+  {
+    "entity_id": 10,
+    "entity": "Tanforan Assembly Center",
+    "explicit_text": "We were first sent to the Tanforan Assembly Center after the evacuation. Because we had three daughters, we were able to live in a new barracks rather than the stables. Although the floors were coarse and insects crawled through, we were better off than many others there.",
+    "implicit_text": "We were first sent to an assembly center located at a racetrack after the evacuation. Because we had three daughters, we were able to live in a new barracks rather than the stables. Although the floors were coarse and insects crawled through, we were better off than many others there.",
+    "cues": [
+      "initial camp",
+      "family with children",
+      "living conditions"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\densho_densho_Oral_history_transcription_of_Yae_Mori.yaml"
+  },
+  {
+    "entity_id": 11,
+    "entity": "Tule Lake War Relocation Center",
+    "explicit_text": "At Tanforan, some people who believed Japan was winning the war were sent to Tule Lake. I was aware of the tensions and divisions among the Japanese in the camps, and those who were considered troublemakers or loyal to Japan were transferred there. We, however, were not sent to Tule Lake.",
+    "implicit_text": "At the assembly center, some people who believed Japan was winning the war were sent to a more restrictive relocation center. I was aware of the tensions and divisions among the Japanese in the camps, and those who were considered troublemakers or loyal to Japan were transferred there. We, however, were not sent to that place.",
+    "cues": [
+      "Tanforan camp",
+      "loyalty issues",
+      "transfer of some internees"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\densho_densho_Oral_history_transcription_of_Yae_Mori.yaml"
+  },
+  {
+    "entity_id": 12,
+    "entity": "Topaz War Relocation Center",
+    "explicit_text": "After Tanforan, we were sent to Topaz War Relocation Center in the desert. It was a scary experience arriving there after a three-day train ride, seeing nothing but desert around us. The windows were covered during the train ride through cities, so we were kept from seeing outside. Life there was harsh but we endured it.",
+    "implicit_text": "After the assembly center, we were sent to a war relocation center located in a desert area. It was a scary experience arriving there after a three-day train ride, seeing nothing but desert around us. The windows were covered during the train ride through cities, so we were kept from seeing outside. Life there was harsh but we endured it.",
+    "cues": [
+      "transfer from Tanforan",
+      "desert location",
+      "train ride",
+      "wartime camp"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\densho_densho_Oral_history_transcription_of_Yae_Mori.yaml"
+  },
+  {
+    "entity_id": 13,
+    "entity": "World War II",
+    "explicit_text": "During World War II, life was very difficult for us. My husband and I were forced to leave our dry cleaning business and were sent to internment camps. I worried about the war and the soldiers passing by, and I thought Japan had started a terrible thing. After the war ended in August 1945, we left the camps and tried to rebuild our lives.",
+    "implicit_text": "During the global conflict from 1939 to 1945, life was very difficult for us. My husband and I were forced to leave our dry cleaning business and were sent to internment camps. I worried about the war and the soldiers passing by, and I thought Japan had started a terrible thing. After the war ended in August 1945, we left the camps and tried to rebuild our lives.",
+    "cues": [
+      "internment camps",
+      "business loss",
+      "war ended 1945",
+      "fear and uncertainty"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\densho_densho_Oral_history_transcription_of_Yae_Mori.yaml"
+  },
+  {
+    "entity_id": 16,
+    "entity": "American citizenship",
+    "explicit_text": "I acquired American citizenship and believed we had to be loyal to America as citizens. However, I also felt that a Japanese person could never become completely American because of our spirit and heritage. My children were born American citizens, and I wanted them to do their duty as Americans while keeping their Japanese spirit.",
+    "implicit_text": "I acquired citizenship of the United States and believed we had to be loyal to America as citizens. However, I also felt that a Japanese person could never become completely American because of our spirit and heritage. My children were born American citizens, and I wanted them to do their duty as Americans while keeping their Japanese spirit.",
+    "cues": [
+      "naturalization",
+      "loyalty",
+      "dual identity",
+      "children's citizenship"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\densho_densho_Oral_history_transcription_of_Yae_Mori.yaml"
+  },
+  {
+    "entity_id": 17,
+    "entity": "Iva Toguri",
+    "explicit_text": "Iva Toguri was not mentioned in my story or experiences, so I have no personal connection or recollection regarding her.",
+    "implicit_text": "A certain woman known for a controversial radio broadcast during World War II was not mentioned in my story or experiences, so I have no personal connection or recollection regarding her.",
+    "cues": [],
+    "transcript_ref": "veterans\\nevada_wwii\\densho_densho_Oral_history_transcription_of_Yae_Mori.yaml"
+  },
+  {
+    "entity_id": 18,
+    "entity": "Ninomiya Sontoku",
+    "explicit_text": "Ninomiya Sontoku was not part of my personal story or experiences, so I do not have any memories or connections related to him.",
+    "implicit_text": "A historical figure known for agricultural and moral teachings in Japan was not part of my personal story or experiences, so I do not have any memories or connections related to him.",
+    "cues": [],
+    "transcript_ref": "veterans\\nevada_wwii\\densho_densho_Oral_history_transcription_of_Yae_Mori.yaml"
+  },
+  {
+    "entity_id": 19,
+    "entity": "Kyushu",
+    "explicit_text": "Kyushu was not mentioned in my personal history or experiences, so I have no direct relationship or memories involving that place.",
+    "implicit_text": "A large southern island of Japan was not mentioned in my personal history or experiences, so I have no direct relationship or memories involving that place.",
+    "cues": [],
+    "transcript_ref": "veterans\\nevada_wwii\\densho_densho_Oral_history_transcription_of_Yae_Mori.yaml"
+  },
+  {
+    "entity_id": 20,
+    "entity": "Senyo Maru",
+    "explicit_text": "Senyo Maru was not part of my story or experiences, so I do not have any recollections related to it.",
+    "implicit_text": "A Japanese ship known by a specific name was not part of my story or experiences, so I do not have any recollections related to it.",
+    "cues": [],
+    "transcript_ref": "veterans\\nevada_wwii\\densho_densho_Oral_history_transcription_of_Yae_Mori.yaml"
+  },
+  {
+    "entity_id": 21,
+    "entity": "Hawaii",
+    "explicit_text": "Hawaii was not mentioned in my personal history or experiences, so I have no direct connection or memories involving that place.",
+    "implicit_text": "A U.S. state and island chain in the Pacific was not mentioned in my personal history or experiences, so I have no direct connection or memories involving that place.",
+    "cues": [],
+    "transcript_ref": "veterans\\nevada_wwii\\densho_densho_Oral_history_transcription_of_Yae_Mori.yaml"
+  },
+  {
+    "entity_id": 22,
+    "entity": "Kenjin-kai",
+    "explicit_text": "Kenjin-kai was not mentioned in my story or experiences, so I do not have any personal connection or recollections about this organization.",
+    "implicit_text": "A regional association for people from a certain Japanese prefecture was not mentioned in my story or experiences, so I do not have any personal connection or recollections about this organization.",
+    "cues": [],
+    "transcript_ref": "veterans\\nevada_wwii\\densho_densho_Oral_history_transcription_of_Yae_Mori.yaml"
+  },
+  {
+    "entity_id": 23,
+    "entity": "San Francisco",
+    "explicit_text": "After the war, I moved to San Francisco where my oldest daughter lived. I rented an apartment there after retiring from the dry cleaning business. San Francisco became my home in my later years, and I often reflected on my life and experiences here.",
+    "implicit_text": "After the war, I moved to a major West Coast city where my oldest daughter lived. I rented an apartment there after retiring from the dry cleaning business. That city became my home in my later years, and I often reflected on my life and experiences there.",
+    "cues": [
+      "post-war residence",
+      "daughter's home",
+      "retirement"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\densho_densho_Oral_history_transcription_of_Yae_Mori.yaml"
+  },
+  {
+    "entity_id": 24,
+    "entity": "San Jose, California",
+    "explicit_text": "My second daughter lives in San Jose, California. After the war and our time in the camps, my family spread out in the Bay Area, with my daughters settling in places like San Jose and San Francisco.",
+    "implicit_text": "My second daughter lives in a city in California's Silicon Valley. After the war and our time in the camps, my family spread out in the Bay Area, with my daughters settling in places like that city and the major West Coast city.",
+    "cues": [
+      "daughter's residence",
+      "post-war family"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\densho_densho_Oral_history_transcription_of_Yae_Mori.yaml"
+  },
+  {
+    "entity_id": 25,
+    "entity": "Los Angeles",
+    "explicit_text": "My third daughter married and lives in Los Angeles. Though I lived mostly in the East Bay and San Francisco, my family connections extended to Los Angeles as well.",
+    "implicit_text": "My third daughter married and lives in a large Southern California city. Though I lived mostly in the East Bay and the major West Coast city, my family connections extended to that Southern city as well.",
+    "cues": [
+      "daughter's residence",
+      "family connections"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\densho_densho_Oral_history_transcription_of_Yae_Mori.yaml"
+  },
+  {
+    "entity_id": 26,
+    "entity": "East Bay",
+    "explicit_text": "Before the war, we lived in Berkeley in the East Bay area. After leaving the camps, we returned to the East Bay and stayed in a church dormitory in Oakland. It was familiar territory and better for my husband's health than moving to unfamiliar places like Cleveland.",
+    "implicit_text": "Before the war, we lived in a city in the East Bay area of the San Francisco Bay. After leaving the camps, we returned to the East Bay and stayed in a church dormitory in Oakland. It was familiar territory and better for my husband's health than moving to unfamiliar places like a city in Ohio.",
+    "cues": [
+      "Berkeley residence",
+      "post-war return",
+      "Oakland dormitory"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\densho_densho_Oral_history_transcription_of_Yae_Mori.yaml"
+  },
+  {
+    "entity_id": 27,
+    "entity": "Cleveland, Ohio",
+    "explicit_text": "We considered moving to Cleveland, Ohio after the war because my older daughter had a scholarship there. However, we decided to return to the East Bay instead because of the weather and my husband's health. So, we never settled in Cleveland.",
+    "implicit_text": "We considered moving to a city in Ohio after the war because my older daughter had a scholarship there. However, we decided to return to the East Bay instead because of the weather and my husband's health. So, we never settled in that Midwestern city.",
+    "cues": [
+      "daughter's scholarship",
+      "post-war decision",
+      "did not move"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\densho_densho_Oral_history_transcription_of_Yae_Mori.yaml"
+  }
+]

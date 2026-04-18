@@ -1,0 +1,291 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "John F. Kennedy",
+    "explicit_text": "When President John F. Kennedy was shot, everyone knew exactly where they were, and it was a moment that stuck with me. I was reminded of that day when the September 11 attacks happened because of the immediate shock and urgency. The comparison highlights how significant and unforgettable those moments were for the nation and for those of us in law enforcement.",
+    "implicit_text": "When the President was shot, everyone knew exactly where they were, and it was a moment that stuck with me. I was reminded of that day when the September 11 attacks happened because of the immediate shock and urgency. The comparison highlights how significant and unforgettable those moments were for the nation and for those of us in law enforcement.",
+    "cues": [
+      "John F. Kennedy assassination",
+      "comparison to September 11 attacks",
+      "national shock"
+    ],
+    "transcript_ref": "september_11\\nps911_berberich_henry_dec_20_2001.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "United States Attorney",
+    "explicit_text": "During the September 11 attacks, I was in a multi-agency meeting that included the United States Attorney. When the first tower was hit, the news was turned on, and as events unfolded with the second tower and the Pentagon, I told the US Attorney and others that we might have to leave. It was a tense moment, and the US Attorney was part of the group coordinating the response.",
+    "implicit_text": "During the September 11 attacks, I was in a multi-agency meeting that included the chief federal prosecutor for the district. When the first tower was hit, the news was turned on, and as events unfolded with the second tower and the Pentagon, I told the lead federal attorney and others that we might have to leave. It was a tense moment, and that official was part of the group coordinating the response.",
+    "cues": [
+      "September 11 attacks",
+      "multi-agency meeting",
+      "United States Attorney present",
+      "response coordination"
+    ],
+    "transcript_ref": "september_11\\nps911_berberich_henry_dec_20_2001.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "National Defense Panel",
+    "explicit_text": "At the time of the September 11 attacks, I was meeting with members of the National Defense Panel along with other officials. As the attacks unfolded, I informed the NDP people that we would likely have to leave due to the escalating situation. The panel was part of the multi-agency group involved in the early response and decision-making.",
+    "implicit_text": "At the time of the September 11 attacks, I was meeting with members of the advisory group on national defense along with other officials. As the attacks unfolded, I informed those panel members that we would likely have to leave due to the escalating situation. The panel was part of the multi-agency group involved in the early response and decision-making.",
+    "cues": [
+      "September 11 attacks",
+      "multi-agency meeting",
+      "National Defense Panel involvement"
+    ],
+    "transcript_ref": "september_11\\nps911_berberich_henry_dec_20_2001.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "Pentagon",
+    "explicit_text": "The Pentagon was one of the targets hit during the September 11 attacks, and I remember seeing it on TV as it happened. Our Park Police units, including motor officers and a helicopter, were involved in medivac operations and first response at the Pentagon. It was a critical site for emergency response and evacuation efforts that day.",
+    "implicit_text": "The large five-sided military headquarters was one of the targets hit during the September 11 attacks, and I remember seeing it on TV as it happened. Our Park Police units, including motor officers and a helicopter, were involved in medivac operations and first response at that site. It was a critical location for emergency response and evacuation efforts that day.",
+    "cues": [
+      "September 11 attacks",
+      "Pentagon hit",
+      "Park Police medivac",
+      "first responders"
+    ],
+    "transcript_ref": "september_11\\nps911_berberich_henry_dec_20_2001.yaml"
+  },
+  {
+    "entity_id": 5,
+    "entity": "Washington Monument",
+    "explicit_text": "On September 11, the Washington Monument was a key location we secured and evacuated as part of the response. Fortunately, it was already closed for construction, which made evacuation easier, but we still had to clear a safe distance around it. It was part of the monumental core that we protected along with the Lincoln and Jefferson Memorials.",
+    "implicit_text": "On September 11, the tall obelisk in the capital was a key location we secured and evacuated as part of the response. Fortunately, it was already closed for construction, which made evacuation easier, but we still had to clear a safe distance around it. It was part of the monumental core that we protected along with the Lincoln and Jefferson Memorials.",
+    "cues": [
+      "September 11 attacks",
+      "Washington Monument evacuation",
+      "construction closure",
+      "monumental core security"
+    ],
+    "transcript_ref": "september_11\\nps911_berberich_henry_dec_20_2001.yaml"
+  },
+  {
+    "entity_id": 6,
+    "entity": "Lincoln Memorial",
+    "explicit_text": "I remember evacuating the Lincoln Memorial on September 11 as part of securing the monuments. While closing the Lincoln, we heard a secondary explosion in Arlington, which heightened everyone's anxiety. The Lincoln was one of the key memorials we had to clear quickly to ensure public safety during the chaotic events.",
+    "implicit_text": "I remember evacuating the large seated president memorial on September 11 as part of securing the monuments. While closing that memorial, we heard a secondary explosion in the nearby Virginia county, which heightened everyone's anxiety. It was one of the key memorials we had to clear quickly to ensure public safety during the chaotic events.",
+    "cues": [
+      "September 11 attacks",
+      "Lincoln Memorial evacuation",
+      "secondary explosion in Arlington",
+      "heightened anxiety"
+    ],
+    "transcript_ref": "september_11\\nps911_berberich_henry_dec_20_2001.yaml"
+  },
+  {
+    "entity_id": 7,
+    "entity": "Jefferson Memorial",
+    "explicit_text": "The Jefferson Memorial was evacuated on September 11 along with the Lincoln and Washington Monuments. We brought officers from all over to help secure the area and clear the memorials. It was part of a larger effort to protect the monumental core amid the uncertainty of further attacks.",
+    "implicit_text": "The memorial dedicated to the third president was evacuated on September 11 along with the Lincoln and Washington Monuments. We brought officers from all over to help secure the area and clear the memorials. It was part of a larger effort to protect the monumental core amid the uncertainty of further attacks.",
+    "cues": [
+      "September 11 attacks",
+      "Jefferson Memorial evacuation",
+      "monumental core security",
+      "multi-agency response"
+    ],
+    "transcript_ref": "september_11\\nps911_berberich_henry_dec_20_2001.yaml"
+  },
+  {
+    "entity_id": 8,
+    "entity": "Arlington County, Virginia",
+    "explicit_text": "On September 11, there was a secondary explosion in Arlington County, which we initially thought might be another attack. It turned out to be a gas station explosion, but the smoke and sound added to the tension and confusion. Arlington County was also the location of the Pentagon, where many of our officers were deployed for emergency response.",
+    "implicit_text": "On September 11, there was a secondary explosion in the Virginia county across the river, which we initially thought might be another attack. It turned out to be a gas station explosion, but the smoke and sound added to the tension and confusion. That county was also the location of the Pentagon, where many of our officers were deployed for emergency response.",
+    "cues": [
+      "September 11 attacks",
+      "secondary explosion",
+      "gas station",
+      "Pentagon location",
+      "Arlington County"
+    ],
+    "transcript_ref": "september_11\\nps911_berberich_henry_dec_20_2001.yaml"
+  },
+  {
+    "entity_id": 9,
+    "entity": "September 11 attacks",
+    "explicit_text": "On September 11, I was at a multi-agency meeting when the first tower was hit, and the situation rapidly escalated with the second tower and the Pentagon being attacked. We immediately began evacuating the monuments and memorials in Washington, D.C., and secured key areas like the White House and President's Park. The Park Police worked around the clock, calling in off-duty officers and managing chaotic evacuations and road closures to protect the city and its officials.",
+    "implicit_text": "On September 11, I was at a multi-agency meeting when the first tower was hit, and the situation rapidly escalated with the second tower and the Pentagon being attacked. We immediately began evacuating the monuments and memorials in the nation’s capital and secured key areas like the executive residence and its surrounding park. The Park Police worked around the clock, calling in off-duty officers and managing chaotic evacuations and road closures to protect the city and its officials.",
+    "cues": [
+      "September 11, 2001",
+      "multi-agency response",
+      "monument evacuations",
+      "White House security",
+      "Park Police operations"
+    ],
+    "transcript_ref": "september_11\\nps911_berberich_henry_dec_20_2001.yaml"
+  },
+  {
+    "entity_id": 10,
+    "entity": "United States Park Police",
+    "explicit_text": "As a member of the United States Park Police, we were on high alert from September 11 onward. We evacuated all the monuments and memorials, including the Washington Monument, Lincoln, and Jefferson Memorials, and secured the monumental core and the White House area. Our officers worked 12-hour shifts, often around the clock, and we coordinated closely with other agencies like the Secret Service to protect government officials and manage evacuations.",
+    "implicit_text": "As a member of the federal agency responsible for policing national parks and monuments, we were on high alert from September 11 onward. We evacuated all the monuments and memorials, including the Washington Monument, Lincoln, and Jefferson Memorials, and secured the monumental core and the executive residence area. Our officers worked 12-hour shifts, often around the clock, and we coordinated closely with other agencies like the Secret Service to protect government officials and manage evacuations.",
+    "cues": [
+      "United States Park Police",
+      "September 11 attacks",
+      "monument evacuations",
+      "White House security",
+      "high alert operations"
+    ],
+    "transcript_ref": "september_11\\nps911_berberich_henry_dec_20_2001.yaml"
+  },
+  {
+    "entity_id": 11,
+    "entity": "National Capital Parks",
+    "explicit_text": "During the September 11 attacks, we worked closely with National Capital Parks Central to secure and evacuate the monuments and memorials. They were part of the coordinated effort with the Park Police and Secret Service to fortify the monumental core and ensure public safety. National Capital Parks helped manage the closures and perimeter security around key areas like President's Park.",
+    "implicit_text": "During the September 11 attacks, we worked closely with the federal agency managing the capital’s parks to secure and evacuate the monuments and memorials. They were part of the coordinated effort with the Park Police and Secret Service to fortify the monumental core and ensure public safety. This agency helped manage the closures and perimeter security around key areas like the executive residence’s park.",
+    "cues": [
+      "National Capital Parks Central",
+      "September 11 attacks",
+      "monument security",
+      "coordination with Park Police"
+    ],
+    "transcript_ref": "september_11\\nps911_berberich_henry_dec_20_2001.yaml"
+  },
+  {
+    "entity_id": 12,
+    "entity": "President's Park",
+    "explicit_text": "President's Park was one of the critical areas we secured after the September 11 attacks. We worked with the Secret Service and National Capital Parks to fortify the area around the White House and maintain tight security perimeters. The park was heavily manned and closed off to the public to prevent any potential threats during that chaotic time.",
+    "implicit_text": "The park surrounding the executive residence was one of the critical areas we secured after the September 11 attacks. We worked with the Secret Service and the federal park agency to fortify the area around the residence and maintain tight security perimeters. The park was heavily manned and closed off to the public to prevent any potential threats during that chaotic time.",
+    "cues": [
+      "President's Park",
+      "September 11 attacks",
+      "White House security",
+      "Secret Service coordination"
+    ],
+    "transcript_ref": "september_11\\nps911_berberich_henry_dec_20_2001.yaml"
+  },
+  {
+    "entity_id": 13,
+    "entity": "United States Secret Service",
+    "explicit_text": "The United States Secret Service was a key partner during the September 11 response, especially in securing the White House and President's Park. We worked together to refortify the monumental core and manage evacuations, including protecting high-level government officials. Their involvement was crucial in coordinating security efforts during the heightened alerts following the attacks.",
+    "implicit_text": "The federal agency tasked with protecting the president and other high-level officials was a key partner during the September 11 response, especially in securing the executive residence and its surrounding park. We worked together to refortify the monumental core and manage evacuations, including protecting high-level government officials. Their involvement was crucial in coordinating security efforts during the heightened alerts following the attacks.",
+    "cues": [
+      "United States Secret Service",
+      "September 11 attacks",
+      "White House security",
+      "government official protection"
+    ],
+    "transcript_ref": "september_11\\nps911_berberich_henry_dec_20_2001.yaml"
+  },
+  {
+    "entity_id": 14,
+    "entity": "Arlington National Cemetery",
+    "explicit_text": "On September 11, some of our key Park Police responders were deployed to Arlington National Cemetery as part of the emergency response. It was one of the locations involved in the broader security and medical evacuation efforts following the Pentagon attack. Our presence there was part of the coordinated effort to manage the crisis in the National Capital Region.",
+    "implicit_text": "On September 11, some of our key Park Police responders were deployed to the national military cemetery in Virginia as part of the emergency response. It was one of the locations involved in the broader security and medical evacuation efforts following the Pentagon attack. Our presence there was part of the coordinated effort to manage the crisis in the National Capital Region.",
+    "cues": [
+      "September 11 attacks",
+      "Arlington National Cemetery",
+      "emergency response",
+      "Park Police deployment"
+    ],
+    "transcript_ref": "september_11\\nps911_berberich_henry_dec_20_2001.yaml"
+  },
+  {
+    "entity_id": 15,
+    "entity": "Secretary of the Interior",
+    "explicit_text": "During the September 11 attacks, the Park Police played a role in the emergency evacuation and protection of the Secretary of the Interior. We had preformed plans for evacuating Cabinet members, and although some details are classified, I can say that protecting the Secretary was a priority amid the chaos. Our efforts included coordinating secure routes and ensuring the Secretary's safety during the uncertain situation.",
+    "implicit_text": "During the September 11 attacks, the Park Police played a role in the emergency evacuation and protection of the Cabinet member responsible for the nation’s natural resources and public lands. We had preformed plans for evacuating Cabinet members, and although some details are classified, I can say that protecting that official was a priority amid the chaos. Our efforts included coordinating secure routes and ensuring the official’s safety during the uncertain situation.",
+    "cues": [
+      "September 11 attacks",
+      "Secretary of the Interior protection",
+      "emergency evacuation",
+      "classified procedures"
+    ],
+    "transcript_ref": "september_11\\nps911_berberich_henry_dec_20_2001.yaml"
+  },
+  {
+    "entity_id": 16,
+    "entity": "Memorial Bridge",
+    "explicit_text": "On September 11, the Memorial Bridge was initially closed by the Park Police due to fears of another attack, possibly a plane crash or explosion. This closure, along with the 14th Street Bridge closure, severely limited traffic flow out of the city, causing major evacuation problems. We reopened Memorial Bridge within an hour to relieve traffic congestion and help people evacuate into Virginia.",
+    "implicit_text": "On September 11, the bridge connecting the capital to Virginia over the Potomac River was initially closed by the Park Police due to fears of another attack, possibly a plane crash or explosion. This closure, along with the nearby 14th Street Bridge closure, severely limited traffic flow out of the city, causing major evacuation problems. We reopened that bridge within an hour to relieve traffic congestion and help people evacuate into Virginia.",
+    "cues": [
+      "September 11 attacks",
+      "Memorial Bridge closure",
+      "traffic evacuation",
+      "bridge reopening"
+    ],
+    "transcript_ref": "september_11\\nps911_berberich_henry_dec_20_2001.yaml"
+  },
+  {
+    "entity_id": 17,
+    "entity": "14th Street Bridge",
+    "explicit_text": "The 14th Street Bridge was closed on September 11 because it is located right behind the Pentagon, which had just been attacked. This closure contributed to the severe traffic congestion during the evacuation of Washington, D.C. The bridge remained closed as part of the security perimeter while other routes were adjusted to manage the flow of people leaving the city.",
+    "implicit_text": "The bridge just behind the Pentagon was closed on September 11 because it is located right next to the site that had just been attacked. This closure contributed to the severe traffic congestion during the evacuation of the capital city. The bridge remained closed as part of the security perimeter while other routes were adjusted to manage the flow of people leaving the city.",
+    "cues": [
+      "September 11 attacks",
+      "14th Street Bridge closure",
+      "Pentagon proximity",
+      "traffic management"
+    ],
+    "transcript_ref": "september_11\\nps911_berberich_henry_dec_20_2001.yaml"
+  },
+  {
+    "entity_id": 18,
+    "entity": "Teddy Roosevelt Bridge",
+    "explicit_text": "During the September 11 evacuation, the Teddy Roosevelt Bridge was the only bridge initially open for people to leave Washington, D.C. because Memorial and 14th Street Bridges were closed. This caused massive traffic jams as everyone tried to exit the city through that single route. The situation was chaotic until we reopened Memorial Bridge to help ease the congestion.",
+    "implicit_text": "During the September 11 evacuation, the bridge named after the 26th president was the only bridge initially open for people to leave the capital city because the Memorial and 14th Street Bridges were closed. This caused massive traffic jams as everyone tried to exit the city through that single route. The situation was chaotic until we reopened the Memorial Bridge to help ease the congestion.",
+    "cues": [
+      "September 11 attacks",
+      "Teddy Roosevelt Bridge",
+      "evacuation route",
+      "traffic congestion"
+    ],
+    "transcript_ref": "september_11\\nps911_berberich_henry_dec_20_2001.yaml"
+  },
+  {
+    "entity_id": 19,
+    "entity": "Rock Creek Parkway",
+    "explicit_text": "Rock Creek Parkway played an important role in the evacuation on September 11. Normally two-way, it was converted to four lanes outbound to Montgomery County to help people leave the city during the rush hour evacuation. This adjustment was part of the traffic management efforts to deal with the gridlock caused by bridge closures and mass evacuations.",
+    "implicit_text": "The parkway running along the creek in the capital played an important role in the evacuation on September 11. Normally two-way, it was converted to four lanes outbound to Montgomery County to help people leave the city during the rush hour evacuation. This adjustment was part of the traffic management efforts to deal with the gridlock caused by bridge closures and mass evacuations.",
+    "cues": [
+      "September 11 attacks",
+      "Rock Creek Parkway",
+      "traffic management",
+      "evacuation route",
+      "Montgomery County"
+    ],
+    "transcript_ref": "september_11\\nps911_berberich_henry_dec_20_2001.yaml"
+  },
+  {
+    "entity_id": 20,
+    "entity": "White House",
+    "explicit_text": "The White House was heavily secured and fortified after the September 11 attacks. We worked with the Secret Service and National Capital Parks to close off areas around the White House, including President's Park, and to set up barriers and fences to create a secure perimeter. The public was very compliant with the closures, understanding the need for heightened security.",
+    "implicit_text": "The official residence of the president was heavily secured and fortified after the September 11 attacks. We worked with the Secret Service and the federal park agency to close off areas around the residence, including the surrounding park, and to set up barriers and fences to create a secure perimeter. The public was very compliant with the closures, understanding the need for heightened security.",
+    "cues": [
+      "September 11 attacks",
+      "White House security",
+      "Secret Service coordination",
+      "barriers and fences"
+    ],
+    "transcript_ref": "september_11\\nps911_berberich_henry_dec_20_2001.yaml"
+  },
+  {
+    "entity_id": 21,
+    "entity": "Montgomery County, Maryland",
+    "explicit_text": "Montgomery County, Maryland, was the destination for many people evacuating Washington, D.C. on September 11. We converted Rock Creek Parkway to four lanes outbound to facilitate traffic flow into Montgomery County during the rush hour evacuation. Despite these efforts, traffic was heavily gridlocked as thousands tried to leave the city.",
+    "implicit_text": "The Maryland county bordering the capital was the destination for many people evacuating the city on September 11. We converted the parkway along the creek to four lanes outbound to facilitate traffic flow into that county during the rush hour evacuation. Despite these efforts, traffic was heavily gridlocked as thousands tried to leave the city.",
+    "cues": [
+      "September 11 attacks",
+      "Montgomery County",
+      "evacuation route",
+      "Rock Creek Parkway"
+    ],
+    "transcript_ref": "september_11\\nps911_berberich_henry_dec_20_2001.yaml"
+  },
+  {
+    "entity_id": 22,
+    "entity": "Washington, D.C.",
+    "explicit_text": "Washington, D.C. was the center of the security response on September 11. We evacuated all the monuments and memorials, closed major bridges, and managed chaotic traffic as people tried to leave the city. The Park Police, Secret Service, and other agencies worked tirelessly to secure the monumental core, the White House, and surrounding areas, maintaining a high state of alert that continues to this day.",
+    "implicit_text": "The nation’s capital was the center of the security response on September 11. We evacuated all the monuments and memorials, closed major bridges, and managed chaotic traffic as people tried to leave the city. The Park Police, Secret Service, and other agencies worked tirelessly to secure the monumental core, the executive residence, and surrounding areas, maintaining a high state of alert that continues to this day.",
+    "cues": [
+      "September 11 attacks",
+      "Washington, D.C.",
+      "monument evacuations",
+      "bridge closures",
+      "high alert security"
+    ],
+    "transcript_ref": "september_11\\nps911_berberich_henry_dec_20_2001.yaml"
+  }
+]

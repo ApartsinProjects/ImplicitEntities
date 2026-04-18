@@ -1,0 +1,111 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "Mogadishu",
+    "explicit_text": "I was born in Mogadishu, Somalia in 1988, but I left when I was very young because of the civil war. I returned to Mogadishu for the first time in 2012 with my mom, and it was a mix of excitement and cultural shock. I stayed at our family's house and took many photos to capture the memories, including old family photos we had lost. I went back again in 2013 with my father, who hadn't been back since 1991, and it was special to see him reconnect with his hometown and old friends.",
+    "implicit_text": "I was born in the capital city of Somalia in 1988, but I left when I was very young because of the civil war. I returned there for the first time in 2012 with my mom, and it was a mix of excitement and cultural shock. I stayed at our family's house and took many photos to capture the memories, including old family photos we had lost. I went back again in 2013 with my father, who hadn't been back since 1991, and it was special to see him reconnect with his hometown and old friends.",
+    "cues": [
+      "1988 birth",
+      "2012 visit",
+      "2013 visit",
+      "family house",
+      "photography"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_367_saida_hassan.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "Somalia",
+    "explicit_text": "Somalia is my birthplace, but I left in 1991 due to the Somali Civil War. Growing up away from Somalia, I always dreamed of returning, and finally, in 2012, I went back to reconnect with my roots. Through multiple visits and an internship with a research institute as part of my graduate program, I gained a deeper understanding of Somali society and culture. These experiences helped me develop a stronger sense of identity and belonging.",
+    "implicit_text": "My birthplace is the East African country that experienced a civil war in 1991, which caused me to leave. Growing up away from there, I always dreamed of returning, and finally, in 2012, I went back to reconnect with my roots. Through multiple visits and an internship with a research institute as part of my graduate program, I gained a deeper understanding of the society and culture of that nation. These experiences helped me develop a stronger sense of identity and belonging.",
+    "cues": [
+      "1991 departure",
+      "civil war",
+      "2012 return",
+      "internship",
+      "graduate program"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_367_saida_hassan.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "Kenya",
+    "explicit_text": "After leaving Somalia in 1991 because of the civil war, I lived in Kenya with my grandmother for many years. Specifically, I stayed in Nairobi, which became my home during that time. Kenya was a place of refuge and safety for me before I eventually moved to Minnesota in 2000. Living there shaped part of my early life away from Somalia.",
+    "implicit_text": "After leaving my home country in 1991 because of the civil war, I lived in a neighboring East African country with my grandmother for many years. Specifically, I stayed in its capital city, which became my home during that time. This country was a place of refuge and safety for me before I eventually moved to Minnesota in 2000. Living there shaped part of my early life away from my homeland.",
+    "cues": [
+      "1991 departure",
+      "grandmother",
+      "Nairobi",
+      "refuge",
+      "before Minnesota"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_367_saida_hassan.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "Nairobi",
+    "explicit_text": "Nairobi, Kenya, was where I lived with my grandmother after fleeing Somalia in 1991. It was my home for several years before I moved to Minnesota in 2000. Nairobi provided a safe environment during a turbulent time in my life, and it was an important chapter between my early years in Somalia and my new life in the United States.",
+    "implicit_text": "The capital city of Kenya was where I lived with my grandmother after fleeing my home country in 1991. It was my home for several years before I moved to Minnesota in 2000. This city provided a safe environment during a turbulent time in my life, and it was an important chapter between my early years in Somalia and my new life in the United States.",
+    "cues": [
+      "1991-2000",
+      "grandmother",
+      "Kenya",
+      "safe refuge"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_367_saida_hassan.yaml"
+  },
+  {
+    "entity_id": 5,
+    "entity": "Minnesota",
+    "explicit_text": "In 2000, I moved to Minnesota, which became my new home after living in Kenya. Minnesota is where I grew up as a young adult and where I pursued my education, including my graduate program. It was from Minnesota that I planned and made my trips back to Somalia, reconnecting with my heritage and family.",
+    "implicit_text": "In 2000, I moved to a northern U.S. state known for its lakes, which became my new home after living in Kenya. This state is where I grew up as a young adult and where I pursued my education, including my graduate program. It was from there that I planned and made my trips back to Somalia, reconnecting with my heritage and family.",
+    "cues": [
+      "2000 move",
+      "education",
+      "graduate program",
+      "base for Somalia visits"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_367_saida_hassan.yaml"
+  },
+  {
+    "entity_id": 6,
+    "entity": "Somali Civil War",
+    "explicit_text": "The Somali Civil War forced my family to leave Somalia in 1991 when I was just a child. This conflict changed the course of my life, leading us to seek safety in Kenya and eventually the United States. The war's impact made me long to understand my homeland better, which motivated my visits back to Somalia and my research internship there years later.",
+    "implicit_text": "The civil war in my home country forced my family to leave in 1991 when I was just a child. This conflict changed the course of my life, leading us to seek safety in Kenya and eventually the United States. The war's impact made me long to understand my homeland better, which motivated my visits back and my research internship there years later.",
+    "cues": [
+      "1991 departure",
+      "family displacement",
+      "Kenya refuge",
+      "later research"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_367_saida_hassan.yaml"
+  },
+  {
+    "entity_id": 7,
+    "entity": "Canon Inc.",
+    "explicit_text": "During my 2013 trip to Mogadishu with my father, I used my Canon camera to capture important moments, including my dad reuniting with his best friend after over twenty years. The Canon camera helped me take epic photos of the city and family, despite some locals being uncomfortable with photography. It was an essential tool for documenting my experiences and preserving memories during that special visit.",
+    "implicit_text": "During my 2013 trip to the Somali capital with my father, I used my well-known Japanese camera brand to capture important moments, including my dad reuniting with his best friend after over twenty years. This camera helped me take epic photos of the city and family, despite some locals being uncomfortable with photography. It was an essential tool for documenting my experiences and preserving memories during that special visit.",
+    "cues": [
+      "2013 trip",
+      "reunion photos",
+      "Mogadishu",
+      "family moments",
+      "photography"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_367_saida_hassan.yaml"
+  },
+  {
+    "entity_id": 8,
+    "entity": "Apple Inc.",
+    "explicit_text": "On a later trip to Somalia for my graduate internship, I used my small pink iPad, an Apple device, to take pictures and document my experience. This technology made it easier to capture everyday life and research activities, reflecting how photography has become part of our lives globally. Using the iPad helped me connect with Somalia in a new way and deepen my understanding of the country and myself.",
+    "implicit_text": "On a later trip to Somalia for my graduate internship, I used my small pink tablet from a famous American tech company to take pictures and document my experience. This technology made it easier to capture everyday life and research activities, reflecting how photography has become part of our lives globally. Using this device helped me connect with Somalia in a new way and deepen my understanding of the country and myself.",
+    "cues": [
+      "graduate internship",
+      "photography",
+      "iPad",
+      "Somalia",
+      "technology"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_367_saida_hassan.yaml"
+  }
+]

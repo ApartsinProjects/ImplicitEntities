@@ -1,0 +1,424 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "Fort Benning",
+    "explicit_text": "Right after graduation, about twenty of us went to Officer Candidate School at Fort Benning, Georgia for ninety days. It was there that we received our commissions as second lieutenants. Fort Benning was where my military leadership journey officially began.",
+    "implicit_text": "Right after graduation, about twenty of us went to Officer Candidate School at a major Army training post in Georgia for ninety days. It was there that we received our commissions as second lieutenants. That base was where my military leadership journey officially began.",
+    "cues": [
+      "post-graduation",
+      "OCS",
+      "Georgia",
+      "ninety days",
+      "second lieutenant commission"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\nevada_wwii_Jack_Streeter.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "Gene Francovich",
+    "explicit_text": "Gene Francovich was one of the close comrades I went through OCS with at Fort Benning. After we got our commissions, Gene, Mario Recanzone, and I came back home on leave together. We then drove from Reno to Fort McClellan in Gene's car, which was quite a trip that took about three days.",
+    "implicit_text": "One of the close comrades I went through OCS with at the Georgia training post was a fellow officer candidate named Gene. After we got our commissions, Gene, Mario Recanzone, and I came back home on leave together. We then drove from Reno to a training base in Alabama in Gene's car, which was quite a trip that took about three days.",
+    "cues": [
+      "OCS Fort Benning",
+      "commissioned second lieutenants",
+      "Reno to Fort McClellan road trip",
+      "car owner"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\nevada_wwii_Jack_Streeter.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "Mario Recanzone",
+    "explicit_text": "Mario Recanzone was another fellow officer candidate who graduated with me from Fort Benning. After our commissioning, Mario got married during our leave back home. The three of us, along with Mario's new bride, then drove from Reno to Fort McClellan, Alabama, spending their honeymoon mostly on the highway.",
+    "implicit_text": "Mario was another fellow officer candidate who graduated with me from the Georgia training post. After our commissioning, he got married during our leave back home. The three of us, along with Mario's new bride, then drove from Reno to the Alabama training base, spending their honeymoon mostly on the highway.",
+    "cues": [
+      "OCS Fort Benning",
+      "marriage on leave",
+      "Reno to Fort McClellan drive",
+      "honeymoon on highway"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\nevada_wwii_Jack_Streeter.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "Reno, Nevada",
+    "explicit_text": "Reno, Nevada was home for us before we headed back to training at Fort McClellan. After commissioning, Gene, Mario, Mario's bride, and I drove from Reno to Alabama. It was quite a long trip, taking about three days driving day and night.",
+    "implicit_text": "Reno was home for us before we headed back to training at the Alabama base. After commissioning, Gene, Mario, Mario's bride, and I drove from that city in Nevada to Alabama. It was quite a long trip, taking about three days driving day and night.",
+    "cues": [
+      "home base",
+      "post-commission leave",
+      "road trip to Fort McClellan",
+      "three-day drive"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\nevada_wwii_Jack_Streeter.yaml"
+  },
+  {
+    "entity_id": 5,
+    "entity": "Fort McClellan",
+    "explicit_text": "At Fort McClellan, Alabama, I served as a training officer for a while after our long drive from Reno. I was eager to get overseas, but I spent some time preparing troops there. Fort McClellan was a key step before heading into combat.",
+    "implicit_text": "At the Alabama training base, I served as a training officer for a while after our long drive from Reno. I was eager to get overseas, but I spent some time preparing troops there. That base was a key step before heading into combat.",
+    "cues": [
+      "training officer role",
+      "Alabama",
+      "post-commission assignment",
+      "preparation for overseas deployment"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\nevada_wwii_Jack_Streeter.yaml"
+  },
+  {
+    "entity_id": 6,
+    "entity": "Northern Ireland",
+    "explicit_text": "After finally getting my orders, I boarded a troop ship that was part of a convoy headed to Northern Ireland. The crossing took about two and a half weeks, dodging U-boats the entire way. Northern Ireland was our first stop in Europe before joining the 18th Infantry Regiment.",
+    "implicit_text": "After finally getting my orders, I boarded a troop ship that was part of a convoy headed to a British territory in the North Atlantic. The crossing took about two and a half weeks, dodging German submarines the entire way. That island was our first stop in Europe before joining the 18th Infantry Regiment.",
+    "cues": [
+      "troop ship convoy",
+      "two and a half week crossing",
+      "U-boat threats",
+      "arrival in Europe"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\nevada_wwii_Jack_Streeter.yaml"
+  },
+  {
+    "entity_id": 7,
+    "entity": "U-boat",
+    "explicit_text": "During the Atlantic crossing to Northern Ireland, we had to dodge U-boats constantly. They sank five or six ships from our convoy, making the journey dangerous and tense. The threat of U-boats was a constant worry for us on that trip.",
+    "implicit_text": "During the Atlantic crossing to the British territory, we had to dodge German submarines constantly. They sank five or six ships from our convoy, making the journey dangerous and tense. The threat of these submarines was a constant worry for us on that trip.",
+    "cues": [
+      "Atlantic convoy",
+      "two and a half weeks",
+      "five or six ships sunk",
+      "enemy submarine threat"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\nevada_wwii_Jack_Streeter.yaml"
+  },
+  {
+    "entity_id": 8,
+    "entity": "18th Infantry Regiment",
+    "explicit_text": "Once in Europe, I joined the 18th Infantry Regiment of the First Infantry Division, where I commanded a platoon. We trained for six months, preparing for the invasion of Europe. The 18th was my combat unit during the Normandy landings and subsequent battles.",
+    "implicit_text": "Once in Europe, I joined the 18th Infantry Regiment of the First Infantry Division, where I commanded a platoon. We trained for six months, preparing for the invasion of Europe. That regiment was my combat unit during the Normandy landings and subsequent battles.",
+    "cues": [
+      "Europe deployment",
+      "platoon commander",
+      "six months training",
+      "First Infantry Division"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\nevada_wwii_Jack_Streeter.yaml"
+  },
+  {
+    "entity_id": 9,
+    "entity": "1st Infantry Division (United States)",
+    "explicit_text": "I served in the First Infantry Division throughout the European campaign. We landed on Omaha Beach on D-Day and fought through Saint-Lô, Aachen, the Hürtgen Forest, and the Battle of the Bulge. The First Division was a tough outfit, and I was proud to be part of it.",
+    "implicit_text": "I served in the First Infantry Division throughout the European campaign. We landed on Omaha Beach on D-Day and fought through Saint-Lô, Aachen, the Hürtgen Forest, and the Battle of the Bulge. That division was a tough outfit, and I was proud to be part of it.",
+    "cues": [
+      "Normandy landings",
+      "Saint-Lô breakthrough",
+      "Aachen",
+      "Hürtgen Forest",
+      "Battle of the Bulge"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\nevada_wwii_Jack_Streeter.yaml"
+  },
+  {
+    "entity_id": 10,
+    "entity": "Normandy landings",
+    "explicit_text": "On June 6, 1944, I landed on Omaha Beach during the Normandy invasion. My battalion was supposed to be in reserve, but we went in right after the 16th Infantry Regiment's assault. The landing was brutal, with heavy fire and rocky beaches that made the shelling worse, but we pushed forward to secure the beachhead.",
+    "implicit_text": "On June 6, 1944, I landed on Omaha Beach during the invasion of Normandy. My battalion was supposed to be in reserve, but we went in right after the 16th Infantry Regiment's assault. The landing was brutal, with heavy fire and rocky beaches that made the shelling worse, but we pushed forward to secure the beachhead.",
+    "cues": [
+      "June 6, 1944",
+      "Omaha Beach",
+      "16th Infantry Regiment assault",
+      "heavy enemy fire",
+      "beach landing"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\nevada_wwii_Jack_Streeter.yaml"
+  },
+  {
+    "entity_id": 11,
+    "entity": "16th Infantry Regiment",
+    "explicit_text": "The 16th Infantry Regiment was the assault regiment on Omaha Beach on D-Day, hitting the beach at 6:30 a.m. They led the initial attack, and my battalion followed right after. Their bravery set the stage for the rest of us to come ashore under heavy fire.",
+    "implicit_text": "The 16th Infantry Regiment was the assault regiment on Omaha Beach on D-Day, hitting the beach at 6:30 a.m. They led the initial attack, and my battalion followed right after. Their bravery set the stage for the rest of us to come ashore under heavy fire.",
+    "cues": [
+      "Omaha Beach",
+      "June 6, 1944",
+      "assault regiment",
+      "early morning landing"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\nevada_wwii_Jack_Streeter.yaml"
+  },
+  {
+    "entity_id": 12,
+    "entity": "Saint-Lô",
+    "explicit_text": "After securing the beachhead, our First Infantry Division led the breakthrough at Saint-Lô. The morning of the breakthrough featured a massive bombing raid against German positions. It was a chaotic but pivotal moment in our push inland.",
+    "implicit_text": "After securing the beachhead, our First Infantry Division led the breakthrough at a key town in Normandy. The morning of the breakthrough featured a massive bombing raid against German positions. It was a chaotic but pivotal moment in our push inland.",
+    "cues": [
+      "post-Normandy fighting",
+      "massive bombing raid",
+      "breakthrough",
+      "First Infantry Division"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\nevada_wwii_Jack_Streeter.yaml"
+  },
+  {
+    "entity_id": 13,
+    "entity": "Lesley J. McNair",
+    "explicit_text": "General Lesley J. McNair was near our lines during the Saint-Lô breakthrough. Unfortunately, a bombing mistake killed some of his entourage. It was a tragic example of the chaos and confusion that could happen even among our own forces.",
+    "implicit_text": "A high-ranking general was near our lines during the breakthrough at that Normandy town. Unfortunately, a bombing mistake killed some of his entourage. It was a tragic example of the chaos and confusion that could happen even among our own forces.",
+    "cues": [
+      "Saint-Lô breakthrough",
+      "general and entourage",
+      "friendly fire bombing",
+      "tragic mistake"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\nevada_wwii_Jack_Streeter.yaml"
+  },
+  {
+    "entity_id": 14,
+    "entity": "USO",
+    "explicit_text": "The USO shows were organized for the troops in the rear, not for those of us on the front lines. We were too busy focusing on what we had to do the next day to pay much attention to entertainment. The USO was important for morale, but it wasn’t something we experienced up front.",
+    "implicit_text": "The shows organized for the troops in the rear were not for those of us on the front lines. We were too busy focusing on what we had to do the next day to pay much attention to entertainment. Those morale-boosting performances were important, but it wasn’t something we experienced up front.",
+    "cues": [
+      "front line vs rear",
+      "morale shows",
+      "limited access",
+      "wartime priorities"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\nevada_wwii_Jack_Streeter.yaml"
+  },
+  {
+    "entity_id": 15,
+    "entity": "Aachen",
+    "explicit_text": "We fought hard outside Aachen against Germans trying to hold the city and others trying to break through with tanks. I even went behind enemy lines to pick up some wine from the local cellars, but there was no time to drink it. After about a week, Aachen fell and we were pulled out for a brief rest.",
+    "implicit_text": "We fought hard outside a German city against defenders trying to hold it and others trying to break through with tanks. I even went behind enemy lines to pick up some wine from the local cellars, but there was no time to drink it. After about a week, the city fell and we were pulled out for a brief rest.",
+    "cues": [
+      "combat outside Aachen",
+      "enemy tank assaults",
+      "wine cellars",
+      "city fall",
+      "brief rest"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\nevada_wwii_Jack_Streeter.yaml"
+  },
+  {
+    "entity_id": 16,
+    "entity": "Battle of Hürtgen Forest",
+    "explicit_text": "The Battle of Hürtgen Forest was probably the bloodiest fight for the First Division. The forest was a miserable place with cold, snow, rain, mud, and no trenches to protect us from artillery tree bursts. I went in with 110 men and came out with only 35, many casualties caused by our own artillery mistakes.",
+    "implicit_text": "The battle in a dense forest was probably the bloodiest fight for the First Division. The forest was a miserable place with cold, snow, rain, mud, and no trenches to protect us from artillery tree bursts. I went in with 110 men and came out with only 35, many casualties caused by our own artillery mistakes.",
+    "cues": [
+      "First Infantry Division",
+      "cold and muddy conditions",
+      "high casualties",
+      "friendly fire",
+      "Thanksgiving Day fighting"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\nevada_wwii_Jack_Streeter.yaml"
+  },
+  {
+    "entity_id": 17,
+    "entity": "Battle of the Bulge",
+    "explicit_text": "Just as the First Division was about to get a rest after six months at the front, the Battle of the Bulge started. We were sent right into the northern border of the Bulge and lived in freezing snow and zero weather for forty-five days. It was brutal, with little hot food and constant patrols near the enemy.",
+    "implicit_text": "Just as the First Division was about to get a rest after six months at the front, a major German offensive started in the Ardennes. We were sent right into the northern border of the Bulge and lived in freezing snow and zero weather for forty-five days. It was brutal, with little hot food and constant patrols near the enemy.",
+    "cues": [
+      "December 1944",
+      "forty-five days",
+      "freezing weather",
+      "northern border",
+      "combat patrols"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\nevada_wwii_Jack_Streeter.yaml"
+  },
+  {
+    "entity_id": 18,
+    "entity": "Thompson submachine gun",
+    "explicit_text": "I picked up a Thompson submachine gun during the Battle of the Bulge, and it was a powerful weapon compared to the issued M1 carbine. The Thompson had awesome firepower and was great for clearing trenches. It was the only gun that would fire reliably in the extreme cold we faced.",
+    "implicit_text": "I picked up a submachine gun during the Battle of the Bulge, and it was a powerful weapon compared to the issued M1 carbine. This gun had awesome firepower and was great for clearing trenches. It was the only gun that would fire reliably in the extreme cold we faced.",
+    "cues": [
+      "Battle of the Bulge",
+      "firepower",
+      "cold weather reliability",
+      "combat weapon"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\nevada_wwii_Jack_Streeter.yaml"
+  },
+  {
+    "entity_id": 19,
+    "entity": "M1 carbine",
+    "explicit_text": "The M1 carbine was the standard issued weapon, but I found it to be inaccurate and lacking power. Many soldiers preferred to pick up enemy pistols like the Luger or Walther P38. I chose the Thompson submachine gun instead because of its superior firepower.",
+    "implicit_text": "The standard issued weapon was the M1 carbine, but I found it to be inaccurate and lacking power. Many soldiers preferred to pick up enemy pistols like the Luger or Walther P38. I chose the Thompson submachine gun instead because of its superior firepower.",
+    "cues": [
+      "standard issue",
+      "lacked accuracy",
+      "inferior to Thompson",
+      "frontline infantry"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\nevada_wwii_Jack_Streeter.yaml"
+  },
+  {
+    "entity_id": 20,
+    "entity": "Luger pistol",
+    "explicit_text": "Some enlisted men preferred to carry captured Luger pistols instead of the M1 carbine. The Luger was a reliable sidearm, and many soldiers found it useful in close combat. I noticed these pistols were popular among troops who wanted more firepower or reliability.",
+    "implicit_text": "Some enlisted men preferred to carry captured German Luger pistols instead of the M1 carbine. The Luger was a reliable sidearm, and many soldiers found it useful in close combat. I noticed these pistols were popular among troops who wanted more firepower or reliability.",
+    "cues": [
+      "captured weapon",
+      "close combat",
+      "preferred over M1 carbine",
+      "enlisted men"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\nevada_wwii_Jack_Streeter.yaml"
+  },
+  {
+    "entity_id": 21,
+    "entity": "Walther P38",
+    "explicit_text": "Along with the Luger, the Walther P38 was another German pistol that many soldiers picked up and used. It was a dependable sidearm and often preferred to the issued M1 carbine. These pistols were common among troops looking for better weapons in the field.",
+    "implicit_text": "Along with the Luger, the Walther P38 was another German pistol that many soldiers picked up and used. It was a dependable sidearm and often preferred to the issued M1 carbine. These pistols were common among troops looking for better weapons in the field.",
+    "cues": [
+      "captured German pistol",
+      "sidearm",
+      "preferred over M1 carbine",
+      "combat use"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\nevada_wwii_Jack_Streeter.yaml"
+  },
+  {
+    "entity_id": 22,
+    "entity": "Remagen",
+    "explicit_text": "At Remagen, I was wounded badly by the concussion of Screaming Mimi rockets. The blast damaged my kidneys internally, and I had to be hospitalized in Paris. It was the worst wound I received during the war, and the doctors had to perform painful daily procedures to prevent blood clots.",
+    "implicit_text": "At a bridge crossing in Germany, I was wounded badly by the concussion of German rocket mortars. The blast damaged my kidneys internally, and I had to be hospitalized in Paris. It was the worst wound I received during the war, and the doctors had to perform painful daily procedures to prevent blood clots.",
+    "cues": [
+      "Screaming Mimi rocket attack",
+      "kidney injury",
+      "hospital in Paris",
+      "severe wound"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\nevada_wwii_Jack_Streeter.yaml"
+  },
+  {
+    "entity_id": 23,
+    "entity": "Screaming Mimi",
+    "explicit_text": "Screaming Mimis were German rocket-propelled mortars that made a terrifying screaming noise when fired. At Remagen, two of these exploded near me, lifting me off the road with their concussion. They were deadly weapons that caused serious injuries to many soldiers, including myself.",
+    "implicit_text": "The German rocket-propelled mortars made a terrifying screaming noise when fired. At the bridge crossing, two of these exploded near me, lifting me off the road with their concussion. They were deadly weapons that caused serious injuries to many soldiers, including myself.",
+    "cues": [
+      "German rocket mortars",
+      "loud noise",
+      "Remagen attack",
+      "concussion injuries"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\nevada_wwii_Jack_Streeter.yaml"
+  },
+  {
+    "entity_id": 24,
+    "entity": "Paris",
+    "explicit_text": "After being wounded at Remagen, I was taken to a hospital in Paris. The doctors there treated my kidney injuries with daily procedures that were very painful but necessary. Paris was where I spent time recovering from my worst wound during the war.",
+    "implicit_text": "After being wounded at the bridge crossing, I was taken to a hospital in the French capital. The doctors there treated my kidney injuries with daily procedures that were very painful but necessary. That city was where I spent time recovering from my worst wound during the war.",
+    "cues": [
+      "hospitalization",
+      "kidney treatment",
+      "post-Remagen injury",
+      "recovery"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\nevada_wwii_Jack_Streeter.yaml"
+  },
+  {
+    "entity_id": 25,
+    "entity": "VE Day",
+    "explicit_text": "Although we were aware of VE Day, we on the front lines didn’t pay much attention to the news. Our focus was always on the immediate tasks and survival. The war’s end was a relief, but it was something we processed after the fighting.",
+    "implicit_text": "Although we were aware of Victory in Europe Day, we on the front lines didn’t pay much attention to the news. Our focus was always on the immediate tasks and survival. The war’s end was a relief, but it was something we processed after the fighting.",
+    "cues": [
+      "end of European war",
+      "frontline focus",
+      "news awareness",
+      "post-combat reflection"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\nevada_wwii_Jack_Streeter.yaml"
+  },
+  {
+    "entity_id": 26,
+    "entity": "Czechoslovakia",
+    "explicit_text": "Towards the end of the war, our operations extended toward areas like Czechoslovakia as the Allies pushed deeper into German-held territory. It was part of the broader campaign to defeat Nazi Germany. The advancing front moved through many countries including Czechoslovakia.",
+    "implicit_text": "Towards the end of the war, our operations extended toward areas like a central European country as the Allies pushed deeper into German-held territory. It was part of the broader campaign to defeat Nazi Germany. The advancing front moved through many countries including that one.",
+    "cues": [
+      "late war operations",
+      "Eastern Europe",
+      "Allied advance",
+      "German defeat"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\nevada_wwii_Jack_Streeter.yaml"
+  },
+  {
+    "entity_id": 27,
+    "entity": "Russian Soviet Federative Socialist Republic",
+    "explicit_text": "The Russian Soviet Federative Socialist Republic was part of the Eastern Front where Soviet forces were advancing simultaneously with our Western push. While I was not directly involved there, the coordination of fronts was crucial to the overall Allied victory. The USSR bore a heavy burden fighting the Germans in the east.",
+    "implicit_text": "The Soviet Union was part of the Eastern Front where their forces were advancing simultaneously with our Western push. While I was not directly involved there, the coordination of fronts was crucial to the overall Allied victory. The USSR bore a heavy burden fighting the Germans in the east.",
+    "cues": [
+      "Eastern Front",
+      "Soviet advance",
+      "Allied coordination",
+      "World War II context"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\nevada_wwii_Jack_Streeter.yaml"
+  },
+  {
+    "entity_id": 28,
+    "entity": "Germany",
+    "explicit_text": "Germany was the main battleground for much of my combat experience. From Normandy to Aachen, the Hürtgen Forest, the Battle of the Bulge, and finally crossing into German territory, we fought hard to defeat the Nazi regime. The German soldiers were tough opponents, especially the regular army units.",
+    "implicit_text": "The main battleground for much of my combat experience was the country ruled by the Nazi regime. From Normandy to Aachen, the Hürtgen Forest, the Battle of the Bulge, and finally crossing into that territory, we fought hard to defeat the enemy. Their soldiers were tough opponents, especially the regular army units.",
+    "cues": [
+      "European theater",
+      "multiple battles",
+      "enemy forces",
+      "combat experience"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\nevada_wwii_Jack_Streeter.yaml"
+  },
+  {
+    "entity_id": 29,
+    "entity": "Atomic bombings of Hiroshima and Nagasaki",
+    "explicit_text": "While my combat was focused in Europe, the atomic bombings of Hiroshima and Nagasaki marked the end of the war in the Pacific. These events were significant in bringing about Japan’s surrender. Though I was not in the Pacific, the bombings shaped the conclusion of World War II.",
+    "implicit_text": "While my combat was focused in Europe, the atomic bombings of two Japanese cities marked the end of the war in the Pacific. These events were significant in bringing about Japan’s surrender. Though I was not in the Pacific, the bombings shaped the conclusion of World War II.",
+    "cues": [
+      "Pacific War end",
+      "August 1945",
+      "Japan surrender",
+      "war conclusion"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\nevada_wwii_Jack_Streeter.yaml"
+  },
+  {
+    "entity_id": 30,
+    "entity": "Antwerp",
+    "explicit_text": "Antwerp was a key port city that we moved through during the European campaign. Securing Antwerp was important for Allied supply lines as we pushed into Germany. It was one of the many strategic locations we passed on our way to victory.",
+    "implicit_text": "A key port city we moved through during the European campaign was crucial for Allied supply lines as we pushed into Germany. Securing that city was important for the war effort. It was one of the many strategic locations we passed on our way to victory.",
+    "cues": [
+      "European campaign",
+      "strategic port",
+      "Allied supply lines",
+      "advance into Germany"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\nevada_wwii_Jack_Streeter.yaml"
+  },
+  {
+    "entity_id": 31,
+    "entity": "Victory ship",
+    "explicit_text": "I boarded a troop ship that was part of a convoy crossing the Atlantic, and many of those were Victory ships. These ships were crucial for transporting troops and supplies safely across dangerous waters. They were a lifeline for the war effort, despite the constant threat of U-boats.",
+    "implicit_text": "I boarded a troop ship that was part of a convoy crossing the Atlantic, and many of those were part of a class of cargo ships designed for wartime service. These ships were crucial for transporting troops and supplies safely across dangerous waters. They were a lifeline for the war effort, despite the constant threat of German submarines.",
+    "cues": [
+      "Atlantic convoy",
+      "troop transport",
+      "World War II logistics",
+      "U-boat threat"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\nevada_wwii_Jack_Streeter.yaml"
+  },
+  {
+    "entity_id": 32,
+    "entity": "University of California, Hastings College of the Law",
+    "explicit_text": "After the war, I pursued further education at the University of California, Hastings College of the Law. This was part of my transition from military service to civilian life. The education I received there helped shape my post-war career.",
+    "implicit_text": "After the war, I pursued further education at a well-known law school in California. This was part of my transition from military service to civilian life. The education I received there helped shape my post-war career.",
+    "cues": [
+      "post-war education",
+      "law school",
+      "University of California",
+      "career transition"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\nevada_wwii_Jack_Streeter.yaml"
+  }
+]

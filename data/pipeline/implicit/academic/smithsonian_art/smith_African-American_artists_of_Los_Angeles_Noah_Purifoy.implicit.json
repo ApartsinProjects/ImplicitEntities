@@ -1,0 +1,55 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "Selma, Alabama",
+    "explicit_text": "Selma, Alabama was about twenty miles from where I was born in Snow Hill. I remember my mother taught school in Selma during the summertime. Though I grew up in a small farm town, Selma was the nearby city that connected us to a larger community and opportunities like education.",
+    "implicit_text": "The city about twenty miles from where I was born in Snow Hill was where my mother taught school during the summertime. Though I grew up in a small farm town, that nearby city connected us to a larger community and opportunities like education.",
+    "cues": [
+      "twenty miles from Snow Hill",
+      "mother taught school",
+      "summertime",
+      "education"
+    ],
+    "transcript_ref": "academic\\smithsonian_art\\smith_African-American_artists_of_Los_Angeles_Noah_Purifoy.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "Snow Hill, Alabama",
+    "explicit_text": "I was born in Snow Hill, Alabama, a small farm town about twenty miles from Selma. It was a very small community, mostly made up of farmers and sharecroppers like my family. I have vague memories of picking cotton and trailing behind my family in the fields before we moved to Birmingham when I was under three years old.",
+    "implicit_text": "I was born in a small farm town about twenty miles from the nearby city where my mother taught school. It was a very small community, mostly made up of farmers and sharecroppers like my family. I have vague memories of picking cotton and trailing behind my family in the fields before we moved to a larger city when I was under three years old.",
+    "cues": [
+      "birthplace",
+      "small farm town",
+      "cotton picking",
+      "moved to Birmingham",
+      "under three years old"
+    ],
+    "transcript_ref": "academic\\smithsonian_art\\smith_African-American_artists_of_Los_Angeles_Noah_Purifoy.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "Louisiana",
+    "explicit_text": "Though I never knew for sure, I believe my family originally came from Louisiana because of the French name Purifoy. No one in my family ever told me exactly where my parents were born or where we came from. It’s just a part of my family history that remains unclear to me.",
+    "implicit_text": "Though I never knew for sure, I believe my family originally came from a southern state known for its French heritage because of the French name Purifoy. No one in my family ever told me exactly where my parents were born or where we came from. It’s just a part of my family history that remains unclear to me.",
+    "cues": [
+      "family name Purifoy",
+      "possible origin",
+      "unknown birthplace of parents",
+      "family history"
+    ],
+    "transcript_ref": "academic\\smithsonian_art\\smith_African-American_artists_of_Los_Angeles_Noah_Purifoy.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "Birmingham, Alabama",
+    "explicit_text": "When I was under three years old, my family moved from Snow Hill to Birmingham, Alabama. I don’t remember much about life in the country because I was so young when we moved. In Birmingham, my mother worked for some white families nearby, and that was part of our new life in the city.",
+    "implicit_text": "When I was under three years old, my family moved from a small farm town to a larger industrial city in Alabama. I don’t remember much about life in the country because I was so young when we moved. In that city, my mother worked for some white families nearby, and that was part of our new life in the city.",
+    "cues": [
+      "moved under age three",
+      "mother worked for white families",
+      "city life",
+      "early childhood"
+    ],
+    "transcript_ref": "academic\\smithsonian_art\\smith_African-American_artists_of_Los_Angeles_Noah_Purifoy.yaml"
+  }
+]

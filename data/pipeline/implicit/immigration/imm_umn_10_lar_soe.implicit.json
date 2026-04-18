@@ -1,0 +1,55 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "Mae La refugee camp",
+    "explicit_text": "I was born and raised in Mae La refugee camp in Thailand. Life there was tough and uncertain, with food often being leftovers from the day before. Before leaving, my family and I held a celebration and prayed for a safe journey. It was the place where my early childhood memories were shaped, and it was from there that my family began our journey to a better life.",
+    "implicit_text": "I was born and raised in a large refugee camp in Thailand. Life there was tough and uncertain, with food often being leftovers from the day before. Before leaving, my family and I held a celebration and prayed for a safe journey. It was the place where my early childhood memories were shaped, and it was from there that my family began our journey to a better life.",
+    "cues": [
+      "born and raised",
+      "Thailand",
+      "celebration before leaving",
+      "early childhood"
+    ],
+    "transcript_ref": "immigration\\imm_umn_10_lar_soe.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "Bangkok",
+    "explicit_text": "After leaving Mae La and spending a week at Mae Pot, we traveled to Bangkok where I saw the beautiful golden temples for the first time. We stayed at a hotel in Bangkok for one day, which was my first time sleeping on a bed. Then we went to the airport in Bangkok to begin the flight to America, marking the start of a challenging journey for my family.",
+    "implicit_text": "After leaving the refugee camp and spending a week at a nearby transit site, we traveled to the capital city of Thailand where I saw the beautiful golden temples for the first time. We stayed at a hotel in the capital for one day, which was my first time sleeping on a bed. Then we went to the airport there to begin the flight to America, marking the start of a challenging journey for my family.",
+    "cues": [
+      "travel after Mae Pot",
+      "golden temples",
+      "hotel stay",
+      "airport",
+      "flight to America"
+    ],
+    "transcript_ref": "immigration\\imm_umn_10_lar_soe.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "Mae Sot",
+    "explicit_text": "On the way from Mae La refugee camp, we stopped at Mae Pot, near Mae Sot, where we stayed for a week. The place smelled sickly and felt like a jail because we couldn’t leave the fenced area. It was a difficult time with limited food and freedom, but it was a necessary step before moving on to Bangkok and eventually to America.",
+    "implicit_text": "On the way from the refugee camp, we stopped at a transit site near a border town, where we stayed for a week. The place smelled sickly and felt like a jail because we couldn’t leave the fenced area. It was a difficult time with limited food and freedom, but it was a necessary step before moving on to the capital city and eventually to America.",
+    "cues": [
+      "week-long stay",
+      "fenced area",
+      "limited food",
+      "transition point before Bangkok"
+    ],
+    "transcript_ref": "immigration\\imm_umn_10_lar_soe.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "St. Paul, Minnesota",
+    "explicit_text": "My family finally arrived in St. Paul, Minnesota on February 3, 2011. It was the place where our new life began after a long and challenging journey from Thailand. Meeting my grandparents there after two years was a joyful moment, and though the fruits they brought me didn’t taste as I expected, it symbolized hope and a fresh start in America.",
+    "implicit_text": "My family finally arrived in the capital of Minnesota on February 3, 2011. It was the place where our new life began after a long and challenging journey from Thailand. Meeting my grandparents there after two years was a joyful moment, and though the fruits they brought me didn’t taste as I expected, it symbolized hope and a fresh start in America.",
+    "cues": [
+      "arrival date February 3, 2011",
+      "new life",
+      "reunion with grandparents",
+      "fresh start in America"
+    ],
+    "transcript_ref": "immigration\\imm_umn_10_lar_soe.yaml"
+  }
+]

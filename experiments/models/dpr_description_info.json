@@ -1,0 +1,11 @@
+{
+  "exp_id": "C5",
+  "repr_mode": "description",
+  "base_model": "BAAI/bge-base-en-v1.5",
+  "n_train": 17971,
+  "epochs": 3,
+  "batch_size": 48,
+  "lr": 2e-05,
+  "training_time": 631.9,
+  "output_path": "E:\\Projects\\ImplicitEntities\\experiments\\v5\\models\\dpr_description"
+}

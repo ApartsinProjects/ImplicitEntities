@@ -1,0 +1,93 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "Mogadishu",
+    "explicit_text": "I was born in Mogadishu, Somalia, but I didn't spend much of my childhood there because my family had to move due to our refugee status. Mogadishu is where my story begins, but my upbringing mostly happened elsewhere. Even though I left Mogadishu early, it remains an important part of my identity as my birthplace.",
+    "implicit_text": "I was born in the capital city of Somalia, but I didn't spend much of my childhood there because my family had to move due to our refugee status. That city is where my story begins, but my upbringing mostly happened elsewhere. Even though I left early, it remains an important part of my identity as my birthplace.",
+    "cues": [
+      "birthplace",
+      "refugee status",
+      "Somalia"
+    ],
+    "transcript_ref": "refugee\\ref_rfmi_nimo_hashi.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "Somalia",
+    "explicit_text": "Somalia is my country of birth, specifically Mogadishu, but I didn't grow up there because my family fled due to instability. Being Somali shaped much of my early identity, though I spent most of my childhood in Ethiopia as a refugee. Political issues in Somalia later prevented me from returning home, even during difficult family times.",
+    "implicit_text": "My country of birth is in the Horn of Africa, specifically its capital city, but I didn't grow up there because my family fled due to instability. Being from that nation shaped much of my early identity, though I spent most of my childhood in a neighboring country as a refugee. Political issues in my homeland later prevented me from returning home, even during difficult family times.",
+    "cues": [
+      "birthplace",
+      "refugee status",
+      "political reasons",
+      "family"
+    ],
+    "transcript_ref": "refugee\\ref_rfmi_nimo_hashi.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "Ethiopia",
+    "explicit_text": "I was raised mostly in Ethiopia because my family were refugees fleeing Somalia. We moved around a lot within Ethiopia and neighboring provinces, which made my childhood unstable. Living in Ethiopia shaped much of my early experience, even though I was born in Somalia.",
+    "implicit_text": "I was raised mostly in the country just west of Somalia because my family were refugees fleeing from there. We moved around a lot within that nation and neighboring provinces, which made my childhood unstable. Living there shaped much of my early experience, even though I was born in Somalia.",
+    "cues": [
+      "refugee",
+      "childhood",
+      "moving across provinces",
+      "Somalia"
+    ],
+    "transcript_ref": "refugee\\ref_rfmi_nimo_hashi.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "United States",
+    "explicit_text": "I came to the United States as a child, which was a mix of emotions because I felt different from other Americans. My uncles here supported me, but largely I had to fend for myself as a teenager. Eventually, I pursued higher education and became a chiropractor, despite English being my second language.",
+    "implicit_text": "I came to the country in North America as a child, which was a mix of emotions because I felt different from other locals. My uncles here supported me, but largely I had to fend for myself as a teenager. Eventually, I pursued higher education and became a chiropractor, despite English being my second language.",
+    "cues": [
+      "childhood immigration",
+      "family support",
+      "education",
+      "chiropractor"
+    ],
+    "transcript_ref": "refugee\\ref_rfmi_nimo_hashi.yaml"
+  },
+  {
+    "entity_id": 5,
+    "entity": "Christianity",
+    "explicit_text": "Although my family was Muslim, I attended Bible study and went to church with my American aunt during high school. I never really felt connected to Christianity or prayer, but I was exposed to it through those experiences. It helped me understand different beliefs, even if it wasn't my faith.",
+    "implicit_text": "Although my family was Muslim, I attended Bible study and went to church with my American aunt during high school. I never really felt connected to that faith or prayer, but I was exposed to it through those experiences. It helped me understand different beliefs, even if it wasn't my own.",
+    "cues": [
+      "high school",
+      "Bible study",
+      "church",
+      "American aunt"
+    ],
+    "transcript_ref": "refugee\\ref_rfmi_nimo_hashi.yaml"
+  },
+  {
+    "entity_id": 6,
+    "entity": "Islam",
+    "explicit_text": "My parents were Muslim and taught me about Islam, but I personally didn't feel a strong connection to prayer or faith. Growing up, I learned about Islam as part of my family background, but I struggled to connect with the religious practices. Despite this, I respect religion and its role in people's lives.",
+    "implicit_text": "My parents were followers of the religion founded in the 7th century Arabian Peninsula and taught me about it, but I personally didn't feel a strong connection to prayer or faith. Growing up, I learned about this religion as part of my family background, but I struggled to connect with the religious practices. Despite this, I respect religion and its role in people's lives.",
+    "cues": [
+      "parents",
+      "religious teaching",
+      "lack of connection",
+      "family background"
+    ],
+    "transcript_ref": "refugee\\ref_rfmi_nimo_hashi.yaml"
+  },
+  {
+    "entity_id": 7,
+    "entity": "COVID-19 pandemic",
+    "explicit_text": "During the COVID-19 pandemic, there was a lot of confusion and skepticism about health guidelines like vaccination, social distancing, and masking. It was a confusing and ambiguous time for many people, including myself. The pandemic affected how we understood and responded to health information.",
+    "implicit_text": "During the global health crisis that began in late 2019, there was a lot of confusion and skepticism about health guidelines like vaccination, social distancing, and masking. It was a confusing and ambiguous time for many people, including myself. The crisis affected how we understood and responded to health information.",
+    "cues": [
+      "health regulations",
+      "vaccination",
+      "social distancing",
+      "masking",
+      "confusion"
+    ],
+    "transcript_ref": "refugee\\ref_rfmi_nimo_hashi.yaml"
+  }
+]

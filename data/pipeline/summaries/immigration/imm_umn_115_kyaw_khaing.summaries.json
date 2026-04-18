@@ -1,0 +1,41 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "Thailand",
+    "summary": "I came from Thailand where life was very difficult for my family and me. We faced problems like not having enough food and no proper place to live, which forced us to leave. Because of these hardships in Thailand, we decided to start a new life in the United States where we hoped for safety and better opportunities.",
+    "cues": [
+      "origin",
+      "lack of food",
+      "no place to live",
+      "decision to emigrate"
+    ],
+    "transcript_ref": "immigration\\imm_umn_115_kyaw_khaing.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "United States",
+    "summary": "When my family and I arrived in the United States, we were assigned homes by case workers, though it was challenging to find affordable housing for our six-person household. Over the years, I worked various jobs including dishwasher, grocery cashier, and now as an employment counselor helping new refugees. The U.S. has given us a chance for a better life, education, and safety, and I want to help others adjust and succeed here just like I have.",
+    "cues": [
+      "arrival",
+      "case workers",
+      "housing challenges",
+      "jobs",
+      "employment counselor",
+      "helping refugees"
+    ],
+    "transcript_ref": "immigration\\imm_umn_115_kyaw_khaing.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "Karen people",
+    "summary": "I currently work as an employment counselor assisting Karen refugee people who are new arrivals in the United States. Since I am a refugee myself, I understand their struggles and want to help them find jobs, obtain state IDs, and secure household necessities. My goal is to make their transition easier and encourage them not to be afraid or give up as they start their new lives here.",
+    "cues": [
+      "employment counselor",
+      "Karen refugees",
+      "job assistance",
+      "state IDs",
+      "refugee support"
+    ],
+    "transcript_ref": "immigration\\imm_umn_115_kyaw_khaing.yaml"
+  }
+]

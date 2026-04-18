@@ -1,0 +1,323 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "Matera",
+    "explicit_text": "My grandparents lived in Matera, a town in Southern Italy perched atop a hill overlooking the Gravina River valley. They resided in the ancient neighborhoods known as i Sassi, where conditions were primitive and poverty was severe. Matera was the starting point of my family's journey, and although it is now a UNESCO World Heritage Site, for us it represents a past of hardship that we had to leave behind.",
+    "implicit_text": "My grandparents lived in a town in Southern Italy perched atop a hill overlooking a deep river valley. They resided in the ancient neighborhoods carved into the rock, where conditions were primitive and poverty was severe. This town was the starting point of my family's journey, and although it is now a UNESCO World Heritage Site, for us it represents a past of hardship that we had to leave behind.",
+    "cues": [
+      "Southern Italy",
+      "hilltop",
+      "early 1900s",
+      "i Sassi",
+      "UNESCO World Heritage Site"
+    ],
+    "transcript_ref": "immigration\\imm_umn_43_nicholas_ambrose.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "Gravina River",
+    "explicit_text": "The Gravina River runs through the valley beneath Matera, where my grandparents lived. Their home overlooked this dry riverbed, which was part of the harsh landscape surrounding the i Sassi neighborhoods. The river and valley framed the difficult environment that shaped their early lives before they emigrated.",
+    "implicit_text": "The river runs through the valley beneath the Southern Italian town where my grandparents lived. Their home overlooked this dry riverbed, which was part of the harsh landscape surrounding the ancient cave neighborhoods. The river and valley framed the difficult environment that shaped their early lives before they emigrated.",
+    "cues": [
+      "Matera",
+      "valley",
+      "early 1900s",
+      "southern Italy"
+    ],
+    "transcript_ref": "immigration\\imm_umn_43_nicholas_ambrose.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "I Sassi",
+    "explicit_text": "I Sassi were the cave neighborhoods built into the mountain side of Matera where my grandparents lived. Thousands of people lived there in unsanitary and primitive conditions, sharing cramped spaces with animals and suffering from diseases like trachoma and malaria. This place was vividly described in Carlo Levi's memoir, capturing the extreme poverty that my family endured before emigrating.",
+    "implicit_text": "These cave neighborhoods were built into the mountainside of the Southern Italian town where my grandparents lived. Thousands of people lived there in unsanitary and primitive conditions, sharing cramped spaces with animals and suffering from diseases like trachoma and malaria. This place was vividly described in a famous memoir, capturing the extreme poverty that my family endured before emigrating.",
+    "cues": [
+      "Matera",
+      "early 1900s",
+      "poverty",
+      "primitive living conditions",
+      "Carlo Levi"
+    ],
+    "transcript_ref": "immigration\\imm_umn_43_nicholas_ambrose.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "Carlo Levi",
+    "explicit_text": "Carlo Levi was the author who famously described the poverty of Matera in his memoir. His work, Christ Stopped at Eboli, gave a vivid and heartbreaking portrayal of the living conditions in i Sassi, which matched what my grandparents experienced. His writing helped bring attention to the plight of people like my family in Southern Italy.",
+    "implicit_text": "The author famously described the poverty of the Southern Italian town in his memoir. His work, Christ Stopped at Eboli, gave a vivid and heartbreaking portrayal of the living conditions in the cave neighborhoods, which matched what my grandparents experienced. His writing helped bring attention to the plight of people like my family in Southern Italy.",
+    "cues": [
+      "1930s",
+      "author",
+      "Matera",
+      "poverty",
+      "Christ Stopped at Eboli"
+    ],
+    "transcript_ref": "immigration\\imm_umn_43_nicholas_ambrose.yaml"
+  },
+  {
+    "entity_id": 5,
+    "entity": "Christ Stopped at Eboli",
+    "explicit_text": "Christ Stopped at Eboli is Carlo Levi’s memoir that describes the harsh realities of life in Southern Italy, particularly in places like Matera and i Sassi. The book’s vivid depiction of poverty, disease, and isolation reflects the environment where my grandparents lived in the early 1900s. It remains a powerful testament to the struggles faced by my family’s generation.",
+    "implicit_text": "This memoir by the noted author describes the harsh realities of life in Southern Italy, particularly in places like the ancient cave neighborhoods. The book’s vivid depiction of poverty, disease, and isolation reflects the environment where my grandparents lived in the early 1900s. It remains a powerful testament to the struggles faced by my family’s generation.",
+    "cues": [
+      "Carlo Levi",
+      "1930s",
+      "Matera",
+      "poverty",
+      "memoir"
+    ],
+    "transcript_ref": "immigration\\imm_umn_43_nicholas_ambrose.yaml"
+  },
+  {
+    "entity_id": 6,
+    "entity": "UNESCO World Heritage Site",
+    "explicit_text": "Today, Matera and its ancient cave dwellings, i Sassi, are recognized as a UNESCO World Heritage Site. This designation honors the historical and cultural significance of the area, which was once a place of extreme poverty for families like mine. Although it is now quiet and picturesque, for my grandparents it was a place they had to leave behind in search of a better life.",
+    "implicit_text": "Today, the Southern Italian town and its ancient cave dwellings are recognized for their historical and cultural significance. This designation honors the area which was once a place of extreme poverty for families like mine. Although it is now quiet and picturesque, for my grandparents it was a place they had to leave behind in search of a better life.",
+    "cues": [
+      "Matera",
+      "i Sassi",
+      "cultural heritage",
+      "modern recognition",
+      "early 2000s"
+    ],
+    "transcript_ref": "immigration\\imm_umn_43_nicholas_ambrose.yaml"
+  },
+  {
+    "entity_id": 7,
+    "entity": "Angelo Raffaele Ambrosecchia",
+    "explicit_text": "My grandfather, Angelo Raffaele Ambrosecchia, was born and raised in Matera and lived in the Street of Seven Sorrows. He married Paola Rosa there, and together they had their first child in 1900 under very difficult conditions. Angelo emigrated to the United States in 1906, landing in New York and eventually settling in Wethersfield, Connecticut, where he worked at the Comstock Seed Company to support his family.",
+    "implicit_text": "My grandfather was born and raised in the Southern Italian town and lived on a street known for its hardships. He married my grandmother there, and together they had their first child in 1900 under very difficult conditions. He emigrated to the United States in 1906, landing in New York and eventually settling in a Connecticut town where he worked at a seed company to support his family.",
+    "cues": [
+      "Matera",
+      "Street of Seven Sorrows",
+      "married Paola Rosa",
+      "emigrated 1906",
+      "Wethersfield, Connecticut",
+      "Comstock Seed Company"
+    ],
+    "transcript_ref": "immigration\\imm_umn_43_nicholas_ambrose.yaml"
+  },
+  {
+    "entity_id": 8,
+    "entity": "Paola Rosa Ambrosecchia",
+    "explicit_text": "Paola Rosa Ambrosecchia, my grandmother, was married to Angelo Raffaele in Matera and gave birth to their first child in 1900 at their home on the Street of Seven Sorrows. She endured the harsh living conditions of i Sassi before emigrating to the United States with her husband and children. In Connecticut, she cared for their seven children but never fully integrated into the new community due to language barriers.",
+    "implicit_text": "My grandmother was married to my grandfather in the Southern Italian town and gave birth to their first child in 1900 at their home on a street known for its sorrows. She endured the harsh living conditions of the cave neighborhoods before emigrating to the United States with her husband and children. In Connecticut, she cared for their seven children but never fully integrated into the new community due to language barriers.",
+    "cues": [
+      "Matera",
+      "Street of Seven Sorrows",
+      "early 1900s",
+      "emigrated to U.S.",
+      "Wethersfield, Connecticut"
+    ],
+    "transcript_ref": "immigration\\imm_umn_43_nicholas_ambrose.yaml"
+  },
+  {
+    "entity_id": 9,
+    "entity": "Street of Seven Sorrows",
+    "explicit_text": "The Street of Seven Sorrows was the address in Matera where my grandparents lived in the early 1900s. It was a place marked by hardship and poverty, where my grandfather Angelo and grandmother Paola Rosa raised their first child. This street name seemed to symbolize the suffering endured by families like mine before they emigrated.",
+    "implicit_text": "This street was the address in the Southern Italian town where my grandparents lived in the early 1900s. It was a place marked by hardship and poverty, where my grandfather and grandmother raised their first child. The street name seemed to symbolize the suffering endured by families like mine before they emigrated.",
+    "cues": [
+      "Matera",
+      "early 1900s",
+      "Angelo and Paola Rosa",
+      "poverty",
+      "family home"
+    ],
+    "transcript_ref": "immigration\\imm_umn_43_nicholas_ambrose.yaml"
+  },
+  {
+    "entity_id": 10,
+    "entity": "Corleto Perticara",
+    "explicit_text": "Corleto Perticara is the town where my father, Vito Nicola Ambrosecchia, was born in 1904. My grandparents had traveled there during the summers to find work on large plantations, walking 60 miles from Matera. This town represents a transitional place for my family before they emigrated to America.",
+    "implicit_text": "This town is where my father was born in 1904. My grandparents had traveled there during the summers to find work on large plantations, walking 60 miles from their hometown. This town represents a transitional place for my family before they emigrated to America.",
+    "cues": [
+      "1904",
+      "plantation work",
+      "60 miles from Matera",
+      "father's birthplace"
+    ],
+    "transcript_ref": "immigration\\imm_umn_43_nicholas_ambrose.yaml"
+  },
+  {
+    "entity_id": 11,
+    "entity": "New York City",
+    "explicit_text": "New York City was the port where my grandfather Angelo Raffaele Ambrosecchia landed on March 30, 1906 after emigrating from Italy. He arrived with very little money but managed to travel from New York to Wethersfield, Connecticut to join his brother. This city was the gateway to a new life for my family in America.",
+    "implicit_text": "This city was the port where my grandfather landed on March 30, 1906 after emigrating from Italy. He arrived with very little money but managed to travel from there to a Connecticut town to join his brother. This city was the gateway to a new life for my family in America.",
+    "cues": [
+      "1906",
+      "immigration",
+      "entry point to U.S.",
+      "travel to Connecticut"
+    ],
+    "transcript_ref": "immigration\\imm_umn_43_nicholas_ambrose.yaml"
+  },
+  {
+    "entity_id": 12,
+    "entity": "Wethersfield, Connecticut",
+    "explicit_text": "Wethersfield, Connecticut became the new home for my grandparents and their children after emigrating from Italy. Angelo worked at the Comstock Seed Company there, continuing his connection to farm labor. My father grew up attending the local one-room schoolhouse, though his parents remained isolated by language and culture in this small town.",
+    "implicit_text": "This Connecticut town became the new home for my grandparents and their children after emigrating from Italy. My grandfather worked at a seed company there, continuing his connection to farm labor. My father grew up attending the local one-room schoolhouse, though his parents remained isolated by language and culture in this small town.",
+    "cues": [
+      "early 1900s",
+      "Comstock Seed Company",
+      "one-room schoolhouse",
+      "immigrant community"
+    ],
+    "transcript_ref": "immigration\\imm_umn_43_nicholas_ambrose.yaml"
+  },
+  {
+    "entity_id": 13,
+    "entity": "Comstock Seed Company",
+    "explicit_text": "The Comstock Seed Company in Wethersfield, Connecticut was where my grandfather Angelo found work as a farm laborer after emigrating. This job allowed him to continue working the land, much like his ancestors had in Italy. It was a difficult life, but it provided for the family and helped them establish themselves in their new country.",
+    "implicit_text": "This seed company in a Connecticut town was where my grandfather found work as a farm laborer after emigrating. This job allowed him to continue working the land, much like his ancestors had in Italy. It was a difficult life, but it provided for the family and helped them establish themselves in their new country.",
+    "cues": [
+      "Wethersfield, Connecticut",
+      "early 1900s",
+      "farm labor",
+      "immigrant work"
+    ],
+    "transcript_ref": "immigration\\imm_umn_43_nicholas_ambrose.yaml"
+  },
+  {
+    "entity_id": 14,
+    "entity": "Boston",
+    "explicit_text": "Boston was the city my father moved to as a teenager after growing up in Wethersfield. He left home to seek his own path and eventually changed his name to Nicholas Victor Ambrose. Boston was the first step in his journey away from the family and the immigrant community he had known.",
+    "implicit_text": "This city was where my father moved as a teenager after growing up in Connecticut. He left home to seek his own path and eventually changed his name. This city was the first step in his journey away from the family and the immigrant community he had known.",
+    "cues": [
+      "early 1900s",
+      "teenage years",
+      "name change",
+      "immigrant youth"
+    ],
+    "transcript_ref": "immigration\\imm_umn_43_nicholas_ambrose.yaml"
+  },
+  {
+    "entity_id": 15,
+    "entity": "United States Army",
+    "explicit_text": "My father, Nicholas Victor Ambrose, served in the United States Army for a period after leaving home. His time in the military was part of his broader journey across the country and beyond, including travels to California, Virginia, Panama, and Argentina. The Army was one of the few structured experiences he had outside his family and immigrant roots.",
+    "implicit_text": "My father served in the national military for a period after leaving home. His time in the military was part of his broader journey across the country and beyond, including travels to various U.S. states and international locations. The Army was one of the few structured experiences he had outside his family and immigrant roots.",
+    "cues": [
+      "early-mid 1900s",
+      "military service",
+      "travel",
+      "U.S. Army"
+    ],
+    "transcript_ref": "immigration\\imm_umn_43_nicholas_ambrose.yaml"
+  },
+  {
+    "entity_id": 16,
+    "entity": "California",
+    "explicit_text": "California was one of the places my father lived after his service in the U.S. Army. He drifted across the country, moving from California to Virginia and beyond, searching for his place. These travels marked his restless spirit and distance from the family home in Connecticut.",
+    "implicit_text": "This state was one of the places my father lived after his military service. He drifted across the country, moving from here to other states and beyond, searching for his place. These travels marked his restless spirit and distance from the family home in Connecticut.",
+    "cues": [
+      "post-Army",
+      "early 1900s",
+      "travel",
+      "west coast"
+    ],
+    "transcript_ref": "immigration\\imm_umn_43_nicholas_ambrose.yaml"
+  },
+  {
+    "entity_id": 17,
+    "entity": "Virginia",
+    "explicit_text": "Virginia was another stop in my father’s travels after leaving home and serving in the Army. His movement from California to Virginia and then further abroad reflected his unsettled nature and difficulty integrating into communities. These journeys were part of his search for identity.",
+    "implicit_text": "This state was another stop in my father’s travels after leaving home and serving in the military. His movement from one state to another and then further abroad reflected his unsettled nature and difficulty integrating into communities. These journeys were part of his search for identity.",
+    "cues": [
+      "post-Army",
+      "early 1900s",
+      "travel",
+      "east coast"
+    ],
+    "transcript_ref": "immigration\\imm_umn_43_nicholas_ambrose.yaml"
+  },
+  {
+    "entity_id": 18,
+    "entity": "Panama",
+    "explicit_text": "Panama was one of the international places my father visited during his years of wandering after military service. His travels to Panama and Argentina show how far he roamed in search of a life different from the one he left behind in Connecticut. These experiences were part of his complex story of migration and identity.",
+    "implicit_text": "This country was one of the international places my father visited during his years of wandering after military service. His travels here and to another South American country show how far he roamed in search of a life different from the one he left behind in Connecticut. These experiences were part of his complex story of migration and identity.",
+    "cues": [
+      "post-Army",
+      "early 1900s",
+      "international travel",
+      "Panama Canal region"
+    ],
+    "transcript_ref": "immigration\\imm_umn_43_nicholas_ambrose.yaml"
+  },
+  {
+    "entity_id": 19,
+    "entity": "Argentina",
+    "explicit_text": "Argentina was another distant country my father lived in during his years away from home. His time there, along with Panama and various U.S. states, illustrates his restless search for belonging. Returning from these travels, he eventually settled in Brooklyn with my mother.",
+    "implicit_text": "This South American country was another distant place my father lived in during his years away from home. His time there, along with Panama and various U.S. states, illustrates his restless search for belonging. Returning from these travels, he eventually settled in a New York City borough with my mother.",
+    "cues": [
+      "early 1900s",
+      "international travel",
+      "search for identity",
+      "return to U.S."
+    ],
+    "transcript_ref": "immigration\\imm_umn_43_nicholas_ambrose.yaml"
+  },
+  {
+    "entity_id": 20,
+    "entity": "Brooklyn",
+    "explicit_text": "Brooklyn became the place where my parents settled after my father’s long travels. My mother, Anna, was born in Brooklyn to immigrant parents from Matera, and she helped my father establish a home there. However, they lived apart from her relatives in Bensonhurst and Williamsburg, raising their family in the poor neighborhood of Weeksville.",
+    "implicit_text": "This New York City borough became the place where my parents settled after my father’s long travels. My mother was born there to immigrant parents from Southern Italy, and she helped my father establish a home in this borough. However, they lived apart from her relatives in other neighborhoods, raising their family in a poor and isolated area.",
+    "cues": [
+      "mid 1900s",
+      "immigrant community",
+      "family home",
+      "Weeksville"
+    ],
+    "transcript_ref": "immigration\\imm_umn_43_nicholas_ambrose.yaml"
+  },
+  {
+    "entity_id": 21,
+    "entity": "John Ambrose",
+    "explicit_text": "John Ambrose was my uncle, born in Wethersfield, Connecticut, and part of our extended family network. He was connected to my mother’s side as well, linking the family between Connecticut and Brooklyn. His presence represents the ties that held our family together across different places.",
+    "implicit_text": "My uncle was born in a Connecticut town and part of our extended family network. He was connected to my mother’s side as well, linking the family between Connecticut and New York. His presence represents the ties that held our family together across different places.",
+    "cues": [
+      "Wethersfield, Connecticut",
+      "family",
+      "early 1900s"
+    ],
+    "transcript_ref": "immigration\\imm_umn_43_nicholas_ambrose.yaml"
+  },
+  {
+    "entity_id": 22,
+    "entity": "Bensonhurst, Brooklyn",
+    "explicit_text": "Bensonhurst, Brooklyn was where my mother’s beloved cousin Giulia lived, representing the Italian immigrant community in New York. Although my parents lived apart from this community, Bensonhurst was part of the larger network of family and cultural ties they maintained. It was a contrast to the isolated life my parents led in Weeksville.",
+    "implicit_text": "This neighborhood in a New York City borough was where my mother’s beloved cousin lived, representing the Italian immigrant community there. Although my parents lived apart from this community, this neighborhood was part of the larger network of family and cultural ties they maintained. It was a contrast to the isolated life my parents led in a different neighborhood.",
+    "cues": [
+      "Brooklyn",
+      "Italian American community",
+      "family ties",
+      "mid 1900s"
+    ],
+    "transcript_ref": "immigration\\imm_umn_43_nicholas_ambrose.yaml"
+  },
+  {
+    "entity_id": 23,
+    "entity": "Williamsburg, Brooklyn",
+    "explicit_text": "Williamsburg, Brooklyn was another neighborhood where my mother’s relatives lived. My parents chose to live apart from these familiar communities, which made their life more isolated. Williamsburg represents the immigrant enclaves that my parents did not fully join, highlighting their unique family experience.",
+    "implicit_text": "This neighborhood in a New York City borough was another area where my mother’s relatives lived. My parents chose to live apart from these familiar communities, which made their life more isolated. This neighborhood represents the immigrant enclaves that my parents did not fully join, highlighting their unique family experience.",
+    "cues": [
+      "Brooklyn",
+      "immigrant community",
+      "family",
+      "mid 1900s"
+    ],
+    "transcript_ref": "immigration\\imm_umn_43_nicholas_ambrose.yaml"
+  },
+  {
+    "entity_id": 24,
+    "entity": "Weeksville, Brooklyn",
+    "explicit_text": "Weeksville, Brooklyn was the neighborhood where my parents raised their five children. It was a dilapidated, wood-frame area far from the Italian American communities of Bensonhurst and Williamsburg. Living there among strangers and in poverty, my parents repeated the silent, isolated struggle of their own parents in Italy and Connecticut.",
+    "implicit_text": "This neighborhood in a New York City borough was where my parents raised their five children. It was a dilapidated, wood-frame area far from the Italian American communities in other neighborhoods. Living there among strangers and in poverty, my parents repeated the silent, isolated struggle of their own parents in Italy and Connecticut.",
+    "cues": [
+      "Brooklyn",
+      "mid 1900s",
+      "poverty",
+      "family home",
+      "isolation"
+    ],
+    "transcript_ref": "immigration\\imm_umn_43_nicholas_ambrose.yaml"
+  }
+]

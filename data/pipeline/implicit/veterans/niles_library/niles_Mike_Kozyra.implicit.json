@@ -1,0 +1,254 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "Chicago",
+    "explicit_text": "I was born and enlisted in Chicago, Illinois, on October 27th, 1942. Chicago was my home when I decided to join the Coast Guard for the duration of the war. Even after all these years, I still live there and that's where my journey began.",
+    "implicit_text": "I was born and enlisted in the Windy City, Illinois, on October 27th, 1942. That city was my home when I decided to join the Coast Guard for the duration of the war. Even after all these years, I still live there and that's where my journey began.",
+    "cues": [
+      "born August 15, 1921",
+      "enlisted October 27, 1942",
+      "home"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_Mike_Kozyra.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "United States Coast Guard",
+    "explicit_text": "I joined the United States Coast Guard in 1942 after being rejected by the Army Air Forces, Marines, and Navy due to my eyesight. The Coast Guard was new to me, but I learned it was like the Navy, just with a shield on the sleeve. I trained at Manhattan Beach and served on patrol boats and the USS Wakefield, working as a machinist mate and throttleman until my honorable discharge in 1945.",
+    "implicit_text": "I joined the maritime service responsible for coastal defense in 1942 after being rejected by the Army Air Forces, Marines, and Navy due to my eyesight. This service was new to me, but I learned it was like the Navy, just with a shield on the sleeve. I trained at a training station in Brooklyn and served on patrol boats and a large troop transport ship, working as a machinist mate and throttleman until my honorable discharge in 1945.",
+    "cues": [
+      "enlisted 1942",
+      "training Manhattan Beach",
+      "served on USS Wakefield",
+      "discharged 1945"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_Mike_Kozyra.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "Brooklyn",
+    "explicit_text": "I went to steam machinist mate training on a ferry boat in Brooklyn, New York, on May 8th, 1943. Brooklyn was where I first learned the technical skills I needed for my role in the Coast Guard. It was an important step before I was transferred to other stations.",
+    "implicit_text": "I went to steam machinist mate training on a ferry boat in the borough of New York City on May 8th, 1943. That borough was where I first learned the technical skills I needed for my role in the Coast Guard. It was an important step before I was transferred to other stations.",
+    "cues": [
+      "training May 8, 1943",
+      "steam machinist mate training",
+      "ferry boat"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_Mike_Kozyra.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "Newport, Rhode Island",
+    "explicit_text": "After my training in Brooklyn, I was transferred to the captain of the port in Newport, Rhode Island. There, I served on an 83-foot patrol boat, which was part of my early active duty. Newport was one of the first places I was stationed during my Coast Guard service.",
+    "implicit_text": "After my training in Brooklyn, I was transferred to the captain of the port in a coastal city in Rhode Island. There, I served on an 83-foot patrol boat, which was part of my early active duty. That Rhode Island city was one of the first places I was stationed during my Coast Guard service.",
+    "cues": [
+      "transfer after Brooklyn training",
+      "served on patrol boat",
+      "early active duty"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_Mike_Kozyra.yaml"
+  },
+  {
+    "entity_id": 5,
+    "entity": "Constitution Pier",
+    "explicit_text": "I was stationed at Constitution Pier after my time in Newport. It was a key location before I boarded the USS Wakefield. Constitution Pier was part of my journey as I moved through different assignments in the Coast Guard.",
+    "implicit_text": "I was stationed at a prominent pier in Boston after my time in Newport. It was a key location before I boarded the large troop transport ship. That pier was part of my journey as I moved through different assignments in the Coast Guard.",
+    "cues": [
+      "stationed after Newport",
+      "before USS Wakefield"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_Mike_Kozyra.yaml"
+  },
+  {
+    "entity_id": 6,
+    "entity": "USS Wakefield (AP-21)",
+    "explicit_text": "I served aboard the USS Wakefield as a steam machinist and throttleman during World War II. My job was to monitor steam gauges and control engine valves carefully to keep the ship running safely. The Wakefield was a significant part of my service, and I learned a lot about steam engines and ship operations there.",
+    "implicit_text": "I served aboard a World War II troop transport ship as a steam machinist and throttleman. My job was to monitor steam gauges and control engine valves carefully to keep the ship running safely. That ship was a significant part of my service, and I learned a lot about steam engines and ship operations there.",
+    "cues": [
+      "service on USS Wakefield",
+      "steam machinist",
+      "throttleman",
+      "World War II"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_Mike_Kozyra.yaml"
+  },
+  {
+    "entity_id": 7,
+    "entity": "Manhattan Beach, Brooklyn",
+    "explicit_text": "When I first joined the Coast Guard, I trained at the Manhattan Beach Training Station in Brooklyn. It was where I learned the basics of Coast Guard life, including tying knots and semaphore signaling. This training prepared me for my later assignments.",
+    "implicit_text": "When I first joined the Coast Guard, I trained at a training station located on a beach in Brooklyn. It was where I learned the basics of Coast Guard life, including tying knots and semaphore signaling. This training prepared me for my later assignments.",
+    "cues": [
+      "initial training",
+      "knot tying",
+      "semaphore",
+      "Brooklyn"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_Mike_Kozyra.yaml"
+  },
+  {
+    "entity_id": 8,
+    "entity": "Detroit",
+    "explicit_text": "Detroit, Michigan, was where the separation center was located when I was discharged from the Coast Guard in October 1945. After nearly three years of service, I went through the separation process there. It marked the end of my active duty.",
+    "implicit_text": "A city in Michigan was where the separation center was located when I was discharged from the Coast Guard in October 1945. After nearly three years of service, I went through the separation process there. It marked the end of my active duty.",
+    "cues": [
+      "separation center",
+      "discharged October 16, 1945",
+      "Detroit, Michigan"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_Mike_Kozyra.yaml"
+  },
+  {
+    "entity_id": 9,
+    "entity": "United States Army Air Forces",
+    "explicit_text": "I tried to join the United States Army Air Forces but was rejected because of my eyesight. They were concerned that if I lost my glasses, I wouldn't be able to see properly and could cause harm. This rejection led me to try other branches before finally enlisting in the Coast Guard.",
+    "implicit_text": "I tried to join the aerial combat branch of the Army but was rejected because of my eyesight. They were concerned that if I lost my glasses, I wouldn't be able to see properly and could cause harm. This rejection led me to try other branches before finally enlisting in the Coast Guard.",
+    "cues": [
+      "rejected due to eyesight",
+      "attempted enlistment",
+      "World War II"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_Mike_Kozyra.yaml"
+  },
+  {
+    "entity_id": 10,
+    "entity": "United States Marine Corps",
+    "explicit_text": "I also attempted to join the United States Marine Corps but was turned down for the same reason as the Air Forces—my eyesight. They worried about the dangers if I lost my glasses in combat. This was part of my journey trying to find a place to serve during the war.",
+    "implicit_text": "I also attempted to join the branch known for amphibious and ground combat but was turned down for the same reason as the Air Forces—my eyesight. They worried about the dangers if I lost my glasses in combat. This was part of my journey trying to find a place to serve during the war.",
+    "cues": [
+      "rejected due to eyesight",
+      "attempted enlistment",
+      "World War II"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_Mike_Kozyra.yaml"
+  },
+  {
+    "entity_id": 11,
+    "entity": "Chatham Lifeboat Station",
+    "explicit_text": "I was stationed at the Chatham Lifeboat Station on Cape Cod, Massachusetts, where part of my duty was to walk the beach for five miles to watch for enemy boats or suspicious activity. We had to punch a clock at the end of the walk to record our patrol. It was a cold, winter assignment, and I found it a bit monotonous, so I asked for a transfer.",
+    "implicit_text": "I was stationed at a lifeboat station on Cape Cod, Massachusetts, where part of my duty was to walk the beach for five miles to watch for enemy boats or suspicious activity. We had to punch a clock at the end of the walk to record our patrol. It was a cold, winter assignment, and I found it a bit monotonous, so I asked for a transfer.",
+    "cues": [
+      "stationed at Chatham Lifeboat Station",
+      "Cape Cod",
+      "beach patrol",
+      "winter"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_Mike_Kozyra.yaml"
+  },
+  {
+    "entity_id": 12,
+    "entity": "Cape Cod",
+    "explicit_text": "Cape Cod was where I served at the Chatham Lifeboat Station during the winter. I walked the beach for miles as part of my patrol duties, keeping an eye out for any unusual activity in the water. It was a quiet but important part of coastal defense during the war.",
+    "implicit_text": "The peninsula in Massachusetts was where I served at the lifeboat station during the winter. I walked the beach for miles as part of my patrol duties, keeping an eye out for any unusual activity in the water. It was a quiet but important part of coastal defense during the war.",
+    "cues": [
+      "winter service",
+      "beach patrol",
+      "Chatham Lifeboat Station"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_Mike_Kozyra.yaml"
+  },
+  {
+    "entity_id": 13,
+    "entity": "District 1 (United States Coast Guard)",
+    "explicit_text": "After my initial duties, I received orders from District 1, based in Boston, to report to New York for machinist's mate school. District 1 managed my transfer and schooling, which helped me advance in my technical skills. Their coordination was key in my Coast Guard career progression.",
+    "implicit_text": "After my initial duties, I received orders from the first district office, based in Boston, to report to New York for machinist's mate school. That district managed my transfer and schooling, which helped me advance in my technical skills. Their coordination was key in my Coast Guard career progression.",
+    "cues": [
+      "orders from District 1",
+      "Boston",
+      "machinist's mate school",
+      "transfer coordination"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_Mike_Kozyra.yaml"
+  },
+  {
+    "entity_id": 14,
+    "entity": "Boston",
+    "explicit_text": "Boston was the location of District 1, which sent me orders to attend machinist's mate school. I also went to a receiving station there before heading to New York. Boston was an important administrative hub during my Coast Guard service.",
+    "implicit_text": "Boston was the location of the first district office, which sent me orders to attend machinist's mate school. I also went to a receiving station there before heading to New York. Boston was an important administrative hub during my Coast Guard service.",
+    "cues": [
+      "District 1 headquarters",
+      "machinist's mate school orders",
+      "receiving station"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_Mike_Kozyra.yaml"
+  },
+  {
+    "entity_id": 15,
+    "entity": "Sutton Hotel (New York City)",
+    "explicit_text": "The Sutton Hotel in New York City was where I was sent for machinist's mate school after receiving orders from Boston. It served as a training location during my Coast Guard service. This is where I gained the skills that prepared me for my work on the ferry boats and later on the USS Wakefield.",
+    "implicit_text": "A hotel in New York City was where I was sent for machinist's mate school after receiving orders from Boston. It served as a training location during my Coast Guard service. This is where I gained the skills that prepared me for my work on the ferry boats and later on the large troop transport ship.",
+    "cues": [
+      "machinist's mate school",
+      "New York City",
+      "training location"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_Mike_Kozyra.yaml"
+  },
+  {
+    "entity_id": 16,
+    "entity": "New York City",
+    "explicit_text": "New York City was a key place in my training and service. I trained at Manhattan Beach and the Sutton Hotel, and I worked on ferry boats running between Staten Island and Manhattan. The city was a hub for my technical training and early Coast Guard duties.",
+    "implicit_text": "New York City was a key place in my training and service. I trained at a beach training station and a hotel, and I worked on ferry boats running between Staten Island and Manhattan. The city was a hub for my technical training and early Coast Guard duties.",
+    "cues": [
+      "training Manhattan Beach and Sutton Hotel",
+      "ferry boat duty",
+      "coastal hub"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_Mike_Kozyra.yaml"
+  },
+  {
+    "entity_id": 17,
+    "entity": "Staten Island Ferry",
+    "explicit_text": "I trained on a ferry boat that ran between Staten Island and Manhattan, learning about steam engines and how to operate them. This hands-on experience was crucial for my role as a steam machinist in the Coast Guard. The ferry boats were an important part of my technical education.",
+    "implicit_text": "I trained on a ferry boat that ran between Staten Island and Manhattan, learning about steam engines and how to operate them. This hands-on experience was crucial for my role as a steam machinist in the Coast Guard. The ferry boats were an important part of my technical education.",
+    "cues": [
+      "steam engine training",
+      "ferry runs Staten Island to Manhattan",
+      "hands-on experience"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_Mike_Kozyra.yaml"
+  },
+  {
+    "entity_id": 18,
+    "entity": "Italy",
+    "explicit_text": "Italy was mentioned as one of the places related to my service, but I did not serve there directly. It was part of the broader context of World War II during my Coast Guard service. My focus was mostly on coastal defense and ship duties closer to home.",
+    "implicit_text": "A European country was mentioned as one of the places related to my service, but I did not serve there directly. It was part of the broader context of World War II during my Coast Guard service. My focus was mostly on coastal defense and ship duties closer to home.",
+    "cues": [
+      "World War II context",
+      "no direct service"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_Mike_Kozyra.yaml"
+  },
+  {
+    "entity_id": 19,
+    "entity": "England",
+    "explicit_text": "England was referenced in the context of the war, but I did not serve there personally. My service was primarily on the U.S. coast and on ships like the USS Wakefield. England was part of the larger Allied effort during the war.",
+    "implicit_text": "An island nation was referenced in the context of the war, but I did not serve there personally. My service was primarily on the U.S. coast and on ships like the large troop transport. That country was part of the larger Allied effort during the war.",
+    "cues": [
+      "World War II context",
+      "no direct service"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_Mike_Kozyra.yaml"
+  },
+  {
+    "entity_id": 20,
+    "entity": "Portugal",
+    "explicit_text": "Portugal was mentioned as part of the wartime geography, but I never served there. My Coast Guard duties were focused on the U.S. coastline and Atlantic operations. Portugal was part of the broader theater of war at the time.",
+    "implicit_text": "A neutral European country was mentioned as part of the wartime geography, but I never served there. My Coast Guard duties were focused on the U.S. coastline and Atlantic operations. That country was part of the broader theater of war at the time.",
+    "cues": [
+      "World War II context",
+      "no direct service"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_Mike_Kozyra.yaml"
+  },
+  {
+    "entity_id": 21,
+    "entity": "Spain",
+    "explicit_text": "Spain was noted as a place connected to the war period, but I did not have any direct involvement there. My service was concentrated on the American coast and aboard U.S. ships. Spain was part of the global conflict backdrop during my time in service.",
+    "implicit_text": "A southwestern European country was noted as a place connected to the war period, but I did not have any direct involvement there. My service was concentrated on the American coast and aboard U.S. ships. That country was part of the global conflict backdrop during my time in service.",
+    "cues": [
+      "World War II context",
+      "no direct service"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_Mike_Kozyra.yaml"
+  }
+]

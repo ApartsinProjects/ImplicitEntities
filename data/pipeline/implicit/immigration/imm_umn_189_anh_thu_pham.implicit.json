@@ -1,0 +1,188 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "Palestine",
+    "explicit_text": "In 2002, I took a very important trip to Palestine with the Anti-War Committee, which was probably the trip that got me into trouble. I visited Gaza, Jenin just months after the massacre, and Ramallah to see the real impact of the conflict. Witnessing the devastation there made me realize that what happened in Gaza was like what we saw after the September 11 attacks in New York City. Despite the hardship, the laughter and spirit of the Palestinian people inspired me to keep working for justice.",
+    "implicit_text": "In 2002, I took a very important trip to the region governed by the Palestinian Authority with the Anti-War Committee, which was probably the trip that got me into trouble. I visited Gaza, Jenin just months after the massacre, and Ramallah to see the real impact of the conflict. Witnessing the devastation there made me realize that what happened in Gaza was like what we saw after the September 11 attacks in New York City. Despite the hardship, the laughter and spirit of the people living under occupation inspired me to keep working for justice.",
+    "cues": [
+      "2002",
+      "Anti-War Committee",
+      "Gaza",
+      "Jenin massacre",
+      "Ramallah",
+      "September 11 attacks",
+      "Palestinian spirit"
+    ],
+    "transcript_ref": "immigration\\imm_umn_189_anh_thu_pham.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "Vietnam",
+    "explicit_text": "I was born in Saigon, Vietnam right at the fall of South Vietnam in 1975. When the U.S. war in Vietnam ended, we had only a few hours to get on a boat to escape. My family and I eventually resettled in Minnesota, thanks to Lutheran sponsorship, although we had the option to wait for California. The war deeply affected my family, and at home, we rarely talked about it, but its scars were always present.",
+    "implicit_text": "I was born in Saigon right at the fall of South Vietnam in 1975. When the U.S. war in that country ended, we had only a few hours to get on a boat to escape. My family and I eventually resettled in Minnesota, thanks to Lutheran sponsorship, although we had the option to wait for California. The war deeply affected my family, and at home, we rarely talked about it, but its scars were always present.",
+    "cues": [
+      "Saigon",
+      "fall of South Vietnam",
+      "1975",
+      "U.S. war in Vietnam",
+      "Lutheran sponsorship",
+      "Minnesota",
+      "California"
+    ],
+    "transcript_ref": "immigration\\imm_umn_189_anh_thu_pham.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "United States",
+    "explicit_text": "As a Vietnamese-American, the United States became my new home after fleeing Vietnam in 1975. I grew up here, identifying as an activist and feminist, and got involved in groups like Amnesty International during high school. The U.S. government's role in wars like Vietnam and the Persian Gulf deeply influenced my activism. I also experienced direct encounters with U.S. authorities, like the FBI searching my home in 2010, which shaped my perspective on justice and resistance.",
+    "implicit_text": "As a Vietnamese-American, this country became my new home after fleeing Vietnam in 1975. I grew up here, identifying as an activist and feminist, and got involved in groups like Amnesty International during high school. The government’s role in wars like Vietnam and the Persian Gulf deeply influenced my activism. I also experienced direct encounters with federal authorities, like the FBI searching my home in 2010, which shaped my perspective on justice and resistance.",
+    "cues": [
+      "Vietnamese-American",
+      "Amnesty International",
+      "Persian Gulf War",
+      "FBI search",
+      "2010",
+      "activism"
+    ],
+    "transcript_ref": "immigration\\imm_umn_189_anh_thu_pham.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "Minnesota",
+    "explicit_text": "After fleeing Vietnam, my family was sponsored by Lutherans to settle in Minnesota, a place we had never heard of before. Minnesota became our new home instead of waiting indefinitely for a spot in California. It was here that I grew up and became involved in activism, including Amnesty International and the Anti-War Committee. I also participated in significant protests in Minneapolis, such as civil disobedience at the Federal Building.",
+    "implicit_text": "After fleeing Vietnam, my family was sponsored by Lutherans to settle in the northern Midwestern state, a place we had never heard of before. This state became our new home instead of waiting indefinitely for a spot in California. It was here that I grew up and became involved in activism, including Amnesty International and the Anti-War Committee. I also participated in significant protests in Minneapolis, such as civil disobedience at the federal courthouse.",
+    "cues": [
+      "Lutheran sponsorship",
+      "resettlement",
+      "Amnesty International",
+      "Anti-War Committee",
+      "Federal Building Minneapolis"
+    ],
+    "transcript_ref": "immigration\\imm_umn_189_anh_thu_pham.yaml"
+  },
+  {
+    "entity_id": 5,
+    "entity": "California",
+    "explicit_text": "When my family fled Vietnam, we had the option to wait indefinitely for a spot in California, but we chose to go to Minnesota instead. Although I did not live in California, it was part of the difficult choices refugees like us had to make during resettlement. California represented a potential home, but the uncertainty there led us to settle elsewhere.",
+    "implicit_text": "When my family fled Vietnam, we had the option to wait indefinitely for a spot in the West Coast state known for its large refugee population, but we chose to go to Minnesota instead. Although I did not live there, it was part of the difficult choices refugees like us had to make during resettlement. That state represented a potential home, but the uncertainty there led us to settle elsewhere.",
+    "cues": [
+      "Vietnamese refugee resettlement",
+      "waiting for spot",
+      "choice between California and Minnesota"
+    ],
+    "transcript_ref": "immigration\\imm_umn_189_anh_thu_pham.yaml"
+  },
+  {
+    "entity_id": 6,
+    "entity": "Amnesty International",
+    "explicit_text": "In high school, I was involved with Amnesty International, which organized protests against the Persian Gulf War. We held sit-ins like taking over our school lobby to raise awareness and challenge the glorification of war. Amnesty International was important in shaping my early activism and understanding of human rights, especially as someone whose family was deeply affected by war.",
+    "implicit_text": "In high school, I was involved with the global human rights organization that organized protests against the Persian Gulf War. We held sit-ins like taking over our school lobby to raise awareness and challenge the glorification of war. This organization was important in shaping my early activism and understanding of human rights, especially as someone whose family was deeply affected by war.",
+    "cues": [
+      "high school",
+      "Amnesty International",
+      "Persian Gulf War protests",
+      "school lobby sit-in",
+      "human rights activism"
+    ],
+    "transcript_ref": "immigration\\imm_umn_189_anh_thu_pham.yaml"
+  },
+  {
+    "entity_id": 7,
+    "entity": "Persian Gulf War",
+    "explicit_text": "During the early 1990s, I participated in protests against the Persian Gulf War through Amnesty International and later the Anti-War Committee. We organized civil disobedience actions and large marches, including one with about 15,000 people marching onto the U.S. Capitol. These protests were part of a global movement opposing another war, and I remember the tension between us and counter-protesters who glorified fighting.",
+    "implicit_text": "During the early 1990s, I participated in protests against the Persian Gulf War through the global human rights group and later the Anti-War Committee. We organized civil disobedience actions and large marches, including one with about 15,000 people marching onto the nation’s Capitol building. These protests were part of a global movement opposing another war, and I remember the tension between us and counter-protesters who glorified fighting.",
+    "cues": [
+      "early 1990s",
+      "Amnesty International",
+      "Anti-War Committee",
+      "civil disobedience",
+      "march on U.S. Capitol",
+      "global anti-war movement"
+    ],
+    "transcript_ref": "immigration\\imm_umn_189_anh_thu_pham.yaml"
+  },
+  {
+    "entity_id": 8,
+    "entity": "Anti-War Committee",
+    "explicit_text": "In the mid to late 1990s, I became active with the Anti-War Committee to oppose U.S. intervention in the Persian Gulf. We organized significant protests, including a civil disobedience action at the Minneapolis Federal Building with 73 participants and a massive march of around 15,000 people to the U.S. Capitol. The Anti-War Committee also supported my 2002 trip to Palestine, which was a pivotal moment in my activism.",
+    "implicit_text": "In the mid to late 1990s, I became active with the local Anti-War Committee to oppose U.S. intervention in the Persian Gulf. We organized significant protests, including a civil disobedience action at the Minneapolis Federal Building with 73 participants and a massive march of around 15,000 people to the nation’s Capitol. This committee also supported my 2002 trip to the Palestinian territories, which was a pivotal moment in my activism.",
+    "cues": [
+      "mid to late 1990s",
+      "Anti-War Committee",
+      "Federal Building Minneapolis protest",
+      "15,000-person march",
+      "U.S. Capitol",
+      "2002 Palestine trip"
+    ],
+    "transcript_ref": "immigration\\imm_umn_189_anh_thu_pham.yaml"
+  },
+  {
+    "entity_id": 9,
+    "entity": "Federal Building (Minneapolis)",
+    "explicit_text": "One of the most memorable protests I participated in with the Anti-War Committee was a civil disobedience action at the Federal Building in Minneapolis. We had about 73 people involved, and it was a powerful statement against war and intervention. This event was part of a broader movement to prevent another Persian Gulf War and showed the strength of local activism.",
+    "implicit_text": "One of the most memorable protests I participated in with the Anti-War Committee was a civil disobedience action at the federal courthouse in Minneapolis. We had about 73 people involved, and it was a powerful statement against war and intervention. This event was part of a broader movement to prevent another Persian Gulf War and showed the strength of local activism.",
+    "cues": [
+      "Anti-War Committee",
+      "civil disobedience",
+      "73 participants",
+      "Federal Building Minneapolis",
+      "anti-war protest"
+    ],
+    "transcript_ref": "immigration\\imm_umn_189_anh_thu_pham.yaml"
+  },
+  {
+    "entity_id": 10,
+    "entity": "United States Capitol",
+    "explicit_text": "I took part in a massive march of approximately 15,000 people that ended at the United States Capitol. This march was part of a worldwide movement protesting against the prospect of another war in the Persian Gulf. Being there with so many others who opposed war was a powerful experience that reinforced my commitment to activism.",
+    "implicit_text": "I took part in a massive march of approximately 15,000 people that ended at the nation’s Capitol building. This march was part of a worldwide movement protesting against the prospect of another war in the Persian Gulf. Being there with so many others who opposed war was a powerful experience that reinforced my commitment to activism.",
+    "cues": [
+      "15,000-person march",
+      "United States Capitol",
+      "worldwide anti-war movement",
+      "Persian Gulf War protests"
+    ],
+    "transcript_ref": "immigration\\imm_umn_189_anh_thu_pham.yaml"
+  },
+  {
+    "entity_id": 11,
+    "entity": "September 11 attacks",
+    "explicit_text": "After my 2002 trip to Palestine, I witnessed the devastation of the September 11 attacks in New York City. Seeing that destruction reminded me of the daily reality in Gaza, where people live with constant violence and hardship. This comparison deepened my understanding of the impact of conflict and strengthened my resolve to advocate for peace and justice.",
+    "implicit_text": "After my 2002 trip to the Palestinian territories, I witnessed the devastation of the terrorist attacks in New York City on September 11. Seeing that destruction reminded me of the daily reality in Gaza, where people live with constant violence and hardship. This comparison deepened my understanding of the impact of conflict and strengthened my resolve to advocate for peace and justice.",
+    "cues": [
+      "September 11 attacks",
+      "2001",
+      "New York City",
+      "comparison to Gaza",
+      "impact of conflict"
+    ],
+    "transcript_ref": "immigration\\imm_umn_189_anh_thu_pham.yaml"
+  },
+  {
+    "entity_id": 12,
+    "entity": "Federal Bureau of Investigation",
+    "explicit_text": "In 2010, my life changed dramatically when the FBI came to my home early one morning with a warrant. They searched every corner of my house, from underwear drawers to photo albums, clearly knowing the layout beforehand. This invasive search was part of a larger process where many people stood with me, prepared to support me even if it meant jail for refusing to testify, because I had no information to give.",
+    "implicit_text": "In 2010, my life changed dramatically when federal agents came to my home early one morning with a warrant. They searched every corner of my house, from underwear drawers to photo albums, clearly knowing the layout beforehand. This invasive search was part of a larger process where many people stood with me, prepared to support me even if it meant jail for refusing to testify, because I had no information to give.",
+    "cues": [
+      "2010",
+      "FBI search",
+      "warrant",
+      "home invasion",
+      "support from community",
+      "refusal to testify"
+    ],
+    "transcript_ref": "immigration\\imm_umn_189_anh_thu_pham.yaml"
+  },
+  {
+    "entity_id": 13,
+    "entity": "Rasmea Odeh",
+    "explicit_text": "The struggles I faced are connected to broader issues affecting people like Rasmea Odeh, whose case reflects the ongoing ugliness in the fight for justice. Seeing what happened to Rasmea and the situation in Gaza motivates me to keep working despite the challenges. Her story is part of the larger movement for human rights that I am proud to be a part of.",
+    "implicit_text": "The struggles I faced are connected to broader issues affecting people like the activist and community leader whose case reflects the ongoing ugliness in the fight for justice. Seeing what happened to her and the situation in Gaza motivates me to keep working despite the challenges. Her story is part of the larger movement for human rights that I am proud to be a part of.",
+    "cues": [
+      "Rasmea Odeh",
+      "human rights struggle",
+      "connection to Gaza",
+      "ongoing activism"
+    ],
+    "transcript_ref": "immigration\\imm_umn_189_anh_thu_pham.yaml"
+  }
+]

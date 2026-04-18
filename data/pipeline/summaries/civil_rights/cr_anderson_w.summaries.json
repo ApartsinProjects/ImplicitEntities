@@ -1,0 +1,230 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "Americus, Georgia",
+    "summary": "I grew up in Americus, Georgia, a small farming community of about five or six thousand people. It was a segregated town with separate schools, stores, and public facilities for blacks and whites. My family valued education highly despite the harsh conditions, and I often compared Americus to the world Martin Luther King Jr. grew up in, since we were only about 170 miles apart. Life there was tough, with discrimination and limited opportunities, but it shaped my determination to pursue college and a better future.",
+    "cues": [
+      "small farming community",
+      "five or six thousand people",
+      "segregation",
+      "education",
+      "Martin Luther King Jr."
+    ],
+    "transcript_ref": "civil_rights\\cr_anderson_w.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "Martin Luther King Jr.",
+    "summary": "I often compared my upbringing in Americus, Georgia, to that of Martin Luther King Jr., since we lived barely 170 miles apart and experienced similar conditions of segregation and discrimination. Like me, he grew up in a deeply divided society with separate worlds for blacks and whites. Our shared experiences of racial injustice and limited opportunities influenced my perspective on life and my ambitions. Though I didn't know him personally, his story resonated with my own struggles and aspirations.",
+    "cues": [
+      "170 miles apart",
+      "segregation",
+      "discrimination",
+      "Americus, Georgia"
+    ],
+    "transcript_ref": "civil_rights\\cr_anderson_w.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "Morehouse College",
+    "summary": "My father attended Morehouse College, which was and still is one of the most prestigious colleges for black men in the United States. Although we don't know if he graduated, the fact that he went to Morehouse was a significant achievement given the limited opportunities for black men at the time. My brother also went to Morehouse before me, setting a family precedent. Morehouse represented a beacon of higher education and hope for our family in those segregated times.",
+    "cues": [
+      "father attended",
+      "prestigious black college",
+      "brother attended",
+      "education"
+    ],
+    "transcript_ref": "civil_rights\\cr_anderson_w.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "Albany State University",
+    "summary": "My mother went back to college at Albany State University after my youngest sister started school. She taught during the school year and attended college in the summers, earning her B.S. degree over twenty years. This was a major accomplishment for our family, as no one before her had gone that far in education. Albany State became historic for us because it represented perseverance and the value we placed on education despite the challenges of segregation.",
+    "cues": [
+      "mother attended",
+      "summer college",
+      "B.S. degree",
+      "twenty years",
+      "historic"
+    ],
+    "transcript_ref": "civil_rights\\cr_anderson_w.yaml"
+  },
+  {
+    "entity_id": 5,
+    "entity": "Fort Valley State University",
+    "summary": "I attended Fort Valley State University for two years, initially attracted by the chance to play football more than academics. The tuition was very affordable at twenty-five dollars a month for room, board, and tuition, which my family could barely afford. While there, I worked various jobs including driving for the college president, Horace Mann Bond. Fort Valley was my stepping stone toward a college education, which I knew was necessary to pursue my dream of becoming a doctor.",
+    "cues": [
+      "two years",
+      "football",
+      "tuition twenty-five dollars",
+      "worked as driver",
+      "Horace Mann Bond"
+    ],
+    "transcript_ref": "civil_rights\\cr_anderson_w.yaml"
+  },
+  {
+    "entity_id": 6,
+    "entity": "Horace Mann Bond",
+    "summary": "Horace Mann Bond was the president of Fort Valley State College when I attended, and I had the privilege of driving for him starting at age sixteen. He was a prominent black educator who traveled throughout the South studying education for blacks. Driving him and his children, including Julian Bond, gave me unique exposure to his work and influence. Being close to such a leader was an advantage I didn't fully appreciate at the time but later understood as significant.",
+    "cues": [
+      "president of Fort Valley State",
+      "driver at sixteen",
+      "black educator",
+      "traveled South",
+      "father of Julian Bond"
+    ],
+    "transcript_ref": "civil_rights\\cr_anderson_w.yaml"
+  },
+  {
+    "entity_id": 7,
+    "entity": "Julian Bond",
+    "summary": "Julian Bond was one of the children of Horace Mann Bond, the president of Fort Valley State College. I was his driver when I was sixteen, taking care of him and his sibling during our travels. Although I didn't know Julian Bond well personally, being around him and his family connected me to a prominent lineage of black leadership and activism. It was a unique experience that placed me close to important figures in black education and civil rights.",
+    "cues": [
+      "child of Horace Mann Bond",
+      "driven at age sixteen",
+      "Fort Valley State College",
+      "black leadership"
+    ],
+    "transcript_ref": "civil_rights\\cr_anderson_w.yaml"
+  },
+  {
+    "entity_id": 8,
+    "entity": "Attack on Pearl Harbor",
+    "summary": "I vividly remember the attack on Pearl Harbor on December 7, 1941. The local newspaper in Americus, Georgia, published an extra edition with the shocking news, and people were shouting on street corners. Although I lived in a segregated society where I faced discrimination and threats from the Ku Klux Klan, I felt personally attacked by Japan's aggression. This event motivated me to volunteer for the military to defend my country, despite the contradictions of fighting for a society that oppressed me.",
+    "cues": [
+      "December 7, 1941",
+      "Americus Times-Recorder extra",
+      "Japanese attack",
+      "motivation to volunteer",
+      "segregation"
+    ],
+    "transcript_ref": "civil_rights\\cr_anderson_w.yaml"
+  },
+  {
+    "entity_id": 9,
+    "entity": "Ku Klux Klan",
+    "summary": "Growing up in Americus, Georgia, I was often threatened by members of the Ku Klux Klan. Their presence was a constant reminder of the dangers and hatred black people faced in the segregated South. Despite these threats, my family emphasized education and resilience. The Klan's intimidation made me more determined to seek a better life through college and military service.",
+    "cues": [
+      "threats",
+      "segregated South",
+      "Americus, Georgia",
+      "family resilience"
+    ],
+    "transcript_ref": "civil_rights\\cr_anderson_w.yaml"
+  },
+  {
+    "entity_id": 10,
+    "entity": "Tuskegee Airmen",
+    "summary": "I wanted to be a Tuskegee Airman during World War II, but my mother wouldn't sign the papers, so I couldn't join that unit. The Tuskegee Airmen were the famous black fighter pilots, and it was a prestigious opportunity. Since I couldn't join them, I volunteered for the Navy instead, hoping to serve and fight the Japanese after Pearl Harbor. It was disappointing not to be part of the Airmen, but I was determined to contribute in any way I could.",
+    "cues": [
+      "wanted to join",
+      "mother refused to sign",
+      "World War II",
+      "Navy enlistment"
+    ],
+    "transcript_ref": "civil_rights\\cr_anderson_w.yaml"
+  },
+  {
+    "entity_id": 11,
+    "entity": "United States Navy",
+    "summary": "I volunteered for the United States Navy when I was about sixteen, eager to serve after the attack on Pearl Harbor. I chose the Navy over the Army because I didn't want to be in the infantry crawling under barbed wire. I became part of the last all-black company in the Navy, which was highly educated and integrated into a battalion at the Great Lakes Naval Training Center. My Navy service took me to the Pacific, including the Hawaiian Islands and the Philippine Islands, where I was assigned to the Seventh Fleet under Admiral William Halsey Jr.",
+    "cues": [
+      "volunteered at sixteen",
+      "last all-black company",
+      "Great Lakes Naval Training Center",
+      "Seventh Fleet",
+      "Admiral William Halsey Jr."
+    ],
+    "transcript_ref": "civil_rights\\cr_anderson_w.yaml"
+  },
+  {
+    "entity_id": 12,
+    "entity": "Great Lakes Naval Training Center",
+    "summary": "I trained at the Great Lakes Naval Training Center, where my company was the last all-black company in the Navy. We were highly educated, with every member having at least a high school diploma, which was unprecedented. Our company was a test case for integration within the Navy, and we excelled because of the high standards instilled by our families. After basic training there, I was assigned to the Seventh Fleet and sent to the Pacific theater.",
+    "cues": [
+      "training center",
+      "last all-black company",
+      "high school education",
+      "integration test",
+      "basic training"
+    ],
+    "transcript_ref": "civil_rights\\cr_anderson_w.yaml"
+  },
+  {
+    "entity_id": 13,
+    "entity": "Seabees",
+    "summary": "My company was shipped out to the Seabees, the Navy's construction battalion, after basic training, but I missed that deployment due to tonsillitis. The Seabees were responsible for building and construction work during the war. I was relieved to miss that tour because I was later assigned to more direct duty in the Pacific. The Seabees represented one of the roles black servicemen were often relegated to during the war.",
+    "cues": [
+      "Seabees construction battalion",
+      "missed deployment",
+      "tonsillitis",
+      "wartime construction"
+    ],
+    "transcript_ref": "civil_rights\\cr_anderson_w.yaml"
+  },
+  {
+    "entity_id": 14,
+    "entity": "United States Seventh Fleet",
+    "summary": "I was assigned to the United States Seventh Fleet under Admiral William 'Bull' Halsey Jr. during World War II. We stopped in the Hawaiian Islands briefly before I was dropped off in the Philippine Islands at Leyte Gulf. The war had just ended, but some Japanese soldiers were still hiding in the area. Serving in the Seventh Fleet was a critical part of my military experience in the Pacific theater.",
+    "cues": [
+      "Seventh Fleet",
+      "Admiral William Halsey Jr.",
+      "Hawaiian Islands",
+      "Philippine Islands",
+      "Leyte Gulf"
+    ],
+    "transcript_ref": "civil_rights\\cr_anderson_w.yaml"
+  },
+  {
+    "entity_id": 15,
+    "entity": "William Halsey Jr.",
+    "summary": "Admiral William Halsey Jr., known as 'Bull' Halsey, commanded the United States Seventh Fleet when I served in the Pacific during World War II. I was part of his fleet when we stopped in the Hawaiian Islands and later went to the Philippine Islands. His leadership was a significant aspect of my naval service, and I was proud to serve under such a renowned admiral during a critical time in the war.",
+    "cues": [
+      "Admiral",
+      "Seventh Fleet",
+      "Pacific theater",
+      "Hawaiian Islands",
+      "Philippine Islands"
+    ],
+    "transcript_ref": "civil_rights\\cr_anderson_w.yaml"
+  },
+  {
+    "entity_id": 16,
+    "entity": "Hawaiian Islands",
+    "summary": "During my naval service in World War II, my ship stopped in the Hawaiian Islands for a few days. This was part of the journey with the Seventh Fleet under Admiral Halsey as we moved toward the Philippine Islands. The Hawaiian Islands were a strategic stopover in the Pacific theater. It was a brief but memorable part of my deployment after training at Great Lakes.",
+    "cues": [
+      "naval stopover",
+      "World War II",
+      "Seventh Fleet",
+      "Admiral Halsey",
+      "Pacific theater"
+    ],
+    "transcript_ref": "civil_rights\\cr_anderson_w.yaml"
+  },
+  {
+    "entity_id": 17,
+    "entity": "Philippine Islands",
+    "summary": "I was dropped off in the Philippine Islands at Leyte Gulf after serving with the Seventh Fleet. The war had recently ended, but there were still Japanese soldiers hiding in the palm trees, some even a year after the war. It was a tense and dangerous environment, and I was assigned to hospital corps school after reporting my medical background. The Philippines represented the final stage of my wartime service in the Pacific.",
+    "cues": [
+      "Leyte Gulf",
+      "Japanese soldiers hiding",
+      "post-war",
+      "hospital corps school",
+      "Seventh Fleet"
+    ],
+    "transcript_ref": "civil_rights\\cr_anderson_w.yaml"
+  },
+  {
+    "entity_id": 18,
+    "entity": "Leyte Gulf",
+    "summary": "Leyte Gulf in the Philippine Islands was where I was dropped off after serving with the Seventh Fleet near the end of World War II. Although the war had officially ended, there were still Japanese soldiers hidden in the area, some with orders to shoot anything approaching. It was a reminder that the conflict lingered even after official victory. My time there was marked by this tense atmosphere before I began hospital corps training.",
+    "cues": [
+      "Philippine Islands",
+      "Japanese soldiers",
+      "post-war danger",
+      "Seventh Fleet",
+      "hospital corps school"
+    ],
+    "transcript_ref": "civil_rights\\cr_anderson_w.yaml"
+  }
+]

@@ -1,0 +1,12 @@
+{
+  "exp_id": "C6",
+  "model": "experiments/v5/models/dpr_wiki",
+  "entity_repr": "wiki",
+  "n_test": 4633,
+  "n_entities": 12337,
+  "hit_at_1": 0.2795,
+  "hit_at_3": 0.4498,
+  "hit_at_5": 0.5182,
+  "hit_at_10": 0.5955,
+  "mrr": 0.3851
+}

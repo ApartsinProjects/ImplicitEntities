@@ -1,0 +1,367 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "Martin Luther King Jr.",
+    "explicit_text": "I am Martin Luther King Jr., a Baptist minister who became deeply involved in the civil rights movement starting in the mid-1950s. At 27, I led the Montgomery bus boycott, which lasted 381 days and was nearly 100 percent successful. I founded the Southern Christian Leadership Conference in Atlanta to coordinate nonviolent protests across the South. Despite facing jail time, bombings, and death threats, I continued to work tirelessly, preaching at Ebenezer Baptist Church and speaking nationwide. My efforts culminated in leading the 1963 Birmingham campaign and addressing the March on Washington in 1963 at the Lincoln Memorial.",
+    "implicit_text": "I am a Baptist minister who became deeply involved in the civil rights movement starting in the mid-1950s. At 27, I led the Montgomery bus boycott, which lasted 381 days and was nearly 100 percent successful. I founded a Southern leadership conference in Atlanta to coordinate nonviolent protests across the South. Despite facing jail time, bombings, and death threats, I continued to work tirelessly, preaching at my church and speaking nationwide. My efforts culminated in leading the 1963 Birmingham campaign and addressing the March on Washington in 1963 at the Lincoln Memorial.",
+    "cues": [
+      "mid-1950s",
+      "Montgomery bus boycott",
+      "Southern Christian Leadership Conference",
+      "Birmingham campaign",
+      "March on Washington",
+      "Ebenezer Baptist Church",
+      "Lincoln Memorial"
+    ],
+    "transcript_ref": "civil_rights\\cr_6501_mlk_playboy.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "Montgomery bus boycott",
+    "explicit_text": "The Montgomery bus boycott began on December 5, 1955, after Rosa Parks was arrested for refusing to give up her seat. I was called by E. D. Nixon to lead the boycott, which was initially planned for one day but lasted 381 days with nearly 100 percent participation from the Negro community. The boycott challenged the segregated bus system in Montgomery, Alabama, and nearly bankrupted the bus line. Despite hardships, including my home being bombed, the boycott ended successfully when the United States Supreme Court declared bus segregation unconstitutional.",
+    "implicit_text": "The bus boycott in Montgomery began on December 5, 1955, after a woman was arrested for refusing to give up her seat. I was called by a local leader to lead the boycott, which was initially planned for one day but lasted 381 days with nearly 100 percent participation from the Negro community. The boycott challenged the segregated bus system in Montgomery, Alabama, and nearly bankrupted the bus line. Despite hardships, including my home being bombed, the boycott ended successfully when the United States Supreme Court declared bus segregation unconstitutional.",
+    "cues": [
+      "December 5, 1955",
+      "Rosa Parks",
+      "E. D. Nixon",
+      "Montgomery, Alabama",
+      "381 days",
+      "United States Supreme Court"
+    ],
+    "transcript_ref": "civil_rights\\cr_6501_mlk_playboy.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "Montgomery, Alabama",
+    "explicit_text": "Montgomery, Alabama, was the place where my civil rights leadership began in earnest with the bus boycott in 1955. It was a city deeply entrenched in segregation, and the boycott there lasted over a year, drawing national attention. The white citizens were annoyed by the protests, and my home was bombed during the siege. Despite the tension, the boycott's success led to a Supreme Court ruling against bus segregation, marking a turning point in the civil rights movement.",
+    "implicit_text": "This Alabama city was where my civil rights leadership began in earnest with the bus boycott in 1955. It was a city deeply entrenched in segregation, and the boycott there lasted over a year, drawing national attention. The white citizens were annoyed by the protests, and my home was bombed during the siege. Despite the tension, the boycott's success led to a Supreme Court ruling against bus segregation, marking a turning point in the civil rights movement.",
+    "cues": [
+      "1955",
+      "bus boycott",
+      "segregation",
+      "home bombing",
+      "Supreme Court ruling"
+    ],
+    "transcript_ref": "civil_rights\\cr_6501_mlk_playboy.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "Southern Christian Leadership Conference",
+    "explicit_text": "After moving to Atlanta, I founded the Southern Christian Leadership Conference (SCLC) to unite church-affiliated civil rights organizations. The SCLC worked alongside groups like CORE and SNCC to organize sit-ins, freedom rides, and other nonviolent protests throughout the South. From our Atlanta office, I coordinated efforts and responded to the growing demands of the movement, even while preaching at Ebenezer Baptist Church. The SCLC played a crucial role in campaigns such as Birmingham and the March on Washington.",
+    "implicit_text": "After moving to Atlanta, I founded a Southern leadership conference to unite church-affiliated civil rights organizations. This group worked alongside others like CORE and SNCC to organize sit-ins, freedom rides, and other nonviolent protests throughout the South. From our Atlanta office, I coordinated efforts and responded to the growing demands of the movement, even while preaching at my church. The organization played a crucial role in campaigns such as Birmingham and the March on Washington.",
+    "cues": [
+      "Atlanta",
+      "church-affiliated organizations",
+      "CORE",
+      "SNCC",
+      "sit-ins",
+      "freedom rides",
+      "Birmingham campaign",
+      "March on Washington"
+    ],
+    "transcript_ref": "civil_rights\\cr_6501_mlk_playboy.yaml"
+  },
+  {
+    "entity_id": 5,
+    "entity": "Congress of Racial Equality",
+    "explicit_text": "The Congress of Racial Equality, or CORE, was one of the activist groups that joined forces with the Southern Christian Leadership Conference and SNCC in the civil rights movement. Together, we organized sit-in demonstrations and freedom rides across the South to challenge segregation. CORE's involvement helped broaden the scope and impact of our nonviolent protests during the early 1960s.",
+    "implicit_text": "One of the activist groups that joined forces with the Southern leadership conference and SNCC in the civil rights movement was a national organization known for its role in nonviolent protests. Together, we organized sit-in demonstrations and freedom rides across the South to challenge segregation. This group's involvement helped broaden the scope and impact of our nonviolent protests during the early 1960s.",
+    "cues": [
+      "CORE",
+      "Southern Christian Leadership Conference",
+      "SNCC",
+      "sit-ins",
+      "freedom rides",
+      "1960s"
+    ],
+    "transcript_ref": "civil_rights\\cr_6501_mlk_playboy.yaml"
+  },
+  {
+    "entity_id": 6,
+    "entity": "Student Nonviolent Coordinating Committee",
+    "explicit_text": "The Student Nonviolent Coordinating Committee, or SNCC, was another key organization that worked alongside the SCLC and CORE. SNCC was instrumental in organizing sit-ins and freedom rides that challenged segregation in the South. Their youthful energy and commitment to nonviolence helped energize the movement during the early 1960s, complementing the efforts led by the church-affiliated groups.",
+    "implicit_text": "Another key organization that worked alongside the Southern leadership conference and CORE was a student-led committee focused on nonviolent coordination. This group was instrumental in organizing sit-ins and freedom rides that challenged segregation in the South. Their youthful energy and commitment to nonviolence helped energize the movement during the early 1960s, complementing the efforts led by the church-affiliated groups.",
+    "cues": [
+      "SNCC",
+      "SCLC",
+      "CORE",
+      "sit-ins",
+      "freedom rides",
+      "early 1960s"
+    ],
+    "transcript_ref": "civil_rights\\cr_6501_mlk_playboy.yaml"
+  },
+  {
+    "entity_id": 7,
+    "entity": "Birmingham campaign",
+    "explicit_text": "In 1963, I decided to create a crisis in Birmingham, Alabama, to dramatize the Negro plight and galvanize the national conscience. The mass nonviolent demonstrations led to the arrest of over 3,300 Negroes, including myself. The campaign drew widespread attention due to the brutal response from Bull Connor, who used police dogs and fire hoses against protesters. Birmingham became a pivotal moment that helped push forward civil rights legislation.",
+    "implicit_text": "In 1963, I decided to create a crisis in Birmingham, Alabama, to dramatize the Negro plight and galvanize the national conscience. The mass nonviolent demonstrations led to the arrest of over 3,300 Negroes, including myself. The campaign drew widespread attention due to the brutal response from the local police commissioner, who used police dogs and fire hoses against protesters. Birmingham became a pivotal moment that helped push forward civil rights legislation.",
+    "cues": [
+      "1963",
+      "Birmingham, Alabama",
+      "mass demonstrations",
+      "3,300 arrests",
+      "Bull Connor",
+      "police dogs",
+      "fire hoses"
+    ],
+    "transcript_ref": "civil_rights\\cr_6501_mlk_playboy.yaml"
+  },
+  {
+    "entity_id": 8,
+    "entity": "Ebenezer Baptist Church",
+    "explicit_text": "Ebenezer Baptist Church in Atlanta is where I and my father both serve as pastors. Despite my demanding schedule traveling and speaking across the country, I make time to preach, visit the sick, and help the poor among my congregation there. The church has been a spiritual home and base for much of my civil rights work, grounding me in faith and community.",
+    "implicit_text": "The church in Atlanta where I and my father both serve as pastors has been central to my life. Despite my demanding schedule traveling and speaking across the country, I make time to preach, visit the sick, and help the poor among my congregation there. The church has been a spiritual home and base for much of my civil rights work, grounding me in faith and community.",
+    "cues": [
+      "Atlanta",
+      "pastor",
+      "preaching",
+      "congregation",
+      "civil rights work"
+    ],
+    "transcript_ref": "civil_rights\\cr_6501_mlk_playboy.yaml"
+  },
+  {
+    "entity_id": 9,
+    "entity": "March on Washington for Jobs and Freedom",
+    "explicit_text": "The March on Washington in 1963 was a monumental event where over 200,000 people gathered to demand civil and economic rights for African Americans. I had the honor of addressing the crowd eloquently on the steps of the Lincoln Memorial. This march helped galvanize national support for civil rights legislation and was a high point in the movement during a 'long hot summer' of activism.",
+    "implicit_text": "The 1963 march in Washington was a monumental event where over 200,000 people gathered to demand civil and economic rights for African Americans. I had the honor of addressing the crowd eloquently on the steps of a famous national monument. This march helped galvanize national support for civil rights legislation and was a high point in the movement during a 'long hot summer' of activism.",
+    "cues": [
+      "1963",
+      "200,000 people",
+      "civil and economic rights",
+      "Lincoln Memorial",
+      "civil rights legislation"
+    ],
+    "transcript_ref": "civil_rights\\cr_6501_mlk_playboy.yaml"
+  },
+  {
+    "entity_id": 10,
+    "entity": "Lincoln Memorial",
+    "explicit_text": "The Lincoln Memorial in Washington, D.C., was the site where I delivered my famous speech during the 1963 March on Washington for Jobs and Freedom. Speaking there before a massive crowd was a powerful moment in the civil rights movement, symbolizing the struggle for freedom and equality. The memorial's historical significance added weight to our call for justice.",
+    "implicit_text": "The famous national monument in Washington, D.C., was the site where I delivered my iconic speech during the 1963 march for jobs and freedom. Speaking there before a massive crowd was a powerful moment in the civil rights movement, symbolizing the struggle for freedom and equality. The memorial's historical significance added weight to our call for justice.",
+    "cues": [
+      "1963",
+      "March on Washington",
+      "speech",
+      "Washington, D.C.",
+      "civil rights movement"
+    ],
+    "transcript_ref": "civil_rights\\cr_6501_mlk_playboy.yaml"
+  },
+  {
+    "entity_id": 11,
+    "entity": "Yolanda King",
+    "explicit_text": "Yolanda King is my oldest child, and even at six years old, she was aware of segregation and the civil rights struggle. I remember explaining to her why she couldn't go to Fun Town, a local amusement park, because it was closed to colored children. It was painful to see her tears and realize the first dark cloud of inferiority had touched her, but I reassured her that many white people wanted integration. Later, when Fun Town quietly desegregated, I took her there, and she heard white visitors express happiness to see us.",
+    "implicit_text": "My oldest child, even at six years old, was aware of segregation and the civil rights struggle. I remember explaining to her why she couldn't go to a local amusement park because it was closed to colored children. It was painful to see her tears and realize the first dark cloud of inferiority had touched her, but I reassured her that many white people wanted integration. Later, when that amusement park quietly desegregated, I took her there, and she heard white visitors express happiness to see us.",
+    "cues": [
+      "Yolanda King",
+      "six years old",
+      "Fun Town",
+      "segregation",
+      "desegregation",
+      "family"
+    ],
+    "transcript_ref": "civil_rights\\cr_6501_mlk_playboy.yaml"
+  },
+  {
+    "entity_id": 12,
+    "entity": "Albany, Georgia",
+    "explicit_text": "In 1962, I was arrested and jailed in Albany, Georgia, during civil rights protests. Looking back, I believe our approach there was a tactical error because we protested segregation generally rather than targeting a specific issue like bus or lunch counter integration. This vagueness led to no tangible victories and left the community discouraged. However, the experience helped the Negro people there straighten their backs and gain resolve for future struggles.",
+    "implicit_text": "In 1962, I was arrested and jailed in a Georgia city during civil rights protests. Looking back, I believe our approach there was a tactical error because we protested segregation generally rather than targeting a specific issue like bus or lunch counter integration. This vagueness led to no tangible victories and left the community discouraged. However, the experience helped the Negro people there straighten their backs and gain resolve for future struggles.",
+    "cues": [
+      "1962",
+      "Albany, Georgia",
+      "arrest",
+      "civil rights protests",
+      "tactical error",
+      "community resolve"
+    ],
+    "transcript_ref": "civil_rights\\cr_6501_mlk_playboy.yaml"
+  },
+  {
+    "entity_id": 13,
+    "entity": "Rosa Parks",
+    "explicit_text": "Rosa Parks was arrested on December 5, 1955, in Montgomery, Alabama, for refusing to give up her bus seat, an act that sparked the Montgomery bus boycott. E. D. Nixon called me late that night to inform me of her arrest and to urge action. After she was bonded out, we quickly organized a meeting and called for a boycott that ultimately lasted over a year and became a pivotal moment in the civil rights movement.",
+    "implicit_text": "A woman was arrested on December 5, 1955, in Montgomery, Alabama, for refusing to give up her bus seat, an act that sparked the Montgomery bus boycott. A local leader called me late that night to inform me of her arrest and to urge action. After she was bonded out, we quickly organized a meeting and called for a boycott that ultimately lasted over a year and became a pivotal moment in the civil rights movement.",
+    "cues": [
+      "December 5, 1955",
+      "Montgomery, Alabama",
+      "bus seat refusal",
+      "E. D. Nixon",
+      "Montgomery bus boycott"
+    ],
+    "transcript_ref": "civil_rights\\cr_6501_mlk_playboy.yaml"
+  },
+  {
+    "entity_id": 14,
+    "entity": "E. D. Nixon",
+    "explicit_text": "E. D. Nixon was a Pullman porter and longtime NAACP member who played a crucial role in initiating the Montgomery bus boycott. He called me late one night in 1955 to inform me of Rosa Parks' arrest and suggested it was time to take action against bus segregation. Nixon had already bonded Parks out of jail and helped organize the initial meeting that led to the boycott's success.",
+    "implicit_text": "A Pullman porter and longtime NAACP member played a crucial role in initiating the Montgomery bus boycott. He called me late one night in 1955 to inform me of the woman's arrest and suggested it was time to take action against bus segregation. He had already bonded her out of jail and helped organize the initial meeting that led to the boycott's success.",
+    "cues": [
+      "E. D. Nixon",
+      "Pullman porter",
+      "NAACP",
+      "1955",
+      "Rosa Parks",
+      "Montgomery bus boycott"
+    ],
+    "transcript_ref": "civil_rights\\cr_6501_mlk_playboy.yaml"
+  },
+  {
+    "entity_id": 15,
+    "entity": "NAACP",
+    "explicit_text": "The NAACP was a longstanding civil rights organization that E. D. Nixon was affiliated with, and it played a foundational role in early civil rights activism. Nixon's involvement with the NAACP helped facilitate the response to Rosa Parks' arrest and the Montgomery bus boycott. The NAACP's history and network provided important support for the movement's initial efforts.",
+    "implicit_text": "A longstanding civil rights organization was foundational in early activism and was affiliated with the local leader who helped initiate the Montgomery bus boycott. This organization's history and network provided important support for the movement's initial efforts.",
+    "cues": [
+      "NAACP",
+      "E. D. Nixon",
+      "civil rights activism",
+      "Rosa Parks",
+      "Montgomery bus boycott"
+    ],
+    "transcript_ref": "civil_rights\\cr_6501_mlk_playboy.yaml"
+  },
+  {
+    "entity_id": 16,
+    "entity": "United States Supreme Court",
+    "explicit_text": "The United States Supreme Court played a decisive role in the civil rights movement by ruling that bus segregation in Montgomery was unconstitutional. This ruling came at a critical moment during the bus boycott, lifting the spirits of the community and marking a legal victory against Jim Crow laws. The Supreme Court's decision helped validate our nonviolent protest and set a precedent for further desegregation efforts.",
+    "implicit_text": "The highest court in the United States played a decisive role in the civil rights movement by ruling that bus segregation in Montgomery was unconstitutional. This ruling came at a critical moment during the bus boycott, lifting the spirits of the community and marking a legal victory against Jim Crow laws. The court's decision helped validate our nonviolent protest and set a precedent for further desegregation efforts.",
+    "cues": [
+      "United States Supreme Court",
+      "Montgomery bus segregation",
+      "unconstitutional ruling",
+      "legal victory",
+      "civil rights movement"
+    ],
+    "transcript_ref": "civil_rights\\cr_6501_mlk_playboy.yaml"
+  },
+  {
+    "entity_id": 17,
+    "entity": "Nobel Prize",
+    "explicit_text": "I was honored to receive the Nobel Prize, which recognized the amazing discipline of the Negro people in the civil rights movement. Despite occasional riots, the nonviolent philosophy we upheld prevented far worse bloodshed. The award acknowledged the hard work and sacrifices made by countless individuals committed to justice and equality.",
+    "implicit_text": "I was honored to receive a prestigious international award, which recognized the amazing discipline of the Negro people in the civil rights movement. Despite occasional riots, the nonviolent philosophy we upheld prevented far worse bloodshed. The award acknowledged the hard work and sacrifices made by countless individuals committed to justice and equality.",
+    "cues": [
+      "Nobel Prize",
+      "discipline",
+      "nonviolence",
+      "civil rights movement",
+      "recognition"
+    ],
+    "transcript_ref": "civil_rights\\cr_6501_mlk_playboy.yaml"
+  },
+  {
+    "entity_id": 18,
+    "entity": "Fun Town",
+    "explicit_text": "Fun Town was a miniature Disneyland near Atlanta that my family often passed on the way to the airport. My daughter Yolanda wanted to go there, but I struggled to explain why it was closed to colored children due to segregation. It was heartbreaking to see her cry when she understood this exclusion, but later, after Fun Town quietly desegregated, I took her there, and we were warmly welcomed by some white visitors who recognized us.",
+    "implicit_text": "A miniature Disneyland near Atlanta was a place my family often passed on the way to the airport. My daughter wanted to go there, but I struggled to explain why it was closed to colored children due to segregation. It was heartbreaking to see her cry when she understood this exclusion, but later, after the park quietly desegregated, I took her there, and we were warmly welcomed by some white visitors who recognized us.",
+    "cues": [
+      "Fun Town",
+      "Atlanta",
+      "segregation",
+      "Yolanda King",
+      "desegregation"
+    ],
+    "transcript_ref": "civil_rights\\cr_6501_mlk_playboy.yaml"
+  },
+  {
+    "entity_id": 19,
+    "entity": "Negro Elks",
+    "explicit_text": "When I was 14, I participated in an oratorical contest sponsored by the Negro Elks in Dublin, Georgia. I won the contest with a speech on 'The Negro and the Constitution.' That day was memorable not only for the victory but also because on the bus ride home, I experienced harsh racial prejudice firsthand when white passengers demanded we give up our seats, an incident that left a lasting impression on me.",
+    "implicit_text": "When I was 14, I participated in an oratorical contest sponsored by a fraternal organization for African Americans in Dublin, Georgia. I won the contest with a speech on 'The Negro and the Constitution.' That day was memorable not only for the victory but also because on the bus ride home, I experienced harsh racial prejudice firsthand when white passengers demanded we give up our seats, an incident that left a lasting impression on me.",
+    "cues": [
+      "Negro Elks",
+      "oratorical contest",
+      "Dublin, Georgia",
+      "age 14",
+      "racial prejudice"
+    ],
+    "transcript_ref": "civil_rights\\cr_6501_mlk_playboy.yaml"
+  },
+  {
+    "entity_id": 20,
+    "entity": "Playboy",
+    "explicit_text": "This interview was originally published in the January 1965 issue of Playboy magazine. It provided a rare and candid look into my experiences and thoughts on the civil rights movement, including personal stories about my family and the struggles we faced. The platform allowed me to reach a broad audience and share the philosophy behind our nonviolent resistance.",
+    "implicit_text": "This interview was originally published in a widely read magazine in January 1965. It provided a rare and candid look into my experiences and thoughts on the civil rights movement, including personal stories about my family and the struggles we faced. The platform allowed me to reach a broad audience and share the philosophy behind our nonviolent resistance.",
+    "cues": [
+      "Playboy",
+      "January 1965",
+      "interview",
+      "civil rights movement",
+      "personal stories"
+    ],
+    "transcript_ref": "civil_rights\\cr_6501_mlk_playboy.yaml"
+  },
+  {
+    "entity_id": 21,
+    "entity": "Billy clubs",
+    "explicit_text": "During the civil rights protests, demonstrators, including myself, were often met with brutal force from police wielding billy clubs. These clubs were used to beat Negro protesters, as seen in front-page pictures that shocked the nation. Despite this violence, we remained committed to nonviolent resistance, which was central to our philosophy and strategy.",
+    "implicit_text": "During the civil rights protests, demonstrators, including myself, were often met with brutal force from police wielding clubs. These clubs were used to beat Negro protesters, as seen in front-page pictures that shocked the nation. Despite this violence, we remained committed to nonviolent resistance, which was central to our philosophy and strategy.",
+    "cues": [
+      "billy clubs",
+      "police brutality",
+      "civil rights protests",
+      "nonviolent resistance",
+      "media coverage"
+    ],
+    "transcript_ref": "civil_rights\\cr_6501_mlk_playboy.yaml"
+  },
+  {
+    "entity_id": 22,
+    "entity": "Bull Connor",
+    "explicit_text": "Bull Connor was the police chief in Birmingham, Alabama, notorious for his aggressive and violent tactics against civil rights protesters. During the 1963 Birmingham campaign, he used police dogs and fire hoses to attack demonstrators, including myself. His brutal methods drew national outrage and helped galvanize support for the movement and subsequent civil rights legislation.",
+    "implicit_text": "The police chief in Birmingham, Alabama, was notorious for his aggressive and violent tactics against civil rights protesters. During the 1963 campaign there, he used police dogs and fire hoses to attack demonstrators, including myself. His brutal methods drew national outrage and helped galvanize support for the movement and subsequent civil rights legislation.",
+    "cues": [
+      "Bull Connor",
+      "Birmingham, Alabama",
+      "1963 campaign",
+      "police dogs",
+      "fire hoses",
+      "violence"
+    ],
+    "transcript_ref": "civil_rights\\cr_6501_mlk_playboy.yaml"
+  },
+  {
+    "entity_id": 23,
+    "entity": "Kennedy administration",
+    "explicit_text": "The Kennedy administration responded to the growing civil rights movement by proposing a Civil Rights Bill aimed at enforcing voting rights, equal employment opportunities, and desegregation of public facilities. This legislative effort came after widespread demonstrations and was part of the federal government's increasing involvement in civil rights issues. The administration's actions helped set the stage for the Civil Rights Act of 1964.",
+    "implicit_text": "The presidential administration at the time responded to the growing civil rights movement by proposing a Civil Rights Bill aimed at enforcing voting rights, equal employment opportunities, and desegregation of public facilities. This legislative effort came after widespread demonstrations and was part of the federal government's increasing involvement in civil rights issues. The administration's actions helped set the stage for the Civil Rights Act of 1964.",
+    "cues": [
+      "Kennedy administration",
+      "Civil Rights Bill",
+      "voting rights",
+      "equal employment",
+      "desegregation",
+      "early 1960s"
+    ],
+    "transcript_ref": "civil_rights\\cr_6501_mlk_playboy.yaml"
+  },
+  {
+    "entity_id": 24,
+    "entity": "Civil Rights Act of 1964",
+    "explicit_text": "The Civil Rights Act of 1964 was landmark legislation that aimed to end segregation in public facilities and promote equal employment opportunities. It was proposed following a year of intense activism, including mass demonstrations and the March on Washington. This act represented one of the most significant tangible gains for African Americans since the end of slavery and was a testament to the efforts of the civil rights movement.",
+    "implicit_text": "The landmark legislation passed in 1964 aimed to end segregation in public facilities and promote equal employment opportunities. It was proposed following a year of intense activism, including mass demonstrations and the March on Washington. This act represented one of the most significant tangible gains for African Americans since the end of slavery and was a testament to the efforts of the civil rights movement.",
+    "cues": [
+      "Civil Rights Act of 1964",
+      "desegregation",
+      "equal employment",
+      "mass demonstrations",
+      "March on Washington"
+    ],
+    "transcript_ref": "civil_rights\\cr_6501_mlk_playboy.yaml"
+  },
+  {
+    "entity_id": 25,
+    "entity": "Georgia gubernatorial election, 1966",
+    "explicit_text": "Though not detailed extensively in this interview, the Georgia gubernatorial election of 1966 occurred during a period of significant civil rights activity in the South. My work in Albany, Georgia, in 1962, and the broader movement influenced political dynamics in the state, including elections. The election reflected the ongoing struggle over segregation and civil rights in Georgia during the mid-1960s.",
+    "implicit_text": "Though not detailed extensively in this interview, the 1966 gubernatorial election in Georgia occurred during a period of significant civil rights activity in the South. My work in Albany, Georgia, in 1962, and the broader movement influenced political dynamics in the state, including elections. The election reflected the ongoing struggle over segregation and civil rights in Georgia during the mid-1960s.",
+    "cues": [
+      "Georgia gubernatorial election",
+      "1966",
+      "Albany, Georgia",
+      "civil rights movement",
+      "segregation struggle"
+    ],
+    "transcript_ref": "civil_rights\\cr_6501_mlk_playboy.yaml"
+  }
+]

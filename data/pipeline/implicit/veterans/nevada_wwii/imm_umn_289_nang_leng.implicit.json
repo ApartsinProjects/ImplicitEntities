@@ -1,0 +1,81 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "Burma",
+    "explicit_text": "I was born in Burma, but we had to leave because my husband had problems with the government. The government was unfair and cared only for themselves, not the people. Leaving Burma was difficult, but it was necessary for our safety.",
+    "implicit_text": "I was born in the Southeast Asian country ruled by a military government, but we had to leave because my husband had problems with the authorities. The regime was unfair and cared only for themselves, not the people. Leaving that country was difficult, but it was necessary for our safety.",
+    "cues": [
+      "birthplace",
+      "government problems",
+      "unfair treatment",
+      "forced to leave"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_289_nang_leng.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "Nu Poe Refugee Camp",
+    "explicit_text": "After leaving Burma, my family and I lived in the Nu Poe Refugee Camp in Thailand for seven years. Life there was very hard; we didn’t have enough food and couldn’t go anywhere freely. During that time, my father passed away, and I never got to see him again, which makes me very sad.",
+    "implicit_text": "After leaving my home country, my family and I lived in a refugee camp located in Thailand for seven years. Life there was very hard; we didn’t have enough food and couldn’t go anywhere freely. During that time, my father passed away, and I never got to see him again, which makes me very sad.",
+    "cues": [
+      "seven years",
+      "Thailand",
+      "lack of food",
+      "restricted movement",
+      "father's death"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_289_nang_leng.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "Thailand",
+    "explicit_text": "We stayed in Thailand at the Nu Poe Refugee Camp after fleeing Burma. Thailand was a temporary place for us, but life was challenging and uncertain. It was there that I experienced many hardships before we were resettled to the United States.",
+    "implicit_text": "We stayed in the Southeast Asian kingdom at the refugee camp after fleeing my home country. This nation was a temporary place for us, but life was challenging and uncertain. It was there that I experienced many hardships before we were resettled to the United States.",
+    "cues": [
+      "Nu Poe Refugee Camp",
+      "temporary refuge",
+      "hardships",
+      "before resettlement"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_289_nang_leng.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "United States",
+    "explicit_text": "My family and I were resettled to the United States in 2013 after living in the refugee camp. Since arriving, I have been living in Minnesota and trying to improve my English. Although I face health challenges and financial worries, especially about my daughters’ education, I am grateful for the opportunities here.",
+    "implicit_text": "My family and I were resettled to North America in 2013 after living in the refugee camp. Since arriving, I have been living in Minnesota and trying to improve my English. Although I face health challenges and financial worries, especially about my daughters’ education, I am grateful for the opportunities here.",
+    "cues": [
+      "resettled 2013",
+      "living in Minnesota",
+      "English studies",
+      "health and financial struggles"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_289_nang_leng.yaml"
+  },
+  {
+    "entity_id": 5,
+    "entity": "St. Paul, Minnesota",
+    "explicit_text": "I have been living in St. Paul, Minnesota for about one year and eight months with my husband and two daughters. This city is now our home, and my daughters are students here. I attend classes at the Ronald M. Hubbs Center to improve my English while managing my health and family responsibilities.",
+    "implicit_text": "I have been living in the capital city of Minnesota for about one year and eight months with my husband and two daughters. This city is now our home, and my daughters are students here. I attend classes at a local lifelong learning center to improve my English while managing my health and family responsibilities.",
+    "cues": [
+      "one year eight months",
+      "family residence",
+      "daughters as students",
+      "English classes"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_289_nang_leng.yaml"
+  },
+  {
+    "entity_id": 6,
+    "entity": "Ronald M. Hubbs Center for Lifelong Learning",
+    "explicit_text": "I study English at the Ronald M. Hubbs Center for Lifelong Learning in St. Paul. Going to this center every day helps me improve my language skills despite my health issues and worries. It is an important part of my life here in Minnesota as I try to build a better future for my family.",
+    "implicit_text": "I study English at a lifelong learning center in the capital city of Minnesota. Going to this center every day helps me improve my language skills despite my health issues and worries. It is an important part of my life here as I try to build a better future for my family.",
+    "cues": [
+      "English studies",
+      "daily attendance",
+      "St. Paul",
+      "language improvement"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_289_nang_leng.yaml"
+  }
+]

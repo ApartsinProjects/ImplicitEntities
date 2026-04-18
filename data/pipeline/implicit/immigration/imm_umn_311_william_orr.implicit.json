@@ -1,0 +1,44 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "Northern Ireland",
+    "explicit_text": "My great, great, great grandfather William Orr left Northern Ireland in 1837 when he was just 12 years old. Leaving his childhood home was very sorrowful, as neighbors accompanied him for miles, crying and saying they would never see him again. Although poor and humble, Northern Ireland was where he spent the happiest days of his life, filled with family, Irish folklore, and stories that shaped his early years. His memories of Northern Ireland stayed with him even after he emigrated to America.",
+    "implicit_text": "My great, great, great grandfather William Orr left the northeastern part of the island of Ireland in 1837 when he was just 12 years old. Leaving his childhood home was very sorrowful, as neighbors accompanied him for miles, crying and saying they would never see him again. Although poor and humble, that region was where he spent the happiest days of his life, filled with family, Irish folklore, and stories that shaped his early years. His memories of that place stayed with him even after he emigrated to America.",
+    "cues": [
+      "1837",
+      "childhood home",
+      "neighbors",
+      "Irish folklore",
+      "family"
+    ],
+    "transcript_ref": "immigration\\imm_umn_311_william_orr.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "Watkins Glen, New York",
+    "explicit_text": "After leaving Northern Ireland, my ancestor William Orr ended up in Watkins Glen, New York. It was there that he worked hard, even pulling pranks like leaving his shoes in the potato patch to escape work. He was bound out to Reverend Rolette, who was both a minister and farmer, and negotiated schooling during the winters. Watkins Glen became the place where he built his life, learned to teach, and started a family that still exists today.",
+    "implicit_text": "After leaving the northeastern part of Ireland, my ancestor William Orr ended up in a small village in upstate New York known for its scenic gorge and racing history. It was there that he worked hard, even pulling pranks like leaving his shoes in the potato patch to escape work. He was bound out to Reverend Rolette, who was both a minister and farmer, and negotiated schooling during the winters. That village became the place where he built his life, learned to teach, and started a family that still exists today.",
+    "cues": [
+      "Watkins Glen, New York",
+      "potato patch prank",
+      "Reverend Rolette",
+      "schooling",
+      "family"
+    ],
+    "transcript_ref": "immigration\\imm_umn_311_william_orr.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "David B. Henderson",
+    "explicit_text": "One interesting connection in my family's history is that my great, great, great grandfather taught David B. Henderson, who later became Speaker of the House of Representatives. This happened during the years when William Orr was able to attend school in the winters while bound out to Reverend Rolette. It's remarkable to think that my ancestor played a role in the education of such an important political figure. This link highlights the impact of education in our family's story.",
+    "implicit_text": "One interesting connection in my family's history is that my great, great, great grandfather taught a man who later became Speaker of the U.S. House of Representatives. This happened during the years when William Orr was able to attend school in the winters while bound out to Reverend Rolette. It's remarkable to think that my ancestor played a role in the education of such an important political figure. This link highlights the impact of education in our family's story.",
+    "cues": [
+      "David B. Henderson",
+      "Speaker of the House",
+      "education",
+      "Reverend Rolette",
+      "winter schooling"
+    ],
+    "transcript_ref": "immigration\\imm_umn_311_william_orr.yaml"
+  }
+]

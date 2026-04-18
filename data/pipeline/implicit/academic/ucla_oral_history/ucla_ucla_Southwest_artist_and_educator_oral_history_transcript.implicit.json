@@ -1,0 +1,30 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "California",
+    "explicit_text": "I was born in California, specifically on October 2, 1894, in a place called Huenerae. Although my parents didn't live there permanently, they were on a fishing trip when I was born. California has many small communities like Huenerae and Saticoy, where my family actually lived. These places were quite small back then, but they had the potential to grow into larger towns.",
+    "implicit_text": "I was born in a western U.S. state, specifically on October 2, 1894, in a place called Huenerae. Although my parents didn't live there permanently, they were on a fishing trip when I was born. This state has many small communities like Huenerae and Saticoy, where my family actually lived. These places were quite small back then, but they had the potential to grow into larger towns.",
+    "cues": [
+      "October 2, 1894",
+      "Huenerae",
+      "fishing trip",
+      "Saticoy",
+      "small communities"
+    ],
+    "transcript_ref": "academic\\ucla_oral_history\\ucla_ucla_Southwest_artist_and_educator_oral_history_transcript.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "Ventura County, California",
+    "explicit_text": "My family lived in Ventura County, California, in a small place called Saticoy. Back in those days, Ventura County was dotted with small settlements that could have developed into bigger towns. Even Huenerae, where I was born unexpectedly during a fishing trip, was part of Ventura County. It was a quiet area with just a few houses and a wharf where people enjoyed fishing.",
+    "implicit_text": "My family lived in a coastal county in southern California, in a small place called Saticoy. Back in those days, this county was dotted with small settlements that could have developed into bigger towns. Even Huenerae, where I was born unexpectedly during a fishing trip, was part of this county. It was a quiet area with just a few houses and a wharf where people enjoyed fishing.",
+    "cues": [
+      "Ventura County",
+      "Saticoy",
+      "Huenerae",
+      "fishing trip",
+      "small settlements"
+    ],
+    "transcript_ref": "academic\\ucla_oral_history\\ucla_ucla_Southwest_artist_and_educator_oral_history_transcript.yaml"
+  }
+]

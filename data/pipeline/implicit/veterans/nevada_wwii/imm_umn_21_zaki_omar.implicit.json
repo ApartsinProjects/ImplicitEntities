@@ -1,0 +1,165 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "Somalia",
+    "explicit_text": "I was born in Somalia in 1985 and attended Shafii Secondary School there. My childhood memories are deeply rooted in Somalia, where I developed a passion for reading and learning. Unfortunately, due to the situation in Somalia, I couldn't continue my undergraduate education and had to move away. Somalia is where my educational journey and curiosity began.",
+    "implicit_text": "I was born in the Horn of Africa in 1985 and attended a local secondary school there. My childhood memories are deeply rooted in that country, where I developed a passion for reading and learning. Unfortunately, due to the situation there, I couldn't continue my undergraduate education and had to move away. That place is where my educational journey and curiosity began.",
+    "cues": [
+      "born 1985",
+      "Shafii Secondary School",
+      "childhood",
+      "undergraduate education",
+      "situation in Somalia"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_21_zaki_omar.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "Qatar",
+    "explicit_text": "After leaving Somalia because of the unrest, I moved to Qatar and lived there for a few years. Although I couldn't continue my formal education in Qatar, I kept my curiosity alive and learned a lot about the country and its surroundings. My time in Qatar was marked by a thirst for knowledge, even without access to school.",
+    "implicit_text": "After leaving the Horn of Africa because of the unrest, I moved to a wealthy Gulf country and lived there for a few years. Although I couldn't continue my formal education in that Middle Eastern nation, I kept my curiosity alive and learned a lot about the country and its surroundings. My time there was marked by a thirst for knowledge, even without access to school.",
+    "cues": [
+      "moved after Somalia",
+      "few years",
+      "no formal education",
+      "curiosity",
+      "learning about Qatar"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_21_zaki_omar.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "United States",
+    "explicit_text": "I moved to the United States in September 2014 with the goal of continuing my education. Living here has given me the chance to explore and learn more, especially in the Twin Cities area. The United States represents a new chapter in my life where I can pursue my passion for knowledge and education.",
+    "implicit_text": "I moved to North America in September 2014 with the goal of continuing my education. Living here has given me the chance to explore and learn more, especially in the Twin Cities area. This country represents a new chapter in my life where I can pursue my passion for knowledge and education.",
+    "cues": [
+      "moved September 2014",
+      "goal to continue education",
+      "learning opportunities",
+      "Twin Cities"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_21_zaki_omar.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "Minneapolis",
+    "explicit_text": "When I arrived in Minneapolis, Minnesota, I spent a lot of time alone, reading and asking questions about everything around me. Minneapolis became a place where I could dive into learning about local history and culture, often using Google to help me understand more. It’s part of the Twin Cities where I’ve grown my curiosity and knowledge since moving to the US.",
+    "implicit_text": "When I arrived in a major city in Minnesota, I spent a lot of time alone, reading and asking questions about everything around me. This city became a place where I could dive into learning about local history and culture, often using an online search engine to help me understand more. It’s part of the Twin Cities where I’ve grown my curiosity and knowledge since moving to the US.",
+    "cues": [
+      "lived in Minneapolis",
+      "Minnesota",
+      "learning local history",
+      "using Google",
+      "Twin Cities"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_21_zaki_omar.yaml"
+  },
+  {
+    "entity_id": 5,
+    "entity": "Minnesota",
+    "explicit_text": "Minnesota is where I settled after moving to the United States in 2014. I have spent a lot of time exploring its history, including learning about the Vikings and Native American heritage. Minnesota has been a rich source of knowledge for me, especially as I navigate my new life here with the help of Google.",
+    "implicit_text": "This northern U.S. state is where I settled after moving to the country in 2014. I have spent a lot of time exploring its history, including learning about the Norse explorers and Native American heritage. This state has been a rich source of knowledge for me, especially as I navigate my new life here with the help of an online search engine.",
+    "cues": [
+      "moved 2014",
+      "explored history",
+      "Vikings",
+      "Native Americans",
+      "using Google"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_21_zaki_omar.yaml"
+  },
+  {
+    "entity_id": 6,
+    "entity": "Twin Cities",
+    "explicit_text": "The Twin Cities area, which includes Minneapolis and St. Paul, has been my home since I came to the US. I often use Google to understand the differences between places like Hennepin County and Ramsey County, or Minneapolis and St. Paul. This region has been central to my learning and adapting to life in America.",
+    "implicit_text": "The metropolitan area that includes Minneapolis and St. Paul has been my home since I came to the US. I often use an online search engine to understand the differences between places like Hennepin County and Ramsey County, or the two main cities themselves. This region has been central to my learning and adapting to life in America.",
+    "cues": [
+      "includes Minneapolis and St. Paul",
+      "learning local geography",
+      "Hennepin and Ramsey Counties",
+      "using Google",
+      "home since 2014"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_21_zaki_omar.yaml"
+  },
+  {
+    "entity_id": 7,
+    "entity": "Google",
+    "explicit_text": "Google has been my best friend since my high school days in Somalia. It helped me satisfy my endless curiosity by providing quick and easy access to information. Throughout my journey—from Somalia to Qatar and now in the United States—Google has been my loyal companion, helping me learn about everything from history to local geography.",
+    "implicit_text": "An online search engine has been my best friend since my high school days in the Horn of Africa. It helped me satisfy my endless curiosity by providing quick and easy access to information. Throughout my journey—from my birthplace to the Gulf and now in North America—that tool has been my loyal companion, helping me learn about everything from history to local geography.",
+    "cues": [
+      "high school days",
+      "Somalia",
+      "Qatar",
+      "United States",
+      "source of information"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_21_zaki_omar.yaml"
+  },
+  {
+    "entity_id": 8,
+    "entity": "Vikings",
+    "explicit_text": "In Minnesota, I became fascinated with the history of the Vikings, which I often researched using Google. Learning about the Vikings is part of my broader interest in the history of the area, including Native American stories. The Vikings represent an important cultural and historical topic that I explored after moving to the Twin Cities.",
+    "implicit_text": "In the northern U.S. state, I became fascinated with the history of the Norse explorers, which I often researched using an online search engine. Learning about these seafaring people is part of my broader interest in the history of the area, including Native American stories. They represent an important cultural and historical topic that I explored after moving to the Twin Cities.",
+    "cues": [
+      "Minnesota history",
+      "researched with Google",
+      "Vikings",
+      "Native American history",
+      "Twin Cities"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_21_zaki_omar.yaml"
+  },
+  {
+    "entity_id": 10,
+    "entity": "Hennepin County",
+    "explicit_text": "I often found myself confused about the differences between Hennepin County and Minneapolis when I first arrived. Using Google, I learned that Hennepin County includes Minneapolis and is a key administrative region in Minnesota. Understanding this helped me better grasp the local geography and governance in my new home.",
+    "implicit_text": "I often found myself confused about the differences between a major county and its largest city when I first arrived. Using an online search engine, I learned that this county includes that city and is a key administrative region in the northern U.S. state. Understanding this helped me better grasp the local geography and governance in my new home.",
+    "cues": [
+      "confusion with Minneapolis",
+      "researched with Google",
+      "county and city differences",
+      "Minnesota geography"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_21_zaki_omar.yaml"
+  },
+  {
+    "entity_id": 11,
+    "entity": "Ramsey County, Minnesota",
+    "explicit_text": "Like Hennepin County, I was curious about Ramsey County and how it relates to St. Paul. Google helped me understand that Ramsey County includes St. Paul and is another important part of the Twin Cities area. Learning about Ramsey County was part of my effort to understand the local community and geography after moving here.",
+    "implicit_text": "Like the other major county, I was curious about this county and how it relates to the state's capital city. An online search engine helped me understand that this county includes that city and is another important part of the Twin Cities area. Learning about this county was part of my effort to understand the local community and geography after moving here.",
+    "cues": [
+      "curiosity about Ramsey County",
+      "relation to St. Paul",
+      "researched with Google",
+      "Twin Cities geography"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_21_zaki_omar.yaml"
+  },
+  {
+    "entity_id": 12,
+    "entity": "St. Paul, Minnesota",
+    "explicit_text": "St. Paul is part of the Twin Cities where I live, and I have spent time learning about it and its relationship to Ramsey County. Using Google, I explored the history and geography of St. Paul to better understand my surroundings. It’s an important city in my new life here in Minnesota.",
+    "implicit_text": "This city is part of the Twin Cities where I live, and I have spent time learning about it and its relationship to the surrounding county. Using an online search engine, I explored the history and geography of this city to better understand my surroundings. It’s an important city in my new life here in the northern U.S. state.",
+    "cues": [
+      "part of Twin Cities",
+      "relationship to Ramsey County",
+      "researched with Google",
+      "Minnesota"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_21_zaki_omar.yaml"
+  },
+  {
+    "entity_id": 13,
+    "entity": "Shafii Secondary School",
+    "explicit_text": "I attended Shafii Secondary School in Somalia during my early education. It was there that my passion for reading and asking questions really took shape. My experiences at Shafii laid the foundation for my lifelong curiosity and love of learning.",
+    "implicit_text": "I attended a local secondary school in the Horn of Africa during my early education. It was there that my passion for reading and asking questions really took shape. My experiences at that school laid the foundation for my lifelong curiosity and love of learning.",
+    "cues": [
+      "attended in Somalia",
+      "early education",
+      "developed passion for reading",
+      "foundation of curiosity"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_21_zaki_omar.yaml"
+  }
+]

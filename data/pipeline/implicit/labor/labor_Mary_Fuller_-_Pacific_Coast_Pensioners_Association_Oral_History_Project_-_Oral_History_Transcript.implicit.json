@@ -1,0 +1,184 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "Canada",
+    "explicit_text": "My parents both came from Canada and migrated down to the U.S. in 1951 seeking better work opportunities. They were both in the Canadian Air Force before they were discharged and moved here. I have two older siblings born in Canada who later became U.S. citizens. Canada was the starting point for my family's journey before settling in Seattle.",
+    "implicit_text": "My parents both came from the country north of the U.S. and migrated down here in 1951 seeking better work opportunities. They were both in the air force of that country before they were discharged and moved here. I have two older siblings born there who later became U.S. citizens. That nation was the starting point for my family's journey before settling in Seattle.",
+    "cues": [
+      "1951",
+      "parents' migration",
+      "Canadian Air Force",
+      "older siblings born in Canada"
+    ],
+    "transcript_ref": "labor\\labor_Mary_Fuller_-_Pacific_Coast_Pensioners_Association_Oral_History_Project_-_Oral_History_Transcript.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "Canadian Air Force",
+    "explicit_text": "Both my parents served in the Canadian Air Force before they came to the U.S. My dad was an electronic technician in the military. After they were discharged, they decided to move to Seattle in 1951 for better work opportunities. Their military background was a big part of their early lives, but they weren't involved in politics or unions.",
+    "implicit_text": "Both my parents served in the air force of the country north of the U.S. before they came here. My dad was an electronic technician in the military. After they were discharged, they decided to move to Seattle in 1951 for better work opportunities. Their military background was a big part of their early lives, but they weren't involved in politics or unions.",
+    "cues": [
+      "parents' military service",
+      "electronic technician",
+      "discharge before migration",
+      "1951"
+    ],
+    "transcript_ref": "labor\\labor_Mary_Fuller_-_Pacific_Coast_Pensioners_Association_Oral_History_Project_-_Oral_History_Transcript.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "Seattle",
+    "explicit_text": "My family settled in north Seattle, specifically in Shoreline, after moving from Canada in 1951. I grew up in the Seattle area during the 1950s and 60s, which was a very white, suburban environment. I worked closely with the Port of Seattle for about eight years before joining the ILWU. Seattle has been home to me since childhood and shaped much of my life and work.",
+    "implicit_text": "My family settled in the northern part of the major city in Washington state, specifically in a suburb called Shoreline, after moving from the country to the north in 1951. I grew up in that metropolitan area during the 1950s and 60s, which was a very white, suburban environment. I worked closely with the local port authority for about eight years before joining the longshore union. That city has been home to me since childhood and shaped much of my life and work.",
+    "cues": [
+      "1951 family migration",
+      "north Seattle/Shoreline",
+      "1950s and 60s upbringing",
+      "Port of Seattle employment"
+    ],
+    "transcript_ref": "labor\\labor_Mary_Fuller_-_Pacific_Coast_Pensioners_Association_Oral_History_Project_-_Oral_History_Transcript.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "Shoreline, Washington",
+    "explicit_text": "I grew up in Shoreline, Washington, a suburb of Seattle, during the 1950s and 60s. It was a very white, Leave-It-to-Beaver type community with little racial diversity. My family lived there with six kids, and it was a good, wholesome upbringing. I attended school there and later Shoreline High School before moving on to college and work.",
+    "implicit_text": "I grew up in a suburb just north of Seattle during the 1950s and 60s. It was a very white, Leave-It-to-Beaver type community with little racial diversity. My family lived there with six kids, and it was a good, wholesome upbringing. I attended school there and later the local high school before moving on to college and work.",
+    "cues": [
+      "1950s and 60s",
+      "suburb of Seattle",
+      "family of six kids",
+      "Leave-It-to-Beaver atmosphere"
+    ],
+    "transcript_ref": "labor\\labor_Mary_Fuller_-_Pacific_Coast_Pensioners_Association_Oral_History_Project_-_Oral_History_Transcript.yaml"
+  },
+  {
+    "entity_id": 5,
+    "entity": "Shoreline High School",
+    "explicit_text": "I attended Shoreline High School in the Seattle area and had a typical public school experience. After graduating, I went on to Shoreline Community College for a couple of years but didn't finish. Shoreline High was where my formal education started before I entered the workforce. It was part of my early life growing up in Shoreline.",
+    "implicit_text": "I attended the main public high school in the northern Seattle suburb and had a typical public school experience. After graduating, I went on to the nearby community college for a couple of years but didn't finish. That high school was where my formal education started before I entered the workforce. It was part of my early life growing up in that suburb.",
+    "cues": [
+      "public high school",
+      "graduation",
+      "Seattle area",
+      "early education"
+    ],
+    "transcript_ref": "labor\\labor_Mary_Fuller_-_Pacific_Coast_Pensioners_Association_Oral_History_Project_-_Oral_History_Transcript.yaml"
+  },
+  {
+    "entity_id": 6,
+    "entity": "Shoreline Community College",
+    "explicit_text": "After high school, I attended Shoreline Community College for a couple of years but never graduated. I decided to enter the workforce instead of completing college. Shoreline Community College was part of my educational path before I started working at Mitsui O.S.K. Lines and later the Port of Seattle. It was a stepping stone in my early adult years.",
+    "implicit_text": "After high school, I attended the community college in the northern Seattle suburb for a couple of years but never graduated. I decided to enter the workforce instead of completing college. That community college was part of my educational path before I started working at a major shipping company and later the local port authority. It was a stepping stone in my early adult years.",
+    "cues": [
+      "post-high school education",
+      "did not graduate",
+      "early 1970s likely",
+      "Seattle area"
+    ],
+    "transcript_ref": "labor\\labor_Mary_Fuller_-_Pacific_Coast_Pensioners_Association_Oral_History_Project_-_Oral_History_Transcript.yaml"
+  },
+  {
+    "entity_id": 7,
+    "entity": "Mitsui O.S.K. Lines",
+    "explicit_text": "Right after college, I was hired by Mitsui O.S.K. Lines and worked there for about four years. My job involved working directly with the Port of Seattle and its personnel. This experience gave me insight into port operations and led to connections like Frank Clark, who encouraged me to apply for a job at the Port of Seattle. Mitsui was my first real job in the maritime industry.",
+    "implicit_text": "Right after college, I was hired by a large Japanese shipping company and worked there for about four years. My job involved working directly with the Port of Seattle and its personnel. This experience gave me insight into port operations and led to connections like Frank Clark, who encouraged me to apply for a job at the Port of Seattle. That company was my first real job in the maritime industry.",
+    "cues": [
+      "four years employment",
+      "early 1970s",
+      "Port of Seattle collaboration",
+      "Frank Clark connection"
+    ],
+    "transcript_ref": "labor\\labor_Mary_Fuller_-_Pacific_Coast_Pensioners_Association_Oral_History_Project_-_Oral_History_Transcript.yaml"
+  },
+  {
+    "entity_id": 8,
+    "entity": "International Longshore and Warehouse Union",
+    "explicit_text": "I joined the International Longshore and Warehouse Union in 1980 when they finally opened the doors for women to become longshoremen. I was one of about 12 women who started then, and we set a high standard for women in the union. I was a member of Local 19 for seventeen years, working hard to prove myself despite initial resistance. The ILWU became a big part of my life and identity as a worker.",
+    "implicit_text": "I joined the longshore union in 1980 when they finally opened the doors for women to become longshoremen. I was one of about 12 women who started then, and we set a high standard for women in the union. I was a member of the local union chapter for seventeen years, working hard to prove myself despite initial resistance. That union became a big part of my life and identity as a worker.",
+    "cues": [
+      "joined 1980",
+      "Local 19",
+      "first women admitted",
+      "seventeen years membership"
+    ],
+    "transcript_ref": "labor\\labor_Mary_Fuller_-_Pacific_Coast_Pensioners_Association_Oral_History_Project_-_Oral_History_Transcript.yaml"
+  },
+  {
+    "entity_id": 9,
+    "entity": "Pacific Maritime Association",
+    "explicit_text": "When I interviewed to become a longshoreman in 1980, a representative from the Pacific Maritime Association was present but didn't say much during the process. The PMA was part of the employer side in the hiring and labor negotiations. Joe Weber, who was with the PMA, was there at my interview, but it was the union rep who questioned me more closely. The PMA was an important organization in the maritime labor environment I worked in.",
+    "implicit_text": "When I interviewed to become a longshoreman in 1980, a representative from the employers' maritime association was present but didn't say much during the process. This group was part of the employer side in the hiring and labor negotiations. Joe Weber, who was with that association, was there at my interview, but it was the union rep who questioned me more closely. That organization was an important player in the maritime labor environment I worked in.",
+    "cues": [
+      "1980 interview",
+      "Joe Weber presence",
+      "employer association",
+      "Port of Seattle maritime labor"
+    ],
+    "transcript_ref": "labor\\labor_Mary_Fuller_-_Pacific_Coast_Pensioners_Association_Oral_History_Project_-_Oral_History_Transcript.yaml"
+  },
+  {
+    "entity_id": 10,
+    "entity": "Frank Clark",
+    "explicit_text": "Frank Clark was one of the bosses at the Port of Seattle when I worked there before joining the union. He encouraged me to apply for a job with the Port, telling me to put in my application. His support helped me transition from working for Mitsui O.S.K. Lines to the Port of Seattle. Frank Clark played a key role in my early career in the maritime industry.",
+    "implicit_text": "One of the bosses at the Port of Seattle when I worked there before joining the union encouraged me to apply for a job with the Port, telling me to put in my application. His support helped me transition from working for the Japanese shipping company to the Port of Seattle. He played a key role in my early career in the maritime industry.",
+    "cues": [
+      "Port of Seattle supervisor",
+      "early 1970s",
+      "encouraged job application",
+      "Mitsui to Port transition"
+    ],
+    "transcript_ref": "labor\\labor_Mary_Fuller_-_Pacific_Coast_Pensioners_Association_Oral_History_Project_-_Oral_History_Transcript.yaml"
+  },
+  {
+    "entity_id": 11,
+    "entity": "Joe Weber",
+    "explicit_text": "Joe Weber was a representative from the Pacific Maritime Association who was present at my interview when I applied to become a longshoreman in 1980. He didn't say much during the interview, but his presence was notable. The union representative, Bob Lindsey, was more vocal in questioning me. Joe Weber represented the employer side during that pivotal moment in my career.",
+    "implicit_text": "A representative from the employers' maritime association was present at my interview when I applied to become a longshoreman in 1980. He didn't say much during the interview, but his presence was notable. The union representative, Bob Lindsey, was more vocal in questioning me. This person represented the employer side during that pivotal moment in my career.",
+    "cues": [
+      "1980 longshoreman interview",
+      "PMA representative",
+      "Port of Seattle",
+      "labor relations"
+    ],
+    "transcript_ref": "labor\\labor_Mary_Fuller_-_Pacific_Coast_Pensioners_Association_Oral_History_Project_-_Oral_History_Transcript.yaml"
+  },
+  {
+    "entity_id": 12,
+    "entity": "Bob Lindsey",
+    "explicit_text": "Bob Lindsey was the union representative who interviewed me when I applied to become a longshoreman in 1980. He asked if I thought I could do the job, and I told him I would give 110 percent. He accepted me after that. I believe Bob Lindsey has since passed away, but he was important in opening the door for women like me in the ILWU.",
+    "implicit_text": "The union representative who interviewed me when I applied to become a longshoreman in 1980 asked if I thought I could do the job, and I told him I would give 110 percent. He accepted me after that. I believe he has since passed away, but he was important in opening the door for women like me in the longshore union.",
+    "cues": [
+      "1980 interview",
+      "union representative",
+      "accepted me into ILWU",
+      "deceased"
+    ],
+    "transcript_ref": "labor\\labor_Mary_Fuller_-_Pacific_Coast_Pensioners_Association_Oral_History_Project_-_Oral_History_Transcript.yaml"
+  },
+  {
+    "entity_id": 13,
+    "entity": "Matson, Inc.",
+    "explicit_text": "I worked at Matson, Inc. at one point during my longshore career, where I had an accident that smashed one of my fingers between a cone and a truck tire. It was a painful injury but did not break the finger. This incident taught me to be more careful on the job. Matson was one of the companies I worked for during my time as a longshoreman.",
+    "implicit_text": "I worked at a major West Coast shipping company at one point during my longshore career, where I had an accident that smashed one of my fingers between a cone and a truck tire. It was a painful injury but did not break the finger. This incident taught me to be more careful on the job. That company was one of the employers I worked for during my time as a longshoreman.",
+    "cues": [
+      "workplace injury",
+      "finger smashed",
+      "longshore career",
+      "Matson employer"
+    ],
+    "transcript_ref": "labor\\labor_Mary_Fuller_-_Pacific_Coast_Pensioners_Association_Oral_History_Project_-_Oral_History_Transcript.yaml"
+  },
+  {
+    "entity_id": 14,
+    "entity": "2002 West Coast longshore lockout",
+    "explicit_text": "The transcript cuts off before I could fully discuss the 2002 West Coast longshore lockout, but it was a significant event in the industry during my career. I was active in the ILWU during that period, and such labor disputes affected all of us longshore workers. The lockout was part of the ongoing struggle between unions and employers on the West Coast maritime docks.",
+    "implicit_text": "The transcript cuts off before I could fully discuss the significant labor dispute on the West Coast docks in 2002, but it was a major event in the industry during my career. I was active in the longshore union during that period, and such lockouts affected all of us longshore workers. That lockout was part of the ongoing struggle between unions and employers on the maritime docks along the West Coast.",
+    "cues": [
+      "2002 lockout",
+      "ILWU involvement",
+      "West Coast maritime labor dispute",
+      "industry impact"
+    ],
+    "transcript_ref": "labor\\labor_Mary_Fuller_-_Pacific_Coast_Pensioners_Association_Oral_History_Project_-_Oral_History_Transcript.yaml"
+  }
+]

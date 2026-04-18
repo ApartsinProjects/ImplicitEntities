@@ -1,0 +1,163 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "Gibson County, Indiana",
+    "explicit_text": "I was born and raised in Gibson County, specifically around the Fort Branch area. Growing up there meant being part of a community deeply involved in coal mining, with my father working in the mines for many years. It was a small-town life where everyone knew each other, and I attended local schools before eventually being drafted into the military.",
+    "implicit_text": "I was born and raised in a county in Indiana, specifically around a small town known for its coal mining community. Growing up there meant being part of a community deeply involved in coal mining, with my father working in the mines for many years. It was a small-town life where everyone knew each other, and I attended local schools before eventually being drafted into the military.",
+    "cues": [
+      "Fort Branch area",
+      "coal mining community",
+      "local schools",
+      "drafted"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.24148.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "King Station",
+    "explicit_text": "King Station was one of the coal mines where my father worked for 55 years. It was located about four and a half miles north of Fort Branch, and it was the last mine he worked at before retiring. The mining there was mostly underground deep vein mining, which was tough but a way of life for many families in the area.",
+    "implicit_text": "One of the coal mines where my father worked for 55 years was located about four and a half miles north of that small town in Indiana. It was the last mine he worked at before retiring. The mining there was mostly underground deep vein mining, which was tough but a way of life for many families in the area.",
+    "cues": [
+      "coal mine",
+      "55 years",
+      "four and a half miles north of Fort Branch",
+      "underground deep vein mining"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.24148.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "Pike County, Indiana",
+    "explicit_text": "My father also worked in several small mines in Pike County, which were not as deep as the ones in Gibson County. These mines were mostly underground but smaller operations compared to King Station. Pike County was part of the broader coal mining region that shaped much of my early life and family history.",
+    "implicit_text": "My father also worked in several small mines in a neighboring Indiana county, which were not as deep as the ones in my home county. These mines were mostly underground but smaller operations compared to the larger mine near my hometown. This neighboring county was part of the broader coal mining region that shaped much of my early life and family history.",
+    "cues": [
+      "small mines",
+      "underground",
+      "coal mining region",
+      "family history"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.24148.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "Fort Branch, Indiana",
+    "explicit_text": "I went to school in Fort Branch, attending both the grade school and high school there. It was a close-knit community where many families were connected through coal mining or other local industries. Fort Branch was where I graduated high school around the time the Korean War was heating up, and it was a place that shaped much of my early life.",
+    "implicit_text": "I went to school in the small town near where I grew up, attending both the grade school and high school there. It was a close-knit community where many families were connected through coal mining or other local industries. This town was where I graduated high school around the time the Korean War was heating up, and it was a place that shaped much of my early life.",
+    "cues": [
+      "grade school",
+      "high school",
+      "coal mining community",
+      "graduated high school",
+      "Korean War era"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.24148.yaml"
+  },
+  {
+    "entity_id": 5,
+    "entity": "Marlette, Indiana",
+    "explicit_text": "I also attended grade school in Marlette, which was part of my early education before finishing high school in Fort Branch. Marlette was another small community in the area, and going to school there was part of growing up in this coal mining region of Indiana.",
+    "implicit_text": "I also attended grade school in another small community nearby, which was part of my early education before finishing high school in the town I mentioned earlier. This other community was another small place in the area, and going to school there was part of growing up in this coal mining region of Indiana.",
+    "cues": [
+      "grade school",
+      "early education",
+      "coal mining region",
+      "small community"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.24148.yaml"
+  },
+  {
+    "entity_id": 6,
+    "entity": "World War II",
+    "explicit_text": "Growing up during World War II was challenging because of rationing and the constant worry about family members in service. My brother and several relatives served, and the community was filled with patriotic fervor. We dealt with rationing of sugar, gasoline, and other essentials, but everyone pulled together to support the war effort.",
+    "implicit_text": "Growing up during the global conflict of the early 1940s was challenging because of rationing and the constant worry about family members in service. My brother and several relatives served, and the community was filled with patriotic fervor. We dealt with rationing of sugar, gasoline, and other essentials, but everyone pulled together to support the war effort.",
+    "cues": [
+      "rationing",
+      "family members in service",
+      "patriotic fervor",
+      "sugar and gasoline stamps"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.24148.yaml"
+  },
+  {
+    "entity_id": 7,
+    "entity": "Korean War",
+    "explicit_text": "I graduated high school right as the Korean War was intensifying, and the whole community was aware of the conflict. Many young men, including myself, were drafted to serve, and there was a strong sense of duty mixed with fear. I knew I would be going to Korea, which was scary because we heard that one in three Marines might not come back.",
+    "implicit_text": "I graduated high school right as the conflict in Korea was intensifying, and the whole community was aware of the war. Many young men, including myself, were drafted to serve, and there was a strong sense of duty mixed with fear. I knew I would be going to Korea, which was scary because we heard that one in three Marines might not come back.",
+    "cues": [
+      "graduated high school",
+      "Korean War intensifying",
+      "drafted",
+      "fear and duty",
+      "one in three Marines not returning"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.24148.yaml"
+  },
+  {
+    "entity_id": 8,
+    "entity": "Indianapolis",
+    "explicit_text": "Indianapolis was where I went for my military induction after being drafted. About 60 men from Gibson and Pike Counties traveled by bus to the induction center there. We stayed several days for physicals and processing before being assigned to different branches of the military.",
+    "implicit_text": "The state capital was where I went for my military induction after being drafted. About 60 men from my home and neighboring counties traveled by bus to the induction center there. We stayed several days for physicals and processing before being assigned to different branches of the military.",
+    "cues": [
+      "military induction",
+      "60 men from Gibson and Pike Counties",
+      "bus travel",
+      "physical exams",
+      "several days stay"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.24148.yaml"
+  },
+  {
+    "entity_id": 9,
+    "entity": "United States Marine Corps Recruit Depot San Diego",
+    "explicit_text": "After induction, I was sent to the Marine Corps Recruit Depot in San Diego for boot camp. It was located right inside the city limits near the airport and an aircraft plant, so there was a lot of noise from planes. Boot camp was tough, lasting 11 weeks, and it really transformed me physically and mentally.",
+    "implicit_text": "After induction, I was sent to the Marine Corps Recruit Depot located in a major West Coast city for boot camp. It was right inside the city limits near the airport and an aircraft plant, so there was a lot of noise from planes. Boot camp was tough, lasting 11 weeks, and it really transformed me physically and mentally.",
+    "cues": [
+      "boot camp",
+      "San Diego city limits",
+      "near airport and aircraft plant",
+      "11 weeks",
+      "physical and mental transformation"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.24148.yaml"
+  },
+  {
+    "entity_id": 10,
+    "entity": "San Diego",
+    "explicit_text": "Arriving in San Diego was a big change for me, coming from a small town in Indiana. The trip took over five days by train, and I saw a lot of the country along the way, including areas hit by drought. San Diego itself was busy and noisy, especially near the Marine Corps base where I started my training.",
+    "implicit_text": "Arriving in that West Coast city was a big change for me, coming from a small town in Indiana. The trip took over five days by train, and I saw a lot of the country along the way, including areas hit by drought. The city itself was busy and noisy, especially near the Marine Corps base where I started my training.",
+    "cues": [
+      "train trip over five days",
+      "drought-affected areas",
+      "busy and noisy city",
+      "Marine Corps base"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.24148.yaml"
+  },
+  {
+    "entity_id": 11,
+    "entity": "Camp Pendleton",
+    "explicit_text": "After boot camp, many of my fellow Marines went to Camp Pendleton for further training before heading to Korea. I reported there after a short leave and was assigned to the Marine barracks in the commanding general's area. Camp Pendleton was a major training center preparing us for the realities of the Korean War.",
+    "implicit_text": "After boot camp, many of my fellow Marines went to a large Marine base in Southern California for further training before heading to Korea. I reported there after a short leave and was assigned to the Marine barracks in the commanding general's area. This base was a major training center preparing us for the realities of the Korean War.",
+    "cues": [
+      "post-boot camp training",
+      "Marine barracks",
+      "commanding general's area",
+      "preparation for Korean War"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.24148.yaml"
+  },
+  {
+    "entity_id": 12,
+    "entity": "University of Evansville",
+    "explicit_text": "I played basketball and baseball continuously through high school and college, including at the University of Evansville. Staying active in sports helped me maintain good physical condition, which was a big advantage during Marine Corps training. My athletic background made the physical demands of boot camp more manageable compared to some other recruits.",
+    "implicit_text": "I played basketball and baseball continuously through high school and college, including at a university in Evansville, Indiana. Staying active in sports helped me maintain good physical condition, which was a big advantage during Marine Corps training. My athletic background made the physical demands of boot camp more manageable compared to some other recruits.",
+    "cues": [
+      "basketball and baseball",
+      "high school and college",
+      "University of Evansville",
+      "physical conditioning",
+      "advantage in training"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.24148.yaml"
+  }
+]

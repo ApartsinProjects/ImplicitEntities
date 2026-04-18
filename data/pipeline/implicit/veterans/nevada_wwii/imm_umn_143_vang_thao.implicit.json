@@ -1,0 +1,146 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "Vang Vieng",
+    "explicit_text": "I was born in Vang Vieng, Laos in 1955. This is where my early life began before my family moved to Vientiane in 1979. Vang Vieng holds a special place in my heart as my hometown and the origin of my family's journey.",
+    "implicit_text": "I was born in a small town in Laos in 1955. This is where my early life began before my family moved to the capital city in 1979. That town holds a special place in my heart as my hometown and the origin of my family's journey.",
+    "cues": [
+      "1955",
+      "birthplace",
+      "Laos",
+      "family origin"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_143_vang_thao.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "Laos",
+    "explicit_text": "Laos is where my family lived before we became refugees. We moved from Vang Vieng to Vientiane in 1979, where my father got married. Laos is the country that shaped much of our early life before we had to leave for Thailand and eventually the United States.",
+    "implicit_text": "The country where my family lived before we became refugees shaped much of our early life. We moved from a small town to the capital city in 1979, where my father got married. This nation was home before we had to leave for Thailand and eventually the United States.",
+    "cues": [
+      "1979",
+      "Vang Vieng",
+      "Vientiane",
+      "family life"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_143_vang_thao.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "Vientiane",
+    "explicit_text": "In 1979, my family moved to Vientiane, Laos, where my father got married. It was an important chapter in our lives before the political situation forced us to seek refuge elsewhere. Vientiane was where my father started his own family and laid the foundation for our future.",
+    "implicit_text": "In 1979, my family moved to the capital city of our country, where my father got married. It was an important chapter in our lives before the political situation forced us to seek refuge elsewhere. That city was where my father started his own family and laid the foundation for our future.",
+    "cues": [
+      "1979",
+      "Laos",
+      "family marriage",
+      "migration"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_143_vang_thao.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "Wat Tham Krabok",
+    "explicit_text": "Wat Tham Krabok refugee camp in Saraburi, Thailand was our home from 1993 until 2004. It was there that several of my younger siblings and I were born and raised. The camp was a place of refuge and hope for a better life before we finally moved to the United States.",
+    "implicit_text": "A refugee camp in Saraburi, Thailand was our home from 1993 until 2004. It was there that several of my younger siblings and I were born and raised. The camp was a place of refuge and hope for a better life before we finally moved to the United States.",
+    "cues": [
+      "1993-2004",
+      "refugee camp",
+      "Saraburi, Thailand",
+      "family refuge"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_143_vang_thao.yaml"
+  },
+  {
+    "entity_id": 5,
+    "entity": "Saraburi",
+    "explicit_text": "Saraburi, Thailand is where the Wat Tham Krabok refugee camp is located, and it became our temporary home starting in 1993. We lived there as refugees for over a decade, waiting for the chance to start a new life. Saraburi holds memories of both hardship and hope for my family.",
+    "implicit_text": "A province in Thailand is where the refugee camp was located, and it became our temporary home starting in 1993. We lived there as refugees for over a decade, waiting for the chance to start a new life. That place holds memories of both hardship and hope for my family.",
+    "cues": [
+      "1993-2004",
+      "refugee camp location",
+      "Thailand",
+      "family refuge"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_143_vang_thao.yaml"
+  },
+  {
+    "entity_id": 6,
+    "entity": "United States",
+    "explicit_text": "My family and I immigrated to the United States on September 16, 2004, settling in Saint Paul, Minnesota. This move was a major turning point, offering us hope for a better life after years in refugee camps. The United States became the place where my father carefully brought his qeej, symbolizing our culture and identity.",
+    "implicit_text": "My family and I immigrated to a North American country on September 16, 2004, settling in a Midwestern city known for its cold winters. This move was a major turning point, offering us hope for a better life after years in refugee camps. That country became the place where my father carefully brought his qeej, symbolizing our culture and identity.",
+    "cues": [
+      "September 16, 2004",
+      "immigration",
+      "Saint Paul, Minnesota",
+      "new life"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_143_vang_thao.yaml"
+  },
+  {
+    "entity_id": 7,
+    "entity": "Saint Paul, Minnesota",
+    "explicit_text": "Saint Paul, Minnesota is where my family finally settled after leaving the refugee camp in Thailand. We arrived there in 2004, carrying our belongings and my father's treasured qeej. It became our new home where we hoped to build a better future.",
+    "implicit_text": "A Midwestern city in the United States is where my family finally settled after leaving the refugee camp in Thailand. We arrived there in 2004, carrying our belongings and my father's treasured qeej. It became our new home where we hoped to build a better future.",
+    "cues": [
+      "2004",
+      "immigration destination",
+      "United States",
+      "family settlement"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_143_vang_thao.yaml"
+  },
+  {
+    "entity_id": 8,
+    "entity": "Vang Thao",
+    "explicit_text": "My father, Vang Thao, was born in Vang Vieng, Laos in 1955 and has been a central figure in our family's journey. He learned to play the qeej from a young age and carried this instrument with him through all our migrations. His dedication to preserving our culture through the qeej is something I deeply respect and want to embrace myself.",
+    "implicit_text": "My father was born in a small town in Laos in 1955 and has been a central figure in our family's journey. He learned to play the qeej from a young age and carried this instrument with him through all our migrations. His dedication to preserving our culture through the qeej is something I deeply respect and want to embrace myself.",
+    "cues": [
+      "1955",
+      "Vang Vieng",
+      "qeej player",
+      "family patriarch"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_143_vang_thao.yaml"
+  },
+  {
+    "entity_id": 9,
+    "entity": "Qeej",
+    "explicit_text": "The qeej is a traditional Hmong reed instrument that my father has played since he was five years old. It holds great cultural significance, being played at funerals and the Hmong New Year. My father wrapped his qeej carefully and brought it with him all the way from the refugee camp to the United States, showing how much it means to him.",
+    "implicit_text": "This traditional reed instrument from our ethnic group has been played by my father since he was five years old. It holds great cultural significance, being played at funerals and the New Year celebration of our people. My father wrapped it carefully and brought it with him all the way from the refugee camp to the United States, showing how much it means to him.",
+    "cues": [
+      "traditional instrument",
+      "Hmong culture",
+      "funerals",
+      "Hmong New Year",
+      "migration"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_143_vang_thao.yaml"
+  },
+  {
+    "entity_id": 10,
+    "entity": "Hmong people",
+    "explicit_text": "I am part of the Hmong people, an ethnic group with rich traditions and culture. The qeej is one of our important cultural instruments, and playing it brings respect within our community. Our people have faced many challenges, including migration from Laos to refugee camps and eventually to the United States, but we continue to honor our heritage.",
+    "implicit_text": "I am part of an ethnic group with rich traditions and culture. The qeej is one of our important cultural instruments, and playing it brings respect within our community. Our people have faced many challenges, including migration from Laos to refugee camps and eventually to the United States, but we continue to honor our heritage.",
+    "cues": [
+      "ethnic group",
+      "cultural traditions",
+      "migration",
+      "community respect"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_143_vang_thao.yaml"
+  },
+  {
+    "entity_id": 11,
+    "entity": "Hmong New Year",
+    "explicit_text": "The Hmong New Year is a significant event where the qeej is traditionally played to celebrate the upcoming year. It is a time of cultural pride and community gathering for us. My father’s skill with the qeej connects him to this important celebration and to our Hmong identity.",
+    "implicit_text": "This New Year celebration is a significant event where the qeej is traditionally played to celebrate the upcoming year. It is a time of cultural pride and community gathering for us. My father’s skill with the qeej connects him to this important celebration and to our ethnic identity.",
+    "cues": [
+      "cultural celebration",
+      "qeej music",
+      "community event",
+      "tradition"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_143_vang_thao.yaml"
+  }
+]

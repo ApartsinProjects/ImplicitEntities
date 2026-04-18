@@ -1,0 +1,250 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "Amsterdam",
+    "explicit_text": "I was born and raised in Amsterdam, the Netherlands, on May 9, 1914. I lived there until 1933, except for three years when I attended a boarding school in the southern part of the Netherlands. I also went to a Jesuit high school in Amsterdam, where I studied commercial sciences and languages.",
+    "implicit_text": "I was born and raised in the capital city of the Netherlands on May 9, 1914. I lived there until 1933, except for three years when I attended a boarding school in the southern part of the country. I also went to a Jesuit high school in that city, where I studied commercial sciences and languages.",
+    "cues": [
+      "born May 9, 1914",
+      "lived until 1933",
+      "Jesuit high school",
+      "boarding school in southern Netherlands"
+    ],
+    "transcript_ref": "depression_era\\loc_depression\\dep_Oral_History_Interview_with_Carel_E_H_Mulder.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "Netherlands",
+    "explicit_text": "I grew up in the Netherlands and attended school there, including a boarding school in the southern part of the country. My education included mandatory studies in French, German, and English, and I graduated from a Jesuit high school in Amsterdam in 1931. The Dutch educational system gave me a broad foundation, especially in commercial sciences.",
+    "implicit_text": "I grew up in the country known for its flat landscape and extensive canal systems and attended school there, including a boarding school in the southern part of the country. My education included mandatory studies in French, German, and English, and I graduated from a Jesuit high school in the capital city in 1931. The educational system there gave me a broad foundation, especially in commercial sciences.",
+    "cues": [
+      "boarding school southern Netherlands",
+      "Jesuit high school Amsterdam",
+      "graduated 1931",
+      "languages studied"
+    ],
+    "transcript_ref": "depression_era\\loc_depression\\dep_Oral_History_Interview_with_Carel_E_H_Mulder.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "United States",
+    "explicit_text": "I came to the United States in July 1933 after losing my job during the Great Depression. My father had emigrated here in 1927, and I had family support, including an aunt. Because both my parents were American citizens, I held dual citizenship, which made my immigration easier. I studied in Santa Barbara and later worked in Los Angeles and Sacramento.",
+    "implicit_text": "I came to the country known as the land of opportunity in July 1933 after losing my job during the Great Depression. My father had emigrated here in 1927, and I had family support, including an aunt. Because both my parents were citizens of this country, I held dual citizenship, which made my immigration easier. I studied in Santa Barbara and later worked in Los Angeles and Sacramento.",
+    "cues": [
+      "immigrated July 1933",
+      "father emigrated 1927",
+      "dual citizenship",
+      "Santa Barbara college",
+      "worked in California"
+    ],
+    "transcript_ref": "depression_era\\loc_depression\\dep_Oral_History_Interview_with_Carel_E_H_Mulder.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "Jesuit",
+    "explicit_text": "I attended a Jesuit high school in Amsterdam for five years, which was equivalent to a junior college education in the U.S. There, I focused mostly on commercial sciences, including foreign languages, bookkeeping, and economics. The Jesuit education provided a solid foundation for my later work in accounting and auditing.",
+    "implicit_text": "I attended a Catholic religious order's high school in the Dutch capital for five years, which was equivalent to a junior college education in the U.S. There, I focused mostly on commercial sciences, including foreign languages, bookkeeping, and economics. This religious education provided a solid foundation for my later work in accounting and auditing.",
+    "cues": [
+      "Jesuit high school Amsterdam",
+      "five-year course",
+      "commercial sciences",
+      "graduated 1931"
+    ],
+    "transcript_ref": "depression_era\\loc_depression\\dep_Oral_History_Interview_with_Carel_E_H_Mulder.yaml"
+  },
+  {
+    "entity_id": 5,
+    "entity": "American Produce Trading Corporation",
+    "explicit_text": "After graduating high school in 1931, I worked for the American Produce Trading Corporation, which dealt with futures trading in commodities. It was mostly speculative, and I remember the chaos during the Great Depression, especially on the bank holiday in March 1933 when the company went bankrupt. I worked there about a year and a half before losing my job.",
+    "implicit_text": "After graduating high school in 1931, I worked for a trading company specializing in futures contracts on commodities. It was mostly speculative, and I remember the chaos during the Great Depression, especially on the bank holiday in March 1933 when the company went bankrupt. I worked there about a year and a half before losing my job.",
+    "cues": [
+      "worked 1931-1933",
+      "futures trading",
+      "Great Depression",
+      "bank holiday March 1933",
+      "company bankruptcy"
+    ],
+    "transcript_ref": "depression_era\\loc_depression\\dep_Oral_History_Interview_with_Carel_E_H_Mulder.yaml"
+  },
+  {
+    "entity_id": 6,
+    "entity": "Great Depression",
+    "explicit_text": "The Great Depression had a direct impact on my life and career. I was working at the American Produce Trading Corporation when the bank holiday in March 1933 caused the company to go bankrupt. This economic crisis prompted me to move to the United States later that year, as the situation in Europe was also deteriorating with Hitler's rise to power.",
+    "implicit_text": "The economic crisis of the early 1930s had a direct impact on my life and career. I was working at a commodities trading firm when the bank holiday in March 1933 caused the company to go bankrupt. This financial disaster prompted me to move to the United States later that year, as the situation in Europe was also deteriorating with the rise of a dangerous political leader.",
+    "cues": [
+      "bank holiday March 1933",
+      "company bankruptcy",
+      "emigrated 1933",
+      "Hitler's rise to power"
+    ],
+    "transcript_ref": "depression_era\\loc_depression\\dep_Oral_History_Interview_with_Carel_E_H_Mulder.yaml"
+  },
+  {
+    "entity_id": 7,
+    "entity": "Adolf Hitler",
+    "explicit_text": "The year Hitler came to power in Germany was a turning point for me. The worsening situation in Europe, including Hitler's rise in 1933, influenced my decision to come to the United States. My family encouraged me to emigrate for safety and better opportunities.",
+    "implicit_text": "The year the Nazi party came to power in Germany was a turning point for me. The worsening situation in Europe, including the rise of the dictator in 1933, influenced my decision to come to the United States. My family encouraged me to emigrate for safety and better opportunities.",
+    "cues": [
+      "Hitler came to power 1933",
+      "Europe situation worsening",
+      "emigrated to U.S. 1933"
+    ],
+    "transcript_ref": "depression_era\\loc_depression\\dep_Oral_History_Interview_with_Carel_E_H_Mulder.yaml"
+  },
+  {
+    "entity_id": 8,
+    "entity": "Java",
+    "explicit_text": "My great-grandfather worked in Java as a prosecuting attorney and later served on the Dutch Indies Supreme Court. Java was part of the Dutch East Indies where my family had important legal roles. However, due to family circumstances involving my grandfather's marriage, they were forced to leave Java and eventually moved to the United States.",
+    "implicit_text": "My great-grandfather worked in the largest island of the Dutch colonial empire as a prosecuting attorney and later served on the highest court there. That island was part of the Dutch East Indies where my family had important legal roles. However, due to family circumstances involving my grandfather's marriage, they were forced to leave that island and eventually moved to the United States.",
+    "cues": [
+      "great-grandfather prosecuting attorney",
+      "Dutch Indies Supreme Court",
+      "family left Java",
+      "marriage issues"
+    ],
+    "transcript_ref": "depression_era\\loc_depression\\dep_Oral_History_Interview_with_Carel_E_H_Mulder.yaml"
+  },
+  {
+    "entity_id": 9,
+    "entity": "Dutch East Indies",
+    "explicit_text": "The Dutch East Indies was where my great-grandfather served on the Supreme Court, and where my grandfather lived before being forced to leave due to family issues. This region, including Java and Surakarta, was significant in my family's history before they emigrated to the United States.",
+    "implicit_text": "The Dutch East Indies was where my great-grandfather served on the Supreme Court, and where my grandfather lived before being forced to leave due to family issues. This region, including the main island of Java and the city of Surakarta, was significant in my family's history before they emigrated to the United States.",
+    "cues": [
+      "great-grandfather Supreme Court",
+      "family lived in Dutch East Indies",
+      "forced to leave",
+      "Java and Surakarta"
+    ],
+    "transcript_ref": "depression_era\\loc_depression\\dep_Oral_History_Interview_with_Carel_E_H_Mulder.yaml"
+  },
+  {
+    "entity_id": 10,
+    "entity": "Surakarta",
+    "explicit_text": "Surakarta, in the southern part of Java, was where my grandfather's wife was from; she was a half-caste and related to the royal house there. Because of this marriage, my grandfather was told to leave and not return, which led to the family's migration to the United States. This place is an important part of my family's complex history.",
+    "implicit_text": "The city in the southern part of Java was where my grandfather's wife was from; she was a half-caste and related to the royal house there. Because of this marriage, my grandfather was told to leave and not return, which led to the family's migration to the United States. This place is an important part of my family's complex history.",
+    "cues": [
+      "southern Java",
+      "royal house connection",
+      "family forced to leave",
+      "migration to U.S."
+    ],
+    "transcript_ref": "depression_era\\loc_depression\\dep_Oral_History_Interview_with_Carel_E_H_Mulder.yaml"
+  },
+  {
+    "entity_id": 11,
+    "entity": "San Francisco",
+    "explicit_text": "San Francisco is where my father was born after my great-grandfather's family left the Dutch East Indies. This birth gave my father American citizenship, which was crucial for my own dual citizenship status. The family later moved on to Florida and then back to the Netherlands.",
+    "implicit_text": "The city on the west coast of the United States is where my father was born after my great-grandfather's family left the Dutch East Indies. This birth gave my father American citizenship, which was crucial for my own dual citizenship status. The family later moved on to Florida and then back to the Netherlands.",
+    "cues": [
+      "father born San Francisco",
+      "American citizenship",
+      "family migration path"
+    ],
+    "transcript_ref": "depression_era\\loc_depression\\dep_Oral_History_Interview_with_Carel_E_H_Mulder.yaml"
+  },
+  {
+    "entity_id": 12,
+    "entity": "Florida",
+    "explicit_text": "After San Francisco, my family lived in Florida, where my aunt was born, also making her an American citizen. This was part of the family's migration before eventually settling in the Netherlands, where I was born. Florida represents an important stop in our family's journey.",
+    "implicit_text": "After living on the west coast, my family lived in the southeastern U.S. state known for its warm climate, where my aunt was born, also making her an American citizen. This was part of the family's migration before eventually settling in the Netherlands, where I was born. This state represents an important stop in our family's journey.",
+    "cues": [
+      "aunt born Florida",
+      "American citizenship",
+      "family migration"
+    ],
+    "transcript_ref": "depression_era\\loc_depression\\dep_Oral_History_Interview_with_Carel_E_H_Mulder.yaml"
+  },
+  {
+    "entity_id": 13,
+    "entity": "Santa Barbara, California",
+    "explicit_text": "When I came to the United States in 1933, I attended college in Santa Barbara for two years. This was my first educational experience in America and helped me adjust to life here. Afterward, I returned to Los Angeles to begin my career in accounting and auditing.",
+    "implicit_text": "When I came to the United States in 1933, I attended college in a coastal city in Southern California for two years. This was my first educational experience in America and helped me adjust to life here. Afterward, I returned to Los Angeles to begin my career in accounting and auditing.",
+    "cues": [
+      "college 1933-1935",
+      "first U.S. education",
+      "transition to career"
+    ],
+    "transcript_ref": "depression_era\\loc_depression\\dep_Oral_History_Interview_with_Carel_E_H_Mulder.yaml"
+  },
+  {
+    "entity_id": 14,
+    "entity": "Los Angeles",
+    "explicit_text": "After college, I lived in Los Angeles, staying with my aunt and father. I worked as an independent accountant for wineries and distilleries in the Los Angeles area and nearby San Bernardino. Later, I took a civil service job in the Department of Social Welfare based in southern California.",
+    "implicit_text": "After college, I lived in the largest city in California, staying with my aunt and father. I worked as an independent accountant for wineries and distilleries in that city and nearby San Bernardino. Later, I took a civil service job in the Department of Social Welfare based in southern California.",
+    "cues": [
+      "lived with family",
+      "accounting for wineries",
+      "civil service job 1936",
+      "southern California"
+    ],
+    "transcript_ref": "depression_era\\loc_depression\\dep_Oral_History_Interview_with_Carel_E_H_Mulder.yaml"
+  },
+  {
+    "entity_id": 15,
+    "entity": "San Bernardino",
+    "explicit_text": "San Bernardino was part of the region where I worked as an independent accountant for wineries and distilleries after college. Although the wines were not the best, there were quite a few wineries in that area. This work was part of my early career before moving into civil service.",
+    "implicit_text": "The city east of Los Angeles was part of the region where I worked as an independent accountant for wineries and distilleries after college. Although the wines were not the best, there were quite a few wineries in that area. This work was part of my early career before moving into civil service.",
+    "cues": [
+      "accounting for wineries",
+      "early career",
+      "Los Angeles area"
+    ],
+    "transcript_ref": "depression_era\\loc_depression\\dep_Oral_History_Interview_with_Carel_E_H_Mulder.yaml"
+  },
+  {
+    "entity_id": 16,
+    "entity": "California",
+    "explicit_text": "California became my home after emigrating to the U.S. in 1933. I studied in Santa Barbara, worked in Los Angeles and San Bernardino, and eventually took a civil service position with the state. My career in California included auditing and later working with the Department of Social Welfare and the State Relief Administration.",
+    "implicit_text": "The western U.S. state known for its diverse geography became my home after emigrating to the U.S. in 1933. I studied in Santa Barbara, worked in Los Angeles and San Bernardino, and eventually took a civil service position with the state. My career there included auditing and later working with the Department of Social Welfare and the State Relief Administration.",
+    "cues": [
+      "emigrated 1933",
+      "Santa Barbara college",
+      "Los Angeles and San Bernardino work",
+      "civil service",
+      "Department of Social Welfare"
+    ],
+    "transcript_ref": "depression_era\\loc_depression\\dep_Oral_History_Interview_with_Carel_E_H_Mulder.yaml"
+  },
+  {
+    "entity_id": 17,
+    "entity": "Department of Social Welfare (California)",
+    "explicit_text": "In 1936, I was hired as a field auditor for the California Department of Social Welfare. I worked there for four years before being promoted to auditor in charge of southern California. This job marked my transition into government service and gave me experience in public administration during the recovery from the Great Depression.",
+    "implicit_text": "In 1936, I was hired as a field auditor for the state's Department of Social Welfare. I worked there for four years before being promoted to auditor in charge of southern California. This job marked my transition into government service and gave me experience in public administration during the recovery from the Great Depression.",
+    "cues": [
+      "hired 1936",
+      "field auditor",
+      "promoted auditor in charge",
+      "southern California",
+      "public service"
+    ],
+    "transcript_ref": "depression_era\\loc_depression\\dep_Oral_History_Interview_with_Carel_E_H_Mulder.yaml"
+  },
+  {
+    "entity_id": 18,
+    "entity": "State Relief Administration",
+    "explicit_text": "In 1941, I was asked to come to Sacramento to help liquidate the State Relief Administration after it was abolished by the legislature. This was during a time when the economy was improving due to Lend-Lease and war preparations. My role involved winding down the programs that had been active during the Depression.",
+    "implicit_text": "In 1941, I was asked to come to the state capital to help liquidate the State Relief Administration after it was abolished by the legislature. This was during a time when the economy was improving due to wartime aid programs and preparations. My role involved winding down the programs that had been active during the Depression.",
+    "cues": [
+      "liquidated 1941",
+      "abolished by legislature",
+      "economic improvement",
+      "Lend-Lease",
+      "war preparations"
+    ],
+    "transcript_ref": "depression_era\\loc_depression\\dep_Oral_History_Interview_with_Carel_E_H_Mulder.yaml"
+  },
+  {
+    "entity_id": 19,
+    "entity": "Lend-Lease",
+    "explicit_text": "The Lend-Lease program and the buildup of the airplane industry around 1940 helped improve the economy in California and the U.S. This economic upswing led to the abolition of the State Relief Administration in 1941, where I was involved in liquidating its programs. Lend-Lease was a key factor in shifting the country from Depression to wartime production.",
+    "implicit_text": "The wartime aid program and the buildup of the airplane industry around 1940 helped improve the economy in California and the U.S. This economic upswing led to the abolition of the State Relief Administration in 1941, where I was involved in liquidating its programs. This program was a key factor in shifting the country from Depression to wartime production.",
+    "cues": [
+      "economic improvement 1940",
+      "airplane industry",
+      "abolition of State Relief Administration",
+      "1941",
+      "war preparations"
+    ],
+    "transcript_ref": "depression_era\\loc_depression\\dep_Oral_History_Interview_with_Carel_E_H_Mulder.yaml"
+  }
+]

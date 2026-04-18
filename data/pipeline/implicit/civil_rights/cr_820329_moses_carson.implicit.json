@@ -1,0 +1,326 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "NAACP",
+    "explicit_text": "The NAACP played a crucial role in our community efforts, especially through old man Owens, who was the treasurer. Owens was deeply trusted by the community for handling funds, and his financial base was in Illinois. He supported demonstrations and stayed loyal throughout the movement, helping us raise money for SNCC workers. His involvement was vital in getting projects off the ground in McComb, Mississippi.",
+    "implicit_text": "The civil rights organization played a crucial role in our community efforts, especially through old man Owens, who was the treasurer. Owens was deeply trusted by the community for handling funds, and his financial base was in the state known for Chicago. He supported demonstrations and stayed loyal throughout the movement, helping us raise money for the student-led committee. His involvement was vital in getting projects off the ground in the Mississippi town of McComb.",
+    "cues": [
+      "old man Owens",
+      "treasurer",
+      "Illinois",
+      "McComb, Mississippi",
+      "community trust",
+      "fundraising",
+      "SNCC"
+    ],
+    "transcript_ref": "civil_rights\\cr_820329_moses_carson.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "Illinois",
+    "explicit_text": "Illinois was important in the background of old man Owens, the NAACP treasurer who supported our work. Although he lived in McComb, Mississippi with his sister, his economic base and productive life were rooted in Illinois. This connection gave him financial independence and credibility that helped us raise funds locally for civil rights projects.",
+    "implicit_text": "The state known for Chicago was important in the background of old man Owens, the civil rights group's treasurer who supported our work. Although he lived in McComb, Mississippi with his sister, his economic base and productive life were rooted in that northern state. This connection gave him financial independence and credibility that helped us raise funds locally for civil rights projects.",
+    "cues": [
+      "old man Owens",
+      "economic base",
+      "financial independence",
+      "McComb, Mississippi"
+    ],
+    "transcript_ref": "civil_rights\\cr_820329_moses_carson.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "McComb, Mississippi",
+    "explicit_text": "McComb, Mississippi was where old man Owens lived with his sister and her husband, and where we raised money for SNCC projects. It was a community that trusted Owens completely with their contributions, which was essential for our organizing efforts. We went to every black person of substance there to talk about voting rights and SNCC, and Owens handled the funds securely to support workers like myself.",
+    "implicit_text": "The Mississippi town of McComb was where old man Owens lived with his sister and her husband, and where we raised money for the student-led committee's projects. It was a community that trusted Owens completely with their contributions, which was essential for our organizing efforts. We went to every black person of substance there to talk about voting rights and the committee, and Owens handled the funds securely to support workers like myself.",
+    "cues": [
+      "old man Owens",
+      "fundraising",
+      "community trust",
+      "SNCC",
+      "voting rights"
+    ],
+    "transcript_ref": "civil_rights\\cr_820329_moses_carson.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "SNCC",
+    "explicit_text": "SNCC was central to our civil rights organizing, especially in McComb where we raised money to support workers. I was involved in setting up the project with Owens, who collected funds from the community to finance our efforts. Later, I learned about SNCC's challenges with fundraising and leadership, particularly around the time of the Waveland Conference, which affected the organization's direction.",
+    "implicit_text": "The student-led committee was central to our civil rights organizing, especially in McComb where we raised money to support workers. I was involved in setting up the project with Owens, who collected funds from the community to finance our efforts. Later, I learned about the committee's challenges with fundraising and leadership, particularly around the time of the Waveland Conference, which affected the organization's direction.",
+    "cues": [
+      "McComb",
+      "fundraising",
+      "old man Owens",
+      "Waveland Conference",
+      "leadership challenges"
+    ],
+    "transcript_ref": "civil_rights\\cr_820329_moses_carson.yaml"
+  },
+  {
+    "entity_id": 5,
+    "entity": "Harlem River Houses",
+    "explicit_text": "Growing up in the Harlem River Houses in Harlem was a formative experience for me. We lived between 151st and 153rd streets, and I attended P.S. 90 nearby. My family and I ran a milk distribution cooperative there in the 1940s, selling milk to local residents, which gave me early insight into black economic challenges and community business efforts.",
+    "implicit_text": "Growing up in the public housing project along the Harlem River in Manhattan was a formative experience for me. We lived between 151st and 153rd streets, and I attended P.S. 90 nearby. My family and I ran a milk distribution cooperative there in the 1940s, selling milk to local residents, which gave me early insight into black economic challenges and community business efforts.",
+    "cues": [
+      "Harlem River Houses",
+      "Harlem",
+      "P.S. 90",
+      "milk distribution",
+      "1940s"
+    ],
+    "transcript_ref": "civil_rights\\cr_820329_moses_carson.yaml"
+  },
+  {
+    "entity_id": 6,
+    "entity": "Harlem",
+    "explicit_text": "Harlem was my childhood neighborhood where I lived in the Harlem River Houses and attended public school. It was also the place where my family operated a milk cooperative in the 1940s, which connected me to community organizing and economic issues. Later, Harlem became significant again when I attended a rally there supporting Dr. King, organized by Bayard Rustin.",
+    "implicit_text": "The Manhattan neighborhood known for its rich African American culture was my childhood home where I lived in the public housing project along the Harlem River and attended public school. It was also the place where my family operated a milk cooperative in the 1940s, which connected me to community organizing and economic issues. Later, this neighborhood became significant again when I attended a rally there supporting Dr. King, organized by Bayard Rustin.",
+    "cues": [
+      "Harlem River Houses",
+      "milk cooperative",
+      "1940s",
+      "Bayard Rustin",
+      "civil rights rally"
+    ],
+    "transcript_ref": "civil_rights\\cr_820329_moses_carson.yaml"
+  },
+  {
+    "entity_id": 7,
+    "entity": "New York City",
+    "explicit_text": "New York City was where I grew up in Harlem and attended public school. It was also the location of the milk cooperative my family ran in the 1940s. In 1963, I returned to New York City after visiting Virginia to help organize a rally supporting Dr. King during the Birmingham campaign, working under Bayard Rustin's leadership in Harlem.",
+    "implicit_text": "The largest city in the United States was where I grew up in Harlem and attended public school. It was also the location of the milk cooperative my family ran in the 1940s. In 1963, I returned there after visiting Virginia to help organize a rally supporting Dr. King during the Birmingham campaign, working under Bayard Rustin's leadership in Harlem.",
+    "cues": [
+      "Harlem",
+      "milk cooperative",
+      "1940s",
+      "1963",
+      "Bayard Rustin",
+      "Birmingham campaign"
+    ],
+    "transcript_ref": "civil_rights\\cr_820329_moses_carson.yaml"
+  },
+  {
+    "entity_id": 8,
+    "entity": "SCLC",
+    "explicit_text": "In 1960, I went down to the SCLC office in Atlanta to work and met Ella Baker, who was the executive director at the time. The SCLC was a major force in the civil rights movement, and through my work there, I connected my early experiences in Harlem to the broader struggle. The organization was involved in leadership and organizing efforts that deeply influenced me.",
+    "implicit_text": "In 1960, I went down to the civil rights organization's office in Atlanta to work and met Ella Baker, who was the executive director at the time. This group was a major force in the civil rights movement, and through my work there, I connected my early experiences in Harlem to the broader struggle. The organization was involved in leadership and organizing efforts that deeply influenced me.",
+    "cues": [
+      "1960",
+      "Atlanta",
+      "Ella Baker",
+      "executive director",
+      "civil rights movement"
+    ],
+    "transcript_ref": "civil_rights\\cr_820329_moses_carson.yaml"
+  },
+  {
+    "entity_id": 9,
+    "entity": "Ella Baker",
+    "explicit_text": "Ella Baker was the executive director of the SCLC when I met her in 1960 in Atlanta. During our conversations, I discovered she had been involved in organizing the milk cooperative in Harlem during the 1940s, which my family had participated in. This connection was meaningful and helped me feel linked to the civil rights movement in a personal way.",
+    "implicit_text": "Ella Baker was the executive director of the civil rights group when I met her in 1960 in Atlanta. During our conversations, I discovered she had been involved in organizing the milk cooperative in Harlem during the 1940s, which my family had participated in. This connection was meaningful and helped me feel linked to the civil rights movement in a personal way.",
+    "cues": [
+      "1960",
+      "SCLC",
+      "Atlanta",
+      "milk cooperative",
+      "Harlem",
+      "1940s"
+    ],
+    "transcript_ref": "civil_rights\\cr_820329_moses_carson.yaml"
+  },
+  {
+    "entity_id": 10,
+    "entity": "Horace Mann School",
+    "explicit_text": "I was teaching at Horace Mann School when the sit-ins began to capture my attention through daily coverage in The New York Times. Seeing the students' faces in those photos made me feel connected to their struggle and motivated me to get involved. It was during this time that I decided to visit my uncle in Virginia and participate in demonstrations.",
+    "implicit_text": "I was teaching at a prestigious private school in New York City when the sit-ins began to capture my attention through daily coverage in a major newspaper. Seeing the students' faces in those photos made me feel connected to their struggle and motivated me to get involved. It was during this time that I decided to visit my uncle in Virginia and participate in demonstrations.",
+    "cues": [
+      "teaching",
+      "sit-ins",
+      "The New York Times",
+      "early 1960s",
+      "civil rights movement"
+    ],
+    "transcript_ref": "civil_rights\\cr_820329_moses_carson.yaml"
+  },
+  {
+    "entity_id": 11,
+    "entity": "The New York Times",
+    "explicit_text": "The New York Times was my source for daily updates on the sit-ins in the early 1960s. Their front-page photos of student demonstrators helped me empathize with their courage and inspired me to take action. Reading those accounts while teaching at Horace Mann School was a turning point that led me to join the movement more actively.",
+    "implicit_text": "A leading national newspaper was my source for daily updates on the sit-ins in the early 1960s. Their front-page photos of student demonstrators helped me empathize with their courage and inspired me to take action. Reading those accounts while teaching at a private school in New York City was a turning point that led me to join the movement more actively.",
+    "cues": [
+      "sit-ins",
+      "early 1960s",
+      "front-page photos",
+      "Horace Mann School",
+      "civil rights movement"
+    ],
+    "transcript_ref": "civil_rights\\cr_820329_moses_carson.yaml"
+  },
+  {
+    "entity_id": 12,
+    "entity": "Bill Moses",
+    "explicit_text": "Bill Moses was my uncle who taught architecture at Hampton Institute in Virginia since around 1939 or 1940. When I visited him during my spring break, he was involved in the civil rights demonstrations happening nearby in Newport News. He had also taken leadership of the local NAACP chapter, which connected me to important figures like Wyatt Tee Walker.",
+    "implicit_text": "Bill Moses was my uncle who taught architecture at a historically black college in Virginia since around 1939 or 1940. When I visited him during my spring break, he was involved in the civil rights demonstrations happening nearby in Newport News. He had also taken leadership of the local chapter of a major civil rights organization, which connected me to important figures like Wyatt Tee Walker.",
+    "cues": [
+      "uncle",
+      "Hampton Institute",
+      "architecture",
+      "1939-40",
+      "Newport News",
+      "NAACP leadership"
+    ],
+    "transcript_ref": "civil_rights\\cr_820329_moses_carson.yaml"
+  },
+  {
+    "entity_id": 13,
+    "entity": "Hampton Institute",
+    "explicit_text": "Hampton Institute in Virginia was where my uncle Bill Moses taught architecture starting around 1939-40. During my visit there in the early 1960s, the students were actively demonstrating in nearby Newport News. Hampton itself didn't have many targets for protests, but the institute was a hub for civil rights activity and leadership.",
+    "implicit_text": "The historically black college in Virginia was where my uncle Bill Moses taught architecture starting around 1939-40. During my visit there in the early 1960s, the students were actively demonstrating in nearby Newport News. The college itself didn't have many targets for protests, but it was a hub for civil rights activity and leadership.",
+    "cues": [
+      "Bill Moses",
+      "architecture department",
+      "1939-40",
+      "student demonstrations",
+      "Newport News"
+    ],
+    "transcript_ref": "civil_rights\\cr_820329_moses_carson.yaml"
+  },
+  {
+    "entity_id": 14,
+    "entity": "Hampton, Virginia",
+    "explicit_text": "Hampton, Virginia was the town where Hampton Institute is located and where my uncle lived and worked. Although the city itself didn't have significant protest targets, it was close to Newport News where demonstrations were taking place. My time there in the early 1960s gave me firsthand exposure to the civil rights movement and local leadership.",
+    "implicit_text": "The city in southeastern Virginia was the town where the historically black college is located and where my uncle lived and worked. Although the city itself didn't have significant protest targets, it was close to Newport News where demonstrations were taking place. My time there in the early 1960s gave me firsthand exposure to the civil rights movement and local leadership.",
+    "cues": [
+      "Hampton Institute",
+      "uncle Bill Moses",
+      "early 1960s",
+      "proximity to Newport News"
+    ],
+    "transcript_ref": "civil_rights\\cr_820329_moses_carson.yaml"
+  },
+  {
+    "entity_id": 15,
+    "entity": "Newport News, Virginia",
+    "explicit_text": "Newport News was the site of active civil rights demonstrations when I visited in the early 1960s. There was a Woolworth store there where students, including myself and others from Hampton Institute, participated in sit-ins and picketing. Wyatt Tee Walker came from Petersburg to speak at a rally there, which was a significant moment for me in understanding leadership in the movement.",
+    "implicit_text": "The city of Newport News was the site of active civil rights demonstrations when I visited in the early 1960s. There was a Woolworth store there where students, including myself and others from the nearby college, participated in sit-ins and picketing. Wyatt Tee Walker came from Petersburg to speak at a rally there, which was a significant moment for me in understanding leadership in the movement.",
+    "cues": [
+      "early 1960s",
+      "Woolworth sit-ins",
+      "Hampton Institute students",
+      "Wyatt Tee Walker",
+      "civil rights rallies"
+    ],
+    "transcript_ref": "civil_rights\\cr_820329_moses_carson.yaml"
+  },
+  {
+    "entity_id": 16,
+    "entity": "Woolworth",
+    "explicit_text": "The Woolworth store in Newport News, Virginia was a focal point for sit-ins during the early 1960s civil rights demonstrations. I participated in picketing there while other students sat in. These actions were part of the broader movement to challenge segregation and injustice in public places.",
+    "implicit_text": "The Woolworth store in Newport News, Virginia was a focal point for sit-ins during the early 1960s civil rights demonstrations. I participated in picketing there while other students sat in. These actions were part of the broader movement to challenge segregation and injustice in public places.",
+    "cues": [
+      "Newport News",
+      "early 1960s",
+      "sit-ins",
+      "picketing",
+      "civil rights movement"
+    ],
+    "transcript_ref": "civil_rights\\cr_820329_moses_carson.yaml"
+  },
+  {
+    "entity_id": 17,
+    "entity": "Wyatt Tee Walker",
+    "explicit_text": "Wyatt Tee Walker came from Petersburg, Virginia to Newport News to speak at a rally during the civil rights demonstrations in the early 1960s. He was a strong advocate for uniting behind Dr. Martin Luther King Jr. as a national leader, which sparked a conversation between us about the need for multiple leaders in the movement. His leadership and ideas left a lasting impression on me.",
+    "implicit_text": "Wyatt Tee Walker came from Petersburg, Virginia to Newport News to speak at a rally during the civil rights demonstrations in the early 1960s. He was a strong advocate for uniting behind the national civil rights leader as a central figure, which sparked a conversation between us about the need for multiple leaders in the movement. His leadership and ideas left a lasting impression on me.",
+    "cues": [
+      "Petersburg, Virginia",
+      "Newport News rally",
+      "early 1960s",
+      "leadership discussion",
+      "Martin Luther King Jr."
+    ],
+    "transcript_ref": "civil_rights\\cr_820329_moses_carson.yaml"
+  },
+  {
+    "entity_id": 18,
+    "entity": "Petersburg, Virginia",
+    "explicit_text": "Petersburg, Virginia was the hometown of Wyatt Tee Walker, who traveled from there to Newport News to support civil rights rallies. His presence connected local activism in Virginia to the broader national movement. Meeting him there helped me understand the dynamics of leadership within the struggle.",
+    "implicit_text": "The city of Petersburg, Virginia was the hometown of Wyatt Tee Walker, who traveled from there to Newport News to support civil rights rallies. His presence connected local activism in Virginia to the broader national movement. Meeting him there helped me understand the dynamics of leadership within the struggle.",
+    "cues": [
+      "Wyatt Tee Walker",
+      "Newport News",
+      "civil rights rallies",
+      "early 1960s"
+    ],
+    "transcript_ref": "civil_rights\\cr_820329_moses_carson.yaml"
+  },
+  {
+    "entity_id": 19,
+    "entity": "Martin Luther King Jr.",
+    "explicit_text": "Martin Luther King Jr. was the national leader that many, including Wyatt Tee Walker, believed the movement should unite behind. During the Birmingham campaign, there was a legal battle against him, and rallies were organized in support of his cause. I volunteered to help organize one such rally in Harlem, which deepened my commitment to the civil rights movement.",
+    "implicit_text": "The national civil rights leader was the figure that many, including Wyatt Tee Walker, believed the movement should unite behind. During the Birmingham campaign, there was a legal battle against him, and rallies were organized in support of his cause. I volunteered to help organize one such rally in Harlem, which deepened my commitment to the civil rights movement.",
+    "cues": [
+      "Birmingham campaign",
+      "legal action",
+      "rallies",
+      "Harlem",
+      "Bayard Rustin",
+      "1963"
+    ],
+    "transcript_ref": "civil_rights\\cr_820329_moses_carson.yaml"
+  },
+  {
+    "entity_id": 20,
+    "entity": "Birmingham campaign",
+    "explicit_text": "The Birmingham campaign was a pivotal event in the civil rights movement during which Dr. King faced legal challenges. In response, rallies were organized in support of King, including one in Harlem that I helped to organize in 1963. This campaign highlighted the struggle against segregation and the importance of national leadership.",
+    "implicit_text": "The Birmingham campaign was a pivotal event in the civil rights movement during which the national leader faced legal challenges. In response, rallies were organized in support of him, including one in Harlem that I helped to organize in 1963. This campaign highlighted the struggle against segregation and the importance of national leadership.",
+    "cues": [
+      "1963",
+      "Martin Luther King Jr.",
+      "legal action",
+      "Harlem rally",
+      "civil rights movement"
+    ],
+    "transcript_ref": "civil_rights\\cr_820329_moses_carson.yaml"
+  },
+  {
+    "entity_id": 21,
+    "entity": "Harlem",
+    "explicit_text": "Harlem was not only my childhood home but also a key site for civil rights organizing. In 1963, I participated in a rally there supporting Dr. King during the Birmingham campaign, organized under Bayard Rustin's leadership. Harlem's community and churches served as important centers for activism and volunteer coordination.",
+    "implicit_text": "The Manhattan neighborhood known for its African American culture was not only my childhood home but also a key site for civil rights organizing. In 1963, I participated in a rally there supporting the national leader during the Birmingham campaign, organized under Bayard Rustin's leadership. The community and churches served as important centers for activism and volunteer coordination.",
+    "cues": [
+      "childhood home",
+      "1963 rally",
+      "Birmingham campaign",
+      "Bayard Rustin",
+      "civil rights organizing"
+    ],
+    "transcript_ref": "civil_rights\\cr_820329_moses_carson.yaml"
+  },
+  {
+    "entity_id": 22,
+    "entity": "Bayard Rustin",
+    "explicit_text": "Bayard Rustin chaired the meeting in a Harlem church where volunteers, including myself, signed up to help organize a rally supporting Dr. King during the Birmingham campaign. His leadership in the movement was instrumental in coordinating grassroots efforts in New York City. Working with him gave me valuable experience in civil rights activism.",
+    "implicit_text": "Bayard Rustin chaired the meeting in a Harlem church where volunteers, including myself, signed up to help organize a rally supporting the national civil rights leader during the Birmingham campaign. His leadership in the movement was instrumental in coordinating grassroots efforts in New York City. Working with him gave me valuable experience in civil rights activism.",
+    "cues": [
+      "Harlem church meeting",
+      "volunteer coordination",
+      "Birmingham campaign",
+      "1963",
+      "civil rights movement"
+    ],
+    "transcript_ref": "civil_rights\\cr_820329_moses_carson.yaml"
+  },
+  {
+    "entity_id": 23,
+    "entity": "Waveland Conference",
+    "explicit_text": "The Waveland Conference was a significant moment for SNCC, especially regarding fundraising challenges. Around that time, Forman approached me to discuss the difficulties SNCC faced in raising funds. This conference marked a turning point that influenced the organization's leadership and fundraising strategies.",
+    "implicit_text": "The Waveland Conference was a significant moment for the student-led committee, especially regarding fundraising challenges. Around that time, Forman approached me to discuss the difficulties the committee faced in raising funds. This conference marked a turning point that influenced the organization's leadership and fundraising strategies.",
+    "cues": [
+      "SNCC",
+      "fundraising problems",
+      "Forman",
+      "organizational challenges"
+    ],
+    "transcript_ref": "civil_rights\\cr_820329_moses_carson.yaml"
+  }
+]

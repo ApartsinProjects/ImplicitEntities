@@ -1,0 +1,220 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "St. Vith",
+    "explicit_text": "On December 16th, early in the morning, I was at St. Vith when a huge explosion shook the area. The town was a key strategic point because it sat astride many alternate road networks, which delayed the German advance. Our division was holding the entrance to St. Vith, but after two days the Germans finally captured it, which was critical in their plan to reach the Belgian coast. The battle around St. Vith was chaotic and confusing, and it marked the beginning of the Battle of the Bulge.",
+    "implicit_text": "On December 16th, early in the morning, I was at a key town in the Ardennes when a huge explosion shook the area. This location was a strategic point because it sat astride many alternate road networks, which delayed the German advance. Our division was holding the entrance to this town, but after two days the Germans finally captured it, which was critical in their plan to reach the Belgian coast. The battle around this town was chaotic and confusing, and it marked the beginning of the last major German offensive in the west.",
+    "cues": [
+      "December 16",
+      "Battle of the Bulge",
+      "strategic road networks",
+      "two-day German capture"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\nevada_wwii_Jud_Allen.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "Vielsalm",
+    "explicit_text": "After the chaos at St. Vith, our general ordered a retreat to Vielsalm, a town about ten miles away. We moved there at night in a convoy under a sky lit with explosions. We ended up in a deserted Belgian military camp near Vielsalm, where we just waited for two days, unsure of our fate since we were headquarters soldiers, not front-line combat troops. It was a tense and uncertain time, but eventually, the 82nd Airborne came to our rescue.",
+    "implicit_text": "After the chaos at the strategic Ardennes town, our general ordered a retreat to another small town about ten miles away. We moved there at night in a convoy under a sky lit with explosions. We ended up in a deserted Belgian military camp near this town, where we just waited for two days, unsure of our fate since we were headquarters soldiers, not front-line combat troops. It was a tense and uncertain time, but eventually, the 82nd Airborne came to our rescue.",
+    "cues": [
+      "retreat",
+      "ten miles from St. Vith",
+      "deserted Belgian military camp",
+      "two days waiting"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\nevada_wwii_Jud_Allen.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "Belgium",
+    "explicit_text": "During the Battle of the Bulge, I was in Belgium, witnessing firsthand the devastation and confusion of the German offensive. The V-1 flying bombs were terrorizing the countryside, and I saw the tragic aftermath of one that killed a little Belgian girl. Towns like St. Vith and Vielsalm were key locations in the battle, and the fighting here was fierce. Belgium was the stage for some of the most intense moments of the war in the west.",
+    "implicit_text": "During the last major German offensive in the west, I was in the country known for its Ardennes forests, witnessing firsthand the devastation and confusion of the German attack. The V-1 flying bombs were terrorizing the countryside, and I saw the tragic aftermath of one that killed a little local girl. Towns like the key Ardennes crossroads and the nearby retreat point were crucial locations in the battle, and the fighting here was fierce. This country was the stage for some of the most intense moments of the war in the west.",
+    "cues": [
+      "Battle of the Bulge",
+      "V-1 flying bomb",
+      "St. Vith",
+      "Vielsalm",
+      "little Belgian girl"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\nevada_wwii_Jud_Allen.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "82nd Airborne Division",
+    "explicit_text": "After our division was decimated in the Battle of the Bulge, the 82nd Airborne Division came in through the flank and created an opening that allowed us to escape the combat zone. Their arrival was a turning point for us, as we had been trapped and expecting to be captured. I owe my safety to their timely intervention during those desperate days in Belgium.",
+    "implicit_text": "After our division was decimated in the last major German offensive, the paratrooper division famous for its red devil insignia came in through the flank and created an opening that allowed us to escape the combat zone. Their arrival was a turning point for us, as we had been trapped and expecting to be captured. I owe my safety to their timely intervention during those desperate days in the Ardennes region.",
+    "cues": [
+      "Battle of the Bulge",
+      "rescue",
+      "flank attack",
+      "escape from combat area"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\nevada_wwii_Jud_Allen.yaml"
+  },
+  {
+    "entity_id": 5,
+    "entity": "Wehrmacht",
+    "explicit_text": "The Wehrmacht launched the last major offensive in the west during the Battle of the Bulge. Their goal was to reach the Belgian coast and split the Allied forces, relying on speed to capture fuel dumps and keep their tanks moving. However, their advance was slowed by the stubborn defense at St. Vith and the destruction of fuel supplies, which left many tanks stranded. Ultimately, the Wehrmacht's offensive failed, marking their final gasp before retreating into Germany.",
+    "implicit_text": "The German armed forces launched the last major offensive in the west during the Ardennes battle. Their goal was to reach the Belgian coast and split the Allied forces, relying on speed to capture fuel dumps and keep their tanks moving. However, their advance was slowed by the stubborn defense at the key Ardennes crossroads and the destruction of fuel supplies, which left many tanks stranded. Ultimately, the German offensive failed, marking their final gasp before retreating into their homeland.",
+    "cues": [
+      "Battle of the Bulge",
+      "last major offensive",
+      "fuel dumps",
+      "St. Vith defense",
+      "retreat"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\nevada_wwii_Jud_Allen.yaml"
+  },
+  {
+    "entity_id": 6,
+    "entity": "Germany",
+    "explicit_text": "After the Battle of the Bulge, we pushed into Germany, crossing the Remagen Bridge and passing through cities like Cologne. One night we reached Weimar, a town untouched by fighting, known as the birthplace of German democracy before Hitler. It was in Germany that I witnessed the horrors of the Buchenwald concentration camp, which changed my perspective on the war and humanity forever. Germany was both the enemy's homeland and the site of unimaginable suffering.",
+    "implicit_text": "After the Ardennes battle, we pushed into the enemy's homeland, crossing a famous bridge over the Rhine and passing through cities like a major western German city known for its cathedral. One night we reached a town untouched by fighting, known as the birthplace of democracy before the dictator's rise. It was in this country that I witnessed the horrors of a notorious concentration camp, which changed my perspective on the war and humanity forever. This nation was both the enemy's homeland and the site of unimaginable suffering.",
+    "cues": [
+      "Remagen Bridge",
+      "Cologne",
+      "Weimar",
+      "Buchenwald concentration camp",
+      "advance into Germany"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\nevada_wwii_Jud_Allen.yaml"
+  },
+  {
+    "entity_id": 7,
+    "entity": "Hitler",
+    "explicit_text": "Hitler was the dictator whose regime led to the war and the atrocities I witnessed. Weimar, a town we passed through in Germany, was once the birthplace of democracy before Hitler's rise to power. The war and the horrors of places like Buchenwald concentration camp were direct consequences of his leadership. Reflecting on Hitler's impact made me realize the true cost of the conflict and the evil we were fighting against.",
+    "implicit_text": "The dictator whose regime led to the war and the atrocities I witnessed was responsible for the rise of evil in Europe. The town we passed through was once the birthplace of democracy before his rise to power. The war and the horrors of places like the infamous concentration camp were direct consequences of his leadership. Reflecting on his impact made me realize the true cost of the conflict and the evil we were fighting against.",
+    "cues": [
+      "Weimar",
+      "German democracy before Hitler",
+      "Buchenwald concentration camp",
+      "war consequences"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\nevada_wwii_Jud_Allen.yaml"
+  },
+  {
+    "entity_id": 8,
+    "entity": "Remagen Bridge",
+    "explicit_text": "As we advanced into Germany, we crossed the Remagen Bridge, a critical point that allowed Allied forces to enter the heart of the country. The crossing was part of the push following the Battle of the Bulge, moving through cities like Cologne and eventually reaching Weimar. The Remagen Bridge symbolized the turning tide of the war as we pressed deeper into enemy territory.",
+    "implicit_text": "As we advanced into the enemy's homeland, we crossed a critical bridge over the Rhine River that allowed Allied forces to enter the heart of the country. The crossing was part of the push following the Ardennes battle, moving through cities like the major western German city and eventually reaching the town known for its democratic beginnings. This bridge symbolized the turning tide of the war as we pressed deeper into enemy territory.",
+    "cues": [
+      "advance into Germany",
+      "crossing point",
+      "post-Battle of the Bulge",
+      "Cologne"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\nevada_wwii_Jud_Allen.yaml"
+  },
+  {
+    "entity_id": 9,
+    "entity": "Cologne",
+    "explicit_text": "Cologne was one of the major German cities we passed through after crossing the Remagen Bridge. The city was part of the route as we moved eastward into Germany following the Battle of the Bulge. It was a sign that the war was nearing its end as we penetrated deeper into German territory.",
+    "implicit_text": "This major western German city was one of the urban centers we passed through after crossing the Rhine bridge. The city was part of the route as we moved eastward into the enemy's homeland following the Ardennes battle. It was a sign that the war was nearing its end as we penetrated deeper into hostile territory.",
+    "cues": [
+      "advance into Germany",
+      "post-Battle of the Bulge",
+      "Remagen Bridge",
+      "major city"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\nevada_wwii_Jud_Allen.yaml"
+  },
+  {
+    "entity_id": 10,
+    "entity": "Weimar",
+    "explicit_text": "Weimar was a town we reached late one night after crossing into Germany. It was notable as the birthplace of German democracy before Hitler's rise, and surprisingly, it was untouched by fighting because the Germans offered no resistance there. It was in Weimar that I was tasked with transporting war correspondents to Buchenwald concentration camp, an experience that profoundly changed me. The peacefulness of Weimar contrasted starkly with the horrors I was about to witness.",
+    "implicit_text": "We reached this historic town late one night after crossing into the enemy's homeland. It was notable as the birthplace of democracy before the dictator's rise, and surprisingly, it was untouched by fighting because the enemy offered no resistance there. It was in this town that I was tasked with transporting war correspondents to a notorious concentration camp, an experience that profoundly changed me. The peacefulness of this town contrasted starkly with the horrors I was about to witness.",
+    "cues": [
+      "birthplace of German democracy",
+      "no German resistance",
+      "transporting correspondents",
+      "Buchenwald concentration camp"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\nevada_wwii_Jud_Allen.yaml"
+  },
+  {
+    "entity_id": 11,
+    "entity": "Buchenwald concentration camp",
+    "explicit_text": "Visiting Buchenwald concentration camp in April was a turning point in my life. I was taken there by war correspondents while we were in Germany near Weimar. The sights, sounds, and smells of the camp—the moaning of the dying, naked bodies piled up, and the overwhelming odor of death—shattered my previous views on the war. It made me realize the true horror of what humanity was capable of and gave me a new sense of purpose and shame for having treated the war as just an inconvenience before.",
+    "implicit_text": "Visiting the infamous concentration camp in April was a turning point in my life. I was taken there by war correspondents while we were in the enemy's homeland near the historic town known for democracy. The sights, sounds, and smells of the camp—the moaning of the dying, naked bodies piled up, and the overwhelming odor of death—shattered my previous views on the war. It made me realize the true horror of what humanity was capable of and gave me a new sense of purpose and shame for having treated the war as just an inconvenience before.",
+    "cues": [
+      "April",
+      "near Weimar",
+      "war correspondents",
+      "horrors of camp",
+      "life-changing experience"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\nevada_wwii_Jud_Allen.yaml"
+  },
+  {
+    "entity_id": 12,
+    "entity": "V-1 flying bomb",
+    "explicit_text": "I witnessed the deadly impact of a V-1 flying bomb, also known as a buzz bomb, when one struck near a farmhouse in what was supposed to be a safe area. The bomb killed a little Belgian girl about four years old who was sitting on a swing, leaving a haunting image that stayed with me. It was a stark reminder that these advanced weapons, created by brilliant minds, were used to kill innocent civilians. That moment deeply depressed me and made me question the purpose of mankind's inventions.",
+    "implicit_text": "I witnessed the deadly impact of one of the early cruise missiles, also known as buzz bombs, when one struck near a farmhouse in what was supposed to be a safe area. The weapon killed a little local girl about four years old who was sitting on a swing, leaving a haunting image that stayed with me. It was a stark reminder that these advanced weapons, created by brilliant minds, were used to kill innocent civilians. That moment deeply depressed me and made me question the purpose of mankind's inventions.",
+    "cues": [
+      "V-1 flying bomb",
+      "buzz bomb",
+      "Belgium",
+      "little girl killed",
+      "innocent civilian casualties"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\nevada_wwii_Jud_Allen.yaml"
+  },
+  {
+    "entity_id": 13,
+    "entity": "Allied forces",
+    "explicit_text": "The Allied forces were our side in the war, and their strength was evident especially on Christmas Eve when thousands of planes flew over from England to bomb the stalled German tanks. Their air power was decisive in wiping out the German offensive during the Battle of the Bulge. The Allies' coordinated efforts eventually pushed the Germans back into their own country until they surrendered.",
+    "implicit_text": "Our side in the war showed their strength especially on Christmas Eve when thousands of planes flew over from the island nation to bomb the stalled German tanks. Their air power was decisive in wiping out the German offensive during the Ardennes battle. The coordinated efforts of these forces eventually pushed the Germans back into their own country until they surrendered.",
+    "cues": [
+      "Christmas Eve",
+      "air support",
+      "England",
+      "Battle of the Bulge",
+      "German retreat"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\nevada_wwii_Jud_Allen.yaml"
+  },
+  {
+    "entity_id": 14,
+    "entity": "England",
+    "explicit_text": "England was the base from which thousands of Allied planes took off to support the Battle of the Bulge. On Christmas Eve, the skies cleared, and it was an incredible sight to see so many planes coming over from England to bomb the German tanks. This air support was crucial in turning the tide of the battle and ensuring the German offensive failed.",
+    "implicit_text": "This island nation was the base from which thousands of Allied planes took off to support the Ardennes battle. On Christmas Eve, the skies cleared, and it was an incredible sight to see so many planes coming over from this country to bomb the German tanks. This air support was crucial in turning the tide of the battle and ensuring the German offensive failed.",
+    "cues": [
+      "Christmas Eve",
+      "air support",
+      "Battle of the Bulge",
+      "thousands of planes"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\nevada_wwii_Jud_Allen.yaml"
+  },
+  {
+    "entity_id": 15,
+    "entity": "Ernie Pyle",
+    "explicit_text": "Ernie Pyle was the only war correspondent I respected because he actually went to the front lines and risked his life to tell the soldiers' stories. Unlike many correspondents who seemed more interested in fame and personal gain, Pyle's work was genuine and brave. His approach made the others resent him, but I admired his courage and dedication to truth.",
+    "implicit_text": "He was the only war correspondent I respected because he actually went to the front lines and risked his life to tell the soldiers' stories. Unlike many correspondents who seemed more interested in fame and personal gain, his work was genuine and brave. His approach made the others resent him, but I admired his courage and dedication to truth.",
+    "cues": [
+      "war correspondent",
+      "front lines",
+      "risked life",
+      "respected",
+      "contrast with other correspondents"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\nevada_wwii_Jud_Allen.yaml"
+  },
+  {
+    "entity_id": 16,
+    "entity": "Battle of the Bulge",
+    "explicit_text": "The Battle of the Bulge was a chaotic and devastating time for our division, which suffered the greatest loss in American military history with nine thousand men lost in just twenty-four hours. It began on December 16th with surprise explosions and confusion, and the Germans aimed to split the Allied forces by reaching the Belgian coast. Key battles took place around St. Vith and Vielsalm, and despite initial setbacks, the arrival of the 82nd Airborne and massive Allied air support from England eventually crushed the German offensive. The battle marked the last major push by the Wehrmacht in the west before their retreat into Germany.",
+    "implicit_text": "This chaotic and devastating battle was a terrible time for our division, which suffered the greatest loss in American military history with nine thousand men lost in just twenty-four hours. It began on December 16th with surprise explosions and confusion, and the Germans aimed to split the Allied forces by reaching the Belgian coast. Key battles took place around the Ardennes crossroads and the nearby retreat town, and despite initial setbacks, the arrival of the paratrooper division and massive Allied air support from the island nation eventually crushed the German offensive. The battle marked the last major push by the German armed forces in the west before their retreat into their homeland.",
+    "cues": [
+      "December 16",
+      "nine thousand men lost",
+      "St. Vith",
+      "Vielsalm",
+      "82nd Airborne",
+      "Allied air support",
+      "Wehrmacht last offensive"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\nevada_wwii_Jud_Allen.yaml"
+  }
+]

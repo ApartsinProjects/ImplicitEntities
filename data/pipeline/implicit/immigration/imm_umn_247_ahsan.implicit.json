@@ -1,0 +1,101 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "Afghanistan",
+    "explicit_text": "I come from Afghanistan, where life became too dangerous for me and my family. The Taliban have controlled much of the country since 1994, causing terror and violence against civilians like us. My family suffered greatly there, with my father working as a farmer and me helping him until we had to flee for our safety. Sadly, my father was killed by the Taliban, and my younger brother was kidnapped. Leaving Afghanistan was painful, but necessary for my survival.",
+    "implicit_text": "I come from a country where life became too dangerous for me and my family. A militant group has controlled much of the land since 1994, causing terror and violence against civilians like us. My family suffered greatly there, with my father working as a farmer and me helping him until we had to flee for our safety. Sadly, my father was killed by this group, and my younger brother was kidnapped. Leaving that place was painful, but necessary for my survival.",
+    "cues": [
+      "1994",
+      "Taliban control",
+      "father was farmer",
+      "family attacked",
+      "father killed",
+      "brother kidnapped"
+    ],
+    "transcript_ref": "immigration\\imm_umn_247_ahsan.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "Kunduz",
+    "explicit_text": "I am originally from Kunduz, a city in the north of Afghanistan. It was there that I lived with my two brothers and four sisters, and where my father worked as a farmer. The situation became so dangerous in Kunduz that I had to stop going to school after three years. Our family faced direct threats, especially after my older brother's relationship with a girl whose family was Taliban. Eventually, we had to flee Kunduz to save our lives.",
+    "implicit_text": "I am originally from a city in the north of that country. It was there that I lived with my two brothers and four sisters, and where my father worked as a farmer. The situation became so dangerous in that city that I had to stop going to school after three years. Our family faced direct threats, especially after my older brother's relationship with a girl whose family was part of the militant group. Eventually, we had to flee that city to save our lives.",
+    "cues": [
+      "north of Afghanistan",
+      "family life",
+      "father farmer",
+      "school stopped",
+      "family threatened"
+    ],
+    "transcript_ref": "immigration\\imm_umn_247_ahsan.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "Taliban",
+    "explicit_text": "The Taliban have been a constant threat in Afghanistan since 1994, fighting against the government and terrorizing the population. They impose their own harsh laws, abduct, extort, and kill people, including members of my family. My older brother was severely punished by them because he secretly met a girl from a Taliban family. Later, my father was killed by the Taliban, and my younger brother was kidnapped. Their presence forced my family and me to flee our home and seek safety abroad.",
+    "implicit_text": "This militant group has been a constant threat in my country since 1994, fighting against the government and terrorizing the population. They impose their own harsh laws, abduct, extort, and kill people, including members of my family. My older brother was severely punished by them because he secretly met a girl from a family aligned with this group. Later, my father was killed by them, and my younger brother was kidnapped. Their presence forced my family and me to flee our home and seek safety abroad.",
+    "cues": [
+      "since 1994",
+      "terrorism",
+      "abductions",
+      "family attacked",
+      "father killed",
+      "brother kidnapped"
+    ],
+    "transcript_ref": "immigration\\imm_umn_247_ahsan.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "Turkey",
+    "explicit_text": "After fleeing Afghanistan, I managed to cross the border into Turkey, although my family was sent back. I was sixteen at the time and had to make difficult decisions with my father's support to continue on to Europe for safety. In Turkey, I faced challenges at the border police and had to travel onward by boat to Greece. Turkey was a crucial but difficult stop in my journey to find refuge and a new life.",
+    "implicit_text": "After fleeing my home country, I managed to cross the border into a neighboring nation straddling Europe and Asia, although my family was sent back. I was sixteen at the time and had to make difficult decisions with my father's support to continue on to Europe for safety. In that country, I faced challenges at the border police and had to travel onward by boat to Greece. This place was a crucial but difficult stop in my journey to find refuge and a new life.",
+    "cues": [
+      "border crossing",
+      "family sent back",
+      "age sixteen",
+      "decision with father",
+      "travel to Greece"
+    ],
+    "transcript_ref": "immigration\\imm_umn_247_ahsan.yaml"
+  },
+  {
+    "entity_id": 5,
+    "entity": "Greece",
+    "explicit_text": "From Turkey, I traveled by a small, overcrowded boat to Greece as part of my escape route to Europe. This was a dangerous and frightening part of my journey, but it was necessary to reach safety. After arriving in Greece, I continued my journey by bus, train, and on foot toward Germany. Greece was a brief but critical passage on my path to a new life.",
+    "implicit_text": "From the neighboring country, I traveled by a small, overcrowded boat to a southern European nation as part of my escape route to Europe. This was a dangerous and frightening part of my journey, but it was necessary to reach safety. After arriving there, I continued my journey by bus, train, and on foot toward Germany. This country was a brief but critical passage on my path to a new life.",
+    "cues": [
+      "boat travel",
+      "overcrowded",
+      "escape route",
+      "travel to Germany"
+    ],
+    "transcript_ref": "immigration\\imm_umn_247_ahsan.yaml"
+  },
+  {
+    "entity_id": 6,
+    "entity": "Germany",
+    "explicit_text": "I arrived in Germany after a long and difficult journey through Turkey and Greece. At first, I stayed in a first reception center before moving to a youth facility in Cottbus. When I turned eighteen, I got my own apartment and started to rebuild my life. Germany gave me safety and the chance to go back to school, now in the 10th grade, and to plan for training. Although I face challenges like feeling like a foreigner, I am grateful to live here in peace.",
+    "implicit_text": "I arrived in a central European country after a long and difficult journey through two other nations. At first, I stayed in a first reception center before moving to a youth facility in a city called Cottbus. When I turned eighteen, I got my own apartment and started to rebuild my life. This country gave me safety and the chance to go back to school, now in the 10th grade, and to plan for training. Although I face challenges like feeling like a foreigner, I am grateful to live here in peace.",
+    "cues": [
+      "first reception center",
+      "youth facility",
+      "Cottbus",
+      "apartment at eighteen",
+      "school in 10th grade"
+    ],
+    "transcript_ref": "immigration\\imm_umn_247_ahsan.yaml"
+  },
+  {
+    "entity_id": 7,
+    "entity": "Cottbus",
+    "explicit_text": "In Germany, I was placed in a youth facility in Cottbus after arriving from the first reception center. This was an important step in my adjustment to life here, providing me with support and stability. Living in Cottbus helped me start to recover from the trauma of my past and focus on my education and future goals. It was a place where I began to feel a bit more secure despite the difficulties.",
+    "implicit_text": "In that central European country, I was placed in a youth facility in a city known for its cultural history after arriving from the first reception center. This was an important step in my adjustment to life here, providing me with support and stability. Living in that city helped me start to recover from the trauma of my past and focus on my education and future goals. It was a place where I began to feel a bit more secure despite the difficulties.",
+    "cues": [
+      "youth facility",
+      "support",
+      "adjustment",
+      "education",
+      "recovery"
+    ],
+    "transcript_ref": "immigration\\imm_umn_247_ahsan.yaml"
+  }
+]

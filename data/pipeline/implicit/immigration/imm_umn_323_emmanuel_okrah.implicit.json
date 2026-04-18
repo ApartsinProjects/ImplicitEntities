@@ -1,0 +1,100 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "United States",
+    "explicit_text": "I moved to the United States in June 2011 from Ghana to pursue better economic opportunities and advance my nursing career. The process of transferring my nursing credentials here was challenging and took about a year, including passing the NCLEX exam. After passing the exam in March 2017, I became a registered nurse in the United States and am now preparing to work in Virginia.",
+    "implicit_text": "I moved to this country in June 2011 from Ghana to pursue better economic opportunities and advance my nursing career. The process of transferring my nursing credentials here was challenging and took about a year, including passing the national nursing licensure exam. After passing the exam in March 2017, I became a registered nurse in this country and am now preparing to work in Virginia.",
+    "cues": [
+      "June 2011",
+      "credential transfer",
+      "NCLEX exam",
+      "March 2017",
+      "nursing career"
+    ],
+    "transcript_ref": "immigration\\imm_umn_323_emmanuel_okrah.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "Ghana",
+    "explicit_text": "I was raised and trained as a nurse in Ghana, where I worked for one and a half years before moving to the United States. Nursing in Ghana was demanding due to the high patient-to-nurse ratio and prevalent diseases like malaria and malnutrition. I studied nursing after not qualifying for economics at the University of Ghana and worked in various units including medical, surgical, oncology, and the operating room.",
+    "implicit_text": "I was raised and trained as a nurse in my home country in West Africa, where I worked for one and a half years before moving abroad. Nursing there was demanding due to the high patient-to-nurse ratio and prevalent diseases like malaria and malnutrition. I studied nursing after not qualifying for economics at the main university in the capital city and worked in various units including medical, surgical, oncology, and the operating room.",
+    "cues": [
+      "raised in Ghana",
+      "one and a half years nursing",
+      "malaria",
+      "University of Ghana",
+      "oncology",
+      "operating room"
+    ],
+    "transcript_ref": "immigration\\imm_umn_323_emmanuel_okrah.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "University of Ghana",
+    "explicit_text": "After high school, I wanted to study economics at the University of Ghana but my math grades were not sufficient for admission. Instead, I chose to study nursing there, completing a four-year program. The University of Ghana provided the academic foundation I needed before I took the nursing exam and began my career in Ghana.",
+    "implicit_text": "After high school, I wanted to study economics at the leading university in my country but my math grades were not sufficient for admission. Instead, I chose to study nursing there, completing a four-year program. That university provided the academic foundation I needed before I took the nursing exam and began my career in my home country.",
+    "cues": [
+      "University of Ghana",
+      "economics admission",
+      "math grades",
+      "nursing program",
+      "four years"
+    ],
+    "transcript_ref": "immigration\\imm_umn_323_emmanuel_okrah.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "Virginia",
+    "explicit_text": "When I moved to the United States, I settled in Virginia because some of my cousins lived there, near Washington, D.C. After becoming a registered nurse in the U.S., I am now in the process of transferring my nursing registration to Virginia and plan to start working there soon. Virginia represents my new professional home in the U.S.",
+    "implicit_text": "When I moved to this country, I settled in a state where some of my cousins lived, near the nation's capital. After becoming a registered nurse here, I am now in the process of transferring my nursing registration to that state and plan to start working there soon. This state represents my new professional home in the country.",
+    "cues": [
+      "Virginia residence",
+      "cousins",
+      "Washington, D.C. proximity",
+      "nursing registration transfer",
+      "work plans"
+    ],
+    "transcript_ref": "immigration\\imm_umn_323_emmanuel_okrah.yaml"
+  },
+  {
+    "entity_id": 5,
+    "entity": "Washington, D.C.",
+    "explicit_text": "I moved to the United States and lived near Washington, D.C., specifically in Virginia where some of my cousins reside. This area became my base as I navigated the complex process of credential evaluation and licensing to become a registered nurse in the U.S. Washington, D.C. was close by and part of my support network during this transition.",
+    "implicit_text": "I moved to this country and lived near the nation's capital, specifically in a neighboring state where some of my cousins reside. This area became my base as I navigated the complex process of credential evaluation and licensing to become a registered nurse here. The capital city was close by and part of my support network during this transition.",
+    "cues": [
+      "near Washington, D.C.",
+      "cousins",
+      "credential evaluation",
+      "nursing license process"
+    ],
+    "transcript_ref": "immigration\\imm_umn_323_emmanuel_okrah.yaml"
+  },
+  {
+    "entity_id": 6,
+    "entity": "Nursing Board of California",
+    "explicit_text": "The Nursing Board of California was responsible for evaluating my academic credentials from Ghana to determine if I was eligible to take the U.S. nursing licensure exam. This evaluation process took about a month and required me to submit transcripts and other documents, which was challenging due to administrative delays in Ghana. After their approval, I was allowed to sit for the NCLEX exam to become a registered nurse in the United States.",
+    "implicit_text": "The nursing regulatory body in the westernmost state was responsible for evaluating my academic credentials from Ghana to determine if I was eligible to take the U.S. nursing licensure exam. This evaluation process took about a month and required me to submit transcripts and other documents, which was challenging due to administrative delays in my home country. After their approval, I was allowed to sit for the national nursing exam to become a registered nurse here.",
+    "cues": [
+      "credential evaluation",
+      "transcripts",
+      "one month",
+      "eligibility",
+      "NCLEX exam"
+    ],
+    "transcript_ref": "immigration\\imm_umn_323_emmanuel_okrah.yaml"
+  },
+  {
+    "entity_id": 7,
+    "entity": "NCLEX",
+    "explicit_text": "The NCLEX was the licensure exam I had to pass to become a registered nurse in the United States. It was quite different from the nursing exam in Ghana, focusing on multiple-choice questions where I had to select the most accurate answer among several correct options. I studied extensively for it and finally passed the NCLEX in March 2017, which allowed me to practice nursing here.",
+    "implicit_text": "The national nursing licensure exam was the test I had to pass to become a registered nurse in this country. It was quite different from the nursing exam in Ghana, focusing on multiple-choice questions where I had to select the most accurate answer among several correct options. I studied extensively for it and finally passed the exam in March 2017, which allowed me to practice nursing here.",
+    "cues": [
+      "licensure exam",
+      "multiple-choice format",
+      "different from Ghana exam",
+      "March 2017",
+      "registered nurse"
+    ],
+    "transcript_ref": "immigration\\imm_umn_323_emmanuel_okrah.yaml"
+  }
+]

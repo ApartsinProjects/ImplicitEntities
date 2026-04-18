@@ -1,0 +1,179 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "Emilia Bassi",
+    "explicit_text": "My mother, Emilia Bassi, was born in San Francisco and came from Italian descent. Her parents, Giuseppe and Maria Bassi, settled in San Francisco in the 1850s before moving to Virginia City. Emilia inherited property in San Francisco where the Bohemian Club now stands, which she sold just days before the earthquake. She encouraged my interest in art, often drawing plans of homes and inspiring me to pursue drawing.",
+    "implicit_text": "My mother was born in a major West Coast city and came from Italian descent. Her parents settled there in the 1850s before moving to a mining town in Nevada. She inherited property in that city where a famous private club now stands, which she sold just days before the earthquake. She encouraged my interest in art, often drawing plans of homes and inspiring me to pursue drawing.",
+    "cues": [
+      "San Francisco",
+      "1850s",
+      "Virginia City",
+      "Bohemian Club",
+      "earthquake"
+    ],
+    "transcript_ref": "academic\\smithsonian_art\\smith_Louis_Bassi_Siegriest_reminiscences_oral_history.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "San Francisco",
+    "explicit_text": "San Francisco is where my mother Emilia Bassi was born and where my parents eventually married. My maternal grandparents came here in the 1850s before moving to Virginia City. My mother inherited property in San Francisco that later became the site of the Bohemian Club, which she sold just before the earthquake. I was born and raised in Oakland, just across the street from San Francisco, and my father worked here on horsecars and later in the oil business.",
+    "implicit_text": "That major West Coast city is where my mother was born and where my parents eventually married. My maternal grandparents came here in the 1850s before moving to a mining town in Nevada. My mother inherited property in this city that later became the site of a well-known private club, which she sold just before the earthquake. I was born and raised in a neighboring city just across the bay, and my father worked here on horsecars and later in the oil business.",
+    "cues": [
+      "1850s",
+      "Bohemian Club",
+      "earthquake",
+      "Oakland",
+      "horsecars"
+    ],
+    "transcript_ref": "academic\\smithsonian_art\\smith_Louis_Bassi_Siegriest_reminiscences_oral_history.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "Giuseppe Bassi",
+    "explicit_text": "Giuseppe Bassi was my maternal grandfather, born in San Francisco of Italian descent. He worked as an amalgamater, which had something to do with gold processing, during the gold rush era. He and his wife lived in Gold Hill, a suburb of Virginia City, where they ran a boarding house. They eventually made enough money to purchase property in San Francisco, which my mother later inherited.",
+    "implicit_text": "My maternal grandfather was born in that major West Coast city of Italian descent. He worked as an amalgamater, which had something to do with gold processing, during the gold rush era. He and his wife lived in a suburb of the Nevada mining town, where they ran a boarding house. They eventually made enough money to purchase property in the city my mother later inherited.",
+    "cues": [
+      "San Francisco",
+      "Italian descent",
+      "Gold Hill",
+      "Virginia City",
+      "boarding house"
+    ],
+    "transcript_ref": "academic\\smithsonian_art\\smith_Louis_Bassi_Siegriest_reminiscences_oral_history.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "Virginia City, Nevada",
+    "explicit_text": "Virginia City was a place my family often talked about, especially my mother and father, though my grandparents died before I was born. My maternal grandparents lived nearby in Gold Hill, and they were drawn there by the gold rush in the 1850s. Virginia City was once larger than San Francisco, with a population of over forty thousand in the 1850s. I have always felt a connection to Virginia City and often went there to sketch and paint.",
+    "implicit_text": "That Nevada mining town was a place my family often talked about, especially my mother and father, though my grandparents died before I was born. My maternal grandparents lived nearby in a smaller mining community, and they were drawn there by the gold rush in the 1850s. This town was once larger than the major West Coast city, with a population of over forty thousand in the 1850s. I have always felt a connection to it and often went there to sketch and paint.",
+    "cues": [
+      "1850s",
+      "gold rush",
+      "Gold Hill",
+      "population 40,000",
+      "sketch and paint"
+    ],
+    "transcript_ref": "academic\\smithsonian_art\\smith_Louis_Bassi_Siegriest_reminiscences_oral_history.yaml"
+  },
+  {
+    "entity_id": 5,
+    "entity": "Gold Hill, Nevada",
+    "explicit_text": "Gold Hill was where my maternal grandparents lived during the gold rush era, just outside Virginia City. They ran a boarding house there and made some money from it. This area was central to their life before they moved back to San Francisco and bought property there. Gold Hill was part of the mining territory that fascinated me and inspired my art.",
+    "implicit_text": "This smaller mining community was where my maternal grandparents lived during the gold rush era, just outside the larger Nevada mining town. They ran a boarding house there and made some money from it. This area was central to their life before they moved back to the major West Coast city and bought property there. It was part of the mining territory that fascinated me and inspired my art.",
+    "cues": [
+      "boarding house",
+      "Virginia City",
+      "gold rush",
+      "San Francisco property"
+    ],
+    "transcript_ref": "academic\\smithsonian_art\\smith_Louis_Bassi_Siegriest_reminiscences_oral_history.yaml"
+  },
+  {
+    "entity_id": 6,
+    "entity": "Bohemian Club",
+    "explicit_text": "The Bohemian Club stands today on property that my mother, Emilia Bassi, inherited from her parents. They had purchased the land in San Francisco after their time in Virginia City and Gold Hill. My mother sold this property just days before the great San Francisco earthquake for $2400, which is worth a fortune now. This connection ties my family history directly to a notable San Francisco landmark.",
+    "implicit_text": "A famous private club stands today on property that my mother inherited from her parents. They had purchased the land in the major West Coast city after their time in the Nevada mining town and smaller community. My mother sold this property just days before the great earthquake for $2400, which is worth a fortune now. This connection ties my family history directly to a notable landmark in that city.",
+    "cues": [
+      "San Francisco",
+      "property",
+      "earthquake",
+      "Emilia Bassi",
+      "inheritance"
+    ],
+    "transcript_ref": "academic\\smithsonian_art\\smith_Louis_Bassi_Siegriest_reminiscences_oral_history.yaml"
+  },
+  {
+    "entity_id": 7,
+    "entity": "New York City",
+    "explicit_text": "My father's family was originally from New York; he was born there to German Swiss parents. They owned a mill that wove cloth but lost their money during the panic of the 1870s. After that, they moved to Virginia to farm, where my father spent his teenage years before heading west. So New York was the starting point of my paternal family before their westward journey.",
+    "implicit_text": "My father's family was originally from a large East Coast metropolis; he was born there to German Swiss parents. They owned a mill that wove cloth but lost their money during the panic of the 1870s. After that, they moved to Virginia to farm, where my father spent his teenage years before heading west. So that city was the starting point of my paternal family before their westward journey.",
+    "cues": [
+      "German Swiss",
+      "mill",
+      "panic of the 1870s",
+      "Virginia",
+      "father's youth"
+    ],
+    "transcript_ref": "academic\\smithsonian_art\\smith_Louis_Bassi_Siegriest_reminiscences_oral_history.yaml"
+  },
+  {
+    "entity_id": 8,
+    "entity": "Northern Pacific Railway",
+    "explicit_text": "My father went to work on the Northern Pacific Railway, which was being built up toward Seattle, but he didn't like the hard labor. This was after he left farming in Virginia and before he made his way west. The railroad work was tough, so he and some friends hiked from Minneapolis through the woods to Vancouver, Washington. This railway project was part of his early adult life and westward migration.",
+    "implicit_text": "My father went to work on a major railroad project being built up toward a Pacific Northwest city, but he didn't like the hard labor. This was after he left farming in Virginia and before he made his way west. The railroad work was tough, so he and some friends hiked from Minneapolis through the woods to a town in Washington state. This railway project was part of his early adult life and westward migration.",
+    "cues": [
+      "Northern Pacific Railway",
+      "Seattle",
+      "Minneapolis",
+      "Vancouver, Washington",
+      "railroad construction"
+    ],
+    "transcript_ref": "academic\\smithsonian_art\\smith_Louis_Bassi_Siegriest_reminiscences_oral_history.yaml"
+  },
+  {
+    "entity_id": 9,
+    "entity": "Seattle",
+    "explicit_text": "I lived in Seattle for about two and a half years when I was around 20 or 21, and it was there that I got married. My father also worked near Seattle on the Northern Pacific Railway before moving on. Seattle was part of my early adult life and career path before I returned to California and later went to Texas for work.",
+    "implicit_text": "I lived in that Pacific Northwest city for about two and a half years when I was around 20 or 21, and it was there that I got married. My father also worked near this city on the railroad before moving on. It was part of my early adult life and career path before I returned to California and later went to Texas for work.",
+    "cues": [
+      "two and a half years",
+      "marriage",
+      "Northern Pacific Railway",
+      "early adulthood"
+    ],
+    "transcript_ref": "academic\\smithsonian_art\\smith_Louis_Bassi_Siegriest_reminiscences_oral_history.yaml"
+  },
+  {
+    "entity_id": 10,
+    "entity": "Vancouver, Washington",
+    "explicit_text": "After leaving the railroad work near Seattle, my father and three friends hiked all the way from Minneapolis to Vancouver, Washington through the woods. He worked on a farm in Vancouver to earn enough money to get passage to San Francisco. Vancouver was a crucial stop in his journey west, marking the transition from railroad labor to farming and then to the city.",
+    "implicit_text": "After leaving the railroad work near the Pacific Northwest city, my father and three friends hiked all the way from Minneapolis through the woods to a town in southwestern Washington. He worked on a farm there to earn enough money to get passage to the major West Coast city. This town was a crucial stop in his journey west, marking the transition from railroad labor to farming and then to the city.",
+    "cues": [
+      "hiking from Minneapolis",
+      "farm work",
+      "passage to San Francisco",
+      "father's journey"
+    ],
+    "transcript_ref": "academic\\smithsonian_art\\smith_Louis_Bassi_Siegriest_reminiscences_oral_history.yaml"
+  },
+  {
+    "entity_id": 11,
+    "entity": "Minneapolis",
+    "explicit_text": "Minneapolis was the starting point of a long hike my father and three friends undertook through the woods all the way to Vancouver, Washington. This happened after he left the railroad work near Seattle because he found it too hard. Minneapolis was part of his westward migration story and a place he left behind to seek better opportunities.",
+    "implicit_text": "This Midwestern city was the starting point of a long hike my father and three friends undertook through the woods all the way to a town in Washington state. This happened after he left the railroad work near the Pacific Northwest city because he found it too hard. It was part of his westward migration story and a place he left behind to seek better opportunities.",
+    "cues": [
+      "hiking",
+      "woods",
+      "westward migration",
+      "father's journey"
+    ],
+    "transcript_ref": "academic\\smithsonian_art\\smith_Louis_Bassi_Siegriest_reminiscences_oral_history.yaml"
+  },
+  {
+    "entity_id": 12,
+    "entity": "Texas",
+    "explicit_text": "I went to Texas for about a year to work in commercial art after I got married and started supporting a family. There was a job opportunity there, and I took it to make a living. Though I was interested in commercial art and wanted to go to Chicago for the best training, Texas was an important stop in my early career.",
+    "implicit_text": "I went to a southern state for about a year to work in commercial art after I got married and started supporting a family. There was a job opportunity there, and I took it to make a living. Though I was interested in commercial art and wanted to go to Chicago for the best training, this state was an important stop in my early career.",
+    "cues": [
+      "commercial art",
+      "one year",
+      "marriage",
+      "career development"
+    ],
+    "transcript_ref": "academic\\smithsonian_art\\smith_Louis_Bassi_Siegriest_reminiscences_oral_history.yaml"
+  },
+  {
+    "entity_id": 13,
+    "entity": "Oakland, California",
+    "explicit_text": "I was born and raised in Oakland, right across the street from where I still live. My childhood was typical of a middle-class family, and I spent most of my early years here. Oakland was home while my parents worked in San Francisco, and it is where I first became interested in art, drawing cartoons as a kid in grammar school.",
+    "implicit_text": "I was born and raised in a city just across the bay from the major West Coast city where my parents worked. My childhood was typical of a middle-class family, and I spent most of my early years here. This city was home while my parents worked nearby, and it is where I first became interested in art, drawing cartoons as a kid in grammar school.",
+    "cues": [
+      "birthplace",
+      "childhood",
+      "middle-class family",
+      "early art interest",
+      "grammar school"
+    ],
+    "transcript_ref": "academic\\smithsonian_art\\smith_Louis_Bassi_Siegriest_reminiscences_oral_history.yaml"
+  }
+]

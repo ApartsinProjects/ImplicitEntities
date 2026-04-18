@@ -1,0 +1,111 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "Kham",
+    "explicit_text": "My mom was born in Kham, Tibet in 1969, a place that holds her early memories and childhood. It was from Kham that she was forced to flee in 1985 when the Chinese Communist Party invaded Tibet. Leaving Kham was terrifying for her because she had never been away from her family or home before. This place represents the beginning of her journey and the life she had to leave behind.",
+    "implicit_text": "My mom was born in the eastern region of Tibet in 1969, a place that holds her early memories and childhood. It was from this area that she was forced to flee in 1985 when the Chinese Communist Party invaded Tibet. Leaving her home region was terrifying for her because she had never been away from her family or home before. This place represents the beginning of her journey and the life she had to leave behind.",
+    "cues": [
+      "1969",
+      "birthplace",
+      "fled in 1985",
+      "Chinese Communist Party invasion"
+    ],
+    "transcript_ref": "immigration\\imm_umn_391_yeshi_gongpatsang.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "Tibet",
+    "explicit_text": "Tibet is where my mom's story begins, and it was her homeland until the Chinese Communist Party invaded in 1985. The occupation took away the freedom of the Tibetan people, forcing her to escape by foot to India. Even after moving to the United States, she never forgot Tibet and remained deeply connected to its struggle. She actively supports the Free Tibet movement and has risked her life to raise awareness about the injustice happening there.",
+    "implicit_text": "My mom's story begins in the high plateau region known for its unique culture and landscape, which was her homeland until the Chinese Communist Party invaded in 1985. The occupation took away the freedom of the local people, forcing her to escape by foot to India. Even after moving to the United States, she never forgot her native land and remained deeply connected to its struggle. She actively supports the movement advocating for the region's freedom and has risked her life to raise awareness about the injustice happening there.",
+    "cues": [
+      "Chinese Communist Party invasion 1985",
+      "loss of freedom",
+      "escape to India",
+      "Free Tibet movement",
+      "activism"
+    ],
+    "transcript_ref": "immigration\\imm_umn_391_yeshi_gongpatsang.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "Chinese Communist Party",
+    "explicit_text": "The Chinese Communist Party invaded Tibet in 1985, which changed my mom’s life forever. Their occupation took away the freedom of the Tibetan people and forced her to flee her home in Kham. The fear of punishment from the Chinese government kept her family behind while she escaped alone. This organization is the reason she had to endure such a dangerous journey and fight for Tibetan rights throughout her life.",
+    "implicit_text": "The ruling party of China invaded Tibet in 1985, which changed my mom’s life forever. Their occupation took away the freedom of the Tibetan people and forced her to flee her home in the eastern Tibetan region. The fear of punishment from this government kept her family behind while she escaped alone. This organization is the reason she had to endure such a dangerous journey and fight for Tibetan rights throughout her life.",
+    "cues": [
+      "1985 invasion",
+      "occupation of Tibet",
+      "loss of freedom",
+      "fear of punishment",
+      "forced escape"
+    ],
+    "transcript_ref": "immigration\\imm_umn_391_yeshi_gongpatsang.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "India",
+    "explicit_text": "After fleeing Tibet, my mom traveled by foot to India, where she lived and worked for many years. India was a place of refuge but also a place where she had to grow up fast and learn to be independent. It was in India that she waited until she won the lottery under the Immigration Act of 1990, which allowed her to move to America. India was both a safe haven and a stepping stone in her long journey.",
+    "implicit_text": "After fleeing Tibet, my mom traveled by foot to the neighboring South Asian country, where she lived and worked for many years. This country was a place of refuge but also a place where she had to grow up fast and learn to be independent. It was there that she waited until she won the lottery under a U.S. immigration law passed in 1990, which allowed her to move to America. This country was both a safe haven and a stepping stone in her long journey.",
+    "cues": [
+      "fled Tibet 1985",
+      "worked in India",
+      "learned independence",
+      "Immigration Act of 1990 lottery"
+    ],
+    "transcript_ref": "immigration\\imm_umn_391_yeshi_gongpatsang.yaml"
+  },
+  {
+    "entity_id": 5,
+    "entity": "Immigration Act of 1990",
+    "explicit_text": "The Immigration Act of 1990 was a turning point for my mom because it allowed 1,000 Tibetan refugees, including her, to come to America. She won the lottery under this act, which gave her the opportunity to leave India and start a new life in the United States. This event was crucial in her journey, as it opened the door to safety and a better future. Without it, she might have remained stuck in India indefinitely.",
+    "implicit_text": "The U.S. immigration law enacted in 1990 was a turning point for my mom because it allowed 1,000 Tibetan refugees, including her, to come to America. She won the lottery under this act, which gave her the opportunity to leave India and start a new life in the United States. This event was crucial in her journey, as it opened the door to safety and a better future. Without it, she might have remained stuck in India indefinitely.",
+    "cues": [
+      "1990",
+      "lottery",
+      "1,000 Tibetan refugees",
+      "enabled move to America"
+    ],
+    "transcript_ref": "immigration\\imm_umn_391_yeshi_gongpatsang.yaml"
+  },
+  {
+    "entity_id": 6,
+    "entity": "United States of America",
+    "explicit_text": "When my mom finally moved to the United States, she faced many challenges like learning a new language and adapting to a different lifestyle. She had help from a sponsor who guided her through the transition, but it was still a difficult adjustment. Despite this, she built a new life, made friends, and continued to support the Tibetan cause from afar. America became a place of hope and new beginnings for her and our family.",
+    "implicit_text": "When my mom finally moved to the country known for its diversity and opportunity, she faced many challenges like learning a new language and adapting to a different lifestyle. She had help from a sponsor who guided her through the transition, but it was still a difficult adjustment. Despite this, she built a new life, made friends, and continued to support the Tibetan cause from afar. This new country became a place of hope and new beginnings for her and our family.",
+    "cues": [
+      "post-1990 immigration",
+      "language barrier",
+      "sponsor support",
+      "new life",
+      "Tibetan activism"
+    ],
+    "transcript_ref": "immigration\\imm_umn_391_yeshi_gongpatsang.yaml"
+  },
+  {
+    "entity_id": 7,
+    "entity": "Free Tibet movement",
+    "explicit_text": "My mom has been an active supporter of the Free Tibet movement since coming to America. She believes deeply in fighting for the rights and freedom of the Tibetan people. In 1990, she even risked her life by doing an 11-day hunger strike to raise awareness to the United Nations about the injustices in Tibet. This movement is a cause close to her heart and a way she continues to honor her homeland and family.",
+    "implicit_text": "My mom has been an active supporter of the movement advocating for Tibetan freedom since coming to America. She believes deeply in fighting for the rights and freedom of the Tibetan people. In 1990, she even risked her life by doing an 11-day hunger strike to raise awareness to the global organization about the injustices in Tibet. This movement is a cause close to her heart and a way she continues to honor her homeland and family.",
+    "cues": [
+      "supporter since 1990",
+      "11-day hunger strike",
+      "raising awareness",
+      "United Nations",
+      "Tibetan rights"
+    ],
+    "transcript_ref": "immigration\\imm_umn_391_yeshi_gongpatsang.yaml"
+  },
+  {
+    "entity_id": 8,
+    "entity": "United Nations",
+    "explicit_text": "In 1990, my mom participated in a hunger strike for 11 days to bring attention to the United Nations about the injustices happening in Tibet. She wanted the world to see the suffering caused by the Chinese Communist Party’s occupation. The United Nations represented a global platform where she hoped to make a difference for her people. This act showed her courage and commitment to the Tibetan cause.",
+    "implicit_text": "In 1990, my mom participated in a hunger strike for 11 days to bring attention to the global organization about the injustices happening in Tibet. She wanted the world to see the suffering caused by the Chinese Communist Party’s occupation. This international body represented a global platform where she hoped to make a difference for her people. This act showed her courage and commitment to the Tibetan cause.",
+    "cues": [
+      "1990 hunger strike",
+      "11 days",
+      "raising awareness",
+      "global platform",
+      "Tibetan injustice"
+    ],
+    "transcript_ref": "immigration\\imm_umn_391_yeshi_gongpatsang.yaml"
+  }
+]

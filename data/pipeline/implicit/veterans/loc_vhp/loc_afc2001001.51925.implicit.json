@@ -1,0 +1,277 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "United States Navy",
+    "explicit_text": "I served in the United States Navy from 1941 to 1945 during World War II. I was initially stationed at the United States Naval Academy in Annapolis, Maryland, and later served in Europe from 1943 to 1945 with the 7th Beach Battalion. My role changed from steward to deck force on the USS Cumberland, and I had many memorable experiences as a young man far from home.",
+    "implicit_text": "I served in the naval forces of my country from 1941 to 1945 during World War II. I was initially stationed at the naval officer training academy in Annapolis, Maryland, and later served in Europe from 1943 to 1945 with the 7th Beach Battalion. My role changed from steward to deck force on the USS Cumberland, and I had many memorable experiences as a young man far from home.",
+    "cues": [
+      "1941 to 1945",
+      "World War II",
+      "United States Naval Academy",
+      "Annapolis, Maryland",
+      "USS Cumberland",
+      "7th Beach Battalion",
+      "Europe"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.51925.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "United States Army",
+    "explicit_text": "After my Navy service, I went back to school and then in 1957 I received a commission as a second lieutenant in the United States Army. I chose the Army branch myself and eventually retired as a major. I served during the Vietnam War and was stationed at places like Fitzsimons Army Medical Center and Fort Benjamin Harrison before retiring in Indianapolis.",
+    "implicit_text": "After my naval service, I went back to school and then in 1957 I received a commission as a second lieutenant in the land-based military branch of my country. I chose this branch myself and eventually retired as a major. I served during the Vietnam conflict and was stationed at places like Fitzsimons Army Medical Center and Fort Benjamin Harrison before retiring in Indianapolis.",
+    "cues": [
+      "1957 commission",
+      "second lieutenant",
+      "Vietnam War",
+      "Fitzsimons Army Medical Center",
+      "Fort Benjamin Harrison",
+      "Indianapolis",
+      "retired as major"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.51925.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "United States Naval Academy",
+    "explicit_text": "I was stationed at the United States Naval Academy in Annapolis, Maryland from 1941 to 1942 during my Navy service. While there, I was part of the staff on the USS Cumberland, which was a company ship next to the university. This was an important early part of my military career before I was sent overseas to Europe.",
+    "implicit_text": "I was stationed at the naval officer training academy in Annapolis, Maryland from 1941 to 1942 during my naval service. While there, I was part of the staff on the USS Cumberland, which was a company ship next to the university. This was an important early part of my military career before I was sent overseas to Europe.",
+    "cues": [
+      "1941 to 1942",
+      "Annapolis, Maryland",
+      "USS Cumberland",
+      "Navy service"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.51925.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "Annapolis, Maryland",
+    "explicit_text": "Annapolis, Maryland was where I was stationed early in my Navy career at the United States Naval Academy from 1941 to 1942. It was there that I worked on the USS Cumberland, which was docked near the academy. This place marked the beginning of my active military service before deployment overseas.",
+    "implicit_text": "Annapolis, Maryland was where I was stationed early in my naval career at the naval officer training academy from 1941 to 1942. It was there that I worked on the USS Cumberland, which was docked near the academy. This place marked the beginning of my active military service before deployment overseas.",
+    "cues": [
+      "1941 to 1942",
+      "United States Naval Academy",
+      "USS Cumberland",
+      "Navy"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.51925.yaml"
+  },
+  {
+    "entity_id": 5,
+    "entity": "7th Beach Battalion",
+    "explicit_text": "During World War II, I was assigned to the 7th Beach Battalion while stationed in Europe from 1943 to 1945. This unit was part of my Navy service and was active in the European theater. Serving with them was a significant part of my wartime experience.",
+    "implicit_text": "During World War II, I was assigned to the 7th Beach Battalion while stationed in Europe from 1943 to 1945. This unit was part of my naval service and was active in the European theater. Serving with them was a significant part of my wartime experience.",
+    "cues": [
+      "World War II",
+      "1943 to 1945",
+      "Europe",
+      "Navy",
+      "7th Beach Battalion"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.51925.yaml"
+  },
+  {
+    "entity_id": 6,
+    "entity": "World War II",
+    "explicit_text": "I served in World War II as a member of the United States Navy from 1941 to 1945. After training at the Naval Academy, I was deployed to Europe with the 7th Beach Battalion and stationed in places like Salcombe, South Devon. The war shaped much of my early military career and life experience.",
+    "implicit_text": "I served in the global conflict from 1941 to 1945 as a member of my country’s naval forces. After training at the naval officer academy, I was deployed to Europe with the 7th Beach Battalion and stationed in places like Salcombe, South Devon. The war shaped much of my early military career and life experience.",
+    "cues": [
+      "1941 to 1945",
+      "United States Navy",
+      "Europe",
+      "7th Beach Battalion",
+      "Salcombe",
+      "South Devon"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.51925.yaml"
+  },
+  {
+    "entity_id": 7,
+    "entity": "Vietnam War",
+    "explicit_text": "I also served in the Vietnam War as part of my Army career after receiving my commission in 1957. Though I was injured and now have a disability, I was fortunate not to be a prisoner of war. My service during this conflict was an important chapter before I retired as a major.",
+    "implicit_text": "I also served in the Vietnam conflict as part of my Army career after receiving my commission in 1957. Though I was injured and now have a disability, I was fortunate not to be a prisoner of war. My service during this conflict was an important chapter before I retired as a major.",
+    "cues": [
+      "Vietnam War",
+      "post-1957",
+      "Army",
+      "injury",
+      "disability",
+      "retired as major"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.51925.yaml"
+  },
+  {
+    "entity_id": 8,
+    "entity": "Bronze Star Medal",
+    "explicit_text": "I believe I should have received the Bronze Star Medal for my service during World War II, as everyone else in my unit did, but for some reason, I was awarded the Army Commendation Medal instead. I even sent a letter questioning why I didn't get the Bronze Star since my unit was recognized with it. It remains a notable point about my military awards.",
+    "implicit_text": "I believe I should have received the Bronze Star Medal for my service during the global conflict, as everyone else in my unit did, but for some reason, I was awarded the Army Commendation Medal instead. I even sent a letter questioning why I didn't get the Bronze Star since my unit was recognized with it. It remains a notable point about my military awards.",
+    "cues": [
+      "World War II",
+      "unit awards",
+      "Army Commendation Medal",
+      "letter inquiry",
+      "Bronze Star Medal"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.51925.yaml"
+  },
+  {
+    "entity_id": 9,
+    "entity": "Army Commendation Medal",
+    "explicit_text": "Instead of the Bronze Star Medal, I was awarded the Army Commendation Medal for my service. This medal is one level below the Bronze Star, and while I appreciate it, I did question why I did not receive the higher honor. It was part of my recognition during my Army career.",
+    "implicit_text": "Instead of the Bronze Star Medal, I was awarded the Army Commendation Medal for my service. This medal is one level below the Bronze Star, and while I appreciate it, I did question why I did not receive the higher honor. It was part of my recognition during my Army career.",
+    "cues": [
+      "Army service",
+      "award",
+      "below Bronze Star",
+      "medal recognition"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.51925.yaml"
+  },
+  {
+    "entity_id": 10,
+    "entity": "Little Rock, Arkansas",
+    "explicit_text": "I was living in Little Rock, Arkansas when I first joined the United States Navy in 1941. It was from there that I enlisted and began my military journey. Little Rock marks the starting point of my service career.",
+    "implicit_text": "I was living in Little Rock, Arkansas when I first joined the naval forces in 1941. It was from there that I enlisted and began my military journey. Little Rock marks the starting point of my service career.",
+    "cues": [
+      "1941",
+      "Navy enlistment",
+      "Little Rock, Arkansas"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.51925.yaml"
+  },
+  {
+    "entity_id": 11,
+    "entity": "Chicago, Illinois",
+    "explicit_text": "When I joined the United States Army in 1957, I was living in Chicago, Illinois. I chose the Army branch myself and began my commissioned officer career from there. Chicago was my home at the time of this important transition.",
+    "implicit_text": "When I joined the land-based military branch in 1957, I was living in Chicago, Illinois. I chose this branch myself and began my commissioned officer career from there. Chicago was my home at the time of this important transition.",
+    "cues": [
+      "1957",
+      "Army commission",
+      "Chicago, Illinois"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.51925.yaml"
+  },
+  {
+    "entity_id": 12,
+    "entity": "USS Cumberland (IX-8)",
+    "explicit_text": "While stationed at the Naval Academy, I was assigned to the USS Cumberland, which was a company ship docked next to the university. Initially, I was supposed to work in the dining hall at Vandercroft Hall, but instead, I was placed on the deck force of the ship. This experience was a unique part of my Navy service before going overseas.",
+    "implicit_text": "While stationed at the naval officer academy, I was assigned to the USS Cumberland, which was a company ship docked next to the university. Initially, I was supposed to work in the dining hall at Vandercroft Hall, but instead, I was placed on the deck force of the ship. This experience was a unique part of my naval service before going overseas.",
+    "cues": [
+      "Naval Academy",
+      "Annapolis, Maryland",
+      "deck force",
+      "Vandercroft Hall",
+      "USS Cumberland"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.51925.yaml"
+  },
+  {
+    "entity_id": 13,
+    "entity": "Vandercroft Hall",
+    "explicit_text": "At the Naval Academy, the fellows on the USS Cumberland typically worked in the dining hall at Vandercroft Hall. Although I was initially expected to do the same, I was reassigned to the deck force on the ship instead. Vandercroft Hall was part of the daily life environment during my early Navy days.",
+    "implicit_text": "At the naval officer academy, the fellows on the USS Cumberland typically worked in the dining hall at Vandercroft Hall. Although I was initially expected to do the same, I was reassigned to the deck force on the ship instead. Vandercroft Hall was part of the daily life environment during my early naval days.",
+    "cues": [
+      "Naval Academy",
+      "USS Cumberland",
+      "dining hall",
+      "Vandercroft Hall"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.51925.yaml"
+  },
+  {
+    "entity_id": 14,
+    "entity": "England",
+    "explicit_text": "After completing my course at the Naval Academy, I was shipped overseas to England during World War II. I was stationed there from 1943 to 1945 and later had the opportunity to return with my wife to visit some of the people I met during my service. England holds a special place in my military memories.",
+    "implicit_text": "After completing my course at the naval officer academy, I was shipped overseas to England during the global conflict. I was stationed there from 1943 to 1945 and later had the opportunity to return with my wife to visit some of the people I met during my service. England holds a special place in my military memories.",
+    "cues": [
+      "World War II",
+      "1943 to 1945",
+      "overseas deployment",
+      "England",
+      "return visit"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.51925.yaml"
+  },
+  {
+    "entity_id": 15,
+    "entity": "Salcombe",
+    "explicit_text": "During my time in Europe in World War II, I was stationed in Salcombe, South Devon. This location was part of my deployment with the 7th Beach Battalion until the war ended. Salcombe was one of the key places where I served overseas.",
+    "implicit_text": "During my time in Europe in the global conflict, I was stationed in Salcombe, South Devon. This location was part of my deployment with the 7th Beach Battalion until the war ended. Salcombe was one of the key places where I served overseas.",
+    "cues": [
+      "World War II",
+      "Europe",
+      "Salcombe",
+      "South Devon",
+      "7th Beach Battalion"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.51925.yaml"
+  },
+  {
+    "entity_id": 16,
+    "entity": "South Devon",
+    "explicit_text": "I was stationed in South Devon, specifically in Salcombe, during my World War II service in Europe. This area was part of my deployment with the 7th Beach Battalion from 1943 to 1945. South Devon was a significant location in my wartime experience.",
+    "implicit_text": "I was stationed in South Devon, specifically in Salcombe, during my service in Europe from 1943 to 1945. This area was part of my deployment with the 7th Beach Battalion. South Devon was a significant location in my wartime experience.",
+    "cues": [
+      "World War II",
+      "South Devon",
+      "Salcombe",
+      "7th Beach Battalion",
+      "Europe"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.51925.yaml"
+  },
+  {
+    "entity_id": 17,
+    "entity": "Italy",
+    "explicit_text": "After receiving my Army commission, my family and I lived in Italy for three years during my service. My last daughter was born there, and later my granddaughter was also born in Italy. It was meaningful to return to Europe and share some of my earlier Navy experiences with my wife while stationed there.",
+    "implicit_text": "After receiving my Army commission, my family and I lived in Italy for three years during my service. My last daughter was born there, and later my granddaughter was also born in Italy. It was meaningful to return to Europe and share some of my earlier naval experiences with my wife while stationed there.",
+    "cues": [
+      "post-1957",
+      "Army service",
+      "Italy",
+      "family",
+      "children born in Italy"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.51925.yaml"
+  },
+  {
+    "entity_id": 18,
+    "entity": "Fitzsimons Army Medical Center",
+    "explicit_text": "After my service in Vietnam, I was assigned to Fitzsimons Army Medical Center. This was one of my final postings before moving to Fort Benjamin Harrison. Fitzsimons was part of my transition from active combat to retirement.",
+    "implicit_text": "After my service in Vietnam, I was assigned to a major Army medical center in Colorado. This was one of my final postings before moving to Fort Benjamin Harrison. That medical center was part of my transition from active combat to retirement.",
+    "cues": [
+      "post-Vietnam War",
+      "Army assignment",
+      "Fitzsimons Army Medical Center",
+      "retirement"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.51925.yaml"
+  },
+  {
+    "entity_id": 19,
+    "entity": "Fort Benjamin Harrison",
+    "explicit_text": "I was assigned to Fort Benjamin Harrison after Fitzsimons and it was there that I retired from the Army as a major. This post marked the end of my military career. After retiring, my family and I settled in Indianapolis nearby.",
+    "implicit_text": "I was assigned to Fort Benjamin Harrison after my medical center posting and it was there that I retired from the Army as a major. This post marked the end of my military career. After retiring, my family and I settled in Indianapolis nearby.",
+    "cues": [
+      "retirement",
+      "Fort Benjamin Harrison",
+      "Army",
+      "Indianapolis"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.51925.yaml"
+  },
+  {
+    "entity_id": 20,
+    "entity": "Indianapolis",
+    "explicit_text": "After retiring from the Army at Fort Benjamin Harrison, my family and I decided to stay in Indianapolis. It became our home after many years of military service and moving around. Indianapolis represents my post-military life and where I enjoyed my family.",
+    "implicit_text": "After retiring from the Army at Fort Benjamin Harrison, my family and I decided to stay in Indianapolis. It became our home after many years of military service and moving around. Indianapolis represents my post-military life and where I enjoyed my family.",
+    "cues": [
+      "post-retirement",
+      "Indianapolis",
+      "family",
+      "Fort Benjamin Harrison"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.51925.yaml"
+  }
+]

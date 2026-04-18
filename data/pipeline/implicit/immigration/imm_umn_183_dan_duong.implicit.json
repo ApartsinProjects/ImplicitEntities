@@ -1,0 +1,99 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "Vietnam Electricity",
+    "explicit_text": "My dad worked for Vietnam Electricity Company, also known as EVN, which is the only company providing electricity services in Vietnam. Because EVN is so large and needs many workers, they even established their own university, the Electric Power University, to train students for careers in electricity. Growing up, it seemed natural for me to follow in my dad's footsteps by attending EPU and then working for EVN after graduation.",
+    "implicit_text": "My dad worked for the national electricity provider in Vietnam, which is the sole company supplying electricity services across the country. Because this organization is so large and requires many workers, they even established their own university to train students for careers in electricity. Growing up, it seemed natural for me to follow in my dad's footsteps by attending that specialized university and then working for the national electricity provider after graduation.",
+    "cues": [
+      "Vietnam",
+      "EVN",
+      "Electricity services",
+      "Electric Power University",
+      "career path"
+    ],
+    "transcript_ref": "immigration\\imm_umn_183_dan_duong.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "Electric Power University",
+    "explicit_text": "The Electric Power University was created by Vietnam Electricity Company to train students with skills for electricity-related careers. After I graduated high school in 2010, the expected path was for me to attend EPU for four years and then get a job at EVN, especially since my dad's long tenure there gave me preferred admission and financial aid. However, I disliked the education system in Vietnam and felt I wouldn't have the freedom to choose my studies at EPU.",
+    "implicit_text": "The university specializing in electric power was created by the national electricity provider to train students with skills for electricity-related careers. After I graduated high school in 2010, the expected path was for me to attend that university for four years and then get a job at the national electricity provider, especially since my dad's long tenure there gave me preferred admission and financial aid. However, I disliked the education system in Vietnam and felt I wouldn't have the freedom to choose my studies at that institution.",
+    "cues": [
+      "Vietnam",
+      "2010",
+      "Electric Power University",
+      "EVN",
+      "education system"
+    ],
+    "transcript_ref": "immigration\\imm_umn_183_dan_duong.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "United States",
+    "explicit_text": "My family and I moved to the United States when I was 18, seeking a brighter future and more freedom in choosing my career. The U.S. was portrayed by my family and the media as a land of opportunity, which motivated me to leave Vietnam. We first lived in Boston briefly before settling in La Crosse, Wisconsin, where I repeated high school to learn English and adapt to American culture.",
+    "implicit_text": "My family and I moved to the country known for its land of opportunity when I was 18, seeking a brighter future and more freedom in choosing my career. That nation was portrayed by my family and the media as a place full of possibilities, which motivated me to leave Vietnam. We first lived in a historic city in Massachusetts briefly before settling in a smaller city in Wisconsin, where I repeated high school to learn English and adapt to the local culture.",
+    "cues": [
+      "immigration",
+      "Boston",
+      "La Crosse, Wisconsin",
+      "English language",
+      "career freedom"
+    ],
+    "transcript_ref": "immigration\\imm_umn_183_dan_duong.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "Berklee College of Music",
+    "explicit_text": "When I was told I could go to the U.S., my first thought was that I would attend Berklee College of Music in Boston, which was my dream. I have a passion for piano, and I feared that staying in Vietnam would mean giving that up. Although I didn't end up going to Berklee, that dream inspired me to convince my parents to move to America for better opportunities.",
+    "implicit_text": "When I was told I could go to the United States, my first thought was that I would attend a prestigious music college in Boston, which was my dream. I have a passion for piano, and I feared that staying in Vietnam would mean giving that up. Although I didn't end up going to that music school, that dream inspired me to convince my parents to move to America for better opportunities.",
+    "cues": [
+      "Boston",
+      "music",
+      "piano",
+      "dream",
+      "immigration"
+    ],
+    "transcript_ref": "immigration\\imm_umn_183_dan_duong.yaml"
+  },
+  {
+    "entity_id": 5,
+    "entity": "Boston",
+    "explicit_text": "Boston was the first place my family and I lived when we arrived in the United States. It was there that I initially dreamed of attending Berklee College of Music. Although our stay in Boston was brief, it marked the beginning of my journey adapting to a new culture and pursuing my goals in America.",
+    "implicit_text": "The historic city in Massachusetts was the first place my family and I lived when we arrived in the United States. It was there that I initially dreamed of attending the renowned music college. Although our stay in that city was brief, it marked the beginning of my journey adapting to a new culture and pursuing my goals in America.",
+    "cues": [
+      "arrival in U.S.",
+      "Berklee College of Music",
+      "initial settlement",
+      "immigration"
+    ],
+    "transcript_ref": "immigration\\imm_umn_183_dan_duong.yaml"
+  },
+  {
+    "entity_id": 6,
+    "entity": "La Crosse, Wisconsin",
+    "explicit_text": "After Boston, my family and I settled in La Crosse, Wisconsin, where my aunt sponsored us. She thought it best for me to repeat high school to learn English and American culture, which was frustrating at first because I was older than my classmates and struggled with the language. Despite the challenges, I graduated high school there in 2014 and gained confidence in my English skills.",
+    "implicit_text": "After leaving the city in Massachusetts, my family and I settled in a city in Wisconsin, where my aunt sponsored us. She thought it best for me to repeat high school to learn English and American culture, which was frustrating at first because I was older than my classmates and struggled with the language. Despite the challenges, I graduated high school there in 2014 and gained confidence in my English skills.",
+    "cues": [
+      "immigration",
+      "aunt sponsorship",
+      "high school repetition",
+      "English learning",
+      "graduation 2014"
+    ],
+    "transcript_ref": "immigration\\imm_umn_183_dan_duong.yaml"
+  },
+  {
+    "entity_id": 7,
+    "entity": "University of Minnesota Twin Cities",
+    "explicit_text": "Currently, I am studying Mathematical Biology at the University of Minnesota Twin Cities with hopes of becoming an orthodontist. This career choice is very different from what I would have expected growing up in Vietnam, where I had no say in my future. Attending this university represents my determination to pursue a better future and follow my own dreams.",
+    "implicit_text": "Currently, I am studying Mathematical Biology at a major public university in Minnesota with hopes of becoming an orthodontist. This career choice is very different from what I would have expected growing up in Vietnam, where I had no say in my future. Attending this university represents my determination to pursue a better future and follow my own dreams.",
+    "cues": [
+      "Mathematical Biology",
+      "University of Minnesota Twin Cities",
+      "career goals",
+      "immigrant experience",
+      "orthodontist"
+    ],
+    "transcript_ref": "immigration\\imm_umn_183_dan_duong.yaml"
+  }
+]

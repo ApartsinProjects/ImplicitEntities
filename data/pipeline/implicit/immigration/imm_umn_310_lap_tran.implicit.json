@@ -1,0 +1,69 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "Dalat",
+    "explicit_text": "I was born in Dalat, Vietnam, and my early memories are tied to this place. When I was five, on my golden birthday, my grandpa took me to dinner there and gave me a lucky charm from Japan. Dalat is where my story begins and where my connection to my grandpa and my childhood was rooted.",
+    "implicit_text": "I was born in a highland city in Vietnam, and my early memories are tied to this place. When I was five, on my golden birthday, my grandpa took me to dinner there and gave me a lucky charm from Japan. This city is where my story begins and where my connection to my grandpa and my childhood was rooted.",
+    "cues": [
+      "born in Dalat",
+      "golden birthday",
+      "five years old",
+      "grandpa",
+      "Vietnam"
+    ],
+    "transcript_ref": "immigration\\imm_umn_310_lap_tran.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "Vietnam",
+    "explicit_text": "Vietnam is my homeland where I grew up before moving to the United States. My family and I lived there, and it’s where my mom made me a lucky charm before I left. Leaving Vietnam was a big step, and that charm was meant to wish me luck as I started a new life abroad.",
+    "implicit_text": "My homeland is where I grew up before moving to the United States. My family and I lived there, and it’s where my mom made me a lucky charm before I left. Leaving that country was a big step, and that charm was meant to wish me luck as I started a new life abroad.",
+    "cues": [
+      "grew up",
+      "mom made lucky charm",
+      "before moving",
+      "new life abroad"
+    ],
+    "transcript_ref": "immigration\\imm_umn_310_lap_tran.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "Japan",
+    "explicit_text": "Japan plays an important role in my story because my grandpa gave me an omamori, a lucky charm from Japan, when I was a child. I also passed through a Japanese airport on my way to the United States, where I almost lost that charm. Japan is connected to my journey and the protective symbol my grandpa believed would keep me safe.",
+    "implicit_text": "This East Asian country plays an important role in my story because my grandpa gave me an omamori, a lucky charm from there, when I was a child. I also passed through an airport in this country on my way to the United States, where I almost lost that charm. This nation is connected to my journey and the protective symbol my grandpa believed would keep me safe.",
+    "cues": [
+      "lucky charm from Japan",
+      "omamori",
+      "Japanese airport",
+      "travel to USA"
+    ],
+    "transcript_ref": "immigration\\imm_umn_310_lap_tran.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "Omamori",
+    "explicit_text": "The omamori is a lucky charm from Japan that my grandpa gave me when I was five because I was often sick. It has been with me for over 15 years and has been a source of comfort through my highest and lowest moments. Losing it at a Japanese airport was terrifying, but thankfully a cleaning lady found it and returned it to me, which made me realize how important it is as a connection to my grandpa.",
+    "implicit_text": "This traditional Japanese lucky charm was given to me by my grandpa when I was five because I was often sick. It has been with me for over 15 years and has been a source of comfort through my highest and lowest moments. Losing it at an airport in Japan was terrifying, but thankfully a cleaning lady found it and returned it to me, which made me realize how important it is as a connection to my grandpa.",
+    "cues": [
+      "lucky charm",
+      "given by grandpa",
+      "over 15 years",
+      "lost and found at airport",
+      "comfort and connection"
+    ],
+    "transcript_ref": "immigration\\imm_umn_310_lap_tran.yaml"
+  },
+  {
+    "entity_id": 5,
+    "entity": "United States of America",
+    "explicit_text": "I came to the United States of America not knowing what to expect, so I packed everything I thought I might need, including clothes, ramen noodles, and books. My journey included a stop in Japan, and arriving in the USA marked a big change in my life. The lucky charm from my grandpa was especially important during this transition, reminding me to be myself and stay connected to my roots.",
+    "implicit_text": "I came to this North American country not knowing what to expect, so I packed everything I thought I might need, including clothes, ramen noodles, and books. My journey included a stop in Japan, and arriving here marked a big change in my life. The lucky charm from my grandpa was especially important during this transition, reminding me to be myself and stay connected to my roots.",
+    "cues": [
+      "moving to USA",
+      "packed belongings",
+      "transition",
+      "connection to grandpa"
+    ],
+    "transcript_ref": "immigration\\imm_umn_310_lap_tran.yaml"
+  }
+]

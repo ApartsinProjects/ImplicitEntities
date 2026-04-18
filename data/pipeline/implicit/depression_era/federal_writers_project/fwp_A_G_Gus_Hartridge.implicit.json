@@ -1,0 +1,345 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "Jacksonville, Florida",
+    "explicit_text": "I was born in Jacksonville on May 27, 1869, and spent my early years there. Our family home was at the corner of Liberty and Yeavitz Streets, a popular residential area in those days. Jacksonville has always seemed to me the most wonderful place to live, filled with wonderful people and promising a bright future due to its geographic location on the St. Johns River and proximity to the ocean. I practiced law there for many years and witnessed its growth firsthand.",
+    "implicit_text": "I was born in the largest city in northeastern Florida on May 27, 1869, and spent my early years there. Our family home was at the corner of Liberty and Yeavitz Streets, a popular residential area in those days. This city has always seemed to me the most wonderful place to live, filled with wonderful people and promising a bright future due to its geographic location on the St. Johns River and proximity to the ocean. I practiced law there for many years and witnessed its growth firsthand.",
+    "cues": [
+      "born May 27, 1869",
+      "Liberty and Yeavitz Streets",
+      "geographic location on river and ocean",
+      "law practice in Jacksonville"
+    ],
+    "transcript_ref": "depression_era\\federal_writers_project\\fwp_A_G_Gus_Hartridge.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "Citadel, The Military College of South Carolina",
+    "explicit_text": "After my education in Jacksonville schools, I attended the Citadel Military Academy in Charleston, South Carolina, from which I graduated. The Citadel provided me with a disciplined military education that shaped my early professional life. It was an important step before I returned to Jacksonville to pursue my career.",
+    "implicit_text": "After my education in Jacksonville schools, I attended the well-known military academy in Charleston, South Carolina, from which I graduated. This institution provided me with a disciplined military education that shaped my early professional life. It was an important step before I returned to Jacksonville to pursue my career.",
+    "cues": [
+      "education in Jacksonville",
+      "attended Citadel Military Academy",
+      "graduated",
+      "Charleston, South Carolina"
+    ],
+    "transcript_ref": "depression_era\\federal_writers_project\\fwp_A_G_Gus_Hartridge.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "Great Fire of 1901",
+    "explicit_text": "The Great Fire of 1901 was a devastating event for my family and me. Our home at Liberty and Yeavitz Streets was completely destroyed, along with all our papers and most of our belongings. This fire marked a significant loss in Jacksonville's history and personally affected us deeply.",
+    "implicit_text": "The massive conflagration that swept through my hometown in 1901 was a devastating event for my family and me. Our home at Liberty and Yeavitz Streets was completely destroyed, along with all our papers and most of our belongings. This fire marked a significant loss in the city's history and personally affected us deeply.",
+    "cues": [
+      "home destroyed",
+      "Liberty and Yeavitz Streets",
+      "loss of papers and belongings",
+      "Jacksonville history"
+    ],
+    "transcript_ref": "depression_era\\federal_writers_project\\fwp_A_G_Gus_Hartridge.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "St. Luke's Hospital (Jacksonville)",
+    "explicit_text": "My mother, along with Mrs. Aristides Doggett and Mrs. Alexander Mitchell, was instrumental in starting St. Luke's Hospital in Jacksonville. The first building, located at Church and Market Streets, burned down before completion, but they rebuilt it in the early 1870s on Duval Street. These women managed the hospital in its early days, providing care without trained nurses, relying on practical nurses and volunteers.",
+    "implicit_text": "My mother, along with Mrs. Aristides Doggett and Mrs. Alexander Mitchell, was instrumental in starting the first hospital in our city. The initial building, located at Church and Market Streets, burned down before completion, but they rebuilt it in the early 1870s on Duval Street. These women managed the hospital in its early days, providing care without trained nurses, relying on practical nurses and volunteers.",
+    "cues": [
+      "my mother involved",
+      "Mrs. Doggett and Mrs. Mitchell",
+      "first building burned",
+      "rebuilt in early 1870s",
+      "Jacksonville"
+    ],
+    "transcript_ref": "depression_era\\federal_writers_project\\fwp_A_G_Gus_Hartridge.yaml"
+  },
+  {
+    "entity_id": 5,
+    "entity": "St. Johns River",
+    "explicit_text": "The St. Johns River was central to recreation and social life in my youth. Moonlight boat rides on the river were a favorite pastime, with excursions ending at places like Green Cove Springs, Middlebar, and Arlington. The river also bordered many plantations and estates, including the beautiful Villa Alexandria on its south side.",
+    "implicit_text": "The main river flowing through my hometown was central to recreation and social life in my youth. Moonlight boat rides on this river were a favorite pastime, with excursions ending at places like Green Cove Springs, Middlebar, and Arlington. The river also bordered many plantations and estates, including the beautiful Villa Alexandria on its south side.",
+    "cues": [
+      "moonlight boat rides",
+      "Green Cove Springs",
+      "Middlebar",
+      "Arlington",
+      "Villa Alexandria"
+    ],
+    "transcript_ref": "depression_era\\federal_writers_project\\fwp_A_G_Gus_Hartridge.yaml"
+  },
+  {
+    "entity_id": 6,
+    "entity": "Japanese lantern",
+    "explicit_text": "At the annual lawn parties held by Mrs. Alexander Mitchell for the benefit of St. Luke's Hospital, the grounds were illuminated by thousands of Japanese lanterns. This was before electric lights, so the lanterns were the sole source of lighting and created a magical atmosphere. These events were major social occasions in Jacksonville, drawing many people by chartered boats.",
+    "implicit_text": "At the annual lawn parties held by Mrs. Alexander Mitchell for the benefit of the local hospital, the grounds were illuminated by thousands of lanterns from East Asia. This was before electric lights, so the lanterns were the sole source of lighting and created a magical atmosphere. These events were major social occasions in our city, drawing many people by chartered boats.",
+    "cues": [
+      "annual lawn parties",
+      "Mrs. Mitchell",
+      "St. Luke's Hospital benefit",
+      "no electric lights",
+      "Jacksonville social event"
+    ],
+    "transcript_ref": "depression_era\\federal_writers_project\\fwp_A_G_Gus_Hartridge.yaml"
+  },
+  {
+    "entity_id": 7,
+    "entity": "Yellow fever",
+    "explicit_text": "Jacksonville experienced three major yellow fever epidemics, in 1876, 1881, and 1888. Although I was not in the city during the last one, I heard much about it. People knew mosquitoes spread the disease, so those who could afford it left the city during the hot months until the first frost killed the mosquitoes, making it safe to return.",
+    "implicit_text": "My hometown experienced three major yellow fever epidemics, in 1876, 1881, and 1888. Although I was not in the city during the last one, I heard much about it. People knew mosquitoes spread the disease, so those who could afford it left the city during the hot months until the first frost killed the mosquitoes, making it safe to return.",
+    "cues": [
+      "three epidemics",
+      "1876, 1881, 1888",
+      "mosquito transmission",
+      "people leaving during hot weather",
+      "Jacksonville"
+    ],
+    "transcript_ref": "depression_era\\federal_writers_project\\fwp_A_G_Gus_Hartridge.yaml"
+  },
+  {
+    "entity_id": 8,
+    "entity": "Florida Yacht Club",
+    "explicit_text": "The Florida Yacht Club was established in 1898 and was a center for wintertime recreation. We held dances there every two weeks, which were popular social events. Alongside these formal dances, informal Saturday evening dances were held at the St. James Hotel, making for a lively social scene in Jacksonville.",
+    "implicit_text": "The prominent yacht club founded in 1898 was a center for wintertime recreation. We held dances there every two weeks, which were popular social events. Alongside these formal dances, informal Saturday evening dances were held at the St. James Hotel, making for a lively social scene in my hometown.",
+    "cues": [
+      "established 1898",
+      "winter dances every two weeks",
+      "informal dances at St. James Hotel",
+      "Jacksonville social life"
+    ],
+    "transcript_ref": "depression_era\\federal_writers_project\\fwp_A_G_Gus_Hartridge.yaml"
+  },
+  {
+    "entity_id": 9,
+    "entity": "St. James Hotel (Jacksonville)",
+    "explicit_text": "In my youth, the St. James Hotel was a hub for informal Saturday evening dances. It was located where the Cohen Store building now stands. These dances were a regular feature of Jacksonville's social life and provided a gathering place for many residents.",
+    "implicit_text": "In my youth, the well-known hotel downtown was a hub for informal Saturday evening dances. It was located where the Cohen Store building now stands. These dances were a regular feature of the city's social life and provided a gathering place for many residents.",
+    "cues": [
+      "informal dances",
+      "Saturday evenings",
+      "location now Cohen Store building",
+      "Jacksonville social life"
+    ],
+    "transcript_ref": "depression_era\\federal_writers_project\\fwp_A_G_Gus_Hartridge.yaml"
+  },
+  {
+    "entity_id": 10,
+    "entity": "Green Cove Springs, Florida",
+    "explicit_text": "Green Cove Springs was one of the favorite picnic and excursion destinations accessible by boat from Jacksonville. Since there were no railroads running up the St. Johns River at the time, boat rides would often end there, making it a popular spot for recreation and social outings.",
+    "implicit_text": "This charming town was one of the favorite picnic and excursion destinations accessible by boat from my hometown. Since there were no railroads running up the main river at the time, boat rides would often end there, making it a popular spot for recreation and social outings.",
+    "cues": [
+      "boat excursions",
+      "no railroads on river",
+      "picnic spot",
+      "near Jacksonville"
+    ],
+    "transcript_ref": "depression_era\\federal_writers_project\\fwp_A_G_Gus_Hartridge.yaml"
+  },
+  {
+    "entity_id": 11,
+    "entity": "Arlington, Jacksonville",
+    "explicit_text": "Arlington was another popular destination along the St. Johns River for boat rides and picnics. It was also home to the Sammie Plantation, which had a unique history involving an African princess. Arlington was part of the recreational circuit for residents of Jacksonville in my youth.",
+    "implicit_text": "This riverside community was another popular destination along the main river for boat rides and picnics. It was also home to the Sammie Plantation, which had a unique history involving an African princess. Arlington was part of the recreational circuit for residents of my hometown in my youth.",
+    "cues": [
+      "boat rides",
+      "picnic spot",
+      "Sammie Plantation",
+      "Jacksonville area"
+    ],
+    "transcript_ref": "depression_era\\federal_writers_project\\fwp_A_G_Gus_Hartridge.yaml"
+  },
+  {
+    "entity_id": 12,
+    "entity": "Jones Plantation",
+    "explicit_text": "The Springfield section, known as the Jones Plantation during my boyhood, was an important local landmark. Mr. Jones was the grandfather of William Bestwick, a notable figure in the area. This plantation was part of the landscape and history of Jacksonville's outskirts in those days.",
+    "implicit_text": "The Springfield section, known by the plantation name during my boyhood, was an important local landmark. The owner was the grandfather of William Bestwick, a notable figure in the area. This plantation was part of the landscape and history of the outskirts of my hometown in those days.",
+    "cues": [
+      "Springfield section",
+      "Jones Plantation",
+      "Mr. Jones grandfather of William Bestwick",
+      "Jacksonville outskirts"
+    ],
+    "transcript_ref": "depression_era\\federal_writers_project\\fwp_A_G_Gus_Hartridge.yaml"
+  },
+  {
+    "entity_id": 13,
+    "entity": "William Bestwick",
+    "explicit_text": "William Bestwick was the grandson of Mr. Jones, who owned the Jones Plantation in the Springfield area. Though I did not know him personally, his family was well known in the region, and their plantation was a notable part of Jacksonville's history.",
+    "implicit_text": "This man was the grandson of the plantation owner in the Springfield area. Though I did not know him personally, his family was well known in the region, and their plantation was a notable part of the local history.",
+    "cues": [
+      "grandson of Mr. Jones",
+      "Jones Plantation",
+      "Springfield area",
+      "Jacksonville history"
+    ],
+    "transcript_ref": "depression_era\\federal_writers_project\\fwp_A_G_Gus_Hartridge.yaml"
+  },
+  {
+    "entity_id": 14,
+    "entity": "Sammie Plantation",
+    "explicit_text": "The Sammie Plantation was located at Arlington on the south side of the St. Johns River. An interesting fact about it is that Mr. Sammie's wife was an African princess. This plantation was part of the local heritage and landscape during my youth.",
+    "implicit_text": "This plantation was located at Arlington on the south side of the main river. An interesting fact about it is that the owner's wife was an African princess. This plantation was part of the local heritage and landscape during my youth.",
+    "cues": [
+      "Arlington location",
+      "south side of St. Johns River",
+      "Mr. Sammie's wife African princess",
+      "local heritage"
+    ],
+    "transcript_ref": "depression_era\\federal_writers_project\\fwp_A_G_Gus_Hartridge.yaml"
+  },
+  {
+    "entity_id": 15,
+    "entity": "Mandarin, Jacksonville",
+    "explicit_text": "Mandarin was a collection of well-kept estates owned mostly by English families like the Bowdens, Bardins, and James family. It was beautifully developed with orange groves until a big freeze in 1864 or 1886 devastated the orange industry there. Despite this, Mandarin remained a notable part of the Jacksonville area.",
+    "implicit_text": "This area was a collection of well-kept estates owned mostly by English families like the Bowdens, Bardins, and James family. It was beautifully developed with orange groves until a big freeze in 1864 or 1886 devastated the orange industry there. Despite this, the area remained a notable part of the greater city region.",
+    "cues": [
+      "English families",
+      "Bowden, Bardin, James",
+      "orange groves",
+      "freeze in 1864 or 1886",
+      "Jacksonville area"
+    ],
+    "transcript_ref": "depression_era\\federal_writers_project\\fwp_A_G_Gus_Hartridge.yaml"
+  },
+  {
+    "entity_id": 16,
+    "entity": "Roosevelt",
+    "explicit_text": "I am a strong supporter of Mr. Roosevelt and his policies and programs. In my opinion, he is the most wonderful man alive today. His leadership gives me great confidence in the future of our country.",
+    "implicit_text": "I am a strong supporter of the President and his policies and programs. In my opinion, he is the most wonderful man alive today. His leadership gives me great confidence in the future of our country.",
+    "cues": [
+      "support of Roosevelt",
+      "policies and programs",
+      "most wonderful man alive"
+    ],
+    "transcript_ref": "depression_era\\federal_writers_project\\fwp_A_G_Gus_Hartridge.yaml"
+  },
+  {
+    "entity_id": 17,
+    "entity": "State's Attorney",
+    "explicit_text": "I served as State's Attorney in Jacksonville for sixteen years, which was a significant part of my legal career. This role involved prosecuting important cases and contributing to the administration of justice in the city. Afterward, I served as a judge in the Criminal Court of Pala Beach County before retiring.",
+    "implicit_text": "I served as the chief prosecutor in my city for sixteen years, which was a significant part of my legal career. This role involved prosecuting important cases and contributing to the administration of justice locally. Afterward, I served as a judge in the Criminal Court of the surrounding county before retiring.",
+    "cues": [
+      "served sixteen years",
+      "Jacksonville",
+      "legal career",
+      "prosecution",
+      "Pala Beach County judge"
+    ],
+    "transcript_ref": "depression_era\\federal_writers_project\\fwp_A_G_Gus_Hartridge.yaml"
+  },
+  {
+    "entity_id": 18,
+    "entity": "Pala Beach County",
+    "explicit_text": "After my time as State's Attorney, I served as a judge in the Criminal Court of Pala Beach County for six years. This position allowed me to continue my work in the legal field before I retired from active practice two years ago. I still maintain an office handling rental services.",
+    "implicit_text": "After my time as chief prosecutor, I served as a judge in the Criminal Court of this coastal county for six years. This position allowed me to continue my work in the legal field before I retired from active practice two years ago. I still maintain an office handling rental services.",
+    "cues": [
+      "judge in Criminal Court",
+      "six years",
+      "retired two years ago",
+      "legal work"
+    ],
+    "transcript_ref": "depression_era\\federal_writers_project\\fwp_A_G_Gus_Hartridge.yaml"
+  },
+  {
+    "entity_id": 19,
+    "entity": "State v. Addis Pitsler",
+    "explicit_text": "One of the most interesting cases I prosecuted was State v. Addis Pitsler in 1896. It involved the murder of Maria Degatte, a beautiful Cuban girl and daughter of Gatte, owner of Gatte's Cigar Factory. Despite strong evidence, Pitsler was acquitted due to perjured testimony, and the trial lasted three weeks, creating intense excitement in Jacksonville.",
+    "implicit_text": "One of the most interesting cases I prosecuted was the 1896 murder trial involving a young Cuban woman and her boyfriend. The victim was the daughter of a local cigar factory owner. Despite strong evidence, the accused was acquitted due to perjured testimony, and the trial lasted three weeks, creating intense excitement in my hometown.",
+    "cues": [
+      "1896 trial",
+      "murder of Maria Degatte",
+      "Gatte's Cigar Factory",
+      "three-week trial",
+      "Jacksonville"
+    ],
+    "transcript_ref": "depression_era\\federal_writers_project\\fwp_A_G_Gus_Hartridge.yaml"
+  },
+  {
+    "entity_id": 20,
+    "entity": "Maria Degatte",
+    "explicit_text": "Maria Degatte was a beautiful Cuban girl and the daughter of Gatte, who owned Gatte's Cigar Factory. She was tragically murdered in 1896, and I was involved in prosecuting the case against Addis Pitsler, her boyfriend. The case was highly publicized and emotionally charged in Jacksonville at the time.",
+    "implicit_text": "She was a beautiful Cuban girl and the daughter of the owner of a well-known cigar factory. She was tragically murdered in 1896, and I was involved in prosecuting the case against her boyfriend. The case was highly publicized and emotionally charged in our city at the time.",
+    "cues": [
+      "daughter of Gatte",
+      "murdered 1896",
+      "Jacksonville",
+      "prosecution involvement"
+    ],
+    "transcript_ref": "depression_era\\federal_writers_project\\fwp_A_G_Gus_Hartridge.yaml"
+  },
+  {
+    "entity_id": 21,
+    "entity": "Gatte's Cigar Factory",
+    "explicit_text": "Gatte's Cigar Factory was owned by Mr. Gatte, the father of Maria Degatte. The factory was a known establishment in Jacksonville, and the Degatte family was part of the community. The murder of Maria brought attention to the family and the factory during the 1896 trial.",
+    "implicit_text": "This cigar factory was owned by the father of the murdered young woman. The factory was a known establishment in my city, and the family was part of the community. The murder brought attention to both the family and the factory during the 1896 trial.",
+    "cues": [
+      "owned by Mr. Gatte",
+      "Jacksonville",
+      "family connected to murder case",
+      "1896"
+    ],
+    "transcript_ref": "depression_era\\federal_writers_project\\fwp_A_G_Gus_Hartridge.yaml"
+  },
+  {
+    "entity_id": 22,
+    "entity": "Senator Nathaniel P. Bryan",
+    "explicit_text": "Senator Nathaniel P. Bryan was associated with me during my legal career, particularly in prosecuting cases. Though not detailed extensively, his involvement in legal matters in Jacksonville was notable during my time.",
+    "implicit_text": "This senator was associated with me during my legal career, particularly in prosecuting cases. Though not detailed extensively, his involvement in legal matters in our city was notable during my time.",
+    "cues": [
+      "legal association",
+      "Jacksonville",
+      "prosecution"
+    ],
+    "transcript_ref": "depression_era\\federal_writers_project\\fwp_A_G_Gus_Hartridge.yaml"
+  },
+  {
+    "entity_id": 23,
+    "entity": "Colonel Alexander W. Cookrell",
+    "explicit_text": "Colonel Alexander W. Cookrell worked alongside me and Senator Bryan in prosecuting the State v. Addis Pitsler case. His participation was important in this high-profile trial that gripped Jacksonville in 1896.",
+    "implicit_text": "This colonel worked alongside me and the senator in prosecuting the 1896 murder case. His participation was important in this high-profile trial that gripped our city.",
+    "cues": [
+      "co-prosecutor",
+      "State v. Addis Pitsler",
+      "1896 trial",
+      "Jacksonville"
+    ],
+    "transcript_ref": "depression_era\\federal_writers_project\\fwp_A_G_Gus_Hartridge.yaml"
+  },
+  {
+    "entity_id": 24,
+    "entity": "Colonel Alexander St. Clair Abrams",
+    "explicit_text": "Colonel Alexander St. Clair Abrams was one of the defense lawyers in the State v. Addis Pitsler trial. He, along with Frank Pope and Dan Campbell, represented Pitsler during the intense three-week trial in Jacksonville.",
+    "implicit_text": "This colonel was one of the defense lawyers in the 1896 murder trial. He, along with two others, represented the accused during the intense three-week trial in our city.",
+    "cues": [
+      "defense lawyer",
+      "State v. Addis Pitsler",
+      "1896 trial",
+      "Jacksonville"
+    ],
+    "transcript_ref": "depression_era\\federal_writers_project\\fwp_A_G_Gus_Hartridge.yaml"
+  },
+  {
+    "entity_id": 25,
+    "entity": "Frank Pope",
+    "explicit_text": "Frank Pope was part of the defense team for Addis Pitsler in the 1896 murder trial of Maria Degatte. Alongside Colonel Abrams and Dan Campbell, he worked to secure Pitsler's acquittal in a case that drew much public attention in Jacksonville.",
+    "implicit_text": "He was part of the defense team for the accused in the 1896 murder trial of the young Cuban woman. Alongside the colonel and another lawyer, he worked to secure the acquittal in a case that drew much public attention in our city.",
+    "cues": [
+      "defense lawyer",
+      "State v. Addis Pitsler",
+      "1896 trial",
+      "Jacksonville"
+    ],
+    "transcript_ref": "depression_era\\federal_writers_project\\fwp_A_G_Gus_Hartridge.yaml"
+  },
+  {
+    "entity_id": 26,
+    "entity": "Dan Campbell",
+    "explicit_text": "Dan Campbell was another defense attorney representing Addis Pitsler during the 1896 trial for the murder of Maria Degatte. The trial lasted three weeks and was a major event in Jacksonville's legal history.",
+    "implicit_text": "He was another defense attorney representing the accused during the 1896 trial for the murder of the young Cuban woman. The trial lasted three weeks and was a major event in our city's legal history.",
+    "cues": [
+      "defense lawyer",
+      "State v. Addis Pitsler",
+      "1896 trial",
+      "Jacksonville"
+    ],
+    "transcript_ref": "depression_era\\federal_writers_project\\fwp_A_G_Gus_Hartridge.yaml"
+  }
+]

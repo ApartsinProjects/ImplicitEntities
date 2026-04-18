@@ -1,0 +1,106 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "Maria Chavarin",
+    "explicit_text": "My story begins with Maria Chavarin, who married at the young age of twelve and started a home and business with her husband. When money became tight, her husband worked in the United States through the bracero program, and Maria followed him to work the fields as well. Together, they raised twelve children before deciding to move back to Mexico. Maria’s life reflects the struggles and resilience of a family seeking better opportunities across borders.",
+    "implicit_text": "My story begins with a woman who married at the young age of twelve and started a home and business with her husband. When money became tight, her husband worked in the United States through a labor program, and she followed him to work the fields as well. Together, they raised twelve children before deciding to move back to their home country. Her life reflects the struggles and resilience of a family seeking better opportunities across borders.",
+    "cues": [
+      "married at twelve",
+      "started a business",
+      "bracero program",
+      "worked fields",
+      "twelve children",
+      "moved back to Mexico"
+    ],
+    "transcript_ref": "immigration\\imm_umn_348_maria_chavarin.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "Bracero program",
+    "explicit_text": "The bracero program was a turning point for my grandparents during the 1940s. My grandfather joined the program to work in the United States fields so he could send money back to Mexico and support his large family. This program allowed him to bring his wife and children to the U.S. where they all worked together in agriculture. It was through the bracero program that our family found a new life and opportunities in the United States.",
+    "implicit_text": "This labor program was a turning point for my grandparents during the 1940s. My grandfather joined it to work in the United States fields so he could send money back to Mexico and support his large family. This program allowed him to bring his wife and children to the U.S. where they all worked together in agriculture. It was through this initiative that our family found a new life and opportunities in the United States.",
+    "cues": [
+      "1940s",
+      "grandfather joined",
+      "work in fields",
+      "send money to Mexico",
+      "family migration",
+      "United States"
+    ],
+    "transcript_ref": "immigration\\imm_umn_348_maria_chavarin.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "Mexico",
+    "explicit_text": "Mexico is where my family’s roots are deeply planted. My grandparents lived in a small town in Jalisco, working as traditional ranch farmers and later opening a butcher shop. After facing hard times, they moved to the United States for better work opportunities but eventually decided to return to Mexico as they missed their homeland. Mexico represents both the beginning and the return point in my family’s journey.",
+    "implicit_text": "This country is where my family’s roots are deeply planted. My grandparents lived in a small town in Jalisco, working as traditional ranch farmers and later opening a butcher shop. After facing hard times, they moved to the United States for better work opportunities but eventually decided to return as they missed their homeland. This place represents both the beginning and the return point in my family’s journey.",
+    "cues": [
+      "small town",
+      "Jalisco",
+      "ranch farmers",
+      "butcher shop",
+      "moved to U.S.",
+      "returned to Mexico"
+    ],
+    "transcript_ref": "immigration\\imm_umn_348_maria_chavarin.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "Salinas, California",
+    "explicit_text": "I was born and raised in Salinas, California, the second oldest of four children. Although my parents were born in Mexico, Salinas became my home and the place where my family settled after migrating from Mexico. It’s where I grew up surrounded by a mix of Mexican traditions and American life. Salinas holds the memories of my childhood and the blending of two cultures in my family.",
+    "implicit_text": "I was born and raised in a city in California, the second oldest of four children. Although my parents were born in Mexico, this city became my home and the place where my family settled after migrating. It’s where I grew up surrounded by a mix of Mexican traditions and American life. This city holds the memories of my childhood and the blending of two cultures in my family.",
+    "cues": [
+      "born and raised",
+      "second oldest of four",
+      "parents from Mexico",
+      "family settled",
+      "Mexican traditions",
+      "American life"
+    ],
+    "transcript_ref": "immigration\\imm_umn_348_maria_chavarin.yaml"
+  },
+  {
+    "entity_id": 5,
+    "entity": "United States",
+    "explicit_text": "The United States became a land of opportunity for my grandparents and family during the mid-20th century. They came here through the bracero program to work in the fields and support their family back in Mexico. Many of their children, including my parents, grew up here and built their lives in places like Salinas, California. Though some family members eventually returned to Mexico, the U.S. remains a central part of our family’s story and identity.",
+    "implicit_text": "This country became a land of opportunity for my grandparents and family during the mid-20th century. They came here through a labor program to work in the fields and support their family back in Mexico. Many of their children, including my parents, grew up here and built their lives in places like the city in California where I was raised. Though some family members eventually returned to Mexico, this country remains a central part of our family’s story and identity.",
+    "cues": [
+      "mid-20th century",
+      "bracero program",
+      "work in fields",
+      "Salinas, California",
+      "family migration",
+      "some returned to Mexico"
+    ],
+    "transcript_ref": "immigration\\imm_umn_348_maria_chavarin.yaml"
+  },
+  {
+    "entity_id": 6,
+    "entity": "Guadalajara",
+    "explicit_text": "Guadalajara, in Jalisco, Mexico, is where my mother came from when she was fifteen years old. It was near this city that my grandparents lived as traditional ranch farmers before moving to the United States. Guadalajara represents the place my family left behind in search of better opportunities, but it remains an important part of our heritage and identity.",
+    "implicit_text": "This city in Jalisco, Mexico, is where my mother came from when she was fifteen years old. It was near here that my grandparents lived as traditional ranch farmers before moving to the United States. This city represents the place my family left behind in search of better opportunities, but it remains an important part of our heritage and identity.",
+    "cues": [
+      "mother came at 15",
+      "nearby ranch farming",
+      "Jalisco",
+      "family heritage",
+      "migration to U.S."
+    ],
+    "transcript_ref": "immigration\\imm_umn_348_maria_chavarin.yaml"
+  },
+  {
+    "entity_id": 7,
+    "entity": "Jalisco",
+    "explicit_text": "Jalisco is the Mexican state where my grandparents lived in a small town, working as ranch farmers and raising their family. They built a humble life there, making a home from clay and running a butcher shop to support their twelve children. Economic hardships eventually led them to migrate to the United States, but Jalisco remains the foundation of our family’s history and traditions.",
+    "implicit_text": "This Mexican state is where my grandparents lived in a small town, working as ranch farmers and raising their family. They built a humble life there, making a home from clay and running a butcher shop to support their twelve children. Economic hardships eventually led them to migrate to the United States, but this state remains the foundation of our family’s history and traditions.",
+    "cues": [
+      "small town",
+      "ranch farmers",
+      "clay home",
+      "butcher shop",
+      "raised twelve children",
+      "migration to U.S."
+    ],
+    "transcript_ref": "immigration\\imm_umn_348_maria_chavarin.yaml"
+  }
+]

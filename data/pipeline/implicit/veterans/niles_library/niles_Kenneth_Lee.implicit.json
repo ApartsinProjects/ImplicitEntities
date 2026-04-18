@@ -1,0 +1,349 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "World War II",
+    "explicit_text": "I enlisted in the service during World War II in April 1944 and served until June 1946. The war shaped many of my decisions, including leaving high school early to prepare for college and military service. I was aware of the conflict from the attack on Pearl Harbor in 1941, which deeply influenced my family and me. My service included training and preparation for officer roles as the war progressed, especially in the Pacific theater.",
+    "implicit_text": "I enlisted in the service during the global conflict that lasted from 1939 to 1945 in April 1944 and served until June 1946. The war shaped many of my decisions, including leaving high school early to prepare for college and military service. I was aware of the conflict from the attack on the naval base in Hawaii in 1941, which deeply influenced my family and me. My service included training and preparation for officer roles as the war progressed, especially in the Pacific theater.",
+    "cues": [
+      "April 1944 enlistment",
+      "June 1946 discharge",
+      "Pearl Harbor attack 1941",
+      "Pacific War",
+      "officer training"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_Kenneth_Lee.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "Brookfield, Illinois",
+    "explicit_text": "When I enlisted in the Navy in 1944, I was living in Brookfield, Illinois. It was my hometown during my high school years, and I was finishing up at St. Philip High School nearby. Brookfield was where my family and neighbors lived, and it was a community deeply affected by the war, as we lost a close neighbor in 1942 during the Pacific conflict.",
+    "implicit_text": "When I enlisted in the Navy in 1944, I was living in a suburb west of Chicago. It was my hometown during my high school years, and I was finishing up at a nearby Catholic high school. This suburb was where my family and neighbors lived, and it was a community deeply affected by the war, as we lost a close neighbor in 1942 during the Pacific conflict.",
+    "cues": [
+      "1944 enlistment",
+      "St. Philip High School",
+      "neighbor lost 1942",
+      "home town"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_Kenneth_Lee.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "Sons of the American Legion",
+    "explicit_text": "Before I enlisted, I was a member of the Sons of the American Legion, which connected me to the patriotic spirit of the time. When I joined the Navy, I automatically became a member of the American Legion as well. This affiliation was important to me and recognized in my service records and pay grades.",
+    "implicit_text": "Before I enlisted, I was a member of a patriotic organization for male descendants of veterans from the First World War, which connected me to the spirit of the time. When I joined the Navy, I automatically became a member of the larger veterans' organization as well. This affiliation was important to me and recognized in my service records and pay grades.",
+    "cues": [
+      "pre-enlistment membership",
+      "automatic American Legion membership",
+      "patriotism"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_Kenneth_Lee.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "American Legion",
+    "explicit_text": "Upon enlisting in the Navy in 1944, I became a member of the American Legion through my prior membership in the Sons of the American Legion. This membership was acknowledged officially and credited in my military pay. The American Legion represented the community of veterans and was a significant part of my military identity.",
+    "implicit_text": "Upon enlisting in the Navy in 1944, I became a member of the national veterans' organization through my prior membership in its youth auxiliary group. This membership was acknowledged officially and credited in my military pay. The organization represented the community of veterans and was a significant part of my military identity.",
+    "cues": [
+      "1944 enlistment",
+      "membership credit",
+      "veteran community"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_Kenneth_Lee.yaml"
+  },
+  {
+    "entity_id": 5,
+    "entity": "Pearl Harbor",
+    "explicit_text": "I vividly remember being at a basketball game with my father on December 7th, 1941, when the game was stopped to announce that Pearl Harbor had been bombed. At that moment, I asked my dad where Pearl Harbor was, and even he didn't know. That attack was a turning point that prepared me and my family for the reality of going into the service.",
+    "implicit_text": "I vividly remember being at a basketball game with my father on December 7th, 1941, when the game was stopped to announce that the naval base in Hawaii had been bombed. At that moment, I asked my dad where that place was, and even he didn't know. That attack was a turning point that prepared me and my family for the reality of going into the service.",
+    "cues": [
+      "December 7, 1941",
+      "basketball game",
+      "father",
+      "attack announcement"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_Kenneth_Lee.yaml"
+  },
+  {
+    "entity_id": 6,
+    "entity": "St. Philip High School",
+    "explicit_text": "I attended St. Philip High School in Chicago, graduating in 1944. The school was taught by the Servite Brothers and Viatorian Fathers, many of whom became priests. Although the school closed in the late 1960s, it still holds reunions, and I continue to attend them despite fewer classmates showing up each year.",
+    "implicit_text": "I attended a Catholic high school in Chicago, graduating in 1944. The school was taught by two religious orders, many of whom became priests. Although the school closed in the late 1960s, it still holds reunions, and I continue to attend them despite fewer classmates showing up each year.",
+    "cues": [
+      "graduated 1944",
+      "Chicago location",
+      "Servite Brothers and Viatorian Fathers",
+      "school closed late 1960s",
+      "reunions"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_Kenneth_Lee.yaml"
+  },
+  {
+    "entity_id": 7,
+    "entity": "Chicago",
+    "explicit_text": "I grew up and attended high school in Chicago, specifically at St. Philip High School near Kedzie Avenue and Jackson Boulevard. When I was inducted into the Navy, the processing took place in downtown Chicago at the Insurance and Exchange Building. Chicago was the backdrop for much of my early life and the start of my military journey.",
+    "implicit_text": "I grew up and attended high school in the city known as the Windy City, specifically at a Catholic high school near Kedzie Avenue and Jackson Boulevard. When I was inducted into the Navy, the processing took place in downtown at a well-known office building. This city was the backdrop for much of my early life and the start of my military journey.",
+    "cues": [
+      "St. Philip High School location",
+      "induction at Insurance and Exchange Building",
+      "downtown Chicago"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_Kenneth_Lee.yaml"
+  },
+  {
+    "entity_id": 8,
+    "entity": "Servite Order",
+    "explicit_text": "The Servite Brothers were part of the faculty at St. Philip High School where I studied. They not only taught but many went on to become priests. I maintained contact with several of them after my military service and even traveled with my company, keeping those relationships alive.",
+    "implicit_text": "One of the religious orders teaching at my high school was composed of brothers who not only taught but many went on to become priests. I maintained contact with several of them after my military service and even traveled with my company, keeping those relationships alive.",
+    "cues": [
+      "St. Philip High School teaching staff",
+      "became priests",
+      "post-service contact"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_Kenneth_Lee.yaml"
+  },
+  {
+    "entity_id": 9,
+    "entity": "Viatorian Fathers",
+    "explicit_text": "Alongside the Servite Brothers, the Viatorian Fathers taught at St. Philip High School during my time there. They were an important part of the school's religious and educational environment. Their presence shaped my high school experience in Chicago.",
+    "implicit_text": "Alongside the brothers, another religious order of priests taught at my high school during my time there. They were an important part of the school's religious and educational environment. Their presence shaped my high school experience in Chicago.",
+    "cues": [
+      "St. Philip High School faculty",
+      "Chicago",
+      "religious education"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_Kenneth_Lee.yaml"
+  },
+  {
+    "entity_id": 10,
+    "entity": "Lake Geneva",
+    "explicit_text": "My family used to take vacations at Lake Geneva, which was a place I associated with summer and leisure. Despite spending time there, I was never a strong swimmer, partly due to an accident I had as a child in a pool. Lake Geneva was part of my early life but swimming was never my strong suit.",
+    "implicit_text": "My family used to take vacations at a popular resort area in southeastern Wisconsin, which was a place I associated with summer and leisure. Despite spending time there, I was never a strong swimmer, partly due to an accident I had as a child in a pool. That lake was part of my early life but swimming was never my strong suit.",
+    "cues": [
+      "family vacations",
+      "summer",
+      "swimming accident"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_Kenneth_Lee.yaml"
+  },
+  {
+    "entity_id": 11,
+    "entity": "United States Navy",
+    "explicit_text": "I enlisted in the United States Navy in April 1944 at age 17 and served until June 1946. My training included attending DePauw University and later Purdue and the University of Pennsylvania as part of the Navy's V-12 officer training program. Though I couldn't swim well, I chose the Navy influenced by family members and the opportunity for education and service.",
+    "implicit_text": "I enlisted in the naval service of the United States in April 1944 at age 17 and served until June 1946. My training included attending universities such as DePauw, Purdue, and the University of Pennsylvania as part of the Navy's officer training program. Though I couldn't swim well, I chose the naval service influenced by family members and the opportunity for education and service.",
+    "cues": [
+      "April 1944 enlistment",
+      "V-12 program",
+      "DePauw University",
+      "Purdue University",
+      "University of Pennsylvania"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_Kenneth_Lee.yaml"
+  },
+  {
+    "entity_id": 12,
+    "entity": "Army Transportation Corps",
+    "explicit_text": "One of my uncles served as an officer in the Army Transportation Corps during World War II. His service was part of the broader family involvement in the war, with another uncle in the Navy and cousins also serving. His role highlighted the diverse military contributions within my family.",
+    "implicit_text": "One of my uncles served as an officer in the Army's transportation branch during the global conflict from 1939 to 1945. His service was part of the broader family involvement in the war, with another uncle in the Navy and cousins also serving. His role highlighted the diverse military contributions within my family.",
+    "cues": [
+      "uncle officer",
+      "Army Transportation Corps",
+      "family military service"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_Kenneth_Lee.yaml"
+  },
+  {
+    "entity_id": 13,
+    "entity": "Pacific War",
+    "explicit_text": "During my service, the focus of the war shifted to the Pacific after the European conflict ended in 1945. A neighbor of mine was tragically lost when his plane was shot down in the Pacific in 1942, which brought the war's reality close to home. My Navy training was influenced by the demands of the Pacific War, especially as the Navy needed more officers.",
+    "implicit_text": "During my service, the focus of the war shifted to the Pacific after the European conflict ended in 1945. A neighbor of mine was tragically lost when his plane was shot down in the Pacific in 1942, which brought the war's reality close to home. My Navy training was influenced by the demands of the Pacific conflict, especially as the Navy needed more officers.",
+    "cues": [
+      "1942 neighbor lost",
+      "1945 shift to Pacific",
+      "Navy officer training"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_Kenneth_Lee.yaml"
+  },
+  {
+    "entity_id": 14,
+    "entity": "Chicago",
+    "explicit_text": "Chicago was my home city where I attended high school and where I was inducted into the Navy. The induction process took place downtown at the Insurance and Exchange Building. Chicago shaped much of my early life and was the starting point of my military career.",
+    "implicit_text": "The city known as the Windy City was my home where I attended high school and where I was inducted into the Navy. The induction process took place downtown at a prominent office building. This city shaped much of my early life and was the starting point of my military career.",
+    "cues": [
+      "home city",
+      "high school",
+      "induction location"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_Kenneth_Lee.yaml"
+  },
+  {
+    "entity_id": 15,
+    "entity": "Insurance and Exchange Building (Chicago)",
+    "explicit_text": "When I was inducted into the Navy, the processing was done at the Insurance and Exchange Building in downtown Chicago. From there, we were taken directly to the train station to head to DePauw University for training. This building was the gateway for many of us entering service from Chicago.",
+    "implicit_text": "When I was inducted into the Navy, the processing was done at a well-known office building in downtown Chicago. From there, we were taken directly to the train station to head to DePauw University for training. This building was the gateway for many of us entering service from the city.",
+    "cues": [
+      "induction site",
+      "downtown Chicago",
+      "transfer to train station"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_Kenneth_Lee.yaml"
+  },
+  {
+    "entity_id": 16,
+    "entity": "DePauw University",
+    "explicit_text": "I began my Navy officer training at DePauw University in Greencastle, Indiana, where we took boot camp, physical education, and academic courses. The program was intense, with three trimesters per year, and after two years we would become midshipmen. After the war, I returned to DePauw to complete my degree under a special program for returning veterans.",
+    "implicit_text": "I began my Navy officer training at a university in Greencastle, Indiana, where we took boot camp, physical education, and academic courses. The program was intense, with three trimesters per year, and after two years we would become midshipmen. After the war, I returned to that university to complete my degree under a special program for returning veterans.",
+    "cues": [
+      "Navy V-12 training",
+      "Greencastle, Indiana",
+      "two years training",
+      "post-war return"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_Kenneth_Lee.yaml"
+  },
+  {
+    "entity_id": 17,
+    "entity": "Greencastle, Indiana",
+    "explicit_text": "Greencastle, Indiana, is where DePauw University is located, and it was the place I went for my Navy training starting in 1944. It was my first extended time away from home, and the campus had a small student population due to the war. The experience there was a mix of military preparation and college life.",
+    "implicit_text": "Greencastle, Indiana, is where the university I attended for Navy training is located, and it was the place I went starting in 1944. It was my first extended time away from home, and the campus had a small student population due to the war. The experience there was a mix of military preparation and college life.",
+    "cues": [
+      "DePauw University location",
+      "1944 training",
+      "first time away from home"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_Kenneth_Lee.yaml"
+  },
+  {
+    "entity_id": 18,
+    "entity": "V-12 Navy College Training Program",
+    "explicit_text": "I was part of the V-12 Navy College Training Program, which was designed to produce officers during World War II. This program combined college coursework with military training at schools like DePauw, Purdue, and the University of Pennsylvania. It was a rigorous program that prepared us for leadership roles in the Navy.",
+    "implicit_text": "I was part of a Navy College Training Program designed to produce officers during the global conflict. This program combined college coursework with military training at schools like DePauw, Purdue, and the University of Pennsylvania. It was a rigorous program that prepared us for leadership roles in the Navy.",
+    "cues": [
+      "World War II",
+      "officer training",
+      "DePauw, Purdue, University of Pennsylvania"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_Kenneth_Lee.yaml"
+  },
+  {
+    "entity_id": 19,
+    "entity": "V-5 (United States Navy)",
+    "explicit_text": "The V-5 program was the Navy's Air Corps training track, different from my V-12 program which focused on other officer roles. At DePauw, there were men from both V-5 and V-12 programs, and some had already seen sea duty. The V-5 was specifically for those going into flight training.",
+    "implicit_text": "The Navy's Air Corps training track was different from my program which focused on other officer roles. At DePauw, there were men from both programs, and some had already seen sea duty. The Air Corps program was specifically for those going into flight training.",
+    "cues": [
+      "Navy Air Corps",
+      "DePauw University",
+      "flight training"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_Kenneth_Lee.yaml"
+  },
+  {
+    "entity_id": 20,
+    "entity": "Purdue University",
+    "explicit_text": "After DePauw, I was transferred to Purdue University in 1945 as part of my Navy training. There, I took courses in seamanship, damage control, communication, and celestial navigation. Purdue offered a larger campus and more specialized naval training as the war shifted focus to the Pacific.",
+    "implicit_text": "After DePauw, I was transferred to a large university in Indiana in 1945 as part of my Navy training. There, I took courses in seamanship, damage control, communication, and celestial navigation. This university offered a larger campus and more specialized naval training as the war shifted focus to the Pacific.",
+    "cues": [
+      "1945 transfer",
+      "Navy courses",
+      "larger university",
+      "naval training"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_Kenneth_Lee.yaml"
+  },
+  {
+    "entity_id": 21,
+    "entity": "University of Pennsylvania",
+    "explicit_text": "I was later transferred to the University of Pennsylvania's Wharton School to continue my Navy officer training with a focus on economics and accounting. It was a large school with big lecture halls, quite different from my earlier colleges. This experience broadened my education and prepared me for post-war life.",
+    "implicit_text": "I was later transferred to an Ivy League university's business school to continue my Navy officer training with a focus on economics and accounting. It was a large school with big lecture halls, quite different from my earlier colleges. This experience broadened my education and prepared me for post-war life.",
+    "cues": [
+      "Wharton School",
+      "economics and accounting",
+      "large university",
+      "Navy training"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_Kenneth_Lee.yaml"
+  },
+  {
+    "entity_id": 22,
+    "entity": "Wharton School of the University of Pennsylvania",
+    "explicit_text": "At the Wharton School, I took business-related courses as part of my Navy training program. The school was large and prestigious, and the classes were more impersonal, with students known by numbers rather than names. This was a contrast to my earlier college experiences and helped me gain valuable skills.",
+    "implicit_text": "At the business school of that Ivy League university, I took business-related courses as part of my Navy training program. The school was large and prestigious, and the classes were more impersonal, with students known by numbers rather than names. This was a contrast to my earlier college experiences and helped me gain valuable skills.",
+    "cues": [
+      "business courses",
+      "large lecture halls",
+      "Navy officer training"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_Kenneth_Lee.yaml"
+  },
+  {
+    "entity_id": 23,
+    "entity": "Naval Reserve Officers Training Corps",
+    "explicit_text": "After the war, the Navy offered us the option to continue in the peacetime Naval Reserve Officers Training Corps program, which required additional schooling and service. I chose instead to leave the Navy and use the GI Bill to finish my education. The NROTC program was the continuation of the officer training I had begun during the war.",
+    "implicit_text": "After the war, the Navy offered us the option to continue in the peacetime reserve officers training program, which required additional schooling and service. I chose instead to leave the Navy and use the veterans' education benefit to finish my education. The reserve program was the continuation of the officer training I had begun during the war.",
+    "cues": [
+      "post-war program",
+      "additional service requirement",
+      "GI Bill decision"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_Kenneth_Lee.yaml"
+  },
+  {
+    "entity_id": 24,
+    "entity": "GI Bill",
+    "explicit_text": "After leaving the Navy in 1946, I used the GI Bill to complete my college education. This benefit was crucial for veterans like me to transition back to civilian life and finish degrees. It allowed me to return to DePauw University and take advantage of special programs for returning servicemen.",
+    "implicit_text": "After leaving the Navy in 1946, I used the veterans' education benefit to complete my college education. This benefit was crucial for veterans like me to transition back to civilian life and finish degrees. It allowed me to return to the university in Indiana and take advantage of special programs for returning servicemen.",
+    "cues": [
+      "post-1946 education",
+      "veteran benefits",
+      "DePauw University"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_Kenneth_Lee.yaml"
+  },
+  {
+    "entity_id": 25,
+    "entity": "Western Electric",
+    "explicit_text": "Although not detailed in my military story, Western Electric was a major employer in Chicago where many veterans found work after the war. The company had facilities like the Hawthorne Works, which was well known in the area. It was part of the industrial landscape of my hometown.",
+    "implicit_text": "Although not detailed in my military story, a major telecommunications equipment manufacturer was a significant employer in Chicago where many veterans found work after the war. The company had facilities like a famous industrial plant, which was well known in the area. It was part of the industrial landscape of my hometown.",
+    "cues": [
+      "Chicago employer",
+      "Hawthorne Works",
+      "post-war industry"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_Kenneth_Lee.yaml"
+  },
+  {
+    "entity_id": 26,
+    "entity": "Hawthorne Works",
+    "explicit_text": "Hawthorne Works was a large industrial plant in Chicago associated with Western Electric. It was part of the community where I grew up and where many people worked during and after the war. The plant was an important part of Chicago's industrial history.",
+    "implicit_text": "A large industrial plant in Chicago associated with a major telecommunications company was part of the community where I grew up and where many people worked during and after the war. The plant was an important part of Chicago's industrial history.",
+    "cues": [
+      "Chicago location",
+      "Western Electric",
+      "industrial plant"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_Kenneth_Lee.yaml"
+  },
+  {
+    "entity_id": 27,
+    "entity": "John Dillinger",
+    "explicit_text": "John Dillinger was a notorious figure from the Chicago area during my youth. While I didn't have a personal connection, his story was part of the local lore and history that shaped the environment I grew up in. Dillinger's exploits were well known in Chicago during the 1930s.",
+    "implicit_text": "A notorious criminal figure from the Chicago area during my youth was well known locally. While I didn't have a personal connection, his story was part of the local lore and history that shaped the environment I grew up in. His exploits were well known in Chicago during the 1930s.",
+    "cues": [
+      "Chicago criminal history",
+      "1930s",
+      "local lore"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_Kenneth_Lee.yaml"
+  },
+  {
+    "entity_id": 28,
+    "entity": "Abraham Lincoln",
+    "explicit_text": "Abraham Lincoln was a historical figure often referenced in my community and education. While I never met him, his legacy was part of the patriotic and civic values that influenced me growing up in Illinois. Lincoln's example was a backdrop to the spirit of service during World War II.",
+    "implicit_text": "A former president and iconic figure in American history was often referenced in my community and education. While I never met him, his legacy was part of the patriotic and civic values that influenced me growing up in Illinois. His example was a backdrop to the spirit of service during the global conflict.",
+    "cues": [
+      "Illinois history",
+      "patriotic values",
+      "civic influence"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_Kenneth_Lee.yaml"
+  }
+]

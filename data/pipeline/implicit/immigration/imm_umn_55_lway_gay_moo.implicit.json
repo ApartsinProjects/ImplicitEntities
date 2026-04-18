@@ -1,0 +1,100 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "Burma",
+    "explicit_text": "I was born in Burma, in a jungle beside a river, during a very difficult time. The war between Burmese soldiers and Karen soldiers was ongoing when I was born, and my family had to flee into the forest for safety. The village we lived in had already been burned by soldiers, so it was not safe to stay there. Burma is where my early life struggles began, surrounded by conflict and hardship.",
+    "implicit_text": "I was born in a Southeast Asian country, in a jungle beside a river, during a very difficult time. The war between the national army and an ethnic armed group was ongoing when I was born, and my family had to flee into the forest for safety. The village we lived in had already been burned by soldiers, so it was not safe to stay there. This country is where my early life struggles began, surrounded by conflict and hardship.",
+    "cues": [
+      "born in Burma",
+      "jungle beside the river",
+      "war between Burmese and Karen soldiers",
+      "village burned",
+      "early life"
+    ],
+    "transcript_ref": "immigration\\imm_umn_55_lway_gay_moo.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "Karen people",
+    "explicit_text": "I belong to the Karen people, who have been caught in conflict with Burmese soldiers for many years. My family and I experienced the violence firsthand, especially during the war that was happening when I was born. The Karen people have had to flee their homes multiple times, including moving to refugee camps in Thailand. Our identity as Karen has shaped much of my early life and the struggles my family faced.",
+    "implicit_text": "I belong to an ethnic group that has been caught in conflict with the national army of my country for many years. My family and I experienced the violence firsthand, especially during the war that was happening when I was born. Members of this group have had to flee their homes multiple times, including moving to refugee camps in a neighboring Southeast Asian country. Our identity as part of this ethnic group has shaped much of my early life and the struggles my family faced.",
+    "cues": [
+      "Karen soldiers",
+      "conflict with Burmese soldiers",
+      "fleeing homes",
+      "refugee camps in Thailand",
+      "identity"
+    ],
+    "transcript_ref": "immigration\\imm_umn_55_lway_gay_moo.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "Karen State",
+    "explicit_text": "After being in the forest for a while, my family moved to Karen Htee Ma Ta village, which is located in Karen State. This was around the time I was a few months old, and my mom worked hard there to support us. Karen State was supposed to be our home, but the war restarted in 1998, forcing us to leave again. It was a place tied to both hope and hardship for my family.",
+    "implicit_text": "After being in the forest for a while, my family moved to a village located in a southeastern region of my home country, known for being the homeland of my ethnic group. This was around the time I was a few months old, and my mom worked hard there to support us. This region was supposed to be our home, but the war restarted in 1998, forcing us to leave again. It was a place tied to both hope and hardship for my family.",
+    "cues": [
+      "Karen Htee Ma Ta village",
+      "Karen State",
+      "mom worked hard",
+      "war restarted 1998",
+      "home and hardship"
+    ],
+    "transcript_ref": "immigration\\imm_umn_55_lway_gay_moo.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "Karen Htee Ma Ta",
+    "explicit_text": "Karen Htee Ma Ta is the village in Karen State where my family settled after escaping the forest. My mom had to work very hard there to feed us, especially after the difficult birth and our time in the jungle. Unfortunately, the war started again when I was just over a year old, and we had to leave Karen Htee Ma Ta to find safety elsewhere. That village represents a brief period of relative stability for my family during a turbulent time.",
+    "implicit_text": "This village in the southeastern region of my country is where my family settled after escaping the forest. My mom had to work very hard there to feed us, especially after the difficult birth and our time in the jungle. Unfortunately, the war started again when I was just over a year old, and we had to leave this village to find safety elsewhere. That village represents a brief period of relative stability for my family during a turbulent time.",
+    "cues": [
+      "Karen Htee Ma Ta village",
+      "Karen State",
+      "mom worked hard",
+      "war started again 1998",
+      "family settlement"
+    ],
+    "transcript_ref": "immigration\\imm_umn_55_lway_gay_moo.yaml"
+  },
+  {
+    "entity_id": 5,
+    "entity": "Thailand",
+    "explicit_text": "When the war restarted in 1998, my family had to flee to a refugee camp in Thailand. The journey was long and difficult, taking about a month on foot, and my mom carried me on her back the entire time. Thailand became a place of refuge after escaping the violence in Karen State. It was there that I first experienced a small sense of safety, even though life was still very hard.",
+    "implicit_text": "When the war restarted in 1998, my family had to flee to a refugee camp in a neighboring country to the east. The journey was long and difficult, taking about a month on foot, and my mom carried me on her back the entire time. This neighboring country became a place of refuge after escaping the violence in the southeastern region of my home country. It was there that I first experienced a small sense of safety, even though life was still very hard.",
+    "cues": [
+      "1998 war restart",
+      "long journey",
+      "refugee camp in Thailand",
+      "mom carried me",
+      "place of refuge"
+    ],
+    "transcript_ref": "immigration\\imm_umn_55_lway_gay_moo.yaml"
+  },
+  {
+    "entity_id": 6,
+    "entity": "United States of America",
+    "explicit_text": "Now, my family and I live in the United States of America, which feels like heaven compared to where we came from. Here, I no longer have to run from soldiers or hear gunshots, and I believe that if I work hard, my future will be bright. America represents hope, education, and success for me, a place where my goals can finally be reached. It is the sweet part of my story after so much bitterness.",
+    "implicit_text": "Now, my family and I live in a North American country, which feels like heaven compared to where we came from. Here, I no longer have to run from soldiers or hear gunshots, and I believe that if I work hard, my future will be bright. This country represents hope, education, and success for me, a place where my goals can finally be reached. It is the sweet part of my story after so much bitterness.",
+    "cues": [
+      "United States of America",
+      "no more running from soldiers",
+      "no gunshots",
+      "hope for future",
+      "education and success"
+    ],
+    "transcript_ref": "immigration\\imm_umn_55_lway_gay_moo.yaml"
+  },
+  {
+    "entity_id": 7,
+    "entity": "Karen conflict",
+    "explicit_text": "The Karen conflict has deeply affected my life and my family’s safety. When I was born, the war between Burmese soldiers and Karen soldiers was ongoing, forcing us to flee into the forest and later to Karen State. The conflict restarted in 1998, which caused us to escape again, this time to a refugee camp in Thailand. This ongoing conflict shaped much of my early childhood and the hardships we endured.",
+    "implicit_text": "The ongoing ethnic conflict in my home country has deeply affected my life and my family’s safety. When I was born, the war between the national army and an ethnic armed group was ongoing, forcing us to flee into the forest and later to the southeastern region of the country. The conflict restarted in 1998, which caused us to escape again, this time to a refugee camp in a neighboring country. This ongoing conflict shaped much of my early childhood and the hardships we endured.",
+    "cues": [
+      "war between Burmese and Karen soldiers",
+      "born during conflict",
+      "fleeing to forest",
+      "1998 restart",
+      "refugee camp"
+    ],
+    "transcript_ref": "immigration\\imm_umn_55_lway_gay_moo.yaml"
+  }
+]

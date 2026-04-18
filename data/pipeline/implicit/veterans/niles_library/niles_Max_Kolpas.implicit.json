@@ -1,0 +1,397 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "Crane Technical High School",
+    "explicit_text": "I left Crane Technical High School in Chicago in March 1943 to enter the Army before completing my last year. While at Crane, I was captain of the ROTC rifle team and won the William Randolph Hearst Trophy. The school was part of my early life on the Northwest Side, near Humboldt Park, where I lived.",
+    "implicit_text": "I left the technical high school on Chicago’s Northwest Side in March 1943 to enter the Army before completing my last year. While there, I was captain of the ROTC rifle team and won a prestigious marksmanship trophy. That school was part of my early life near Humboldt Park, where I lived.",
+    "cues": [
+      "March 1943",
+      "Chicago",
+      "ROTC rifle team",
+      "William Randolph Hearst Trophy",
+      "Northwest Side",
+      "Humboldt Park"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_Max_Kolpas.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "Chicago",
+    "explicit_text": "Chicago was my home city where I grew up after immigrating from Lithuania at age nine in 1933. I lived on the Northwest Side in the Humboldt Park area and attended Crane Technical High School there. Chicago was also where I returned after the war, using the GI Bill to complete high school and college.",
+    "implicit_text": "The city where I grew up after immigrating from Lithuania at age nine in 1933 was my home. I lived on the Northwest Side in the Humboldt Park area and attended the local technical high school. It was also where I returned after the war, using veterans’ education benefits to complete high school and college.",
+    "cues": [
+      "1933 immigration",
+      "Northwest Side",
+      "Humboldt Park",
+      "Crane Technical High School",
+      "post-1945 return",
+      "GI Bill"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_Max_Kolpas.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "William Randolph Hearst Trophy",
+    "explicit_text": "While at Crane Technical High School, I was captain of the ROTC rifle team and proud to receive the William Randolph Hearst Trophy. This award recognized my marksmanship skills, which later helped me in the Army. It was a significant achievement during my high school years before I enlisted in 1943.",
+    "implicit_text": "While attending the technical high school, I was captain of the ROTC rifle team and proud to receive a well-known trophy recognizing marksmanship skills. This award later helped me in the Army. It was a significant achievement during my high school years before I enlisted in 1943.",
+    "cues": [
+      "Crane Technical High School",
+      "ROTC rifle team",
+      "marksmanship",
+      "1943 enlistment"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_Max_Kolpas.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "GI Bill",
+    "explicit_text": "After returning home from Europe in Thanksgiving 1945, I used the GI Bill to go back to school. I completed my high school education in about six months and then graduated from Wright Junior College and the Industrial Engineering College of Chicago. The GI Bill was crucial in helping me further my education after the war.",
+    "implicit_text": "After returning home from Europe in Thanksgiving 1945, I used veterans’ education benefits to go back to school. I completed my high school education in about six months and then graduated from a junior college and an industrial engineering college in Chicago. These benefits were crucial in helping me further my education after the war.",
+    "cues": [
+      "Thanksgiving 1945",
+      "post-war education",
+      "Wright Junior College",
+      "Industrial Engineering College of Chicago"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_Max_Kolpas.yaml"
+  },
+  {
+    "entity_id": 5,
+    "entity": "Humboldt Park",
+    "explicit_text": "I lived in the Humboldt Park area on Chicago's Northwest Side before joining the Army. It was near where I attended Crane Technical High School. Humboldt Park was part of my early American life after immigrating from Lithuania.",
+    "implicit_text": "I lived in the Humboldt Park area on Chicago's Northwest Side before joining the Army. It was near the technical high school I attended. That neighborhood was part of my early American life after immigrating from Lithuania.",
+    "cues": [
+      "Chicago Northwest Side",
+      "pre-1943",
+      "Crane Technical High School"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_Max_Kolpas.yaml"
+  },
+  {
+    "entity_id": 6,
+    "entity": "Lithuania",
+    "explicit_text": "I was born in Lithuania and came to the United States at age nine in 1933 during the Depression. My family spoke several languages including Lithuanian, and we left just before the worst of the Nazi persecution. Sadly, my uncle Herschel and his family were victims of the Holocaust in Lithuania, with my uncle dying at Dachau after being experimented on by Dr. Mengele.",
+    "implicit_text": "I was born in Eastern Europe and came to the United States at age nine in 1933 during the Depression. My family spoke several languages including our native tongue, and we left just before the worst of the Nazi persecution. Sadly, my uncle Herschel and his family were victims of the Holocaust, with my uncle dying at a notorious concentration camp after being experimented on by a Nazi doctor.",
+    "cues": [
+      "born Lithuania",
+      "1933 immigration",
+      "Depression",
+      "Holocaust",
+      "uncle Herschel",
+      "Dachau",
+      "Josef Mengele"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_Max_Kolpas.yaml"
+  },
+  {
+    "entity_id": 7,
+    "entity": "European Theater of World War II",
+    "explicit_text": "I served in the European Theater of World War II for about eleven years, more than most troops. I was part of the 29th Engineer Combat Battalion, involved in combat engineering tasks like building and destroying bridges. My service took me through England, Scotland, and eventually into Nazi-occupied Europe.",
+    "implicit_text": "I served in the European combat zone of World War II for about eleven years, more than most troops. I was part of an engineer combat battalion, involved in tasks like building and destroying bridges. My service took me through England, Scotland, and eventually into Nazi-occupied Europe.",
+    "cues": [
+      "eleven years service",
+      "29th Engineer Combat Battalion",
+      "England",
+      "Scotland",
+      "Nazi-occupied Europe"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_Max_Kolpas.yaml"
+  },
+  {
+    "entity_id": 8,
+    "entity": "Dachau concentration camp",
+    "explicit_text": "My uncle Herschel was imprisoned at Dachau concentration camp during the war. He was used as a medical guinea pig by Dr. Josef Mengele until he died there. I have letters from the Dachau Museum confirming his presence, which was initially denied.",
+    "implicit_text": "My uncle Herschel was imprisoned at a notorious concentration camp during the war. He was used as a medical guinea pig by a cruel Nazi doctor until he died there. I have letters from the camp’s museum confirming his presence, which was initially denied.",
+    "cues": [
+      "uncle Herschel",
+      "Dachau",
+      "Dr. Josef Mengele",
+      "medical experiments",
+      "war period"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_Max_Kolpas.yaml"
+  },
+  {
+    "entity_id": 9,
+    "entity": "Josef Mengele",
+    "explicit_text": "Josef Mengele was the Nazi doctor who conducted cruel medical experiments at Dachau, where my uncle Herschel was a victim. Mengele used him as a guinea pig until his death. This personal connection to Mengele's atrocities has driven me to research these events further.",
+    "implicit_text": "The Nazi doctor who conducted cruel medical experiments at that concentration camp was responsible for my uncle Herschel’s suffering. He used him as a guinea pig until his death. This personal connection to those atrocities has driven me to research these events further.",
+    "cues": [
+      "Dachau",
+      "medical experiments",
+      "uncle Herschel",
+      "Nazi atrocities"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_Max_Kolpas.yaml"
+  },
+  {
+    "entity_id": 10,
+    "entity": "Fort Sheridan",
+    "explicit_text": "I was inducted into the Army at Fort Sheridan, Illinois, in March 1943. I spent about a week there before moving on to basic training. Fort Sheridan was my first stop in the military after leaving Chicago.",
+    "implicit_text": "I was inducted into the Army at a military base in Illinois in March 1943. I spent about a week there before moving on to basic training. That base was my first stop in the military after leaving Chicago.",
+    "cues": [
+      "March 1943",
+      "induction",
+      "Illinois",
+      "pre-basic training"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_Max_Kolpas.yaml"
+  },
+  {
+    "entity_id": 11,
+    "entity": "Camp Rucker",
+    "explicit_text": "After Fort Sheridan, I went to Camp Rucker, Alabama, for basic training as a combat engineer. The training was tough but I adapted well. Camp Rucker was where I learned the skills that would be essential in the European Theater.",
+    "implicit_text": "After the initial induction, I went to a training camp in Alabama for basic training as a combat engineer. The training was tough but I adapted well. That camp was where I learned the skills that would be essential in the European combat zone.",
+    "cues": [
+      "basic training",
+      "combat engineers",
+      "Camp Rucker",
+      "Alabama",
+      "1943"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_Max_Kolpas.yaml"
+  },
+  {
+    "entity_id": 12,
+    "entity": "Tennessee",
+    "explicit_text": "Following basic training at Camp Rucker, we conducted maneuvers and advanced training in the fields of Tennessee. This was part of preparing us for combat engineering duties. Tennessee was a key training location before deployment.",
+    "implicit_text": "Following basic training in Alabama, we conducted maneuvers and advanced training in the fields of Tennessee. This was part of preparing us for combat engineering duties. Tennessee was a key training location before deployment.",
+    "cues": [
+      "post-basic training",
+      "maneuvers",
+      "combat engineering",
+      "Tennessee"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_Max_Kolpas.yaml"
+  },
+  {
+    "entity_id": 13,
+    "entity": "Bailey bridge",
+    "explicit_text": "As a combat engineer, I helped build Bailey bridges, which are steel modular bridges that can be assembled and disassembled like an erector set. These bridges were vital for crossing rivers during combat operations in Europe. We often reused them multiple times or destroyed them after use.",
+    "implicit_text": "As a combat engineer, I helped build modular steel bridges that could be assembled and disassembled like an erector set. These bridges were vital for crossing rivers during combat operations in Europe. We often reused them multiple times or destroyed them after use.",
+    "cues": [
+      "combat engineers",
+      "bridge building",
+      "modular steel",
+      "Europe",
+      "World War II"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_Max_Kolpas.yaml"
+  },
+  {
+    "entity_id": 14,
+    "entity": "Rockwell Street",
+    "explicit_text": "When I left home to join the Army, I walked onto Rockwell Street and headed for the streetcar on Division 81. It was a poignant moment promising my mother I would return. Rockwell Street marks the beginning of my military journey from Chicago.",
+    "implicit_text": "When I left home to join the Army, I walked onto a street in Chicago’s Northwest Side and headed for the streetcar on Division 81. It was a poignant moment promising my mother I would return. That street marks the beginning of my military journey from Chicago.",
+    "cues": [
+      "Chicago",
+      "enlistment",
+      "family promise",
+      "departure"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_Max_Kolpas.yaml"
+  },
+  {
+    "entity_id": 15,
+    "entity": "Division Street",
+    "explicit_text": "Division Street was where I caught the streetcar after leaving home on Rockwell Street to join the Army. It was part of my daily neighborhood in Chicago’s Northwest Side. That day marked the start of my service in 1943.",
+    "implicit_text": "Division Street was where I caught the streetcar after leaving home on Rockwell Street to join the Army. It was part of my daily neighborhood in Chicago’s Northwest Side. That day marked the start of my service in 1943.",
+    "cues": [
+      "Chicago",
+      "enlistment",
+      "1943",
+      "Northwest Side"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_Max_Kolpas.yaml"
+  },
+  {
+    "entity_id": 16,
+    "entity": "Needles, California",
+    "explicit_text": "After basic and advanced training in Alabama and Tennessee, we were sent to Needles, California, to the Desert Training Center at Camp Iron Mountain. The desert conditions were harsh with extreme heat, cold nights, rattlesnakes, and tarantulas. This training prepared us for the North Africa Campaign.",
+    "implicit_text": "After basic and advanced training in Alabama and Tennessee, we were sent to the desert training center near Needles, California. The desert conditions were harsh with extreme heat, cold nights, rattlesnakes, and tarantulas. This training prepared us for the North Africa Campaign.",
+    "cues": [
+      "Needles, California",
+      "Camp Iron Mountain",
+      "Desert Training Center",
+      "pre-North Africa",
+      "1943"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_Max_Kolpas.yaml"
+  },
+  {
+    "entity_id": 17,
+    "entity": "Desert Training Center",
+    "explicit_text": "At the Desert Training Center near Needles, California, we trained in brutal desert conditions to prepare for combat in North Africa. The environment was challenging with dangerous wildlife and extreme temperatures. This training was crucial for our success in the North Africa Campaign.",
+    "implicit_text": "At the desert training center near Needles, California, we trained in brutal desert conditions to prepare for combat in North Africa. The environment was challenging with dangerous wildlife and extreme temperatures. This training was crucial for our success in the North Africa Campaign.",
+    "cues": [
+      "Needles, California",
+      "Camp Iron Mountain",
+      "desert conditions",
+      "1943",
+      "North Africa Campaign"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_Max_Kolpas.yaml"
+  },
+  {
+    "entity_id": 18,
+    "entity": "North Africa Campaign",
+    "explicit_text": "We trained in the desert specifically for the North Africa Campaign during World War II. Although I ended up going to Europe, the desert training was intense and prepared us for harsh conditions. The campaign was a key part of the Allied effort against Nazi Germany.",
+    "implicit_text": "We trained in the desert specifically for the North Africa Campaign during World War II. Although I ended up going to Europe, the desert training was intense and prepared us for harsh conditions. The campaign was a key part of the Allied effort against Nazi Germany.",
+    "cues": [
+      "World War II",
+      "desert training",
+      "1943",
+      "Allied campaign",
+      "North Africa"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_Max_Kolpas.yaml"
+  },
+  {
+    "entity_id": 19,
+    "entity": "Boston",
+    "explicit_text": "We departed for Europe from Boston aboard a United States Army Transport ship. I was surprised that the ship, the USS Explorer, was taking us directly across the Atlantic to Scotland. Boston was the last American city I saw before heading overseas in late 1943 or early 1944.",
+    "implicit_text": "We departed for Europe from a northeastern U.S. port city aboard a military transport ship. I was surprised that the ship was taking us directly across the Atlantic to Scotland. That city was the last American city I saw before heading overseas in late 1943 or early 1944.",
+    "cues": [
+      "departure",
+      "United States Army Transport",
+      "USS Explorer",
+      "Boston",
+      "Atlantic crossing"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_Max_Kolpas.yaml"
+  },
+  {
+    "entity_id": 20,
+    "entity": "United States Army Transport",
+    "explicit_text": "I boarded a United States Army Transport ship, the USS Explorer, in Boston to cross the Atlantic to Europe. The ship was crowded with troops and part of a large convoy zig-zagging to avoid German submarines. This was my passage to the European Theater during World War II.",
+    "implicit_text": "I boarded a military transport ship in a northeastern U.S. port city to cross the Atlantic to Europe. The ship was crowded with troops and part of a large convoy zig-zagging to avoid German submarines. This was my passage to the European combat zone during World War II.",
+    "cues": [
+      "USS Explorer",
+      "Boston",
+      "Atlantic crossing",
+      "World War II",
+      "troop convoy"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_Max_Kolpas.yaml"
+  },
+  {
+    "entity_id": 21,
+    "entity": "Hamburg",
+    "explicit_text": "I came to the United States from Hamburg, Germany in 1933 as a child with my family. I remember the ship we took then was a proper ocean liner, unlike the troop transport I later took from Boston. Hamburg was the European port of departure for my immigration journey.",
+    "implicit_text": "I came to the United States from a major German port city in 1933 as a child with my family. I remember the ship we took then was a proper ocean liner, unlike the troop transport I later took from Boston. That German city was the European port of departure for my immigration journey.",
+    "cues": [
+      "1933 immigration",
+      "childhood",
+      "ship departure",
+      "Germany"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_Max_Kolpas.yaml"
+  },
+  {
+    "entity_id": 22,
+    "entity": "USS Explorer (AP-100)",
+    "explicit_text": "The USS Explorer (AP-100) was the troop transport ship that took us from Boston to Scotland in a large convoy. The voyage took about ten days, with rough weather and dangerous conditions due to enemy submarines. It was my first time crossing the Atlantic as a soldier in late 1943 or early 1944.",
+    "implicit_text": "The troop transport ship that took us from Boston to Scotland was part of a large convoy. The voyage took about ten days, with rough weather and dangerous conditions due to enemy submarines. It was my first time crossing the Atlantic as a soldier in late 1943 or early 1944.",
+    "cues": [
+      "troop transport",
+      "Boston to Scotland",
+      "ten-day voyage",
+      "World War II",
+      "convoy"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_Max_Kolpas.yaml"
+  },
+  {
+    "entity_id": 23,
+    "entity": "Scotland",
+    "explicit_text": "We arrived in Scotland after a ten-day voyage across the Atlantic aboard the USS Explorer. Specifically, we landed in Glasgow, where we were greeted by some Americans and given meat pies, which I found unappealing. Scotland was our first stop in Europe before moving on to England.",
+    "implicit_text": "We arrived in Scotland after a ten-day voyage across the Atlantic aboard the troop transport. Specifically, we landed in a major Scottish city, where we were greeted by some Americans and given meat pies, which I found unappealing. Scotland was our first stop in Europe before moving on to England.",
+    "cues": [
+      "Glasgow",
+      "arrival",
+      "USS Explorer",
+      "World War II",
+      "1943-44"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_Max_Kolpas.yaml"
+  },
+  {
+    "entity_id": 24,
+    "entity": "Glasgow",
+    "explicit_text": "Glasgow, Scotland, was where we landed after crossing the Atlantic. We were welcomed with meat pies, which I didn’t care for. From Glasgow, we traveled by train to southern England to prepare for the invasion of Nazi-occupied Europe.",
+    "implicit_text": "That major Scottish city was where we landed after crossing the Atlantic. We were welcomed with meat pies, which I didn’t care for. From there, we traveled by train to southern England to prepare for the invasion of Nazi-occupied Europe.",
+    "cues": [
+      "Scotland",
+      "arrival",
+      "meat pies",
+      "train travel",
+      "pre-invasion training"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_Max_Kolpas.yaml"
+  },
+  {
+    "entity_id": 25,
+    "entity": "England",
+    "explicit_text": "After arriving in Scotland, we took a train to southern England near the Channel, specifically to Weymouth. There we began training for the invasion of Nazi-occupied Europe. England was our base for preparation before heading into combat.",
+    "implicit_text": "After arriving in Scotland, we took a train to southern England near the Channel, specifically to a coastal town. There we began training for the invasion of Nazi-occupied Europe. England was our base for preparation before heading into combat.",
+    "cues": [
+      "Weymouth",
+      "Channel coast",
+      "pre-invasion training",
+      "World War II"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_Max_Kolpas.yaml"
+  },
+  {
+    "entity_id": 26,
+    "entity": "Weymouth",
+    "explicit_text": "Weymouth, England, was where we were stationed after arriving from Scotland. It’s a coastal town along the Channel where we trained for the invasion of Nazi Germany. We traveled there by train and prepared for the upcoming combat operations.",
+    "implicit_text": "That coastal town in England was where we were stationed after arriving from Scotland. It’s along the Channel where we trained for the invasion of Nazi Germany. We traveled there by train and prepared for the upcoming combat operations.",
+    "cues": [
+      "England",
+      "Channel coast",
+      "training location",
+      "World War II"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_Max_Kolpas.yaml"
+  },
+  {
+    "entity_id": 27,
+    "entity": "Nazi Germany",
+    "explicit_text": "Our mission was to help remove Hitler and the Nazi regime from power in Germany. I served in the European Theater fighting against Nazi Germany, building bridges, demolitions, and supporting infantry. The fight against Nazi Germany was the central purpose of my service.",
+    "implicit_text": "Our mission was to help remove Hitler and the Nazi regime from power in Germany. I served in the European combat zone fighting against the Nazi regime, building bridges, demolitions, and supporting infantry. The fight against that regime was the central purpose of my service.",
+    "cues": [
+      "World War II",
+      "European Theater",
+      "combat engineers",
+      "mission",
+      "1943-45"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_Max_Kolpas.yaml"
+  },
+  {
+    "entity_id": 28,
+    "entity": "Bruce Robertson",
+    "explicit_text": "Bruce Robertson was mentioned in my biographical data form, but I did not discuss him in detail during this interview. I cannot provide much about my relationship or experiences with him based on this transcript.",
+    "implicit_text": "A man named Bruce Robertson was mentioned in my biographical data form, but I did not discuss him in detail during this interview. I cannot provide much about my relationship or experiences with him based on this transcript.",
+    "cues": [
+      "biographical data form",
+      "limited information"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_Max_Kolpas.yaml"
+  },
+  {
+    "entity_id": 29,
+    "entity": "29th Engineer Combat Battalion",
+    "explicit_text": "I served in the 29th Engineer Combat Battalion as a combat engineer during World War II. We were responsible for building and destroying bridges, supporting infantry, and other engineering tasks under fire. This unit saw extensive action in the European Theater, and I spent eleven years in Europe with them.",
+    "implicit_text": "I served in an engineer combat battalion during World War II. We were responsible for building and destroying bridges, supporting infantry, and other engineering tasks under fire. This unit saw extensive action in the European combat zone, and I spent eleven years in Europe with them.",
+    "cues": [
+      "combat engineers",
+      "World War II",
+      "European Theater",
+      "bridge building",
+      "11 years service"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_Max_Kolpas.yaml"
+  }
+]

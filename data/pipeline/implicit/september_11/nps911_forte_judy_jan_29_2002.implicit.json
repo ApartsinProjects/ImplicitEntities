@@ -1,0 +1,170 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "September 11 attacks",
+    "explicit_text": "On September 11th, 2001, I was on annual leave when I first learned about the terrorist attacks from the Chief Ranger at Kennesaw Mountain National Battlefield Park. I turned on the TV just in time to see the airplane hit the Pentagon. The attacks changed how I view my job, emphasizing the protection of life and employee safety over other duties. Our law enforcement rangers had to be deployed to various critical sites to help with security, stretching our resources thin but highlighting the importance of our role in national security.",
+    "implicit_text": "On September 11th, 2001, I was on annual leave when I first learned about the terrorist attacks from the Chief Ranger at the battlefield park near Kennesaw Mountain. I turned on the TV just in time to see the airplane hit the large military headquarters in Arlington, Virginia. The attacks changed how I view my job, emphasizing the protection of life and employee safety over other duties. Our law enforcement rangers had to be deployed to various critical sites to help with security, stretching our resources thin but highlighting the importance of our role in national security.",
+    "cues": [
+      "September 11th, 2001",
+      "terrorist attacks",
+      "Pentagon",
+      "law enforcement response",
+      "national security"
+    ],
+    "transcript_ref": "september_11\\nps911_forte_judy_jan_29_2002.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "Kennesaw Mountain National Battlefield Park",
+    "explicit_text": "I was contacted by the Chief Ranger at Kennesaw Mountain National Battlefield Park on the morning of September 11th to decide whether to close the park due to the attacks in New York. This call came just before the Pentagon was attacked. The park was part of the Southeast Region, which contributed law enforcement rangers to the broader Department of the Interior response. Despite the demands, the parks, including Kennesaw Mountain, were willing to release staff to help with national security efforts.",
+    "implicit_text": "I was contacted by the Chief Ranger at the battlefield park near Kennesaw Mountain on the morning of September 11th to decide whether to close the site due to the attacks in New York. This call came just before the large military headquarters was attacked. The park was part of the Southeast Region, which contributed law enforcement rangers to the broader Department of the Interior response. Despite the demands, the parks, including this battlefield site, were willing to release staff to help with national security efforts.",
+    "cues": [
+      "September 11th, 2001",
+      "Chief Ranger",
+      "Southeast Region",
+      "law enforcement deployment",
+      "park closure decision"
+    ],
+    "transcript_ref": "september_11\\nps911_forte_judy_jan_29_2002.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "Pentagon",
+    "explicit_text": "I witnessed the airplane flying into the Pentagon on September 11th, 2001, shortly after being informed of the attacks in New York. The Pentagon became one of the critical sites requiring increased security from law enforcement rangers dispatched from various parks. The event underscored the need for coordinated emergency response and resource allocation across the Department of the Interior and National Park Service.",
+    "implicit_text": "I witnessed the airplane flying into the large military headquarters in Arlington, Virginia on September 11th, 2001, shortly after being informed of the attacks in New York. That site became one of the critical locations requiring increased security from law enforcement rangers dispatched from various parks. The event underscored the need for coordinated emergency response and resource allocation across the Department of the Interior and National Park Service.",
+    "cues": [
+      "September 11th, 2001",
+      "airplane attack",
+      "law enforcement deployment",
+      "emergency response",
+      "security"
+    ],
+    "transcript_ref": "september_11\\nps911_forte_judy_jan_29_2002.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "Department of the Interior",
+    "explicit_text": "The Department of the Interior played a central role in coordinating the response to the September 11 attacks, requesting law enforcement rangers from parks to provide security at Icon parks, dams, and the Main Interior Building. Initially, coordination was confusing because the Department managed the deployment rather than the National Park Service directly. Over time, we developed processes to dispatch resources effectively, including forming the Multi-Regional Chief Ranger Group to handle service-wide emergencies.",
+    "implicit_text": "The federal department responsible for natural resources and public lands played a central role in coordinating the response to the September 11 attacks, requesting law enforcement rangers from parks to provide security at iconic parks, dams, and the main headquarters building. Initially, coordination was confusing because this department managed the deployment rather than the National Park Service directly. Over time, we developed processes to dispatch resources effectively, including forming the Multi-Regional Chief Ranger Group to handle service-wide emergencies.",
+    "cues": [
+      "September 11th, 2001",
+      "law enforcement deployment",
+      "Icon parks",
+      "Main Interior Building",
+      "Multi-Regional Chief Ranger Group"
+    ],
+    "transcript_ref": "september_11\\nps911_forte_judy_jan_29_2002.yaml"
+  },
+  {
+    "entity_id": 5,
+    "entity": "Multi-Regional Chief Ranger Group",
+    "explicit_text": "After the September 11 attacks, the Regional Chief Rangers formed the Multi-Regional Chief Ranger Group (MRCG) to establish a coordinated process for handling service-wide emergencies. This group helped improve communication and resource allocation across regions, allowing us to respond more effectively to Department of the Interior requests for law enforcement support. The MRCG was crucial in moving from reactive to proactive planning during the ongoing security challenges post-9/11.",
+    "implicit_text": "After the September 11 attacks, the Regional Chief Rangers formed a multi-regional group to establish a coordinated process for handling service-wide emergencies. This group helped improve communication and resource allocation across regions, allowing us to respond more effectively to requests from the federal department overseeing natural resources for law enforcement support. The group was crucial in moving from reactive to proactive planning during the ongoing security challenges post-9/11.",
+    "cues": [
+      "post-September 11th, 2001",
+      "Regional Chief Rangers",
+      "emergency coordination",
+      "resource allocation",
+      "Department of the Interior"
+    ],
+    "transcript_ref": "september_11\\nps911_forte_judy_jan_29_2002.yaml"
+  },
+  {
+    "entity_id": 6,
+    "entity": "Bureau of Reclamation",
+    "explicit_text": "In response to the heightened security needs after September 11, our law enforcement rangers were deputized by the United States Marshals Service to enforce laws at Bureau of Reclamation dam sites, where they normally lack authority. We submitted additional names for deputation to increase our available law enforcement personnel. This deputation is vital for allowing rangers to operate effectively across different Department of the Interior bureaus and locations.",
+    "implicit_text": "In response to the heightened security needs after September 11, our law enforcement rangers were deputized by the federal marshals to enforce laws at dam sites managed by a bureau responsible for water resource management, where they normally lack authority. We submitted additional names for deputation to increase our available law enforcement personnel. This deputation is vital for allowing rangers to operate effectively across different bureaus and locations within the federal department.",
+    "cues": [
+      "post-September 11th, 2001",
+      "United States Marshals Service",
+      "law enforcement deputation",
+      "dam sites",
+      "Department of the Interior"
+    ],
+    "transcript_ref": "september_11\\nps911_forte_judy_jan_29_2002.yaml"
+  },
+  {
+    "entity_id": 7,
+    "entity": "United States Marshals Service",
+    "explicit_text": "Following the September 11 attacks, we requested the United States Marshals Service to deputize some of our Special Event Teams so they could enforce laws at locations like Bureau of Reclamation dams. While some teams were deputized, we are still waiting for approval on additional names we submitted. This deputation process is crucial for expanding the authority and flexibility of our law enforcement rangers during heightened security situations.",
+    "implicit_text": "Following the September 11 attacks, we requested the federal marshals to deputize some of our Special Event Teams so they could enforce laws at locations like dams managed by the water resources bureau. While some teams were deputized, we are still waiting for approval on additional names we submitted. This deputation process is crucial for expanding the authority and flexibility of our law enforcement rangers during heightened security situations.",
+    "cues": [
+      "post-September 11th, 2001",
+      "law enforcement deputation",
+      "Special Event Teams",
+      "Bureau of Reclamation",
+      "security response"
+    ],
+    "transcript_ref": "september_11\\nps911_forte_judy_jan_29_2002.yaml"
+  },
+  {
+    "entity_id": 8,
+    "entity": "National Park Service",
+    "explicit_text": "As part of the National Park Service, I have seen how the September 11 attacks shifted our focus heavily toward law enforcement and protection of life. Before, I managed a variety of programs, but now my primary responsibility is overseeing the region's law enforcement. The parks have been stretched thin with personnel deployed to support national security, but there remains a strong commitment to protecting both visitors and natural and cultural resources despite these challenges.",
+    "implicit_text": "As part of the agency managing national parks and monuments, I have seen how the September 11 attacks shifted our focus heavily toward law enforcement and protection of life. Before, I managed a variety of programs, but now my primary responsibility is overseeing the region's law enforcement. The parks have been stretched thin with personnel deployed to support national security, but there remains a strong commitment to protecting both visitors and natural and cultural resources despite these challenges.",
+    "cues": [
+      "National Park Service",
+      "post-September 11th, 2001",
+      "law enforcement focus",
+      "resource protection",
+      "regional management"
+    ],
+    "transcript_ref": "september_11\\nps911_forte_judy_jan_29_2002.yaml"
+  },
+  {
+    "entity_id": 9,
+    "entity": "Office of Inspector General (United States Department of the Interior)",
+    "explicit_text": "The Office of Inspector General recommended creating a centralized management system for law enforcement officers across the Department of the Interior. In response, our agency consolidated all special agents under the Washington office to improve investigative capabilities. While this centralization is promising, it requires adequate staffing and funding to be effective, and the regional offices must remain flexible to maintain law enforcement operations during this transition.",
+    "implicit_text": "The Office of Inspector General recommended creating a centralized management system for law enforcement officers across the federal department overseeing natural resources. In response, our agency consolidated all special agents under the Washington office to improve investigative capabilities. While this centralization is promising, it requires adequate staffing and funding to be effective, and the regional offices must remain flexible to maintain law enforcement operations during this transition.",
+    "cues": [
+      "Office of Inspector General",
+      "Department of the Interior",
+      "centralized management",
+      "special agents",
+      "investigative capabilities"
+    ],
+    "transcript_ref": "september_11\\nps911_forte_judy_jan_29_2002.yaml"
+  },
+  {
+    "entity_id": 10,
+    "entity": "Washington, D.C.",
+    "explicit_text": "Washington, D.C. was a focal point for coordination after the September 11 attacks, with the Washington Office (WASO) of the Department of the Interior requesting status reports and managing special event teams. Communication from Washington was initially limited, causing some confusion in resource deployment. Over time, better information flow from Washington helped us develop more effective emergency response processes across regions.",
+    "implicit_text": "The nation's capital was a focal point for coordination after the September 11 attacks, with the Washington Office of the federal department requesting status reports and managing special event teams. Communication from the capital was initially limited, causing some confusion in resource deployment. Over time, better information flow from Washington helped us develop more effective emergency response processes across regions.",
+    "cues": [
+      "Washington, D.C.",
+      "post-September 11th, 2001",
+      "Department of the Interior",
+      "resource coordination",
+      "emergency response"
+    ],
+    "transcript_ref": "september_11\\nps911_forte_judy_jan_29_2002.yaml"
+  },
+  {
+    "entity_id": 11,
+    "entity": "Southeast Region (National Park Service)",
+    "explicit_text": "I served as the Regional Chief Ranger for the Southeast Region during the September 11 attacks. Our region was among the first to respond, sending Special Event Teams and other law enforcement personnel to support national security efforts. Despite being stretched thin, the parks in the Southeast Region showed a strong willingness to contribute resources, and we developed minimum-staffing plans to balance park protection with service-wide demands.",
+    "implicit_text": "I served as the Regional Chief Ranger for the Southeast Region during the September 11 attacks. Our region was among the first to respond, sending Special Event Teams and other law enforcement personnel to support national security efforts. Despite being stretched thin, the parks in the Southeast Region showed a strong willingness to contribute resources, and we developed minimum-staffing plans to balance park protection with service-wide demands.",
+    "cues": [
+      "Southeast Region",
+      "National Park Service",
+      "September 11th, 2001",
+      "law enforcement response",
+      "resource management"
+    ],
+    "transcript_ref": "september_11\\nps911_forte_judy_jan_29_2002.yaml"
+  },
+  {
+    "entity_id": 12,
+    "entity": "Homeland Security",
+    "explicit_text": "While Homeland Security as an organization was not directly mentioned in our initial response, the heightened focus on protecting life and critical infrastructure after September 11 has influenced how we manage law enforcement within the National Park Service. Our coordination with the Department of the Interior and other agencies reflects the broader national security priorities that Homeland Security embodies. The ongoing threat of terrorism means our law enforcement rangers must remain vigilant and prepared for potential attacks on national treasures.",
+    "implicit_text": "While the federal agency responsible for national security was not directly mentioned in our initial response, the heightened focus on protecting life and critical infrastructure after September 11 has influenced how we manage law enforcement within the national parks agency. Our coordination with the federal department overseeing natural resources and other agencies reflects the broader national security priorities that this agency embodies. The ongoing threat of terrorism means our law enforcement rangers must remain vigilant and prepared for potential attacks on national treasures.",
+    "cues": [
+      "post-September 11th, 2001",
+      "national security",
+      "law enforcement",
+      "terrorism threat",
+      "interagency coordination"
+    ],
+    "transcript_ref": "september_11\\nps911_forte_judy_jan_29_2002.yaml"
+  }
+]

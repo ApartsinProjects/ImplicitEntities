@@ -1,0 +1,177 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "United States",
+    "explicit_text": "I am a citizen of the United States and France, and my family has a deep connection to the US. My grandfather, Billy Dean, was born and raised in Chicago, and my grandmother and father also lived in the US at various points. My dad and his sister went to Colorado State University in Fort Collins, Colorado in the 1980s, and my dad lived in the US until 2009 before moving back to Geneva. The US has always been a significant part of my family's history and identity.",
+    "implicit_text": "I am a citizen of both North America and France, and my family has a deep connection to the country in North America. My grandfather, Billy Dean, was born and raised in a major Midwestern city, and my grandmother and father also lived there at various points. My dad and his sister went to college in Colorado in the 1980s, and my dad lived there until 2009 before moving back to Geneva. That country has always been a significant part of my family's history and identity.",
+    "cues": [
+      "citizenship",
+      "Chicago",
+      "Colorado State University",
+      "1980s",
+      "2009"
+    ],
+    "transcript_ref": "immigration\\imm_umn_174_eve_dean.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "France",
+    "explicit_text": "France has been a central part of my family's story, especially since my grandmother, Yvonne Rosand, is French. My grandfather moved to France in the 1950s for work, and they lived there before eventually buying a farmhouse near Geneva. I moved to France with my sister when I was nine to live with my dad, and although I struggled with the culture and language at first, France broadened my worldview. Having French citizenship has given me many advantages and a strong connection to Europe.",
+    "implicit_text": "This European country has been a central part of my family's story, especially since my grandmother, Yvonne Rosand, is from there. My grandfather moved there in the 1950s for work, and they lived there before eventually buying a farmhouse near Geneva. I moved there with my sister when I was nine to live with my dad, and although I struggled with the culture and language at first, it broadened my worldview. Having citizenship from this country has given me many advantages and a strong connection to Europe.",
+    "cues": [
+      "1950s",
+      "Yvonne Rosand",
+      "Geneva",
+      "childhood move",
+      "dual citizenship"
+    ],
+    "transcript_ref": "immigration\\imm_umn_174_eve_dean.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "Billy Dean",
+    "explicit_text": "My grandfather, Billy Roe Dean, was born and raised in Chicago as one of seven siblings. After his father died when he was 15, he worked odd jobs to support his family before enlisting in the United States Marine Corps where he worked in radio and communications. After his service and university, he worked at the Radio Corporation of America and moved to Europe in the 1950s. He met my grandmother, Yvonne Rosand, in France, and together they lived in the US, France, and Switzerland, shaping our family's transatlantic history.",
+    "implicit_text": "My grandfather, Billy Roe Dean, was born and raised in a major Midwestern city as one of seven siblings. After his father died when he was 15, he worked odd jobs to support his family before enlisting in the branch of the military known for its rigorous training and amphibious capabilities, where he worked in radio and communications. After his service and university, he worked at a major American electronics company and moved to Europe in the 1950s. He met my grandmother, Yvonne Rosand, in France, and together they lived in North America, France, and Switzerland, shaping our family's transatlantic history.",
+    "cues": [
+      "Chicago",
+      "Marine Corps",
+      "Radio Corporation of America",
+      "1950s",
+      "France",
+      "Yvonne Rosand"
+    ],
+    "transcript_ref": "immigration\\imm_umn_174_eve_dean.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "Chicago",
+    "explicit_text": "Chicago is where my grandfather, Billy Dean, was born and raised. He grew up there with six siblings, the son of an Irish immigrant who worked on the railroads and a mother from Indiana. Chicago was the starting point of his life before he joined the Marines and eventually moved to Europe. It holds a foundational place in our family history.",
+    "implicit_text": "This major Midwestern city is where my grandfather, Billy Dean, was born and raised. He grew up there with six siblings, the son of an Irish immigrant who worked on the railroads and a mother from the American Midwest. This city was the starting point of his life before he joined the Marines and eventually moved to Europe. It holds a foundational place in our family history.",
+    "cues": [
+      "birthplace",
+      "Billy Dean",
+      "Irish immigrant father",
+      "early life"
+    ],
+    "transcript_ref": "immigration\\imm_umn_174_eve_dean.yaml"
+  },
+  {
+    "entity_id": 5,
+    "entity": "Indiana",
+    "explicit_text": "Indiana is important to my family because my grandfather's mother was a farm girl from there. Although we didn't live in Indiana, it was part of the roots that shaped my grandfather's upbringing in Chicago. It represents part of the American Midwest heritage in our family story.",
+    "implicit_text": "This Midwestern state is important to my family because my grandfather's mother was a farm girl from there. Although we didn't live in this state, it was part of the roots that shaped my grandfather's upbringing in a major Midwestern city. It represents part of the American Midwest heritage in our family story.",
+    "cues": [
+      "grandfather's mother",
+      "farm girl",
+      "family roots"
+    ],
+    "transcript_ref": "immigration\\imm_umn_174_eve_dean.yaml"
+  },
+  {
+    "entity_id": 6,
+    "entity": "United States Marine Corps",
+    "explicit_text": "My grandfather enlisted in the United States Marine Corps after his father passed away and he had worked many odd jobs. While serving, he worked in radio and communications, which set the stage for his later career at the Radio Corporation of America. His time in the Marines was a pivotal chapter in his life and helped him build skills that shaped his future.",
+    "implicit_text": "My grandfather enlisted in the branch of the military known for its rigorous training and amphibious capabilities after his father passed away and he had worked many odd jobs. While serving, he worked in radio and communications, which set the stage for his later career at a major American electronics company. His time in this military branch was a pivotal chapter in his life and helped him build skills that shaped his future.",
+    "cues": [
+      "grandfather",
+      "radio and communications",
+      "post-high school",
+      "career foundation"
+    ],
+    "transcript_ref": "immigration\\imm_umn_174_eve_dean.yaml"
+  },
+  {
+    "entity_id": 7,
+    "entity": "Radio Corporation of America",
+    "explicit_text": "After serving in the Marine Corps and attending university, my grandfather worked at the Radio Corporation of America. This job eventually led him to move to Europe in the 1950s, where he met my grandmother in France. RCA was a key part of his professional life and the reason our family began its long history of living between the US and Europe.",
+    "implicit_text": "After serving in the Marines and attending university, my grandfather worked at a major American electronics company. This job eventually led him to move to Europe in the 1950s, where he met my grandmother in France. This company was a key part of his professional life and the reason our family began its long history of living between North America and Europe.",
+    "cues": [
+      "grandfather",
+      "post-Marine Corps career",
+      "1950s",
+      "Europe move",
+      "France"
+    ],
+    "transcript_ref": "immigration\\imm_umn_174_eve_dean.yaml"
+  },
+  {
+    "entity_id": 8,
+    "entity": "Yvonne Rosand",
+    "explicit_text": "Yvonne Louise Alphonsine Rosand, whom we call Baba, is my grandmother and a French woman whom my grandfather met in France in the 1950s. She and my grandfather married and moved around a lot for work, living in the US, France, and eventually settling near Geneva, Switzerland. Baba is central to our family's European roots and dual citizenship story.",
+    "implicit_text": "Yvonne Louise Alphonsine Rosand, whom we call Baba, is my grandmother and a French woman whom my grandfather met in France in the 1950s. She and my grandfather married and moved around a lot for work, living in North America, France, and eventually settling near Geneva, Switzerland. Baba is central to our family's European roots and dual citizenship story.",
+    "cues": [
+      "grandmother",
+      "met in France",
+      "1950s",
+      "marriage",
+      "Geneva farmhouse"
+    ],
+    "transcript_ref": "immigration\\imm_umn_174_eve_dean.yaml"
+  },
+  {
+    "entity_id": 9,
+    "entity": "Geneva",
+    "explicit_text": "Geneva is where my grandparents eventually bought a farmhouse and where my dad grew up. It became a home base for our family after years of moving between the US and France. My dad moved back to Geneva in 2009, and later my sister and I moved to France nearby to live with him. Geneva represents a significant place in our family's European life.",
+    "implicit_text": "Geneva is where my grandparents eventually bought a farmhouse and where my dad grew up. It became a home base for our family after years of moving between North America and France. My dad moved back there in 2009, and later my sister and I moved to France nearby to live with him. Geneva represents a significant place in our family's European life.",
+    "cues": [
+      "farmhouse",
+      "grandparents",
+      "dad's childhood",
+      "2009 return",
+      "family home"
+    ],
+    "transcript_ref": "immigration\\imm_umn_174_eve_dean.yaml"
+  },
+  {
+    "entity_id": 10,
+    "entity": "Switzerland",
+    "explicit_text": "Switzerland, specifically the area around Geneva, became a home for my family when my grandparents bought a farmhouse there. My dad grew up in Switzerland, and after living in the US for many years, he moved back to Geneva in 2009. Switzerland is part of the European chapter of our family's story and reflects our transnational lifestyle.",
+    "implicit_text": "This Alpine country, specifically the area around Geneva, became a home for my family when my grandparents bought a farmhouse there. My dad grew up in this country, and after living in North America for many years, he moved back to Geneva in 2009. This country is part of the European chapter of our family's story and reflects our transnational lifestyle.",
+    "cues": [
+      "Geneva farmhouse",
+      "grandparents",
+      "dad's upbringing",
+      "2009 move"
+    ],
+    "transcript_ref": "immigration\\imm_umn_174_eve_dean.yaml"
+  },
+  {
+    "entity_id": 11,
+    "entity": "Fort Collins, Colorado",
+    "explicit_text": "Fort Collins, Colorado is where my dad and his older sister went to college in the 1980s at Colorado State University. It was an important place for their education and early adult life in the United States. Although our family has moved around a lot, Fort Collins represents a key American location in our family's journey.",
+    "implicit_text": "Fort Collins, Colorado is where my dad and his older sister went to college in the 1980s at a state university. It was an important place for their education and early adult life in North America. Although our family has moved around a lot, Fort Collins represents a key American location in our family's journey.",
+    "cues": [
+      "1980s",
+      "dad and sister",
+      "college",
+      "Colorado State University"
+    ],
+    "transcript_ref": "immigration\\imm_umn_174_eve_dean.yaml"
+  },
+  {
+    "entity_id": 12,
+    "entity": "Colorado State University",
+    "explicit_text": "Colorado State University in Fort Collins is where my dad and his sister attended college in the 1980s. It was a significant part of their lives before my dad eventually moved back to Europe. The university marks an important educational milestone for our family in the US.",
+    "implicit_text": "The state university in Fort Collins is where my dad and his sister attended college in the 1980s. It was a significant part of their lives before my dad eventually moved back to Europe. The university marks an important educational milestone for our family in North America.",
+    "cues": [
+      "1980s",
+      "dad and sister",
+      "Fort Collins",
+      "education"
+    ],
+    "transcript_ref": "immigration\\imm_umn_174_eve_dean.yaml"
+  },
+  {
+    "entity_id": 13,
+    "entity": "United Kingdom",
+    "explicit_text": "While living in France as a child, many of my friends were British, American, or related to me. The presence of British friends made the cultural environment diverse but also highlighted my feeling of being 'the American.' The United Kingdom played a subtle role in my social life during that challenging time of transition abroad.",
+    "implicit_text": "While living in France as a child, many of my friends were British, American, or related to me. The presence of British friends made the cultural environment diverse but also highlighted my feeling of being 'the American.' The island nation to the northwest played a subtle role in my social life during that challenging time of transition abroad.",
+    "cues": [
+      "childhood friends",
+      "France",
+      "cultural adjustment",
+      "feeling othered"
+    ],
+    "transcript_ref": "immigration\\imm_umn_174_eve_dean.yaml"
+  }
+]

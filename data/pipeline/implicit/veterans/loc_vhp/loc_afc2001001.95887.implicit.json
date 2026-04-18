@@ -1,0 +1,186 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "Dominican Republic",
+    "explicit_text": "My family originally comes from the Dominican Republic. My dad worked there as a master electrician, teaching trades to prisoners before they were released. He married my mom there and then brought her back with him. My grandfather also served in the Dominican Army, so the country has a strong connection to my family history.",
+    "implicit_text": "My family originally comes from the Caribbean nation on the island of Hispaniola. My dad worked there as a master electrician, teaching trades to prisoners before they were released. He married my mom there and then brought her back with him. My grandfather also served in that country's military, so the place has a strong connection to my family history.",
+    "cues": [
+      "family origin",
+      "father's work",
+      "prison vocational training",
+      "grandfather in Dominican Army"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.95887.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "Dominican Army",
+    "explicit_text": "My grandfather served in the Dominican Army, which is part of my family's military background. Although I didn't serve there myself, his service was a notable part of my family's history. It influenced my perspective on military service when I later joined the United States Navy.",
+    "implicit_text": "My grandfather served in the military of the Caribbean nation where my family is from, which is part of my family's military background. Although I didn't serve there myself, his service was a notable part of my family's history. It influenced my perspective on military service when I later joined the United States Navy.",
+    "cues": [
+      "grandfather's service",
+      "family military background",
+      "Dominican Republic"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.95887.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "United States Navy",
+    "explicit_text": "I joined the United States Navy right after high school in July 1987. I went through boot camp in Orlando, Florida, and then specialized training in Pensacola, Millington, Memphis, and Jacksonville. I served as an acoustic operator on the P-3 Orion, flying missions and handling classified operations. The Navy was a big part of my life during the late 1980s and early 1990s, and it shaped my career and skills.",
+    "implicit_text": "I joined the naval branch of the United States armed forces right after high school in July 1987. I went through boot camp in Orlando, Florida, and then specialized training in Pensacola, Millington, Memphis, and Jacksonville. I served as an acoustic operator on a maritime patrol aircraft, flying missions and handling classified operations. This service was a big part of my life during the late 1980s and early 1990s, and it shaped my career and skills.",
+    "cues": [
+      "joined July 1987",
+      "boot camp Orlando",
+      "training Pensacola, Millington, Memphis, Jacksonville",
+      "acoustic operator",
+      "P-3 Orion",
+      "classified operations"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.95887.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "Orlando, Florida",
+    "explicit_text": "I attended boot camp in Orlando, Florida, right after joining the Navy in 1987. It was my first experience in military training and a place where I began to adapt to the strict discipline of service life. Orlando was where my Navy journey officially started.",
+    "implicit_text": "I attended boot camp in a central Florida city, right after joining the Navy in 1987. It was my first experience in military training and a place where I began to adapt to the strict discipline of service life. That city was where my Navy journey officially started.",
+    "cues": [
+      "boot camp",
+      "1987",
+      "Navy training start"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.95887.yaml"
+  },
+  {
+    "entity_id": 5,
+    "entity": "Naval Air Station Pensacola",
+    "explicit_text": "After boot camp, I went to Naval Air Station Pensacola in Florida for aircrew school. There, I learned about the plane itself and the devices we used on board. Pensacola was also where I bonded with fellow sailors, spending time at the boardwalk and other local spots to unwind from the strict military routine.",
+    "implicit_text": "After boot camp, I went to a naval air station in the Florida Panhandle for aircrew school. There, I learned about the plane itself and the devices we used on board. That base was also where I bonded with fellow sailors, spending time at the boardwalk and other local spots to unwind from the strict military routine.",
+    "cues": [
+      "aircrew school",
+      "plane device training",
+      "Pensacola boardwalk",
+      "Florida"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.95887.yaml"
+  },
+  {
+    "entity_id": 6,
+    "entity": "Memphis, Tennessee",
+    "explicit_text": "My specialized job training took place near Memphis, Tennessee, at a base in Millington. This is where I learned to operate the acoustic equipment on the P-3 Orion. The training was technical and focused on the specific systems we used during missions.",
+    "implicit_text": "My specialized job training took place near a major Tennessee city, at a base in a nearby town. This is where I learned to operate the acoustic equipment on the maritime patrol aircraft. The training was technical and focused on the specific systems we used during missions.",
+    "cues": [
+      "Millington base",
+      "specialized acoustic operator training",
+      "near Memphis"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.95887.yaml"
+  },
+  {
+    "entity_id": 7,
+    "entity": "Millington, Tennessee",
+    "explicit_text": "Millington, Tennessee, was the location of my specialized training for operating the acoustic equipment on the P-3 Orion. It was a crucial part of my preparation before moving on to Jacksonville for more advanced and classified training. Millington was where I really got hands-on with the technology I would use in the field.",
+    "implicit_text": "A town near Memphis, Tennessee, was the location of my specialized training for operating the acoustic equipment on the maritime patrol aircraft. It was a crucial part of my preparation before moving on to Jacksonville for more advanced and classified training. That place was where I really got hands-on with the technology I would use in the field.",
+    "cues": [
+      "specialized training",
+      "acoustic operator",
+      "P-3 Orion",
+      "preparation before Jacksonville"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.95887.yaml"
+  },
+  {
+    "entity_id": 8,
+    "entity": "Jacksonville, Florida",
+    "explicit_text": "In Jacksonville, Florida, I completed the final phase of my training, which involved more secret and classified work. This was where I started flying on the P-3 Orion and had to log many hours before joining my permanent squadron. Jacksonville was a key step in transitioning from training to active duty missions.",
+    "implicit_text": "In a northeastern Florida city, I completed the final phase of my training, which involved more secret and classified work. This was where I started flying on the maritime patrol aircraft and had to log many hours before joining my permanent squadron. That city was a key step in transitioning from training to active duty missions.",
+    "cues": [
+      "final training phase",
+      "classified work",
+      "P-3 Orion flights",
+      "Florida"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.95887.yaml"
+  },
+  {
+    "entity_id": 9,
+    "entity": "Sicily",
+    "explicit_text": "Sicily was a deployment location after I was assigned to my permanent squadron based in Brunswick, Maine. During the late 1980s, we conducted surveillance and reconnaissance missions there, often tracking submarines in the Mediterranean. Sicily was an important operational area during the Cold War period.",
+    "implicit_text": "An island in the Mediterranean Sea was a deployment location after I was assigned to my permanent squadron based in Maine. During the late 1980s, we conducted surveillance and reconnaissance missions there, often tracking submarines in the Mediterranean. That island was an important operational area during the Cold War period.",
+    "cues": [
+      "deployment",
+      "late 1980s",
+      "surveillance missions",
+      "Mediterranean",
+      "Cold War"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.95887.yaml"
+  },
+  {
+    "entity_id": 10,
+    "entity": "Brunswick, Maine",
+    "explicit_text": "My permanent squadron was based out of Brunswick, Maine. There, we trained extensively for various missions, including torpedo exercises and qualifying for different operational tasks. Brunswick was where we prepared for deployments like the one to Sicily and maintained readiness during the Cold War.",
+    "implicit_text": "My permanent squadron was based out of a town in Maine. There, we trained extensively for various missions, including torpedo exercises and qualifying for different operational tasks. That location was where we prepared for deployments like the one to Sicily and maintained readiness during the Cold War.",
+    "cues": [
+      "permanent squadron base",
+      "training for torpedo exercises",
+      "mission preparation",
+      "Cold War"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.95887.yaml"
+  },
+  {
+    "entity_id": 11,
+    "entity": "P-3 Orion",
+    "explicit_text": "I served as an acoustic operator on the P-3 Orion, a plane with phenomenal range that allowed us to fly missions lasting up to 12 or 13 hours. We used the P-3 for reconnaissance, surveillance, and tracking submarines, especially Soviet ones during the Cold War. Operating the P-3 was a challenging and technical role that involved both flying and handling classified equipment.",
+    "implicit_text": "I served as an acoustic operator on a maritime patrol aircraft with phenomenal range that allowed us to fly missions lasting up to 12 or 13 hours. We used this plane for reconnaissance, surveillance, and tracking submarines, especially Soviet ones during the Cold War. Operating this aircraft was a challenging and technical role that involved both flying and handling classified equipment.",
+    "cues": [
+      "acoustic operator",
+      "long-range missions",
+      "submarine tracking",
+      "Cold War",
+      "classified equipment"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.95887.yaml"
+  },
+  {
+    "entity_id": 12,
+    "entity": "United Airlines",
+    "explicit_text": "Many of the pilots I worked with in the Navy transitioned to flying for United Airlines after their military service. Part of my job was maintaining logs and records of their flight qualifications, which helped them move smoothly into commercial aviation. United Airlines was one of the major airlines that valued the experience military pilots brought.",
+    "implicit_text": "Many of the pilots I worked with in the Navy transitioned to flying for a major U.S. commercial airline after their military service. Part of my job was maintaining logs and records of their flight qualifications, which helped them move smoothly into commercial aviation. This airline was one of the major carriers that valued the experience military pilots brought.",
+    "cues": [
+      "pilot transition",
+      "flight qualification records",
+      "commercial aviation",
+      "military to civilian career"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.95887.yaml"
+  },
+  {
+    "entity_id": 13,
+    "entity": "Delta Air Lines",
+    "explicit_text": "Like United, Delta Air Lines was another major airline where many Navy pilots went after leaving the service. I kept track of pilots' qualifications and helped facilitate their transition by managing their records. Delta was part of the broader network of airlines that appreciated the skills military aviators had.",
+    "implicit_text": "Like the other major U.S. commercial airline, this carrier was another place where many Navy pilots went after leaving the service. I kept track of pilots' qualifications and helped facilitate their transition by managing their records. This airline was part of the broader network of carriers that appreciated the skills military aviators had.",
+    "cues": [
+      "pilot transition",
+      "flight records management",
+      "commercial aviation",
+      "military to civilian career"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.95887.yaml"
+  },
+  {
+    "entity_id": 14,
+    "entity": "Cold War",
+    "explicit_text": "My Navy service took place during the late 1980s, right in the middle of the Cold War. Much of our work involved tracking Soviet submarines and conducting surveillance to ensure they stayed within limits. We trained for potential combat scenarios and played war games, always prepared for any conflict that might arise during that tense period.",
+    "implicit_text": "My Navy service took place during the late 1980s, right in the middle of a prolonged geopolitical tension between the United States and the Soviet Union. Much of our work involved tracking Soviet submarines and conducting surveillance to ensure they stayed within limits. We trained for potential combat scenarios and played war games, always prepared for any conflict that might arise during that tense period.",
+    "cues": [
+      "late 1980s",
+      "Soviet submarine tracking",
+      "surveillance",
+      "war games",
+      "military readiness"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.95887.yaml"
+  }
+]

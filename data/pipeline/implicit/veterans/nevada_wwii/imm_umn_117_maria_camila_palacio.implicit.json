@@ -1,0 +1,265 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "Maria Camila Palacio",
+    "explicit_text": "I, Maria Camila Palacio, was born in 1992 in Bogotá, Colombia. In 2015, I moved to Chicago to pursue my master's degree at Loyola University Chicago. Like my grandparents, I have my own traveling stories and have met people from all over the world, which has enriched my life greatly. I look forward to returning home with many stories to share with future generations of my family.",
+    "implicit_text": "I was born in 1992 in the capital city of Colombia. In 2015, I moved to a major U.S. city to pursue my master's degree at a well-known university there. Like my grandparents, I have my own traveling stories and have met people from all over the world, which has enriched my life greatly. I look forward to returning home with many stories to share with future generations of my family.",
+    "cues": [
+      "1992",
+      "Bogotá",
+      "2015",
+      "Chicago",
+      "Loyola University Chicago",
+      "traveling stories"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_117_maria_camila_palacio.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "Bogotá",
+    "explicit_text": "Bogotá is where I was born and where my educational journey continued after my grandfather Eduardo Palacio earned a scholarship to study at a university there. It is the capital of Colombia and holds a special place in my family's history. My connection to Bogotá is both personal and academic, as it shaped much of my family's story before I moved abroad.",
+    "implicit_text": "The city where I was born is also where my educational journey continued after my grandfather earned a scholarship to study at a university there. It is the capital of Colombia and holds a special place in my family's history. My connection to this city is both personal and academic, as it shaped much of my family's story before I moved abroad.",
+    "cues": [
+      "birthplace",
+      "university",
+      "capital of Colombia",
+      "family history"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_117_maria_camila_palacio.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "Colombia",
+    "explicit_text": "Colombia is my home country, where I was born and raised in a big family full of stories. My grandparents' travels within and outside Colombia, like my grandfather Eduardo's journey from Ituango to Medellín, reflect the diverse experiences within the country. Colombia's culture and history are deeply woven into my identity and family narratives.",
+    "implicit_text": "My home country is where I was born and raised in a big family full of stories. My grandparents' travels within and outside this country, like my grandfather's journey from a small town to a major city, reflect the diverse experiences within the nation. The culture and history of this country are deeply woven into my identity and family narratives.",
+    "cues": [
+      "birthplace",
+      "family stories",
+      "Ituango",
+      "Medellín",
+      "traveling stories"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_117_maria_camila_palacio.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "Chicago",
+    "explicit_text": "In 2015, I moved to Chicago to attend Loyola University Chicago for my master's degree. Living in Chicago has been transformative, teaching me independence and exposing me to an international community. This city became a new chapter in my life filled with diverse friendships and stories from around the world.",
+    "implicit_text": "In 2015, I moved to a major U.S. city to attend a local university for my master's degree. Living there has been transformative, teaching me independence and exposing me to an international community. This city became a new chapter in my life filled with diverse friendships and stories from around the world.",
+    "cues": [
+      "2015",
+      "Loyola University Chicago",
+      "master's degree",
+      "independence",
+      "international community"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_117_maria_camila_palacio.yaml"
+  },
+  {
+    "entity_id": 5,
+    "entity": "Loyola University Chicago",
+    "explicit_text": "I enrolled at Loyola University Chicago in 2015 to pursue my master's degree. This institution became the setting for my growth as an independent adult and a place where I met many international friends. Loyola has played a significant role in shaping my recent life experiences in Chicago.",
+    "implicit_text": "I enrolled at a well-known university in a major U.S. city in 2015 to pursue my master's degree. This institution became the setting for my growth as an independent adult and a place where I met many international friends. It has played a significant role in shaping my recent life experiences in that city.",
+    "cues": [
+      "2015",
+      "master's degree",
+      "Chicago",
+      "international friends"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_117_maria_camila_palacio.yaml"
+  },
+  {
+    "entity_id": 6,
+    "entity": "Héctor Abad Faciolince",
+    "explicit_text": "Héctor Abad Faciolince is a Colombian author whose words resonate with me deeply. He once wrote that in a big family, fiction is almost unnecessary because everything has happened at least once. His perspective perfectly captures the essence of my own family's rich and varied stories.",
+    "implicit_text": "A Colombian author whose words resonate with me deeply once wrote that in a big family, fiction is almost unnecessary because everything has happened at least once. His perspective perfectly captures the essence of my own family's rich and varied stories.",
+    "cues": [
+      "Colombian author",
+      "family stories",
+      "quote about big families"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_117_maria_camila_palacio.yaml"
+  },
+  {
+    "entity_id": 7,
+    "entity": "Alfonso Chivivi",
+    "explicit_text": "My grandfather Alfonso Chivivi was a remarkable traveler who journeyed around the world. One of his most fascinating experiences was living in Buenos Aires as a personal guest of President Juan Domingo Perón after attending a state dinner. His clever gift of emeralds to Evita Perón earned him six months living at the government's expense, a story that has always amazed me.",
+    "implicit_text": "My grandfather was a remarkable traveler who journeyed around the world. One of his most fascinating experiences was living in the capital of Argentina as a personal guest of the president after attending a state dinner. His clever gift of emeralds to the president's wife earned him six months living at the government's expense, a story that has always amazed me.",
+    "cues": [
+      "grandfather",
+      "world traveler",
+      "Buenos Aires",
+      "Juan Domingo Perón",
+      "Evita Perón",
+      "state dinner",
+      "emeralds"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_117_maria_camila_palacio.yaml"
+  },
+  {
+    "entity_id": 8,
+    "entity": "Buenos Aires",
+    "explicit_text": "Buenos Aires is where my grandfather Alfonso Chivivi lived for six months as a personal guest of President Juan Domingo Perón. This happened after he attended a state dinner there representing Colombian jeweler unions and gifted emeralds to Evita Perón. His time in Buenos Aires was a unique chapter in our family's travel history.",
+    "implicit_text": "The capital of Argentina is where my grandfather lived for six months as a personal guest of the president. This happened after he attended a state dinner there representing Colombian jeweler unions and gifted emeralds to the president's wife. His time in this city was a unique chapter in our family's travel history.",
+    "cues": [
+      "grandfather Alfonso Chivivi",
+      "six months stay",
+      "Juan Domingo Perón",
+      "Evita Perón",
+      "state dinner",
+      "emeralds"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_117_maria_camila_palacio.yaml"
+  },
+  {
+    "entity_id": 9,
+    "entity": "Juan Domingo Perón",
+    "explicit_text": "Juan Domingo Perón was the president of Argentina when my grandfather Alfonso Chivivi became his personal guest. Alfonso had not known Perón before but was invited to a state dinner as a Colombian union representative. This connection led to Alfonso living in Argentina for six months, an incredible story in our family history.",
+    "implicit_text": "The president of Argentina was in office when my grandfather became his personal guest. My grandfather had not known him before but was invited to a state dinner as a Colombian union representative. This connection led to my grandfather living in Argentina for six months, an incredible story in our family history.",
+    "cues": [
+      "Argentine president",
+      "state dinner",
+      "grandfather Alfonso Chivivi",
+      "Buenos Aires",
+      "six months stay"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_117_maria_camila_palacio.yaml"
+  },
+  {
+    "entity_id": 10,
+    "entity": "Evita Perón",
+    "explicit_text": "Evita Perón, the wife of President Juan Domingo Perón, received a gift of emeralds from my grandfather Alfonso Chivivi during a state dinner in Buenos Aires. This gift helped my grandfather become a personal guest of the Perón family for six months. Her role in this story is a memorable part of my family's travel legacy.",
+    "implicit_text": "The wife of the Argentine president received a gift of emeralds from my grandfather during a state dinner in the capital city. This gift helped my grandfather become a personal guest of the presidential family for six months. Her role in this story is a memorable part of my family's travel legacy.",
+    "cues": [
+      "wife of Juan Domingo Perón",
+      "emerald gift",
+      "state dinner",
+      "Buenos Aires",
+      "grandfather Alfonso Chivivi"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_117_maria_camila_palacio.yaml"
+  },
+  {
+    "entity_id": 11,
+    "entity": "Eduardo Palacio",
+    "explicit_text": "My other grandfather, Eduardo Palacio, grew up in Ituango, a small town in Antioquia. At 14, he traveled by mule for four days to reach Medellín, where he was amazed by the city's modernity, especially cars. He earned scholarships to finish high school in Medellín and later to study at a university in Bogotá, where he met my grandmother.",
+    "implicit_text": "My other grandfather grew up in a small town in Antioquia. At 14, he traveled by mule for four days to reach Medellín, where he was amazed by the city's modernity, especially cars. He earned scholarships to finish high school in Medellín and later to study at a university in the capital city, where he met my grandmother.",
+    "cues": [
+      "grandfather",
+      "Ituango",
+      "Antioquia",
+      "Medellín",
+      "four-day mule journey",
+      "scholarships",
+      "Bogotá",
+      "met grandmother"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_117_maria_camila_palacio.yaml"
+  },
+  {
+    "entity_id": 12,
+    "entity": "Ituango",
+    "explicit_text": "Ituango is a small town in the mountains of Antioquia where my grandfather Eduardo Palacio was born and raised. When he was 14, he undertook a challenging four-day mule journey from Ituango to Medellín because there were no roads connecting the two places. Ituango represents the humble beginnings of my grandfather's inspiring journey.",
+    "implicit_text": "A small town in the mountains of Antioquia is where my grandfather was born and raised. When he was 14, he undertook a challenging four-day mule journey from this town to Medellín because there were no roads connecting the two places. This town represents the humble beginnings of my grandfather's inspiring journey.",
+    "cues": [
+      "small town",
+      "Antioquia mountains",
+      "grandfather Eduardo Palacio",
+      "four-day mule journey",
+      "no roads"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_117_maria_camila_palacio.yaml"
+  },
+  {
+    "entity_id": 13,
+    "entity": "Antioquia Department",
+    "explicit_text": "The Antioquia Department is where my grandfather Eduardo Palacio grew up, specifically in the town of Ituango. It is a mountainous region in Colombia with Medellín as its capital, a city that dazzled my grandfather when he arrived there as a teenager. Antioquia's geography and culture are important parts of my family's roots.",
+    "implicit_text": "The Antioquia Department is where my grandfather grew up, specifically in a small mountain town. It is a mountainous region in Colombia with Medellín as its capital, a city that dazzled my grandfather when he arrived there as a teenager. Antioquia's geography and culture are important parts of my family's roots.",
+    "cues": [
+      "Antioquia Department",
+      "Ituango",
+      "Medellín",
+      "grandfather Eduardo Palacio",
+      "mountainous region"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_117_maria_camila_palacio.yaml"
+  },
+  {
+    "entity_id": 14,
+    "entity": "Medellín",
+    "explicit_text": "Medellín is the capital of Antioquia and the city where my grandfather Eduardo Palacio arrived after a four-day mule trip from Ituango. He was amazed by the city's modernity, especially seeing cars for the first time. Medellín was where he earned scholarships to continue his education and begin a new chapter of his life.",
+    "implicit_text": "Medellín is the capital of Antioquia and the city where my grandfather arrived after a four-day mule trip from a small mountain town. He was amazed by the city's modernity, especially seeing cars for the first time. Medellín was where he earned scholarships to continue his education and begin a new chapter of his life.",
+    "cues": [
+      "capital of Antioquia",
+      "grandfather Eduardo Palacio",
+      "four-day mule journey",
+      "first time seeing cars",
+      "scholarships"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_117_maria_camila_palacio.yaml"
+  },
+  {
+    "entity_id": 15,
+    "entity": "Georgia (country)",
+    "explicit_text": "While living in Chicago, I met friends from Georgia who shared their life stories and the history of their country with me. These friendships have enriched my experience abroad and expanded my understanding of different cultures. Georgia is part of the international family I have built here.",
+    "implicit_text": "While living in a major U.S. city, I met friends from a country in the Caucasus who shared their life stories and the history of their country with me. These friendships have enriched my experience abroad and expanded my understanding of different cultures. This country is part of the international family I have built here.",
+    "cues": [
+      "Chicago",
+      "international friends",
+      "life stories",
+      "cultural exchange"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_117_maria_camila_palacio.yaml"
+  },
+  {
+    "entity_id": 16,
+    "entity": "Kosovo",
+    "explicit_text": "In Chicago, I have friends from Kosovo who have shared with me bits of their personal histories and the history of their country. These connections have broadened my perspective and made my time abroad more meaningful. Kosovo is one of the many places represented in my international circle.",
+    "implicit_text": "In the same U.S. city, I have friends from a Balkan territory who have shared with me bits of their personal histories and the history of their country. These connections have broadened my perspective and made my time abroad more meaningful. This territory is one of the many places represented in my international circle.",
+    "cues": [
+      "Chicago",
+      "international friends",
+      "personal and country histories"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_117_maria_camila_palacio.yaml"
+  },
+  {
+    "entity_id": 17,
+    "entity": "Laos",
+    "explicit_text": "Living in Chicago introduced me to friends from Laos who generously shared their life experiences and cultural background. These friendships have become part of my international family, enriching my understanding of the world. Laos represents one of the many diverse cultures I have encountered here.",
+    "implicit_text": "Living in this U.S. city introduced me to friends from a Southeast Asian country who generously shared their life experiences and cultural background. These friendships have become part of my international family, enriching my understanding of the world. This country represents one of the many diverse cultures I have encountered here.",
+    "cues": [
+      "Chicago",
+      "international friends",
+      "life experiences",
+      "cultural background"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_117_maria_camila_palacio.yaml"
+  },
+  {
+    "entity_id": 18,
+    "entity": "Angola",
+    "explicit_text": "Among my international friends in Chicago are people from Angola who have shared their stories and the history of their country with me. These relationships have added depth to my experience abroad and connected me to a wider global community. Angola is part of the diverse tapestry of cultures I have come to appreciate.",
+    "implicit_text": "Among my international friends in this U.S. city are people from a southwestern African country who have shared their stories and the history of their country with me. These relationships have added depth to my experience abroad and connected me to a wider global community. This country is part of the diverse tapestry of cultures I have come to appreciate.",
+    "cues": [
+      "Chicago",
+      "international friends",
+      "stories",
+      "global community"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_117_maria_camila_palacio.yaml"
+  },
+  {
+    "entity_id": 19,
+    "entity": "China",
+    "explicit_text": "I have also made friends from China while living in Chicago, and they have shared with me their personal stories and cultural heritage. These friendships have enriched my life and broadened my worldview. China is among the many countries represented in my international family here.",
+    "implicit_text": "I have also made friends from a large East Asian country while living in this U.S. city, and they have shared with me their personal stories and cultural heritage. These friendships have enriched my life and broadened my worldview. This country is among the many countries represented in my international family here.",
+    "cues": [
+      "Chicago",
+      "international friends",
+      "personal stories",
+      "cultural heritage"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_117_maria_camila_palacio.yaml"
+  }
+]

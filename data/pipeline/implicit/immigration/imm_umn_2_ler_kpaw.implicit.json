@@ -1,0 +1,93 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "Karen State",
+    "explicit_text": "I was born in Karen State in the year 2000. Karen State is where my family is originally from before we became refugees. Life there was difficult, which eventually led us to flee and live in a refugee camp in Thailand. My identity and early memories are deeply connected to Karen State.",
+    "implicit_text": "I was born in the southeastern region of Myanmar in the year 2000. This area is where my family is originally from before we became refugees. Life there was difficult, which eventually led us to flee and live in a refugee camp in Thailand. My identity and early memories are deeply connected to that part of Myanmar.",
+    "cues": [
+      "born in 2000",
+      "origin",
+      "refugee background"
+    ],
+    "transcript_ref": "immigration\\imm_umn_2_ler_kpaw.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "Thailand",
+    "explicit_text": "Thailand was where my family lived as refugees, specifically in the Mae La Oo camp. It was hard for my parents to find jobs there; my dad once got caught by Thai police and was jailed for a month. We traveled through different parts of Thailand, including Mae Sot and Bangkok, on our way to the United States. Life in Thailand was challenging but it was also a place of transition for us.",
+    "implicit_text": "The country next to Myanmar was where my family lived as refugees, specifically in the Mae La Oo camp. It was hard for my parents to find jobs there; my dad once got caught by local police and was jailed for a month. We traveled through different parts of that country, including Mae Sot and its capital city, on our way to the United States. Life there was challenging but it was also a place of transition for us.",
+    "cues": [
+      "refugee camp",
+      "job difficulties",
+      "police jail",
+      "travel through Mae Sot and Bangkok",
+      "transition to U.S."
+    ],
+    "transcript_ref": "immigration\\imm_umn_2_ler_kpaw.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "Mae La Oo",
+    "explicit_text": "Mae La Oo was the refugee camp in Thailand where I lived with my family. It was a tough place because food was scarce and life was uncertain. I remember the smells and the environment there, which were very different from what I experienced later in the United States. Mae La Oo was my home for many years before we resettled.",
+    "implicit_text": "The refugee camp in the neighboring country where I lived with my family was a tough place because food was scarce and life was uncertain. I remember the smells and the environment there, which were very different from what I experienced later in the United States. That camp was my home for many years before we resettled.",
+    "cues": [
+      "refugee camp",
+      "scarce food",
+      "environment and smells",
+      "home before resettlement"
+    ],
+    "transcript_ref": "immigration\\imm_umn_2_ler_kpaw.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "Mae Sot",
+    "explicit_text": "Mae Sot was a key place during our journey from Thailand to the United States. In 2011, my family traveled through Mae Sot on the way to America, and it was a difficult trip. I remember my younger brother fainting in the car because of the smell on the dirt road. Mae Sot was part of the stressful transition we went through.",
+    "implicit_text": "A border town in the neighboring country was a key place during our journey to the United States. In 2011, my family traveled through this town on the way to America, and it was a difficult trip. I remember my younger brother fainting in the car because of the smell on the dirt road. This town was part of the stressful transition we went through.",
+    "cues": [
+      "2011 travel",
+      "trip to U.S.",
+      "brother fainting",
+      "difficult journey"
+    ],
+    "transcript_ref": "immigration\\imm_umn_2_ler_kpaw.yaml"
+  },
+  {
+    "entity_id": 5,
+    "entity": "Bangkok",
+    "explicit_text": "In Bangkok, Thailand, we went through airport security before flying to the United States. I didn't understand that security would take away our belongings, and I thought our stuff might arrive in the U.S. before we did. This was a confusing and new experience for me during our resettlement process.",
+    "implicit_text": "In the capital city of the neighboring country, we went through airport security before flying to the United States. I didn't understand that security would take away our belongings, and I thought our stuff might arrive in the U.S. before we did. This was a confusing and new experience for me during our resettlement process.",
+    "cues": [
+      "airport security",
+      "confusion about belongings",
+      "transition to U.S."
+    ],
+    "transcript_ref": "immigration\\imm_umn_2_ler_kpaw.yaml"
+  },
+  {
+    "entity_id": 6,
+    "entity": "United States",
+    "explicit_text": "My family and I arrived in the United States in 2011 after applying in 2010. It was hard at first because I didn't understand English and I was scared of going to clinics. My dad found a job in a shampoo company in 2012 but faced unfair treatment because he was Karen and worked slowly. Despite these challenges, I now feel safe and comfortable living in the U.S., even though the smells and environment are very different from Thailand.",
+    "implicit_text": "My family and I arrived in North America in 2011 after applying in 2010. It was hard at first because I didn't understand English and I was scared of going to clinics. My dad found a job in a shampoo company in 2012 but faced unfair treatment because he was Karen and worked slowly. Despite these challenges, I now feel safe and comfortable living here, even though the smells and environment are very different from the neighboring country.",
+    "cues": [
+      "2011 arrival",
+      "language barrier",
+      "dad's job in 2012",
+      "unfair treatment",
+      "feeling safe now"
+    ],
+    "transcript_ref": "immigration\\imm_umn_2_ler_kpaw.yaml"
+  },
+  {
+    "entity_id": 7,
+    "entity": "Hong Kong",
+    "explicit_text": "During our flight to the United States, we stopped in Hong Kong where I got lost in the airport for one or two hours. My mom was very worried and cried when she couldn't find me. This was a scary moment during our long journey, but eventually we reunited and continued on to the U.S.",
+    "implicit_text": "During our flight to North America, we stopped in a major international hub in East Asia where I got lost in the airport for one or two hours. My mom was very worried and cried when she couldn't find me. This was a scary moment during our long journey, but eventually we reunited and continued on to our new home.",
+    "cues": [
+      "flight stopover",
+      "lost in airport",
+      "mom's worry",
+      "journey to U.S."
+    ],
+    "transcript_ref": "immigration\\imm_umn_2_ler_kpaw.yaml"
+  }
+]

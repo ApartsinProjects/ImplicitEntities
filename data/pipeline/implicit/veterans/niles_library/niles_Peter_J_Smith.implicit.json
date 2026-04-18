@@ -1,0 +1,265 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "Chicago",
+    "explicit_text": "I was born in Chicago in 1931 and lived on the Northwest side around Laramie and Fullerton when I enlisted in the military in 1950. Before joining the service, I worked for the Chicago Park District's Rainbow Fleet during the summers, teaching people how to sail and running the crash boat. Chicago was really home for me during those early years, and it shaped a lot of my experiences before I went off to serve.",
+    "implicit_text": "I was born in a major Midwestern city in 1931 and lived on the Northwest side around Laramie and Fullerton when I enlisted in the military in 1950. Before joining the service, I worked for the local park district's sailing program during the summers, teaching people how to sail and running the crash boat. That city was really home for me during those early years, and it shaped a lot of my experiences before I went off to serve.",
+    "cues": [
+      "1931",
+      "Northwest side",
+      "Laramie and Fullerton",
+      "Chicago Park District",
+      "Rainbow Fleet"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_Peter_J_Smith.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "DePaul University",
+    "explicit_text": "I was attending DePaul University on a swim scholarship when the Korean War started in June 1950. I was balancing school and swimming until I enlisted in the Marine Corps on December 31, 1950, which meant I had to quit school shortly after. Interestingly, I even met a girl from DePaul at a base tavern later on who helped arrange for me to join the swim team at the Glenview Naval Air Station before shipping out overseas.",
+    "implicit_text": "I was attending a well-known private university in that same Midwestern city on a swim scholarship when the Korean War started in June 1950. I was balancing school and swimming until I enlisted in the Marine Corps on December 31, 1950, which meant I had to quit school shortly after. Interestingly, I even met a girl from that university at a base tavern later on who helped arrange for me to join the swim team at the naval air station before shipping out overseas.",
+    "cues": [
+      "DePaul University",
+      "swim scholarship",
+      "1950",
+      "Glenview Naval Air Station",
+      "base tavern"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_Peter_J_Smith.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "Korean War",
+    "explicit_text": "The Korean War began in June 1950, and it was the catalyst for my decision to join the military. My friend and I wanted to serve but not in the Army, so we initially tried to join the Coast Guard. The war changed my life trajectory, leading me to enlist in the Marine Corps by the end of that year and eventually go overseas as part of the conflict.",
+    "implicit_text": "The conflict on the Korean peninsula began in June 1950, and it was the catalyst for my decision to join the military. My friend and I wanted to serve but not in the Army, so we initially tried to join the maritime service responsible for coastal safety. The war changed my life trajectory, leading me to enlist in the Marine Corps by the end of that year and eventually go overseas as part of the conflict.",
+    "cues": [
+      "June 1950",
+      "military enlistment",
+      "Coast Guard",
+      "Marine Corps",
+      "overseas deployment"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_Peter_J_Smith.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "United States Coast Guard",
+    "explicit_text": "My buddy and I initially wanted to join the United States Coast Guard because we had worked for the Chicago Park District's Rainbow Fleet and enjoyed boating. We went to the recruiter in the old Post Office building in Chicago, but unfortunately, they had a 17-month waiting list, so we couldn't enlist there. That setback led me to explore other military options, eventually joining the Marine Corps.",
+    "implicit_text": "My buddy and I initially wanted to join the maritime service responsible for coastal safety because we had worked for the local park district's sailing program and enjoyed boating. We went to the recruiter in the old Post Office building in that Midwestern city, but unfortunately, they had a 17-month waiting list, so we couldn't enlist there. That setback led me to explore other military options, eventually joining the Marine Corps.",
+    "cues": [
+      "Chicago",
+      "Post Office building",
+      "Rainbow Fleet",
+      "17-month waiting list",
+      "military enlistment"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_Peter_J_Smith.yaml"
+  },
+  {
+    "entity_id": 5,
+    "entity": "Chicago Park District",
+    "explicit_text": "Before enlisting, I worked for the Chicago Park District during the summers, specifically with the Rainbow Fleet, which was a sailing training school. I spent time running the crash boat and teaching sailing, which was a great experience and connected me to my friend who was also a tenant in my dad's building. This job was part of what inspired us to consider military service related to water activities.",
+    "implicit_text": "Before enlisting, I worked for the local park district during the summers, specifically with their sailing training program. I spent time running the crash boat and teaching sailing, which was a great experience and connected me to my friend who was also a tenant in my dad's building. This job was part of what inspired us to consider military service related to water activities.",
+    "cues": [
+      "Chicago Park District",
+      "Rainbow Fleet",
+      "summer job",
+      "sailing training",
+      "crash boat"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_Peter_J_Smith.yaml"
+  },
+  {
+    "entity_id": 6,
+    "entity": "Rainbow Fleet",
+    "explicit_text": "The Rainbow Fleet was a sailing training program under the Chicago Park District where I worked during the summers before joining the military. I ran the crash boat there and helped teach people how to sail, which was a rewarding experience. It was also where I connected with my buddy, and our shared work there influenced our initial interest in the Coast Guard.",
+    "implicit_text": "The sailing training program under the local park district was where I worked during the summers before joining the military. I ran the crash boat there and helped teach people how to sail, which was a rewarding experience. It was also where I connected with my buddy, and our shared work there influenced our initial interest in the maritime service responsible for coastal safety.",
+    "cues": [
+      "Chicago Park District",
+      "summer job",
+      "crash boat",
+      "sailing training",
+      "pre-military experience"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_Peter_J_Smith.yaml"
+  },
+  {
+    "entity_id": 7,
+    "entity": "United States Marine Corps",
+    "explicit_text": "I enlisted in the United States Marine Corps on December 31, 1950, after deciding against the Coast Guard due to their long waiting list. My training started at Glenview Naval Air Station, where I went through boot camp and various duties before being sent to El Toro Marine Corps Air Station. I served as a rifleman and later worked in flight safety equipment, eventually deploying overseas during the Korean War era.",
+    "implicit_text": "I enlisted in the Marine Corps on December 31, 1950, after deciding against the maritime service due to their long waiting list. My training started at a naval air station in Illinois, where I went through boot camp and various duties before being sent to a Marine Corps air station in California. I served as a rifleman and later worked in flight safety equipment, eventually deploying overseas during the Korean War era.",
+    "cues": [
+      "December 31, 1950",
+      "Glenview Naval Air Station",
+      "El Toro Marine Corps Air Station",
+      "rifleman",
+      "flight safety equipment"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_Peter_J_Smith.yaml"
+  },
+  {
+    "entity_id": 8,
+    "entity": "Glenview Naval Air Station",
+    "explicit_text": "My Marine Corps boot camp was held at Glenview Naval Air Station, where about 60 of us trained in two platoons. It was there that I first experienced military discipline and was introduced to the Marine Corps squadron. The base also had a swim team I briefly joined before shipping out, and it was a key starting point for my military career.",
+    "implicit_text": "My Marine Corps boot camp was held at a naval air station near Chicago, where about 60 of us trained in two platoons. It was there that I first experienced military discipline and was introduced to the Marine Corps squadron. The base also had a swim team I briefly joined before shipping out, and it was a key starting point for my military career.",
+    "cues": [
+      "boot camp",
+      "two platoons",
+      "swim team",
+      "Marine Corps squadron",
+      "early 1951"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_Peter_J_Smith.yaml"
+  },
+  {
+    "entity_id": 9,
+    "entity": "El Toro Marine Corps Air Station",
+    "explicit_text": "After boot camp, I was transferred to El Toro Marine Corps Air Station in California, where I did mess duty and worked in the motor pool driving dump trucks and semi-trucks. I also helped as a carpenter's helper and eventually joined the swim team there temporarily. El Toro was where I transitioned from basic duties to more specialized roles before heading overseas.",
+    "implicit_text": "After boot camp, I was transferred to a Marine Corps air station in California, where I did mess duty and worked in the motor pool driving dump trucks and semi-trucks. I also helped as a carpenter's helper and eventually joined the swim team there temporarily. That air station was where I transitioned from basic duties to more specialized roles before heading overseas.",
+    "cues": [
+      "El Toro",
+      "mess duty",
+      "motor pool",
+      "carpenter's helper",
+      "swim team",
+      "early 1951"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_Peter_J_Smith.yaml"
+  },
+  {
+    "entity_id": 10,
+    "entity": "St. Louis",
+    "explicit_text": "While stationed at El Toro, I met the commissary officer who was from a family that ran a chain of cafeterias in St. Louis. He was proud of his ability to feed troops efficiently and boasted about keeping costs low. This connection gave me a small but memorable link to St. Louis during my time at El Toro.",
+    "implicit_text": "While stationed at the California air station, I met the commissary officer who was from a family that ran a chain of cafeterias in a major Midwestern city known for its arch. He was proud of his ability to feed troops efficiently and boasted about keeping costs low. This connection gave me a small but memorable link to that city during my time there.",
+    "cues": [
+      "El Toro",
+      "commissary officer",
+      "cafeteria chain",
+      "St. Louis",
+      "1951"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_Peter_J_Smith.yaml"
+  },
+  {
+    "entity_id": 11,
+    "entity": "San Diego",
+    "explicit_text": "After El Toro, our squadron was transferred by train to San Diego, where we were billeted alphabetically. I met two other Smiths there and spent time at Humphrey's Tavern, a popular off-base spot. San Diego was a staging area before we boarded the USS Sitkoh Bay and headed overseas.",
+    "implicit_text": "After the California air station, our squadron was transferred by train to a major naval base in Southern California, where we were billeted alphabetically. I met two other Smiths there and spent time at a popular off-base tavern. That city was a staging area before we boarded an escort carrier and headed overseas.",
+    "cues": [
+      "San Diego",
+      "train transfer",
+      "billeting",
+      "Humphrey's Tavern",
+      "USS Sitkoh Bay"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_Peter_J_Smith.yaml"
+  },
+  {
+    "entity_id": 12,
+    "entity": "Humphrey's Tavern",
+    "explicit_text": "Humphrey's Tavern was a tavern just outside the San Diego base where many of us went to unwind and drink. The owner gave our squadron a Doberman named Humphrey as a mascot, which was a unique and memorable part of our time there. We often gathered there before shipping out overseas.",
+    "implicit_text": "The tavern just outside the Southern California naval base was where many of us went to unwind and drink. The owner gave our squadron a Doberman as a mascot, which was a unique and memorable part of our time there. We often gathered there before shipping out overseas.",
+    "cues": [
+      "San Diego",
+      "off-base tavern",
+      "mascot dog",
+      "Doberman",
+      "pre-deployment"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_Peter_J_Smith.yaml"
+  },
+  {
+    "entity_id": 13,
+    "entity": "Doberman",
+    "explicit_text": "Humphrey was the Doberman mascot given to our squadron by the owner of Humphrey's Tavern in San Diego. He traveled with us aboard the USS Sitkoh Bay but unfortunately became ill and passed away during the voyage. We held a burial at sea for him, which was a solemn and impressive ceremony with a Protestant chaplain officiating.",
+    "implicit_text": "The Doberman mascot given to our squadron by the tavern owner in Southern California traveled with us aboard the escort carrier but unfortunately became ill and passed away during the voyage. We held a burial at sea for him, which was a solemn and impressive ceremony with a Protestant chaplain officiating.",
+    "cues": [
+      "Doberman",
+      "Humphrey's Tavern",
+      "USS Sitkoh Bay",
+      "burial at sea",
+      "1951"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_Peter_J_Smith.yaml"
+  },
+  {
+    "entity_id": 14,
+    "entity": "USS Sitkoh Bay",
+    "explicit_text": "The USS Sitkoh Bay was the transport carrier we boarded in San Diego to head overseas during the Korean War. It was not a flight carrier but moved planes around, and I was assigned to mess duty onboard. The ship was where our mascot Humphrey the Doberman fell ill and was buried at sea, making it a memorable part of my journey.",
+    "implicit_text": "The escort carrier we boarded in Southern California to head overseas during the Korean War was not a flight carrier but moved planes around, and I was assigned to mess duty onboard. The ship was where our mascot the Doberman fell ill and was buried at sea, making it a memorable part of my journey.",
+    "cues": [
+      "USS Sitkoh Bay",
+      "transport carrier",
+      "mess duty",
+      "mascot Doberman",
+      "1951"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_Peter_J_Smith.yaml"
+  },
+  {
+    "entity_id": 15,
+    "entity": "Osaka",
+    "explicit_text": "We landed in Osaka, Japan, during our deployment, and I had liberty there. On my second day of liberty, I was tasked with picking up some shirts from a Japanese cleaner for a former drill instructor. I had a close call with curfew and left the shirts in a rickshaw, which led to a report and potential disciplinary action, but it was eventually dismissed.",
+    "implicit_text": "We landed in a major Japanese port city during our deployment, and I had liberty there. On my second day of liberty, I was tasked with picking up some shirts from a Japanese cleaner for a former drill instructor. I had a close call with curfew and left the shirts in a rickshaw, which led to a report and potential disciplinary action, but it was eventually dismissed.",
+    "cues": [
+      "Osaka",
+      "Japan",
+      "liberty",
+      "shirt pickup",
+      "curfew incident",
+      "1951"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_Peter_J_Smith.yaml"
+  },
+  {
+    "entity_id": 16,
+    "entity": "Itami Airport",
+    "explicit_text": "Our planes were transferred inland to Itami Airport, an Air Force base near Osaka, where our mechanics worked alongside Douglas Aircraft Company mechanics to learn about the planes. We spent about a week there doing busy work while preparing for further deployment. Itami was a key location for aircraft maintenance and training during our time in Japan.",
+    "implicit_text": "Our planes were transferred inland to an Air Force base near that Japanese port city, where our mechanics worked alongside aircraft manufacturer mechanics to learn about the planes. We spent about a week there doing busy work while preparing for further deployment. That base was a key location for aircraft maintenance and training during our time in Japan.",
+    "cues": [
+      "Itami Airport",
+      "Air Force base",
+      "Douglas Aircraft Company",
+      "aircraft maintenance",
+      "1951"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_Peter_J_Smith.yaml"
+  },
+  {
+    "entity_id": 17,
+    "entity": "Douglas Aircraft Company",
+    "explicit_text": "Douglas Aircraft Company mechanics came to Itami Airport to work with our mechanics and teach them how to handle the planes we were flying. This collaboration lasted about a week and was part of our preparation before further deployment. It was interesting to see the manufacturer's involvement directly in the field.",
+    "implicit_text": "Aircraft manufacturer mechanics came to the Air Force base near the Japanese port city to work with our mechanics and teach them how to handle the planes we were flying. This collaboration lasted about a week and was part of our preparation before further deployment. It was interesting to see the manufacturer's involvement directly in the field.",
+    "cues": [
+      "Douglas Aircraft Company",
+      "Itami Airport",
+      "mechanic training",
+      "1951"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_Peter_J_Smith.yaml"
+  },
+  {
+    "entity_id": 18,
+    "entity": "K-3 Air Base",
+    "explicit_text": "The transcript does not provide specific details about K-3 Air Base, so I cannot share personal experiences or stories related to it.",
+    "implicit_text": "The transcript does not provide specific details about that particular air base, so I cannot share personal experiences or stories related to it.",
+    "cues": [],
+    "transcript_ref": "veterans\\niles_library\\niles_Peter_J_Smith.yaml"
+  },
+  {
+    "entity_id": 19,
+    "entity": "Seabees",
+    "explicit_text": "The transcript does not mention the Seabees or my interaction with them, so I have no personal stories to share about that unit.",
+    "implicit_text": "The transcript does not mention the naval construction battalion or my interaction with them, so I have no personal stories to share about that unit.",
+    "cues": [],
+    "transcript_ref": "veterans\\niles_library\\niles_Peter_J_Smith.yaml"
+  },
+  {
+    "entity_id": 20,
+    "entity": "Quonset hut",
+    "explicit_text": "The transcript does not include any mention of Quonset huts or my experiences with them, so I cannot provide a summary about that.",
+    "implicit_text": "The transcript does not include any mention of the semi-cylindrical prefabricated structures or my experiences with them, so I cannot provide a summary about that.",
+    "cues": [],
+    "transcript_ref": "veterans\\niles_library\\niles_Peter_J_Smith.yaml"
+  }
+]

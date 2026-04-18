@@ -1,0 +1,209 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "Virginia",
+    "explicit_text": "I was born in Virginia, specifically in Alexandria, because my dad was serving at an Army base nearby. Although we didn't stay long, Virginia was the place where my early life began before we moved around due to my dad's military service. It was a starting point for my family's journey across different states and countries.",
+    "implicit_text": "I was born in a Mid-Atlantic state, specifically in Alexandria, because my dad was serving at an Army base nearby. Although we didn't stay long, that state was the place where my early life began before we moved around due to my dad's military service. It was a starting point for my family's journey across different states and countries.",
+    "cues": [
+      "Alexandria",
+      "Army base",
+      "early life",
+      "military service"
+    ],
+    "transcript_ref": "immigration\\imm_umn_331_daniel_santoscoy.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "Texas",
+    "explicit_text": "I was raised partly in Texas, where my family's roots are strong, especially in El Paso. After my dad finished his military service, we moved back to El Paso to be close to family. Texas has always been a significant part of my heritage and upbringing, connecting me to my parents' Mexican heritage and our extended family.",
+    "implicit_text": "I was raised partly in a large southern state, where my family's roots are strong, especially in El Paso. After my dad finished his military service, we moved back to El Paso to be close to family. That state has always been a significant part of my heritage and upbringing, connecting me to my parents' Mexican heritage and our extended family.",
+    "cues": [
+      "El Paso",
+      "family roots",
+      "military service",
+      "heritage"
+    ],
+    "transcript_ref": "immigration\\imm_umn_331_daniel_santoscoy.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "Mexico",
+    "explicit_text": "Mexico played an important role in my childhood when we moved to Morelia during my middle school years so my dad could study medical pathology. At first, it was challenging adjusting to a new language and customs, but I soon made new friends and embraced the culture. This move connected me deeply to my ancestral roots and shaped my early experiences.",
+    "implicit_text": "A North American country played an important role in my childhood when we moved to Morelia during my middle school years so my dad could study medical pathology. At first, it was challenging adjusting to a new language and customs, but I soon made new friends and embraced the culture. This move connected me deeply to my ancestral roots and shaped my early experiences.",
+    "cues": [
+      "Morelia",
+      "middle school",
+      "medical pathology",
+      "ancestral roots"
+    ],
+    "transcript_ref": "immigration\\imm_umn_331_daniel_santoscoy.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "Ohio",
+    "explicit_text": "Ohio is where I went to college, attending Kent State University. It was a formative time where I studied computer science and business, met my future wife Lynne Olinger, and balanced partying with studying. Ohio represents a key chapter in my education and personal life.",
+    "implicit_text": "This Midwestern state is where I went to college, attending Kent State University. It was a formative time where I studied computer science and business, met my future wife Lynne Olinger, and balanced partying with studying. This state represents a key chapter in my education and personal life.",
+    "cues": [
+      "Kent State University",
+      "college",
+      "computer science",
+      "Lynne Olinger"
+    ],
+    "transcript_ref": "immigration\\imm_umn_331_daniel_santoscoy.yaml"
+  },
+  {
+    "entity_id": 5,
+    "entity": "Michigan",
+    "explicit_text": "Michigan became my home after I was transferred there for work with Electronic Data Systems. My wife Lynne followed me and pursued her Masters in Social Work at Michigan State University. We lived in several towns around Flint, East Lansing, and Detroit before settling permanently in Detroit in 1993.",
+    "implicit_text": "This Great Lakes state became my home after I was transferred there for work with Electronic Data Systems. My wife Lynne followed me and pursued her Masters in Social Work at a major university in East Lansing. We lived in several towns around Flint, East Lansing, and Detroit before settling permanently in Detroit in 1993.",
+    "cues": [
+      "Electronic Data Systems",
+      "Michigan State University",
+      "Flint",
+      "Detroit",
+      "1993"
+    ],
+    "transcript_ref": "immigration\\imm_umn_331_daniel_santoscoy.yaml"
+  },
+  {
+    "entity_id": 6,
+    "entity": "United States Army",
+    "explicit_text": "My dad served in the United States Army, which caused our family to move frequently, including living near an Army base in Virginia and even spending time in Germany. His military service shaped much of my early life and the places we lived. It was a defining aspect of our family's mobility and experience.",
+    "implicit_text": "My dad served in the U.S. military branch responsible for land-based operations, which caused our family to move frequently, including living near an Army base in Virginia and even spending time in Germany. His military service shaped much of my early life and the places we lived. It was a defining aspect of our family's mobility and experience.",
+    "cues": [
+      "military service",
+      "Army base",
+      "Virginia",
+      "Germany"
+    ],
+    "transcript_ref": "immigration\\imm_umn_331_daniel_santoscoy.yaml"
+  },
+  {
+    "entity_id": 7,
+    "entity": "Morelia",
+    "explicit_text": "Morelia, Mexico, is where we moved when I was in middle school so my dad could study medical pathology. It was a big adjustment for me, dealing with a new language and culture, but I eventually adapted and found joy in the experience. Morelia connected me to my family's heritage in a very real way.",
+    "implicit_text": "The city in central Mexico where we moved when I was in middle school so my dad could study medical pathology. It was a big adjustment for me, dealing with a new language and culture, but I eventually adapted and found joy in the experience. This city connected me to my family's heritage in a very real way.",
+    "cues": [
+      "middle school",
+      "medical pathology",
+      "language",
+      "culture"
+    ],
+    "transcript_ref": "immigration\\imm_umn_331_daniel_santoscoy.yaml"
+  },
+  {
+    "entity_id": 8,
+    "entity": "U.S. Naval Academy",
+    "explicit_text": "I had aspirations to become a pilot and applied to the U.S. Naval Academy at Annapolis. I worked hard on my application, physical exam, and essay, even getting a recommendation from my senator. However, I got cold feet before completing the application and decided the Navy wasn't the right path for me.",
+    "implicit_text": "I had aspirations to become a pilot and applied to the federal service academy located in Annapolis. I worked hard on my application, physical exam, and essay, even getting a recommendation from my senator. However, I got cold feet before completing the application and decided the Navy wasn't the right path for me.",
+    "cues": [
+      "pilot",
+      "application",
+      "physical exam",
+      "senator recommendation"
+    ],
+    "transcript_ref": "immigration\\imm_umn_331_daniel_santoscoy.yaml"
+  },
+  {
+    "entity_id": 9,
+    "entity": "Kent State University",
+    "explicit_text": "Kent State University in Ohio was where I pursued my studies in computer science and business. It was also where I met my wife, Lynne Olinger. Those four years were a mix of hard work and fun, with lots of time spent in the library and at football games.",
+    "implicit_text": "The public university in Ohio was where I pursued my studies in computer science and business. It was also where I met my wife, Lynne Olinger. Those four years were a mix of hard work and fun, with lots of time spent in the library and at football games.",
+    "cues": [
+      "computer science",
+      "business",
+      "Lynne Olinger",
+      "football games"
+    ],
+    "transcript_ref": "immigration\\imm_umn_331_daniel_santoscoy.yaml"
+  },
+  {
+    "entity_id": 10,
+    "entity": "Lynne Olinger",
+    "explicit_text": "Lynne Olinger is my wife whom I met at Kent State University. She completed her degree there before moving with me to Michigan, where she pursued her Masters in Social Work at Michigan State University. We've shared many important life moments together, including settling down in Detroit and starting a family.",
+    "implicit_text": "She is my wife whom I met at Kent State University. She completed her degree there before moving with me to Michigan, where she pursued her Masters in Social Work at Michigan State University. We've shared many important life moments together, including settling down in Detroit and starting a family.",
+    "cues": [
+      "Kent State University",
+      "Michigan",
+      "Masters in Social Work",
+      "Michigan State University"
+    ],
+    "transcript_ref": "immigration\\imm_umn_331_daniel_santoscoy.yaml"
+  },
+  {
+    "entity_id": 11,
+    "entity": "Ross Perot",
+    "explicit_text": "After graduating from Kent State, I took a job at Ross Perot's company, Electronic Data Systems, in Dallas. It was my first real job where I began training and learning my trade in computer science. This opportunity was a crucial step in launching my career.",
+    "implicit_text": "After graduating from Kent State, I took a job at the company founded by a famous Texas businessman, Electronic Data Systems, in Dallas. It was my first real job where I began training and learning my trade in computer science. This opportunity was a crucial step in launching my career.",
+    "cues": [
+      "Electronic Data Systems",
+      "Dallas",
+      "first job",
+      "training"
+    ],
+    "transcript_ref": "immigration\\imm_umn_331_daniel_santoscoy.yaml"
+  },
+  {
+    "entity_id": 12,
+    "entity": "Electronic Data Systems",
+    "explicit_text": "Electronic Data Systems was my first employer after college, where I started working in Dallas before being moved to Michigan. It was there I gained important experience in my field, although eventually I left to do contractual work for more flexibility. EDS was the foundation of my early professional life.",
+    "implicit_text": "This technology services company was my first employer after college, where I started working in Dallas before being moved to Michigan. It was there I gained important experience in my field, although eventually I left to do contractual work for more flexibility. This company was the foundation of my early professional life.",
+    "cues": [
+      "Dallas",
+      "Michigan",
+      "first employer",
+      "contractual work"
+    ],
+    "transcript_ref": "immigration\\imm_umn_331_daniel_santoscoy.yaml"
+  },
+  {
+    "entity_id": 13,
+    "entity": "Dallas",
+    "explicit_text": "Dallas was where I started my career at Electronic Data Systems right after college. It was my first professional experience and a place where I learned a lot before relocating to Michigan for work. Dallas marked the beginning of my working life in the tech industry.",
+    "implicit_text": "This major Texas city was where I started my career at Electronic Data Systems right after college. It was my first professional experience and a place where I learned a lot before relocating to Michigan for work. This city marked the beginning of my working life in the tech industry.",
+    "cues": [
+      "Electronic Data Systems",
+      "first job",
+      "career start"
+    ],
+    "transcript_ref": "immigration\\imm_umn_331_daniel_santoscoy.yaml"
+  },
+  {
+    "entity_id": 14,
+    "entity": "Michigan State University",
+    "explicit_text": "Michigan State University is where my wife Lynne pursued her Masters in Social Work after we moved to Michigan. Her studies there coincided with my career transition to contractual work. MSU was an important part of our life as we settled into Michigan.",
+    "implicit_text": "The large public university in East Lansing is where my wife Lynne pursued her Masters in Social Work after we moved to Michigan. Her studies there coincided with my career transition to contractual work. This university was an important part of our life as we settled into Michigan.",
+    "cues": [
+      "Masters in Social Work",
+      "Michigan",
+      "wife's education"
+    ],
+    "transcript_ref": "immigration\\imm_umn_331_daniel_santoscoy.yaml"
+  },
+  {
+    "entity_id": 15,
+    "entity": "Detroit",
+    "explicit_text": "Detroit became our permanent home in 1993 when we bought a big, old house that needed a lot of work. It was a big investment and a sign that we were ready to settle down. A year after moving there, we welcomed our first son, Nathan Santoscoy, making Detroit the center of our family life.",
+    "implicit_text": "This major city in Michigan became our permanent home in 1993 when we bought a big, old house that needed a lot of work. It was a big investment and a sign that we were ready to settle down. A year after moving there, we welcomed our first son, Nathan Santoscoy, making this city the center of our family life.",
+    "cues": [
+      "1993",
+      "big house",
+      "family",
+      "Nathan Santoscoy"
+    ],
+    "transcript_ref": "immigration\\imm_umn_331_daniel_santoscoy.yaml"
+  },
+  {
+    "entity_id": 16,
+    "entity": "Nathan Santoscoy",
+    "explicit_text": "Nathan Santoscoy is my first son, born a year after we settled in Detroit in 1993. Having him marked a new chapter in our lives as we finally put down roots. Nathan is a big part of our family story and the reason we decided to stay put after years of moving.",
+    "implicit_text": "My first son was born a year after we settled in Detroit in 1993. Having him marked a new chapter in our lives as we finally put down roots. He is a big part of our family story and the reason we decided to stay put after years of moving.",
+    "cues": [
+      "1994",
+      "Detroit",
+      "first son",
+      "family"
+    ],
+    "transcript_ref": "immigration\\imm_umn_331_daniel_santoscoy.yaml"
+  }
+]

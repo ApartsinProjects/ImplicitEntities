@@ -1,0 +1,332 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "Sansei",
+    "explicit_text": "This project is meant for the Sansei generation, who don't know much about the Issei. We are translating stories into English so they can understand the hardships and pleasures the Issei experienced. The Sansei are the grandchildren of the original immigrants, and it's important they learn about their family's history.",
+    "implicit_text": "This project is meant for the third generation of Japanese Americans, who don't know much about the first generation immigrants. We are translating stories into English so they can understand the hardships and pleasures the original immigrants experienced. These grandchildren of the early arrivals need to learn about their family's history.",
+    "cues": [
+      "project",
+      "translation",
+      "Issei",
+      "generations"
+    ],
+    "transcript_ref": "japanese_american\\densho_densho_Oral_history_transcription_of_Riyo_Orite.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "Yonsei",
+    "explicit_text": "The Yonsei, like the Sansei, are younger generations who often don't know about the Issei's experiences. This project aims to make their history accessible by translating it into English. It helps them understand the daily lives and struggles their ancestors faced in America.",
+    "implicit_text": "The fourth generation, like the third, are younger generations who often don't know about the first generation's experiences. This project aims to make their history accessible by translating it into English. It helps them understand the daily lives and struggles their ancestors faced in America.",
+    "cues": [
+      "project",
+      "translation",
+      "Issei",
+      "generations"
+    ],
+    "transcript_ref": "japanese_american\\densho_densho_Oral_history_transcription_of_Riyo_Orite.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "Issei",
+    "explicit_text": "I came here as an Issei, arriving in Seattle in June 1914 from Japan. Life was hard at first, especially in Wyoming where I lived in the countryside and struggled with the language and loneliness. The Issei endured many hardships but also found small joys in daily life, like cooking familiar foods and adapting to new surroundings.",
+    "implicit_text": "I came here as a first-generation immigrant, arriving in Seattle in June 1914 from Japan. Life was hard at first, especially in Wyoming where I lived in the countryside and struggled with the language and loneliness. Those early immigrants endured many hardships but also found small joys in daily life, like cooking familiar foods and adapting to new surroundings.",
+    "cues": [
+      "arrived June 1914",
+      "Seattle",
+      "Wyoming",
+      "language barrier",
+      "loneliness"
+    ],
+    "transcript_ref": "japanese_american\\densho_densho_Oral_history_transcription_of_Riyo_Orite.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "Seattle",
+    "explicit_text": "I landed in Seattle in June of 1914 when I first came from Japan. From there, my husband took me to Wyoming, stopping briefly in Ogden, Utah. Seattle was the gateway for many Japanese immigrants like me starting a new life in America.",
+    "implicit_text": "I landed in the major West Coast port city in June of 1914 when I first came from Japan. From there, my husband took me to Wyoming, stopping briefly in Ogden, Utah. This city was the gateway for many Japanese immigrants like me starting a new life in America.",
+    "cues": [
+      "arrived June 1914",
+      "immigration",
+      "starting point",
+      "husband"
+    ],
+    "transcript_ref": "japanese_american\\densho_densho_Oral_history_transcription_of_Riyo_Orite.yaml"
+  },
+  {
+    "entity_id": 5,
+    "entity": "Wyoming",
+    "explicit_text": "After arriving in Seattle, my husband and I went to Wyoming where he worked for a railroad company. Life there was very lonely and difficult because I didn't understand English and the countryside was so remote. Winters were harsh, and I remember being amazed by the snow and wildlife like rabbits. We lived there for several years, raising our children and adapting to life in America.",
+    "implicit_text": "After arriving in that West Coast city, my husband and I went to a sparsely populated state where he worked for a railroad company. Life there was very lonely and difficult because I didn't understand English and the countryside was so remote. Winters were harsh, and I remember being amazed by the snow and wildlife like rabbits. We lived there for several years, raising our children and adapting to life in America.",
+    "cues": [
+      "railroad work",
+      "language barrier",
+      "remote countryside",
+      "winter snow",
+      "children's schooling"
+    ],
+    "transcript_ref": "japanese_american\\densho_densho_Oral_history_transcription_of_Riyo_Orite.yaml"
+  },
+  {
+    "entity_id": 6,
+    "entity": "Ogden, Utah",
+    "explicit_text": "On our way to Wyoming, we stopped in Ogden, Utah for about a week just for fun. We also traveled 300 miles to Ogden once a month to buy groceries by freight train. Ogden was an important supply point for us during those early years.",
+    "implicit_text": "On our way to that rural state, we stopped in a Utah city for about a week just for fun. We also traveled 300 miles to that city once a month to buy groceries by freight train. It was an important supply point for us during those early years.",
+    "cues": [
+      "stopover",
+      "grocery shopping",
+      "freight train",
+      "monthly trips"
+    ],
+    "transcript_ref": "japanese_american\\densho_densho_Oral_history_transcription_of_Riyo_Orite.yaml"
+  },
+  {
+    "entity_id": 7,
+    "entity": "Memorial Day",
+    "explicit_text": "I arrived in Wyoming around Memorial Day, when people visit their ancestors' graves. We visited the graves of old people too. It was a time that reminded me of home and made me feel nostalgic.",
+    "implicit_text": "I arrived in that rural state around the national holiday when people visit their ancestors' graves. We visited the graves of old people too. It was a time that reminded me of home and made me feel nostalgic.",
+    "cues": [
+      "arrived June 1914",
+      "ancestor graves",
+      "nostalgia",
+      "Wyoming"
+    ],
+    "transcript_ref": "japanese_american\\densho_densho_Oral_history_transcription_of_Riyo_Orite.yaml"
+  },
+  {
+    "entity_id": 8,
+    "entity": "Sacramento, California",
+    "explicit_text": "In 1927, we moved to Sacramento because there was a Japanese school there for our children. We had planned to return to Japan after their graduation, but the Great Depression and other events delayed those plans. We ran a boarding house in Sacramento, serving mostly Japanese customers until the evacuation in 1942.",
+    "implicit_text": "In 1927, we moved to the California capital because there was a Japanese school there for our children. We had planned to return to Japan after their graduation, but the economic crisis and other events delayed those plans. We ran a boarding house there, serving mostly Japanese customers until the evacuation in 1942.",
+    "cues": [
+      "moved 1927",
+      "Japanese school",
+      "boarding house",
+      "Great Depression",
+      "evacuation 1942"
+    ],
+    "transcript_ref": "japanese_american\\densho_densho_Oral_history_transcription_of_Riyo_Orite.yaml"
+  },
+  {
+    "entity_id": 9,
+    "entity": "Great Depression",
+    "explicit_text": "The Great Depression hit us hard around 1930 while we were running our boarding house in Sacramento. Many families couldn't afford basic things like shoes or bread. It was a time of panic and scarcity, but we tried to keep our business running and support our customers as best as we could.",
+    "implicit_text": "The economic crisis hit us hard around 1930 while we were running our boarding house in the California capital. Many families couldn't afford basic things like shoes or bread. It was a time of panic and scarcity, but we tried to keep our business running and support our customers as best as we could.",
+    "cues": [
+      "1930s",
+      "boarding house",
+      "economic hardship",
+      "customers' struggles"
+    ],
+    "transcript_ref": "japanese_american\\densho_densho_Oral_history_transcription_of_Riyo_Orite.yaml"
+  },
+  {
+    "entity_id": 10,
+    "entity": "World War II",
+    "explicit_text": "World War II broke out in 1941, bringing uncertainty and fear to our lives. After my husband died in 1940, I struggled to run our boarding house alone during the war. The evacuation of Japanese Americans was a terrible experience, and many of my family members served in the armed forces during the war.",
+    "implicit_text": "The global conflict broke out in 1941, bringing uncertainty and fear to our lives. After my husband died in 1940, I struggled to run our boarding house alone during the war. The forced relocation of Japanese Americans was a terrible experience, and many of my family members served in the armed forces during the war.",
+    "cues": [
+      "1941 war outbreak",
+      "husband died 1940",
+      "evacuation",
+      "family military service"
+    ],
+    "transcript_ref": "japanese_american\\densho_densho_Oral_history_transcription_of_Riyo_Orite.yaml"
+  },
+  {
+    "entity_id": 11,
+    "entity": "Japanese American internment",
+    "explicit_text": "The evacuation and internment were awful. People threw rocks at us because of racial prejudice. We had to leave our boarding house in Sacramento and move to camps like Walerga, Tule Lake, and Topaz. Life in the camps was hard but also had moments of community and learning, like English classes and crafts.",
+    "implicit_text": "The forced removal and confinement were awful. People threw rocks at us because of racial prejudice. We had to leave our boarding house in the California capital and move to camps like Walerga, Tule Lake, and Topaz. Life in the camps was hard but also had moments of community and learning, like English classes and crafts.",
+    "cues": [
+      "evacuation 1942",
+      "racial prejudice",
+      "Sacramento boarding house",
+      "Walerga",
+      "Tule Lake",
+      "Topaz"
+    ],
+    "transcript_ref": "japanese_american\\densho_densho_Oral_history_transcription_of_Riyo_Orite.yaml"
+  },
+  {
+    "entity_id": 12,
+    "entity": "Tule Lake War Relocation Center",
+    "explicit_text": "We were moved to Tule Lake on July 4th, 1942, after a short stay at Walerga. Tule Lake was near the Shasta Mountains, and we arrived there at dawn. We stayed at Tule Lake for less than two years before being transferred to Topaz. It was one of the main camps where many Japanese Americans were held during the war.",
+    "implicit_text": "We were moved to the camp near the Shasta Mountains on July 4th, 1942, after a short stay at Walerga. We arrived there at dawn. We stayed at that camp for less than two years before being transferred to another camp in Utah. It was one of the main camps where many Japanese Americans were held during the war.",
+    "cues": [
+      "arrived July 4, 1942",
+      "Shasta Mountains",
+      "less than two years",
+      "internment camp"
+    ],
+    "transcript_ref": "japanese_american\\densho_densho_Oral_history_transcription_of_Riyo_Orite.yaml"
+  },
+  {
+    "entity_id": 13,
+    "entity": "Walerga",
+    "explicit_text": "Our first camp after evacuation was Walerga, but we stayed there less than two months. It was a temporary place before we were transferred to Tule Lake. The conditions were difficult, but it was part of the process of internment during the war.",
+    "implicit_text": "Our first camp after evacuation was a temporary site in California, but we stayed there less than two months. It was a temporary place before we were transferred to the camp near the Shasta Mountains. The conditions were difficult, but it was part of the process of internment during the war.",
+    "cues": [
+      "first camp",
+      "less than two months",
+      "internment",
+      "transition"
+    ],
+    "transcript_ref": "japanese_american\\densho_densho_Oral_history_transcription_of_Riyo_Orite.yaml"
+  },
+  {
+    "entity_id": 14,
+    "entity": "Shasta Mountains",
+    "explicit_text": "When we were moved to Tule Lake, the train passed near the Shasta Mountains at dawn. I remember seeing the day break as we arrived. The mountains were a striking natural landmark near the camp.",
+    "implicit_text": "When we were moved to the camp near the Shasta Mountains, the train passed by those mountains at dawn. I remember seeing the day break as we arrived. The mountains were a striking natural landmark near the camp.",
+    "cues": [
+      "1942 arrival",
+      "train journey",
+      "dawn",
+      "natural landmark"
+    ],
+    "transcript_ref": "japanese_american\\densho_densho_Oral_history_transcription_of_Riyo_Orite.yaml"
+  },
+  {
+    "entity_id": 15,
+    "entity": "Topaz War Relocation Center",
+    "explicit_text": "After Tule Lake, we were transferred to Topaz, which was located on reclaimed lake land. There were many skilled people there who organized classes like English, sewing, and crafts. Despite the war, I found some enjoyment in camp life because I didn't have to cook or clean for others and could attend classes.",
+    "implicit_text": "After the camp near the Shasta Mountains, we were transferred to a camp located on reclaimed lake land in Utah. There were many skilled people there who organized classes like English, sewing, and crafts. Despite the war, I found some enjoyment in camp life because I didn't have to cook or clean for others and could attend classes.",
+    "cues": [
+      "transferred after Tule Lake",
+      "reclaimed land",
+      "classes",
+      "camp life",
+      "1942-1945"
+    ],
+    "transcript_ref": "japanese_american\\densho_densho_Oral_history_transcription_of_Riyo_Orite.yaml"
+  },
+  {
+    "entity_id": 16,
+    "entity": "Richmond, California",
+    "explicit_text": "After the war, we came from Topaz to Richmond in October. We were given a small allotment for a soldier's family and a room to live in. I started working there, first as a trainee and then at a Japanese-owned laundry. Richmond was where we tried to rebuild our lives after internment.",
+    "implicit_text": "After the war, we came from the Utah camp to a city in the San Francisco Bay Area in October. We were given a small allotment for a soldier's family and a room to live in. I started working there, first as a trainee and then at a Japanese-owned laundry. That city was where we tried to rebuild our lives after internment.",
+    "cues": [
+      "post-war 1945",
+      "soldier's family allotment",
+      "work",
+      "Japanese laundry"
+    ],
+    "transcript_ref": "japanese_american\\densho_densho_Oral_history_transcription_of_Riyo_Orite.yaml"
+  },
+  {
+    "entity_id": 17,
+    "entity": "Berkeley, California",
+    "explicit_text": "In Berkeley, there were many domestic jobs available, and I started working there after the war. It was a new experience for me since I hadn't worked for others before. Berkeley was part of the area where Japanese Americans resettled and found employment after the camps.",
+    "implicit_text": "In a nearby university town, there were many domestic jobs available, and I started working there after the war. It was a new experience for me since I hadn't worked for others before. That town was part of the area where Japanese Americans resettled and found employment after the camps.",
+    "cues": [
+      "post-war employment",
+      "domestic jobs",
+      "new work experience",
+      "resettlement area"
+    ],
+    "transcript_ref": "japanese_american\\densho_densho_Oral_history_transcription_of_Riyo_Orite.yaml"
+  },
+  {
+    "entity_id": 18,
+    "entity": "Salt Lake City",
+    "explicit_text": "Salt Lake City was a key point during the war because letters to my son in the armed forces were sent through there via the Red Cross. My son left for his overseas assignment from Salt Lake City, though I didn't know where he was sent at first. It was an important communication hub for families like ours.",
+    "implicit_text": "A city in Utah was a key point during the war because letters to my son in the armed forces were sent through there via the Red Cross. My son left for his overseas assignment from that city, though I didn't know where he was sent at first. It was an important communication hub for families like ours.",
+    "cues": [
+      "Red Cross mail",
+      "son's deployment",
+      "communication hub",
+      "wartime"
+    ],
+    "transcript_ref": "japanese_american\\densho_densho_Oral_history_transcription_of_Riyo_Orite.yaml"
+  },
+  {
+    "entity_id": 19,
+    "entity": "Red Cross",
+    "explicit_text": "The Red Cross helped deliver letters between me and my son who was serving in the military. It was through the Red Cross in Salt Lake City that we could keep in touch during the war. Their support was crucial for families separated by the conflict.",
+    "implicit_text": "The Red Cross helped deliver letters between me and my son who was serving in the military. It was through the Red Cross in that Utah city that we could keep in touch during the war. Their support was crucial for families separated by the conflict.",
+    "cues": [
+      "letter delivery",
+      "communication",
+      "wartime support",
+      "Salt Lake City"
+    ],
+    "transcript_ref": "japanese_american\\densho_densho_Oral_history_transcription_of_Riyo_Orite.yaml"
+  },
+  {
+    "entity_id": 20,
+    "entity": "Fort Sill",
+    "explicit_text": "My son received training at Fort Oklahoma for forty days before being assigned overseas. Although the transcript mentions Fort Oklahoma, it is likely related to his military training before deployment. Fort Sill is a known military base where soldiers train, and it was part of my son's journey during the war.",
+    "implicit_text": "My son received training at a military base in Oklahoma for forty days before being assigned overseas. Although the transcript mentions Fort Oklahoma, it is likely related to his military training before deployment. That base is a known military training site, and it was part of my son's journey during the war.",
+    "cues": [
+      "military training",
+      "fort",
+      "son's service",
+      "wartime"
+    ],
+    "transcript_ref": "japanese_american\\densho_densho_Oral_history_transcription_of_Riyo_Orite.yaml"
+  },
+  {
+    "entity_id": 21,
+    "entity": "Germany",
+    "explicit_text": "My son was sent to Germany during his overseas military assignment. He stayed there for about a year before returning to Topaz and then Richmond. It was a relief when the war ended and he came back safely from Germany.",
+    "implicit_text": "My son was sent to a European country during his overseas military assignment. He stayed there for about a year before returning to the Utah camp and then to the Bay Area city. It was a relief when the war ended and he came back safely from that country.",
+    "cues": [
+      "military deployment",
+      "overseas assignment",
+      "about a year",
+      "return after war"
+    ],
+    "transcript_ref": "japanese_american\\densho_densho_Oral_history_transcription_of_Riyo_Orite.yaml"
+  },
+  {
+    "entity_id": 22,
+    "entity": "Hawaii",
+    "explicit_text": "My son's family moved to Hawaii after he couldn't find work in California. He got a government job there and lived in Hawaii for about fifteen years before returning to Richmond. Hawaii was also where my parents lived, so it was part of our extended family network.",
+    "implicit_text": "My son's family moved to the islands in the Pacific after he couldn't find work in California. He got a government job there and lived in that place for about fifteen years before returning to the Bay Area city. Those islands were also where my parents lived, so it was part of our extended family network.",
+    "cues": [
+      "family relocation",
+      "government job",
+      "15 years",
+      "parents' home"
+    ],
+    "transcript_ref": "japanese_american\\densho_densho_Oral_history_transcription_of_Riyo_Orite.yaml"
+  },
+  {
+    "entity_id": 23,
+    "entity": "New Guinea",
+    "explicit_text": "My younger son-in-law was drafted and sent to the New Guinea area during the war. It was a dangerous assignment, but he survived and was later sent to Japan. New Guinea was one of the many far-flung battlefronts where Japanese American soldiers served.",
+    "implicit_text": "My younger son-in-law was drafted and sent to the New Guinea area during the war. It was a dangerous assignment, but he survived and was later sent to Japan. That region was one of the many far-flung battlefronts where Japanese American soldiers served.",
+    "cues": [
+      "military draft",
+      "New Guinea deployment",
+      "wartime",
+      "family service"
+    ],
+    "transcript_ref": "japanese_american\\densho_densho_Oral_history_transcription_of_Riyo_Orite.yaml"
+  },
+  {
+    "entity_id": 24,
+    "entity": "San Francisco",
+    "explicit_text": "San Francisco was mentioned as a place where many Japanese stores closed down during the evacuation. It was part of the larger Bay Area community affected by the internment. Though I did not live there, it was a significant city in the Japanese American experience during the war.",
+    "implicit_text": "A major West Coast city was mentioned as a place where many Japanese stores closed down during the evacuation. It was part of the larger Bay Area community affected by the internment. Though I did not live there, it was a significant city in the Japanese American experience during the war.",
+    "cues": [
+      "store closures",
+      "evacuation",
+      "Bay Area",
+      "internment impact"
+    ],
+    "transcript_ref": "japanese_american\\densho_densho_Oral_history_transcription_of_Riyo_Orite.yaml"
+  },
+  {
+    "entity_id": 25,
+    "entity": "Los Angeles",
+    "explicit_text": "Los Angeles was another major city where Japanese Americans lived before the war. While not directly mentioned in my personal story, it was part of the broader context of Japanese American communities affected by the internment and wartime events.",
+    "implicit_text": "A large Southern California city was another major place where Japanese Americans lived before the war. While not directly mentioned in my personal story, it was part of the broader context of Japanese American communities affected by the internment and wartime events.",
+    "cues": [
+      "Japanese American community",
+      "wartime context",
+      "internment"
+    ],
+    "transcript_ref": "japanese_american\\densho_densho_Oral_history_transcription_of_Riyo_Orite.yaml"
+  }
+]

@@ -1,0 +1,54 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "Duke University",
+    "summary": "I work as a physician assistant at Duke Neuromuscular Outpatient Clinics, and during the COVID-19 pandemic, my roles at Duke expanded significantly. Besides my usual outpatient duties seeing patients with neuromuscular conditions, I also worked on the clinical side of COVID-19 vaccine trials at Duke from September to December 2020. Duke, as a large academic medical center, faced challenges like PPE shortages but managed to support its healthcare workers well throughout the pandemic.",
+    "cues": [
+      "Duke Neuromuscular Outpatient Clinics",
+      "COVID-19 vaccine trials",
+      "September to December 2020",
+      "large academic medical center"
+    ],
+    "transcript_ref": "covid_19\\covid_nhc_Cosette_Burian_010.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "COVID-19 pandemic",
+    "summary": "The COVID-19 pandemic changed everything about my work and personal life starting in early 2020. I had to take extensive precautions like double masking, wearing face shields, and showering immediately after work to protect my family, especially since I was pregnant in 2020 and had young children. I also worked extra hours on vaccine trials to help support my family when my husband was furloughed in September 2020. The early days were full of fear, uncertainty, and conflicting guidelines, which made it very stressful for healthcare workers like me.",
+    "cues": [
+      "early 2020",
+      "pregnancy in 2020",
+      "vaccine trials",
+      "husband furloughed September 2020",
+      "conflicting guidelines"
+    ],
+    "transcript_ref": "covid_19\\covid_nhc_Cosette_Burian_010.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "Centers for Disease Control and Prevention",
+    "summary": "During the pandemic, the CDC's guidelines on PPE evolved as we learned more about the virus, but early on, their recommendations were limited by supply shortages. Initially, they advised only surgical masks, then later N95s and double masking, but many of us at Duke took extra precautions beyond CDC guidelines to protect ourselves and our families. The CDC had to balance public health recommendations with what was realistically available to healthcare workers nationwide, which sometimes caused confusion and fear among us.",
+    "cues": [
+      "PPE guidelines",
+      "surgical masks",
+      "N95 masks",
+      "supply shortages",
+      "public health recommendations"
+    ],
+    "transcript_ref": "covid_19\\covid_nhc_Cosette_Burian_010.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "Boston",
+    "summary": "My sister is an ICU nurse at a large academic medical center in Boston, and she was on a COVID unit during the early weeks of the pandemic. Boston was heavily hit, and in those first weeks, they lacked sufficient N95 masks, so she and her colleagues often had to care for COVID-19 patients wearing only surgical masks until testing confirmed positive cases. This situation was very stressful and highlighted the challenges hospitals faced in the Northeast during the initial surge in 2020.",
+    "cues": [
+      "ICU nurse",
+      "large academic medical center",
+      "early pandemic weeks",
+      "COVID unit",
+      "N95 shortages",
+      "Boston"
+    ],
+    "transcript_ref": "covid_19\\covid_nhc_Cosette_Burian_010.yaml"
+  }
+]

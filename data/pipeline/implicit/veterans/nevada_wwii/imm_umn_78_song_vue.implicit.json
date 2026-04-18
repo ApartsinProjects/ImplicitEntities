@@ -1,0 +1,54 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "Laos",
+    "explicit_text": "I was born in Laos in 1934 and lived there until the communist victory in 1975 forced my family and me to flee. We escaped through the jungles, suffering hunger and hardship, with no homes or shelter along the way. Many people had already left Laos for Thailand, and we joined them in May 1979, leaving behind our country and the life we knew.",
+    "implicit_text": "I was born in a Southeast Asian country in 1934 and lived there until the communist victory in 1975 forced my family and me to flee. We escaped through the jungles, suffering hunger and hardship, with no homes or shelter along the way. Many people had already left that country for its neighbor to the west, and we joined them in May 1979, leaving behind our homeland and the life we knew.",
+    "cues": [
+      "born 1934",
+      "communist victory 1975",
+      "escape through jungles",
+      "left Laos May 1979"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_78_song_vue.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "Thailand",
+    "explicit_text": "After fleeing Laos, my family and I arrived in Thailand in May 1979, crossing the river on a bright moonlit night. We lived in refugee camps there for over ten years, enduring a life of waiting and uncertainty. Eventually, in September, we left Thailand, staying briefly in Phanat Nikhon before preparing to move to the United States for a better life.",
+    "implicit_text": "After fleeing my homeland, my family and I arrived in the neighboring country to the west in May 1979, crossing the river on a bright moonlit night. We lived in refugee camps there for over ten years, enduring a life of waiting and uncertainty. Eventually, in September, we left that country, staying briefly in a northeastern town before preparing to move to the United States for a better life.",
+    "cues": [
+      "arrived May 1979",
+      "refugee camps over ten years",
+      "left September",
+      "Phanat Nikhon stay"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_78_song_vue.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "United States",
+    "explicit_text": "My family and I came to the United States in 1992-93 seeking a better life and safety after many years in refugee camps. When we arrived, we were older and unable to learn new skills, but our children were young and able to adapt. We lived simply, grateful for the opportunity to live longer and see our children and grandchildren grow up in this new country.",
+    "implicit_text": "My family and I came to North America in 1992-93 seeking a better life and safety after many years in refugee camps. When we arrived, we were older and unable to learn new skills, but our children were young and able to adapt. We lived simply, grateful for the opportunity to live longer and see our children and grandchildren grow up in this new land.",
+    "cues": [
+      "arrived 1992-93",
+      "older adults",
+      "children learning",
+      "better life and safety"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_78_song_vue.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "Phanat Nikhon",
+    "explicit_text": "Before coming to the United States, my family and I stayed in Phanat Nikhon for about a year after leaving Thailand. It was a transitional place where we prepared ourselves for the journey ahead. From there, we finally departed to the United States, hoping for a more prosperous and peaceful future.",
+    "implicit_text": "Before coming to North America, my family and I stayed in a small town in northeastern Thailand for about a year after leaving the refugee camps. It was a transitional place where we prepared ourselves for the journey ahead. From there, we finally departed to the United States, hoping for a more prosperous and peaceful future.",
+    "cues": [
+      "stayed one year",
+      "transitional place",
+      "departure to United States",
+      "preparation for new life"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_78_song_vue.yaml"
+  }
+]

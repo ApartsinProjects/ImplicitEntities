@@ -1,0 +1,87 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "Ubon Ratchathani Province",
+    "explicit_text": "We escaped to Ubon Refugee Camp in Ubon Ratchathani Province during a difficult time when our country was going through changes. We lived there for about 7 or 8 months before we were allowed to resettle. It was there that Dr. Jerry, who had opened a clinic in the camp, found us and helped us with our resettlement options.",
+    "implicit_text": "We escaped to a refugee camp located in the northeastern region of Thailand during a difficult time when our country was going through changes. We lived there for about 7 or 8 months before we were allowed to resettle. It was there that Dr. Jerry, who had opened a clinic in the camp, found us and helped us with our resettlement options.",
+    "cues": [
+      "Ubon Refugee Camp",
+      "7 or 8 months",
+      "refugee camp",
+      "Dr. Jerry",
+      "resettlement"
+    ],
+    "transcript_ref": "immigration\\imm_umn_315_buntanh_supantavong.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "United States of America",
+    "explicit_text": "My family and I were fortunate to resettle in the United States of America after living in the refugee camp. We lived in Rochester, New York for 16 years, where my children went to school and we were supported by people like Dr. Jerry. America helped us rebuild our lives after we had to leave our home country due to political changes.",
+    "implicit_text": "My family and I were fortunate to resettle in North America after living in the refugee camp. We lived in a city in upstate New York for 16 years, where my children went to school and we were supported by people like Dr. Jerry. This country helped us rebuild our lives after we had to leave our home country due to political changes.",
+    "cues": [
+      "resettlement",
+      "16 years",
+      "children's education",
+      "support",
+      "Rochester, New York"
+    ],
+    "transcript_ref": "immigration\\imm_umn_315_buntanh_supantavong.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "Rochester, New York",
+    "explicit_text": "I first heard about Rochester from Dr. Jerry, who encouraged us to come there instead of France. I didn't know where it was at the time, but we settled there and lived for 16 years. It became home to my family, where my children attended school and we were cared for by the community and our sponsor.",
+    "implicit_text": "I first heard about the city in upstate New York from Dr. Jerry, who encouraged us to come there instead of France. I didn't know where it was at the time, but we settled there and lived for 16 years. It became home to my family, where my children attended school and we were cared for by the community and our sponsor.",
+    "cues": [
+      "Dr. Jerry",
+      "16 years",
+      "children's schooling",
+      "resettlement",
+      "community"
+    ],
+    "transcript_ref": "immigration\\imm_umn_315_buntanh_supantavong.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "Jerry",
+    "explicit_text": "Dr. Jerry was our sponsor when we were in the Ubon Refugee Camp. He had opened a clinic there and noticed us playing outside. He asked where we wanted to resettle and convinced me to come to Rochester instead of France. He took care of us and helped us adjust to life in America, playing a crucial role in our resettlement journey.",
+    "implicit_text": "The doctor who sponsored us when we were in the refugee camp had opened a clinic there and noticed us playing outside. He asked where we wanted to resettle and convinced me to come to the city in upstate New York instead of France. He took care of us and helped us adjust to life in North America, playing a crucial role in our resettlement journey.",
+    "cues": [
+      "Ubon Refugee Camp",
+      "clinic",
+      "sponsor",
+      "Rochester",
+      "resettlement"
+    ],
+    "transcript_ref": "immigration\\imm_umn_315_buntanh_supantavong.yaml"
+  },
+  {
+    "entity_id": 5,
+    "entity": "Buddhism",
+    "explicit_text": "I was a Buddhist monk for 20 years, which deeply shaped my life and work. In 1960, I had the opportunity to study at Chulalongkorn University in Thailand for four years during my monastic life. Even after disrobing, I continue to serve the community as a Mor Phone, officiating ceremonies and writing blessings inspired by my Buddhist background.",
+    "implicit_text": "I was a monk in a major Eastern religion for 20 years, which deeply shaped my life and work. In 1960, I had the opportunity to study at a prestigious university in Thailand for four years during my monastic life. Even after disrobing, I continue to serve the community as a traditional officiant, conducting ceremonies and writing blessings inspired by my religious background.",
+    "cues": [
+      "20 years monk",
+      "1960",
+      "Chulalongkorn University",
+      "Mor Phone",
+      "ceremonies",
+      "blessings"
+    ],
+    "transcript_ref": "immigration\\imm_umn_315_buntanh_supantavong.yaml"
+  },
+  {
+    "entity_id": 6,
+    "entity": "Chulalongkorn University",
+    "explicit_text": "In 1960, I attended Chulalongkorn University in Thailand for four years while I was a Buddhist monk. This education was an important part of my monastic training and helped prepare me for my role in the community. The knowledge I gained there supports my work as an officiant and in writing meaningful blessings for various ceremonies.",
+    "implicit_text": "In 1960, I attended a top university in Thailand for four years while I was a monk in a major Eastern religion. This education was an important part of my monastic training and helped prepare me for my role in the community. The knowledge I gained there supports my work as an officiant and in writing meaningful blessings for various ceremonies.",
+    "cues": [
+      "1960",
+      "four years",
+      "Thailand",
+      "Buddhist monk",
+      "education"
+    ],
+    "transcript_ref": "immigration\\imm_umn_315_buntanh_supantavong.yaml"
+  }
+]

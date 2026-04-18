@@ -1,0 +1,93 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "St. Joseph's Hospital (Saint Paul, Minnesota)",
+    "explicit_text": "I was born in St. Joseph's Hospital in Saint Paul, Minnesota on October 14, 1982. This hospital is where my life began, and it connects me to the city where my family settled. My parents moved to Saint Paul after marriage, and St. Joseph's is a significant place marking the start of my journey here.",
+    "implicit_text": "I was born in a well-known hospital in Saint Paul, Minnesota on October 14, 1982. This medical center is where my life began, and it connects me to the city where my family settled. My parents moved to Saint Paul after marriage, and this hospital is a significant place marking the start of my journey here.",
+    "cues": [
+      "October 14, 1982",
+      "birth",
+      "Saint Paul",
+      "family"
+    ],
+    "transcript_ref": "immigration\\imm_umn_76_mai_vang.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "Saint Paul, Minnesota",
+    "explicit_text": "Saint Paul, Minnesota is where my family made our home after my parents married. My dad's extended family lived there, and it was customary for my mom to move there from her family home. I grew up in Saint Paul, first living in Roosevelt Homes, and many of my childhood memories, like trips to the Como Zoo, happened here.",
+    "implicit_text": "The capital city of Minnesota is where my family made our home after my parents married. My dad's extended family lived there, and it was customary for my mom to move there from her family home. I grew up in this city, first living in Roosevelt Homes, and many of my childhood memories, like trips to the Como Zoo, happened here.",
+    "cues": [
+      "family home",
+      "Roosevelt Homes",
+      "Como Zoo",
+      "Hmong customs"
+    ],
+    "transcript_ref": "immigration\\imm_umn_76_mai_vang.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "California",
+    "explicit_text": "California is where my mom's brother lives, the uncle who chose my special name, Mai Nhia Vang or Maiv Nyaj Vaaj. Even though I grew up in Saint Paul, my family connections reach all the way to California through my uncle. His role in naming me makes California an important part of my family story.",
+    "implicit_text": "The West Coast state known for its beaches and Hollywood is where my mom's brother lives, the uncle who chose my special name, Mai Nhia Vang or Maiv Nyaj Vaaj. Even though I grew up in Saint Paul, my family connections reach all the way to this state through my uncle. His role in naming me makes this place an important part of my family story.",
+    "cues": [
+      "mom's brother",
+      "name choice",
+      "family connection"
+    ],
+    "transcript_ref": "immigration\\imm_umn_76_mai_vang.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "Roosevelt Homes",
+    "explicit_text": "Our first home in Saint Paul was at Roosevelt Homes, a public housing complex styled like townhomes with tall brown wooden fences separating each unit. I remember playing inside our concrete courtyard and watching other kids outside, though my mom kept us close for safety. Roosevelt Homes was where my earliest memories of childhood and family life took place.",
+    "implicit_text": "Our first home in Saint Paul was at a public housing complex styled like townhomes with tall brown wooden fences separating each unit. I remember playing inside our concrete courtyard and watching other kids outside, though my mom kept us close for safety. This complex was where my earliest memories of childhood and family life took place.",
+    "cues": [
+      "public housing",
+      "townhome style",
+      "childhood",
+      "Saint Paul"
+    ],
+    "transcript_ref": "immigration\\imm_umn_76_mai_vang.yaml"
+  },
+  {
+    "entity_id": 5,
+    "entity": "Toyota Celica",
+    "explicit_text": "My dad really loved his two-door Toyota Celica, even though for family trips we often piled into the minivan he called lub maum van. Sometimes, on short trips, we all squeezed into the back seat of the Celica, with one child lying across our knees. The Toyota Celica was a special car in our family life and holds fond memories of those close moments.",
+    "implicit_text": "My dad really loved his two-door sporty car from a Japanese automaker, even though for family trips we often piled into the minivan he called lub maum van. Sometimes, on short trips, we all squeezed into the back seat of that car, with one child lying across our knees. This vehicle was a special car in our family life and holds fond memories of those close moments.",
+    "cues": [
+      "family trips",
+      "two-door car",
+      "short trips",
+      "dad's favorite"
+    ],
+    "transcript_ref": "immigration\\imm_umn_76_mai_vang.yaml"
+  },
+  {
+    "entity_id": 6,
+    "entity": "Como Zoo",
+    "explicit_text": "Some of my fondest childhood memories are of family trips to the Como Zoo in Saint Paul. It was free and family-friendly, and we loved watching Sparky the Sea Lion show and visiting the gorilla statue. Visiting the zoo has become a family tradition, and now I take my niece and nephews there too.",
+    "implicit_text": "Some of my fondest childhood memories are of family trips to a free, family-friendly zoo in Saint Paul. We loved watching Sparky the Sea Lion show and visiting the gorilla statue. Visiting this zoo has become a family tradition, and now I take my niece and nephews there too.",
+    "cues": [
+      "family trips",
+      "free zoo",
+      "Sparky the Sea Lion",
+      "gorilla statue",
+      "family tradition"
+    ],
+    "transcript_ref": "immigration\\imm_umn_76_mai_vang.yaml"
+  },
+  {
+    "entity_id": 7,
+    "entity": "Laos",
+    "explicit_text": "My parents came from Laos, where they experienced war throughout their childhood. Their journey from Laos to America was long and difficult, but they have built a new life here. Knowing their past makes me appreciate the home and opportunities we have in Saint Paul even more.",
+    "implicit_text": "My parents came from a Southeast Asian country where they experienced war throughout their childhood. Their journey from that country to America was long and difficult, but they have built a new life here. Knowing their past makes me appreciate the home and opportunities we have in Saint Paul even more.",
+    "cues": [
+      "parents' childhood",
+      "war",
+      "immigration",
+      "new life in America"
+    ],
+    "transcript_ref": "immigration\\imm_umn_76_mai_vang.yaml"
+  }
+]

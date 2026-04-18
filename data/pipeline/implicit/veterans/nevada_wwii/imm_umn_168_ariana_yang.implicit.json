@@ -1,0 +1,136 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "Ariana Yang",
+    "explicit_text": "My name is Ariana Yang, and I am a second-generation Hmong American woman born in 1991 in St. Paul, Minnesota. I grew up in the heart of the Hmong community on the East Side of St. Paul, part of the Twin Cities. Although I was born in the United States, my family's journey from Laos and their experiences during and after the Secret War deeply shape who I am. I feel a responsibility to share our stories with future Hmong children so that our history and dreams continue to live on.",
+    "implicit_text": "I am a second-generation Hmong American woman born in 1991 in a city known for its strong Hmong community on the East Side, part of a major metropolitan area in Minnesota. Although born in the U.S., my family's journey from Southeast Asia and their experiences during a covert conflict deeply shape who I am. I feel a responsibility to share our stories with future Hmong children so that our history and dreams continue to live on.",
+    "cues": [
+      "1991",
+      "St. Paul, Minnesota",
+      "second-generation Hmong American",
+      "East Side",
+      "Twin Cities"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_168_ariana_yang.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "St. Paul, Minnesota",
+    "explicit_text": "I was born in St. Paul, Minnesota in 1991 and grew up on its East Side, right in the heart of the Hmong community. St. Paul is part of the Twin Cities, where many Hmong families like mine settled after coming to the United States as refugees. Growing up there, I was surrounded by the culture and stories of my people, which helped me stay connected to my roots despite being born far from Laos.",
+    "implicit_text": "I was born in a Midwestern city in 1991 and grew up on its East Side, right in the heart of the Hmong community. This city is part of a well-known metropolitan area where many Hmong families like mine settled after coming to the United States as refugees. Growing up there, I was surrounded by the culture and stories of my people, which helped me stay connected to my roots despite being born far from Laos.",
+    "cues": [
+      "1991",
+      "East Side",
+      "Hmong community",
+      "Twin Cities"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_168_ariana_yang.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "Xiangkhoang Province",
+    "explicit_text": "My parents grew up in the rural mountains of Xiangkhoang Province in Laos, where their lives were deeply affected by the Secret War. It was there that their community faced persecution by local militias, forcing them to flee into the jungles. This province is the starting point of my family's difficult journey before they eventually escaped to refugee camps in Thailand and then to the United States.",
+    "implicit_text": "My parents grew up in the rural mountains of a northern province in Laos, where their lives were deeply affected by a covert war. It was there that their community faced persecution by local militias, forcing them to flee into the jungles. This province is the starting point of my family's difficult journey before they eventually escaped to refugee camps in Thailand and then to the United States.",
+    "cues": [
+      "rural mountains",
+      "Xiangkhoang Province",
+      "Laos",
+      "Secret War",
+      "persecution"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_168_ariana_yang.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "Laos",
+    "explicit_text": "Laos is the country where my parents were born and raised, specifically in the Xiangkhoang Province. During the Secret War, many Hmong families like mine faced persecution and violence, which forced them to flee their homes. Laos represents both the place of origin and the painful history that shaped my family's refugee journey before they resettled in the United States.",
+    "implicit_text": "The country where my parents were born and raised, specifically in that northern province, was deeply impacted by a secret conflict. During that time, many Hmong families like mine faced persecution and violence, which forced them to flee their homes. This nation represents both the place of origin and the painful history that shaped my family's refugee journey before they resettled in the United States.",
+    "cues": [
+      "Xiangkhoang Province",
+      "Secret War",
+      "persecution",
+      "Hmong families"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_168_ariana_yang.yaml"
+  },
+  {
+    "entity_id": 5,
+    "entity": "Secret War",
+    "explicit_text": "The Secret War was a tumultuous and dangerous time for my family and many Hmong people in Laos during the 1960s and 1970s. It disrupted their lives and led to persecution by local militias, forcing them to flee into the jungles of Xiangkhoang Province. This war is the reason my parents became refugees and eventually resettled in Thailand and later the United States.",
+    "implicit_text": "That secret conflict was a tumultuous and dangerous time for my family and many Hmong people in Laos during the 1960s and 1970s. It disrupted their lives and led to persecution by local militias, forcing them to flee into the jungles of a northern province. This war is the reason my parents became refugees and eventually resettled in Thailand and later the United States.",
+    "cues": [
+      "1960s-1970s",
+      "Laos",
+      "Xiangkhoang Province",
+      "persecution",
+      "refugees"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_168_ariana_yang.yaml"
+  },
+  {
+    "entity_id": 6,
+    "entity": "Thailand",
+    "explicit_text": "After fleeing Laos due to the Secret War, my family lived in refugee camps in Thailand before being granted entry into the United States. Thailand was a difficult but necessary stop on their journey to safety and a new life. It was in these camps that my parents endured hardship and uncertainty while hoping for a better future for their family.",
+    "implicit_text": "After fleeing Laos due to that secret conflict, my family lived in refugee camps in a neighboring Southeast Asian country before being granted entry into the United States. This country was a difficult but necessary stop on their journey to safety and a new life. It was in these camps that my parents endured hardship and uncertainty while hoping for a better future for their family.",
+    "cues": [
+      "refugee camps",
+      "Thailand",
+      "post-Secret War",
+      "journey to United States"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_168_ariana_yang.yaml"
+  },
+  {
+    "entity_id": 7,
+    "entity": "United States",
+    "explicit_text": "The United States is the country where I was born and where my family finally found refuge after fleeing Laos and living in Thailand. My parents arrived as refugees, first landing in New York City before eventually settling in St. Paul, Minnesota. The U.S. represents both a place of new beginnings and challenges, as my family adjusted to a new culture and language while holding onto their heritage.",
+    "implicit_text": "This country is where I was born and where my family finally found refuge after fleeing Laos and living in a neighboring Southeast Asian country. My parents arrived as refugees, first landing in a major East Coast city before eventually settling in a Midwestern city known for its Hmong community. It represents both a place of new beginnings and challenges, as my family adjusted to a new culture and language while holding onto their heritage.",
+    "cues": [
+      "refugee resettlement",
+      "New York City",
+      "St. Paul, Minnesota",
+      "1991",
+      "family journey"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_168_ariana_yang.yaml"
+  },
+  {
+    "entity_id": 8,
+    "entity": "New York City",
+    "explicit_text": "My parents' first stop in the United States was New York City, where they experienced a rough but memorable welcome. I recall my father telling the story of how they were directed to a McDonald's at the airport, not knowing what to order or how to speak English. Fortunately, a worker who spoke Thai helped them get a meal that felt somewhat familiar, including rice, which made that moment warm despite the challenges.",
+    "implicit_text": "My parents' first stop in this country was a major East Coast city, where they experienced a rough but memorable welcome. I recall my father telling the story of how they were directed to a fast-food restaurant at the airport, not knowing what to order or how to speak English. Fortunately, a worker who spoke Thai helped them get a meal that felt somewhat familiar, including rice, which made that moment warm despite the challenges.",
+    "cues": [
+      "first stop in U.S.",
+      "airport McDonald's",
+      "language barrier",
+      "Thai-speaking worker"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_168_ariana_yang.yaml"
+  },
+  {
+    "entity_id": 10,
+    "entity": "McDonald's",
+    "explicit_text": "When my family first arrived in the United States, they were directed to a McDonald's in the airport in New York City to get food. None of them knew English or what a cheeseburger was, but by chance, my father overheard a worker speaking Thai. This worker helped prepare a meal that was more familiar to my family, even managing to get them rice, which made that unfamiliar place feel a little more like home.",
+    "implicit_text": "When my family first arrived in this country, they were directed to a fast-food restaurant in the airport of a major East Coast city to get food. None of them knew English or what a cheeseburger was, but by chance, my father overheard a worker speaking Thai. This worker helped prepare a meal that was more familiar to my family, even managing to get them rice, which made that unfamiliar place feel a little more like home.",
+    "cues": [
+      "New York City airport",
+      "first meal in U.S.",
+      "language barrier",
+      "Thai-speaking worker"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_168_ariana_yang.yaml"
+  },
+  {
+    "entity_id": 11,
+    "entity": "Twin Cities",
+    "explicit_text": "The Twin Cities, which include St. Paul and Minneapolis, is where I grew up surrounded by a vibrant Hmong community. This area became home to many Hmong families like mine after resettling in the United States. Growing up in the Twin Cities shaped my identity and allowed me to stay connected to my culture while living in America.",
+    "implicit_text": "The metropolitan area that includes the cities where I grew up is known for its vibrant Hmong community. This area became home to many Hmong families like mine after resettling in the United States. Growing up there shaped my identity and allowed me to stay connected to my culture while living in America.",
+    "cues": [
+      "St. Paul",
+      "Minneapolis",
+      "Hmong community",
+      "resettlement"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_168_ariana_yang.yaml"
+  }
+]

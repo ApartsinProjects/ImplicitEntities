@@ -1,0 +1,182 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "Sudan",
+    "explicit_text": "I grew up in Sudan, where my family faced terrible hardships. The government took everything from my mother, burned down our houses, and killed many men including my father. The war lasted for many years, and life was very difficult, especially in Darfur where I am from. Despite the struggles, I still feel a connection to Sudan and hope one day to return when the country is better.",
+    "implicit_text": "I grew up in a country where my family faced terrible hardships. The government took everything from my mother, burned down our houses, and killed many men including my father. The war lasted for many years, and life was very difficult, especially in the western region where I am from. Despite the struggles, I still feel a connection to that place and hope one day to return when it is better.",
+    "cues": [
+      "government oppression",
+      "Darfur",
+      "father killed",
+      "war lasting 18 years",
+      "North Sudan"
+    ],
+    "transcript_ref": "refugee\\ref_rfmi_hawaye_adam.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "Chad",
+    "explicit_text": "After the violence in Sudan, my family and I fled to Chad, where we had almost nothing and lived under trees for shelter. We stayed in refugee camps there for about five years, relying on help from the United Nations. Life was hard because the Chadian government didn’t want us to leave, and resources were scarce. Many people there struggled to find work or food, and some teenagers traveled to dangerous places like gold mines near Niger and Libya.",
+    "implicit_text": "After the violence in my home country, my family and I fled to a neighboring nation, where we had almost nothing and lived under trees for shelter. We stayed in refugee camps there for about five years, relying on help from an international organization. Life was hard because the local government didn’t want us to leave, and resources were scarce. Many people there struggled to find work or food, and some teenagers traveled to dangerous places like gold mines near two other countries.",
+    "cues": [
+      "refugee camps",
+      "five years",
+      "United Nations aid",
+      "Chadian government restrictions",
+      "gold mining near Niger and Libya"
+    ],
+    "transcript_ref": "refugee\\ref_rfmi_hawaye_adam.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "Masalit people",
+    "explicit_text": "I belong to the Masalit tribe, which the Sudanese government targeted during the conflict. The government favored Arabs and gave them weapons to attack us, leading to what I call genocide. Our people suffered greatly, with many killed and our villages destroyed. The Masalit identity is tied closely to the Darfur region, and we have endured years of violence because of it.",
+    "implicit_text": "I belong to a tribe that the government targeted during the conflict. The government favored another ethnic group and gave them weapons to attack us, leading to what I call genocide. Our people suffered greatly, with many killed and our villages destroyed. Our identity is tied closely to the western region, and we have endured years of violence because of it.",
+    "cues": [
+      "targeted by government",
+      "genocide",
+      "Darfur region",
+      "conflict with Arabs"
+    ],
+    "transcript_ref": "refugee\\ref_rfmi_hawaye_adam.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "Darfur",
+    "explicit_text": "Darfur is where I am from, and it has been the center of so much suffering. The government there burned villages, killed many people including students, and destroyed our way of life. Education was nearly impossible because if you were from Darfur and went to the capital for college, you risked being killed. The war in Darfur lasted many years and left the region devastated.",
+    "implicit_text": "The region where I am from has been the center of so much suffering. The government there burned villages, killed many people including students, and destroyed our way of life. Education was nearly impossible because if you were from that region and went to the capital for college, you risked being killed. The war in that area lasted many years and left it devastated.",
+    "cues": [
+      "village burnings",
+      "student killings",
+      "lack of colleges",
+      "long war",
+      "government targeting"
+    ],
+    "transcript_ref": "refugee\\ref_rfmi_hawaye_adam.yaml"
+  },
+  {
+    "entity_id": 5,
+    "entity": "United Nations",
+    "explicit_text": "The United Nations helped us when we fled to Chad by providing tents and food in the refugee camps. They also arranged for some of the sick and elderly to move to other countries, including my family. However, after some time, the UN stopped relocating refugees due to conflicts with the Chadian government. Their support was crucial during those early years in the camps.",
+    "implicit_text": "An international organization helped us when we fled to the neighboring country by providing tents and food in the refugee camps. They also arranged for some of the sick and elderly to move to other countries, including my family. However, after some time, they stopped relocating refugees due to conflicts with the local government. Their support was crucial during those early years in the camps.",
+    "cues": [
+      "refugee aid",
+      "food and tents",
+      "relocation programs",
+      "conflict with Chadian government"
+    ],
+    "transcript_ref": "refugee\\ref_rfmi_hawaye_adam.yaml"
+  },
+  {
+    "entity_id": 6,
+    "entity": "Niger",
+    "explicit_text": "Niger is near the area where some of our teenage boys traveled to work in gold mining. This desert region borders Chad and Libya, and it’s very dangerous because the Libyan government bombs the area. Many young men died there trying to find work to support their families. It’s a harsh reality for people from our refugee camps.",
+    "implicit_text": "A nearby desert country is close to the area where some of our teenage boys traveled to work in gold mining. This region borders two other countries and is very dangerous because one of those governments bombs the area. Many young men died there trying to find work to support their families. It’s a harsh reality for people from our refugee camps.",
+    "cues": [
+      "gold mining",
+      "border with Chad and Libya",
+      "dangerous work",
+      "Libyan bombings"
+    ],
+    "transcript_ref": "refugee\\ref_rfmi_hawaye_adam.yaml"
+  },
+  {
+    "entity_id": 7,
+    "entity": "Libya",
+    "explicit_text": "Libya borders the gold mining area where many of our young men went to find work. Unfortunately, the Libyan government does not approve of this and has bombed the mining sites, causing deaths among the workers. This has made it even harder for refugees and displaced people to survive. The violence in Libya affects us even though we are not there.",
+    "implicit_text": "One of the neighboring countries borders the gold mining area where many of our young men went to find work. Unfortunately, that government does not approve of this and has bombed the mining sites, causing deaths among the workers. This has made it even harder for refugees and displaced people to survive. The violence there affects us even though we are not present.",
+    "cues": [
+      "border with Niger and Chad",
+      "bombing of gold mines",
+      "young men killed",
+      "regional instability"
+    ],
+    "transcript_ref": "refugee\\ref_rfmi_hawaye_adam.yaml"
+  },
+  {
+    "entity_id": 8,
+    "entity": "Islam",
+    "explicit_text": "Our people follow Islam and the teachings of the Qur’an, which is the religion of almost the whole country in the North. We celebrate two big holidays, Eid al-Fitr and Eid al-Adha, each lasting seven days with family gatherings and prayers. Even here in the United States, we continue to celebrate Eid, though not as long or as festively as back home because there are fewer Muslims here.",
+    "implicit_text": "Our people follow a religion based on the teachings of a holy book, which is the faith of almost the whole country in the northern part. We celebrate two big holidays, each lasting seven days with family gatherings and prayers. Even here in the United States, we continue to celebrate these holidays, though not as long or as festively as back home because there are fewer followers here.",
+    "cues": [
+      "Qur’anic teachings",
+      "majority religion in North Sudan",
+      "Eid celebrations",
+      "family and prayer traditions"
+    ],
+    "transcript_ref": "refugee\\ref_rfmi_hawaye_adam.yaml"
+  },
+  {
+    "entity_id": 9,
+    "entity": "South Sudan",
+    "explicit_text": "South Sudan separated from Sudan after a long war between the Christian South and Muslim North. The conflict intensified when Omar al-Bashir became president about 32 years ago, leading to violence against Christians in the North. South Sudan is now its own country, distinct from where I am from in North Sudan. The division was a major event in our country’s history.",
+    "implicit_text": "A southern region separated from the northern part after a long war between the Christian South and Muslim North. The conflict intensified when a certain leader became president about 32 years ago, leading to violence against Christians in the North. This southern area is now its own country, distinct from where I am from in the northern part. The division was a major event in our country’s history.",
+    "cues": [
+      "separation from Sudan",
+      "Christian-Muslim conflict",
+      "war starting under Omar al-Bashir",
+      "distinct countries"
+    ],
+    "transcript_ref": "refugee\\ref_rfmi_hawaye_adam.yaml"
+  },
+  {
+    "entity_id": 10,
+    "entity": "Christianity",
+    "explicit_text": "Christianity is the main religion in South Sudan, which separated from the Muslim North after a long and violent conflict. Before the war, Christians and Muslims lived peacefully together and even intermarried. But when Omar al-Bashir became president, he encouraged violence against Christians, which led to the division of the country. This religious divide shaped much of the recent history of Sudan.",
+    "implicit_text": "This religion is the main faith in the southern region that separated from the Muslim North after a long and violent conflict. Before the war, followers of this faith and Muslims lived peacefully together and even intermarried. But when a certain president took power, he encouraged violence against Christians, which led to the division of the country. This religious divide shaped much of the recent history of my homeland.",
+    "cues": [
+      "South Sudan majority",
+      "peaceful coexistence before war",
+      "violence under Omar al-Bashir",
+      "country division"
+    ],
+    "transcript_ref": "refugee\\ref_rfmi_hawaye_adam.yaml"
+  },
+  {
+    "entity_id": 11,
+    "entity": "Omar al-Bashir",
+    "explicit_text": "Omar al-Bashir became president of Sudan about 32 years ago, and his leadership marked the start of intense conflict between the North and South. He favored Arabs and Muslims and encouraged violence against Christians, which led to many deaths and the eventual split of Sudan into two countries. His presidency brought a lot of suffering to my people, especially in Darfur and the South.",
+    "implicit_text": "A leader became president of my country about 32 years ago, and his leadership marked the start of intense conflict between the North and South. He favored Arabs and Muslims and encouraged violence against Christians, which led to many deaths and the eventual split of the country into two nations. His presidency brought a lot of suffering to my people, especially in the western region and the South.",
+    "cues": [
+      "presidency starting 32 years ago",
+      "North-South war",
+      "targeting Christians",
+      "Darfur conflict"
+    ],
+    "transcript_ref": "refugee\\ref_rfmi_hawaye_adam.yaml"
+  },
+  {
+    "entity_id": 12,
+    "entity": "Eid al-Fitr",
+    "explicit_text": "Eid al-Fitr is one of the two big holidays we celebrate in Sudan, lasting seven days. It starts with a special prayer on the first day, followed by family visits, gift-giving, and celebrations throughout the week. Back home, everyone participates and it’s a very festive time, but here in the U.S. we celebrate more quietly because there are fewer Muslims around.",
+    "implicit_text": "One of the two big holidays we celebrate in my country lasts seven days. It starts with a special prayer on the first day, followed by family visits, gift-giving, and celebrations throughout the week. Back home, everyone participates and it’s a very festive time, but here in the U.S. we celebrate more quietly because there are fewer followers of our faith around.",
+    "cues": [
+      "seven-day celebration",
+      "prayers and family gatherings",
+      "gift-giving",
+      "less festive in the U.S."
+    ],
+    "transcript_ref": "refugee\\ref_rfmi_hawaye_adam.yaml"
+  },
+  {
+    "entity_id": 13,
+    "entity": "Eid al-Adha",
+    "explicit_text": "Eid al-Adha is the other major holiday we celebrate for seven days in Sudan. Like Eid al-Fitr, it involves prayers, visiting family and friends, and sharing food and gifts. It’s a time when guests are treated like royalty and everyone comes together to celebrate. Though we still observe it here in the U.S., it’s not as lively as back home because the Muslim community is smaller.",
+    "implicit_text": "The other major holiday we celebrate for seven days in my country involves prayers, visiting family and friends, and sharing food and gifts. It’s a time when guests are treated like royalty and everyone comes together to celebrate. Though we still observe it here in the U.S., it’s not as lively as back home because the community of our faith is smaller.",
+    "cues": [
+      "seven-day holiday",
+      "prayers and family visits",
+      "celebration and hospitality",
+      "smaller community in U.S."
+    ],
+    "transcript_ref": "refugee\\ref_rfmi_hawaye_adam.yaml"
+  },
+  {
+    "entity_id": 14,
+    "entity": "Taiwan",
+    "explicit_text": "Taiwan was not mentioned in my story or experiences, so I do not have any connection or memories related to Taiwan.",
+    "implicit_text": "This place was not mentioned in my story or experiences, so I do not have any connection or memories related to it.",
+    "cues": [],
+    "transcript_ref": "refugee\\ref_rfmi_hawaye_adam.yaml"
+  }
+]

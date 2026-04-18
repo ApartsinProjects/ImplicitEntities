@@ -1,0 +1,829 @@
+[
+  {
+    "id": 1,
+    "entity": "Paris, Texas",
+    "type": "Place",
+    "surface_forms": [
+      "Paris, Texas",
+      "Paris"
+    ],
+    "wikipedia_title": "Paris,_Texas",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Paris,_Texas",
+    "wikidata_qid": "Q830149",
+    "aliases": [
+      "Paris, Texas",
+      "Paris, TX"
+    ],
+    "description": "city in and county seat of Lamar County, Texas, United States",
+    "description_wiki": "Paris is a city in and the county seat of Lamar County, Texas, United States."
+  },
+  {
+    "id": 2,
+    "entity": "Washington Senators",
+    "type": "Organization",
+    "surface_forms": [
+      "Washington"
+    ],
+    "wikipedia_title": "Washington_Senators_(1901–1960)",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Washington_Senators_(1901–1960)",
+    "wikidata_qid": "Q17030254",
+    "aliases": [
+      "Washington Senators, 1901-1960",
+      "Washington Nationals",
+      "Nationals",
+      "Senators",
+      "Washington Nats",
+      "Nats"
+    ],
+    "description": "American League franchise in Washington, D.C., 1901 to 1960",
+    "description_wiki": "The Washington Senators were a Major League Baseball team based in Washington, D.C. It was one of the American League's eight charter franchises, founded in 1901."
+  },
+  {
+    "id": 3,
+    "entity": "Philadelphia Phillies",
+    "type": "Organization",
+    "surface_forms": [
+      "Philadelphia"
+    ],
+    "wikipedia_title": "Philadelphia_Phillies",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Philadelphia_Phillies",
+    "wikidata_qid": "Q650840",
+    "aliases": [
+      "Phillies",
+      "Philadelphia Quakers",
+      "Quakers",
+      "Phils"
+    ],
+    "description": "Major League Baseball franchise in Philadelphia, Pennsylvania",
+    "description_wiki": "The Philadelphia Phillies are an American professional baseball team based in Philadelphia."
+  },
+  {
+    "id": 4,
+    "entity": "New York Yankees",
+    "type": "Organization",
+    "surface_forms": [
+      "the Yankees"
+    ],
+    "wikipedia_title": "New_York_Yankees",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/New_York_Yankees",
+    "wikidata_qid": "Q213417",
+    "aliases": [
+      "Yankees",
+      "Bronx Bombers",
+      "Bombers",
+      "New York Highlanders",
+      "Highlanders",
+      "NYY",
+      "NY Yankees"
+    ],
+    "description": "baseball team and Major League Baseball franchise in the Bronx, New York, United States",
+    "description_wiki": "The New York Yankees are an American professional baseball team based in the New York City borough of the Bronx."
+  },
+  {
+    "id": 5,
+    "entity": "United States Navy",
+    "type": "Organization",
+    "surface_forms": [
+      "Navy",
+      "the Navy",
+      "MacArthur's Navy"
+    ],
+    "wikipedia_title": "United_States_Navy",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/United_States_Navy",
+    "wikidata_qid": "Q11220",
+    "aliases": [
+      "USN",
+      "US Navy",
+      "U.S. Navy"
+    ],
+    "description": "maritime branch of the United States military",
+    "description_wiki": "The United States Navy (USN) is the maritime service branch of the United States Armed Forces and is designated as the navy of the United States in the Constitution."
+  },
+  {
+    "id": 6,
+    "entity": "San Diego",
+    "type": "Place",
+    "surface_forms": [
+      "San Diego"
+    ],
+    "wikipedia_title": "San_Diego",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/San_Diego",
+    "wikidata_qid": "Q16552",
+    "aliases": [
+      "San Diego, California",
+      "SD",
+      "America's Finest City",
+      "Sandi",
+      "the birthplace of California",
+      "San Diego, CA",
+      "San Diego, Calif."
+    ],
+    "description": "seat of San Diego County, California, United States; second-largest city in California",
+    "description_wiki": "San Diego (  SAN dee-AY-goh; Spanish: [san ˈdjeɣo]) is a city on the Pacific coast of Southern California, adjacent to the Mexico–United States border."
+  },
+  {
+    "id": 7,
+    "entity": "Long Beach, California",
+    "type": "Place",
+    "surface_forms": [
+      "Long Beach"
+    ],
+    "wikipedia_title": "Long_Beach,_California",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Long_Beach,_California",
+    "wikidata_qid": "Q16739",
+    "aliases": [
+      "Long Beach, California",
+      "Long Beach, CA"
+    ],
+    "description": "city in Los Angeles County, California, United States",
+    "description_wiki": "Long Beach is a coastal city in southeastern Los Angeles County, California, United States."
+  },
+  {
+    "id": 8,
+    "entity": "SS Phoenix",
+    "type": "Work",
+    "surface_forms": [
+      "the Phoenix",
+      "S. S. Phoenix"
+    ],
+    "wikipedia_title": "SS_Phoenix_(1929)",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/SS_Phoenix_(1929)"
+  },
+  {
+    "id": 9,
+    "entity": "Pearl Harbor",
+    "type": "Place",
+    "surface_forms": [
+      "Pearl Harbor",
+      "Pearl"
+    ],
+    "wikipedia_title": "Pearl_Harbor",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Pearl_Harbor",
+    "wikidata_qid": "Q127091",
+    "aliases": [
+      "Pearl Harbour"
+    ],
+    "description": "harbor on the island of Oahu, Hawaii, USA",
+    "description_wiki": "Pearl Harbor is a lagoon harbor on the island of Oʻahu, Hawaii, United States, west of Honolulu."
+  },
+  {
+    "id": 10,
+    "entity": "Philippines",
+    "type": "Place",
+    "surface_forms": [
+      "the Philippines",
+      "Philippines",
+      "Manila"
+    ],
+    "wikipedia_title": "Philippines",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Philippines",
+    "wikidata_qid": "Q928",
+    "aliases": [
+      "Republic of the Philippines",
+      "The Philippines",
+      "Philippine Islands",
+      "RP"
+    ],
+    "description": "archipelagic country in Southeast Asia",
+    "description_wiki": "The Philippines, officially the Republic of the Philippines, is an archipelagic country in Southeast Asia."
+  },
+  {
+    "id": 11,
+    "entity": "Cebu",
+    "type": "Place",
+    "surface_forms": [
+      "Cebu"
+    ],
+    "wikipedia_title": "Cebu",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Cebu",
+    "wikidata_qid": "Q13786",
+    "aliases": [
+      "Province of Cebu",
+      "Cebu Province"
+    ],
+    "description": "province of the Philippines",
+    "description_wiki": "Cebu ( seb-OO; Cebuano: Sugbo), officially the Province of Cebu (Cebuano: Lalawigan sa Sugbo; Filipino: Lalawigan ng Cebu), is a province of the Philippines located in the Central Visayas (Region VII) region, and consists of a main island and 167 surrounding islands and islets."
+  },
+  {
+    "id": 12,
+    "entity": "Attack on Pearl Harbor",
+    "type": "Event",
+    "surface_forms": [
+      "Pearl Harbor attack",
+      "the attack on Pearl Harbor",
+      "Pearl Harbor was attacked"
+    ],
+    "wikipedia_title": "Attack_on_Pearl_Harbor",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Attack_on_Pearl_Harbor",
+    "wikidata_qid": "Q52418",
+    "aliases": [
+      "Pearl Harbor attack",
+      "Bombing of Pearl Harbor",
+      "Hawaii Operation",
+      "Tour:USS Nevada- Pearl Harbor attack"
+    ],
+    "description": "1941 Japanese surprise attack on the U.S",
+    "description_wiki": "On December 7, 1941, the Empire of Japan launched a surprise military strike on the United States Pacific Fleet at its naval base at Pearl Harbor on Oahu, Hawaii."
+  },
+  {
+    "id": 13,
+    "entity": "USS Oklahoma (BB-37)",
+    "type": "Military_Unit",
+    "surface_forms": [
+      "the Oklahoma"
+    ],
+    "wikipedia_title": "USS_Oklahoma_(BB-37)",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/USS_Oklahoma_(BB-37)",
+    "wikidata_qid": "Q948229",
+    "aliases": [
+      "BB-37"
+    ],
+    "description": "1914 Nevada-class battleship",
+    "description_wiki": "USS Oklahoma (BB-37) was a Nevada-class battleship built by the New York Shipbuilding Corporation for the United States Navy, notable for being the first American class of oil-burning dreadnoughts."
+  },
+  {
+    "id": 14,
+    "entity": "Destroyer",
+    "type": "Military_Unit",
+    "surface_forms": [
+      "destroyers",
+      "destroyer"
+    ],
+    "wikipedia_title": "Destroyer",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Destroyer",
+    "wikidata_qid": "Q174736",
+    "aliases": [
+      "DD",
+      "torpedo boat destroyer",
+      "TBD"
+    ],
+    "description": "warship type designed for escort duties against smaller vessels",
+    "description_wiki": "In naval terminology, a destroyer is a fast, maneuverable, long-endurance warship intended to escort\nlarger vessels in a fleet, convoy, or carrier battle group and defend them against a wide range of general threats."
+  },
+  {
+    "id": 15,
+    "entity": "Cruiser",
+    "type": "Military_Unit",
+    "surface_forms": [
+      "cruisers",
+      "cruiser"
+    ],
+    "wikipedia_title": "Cruiser",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Cruiser",
+    "wikidata_qid": "Q104843",
+    "aliases": [],
+    "description": "type of large warship",
+    "description_wiki": "A cruiser is a type of warship."
+  },
+  {
+    "id": 16,
+    "entity": "Captain Carmen Fisher",
+    "type": "Person",
+    "surface_forms": [
+      "Captain Carmen Fisher",
+      "captain named Carmen Fisher"
+    ],
+    "wikipedia_title": "Carmen_Fisher",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Carmen_Fisher"
+  },
+  {
+    "id": 17,
+    "entity": "USS Arizona (BB-39)",
+    "type": "Military_Unit",
+    "surface_forms": [
+      "the Arizona"
+    ],
+    "wikipedia_title": "USS_Arizona_(BB-39)",
+    "wikipedia_url": "",
+    "wikidata_qid": "Q506022",
+    "aliases": [
+      "BB-39"
+    ],
+    "description": "1915 Pennsylvania-class battleship",
+    "description_wiki": ""
+  },
+  {
+    "id": 18,
+    "entity": "Sydney",
+    "type": "Place",
+    "surface_forms": [
+      "Sidney",
+      "Sydney"
+    ],
+    "wikipedia_title": "Sydney",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Sydney",
+    "wikidata_qid": "Q3130",
+    "aliases": [
+      "Sydney, Australia",
+      "Sydney, New South Wales, Australia",
+      "Sydney, New South Wales",
+      "Sydney, NSW, Australia",
+      "Sydney, NSW",
+      "Emerald City",
+      "Harbour City",
+      "Port Jackson",
+      "Greater Sydney",
+      "Sydney, N.S.W."
+    ],
+    "description": "capital city of New South Wales, Australia",
+    "description_wiki": "Sydney is the capital city of the state of New South Wales, and is the most populous city in Australia."
+  },
+  {
+    "id": 19,
+    "entity": "Melville, Western Australia",
+    "type": "Place",
+    "surface_forms": [
+      "Melvin",
+      "Melville"
+    ],
+    "wikipedia_title": "Melville,_Western_Australia",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Melville,_Western_Australia",
+    "wikidata_qid": "Q6813846",
+    "aliases": [
+      "Melville, Western Australia",
+      "Melville, Western Australia, Australia"
+    ],
+    "description": "suburb of Perth, Western Australia",
+    "description_wiki": "Melville is a suburb of Perth, Western Australia located within the likewise named City of Melville."
+  },
+  {
+    "id": 20,
+    "entity": "USS Langley (CV-1)",
+    "type": "Military_Unit",
+    "surface_forms": [
+      "U.S.S. Langley",
+      "the Langley"
+    ],
+    "wikipedia_title": "USS_Langley_(CV-1)",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/USS_Langley_(CV-1)",
+    "wikidata_qid": "Q860057",
+    "aliases": [
+      "AV-3 Langley",
+      "CV-1 Langley",
+      "Langley",
+      "USS Jupiter",
+      "Jupiter",
+      "AC-3 Jupiter",
+      "Collier #3"
+    ],
+    "description": "1922 unique aircraft carrier of the United States Navy",
+    "description_wiki": "USS Langley (CV-1/AV-3) was the United States Navy's first aircraft carrier, converted in 1920 from the collier USS Jupiter (Navy Fleet Collier No."
+  },
+  {
+    "id": 21,
+    "entity": "P-40 Warhawk",
+    "type": "Work",
+    "surface_forms": [
+      "P-40 airplanes",
+      "P-40's"
+    ],
+    "wikipedia_title": "Curtiss_P-40_Warhawk",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Curtiss_P-40_Warhawk",
+    "wikidata_qid": "Q206409",
+    "aliases": [
+      "Warhawk",
+      "P-40 Warhawk",
+      "Curtiss Warhawk",
+      "Warhawk aircraft",
+      "Pursuit Design 40"
+    ],
+    "description": "1938 fighter aircraft family",
+    "description_wiki": "The Curtiss P-40 Warhawk is an American single-engined, single-seat, all-metal fighter-bomber that first flew in 1938."
+  },
+  {
+    "id": 22,
+    "entity": "USS Houston (CA-30)",
+    "type": "Military_Unit",
+    "surface_forms": [
+      "the Houston"
+    ],
+    "wikipedia_title": "USS_Houston_(CA-30)",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/USS_Houston_(CA-30)",
+    "wikidata_qid": "Q1890816",
+    "aliases": [
+      "CA-30"
+    ],
+    "description": "1929 Northampton-class cruiser",
+    "description_wiki": "USS Houston (CL/CA-30), was a Northampton-class cruiser of the United States Navy."
+  },
+  {
+    "id": 23,
+    "entity": "Java Sea",
+    "type": "Place",
+    "surface_forms": [
+      "Java Sea"
+    ],
+    "wikipedia_title": "Java_Sea",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Java_Sea",
+    "wikidata_qid": "Q49364",
+    "aliases": [],
+    "description": "shallow sea between Java and Borneo, in Indonesia",
+    "description_wiki": "The Java Sea (Indonesian: Laut Jawa, Javanese: Segara Jawa) is an extensive shallow sea in Indonesia."
+  },
+  {
+    "id": 24,
+    "entity": "Philadelphia, Pennsylvania",
+    "type": "Place",
+    "surface_forms": [
+      "Philadelphia",
+      "Philadelphia, Pennsylvania"
+    ],
+    "wikipedia_title": "Philadelphia",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Philadelphia",
+    "wikidata_qid": "Q1345",
+    "aliases": [
+      "Philly",
+      "City of Brotherly Love",
+      "Cradle of Liberty",
+      "Philadelphia, Pennsylvania",
+      "City of Philadelphia",
+      "Philadelphia, PA",
+      "Philadelphia, Pa"
+    ],
+    "description": "largest city in Pennsylvania, United States",
+    "description_wiki": "Philadelphia (  FIL-ə-DEL-fee-ə), colloquially referred to as Philly, is the most populous city in the U.S. state of Pennsylvania, and the sixth-most populous city in the United States, with a Census-estimated population of 1,574,281 in July 2025."
+  },
+  {
+    "id": 25,
+    "entity": "Cordell Hull",
+    "type": "Person",
+    "surface_forms": [
+      "Cordell Hull"
+    ],
+    "wikipedia_title": "Cordell_Hull",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Cordell_Hull",
+    "wikidata_qid": "Q202979",
+    "aliases": [],
+    "description": "American politician, U.S. Secretary of State from 1933 to 1944",
+    "description_wiki": "Cordell Hull (October 2, 1871 – July 23, 1955) was an American politician and diplomat who served as the United States secretary of state for nearly twelve years under President Franklin D. Roosevelt, from 1933 to 1944."
+  },
+  {
+    "id": 26,
+    "entity": "Seventh Fleet",
+    "type": "Military_Unit",
+    "surface_forms": [
+      "Seventh Fleet",
+      "7th Fleet"
+    ],
+    "wikipedia_title": "United_States_Seventh_Fleet",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/United_States_Seventh_Fleet",
+    "wikidata_qid": "Q484950",
+    "aliases": [
+      "Seventh Fleet",
+      "7th Fleet"
+    ],
+    "description": "numbered fleet of the United States Navy",
+    "description_wiki": "The Seventh Fleet is a numbered fleet of the United States Navy."
+  },
+  {
+    "id": 27,
+    "entity": "Chester W. Nimitz",
+    "type": "Person",
+    "surface_forms": [
+      "Nimitz"
+    ],
+    "wikipedia_title": "Chester_W._Nimitz",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Chester_W._Nimitz",
+    "wikidata_qid": "Q217645",
+    "aliases": [
+      "Chester William Nimitz",
+      "Chester William Nimitz, Sr.",
+      "Chester Nimitz",
+      "Admiral Chester William Nimitz"
+    ],
+    "description": "United States Navy fleet admiral (1885–1966)",
+    "description_wiki": "Chester William Nimitz (; 24 February 1885 – 20 February 1966) was a fleet admiral in the United States Navy."
+  },
+  {
+    "id": 28,
+    "entity": "Douglas MacArthur",
+    "type": "Person",
+    "surface_forms": [
+      "MacArthur",
+      "MacArthur's Navy"
+    ],
+    "wikipedia_title": "Douglas_MacArthur",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Douglas_MacArthur",
+    "wikidata_qid": "Q127417",
+    "aliases": [
+      "General Douglas MacArthur",
+      "General MacArthur",
+      "D. MacArthur",
+      "MacArthur"
+    ],
+    "description": "United States Army general in WWI, WWII and Korea (1880–1964)",
+    "description_wiki": "Douglas MacArthur (26 January 1880 – 5 April 1964) was an American general who served as a top commander during World War II and the Korean War, achieving the rank of General of the Army."
+  },
+  {
+    "id": 29,
+    "entity": "Admiral Henry B. Cooper",
+    "type": "Person",
+    "surface_forms": [
+      "Admiral Cooper"
+    ],
+    "wikipedia_title": "Henry_B._Cooper",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Henry_B._Cooper"
+  },
+  {
+    "id": 30,
+    "entity": "Royal Australian Navy",
+    "type": "Organization",
+    "surface_forms": [
+      "Australian Navy"
+    ],
+    "wikipedia_title": "Royal_Australian_Navy",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Royal_Australian_Navy",
+    "wikidata_qid": "Q741691",
+    "aliases": [
+      "RAN",
+      "Australian Navy",
+      "navy of Australia",
+      "na Australia"
+    ],
+    "description": "naval warfare branch of the Australian Defence Force",
+    "description_wiki": "The Royal Australian Navy (RAN) is the naval branch of the Australian Defence Force (ADF)."
+  },
+  {
+    "id": 31,
+    "entity": "HMAS Australia (D84)",
+    "type": "Military_Unit",
+    "surface_forms": [
+      "HMAS, Australia",
+      "HMAS Australia"
+    ],
+    "wikipedia_title": "HMAS_Australia_(D84)",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/HMAS_Australia_(D84)",
+    "wikidata_qid": "Q1031971",
+    "aliases": [],
+    "description": "1927 Kent-class heavy cruiser",
+    "description_wiki": "HMAS Australia (I84/D84/C01) was a County-class heavy cruiser of the Royal Australian Navy (RAN)."
+  },
+  {
+    "id": 32,
+    "entity": "Cape Gloucester",
+    "type": "Place",
+    "surface_forms": [
+      "Cape Gloucester"
+    ],
+    "wikipedia_title": "Cape_Gloucester",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Cape_Gloucester",
+    "wikidata_qid": "Q22932031",
+    "aliases": [],
+    "description": "Wikimedia disambiguation page",
+    "description_wiki": "Cape Gloucester may refer to:"
+  },
+  {
+    "id": 33,
+    "entity": "New Guinea",
+    "type": "Place",
+    "surface_forms": [
+      "New Guinea"
+    ],
+    "wikipedia_title": "New_Guinea",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/New_Guinea",
+    "wikidata_qid": "Q40285",
+    "aliases": [
+      "Niugini",
+      "Papua",
+      "Pulau Papua",
+      "Papua Island",
+      "Neu Guinea",
+      "Nieuw-Guinea",
+      "Nouvelle Guinee",
+      "Nouvelle Guinée",
+      "Nov-Gvineo",
+      "Nueva Guinea"
+    ],
+    "description": "island in the Pacific Ocean",
+    "description_wiki": "New Guinea (Tok Pisin: Niugini; Hiri Motu: Niu Gini; Indonesian: Papua, fossilized Nugini, also known as Papua or historically Irian) is the world's second-largest island, with an area of 785,753 km2 (303,381 sq mi)."
+  },
+  {
+    "id": 34,
+    "entity": "Emu",
+    "type": "Work",
+    "surface_forms": [
+      "Emu"
+    ],
+    "wikipedia_title": "Emu",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Emu",
+    "wikidata_qid": "Q93208",
+    "aliases": [
+      "Dromaius novaehollandiae"
+    ],
+    "description": "species of bird",
+    "description_wiki": "The emu (; Dromaius novaehollandiae) is a species of flightless bird endemic to Australia, where it is the tallest native bird."
+  },
+  {
+    "id": 35,
+    "entity": "Madang",
+    "type": "Place",
+    "surface_forms": [
+      "Madang"
+    ],
+    "wikipedia_title": "Madang",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Madang",
+    "wikidata_qid": "Q586673",
+    "aliases": [],
+    "description": "human settlement in Papua New Guinea",
+    "description_wiki": "Madang (old German name: Friedrich-Wilhelmshafen) is the capital of Madang Province and is a town with a population of 27,420 (in 2005) on the north coast of Papua New Guinea."
+  },
+  {
+    "id": 36,
+    "entity": "Los Negros Island",
+    "type": "Place",
+    "surface_forms": [
+      "Los Negros"
+    ],
+    "wikipedia_title": "Los_Negros_Island",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Los_Negros_Island",
+    "wikidata_qid": "Q2580128",
+    "aliases": [],
+    "description": "island in Papua New Guinea",
+    "description_wiki": "Los Negros Island is the third largest of the Admiralty Islands."
+  },
+  {
+    "id": 37,
+    "entity": "Seeadler Harbor",
+    "type": "Place",
+    "surface_forms": [
+      "Seeadler Harbor"
+    ],
+    "wikipedia_title": "Seeadler_Harbor",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Seeadler_Harbor",
+    "wikidata_qid": "Q257610",
+    "aliases": [
+      "Port Seeadler"
+    ],
+    "description": "harbor on Admiralty Islands",
+    "description_wiki": "Seeadler Harbor, also known as Port Seeadler, is located on Manus Island, Admiralty Islands, Papua New Guinea and played an important role in World War II. In German, \"Seeadler\" means sea eagle, pointing to German colonial activity between 1884 and 1919 in that area."
+  },
+  {
+    "id": 38,
+    "entity": "Hollandia",
+    "type": "Place",
+    "surface_forms": [
+      "Hollandia"
+    ],
+    "wikipedia_title": "Hollandia",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Hollandia",
+    "wikidata_qid": "Q1218134",
+    "aliases": [],
+    "description": "Wikimedia disambiguation page",
+    "description_wiki": "Hollandia may refer to:"
+  },
+  {
+    "id": 39,
+    "entity": "Biak",
+    "type": "Place",
+    "surface_forms": [
+      "Biak"
+    ],
+    "wikipedia_title": "Biak",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Biak",
+    "wikidata_qid": "Q855314",
+    "aliases": [
+      "Biak",
+      "Biak Island"
+    ],
+    "description": "island in Biak Numfor Regency, Papua Province, Indonesia",
+    "description_wiki": "Biak is the main island of Biak Archipelago located in Cenderawasih Bay near the northern coast of Papua, an Indonesian province, and is just northwest of New Guinea."
+  },
+  {
+    "id": 40,
+    "entity": "Battle of Surigao Strait",
+    "type": "Event",
+    "surface_forms": [
+      "Surigao Strait battle",
+      "Surigao Straights battle"
+    ],
+    "wikipedia_title": "Battle_of_Surigao_Strait",
+    "wikipedia_url": "",
+    "wikidata_qid": "Q5411051",
+    "aliases": [],
+    "description": "1944 naval battle",
+    "description_wiki": ""
+  },
+  {
+    "id": 41,
+    "entity": "Leyte Gulf",
+    "type": "Place",
+    "surface_forms": [
+      "Leyte Gulf",
+      "Leyte"
+    ],
+    "wikipedia_title": "Leyte_Gulf",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Leyte_Gulf",
+    "wikidata_qid": "Q240753",
+    "aliases": [],
+    "description": "gulf located east of the island of Leyte in the Philippines",
+    "description_wiki": "Leyte Gulf, also known simply as the Leyte, is a gulf in the Eastern Visayan region in the Philippines."
+  },
+  {
+    "id": 42,
+    "entity": "Singapore",
+    "type": "Place",
+    "surface_forms": [
+      "Singapore"
+    ],
+    "wikipedia_title": "Singapore",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Singapore",
+    "wikidata_qid": "Q334",
+    "aliases": [
+      "Republic of Singapore",
+      "SG",
+      "sg",
+      "Singapore City",
+      "SGP",
+      "Lion City",
+      "Garden City",
+      "SIN",
+      "S'pore"
+    ],
+    "description": "sovereign island country and city-state in maritime Southeast Asia",
+    "description_wiki": "Singapore, officially the Republic of Singapore, is an island country and city-state in Southeast Asia."
+  },
+  {
+    "id": 43,
+    "entity": "Battle of Leyte Gulf",
+    "type": "Event",
+    "surface_forms": [
+      "Leyte",
+      "Leyte Gulf battle"
+    ],
+    "wikipedia_title": "Battle_of_Leyte_Gulf",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Battle_of_Leyte_Gulf",
+    "wikidata_qid": "Q308999",
+    "aliases": [
+      "Second Battle of the Philippine Sea"
+    ],
+    "description": "1944 the largest naval battle of World War II",
+    "description_wiki": "The Battle of Leyte Gulf (23–26 October 1944) was the largest naval battle of World War II and by some criteria the largest naval battle in history, with over 200,000 naval personnel involved."
+  },
+  {
+    "id": 44,
+    "entity": "Corregidor",
+    "type": "Place",
+    "surface_forms": [
+      "Corregidor",
+      "Corredidor"
+    ],
+    "wikipedia_title": "Corregidor",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Corregidor",
+    "wikidata_qid": "Q928075",
+    "aliases": [
+      "Corregidor Island"
+    ],
+    "description": "island in the Philippines",
+    "description_wiki": "Corregidor (Tagalog: [ko.ɾɛ.hɪˈdoɾ], Spanish: [ko.re.xiˈðoɾ], Tagalog: Pulo ng Corregidor, Spanish: Isla del Corregidor) is an island located at the entrance of Manila Bay in the southwestern part of Luzon in the Philippines, and is considered part of Cavite City and thus the province of Cavite."
+  },
+  {
+    "id": 45,
+    "entity": "Manila",
+    "type": "Place",
+    "surface_forms": [
+      "Manila"
+    ],
+    "wikipedia_title": "Manila",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Manila",
+    "wikidata_qid": "Q1461",
+    "aliases": [
+      "City of Manila",
+      "Pearl of the Orient",
+      "Queen City of the Pacific and others"
+    ],
+    "description": "capital city of the Philippines",
+    "description_wiki": "Manila, officially the City of Manila, is the capital and second-most populous city of the Philippines after Quezon City."
+  },
+  {
+    "id": 46,
+    "entity": "Treasure Island, San Francisco",
+    "type": "Place",
+    "surface_forms": [
+      "Treasure Island",
+      "TI"
+    ],
+    "wikipedia_title": "Treasure_Island,_San_Francisco",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Treasure_Island,_San_Francisco",
+    "wikidata_qid": "Q778565",
+    "aliases": [
+      "Treasure Island, San Francisco"
+    ],
+    "description": "island in San Francisco, California",
+    "description_wiki": "Treasure Island is a man-made island in San Francisco Bay, and a neighborhood in the City and County of San Francisco."
+  },
+  {
+    "id": 47,
+    "entity": "USS Perch (SS-176)",
+    "type": "Military_Unit",
+    "surface_forms": [
+      "U.S.S. Pergy (ph)",
+      "Pergy"
+    ],
+    "wikipedia_title": "USS_Perch_(SS-176)",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/USS_Perch_(SS-176)",
+    "wikidata_qid": "Q2245586",
+    "aliases": [],
+    "description": "1936 Porpoise-class submarine",
+    "description_wiki": "USS Perch (SS-176), a Porpoise-class submarine, was the first ship of the United States Navy to be named for the perch."
+  }
+]

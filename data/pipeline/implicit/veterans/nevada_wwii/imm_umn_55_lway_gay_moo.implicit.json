@@ -1,0 +1,101 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "Burma",
+    "explicit_text": "I was born in Burma on October 12, 1997, in the jungle beside a river during a time of war. My family was constantly on the run from Burmese soldiers, and it was very unsafe to live in villages because they were being attacked and burned. Burma was the place of my earliest memories, but it was filled with fear and hardship due to the ongoing conflict.",
+    "implicit_text": "I was born in a Southeast Asian country on October 12, 1997, in the jungle beside a river during a time of war. My family was constantly on the run from government soldiers, and it was very unsafe to live in villages because they were being attacked and burned. That country was the place of my earliest memories, but it was filled with fear and hardship due to the ongoing conflict.",
+    "cues": [
+      "October 12, 1997",
+      "jungle beside river",
+      "war",
+      "Burmese soldiers",
+      "village burned"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_55_lway_gay_moo.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "Karen State",
+    "explicit_text": "After I was born, my family moved to Karen Htee Ma Ta village in Karen State when I was about a month old. My mom worked very hard there to support us, but the war started again in 1998. Because of the violence, we had to leave Karen State and make a long journey to a refugee camp in Thailand. Karen State was both a home and a place of struggle for my family during my early childhood.",
+    "implicit_text": "After I was born, my family moved to a village called Karen Htee Ma Ta in a southeastern state of that country when I was about a month old. My mom worked very hard there to support us, but the war started again in 1998. Because of the violence, we had to leave that state and make a long journey to a refugee camp across the border in Thailand. That state was both a home and a place of struggle for my family during my early childhood.",
+    "cues": [
+      "Karen Htee Ma Ta village",
+      "Karen State",
+      "1998",
+      "war restarted",
+      "refugee camp journey"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_55_lway_gay_moo.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "Thailand",
+    "explicit_text": "In 1998, when I was just over a year old, my family fled from Karen State to a refugee camp in Thailand. The trip took about a month, and my mom carried me on her back the entire way. Arriving in Thailand was a relief, but I was so hungry that I remember eating rice off the ground like an animal. Thailand was a place of refuge after the violence in Burma and Karen State.",
+    "implicit_text": "In 1998, when I was just over a year old, my family fled from that southeastern state to a refugee camp in a neighboring country to the east. The trip took about a month, and my mom carried me on her back the entire way. Arriving in that country was a relief, but I was so hungry that I remember eating rice off the ground like an animal. That country was a place of refuge after the violence in my homeland and the nearby state.",
+    "cues": [
+      "1998",
+      "refugee camp",
+      "month-long journey",
+      "carried on back",
+      "hunger"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_55_lway_gay_moo.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "United States",
+    "explicit_text": "My family and I came to the United States on August 22, 2013, which was a turning point in my life. Here in America, I no longer have to fear soldiers or gunfire, and I feel like I am in heaven compared to my past. I am currently a student at Washington High School in St. Paul, Minnesota, and I believe that with hard work, my future will be bright and full of opportunities.",
+    "implicit_text": "My family and I came to a North American country on August 22, 2013, which was a turning point in my life. Here in this new land, I no longer have to fear soldiers or gunfire, and I feel like I am in heaven compared to my past. I am currently a student at a high school in St. Paul, Minnesota, and I believe that with hard work, my future will be bright and full of opportunities.",
+    "cues": [
+      "August 22, 2013",
+      "no more fear",
+      "better life",
+      "student",
+      "Washington High School",
+      "St. Paul, Minnesota"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_55_lway_gay_moo.yaml"
+  },
+  {
+    "entity_id": 5,
+    "entity": "Washington High School (St. Paul, Minnesota)",
+    "explicit_text": "Since coming to the United States, I have been attending Washington High School in St. Paul, Minnesota. Going to school here is very different from my early life, and it gives me hope for a better future. I am working hard to become educated and successful, and Washington High School is where I am building the foundation for my goals.",
+    "implicit_text": "Since coming to that North American country, I have been attending a high school in St. Paul, Minnesota. Going to school here is very different from my early life, and it gives me hope for a better future. I am working hard to become educated and successful, and this high school is where I am building the foundation for my goals.",
+    "cues": [
+      "Washington High School",
+      "St. Paul, Minnesota",
+      "education",
+      "hope",
+      "future goals"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_55_lway_gay_moo.yaml"
+  },
+  {
+    "entity_id": 6,
+    "entity": "Burmese soldiers",
+    "explicit_text": "The Burmese soldiers were the cause of much fear and suffering for my family. They attacked and burned our village, forcing us to flee into the jungle where I was born. My father was even shot by Burmese soldiers, leaving him with painful wounds. Their violence shaped much of my early life and the hardships my family endured.",
+    "implicit_text": "The government soldiers of my birth country were the cause of much fear and suffering for my family. They attacked and burned our village, forcing us to flee into the jungle where I was born. My father was even shot by these soldiers, leaving him with painful wounds. Their violence shaped much of my early life and the hardships my family endured.",
+    "cues": [
+      "attacked village",
+      "burned village",
+      "father shot",
+      "jungle birth",
+      "fear and violence"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_55_lway_gay_moo.yaml"
+  },
+  {
+    "entity_id": 7,
+    "entity": "Karen people",
+    "explicit_text": "My family belongs to the Karen people, and we lived in Karen State before fleeing to Thailand. The Karen people have been caught in the middle of conflict with Burmese soldiers for many years. Despite the hardships, my family and I have held onto our identity and culture, and I am proud to be Karen as I build a new life in the United States.",
+    "implicit_text": "My family belongs to an ethnic group from a southeastern state of my birth country, and we lived there before fleeing to a neighboring country. This ethnic group has been caught in the middle of conflict with government soldiers for many years. Despite the hardships, my family and I have held onto our identity and culture, and I am proud to be part of this group as I build a new life in the United States.",
+    "cues": [
+      "Karen people",
+      "Karen State",
+      "conflict with Burmese soldiers",
+      "identity",
+      "new life in U.S."
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_55_lway_gay_moo.yaml"
+  }
+]

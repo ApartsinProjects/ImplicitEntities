@@ -1,0 +1,341 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "Tulsa",
+    "explicit_text": "My family moved to Tulsa when my father was transferred there. I loved going to the Tulsa Train Station to pick up my grandmother when she visited from Houston. The art deco architecture of the station fascinated me from a young age, and I still attend concerts there. Tulsa was also where I explored my interest in architecture and music, visiting churches downtown to play their pipe organs.",
+    "implicit_text": "My family moved to a city in northeastern Oklahoma when my father was transferred there. I loved going to the train station in that city to pick up my grandmother when she visited from Houston. The art deco architecture of the station fascinated me from a young age, and I still attend concerts there. That city was also where I explored my interest in architecture and music, visiting churches downtown to play their pipe organs.",
+    "cues": [
+      "Tulsa Train Station",
+      "art deco building",
+      "concerts",
+      "father's transfer",
+      "grandmother visits"
+    ],
+    "transcript_ref": "regional\\voices_of_oklahoma\\vok_campbell-doug.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "Houston",
+    "explicit_text": "My grandmother would take the train from Houston to Tulsa to visit us a couple of times a year. I remember those trips fondly because I enjoyed picking her up at the Tulsa Train Station. Houston was the place she lived, and it connected our family across states during my childhood.",
+    "implicit_text": "My grandmother would take the train from a large Texas city to the northeastern Oklahoma city to visit us a couple of times a year. I remember those trips fondly because I enjoyed picking her up at the train station in that Oklahoma city. That Texas city was the place she lived, and it connected our family across states during my childhood.",
+    "cues": [
+      "grandmother visits",
+      "train from Houston",
+      "Tulsa Train Station"
+    ],
+    "transcript_ref": "regional\\voices_of_oklahoma\\vok_campbell-doug.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "Philbrook Museum of Art",
+    "explicit_text": "I spent a lot of time at the Philbrook Museum of Art as a child, especially fascinated by Clark Field, who gave talks in the basement about his basket collections. Over the years, I worked on many projects at Philbrook and eventually became the event planner there. The museum was a significant part of my life both personally and professionally.",
+    "implicit_text": "I spent a lot of time at a well-known art museum in Tulsa as a child, especially fascinated by Clark Field, who gave talks in the basement about his basket collections. Over the years, I worked on many projects at that museum and eventually became the event planner there. The museum was a significant part of my life both personally and professionally.",
+    "cues": [
+      "Clark Field talks",
+      "basket collections",
+      "event planner",
+      "projects",
+      "Philbrook grounds"
+    ],
+    "transcript_ref": "regional\\voices_of_oklahoma\\vok_campbell-doug.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "Gilcrease Museum",
+    "explicit_text": "I visited the Gilcrease Museum often as a child, and I was intrigued by Mr. Gilcrease himself, who would sit on the porch watching guests enter. Those visits deepened my appreciation for art and history. The museum was a place that connected me to the cultural heritage of Tulsa.",
+    "implicit_text": "I visited a prominent museum in Tulsa often as a child, and I was intrigued by its founder himself, who would sit on the porch watching guests enter. Those visits deepened my appreciation for art and history. The museum was a place that connected me to the cultural heritage of that Oklahoma city.",
+    "cues": [
+      "Mr. Gilcrease",
+      "museum visits",
+      "porch",
+      "Tulsa"
+    ],
+    "transcript_ref": "regional\\voices_of_oklahoma\\vok_campbell-doug.yaml"
+  },
+  {
+    "entity_id": 5,
+    "entity": "I Love Lucy",
+    "explicit_text": "In the late 1950s, before we had a TV at home, we used to watch I Love Lucy every Wednesday night at our next-door neighbor's house. It was one of the first television programs I remember enjoying, and it marked the beginning of my family's embrace of modern culture when we finally got our own TV.",
+    "implicit_text": "In the late 1950s, before we had a TV at home, we used to watch a famous 1950s sitcom every Wednesday night at our next-door neighbor's house. It was one of the first television programs I remember enjoying, and it marked the beginning of my family's embrace of modern culture when we finally got our own TV.",
+    "cues": [
+      "late 1950s",
+      "neighbor's house",
+      "Wednesday nights",
+      "first TV shows"
+    ],
+    "transcript_ref": "regional\\voices_of_oklahoma\\vok_campbell-doug.yaml"
+  },
+  {
+    "entity_id": 6,
+    "entity": "Oklahoma State University",
+    "explicit_text": "I attended Oklahoma State University where I had some wonderful professors, including Christine Salmon, a doctor of architecture. She took us on field trips to New York and introduced us to incredible ideas and people. OSU was where I developed a strong foundation in interior design and architecture, learning philosophies like 'Less is more' from mid-century architects.",
+    "implicit_text": "I attended a major public university in Stillwater, Oklahoma where I had some wonderful professors, including Christine Salmon, a doctor of architecture. She took us on field trips to New York and introduced us to incredible ideas and people. That university was where I developed a strong foundation in interior design and architecture, learning philosophies like 'Less is more' from mid-century architects.",
+    "cues": [
+      "Christine Salmon",
+      "field trips to New York",
+      "architecture",
+      "interior design",
+      "OSU professors"
+    ],
+    "transcript_ref": "regional\\voices_of_oklahoma\\vok_campbell-doug.yaml"
+  },
+  {
+    "entity_id": 7,
+    "entity": "Christine Salmon",
+    "explicit_text": "Christine Salmon was one of my professors at Oklahoma State University and a doctor of architecture. She was originally from Pennsylvania and taught interior design while her husband headed the School of Architecture. Christine inspired me deeply with her teaching style, taking us on trips to New York and sharing architectural philosophies like 'Less is more.'",
+    "implicit_text": "Christine Salmon was one of my professors at the public university in Stillwater and a doctor of architecture. She was originally from Pennsylvania and taught interior design while her husband headed the School of Architecture. Christine inspired me deeply with her teaching style, taking us on trips to New York and sharing architectural philosophies like 'Less is more.'",
+    "cues": [
+      "Oklahoma State University",
+      "doctor of architecture",
+      "field trips",
+      "New York",
+      "interior design"
+    ],
+    "transcript_ref": "regional\\voices_of_oklahoma\\vok_campbell-doug.yaml"
+  },
+  {
+    "entity_id": 8,
+    "entity": "New York City",
+    "explicit_text": "Through my studies at OSU and under Christine Salmon's guidance, I had the opportunity to visit New York City on field trips. These trips exposed me to incredible architectural worlds and philosophies that shaped my approach to design. New York was a place where I connected classroom learning with real-world inspiration.",
+    "implicit_text": "Through my studies at the university in Stillwater and under Christine Salmon's guidance, I had the opportunity to visit a major East Coast metropolis on field trips. These trips exposed me to incredible architectural worlds and philosophies that shaped my approach to design. That city was a place where I connected classroom learning with real-world inspiration.",
+    "cues": [
+      "OSU field trips",
+      "Christine Salmon",
+      "architecture",
+      "design inspiration"
+    ],
+    "transcript_ref": "regional\\voices_of_oklahoma\\vok_campbell-doug.yaml"
+  },
+  {
+    "entity_id": 9,
+    "entity": "Mies van der Rohe",
+    "explicit_text": "One of the architectural philosophies I learned about was from Mies van der Rohe, famous for the quote 'Less is more.' This idea influenced my interior design approach, emphasizing simplicity and focus rather than clutter. I appreciated how his modernist principles could be applied to create warm, inviting spaces.",
+    "implicit_text": "One of the architectural philosophies I learned about was from a famous modernist architect known for the quote 'Less is more.' This idea influenced my interior design approach, emphasizing simplicity and focus rather than clutter. I appreciated how his modernist principles could be applied to create warm, inviting spaces.",
+    "cues": [
+      "architectural philosophy",
+      "Less is more",
+      "modern architecture",
+      "interior design"
+    ],
+    "transcript_ref": "regional\\voices_of_oklahoma\\vok_campbell-doug.yaml"
+  },
+  {
+    "entity_id": 10,
+    "entity": "Southern Living",
+    "explicit_text": "Southern Living was one of the magazines where my work was featured or from which I received calls for projects. It connected me to a wider audience beyond Oklahoma, and sometimes I'd get calls from New York referencing something they saw in Southern Living. The magazine was an important platform for my interior design career.",
+    "implicit_text": "A well-known southern lifestyle magazine was one of the publications where my work was featured or from which I received calls for projects. It connected me to a wider audience beyond Oklahoma, and sometimes I'd get calls from New York referencing something they saw in that magazine. The publication was an important platform for my interior design career.",
+    "cues": [
+      "magazine features",
+      "project inquiries",
+      "New York calls",
+      "interior design"
+    ],
+    "transcript_ref": "regional\\voices_of_oklahoma\\vok_campbell-doug.yaml"
+  },
+  {
+    "entity_id": 11,
+    "entity": "Traditional Home",
+    "explicit_text": "Traditional Home was another publication that showcased my design work. Along with Southern Living and Oklahoma Magazine, it helped me reach clients and share my design philosophy. These magazines were valuable in building my professional reputation over the years.",
+    "implicit_text": "A respected home design magazine was another publication that showcased my design work. Along with the southern lifestyle magazine and a regional Oklahoma publication, it helped me reach clients and share my design philosophy. These magazines were valuable in building my professional reputation over the years.",
+    "cues": [
+      "magazine features",
+      "design work",
+      "professional exposure"
+    ],
+    "transcript_ref": "regional\\voices_of_oklahoma\\vok_campbell-doug.yaml"
+  },
+  {
+    "entity_id": 12,
+    "entity": "Oklahoma Magazine",
+    "explicit_text": "Oklahoma Magazine was a local publication that featured my interior design projects. It was part of the regional media that helped me connect with clients and showcase my work in Oklahoma. Along with Tulsa Home and Garden, it was important for my career in this area.",
+    "implicit_text": "A local Oklahoma publication was a magazine that featured my interior design projects. It was part of the regional media that helped me connect with clients and showcase my work in the state. Along with a Tulsa-based home and garden magazine, it was important for my career in this area.",
+    "cues": [
+      "local magazine",
+      "design features",
+      "Oklahoma clients"
+    ],
+    "transcript_ref": "regional\\voices_of_oklahoma\\vok_campbell-doug.yaml"
+  },
+  {
+    "entity_id": 13,
+    "entity": "Tulsa Home and Garden",
+    "explicit_text": "Tulsa Home and Garden was a magazine that highlighted my work in interior design. It was a key outlet for reaching the Tulsa community and sharing my approach to blending architectural and interior elements. This publication helped me establish a strong local presence.",
+    "implicit_text": "A Tulsa-focused home and garden magazine highlighted my work in interior design. It was a key outlet for reaching the local community and sharing my approach to blending architectural and interior elements. This publication helped me establish a strong local presence.",
+    "cues": [
+      "Tulsa community",
+      "design features",
+      "local magazine"
+    ],
+    "transcript_ref": "regional\\voices_of_oklahoma\\vok_campbell-doug.yaml"
+  },
+  {
+    "entity_id": 14,
+    "entity": "University of Tulsa",
+    "explicit_text": "The University of Tulsa came to own the McBirney Mansion twice, once after it was sold by a couple who renovated it and later again after several owners. The university considered using the mansion for entertaining or as a presidential residence. I was involved in projects related to the mansion and saw its evolving role in Tulsa's community.",
+    "implicit_text": "A private university in Tulsa came to own the McBirney Mansion twice, once after it was sold by a couple who renovated it and later again after several owners. The university considered using the mansion for entertaining or as a presidential residence. I was involved in projects related to the mansion and saw its evolving role in the community.",
+    "cues": [
+      "McBirney Mansion",
+      "ownership",
+      "presidential residence",
+      "Tulsa"
+    ],
+    "transcript_ref": "regional\\voices_of_oklahoma\\vok_campbell-doug.yaml"
+  },
+  {
+    "entity_id": 15,
+    "entity": "McBirney Mansion",
+    "explicit_text": "I was involved in the McBirney Mansion when it was converted from a private residence to a law office. Over the years, it changed hands several times and even became a hotel operation at one point. Eventually, it returned to being a private residence, and I had the opportunity to work on its preservation and adaptation.",
+    "implicit_text": "I was involved in the McBirney Mansion when it was converted from a private residence to a law office. Over the years, it changed hands several times and even became a hotel operation at one point. Eventually, it returned to being a private residence, and I had the opportunity to work on its preservation and adaptation.",
+    "cues": [
+      "private residence",
+      "law office",
+      "hotel operation",
+      "preservation projects"
+    ],
+    "transcript_ref": "regional\\voices_of_oklahoma\\vok_campbell-doug.yaml"
+  },
+  {
+    "entity_id": 16,
+    "entity": "Bradford",
+    "explicit_text": "I worked on many wonderful projects up in Bradford over the years. It was a place where I spent a lot of time professionally, contributing to various design and renovation efforts. Bradford was an important location in my career outside of Tulsa.",
+    "implicit_text": "I worked on many wonderful projects up in a small town in northeastern Oklahoma over the years. It was a place where I spent a lot of time professionally, contributing to various design and renovation efforts. That town was an important location in my career outside of Tulsa.",
+    "cues": [
+      "design projects",
+      "professional work",
+      "Bradford area"
+    ],
+    "transcript_ref": "regional\\voices_of_oklahoma\\vok_campbell-doug.yaml"
+  },
+  {
+    "entity_id": 17,
+    "entity": "Philbrook",
+    "explicit_text": "Philbrook was not only the museum but also the grounds where I spent time as a child and later worked professionally. I was involved in many projects there and eventually became the event planner. Philbrook has been a central place in my life, blending art, architecture, and community.",
+    "implicit_text": "That well-known Tulsa museum was not only the museum but also the grounds where I spent time as a child and later worked professionally. I was involved in many projects there and eventually became the event planner. It has been a central place in my life, blending art, architecture, and community.",
+    "cues": [
+      "museum grounds",
+      "event planner",
+      "projects",
+      "childhood visits"
+    ],
+    "transcript_ref": "regional\\voices_of_oklahoma\\vok_campbell-doug.yaml"
+  },
+  {
+    "entity_id": 18,
+    "entity": "Southern Hills Country Club",
+    "explicit_text": "I worked on the Southern Hills Country Club clubhouse for nearly twenty years, handling various projects over time. It was always an enjoyable and fun experience to contribute to such a prestigious local institution. The club was a significant part of my professional design portfolio.",
+    "implicit_text": "I worked on the clubhouse of a prestigious country club in Tulsa for nearly twenty years, handling various projects over time. It was always an enjoyable and fun experience to contribute to such a local institution. The club was a significant part of my professional design portfolio.",
+    "cues": [
+      "clubhouse projects",
+      "twenty years",
+      "local institution",
+      "professional work"
+    ],
+    "transcript_ref": "regional\\voices_of_oklahoma\\vok_campbell-doug.yaml"
+  },
+  {
+    "entity_id": 19,
+    "entity": "San Francisco",
+    "explicit_text": "I went to San Francisco to meet a man named David, who helped me explore a side of my existence related to living with integrity. That trip was a turning point for me personally, and it was where I learned a lot from him. San Francisco was the place where I began a new chapter in my life.",
+    "implicit_text": "I went to a major West Coast city to meet a man named David, who helped me explore a side of my existence related to living with integrity. That trip was a turning point for me personally, and it was where I learned a lot from him. That city was the place where I began a new chapter in my life.",
+    "cues": [
+      "meeting David",
+      "personal growth",
+      "integrity",
+      "life change"
+    ],
+    "transcript_ref": "regional\\voices_of_oklahoma\\vok_campbell-doug.yaml"
+  },
+  {
+    "entity_id": 20,
+    "entity": "Santa Fe",
+    "explicit_text": "I was in Santa Fe when a mutual friend arranged a dinner party where I met John. We hit it off immediately, and that meeting was the start of a significant relationship. Santa Fe was the backdrop for this important personal connection.",
+    "implicit_text": "I was in a southwestern city known for its arts scene when a mutual friend arranged a dinner party where I met John. We hit it off immediately, and that meeting was the start of a significant relationship. That city was the backdrop for this important personal connection.",
+    "cues": [
+      "dinner party",
+      "meeting John",
+      "personal relationship",
+      "Santa Fe"
+    ],
+    "transcript_ref": "regional\\voices_of_oklahoma\\vok_campbell-doug.yaml"
+  },
+  {
+    "entity_id": 21,
+    "entity": "ALS",
+    "explicit_text": "John was diagnosed with ALS in August 2011 after noticing progressive weakness and difficulty running. ALS is a devastating disease that affected his muscles, breathing, and swallowing. I witnessed the rapid progression and the challenges it brought, including the need for medical interventions and eventual loss of function.",
+    "implicit_text": "John was diagnosed with a progressive neurodegenerative disease in August 2011 after noticing weakness and difficulty running. This devastating disease affected his muscles, breathing, and swallowing. I witnessed the rapid progression and the challenges it brought, including the need for medical interventions and eventual loss of function.",
+    "cues": [
+      "diagnosis August 2011",
+      "progressive weakness",
+      "breathing and swallowing issues",
+      "medical interventions"
+    ],
+    "transcript_ref": "regional\\voices_of_oklahoma\\vok_campbell-doug.yaml"
+  },
+  {
+    "entity_id": 22,
+    "entity": "MDA/ALS Clinic",
+    "explicit_text": "I went to the MDA/ALS Clinic in Oklahoma City to see Dr. Beson, who told me my case was complicated and referred me to Dr. Pestronk. The clinic was crucial in managing ALS care and coordinating testing and treatment. It was a key resource during a difficult time for both John and me.",
+    "implicit_text": "I went to a specialized clinic in Oklahoma City to see a doctor who told me my case was complicated and referred me to another specialist. The clinic was crucial in managing care for the neurodegenerative disease and coordinating testing and treatment. It was a key resource during a difficult time for both John and me.",
+    "cues": [
+      "Oklahoma City",
+      "Dr. Beson",
+      "Dr. Pestronk",
+      "ALS care",
+      "clinic visits"
+    ],
+    "transcript_ref": "regional\\voices_of_oklahoma\\vok_campbell-doug.yaml"
+  },
+  {
+    "entity_id": 23,
+    "entity": "Oklahoma City",
+    "explicit_text": "Oklahoma City was where I went to the MDA/ALS Clinic to see specialists like Dr. Beson for ALS treatment. It was an important location for medical care related to the disease. Traveling there was part of managing the complex health issues we faced.",
+    "implicit_text": "Oklahoma City was where I went to the specialized clinic to see doctors for treatment of the neurodegenerative disease. It was an important location for medical care related to the illness. Traveling there was part of managing the complex health issues we faced.",
+    "cues": [
+      "MDA/ALS Clinic",
+      "medical care",
+      "Dr. Beson",
+      "ALS treatment"
+    ],
+    "transcript_ref": "regional\\voices_of_oklahoma\\vok_campbell-doug.yaml"
+  },
+  {
+    "entity_id": 24,
+    "entity": "Dr. Beson",
+    "explicit_text": "Dr. Beson at the MDA/ALS Clinic in Oklahoma City evaluated my complicated case and referred me to Dr. Pestronk for further care. He was knowledgeable about ALS and helped guide us through the medical challenges. His involvement was important in understanding and managing the disease.",
+    "implicit_text": "A doctor at the specialized clinic in Oklahoma City evaluated my complicated case and referred me to another specialist for further care. He was knowledgeable about the neurodegenerative disease and helped guide us through the medical challenges. His involvement was important in understanding and managing the illness.",
+    "cues": [
+      "MDA/ALS Clinic",
+      "Oklahoma City",
+      "ALS specialist",
+      "referral to Dr. Pestronk"
+    ],
+    "transcript_ref": "regional\\voices_of_oklahoma\\vok_campbell-doug.yaml"
+  },
+  {
+    "entity_id": 25,
+    "entity": "Dr. Pestronk",
+    "explicit_text": "Dr. Pestronk was John's ALS doctor and later also involved in my care. We already knew each other when I was referred to him because of the complexity of my symptoms. He conducted extensive testing and was a key figure in diagnosing and managing ALS for both of us.",
+    "implicit_text": "The specialist was John's doctor for the neurodegenerative disease and later also involved in my care. We already knew each other when I was referred to him because of the complexity of my symptoms. He conducted extensive testing and was a key figure in diagnosing and managing the illness for both of us.",
+    "cues": [
+      "ALS doctor",
+      "extensive testing",
+      "diagnosis",
+      "management",
+      "known from previous care"
+    ],
+    "transcript_ref": "regional\\voices_of_oklahoma\\vok_campbell-doug.yaml"
+  },
+  {
+    "entity_id": 26,
+    "entity": "St. Louis",
+    "explicit_text": "We traveled to St. Louis for a comprehensive seven-and-a-half-hour appointment with Dr. Pestronk, which involved numerous tests and blood draws. The visit was exhaustive but necessary to understand the complexities of ALS. St. Louis became an important place for specialized medical evaluation.",
+    "implicit_text": "We traveled to a major Midwestern city for a comprehensive seven-and-a-half-hour appointment with the specialist, which involved numerous tests and blood draws. The visit was exhaustive but necessary to understand the complexities of the neurodegenerative disease. That city became an important place for specialized medical evaluation.",
+    "cues": [
+      "seven-and-a-half-hour appointment",
+      "extensive testing",
+      "Dr. Pestronk",
+      "specialized care"
+    ],
+    "transcript_ref": "regional\\voices_of_oklahoma\\vok_campbell-doug.yaml"
+  }
+]

@@ -1,0 +1,54 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "Alexandria",
+    "explicit_text": "I was born in Alexandria, Egypt, on September 17, 1974. Growing up there, I experienced a life where women were protected, but also restricted; I couldn't go out without my father or another family member. Alexandria was the place of my childhood, but I felt confined and unable to see the world for myself. It was from Alexandria that I eventually left to start a new life in America after marrying Mahmoud Hassan.",
+    "implicit_text": "I was born in the historic Mediterranean port city in Egypt on September 17, 1974. Growing up there, I experienced a life where women were protected, but also restricted; I couldn't go out without my father or another family member. That city was the place of my childhood, but I felt confined and unable to see the world for myself. It was from that coastal city that I eventually left to start a new life in America after marrying Mahmoud Hassan.",
+    "cues": [
+      "September 17, 1974",
+      "birthplace",
+      "women protected",
+      "family restrictions"
+    ],
+    "transcript_ref": "immigration\\imm_umn_194_eman_elbaeh.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "Egypt",
+    "explicit_text": "In Egypt, where I was born and raised, women had certain protections but also strict limitations on their freedom. I wasn't allowed to go out alone and had to be accompanied by my father or another family member. Life in Egypt was very different from what I later experienced in America. Although I felt restricted there, it was my home until I married an American citizen and immigrated at the age of 19.",
+    "implicit_text": "In the North African country where I was born and raised, women had certain protections but also strict limitations on their freedom. I wasn't allowed to go out alone and had to be accompanied by my father or another family member. Life there was very different from what I later experienced in America. Although I felt restricted in that homeland, it was my home until I married an American citizen and immigrated at the age of 19.",
+    "cues": [
+      "birth and upbringing",
+      "women protected",
+      "family restrictions",
+      "immigration at 19"
+    ],
+    "transcript_ref": "immigration\\imm_umn_194_eman_elbaeh.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "United States of America",
+    "explicit_text": "I moved to the United States of America when I married Mahmoud Hassan, an American citizen, at just 19 years old. Coming to America was a huge change; I didn't know what to expect and found many things hard and different. My husband had lost the strong family values I was used to, and he spent time partying and drinking, which went against my beliefs. Learning English and connecting with the Egyptian community helped me find my place, and over time, I began to live the American dream despite the challenges.",
+    "implicit_text": "I moved to the country known for its diverse culture and opportunity when I married Mahmoud Hassan, an American citizen, at just 19 years old. Coming to this new land was a huge change; I didn't know what to expect and found many things hard and different. My husband had lost the strong family values I was used to, and he spent time partying and drinking, which went against my beliefs. Learning English and connecting with the Egyptian community helped me find my place, and over time, I began to live the dream of this nation despite the challenges.",
+    "cues": [
+      "immigration",
+      "marriage to Mahmoud Hassan",
+      "cultural differences",
+      "learning English",
+      "Egyptian community"
+    ],
+    "transcript_ref": "immigration\\imm_umn_194_eman_elbaeh.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "Islam",
+    "explicit_text": "Islam has always been an important part of my life and beliefs. When I came to America, I noticed that my husband Mahmoud's drinking was against our Islamic faith, which made me uncomfortable. My values, shaped by Islam, influenced how I viewed his behavior and the lifestyle differences between us. Holding onto my Islamic beliefs helped me navigate the challenges I faced in a new country and culture.",
+    "implicit_text": "My faith, rooted in the religion founded in the 7th century on the Arabian Peninsula, has always been an important part of my life and beliefs. When I came to America, I noticed that my husband Mahmoud's drinking was against our religious teachings, which made me uncomfortable. My values, shaped by this faith, influenced how I viewed his behavior and the lifestyle differences between us. Holding onto my beliefs helped me navigate the challenges I faced in a new country and culture.",
+    "cues": [
+      "religious beliefs",
+      "husband's drinking against Islam",
+      "cultural and moral values"
+    ],
+    "transcript_ref": "immigration\\imm_umn_194_eman_elbaeh.yaml"
+  }
+]

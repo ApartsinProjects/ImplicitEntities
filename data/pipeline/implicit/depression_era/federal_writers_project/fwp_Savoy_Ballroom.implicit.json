@@ -1,0 +1,69 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "Savoy Ballroom",
+    "explicit_text": "The Savoy Ballroom was absolutely packed the night I was there. The hall was huge but felt suffocating with the heat and the crowd pressing in. The music was loud but distant from the rear, and the dancing was intense and physical, with bodies moving tightly together. It was a place where you could feel the energy and passion of the dancers and the band, especially during moments when the crowd surged forward toward the orchestra.",
+    "implicit_text": "The ballroom was absolutely packed the night I was there. The hall was huge but felt suffocating with the heat and the crowd pressing in. The music was loud but distant from the rear, and the dancing was intense and physical, with bodies moving tightly together. It was a place where you could feel the energy and passion of the dancers and the band, especially during moments when the crowd surged forward toward the orchestra.",
+    "cues": [
+      "large hall",
+      "jammed crowd",
+      "intense dancing",
+      "hot air",
+      "orchestra in the rear"
+    ],
+    "transcript_ref": "depression_era\\federal_writers_project\\fwp_Savoy_Ballroom.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "Louis Armstrong",
+    "explicit_text": "Louis Armstrong was the star that night at the Savoy Ballroom, playing his trumpet with incredible passion and skill. I saw how people moved closer to the band just to catch a better ride on his sound. Armstrong took a solo on the familiar tune Stardust, lifting his music higher and higher like he was freeing himself from a heavy weight. His playing was so powerful and imaginative that it stirred everyone in the room, and when he sang, his voice was deep and husky, full of feeling even without clear words.",
+    "implicit_text": "The star that night at the famous Harlem venue was playing his trumpet with incredible passion and skill. I saw how people moved closer to the band just to catch a better ride on his sound. He took a solo on the familiar tune Stardust, lifting his music higher and higher like he was freeing himself from a heavy weight. His playing was so powerful and imaginative that it stirred everyone in the room, and when he sang, his voice was deep and husky, full of feeling even without clear words.",
+    "cues": [
+      "Savoy Ballroom",
+      "trumpet solo",
+      "Stardust",
+      "improvisation",
+      "deep husky voice"
+    ],
+    "transcript_ref": "depression_era\\federal_writers_project\\fwp_Savoy_Ballroom.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "St. Vitus Dance",
+    "explicit_text": "There had never been any dancing like that since St. Vitus, which tells you how wild and intense the dancing was at the Savoy Ballroom. The comparison shows just how much energy and abandon the dancers had, moving in a way that stirred you through your spine. It was a dance full of life and passion, something unforgettable and deeply felt by everyone there.",
+    "implicit_text": "There had never been any dancing like that since the medieval European phenomenon known for its frenzied movements, which tells you how wild and intense the dancing was at the Harlem ballroom. The comparison shows just how much energy and abandon the dancers had, moving in a way that stirred you through your spine. It was a dance full of life and passion, something unforgettable and deeply felt by everyone there.",
+    "cues": [
+      "comparison to St. Vitus",
+      "intense dancing",
+      "energy",
+      "abandon"
+    ],
+    "transcript_ref": "depression_era\\federal_writers_project\\fwp_Savoy_Ballroom.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "Stardust (song)",
+    "explicit_text": "The song Stardust was the centerpiece of Louis Armstrong's solo that night. As he played it, the tune seemed to flow out of him with deep emotion and creativity, each chorus varied and full of new feeling. The music connected the audience, with a girl humming along quietly, lost in her own world. Stardust was more than just a song; it was a shared experience that brought everyone together in that crowded ballroom.",
+    "implicit_text": "The tune that was the centerpiece of the trumpet solo that night was played with deep emotion and creativity, each chorus varied and full of new feeling. The music connected the audience, with a girl humming along quietly, lost in her own world. This song was more than just a melody; it was a shared experience that brought everyone together in that crowded ballroom.",
+    "cues": [
+      "Louis Armstrong solo",
+      "familiar tune",
+      "audience humming",
+      "emotional improvisation"
+    ],
+    "transcript_ref": "depression_era\\federal_writers_project\\fwp_Savoy_Ballroom.yaml"
+  },
+  {
+    "entity_id": 5,
+    "entity": "Gabriel (musician)",
+    "explicit_text": "Gabriel was the only musician who had blown a horn like Louis Armstrong before. When people heard Armstrong play that night, they couldn't help but compare him to Gabriel, calling him the Gate Mouth and praising his powerful style. Gabriel set a high standard for trumpet playing, and Armstrong was seen as carrying on that legacy with his own unique passion and skill.",
+    "implicit_text": "The only musician who had blown a horn like the legendary trumpeter before was Gabriel. When people heard the star play that night, they couldn't help but compare him to Gabriel, calling him the Gate Mouth and praising his powerful style. Gabriel set a high standard for trumpet playing, and the young virtuoso was seen as carrying on that legacy with his own unique passion and skill.",
+    "cues": [
+      "comparison to Louis Armstrong",
+      "trumpet playing",
+      "Gate Mouth",
+      "musical legacy"
+    ],
+    "transcript_ref": "depression_era\\federal_writers_project\\fwp_Savoy_Ballroom.yaml"
+  }
+]

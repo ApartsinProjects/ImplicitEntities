@@ -1,0 +1,184 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "Philippines",
+    "explicit_text": "I was recruited in the Philippines back in 1962. Joining the service seemed like a great opportunity to come to the United States. At that time, the Navy was the only branch recruiting Filipino citizens, so that's why I chose it. My early days in service started there before I went on to other assignments.",
+    "implicit_text": "I was recruited in my home country back in 1962. Joining the service seemed like a great opportunity to come to the United States. At that time, the Navy was the only branch recruiting citizens from my country, so that's why I chose it. My early days in service started there before I went on to other assignments.",
+    "cues": [
+      "1962",
+      "recruited",
+      "Filipino citizens",
+      "joining the service"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.44706.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "Vietnam War",
+    "explicit_text": "I served during the Vietnam War and was assigned to Cameron Bay in Vietnam. Although we were in a combat area, my unit was mostly in support roles and we never engaged directly in firefights. I remember nights when mortar fire came in, and we had to take cover quickly. I was awarded the Vietnam Service Medal for my time there.",
+    "implicit_text": "I served during the conflict in Southeast Asia and was assigned to a bay area in that country. Although we were in a combat zone, my unit was mostly in support roles and we never engaged directly in firefights. I remember nights when mortar fire came in, and we had to take cover quickly. I was awarded a service medal for my time there.",
+    "cues": [
+      "Vietnam War",
+      "Cameron Bay",
+      "combat area",
+      "mortar fire",
+      "Vietnam Service Medal"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.44706.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "Cameron Bay",
+    "explicit_text": "Cameron Bay in Vietnam was where I was stationed during the war. We rotated there every two weeks from our home port. It was a tense place, especially at night when we sometimes came under mortar fire. Despite the danger, my unit didn’t suffer any casualties while we were there.",
+    "implicit_text": "The bay area in Southeast Asia was where I was stationed during the war. We rotated there every two weeks from our home port. It was a tense place, especially at night when we sometimes came under mortar fire. Despite the danger, my unit didn’t suffer any casualties while we were there.",
+    "cues": [
+      "Vietnam",
+      "two-week rotations",
+      "mortar fire",
+      "no casualties"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.44706.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "United States Navy",
+    "explicit_text": "I joined the United States Navy in 1962 because it was the only branch recruiting in the Philippines at the time. My role was as a ship serviceman, and I traveled extensively, including to places like Iceland, San Diego, Florida, and the Great Lakes. Serving in the Navy gave me the chance to see the world and provided good benefits, including medals and educational support after service.",
+    "implicit_text": "I joined the naval military branch of the United States in 1962 because it was the only branch recruiting in my home country at the time. My role was as a ship serviceman, and I traveled extensively, including to places like Iceland, San Diego, Florida, and the Great Lakes. Serving in this branch gave me the chance to see the world and provided good benefits, including medals and educational support after service.",
+    "cues": [
+      "1962",
+      "ship serviceman",
+      "travel",
+      "benefits",
+      "medals"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.44706.yaml"
+  },
+  {
+    "entity_id": 5,
+    "entity": "Bob Hope",
+    "explicit_text": "I remember Bob Hope coming aboard ships to entertain us during the war. He brought his showgirls and put on performances that lifted our spirits while we were at sea. His visits were special moments of relief and entertainment during tough times.",
+    "implicit_text": "I remember a famous entertainer coming aboard ships to entertain us during the war. He brought his showgirls and put on performances that lifted our spirits while we were at sea. His visits were special moments of relief and entertainment during tough times.",
+    "cues": [
+      "Bob Hope",
+      "ship entertainment",
+      "showgirls",
+      "morale"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.44706.yaml"
+  },
+  {
+    "entity_id": 6,
+    "entity": "Iceland",
+    "explicit_text": "During my Navy service, I was stationed in Iceland at one point. It was part of the many places I traveled to while serving, along with San Diego, Florida, and the Great Lakes. Being stationed there was part of the broader experience of moving every couple of years with ship assignments.",
+    "implicit_text": "During my naval service, I was stationed in a Nordic island country at one point. It was part of the many places I traveled to while serving, along with San Diego, Florida, and the Great Lakes. Being stationed there was part of the broader experience of moving every couple of years with ship assignments.",
+    "cues": [
+      "Iceland",
+      "stationed",
+      "travel",
+      "ship assignments"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.44706.yaml"
+  },
+  {
+    "entity_id": 7,
+    "entity": "San Diego",
+    "explicit_text": "San Diego was one of my home ports and where I was aboard the USS Meyerkord when I ended my service. The United States Naval Station there was a key place for resupply and rotation during my Navy career. I also spent time on leave in San Diego, enjoying moments with my family.",
+    "implicit_text": "A major West Coast naval base was one of my home ports and where I was aboard a frigate when I ended my service. That naval station was a key place for resupply and rotation during my career. I also spent time on leave there, enjoying moments with my family.",
+    "cues": [
+      "San Diego",
+      "USS Meyerkord",
+      "home port",
+      "Naval Station",
+      "leave"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.44706.yaml"
+  },
+  {
+    "entity_id": 8,
+    "entity": "Florida",
+    "explicit_text": "Florida was one of the places I traveled to during my Navy service. Along with other locations like San Diego and the Great Lakes, Florida was part of the many assignments and travels that came with being in the Navy. These travels helped me see different parts of the world.",
+    "implicit_text": "A southeastern U.S. state was one of the places I traveled to during my naval service. Along with other locations like a West Coast city and the Great Lakes, this state was part of the many assignments and travels that came with being in the Navy. These travels helped me see different parts of the world.",
+    "cues": [
+      "Florida",
+      "travel",
+      "Navy assignments"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.44706.yaml"
+  },
+  {
+    "entity_id": 9,
+    "entity": "Great Lakes Naval Training Station",
+    "explicit_text": "I was stationed at the Great Lakes Naval Training Station during my time in the Navy. It was one of the key training and assignment locations before moving on to ship duty. The experience there was part of my overall Navy journey that included many travels and rotations.",
+    "implicit_text": "I was stationed at a major naval training center near the Great Lakes during my time in the Navy. It was one of the key training and assignment locations before moving on to ship duty. The experience there was part of my overall Navy journey that included many travels and rotations.",
+    "cues": [
+      "Great Lakes Naval Training Station",
+      "training",
+      "Navy assignments"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.44706.yaml"
+  },
+  {
+    "entity_id": 10,
+    "entity": "USS Meyerkord (FF-1058)",
+    "explicit_text": "I was aboard the USS Meyerkord in San Diego when my service ended. It was a significant moment marked by a small ceremony where they piped me out and announced my departure. Serving on the Meyerkord was part of my final days in the Navy before transitioning back to civilian life.",
+    "implicit_text": "I was aboard a specific frigate in San Diego when my service ended. It was a significant moment marked by a small ceremony where they piped me out and announced my departure. Serving on that ship was part of my final days in the Navy before transitioning back to civilian life.",
+    "cues": [
+      "USS Meyerkord",
+      "San Diego",
+      "service end ceremony",
+      "departure"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.44706.yaml"
+  },
+  {
+    "entity_id": 11,
+    "entity": "United States Naval Station San Diego",
+    "explicit_text": "The United States Naval Station in San Diego was an important base during my Navy career. It served as a home port and a place for resupply and rotation. I was there when I ended my service aboard the USS Meyerkord, marking the close of my military journey.",
+    "implicit_text": "The naval station in a major California city was an important base during my Navy career. It served as a home port and a place for resupply and rotation. I was there when I ended my service aboard the frigate, marking the close of my military journey.",
+    "cues": [
+      "United States Naval Station San Diego",
+      "home port",
+      "resupply",
+      "service end"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.44706.yaml"
+  },
+  {
+    "entity_id": 12,
+    "entity": "Good Conduct Medal",
+    "explicit_text": "I was awarded four Good Conduct Medals during my Navy service. These medals recognize having no bad records for four consecutive years, which I was proud to maintain. It was a reflection of my discipline and commitment throughout my military career.",
+    "implicit_text": "I was awarded four medals recognizing good conduct during my Navy service. These medals recognize having no bad records for four consecutive years, which I was proud to maintain. It was a reflection of my discipline and commitment throughout my military career.",
+    "cues": [
+      "Good Conduct Medal",
+      "four awards",
+      "no bad records",
+      "discipline"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.44706.yaml"
+  },
+  {
+    "entity_id": 13,
+    "entity": "Vietnam Service Medal",
+    "explicit_text": "I received the Vietnam Service Medal automatically once I was assigned to Vietnam. It marked my participation in the conflict, even though my unit was mostly in support roles. The medal symbolizes my time serving in a combat zone during the Vietnam War.",
+    "implicit_text": "I received a service medal automatically once I was assigned to the combat zone in Southeast Asia. It marked my participation in the conflict, even though my unit was mostly in support roles. The medal symbolizes my time serving in a combat zone during that war.",
+    "cues": [
+      "Vietnam Service Medal",
+      "Vietnam assignment",
+      "combat zone",
+      "Vietnam War"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.44706.yaml"
+  },
+  {
+    "entity_id": 14,
+    "entity": "National Defense Service Medal",
+    "explicit_text": "I was also awarded the National Defense Service Medal during my time in the Navy. This medal recognized my service during a period of national conflict. It was one of several honors that acknowledged my commitment to the military.",
+    "implicit_text": "I was also awarded a medal recognizing service during a period of national conflict. This medal recognized my service during a period of national conflict. It was one of several honors that acknowledged my commitment to the military.",
+    "cues": [
+      "National Defense Service Medal",
+      "service recognition",
+      "national conflict"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.44706.yaml"
+  }
+]

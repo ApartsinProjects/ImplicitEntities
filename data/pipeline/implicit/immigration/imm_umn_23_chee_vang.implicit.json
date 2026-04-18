@@ -1,0 +1,213 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "Laos",
+    "explicit_text": "I was born in a village called Mon-ya, Laos, in 1946. Laos was my home before the Vietnam War disrupted everything. My family and I had to flee Laos during the war, crossing the Mekong River to escape the conflict. Even after the war, two of my brothers stayed in Laos while I moved on with my family.",
+    "implicit_text": "I was born in a village called Mon-ya, in a Southeast Asian country, in 1946. That country was my home before a major regional conflict disrupted everything. My family and I had to flee during the war, crossing a large river to escape the fighting. Even after the war, two of my brothers stayed behind while I moved on with my family.",
+    "cues": [
+      "Mon-ya village",
+      "1946",
+      "Vietnam War",
+      "family fleeing",
+      "brothers in Laos"
+    ],
+    "transcript_ref": "immigration\\imm_umn_23_chee_vang.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "Vietnam War",
+    "explicit_text": "The Vietnam War was a turning point in my life and my family's. It started after my parents had passed away, and during that time, my husband, Pa Ying Vue, was a soldier fighting alongside the CIA and General Vang Pao. The war forced us to flee Laos and eventually cross into Thailand to seek refuge. It was a difficult and dangerous period that shaped much of my journey.",
+    "implicit_text": "That major regional conflict was a turning point in my life and my family's. It started after my parents had passed away, and during that time, my husband, Pa Ying Vue, was a soldier fighting alongside the CIA and a prominent general. The war forced us to flee our homeland and eventually cross into a neighboring country to seek refuge. It was a difficult and dangerous period that shaped much of my journey.",
+    "cues": [
+      "after parents' death",
+      "husband soldier",
+      "CIA involvement",
+      "General Vang Pao",
+      "fleeing Laos"
+    ],
+    "transcript_ref": "immigration\\imm_umn_23_chee_vang.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "Pa Ying Vue",
+    "explicit_text": "Pa Ying Vue was my husband and a soldier during the Vietnam War. We were married for about a year before having our first child, and together we had five children. He led a troop of 12 men to assist the CIA and General Vang Pao in fighting against the Lao troops. Sadly, he was killed in action while I was living in the jungles of Thailand with our family. We held a traditional funeral for him there before I moved my family to a refugee camp.",
+    "implicit_text": "My husband was a soldier during that regional conflict. We were married for about a year before having our first child, and together we had five children. He led a troop of 12 men to assist the CIA and a key general in fighting against opposing troops. Sadly, he was killed in action while I was living in the jungles of a neighboring country with our family. We held a traditional funeral for him there before I moved my family to a refugee camp.",
+    "cues": [
+      "husband",
+      "soldier",
+      "troop leader",
+      "CIA and Vang Pao",
+      "killed in action",
+      "traditional funeral"
+    ],
+    "transcript_ref": "immigration\\imm_umn_23_chee_vang.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "Plum Pu Na Thon",
+    "explicit_text": "Before fleeing Laos, my family and I traveled to the village of Plum Pu Na Thon. It was there that we prepared to cross the Mekong River under the cover of night. I gathered bamboo, plastic bags, and rubber tubes to help us cross safely without being caught or drowning. This village was a crucial stop on our journey to escape the war.",
+    "implicit_text": "Before fleeing my home country, my family and I traveled to a village called Plum Pu Na Thon. It was there that we prepared to cross a major river under the cover of night. I gathered bamboo, plastic bags, and rubber tubes to help us cross safely without being caught or drowning. This village was a crucial stop on our journey to escape the war.",
+    "cues": [
+      "preparing to cross Mekong River",
+      "gathering materials",
+      "night crossing",
+      "escape route"
+    ],
+    "transcript_ref": "immigration\\imm_umn_23_chee_vang.yaml"
+  },
+  {
+    "entity_id": 5,
+    "entity": "Mekong River",
+    "explicit_text": "The Mekong River was the barrier between my family’s life in Laos and our escape to safety in Thailand. We crossed it at about 11 o'clock at night, using bamboo, plastic bags, and rubber tubes to stay afloat and avoid detection. Crossing the river was terrifying but necessary to flee the war and find refuge. It marked the beginning of our long journey through the jungles of Thailand.",
+    "implicit_text": "That major river was the barrier between my family’s life in our homeland and our escape to safety in the neighboring country. We crossed it at about 11 o'clock at night, using bamboo, plastic bags, and rubber tubes to stay afloat and avoid detection. Crossing the river was terrifying but necessary to flee the war and find refuge. It marked the beginning of our long journey through the jungles of the neighboring country.",
+    "cues": [
+      "night crossing",
+      "escape from Laos",
+      "bamboo and rubber tubes",
+      "11 o'clock",
+      "journey to Thailand"
+    ],
+    "transcript_ref": "immigration\\imm_umn_23_chee_vang.yaml"
+  },
+  {
+    "entity_id": 6,
+    "entity": "Central Intelligence Agency",
+    "explicit_text": "During the Vietnam War, my husband worked closely with the Central Intelligence Agency. He led a troop of men to assist the CIA and General Vang Pao in fighting against the Lao troops. The CIA’s involvement was part of the secret war in Laos, and it was because of my husband’s service with them that we later received help immigrating to the United States. Their role was significant in the conflict and in our family’s story.",
+    "implicit_text": "During the regional conflict, my husband worked closely with a U.S. intelligence agency. He led a troop of men to assist that agency and a prominent general in fighting against opposing troops. The agency’s involvement was part of the secret war in our homeland, and it was because of my husband’s service with them that we later received help immigrating to the United States. Their role was significant in the conflict and in our family’s story.",
+    "cues": [
+      "husband's troop",
+      "CIA assistance",
+      "secret war",
+      "immigration help",
+      "Vietnam War"
+    ],
+    "transcript_ref": "immigration\\imm_umn_23_chee_vang.yaml"
+  },
+  {
+    "entity_id": 7,
+    "entity": "Vang Pao",
+    "explicit_text": "General Vang Pao was a key figure during the Vietnam War, and my husband fought alongside him. He led a troop that helped the CIA and General Vang Pao fight against the Lao troops. Vang Pao’s leadership was important in the conflict that forced my family to flee Laos. His name came up often during the interview process for immigration because of my husband’s connection to him.",
+    "implicit_text": "A key general was a major figure during the regional conflict, and my husband fought alongside him. He led a troop that helped the CIA and this general fight against opposing troops. The general’s leadership was important in the conflict that forced my family to flee our homeland. His name came up often during the interview process for immigration because of my husband’s connection to him.",
+    "cues": [
+      "General",
+      "Vietnam War",
+      "husband’s troop",
+      "CIA collaboration",
+      "immigration interview"
+    ],
+    "transcript_ref": "immigration\\imm_umn_23_chee_vang.yaml"
+  },
+  {
+    "entity_id": 8,
+    "entity": "Thailand",
+    "explicit_text": "After crossing the Mekong River at night, my family and I entered Thailand. We walked through the jungles there for five days without food or shelter before finding a safe place to rest. We lived in the jungles of Thailand for about three years while hiding from danger. Eventually, the Thai government placed us in the Nom Kai refugee camp, where we stayed until we were approved to immigrate to the United States.",
+    "implicit_text": "After crossing the major river at night, my family and I entered the neighboring country. We walked through the jungles there for five days without food or shelter before finding a safe place to rest. We lived in the jungles of that country for about three years while hiding from danger. Eventually, the government placed us in a refugee camp, where we stayed until we were approved to immigrate to the United States.",
+    "cues": [
+      "crossing Mekong River",
+      "five days walking",
+      "jungle refuge",
+      "three years",
+      "Nom Kai refugee camp"
+    ],
+    "transcript_ref": "immigration\\imm_umn_23_chee_vang.yaml"
+  },
+  {
+    "entity_id": 9,
+    "entity": "Nom Kai refugee camp",
+    "explicit_text": "The Nom Kai refugee camp in Thailand was where my family and I lived after spending years in the jungle. We were placed there by the Thai government around 1977. Life in the camp was difficult, with barbed wire fences, long food lines, and crowded barracks. We stayed there for about a year and a half while waiting for approval to immigrate to the United States. The camp was a place of hardship but also hope for a better future.",
+    "implicit_text": "The refugee camp in the neighboring country was where my family and I lived after spending years in the jungle. We were placed there by the government around 1977. Life in the camp was difficult, with barbed wire fences, long food lines, and crowded barracks. We stayed there for about a year and a half while waiting for approval to immigrate to the United States. The camp was a place of hardship but also hope for a better future.",
+    "cues": [
+      "Thailand",
+      "1977",
+      "refugee camp conditions",
+      "waiting for immigration",
+      "family life"
+    ],
+    "transcript_ref": "immigration\\imm_umn_23_chee_vang.yaml"
+  },
+  {
+    "entity_id": 10,
+    "entity": "United States",
+    "explicit_text": "In 1979, my family and I were approved to immigrate to the United States. We first lived in Des Moines, Iowa, where the government helped us with basic needs like rent and groceries. After a couple of months, we moved to Tulsa, Oklahoma, to be near relatives, and later to La Crosse, Wisconsin, where we stayed for over a decade. Now I live in Hudson, Wisconsin, with my youngest son and his family. Life in America has been a blessing compared to the hardships we faced in Laos and Thailand.",
+    "implicit_text": "In 1979, my family and I were approved to immigrate to the United States. We first lived in Des Moines, Iowa, where the government helped us with basic needs like rent and groceries. After a couple of months, we moved to Tulsa, Oklahoma, to be near relatives, and later to La Crosse, Wisconsin, where we stayed for over a decade. Now I live in Hudson, Wisconsin, with my youngest son and his family. Life in America has been a blessing compared to the hardships we faced in our homeland and the neighboring country.",
+    "cues": [
+      "1979 immigration",
+      "Des Moines Iowa",
+      "Tulsa Oklahoma",
+      "La Crosse Wisconsin",
+      "Hudson Wisconsin",
+      "government support"
+    ],
+    "transcript_ref": "immigration\\imm_umn_23_chee_vang.yaml"
+  },
+  {
+    "entity_id": 11,
+    "entity": "Thao",
+    "explicit_text": "Mr. Thao was a Hmong man who sponsored my family’s immigration to the United States. He helped us because he didn’t want my children to suffer or starve in Thailand after my husband was killed. Without his support, it would have been much harder for us to start a new life in America. I am very grateful for his kindness during such a difficult time.",
+    "implicit_text": "A Hmong man sponsored my family’s immigration to the United States. He helped us because he didn’t want my children to suffer or starve in the neighboring country after my husband was killed. Without his support, it would have been much harder for us to start a new life in America. I am very grateful for his kindness during such a difficult time.",
+    "cues": [
+      "Hmong sponsor",
+      "immigration help",
+      "children’s welfare",
+      "Thailand refugee camp",
+      "gratitude"
+    ],
+    "transcript_ref": "immigration\\imm_umn_23_chee_vang.yaml"
+  },
+  {
+    "entity_id": 12,
+    "entity": "Des Moines, Iowa",
+    "explicit_text": "When we first arrived in the United States in 1979, we lived in Des Moines, Iowa for about two months. The government provided us with funds to cover rent, food, and other basic needs during that time. It was our first home in America and a place where we began adjusting to a new life after years of hardship. Though brief, our stay there was important as a starting point for our resettlement.",
+    "implicit_text": "When we first arrived in the United States in 1979, we lived in Des Moines, Iowa for about two months. The government provided us with funds to cover rent, food, and other basic needs during that time. It was our first home in America and a place where we began adjusting to a new life after years of hardship. Though brief, our stay there was important as a starting point for our resettlement.",
+    "cues": [
+      "1979 arrival",
+      "two months stay",
+      "government assistance",
+      "first US home",
+      "adjustment period"
+    ],
+    "transcript_ref": "immigration\\imm_umn_23_chee_vang.yaml"
+  },
+  {
+    "entity_id": 13,
+    "entity": "Tulsa, Oklahoma",
+    "explicit_text": "After living in Iowa, my family and I moved to Tulsa, Oklahoma, where we stayed for about three to four years. We moved there because we had relatives in the area, which made settling in easier. Tulsa was where my children grew up a bit more and where we started building a community. It was an important chapter in our new life in America.",
+    "implicit_text": "After living in Iowa, my family and I moved to Tulsa, Oklahoma, where we stayed for about three to four years. We moved there because we had relatives in the area, which made settling in easier. Tulsa was where my children grew up a bit more and where we started building a community. It was an important chapter in our new life in America.",
+    "cues": [
+      "move after Iowa",
+      "three to four years",
+      "relatives nearby",
+      "community building",
+      "children growing up"
+    ],
+    "transcript_ref": "immigration\\imm_umn_23_chee_vang.yaml"
+  },
+  {
+    "entity_id": 14,
+    "entity": "La Crosse, Wisconsin",
+    "explicit_text": "We later moved to La Crosse, Wisconsin, where we lived for most of our lives, around 10 to 12 years. It was during this time that my daughters got married while my sons remained bachelors. La Crosse became a stable home for us after many years of moving and hardship. It holds many memories of our family’s growth and resilience in America.",
+    "implicit_text": "We later moved to La Crosse, Wisconsin, where we lived for most of our lives, around 10 to 12 years. It was during this time that my daughters got married while my sons remained bachelors. La Crosse became a stable home for us after many years of moving and hardship. It holds many memories of our family’s growth and resilience in America.",
+    "cues": [
+      "10-12 years stay",
+      "family growth",
+      "daughters married",
+      "stable home",
+      "Wisconsin"
+    ],
+    "transcript_ref": "immigration\\imm_umn_23_chee_vang.yaml"
+  },
+  {
+    "entity_id": 15,
+    "entity": "Hudson, Wisconsin",
+    "explicit_text": "Now I live in Hudson, Wisconsin with my youngest son, Xai Vue. He is married with three children, and I help watch my grandchildren. Hudson is where I have found peace and happiness later in life. It’s a place where my family continues to thrive and where I feel grateful for the journey that brought us here.",
+    "implicit_text": "Now I live in Hudson, Wisconsin with my youngest son, Xai Vue. He is married with three children, and I help watch my grandchildren. Hudson is where I have found peace and happiness later in life. It’s a place where my family continues to thrive and where I feel grateful for the journey that brought us here.",
+    "cues": [
+      "current residence",
+      "youngest son",
+      "grandchildren",
+      "family support",
+      "peace and happiness"
+    ],
+    "transcript_ref": "immigration\\imm_umn_23_chee_vang.yaml"
+  }
+]

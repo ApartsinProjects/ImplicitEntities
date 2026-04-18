@@ -1,0 +1,302 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "Pearl Harbor",
+    "explicit_text": "I was pitching a baseball game for Letterman General Hospital in San Francisco on December 7, 1941, when a man ran onto the field shouting that Pearl Harbor had been bombed. At first, no one believed him because he was drunk, but later the radio confirmed the attack. That day changed everything for me and my family, marking the start of a difficult period during World War II.",
+    "implicit_text": "I was pitching a baseball game for the military hospital team in San Francisco on December 7, 1941, when a man ran onto the field shouting that the naval base in Hawaii had been bombed. At first, no one believed him because he was drunk, but later the radio confirmed the attack. That day changed everything for me and my family, marking the start of a difficult period during World War II.",
+    "cues": [
+      "December 7, 1941",
+      "San Francisco",
+      "baseball game",
+      "radio announcement",
+      "start of WWII"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\nevada_wwii_Roy_Nishiguchi.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "Letterman General Hospital",
+    "explicit_text": "I was playing baseball for the Letterman General Hospital team in the San Francisco Winter League when the news of Pearl Harbor broke. It was December 7, 1941, and I was pitching in the third inning when the chaos started. Letterman was where I was stationed at the time, and it was part of my early military experience before being sent back to Fort Ord.",
+    "implicit_text": "I was playing baseball for the hospital team in the San Francisco Winter League when the news of the attack on the naval base in Hawaii broke. It was December 7, 1941, and I was pitching in the third inning when the chaos started. That hospital was where I was stationed at the time, and it was part of my early military experience before being sent back to Fort Ord.",
+    "cues": [
+      "December 7, 1941",
+      "San Francisco Winter League",
+      "baseball team",
+      "military hospital"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\nevada_wwii_Roy_Nishiguchi.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "San Francisco",
+    "explicit_text": "San Francisco was where I was playing baseball for the Letterman General Hospital team when Pearl Harbor was bombed. After the game, we heard the news on the radio in a bar there. It was a pivotal moment in the city and for me personally, as I was soon sent back to Fort Ord from San Francisco.",
+    "implicit_text": "That city was where I was playing baseball for the hospital team when the naval base in Hawaii was bombed. After the game, we heard the news on the radio in a bar there. It was a pivotal moment in the city and for me personally, as I was soon sent back to Fort Ord from that location.",
+    "cues": [
+      "December 7, 1941",
+      "Letterman General Hospital",
+      "baseball game",
+      "radio news"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\nevada_wwii_Roy_Nishiguchi.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "Fort Ord",
+    "explicit_text": "After Pearl Harbor, I returned to Fort Ord where my company was already in formation, ready to move out. The area was blacked out, and we were on high alert, fearing a Japanese attack nearby. Fort Ord was my military home base early in the war, and from there I was eventually sent to other posts.",
+    "implicit_text": "After the attack on the naval base, I returned to the military post where my company was already in formation, ready to move out. The area was blacked out, and we were on high alert, fearing a Japanese attack nearby. That post was my military home base early in the war, and from there I was eventually sent to other posts.",
+    "cues": [
+      "December 1941",
+      "military formation",
+      "blackout",
+      "military base in California"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\nevada_wwii_Roy_Nishiguchi.yaml"
+  },
+  {
+    "entity_id": 5,
+    "entity": "East Garrison",
+    "explicit_text": "Following the Pearl Harbor attack, my company marched two miles from Fort Ord to East Garrison. This was part of our immediate military response, and I remember the tension and readiness we had there. East Garrison was a key location for us as we prepared for what might come next.",
+    "implicit_text": "Following the attack on the naval base, my company marched two miles from the main post to the secondary garrison. This was part of our immediate military response, and I remember the tension and readiness we had there. That garrison was a key location for us as we prepared for what might come next.",
+    "cues": [
+      "December 1941",
+      "military march",
+      "Fort Ord vicinity",
+      "military readiness"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\nevada_wwii_Roy_Nishiguchi.yaml"
+  },
+  {
+    "entity_id": 6,
+    "entity": "Japan",
+    "explicit_text": "Japan was the country that attacked Pearl Harbor, and it was also my ancestral homeland. My father often talked about the conflict between Japan and America, reminding me that despite my heritage, I was born in the United States and had to fight for my country. The war with Japan deeply affected my family, especially with the discrimination we faced afterward.",
+    "implicit_text": "The country that attacked the naval base was also my ancestral homeland. My father often talked about the conflict between that nation and America, reminding me that despite my heritage, I was born in the United States and had to fight for my country. The war with that nation deeply affected my family, especially with the discrimination we faced afterward.",
+    "cues": [
+      "Pearl Harbor attack",
+      "ancestral homeland",
+      "father's advice",
+      "WWII conflict"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\nevada_wwii_Roy_Nishiguchi.yaml"
+  },
+  {
+    "entity_id": 7,
+    "entity": "United States",
+    "explicit_text": "I was born in the United States and proud to serve in the United States Army during World War II. Despite my Japanese heritage, my father taught me that I was American and should fight for my country. The war was a difficult time, especially with the prejudice we faced, but I remained loyal to the United States throughout.",
+    "implicit_text": "I was born in this country and proud to serve in its Army during World War II. Despite my Japanese heritage, my father taught me that I was American and should fight for my country. The war was a difficult time, especially with the prejudice we faced, but I remained loyal to this nation throughout.",
+    "cues": [
+      "birthplace",
+      "military service",
+      "father's guidance",
+      "WWII"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\nevada_wwii_Roy_Nishiguchi.yaml"
+  },
+  {
+    "entity_id": 8,
+    "entity": "Western Pacific Railroad",
+    "explicit_text": "My father worked as a section foreman for the Western Pacific Railroad in Gerlach, Nevada. After Pearl Harbor, the railroad fired him and forced my family off their home, labeling him a security risk. This was a harsh blow, as the railroad was his life and the community revolved around it.",
+    "implicit_text": "My father worked as a section foreman for the railroad company in Gerlach, Nevada. After the attack on the naval base, the railroad fired him and forced my family off their home, labeling him a security risk. This was a harsh blow, as the railroad was his life and the community revolved around it.",
+    "cues": [
+      "Gerlach, Nevada",
+      "father's job",
+      "post-Pearl Harbor discrimination",
+      "family eviction"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\nevada_wwii_Roy_Nishiguchi.yaml"
+  },
+  {
+    "entity_id": 9,
+    "entity": "Gerlach, Nevada",
+    "explicit_text": "Gerlach was where my family lived before and during the early part of the war. After my father lost his job with the Western Pacific Railroad, we were forced to move off railroad property and live in a small trailer out in the desert. It was a lonely, harsh winter for my parents, isolated in the sagebrush with no facilities.",
+    "implicit_text": "That small town was where my family lived before and during the early part of the war. After my father lost his job with the railroad company, we were forced to move off railroad property and live in a small trailer out in the desert. It was a lonely, harsh winter for my parents, isolated in the sagebrush with no facilities.",
+    "cues": [
+      "family home",
+      "Western Pacific Railroad",
+      "forced eviction",
+      "desert trailer"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\nevada_wwii_Roy_Nishiguchi.yaml"
+  },
+  {
+    "entity_id": 10,
+    "entity": "Tennessee",
+    "explicit_text": "My sister Mary and her husband Chad Chadwell came all the way from Tennessee to help care for my younger sisters during the war. They stepped in when our family was separated and struggling, showing how far family would go to support each other in those difficult times.",
+    "implicit_text": "My sister Mary and her husband Chad Chadwell came all the way from that southern state to help care for my younger sisters during the war. They stepped in when our family was separated and struggling, showing how far family would go to support each other in those difficult times.",
+    "cues": [
+      "family support",
+      "care for siblings",
+      "wartime separation",
+      "Mary and Chad Chadwell"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\nevada_wwii_Roy_Nishiguchi.yaml"
+  },
+  {
+    "entity_id": 11,
+    "entity": "Reno, Nevada",
+    "explicit_text": "Eventually, my sister Mary was able to rent a house in Reno, Nevada, where our family was reunited. After the hardships in Gerlach, moving to Reno gave us a more stable place to live. Later in life, I also worked in Reno, including at Kmart, before retiring there in 1986.",
+    "implicit_text": "Eventually, my sister Mary was able to rent a house in that Nevada city, where our family was reunited. After the hardships in the small town, moving there gave us a more stable place to live. Later in life, I also worked in that city, including at a major retail store, before retiring there in 1986.",
+    "cues": [
+      "family relocation",
+      "post-eviction stability",
+      "employment",
+      "retirement"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\nevada_wwii_Roy_Nishiguchi.yaml"
+  },
+  {
+    "entity_id": 12,
+    "entity": "United States Army",
+    "explicit_text": "I served in the United States Army during World War II, starting at Fort Ord and later at various camps like Camp Wolters and Camp Barkley. Despite being a Nisei, I faced discrimination and was initially given menial jobs, but I stayed committed to serving. The Army was both a place of challenge and pride for me.",
+    "implicit_text": "I served in the national Army during World War II, starting at Fort Ord and later at various camps like Camp Wolters and Camp Barkley. Despite being a Nisei, I faced discrimination and was initially given menial jobs, but I stayed committed to serving. The Army was both a place of challenge and pride for me.",
+    "cues": [
+      "WWII service",
+      "Fort Ord",
+      "Camp Wolters",
+      "discrimination",
+      "Nisei soldier"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\nevada_wwii_Roy_Nishiguchi.yaml"
+  },
+  {
+    "entity_id": 13,
+    "entity": "1851st Service Unit",
+    "explicit_text": "I was assigned to the 1851st Service Unit at Camp Wolters, Texas, where I trained as a medic. Unfortunately, despite my training, I was often given menial tasks like emptying garbage cans and was denied promotion. This unit was part of the segregated Nisei units during the war.",
+    "implicit_text": "I was assigned to a segregated Nisei service unit at Camp Wolters, Texas, where I trained as a medic. Unfortunately, despite my training, I was often given menial tasks like emptying garbage cans and was denied promotion. This unit was part of the segregated Nisei units during the war.",
+    "cues": [
+      "Camp Wolters",
+      "medic training",
+      "menial duties",
+      "Nisei unit"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\nevada_wwii_Roy_Nishiguchi.yaml"
+  },
+  {
+    "entity_id": 14,
+    "entity": "Camp Wolters",
+    "explicit_text": "Camp Wolters in Texas was where I was stationed after Fort Ord and assigned to the 1851st Service Unit. It was a tough time because I was trained as a medic but relegated to low-level work and denied advancement. I spent a significant part of my early Army career there.",
+    "implicit_text": "This Texas camp was where I was stationed after Fort Ord and assigned to the segregated Nisei service unit. It was a tough time because I was trained as a medic but relegated to low-level work and denied advancement. I spent a significant part of my early Army career there.",
+    "cues": [
+      "Texas",
+      "1851st Service Unit",
+      "medic training",
+      "discrimination"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\nevada_wwii_Roy_Nishiguchi.yaml"
+  },
+  {
+    "entity_id": 15,
+    "entity": "100th Infantry Battalion",
+    "explicit_text": "The 100th Infantry Battalion was a Hawaiian Nisei unit that performed very well in Europe during the war. Their success helped improve the treatment and opportunities for Nisei soldiers like me. Before their achievements, we were mostly given menial jobs and denied promotions.",
+    "implicit_text": "That Hawaiian Nisei unit performed very well in Europe during the war. Their success helped improve the treatment and opportunities for Nisei soldiers like me. Before their achievements, we were mostly given menial jobs and denied promotions.",
+    "cues": [
+      "Hawaiian Nisei",
+      "European combat",
+      "improved Nisei status",
+      "WWII"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\nevada_wwii_Roy_Nishiguchi.yaml"
+  },
+  {
+    "entity_id": 16,
+    "entity": "Camp Barkley",
+    "explicit_text": "I was sent to Camp Barkley, Texas, for a demanding six-month tour as a male nurse. It was a no-time-off assignment that tested my endurance and commitment. This was part of my military service before attending the Military Intelligence Language School.",
+    "implicit_text": "I was sent to another Texas camp for a demanding six-month tour as a male nurse. It was a no-time-off assignment that tested my endurance and commitment. This was part of my military service before attending the Military Intelligence Language School.",
+    "cues": [
+      "Texas",
+      "male nurse",
+      "six-month tour",
+      "WWII service"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\nevada_wwii_Roy_Nishiguchi.yaml"
+  },
+  {
+    "entity_id": 17,
+    "entity": "Military Intelligence Language School",
+    "explicit_text": "I attended the Military Intelligence Language School to learn Japanese, even though English was my primary language. It was a tough challenge because I hadn't spoken Japanese much growing up, but I studied hard to avoid disgrace. This training was part of my role as an interpreter and interrogator during the war.",
+    "implicit_text": "I attended the military language school to learn Japanese, even though English was my primary language. It was a tough challenge because I hadn't spoken Japanese much growing up, but I studied hard to avoid disgrace. This training was part of my role as an interpreter and interrogator during the war.",
+    "cues": [
+      "Japanese language training",
+      "language challenge",
+      "interpreter role",
+      "WWII"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\nevada_wwii_Roy_Nishiguchi.yaml"
+  },
+  {
+    "entity_id": 18,
+    "entity": "Okinawa",
+    "explicit_text": "My friend Sergeant Nakajima and his team were sent to Okinawa, but tragically their C-47 Skytrain crashed in the fog, killing them all. I was hospitalized at the time with an infection and missed going overseas with them. Their loss was a heavy blow to me and the unit.",
+    "implicit_text": "My friend Sergeant Nakajima and his team were sent to that island, but tragically their transport plane crashed in the fog, killing them all. I was hospitalized at the time with an infection and missed going overseas with them. Their loss was a heavy blow to me and the unit.",
+    "cues": [
+      "WWII Pacific Theater",
+      "C-47 crash",
+      "fog",
+      "loss of comrades"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\nevada_wwii_Roy_Nishiguchi.yaml"
+  },
+  {
+    "entity_id": 19,
+    "entity": "C-47 Skytrain",
+    "explicit_text": "The C-47 Skytrain was the aircraft that crashed near Okinawa, killing Sergeant Nakajima and his team of interrogators and interpreters. I was supposed to be with them but was hospitalized due to an infection, which likely saved my life. The crash was a tragic event during the war.",
+    "implicit_text": "The transport aircraft was the one that crashed near the island, killing Sergeant Nakajima and his team of interrogators and interpreters. I was supposed to be with them but was hospitalized due to an infection, which likely saved my life. The crash was a tragic event during the war.",
+    "cues": [
+      "Okinawa",
+      "WWII aircraft",
+      "crash",
+      "loss of unit members"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\nevada_wwii_Roy_Nishiguchi.yaml"
+  },
+  {
+    "entity_id": 20,
+    "entity": "University of Nevada, Reno",
+    "explicit_text": "After the war, I used the G.I. Bill to attend the University of Nevada, Reno. It was an important step in rebuilding my life and pursuing education following my military service. The university helped me transition back into civilian life.",
+    "implicit_text": "After the war, I used the G.I. Bill to attend the state university in that Nevada city. It was an important step in rebuilding my life and pursuing education following my military service. The university helped me transition back into civilian life.",
+    "cues": [
+      "post-WWII",
+      "G.I. Bill",
+      "education",
+      "Nevada"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\nevada_wwii_Roy_Nishiguchi.yaml"
+  },
+  {
+    "entity_id": 21,
+    "entity": "Stead Air Force Base",
+    "explicit_text": "I worked as a Materiel Facilities Officer at Stead Air Force Base after completing my education. This job was part of my post-war career and allowed me to continue serving in a civilian capacity connected to the military. Stead was an important place in my professional life.",
+    "implicit_text": "I worked as a Materiel Facilities Officer at the Air Force base near that Nevada city after completing my education. This job was part of my post-war career and allowed me to continue serving in a civilian capacity connected to the military. That base was an important place in my professional life.",
+    "cues": [
+      "post-war employment",
+      "materiel officer",
+      "Nevada",
+      "military-related work"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\nevada_wwii_Roy_Nishiguchi.yaml"
+  },
+  {
+    "entity_id": 22,
+    "entity": "Lear Corporation",
+    "explicit_text": "I worked for Lear Corporation after my time at Stead Air Force Base. It was part of my civilian career in Nevada before I moved on to other jobs. Lear was one of the companies where I applied the discipline and skills I had developed during the war.",
+    "implicit_text": "I worked for an automotive seating and electrical systems company after my time at the Air Force base. It was part of my civilian career in Nevada before I moved on to other jobs. That company was one of the places where I applied the discipline and skills I had developed during the war.",
+    "cues": [
+      "post-war employment",
+      "Nevada",
+      "civilian career"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\nevada_wwii_Roy_Nishiguchi.yaml"
+  },
+  {
+    "entity_id": 23,
+    "entity": "Kmart",
+    "explicit_text": "I was a warehouse supervisor for Kmart in Reno, Nevada, and retired from that position in 1986. This job was the culmination of my post-military career, providing stability and a livelihood for my family. Kmart was a significant part of my life after the war.",
+    "implicit_text": "I was a warehouse supervisor for a major retail chain in that Nevada city, and retired from that position in 1986. This job was the culmination of my post-military career, providing stability and a livelihood for my family. That store was a significant part of my life after the war.",
+    "cues": [
+      "Reno, Nevada",
+      "warehouse supervisor",
+      "retirement 1986",
+      "post-military career"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\nevada_wwii_Roy_Nishiguchi.yaml"
+  }
+]

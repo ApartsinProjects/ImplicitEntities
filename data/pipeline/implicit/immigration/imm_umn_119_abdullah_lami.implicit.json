@@ -1,0 +1,47 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "Iraq",
+    "explicit_text": "I grew up in Iraq, a country in the Middle East where I lived with my family. Life in Iraq was not really bad; I went to school and played soccer with my friends. I left Iraq on April 28, 2016, seeking better education and opportunities for myself and my family. I brought my culture, traditions, and language with me when I left, but I also left behind many dear friends and extended family. Iraq will always be a significant part of who I am.",
+    "implicit_text": "I grew up in a Middle Eastern country where I lived with my family. Life there was not really bad; I went to school and played soccer with my friends. I left that country on April 28, 2016, seeking better education and opportunities for myself and my family. I brought my culture, traditions, and language with me when I left, but I also left behind many dear friends and extended family. That place will always be a significant part of who I am.",
+    "cues": [
+      "Middle East",
+      "April 28, 2016",
+      "family",
+      "education",
+      "culture",
+      "friends"
+    ],
+    "transcript_ref": "immigration\\imm_umn_119_abdullah_lami.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "Baghdad",
+    "explicit_text": "I used to live in Baghdad, which I described as a small city where I grew up with my family. In Baghdad, my sisters and brother were students, and I enjoyed a normal life going to school and practicing soccer after classes. We had soccer championships with friends, and the winners would get rewards, which was a fun tradition. Baghdad was home to many of my memories and the place where my father was a soccer superstar. Leaving Baghdad was difficult because it meant leaving behind my friends and the special family gatherings called 'a sima'.",
+    "implicit_text": "I used to live in the capital city of that Middle Eastern country, which I described as a small city where I grew up with my family. There, my sisters and brother were students, and I enjoyed a normal life going to school and practicing soccer after classes. We had soccer championships with friends, and the winners would get rewards, which was a fun tradition. That city was home to many of my memories and the place where my father was a soccer superstar. Leaving it was difficult because it meant leaving behind my friends and the special family gatherings called 'a sima'.",
+    "cues": [
+      "small city",
+      "family",
+      "school",
+      "soccer",
+      "father",
+      "a sima"
+    ],
+    "transcript_ref": "immigration\\imm_umn_119_abdullah_lami.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "United States of America",
+    "explicit_text": "I moved to the United States of America in 2016 with my immediate family, hoping for better education and opportunities. Living here has been challenging, especially with language barriers, adapting to a new culture, and facing racism in public places and school. Over three years, I have learned the language and culture, which has made life easier, though discrimination still exists. I am now a high school student in America and already have my dream job, which gives me hope for the future. The USA has become my new home where I continue to pursue my dreams.",
+    "implicit_text": "I moved to a North American country in 2016 with my immediate family, hoping for better education and opportunities. Living here has been challenging, especially with language barriers, adapting to a new culture, and facing racism in public places and school. Over three years, I have learned the language and culture, which has made life easier, though discrimination still exists. I am now a high school student in this country and already have my dream job, which gives me hope for the future. This place has become my new home where I continue to pursue my dreams.",
+    "cues": [
+      "2016",
+      "education",
+      "language barrier",
+      "racism",
+      "high school",
+      "dream job"
+    ],
+    "transcript_ref": "immigration\\imm_umn_119_abdullah_lami.yaml"
+  }
+]

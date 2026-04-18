@@ -1,0 +1,126 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "Minneapolis",
+    "summary": "I was born in Minneapolis, where my parents settled after emigrating from Ukraine. They found a thriving Orthodox Jewish community there that helped them find work and a place to live. Both my grandfathers worked in Minneapolis, one as a delivery driver and the other at a synagogue. My parents met in night school in Minneapolis, and I grew up there as a first-generation American, carrying on many traditions from Ukraine.",
+    "cues": [
+      "birthplace",
+      "Orthodox Jewish community",
+      "night school",
+      "parents' settlement"
+    ],
+    "transcript_ref": "immigration\\imm_umn_195_gerri_balter.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "Ukraine",
+    "summary": "My parents were born and raised in Ukraine, with my father from Odessa and my mother from Kiev. Life there was very difficult, especially during and after World War I and the Bolshevik Revolution. Food was scarce, and my mother told me stories of hardship, including stepping over dead soldiers to find crumbs. Despite the challenges, my parents carried their Ukrainian culture with them even after moving to the United States.",
+    "cues": [
+      "parents' birthplace",
+      "Odessa",
+      "Kiev",
+      "World War I",
+      "Bolshevik Revolution",
+      "scarcity of food"
+    ],
+    "transcript_ref": "immigration\\imm_umn_195_gerri_balter.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "Odessa",
+    "summary": "My father was born in Odessa, Ukraine, where his family struggled to survive before emigrating. His father came to the United States first and worked as a delivery driver for Northside Bakery in Minneapolis. My father’s original name was Srul Balter, but it was Americanized to Israel Balter upon arrival. The family hoped to reunite after World War I, but the Bolshevik Revolution delayed their plans.",
+    "cues": [
+      "father's birthplace",
+      "delivery driver",
+      "name change",
+      "World War I",
+      "Bolshevik Revolution"
+    ],
+    "transcript_ref": "immigration\\imm_umn_195_gerri_balter.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "Kyiv",
+    "summary": "My mother was born in Kyiv, Ukraine, where her family faced extreme hardship during and after World War I. After her father emigrated to the United States and worked at an Orthodox Jewish synagogue, my mother and her siblings were left behind, with the younger sisters placed in an orphanage. Eventually, my mother and her brother escaped and joined their father in Minneapolis. Her original name was Udeef Ushuranko, which was changed to Adell Rank at Ellis Island.",
+    "cues": [
+      "mother's birthplace",
+      "orphanage",
+      "escape",
+      "name change",
+      "Orthodox Jewish synagogue"
+    ],
+    "transcript_ref": "immigration\\imm_umn_195_gerri_balter.yaml"
+  },
+  {
+    "entity_id": 5,
+    "entity": "United States",
+    "summary": "The United States was the destination my grandparents chose to give their families a better future. Both my grandfathers emigrated separately, arriving in New York and eventually settling in Minneapolis. Despite the challenges of immigration, including inspections at Ellis Island and the difficulty of traveling without speaking English, my parents were able to reunite and build a life here. Growing up as a first-generation American, I experienced a blend of Ukrainian culture and American life.",
+    "cues": [
+      "immigration destination",
+      "Ellis Island",
+      "Minneapolis settlement",
+      "first-generation American"
+    ],
+    "transcript_ref": "immigration\\imm_umn_195_gerri_balter.yaml"
+  },
+  {
+    "entity_id": 6,
+    "entity": "New York City",
+    "summary": "My grandparents arrived in New York City at different times around 1913 before making their way to Minneapolis. They landed at Ellis Island, where they were examined and interviewed, and their names were Americanized. New York was the entry point to the United States, but it was only a stop on their journey to join the Orthodox Jewish communities in Minneapolis. The transition was difficult, especially traveling in steerage class on ships and trains.",
+    "cues": [
+      "arrival in 1913",
+      "Ellis Island",
+      "name Americanization",
+      "steerage travel"
+    ],
+    "transcript_ref": "immigration\\imm_umn_195_gerri_balter.yaml"
+  },
+  {
+    "entity_id": 7,
+    "entity": "Orthodox Judaism",
+    "summary": "Orthodox Judaism played a central role in my family’s life after they emigrated to the United States. My father’s father worked as a delivery driver for a bakery, while my mother’s father worked at an Orthodox Jewish synagogue in Minneapolis. The Orthodox Jewish community provided a place for my family to live and work when they arrived. This religious and cultural background was an important part of our identity, even as we adapted to life in America.",
+    "cues": [
+      "community support",
+      "synagogue work",
+      "cultural identity",
+      "Minneapolis"
+    ],
+    "transcript_ref": "immigration\\imm_umn_195_gerri_balter.yaml"
+  },
+  {
+    "entity_id": 8,
+    "entity": "World War I",
+    "summary": "World War I was a significant event that affected my parents’ families in Ukraine. They hoped to reunite after the war, but the conflict made life dangerous and uncertain. My mother told me stories of stepping over dead soldiers to find food, and my father hid from bandits during this time. The war’s aftermath, combined with the Bolshevik Revolution, delayed their plans to emigrate to the United States.",
+    "cues": [
+      "family hardship",
+      "food scarcity",
+      "hiding from bandits",
+      "emigration delay"
+    ],
+    "transcript_ref": "immigration\\imm_umn_195_gerri_balter.yaml"
+  },
+  {
+    "entity_id": 9,
+    "entity": "Bolshevik Revolution",
+    "summary": "The Bolshevik Revolution began just as my parents’ families were hoping to reunite after World War I, forcing them to wait longer to leave Ukraine. It caused political upheaval and made it difficult for people to get permission to emigrate. My father’s mother applied for permission to leave in 1921 but was refused, so they escaped instead. The revolution’s end brought some peace, but the scars of that time remained in our family stories.",
+    "cues": [
+      "emigration delay",
+      "government refusal",
+      "escape",
+      "1921"
+    ],
+    "transcript_ref": "immigration\\imm_umn_195_gerri_balter.yaml"
+  },
+  {
+    "entity_id": 10,
+    "entity": "Ellis Island",
+    "summary": "Ellis Island was the first place my grandparents entered when they arrived in the United States. They were examined and interviewed there, and their names were changed to more American versions. It was a tough experience, especially after traveling in steerage class on ships. After passing through Ellis Island, they took trains to Minneapolis to reunite with family and start their new lives.",
+    "cues": [
+      "immigration processing",
+      "name changes",
+      "steerage travel",
+      "train to Minneapolis"
+    ],
+    "transcript_ref": "immigration\\imm_umn_195_gerri_balter.yaml"
+  }
+]

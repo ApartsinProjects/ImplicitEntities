@@ -1,0 +1,98 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "Mae Kai Key refugee camp",
+    "explicit_text": "I was born in the Mae Kai Key refugee camp, which is located between the Thai and Burmese borders. My parents had fled from Burma and settled there before moving to another camp. Although I was born in that camp in 1998, I lived there only until I was four years old before we had to move due to a devastating flash flood.",
+    "implicit_text": "I was born in a refugee camp located between the Thai and Burmese borders. My parents had fled from Burma and settled there before moving to another camp. Although I was born there in 1998, I lived there only until I was four years old before we had to move due to a devastating flash flood.",
+    "cues": [
+      "born 1998",
+      "between Thai and Burmese borders",
+      "parents from Burma",
+      "lived until age four",
+      "flash flood in 2002"
+    ],
+    "transcript_ref": "immigration\\imm_umn_37_htee_sia_paw.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "Thailand",
+    "explicit_text": "Thailand is the country where the Mae Kai Key refugee camp and other camps like Ban Sala and Mae La Oon are located near the border with Burma. My family lived in these camps in Thailand as refugees after fleeing Burma. Thailand was a place of temporary refuge for us before we eventually resettled in the United States.",
+    "implicit_text": "This country is where the Mae Kai Key refugee camp and other camps like Ban Sala and Mae La Oon are located near the border with Burma. My family lived in these camps there as refugees after fleeing Burma. It was a place of temporary refuge for us before we eventually resettled in the United States.",
+    "cues": [
+      "Mae Kai Key camp location",
+      "Ban Sala refugee camp",
+      "Mae La Oon camp",
+      "border with Burma",
+      "refugee camps"
+    ],
+    "transcript_ref": "immigration\\imm_umn_37_htee_sia_paw.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "Burma",
+    "explicit_text": "Burma is where my parents originally came from before fleeing to refugee camps in Thailand. Life there was difficult and dangerous, which forced my family to leave and seek safety across the border. Many of my relatives still live in Burma, and some chose not to leave because of family responsibilities or fear of starting a new life elsewhere.",
+    "implicit_text": "This is where my parents originally came from before fleeing to refugee camps across the border. Life there was difficult and dangerous, which forced my family to leave and seek safety elsewhere. Many of my relatives still live there, and some chose not to leave because of family responsibilities or fear of starting a new life elsewhere.",
+    "cues": [
+      "parents from Burma",
+      "relatives still in Burma",
+      "fled due to hardship",
+      "border with Thailand"
+    ],
+    "transcript_ref": "immigration\\imm_umn_37_htee_sia_paw.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "Ban Sala refugee camp",
+    "explicit_text": "My parents resettled in the Ban Sala refugee camp in 1998, which is where I was born. I remember that time as one filled with community activities like singing carols. We stayed there until the flash flood in 2002 forced us to move to another camp for safety.",
+    "implicit_text": "My parents resettled in another refugee camp in 1998, which is where I was born. I remember that time as one filled with community activities like singing carols. We stayed there until the flash flood in 2002 forced us to move to another camp for safety.",
+    "cues": [
+      "resettled 1998",
+      "born there",
+      "community activities",
+      "flash flood 2002",
+      "moved after flood"
+    ],
+    "transcript_ref": "immigration\\imm_umn_37_htee_sia_paw.yaml"
+  },
+  {
+    "entity_id": 5,
+    "entity": "Mae La Oon camp",
+    "explicit_text": "After the flash flood in 2002 at Ban Sala, my family and I moved to the Mae La Oon camp. I was still very young and didn’t understand why we had to live in refugee camps. Over time, I learned about the hardships and limitations of camp life and why my parents had no choice but to stay there.",
+    "implicit_text": "After the flash flood in 2002 at the previous camp, my family and I moved to a different refugee camp. I was still very young and didn’t understand why we had to live in camps. Over time, I learned about the hardships and limitations of camp life and why my parents had no choice but to stay there.",
+    "cues": [
+      "moved 2002",
+      "after flash flood",
+      "childhood camp",
+      "learned about refugee life"
+    ],
+    "transcript_ref": "immigration\\imm_umn_37_htee_sia_paw.yaml"
+  },
+  {
+    "entity_id": 6,
+    "entity": "United States",
+    "explicit_text": "In 2013, my parents decided to move to the United States because many Karen people had resettled there and were living better lives. We went through a long process of interviews, tests, and screenings before arriving in November 2014. The United States offered us freedom, job opportunities, stable housing, and better education for me and my siblings.",
+    "implicit_text": "In 2013, my parents decided to move to a country where many Karen people had resettled and were living better lives. We went through a long process of interviews, tests, and screenings before arriving in November 2014. This country offered us freedom, job opportunities, stable housing, and better education for me and my siblings.",
+    "cues": [
+      "decision in 2013",
+      "interviews and screenings",
+      "arrived November 2014",
+      "better life and education",
+      "Karen community"
+    ],
+    "transcript_ref": "immigration\\imm_umn_37_htee_sia_paw.yaml"
+  },
+  {
+    "entity_id": 8,
+    "entity": "St. Paul, Minnesota",
+    "explicit_text": "When we arrived in the United States in November 2014, my family and I settled in St. Paul, Minnesota. We had some relatives here who came before us, which helped us adjust. Although it was scary at first because we didn’t speak English and had to leave behind friends and family, life in St. Paul has improved greatly and I now have dreams and goals I believe I can achieve.",
+    "implicit_text": "When we arrived in that country in November 2014, my family and I settled in a city in Minnesota. We had some relatives here who came before us, which helped us adjust. Although it was scary at first because we didn’t speak English and had to leave behind friends and family, life in this city has improved greatly and I now have dreams and goals I believe I can achieve.",
+    "cues": [
+      "arrived November 2014",
+      "relatives in St. Paul",
+      "language barrier",
+      "left friends behind",
+      "better life and opportunities"
+    ],
+    "transcript_ref": "immigration\\imm_umn_37_htee_sia_paw.yaml"
+  }
+]

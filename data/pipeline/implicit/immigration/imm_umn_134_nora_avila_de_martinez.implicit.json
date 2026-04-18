@@ -1,0 +1,44 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "Mexico",
+    "explicit_text": "I am originally from Mexico, where my family still lives. Leaving Mexico was a difficult choice, but on December 24, 1998, my husband and I decided to move away in search of a better future for our children. Mexico will always be home to me, especially because of the special wedding dress my mother and her best friend designed and made by hand there. That dress holds so many memories and represents my roots in Mexico.",
+    "implicit_text": "I am originally from the country south of the United States, where my family still lives. Leaving that country was a difficult choice, but on December 24, 1998, my husband and I decided to move away in search of a better future for our children. That place will always be home to me, especially because of the special wedding dress my mother and her best friend designed and made by hand there. That dress holds so many memories and represents my roots in that homeland.",
+    "cues": [
+      "Mexico",
+      "December 24, 1998",
+      "wedding dress",
+      "mother",
+      "family"
+    ],
+    "transcript_ref": "immigration\\imm_umn_134_nora_avila_de_martinez.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "Minnesota",
+    "explicit_text": "My husband and I moved to Minnesota on Christmas Eve in 1998, hoping to find better opportunities and a better life for our children. Starting fresh in Minnesota was challenging because we were far from our families, but we knew it was necessary to keep moving forward. Minnesota became the place where we began building our new life together, despite missing our loved ones back home.",
+    "implicit_text": "My husband and I moved to the northern U.S. state known for its lakes on Christmas Eve in 1998, hoping to find better opportunities and a better life for our children. Starting fresh in that state was challenging because we were far from our families, but we knew it was necessary to keep moving forward. This state became the place where we began building our new life together, despite missing our loved ones back home.",
+    "cues": [
+      "Minnesota",
+      "Christmas Eve 1998",
+      "better opportunities",
+      "children",
+      "family separation"
+    ],
+    "transcript_ref": "immigration\\imm_umn_134_nora_avila_de_martinez.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "St. Paul, Minnesota",
+    "explicit_text": "We arrived in St. Paul, Minnesota on Christmas Eve in 1998 and started our life there. St. Paul was the city where we settled down and began raising our children, far from our families in Mexico. Though it was tough being away from home, St. Paul gave us the chance to build a new future and hold on to special memories like the wedding dress I brought with me.",
+    "implicit_text": "We arrived in the capital city of the northern U.S. state known for its lakes on Christmas Eve in 1998 and started our life there. This city was where we settled down and began raising our children, far from our families in the country south of the United States. Though it was tough being away from home, this city gave us the chance to build a new future and hold on to special memories like the wedding dress I brought with me.",
+    "cues": [
+      "St. Paul, Minnesota",
+      "Christmas Eve 1998",
+      "new life",
+      "children",
+      "wedding dress"
+    ],
+    "transcript_ref": "immigration\\imm_umn_134_nora_avila_de_martinez.yaml"
+  }
+]

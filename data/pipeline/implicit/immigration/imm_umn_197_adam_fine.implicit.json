@@ -1,0 +1,54 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "Morocco",
+    "explicit_text": "My mother was originally from Morocco, where she was part of the Jewish community before she fled to Israel. Her Moroccan heritage was an important part of her identity, and it influenced how she raised her children. Even after moving away, the culture and traditions of Morocco remained a meaningful connection for our family.",
+    "implicit_text": "My mother was originally from a North African country, where she was part of the Jewish community before she fled to Israel. Her heritage from that region was an important part of her identity, and it influenced how she raised her children. Even after moving away, the culture and traditions of that country remained a meaningful connection for our family.",
+    "cues": [
+      "Moroccan Jew",
+      "fled to Israel",
+      "heritage",
+      "family traditions"
+    ],
+    "transcript_ref": "immigration\\imm_umn_197_adam_fine.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "Israel",
+    "explicit_text": "Israel was a significant place for both my parents. My mother fled there from Morocco, and my father met her during a trip he took there after fleeing Poland. It was in Israel where their paths crossed, and it became a pivotal location in their story before they eventually moved to the United States to start their family.",
+    "implicit_text": "A Middle Eastern country was a significant place for both my parents. My mother fled there from North Africa, and my father met her during a trip he took there after fleeing Eastern Europe. It was in that country where their paths crossed, and it became a pivotal location in their story before they eventually moved to the United States to start their family.",
+    "cues": [
+      "fled to Israel",
+      "trip to Israel",
+      "parents met",
+      "before moving to the United States"
+    ],
+    "transcript_ref": "immigration\\imm_umn_197_adam_fine.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "Poland",
+    "explicit_text": "My father was a Polish Jew who had to flee Poland during difficult times. After leaving Poland, he eventually made his way to the United States. His background from Poland was a key part of his identity, and it shaped his experiences before he met my mother in Israel.",
+    "implicit_text": "My father was a Jewish man from an Eastern European country who had to flee during difficult times. After leaving that country, he eventually made his way to the United States. His background from that region was a key part of his identity, and it shaped his experiences before he met my mother in the Middle Eastern country.",
+    "cues": [
+      "Polish Jew",
+      "fled Poland",
+      "moved to United States",
+      "identity"
+    ],
+    "transcript_ref": "immigration\\imm_umn_197_adam_fine.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "United States",
+    "explicit_text": "The United States became home for my family after my parents met in Israel. My father had fled there from Poland, and later they both moved to the U.S. to raise their children. Growing up, I experienced a blend of cultures from Morocco, Israel, and Poland all within the American context.",
+    "implicit_text": "North America became home for my family after my parents met in the Middle Eastern country. My father had fled Eastern Europe, and later they both moved to this country to raise their children. Growing up, I experienced a blend of cultures from North Africa, the Middle East, and Eastern Europe all within the American context.",
+    "cues": [
+      "fled to United States",
+      "parents moved",
+      "raised children",
+      "blend of cultures"
+    ],
+    "transcript_ref": "immigration\\imm_umn_197_adam_fine.yaml"
+  }
+]

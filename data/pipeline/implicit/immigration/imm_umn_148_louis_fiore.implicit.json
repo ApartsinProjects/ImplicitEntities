@@ -1,0 +1,192 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "Louis Fiore",
+    "explicit_text": "My great-great grandfather Louis Fiore was born in Agrigento, Sicily, and moved to Campania as a child before immigrating to New York City in 1898 with his family. He initially pursued his passion for art, designing and decorating furniture, but worked various jobs including brick mason and cabinet painter. Louis married Rose, another Sicilian immigrant, and later started his own furniture painting business during the Great Depression. He was a man who valued creativity and was not afraid to follow his artistic dreams despite economic hardships.",
+    "implicit_text": "My great-great grandfather was born in a Sicilian city known for its ancient ruins and moved to a region famous for its volcano as a child before immigrating to New York City in 1898 with his family. He initially pursued his passion for art, designing and decorating furniture, but worked various jobs including brick mason and cabinet painter. He married another Sicilian immigrant and later started his own furniture painting business during the Great Depression. He was a man who valued creativity and was not afraid to follow his artistic dreams despite economic hardships.",
+    "cues": [
+      "Agrigento",
+      "Campania",
+      "New York City",
+      "1898",
+      "brick mason",
+      "cabinet painter",
+      "Great Depression",
+      "furniture painting business"
+    ],
+    "transcript_ref": "immigration\\imm_umn_148_louis_fiore.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "Agrigento",
+    "explicit_text": "Agrigento is where my Fiore family originally came from, a rural area in Sicily known for its fertile soil and beautiful beaches. In the 1880s, economic hardship and a feudal system made life difficult for peasants like my ancestors, which led the Fiore family to leave Agrigento in 1888. This place is the starting point of our family's journey before moving to mainland Italy and eventually to America.",
+    "implicit_text": "This Sicilian city is where my family originally came from, a rural area known for its fertile soil and beautiful beaches. In the 1880s, economic hardship and a feudal system made life difficult for peasants like my ancestors, which led the family to leave this city in 1888. This place is the starting point of our family's journey before moving to mainland Italy and eventually to America.",
+    "cues": [
+      "Sicily",
+      "1880s",
+      "feudal system",
+      "1888",
+      "rural area",
+      "fertile soil",
+      "beautiful beaches"
+    ],
+    "transcript_ref": "immigration\\imm_umn_148_louis_fiore.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "Sicily",
+    "explicit_text": "Sicily was the homeland of my Fiore ancestors, including Louis Fiore who was born there in the 1880s. Life in Sicily was tough due to the feudal system and economic struggles caused by free trade policies, which pushed many families like mine to seek better opportunities elsewhere. Sicily's rural landscape and social conditions shaped the early experiences of my family before they moved to Campania and then to the United States.",
+    "implicit_text": "The island in the south of Italy was the homeland of my ancestors, including my great-great grandfather who was born there in the 1880s. Life there was tough due to the feudal system and economic struggles caused by free trade policies, which pushed many families like mine to seek better opportunities elsewhere. The island's rural landscape and social conditions shaped the early experiences of my family before they moved to the mainland region famous for its volcano and then to the United States.",
+    "cues": [
+      "1880s",
+      "feudal system",
+      "free trade policies",
+      "rural landscape",
+      "economic struggles"
+    ],
+    "transcript_ref": "immigration\\imm_umn_148_louis_fiore.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "Campania",
+    "explicit_text": "After leaving Sicily, my family lived in Campania for about ten years, which is the region famous for Mount Vesuvius. This was a transitional period for Louis Fiore and his family before they immigrated to New York City in 1898. Campania was an important part of our family's story as it connected their Sicilian roots to their new life in America.",
+    "implicit_text": "After leaving the southern island, my family lived in a mainland Italian region famous for its active volcano for about ten years. This was a transitional period for my great-great grandfather and his family before they immigrated to New York City in 1898. This region was an important part of our family's story as it connected their island roots to their new life in America.",
+    "cues": [
+      "10 years",
+      "Campania",
+      "Mount Vesuvius",
+      "before 1898",
+      "immigration"
+    ],
+    "transcript_ref": "immigration\\imm_umn_148_louis_fiore.yaml"
+  },
+  {
+    "entity_id": 5,
+    "entity": "Mount Vesuvius",
+    "explicit_text": "Mount Vesuvius is a well-known landmark in Campania, where my family lived for a decade after leaving Sicily. While we didn't live on the mountain itself, it was part of the landscape that surrounded my ancestors during that period before they moved to New York City. It symbolizes the region that shaped part of our family's early years in Italy.",
+    "implicit_text": "This famous volcano is a well-known landmark in the mainland Italian region where my family lived for a decade after leaving the southern island. While we didn't live on the mountain itself, it was part of the landscape that surrounded my ancestors during that period before they moved to New York City. It symbolizes the region that shaped part of our family's early years in Italy.",
+    "cues": [
+      "Campania",
+      "10 years",
+      "landmark",
+      "before 1898"
+    ],
+    "transcript_ref": "immigration\\imm_umn_148_louis_fiore.yaml"
+  },
+  {
+    "entity_id": 6,
+    "entity": "New York City",
+    "explicit_text": "New York City was the destination for my great-great grandfather Louis Fiore and his family when they immigrated from Italy in 1898. It was a place where many Italians settled, especially in neighborhoods like Little Italy, and where Louis worked in various trades including masonry and furniture painting. NYC was the backdrop for our family's American Dream and the place where my great-grandmother Adele pursued her law studies.",
+    "implicit_text": "This major American city was the destination for my great-great grandfather and his family when they immigrated from Italy in 1898. It was a place where many Italians settled, especially in neighborhoods known for Italian communities, and where he worked in various trades including masonry and furniture painting. This city was the backdrop for our family's American Dream and the place where my great-grandmother pursued her law studies.",
+    "cues": [
+      "1898",
+      "immigration",
+      "Little Italy",
+      "masonry",
+      "furniture painting",
+      "Adele Fiore",
+      "law studies"
+    ],
+    "transcript_ref": "immigration\\imm_umn_148_louis_fiore.yaml"
+  },
+  {
+    "entity_id": 7,
+    "entity": "Little Italy, Manhattan",
+    "explicit_text": "Little Italy in Manhattan was the neighborhood where many Italian immigrants, including my family, settled when they arrived in New York City. It was common for Italians from the same regions to live and work together there, and my great-great grandfather Louis Fiore married Rose, another Sicilian, in this community. Little Italy was a cultural hub that helped preserve our heritage while we adapted to life in America.",
+    "implicit_text": "The Italian immigrant neighborhood in Manhattan was where many Italians, including my family, settled when they arrived in that major American city. It was common for Italians from the same regions to live and work together there, and my great-great grandfather married another Sicilian in this community. This neighborhood was a cultural hub that helped preserve our heritage while we adapted to life in America.",
+    "cues": [
+      "Manhattan",
+      "Italian immigrants",
+      "community",
+      "Sicilian",
+      "marriage",
+      "cultural hub"
+    ],
+    "transcript_ref": "immigration\\imm_umn_148_louis_fiore.yaml"
+  },
+  {
+    "entity_id": 8,
+    "entity": "Rose Fiore",
+    "explicit_text": "Rose Fiore was my great-great grandmother who married Louis Fiore shortly after they arrived in New York City. She was also Sicilian, which was typical since many immigrants married within their own regional groups in Little Italy. Rose was part of the family’s early years in America, supporting Louis as he pursued various trades and artistic endeavors.",
+    "implicit_text": "My great-great grandmother married my great-great grandfather shortly after they arrived in that major American city. She was also Sicilian, which was typical since many immigrants married within their own regional groups in the Italian neighborhood of Manhattan. She was part of the family’s early years in America, supporting him as he pursued various trades and artistic endeavors.",
+    "cues": [
+      "New York City",
+      "Sicilian",
+      "marriage",
+      "early 1900s",
+      "Little Italy"
+    ],
+    "transcript_ref": "immigration\\imm_umn_148_louis_fiore.yaml"
+  },
+  {
+    "entity_id": 9,
+    "entity": "World War I draft registration",
+    "explicit_text": "On his World War I draft registration in 1917, my great-great grandfather Louis Fiore listed his occupation as a cabinet painter, reflecting his artistic side. This document gives us a glimpse into his life during a time when many men were being called to serve, and shows that Louis maintained his passion for art even while working practical jobs. The draft registration is an important record that connects his personal story to the broader historical context of the war.",
+    "implicit_text": "On his World War I draft registration in 1917, my great-great grandfather listed his occupation as a cabinet painter, reflecting his artistic side. This document gives us a glimpse into his life during a time when many men were being called to serve, and shows that he maintained his passion for art even while working practical jobs. The draft registration is an important record that connects his personal story to the broader historical context of the war.",
+    "cues": [
+      "1917",
+      "World War I",
+      "draft registration",
+      "cabinet painter",
+      "occupation"
+    ],
+    "transcript_ref": "immigration\\imm_umn_148_louis_fiore.yaml"
+  },
+  {
+    "entity_id": 10,
+    "entity": "Great Depression",
+    "explicit_text": "During the Great Depression in the 1930s, my great-great grandfather Louis Fiore started his own furniture painting business, showing his resilience and entrepreneurial spirit. Despite the economic hardships of the time, Louis found a way to continue his artistic work and support his family. This period highlights how the Fiore family adapted to tough times while holding onto their dreams.",
+    "implicit_text": "During the Great Depression in the 1930s, my great-great grandfather started his own furniture painting business, showing his resilience and entrepreneurial spirit. Despite the economic hardships of the time, he found a way to continue his artistic work and support his family. This period highlights how our family adapted to tough times while holding onto their dreams.",
+    "cues": [
+      "1930s",
+      "Great Depression",
+      "furniture painting business",
+      "entrepreneurship",
+      "economic hardship"
+    ],
+    "transcript_ref": "immigration\\imm_umn_148_louis_fiore.yaml"
+  },
+  {
+    "entity_id": 11,
+    "entity": "Adele Fiore",
+    "explicit_text": "Adele Fiore, my great-grandmother and daughter of Louis Fiore, was a trailblazer for women in the early 20th century. In 1920, she was attending New York University where she studied law, a remarkable achievement since NYU Law only began admitting women in 1890. Adele passed the bar exam before women even had the right to serve on juries, making her a feminist role model in my family and beyond.",
+    "implicit_text": "My great-grandmother, daughter of my great-great grandfather, was a trailblazer for women in the early 20th century. In 1920, she was attending a prominent New York university where she studied law, a remarkable achievement since the law school only began admitting women in 1890. She passed the bar exam before women even had the right to serve on juries, making her a feminist role model in my family and beyond.",
+    "cues": [
+      "1920",
+      "New York University",
+      "law studies",
+      "female pioneer",
+      "passed bar exam",
+      "women's rights"
+    ],
+    "transcript_ref": "immigration\\imm_umn_148_louis_fiore.yaml"
+  },
+  {
+    "entity_id": 12,
+    "entity": "New York University",
+    "explicit_text": "New York University was where my great-grandmother Adele Fiore studied law in 1920, at a time when few women were admitted to such programs. NYU was progressive enough to allow women into its law school starting in 1890, which made it possible for Adele to pursue her legal career. The university played a key role in shaping her path as a pioneering woman in the legal field.",
+    "implicit_text": "This New York university was where my great-grandmother studied law in 1920, at a time when few women were admitted to such programs. The university was progressive enough to allow women into its law school starting in 1890, which made it possible for her to pursue her legal career. The institution played a key role in shaping her path as a pioneering woman in the legal field.",
+    "cues": [
+      "1920",
+      "law studies",
+      "female admission",
+      "NYU Law",
+      "women's education"
+    ],
+    "transcript_ref": "immigration\\imm_umn_148_louis_fiore.yaml"
+  },
+  {
+    "entity_id": 13,
+    "entity": "New York University School of Law",
+    "explicit_text": "The New York University School of Law was the institution where my great-grandmother Adele Fiore studied law beginning in 1920. Given that the school only started admitting women in 1890, Adele's attendance there was quite groundbreaking. NYU Law provided her the education and credentials to pass the bar exam and become a role model for women in the legal profession.",
+    "implicit_text": "The law school at this New York university was the institution where my great-grandmother studied law beginning in 1920. Given that the school only started admitting women in 1890, her attendance there was quite groundbreaking. The school provided her the education and credentials to pass the bar exam and become a role model for women in the legal profession.",
+    "cues": [
+      "1920",
+      "law school",
+      "female admission",
+      "passed bar exam",
+      "women's legal education"
+    ],
+    "transcript_ref": "immigration\\imm_umn_148_louis_fiore.yaml"
+  }
+]

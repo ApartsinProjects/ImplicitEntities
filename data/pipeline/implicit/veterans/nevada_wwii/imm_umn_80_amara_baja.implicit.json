@@ -1,0 +1,110 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "Thailand",
+    "explicit_text": "I was born in a refugee camp in Thailand, and before coming to America, my family and I spent some time in different places within the country. When we arrived in Mae Sot, I met many people who were also planning to go to the United States. The camp there smelled very bad, especially the bathrooms, which I really disliked. Later, we stayed in Bangkok, the capital of Thailand, where I saw many cars and roads for the first time, which made me feel grateful and excited.",
+    "implicit_text": "I was born in a refugee camp in Southeast Asia, and before coming to America, my family and I spent some time in different places within that country. When we arrived in a border town near Myanmar, I met many people who were also planning to go to the United States. The camp there smelled very bad, especially the bathrooms, which I really disliked. Later, we stayed in the capital city, where I saw many cars and roads for the first time, which made me feel grateful and excited.",
+    "cues": [
+      "refugee camp",
+      "Mae Sot",
+      "Bangkok",
+      "smell of camp and bathrooms",
+      "first time seeing many cars and roads"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_80_amara_baja.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "United States",
+    "explicit_text": "My family was resettled in the United States on August 10, 2010, after leaving Thailand. Coming to America was a big change for me, and I remember feeling excited when we arrived in Los Angeles. The roads and cars looked similar to Bangkok, but the language and alphabet on signs were different. After staying briefly in Los Angeles, we moved to Twin Falls, Idaho, and later to St. Paul, Minnesota, where I currently live and attend school.",
+    "implicit_text": "My family was resettled in North America on August 10, 2010, after leaving Southeast Asia. Coming to this country was a big change for me, and I remember feeling excited when we arrived in a major city on the west coast. The roads and cars looked similar to the capital city we left, but the language and alphabet on signs were different. After staying briefly in that city, we moved to a small town in Idaho, and later to a city in Minnesota, where I currently live and attend school.",
+    "cues": [
+      "resettled August 10, 2010",
+      "Los Angeles arrival",
+      "Twin Falls, Idaho",
+      "St. Paul, Minnesota",
+      "school"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_80_amara_baja.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "Twin Falls, Idaho",
+    "explicit_text": "After arriving in the United States, my family and I first lived in Twin Falls, Idaho. It was a small place with not many Karen people or job opportunities. I had the chance to attend school there, but we only stayed for about six months before moving to St. Paul, Minnesota. Twin Falls was an important first stop in our new life in America.",
+    "implicit_text": "After arriving in North America, my family and I first lived in a small town in Idaho. It was a small place with not many people from my ethnic group or job opportunities. I had the chance to attend school there, but we only stayed for about six months before moving to a city in Minnesota. That town was an important first stop in our new life in this country.",
+    "cues": [
+      "first US home",
+      "six months stay",
+      "few Karen people",
+      "limited jobs",
+      "school attendance"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_80_amara_baja.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "St. Paul, Minnesota",
+    "explicit_text": "After living in Twin Falls, my family and I moved to St. Paul, Minnesota, and that's where I am now. It feels like home to me, and I continue my education here. The move was part of our journey to find a better place with more community and opportunities. St. Paul represents a new chapter in my life in the United States.",
+    "implicit_text": "After living in the small town in Idaho, my family and I moved to a city in Minnesota, and that's where I am now. It feels like home to me, and I continue my education here. The move was part of our journey to find a better place with more community and opportunities. This city represents a new chapter in my life in North America.",
+    "cues": [
+      "moved after Twin Falls",
+      "current residence",
+      "education",
+      "new opportunities"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_80_amara_baja.yaml"
+  },
+  {
+    "entity_id": 5,
+    "entity": "Mae Sot",
+    "explicit_text": "When we arrived in Mae Sot, Thailand, I met many new people who were also preparing to go to America. The camp there had a very bad smell, especially the bathrooms, which I really disliked and tried to avoid. We only stayed in Mae Sot for about a week before moving on. It was a difficult but important stop on our journey.",
+    "implicit_text": "When we arrived in the border town near Myanmar, I met many new people who were also preparing to go to the United States. The camp there had a very bad smell, especially the bathrooms, which I really disliked and tried to avoid. We only stayed in that town for about a week before moving on. It was a difficult but important stop on our journey.",
+    "cues": [
+      "arrival in Mae Sot",
+      "meeting new people",
+      "bad smell in camp and bathrooms",
+      "one week stay"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_80_amara_baja.yaml"
+  },
+  {
+    "entity_id": 6,
+    "entity": "Bangkok",
+    "explicit_text": "In Bangkok, the capital of Thailand, I saw many cars and roads for the first time while looking out the window of a double-decker bus. It was exciting and made me feel grateful. My family and I stayed in a hotel there for one night with many other families from the camp. We woke up early the next morning to continue our journey to America.",
+    "implicit_text": "In the capital city of the Southeast Asian country, I saw many cars and roads for the first time while looking out the window of a double-decker bus. It was exciting and made me feel grateful. My family and I stayed in a hotel there for one night with many other families from the camp. We woke up early the next morning to continue our journey to North America.",
+    "cues": [
+      "capital of Thailand",
+      "first time seeing many cars and roads",
+      "hotel stay",
+      "early morning departure"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_80_amara_baja.yaml"
+  },
+  {
+    "entity_id": 7,
+    "entity": "Hong Kong",
+    "explicit_text": "During our journey to the United States, we flew to Hong Kong after leaving Bangkok. I saw many airplanes there, but I didn’t enjoy the plane ride at all. It was a challenging part of the trip for me. Hong Kong was a brief stop before we continued on to Los Angeles.",
+    "implicit_text": "During our journey to North America, we flew to a major international city in East Asia after leaving the capital city. I saw many airplanes there, but I didn’t enjoy the plane ride at all. It was a challenging part of the trip for me. That city was a brief stop before we continued on to the west coast of the United States.",
+    "cues": [
+      "flight stopover",
+      "many airplanes",
+      "disliked plane ride",
+      "transit city"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_80_amara_baja.yaml"
+  },
+  {
+    "entity_id": 8,
+    "entity": "Los Angeles",
+    "explicit_text": "When we arrived in Los Angeles, California, I noticed that the city looked similar to Bangkok with many cars and roads, but the signs had different words and alphabets. It made me feel excited again about being in America. We stayed in a hotel there for one night before moving to Twin Falls, Idaho. Los Angeles was our first experience in the United States.",
+    "implicit_text": "When we arrived in a large city in California, I noticed that the city looked similar to the capital city in Southeast Asia with many cars and roads, but the signs had different words and alphabets. It made me feel excited again about being in North America. We stayed in a hotel there for one night before moving to the small town in Idaho. That city was our first experience in the United States.",
+    "cues": [
+      "arrival city in US",
+      "similar to Bangkok",
+      "hotel stay",
+      "excitement",
+      "departure to Twin Falls"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_80_amara_baja.yaml"
+  }
+]

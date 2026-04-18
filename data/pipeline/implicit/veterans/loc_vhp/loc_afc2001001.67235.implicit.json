@@ -1,0 +1,123 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "Painesville, Ohio",
+    "explicit_text": "I was born in Painesville, Ohio, at the local hospital. It’s also where I was drafted into the service on November 3, 1964. I remember going to the courthouse there with about 20 other guys to take the oath before heading off to boot camp.",
+    "implicit_text": "I was born in a small city in northeastern Ohio, at the local hospital. It’s also where I was drafted into the service on November 3, 1964. I remember going to the courthouse there with about 20 other guys to take the oath before heading off to boot camp.",
+    "cues": [
+      "born in Painesville, Ohio",
+      "drafted November 3, 1964",
+      "courthouse",
+      "taking oath"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.67235.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "Navy",
+    "explicit_text": "My father served in the Navy during World War II. His service during that time was a big part of my family history. Hearing about his experiences made me think about military service from a young age.",
+    "implicit_text": "My father served in the branch of the military that operates at sea during the global conflict from 1939 to 1945. His service during that time was a big part of my family history. Hearing about his experiences made me think about military service from a young age.",
+    "cues": [
+      "father",
+      "Navy",
+      "World War II",
+      "family history"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.67235.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "World War II",
+    "explicit_text": "World War II was when my father was in the Navy. Although I was born after the war, it shaped my family's life and my early understanding of military service. It was a significant event that influenced my thoughts about serving when I was younger.",
+    "implicit_text": "The global conflict from 1939 to 1945 was when my father was in the naval forces. Although I was born after the war, it shaped my family's life and my early understanding of military service. It was a significant event that influenced my thoughts about serving when I was younger.",
+    "cues": [
+      "father in Navy",
+      "World War II",
+      "family influence",
+      "early understanding of military"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.67235.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "Korean War",
+    "explicit_text": "The Korean War was the first time I really thought about war, back when I was about 12 years old. I remember thinking that when I turned 18, I’d be involved too. Although that war ended before I was old enough, it set the stage for my later military service.",
+    "implicit_text": "The war on the Korean peninsula was the first time I really thought about war, back when I was about 12 years old. I remember thinking that when I turned 18, I’d be involved too. Although that war ended before I was old enough, it set the stage for my later military service.",
+    "cues": [
+      "about 12 years old",
+      "first thought of war",
+      "Korean War ended",
+      "anticipation of service"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.67235.yaml"
+  },
+  {
+    "entity_id": 5,
+    "entity": "Vietnam War",
+    "explicit_text": "Vietnam was the war that came after Korea and was the reason I was eventually drafted in 1964. I was in college for a year and a half before the draft caught up with me. My training and service were all connected to the Vietnam War era.",
+    "implicit_text": "The conflict in Southeast Asia that followed the Korean War was the reason I was eventually drafted in 1964. I was in college for a year and a half before the draft caught up with me. My training and service were all connected to that era of military engagement.",
+    "cues": [
+      "Vietnam War",
+      "drafted November 3, 1964",
+      "college before draft",
+      "service during Vietnam era"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.67235.yaml"
+  },
+  {
+    "entity_id": 6,
+    "entity": "Fort Knox",
+    "explicit_text": "After being drafted, I was sent to Fort Knox, Kentucky, for basic training starting in late 1964. I remember arriving there around 11 a.m. and standing in formation. The sergeant there was strict, especially about my sunglasses, which I wore due to a doctor's note. Fort Knox was where I first experienced military discipline and training routines.",
+    "implicit_text": "After being drafted, I was sent to a major Army training center in Kentucky for basic training starting in late 1964. I remember arriving there around 11 a.m. and standing in formation. The sergeant there was strict, especially about my sunglasses, which I wore due to a doctor's note. That place was where I first experienced military discipline and training routines.",
+    "cues": [
+      "Fort Knox, Kentucky",
+      "basic training",
+      "arrived 11 a.m.",
+      "sergeant and sunglasses",
+      "late 1964"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.67235.yaml"
+  },
+  {
+    "entity_id": 7,
+    "entity": "Sergeant",
+    "explicit_text": "At Fort Knox, a sergeant was in charge of our formation and was very strict about regulations. He insisted I call him 'Sergeant E5' instead of 'sir' and refused to accept my doctor's note about sunglasses. He also gave me the nickname 'Sunglasses' and assigned me to kitchen duty and fire watch during my first night.",
+    "implicit_text": "At the Kentucky training center, a non-commissioned officer was in charge of our formation and was very strict about regulations. He insisted I call him by his rank and grade instead of 'sir' and refused to accept my doctor's note about sunglasses. He also gave me the nickname 'Sunglasses' and assigned me to kitchen duty and fire watch during my first night.",
+    "cues": [
+      "sergeant at Fort Knox",
+      "strict discipline",
+      "nickname 'Sunglasses'",
+      "kitchen duty",
+      "fire watch"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.67235.yaml"
+  },
+  {
+    "entity_id": 8,
+    "entity": "Fort Hood",
+    "explicit_text": "After Fort Knox, we were sent to Fort Hood, Texas, for advanced individual training. I flew there on an old prop plane and arrived late at night to warm 85-degree weather. At Fort Hood, we were assigned to barracks based on our roles, and I volunteered for a special nuclear weapon squadron while there.",
+    "implicit_text": "After the initial training in Kentucky, we were sent to a large Army post in Texas for advanced individual training. I flew there on an old prop plane and arrived late at night to warm 85-degree weather. At that post, we were assigned to barracks based on our roles, and I volunteered for a special nuclear weapon squadron while there.",
+    "cues": [
+      "Fort Hood, Texas",
+      "advanced individual training",
+      "flight on prop plane",
+      "warm weather",
+      "special nuclear weapon squadron"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.67235.yaml"
+  },
+  {
+    "entity_id": 9,
+    "entity": "Davy Crockett (nuclear device)",
+    "explicit_text": "At Fort Hood, I was selected for a special nuclear weapon squadron responsible for the Davy Crockett nuclear device. We had secret security clearances and practiced handling facsimile bombs that matched the real ones in size and weight. I remember a general inspecting us and asking about my job, but I refused to share details without a need to know, even though he had a clearance.",
+    "implicit_text": "At the Texas Army post, I was selected for a special squadron responsible for a tactical nuclear weapon system known by a famous frontiersman's name. We had secret security clearances and practiced handling facsimile bombs that matched the real ones in size and weight. I remember a general inspecting us and asking about my job, but I refused to share details without a need to know, even though he had a clearance.",
+    "cues": [
+      "Davy Crockett nuclear weapon",
+      "special nuclear weapon squadron",
+      "secret security clearance",
+      "practice handling facsimile bombs",
+      "general inspection"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.67235.yaml"
+  }
+]

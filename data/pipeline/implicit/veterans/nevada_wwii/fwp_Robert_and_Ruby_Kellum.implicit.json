@@ -1,0 +1,120 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "Macon, Georgia",
+    "explicit_text": "I was born in Macon, Georgia on October 28, 1912. My parents were Emma and Allen Freeman, though I don't know much about my father. I left Macon when my family moved to Dublin, Georgia before eventually settling in Lakeland, Florida in 1925 when I was about twelve years old.",
+    "implicit_text": "I was born in a city in central Georgia on October 28, 1912. My parents were Emma and Allen Freeman, though I don't know much about my father. I left that city when my family moved to another town in Georgia before eventually settling in a city in Florida in 1925 when I was about twelve years old.",
+    "cues": [
+      "born October 28, 1912",
+      "parents Emma and Allen Freeman",
+      "moved to Dublin, Georgia",
+      "moved to Lakeland, Florida in 1925"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\fwp_Robert_and_Ruby_Kellum.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "Dublin, Georgia",
+    "explicit_text": "After being born in Macon, my family moved to Dublin, Georgia where I attended school until we came to Lakeland in 1925. I only went as far as the second grade in Dublin before I had to stop school to work. Dublin was part of my early life before settling permanently in Lakeland.",
+    "implicit_text": "After being born in central Georgia, my family moved to a smaller town in Georgia where I attended school until we came to a city in Florida in 1925. I only went as far as the second grade in that town before I had to stop school to work. That town was part of my early life before settling permanently in the Florida city.",
+    "cues": [
+      "moved to Dublin, Georgia",
+      "attended school until 1925",
+      "stopped school after second grade",
+      "moved to Lakeland in 1925"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\fwp_Robert_and_Ruby_Kellum.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "Lakeland, Florida",
+    "explicit_text": "Lakeland, Florida has been my home since 1925 when I was twelve years old. My wife Ruby and I married here on February 16, 1935, and our children were born here as well. I have worked various jobs around Lakeland including fruit cutting near Highland City and caddying at the Cleveland Heights Golf Course. We rent a small house here and live a simple life, often struggling but hopeful for better days.",
+    "implicit_text": "This city in Florida has been my home since 1925 when I was twelve years old. My wife Ruby and I married here on February 16, 1935, and our children were born here as well. I have worked various jobs around this city including fruit cutting near a nearby community and caddying at a local golf course. We rent a small house here and live a simple life, often struggling but hopeful for better days.",
+    "cues": [
+      "moved to Lakeland in 1925",
+      "married Ruby February 16, 1935",
+      "children born in Lakeland",
+      "worked fruit cutting near Highland City",
+      "caddied at Cleveland Heights Golf Course",
+      "rent house in Lakeland"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\fwp_Robert_and_Ruby_Kellum.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "Monticello, Florida",
+    "explicit_text": "Ruby, my wife, was born in Cocoa, Florida but her family moved to Monticello, Florida when she was very young. She attended school there up to the sixth grade. Monticello was part of her early life before she left to live in Lakeland, where we married and started our family.",
+    "implicit_text": "Ruby, my wife, was born in a coastal city in Florida but her family moved to a small town in northern Florida when she was very young. She attended school there up to the sixth grade. That town was part of her early life before she left to live in the Florida city where we married and started our family.",
+    "cues": [
+      "Ruby born in Cocoa, Florida",
+      "family moved to Monticello",
+      "attended school to sixth grade",
+      "left Monticello before marrying in Lakeland"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\fwp_Robert_and_Ruby_Kellum.yaml"
+  },
+  {
+    "entity_id": 5,
+    "entity": "Atlantic Coast Line Railroad",
+    "explicit_text": "One of my first steady jobs was working for the Atlantic Coast Line Railroad. I started there after carrying water for a construction company in 1925 and earned about $15 a week. I held that job until 1932 before moving on to other work. It was a good job and I often wish I could have a job like that again.",
+    "implicit_text": "One of my first steady jobs was working for a major southeastern railroad company. I started there after carrying water for a construction company in 1925 and earned about $15 a week. I held that job until 1932 before moving on to other work. It was a good job and I often wish I could have a job like that again.",
+    "cues": [
+      "worked for Atlantic Coast Line Railroad",
+      "started after 1925",
+      "earned $15 a week",
+      "held job until 1932"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\fwp_Robert_and_Ruby_Kellum.yaml"
+  },
+  {
+    "entity_id": 6,
+    "entity": "Cleveland Heights Golf Course",
+    "explicit_text": "After losing my railroad job and working odd jobs, I caddied for a while at the Cleveland Heights Golf Course. It was a temporary job before I began cutting fruit for the Highland City Association. Though caddying was not a long-term career, it helped me get by during tough times.",
+    "implicit_text": "After losing my railroad job and working odd jobs, I caddied for a while at a golf course located in the Florida city I live in. It was a temporary job before I began cutting fruit for an association in a nearby community. Though caddying was not a long-term career, it helped me get by during tough times.",
+    "cues": [
+      "caddied at Cleveland Heights Golf Course",
+      "after railroad job ended in 1932",
+      "before fruit cutting job",
+      "temporary work"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\fwp_Robert_and_Ruby_Kellum.yaml"
+  },
+  {
+    "entity_id": 7,
+    "entity": "Highland City, Florida",
+    "explicit_text": "I worked cutting fruit for the Highland City Association, which is located about eight miles from Lakeland. We picked grapefruit, oranges, and tangerines in crews of 14 or more, and I was experienced in handling ladders and fruit without damage. This was my main source of income until the crew was recently laid off due to prices and lack of fruit.",
+    "implicit_text": "I worked cutting fruit for an association located about eight miles from the Florida city I call home. We picked grapefruit, oranges, and tangerines in crews of 14 or more, and I was experienced in handling ladders and fruit without damage. This was my main source of income until the crew was recently laid off due to prices and lack of fruit.",
+    "cues": [
+      "worked for Highland City Association",
+      "about eight miles from Lakeland",
+      "picked grapefruit, oranges, tangerines",
+      "laid off recently"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\fwp_Robert_and_Ruby_Kellum.yaml"
+  },
+  {
+    "entity_id": 8,
+    "entity": "Bethel African Methodist Episcopal Church",
+    "explicit_text": "I once joined the Bethel African Methodist Episcopal Church on North Dakota Avenue but did not attend regularly. My wife Ruby is very devout and has become Holy Sanctified, attending church every night and living a spiritual life. I admire her faith and have a desire to be sanctified like her, though I have not yet fully committed to the church.",
+    "implicit_text": "I once joined a historically African American Methodist church on North Dakota Avenue but did not attend regularly. My wife Ruby is very devout and has become Holy Sanctified, attending church every night and living a spiritual life. I admire her faith and have a desire to be sanctified like her, though I have not yet fully committed to the church.",
+    "cues": [
+      "joined Bethel AME Church",
+      "located on North Dakota Avenue",
+      "wife Ruby is devout and Holy Sanctified",
+      "attends church every night"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\fwp_Robert_and_Ruby_Kellum.yaml"
+  },
+  {
+    "entity_id": 9,
+    "entity": "Virginia",
+    "explicit_text": "Ruby has a brother named Charlie Glenn who lives in Healthville, Virginia. Although I have not lived there, Virginia is part of my wife's family connections. Ruby has been away from home for nearly five years, but her family ties to Virginia remain important to her.",
+    "implicit_text": "Ruby has a brother named Charlie Glenn who lives in a town called Healthville in a Mid-Atlantic state. Although I have not lived there, that state is part of my wife's family connections. Ruby has been away from home for nearly five years, but her family ties to that state remain important to her.",
+    "cues": [
+      "Ruby's brother Charlie Glenn lives in Healthville, Virginia",
+      "family connection through Ruby",
+      "Ruby away from home nearly five years"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\fwp_Robert_and_Ruby_Kellum.yaml"
+  }
+]

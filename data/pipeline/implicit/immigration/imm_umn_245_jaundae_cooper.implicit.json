@@ -1,0 +1,73 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "Liberia",
+    "explicit_text": "I grew up in Liberia, where life was comfortable for me compared to many others. Although Liberia is a third world country with poor roads and a struggling public school system, my family had resources like a driver, housekeeper, and security guards. I attended a private school that was similar to American schools, which was a privilege not many had. Despite the country's beautiful beaches and resources, corruption and poverty have been persistent issues since the second war. My family's political legacy and cultural pride are deeply tied to Liberia, and I carry that pride with me wherever I go.",
+    "implicit_text": "I grew up in a West African country where life was comfortable for me compared to many others. Although this nation is a third world country with poor roads and a struggling public school system, my family had resources like a driver, housekeeper, and security guards. I attended a private school that was similar to American schools, which was a privilege not many had. Despite the country's beautiful beaches and resources, corruption and poverty have been persistent issues since the second civil war. My family's political legacy and cultural pride are deeply tied to this country, and I carry that pride with me wherever I go.",
+    "cues": [
+      "third world country",
+      "private school",
+      "second war",
+      "corruption",
+      "beaches",
+      "political legacy"
+    ],
+    "transcript_ref": "immigration\\imm_umn_245_jaundae_cooper.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "United States of America",
+    "explicit_text": "I moved to the United States in 2008, and although the transition wasn't very hard because my family often moved between Liberia and America, the experience was eye-opening. In Liberia, my family was considered middle to upper class, but here in America, especially living in Reynoldsburg, Ohio, we are seen as poor and live in an apartment complex. The wealth and status my family had in Liberia didn't translate well due to America's own wealth inequality. While I am proud of my Liberian heritage, I am only semi-proud of being American because of the challenges and disparities I've observed here.",
+    "implicit_text": "I moved to North America in 2008, and although the transition wasn't very hard because my family often moved between my home country and this place, the experience was eye-opening. In my birth country, my family was considered middle to upper class, but here in this new land, especially living in a suburb of Columbus, Ohio, we are seen as poor and live in an apartment complex. The wealth and status my family had back home didn't translate well due to this country's own wealth inequality. While I am proud of my heritage, I am only semi-proud of being part of this nation because of the challenges and disparities I've observed here.",
+    "cues": [
+      "moved in 2008",
+      "wealth inequality",
+      "Reynoldsburg, Ohio",
+      "apartment complex",
+      "cultural pride"
+    ],
+    "transcript_ref": "immigration\\imm_umn_245_jaundae_cooper.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "Reynoldsburg, Ohio",
+    "explicit_text": "After moving to the United States, my family settled in Reynoldsburg, Ohio. Although we live in an apartment complex here and are considered poor by American standards, my family is still relatively well off compared to others in the area. This is quite different from how we were viewed in Liberia, where we were seen as upper class due to our political background and resources. Reynoldsburg represents a new chapter for us, but it also highlights the stark differences in social status between the two countries.",
+    "implicit_text": "After moving to the United States, my family settled in a suburb east of Columbus, Ohio. Although we live in an apartment complex here and are considered poor by American standards, my family is still relatively well off compared to others in the area. This is quite different from how we were viewed in my home country, where we were seen as upper class due to our political background and resources. This Ohio suburb represents a new chapter for us, but it also highlights the stark differences in social status between the two countries.",
+    "cues": [
+      "apartment complex",
+      "wealth comparison",
+      "political background",
+      "new chapter",
+      "United States"
+    ],
+    "transcript_ref": "immigration\\imm_umn_245_jaundae_cooper.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "James Spriggs Payne",
+    "explicit_text": "James Spriggs Payne was my great grandfather, and he served as president of Liberia twice. His legacy is a significant part of my family's history and political importance in Liberia. Although he was mostly white, through generations of mixing, our family became more black African. This lineage, including my grandparents Sarah Hanky and Sam Payne Cooper, connects me to a history of both slavery and political prominence. Carrying his name and story gives me a strong sense of identity and pride in my heritage.",
+    "implicit_text": "My great grandfather served as president of my home country twice. His legacy is a significant part of my family's history and political importance there. Although he was mostly white, through generations of mixing, our family became more black African. This lineage, including my grandparents Sarah Hanky and Sam Payne Cooper, connects me to a history of both slavery and political prominence. Carrying his name and story gives me a strong sense of identity and pride in my heritage.",
+    "cues": [
+      "great grandfather",
+      "president of Liberia twice",
+      "lineage",
+      "political importance",
+      "family history"
+    ],
+    "transcript_ref": "immigration\\imm_umn_245_jaundae_cooper.yaml"
+  },
+  {
+    "entity_id": 5,
+    "entity": "Four Classmates of Destiny",
+    "explicit_text": "My family comes from the 'Four Classmates of Destiny,' a group that holds significant political importance in Liberia. This lineage has shaped much of my family's status and history, contributing to the wealth and influence we experienced back home. Being part of this legacy connects me deeply to Liberia's political and cultural past. It also explains some of the privileges my family had, such as access to private education and resources, despite the country's broader struggles.",
+    "implicit_text": "My family comes from a group known for their significant political importance in my birth country. This lineage has shaped much of my family's status and history, contributing to the wealth and influence we experienced back home. Being part of this legacy connects me deeply to my country's political and cultural past. It also explains some of the privileges my family had, such as access to private education and resources, despite the country's broader struggles.",
+    "cues": [
+      "political importance",
+      "family lineage",
+      "Liberia",
+      "wealth and influence",
+      "cultural past"
+    ],
+    "transcript_ref": "immigration\\imm_umn_245_jaundae_cooper.yaml"
+  }
+]

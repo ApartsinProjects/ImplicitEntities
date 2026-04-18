@@ -1,0 +1,338 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "Illinois National Guard",
+    "explicit_text": "I joined the Illinois National Guard on March 5, 1939, mainly to learn how to ride a horse since the field artillery was horse-drawn back then. I became a wheel horse driver and later an officer in the 124th Field Artillery, which was part of the Illinois National Guard. We trained with 75mm French howitzers initially and later mechanized with trucks by 1940. The Guard had three battalions of artillery, and I was based out of Chicago at 5200 Cottage Grove in Washington Park.",
+    "implicit_text": "I joined the state military reserve on March 5, 1939, mainly to learn how to ride a horse since the field artillery was horse-drawn back then. I became a wheel horse driver and later an officer in the 124th Field Artillery, which was part of that state’s military reserve. We trained with 75mm French howitzers initially and later mechanized with trucks by 1940. The reserve had three battalions of artillery, and I was based out of Chicago at 5200 Cottage Grove in Washington Park.",
+    "cues": [
+      "March 5, 1939",
+      "124th Field Artillery",
+      "Chicago",
+      "horse-drawn artillery",
+      "mechanization 1940"
+    ],
+    "transcript_ref": "veterans\\ippl_library\\ippl_vhp_army_radice.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "Camp McCoy",
+    "explicit_text": "Early in my service with the Illinois National Guard, we went up to Camp McCoy, Wisconsin, where I served as a wheel horse driver. It was there that I transitioned from riding horses to becoming a gunner on the 75mm French howitzer. Camp McCoy was one of the first places where I got hands-on experience with artillery before mechanization took over.",
+    "implicit_text": "Early in my service with the state military reserve, we went up to a training camp in Wisconsin, where I served as a wheel horse driver. It was there that I transitioned from riding horses to becoming a gunner on the 75mm French howitzer. That camp was one of the first places where I got hands-on experience with artillery before mechanization took over.",
+    "cues": [
+      "Camp McCoy, Wisconsin",
+      "wheel horse driver",
+      "75mm French howitzer",
+      "early training"
+    ],
+    "transcript_ref": "veterans\\ippl_library\\ippl_vhp_army_radice.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "World War I",
+    "explicit_text": "The 75mm French howitzer I trained on early in my career was actually a weapon used in World War I. Though I never fought in that war, the artillery pieces we used at the start of my service had their origins in that conflict. It was interesting to see how those older weapons were still in use before we upgraded to more modern artillery.",
+    "implicit_text": "The 75mm French howitzer I trained on early in my career was actually a weapon used in the Great War. Though I never fought in that war, the artillery pieces we used at the start of my service had their origins in that conflict. It was interesting to see how those older weapons were still in use before we upgraded to more modern artillery.",
+    "cues": [
+      "75mm French howitzer",
+      "World War I",
+      "early artillery equipment"
+    ],
+    "transcript_ref": "veterans\\ippl_library\\ippl_vhp_army_radice.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "Camp Forrest",
+    "explicit_text": "In March 1941, after being federalized, my unit was sent to Camp Forrest, Tennessee. There, we helped build the fort by putting up buildings, roofs, sidings, and sidewalks while simultaneously training with the 75mm howitzers and later the 105mm howitzers. I was even working as a motion picture projectionist at the camp when we got the news about Pearl Harbor. Camp Forrest was a key place for my transition from National Guard to active duty artillery officer.",
+    "implicit_text": "In March 1941, after being federalized, my unit was sent to a camp in Tennessee. There, we helped build the fort by putting up buildings, roofs, sidings, and sidewalks while simultaneously training with the 75mm howitzers and later the 105mm howitzers. I was even working as a motion picture projectionist at the camp when we got the news about the attack on the naval base in Hawaii. That camp was a key place for my transition from state military reserve to active duty artillery officer.",
+    "cues": [
+      "Camp Forrest, Tennessee",
+      "March 1941",
+      "building fort",
+      "artillery training",
+      "Pearl Harbor news"
+    ],
+    "transcript_ref": "veterans\\ippl_library\\ippl_vhp_army_radice.yaml"
+  },
+  {
+    "entity_id": 5,
+    "entity": "Illinois",
+    "explicit_text": "Illinois is where my military journey began, specifically in Chicago. I joined the Illinois National Guard and was part of the 124th Field Artillery based out of 5200 Cottage Grove in Washington Park, Chicago. It was from Illinois that I was federalized and sent off to active duty during the buildup to World War II.",
+    "implicit_text": "My military journey began in the Midwest, specifically in Chicago. I joined the state military reserve and was part of the 124th Field Artillery based out of 5200 Cottage Grove in Washington Park, Chicago. It was from this state that I was federalized and sent off to active duty during the buildup to World War II.",
+    "cues": [
+      "Illinois National Guard",
+      "Chicago",
+      "5200 Cottage Grove",
+      "Washington Park",
+      "federalization"
+    ],
+    "transcript_ref": "veterans\\ippl_library\\ippl_vhp_army_radice.yaml"
+  },
+  {
+    "entity_id": 6,
+    "entity": "Chicago",
+    "explicit_text": "Chicago was my hometown and the place where I joined the Illinois National Guard. My unit, the 124th Field Artillery, was based at Washington Park in Chicago. It was from there that I began my military career before being federalized and sent to training camps across the country.",
+    "implicit_text": "Chicago was my hometown and the place where I joined the state military reserve. My unit, the 124th Field Artillery, was based at Washington Park in Chicago. It was from there that I began my military career before being federalized and sent to training camps across the country.",
+    "cues": [
+      "Chicago",
+      "Washington Park",
+      "Illinois National Guard",
+      "124th Field Artillery"
+    ],
+    "transcript_ref": "veterans\\ippl_library\\ippl_vhp_army_radice.yaml"
+  },
+  {
+    "entity_id": 7,
+    "entity": "Pearl Harbor",
+    "explicit_text": "I was at Camp Forrest on December 7, 1941, when the news of the Pearl Harbor attack came through. I was working as a motion picture projectionist in one of the camp theaters when MPs shut the movie down to announce we were at war. It was a shocking moment, and from then on, everything changed as we prepared for active combat.",
+    "implicit_text": "I was at the Tennessee camp on December 7, 1941, when the news of the attack on the naval base in Hawaii came through. I was working as a motion picture projectionist in one of the camp theaters when MPs shut the movie down to announce we were at war. It was a shocking moment, and from then on, everything changed as we prepared for active combat.",
+    "cues": [
+      "December 7, 1941",
+      "Camp Forrest",
+      "motion picture projectionist",
+      "Pearl Harbor attack",
+      "war declared"
+    ],
+    "transcript_ref": "veterans\\ippl_library\\ippl_vhp_army_radice.yaml"
+  },
+  {
+    "entity_id": 8,
+    "entity": "Fort Sill",
+    "explicit_text": "In May 1942, I was accepted to Officer Candidate School at Fort Sill, Oklahoma. I arrived around July 15 and graduated on October 22, 1942, as part of Class 35. The training was tough but essential, teaching us infantry tactics from an artillery perspective and preparing me to be a field artillery observer supporting infantry units.",
+    "implicit_text": "In May 1942, I was accepted to Officer Candidate School at a military post in Oklahoma. I arrived around July 15 and graduated on October 22, 1942, as part of Class 35. The training was tough but essential, teaching us infantry tactics from an artillery perspective and preparing me to be a field artillery observer supporting infantry units.",
+    "cues": [
+      "Fort Sill, Oklahoma",
+      "Officer Candidate School",
+      "July to October 1942",
+      "Class 35",
+      "artillery observer training"
+    ],
+    "transcript_ref": "veterans\\ippl_library\\ippl_vhp_army_radice.yaml"
+  },
+  {
+    "entity_id": 9,
+    "entity": "7th Infantry Division (United States)",
+    "explicit_text": "After graduating from Officer Candidate School, I was assigned to the 7th Infantry Division at Camp Luis Obispo, California. We later moved to Fort Ord, California, and from there, in May 1943, we deployed to retake Attu in the Aleutian Islands. The 7th Infantry Division was my combat unit throughout much of the war, and I served as an artillery officer embedded with the infantry.",
+    "implicit_text": "After graduating from Officer Candidate School, I was assigned to the 7th Infantry Division at a camp in California. We later moved to another California post, and from there, in May 1943, we deployed to retake Attu in the Aleutian Islands. That infantry division was my combat unit throughout much of the war, and I served as an artillery officer embedded with the infantry.",
+    "cues": [
+      "7th Infantry Division",
+      "Camp Luis Obispo",
+      "Fort Ord",
+      "May 1943",
+      "Battle of Attu"
+    ],
+    "transcript_ref": "veterans\\ippl_library\\ippl_vhp_army_radice.yaml"
+  },
+  {
+    "entity_id": 10,
+    "entity": "Camp Luis Obispo",
+    "explicit_text": "Camp Luis Obispo, California, was where I was first assigned after graduating from Officer Candidate School. It was a staging and training area for the 7th Infantry Division before we moved on to Fort Ord and eventually deployed to the Aleutian Islands. This camp marked the beginning of my active duty with the division.",
+    "implicit_text": "The camp in California was where I was first assigned after graduating from Officer Candidate School. It was a staging and training area for the 7th Infantry Division before we moved on to another California post and eventually deployed to the Aleutian Islands. This camp marked the beginning of my active duty with the division.",
+    "cues": [
+      "Camp Luis Obispo, California",
+      "post-OCS assignment",
+      "7th Infantry Division",
+      "1942-1943"
+    ],
+    "transcript_ref": "veterans\\ippl_library\\ippl_vhp_army_radice.yaml"
+  },
+  {
+    "entity_id": 11,
+    "entity": "Fort Ord",
+    "explicit_text": "After Camp Luis Obispo, we moved to Fort Ord, California, where the 7th Infantry Division continued training. From Fort Ord, we deployed in May 1943 to the Aleutian Islands for the Battle of Attu. Fort Ord was the last stateside stop before heading into combat in a very harsh environment.",
+    "implicit_text": "After the initial California camp, we moved to another military post in California, where the 7th Infantry Division continued training. From there, we deployed in May 1943 to the Aleutian Islands for the Battle of Attu. That post was the last stateside stop before heading into combat in a very harsh environment.",
+    "cues": [
+      "Fort Ord, California",
+      "7th Infantry Division",
+      "May 1943",
+      "pre-deployment training"
+    ],
+    "transcript_ref": "veterans\\ippl_library\\ippl_vhp_army_radice.yaml"
+  },
+  {
+    "entity_id": 12,
+    "entity": "Battle of Attu",
+    "explicit_text": "The Battle of Attu was my first combat experience, starting in May 1943. We landed on the island about 1,000 miles west of Kodiak, Alaska, near the International Date Line. The battle was supposed to last a week but dragged on for about six weeks until late June. It was a brutal fight against well-entrenched Japanese forces in cold, foggy, and difficult tundra terrain. We were ill-prepared and had to adapt quickly to the harsh conditions and tough enemy resistance.",
+    "implicit_text": "The Battle of Attu was my first combat experience, starting in May 1943. We landed on the island about 1,000 miles west of Kodiak, Alaska, near the International Date Line. The battle was supposed to last a week but dragged on for about six weeks until late June. It was a brutal fight against well-entrenched Japanese forces in cold, foggy, and difficult tundra terrain. We were ill-prepared and had to adapt quickly to the harsh conditions and tough enemy resistance.",
+    "cues": [
+      "Battle of Attu",
+      "May-June 1943",
+      "Aleutian Islands",
+      "harsh tundra",
+      "six weeks combat"
+    ],
+    "transcript_ref": "veterans\\ippl_library\\ippl_vhp_army_radice.yaml"
+  },
+  {
+    "entity_id": 13,
+    "entity": "Aleutian Islands",
+    "explicit_text": "The Aleutian Islands are a chain off the coast of Alaska where I fought during World War II. We landed on Attu Island, which is near the western end of the chain, about 1,000 miles west of Kodiak and close to the International Date Line. The islands were foggy, cold, and had very little vegetation, making combat and logistics extremely challenging. The Japanese had occupied Attu and Kiska, and our mission was to retake these strategic points.",
+    "implicit_text": "The Aleutian Islands are a chain off the coast of Alaska where I fought during World War II. We landed on Attu Island, which is near the western end of the chain, about 1,000 miles west of Kodiak and close to the International Date Line. The islands were foggy, cold, and had very little vegetation, making combat and logistics extremely challenging. The Japanese had occupied Attu and Kiska, and our mission was to retake these strategic points.",
+    "cues": [
+      "Aleutian Islands",
+      "Attu Island",
+      "Kodiak Island",
+      "foggy, cold climate",
+      "Japanese occupation"
+    ],
+    "transcript_ref": "veterans\\ippl_library\\ippl_vhp_army_radice.yaml"
+  },
+  {
+    "entity_id": 14,
+    "entity": "Kodiak Island",
+    "explicit_text": "Kodiak Island is located east of where we fought in the Aleutians, about 1,000 miles from Attu. It served as a geographic reference point for our operations. We were far west of Kodiak, almost near the International Date Line, when we landed on Attu to fight the Japanese forces.",
+    "implicit_text": "Kodiak Island is located east of where we fought in the Aleutians, about 1,000 miles from Attu. It served as a geographic reference point for our operations. We were far west of Kodiak, almost near the International Date Line, when we landed on Attu to fight the Japanese forces.",
+    "cues": [
+      "Kodiak Island",
+      "Aleutian Islands",
+      "geographic reference",
+      "1,000 miles east of Attu"
+    ],
+    "transcript_ref": "veterans\\ippl_library\\ippl_vhp_army_radice.yaml"
+  },
+  {
+    "entity_id": 15,
+    "entity": "International Date Line",
+    "explicit_text": "Our operations in the Aleutian Islands took us almost to the International Date Line, which shows how far west we were from the continental United States. Attu Island is very close to this line, emphasizing the remote and strategic nature of the battle. It was a stark reminder of how far we had to travel and the isolation of the combat zone.",
+    "implicit_text": "Our operations in the Aleutian Islands took us almost to the International Date Line, which shows how far west we were from the continental United States. Attu Island is very close to this line, emphasizing the remote and strategic nature of the battle. It was a stark reminder of how far we had to travel and the isolation of the combat zone.",
+    "cues": [
+      "International Date Line",
+      "Aleutian Islands",
+      "Attu Island",
+      "remote combat zone"
+    ],
+    "transcript_ref": "veterans\\ippl_library\\ippl_vhp_army_radice.yaml"
+  },
+  {
+    "entity_id": 16,
+    "entity": "Kiska",
+    "explicit_text": "Kiska was another island in the Aleutians occupied by the Japanese, where they had a submarine base. Although our division sent a combat team along with Canadian troops to land there, I personally did not go ashore at Kiska. We stayed on the ship waiting for orders, and the Japanese had already evacuated by the time the landing occurred, so there was little opposition.",
+    "implicit_text": "Kiska was another island in the Aleutians occupied by the Japanese, where they had a submarine base. Although my division sent a combat team along with Canadian troops to land there, I personally did not go ashore at Kiska. We stayed on the ship waiting for orders, and the Japanese had already evacuated by the time the landing occurred, so there was little opposition.",
+    "cues": [
+      "Kiska Island",
+      "Japanese submarine base",
+      "Aleutian Islands",
+      "division combat team",
+      "no landing for me"
+    ],
+    "transcript_ref": "veterans\\ippl_library\\ippl_vhp_army_radice.yaml"
+  },
+  {
+    "entity_id": 17,
+    "entity": "United States Army Air Forces",
+    "explicit_text": "During the Aleutian campaign, the United States Army Air Forces played a crucial role by sending planes to observe the areas around Attu and Kiska. They helped improve the airfield on Attu after we secured the island, allowing for better reconnaissance and control of the northern Pacific. Their support was vital in the harsh and foggy Aleutian environment.",
+    "implicit_text": "During the Aleutian campaign, the U.S. Army’s air arm played a crucial role by sending planes to observe the areas around Attu and Kiska. They helped improve the airfield on Attu after we secured the island, allowing for better reconnaissance and control of the northern Pacific. Their support was vital in the harsh and foggy Aleutian environment.",
+    "cues": [
+      "United States Army Air Forces",
+      "Aleutian Islands",
+      "airfield improvement",
+      "reconnaissance support"
+    ],
+    "transcript_ref": "veterans\\ippl_library\\ippl_vhp_army_radice.yaml"
+  },
+  {
+    "entity_id": 18,
+    "entity": "Hawaii",
+    "explicit_text": "Hawaii was the location of the Pearl Harbor attack, which marked the United States' entry into World War II. Although I was not stationed there, the news of the attack reached me while I was at Camp Forrest, Tennessee. The event changed everything for us and accelerated our preparations for combat.",
+    "implicit_text": "The Pacific island chain was the location of the naval base attack, which marked the United States' entry into World War II. Although I was not stationed there, the news of the attack reached me while I was at the Tennessee camp. The event changed everything for us and accelerated our preparations for combat.",
+    "cues": [
+      "Hawaii",
+      "Pearl Harbor attack",
+      "December 7, 1941",
+      "entry into World War II"
+    ],
+    "transcript_ref": "veterans\\ippl_library\\ippl_vhp_army_radice.yaml"
+  },
+  {
+    "entity_id": 19,
+    "entity": "Schofield Barracks",
+    "explicit_text": "Schofield Barracks in Hawaii was not directly mentioned in my experience, but it was a significant Army post during the war. While I was aware of the broader Pacific theater, my service took me from the mainland to the Aleutians rather than to places like Schofield Barracks. It was part of the overall military infrastructure supporting the Pacific campaigns.",
+    "implicit_text": "A major Army post in the Pacific theater was not directly mentioned in my experience, but it was significant during the war. While I was aware of the broader Pacific theater, my service took me from the mainland to the Aleutians rather than to places like that post. It was part of the overall military infrastructure supporting the Pacific campaigns.",
+    "cues": [
+      "Schofield Barracks",
+      "Hawaii",
+      "Pacific theater",
+      "Army post"
+    ],
+    "transcript_ref": "veterans\\ippl_library\\ippl_vhp_army_radice.yaml"
+  },
+  {
+    "entity_id": 20,
+    "entity": "Battle of Kwajalein",
+    "explicit_text": "The Battle of Kwajalein was another major Pacific battle during World War II, but I was not personally involved in that fight. My combat experience was focused on the Aleutian Islands campaign with the 7th Infantry Division. Kwajalein was part of the Marshall Islands operations, which occurred later in the war.",
+    "implicit_text": "The battle at a key atoll in the Pacific was another major fight during World War II, but I was not personally involved in that fight. My combat experience was focused on the Aleutian Islands campaign with the 7th Infantry Division. That battle was part of the Marshall Islands operations, which occurred later in the war.",
+    "cues": [
+      "Battle of Kwajalein",
+      "Marshall Islands",
+      "Pacific campaign",
+      "not personally involved"
+    ],
+    "transcript_ref": "veterans\\ippl_library\\ippl_vhp_army_radice.yaml"
+  },
+  {
+    "entity_id": 21,
+    "entity": "Marshall Islands",
+    "explicit_text": "The Marshall Islands were a key strategic location in the Pacific during World War II, including battles like Kwajalein and Eniwetok Atoll. While my unit was not directly involved there, the islands were part of the broader island-hopping campaign against Japan. The fighting there helped pave the way for advances toward Japan itself.",
+    "implicit_text": "The Marshall Islands were a key strategic location in the Pacific during World War II, including battles like Kwajalein and Eniwetok Atoll. While my unit was not directly involved there, the islands were part of the broader island-hopping campaign against Japan. The fighting there helped pave the way for advances toward Japan itself.",
+    "cues": [
+      "Marshall Islands",
+      "Pacific campaign",
+      "island-hopping",
+      "Kwajalein",
+      "Eniwetok Atoll"
+    ],
+    "transcript_ref": "veterans\\ippl_library\\ippl_vhp_army_radice.yaml"
+  },
+  {
+    "entity_id": 22,
+    "entity": "Eniwetok Atoll",
+    "explicit_text": "Eniwetok Atoll was another important battle site in the Marshall Islands during the Pacific campaign. Although I did not participate in that battle, it was part of the series of island invasions that followed the Aleutians and helped bring the war closer to Japan. The atoll was significant for its strategic location and airfields.",
+    "implicit_text": "Eniwetok Atoll was another important battle site in the Marshall Islands during the Pacific campaign. Although I did not participate in that battle, it was part of the series of island invasions that followed the Aleutians and helped bring the war closer to Japan. The atoll was significant for its strategic location and airfields.",
+    "cues": [
+      "Eniwetok Atoll",
+      "Marshall Islands",
+      "Pacific campaign",
+      "strategic airfields"
+    ],
+    "transcript_ref": "veterans\\ippl_library\\ippl_vhp_army_radice.yaml"
+  },
+  {
+    "entity_id": 23,
+    "entity": "United States Navy",
+    "explicit_text": "The United States Navy was essential in transporting troops and equipment during the Aleutian campaign. We used LSTs and LSMs to get our artillery and infantry ashore on Attu. The Navy also provided support in the Pacific theater, including battles like Kwajalein, though my direct experience was mostly with the Army.",
+    "implicit_text": "The U.S. Navy was essential in transporting troops and equipment during the Aleutian campaign. We used landing ships to get our artillery and infantry ashore on Attu. The Navy also provided support in the Pacific theater, including battles like Kwajalein, though my direct experience was mostly with the Army.",
+    "cues": [
+      "United States Navy",
+      "Aleutian Islands",
+      "LSTs and LSMs",
+      "troop transport",
+      "Pacific theater support"
+    ],
+    "transcript_ref": "veterans\\ippl_library\\ippl_vhp_army_radice.yaml"
+  },
+  {
+    "entity_id": 24,
+    "entity": "USS San Francisco (CA-38)",
+    "explicit_text": "The USS San Francisco (CA-38) was a heavy cruiser active during World War II, but I did not have direct contact with this ship during my service. It was part of the Navy's Pacific fleet and participated in major naval battles. My focus was on artillery and infantry operations rather than naval engagements.",
+    "implicit_text": "A heavy cruiser active during World War II was part of the Navy's Pacific fleet and participated in major naval battles, but I did not have direct contact with this ship during my service. My focus was on artillery and infantry operations rather than naval engagements.",
+    "cues": [
+      "USS San Francisco (CA-38)",
+      "heavy cruiser",
+      "Pacific fleet",
+      "naval battles",
+      "no direct contact"
+    ],
+    "transcript_ref": "veterans\\ippl_library\\ippl_vhp_army_radice.yaml"
+  },
+  {
+    "entity_id": 25,
+    "entity": "Sopwith Camel",
+    "explicit_text": "The Sopwith Camel was a World War I fighter plane and not something I had experience with during my service. It was mentioned as part of the historical context of earlier military equipment, like the 75mm howitzer from WWI. My wartime service was focused on artillery and infantry in World War II.",
+    "implicit_text": "The Sopwith Camel was a World War I fighter plane and not something I had experience with during my service. It was mentioned as part of the historical context of earlier military equipment, like the 75mm howitzer from WWI. My wartime service was focused on artillery and infantry in World War II.",
+    "cues": [
+      "Sopwith Camel",
+      "World War I",
+      "historical military equipment",
+      "no direct experience"
+    ],
+    "transcript_ref": "veterans\\ippl_library\\ippl_vhp_army_radice.yaml"
+  }
+]

@@ -1,0 +1,112 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "Ibadan",
+    "explicit_text": "I was born in Ibadan, Nigeria, in 1998. Growing up there, I had a good childhood despite Nigeria being considered a third-world country. My family lived there until I was ten, when we decided to move to the United States after winning the Diversity Visa Lottery.",
+    "implicit_text": "I was born in a large city in southwestern Nigeria in 1998. Growing up there, I had a good childhood despite the country being considered a third-world nation. My family lived there until I was ten, when we decided to move to the United States after winning the Diversity Visa Lottery.",
+    "cues": [
+      "1998",
+      "birthplace",
+      "childhood",
+      "Nigeria",
+      "family"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_35_tunrayo_olanrewaju.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "Nigeria",
+    "explicit_text": "Nigeria is where I spent my early years, and although it's often called a third-world country, I still had a happy childhood. My dad worked as a lawyer or professor, and my mom was a secretary at an electronics firm. We left Nigeria when I was ten after winning the Diversity Immigrant Visa lottery and moved to the United States.",
+    "implicit_text": "The country in West Africa where I spent my early years is often called a third-world nation, but I still had a happy childhood. My dad worked as a lawyer or professor, and my mom was a secretary at an electronics firm. We left that country when I was ten after winning the Diversity Immigrant Visa lottery and moved to the United States.",
+    "cues": [
+      "childhood",
+      "parents' jobs",
+      "third-world country",
+      "immigration",
+      "visa lottery"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_35_tunrayo_olanrewaju.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "Diversity Immigrant Visa",
+    "explicit_text": "When I was ten, my family applied for the Diversity Immigrant Visa Lottery, even though my mom was hesitant about moving to America. My dad convinced her, and soon after, we found out we won the lottery. This was the turning point that led us to leave Nigeria and start a new life in the United States.",
+    "implicit_text": "When I was ten, my family applied for a special lottery program designed to diversify immigration to the United States, even though my mom was hesitant about moving to America. My dad convinced her, and soon after, we found out we won the lottery. This was the turning point that led us to leave Nigeria and start a new life in the United States.",
+    "cues": [
+      "age ten",
+      "family decision",
+      "visa lottery",
+      "immigration",
+      "parents' roles"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_35_tunrayo_olanrewaju.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "United States",
+    "explicit_text": "Moving to the United States was a huge change for my family and me. We arrived in Minnesota on October 30 after winning the Diversity Visa Lottery. Although we had heard stories and seen shows like Barney that made America seem like a land of opportunity, the reality was much harder. My parents had to take jobs they never imagined, working weekends and holidays, and the struggle was real for all of us.",
+    "implicit_text": "Moving to a North American country was a huge change for my family and me. We arrived in a northern state on October 30 after winning the Diversity Visa Lottery. Although we had heard stories and seen shows like Barney that made this country seem like a land of opportunity, the reality was much harder. My parents had to take jobs they never imagined, working weekends and holidays, and the struggle was real for all of us.",
+    "cues": [
+      "immigration",
+      "October 30",
+      "Minnesota",
+      "jobs",
+      "cultural adjustment"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_35_tunrayo_olanrewaju.yaml"
+  },
+  {
+    "entity_id": 5,
+    "entity": "Minnesota",
+    "explicit_text": "Minnesota became my new home after we immigrated from Nigeria. The cold weather was a shock at first, but we settled in and started our new life there. I grew up in Minnesota, attended school, and later studied at the University of Minnesota.",
+    "implicit_text": "A northern U.S. state became my new home after we immigrated from Nigeria. The cold weather was a shock at first, but we settled in and started our new life there. I grew up in this state, attended school, and later studied at its flagship university.",
+    "cues": [
+      "immigration",
+      "weather shock",
+      "childhood",
+      "education",
+      "new home"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_35_tunrayo_olanrewaju.yaml"
+  },
+  {
+    "entity_id": 6,
+    "entity": "University of Minnesota",
+    "explicit_text": "I studied at the University of Minnesota after growing up in the state. Attending this university was an important step for me as I worked toward my college degree. It represents the educational opportunities I was able to access in America despite the hardships my family faced.",
+    "implicit_text": "I studied at the flagship university of the northern state where I grew up. Attending this university was an important step for me as I worked toward my college degree. It represents the educational opportunities I was able to access in America despite the hardships my family faced.",
+    "cues": [
+      "higher education",
+      "Minnesota",
+      "college degree",
+      "immigrant experience"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_35_tunrayo_olanrewaju.yaml"
+  },
+  {
+    "entity_id": 7,
+    "entity": "Barney & Friends",
+    "explicit_text": "Growing up, I watched TV shows like Barney & Friends, which painted a picture of America as a place where you could be anything you wanted. These shows contributed to my early expectations about life in the United States before we moved here. However, the reality was much more complicated than those childhood impressions.",
+    "implicit_text": "Growing up, I watched children’s TV shows featuring a purple dinosaur, which painted a picture of America as a place where you could be anything you wanted. These shows contributed to my early expectations about life in the United States before we moved here. However, the reality was much more complicated than those childhood impressions.",
+    "cues": [
+      "childhood TV",
+      "expectations",
+      "immigration",
+      "cultural perception"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_35_tunrayo_olanrewaju.yaml"
+  },
+  {
+    "entity_id": 8,
+    "entity": "American Dream",
+    "explicit_text": "The American Dream was something my parents hoped for when we moved here, but I feel it failed them. They worked hard in jobs they never imagined, struggling to get ahead while raising four kids. I hope that the American Dream will not fail me as I pursue my law degree and try to achieve the success they dreamed of.",
+    "implicit_text": "The ideal of achieving success through hard work was something my parents hoped for when we moved here, but I feel it failed them. They worked hard in jobs they never imagined, struggling to get ahead while raising four kids. I hope that this ideal will not fail me as I pursue my law degree and try to achieve the success they dreamed of.",
+    "cues": [
+      "immigration",
+      "parents' struggles",
+      "hope",
+      "education",
+      "future aspirations"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_35_tunrayo_olanrewaju.yaml"
+  }
+]

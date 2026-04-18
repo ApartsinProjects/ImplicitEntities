@@ -1,0 +1,384 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "Paul Nirens",
+    "explicit_text": "My name is Paul Nirens, and I live in Israel. I come from a mixed Jewish family with roots in France, Poland, England, and Australia. I grew up around food since my father owned a steak restaurant in Melbourne, and I became a chef myself before transitioning into a career focused on Galilean cuisine here in Israel. I immigrated to Israel in 1984 after several visits and have been deeply involved in the local food scene ever since.",
+    "implicit_text": "My name is Paul Nirens, and I live in Israel. I come from a mixed Jewish family with roots in France, Poland, England, and Australia. I grew up around food since my father owned a steak restaurant in Melbourne, and I became a chef myself before transitioning into a career focused on Galilean cuisine here in Israel. I immigrated here in 1984 after several visits and have been deeply involved in the local food scene ever since.",
+    "cues": [
+      "born in Australia",
+      "immigrated to Israel 1984",
+      "chef",
+      "Galilean cuisine expert",
+      "father's restaurant in Melbourne"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\kentucky_ky_Interview_with_Paul_Nirens,_July_24,_2023.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "Akko",
+    "explicit_text": "I was interviewed at the Efendi Hotel in Akko in July 2023 for the Food & Foodways in Israel Palestine Project. Akko is where I shared my story about food and my journey from Australia to Israel. It’s a place that connects to my current life and work in Israel’s food culture.",
+    "implicit_text": "I was interviewed at the Efendi Hotel in the ancient coastal city in July 2023 for the Food & Foodways in Israel Palestine Project. This city is where I shared my story about food and my journey from Australia to Israel. It’s a place that connects to my current life and work in Israel’s food culture.",
+    "cues": [
+      "Efendi Hotel",
+      "July 24, 2023",
+      "Food & Foodways in Israel Palestine Project"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\kentucky_ky_Interview_with_Paul_Nirens,_July_24,_2023.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "Louis B. Nunn Center for Oral History",
+    "explicit_text": "The oral history interview I participated in at Akko will be housed at the Louis B. Nunn Center for Oral History in Lexington, Kentucky. This center is preserving my story as part of their Food & Foodways in Israel Palestine Project. It’s an honor to have my experiences documented there.",
+    "implicit_text": "The oral history interview I participated in at the ancient coastal city will be housed at a prominent oral history center in Lexington, Kentucky. This center is preserving my story as part of their Food & Foodways in Israel Palestine Project. It’s an honor to have my experiences documented there.",
+    "cues": [
+      "oral history project",
+      "Lexington, Kentucky",
+      "Food & Foodways in Israel Palestine Project"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\kentucky_ky_Interview_with_Paul_Nirens,_July_24,_2023.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "France",
+    "explicit_text": "My father was born in France, which was part of our family’s journey. My grandfather left Poland for France because he thought it was more enlightened for Jews, but before World War II, he realized France wasn’t as safe as he hoped. This led the family to move again, eventually to Australia.",
+    "implicit_text": "My father was born in a Western European country, which was part of our family’s journey. My grandfather left Eastern Europe for this country because he thought it was more enlightened for Jews, but before World War II, he realized it wasn’t as safe as he hoped. This led the family to move again, eventually to Australia.",
+    "cues": [
+      "father born in France",
+      "grandfather left Poland",
+      "pre-World War II migration"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\kentucky_ky_Interview_with_Paul_Nirens,_July_24,_2023.yaml"
+  },
+  {
+    "entity_id": 5,
+    "entity": "Poland",
+    "explicit_text": "My grandfather was originally from Poland and was a man of vision who left Eastern Europe because he felt it wasn’t a good place for Jews. He was part of the Polish Jewish community, and I remember my grandfather attending the Warsaw Landsmanshaftn in Melbourne. Poland is a key part of my family’s heritage.",
+    "implicit_text": "My grandfather was originally from an Eastern European country and was a man of vision who left that region because he felt it wasn’t a good place for Jews. He was part of the Jewish community from that country, and I remember my grandfather attending a community organization from that city in Melbourne. That country is a key part of my family’s heritage.",
+    "cues": [
+      "grandfather from Poland",
+      "Warsaw Landsmanshaftn",
+      "Polish Jewish community"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\kentucky_ky_Interview_with_Paul_Nirens,_July_24,_2023.yaml"
+  },
+  {
+    "entity_id": 6,
+    "entity": "Australia",
+    "explicit_text": "Australia became home to my family after leaving Europe, as my grandfather wanted to get as far away as possible from Europe before World War II. My mother’s side also came to Australia, though as convicts from England in the 1830s. I grew up in Melbourne, where my family owned a steak restaurant, and I lived there until I made aliyah in 1984.",
+    "implicit_text": "A country in the Southern Hemisphere became home to my family after leaving Europe, as my grandfather wanted to get as far away as possible from Europe before World War II. My mother’s side also came to this country, though as convicts from England in the 1830s. I grew up in its city of Melbourne, where my family owned a steak restaurant, and I lived there until I made aliyah in 1984.",
+    "cues": [
+      "family moved to Australia pre-WWII",
+      "Melbourne",
+      "mother’s convict ancestry",
+      "family restaurant"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\kentucky_ky_Interview_with_Paul_Nirens,_July_24,_2023.yaml"
+  },
+  {
+    "entity_id": 7,
+    "entity": "England",
+    "explicit_text": "On my mother’s side, we discovered that our ancestors came from England as convicts in the 1830s. This was a surprising part of my family history, contrasting with my father’s side. England is part of my heritage through my maternal lineage.",
+    "implicit_text": "On my mother’s side, we discovered that our ancestors came from a European island nation as convicts in the 1830s. This was a surprising part of my family history, contrasting with my father’s side. That country is part of my heritage through my maternal lineage.",
+    "cues": [
+      "mother’s paternal ancestors",
+      "convicts in 1830s",
+      "family history"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\kentucky_ky_Interview_with_Paul_Nirens,_July_24,_2023.yaml"
+  },
+  {
+    "entity_id": 8,
+    "entity": "Melbourne",
+    "explicit_text": "Melbourne is where I grew up and where my family owned a steak restaurant called the Barbecue Inn. It was a vibrant Jewish community with strong ties to Polish Jewish culture. I also attended Mount Scopus Memorial College there, the largest Jewish day school in the diaspora.",
+    "implicit_text": "The city where I grew up and where my family owned a steak restaurant called the Barbecue Inn was a vibrant Jewish community with strong ties to Polish Jewish culture. I also attended the largest Jewish day school in the diaspora located there. This city shaped much of my early life.",
+    "cues": [
+      "family restaurant Barbecue Inn",
+      "Jewish community",
+      "Mount Scopus Memorial College",
+      "1970s-1980s"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\kentucky_ky_Interview_with_Paul_Nirens,_July_24,_2023.yaml"
+  },
+  {
+    "entity_id": 9,
+    "entity": "Wagyu",
+    "explicit_text": "My father’s steak restaurant in Melbourne operated before Wagyu beef became popular, so we served quality Australian beef instead. Wagyu wasn’t part of our menu back then, but we focused on good barbecue and steak dishes. It was a different era in the steak business.",
+    "implicit_text": "My father’s steak restaurant in Melbourne operated before a famous Japanese beef variety became popular, so we served quality Australian beef instead. That Japanese beef wasn’t part of our menu back then, but we focused on good barbecue and steak dishes. It was a different era in the steak business.",
+    "cues": [
+      "Barbecue Inn restaurant",
+      "1970s",
+      "Australian beef",
+      "pre-Wagyu popularity"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\kentucky_ky_Interview_with_Paul_Nirens,_July_24,_2023.yaml"
+  },
+  {
+    "entity_id": 10,
+    "entity": "Yugoslavia",
+    "explicit_text": "At my father’s restaurant in Melbourne, we had a Yugoslavian pastry and cold portion chef before Yugoslavia broke apart. She taught us many Central European dishes like cevapcici, which influenced our menu and my food knowledge. This exposure helped shape my appreciation for diverse cuisines.",
+    "implicit_text": "At my father’s restaurant in Melbourne, we had a pastry and cold portion chef from a now-dissolved Balkan country before it broke apart. She taught us many Central European dishes like cevapcici, which influenced our menu and my food knowledge. This exposure helped shape my appreciation for diverse cuisines.",
+    "cues": [
+      "Yugoslavian chef",
+      "pre-Yugoslavia breakup",
+      "Central European dishes",
+      "cevapcici"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\kentucky_ky_Interview_with_Paul_Nirens,_July_24,_2023.yaml"
+  },
+  {
+    "entity_id": 11,
+    "entity": "Cevapcici",
+    "explicit_text": "Cevapcici was one of the traditional Balkan dishes we learned to make at my father’s restaurant in Melbourne. It’s a garlic-filled kabob from the Balkans, and our Yugoslavian chef made her own sausages. This dish was part of the diverse culinary influences I grew up with.",
+    "implicit_text": "Cevapcici was one of the traditional Balkan dishes we learned to make at my father’s restaurant in Melbourne. It’s a garlic-filled kabob from the Balkans, and our chef from that region made her own sausages. This dish was part of the diverse culinary influences I grew up with.",
+    "cues": [
+      "Balkan kabob",
+      "Yugoslavian chef",
+      "Melbourne restaurant",
+      "garlic sausages"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\kentucky_ky_Interview_with_Paul_Nirens,_July_24,_2023.yaml"
+  },
+  {
+    "entity_id": 12,
+    "entity": "Peking duck",
+    "explicit_text": "My father used to hang a duck up to dry it out to make Peking duck at home, showing his adventurous approach to food. This was in the 1970s in Melbourne, and it was part of the diverse cooking techniques I was exposed to growing up. It inspired my own food exploration.",
+    "implicit_text": "My father used to hang a duck up to dry it out to make a famous Chinese duck dish at home, showing his adventurous approach to food. This was in the 1970s in Melbourne, and it was part of the diverse cooking techniques I was exposed to growing up. It inspired my own food exploration.",
+    "cues": [
+      "1970s Melbourne",
+      "father’s cooking",
+      "food exploration",
+      "Peking duck preparation"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\kentucky_ky_Interview_with_Paul_Nirens,_July_24,_2023.yaml"
+  },
+  {
+    "entity_id": 13,
+    "entity": "Wonton",
+    "explicit_text": "My father also made wontons from scratch, which was part of his experimental and inquisitive approach to food. Growing up with such diverse culinary experiences, including making wontons, influenced my passion for food and cooking. It was all part of my food adventurer identity.",
+    "implicit_text": "My father also made Chinese dumplings from scratch, which was part of his experimental and inquisitive approach to food. Growing up with such diverse culinary experiences, including making these dumplings, influenced my passion for food and cooking. It was all part of my food adventurer identity.",
+    "cues": [
+      "father’s cooking",
+      "1970s Melbourne",
+      "homemade wontons",
+      "food exploration"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\kentucky_ky_Interview_with_Paul_Nirens,_July_24,_2023.yaml"
+  },
+  {
+    "entity_id": 14,
+    "entity": "Israel",
+    "explicit_text": "I immigrated to Israel in 1984 after several visits starting in 1978 for gap year programs. I lived on a kibbutz in the Western Galilee and eventually settled in the community neighborhood of Tuval. Israel is where I built my family, career, and deepened my connection to Jewish identity and Galilean cuisine.",
+    "implicit_text": "I immigrated here in 1984 after several visits starting in 1978 for gap year programs. I lived on a kibbutz in the Western Galilee and eventually settled in the community neighborhood of Tuval. This country is where I built my family, career, and deepened my connection to Jewish identity and Galilean cuisine.",
+    "cues": [
+      "immigration 1984",
+      "kibbutz in Western Galilee",
+      "Tuval community",
+      "Jewish youth movements"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\kentucky_ky_Interview_with_Paul_Nirens,_July_24,_2023.yaml"
+  },
+  {
+    "entity_id": 15,
+    "entity": "Bali",
+    "explicit_text": "On my way from Australia to Israel in 1984, I traveled overland and flew to Bali as part of my journey. From Bali, I continued overland through Asia, aiming to reach Israel while experiencing different cultures and foods. Bali was a key stop on this adventurous route.",
+    "implicit_text": "On my way from Australia to Israel in 1984, I traveled overland and flew to an Indonesian island as part of my journey. From there, I continued overland through Asia, aiming to reach Israel while experiencing different cultures and foods. That island was a key stop on this adventurous route.",
+    "cues": [
+      "1984 travel",
+      "overland journey",
+      "Bali stopover",
+      "cultural exploration"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\kentucky_ky_Interview_with_Paul_Nirens,_July_24,_2023.yaml"
+  },
+  {
+    "entity_id": 16,
+    "entity": "India",
+    "explicit_text": "During my 1984 journey to Israel, I traveled across land through India. I wanted to continue into Pakistan and Afghanistan but found it too dangerous at the time. India was part of this formative travel experience that combined culture and food exploration.",
+    "implicit_text": "During my 1984 journey to Israel, I traveled across land through a South Asian country. I wanted to continue into neighboring countries but found it too dangerous at the time. That country was part of this formative travel experience that combined culture and food exploration.",
+    "cues": [
+      "1984 travel",
+      "overland route",
+      "India",
+      "cultural and food experience"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\kentucky_ky_Interview_with_Paul_Nirens,_July_24,_2023.yaml"
+  },
+  {
+    "entity_id": 17,
+    "entity": "Pakistan",
+    "explicit_text": "I had planned to travel through Pakistan on my way to Israel in 1984, but it was too dangerous then, so I had to change my route. This was part of my overland journey from Australia through Asia, which was both adventurous and challenging. Pakistan was a place I wanted to explore but couldn’t at that time.",
+    "implicit_text": "I had planned to travel through a South Asian country on my way to Israel in 1984, but it was too dangerous then, so I had to change my route. This was part of my overland journey from Australia through Asia, which was both adventurous and challenging. That country was a place I wanted to explore but couldn’t at that time.",
+    "cues": [
+      "1984 travel",
+      "overland journey",
+      "dangerous conditions",
+      "route change"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\kentucky_ky_Interview_with_Paul_Nirens,_July_24,_2023.yaml"
+  },
+  {
+    "entity_id": 18,
+    "entity": "Afghanistan",
+    "explicit_text": "Afghanistan was another country I intended to cross during my 1984 journey to Israel, but due to safety concerns, I avoided it. This was during a turbulent time in the region, so I flew to Italy instead. Afghanistan was part of the broader context of my adventurous travel route.",
+    "implicit_text": "Another country in South-Central Asia was one I intended to cross during my 1984 journey to Israel, but due to safety concerns, I avoided it. This was during a turbulent time in the region, so I flew to Italy instead. That country was part of the broader context of my adventurous travel route.",
+    "cues": [
+      "1984 travel",
+      "dangerous conditions",
+      "avoided Afghanistan",
+      "overland journey"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\kentucky_ky_Interview_with_Paul_Nirens,_July_24,_2023.yaml"
+  },
+  {
+    "entity_id": 19,
+    "entity": "Italy",
+    "explicit_text": "After traveling overland through Asia and avoiding dangerous areas, I flew into Italy in 1984 as part of my journey to Israel. Italy was a key waypoint before completing my aliyah. It marked the transition from my long overland trip to settling in Israel.",
+    "implicit_text": "After traveling overland through Asia and avoiding dangerous areas, I flew into a European country in 1984 as part of my journey to Israel. That country was a key waypoint before completing my aliyah. It marked the transition from my long overland trip to settling in Israel.",
+    "cues": [
+      "1984 travel",
+      "flight to Italy",
+      "overland journey",
+      "immigration to Israel"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\kentucky_ky_Interview_with_Paul_Nirens,_July_24,_2023.yaml"
+  },
+  {
+    "entity_id": 20,
+    "entity": "Habonim",
+    "explicit_text": "I was involved in the Jewish youth movement Habonim during my early visits to Israel starting in 1978. Habonim was part of my connection to Jewish identity and community, helping me build ties before making aliyah. It was my first youth group before I joined Hashomer Hatzair.",
+    "implicit_text": "I was involved in a Jewish youth movement during my early visits to Israel starting in 1978. This movement was part of my connection to Jewish identity and community, helping me build ties before making aliyah. It was my first youth group before I joined a more left-wing movement.",
+    "cues": [
+      "Jewish youth movement",
+      "1978 gap year",
+      "early Israel visits",
+      "community connection"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\kentucky_ky_Interview_with_Paul_Nirens,_July_24,_2023.yaml"
+  },
+  {
+    "entity_id": 21,
+    "entity": "Hashomer Hatzair",
+    "explicit_text": "After Habonim, I joined Hashomer Hatzair, a more left-wing Jewish youth movement, during my time in Israel. It was through this group that I met Ilya, who became my wife. Hashomer Hatzair played an important role in my social and ideological life in Israel.",
+    "implicit_text": "After my first youth group, I joined a more left-wing Jewish youth movement during my time in Israel. It was through this group that I met Ilya, who became my wife. This movement played an important role in my social and ideological life in Israel.",
+    "cues": [
+      "Jewish youth movement",
+      "left-wing",
+      "met wife Ilya",
+      "early 1980s Israel"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\kentucky_ky_Interview_with_Paul_Nirens,_July_24,_2023.yaml"
+  },
+  {
+    "entity_id": 22,
+    "entity": "Zionism",
+    "explicit_text": "While my parents weren’t overtly Zionist, I had a strong Jewish identity and was involved in Zionist youth movements like Habonim and Hashomer Hatzair. I felt a Zionist fervor when I made aliyah in 1984, believing Israel was where I belonged. Zionism influenced my decision to stay and build a life here.",
+    "implicit_text": "While my parents weren’t overtly Zionist, I had a strong Jewish identity and was involved in Zionist youth movements like the ones I mentioned. I felt a Zionist fervor when I made aliyah in 1984, believing this country was where I belonged. Zionism influenced my decision to stay and build a life here.",
+    "cues": [
+      "Jewish identity",
+      "youth movements",
+      "aliyah 1984",
+      "personal Zionist fervor"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\kentucky_ky_Interview_with_Paul_Nirens,_July_24,_2023.yaml"
+  },
+  {
+    "entity_id": 23,
+    "entity": "Mount Scopus Memorial College",
+    "explicit_text": "I attended Mount Scopus Memorial College in Melbourne, which is the largest Jewish day school in the diaspora. It was a significant part of my upbringing and Jewish education. The school connected me to Jewish culture and community before I moved to Israel.",
+    "implicit_text": "I attended the largest Jewish day school in the diaspora located in Melbourne. It was a significant part of my upbringing and Jewish education. The school connected me to Jewish culture and community before I moved to Israel.",
+    "cues": [
+      "Jewish day school",
+      "Melbourne",
+      "largest in diaspora",
+      "1970s-1980s education"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\kentucky_ky_Interview_with_Paul_Nirens,_July_24,_2023.yaml"
+  },
+  {
+    "entity_id": 24,
+    "entity": "Warsaw",
+    "explicit_text": "My grandfather was connected to the Warsaw Landsmanshaftn, a Polish Jewish community organization that still existed in Melbourne in the 1970s. This link to Warsaw was part of my family’s heritage and the preservation of Polish Jewish culture abroad. It was a strong community connection for us.",
+    "implicit_text": "My grandfather was connected to a Polish Jewish community organization from the capital city of Poland that still existed in Melbourne in the 1970s. This link to that city was part of my family’s heritage and the preservation of Polish Jewish culture abroad. It was a strong community connection for us.",
+    "cues": [
+      "Warsaw Landsmanshaftn",
+      "Polish Jewish community",
+      "Melbourne 1970s",
+      "family heritage"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\kentucky_ky_Interview_with_Paul_Nirens,_July_24,_2023.yaml"
+  },
+  {
+    "entity_id": 25,
+    "entity": "Tuval",
+    "explicit_text": "In Israel, we lived in the community neighborhood of Tuval in the Western Galilee mountains. We were once members of the kibbutz there but later moved to the community area. Tuval has been home for raising our four children and building our life in Israel.",
+    "implicit_text": "In Israel, we lived in the community neighborhood of Tuval in the Western Galilee mountains. We were once members of the kibbutz there but later moved to the community area. Tuval has been home for raising our four children and building our life in Israel.",
+    "cues": [
+      "Western Galilee",
+      "kibbutz and community neighborhood",
+      "family life",
+      "post-1984 aliyah"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\kentucky_ky_Interview_with_Paul_Nirens,_July_24,_2023.yaml"
+  },
+  {
+    "entity_id": 26,
+    "entity": "Scud missile",
+    "explicit_text": "The transcript does not mention any personal experiences or stories related to Scud missiles, so I have no direct connection or narrative about them.",
+    "implicit_text": "The transcript does not mention any personal experiences or stories related to Scud missiles, so I have no direct connection or narrative about them.",
+    "cues": [],
+    "transcript_ref": "veterans\\nevada_wwii\\kentucky_ky_Interview_with_Paul_Nirens,_July_24,_2023.yaml"
+  },
+  {
+    "entity_id": 27,
+    "entity": "Oslo Accords",
+    "explicit_text": "The Oslo Accords were not discussed in my interview, so I do not have a personal story or reflection related to them in this context.",
+    "implicit_text": "The Oslo Accords were not discussed in my interview, so I do not have a personal story or reflection related to them in this context.",
+    "cues": [],
+    "transcript_ref": "veterans\\nevada_wwii\\kentucky_ky_Interview_with_Paul_Nirens,_July_24,_2023.yaml"
+  },
+  {
+    "entity_id": 28,
+    "entity": "Dalia's Restaurant",
+    "explicit_text": "Dalia's Restaurant was not mentioned in my interview, so I have no direct connection or experience to share about it.",
+    "implicit_text": "A certain restaurant was not mentioned in my interview, so I have no direct connection or experience to share about it.",
+    "cues": [],
+    "transcript_ref": "veterans\\nevada_wwii\\kentucky_ky_Interview_with_Paul_Nirens,_July_24,_2023.yaml"
+  },
+  {
+    "entity_id": 29,
+    "entity": "Amirim",
+    "explicit_text": "Amirim was not discussed in my interview, so I do not have personal experiences or stories related to this place.",
+    "implicit_text": "A particular community village in northern Israel was not discussed in my interview, so I do not have personal experiences or stories related to this place.",
+    "cues": [],
+    "transcript_ref": "veterans\\nevada_wwii\\kentucky_ky_Interview_with_Paul_Nirens,_July_24,_2023.yaml"
+  },
+  {
+    "entity_id": 30,
+    "entity": "Plaza Hotel (Tiberias)",
+    "explicit_text": "The Plaza Hotel in Tiberias was not mentioned during my interview, so I have no personal narrative connected to it.",
+    "implicit_text": "A well-known hotel in a city by the Sea of Galilee was not mentioned during my interview, so I have no personal narrative connected to it.",
+    "cues": [],
+    "transcript_ref": "veterans\\nevada_wwii\\kentucky_ky_Interview_with_Paul_Nirens,_July_24,_2023.yaml"
+  },
+  {
+    "entity_id": 31,
+    "entity": "Tiberias",
+    "explicit_text": "Tiberias was not a focal point in my interview, so I do not have specific stories or experiences related to that city.",
+    "implicit_text": "A city on the western shore of the Sea of Galilee was not a focal point in my interview, so I do not have specific stories or experiences related to that city.",
+    "cues": [],
+    "transcript_ref": "veterans\\nevada_wwii\\kentucky_ky_Interview_with_Paul_Nirens,_July_24,_2023.yaml"
+  },
+  {
+    "entity_id": 32,
+    "entity": "Western Galilee",
+    "explicit_text": "I lived on a kibbutz in the mountains of the Western Galilee when my children were young, and later in the community neighborhood of Tuval nearby. The Western Galilee is where I have focused much of my culinary work, specializing in Galilean cuisine that includes local Arabic influences. It’s a region I deeply know and love.",
+    "implicit_text": "I lived on a kibbutz in the mountains of the northern coastal region when my children were young, and later in the community neighborhood of Tuval nearby. This region is where I have focused much of my culinary work, specializing in Galilean cuisine that includes local Arabic influences. It’s a region I deeply know and love.",
+    "cues": [
+      "kibbutz residence",
+      "Tuval community",
+      "Galilean cuisine expert",
+      "family life"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\kentucky_ky_Interview_with_Paul_Nirens,_July_24,_2023.yaml"
+  }
+]

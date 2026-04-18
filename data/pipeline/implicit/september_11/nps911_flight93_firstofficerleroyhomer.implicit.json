@@ -1,0 +1,165 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "LeRoy Homer",
+    "explicit_text": "I am LeRoy Homer, the First Officer of Flight 93. I grew up on Long Island, New York, where I developed a passion for flying and earned my private pilot's license at 16. After graduating from the United States Air Force Academy in 1987, I served in Operations Desert Shield and Desert Storm and flew humanitarian missions to Somalia. I began my career with United Airlines in 1995 while continuing to serve in the United States Air Force Reserve, reaching the rank of Major. My wife and I settled in Marlton, New Jersey, where our first child was born in 2000.",
+    "implicit_text": "I am the First Officer of the flight that tragically crashed in Pennsylvania on September 11, 2001. I grew up on Long Island, New York, where I developed a passion for flying and earned my private pilot's license at 16. After graduating from the military academy in 1987, I served in Operations Desert Shield and Desert Storm and flew humanitarian missions to Somalia. I began my career with a major American airline in 1995 while continuing to serve in the Air Force Reserve, reaching the rank of Major. My wife and I settled in Marlton, New Jersey, where our first child was born in 2000.",
+    "cues": [
+      "Long Island, New York",
+      "private pilot's license at 16",
+      "United States Air Force Academy 1987",
+      "Operations Desert Shield",
+      "Operations Desert Storm",
+      "Somalia humanitarian missions",
+      "United Airlines 1995",
+      "United States Air Force Reserve Major",
+      "Marlton, New Jersey",
+      "first child born 2000"
+    ],
+    "transcript_ref": "september_11\\nps911_flight93_firstofficerleroyhomer.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "United States National Park Service",
+    "explicit_text": "The United States National Park Service manages and preserves important sites, including the Flight 93 National Memorial. They provide official information and resources about these sites through their government website. Their role is to help people explore and understand the history and significance of places like the one connected to Flight 93.",
+    "implicit_text": "The federal agency responsible for managing and preserving national parks oversees important sites, including the memorial dedicated to the flight that crashed in Pennsylvania on September 11, 2001. They provide official information and resources about these sites through their government website. Their role is to help people explore and understand the history and significance of places connected to that tragic event.",
+    "cues": [
+      "Flight 93 National Memorial",
+      "official U.S. government website",
+      "preservation",
+      "public education"
+    ],
+    "transcript_ref": "september_11\\nps911_flight93_firstofficerleroyhomer.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "United States",
+    "explicit_text": "I have served my country, the United States, both in the military and as a commercial pilot. My experiences span from graduating at the United States Air Force Academy to participating in military operations and flying for United Airlines. The United States has been the backdrop for my personal and professional life, including my upbringing, military service, and family life in Marlton, New Jersey.",
+    "implicit_text": "I have served my country both in the military and as a commercial pilot. My experiences span from graduating at the military academy to participating in military operations and flying for a major American airline. This country has been the backdrop for my personal and professional life, including my upbringing, military service, and family life in Marlton, New Jersey.",
+    "cues": [
+      "United States Air Force Academy",
+      "Operations Desert Shield and Desert Storm",
+      "United Airlines",
+      "Marlton, New Jersey"
+    ],
+    "transcript_ref": "september_11\\nps911_flight93_firstofficerleroyhomer.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "Marlton, New Jersey",
+    "explicit_text": "My wife and I settled in Marlton, New Jersey, where we started our family. It was here that our first child was born in 2000, marking an important chapter in our lives. Marlton has been our home while I balanced my career with United Airlines and my service in the Air Force Reserve.",
+    "implicit_text": "My wife and I settled in the suburban community in New Jersey where we started our family. It was here that our first child was born in 2000, marking an important chapter in our lives. This town has been our home while I balanced my career with a major airline and my service in the Air Force Reserve.",
+    "cues": [
+      "Marlton, New Jersey",
+      "first child born 2000",
+      "family life",
+      "United Airlines career",
+      "Air Force Reserve service"
+    ],
+    "transcript_ref": "september_11\\nps911_flight93_firstofficerleroyhomer.yaml"
+  },
+  {
+    "entity_id": 5,
+    "entity": "Long Island",
+    "explicit_text": "I grew up on Long Island, New York, where my love for planes and flying began. It was there that I earned my private pilot's license at the young age of 16. Long Island was the foundation of my passion for aviation that guided my future career and military service.",
+    "implicit_text": "I grew up on the large island in New York known for its proximity to the city, where my love for planes and flying began. It was there that I earned my private pilot's license at the young age of 16. That area was the foundation of my passion for aviation that guided my future career and military service.",
+    "cues": [
+      "Long Island, New York",
+      "private pilot's license at 16",
+      "early passion for flying"
+    ],
+    "transcript_ref": "september_11\\nps911_flight93_firstofficerleroyhomer.yaml"
+  },
+  {
+    "entity_id": 6,
+    "entity": "United Airlines",
+    "explicit_text": "I started my career with United Airlines in 1995 as a First Officer. While working there, I continued my service in the United States Air Force Reserve, balancing both roles. United Airlines was a significant part of my professional life until the tragic events involving Flight 93.",
+    "implicit_text": "I started my career with a major American airline in 1995 as a First Officer. While working there, I continued my service in the Air Force Reserve, balancing both roles. This airline was a significant part of my professional life until the tragic events involving the flight that crashed in Pennsylvania on September 11, 2001.",
+    "cues": [
+      "United Airlines 1995",
+      "First Officer",
+      "concurrent Air Force Reserve service",
+      "Flight 93"
+    ],
+    "transcript_ref": "september_11\\nps911_flight93_firstofficerleroyhomer.yaml"
+  },
+  {
+    "entity_id": 7,
+    "entity": "United States Air Force Academy",
+    "explicit_text": "I graduated from the United States Air Force Academy in 1987, which set the course for my military career. The Academy provided me with the training and discipline needed to serve in Operations Desert Shield and Desert Storm. It was a pivotal institution in shaping my life as both a military officer and aviator.",
+    "implicit_text": "I graduated from the federal military academy in 1987, which set the course for my military career. The academy provided me with the training and discipline needed to serve in Operations Desert Shield and Desert Storm. It was a pivotal institution in shaping my life as both a military officer and aviator.",
+    "cues": [
+      "United States Air Force Academy 1987",
+      "military training",
+      "Operations Desert Shield",
+      "Operations Desert Storm"
+    ],
+    "transcript_ref": "september_11\\nps911_flight93_firstofficerleroyhomer.yaml"
+  },
+  {
+    "entity_id": 8,
+    "entity": "Operation Desert Shield",
+    "explicit_text": "I served in Operation Desert Shield as part of my military duties after graduating from the Air Force Academy. This operation was a critical period in the early 1990s when the United States prepared for conflict in the Gulf region. My role during Desert Shield helped prepare me for subsequent missions and responsibilities.",
+    "implicit_text": "I served in the early 1990s military buildup in the Gulf region as part of my duties after graduating from the military academy. This operation was a critical period when the country prepared for conflict in that area. My role during this buildup helped prepare me for subsequent missions and responsibilities.",
+    "cues": [
+      "Operation Desert Shield",
+      "early 1990s",
+      "military service",
+      "United States Air Force"
+    ],
+    "transcript_ref": "september_11\\nps911_flight93_firstofficerleroyhomer.yaml"
+  },
+  {
+    "entity_id": 9,
+    "entity": "Operation Desert Storm",
+    "explicit_text": "Following Operation Desert Shield, I also served in Operation Desert Storm, the combat phase of the Gulf War. This experience was intense and formative, involving active military engagement in the early 1990s. Serving in Desert Storm was a key part of my Air Force career.",
+    "implicit_text": "Following the buildup phase, I also served in the combat phase of the Gulf War in the early 1990s. This experience was intense and formative, involving active military engagement. Serving in this combat operation was a key part of my Air Force career.",
+    "cues": [
+      "Operation Desert Storm",
+      "early 1990s",
+      "Gulf War",
+      "military service"
+    ],
+    "transcript_ref": "september_11\\nps911_flight93_firstofficerleroyhomer.yaml"
+  },
+  {
+    "entity_id": 10,
+    "entity": "Somalia",
+    "explicit_text": "In addition to combat operations, I flew humanitarian missions to Somalia. These missions were important efforts to provide aid and support during difficult times in that region. My service in Somalia broadened my experience beyond combat to include humanitarian assistance.",
+    "implicit_text": "In addition to combat operations, I flew humanitarian missions to the East African nation experiencing crisis. These missions were important efforts to provide aid and support during difficult times in that region. My service there broadened my experience beyond combat to include humanitarian assistance.",
+    "cues": [
+      "Somalia",
+      "humanitarian missions",
+      "military service",
+      "United States Air Force"
+    ],
+    "transcript_ref": "september_11\\nps911_flight93_firstofficerleroyhomer.yaml"
+  },
+  {
+    "entity_id": 11,
+    "entity": "United States Air Force Reserve",
+    "explicit_text": "While working as a commercial pilot, I continued serving in the United States Air Force Reserve, achieving the rank of Major. Balancing both careers was challenging but rewarding, allowing me to serve my country while pursuing my passion for flying. The Reserve kept me connected to military service even as I flew for United Airlines.",
+    "implicit_text": "While working as a commercial pilot, I continued serving in the Air Force Reserve, achieving the rank of Major. Balancing both careers was challenging but rewarding, allowing me to serve my country while pursuing my passion for flying. The Reserve kept me connected to military service even as I flew for a major American airline.",
+    "cues": [
+      "United States Air Force Reserve",
+      "rank of Major",
+      "concurrent with United Airlines career",
+      "military service"
+    ],
+    "transcript_ref": "september_11\\nps911_flight93_firstofficerleroyhomer.yaml"
+  },
+  {
+    "entity_id": 12,
+    "entity": "Flight 93",
+    "explicit_text": "I was the First Officer of Flight 93, a flight that became tragically significant on September 11, 2001. This flight is remembered for the bravery of the crew and passengers in the face of a terrorist attack. Being part of Flight 93 is a defining part of my legacy and story.",
+    "implicit_text": "I was the First Officer of the flight that became tragically significant on September 11, 2001. This flight is remembered for the bravery of the crew and passengers in the face of a terrorist attack. Being part of this flight is a defining part of my legacy and story.",
+    "cues": [
+      "Flight 93",
+      "First Officer",
+      "September 11, 2001",
+      "terrorist attack",
+      "crew and passenger bravery"
+    ],
+    "transcript_ref": "september_11\\nps911_flight93_firstofficerleroyhomer.yaml"
+  }
+]

@@ -1,0 +1,163 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "Poland",
+    "explicit_text": "I was born in a small town in Poland called Gonitz. After World War I, when I was about twenty-one, I was called to serve in the Polish Army, but my wife didn't want me to go. Life in Poland was hard, especially after the war, and my wife wrote me letters telling me how terrible it was there. I couldn't go back, especially after one of our children died, so I tried to bring my family to America.",
+    "implicit_text": "I was born in a small town called Gonitz in a Central European country. After World War I, when I was about twenty-one, I was called to serve in the national army, but my wife didn't want me to go. Life there was hard, especially after the war, and my wife wrote me letters telling me how terrible it was. I couldn't go back, especially after one of our children died, so I tried to bring my family to America.",
+    "cues": [
+      "Gonitz",
+      "Poland",
+      "post-World War I",
+      "family letters",
+      "child's death"
+    ],
+    "transcript_ref": "depression_era\\federal_writers_project\\fwp_I_Sell_Fish.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "Polish Army",
+    "explicit_text": "Two years after World War I, I was called to serve in the Polish Army. My wife was against it and urged me to try to go to America instead. I was actually running away from military service, which made it impossible to get a passport. That decision set me on a difficult path to escape Poland and eventually reach the United States.",
+    "implicit_text": "Two years after World War I, I was called to serve in my country's army. My wife was against it and urged me to try to go to America instead. I was actually running away from military service, which made it impossible to get a passport. That decision set me on a difficult path to escape my homeland and eventually reach the United States.",
+    "cues": [
+      "post-World War I",
+      "military service",
+      "escape",
+      "passport issues"
+    ],
+    "transcript_ref": "depression_era\\federal_writers_project\\fwp_I_Sell_Fish.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "Germany",
+    "explicit_text": "I crossed into Germany on a cold January night by walking through the woods with two other men. After paying fifteen marks to the guide, we waited until morning and then took a wagon to Berlin. Germany was just the first step on my long journey from Poland to America.",
+    "implicit_text": "I crossed into a neighboring country on a cold January night by walking through the woods with two other men. After paying fifteen marks to the guide, we waited until morning and then took a wagon to its capital city. That country was just the first step on my long journey from my homeland to America.",
+    "cues": [
+      "January night",
+      "crossing border",
+      "Berlin",
+      "fleeing Poland"
+    ],
+    "transcript_ref": "depression_era\\federal_writers_project\\fwp_I_Sell_Fish.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "Berlin",
+    "explicit_text": "After entering Germany, we took a wagon to Berlin and then caught a train to Amsterdam. Berlin was a brief stop on my way out of Europe, but it was an important part of the route that eventually led me to America. From there, the journey continued through Holland and beyond.",
+    "implicit_text": "After entering that neighboring country, we took a wagon to its capital and then caught a train to Amsterdam. That city was a brief stop on my way out of Europe, but it was an important part of the route that eventually led me to America. From there, the journey continued through Holland and beyond.",
+    "cues": [
+      "wagon ride",
+      "train to Amsterdam",
+      "transit point",
+      "escape route"
+    ],
+    "transcript_ref": "depression_era\\federal_writers_project\\fwp_I_Sell_Fish.yaml"
+  },
+  {
+    "entity_id": 5,
+    "entity": "Amsterdam",
+    "explicit_text": "From Berlin, I took a train to Amsterdam in Holland. Amsterdam was where I boarded a ship bound for Cuba. It was one of the key transit points on my way to America, although the real challenges began once I reached Cuba.",
+    "implicit_text": "From the capital of that neighboring country, I took a train to Amsterdam in Holland. Amsterdam was where I boarded a ship bound for Cuba. It was one of the key transit points on my way to America, although the real challenges began once I reached Cuba.",
+    "cues": [
+      "train from Berlin",
+      "departure point",
+      "ship to Cuba",
+      "early 1920s"
+    ],
+    "transcript_ref": "depression_era\\federal_writers_project\\fwp_I_Sell_Fish.yaml"
+  },
+  {
+    "entity_id": 6,
+    "entity": "Holland",
+    "explicit_text": "Holland was part of my journey when I traveled from Berlin to Amsterdam. It was there that I boarded a boat to Cuba, marking the start of a very difficult leg of my trip. Holland was a stepping stone on my way from Europe to the Americas.",
+    "implicit_text": "Holland was part of my journey when I traveled from that neighboring country's capital to Amsterdam. It was there that I boarded a boat to Cuba, marking the start of a very difficult leg of my trip. Holland was a stepping stone on my way from Europe to the Americas.",
+    "cues": [
+      "Amsterdam",
+      "train travel",
+      "boat to Cuba",
+      "early 1920s"
+    ],
+    "transcript_ref": "depression_era\\federal_writers_project\\fwp_I_Sell_Fish.yaml"
+  },
+  {
+    "entity_id": 7,
+    "entity": "Cuba",
+    "explicit_text": "I arrived in Cuba after leaving Holland, and that's where the real excitement and hardship began. I stayed in a boarding house sharing a room with two other men while I tried to find a way to get to Chicago. After six weeks, I paid a man $150 to smuggle me into America, which involved a terrifying night crossing by boat to Key West.",
+    "implicit_text": "I arrived in Cuba after leaving Holland, and that's where the real excitement and hardship began. I stayed in a boarding house sharing a room with two other men while I tried to find a way to get to Chicago. After six weeks, I paid a man $150 to smuggle me into America, which involved a terrifying night crossing by boat to Key West.",
+    "cues": [
+      "boarding house",
+      "six weeks stay",
+      "smuggling to America",
+      "boat to Key West",
+      "early 1920s"
+    ],
+    "transcript_ref": "depression_era\\federal_writers_project\\fwp_I_Sell_Fish.yaml"
+  },
+  {
+    "entity_id": 8,
+    "entity": "Chicago",
+    "explicit_text": "Chicago was my final destination in America, where I had three brothers and many relatives. When I arrived, I was so overwhelmed that I cried like a baby. My brother helped me start selling fish, which I have done ever since. Although I faced many challenges, including not being able to bring my family at first, Chicago became my new home.",
+    "implicit_text": "Chicago was my final destination in America, where I had three brothers and many relatives. When I arrived, I was so overwhelmed that I cried like a baby. My brother helped me start selling fish, which I have done ever since. Although I faced many challenges, including not being able to bring my family at first, Chicago became my new home.",
+    "cues": [
+      "arrival in Chicago",
+      "family there",
+      "selling fish",
+      "early 1920s",
+      "emotional reunion"
+    ],
+    "transcript_ref": "depression_era\\federal_writers_project\\fwp_I_Sell_Fish.yaml"
+  },
+  {
+    "entity_id": 9,
+    "entity": "Key West, Florida",
+    "explicit_text": "After a grueling and cramped boat ride from Cuba, we finally reached Key West, Florida, late one night. We were exhausted and nearly dead from thirst and heat, but the man who smuggled us helped wash our faces and gave us some water. We stayed at a dirty boarding house near the ocean before continuing our journey by train.",
+    "implicit_text": "After a grueling and cramped boat ride from Cuba, we finally reached a southernmost city in Florida late one night. We were exhausted and nearly dead from thirst and heat, but the man who smuggled us helped wash our faces and gave us some water. We stayed at a dirty boarding house near the ocean before continuing our journey by train.",
+    "cues": [
+      "boat ride from Cuba",
+      "late night arrival",
+      "boarding house",
+      "early 1920s"
+    ],
+    "transcript_ref": "depression_era\\federal_writers_project\\fwp_I_Sell_Fish.yaml"
+  },
+  {
+    "entity_id": 10,
+    "entity": "Jacksonville, Florida",
+    "explicit_text": "From Key West, we took a train to Jacksonville, Florida, where we waited for six hours before boarding another train to Chicago. Jacksonville was just a brief stop on my long journey to reunite with my family. It was part of the route that finally brought me to my new life in America.",
+    "implicit_text": "From that southernmost city, we took a train to Jacksonville, Florida, where we waited for six hours before boarding another train to Chicago. Jacksonville was just a brief stop on my long journey to reunite with my family. It was part of the route that finally brought me to my new life in America.",
+    "cues": [
+      "train travel",
+      "six-hour wait",
+      "transit point",
+      "early 1920s"
+    ],
+    "transcript_ref": "depression_era\\federal_writers_project\\fwp_I_Sell_Fish.yaml"
+  },
+  {
+    "entity_id": 11,
+    "entity": "United States",
+    "explicit_text": "I came to the United States after a long and difficult journey through Europe, Cuba, and Florida. I arrived in Chicago where my brothers lived, and I started selling fish to make a living. At first, I couldn't get citizenship because I was smuggled in, which meant I couldn't bring my wife and children. Eventually, a law passed that allowed me to get my papers and reunite my family here.",
+    "implicit_text": "I came to the country known as the United States after a long and difficult journey through Europe, Cuba, and Florida. I arrived in Chicago where my brothers lived, and I started selling fish to make a living. At first, I couldn't get citizenship because I was smuggled in, which meant I couldn't bring my wife and children. Eventually, a law passed that allowed me to get my papers and reunite my family here.",
+    "cues": [
+      "arrival in Chicago",
+      "selling fish",
+      "citizenship issues",
+      "family reunification",
+      "early 1920s"
+    ],
+    "transcript_ref": "depression_era\\federal_writers_project\\fwp_I_Sell_Fish.yaml"
+  },
+  {
+    "entity_id": 12,
+    "entity": "Immigration Act of 1924",
+    "explicit_text": "After struggling for years without citizenship because I was smuggled into the United States, a law was passed that allowed people who came before 1921 to get their citizenship papers. This law was a turning point for me because I was able to get my papers and bring my wife and daughter to Chicago. It finally gave me some peace after all the hardships I endured.",
+    "implicit_text": "After struggling for years without citizenship because I was smuggled into the United States, a law was passed that allowed people who came before 1921 to get their citizenship papers. This law was a turning point for me because I was able to get my papers and bring my wife and daughter to Chicago. It finally gave me some peace after all the hardships I endured.",
+    "cues": [
+      "law passed",
+      "citizenship papers",
+      "family reunification",
+      "post-1924",
+      "immigration"
+    ],
+    "transcript_ref": "depression_era\\federal_writers_project\\fwp_I_Sell_Fish.yaml"
+  }
+]

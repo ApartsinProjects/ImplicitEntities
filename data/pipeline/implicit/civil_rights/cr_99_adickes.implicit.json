@@ -1,0 +1,210 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "The Bronx",
+    "explicit_text": "I was born in The Bronx, New York, on July 14, 1933, and attended school there until the eighth grade. My family was part of a German-American community in The Bronx, which has since dispersed. Later in life, I also taught in Harlem, which is not far from The Bronx, so my life and work have been closely tied to New York City neighborhoods.",
+    "implicit_text": "I was born in a New York City borough known for its vibrant communities on July 14, 1933, and attended school there until the eighth grade. My family was part of a German-American community in that borough, which has since dispersed. Later in life, I also taught in a nearby neighborhood known for its rich cultural history, so my life and work have been closely tied to New York City neighborhoods.",
+    "cues": [
+      "born 1933",
+      "school until eighth grade",
+      "German-American community",
+      "New York City neighborhoods"
+    ],
+    "transcript_ref": "civil_rights\\cr_99_adickes.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "Asbury Park, New Jersey",
+    "explicit_text": "After attending school in The Bronx, my family moved to Asbury Park, New Jersey, where I completed high school. This move marked a significant transition in my early life before I went on to college. Asbury Park was where I lived before attending Douglass College in nearby New Brunswick.",
+    "implicit_text": "After attending school in that New York City borough, my family moved to a coastal city in New Jersey, where I completed high school. This move marked a significant transition in my early life before I went on to college. That New Jersey city was where I lived before attending a women's college in a nearby university town.",
+    "cues": [
+      "family moved after eighth grade",
+      "high school",
+      "transition before college",
+      "New Jersey"
+    ],
+    "transcript_ref": "civil_rights\\cr_99_adickes.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "Douglass College",
+    "explicit_text": "I attended Douglass College, which is located in New Brunswick, New Jersey, near where I live now. I majored in English there and earned my B.A. degree. Douglass College was an important step in my education before I pursued advanced degrees in New York City.",
+    "implicit_text": "I attended a women's college located in a university town in New Jersey, near where I live now. I majored in English there and earned my B.A. degree. That college was an important step in my education before I pursued advanced degrees in New York City.",
+    "cues": [
+      "undergraduate English major",
+      "B.A. degree",
+      "New Brunswick location",
+      "education foundation"
+    ],
+    "transcript_ref": "civil_rights\\cr_99_adickes.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "New Brunswick, New Jersey",
+    "explicit_text": "New Brunswick, New Jersey, is where Douglass College is located, and it's close to where I currently live. My time in New Brunswick was centered around my undergraduate studies in English. The area has been a significant part of my educational journey and personal life.",
+    "implicit_text": "The university town in New Jersey where my undergraduate college is located is close to where I currently live. My time there was centered around my undergraduate studies in English. The area has been a significant part of my educational journey and personal life.",
+    "cues": [
+      "location of Douglass College",
+      "undergraduate studies",
+      "current residence proximity"
+    ],
+    "transcript_ref": "civil_rights\\cr_99_adickes.yaml"
+  },
+  {
+    "entity_id": 5,
+    "entity": "Hunter College",
+    "explicit_text": "After completing my undergraduate degree, I earned an M.A. in English education from Hunter College, which is part of the City University of New York system. Hunter College played a key role in my advanced education and professional development in teaching. It was a stepping stone before I pursued my doctorate at New York University.",
+    "implicit_text": "After completing my undergraduate degree, I earned an M.A. in English education from a college that is part of New York City's public university system. That college played a key role in my advanced education and professional development in teaching. It was a stepping stone before I pursued my doctorate at a private university in New York City.",
+    "cues": [
+      "M.A. in English education",
+      "City University of New York",
+      "advanced education",
+      "professional development"
+    ],
+    "transcript_ref": "civil_rights\\cr_99_adickes.yaml"
+  },
+  {
+    "entity_id": 6,
+    "entity": "City University of New York",
+    "explicit_text": "I earned my M.A. at Hunter College, which is part of the City University of New York (CUNY). I also taught students who could attend CUNY colleges tuition-free before the late 1960s, which was a remarkable opportunity for many. The City University system has been central to my teaching career and my understanding of educational access in New York City.",
+    "implicit_text": "I earned my M.A. at a college within New York City's public university system. I also taught students who could attend colleges in this system tuition-free before the late 1960s, which was a remarkable opportunity for many. This public university system has been central to my teaching career and my understanding of educational access in New York City.",
+    "cues": [
+      "M.A. degree",
+      "tuition-free education until late 1960s",
+      "teaching in New York City",
+      "educational access"
+    ],
+    "transcript_ref": "civil_rights\\cr_99_adickes.yaml"
+  },
+  {
+    "entity_id": 7,
+    "entity": "New York University",
+    "explicit_text": "I earned my doctorate in English and American literature at New York University after completing my master's degree. NYU was where I advanced my academic career and deepened my expertise in literature. This achievement came after years of teaching and working in other jobs, marking a significant milestone in my life.",
+    "implicit_text": "I earned my doctorate in English and American literature at a private university in New York City after completing my master's degree. That university was where I advanced my academic career and deepened my expertise in literature. This achievement came after years of teaching and working in other jobs, marking a significant milestone in my life.",
+    "cues": [
+      "doctorate degree",
+      "English and American literature",
+      "academic advancement",
+      "post-master's education"
+    ],
+    "transcript_ref": "civil_rights\\cr_99_adickes.yaml"
+  },
+  {
+    "entity_id": 9,
+    "entity": "Brooklyn",
+    "explicit_text": "Brooklyn was once home to a significant German-American community, similar to the one my parents came from in New York City. However, like the Bronx and Yorkville, these communities have largely dispersed over time. My family's roots and the history of German-Americans in Brooklyn provide important context to my background.",
+    "implicit_text": "One of New York City's boroughs was once home to a significant German-American community, similar to the one my parents came from in the city. However, like the borough where I was born and a neighborhood on Manhattan's Upper East Side, these communities have largely dispersed over time. My family's roots and the history of German-Americans in that borough provide important context to my background.",
+    "cues": [
+      "German-American community",
+      "historical dispersal",
+      "family heritage",
+      "New York City borough"
+    ],
+    "transcript_ref": "civil_rights\\cr_99_adickes.yaml"
+  },
+  {
+    "entity_id": 10,
+    "entity": "The Bronx",
+    "explicit_text": "As I mentioned, I was born and raised in The Bronx until my family moved when I was in eighth grade. The Bronx was home to a vibrant German-American community during my childhood, which has since faded. My early education and upbringing there shaped much of my early life experiences.",
+    "implicit_text": "As I mentioned, I was born and raised in a New York City borough until my family moved when I was in eighth grade. That borough was home to a vibrant German-American community during my childhood, which has since faded. My early education and upbringing there shaped much of my early life experiences.",
+    "cues": [
+      "birthplace 1933",
+      "early education",
+      "German-American community",
+      "childhood environment"
+    ],
+    "transcript_ref": "civil_rights\\cr_99_adickes.yaml"
+  },
+  {
+    "entity_id": 11,
+    "entity": "Yorkville, Manhattan",
+    "explicit_text": "Yorkville, Manhattan, used to have a notable German-American community, much like parts of Brooklyn and The Bronx. However, by the time I was an adult, these communities had largely disappeared. This reflects the broader dispersal of German-Americans in New York City over the decades.",
+    "implicit_text": "A neighborhood on Manhattan's Upper East Side used to have a notable German-American community, much like parts of Brooklyn and the Bronx. However, by the time I was an adult, these communities had largely disappeared. This reflects the broader dispersal of German-Americans in New York City over the decades.",
+    "cues": [
+      "German-American community",
+      "historical presence",
+      "dispersal over time",
+      "New York City neighborhood"
+    ],
+    "transcript_ref": "civil_rights\\cr_99_adickes.yaml"
+  },
+  {
+    "entity_id": 12,
+    "entity": "Freedom Summer",
+    "explicit_text": "I participated in Freedom Summer in 1964 when I was 31 years old and already an experienced teacher. I was not a student then and made the decision independently, without consulting my parents. My involvement was motivated by my awareness of civil rights issues, especially after teaching African-American students in Harlem.",
+    "implicit_text": "I participated in a major civil rights campaign in the summer of 1964 when I was 31 years old and already an experienced teacher. I was not a student then and made the decision independently, without consulting my parents. My involvement was motivated by my awareness of civil rights issues, especially after teaching African-American students in a historically black neighborhood in Manhattan.",
+    "cues": [
+      "1964",
+      "age 31",
+      "experienced teacher",
+      "civil rights involvement",
+      "Harlem teaching"
+    ],
+    "transcript_ref": "civil_rights\\cr_99_adickes.yaml"
+  },
+  {
+    "entity_id": 13,
+    "entity": "Harlem",
+    "explicit_text": "I taught in Harlem starting around 1960, which was where the teaching jobs were available. Teaching there opened my eyes to the challenges faced by my African-American students, including limited access to higher education. Harlem was central to my understanding of educational inequities and motivated my later civil rights activism.",
+    "implicit_text": "I taught in a historically black neighborhood in Manhattan starting around 1960, which was where the teaching jobs were available. Teaching there opened my eyes to the challenges faced by my African-American students, including limited access to higher education. That neighborhood was central to my understanding of educational inequities and motivated my later civil rights activism.",
+    "cues": [
+      "teaching starting 1960",
+      "African-American students",
+      "educational challenges",
+      "civil rights awareness"
+    ],
+    "transcript_ref": "civil_rights\\cr_99_adickes.yaml"
+  },
+  {
+    "entity_id": 14,
+    "entity": "City College of New York",
+    "explicit_text": "City College of New York was a beacon of opportunity for many students in Harlem and across the city because it offered tuition-free education for many years. I encouraged my students to consider City College as a path to a better life, though they often lacked role models who had succeeded there. The college's open enrollment policy allowed many to attend, but challenges remained for underprepared students.",
+    "implicit_text": "A public college in New York City was a beacon of opportunity for many students in that historically black neighborhood and across the city because it offered tuition-free education for many years. I encouraged my students to consider that college as a path to a better life, though they often lacked role models who had succeeded there. The college's open enrollment policy allowed many to attend, but challenges remained for underprepared students.",
+    "cues": [
+      "tuition-free education",
+      "Harlem students",
+      "open enrollment",
+      "educational opportunity"
+    ],
+    "transcript_ref": "civil_rights\\cr_99_adickes.yaml"
+  },
+  {
+    "entity_id": 15,
+    "entity": "Statue of Liberty",
+    "explicit_text": "The Statue of Liberty symbolized hope and opportunity alongside institutions like City College and Hunter College, where students could pursue education without paying tuition. It represented the ideal of a new life and freedom, which was deeply meaningful to me and my students in New York City. This symbolism reinforced the importance of accessible education.",
+    "implicit_text": "A famous statue symbolizing hope and opportunity stood alongside institutions like the public college and the teaching college where students could pursue education without paying tuition. It represented the ideal of a new life and freedom, which was deeply meaningful to me and my students in New York City. This symbolism reinforced the importance of accessible education.",
+    "cues": [
+      "symbol of hope",
+      "education opportunity",
+      "New York City",
+      "freedom and new life"
+    ],
+    "transcript_ref": "civil_rights\\cr_99_adickes.yaml"
+  },
+  {
+    "entity_id": 16,
+    "entity": "Board of Regents of the University of the State of New York",
+    "explicit_text": "The Board of Regents of the University of the State of New York oversees education policies that affect institutions like City University. Currently, a Puerto Rican member of this board is leading efforts to cut back remedial programs, which is controversial among students. This ongoing struggle reflects the challenges in maintaining educational access and support for underprepared students.",
+    "implicit_text": "The governing board overseeing education policies in New York State affects institutions like the city's public university system. Currently, a Puerto Rican member of this board is leading efforts to cut back remedial programs, which is controversial among students. This ongoing struggle reflects the challenges in maintaining educational access and support for underprepared students.",
+    "cues": [
+      "education policy oversight",
+      "remedial program cuts",
+      "Puerto Rican board member",
+      "educational challenges"
+    ],
+    "transcript_ref": "civil_rights\\cr_99_adickes.yaml"
+  },
+  {
+    "entity_id": 17,
+    "entity": "City University of New York Board of Regents",
+    "explicit_text": "The City University of New York Board of Regents plays a critical role in shaping policies that impact tuition, enrollment, and remedial education. During my teaching career, CUNY offered tuition-free education, but that has changed over time. The board's decisions continue to influence the accessibility and quality of education for many New Yorkers.",
+    "implicit_text": "The governing board for New York City's public university system plays a critical role in shaping policies that impact tuition, enrollment, and remedial education. During my teaching career, this system offered tuition-free education, but that has changed over time. The board's decisions continue to influence the accessibility and quality of education for many New Yorkers.",
+    "cues": [
+      "policy influence",
+      "tuition changes",
+      "enrollment policies",
+      "education accessibility"
+    ],
+    "transcript_ref": "civil_rights\\cr_99_adickes.yaml"
+  }
+]

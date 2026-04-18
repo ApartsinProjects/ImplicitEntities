@@ -1,0 +1,111 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "American Civil War",
+    "explicit_text": "My father fought in the American Civil War on the Confederate side and was shot in the arm during the first year of the war. He was later sent home because of illness and sadly died of typhoid fever. My husband also served in the war and often told me stories about his experiences, like hiding behind breastworks and struggling to find food. The war deeply affected our family and shaped much of our early life.",
+    "implicit_text": "My father fought in the conflict between the North and South on the Confederate side and was shot in the arm during the first year of the war. He was later sent home because of illness and sadly died of typhoid fever. My husband also served in the war and often told me stories about his experiences, like hiding behind breastworks and struggling to find food. The war deeply affected our family and shaped much of our early life.",
+    "cues": [
+      "Confederate War",
+      "father shot in arm",
+      "husband's war stories",
+      "breastworks",
+      "struggles during war"
+    ],
+    "transcript_ref": "depression_era\\federal_writers_project\\fwp_Life_During_Confederate_Days.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "Typhoid fever",
+    "explicit_text": "Typhoid fever was the illness that took my father's life during the first year of the Civil War. He was sent home because of it, but unfortunately, he did not recover. This loss left my mother with six children to raise, and I had to step up to help her. Typhoid fever was a harsh reality for many families during those difficult times.",
+    "implicit_text": "That illness was the one that took my father's life during the first year of the conflict between the North and South. He was sent home because of it, but unfortunately, he did not recover. This loss left my mother with six children to raise, and I had to step up to help her. That disease was a harsh reality for many families during those difficult times.",
+    "cues": [
+      "father died of typhoid fever",
+      "first year of Confederate War",
+      "family hardship",
+      "mother raising six children"
+    ],
+    "transcript_ref": "depression_era\\federal_writers_project\\fwp_Life_During_Confederate_Days.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "Baptist Christianity",
+    "explicit_text": "Baptist Christianity has been a strong part of my family heritage. My oldest brother was a fine Baptist preacher, and on my mother's side, her father and several brothers were preachers too. We were always raised to go to church, and faith was important to us through all our hardships. It gave us strength and community in times of struggle.",
+    "implicit_text": "That branch of Christianity has been a strong part of my family heritage. My oldest brother was a fine preacher in that tradition, and on my mother's side, her father and several brothers were preachers too. We were always raised to go to church, and faith was important to us through all our hardships. It gave us strength and community in times of struggle.",
+    "cues": [
+      "oldest brother Baptist preacher",
+      "mother's father and brothers preachers",
+      "raised to go to church",
+      "family faith tradition"
+    ],
+    "transcript_ref": "depression_era\\federal_writers_project\\fwp_Life_During_Confederate_Days.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "Franklin County, Georgia",
+    "explicit_text": "Franklin County, Georgia, was where my husband's family lived and owned a lot of land and stores. When we married in 1869, the county was still intact, but later it was divided because it was too large. The house where my husband grew up is now the courthouse in Stephens, which used to be part of Franklin County. We returned there after living in Tennessee for a few years.",
+    "implicit_text": "The county in northeastern Georgia was where my husband's family lived and owned a lot of land and stores. When we married in 1869, the county was still intact, but later it was divided because it was too large. The house where my husband grew up is now the courthouse in the town that became the new county seat, which used to be part of that county. We returned there after living in Tennessee for a few years.",
+    "cues": [
+      "husband's family land and stores",
+      "married in 1869",
+      "county division",
+      "house became courthouse",
+      "return from Tennessee"
+    ],
+    "transcript_ref": "depression_era\\federal_writers_project\\fwp_Life_During_Confederate_Days.yaml"
+  },
+  {
+    "entity_id": 5,
+    "entity": "Stephens, Georgia",
+    "explicit_text": "Stephens, Georgia, is where the courthouse now stands, which used to be my husband's family home before Franklin County was divided. It became the new county seat after the split. This place holds a lot of memories for me because it was central to my husband's family and our life after the war. Carnesville was the nearest town to the Green place, but Stephens became important later on.",
+    "implicit_text": "The town in northeastern Georgia is where the courthouse now stands, which used to be my husband's family home before the large county was divided. It became the new county seat after the split. This place holds a lot of memories for me because it was central to my husband's family and our life after the war. Another nearby town was the closest to the family farm, but this town became important later on.",
+    "cues": [
+      "courthouse location",
+      "husband's family home",
+      "county division",
+      "near Carnesville",
+      "family memories"
+    ],
+    "transcript_ref": "depression_era\\federal_writers_project\\fwp_Life_During_Confederate_Days.yaml"
+  },
+  {
+    "entity_id": 6,
+    "entity": "Carnesville, Georgia",
+    "explicit_text": "Carnesville was the nearest town to where my husband's family lived in Franklin County. When we married in 1869, it was the closest place for supplies and social life. Life was hard, but having a town nearby helped us in many ways. It was a small but important part of our daily existence.",
+    "implicit_text": "That small town was the nearest place to where my husband's family lived in the large northeastern Georgia county. When we married in 1869, it was the closest place for supplies and social life. Life was hard, but having a town nearby helped us in many ways. It was a small but important part of our daily existence.",
+    "cues": [
+      "nearest town to Green place",
+      "married in 1869",
+      "Franklin County",
+      "local supplies and social life"
+    ],
+    "transcript_ref": "depression_era\\federal_writers_project\\fwp_Life_During_Confederate_Days.yaml"
+  },
+  {
+    "entity_id": 7,
+    "entity": "Tennessee",
+    "explicit_text": "After we married, my mother wanted to go back to Tennessee, and my husband agreed since he had passed through there after the war and thought it was beautiful. We stayed there for four years, during which time I had two children. Tennessee was a place of refuge and family for us during those years before returning to Georgia.",
+    "implicit_text": "After we married, my mother wanted to go back to the state in the southeastern U.S., and my husband agreed since he had passed through there after the war and thought it was beautiful. We stayed there for four years, during which time I had two children. That state was a place of refuge and family for us during those years before returning to Georgia.",
+    "cues": [
+      "mother wanted to return",
+      "husband's positive impression",
+      "lived four years",
+      "had two children there",
+      "post-war period"
+    ],
+    "transcript_ref": "depression_era\\federal_writers_project\\fwp_Life_During_Confederate_Days.yaml"
+  },
+  {
+    "entity_id": 8,
+    "entity": "Athens, Georgia",
+    "explicit_text": "After my husband and oldest son passed away, I moved to Athens, Georgia, where I have lived for the past fifteen years. Here, I sew and do what I can to help support myself as a boarder. Athens has become my home in my later years, surrounded by my children, grandchildren, and great-grandchildren who keep me company and care for me.",
+    "implicit_text": "After my husband and oldest son passed away, I moved to the college town in northeastern Georgia, where I have lived for the past fifteen years. Here, I sew and do what I can to help support myself as a boarder. This town has become my home in my later years, surrounded by my children, grandchildren, and great-grandchildren who keep me company and care for me.",
+    "cues": [
+      "moved after son's death",
+      "lived fifteen years",
+      "sewing for income",
+      "family support",
+      "later life home"
+    ],
+    "transcript_ref": "depression_era\\federal_writers_project\\fwp_Life_During_Confederate_Days.yaml"
+  }
+]

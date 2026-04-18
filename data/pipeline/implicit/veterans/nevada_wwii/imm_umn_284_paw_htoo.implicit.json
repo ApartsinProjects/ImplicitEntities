@@ -1,0 +1,97 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "Burma",
+    "explicit_text": "I was born in Burma in 1995, but life there was very difficult. Burmese soldiers destroyed my house and farm, and my family had to live in temporary villages because of the ongoing battles between the Karen people and the Burmese army. Our people were forced off our land and couldn't own property, making life unfair and dangerous.",
+    "implicit_text": "I was born in a Southeast Asian country in 1995, but life there was very difficult. Soldiers from the central government destroyed my house and farm, and my family had to live in temporary villages because of the ongoing battles between the Karen people and the national army. Our people were forced off our land and couldn't own property, making life unfair and dangerous.",
+    "cues": [
+      "1995",
+      "Burmese soldiers",
+      "Karen people",
+      "battles",
+      "land ownership"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_284_paw_htoo.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "Thailand",
+    "explicit_text": "In 1997, my family fled to Thailand to escape the violence in Burma and lived in a refugee camp there. We stayed in that Thai refugee camp for more than twelve years, relying on support from organizations like the United Nations for food, shelter, and clothing. It was a difficult but necessary refuge before we could start a new life elsewhere.",
+    "implicit_text": "In 1997, my family fled to a neighboring country to escape the violence in my homeland and lived in a refugee camp there. We stayed in that camp for more than twelve years, relying on support from international organizations for food, shelter, and clothing. It was a difficult but necessary refuge before we could start a new life elsewhere.",
+    "cues": [
+      "1997",
+      "Thai refugee camp",
+      "United Nations support",
+      "refugee life"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_284_paw_htoo.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "United States",
+    "explicit_text": "Thanks to the United Nations' program starting in 2000, my family had the chance to apply to come to the United States in 2007. After passing interviews and background checks, we arrived with the help of the International Organization for Migration. Life in the United States has been wonderful and much easier than in Burma or Thailand, offering us freedom, education, and equal rights.",
+    "implicit_text": "Thanks to a global organization's program starting in 2000, my family had the chance to apply to come to North America in 2007. After passing interviews and background checks, we arrived with the help of an international migration agency. Life here has been wonderful and much easier than in my home country or the refugee camp, offering us freedom, education, and equal rights.",
+    "cues": [
+      "2000 United Nations program",
+      "2007 application",
+      "International Organization for Migration",
+      "freedom",
+      "education"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_284_paw_htoo.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "St. Paul College",
+    "explicit_text": "Currently, I am a student at St. Paul College, which has been an important part of my new life in the United States. Studying there gives me the opportunity to pursue education freely, something I couldn't have in Burma or the refugee camp. It feels good to be able to focus on my future and build a better life for myself and my family.",
+    "implicit_text": "Currently, I am a student at a community college in the capital of Minnesota, which has been an important part of my new life in the United States. Studying there gives me the opportunity to pursue education freely, something I couldn't have in my home country or the refugee camp. It feels good to be able to focus on my future and build a better life for myself and my family.",
+    "cues": [
+      "student",
+      "St. Paul College",
+      "education",
+      "United States",
+      "new life"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_284_paw_htoo.yaml"
+  },
+  {
+    "entity_id": 6,
+    "entity": "United Nations",
+    "explicit_text": "The United Nations played a crucial role in my family's journey. While we were refugees in Thailand, the UN provided us with food, shelter, and clothing. Later, in 2000, they allowed Karen refugees like us to apply to resettle in the United States, which gave my family hope and eventually led to our new life here.",
+    "implicit_text": "A major international organization played a crucial role in my family's journey. While we were refugees in a neighboring country, they provided us with food, shelter, and clothing. Later, in 2000, they allowed Karen refugees like us to apply to resettle in North America, which gave my family hope and eventually led to our new life here.",
+    "cues": [
+      "United Nations support",
+      "refugee aid",
+      "2000 resettlement program",
+      "Thailand refugee camp"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_284_paw_htoo.yaml"
+  },
+  {
+    "entity_id": 7,
+    "entity": "International Organization for Migration",
+    "explicit_text": "The International Organization for Migration helped my family the day before we left for the United States by giving us a special bag that was very important for our journey. Their support made it possible for us to travel safely and start our new life in America. I am grateful for their role in helping us transition from refugee life to freedom.",
+    "implicit_text": "An international migration agency helped my family the day before we left for North America by giving us a special bag that was very important for our journey. Their support made it possible for us to travel safely and start our new life in this country. I am grateful for their role in helping us transition from refugee life to freedom.",
+    "cues": [
+      "International Organization for Migration bag",
+      "travel support",
+      "United States resettlement",
+      "refugee transition"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_284_paw_htoo.yaml"
+  },
+  {
+    "entity_id": 8,
+    "entity": "Minnesota",
+    "explicit_text": "I now live in Minnesota with my family, and I feel safe and hopeful here. Minnesota has become our new home where we can enjoy freedom and equal rights, something we never had before. Being here allows me to focus on my education and remember the struggles my family endured to get to this place.",
+    "implicit_text": "I now live in a northern U.S. state with my family, and I feel safe and hopeful here. This state has become our new home where we can enjoy freedom and equal rights, something we never had before. Being here allows me to focus on my education and remember the struggles my family endured to get to this place.",
+    "cues": [
+      "Minnesota residence",
+      "family",
+      "safety",
+      "freedom",
+      "education"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_284_paw_htoo.yaml"
+  }
+]

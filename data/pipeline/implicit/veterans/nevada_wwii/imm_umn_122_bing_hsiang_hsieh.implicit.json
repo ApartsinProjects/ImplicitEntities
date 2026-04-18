@@ -1,0 +1,96 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "China",
+    "explicit_text": "I was born in China in 1925, and my early life was deeply affected by the turmoil there. When I was just two years old, the Chinese Civil War broke out between the Kuomintang and the Communist Party. The war and the Japanese invasion made life very dangerous, and in 1940, when I was about 15, I had to flee to Taiwan to escape being forced into military service. My father was killed during this chaotic time, and my mother told me I could not return home.",
+    "implicit_text": "I was born in a vast East Asian country in 1925, and my early life was deeply affected by the turmoil there. When I was just two years old, the civil war broke out between the Nationalist government and the rising communist faction. The war and the invasion by a neighboring empire made life very dangerous, and in 1940, when I was about 15, I had to flee to an island off the southeastern coast to escape being forced into military service. My father was killed during this chaotic time, and my mother told me I could not return home.",
+    "cues": [
+      "born 1925",
+      "early life",
+      "Chinese Civil War",
+      "Japanese invasion",
+      "father killed"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_122_bing_hsiang_hsieh.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "Taiwan",
+    "explicit_text": "I moved to Taiwan in 1940 to escape the war in China, and it was there that I started a new chapter in my life. In 1949, when the Communists gained control of much of China, the Kuomintang forces, including myself, retreated to Taiwan to regroup. In Taiwan, many people from the Mainland worked in restaurants, so I apprenticed in a restaurant learning skills like roasting duck. It was also in Taiwan, around 1953, that I met my wife, Ahma.",
+    "implicit_text": "I moved to an island off the southeastern coast in 1940 to escape the war in my homeland, and it was there that I started a new chapter in my life. In 1949, when the communists gained control of much of the mainland, the Nationalist forces, including myself, retreated to this island to regroup. On this island, many people from the mainland worked in restaurants, so I apprenticed in a restaurant learning skills like roasting duck. It was also there, around 1953, that I met my wife, Ahma.",
+    "cues": [
+      "moved 1940",
+      "retreat 1949",
+      "restaurant apprenticeship",
+      "met wife 1953"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_122_bing_hsiang_hsieh.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "Chinese Civil War",
+    "explicit_text": "The Chinese Civil War started when I was about two years old, between the Kuomintang and the Communist Party. This conflict shaped much of my childhood and young adulthood, as the fighting and political struggles made life unstable. By 1949, the Communists had gained significant ground, forcing the Kuomintang forces to flee to Taiwan, which I did along with them. The war's impact was very personal, as it led to my father's death and my displacement.",
+    "implicit_text": "The civil war in my homeland started when I was about two years old, between the Nationalist government and the communist faction. This conflict shaped much of my childhood and young adulthood, as the fighting and political struggles made life unstable. By 1949, the communists had gained significant ground, forcing the Nationalist forces to flee to an island off the southeastern coast, which I did along with them. The war's impact was very personal, as it led to my father's death and my displacement.",
+    "cues": [
+      "started when I was two",
+      "Kuomintang vs Communist Party",
+      "1949 Communist advance",
+      "father's death",
+      "flee to Taiwan"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_122_bing_hsiang_hsieh.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "Kuomintang",
+    "explicit_text": "I was aligned with the Kuomintang during the Chinese Civil War, and when the Communists gained control in 1949, I escaped with the Kuomintang forces to Taiwan. The Kuomintang regrouped there, and many of us from the Mainland started new lives. My connection with the Kuomintang was a defining part of my history, as it influenced my move to Taiwan and my experiences during the war years.",
+    "implicit_text": "I was aligned with the Nationalist government during the civil war in my homeland, and when the communists gained control in 1949, I escaped with the Nationalist forces to an island off the southeastern coast. The Nationalists regrouped there, and many of us from the mainland started new lives. My connection with the Nationalist government was a defining part of my history, as it influenced my move to that island and my experiences during the war years.",
+    "cues": [
+      "Chinese Civil War",
+      "1949 retreat to Taiwan",
+      "regrouping",
+      "Mainland origins"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_122_bing_hsiang_hsieh.yaml"
+  },
+  {
+    "entity_id": 5,
+    "entity": "Communist Party of China",
+    "explicit_text": "The Communist Party of China was one of the main forces in the Chinese Civil War that began when I was a child. Their advance in 1949 was decisive, as they took control of much of China, causing the Kuomintang and myself to flee to Taiwan. During the war, there were violent encounters, and my father was killed by either the Communists or the Japanese, though I am not certain which. The Communists' rise changed the course of my life dramatically.",
+    "implicit_text": "The communist faction was one of the main forces in the civil war that began when I was a child. Their advance in 1949 was decisive, as they took control of much of the mainland, causing the Nationalist forces and myself to flee to an island off the southeastern coast. During the war, there were violent encounters, and my father was killed by either the communists or the invading empire, though I am not certain which. The rise of the communists changed the course of my life dramatically.",
+    "cues": [
+      "Chinese Civil War",
+      "1949 Communist advance",
+      "father's death",
+      "flee to Taiwan"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_122_bing_hsiang_hsieh.yaml"
+  },
+  {
+    "entity_id": 6,
+    "entity": "Empire of Japan",
+    "explicit_text": "During the war years, the Empire of Japan was fighting in China alongside the ongoing civil conflict. At one point, Japanese forces or possibly the Communists came to our home to conscript me into military service, but I escaped through the back door. Tragically, my father was killed during this period, either by the Japanese or the Communists. The Japanese occupation and war were a dangerous and defining part of my youth in China.",
+    "implicit_text": "During the war years, the empire from across the sea was fighting in my homeland alongside the ongoing civil conflict. At one point, their forces or possibly the communists came to our home to conscript me into military service, but I escaped through the back door. Tragically, my father was killed during this period, either by the invading empire or the communists. The occupation and war were a dangerous and defining part of my youth in my homeland.",
+    "cues": [
+      "Japanese occupation",
+      "military conscription attempt",
+      "father killed",
+      "war years"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_122_bing_hsiang_hsieh.yaml"
+  },
+  {
+    "entity_id": 7,
+    "entity": "Chinese Civil War (1945–1949)",
+    "explicit_text": "The Chinese Civil War from 1945 to 1949 was a critical period in my life. After World War II ended, the conflict between the Kuomintang and the Communist Party intensified, and by 1949, the Communists had taken control of most of China. This forced the Kuomintang forces, including myself, to retreat to Taiwan. This war period was marked by personal loss, displacement, and ultimately a new beginning in Taiwan.",
+    "implicit_text": "The civil war from 1945 to 1949 was a critical period in my life. After World War II ended, the conflict between the Nationalist government and the communist faction intensified, and by 1949, the communists had taken control of most of the mainland. This forced the Nationalist forces, including myself, to retreat to an island off the southeastern coast. This war period was marked by personal loss, displacement, and ultimately a new beginning on that island.",
+    "cues": [
+      "1945–1949",
+      "post-WWII conflict",
+      "Communist victory",
+      "Kuomintang retreat",
+      "personal loss"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_122_bing_hsiang_hsieh.yaml"
+  }
+]

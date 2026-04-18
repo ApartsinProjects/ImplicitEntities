@@ -1,0 +1,50 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "Burma",
+    "summary": "I am originally from Burma, where I was born and raised speaking the Karen language. Life in Burma was the starting point of my journey before I had to leave due to difficult circumstances. My connection to Burma remains strong, even as I moved through refugee camps and eventually to the United States.",
+    "cues": [
+      "birthplace",
+      "Karen language",
+      "origin"
+    ],
+    "transcript_ref": "immigration\\imm_umn_138_ma_hla_nyunt.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "Karen people",
+    "summary": "I am a Karen speaker, part of the Karen people who come from Burma. Our community has faced many challenges, especially when we lived in the refugee camp in Thailand. Being Karen shaped my identity and the way I cared for my family while volunteering at the nursery school in the camp.",
+    "cues": [
+      "Karen language",
+      "community",
+      "refugee camp",
+      "Burma"
+    ],
+    "transcript_ref": "immigration\\imm_umn_138_ma_hla_nyunt.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "Thailand",
+    "summary": "I lived for a long time in a refugee camp in Thailand after leaving Burma. In that camp, I took care of my children and volunteered at the nursery school, but adults like me couldn't attend school or find work outside. Thailand was a place of struggle but also a stepping stone before I moved to the United States.",
+    "cues": [
+      "refugee camp",
+      "volunteering",
+      "restrictions on schooling and work",
+      "transition"
+    ],
+    "transcript_ref": "immigration\\imm_umn_138_ma_hla_nyunt.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "United States",
+    "summary": "After applying as a refugee, I immigrated to the United States with my two children while my husband stayed behind. Arriving in the U.S. was a new beginning for me; I decided to go to school to learn English and pursue a better job. My dream here is to become an early childhood education teacher and improve my life beyond just taking care of my kids at home.",
+    "cues": [
+      "immigration",
+      "refugee application",
+      "education",
+      "English learning",
+      "career goals"
+    ],
+    "transcript_ref": "immigration\\imm_umn_138_ma_hla_nyunt.yaml"
+  }
+]

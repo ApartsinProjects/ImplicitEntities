@@ -1,0 +1,69 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "Thailand",
+    "explicit_text": "I was born in a refugee camp in Thailand, where life was very difficult and filled with fear. We had to wait a whole month just to get food, and even then, we often didn’t have enough money to buy what we needed. When my family prepared to leave for America in 2010, we departed from the Thai gate and later stayed in Mae Sot, a town in Thailand, to rest before continuing our journey.",
+    "implicit_text": "I was born in a refugee camp in Southeast Asia, where life was very difficult and filled with fear. We had to wait a whole month just to get food, and even then, we often didn’t have enough money to buy what we needed. When my family prepared to leave for America in 2010, we departed from the border area in that country and later stayed in a nearby town to rest before continuing our journey.",
+    "cues": [
+      "refugee camp",
+      "2010",
+      "Thai gate",
+      "Mae Sot"
+    ],
+    "transcript_ref": "immigration\\imm_umn_274_kbrue_moo.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "United States of America",
+    "explicit_text": "In 2010, my parents decided to move to the United States of America, and after passing our interviews, we prepared for the long journey. We prayed for a safe trip before leaving Thailand and finally landed in the U.S., specifically in Kentucky. Arriving there was a big change for us; I remember feeling scared on the airplane and seeing the glowing city lights below us at night.",
+    "implicit_text": "In 2010, my parents decided to move to North America, and after passing our interviews, we prepared for the long journey. We prayed for a safe trip before leaving Southeast Asia and finally landed in the U.S., specifically in Kentucky. Arriving there was a big change for us; I remember feeling scared on the airplane and seeing the glowing city lights below us at night.",
+    "cues": [
+      "2010",
+      "interview",
+      "prayers",
+      "airplane",
+      "Kentucky"
+    ],
+    "transcript_ref": "immigration\\imm_umn_274_kbrue_moo.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "Mae Sot",
+    "explicit_text": "After our bus accident on the way to America, we stopped in Mae Sot to rest for a few days. The place was crowded and the bathrooms smelled bad, but near our hotel there was tall grass and a big round lake. While we stayed there, people from the International Organization for Migration taught us how to live in America, which helped us prepare for the next steps of our journey.",
+    "implicit_text": "After our bus accident on the way to America, we stopped in a border town in northern Thailand to rest for a few days. The place was crowded and the bathrooms smelled bad, but near our hotel there was tall grass and a big round lake. While we stayed there, people from an international migration agency taught us how to live in America, which helped us prepare for the next steps of our journey.",
+    "cues": [
+      "bus accident",
+      "rest",
+      "crowded",
+      "bathrooms",
+      "IOM training"
+    ],
+    "transcript_ref": "immigration\\imm_umn_274_kbrue_moo.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "International Organization for Migration",
+    "explicit_text": "While we were in Mae Sot, the International Organization for Migration, or IOM, helped us by teaching how to live in America. Their support was important because it prepared us for the big changes ahead. I remember the training lasted a couple of days, and they also helped with the security checks before we flew out from the Thai airport.",
+    "implicit_text": "While we were in that border town, an international migration agency helped us by teaching how to live in America. Their support was important because it prepared us for the big changes ahead. I remember the training lasted a couple of days, and they also helped with the security checks before we flew out from the Thai airport.",
+    "cues": [
+      "Mae Sot",
+      "training",
+      "security checks",
+      "Thai airport"
+    ],
+    "transcript_ref": "immigration\\imm_umn_274_kbrue_moo.yaml"
+  },
+  {
+    "entity_id": 5,
+    "entity": "Kentucky",
+    "explicit_text": "When we finally arrived in the United States, we landed in Kentucky. I remember it was rainy and windy that day, which was very different from what I was used to. It was the start of a new life for my family and me after leaving the refugee camp and traveling so far.",
+    "implicit_text": "When we finally arrived in the United States, we landed in a state known for its horse racing and bluegrass music. I remember it was rainy and windy that day, which was very different from what I was used to. It was the start of a new life for my family and me after leaving the refugee camp and traveling so far.",
+    "cues": [
+      "arrival",
+      "rainy",
+      "windy",
+      "new life"
+    ],
+    "transcript_ref": "immigration\\imm_umn_274_kbrue_moo.yaml"
+  }
+]

@@ -1,0 +1,12 @@
+{
+  "exp_id": "C5",
+  "model": "experiments/v5/models/dpr_description",
+  "entity_repr": "description",
+  "n_test": 4633,
+  "n_entities": 12337,
+  "hit_at_1": 0.3538,
+  "hit_at_3": 0.5351,
+  "hit_at_5": 0.6182,
+  "hit_at_10": 0.7149,
+  "mrr": 0.4751
+}

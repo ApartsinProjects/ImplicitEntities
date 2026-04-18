@@ -1,0 +1,85 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "Switzerland",
+    "explicit_text": "My family's story begins in Charrot, Switzerland, where Casimir Magnin was born. In the summer of 1883, at just 17 years old, Casimir decided to leave Switzerland for America, encouraged by his uncle who was also emigrating. This decision marked the start of our family's journey to establish a new home far from the Swiss homeland.",
+    "implicit_text": "My family's story begins in Charrot, a small European country known for its mountains and lakes, where Casimir Magnin was born. In the summer of 1883, at just 17 years old, Casimir decided to leave this homeland for America, encouraged by his uncle who was also emigrating. This decision marked the start of our family's journey to establish a new home far from the Alpine region.",
+    "cues": [
+      "Charrot, Switzerland",
+      "summer of 1883",
+      "Casimir Magnin",
+      "emigration"
+    ],
+    "transcript_ref": "immigration\\imm_umn_64_casimir_magnin.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "Casimir Magnin",
+    "explicit_text": "Casimir Magnin was my great-grandfather who made the courageous move from Switzerland to America in 1883 at age 17. After arriving, he summoned his family to join him, and together they worked hard to establish a homestead in Wisconsin. Casimir took the lead in building the first log house on the land in Stiles after his father passed away, and later built a second home where my mother grew up. His legacy of hard work, land stewardship, and family values shaped our lives for generations.",
+    "implicit_text": "My great-grandfather was the courageous young man who left the Alpine homeland for America in 1883 at age 17. After arriving, he summoned his family to join him, and together they worked hard to establish a homestead in Wisconsin. He took the lead in building the first log house on the land in Stiles after his father passed away, and later built a second home where my mother grew up. His legacy of hard work, land stewardship, and family values shaped our lives for generations.",
+    "cues": [
+      "1883",
+      "Switzerland to America",
+      "Stiles, Wisconsin",
+      "log house",
+      "family homestead"
+    ],
+    "transcript_ref": "immigration\\imm_umn_64_casimir_magnin.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "United States of America",
+    "explicit_text": "The United States of America became the new home for my family when Casimir Magnin emigrated here in 1883. After arriving, we first stayed briefly with relatives in Manitowoc, Wisconsin, before purchasing land and working to build a life in the townships of Gibson and later Stiles. This country offered opportunity and challenges, but it was here that my family planted roots and grew over more than a century.",
+    "implicit_text": "This North American country became the new home for my family when my great-grandfather emigrated here in 1883. After arriving, we first stayed briefly with relatives in Manitowoc, Wisconsin, before purchasing land and working to build a life in the townships of Gibson and later Stiles. This nation offered opportunity and challenges, but it was here that my family planted roots and grew over more than a century.",
+    "cues": [
+      "1883",
+      "Manitowoc, Wisconsin",
+      "Gibson, Wisconsin",
+      "Stiles, Wisconsin",
+      "immigration"
+    ],
+    "transcript_ref": "immigration\\imm_umn_64_casimir_magnin.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "Manitowoc, Wisconsin",
+    "explicit_text": "When my family first arrived in America, we stayed for about a month with relatives in Manitowoc, Wisconsin. It was a small estate where we could rest and plan our next steps before purchasing land. Manitowoc was our first foothold in the United States and a brief but important stop on our journey to establishing a permanent home.",
+    "implicit_text": "When my family first arrived in the new country, we stayed for about a month with relatives in a small city on the western shore of Lake Michigan. It was a small estate where we could rest and plan our next steps before purchasing land. This city was our first foothold in the country and a brief but important stop on our journey to establishing a permanent home.",
+    "cues": [
+      "month-long stay",
+      "relatives",
+      "arrival in America",
+      "Manitowoc, Wisconsin"
+    ],
+    "transcript_ref": "immigration\\imm_umn_64_casimir_magnin.yaml"
+  },
+  {
+    "entity_id": 5,
+    "entity": "Gibson, Wisconsin",
+    "explicit_text": "After leaving Manitowoc, my family bought 80 acres of land in the township of Gibson, Wisconsin. However, the land was difficult to farm due to harsh winds and rocky soil, which made life challenging. After four years, we traded that land for parcels in Stiles, seeking better conditions to build our homestead.",
+    "implicit_text": "After leaving that lakeside city, my family bought 80 acres of land in a rural township in Wisconsin. However, the land was difficult to farm due to harsh winds and rocky soil, which made life challenging. After four years, we traded that land for parcels in a neighboring township, seeking better conditions to build our homestead.",
+    "cues": [
+      "80 acres",
+      "township of Gibson",
+      "harsh winds",
+      "rocky soil",
+      "four years"
+    ],
+    "transcript_ref": "immigration\\imm_umn_64_casimir_magnin.yaml"
+  },
+  {
+    "entity_id": 6,
+    "entity": "Stiles, Wisconsin",
+    "explicit_text": "Stiles, Wisconsin, is where my family finally established our homestead in 1888 after trading our Gibson land. The land was once a lumber camp with rolling hills and forests, but it had fertile soil and a pond, perfect for farming. Here, Casimir built the first log house, and later the family expanded with more homes, barns, and even a schoolhouse. Stiles has been our home for over 127 years, filled with memories of family, work, and celebrations.",
+    "implicit_text": "This township in Wisconsin is where my family finally established our homestead in 1888 after trading our previous land. The land was once a lumber camp with rolling hills and forests, but it had fertile soil and a pond, perfect for farming. Here, my great-grandfather built the first log house, and later the family expanded with more homes, barns, and even a schoolhouse. This place has been our home for over 127 years, filled with memories of family, work, and celebrations.",
+    "cues": [
+      "1888",
+      "former lumber camp",
+      "fertile soil",
+      "log house",
+      "family homestead",
+      "schoolhouse"
+    ],
+    "transcript_ref": "immigration\\imm_umn_64_casimir_magnin.yaml"
+  }
+]

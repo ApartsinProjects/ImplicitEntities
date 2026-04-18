@@ -1,0 +1,142 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "Play Baw Lu",
+    "explicit_text": "Before my family and I started our journey to America, we had a big celebration in Play Baw Lu. Many relatives, including my grandmother, cousins, uncles, and aunts, gathered to help and say goodbye. I remember my grandmother didn’t say anything when she left that night, which made me wonder because she had always been close to me and cared for me since I was a baby. It was a bittersweet moment, filled with happiness and sadness as we prepared to leave.",
+    "implicit_text": "Before my family and I started our journey to America, we had a big celebration in our hometown. Many relatives, including my grandmother, cousins, uncles, and aunts, gathered to help and say goodbye. I remember my grandmother didn’t say anything when she left that night, which made me wonder because she had always been close to me and cared for me since I was a baby. It was a bittersweet moment, filled with happiness and sadness as we prepared to leave.",
+    "cues": [
+      "celebration",
+      "family gathering",
+      "goodbye",
+      "grandmother",
+      "departure"
+    ],
+    "transcript_ref": "immigration\\imm_umn_80_amara_baja.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "Mae Sot",
+    "explicit_text": "When we arrived in Mae Sot, I met many new people who were also planning to go to America. We stayed in a camp there, but I didn’t like the smell, especially the bathroom, which was very pungent. Thankfully, we only stayed in Mae Sot for about a week before moving on. It was a difficult place but an important stop on our journey.",
+    "implicit_text": "When we arrived at the border town in western Thailand, I met many new people who were also planning to go to America. We stayed in a camp there, but I didn’t like the smell, especially the bathroom, which was very pungent. Thankfully, we only stayed in that border town for about a week before moving on. It was a difficult place but an important stop on our journey.",
+    "cues": [
+      "arrival",
+      "camp",
+      "smell",
+      "one week",
+      "new people"
+    ],
+    "transcript_ref": "immigration\\imm_umn_80_amara_baja.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "Bangkok",
+    "explicit_text": "Arriving in Bangkok, the capital of Thailand, was an eye-opening experience for me. I saw many cars and roads for the first time while looking out the window of a double-decker bus. We stayed in a hotel with many other families from the camp, and the next morning we woke up very early to continue our journey. Bangkok felt busy and exciting compared to where we had been before.",
+    "implicit_text": "Arriving in the bustling capital city of Thailand was an eye-opening experience for me. I saw many cars and roads for the first time while looking out the window of a double-decker bus. We stayed in a hotel with many other families from the camp, and the next morning we woke up very early to continue our journey. The city felt busy and exciting compared to where we had been before.",
+    "cues": [
+      "capital of Thailand",
+      "double-decker bus",
+      "hotel stay",
+      "early morning",
+      "busy city"
+    ],
+    "transcript_ref": "immigration\\imm_umn_80_amara_baja.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "Thailand",
+    "explicit_text": "Thailand was a significant part of our journey to America. We traveled through places like Mae Sot and Bangkok, both located in Thailand, where we stayed in camps and hotels. The country was a transit point for many families like ours who were preparing to start a new life abroad. Thailand’s cities and camps marked important stages in our long trip.",
+    "implicit_text": "This Southeast Asian country was a significant part of our journey to America. We traveled through places like the border town and the capital city, where we stayed in camps and hotels. The country was a transit point for many families like ours who were preparing to start a new life abroad. Its cities and camps marked important stages in our long trip.",
+    "cues": [
+      "Mae Sot",
+      "Bangkok",
+      "camps",
+      "transit country",
+      "journey"
+    ],
+    "transcript_ref": "immigration\\imm_umn_80_amara_baja.yaml"
+  },
+  {
+    "entity_id": 5,
+    "entity": "Hong Kong",
+    "explicit_text": "Our flight took us to Hong Kong, where I saw many airplanes for the first time. I didn’t enjoy the plane ride and felt uneasy during the trip. Hong Kong was just a stopover on our way to America, but it left an impression on me because of the busy airport and the number of planes around.",
+    "implicit_text": "Our flight took us to a major international city in East Asia, where I saw many airplanes for the first time. I didn’t enjoy the plane ride and felt uneasy during the trip. This city was just a stopover on our way to America, but it left an impression on me because of the busy airport and the number of planes around.",
+    "cues": [
+      "flight stopover",
+      "many airplanes",
+      "dislike of flying",
+      "airport",
+      "transit"
+    ],
+    "transcript_ref": "immigration\\imm_umn_80_amara_baja.yaml"
+  },
+  {
+    "entity_id": 6,
+    "entity": "Los Angeles",
+    "explicit_text": "When we arrived in Los Angeles, California, it felt somewhat familiar because it had many cars and roads like Bangkok, but the language and alphabet on the signs were different. My family and I stayed in a hotel for a night before moving on to another place. Los Angeles was our first stop in America, and it made me feel excited about this new chapter in our lives.",
+    "implicit_text": "When we arrived in a large city in southern California, it felt somewhat familiar because it had many cars and roads like the capital city in Thailand, but the language and alphabet on the signs were different. My family and I stayed in a hotel for a night before moving on to another place. This city was our first stop in America, and it made me feel excited about this new chapter in our lives.",
+    "cues": [
+      "arrival in America",
+      "hotel stay",
+      "cars and roads",
+      "language difference",
+      "excitement"
+    ],
+    "transcript_ref": "immigration\\imm_umn_80_amara_baja.yaml"
+  },
+  {
+    "entity_id": 7,
+    "entity": "California",
+    "explicit_text": "California was the state where we first landed in America, specifically in Los Angeles. It was my first experience living in the United States, and I noticed the similarities and differences compared to places I had seen before. Although we only stayed briefly, California marked the beginning of our new life in America.",
+    "implicit_text": "This West Coast state was where we first landed in America, specifically in a large southern city. It was my first experience living in the United States, and I noticed the similarities and differences compared to places I had seen before. Although we only stayed briefly, this state marked the beginning of our new life in America.",
+    "cues": [
+      "Los Angeles",
+      "first US state",
+      "arrival",
+      "new life",
+      "brief stay"
+    ],
+    "transcript_ref": "immigration\\imm_umn_80_amara_baja.yaml"
+  },
+  {
+    "entity_id": 8,
+    "entity": "Twin Falls, Idaho",
+    "explicit_text": "After Los Angeles, my family and I moved to Twin Falls, Idaho, where I had the chance to attend school for the first time in America. There were not many Karen people there, and jobs were scarce, which made life challenging. We lived in Twin Falls for about six months before moving to another city.",
+    "implicit_text": "After the big southern city, my family and I moved to a small city in the northwestern United States, where I had the chance to attend school for the first time in America. There were not many people from my ethnic group there, and jobs were scarce, which made life challenging. We lived in that city for about six months before moving to another city.",
+    "cues": [
+      "move after Los Angeles",
+      "school attendance",
+      "few Karen people",
+      "limited jobs",
+      "six months"
+    ],
+    "transcript_ref": "immigration\\imm_umn_80_amara_baja.yaml"
+  },
+  {
+    "entity_id": 9,
+    "entity": "St. Paul, Minnesota",
+    "explicit_text": "St. Paul, Minnesota is where my family and I moved after living in Twin Falls. It is where I am now, and I feel more settled here. Moving to St. Paul was an important step in our journey as we continued to build our new life in America.",
+    "implicit_text": "This Midwestern city is where my family and I moved after living in the small northwestern city. It is where I am now, and I feel more settled here. Moving to this city was an important step in our journey as we continued to build our new life in America.",
+    "cues": [
+      "move after Twin Falls",
+      "current residence",
+      "settling down",
+      "new life",
+      "Minnesota"
+    ],
+    "transcript_ref": "immigration\\imm_umn_80_amara_baja.yaml"
+  },
+  {
+    "entity_id": 10,
+    "entity": "Karen people",
+    "explicit_text": "I am part of the Karen people, and throughout our journey to America, I noticed that there were not many Karen people in some places like Twin Falls, Idaho. The Karen community has been important to me, especially during our time in camps and while traveling. Our shared culture and support helped us through many challenges on this long journey.",
+    "implicit_text": "I am part of an ethnic group from Southeast Asia, and throughout our journey to America, I noticed that there were not many people from my community in some places like the small city in the northwest. Our community has been important to me, especially during our time in camps and while traveling. Our shared culture and support helped us through many challenges on this long journey.",
+    "cues": [
+      "Karen community",
+      "camps",
+      "journey to America",
+      "few in Twin Falls",
+      "cultural support"
+    ],
+    "transcript_ref": "immigration\\imm_umn_80_amara_baja.yaml"
+  }
+]

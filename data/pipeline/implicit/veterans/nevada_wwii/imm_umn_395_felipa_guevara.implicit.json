@@ -1,0 +1,71 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "Mexico",
+    "explicit_text": "I was born and raised in Mexico, where my father had a small business as the town's milkman. My family lived there for many years, and I helped my dad with his work. Although my mother was American, she stayed mostly in the United States after she got sick during her last pregnancy. I lived in Mexico until I was able to cross the border and join my family in the U.S., but I never went back to live there after that.",
+    "implicit_text": "I was born and raised in a country south of the U.S. border, where my father had a small business as the town's milkman. My family lived there for many years, and I helped my dad with his work. Although my mother was American, she stayed mostly in her home country after she got sick during her last pregnancy. I lived there until I was able to cross the border and join my family in the northern neighbor, but I never went back to live there after that.",
+    "cues": [
+      "birthplace",
+      "father's milkman business",
+      "family life",
+      "border crossing",
+      "Tijuana"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_395_felipa_guevara.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "United States",
+    "explicit_text": "I came to the United States because my mother was American, and it was allowed for children of an American mother and Mexican father to become U.S. citizens. My younger brother was even born in the U.S. after my grandma took my mother there for medical reasons. Eventually, my mother brought the rest of the family over, and I lived in Los Angeles with my grandma, mom, and siblings. Later in life, after my ex retired, we moved to Utah where I took English classes to improve myself.",
+    "implicit_text": "I came to the country north of the border because my mother was American, and it was allowed for children of an American mother and Mexican father to become citizens there. My younger brother was even born in that country after my grandma took my mother there for medical reasons. Eventually, my mother brought the rest of the family over, and I lived in a major city on the west coast with my grandma, mom, and siblings. Later in life, after my ex retired, we moved to a western state where I took English classes to improve myself.",
+    "cues": [
+      "mother's citizenship",
+      "brother born in U.S.",
+      "family migration",
+      "Los Angeles residence",
+      "Utah move",
+      "English classes"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_395_felipa_guevara.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "Tijuana",
+    "explicit_text": "After my first attempt to cross the border failed, I was sent back to Tijuana, Mexico, where I stayed with my brother and sister-in-law for a few months. It was a difficult time because I had to wait before I could get a three-day pass to cross into the United States again. Tijuana was the place I lived right before finally joining my family in Los Angeles.",
+    "implicit_text": "After my first attempt to cross the border failed, I was sent back to a border city in the northern part of my birth country, where I stayed with my brother and sister-in-law for a few months. It was a difficult time because I had to wait before I could get a three-day pass to cross into the northern neighboring country again. That border city was the place I lived right before finally joining my family in a major west coast city.",
+    "cues": [
+      "border crossing failure",
+      "living with brother and sister-in-law",
+      "waiting period",
+      "transition to U.S."
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_395_felipa_guevara.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "Los Angeles",
+    "explicit_text": "Once I was able to cross the border, I lived in Los Angeles, California with my grandma, mother, sister, and two brothers. This was my first home in the United States, and I never returned to live in Mexico after moving there. In Los Angeles, I got married, raised five children, and built my family life.",
+    "implicit_text": "Once I was able to cross the border, I lived in a large city in California with my grandma, mother, sister, and two brothers. This was my first home in the northern neighboring country, and I never returned to live in my birth country after moving there. In that city, I got married, raised five children, and built my family life.",
+    "cues": [
+      "first U.S. residence",
+      "family living together",
+      "marriage and children",
+      "never returned to Mexico"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_395_felipa_guevara.yaml"
+  },
+  {
+    "entity_id": 5,
+    "entity": "Utah",
+    "explicit_text": "After my ex-husband retired, we moved to Utah to start a new chapter in our lives. It was here that my friend Ceci told me about an English class, which I decided to take despite the challenges. The teacher and other students were very patient and helpful, and I enjoyed the class. Living in Utah has been a positive experience as I continue to maintain good relationships with my family and friends.",
+    "implicit_text": "After my ex-husband retired, we moved to a western state known for its mountains to start a new chapter in our lives. It was here that my friend Ceci told me about an English class, which I decided to take despite the challenges. The teacher and other students were very patient and helpful, and I enjoyed the class. Living in this state has been a positive experience as I continue to maintain good relationships with my family and friends.",
+    "cues": [
+      "move after retirement",
+      "friend Ceci",
+      "English class",
+      "teacher and classmates",
+      "family relationships"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_395_felipa_guevara.yaml"
+  }
+]

@@ -1,0 +1,408 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "World War II",
+    "explicit_text": "I served throughout World War II in the United States Army Air Forces. During the war, I was stationed in the Continental Air Forces' Western Flying Training Command here in the United States. I enlisted after finishing my college degree in Mount Pleasant, Michigan, and trained primarily in places like Santa Ana, California, and Phoenix, Arizona. Although I didn't see combat overseas during the war, my service was an important part of my life and growth.",
+    "implicit_text": "I served throughout the global conflict from 1939 to 1945 in the United States Army Air Forces. During the war, I was stationed in the training command responsible for the western region of the continental United States. I enlisted after finishing my college degree in Mount Pleasant, Michigan, and trained primarily in places like Santa Ana, California, and Phoenix, Arizona. Although I didn't see combat overseas during the war, my service was an important part of my life and growth.",
+    "cues": [
+      "World War II",
+      "Continental Air Forces",
+      "Western Flying Training Command",
+      "Santa Ana, California",
+      "Phoenix, Arizona",
+      "Mount Pleasant, Michigan"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.55298.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "United States Army Air Forces",
+    "explicit_text": "I enlisted in the United States Army Air Forces during World War II after completing my degree. I started as an Aviation Cadet and eventually rose to the rank of Major. My training and service were mostly stateside, including time at Santa Ana and Phoenix, where I completed my flight training. The Air Forces gave me the opportunity to pursue my passion for aviation and shaped much of my early adult life.",
+    "implicit_text": "I enlisted in the aerial warfare service branch of the U.S. Army during the global conflict from 1939 to 1945 after completing my degree. I started as an Aviation Cadet and eventually rose to the rank of Major. My training and service were mostly stateside, including time at Santa Ana and Phoenix, where I completed my flight training. This branch gave me the opportunity to pursue my passion for aviation and shaped much of my early adult life.",
+    "cues": [
+      "United States Army Air Forces",
+      "World War II",
+      "Aviation Cadet",
+      "Major",
+      "Santa Ana, California",
+      "Phoenix, Arizona"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.55298.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "Continental Air Forces",
+    "explicit_text": "During World War II, I was assigned to the Continental Air Forces, specifically within the Western Flying Training Command. This was all within the United States, where I underwent my flight training and initial service. The Continental Air Forces played a key role in preparing me and many others for aviation duties during the war.",
+    "implicit_text": "During the global conflict from 1939 to 1945, I was assigned to the overarching command responsible for continental U.S. air operations, specifically within the western training sector. This was all within the United States, where I underwent my flight training and initial service. This command played a key role in preparing me and many others for aviation duties during the war.",
+    "cues": [
+      "Continental Air Forces",
+      "Western Flying Training Command",
+      "World War II",
+      "United States"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.55298.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "Western Flying Training Command",
+    "explicit_text": "I trained under the Western Flying Training Command during World War II, which was part of the Continental Air Forces. My training began at Santa Ana, California, where we were classified into different aviation roles. This command was responsible for preparing me to be a pilot, which was a natural fit given my prior private pilot license.",
+    "implicit_text": "I trained under the western regional flying training command during the global conflict from 1939 to 1945, which was part of the larger continental air forces. My training began at Santa Ana, California, where we were classified into different aviation roles. This command was responsible for preparing me to be a pilot, which was a natural fit given my prior private pilot license.",
+    "cues": [
+      "Western Flying Training Command",
+      "Continental Air Forces",
+      "Santa Ana, California",
+      "World War II"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.55298.yaml"
+  },
+  {
+    "entity_id": 5,
+    "entity": "Mount Pleasant, Michigan",
+    "explicit_text": "Mount Pleasant, Michigan, was my hometown where I lived when I enlisted in the Army Air Forces. It was also where my parents and my wife's parents lived, and after my service ended, I returned there. Mount Pleasant was the foundation of my early life and the place I came back to after the war.",
+    "implicit_text": "My hometown where I lived when I enlisted in the Army Air Forces was a small city in Michigan. It was also where my parents and my wife's parents lived, and after my service ended, I returned there. This city was the foundation of my early life and the place I came back to after the war.",
+    "cues": [
+      "Mount Pleasant, Michigan",
+      "enlistment",
+      "post-service return",
+      "family"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.55298.yaml"
+  },
+  {
+    "entity_id": 6,
+    "entity": "Carnegie Mellon University",
+    "explicit_text": "I earned my private pilot license through the civil pilot training program offered by Carnegie Mellon University and the local airport. This experience sparked my interest in aviation and made joining the Army Air Forces a natural step after graduation. Carnegie Mellon played an important role in preparing me for my military flight training.",
+    "implicit_text": "I earned my private pilot license through the civil pilot training program offered by a prominent technical university in Pittsburgh and the local airport. This experience sparked my interest in aviation and made joining the Army Air Forces a natural step after graduation. That university played an important role in preparing me for my military flight training.",
+    "cues": [
+      "Carnegie Mellon University",
+      "civil pilot training",
+      "private pilot license",
+      "aviation interest"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.55298.yaml"
+  },
+  {
+    "entity_id": 7,
+    "entity": "Santa Ana, California",
+    "explicit_text": "My initial training as an aviation cadet took place at Santa Ana, California, which was a classification center for pilots, navigators, and bombardiers. It was a new base with a lot of landscaping work for us to do, and I remember the drill, KP, and latrine duties that came with basic training. Santa Ana was where I first got a real taste of military life during World War II.",
+    "implicit_text": "My initial training as an aviation cadet took place at a classification center in southern California, which was a hub for pilots, navigators, and bombardiers. It was a new base with a lot of landscaping work for us to do, and I remember the drill, KP, and latrine duties that came with basic training. This location was where I first got a real taste of military life during the global conflict.",
+    "cues": [
+      "Santa Ana, California",
+      "aviation cadet training",
+      "classification center",
+      "World War II"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.55298.yaml"
+  },
+  {
+    "entity_id": 8,
+    "entity": "Grand Rapids, Michigan",
+    "explicit_text": "One of my first flight instructors was a civilian pilot named Peterson who was originally from Grand Rapids, Michigan. He helped me during my early flight training, and I remember him as an important figure in my transition from civilian to military pilot. Grand Rapids was connected to my training through him.",
+    "implicit_text": "One of my first flight instructors was a civilian pilot named Peterson who was originally from a city in western Michigan. He helped me during my early flight training, and I remember him as an important figure in my transition from civilian to military pilot. That city was connected to my training through him.",
+    "cues": [
+      "Grand Rapids, Michigan",
+      "flight instructor Peterson",
+      "civilian pilot",
+      "flight training"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.55298.yaml"
+  },
+  {
+    "entity_id": 9,
+    "entity": "Korean War",
+    "explicit_text": "I was still in the service during the Korean War, although I didn't serve in Korea itself. I had the option to go to Korea or Bermuda, and I chose Bermuda. During that time, I flew missions out of Bermuda and had some memorable experiences, including a flight between Bermuda and Dover, Delaware, where we were struck by lightning multiple times.",
+    "implicit_text": "I was still in the service during the conflict on the Korean Peninsula, although I didn't serve in Korea itself. I had the option to go to Korea or a British territory in the North Atlantic, and I chose the latter. During that time, I flew missions out of that island and had some memorable experiences, including a flight between there and a base in Delaware, where we were struck by lightning multiple times.",
+    "cues": [
+      "Korean War",
+      "Bermuda",
+      "Dover, Delaware",
+      "military flight",
+      "lightning strike"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.55298.yaml"
+  },
+  {
+    "entity_id": 10,
+    "entity": "Bermuda",
+    "explicit_text": "During the Korean War, I was stationed in Bermuda as part of my service with the Military Air Transport Service. I flew missions out of Bermuda and had some intense experiences, such as being hit by lightning three times on a night flight between Bermuda and Dover, Delaware. Bermuda was a significant posting for me during that period.",
+    "implicit_text": "During the conflict on the Korean Peninsula, I was stationed on a North Atlantic island as part of my service with the military's air transport division. I flew missions out of that island and had some intense experiences, such as being hit by lightning three times on a night flight between there and Dover, Delaware. That island was a significant posting for me during that period.",
+    "cues": [
+      "Bermuda",
+      "Korean War",
+      "Military Air Transport Service",
+      "lightning strike",
+      "Dover, Delaware"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.55298.yaml"
+  },
+  {
+    "entity_id": 11,
+    "entity": "Phoenix, Arizona",
+    "explicit_text": "I completed both my primary and advanced flight training in Phoenix, Arizona. Unfortunately, I got sick with the flu just as I was transferring there from Santa Ana and ended up spending six weeks in the hospital. Despite that rough start, Phoenix was where I finished my training and prepared for my military aviation career.",
+    "implicit_text": "I completed both my primary and advanced flight training in a desert city in Arizona. Unfortunately, I got sick with the flu just as I was transferring there from southern California and ended up spending six weeks in the hospital. Despite that rough start, this city was where I finished my training and prepared for my military aviation career.",
+    "cues": [
+      "Phoenix, Arizona",
+      "flight training",
+      "flu illness",
+      "Santa Ana, California",
+      "World War II"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.55298.yaml"
+  },
+  {
+    "entity_id": 12,
+    "entity": "Dover, Delaware",
+    "explicit_text": "I flew missions between Bermuda and Dover, Delaware, during the Korean War while assigned to the Military Air Transport Service. One memorable flight involved our plane being struck by lightning three times, causing significant damage. Dover was one of the key locations in my post-World War II military service.",
+    "implicit_text": "I flew missions between the North Atlantic island and a military base in Delaware during the conflict on the Korean Peninsula while assigned to the military air transport division. One memorable flight involved our plane being struck by lightning three times, causing significant damage. That Delaware base was one of the key locations in my post-World War II military service.",
+    "cues": [
+      "Dover, Delaware",
+      "Korean War",
+      "Military Air Transport Service",
+      "Bermuda",
+      "lightning strike"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.55298.yaml"
+  },
+  {
+    "entity_id": 13,
+    "entity": "Good Conduct Medal",
+    "explicit_text": "During my military service, I was awarded the Good Conduct Medal along with the Flying Safety Medal. I consider myself lucky to have received these honors and to have avoided serious injury or combat. These medals represent my dedication and discipline throughout my time in the service.",
+    "implicit_text": "During my military service, I was awarded the medal recognizing exemplary behavior along with the flying safety award. I consider myself lucky to have received these honors and to have avoided serious injury or combat. These medals represent my dedication and discipline throughout my time in the service.",
+    "cues": [
+      "Good Conduct Medal",
+      "Flying Safety Medal",
+      "military awards",
+      "service recognition"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.55298.yaml"
+  },
+  {
+    "entity_id": 14,
+    "entity": "Military Air Transport Service",
+    "explicit_text": "After World War II, I was assigned to the Military Air Transport Service in the Atlantic division. This role involved flying to various locations around the Atlantic, including England, Europe, France, North Africa, and as far east as Tripoli. MATS gave me the opportunity to travel extensively and continue my aviation career during the postwar period.",
+    "implicit_text": "After the global conflict, I was assigned to the military's air transport division in the Atlantic sector. This role involved flying to various locations around the Atlantic, including England, Europe, France, North Africa, and as far east as a major city in Libya. This service gave me the opportunity to travel extensively and continue my aviation career during the postwar period.",
+    "cues": [
+      "Military Air Transport Service",
+      "Atlantic division",
+      "England",
+      "Europe",
+      "France",
+      "North Africa",
+      "Tripoli"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.55298.yaml"
+  },
+  {
+    "entity_id": 15,
+    "entity": "Atlantic Ocean",
+    "explicit_text": "My service with the Military Air Transport Service involved flying across the Atlantic Ocean to various destinations. This included trips to England, Europe, France, North Africa, and islands throughout the Atlantic area. The Atlantic was a major theater of my post-World War II flying duties.",
+    "implicit_text": "My service with the military air transport division involved flying across the Atlantic Ocean to various destinations. This included trips to England, Europe, France, North Africa, and islands throughout the Atlantic area. The Atlantic was a major theater of my post-World War II flying duties.",
+    "cues": [
+      "Atlantic Ocean",
+      "Military Air Transport Service",
+      "transatlantic flights",
+      "Europe",
+      "North Africa"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.55298.yaml"
+  },
+  {
+    "entity_id": 16,
+    "entity": "England",
+    "explicit_text": "While serving with the Military Air Transport Service, I flew to England and other parts of Europe. These flights were part of the Atlantic division's operations during the postwar period. England was one of the key destinations in my travels during this time.",
+    "implicit_text": "While serving with the military air transport division, I flew to England and other parts of Europe. These flights were part of the Atlantic sector's operations during the postwar period. England was one of the key destinations in my travels during this time.",
+    "cues": [
+      "England",
+      "Military Air Transport Service",
+      "post-World War II",
+      "Europe"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.55298.yaml"
+  },
+  {
+    "entity_id": 17,
+    "entity": "Europe",
+    "explicit_text": "My military flights took me all over Europe, including England and France, as part of the Military Air Transport Service. After World War II, I also spent six months TDY in Germany during the Airlift, where I enjoyed recreational activities like skiing at Garmisch. Europe was a significant region in my postwar service and travel.",
+    "implicit_text": "My military flights took me all over Europe, including England and France, as part of the military air transport division. After the global conflict, I also spent six months temporary duty in Germany during the Berlin Airlift, where I enjoyed recreational activities like skiing at Garmisch. Europe was a significant region in my postwar service and travel.",
+    "cues": [
+      "Europe",
+      "Military Air Transport Service",
+      "Germany",
+      "Airlift",
+      "Garmisch"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.55298.yaml"
+  },
+  {
+    "entity_id": 18,
+    "entity": "France",
+    "explicit_text": "France was one of the European countries I flew to while assigned to the Military Air Transport Service's Atlantic division. These flights were part of the post-World War II operations that connected various locations across the Atlantic and Europe. France was among the key destinations during my service.",
+    "implicit_text": "France was one of the European countries I flew to while assigned to the military air transport division's Atlantic sector. These flights were part of the post-World War II operations that connected various locations across the Atlantic and Europe. France was among the key destinations during my service.",
+    "cues": [
+      "France",
+      "Military Air Transport Service",
+      "post-World War II",
+      "Europe"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.55298.yaml"
+  },
+  {
+    "entity_id": 19,
+    "entity": "North Africa",
+    "explicit_text": "My flights with the Military Air Transport Service extended as far as North Africa, including places like Tripoli. This was part of the Atlantic division's wide-ranging routes during the postwar period. North Africa was an important region in the scope of my military aviation duties.",
+    "implicit_text": "My flights with the military air transport division extended as far as North Africa, including places like Tripoli. This was part of the Atlantic sector's wide-ranging routes during the postwar period. North Africa was an important region in the scope of my military aviation duties.",
+    "cues": [
+      "North Africa",
+      "Military Air Transport Service",
+      "Tripoli",
+      "post-World War II"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.55298.yaml"
+  },
+  {
+    "entity_id": 20,
+    "entity": "Tripoli",
+    "explicit_text": "Tripoli was one of the farthest eastern points I flew to while serving with the Military Air Transport Service in the Atlantic division. This was during the post-World War II period when our routes covered a broad area including North Africa. Tripoli represented the extent of my flying range in that region.",
+    "implicit_text": "Tripoli was one of the farthest eastern points I flew to while serving with the military air transport division in the Atlantic sector. This was during the post-World War II period when our routes covered a broad area including North Africa. Tripoli represented the extent of my flying range in that region.",
+    "cues": [
+      "Tripoli",
+      "Military Air Transport Service",
+      "North Africa",
+      "post-World War II"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.55298.yaml"
+  },
+  {
+    "entity_id": 21,
+    "entity": "Frankfurt am Main",
+    "explicit_text": "I had close connections with fellow officers stationed near Frankfurt am Main, Germany, after the war during the Airlift. I lived in an apartment there with a roommate who was also a pilot, and we flew together often. Frankfurt was one of the key bases in Germany where I spent time during my postwar service.",
+    "implicit_text": "I had close connections with fellow officers stationed near a major German city on the Main River after the war during the Berlin Airlift. I lived in an apartment there with a roommate who was also a pilot, and we flew together often. That city was one of the key bases in Germany where I spent time during my postwar service.",
+    "cues": [
+      "Frankfurt am Main",
+      "Germany",
+      "post-World War II",
+      "Airlift",
+      "roommate"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.55298.yaml"
+  },
+  {
+    "entity_id": 22,
+    "entity": "Rhine-Main Air Base",
+    "explicit_text": "Rhine-Main Air Base near Frankfurt was one of the airfields I operated from during the Airlift in Germany. I recall a humorous incident involving a pilot who was misdirected between Rhine-Main and Wiesbaden Air Base due to a communication mix-up. Rhine-Main was a central location in my postwar military activities in Europe.",
+    "implicit_text": "The air base near the major German city on the Main River was one of the airfields I operated from during the Berlin Airlift in Germany. I recall a humorous incident involving a pilot who was misdirected between that air base and a nearby one due to a communication mix-up. This air base was a central location in my postwar military activities in Europe.",
+    "cues": [
+      "Rhine-Main Air Base",
+      "Frankfurt am Main",
+      "Germany",
+      "Airlift",
+      "post-World War II"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.55298.yaml"
+  },
+  {
+    "entity_id": 23,
+    "entity": "Wiesbaden Air Base",
+    "explicit_text": "Wiesbaden Air Base was close to Rhine-Main Air Base in Germany, and I was familiar with both during the Airlift after World War II. I remember a mix-up where a pilot intended to land at Rhine-Main but ended up at Wiesbaden due to a communication error. Wiesbaden was part of the network of bases I frequented in Europe.",
+    "implicit_text": "The nearby air base close to the major German city on the Main River was familiar to me during the Berlin Airlift after the global conflict. I remember a mix-up where a pilot intended to land at the main air base but ended up at this one due to a communication error. This base was part of the network of bases I frequented in Europe.",
+    "cues": [
+      "Wiesbaden Air Base",
+      "Rhine-Main Air Base",
+      "Germany",
+      "Airlift",
+      "post-World War II"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.55298.yaml"
+  },
+  {
+    "entity_id": 24,
+    "entity": "Lincoln, Nebraska",
+    "explicit_text": "My military service ended while I was stationed in Lincoln, Nebraska. After the war, they asked who wanted to get out, and I volunteered. Lincoln was the place where I transitioned back to civilian life before returning home to Mount Pleasant, Michigan.",
+    "implicit_text": "My military service ended while I was stationed in the capital city of Nebraska. After the war, they asked who wanted to get out, and I volunteered. This city was the place where I transitioned back to civilian life before returning home to Mount Pleasant, Michigan.",
+    "cues": [
+      "Lincoln, Nebraska",
+      "end of service",
+      "post-World War II",
+      "volunteered discharge"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.55298.yaml"
+  },
+  {
+    "entity_id": 25,
+    "entity": "Remus, Michigan",
+    "explicit_text": "After returning home from the military, I accepted a teaching job in Remus, Michigan. This was shortly after my discharge and marked the beginning of my post-military career in education. Remus was where I started my civilian professional life.",
+    "implicit_text": "After returning home from the military, I accepted a teaching job in a small village in Michigan. This was shortly after my discharge and marked the beginning of my post-military career in education. That village was where I started my civilian professional life.",
+    "cues": [
+      "Remus, Michigan",
+      "post-military career",
+      "teaching job",
+      "Michigan"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.55298.yaml"
+  },
+  {
+    "entity_id": 26,
+    "entity": "Michigan State University",
+    "explicit_text": "I completed my master's degree at Michigan State University after my military service. The GI Bill supported my graduate education, which helped me advance my career in teaching and school administration. MSU was an important part of my educational journey post-service.",
+    "implicit_text": "I completed my master's degree at a major public university in East Lansing, Michigan after my military service. The GI Bill supported my graduate education, which helped me advance my career in teaching and school administration. That university was an important part of my educational journey post-service.",
+    "cues": [
+      "Michigan State University",
+      "master's degree",
+      "GI Bill",
+      "post-military education"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.55298.yaml"
+  },
+  {
+    "entity_id": 27,
+    "entity": "American Legion",
+    "explicit_text": "I joined the American Legion as a veterans organization after my military service. Although I haven't been very active, I have attended some get-togethers, dinners, and reunions. The American Legion has been a way to stay connected with fellow veterans and honor our shared experiences.",
+    "implicit_text": "I joined a prominent veterans organization after my military service. Although I haven't been very active, I have attended some get-togethers, dinners, and reunions. This organization has been a way to stay connected with fellow veterans and honor our shared experiences.",
+    "cues": [
+      "American Legion",
+      "veterans organization",
+      "reunions",
+      "post-service activities"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.55298.yaml"
+  },
+  {
+    "entity_id": 28,
+    "entity": "United States Air Force Academy",
+    "explicit_text": "One of my three sons graduated from the United States Air Force Academy and served in Vietnam. This connection to the Academy and military service in my family has been a source of pride. The Academy represents a continuation of the military tradition in my family.",
+    "implicit_text": "One of my three sons graduated from the U.S. military academy for the air service and served in the conflict in Southeast Asia. This connection to the academy and military service in my family has been a source of pride. The academy represents a continuation of the military tradition in my family.",
+    "cues": [
+      "United States Air Force Academy",
+      "son's graduation",
+      "Vietnam War",
+      "family military service"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.55298.yaml"
+  },
+  {
+    "entity_id": 29,
+    "entity": "Vietnam War",
+    "explicit_text": "My son served in the Vietnam War after graduating from the United States Air Force Academy. While I did not serve in Vietnam myself, the war impacted my family through his service. It is part of our family's ongoing military legacy.",
+    "implicit_text": "My son served in the conflict in Southeast Asia after graduating from the U.S. military academy for the air service. While I did not serve in that war myself, the conflict impacted my family through his service. It is part of our family's ongoing military legacy.",
+    "cues": [
+      "Vietnam War",
+      "son's service",
+      "United States Air Force Academy",
+      "family military"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.55298.yaml"
+  },
+  {
+    "entity_id": 30,
+    "entity": "Charleston, South Carolina",
+    "explicit_text": "I attended a reunion in Charleston, South Carolina, with the squadron I served with while stationed in Bermuda. It was a chance to reconnect with old comrades and reminisce about our shared experiences. Charleston holds significance as a gathering place for veterans from my unit.",
+    "implicit_text": "I attended a reunion in a coastal city in South Carolina with the squadron I served with while stationed on the North Atlantic island. It was a chance to reconnect with old comrades and reminisce about our shared experiences. That city holds significance as a gathering place for veterans from my unit.",
+    "cues": [
+      "Charleston, South Carolina",
+      "veterans reunion",
+      "Bermuda squadron",
+      "post-service gatherings"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.55298.yaml"
+  }
+]

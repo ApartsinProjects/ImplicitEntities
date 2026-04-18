@@ -1,0 +1,145 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "Montana",
+    "explicit_text": "I have been working here in Montana for many years, currently as the administrator at the Discovery Care Center Support. Montana is where my long-term care facility is located, and I’ve been serving this community for the past 14 years. It’s a less densely populated area compared to urban centers, which influenced how COVID-19 gradually affected us here. Places like Hamilton and Reveille County in Montana have been part of my daily experience managing healthcare during the pandemic.",
+    "implicit_text": "I have been working here in this northwestern state for many years, currently as the administrator at the long-term care facility I oversee. This state is where my facility is located, and I’ve been serving this community for the past 14 years. It’s a less densely populated area compared to urban centers, which influenced how the pandemic gradually affected us here. Places like Hamilton and Reveille County in this state have been part of my daily experience managing healthcare during the pandemic.",
+    "cues": [
+      "Montana",
+      "14 years",
+      "less densely populated",
+      "Hamilton",
+      "Reveille County"
+    ],
+    "transcript_ref": "covid_19\\covid_nhc_Richard_Bucheit_016.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "Discovery Care Center Support",
+    "explicit_text": "I am the administrator at Discovery Care Center Support, a long-term care facility in Montana that provides assisted living and skilled nursing services. I’ve been in this role for 14 years, overseeing daily operations and ensuring the safety and well-being of our residents. During the COVID-19 pandemic, we had to implement many new policies like visitor restrictions and PPE stockpiling to protect our vulnerable population. It’s been challenging but rewarding to support both staff and residents through these times.",
+    "implicit_text": "I am the administrator at the long-term care facility in that northwestern state that provides assisted living and skilled nursing services. I’ve been in this role for 14 years, overseeing daily operations and ensuring the safety and well-being of our residents. During the pandemic, we had to implement many new policies like visitor restrictions and PPE stockpiling to protect our vulnerable population. It’s been challenging but rewarding to support both staff and residents through these times.",
+    "cues": [
+      "Discovery Care Center Support",
+      "administrator",
+      "long-term care",
+      "14 years",
+      "COVID-19 policies"
+    ],
+    "transcript_ref": "covid_19\\covid_nhc_Richard_Bucheit_016.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "COVID-19 pandemic",
+    "explicit_text": "The COVID-19 pandemic started impacting our facility around March 2020, and we quickly had to adapt to new safety protocols. We followed guidance from CMS and the CDC to implement visitor restrictions, staff masking, and stockpiling PPE and food supplies. It was a gradual arrival in Reveille County and Hamilton, Montana, but the emotional toll on residents, especially those with dementia, was significant. The pandemic reminded me of past health crises like the HIV/AIDS epidemic and severe influenza seasons, but this was on a much larger scale.",
+    "implicit_text": "The pandemic started impacting our facility around March 2020, and we quickly had to adapt to new safety protocols. We followed guidance from federal health agencies to implement visitor restrictions, staff masking, and stockpiling PPE and food supplies. It was a gradual arrival in Reveille County and Hamilton in the northwestern state, but the emotional toll on residents, especially those with dementia, was significant. The pandemic reminded me of past health crises like the HIV/AIDS epidemic and severe influenza seasons, but this was on a much larger scale.",
+    "cues": [
+      "March 2020",
+      "visitor restrictions",
+      "staff masking",
+      "Reveille County",
+      "Hamilton",
+      "CDC",
+      "CMS"
+    ],
+    "transcript_ref": "covid_19\\covid_nhc_Richard_Bucheit_016.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "Centers for Disease Control and Prevention",
+    "explicit_text": "Throughout the COVID-19 pandemic, I relied heavily on the Centers for Disease Control and Prevention for guidance and recommendations. The CDC issued numerous documents that helped shape our facility’s policies on masking, visitation, and infection control. However, the volume and sometimes contradictory nature of their guidance made it challenging to interpret and apply in real-time. Still, their role was critical in helping us protect our residents and staff during this unprecedented event.",
+    "implicit_text": "Throughout the pandemic, I relied heavily on the main federal public health agency for guidance and recommendations. That agency issued numerous documents that helped shape our facility’s policies on masking, visitation, and infection control. However, the volume and sometimes contradictory nature of their guidance made it challenging to interpret and apply in real-time. Still, their role was critical in helping us protect our residents and staff during this unprecedented event.",
+    "cues": [
+      "Centers for Disease Control and Prevention",
+      "guidance",
+      "COVID-19",
+      "masking",
+      "visitation policies"
+    ],
+    "transcript_ref": "covid_19\\covid_nhc_Richard_Bucheit_016.yaml"
+  },
+  {
+    "entity_id": 5,
+    "entity": "Centers for Medicare & Medicaid Services",
+    "explicit_text": "The Centers for Medicare & Medicaid Services played a big role in issuing QSO documents that guided our facility’s response to COVID-19. These documents, sometimes over 150 pages with multiple revisions, detailed infection control requirements and visitation rules specific to nursing homes like ours. It was often difficult to keep up with the volume and changes, but CMS’s guidance was essential for compliance and resident safety. We had to carefully track which documents applied to our facility and adjust policies accordingly throughout 2020 and 2021.",
+    "implicit_text": "The federal agency responsible for Medicare and Medicaid played a big role in issuing QSO documents that guided our facility’s response to the pandemic. These documents, sometimes over 150 pages with multiple revisions, detailed infection control requirements and visitation rules specific to nursing homes like ours. It was often difficult to keep up with the volume and changes, but their guidance was essential for compliance and resident safety. We had to carefully track which documents applied to our facility and adjust policies accordingly throughout 2020 and 2021.",
+    "cues": [
+      "Centers for Medicare & Medicaid Services",
+      "QSO documents",
+      "COVID-19",
+      "nursing home",
+      "2020",
+      "2021"
+    ],
+    "transcript_ref": "covid_19\\covid_nhc_Richard_Bucheit_016.yaml"
+  },
+  {
+    "entity_id": 6,
+    "entity": "Reveille County, Montana",
+    "explicit_text": "Reveille County, Montana, is part of the community where our facility is located, and it experienced a gradual onset of COVID-19 cases starting around April or May 2020. Because it’s a less densely populated area, the virus didn’t hit all at once, but we still had to implement strict visitor restrictions and staff precautions early on. Watching the situation evolve in Reveille County helped us prepare and respond thoughtfully to protect our residents and staff.",
+    "implicit_text": "Reveille County in the northwestern state is part of the community where our facility is located, and it experienced a gradual onset of pandemic cases starting around April or May 2020. Because it’s a less densely populated area, the virus didn’t hit all at once, but we still had to implement strict visitor restrictions and staff precautions early on. Watching the situation evolve in that county helped us prepare and respond thoughtfully to protect our residents and staff.",
+    "cues": [
+      "Reveille County",
+      "Montana",
+      "April-May 2020",
+      "COVID-19",
+      "visitor restrictions"
+    ],
+    "transcript_ref": "covid_19\\covid_nhc_Richard_Bucheit_016.yaml"
+  },
+  {
+    "entity_id": 7,
+    "entity": "Hamilton, Montana",
+    "explicit_text": "Hamilton, Montana, is another community near our facility where COVID-19 began to impact daily life around spring 2020. Like Reveille County, Hamilton saw a gradual increase in cases, prompting us to enforce visitor limitations and enhanced safety protocols. The local context of Hamilton shaped how we managed the pandemic response, balancing caution with the needs of our residents and staff.",
+    "implicit_text": "Hamilton, a community near our facility in the northwestern state, is another place where the pandemic began to impact daily life around spring 2020. Like Reveille County, Hamilton saw a gradual increase in cases, prompting us to enforce visitor limitations and enhanced safety protocols. The local context of Hamilton shaped how we managed the pandemic response, balancing caution with the needs of our residents and staff.",
+    "cues": [
+      "Hamilton",
+      "Montana",
+      "spring 2020",
+      "COVID-19",
+      "visitor limitations"
+    ],
+    "transcript_ref": "covid_19\\covid_nhc_Richard_Bucheit_016.yaml"
+  },
+  {
+    "entity_id": 8,
+    "entity": "HIV/AIDS epidemic",
+    "explicit_text": "Having worked in healthcare for over 42 years, I remember the HIV/AIDS epidemic in the early 1980s as a significant health crisis. When COVID-19 emerged, it reminded me of that time in terms of the uncertainty and fear among healthcare workers and patients. Both events required rapid adaptation and heightened infection control measures, though COVID-19’s scale and impact were even more widespread. The HIV/AIDS epidemic shaped my perspective on managing infectious diseases in vulnerable populations.",
+    "implicit_text": "Having worked in healthcare for over 42 years, I remember the epidemic of the early 1980s involving a serious immunodeficiency disease as a significant health crisis. When the recent respiratory pandemic emerged, it reminded me of that time in terms of the uncertainty and fear among healthcare workers and patients. Both events required rapid adaptation and heightened infection control measures, though the recent pandemic’s scale and impact were even more widespread. That earlier epidemic shaped my perspective on managing infectious diseases in vulnerable populations.",
+    "cues": [
+      "HIV/AIDS epidemic",
+      "early 1980s",
+      "healthcare experience",
+      "infection control",
+      "COVID-19 comparison"
+    ],
+    "transcript_ref": "covid_19\\covid_nhc_Richard_Bucheit_016.yaml"
+  },
+  {
+    "entity_id": 9,
+    "entity": "Influenza",
+    "explicit_text": "Throughout my nursing career, I’ve seen many severe influenza seasons that prepared me somewhat for the challenges of COVID-19. Influenza outbreaks taught me the importance of infection control and vaccination efforts in long-term care settings. When COVID-19 arrived, it felt like a more severe version of those bad flu seasons, requiring even more stringent precautions. These past experiences helped inform our facility’s response to protect residents from respiratory illnesses.",
+    "implicit_text": "Throughout my nursing career, I’ve seen many severe seasonal respiratory virus outbreaks that prepared me somewhat for the challenges of the recent pandemic. Those outbreaks taught me the importance of infection control and vaccination efforts in long-term care settings. When the new virus arrived, it felt like a more severe version of those bad flu seasons, requiring even more stringent precautions. These past experiences helped inform our facility’s response to protect residents from respiratory illnesses.",
+    "cues": [
+      "influenza",
+      "severe seasons",
+      "infection control",
+      "long-term care",
+      "COVID-19 comparison"
+    ],
+    "transcript_ref": "covid_19\\covid_nhc_Richard_Bucheit_016.yaml"
+  },
+  {
+    "entity_id": 10,
+    "entity": "Montana Health Care Association",
+    "explicit_text": "While I didn’t mention the Montana Health Care Association directly in our conversation, it’s an important organization that supports facilities like ours across the state. They provide resources and advocacy for long-term care providers in Montana, which has been valuable during the pandemic. Their guidance and networking opportunities help administrators like me stay informed and connected with best practices statewide.",
+    "implicit_text": "While I didn’t mention the statewide health care association directly in our conversation, it’s an important organization that supports facilities like ours across the state. They provide resources and advocacy for long-term care providers in this northwestern state, which has been valuable during the pandemic. Their guidance and networking opportunities help administrators like me stay informed and connected with best practices statewide.",
+    "cues": [
+      "Montana Health Care Association",
+      "long-term care",
+      "Montana",
+      "resources",
+      "advocacy"
+    ],
+    "transcript_ref": "covid_19\\covid_nhc_Richard_Bucheit_016.yaml"
+  }
+]

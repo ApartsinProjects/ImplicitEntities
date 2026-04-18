@@ -1,0 +1,58 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "Thailand",
+    "explicit_text": "I lived in a refugee camp in Thailand for two years before coming to America. It was a difficult time for my family, but it was our temporary home after leaving Burma. Thailand was where I stayed with my father and sister before we moved to the United States. Although life there was challenging, it was a crucial part of my journey to a better future.",
+    "implicit_text": "I lived in a refugee camp in a Southeast Asian country for two years before coming to America. It was a difficult time for my family, but it was our temporary home after leaving Burma. That country was where I stayed with my father and sister before we moved to the United States. Although life there was challenging, it was a crucial part of my journey to a better future.",
+    "cues": [
+      "refugee camp",
+      "two years",
+      "family",
+      "before America"
+    ],
+    "transcript_ref": "immigration\\imm_umn_280_unity_muna.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "United States of America",
+    "explicit_text": "I came to the United States of America with my father and sister after living in Thailand. Since arriving, I have been living in St. Paul, Minnesota for about ten months. America excites me because of its wonderful buildings, bridges, and the chance to see snow for the first time. I know that here I have opportunities to go to school, find a job, and access healthcare, which I couldn't have in Burma due to the civil war.",
+    "implicit_text": "I came to North America with my father and sister after living in Thailand. Since arriving, I have been living in St. Paul, Minnesota for about ten months. This country excites me because of its wonderful buildings, bridges, and the chance to see snow for the first time. I know that here I have opportunities to go to school, find a job, and access healthcare, which I couldn't have in Burma due to the civil war.",
+    "cues": [
+      "came with father and sister",
+      "ten months in St. Paul",
+      "opportunities",
+      "school",
+      "job",
+      "healthcare"
+    ],
+    "transcript_ref": "immigration\\imm_umn_280_unity_muna.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "St. Paul, Minnesota",
+    "explicit_text": "I have been living in St. Paul, Minnesota for ten months since coming to America. It was my first time seeing snow, which was exciting but also made me change my lifestyle to wearing thick coats. Sometimes I feel bored in the winter and don't like going outside, but I appreciate the opportunities here, like going to school and finding a job. St. Paul has become my new home where I am trying to improve my life.",
+    "implicit_text": "I have been living in the capital city of Minnesota for ten months since coming to America. It was my first time seeing snow, which was exciting but also made me change my lifestyle to wearing thick coats. Sometimes I feel bored in the winter and don't like going outside, but I appreciate the opportunities here, like going to school and finding a job. This city has become my new home where I am trying to improve my life.",
+    "cues": [
+      "ten months",
+      "first time seeing snow",
+      "winter",
+      "school",
+      "job"
+    ],
+    "transcript_ref": "immigration\\imm_umn_280_unity_muna.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "Burma",
+    "explicit_text": "I come from Burma, where life was very difficult because of the civil war that often disrupted events in my village. I couldn't go to school or have a permanent job there, which made it hard to improve my living standards. That’s why my family left Burma and eventually ended up in a refugee camp in Thailand before coming to America. Burma is where my story began, but it was not a place where I could build a better future.",
+    "implicit_text": "I come from a Southeast Asian country where life was very difficult because of the civil war that often disrupted events in my village. I couldn't go to school or have a permanent job there, which made it hard to improve my living standards. That’s why my family left that country and eventually ended up in a refugee camp in Thailand before coming to America. It is where my story began, but it was not a place where I could build a better future.",
+    "cues": [
+      "civil war",
+      "village",
+      "no school",
+      "no permanent job",
+      "left Burma"
+    ],
+    "transcript_ref": "immigration\\imm_umn_280_unity_muna.yaml"
+  }
+]

@@ -1,0 +1,86 @@
+[
+  {
+    "entity_id": 2,
+    "entity": "Thailand",
+    "explicit_text": "My people, the Hmong, escaped into Thailand after the communist takeover in Laos. My family and I stayed in Thailand before entering the United States in 1988. Thailand was a temporary refuge for us as political refugees without a country of our own. It was there that we received important immigration documents, including the I-94, which allowed us to legally enter the U.S.",
+    "implicit_text": "My people, the Hmong, escaped into a Southeast Asian country after the communist takeover in Laos. My family and I stayed there before entering the United States in 1988. That country was a temporary refuge for us as political refugees without a country of our own. It was there that we received important immigration documents, including the I-94, which allowed us to legally enter the U.S.",
+    "cues": [
+      "communist takeover in Laos",
+      "1988",
+      "refugee camp",
+      "immigration documents",
+      "I-94"
+    ],
+    "transcript_ref": "immigration\\imm_umn_139_teng_lee.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "Laos",
+    "explicit_text": "I come from Laos, where the communist takeover forced my Hmong people to flee. We escaped from Laos into Thailand to seek safety. Because of the political situation in Laos, my family and I became refugees and eventually resettled in the United States in 1988. Laos is the place we had to leave behind to find a new home.",
+    "implicit_text": "I come from a landlocked Southeast Asian nation where the communist takeover forced my Hmong people to flee. We escaped from that country into a neighboring nation to seek safety. Because of the political situation there, my family and I became refugees and eventually resettled in the United States in 1988. That place is the one we had to leave behind to find a new home.",
+    "cues": [
+      "communist takeover",
+      "Hmong people",
+      "escape",
+      "refugees",
+      "1988"
+    ],
+    "transcript_ref": "immigration\\imm_umn_139_teng_lee.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "United States",
+    "explicit_text": "My family and I entered the United States in 1988 as political refugees from Thailand. We settled in Minnesota and began the process of building a new life here. The U.S. was not just a place for economic opportunity for us; it was a safe haven after being stateless. Over the years, I obtained my green card and later became a U.S. citizen, which was an emotional and proud moment for me.",
+    "implicit_text": "My family and I entered this North American country in 1988 as political refugees from Thailand. We settled in Minnesota and began the process of building a new life here. This country was not just a place for economic opportunity for us; it was a safe haven after being stateless. Over the years, I obtained my green card and later became a citizen here, which was an emotional and proud moment for me.",
+    "cues": [
+      "1988",
+      "Minnesota",
+      "political refugees",
+      "green card",
+      "citizenship"
+    ],
+    "transcript_ref": "immigration\\imm_umn_139_teng_lee.yaml"
+  },
+  {
+    "entity_id": 5,
+    "entity": "I-94",
+    "explicit_text": "The I-94 was a very important document for me when I entered the United States. It was proof that I was a legal alien and the document I needed to enter the country. This small white paper was part of the immigration documents given to us refugees in Thailand, and it was the first step in my journey to becoming a U.S. citizen.",
+    "implicit_text": "This small white paper was a very important document for me when I entered the United States. It was proof that I was a legal alien and the document I needed to enter the country. It was part of the immigration documents given to us refugees in Thailand, and it was the first step in my journey to becoming a citizen of this country.",
+    "cues": [
+      "immigration document",
+      "legal alien",
+      "entry to U.S.",
+      "refugee documents",
+      "Thailand"
+    ],
+    "transcript_ref": "immigration\\imm_umn_139_teng_lee.yaml"
+  },
+  {
+    "entity_id": 6,
+    "entity": "Green card (United States)",
+    "explicit_text": "After living in the U.S. for one year, my family and I applied for our green cards. I remember the long wait in line at immigration, but it was worth it when we finally received them. My mom told me that the green card was the most important document in the U.S., and she was very protective of mine. The green card was essential for me to live legally here and eventually apply for citizenship.",
+    "implicit_text": "After living in the U.S. for one year, my family and I applied for permanent resident cards. I remember the long wait in line at immigration, but it was worth it when we finally received them. My mom told me that this card was the most important document in the country, and she was very protective of mine. It was essential for me to live legally here and eventually apply for citizenship.",
+    "cues": [
+      "one year after arrival",
+      "immigration office",
+      "long wait",
+      "legal residency",
+      "family"
+    ],
+    "transcript_ref": "immigration\\imm_umn_139_teng_lee.yaml"
+  },
+  {
+    "entity_id": 7,
+    "entity": "Certificate of Naturalization (United States)",
+    "explicit_text": "When I was nineteen, I applied for U.S. citizenship and passed my interview. The citizenship ceremony was held downtown, and thousands of people were sworn in that day. After taking the oath, I traded my green card for the Certificate of Naturalization. Receiving that certificate was emotional because it marked the end of being stateless and officially made me a U.S. citizen.",
+    "implicit_text": "When I was nineteen, I applied for citizenship in this country and passed my interview. The citizenship ceremony was held downtown, and thousands of people were sworn in that day. After taking the oath, I traded my permanent resident card for the official certificate. Receiving that certificate was emotional because it marked the end of being stateless and officially made me a citizen here.",
+    "cues": [
+      "age nineteen",
+      "citizenship interview",
+      "oath ceremony",
+      "downtown",
+      "green card exchange"
+    ],
+    "transcript_ref": "immigration\\imm_umn_139_teng_lee.yaml"
+  }
+]

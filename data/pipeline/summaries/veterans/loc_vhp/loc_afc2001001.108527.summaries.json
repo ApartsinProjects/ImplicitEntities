@@ -1,0 +1,396 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "Los Angeles",
+    "summary": "I was born in Los Angeles, California, on a sunny Saturday in April. I lived there until I was nine years old before moving to London. It was my first home and shaped my early childhood as a true California kid.",
+    "cues": [
+      "born in Los Angeles",
+      "lived until age nine",
+      "California",
+      "April"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.108527.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "London",
+    "summary": "After living in Los Angeles, I moved to London, England when I was nine years old and grew up there until I was 15. Those years in London were formative before I returned to the United States to finish high school. It was quite a change from California to London during my childhood.",
+    "cues": [
+      "moved at age nine",
+      "lived until age 15",
+      "London, England",
+      "childhood"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.108527.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "Washington, D.C.",
+    "summary": "I finished my high school years in Washington, D.C., attending Georgetown Day School. It was there that I decided to join ROTC, setting me on the path toward the Marine Corps. Washington, D.C. was where I transitioned from my international upbringing back to the U.S. education system.",
+    "cues": [
+      "high school in Washington, D.C.",
+      "Georgetown Day School",
+      "joined ROTC",
+      "teen years"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.108527.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "Georgetown Day School",
+    "summary": "I attended Georgetown Day School in Washington, D.C. for my high school education. It was during this time that I made the decision to join ROTC, which influenced my future military career. The school was a key stepping stone before college and military training.",
+    "cues": [
+      "high school",
+      "Washington, D.C.",
+      "ROTC decision",
+      "teen years"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.108527.yaml"
+  },
+  {
+    "entity_id": 5,
+    "entity": "United States Naval Academy",
+    "summary": "When applying to colleges, I was accepted to the United States Naval Academy but ultimately chose Tufts University instead. I was concerned that at the Naval Academy, I might end up in the Navy rather than the Marine Corps, which was my goal. So while the Naval Academy was an option, I pursued a different path to ensure a Marine Corps commission.",
+    "cues": [
+      "college application",
+      "accepted to Naval Academy",
+      "concern about Navy assignment",
+      "early 2000s"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.108527.yaml"
+  },
+  {
+    "entity_id": 6,
+    "entity": "Tufts University",
+    "summary": "I attended Tufts University where I pursued ROTC and eventually earned a dual degree with the Fletcher School. I initially thought I wanted to study International Affairs but ended up majoring in history and literature before entering a five-year bachelor's/master's program. Tufts was where I combined my academic interests with military training, graduating in May 2003.",
+    "cues": [
+      "Tufts University",
+      "ROTC",
+      "dual degree with Fletcher School",
+      "graduated May 2003"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.108527.yaml"
+  },
+  {
+    "entity_id": 7,
+    "entity": "Fletcher School of Law and Diplomacy",
+    "summary": "During my time at Tufts, I enrolled in the Fletcher School of Law and Diplomacy's dual degree program. This allowed me to earn a master's in International Relations alongside my bachelor's degree over five years. The Fletcher School helped me deepen my understanding of international affairs while completing ROTC training.",
+    "cues": [
+      "Fletcher School",
+      "dual degree program",
+      "International Relations",
+      "early 2000s"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.108527.yaml"
+  },
+  {
+    "entity_id": 8,
+    "entity": "Boston University",
+    "summary": "The Marine officer instructor who supported my ROTC training was stationed at Boston University, part of a six-school consortium. His support was crucial in helping me attend extra military training schools during summers at no cost to my unit. Boston University was indirectly important in my military education through this instructor's mentorship.",
+    "cues": [
+      "Marine officer instructor at BU",
+      "six-school consortium",
+      "ROTC summer training",
+      "early 2000s"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.108527.yaml"
+  },
+  {
+    "entity_id": 9,
+    "entity": "Fort Benning",
+    "summary": "I attended jump school at Fort Benning as part of my summer military training while in ROTC. This was one of several specialized courses I completed before commissioning, which gave me a leg up entering the Marine Corps. Fort Benning was where I gained airborne qualifications early on.",
+    "cues": [
+      "jump school",
+      "Fort Benning",
+      "ROTC summer training",
+      "early 2000s"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.108527.yaml"
+  },
+  {
+    "entity_id": 10,
+    "entity": "Special Forces combatant diver course",
+    "summary": "One summer, I completed the Special Forces combatant diver course, which was an intense eight-week program. This course was part of my advanced military training during college and helped prepare me for Special Operations aspirations. It was a challenging but rewarding experience that set me apart as a new Marine officer.",
+    "cues": [
+      "Special Forces combatant diver course",
+      "eight weeks",
+      "summer training",
+      "early 2000s"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.108527.yaml"
+  },
+  {
+    "entity_id": 11,
+    "entity": "amphibious reconnaissance school",
+    "summary": "I was fortunate to attend the amphibious reconnaissance school during my last summer in college, thanks to a connection through a Marine officer instructor at Holy Cross. This school was not accustomed to ROTC students, so getting a slot was unique and valuable. The XO there, Doug Zembat, became a mentor and friend before his death in Iraq in 2007.",
+    "cues": [
+      "amphibious reconnaissance school",
+      "last summer of college",
+      "Holy Cross connection",
+      "Doug Zembat",
+      "early 2000s"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.108527.yaml"
+  },
+  {
+    "entity_id": 12,
+    "entity": "Holy Cross",
+    "summary": "A Marine officer instructor at Holy Cross, who was a force reconnaissance Marine, helped me gain access to the amphibious reconnaissance school. His support was instrumental in my early military training and Special Operations ambitions. Holy Cross played a key role through this mentorship connection.",
+    "cues": [
+      "Holy Cross",
+      "Marine officer instructor",
+      "force reconnaissance",
+      "early 2000s"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.108527.yaml"
+  },
+  {
+    "entity_id": 13,
+    "entity": "Second Force Reconnaissance Company",
+    "summary": "The Marine officer instructor at Holy Cross had served with the Second Force Reconnaissance Company, and through his contacts there, I was able to attend the amphibious reconnaissance school. This unit indirectly influenced my training path and aspirations in Special Operations. It was a connection that opened doors for me.",
+    "cues": [
+      "Second Force Reconnaissance Company",
+      "Holy Cross instructor",
+      "amphibious reconnaissance school",
+      "early 2000s"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.108527.yaml"
+  },
+  {
+    "entity_id": 14,
+    "entity": "Doug Zembat",
+    "summary": "Doug Zembat was the XO at the amphibious reconnaissance school when I attended, and he became a good friend and mentor to me. Sadly, he was killed in Iraq in 2007. His guidance during my formative military training left a lasting impact on my career.",
+    "cues": [
+      "Doug Zembat",
+      "XO amphibious reconnaissance school",
+      "mentor",
+      "killed in Iraq 2007"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.108527.yaml"
+  },
+  {
+    "entity_id": 15,
+    "entity": "Iraq War",
+    "summary": "I was commissioned in May 2003, just after the Iraq invasion began in March and April of that year. Throughout my training and early career, the Iraq War shaped the Marine Corps' mission and my assignments. I was preparing to deploy to Iraq during a time of intense counter-insurgency fighting, including in places like Fallujah and Ramadi.",
+    "cues": [
+      "Iraq invasion March-April 2003",
+      "commissioned May 2003",
+      "counter-insurgency",
+      "Fallujah",
+      "Ramadi"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.108527.yaml"
+  },
+  {
+    "entity_id": 16,
+    "entity": "United States Marine Corps",
+    "summary": "I joined the United States Marine Corps through ROTC at Tufts and was commissioned as a second lieutenant in May 2003. My training included the Basic School and Infantry Officer Course, and I was preparing to deploy to Iraq during a time of significant combat operations. The Marine Corps has been central to my life and career since college.",
+    "cues": [
+      "Marine Corps",
+      "commissioned 2003",
+      "Basic School",
+      "Infantry Officer Course",
+      "Iraq War"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.108527.yaml"
+  },
+  {
+    "entity_id": 17,
+    "entity": "Marine Corps Basic School",
+    "summary": "I checked into the Marine Corps Basic School in June 2003, right after the Iraq invasion. Initially, there was a sense that the war was over, but by the time I graduated that Christmas, it was clear we were heading into intense combat. The school was where I transitioned from student to Marine officer amid a changing war environment.",
+    "cues": [
+      "Basic School",
+      "June 2003 to Christmas 2003",
+      "Iraq invasion aftermath",
+      "Marine officer training"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.108527.yaml"
+  },
+  {
+    "entity_id": 18,
+    "entity": "Persian Gulf War",
+    "summary": "During my time at the Basic School, instructors compared the Iraq invasion to the Persian Gulf War, suggesting the initial combat phase was brief. They told us the war seemed over by June 2003, similar to how the Persian Gulf War ended quickly. This comparison framed our early understanding of the conflict before the insurgency intensified.",
+    "cues": [
+      "Persian Gulf War",
+      "comparison at Basic School",
+      "June 2003",
+      "early Iraq War perceptions"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.108527.yaml"
+  },
+  {
+    "entity_id": 19,
+    "entity": "Marine Corps Times",
+    "summary": "In August 2003, the Marine Corps Times ran a front-page story titled 'The Marines Back to Iraq,' signaling the Marine Corps' return to combat operations. This story coincided with a shift in attitude among instructors and students at the Basic School about the war's seriousness. The publication captured the changing reality we faced as new officers.",
+    "cues": [
+      "Marine Corps Times",
+      "August 2003 front page",
+      "Marines returning to Iraq",
+      "Basic School"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.108527.yaml"
+  },
+  {
+    "entity_id": 20,
+    "entity": "Al Anbar Governorate",
+    "summary": "A friend of mine who had deployed to Al Anbar Province in Iraq sent me an email describing the initial quiet patrols there in early 2003. However, that calm was shattered when the Blackwater contractors were killed on the Fallujah bridge, and fighting erupted. Al Anbar was a focal point of the insurgency and where many Marines, including my peers, saw combat.",
+    "cues": [
+      "Al Anbar Province",
+      "early 2003",
+      "Blackwater incident",
+      "Fallujah fighting"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.108527.yaml"
+  },
+  {
+    "entity_id": 21,
+    "entity": "82nd Airborne Division",
+    "summary": "The 82nd Airborne Division was the unit that my Marine friend’s battalion relieved in Al Anbar Province during early 2003. They were part of the initial occupation forces before the Marines took over. This transition marked the beginning of the Marine Corps’ more direct involvement in Iraq.",
+    "cues": [
+      "82nd Airborne Division",
+      "Al Anbar Province",
+      "early 2003",
+      "unit turnover"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.108527.yaml"
+  },
+  {
+    "entity_id": 22,
+    "entity": "Blackwater (company)",
+    "summary": "The Blackwater contractors were killed on the Fallujah bridge in 2003, an event that triggered intense fighting in the city. This incident marked a turning point in the Iraq War and led to a major Marine combat operation. It was a stark reminder of the dangers we faced as Marines preparing to deploy.",
+    "cues": [
+      "Blackwater contractors",
+      "Fallujah bridge",
+      "2003",
+      "start of major combat"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.108527.yaml"
+  },
+  {
+    "entity_id": 23,
+    "entity": "Fallujah",
+    "summary": "Fallujah was the site of fierce fighting in 2003 after the Blackwater contractors were killed. The Marines were sent into the city for a month-long battle to regain control. It was one of the first major urban combat operations in the Iraq War that I followed closely during my training.",
+    "cues": [
+      "Fallujah",
+      "2003 combat",
+      "Blackwater incident",
+      "urban warfare"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.108527.yaml"
+  },
+  {
+    "entity_id": 24,
+    "entity": "Ramadi",
+    "summary": "Ramadi was another key city in Iraq where Marines fought intense battles in 2003 and 2004. I remember seeing a front-page photo in the Washington Post of Marines carrying a fallen comrade through Ramadi’s streets. It was a sobering reminder of the reality of war as I prepared to deploy.",
+    "cues": [
+      "Ramadi",
+      "2003-2004 combat",
+      "Washington Post photo",
+      "Marine casualties"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.108527.yaml"
+  },
+  {
+    "entity_id": 25,
+    "entity": "Vietnam War",
+    "summary": "The instructors at the Infantry Officer Course told us that this was the first time since the Vietnam War that Marine officers were graduating knowing they were going into combat. The comparison highlighted the seriousness of the situation in Iraq. It was a sobering historical context for my generation of Marines.",
+    "cues": [
+      "Vietnam War",
+      "comparison at Infantry Officer Course",
+      "early 2000s",
+      "combat deployment"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.108527.yaml"
+  },
+  {
+    "entity_id": 26,
+    "entity": "Paul Felsberg",
+    "summary": "Paul Felsberg was a friend of mine from the Infantry Officer Course who was a prior enlisted Marine. He graduated early to replace a fallen Marine officer named Reblowski and was killed in Ramadi in October 2004. His loss was a personal reminder of the dangers we faced in Iraq.",
+    "cues": [
+      "Paul Felsberg",
+      "Infantry Officer Course",
+      "killed October 2004",
+      "Ramadi"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.108527.yaml"
+  },
+  {
+    "entity_id": 27,
+    "entity": "September 11 attacks",
+    "summary": "I was in college when the September 11 attacks happened, and it changed everything for me and my generation. Before 9/11, my brother thought I’d never see combat, but after the attacks, it became clear that war was likely. The attacks put us all on notice and increased the certainty that I would be deployed to fight.",
+    "cues": [
+      "September 11 attacks",
+      "college student",
+      "changed military outlook",
+      "early 2000s"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.108527.yaml"
+  },
+  {
+    "entity_id": 28,
+    "entity": "San Diego",
+    "summary": "Many of us at the Infantry Officer Course wanted to be stationed in San Diego to enjoy the better lifestyle there. I originally had orders to 1st Battalion, 1st Marines at Camp Pendleton near San Diego but wanted to go to Iraq instead. San Diego represented the good life many sought but wasn’t my priority compared to deployment.",
+    "cues": [
+      "San Diego",
+      "Infantry Officer Course",
+      "1st Battalion, 1st Marines",
+      "early 2000s"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.108527.yaml"
+  },
+  {
+    "entity_id": 29,
+    "entity": "Camp Lejeune",
+    "summary": "Camp Lejeune in North Carolina was home to the 1st Battalion, 8th Marines, where one of my classmates was originally assigned. He wanted to be in San Diego, so we traded assignments so I could go to Iraq. Camp Lejeune was part of the Marine Corps bases involved in the Iraq War deployments.",
+    "cues": [
+      "Camp Lejeune",
+      "1st Battalion, 8th Marines",
+      "assignment trade",
+      "early 2000s"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.108527.yaml"
+  },
+  {
+    "entity_id": 30,
+    "entity": "1st Battalion, 1st Marines",
+    "summary": "I was originally assigned to 1st Battalion, 1st Marines at Camp Pendleton, but they were not deploying to Iraq at that time. Instead, they were going on a Marine Expeditionary Unit cruise in the Pacific. Because I wanted to deploy to Iraq, I traded assignments with a classmate.",
+    "cues": [
+      "1st Battalion, 1st Marines",
+      "Camp Pendleton",
+      "non-deploying unit",
+      "early 2000s"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.108527.yaml"
+  },
+  {
+    "entity_id": 31,
+    "entity": "1st Battalion, 8th Marines",
+    "summary": "A classmate of mine was assigned to 1st Battalion, 8th Marines at Camp Lejeune but wanted to be stationed in San Diego. We traded assignments so I could deploy to Iraq and he could be closer to his family. This battalion was part of the units involved in Iraq War deployments.",
+    "cues": [
+      "1st Battalion, 8th Marines",
+      "Camp Lejeune",
+      "assignment trade",
+      "early 2000s"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.108527.yaml"
+  },
+  {
+    "entity_id": 32,
+    "entity": "Camp Pendleton",
+    "summary": "Camp Pendleton was where 1st Battalion, 1st Marines was based, the unit I was initially assigned to. They were preparing for a Marine Expeditionary Unit cruise rather than deployment to Iraq. Camp Pendleton represented a major Marine Corps base on the West Coast during my early career.",
+    "cues": [
+      "Camp Pendleton",
+      "1st Battalion, 1st Marines",
+      "Marine Expeditionary Unit",
+      "early 2000s"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.108527.yaml"
+  },
+  {
+    "entity_id": 33,
+    "entity": "Mitchell Hall",
+    "summary": "Mitchell Hall was not explicitly mentioned in my story, so I do not have direct experiences or memories related to it. My focus was more on training locations and deployments relevant to my Marine Corps career.",
+    "cues": [],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.108527.yaml"
+  }
+]

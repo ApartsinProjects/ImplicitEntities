@@ -1,0 +1,74 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "Steph Bryant",
+    "explicit_text": "My name is Steph Bryant, and I am a registered dietitian working primarily in pediatric weight management. I work at the Roxboro Road Pediatrics Clinic, which is part of Duke Pediatrics, helping kids and families manage health and nutrition. During the COVID-19 pandemic, my work shifted between telehealth and in-person visits, and I also took on the role of wellness committee coordinator to support my clinic staff. Balancing my professional responsibilities and personal life during this time has been challenging but rewarding.",
+    "implicit_text": "My name is Steph Bryant, and I am a registered dietitian working primarily in pediatric weight management. I work at a pediatrics clinic on Roxboro Road, helping kids and families manage health and nutrition. During the COVID-19 crisis, my work shifted between telehealth and in-person visits, and I also took on the role of wellness committee coordinator to support my clinic staff. Balancing my professional responsibilities and personal life during this time has been challenging but rewarding.",
+    "cues": [
+      "registered dietitian",
+      "pediatric weight management",
+      "Roxboro Road Pediatrics Clinic",
+      "Duke Pediatrics",
+      "COVID-19 pandemic",
+      "wellness committee coordinator"
+    ],
+    "transcript_ref": "covid_19\\covid_nhc_Stephanie_Bryant_000.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "Duke University",
+    "explicit_text": "I work within Duke University’s pediatric system, specifically in the Duke Healthy Lifestyles clinic housed at Roxboro Road Pediatrics. Duke has been very supportive throughout the pandemic, providing open communication and adapting to telehealth despite initial challenges. Our clinic receives referrals from various parts of Duke and beyond, and the university’s resources have been helpful in managing staff wellness and patient care during these times.",
+    "implicit_text": "I work within a major university’s pediatric system, specifically in the Healthy Lifestyles clinic housed at the Roxboro Road Pediatrics location. This institution has been very supportive throughout the pandemic, providing open communication and adapting to telehealth despite initial challenges. Our clinic receives referrals from various parts of the university and beyond, and its resources have been helpful in managing staff wellness and patient care during these times.",
+    "cues": [
+      "Duke Healthy Lifestyles clinic",
+      "Roxboro Road Pediatrics",
+      "telehealth adaptation",
+      "staff wellness",
+      "referrals"
+    ],
+    "transcript_ref": "covid_19\\covid_nhc_Stephanie_Bryant_000.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "Roxboro Road",
+    "explicit_text": "I work at the Roxboro Road Pediatrics Clinic in Durham, which is where I see most of my patients. This clinic is part of Duke Pediatrics and includes a primary care clinic downstairs that refers many children to our pediatric weight management services. During the pandemic, Roxboro Road has been my main workplace, and I also started a wellness committee there to support staff through the challenges we faced.",
+    "implicit_text": "I work at the pediatrics clinic located on Roxboro Road in Durham, which is where I see most of my patients. This clinic is part of a well-known university’s pediatrics department and includes a primary care clinic downstairs that refers many children to our pediatric weight management services. During the pandemic, this location has been my main workplace, and I also started a wellness committee there to support staff through the challenges we faced.",
+    "cues": [
+      "Roxboro Road Pediatrics Clinic",
+      "Durham",
+      "Duke Pediatrics",
+      "primary care referrals",
+      "wellness committee"
+    ],
+    "transcript_ref": "covid_19\\covid_nhc_Stephanie_Bryant_000.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "COVID-19 pandemic",
+    "explicit_text": "The COVID-19 pandemic drastically changed my work and personal life starting in March 2020. Initially, I shifted to 100% telehealth before returning to in-person clinic visits part-time, all while managing the stress of exposure risks, especially since many of the families I work with are frontline or essential workers. The pandemic also highlighted food insecurity issues among my patients, and I took on additional responsibilities to support clinic staff wellness during this difficult time.",
+    "implicit_text": "The global health crisis that began in early 2020 drastically changed my work and personal life starting in March of that year. Initially, I shifted to 100% telehealth before returning to in-person clinic visits part-time, all while managing the stress of exposure risks, especially since many of the families I work with are frontline or essential workers. This crisis also highlighted food insecurity issues among my patients, and I took on additional responsibilities to support clinic staff wellness during this difficult time.",
+    "cues": [
+      "March 2020",
+      "telehealth",
+      "in-person clinic",
+      "frontline workers",
+      "food insecurity",
+      "staff wellness"
+    ],
+    "transcript_ref": "covid_19\\covid_nhc_Stephanie_Bryant_000.yaml"
+  },
+  {
+    "entity_id": 5,
+    "entity": "University of North Carolina at Chapel Hill",
+    "explicit_text": "We have a housemate who is a student at the University of North Carolina at Chapel Hill and also the son of one of my coworkers. When he couldn’t live on campus safely during the pandemic, we offered him a room in our home so he could stay close to the university in case it reopened. This arrangement helped him maintain proximity to UNC while navigating the uncertainties of campus life during COVID-19.",
+    "implicit_text": "We have a housemate who is a student at a major public university in Chapel Hill and also the son of one of my coworkers. When he couldn’t live on campus safely during the pandemic, we offered him a room in our home so he could stay close to the campus in case it reopened. This arrangement helped him maintain proximity to the university while navigating the uncertainties of campus life during the COVID-19 crisis.",
+    "cues": [
+      "UNC student",
+      "housemate",
+      "campus closure",
+      "pandemic",
+      "supportive housing"
+    ],
+    "transcript_ref": "covid_19\\covid_nhc_Stephanie_Bryant_000.yaml"
+  }
+]

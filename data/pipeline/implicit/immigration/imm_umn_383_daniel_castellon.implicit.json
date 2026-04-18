@@ -1,0 +1,41 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "Texas",
+    "explicit_text": "I grew up in Texas, where my family settled after immigrating. Living there shaped much of my early experience, blending the local culture with my Salvadoran heritage. My father worked hard in Texas to provide for us, and it was a place where we maintained close family ties while adapting to a new environment.",
+    "implicit_text": "I grew up in a large southern U.S. state known for its distinct culture and history, where my family settled after immigrating. Living there shaped much of my early experience, blending the local culture with my Salvadoran heritage. My father worked hard in that state to provide for us, and it was a place where we maintained close family ties while adapting to a new environment.",
+    "cues": [
+      "Texas",
+      "family life",
+      "immigrant experience",
+      "father's work"
+    ],
+    "transcript_ref": "immigration\\imm_umn_383_daniel_castellon.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "El Salvador",
+    "explicit_text": "My father is originally from El Salvador, and even though I was raised in the U.S., we stayed deeply connected to our Salvadoran roots. This connection influenced our family traditions and values throughout my childhood. El Salvador represents a significant part of my identity and heritage that my family proudly preserved while living abroad.",
+    "implicit_text": "My father is originally from a Central American country known for its rich cultural traditions and history, and even though I was raised in the U.S., we stayed deeply connected to our roots from that nation. This connection influenced our family traditions and values throughout my childhood. That country represents a significant part of my identity and heritage that my family proudly preserved while living abroad.",
+    "cues": [
+      "El Salvador",
+      "father's origin",
+      "family traditions",
+      "heritage"
+    ],
+    "transcript_ref": "immigration\\imm_umn_383_daniel_castellon.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "United States",
+    "explicit_text": "I was raised in the United States as a second-generation immigrant, which meant balancing two cultures from an early age. Growing up here, my family worked hard to adapt while keeping our Salvadoran background alive. The U.S. provided opportunities for us, but it was also important to stay connected to where we came from.",
+    "implicit_text": "I was raised in the country known for its diversity and opportunities, as a second-generation immigrant, which meant balancing two cultures from an early age. Growing up there, my family worked hard to adapt while keeping our Salvadoran background alive. This nation provided opportunities for us, but it was also important to stay connected to where we came from.",
+    "cues": [
+      "United States",
+      "second-generation immigrant",
+      "cultural balance",
+      "family adaptation"
+    ],
+    "transcript_ref": "immigration\\imm_umn_383_daniel_castellon.yaml"
+  }
+]

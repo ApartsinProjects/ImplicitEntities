@@ -1,0 +1,405 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "September 11 attacks",
+    "explicit_text": "On the morning of September 11, 2001, I first learned about the attacks while getting coffee and saw on TV that a plane hit the World Trade Center. Soon after, I heard about the second plane hitting the towers, the Pentagon attack, and the crash in Pennsylvania. The day was chaotic, with bridges closing and emergency responses mobilizing. I spent the next three weeks involved in various rescue and security operations, witnessing the devastation and the massive community effort to help.",
+    "implicit_text": "On the morning of September 11, 2001, I first learned about the attacks while getting coffee and saw on TV that a plane hit the twin towers in Lower Manhattan. Soon after, I heard about the second plane hitting the towers, the attack on the military headquarters in Arlington, and the crash in a field in western Pennsylvania. The day was chaotic, with bridges closing and emergency responses mobilizing. I spent the next three weeks involved in various rescue and security operations, witnessing the devastation and the massive community effort to help.",
+    "cues": [
+      "September 11, 2001",
+      "morning",
+      "attacks on World Trade Center",
+      "Pentagon",
+      "Pennsylvania",
+      "three weeks of operations"
+    ],
+    "transcript_ref": "september_11\\nps911_moen_david_may_7_2002.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "World Trade Center",
+    "explicit_text": "I was shocked when I saw on TV that a plane had hit the World Trade Center early on September 11. Later, I learned a second plane had struck the towers, and eventually, I was told the buildings collapsed. The World Trade Center was the focal point of the rescue and recovery efforts, and I was fortunate to be part of the team assisting at Ground Zero, helping with debris removal and supporting rescue workers.",
+    "implicit_text": "I was shocked when I saw on TV that a plane had hit the iconic twin towers early on September 11. Later, I learned a second plane had struck the towers, and eventually, I was told the buildings collapsed. The site in Lower Manhattan was the focal point of the rescue and recovery efforts, and I was fortunate to be part of the team assisting at the disaster zone, helping with debris removal and supporting rescue workers.",
+    "cues": [
+      "September 11, 2001",
+      "plane hits",
+      "building collapse",
+      "Ground Zero",
+      "recovery efforts"
+    ],
+    "transcript_ref": "september_11\\nps911_moen_david_may_7_2002.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "Pentagon",
+    "explicit_text": "On the morning of September 11, after hearing about the attacks on the World Trade Center, I also learned that a plane had hit the Pentagon. This added to the confusion and seriousness of the situation. The Pentagon attack was part of the coordinated terrorist strikes that day, and it heightened the sense of urgency and danger felt across the tri-state area.",
+    "implicit_text": "On the morning of September 11, after hearing about the attacks on the twin towers, I also learned that a plane had hit the Pentagon building in Arlington, Virginia. This added to the confusion and seriousness of the situation. The attack on the military headquarters was part of the coordinated terrorist strikes that day, and it heightened the sense of urgency and danger felt across the tri-state area.",
+    "cues": [
+      "September 11, 2001",
+      "plane hit Pentagon",
+      "terrorist attacks",
+      "tri-state area"
+    ],
+    "transcript_ref": "september_11\\nps911_moen_david_may_7_2002.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "Pennsylvania",
+    "explicit_text": "I heard on the news that one of the planes involved in the September 11 attacks crashed into a field in Pennsylvania. This was part of the tragic series of events that unfolded that morning. The crash site in Pennsylvania was a grim reminder of the widespread impact of the attacks beyond New York and Washington, D.C.",
+    "implicit_text": "I heard on the news that one of the planes involved in the September 11 attacks crashed into a field in Pennsylvania. This was part of the tragic series of events that unfolded that morning. The crash site in western Pennsylvania was a grim reminder of the widespread impact of the attacks beyond New York and Washington, D.C.",
+    "cues": [
+      "September 11, 2001",
+      "plane crash",
+      "field in Pennsylvania",
+      "terrorist attacks"
+    ],
+    "transcript_ref": "september_11\\nps911_moen_david_may_7_2002.yaml"
+  },
+  {
+    "entity_id": 5,
+    "entity": "New York City",
+    "explicit_text": "New York City was at the heart of the September 11 attacks, with the World Trade Center being the main target. I was trying to get into the city that morning but faced bridge closures and heavy traffic. Once inside, I saw the massive emergency response and the city’s resilience. I spent many days working in and around New York City, supporting rescue and security operations.",
+    "implicit_text": "The city known as the Big Apple was at the heart of the September 11 attacks, with the twin towers being the main target. I was trying to get into the city that morning but faced bridge closures and heavy traffic. Once inside, I saw the massive emergency response and the city’s resilience. I spent many days working in and around the city, supporting rescue and security operations.",
+    "cues": [
+      "September 11, 2001",
+      "World Trade Center",
+      "bridge closures",
+      "emergency response",
+      "rescue operations"
+    ],
+    "transcript_ref": "september_11\\nps911_moen_david_may_7_2002.yaml"
+  },
+  {
+    "entity_id": 6,
+    "entity": "Staten Island",
+    "explicit_text": "I live near Staten Island and my route to work took me through there on September 11. Despite heavy traffic and bridge closures, I was able to get into Staten Island by showing my police credentials. The 122nd Precinct in Staten Island was active that day, rallying officers to assist. Staten Island was a key staging area for us before heading out on boat missions.",
+    "implicit_text": "I live near the borough located at the southern tip of New York City and my route to work took me through there on September 11. Despite heavy traffic and bridge closures, I was able to get into that borough by showing my police credentials. The 122nd Precinct there was active that day, rallying officers to assist. This borough was a key staging area for us before heading out on boat missions.",
+    "cues": [
+      "September 11, 2001",
+      "Staten Island route",
+      "122nd Precinct",
+      "bridge crossing",
+      "police work"
+    ],
+    "transcript_ref": "september_11\\nps911_moen_david_may_7_2002.yaml"
+  },
+  {
+    "entity_id": 7,
+    "entity": "Garden State Parkway",
+    "explicit_text": "On my way to work on September 11, I took the Garden State Parkway and noticed many state police cruisers heading toward Jersey City and Bayonne to assist. The Parkway was busy with emergency vehicles, and it was clear the whole region was mobilizing. I exited the Parkway to take Route 440 into Staten Island amid heavy traffic.",
+    "implicit_text": "On my way to work on September 11, I took the major highway running through New Jersey and noticed many state police cruisers heading toward Jersey City and Bayonne to assist. The highway was busy with emergency vehicles, and it was clear the whole region was mobilizing. I exited the highway to take Route 440 into Staten Island amid heavy traffic.",
+    "cues": [
+      "September 11, 2001",
+      "Garden State Parkway",
+      "state police cruisers",
+      "Jersey City",
+      "Bayonne"
+    ],
+    "transcript_ref": "september_11\\nps911_moen_david_may_7_2002.yaml"
+  },
+  {
+    "entity_id": 8,
+    "entity": "Jersey City, New Jersey",
+    "explicit_text": "Jersey City was one of the areas where state police were heading to assist on September 11. I saw many emergency vehicles en route there from the Garden State Parkway. It was part of the broader tri-state response to the attacks, with Jersey City playing a role in staging and support.",
+    "implicit_text": "Jersey City was one of the areas where state police were heading to assist on September 11. I saw many emergency vehicles en route there from the major New Jersey highway. It was part of the broader tri-state response to the attacks, with this city playing a role in staging and support.",
+    "cues": [
+      "September 11, 2001",
+      "state police assistance",
+      "emergency response",
+      "tri-state area"
+    ],
+    "transcript_ref": "september_11\\nps911_moen_david_may_7_2002.yaml"
+  },
+  {
+    "entity_id": 9,
+    "entity": "Bayonne, New Jersey",
+    "explicit_text": "Bayonne was another location where state police were dispatched on September 11, as I observed while driving on the Garden State Parkway. The area was part of the coordinated emergency response in the region. Bayonne’s proximity to Staten Island and New York City made it an important point in the overall security and rescue efforts.",
+    "implicit_text": "Bayonne was another location where state police were dispatched on September 11, as I observed while driving on the major New Jersey highway. The area was part of the coordinated emergency response in the region. Bayonne’s proximity to Staten Island and New York City made it an important point in the overall security and rescue efforts.",
+    "cues": [
+      "September 11, 2001",
+      "state police deployment",
+      "emergency response",
+      "tri-state area"
+    ],
+    "transcript_ref": "september_11\\nps911_moen_david_may_7_2002.yaml"
+  },
+  {
+    "entity_id": 10,
+    "entity": "Route 440 (New Jersey)",
+    "explicit_text": "After leaving the Garden State Parkway, I took Route 440 heading into Staten Island on September 11. The traffic was bumper to bumper, but I used my police badge to clear a path by moving vehicles to the side. Route 440 was a critical access route for me to get to work and join the emergency response efforts that day.",
+    "implicit_text": "After leaving the major New Jersey highway, I took Route 440 heading into Staten Island on September 11. The traffic was bumper to bumper, but I used my police badge to clear a path by moving vehicles to the side. Route 440 was a critical access route for me to get to work and join the emergency response efforts that day.",
+    "cues": [
+      "September 11, 2001",
+      "Route 440",
+      "heavy traffic",
+      "police badge access",
+      "Staten Island"
+    ],
+    "transcript_ref": "september_11\\nps911_moen_david_may_7_2002.yaml"
+  },
+  {
+    "entity_id": 11,
+    "entity": "122nd Precinct (New York City Police Department)",
+    "explicit_text": "I passed the 122nd Precinct in Staten Island on my way to work on September 11 and saw many NYPD officers rallying there. The precinct was an important hub for organizing police personnel to assist with the crisis. It was clear that law enforcement was mobilizing quickly to support the rescue and recovery efforts.",
+    "implicit_text": "I passed the 122nd Precinct in Staten Island on my way to work on September 11 and saw many police officers rallying there. The precinct was an important hub for organizing personnel to assist with the crisis. It was clear that law enforcement was mobilizing quickly to support the rescue and recovery efforts.",
+    "cues": [
+      "September 11, 2001",
+      "122nd Precinct",
+      "NYPD officers",
+      "Staten Island",
+      "emergency mobilization"
+    ],
+    "transcript_ref": "september_11\\nps911_moen_david_may_7_2002.yaml"
+  },
+  {
+    "entity_id": 12,
+    "entity": "Fort Wadsworth",
+    "explicit_text": "When I arrived at work on Staten Island on September 11, I was told to get dressed and stand by at Fort Wadsworth. It was a staging area for us before being assigned to details. From there, I was sent to the Coast Guard Station in Rosebank to await further instructions and boat assignments.",
+    "implicit_text": "When I arrived at work on Staten Island on September 11, I was told to get dressed and stand by at the military fort located at the island’s entrance. It was a staging area for us before being assigned to details. From there, I was sent to the Coast Guard Station in Rosebank to await further instructions and boat assignments.",
+    "cues": [
+      "September 11, 2001",
+      "Fort Wadsworth",
+      "Staten Island",
+      "staging area",
+      "emergency response"
+    ],
+    "transcript_ref": "september_11\\nps911_moen_david_may_7_2002.yaml"
+  },
+  {
+    "entity_id": 13,
+    "entity": "United States Coast Guard",
+    "explicit_text": "I have 10 years of experience in the United States Coast Guard, which helped me during the September 11 response. The Coast Guard set up command posts and coordinated marine operations in the harbor. I worked closely with them, especially when assigned to the Coast Guard Station in Rosebank and operating patrol boats to transport personnel and supplies.",
+    "implicit_text": "I have 10 years of experience in the maritime service responsible for coastal security, which helped me during the September 11 response. This service set up command posts and coordinated marine operations in the harbor. I worked closely with them, especially when assigned to the station in Rosebank and operating patrol boats to transport personnel and supplies.",
+    "cues": [
+      "United States Coast Guard",
+      "10 years experience",
+      "September 11, 2001",
+      "marine operations",
+      "Rosebank station"
+    ],
+    "transcript_ref": "september_11\\nps911_moen_david_may_7_2002.yaml"
+  },
+  {
+    "entity_id": 14,
+    "entity": "Rosebank, Staten Island",
+    "explicit_text": "On September 11, I was sent down to the Coast Guard Station in Rosebank, Staten Island, to wait for a boat to pick me up. It was just down the street from my workplace and served as a staging point for marine operations. From Rosebank, we launched patrol boats to assist with transporting injured personnel and supplies to and from Manhattan and Ellis Island.",
+    "implicit_text": "On September 11, I was sent down to the Coast Guard Station in the Rosebank neighborhood of Staten Island to wait for a boat to pick me up. It was just down the street from my workplace and served as a staging point for marine operations. From there, we launched patrol boats to assist with transporting injured personnel and supplies to and from Manhattan and Ellis Island.",
+    "cues": [
+      "September 11, 2001",
+      "Rosebank",
+      "Coast Guard Station",
+      "Staten Island",
+      "boat operations"
+    ],
+    "transcript_ref": "september_11\\nps911_moen_david_may_7_2002.yaml"
+  },
+  {
+    "entity_id": 15,
+    "entity": "Sergeant Dorino",
+    "explicit_text": "Sergeant Dorino was the captain of one of our patrol boats on September 11. When I arrived at Rosebank, his boat came to pick us up for missions to Ellis Island and Manhattan. His leadership was crucial in navigating the harbor and supporting the rescue and security efforts during those chaotic days.",
+    "implicit_text": "The sergeant in charge of one of our patrol boats on September 11 was the captain who came to pick us up at Rosebank for missions to Ellis Island and Manhattan. His leadership was crucial in navigating the harbor and supporting the rescue and security efforts during those chaotic days.",
+    "cues": [
+      "September 11, 2001",
+      "Sergeant Dorino",
+      "patrol boat captain",
+      "Rosebank",
+      "marine operations"
+    ],
+    "transcript_ref": "september_11\\nps911_moen_david_may_7_2002.yaml"
+  },
+  {
+    "entity_id": 16,
+    "entity": "Ellis Island",
+    "explicit_text": "Ellis Island was used as a staging point on September 11 to bring in injured and sick people from the World Trade Center collapse. We transported medical personnel and supplies there and provided security for the island. It was a critical hub in the emergency response, and I spent a lot of time ferrying people and resources between Ellis Island and Manhattan.",
+    "implicit_text": "The island known for its immigration station was used as a staging point on September 11 to bring in injured and sick people from the twin towers collapse. We transported medical personnel and supplies there and provided security for the island. It was a critical hub in the emergency response, and I spent a lot of time ferrying people and resources between that island and Manhattan.",
+    "cues": [
+      "September 11, 2001",
+      "Ellis Island",
+      "staging point",
+      "medical personnel",
+      "security operations"
+    ],
+    "transcript_ref": "september_11\\nps911_moen_david_may_7_2002.yaml"
+  },
+  {
+    "entity_id": 17,
+    "entity": "Manhattan",
+    "explicit_text": "Manhattan was ground zero for the September 11 attacks, and I made multiple trips there by boat to deliver supplies, doctors, and nurses. We also conducted security checks, such as inspecting the Brooklyn–Battery Tunnel air duct on Governors Island. Being in Manhattan during those days was humbling and showed the scale of destruction and the massive rescue efforts underway.",
+    "implicit_text": "The borough of Manhattan was ground zero for the September 11 attacks, and I made multiple trips there by boat to deliver supplies, doctors, and nurses. We also conducted security checks, such as inspecting the Brooklyn–Battery Tunnel air duct on Governors Island. Being in Manhattan during those days was humbling and showed the scale of destruction and the massive rescue efforts underway.",
+    "cues": [
+      "September 11, 2001",
+      "Manhattan",
+      "boat trips",
+      "Brooklyn–Battery Tunnel",
+      "rescue efforts"
+    ],
+    "transcript_ref": "september_11\\nps911_moen_david_may_7_2002.yaml"
+  },
+  {
+    "entity_id": 18,
+    "entity": "Brooklyn–Battery Tunnel",
+    "explicit_text": "On September 11, we were assigned by the NYPD command post to check the huge air duct for the Brooklyn–Battery Tunnel located on Governors Island for explosives. This was part of the security measures to ensure no further threats were present. Thankfully, we found nothing suspicious, but it was an important precaution during those tense days.",
+    "implicit_text": "On September 11, we were assigned by the police command post to check the huge air duct for the tunnel connecting Brooklyn and Manhattan located on Governors Island for explosives. This was part of the security measures to ensure no further threats were present. Thankfully, we found nothing suspicious, but it was an important precaution during those tense days.",
+    "cues": [
+      "September 11, 2001",
+      "Brooklyn–Battery Tunnel",
+      "air duct inspection",
+      "Governors Island",
+      "security check"
+    ],
+    "transcript_ref": "september_11\\nps911_moen_david_may_7_2002.yaml"
+  },
+  {
+    "entity_id": 19,
+    "entity": "Governors Island",
+    "explicit_text": "Governors Island was where we conducted security checks on the Brooklyn–Battery Tunnel air duct after the attacks on September 11. It was a strategic location in the harbor and part of the broader security perimeter around Manhattan. The island was involved in the coordinated efforts to safeguard critical infrastructure.",
+    "implicit_text": "Governors Island was where we conducted security checks on the air duct for the tunnel connecting Brooklyn and Manhattan after the attacks on September 11. It was a strategic location in the harbor and part of the broader security perimeter around Manhattan. The island was involved in the coordinated efforts to safeguard critical infrastructure.",
+    "cues": [
+      "September 11, 2001",
+      "Governors Island",
+      "security operations",
+      "Brooklyn–Battery Tunnel",
+      "harbor"
+    ],
+    "transcript_ref": "september_11\\nps911_moen_david_may_7_2002.yaml"
+  },
+  {
+    "entity_id": 20,
+    "entity": "Tri-state area",
+    "explicit_text": "The tri-state area, including New York, New Jersey, and parts of Pennsylvania, was deeply affected by the September 11 attacks. I saw boats from nearly every agency in the tri-state area’s harbor assisting with rescue efforts. The cooperation across state lines and agencies was impressive and showed the strength of the regional response.",
+    "implicit_text": "The tri-state area, including New York, New Jersey, and parts of Pennsylvania, was deeply affected by the September 11 attacks. I saw boats from nearly every agency in the region’s harbor assisting with rescue efforts. The cooperation across state lines and agencies was impressive and showed the strength of the regional response.",
+    "cues": [
+      "September 11, 2001",
+      "tri-state area",
+      "multi-agency cooperation",
+      "harbor rescue efforts",
+      "regional response"
+    ],
+    "transcript_ref": "september_11\\nps911_moen_david_may_7_2002.yaml"
+  },
+  {
+    "entity_id": 21,
+    "entity": "United States Park Police",
+    "explicit_text": "I was part of the United States Park Police during the September 11 response, and we played a vital role in marine operations. Some Park Police boats provided security for Ellis Island and Liberty Island. The Park Police worked closely with other agencies to support rescue, security, and recovery missions in the harbor and around Manhattan.",
+    "implicit_text": "I was part of the federal law enforcement agency responsible for national parks during the September 11 response, and we played a vital role in marine operations. Some of our boats provided security for the islands near Manhattan. We worked closely with other agencies to support rescue, security, and recovery missions in the harbor and around Manhattan.",
+    "cues": [
+      "September 11, 2001",
+      "United States Park Police",
+      "marine operations",
+      "Ellis Island",
+      "Liberty Island security"
+    ],
+    "transcript_ref": "september_11\\nps911_moen_david_may_7_2002.yaml"
+  },
+  {
+    "entity_id": 22,
+    "entity": "Captain Lauro",
+    "explicit_text": "Captain Lauro was one of the people giving us directions during the boat operations on September 11. We received orders from our dispatcher and marine units, including Captain Lauro, who helped coordinate missions like transporting Secret Service agents and moving supplies. His leadership was important for managing the complex tasks on the water that day.",
+    "implicit_text": "One of the people giving us directions during the boat operations on September 11 was a captain who helped coordinate missions like transporting federal agents and moving supplies. We received orders from our dispatcher and marine units, including this captain, whose leadership was important for managing the complex tasks on the water that day.",
+    "cues": [
+      "September 11, 2001",
+      "Captain Lauro",
+      "marine operations",
+      "direction and coordination",
+      "Secret Service transport"
+    ],
+    "transcript_ref": "september_11\\nps911_moen_david_may_7_2002.yaml"
+  },
+  {
+    "entity_id": 23,
+    "entity": "Secret Service",
+    "explicit_text": "On September 11, we transported agents from the Secret Service who were stationed at Chelsea Piers. We moved them by boat to Ellis Island as part of the security and support operations. The Secret Service was actively involved in protecting key sites and personnel during the crisis.",
+    "implicit_text": "On September 11, we transported agents from the federal agency responsible for protecting national leaders who were stationed at Chelsea Piers. We moved them by boat to Ellis Island as part of the security and support operations. This agency was actively involved in protecting key sites and personnel during the crisis.",
+    "cues": [
+      "September 11, 2001",
+      "Secret Service agents",
+      "Chelsea Piers",
+      "Ellis Island transport",
+      "security operations"
+    ],
+    "transcript_ref": "september_11\\nps911_moen_david_may_7_2002.yaml"
+  },
+  {
+    "entity_id": 24,
+    "entity": "Chelsea Piers",
+    "explicit_text": "Chelsea Piers was one of the locations where Secret Service agents were stationed on September 11. We picked up these agents by boat and transported them to Ellis Island to support security efforts. Chelsea Piers was part of the broader network of sites involved in the emergency response around Manhattan’s waterfront.",
+    "implicit_text": "Chelsea Piers was one of the locations where federal protective agents were stationed on September 11. We picked up these agents by boat and transported them to Ellis Island to support security efforts. Chelsea Piers was part of the broader network of sites involved in the emergency response around Manhattan’s waterfront.",
+    "cues": [
+      "September 11, 2001",
+      "Chelsea Piers",
+      "Secret Service presence",
+      "boat transport",
+      "security efforts"
+    ],
+    "transcript_ref": "september_11\\nps911_moen_david_may_7_2002.yaml"
+  },
+  {
+    "entity_id": 25,
+    "entity": "South Cove (Manhattan)",
+    "explicit_text": "On either September 14th or 15th, while assisting with operations at South Cove in Manhattan, we suddenly heard a building collapse nearby. Thousands of rescue workers were digging at Ground Zero and ran toward the water to escape. It was a tense moment, and we quickly helped U.S. Marshals evacuate by boat from that area.",
+    "implicit_text": "On either September 14th or 15th, while assisting with operations at a cove on Manhattan’s waterfront, we suddenly heard a building collapse nearby. Thousands of rescue workers were digging at the disaster site and ran toward the water to escape. It was a tense moment, and we quickly helped federal marshals evacuate by boat from that area.",
+    "cues": [
+      "September 2001",
+      "South Cove Manhattan",
+      "building collapse",
+      "Ground Zero rescue workers",
+      "U.S. Marshals evacuation"
+    ],
+    "transcript_ref": "september_11\\nps911_moen_david_may_7_2002.yaml"
+  },
+  {
+    "entity_id": 26,
+    "entity": "Ground Zero (New York City)",
+    "explicit_text": "Ground Zero was the site of the World Trade Center collapse, and I was fortunate to be one of the officers sent there to assist with the recovery effort. It was a humbling experience to see the destruction firsthand and to work alongside countless volunteers and rescue workers. We filled buckets with debris and helped as much as we could, knowing the cleanup would take years.",
+    "implicit_text": "The disaster site in Lower Manhattan was where the twin towers collapsed, and I was fortunate to be one of the officers sent there to assist with the recovery effort. It was a humbling experience to see the destruction firsthand and to work alongside countless volunteers and rescue workers. We filled buckets with debris and helped as much as we could, knowing the cleanup would take years.",
+    "cues": [
+      "September 11, 2001",
+      "Ground Zero",
+      "World Trade Center collapse",
+      "recovery effort",
+      "volunteers"
+    ],
+    "transcript_ref": "september_11\\nps911_moen_david_may_7_2002.yaml"
+  },
+  {
+    "entity_id": 27,
+    "entity": "U.S. Marshals Service",
+    "explicit_text": "During operations near South Cove, Manhattan, we saw U.S. Marshals running toward the water to escape a building collapse. We helped by motioning them onto our boat, rescuing eight marshals and one contractor just before the collapse. One marshal even fell into the water but was quickly pulled aboard. We then took them to Ellis Island to recover and get fed.",
+    "implicit_text": "During operations near the cove on Manhattan’s waterfront, we saw federal marshals running toward the water to escape a building collapse. We helped by motioning them onto our boat, rescuing eight marshals and one contractor just before the collapse. One marshal even fell into the water but was quickly pulled aboard. We then took them to Ellis Island to recover and get fed.",
+    "cues": [
+      "September 2001",
+      "U.S. Marshals Service",
+      "South Cove",
+      "building collapse escape",
+      "boat rescue"
+    ],
+    "transcript_ref": "september_11\\nps911_moen_david_may_7_2002.yaml"
+  },
+  {
+    "entity_id": 28,
+    "entity": "Sergeant Gullino",
+    "explicit_text": "Sergeant Gullino was on the dock at South Cove during the building collapse scare and held a line to help the U.S. Marshals and contractor board our boat safely. His quick action was vital in preventing chaos and ensuring everyone got on the boat without incident. It was a tense moment, but his leadership helped us evacuate the group successfully.",
+    "implicit_text": "The sergeant on the dock at the cove during the building collapse scare held a line to help the federal marshals and contractor board our boat safely. His quick action was vital in preventing chaos and ensuring everyone got on the boat without incident. It was a tense moment, but his leadership helped us evacuate the group successfully.",
+    "cues": [
+      "September 2001",
+      "Sergeant Gullino",
+      "South Cove",
+      "building collapse",
+      "evacuation assistance"
+    ],
+    "transcript_ref": "september_11\\nps911_moen_david_may_7_2002.yaml"
+  },
+  {
+    "entity_id": 29,
+    "entity": "Liberty Island",
+    "explicit_text": "Liberty Island was one of the locations where Park Police boats, including ours, provided security after the September 11 attacks. Along with Ellis Island, it was a key site needing protection due to its symbolic importance and proximity to Manhattan. We helped maintain security and support operations around the island during those critical days.",
+    "implicit_text": "The island with the famous statue was one of the locations where park police boats, including ours, provided security after the September 11 attacks. Along with the nearby immigration island, it was a key site needing protection due to its symbolic importance and proximity to Manhattan. We helped maintain security and support operations around the island during those critical days.",
+    "cues": [
+      "September 11, 2001",
+      "Liberty Island",
+      "security operations",
+      "Park Police boats",
+      "post-attack protection"
+    ],
+    "transcript_ref": "september_11\\nps911_moen_david_may_7_2002.yaml"
+  }
+]

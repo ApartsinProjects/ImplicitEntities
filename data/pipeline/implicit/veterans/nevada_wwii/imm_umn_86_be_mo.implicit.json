@@ -1,0 +1,106 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "Burma",
+    "explicit_text": "I was born in Burma in 1993, and my ethnicity is Karen. Although I left Burma at a young age, it is my birthplace and a part of my identity. My early life began there before my family moved to a refugee camp in Thailand.",
+    "implicit_text": "I was born in a Southeast Asian country in 1993, and my ethnicity is Karen. Although I left that country at a young age, it is my birthplace and a part of my identity. My early life began there before my family moved to a refugee camp in Thailand.",
+    "cues": [
+      "born in 1993",
+      "ethnicity Karen",
+      "birthplace"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_86_be_mo.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "Thailand",
+    "explicit_text": "I grew up in a Thai refugee camp in Chai Mai, Thailand, where I lived for ten years. Life was hard there, and making a living was not easy, so education was very important to us. I attended a Thai middle school with my best friend Wah Paw, and we shared many experiences, including getting punished for wearing our Karen traditional bags.",
+    "implicit_text": "I grew up in a refugee camp in Chai Mai, located in a neighboring Southeast Asian country, where I lived for ten years. Life was hard there, and making a living was not easy, so education was very important to us. I attended a middle school in that country with my best friend Wah Paw, and we shared many experiences, including getting punished for wearing our Karen traditional bags.",
+    "cues": [
+      "Thai refugee camp",
+      "Chai Mai",
+      "ten years",
+      "Thai middle school",
+      "friend Wah Paw",
+      "punished for Karen bag"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_86_be_mo.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "United States",
+    "explicit_text": "My family moved to the United States in 2007, starting our new life in Phoenix, Arizona. Later, we relocated to Saint Paul, Minnesota, where I continued my education and graduated from high school. Now, I am a student at Saint Paul College, and I feel proud of how far I have come since arriving in the U.S.",
+    "implicit_text": "My family moved to North America in 2007, starting our new life in Phoenix, Arizona. Later, we relocated to Saint Paul, Minnesota, where I continued my education and graduated from high school. Now, I am a student at Saint Paul College, and I feel proud of how far I have come since arriving in this country.",
+    "cues": [
+      "moved in 2007",
+      "Phoenix, Arizona",
+      "Saint Paul, Minnesota",
+      "education",
+      "Saint Paul College"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_86_be_mo.yaml"
+  },
+  {
+    "entity_id": 5,
+    "entity": "Phoenix, Arizona",
+    "explicit_text": "When my family first arrived in the United States on September 13, 2007, we settled in Phoenix, Arizona. It was there that I started attending Cortez High School and began adapting to life in America. Phoenix was the first stop on our journey to building a new life.",
+    "implicit_text": "When my family first arrived in North America on September 13, 2007, we settled in a city in Arizona. It was there that I started attending Cortez High School and began adapting to life in this new country. That city was the first stop on our journey to building a new life.",
+    "cues": [
+      "arrived September 13, 2007",
+      "first home in U.S.",
+      "Cortez High School",
+      "start of American life"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_86_be_mo.yaml"
+  },
+  {
+    "entity_id": 6,
+    "entity": "Saint Paul, Minnesota",
+    "explicit_text": "After my sophomore year, my family moved to Saint Paul, Minnesota, where I finished high school at Como Park Senior High School. Saint Paul became my new home, and I continued to grow and learn there. Now, I am attending Saint Paul College, which makes me feel connected to this city.",
+    "implicit_text": "After my sophomore year, my family moved to a city in Minnesota, where I finished high school at Como Park Senior High School. That city became my new home, and I continued to grow and learn there. Now, I am attending a local college, which makes me feel connected to this place.",
+    "cues": [
+      "moved after sophomore year",
+      "graduated Como Park Senior High School",
+      "attending Saint Paul College",
+      "new home"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_86_be_mo.yaml"
+  },
+  {
+    "entity_id": 7,
+    "entity": "Cortez High School",
+    "explicit_text": "When we first arrived in Phoenix, Arizona, I started attending Cortez High School. It was my introduction to American education and culture. I spent my freshman and sophomore years there before moving to Saint Paul.",
+    "implicit_text": "When we first arrived in the Arizona city, I started attending a local high school named Cortez. It was my introduction to American education and culture. I spent my freshman and sophomore years there before moving to Minnesota.",
+    "cues": [
+      "Phoenix, Arizona",
+      "started school after arrival",
+      "freshman and sophomore years"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_86_be_mo.yaml"
+  },
+  {
+    "entity_id": 8,
+    "entity": "Como Park Senior High School",
+    "explicit_text": "After moving to Saint Paul, Minnesota, I enrolled at Como Park Senior High School, where I completed my high school education. Graduating from there was a proud moment for me and my family. It marked an important milestone in my journey from a refugee camp to the United States.",
+    "implicit_text": "After moving to the Minnesota city, I enrolled at a senior high school called Como Park, where I completed my high school education. Graduating from there was a proud moment for me and my family. It marked an important milestone in my journey from a refugee camp to this country.",
+    "cues": [
+      "Saint Paul, Minnesota",
+      "graduated high school",
+      "important milestone"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_86_be_mo.yaml"
+  },
+  {
+    "entity_id": 9,
+    "entity": "Saint Paul College",
+    "explicit_text": "Currently, I am a student at Saint Paul College, continuing my education and working towards my goals. Attending this college in Saint Paul feels like a continuation of my journey and growth since arriving in the United States. My parents and I are very proud of this achievement.",
+    "implicit_text": "Currently, I am a student at a college in the Minnesota city, continuing my education and working towards my goals. Attending this college feels like a continuation of my journey and growth since arriving in North America. My parents and I are very proud of this achievement.",
+    "cues": [
+      "currently attending",
+      "Saint Paul",
+      "education continuation",
+      "proud achievement"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_86_be_mo.yaml"
+  }
+]

@@ -1,0 +1,275 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "Fresno, California",
+    "explicit_text": "My father started farming near Fresno about 70 years ago when the area was still undeveloped. I landed in Seattle in 1913 and then took a train to Fresno where my father and uncle met me. They owned 100 acres as partners, and my father had a house there with living rooms and bedrooms. Fresno was a place where many Japanese immigrants worked and lived, even though there were hardships like malaria and racial tensions.",
+    "implicit_text": "My father started farming near a central California city about 70 years ago when the area was still undeveloped. I landed in a northwestern port city in 1913 and then took a train to that central California city where my father and uncle met me. They owned 100 acres as partners, and my father had a house there with living rooms and bedrooms. That city was a place where many Japanese immigrants worked and lived, even though there were hardships like malaria and racial tensions.",
+    "cues": [
+      "1913",
+      "land near Fresno",
+      "father and uncle farming",
+      "malaria in Fresno"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\densho_densho_Oral_history_transcription_of_Masakazu_Nakashima.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "Seattle",
+    "explicit_text": "I landed at Seattle in 1913 after passing a physical examination there, which was less strict than in San Francisco. The ship I took was from the Nihon Yusen Company, about 5,000 tons, smaller than those going to San Francisco. Seattle impressed me with streets made from Oregon pines and the vast lumber industry nearby. Many picture brides also traveled to Seattle, and I became friendly with them on the ship.",
+    "implicit_text": "I landed at a northwestern port city in 1913 after passing a physical examination there, which was less strict than in a major California port city. The ship I took was from a Japanese shipping company, about 5,000 tons, smaller than those going to the larger California port. That city impressed me with streets made from Oregon pines and the vast lumber industry nearby. Many picture brides also traveled there, and I became friendly with them on the ship.",
+    "cues": [
+      "1913 arrival",
+      "Nihon Yusen ship",
+      "Oregon pines streets",
+      "picture brides"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\densho_densho_Oral_history_transcription_of_Masakazu_Nakashima.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "San Francisco",
+    "explicit_text": "I was originally supposed to come to San Francisco, but at the Immigration Office in Kobe, they found I had hookworms, so I couldn't pass the physical there. San Francisco had stricter immigration standards compared to Seattle. Ships coming to San Francisco were larger, about 12,000 tons, unlike the smaller Nihon Yusen ships to Seattle. Many Japanese immigrants, including picture brides, also came to San Francisco.",
+    "implicit_text": "I was originally supposed to come to a major California port city, but at the Immigration Office in a Japanese port, they found I had hookworms, so I couldn't pass the physical there. That California city had stricter immigration standards compared to the northwestern port city. Ships coming to that city were larger, about 12,000 tons, unlike the smaller Japanese shipping company vessels to the northwestern city. Many Japanese immigrants, including picture brides, also came to that California city.",
+    "cues": [
+      "hookworm physical in Kobe",
+      "stricter immigration",
+      "12,000 ton ships",
+      "picture brides"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\densho_densho_Oral_history_transcription_of_Masakazu_Nakashima.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "Kobe",
+    "explicit_text": "At the Immigration Office in Kobe, I was examined and found to have hookworms, which delayed my journey to America. I had to visit doctors in Hiroshima and other places to get rid of the hookworms before I could pass the physical examination. Kobe was the port where these immigration health checks were conducted before boarding ships to the United States.",
+    "implicit_text": "At the Immigration Office in a Japanese port city, I was examined and found to have hookworms, which delayed my journey to America. I had to visit doctors in Hiroshima and other places to get rid of the hookworms before I could pass the physical examination. That port was where these immigration health checks were conducted before boarding ships to the United States.",
+    "cues": [
+      "Immigration Office",
+      "hookworm diagnosis",
+      "medical treatment",
+      "pre-1913"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\densho_densho_Oral_history_transcription_of_Masakazu_Nakashima.yaml"
+  },
+  {
+    "entity_id": 5,
+    "entity": "Hiroshima",
+    "explicit_text": "After being found with hookworms in Kobe, I went to doctors in Hiroshima and other places to get treatment. It took a long time to get rid of the hookworms before I could pass the physical exam to come to Seattle. Hiroshima was one of the places where I sought medical help during that period.",
+    "implicit_text": "After being found with hookworms in the Japanese port city, I went to doctors in a western Honshu city and other places to get treatment. It took a long time to get rid of the hookworms before I could pass the physical exam to come to the northwestern port city. That city was one of the places where I sought medical help during that period.",
+    "cues": [
+      "hookworm treatment",
+      "pre-1913",
+      "medical visits",
+      "before Seattle arrival"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\densho_densho_Oral_history_transcription_of_Masakazu_Nakashima.yaml"
+  },
+  {
+    "entity_id": 6,
+    "entity": "Nihon Yusen",
+    "explicit_text": "The ship I took to Seattle was operated by the Nihon Yusen Company, which used ships about 5,000 tons in size. At that time, Japan was not well known internationally, and these ships were among the largest Japan had. The Seattle line used these smaller ships compared to the larger 12,000-ton ships going to San Francisco.",
+    "implicit_text": "The ship I took to the northwestern port city was operated by a major Japanese shipping company, which used ships about 5,000 tons in size. At that time, Japan was not well known internationally, and these ships were among the largest Japan had. The line to the northwestern city used these smaller ships compared to the larger 12,000-ton ships going to the major California port city.",
+    "cues": [
+      "Nihon Yusen ships",
+      "5,000 tons",
+      "Seattle line",
+      "early 1900s"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\densho_densho_Oral_history_transcription_of_Masakazu_Nakashima.yaml"
+  },
+  {
+    "entity_id": 7,
+    "entity": "Vancouver",
+    "explicit_text": "During the journey on the ship to Seattle, we arrived at Vancouver, which was a stop on the route. It took a long time to get from Vancouver to Seattle by ship. Many passengers on board were picture brides and men returning to Japan. The voyage was about 5,000 tons and had around 300 passengers.",
+    "implicit_text": "During the journey on the ship to the northwestern port city, we arrived at a Canadian west coast city, which was a stop on the route. It took a long time to get from that city to the northwestern city by ship. Many passengers on board were picture brides and men returning to Japan. The voyage was about 5,000 tons and had around 300 passengers.",
+    "cues": [
+      "ship stop",
+      "passengers including picture brides",
+      "early 1900s",
+      "Seattle route"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\densho_densho_Oral_history_transcription_of_Masakazu_Nakashima.yaml"
+  },
+  {
+    "entity_id": 8,
+    "entity": "Oregon",
+    "explicit_text": "When I took the train from Seattle, I saw many tall trees over 200 feet tall standing in rows for miles in Oregon. It was an impressive sight unlike anything in Japan. Oregon was known for its vast lumber resources, which influenced Seattle's streets being made from Oregon pines. This experience showed me the scale and natural resources of America.",
+    "implicit_text": "When I took the train from the northwestern port city, I saw many tall trees over 200 feet tall standing in rows for miles in a neighboring state known for its vast lumber resources. It was an impressive sight unlike anything in Japan. That state was known for its lumber, which influenced the streets in the northwestern city being made from its pines. This experience showed me the scale and natural resources of America.",
+    "cues": [
+      "train from Seattle",
+      "tall trees",
+      "lumber industry",
+      "early 1900s"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\densho_densho_Oral_history_transcription_of_Masakazu_Nakashima.yaml"
+  },
+  {
+    "entity_id": 9,
+    "entity": "Sacramento Bee",
+    "explicit_text": "I remember reading in the Sacramento Bee that Japanese people were described as diligent workers, even working on Sundays. However, the paper also published anti-Japanese articles that stirred fear and contempt among white Americans. This negative press contributed to the start of Japanese exclusion policies, even though many white families employed Japanese gardeners and cooks for their hard work.",
+    "implicit_text": "I remember reading in a central California newspaper that Japanese people were described as diligent workers, even working on Sundays. However, the paper also published anti-Japanese articles that stirred fear and contempt among white Americans. This negative press contributed to the start of exclusion policies against Japanese immigrants, even though many white families employed Japanese gardeners and cooks for their hard work.",
+    "cues": [
+      "anti-Japanese articles",
+      "early 1900s",
+      "Japanese exclusion",
+      "employment of Japanese workers"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\densho_densho_Oral_history_transcription_of_Masakazu_Nakashima.yaml"
+  },
+  {
+    "entity_id": 10,
+    "entity": "Japanese exclusion",
+    "explicit_text": "The Japanese exclusion started largely because of fear and contempt fueled by newspapers like the Sacramento Bee. Articles criticized Japanese immigrants, portraying them as a threat to white society, which stirred public opinion against us. Despite this, many Japanese worked hard and were employed in white households, but the exclusion laws still made life difficult for us.",
+    "implicit_text": "The exclusion of Japanese immigrants started largely because of fear and contempt fueled by newspapers like a central California daily. Articles criticized Japanese immigrants, portraying them as a threat to white society, which stirred public opinion against us. Despite this, many Japanese worked hard and were employed in white households, but the exclusion laws still made life difficult for us.",
+    "cues": [
+      "early 1900s",
+      "Sacramento Bee articles",
+      "racial fear",
+      "immigration restrictions"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\densho_densho_Oral_history_transcription_of_Masakazu_Nakashima.yaml"
+  },
+  {
+    "entity_id": 11,
+    "entity": "Russo-Japanese War",
+    "explicit_text": "My uncle was a lieutenant who fought in the Russo-Japanese War, and his military background influenced how he treated me when I worked on the ranch. He had little consideration for my back pain while pruning grapevines, reflecting the strict discipline from his war experience. The war was an important part of his life and shaped his character during those early years in America.",
+    "implicit_text": "My uncle was a lieutenant who fought in the war between Russia and Japan, and his military background influenced how he treated me when I worked on the ranch. He had little consideration for my back pain while pruning grapevines, reflecting the strict discipline from his war experience. That war was an important part of his life and shaped his character during those early years in America.",
+    "cues": [
+      "uncle's military service",
+      "Russo-Japanese War",
+      "early 1900s",
+      "discipline"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\densho_densho_Oral_history_transcription_of_Masakazu_Nakashima.yaml"
+  },
+  {
+    "entity_id": 12,
+    "entity": "California",
+    "explicit_text": "California was the state where my father and uncle bought land and started farming grapes about 70 years ago. There were no land laws yet, so Japanese immigrants like my family could buy land. The climate was hot and malaria was a problem in places like Fresno, but over time the land was developed and became more livable. California was also where Japanese exclusion policies took root due to racial tensions.",
+    "implicit_text": "The state on the west coast was where my father and uncle bought land and started farming grapes about 70 years ago. There were no land laws yet, so Japanese immigrants like my family could buy land. The climate was hot and malaria was a problem in places like the central valley city, but over time the land was developed and became more livable. That state was also where exclusion policies took root due to racial tensions.",
+    "cues": [
+      "early 1900s",
+      "land ownership",
+      "malaria",
+      "Japanese exclusion"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\densho_densho_Oral_history_transcription_of_Masakazu_Nakashima.yaml"
+  },
+  {
+    "entity_id": 13,
+    "entity": "Caruthers, California",
+    "explicit_text": "My younger brother came from Japan about 13 years after I did and attended grammar school for a few months before going to high school in Caruthers. He was the first graduate of that high school. Later, my uncle moved to Parlier, and my brother bought land in Parlier, showing how our family spread out in the region.",
+    "implicit_text": "My younger brother came from Japan about 13 years after I did and attended grammar school for a few months before going to high school in a small central California town. He was the first graduate of that high school. Later, my uncle moved to another nearby town, and my brother bought land there, showing how our family spread out in the region.",
+    "cues": [
+      "brother's education",
+      "early 1900s",
+      "Caruthers High School",
+      "family migration"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\densho_densho_Oral_history_transcription_of_Masakazu_Nakashima.yaml"
+  },
+  {
+    "entity_id": 14,
+    "entity": "Parlier, California",
+    "explicit_text": "My uncle moved to Parlier after some years, and my brother bought land there and moved to Parlier as well. This was after we had been managing the ranch near Fresno. Parlier became a new home for parts of our family during the years following my arrival in America.",
+    "implicit_text": "My uncle moved to a small central California town after some years, and my brother bought land there and moved to that town as well. This was after we had been managing the ranch near the central valley city. That town became a new home for parts of our family during the years following my arrival in America.",
+    "cues": [
+      "uncle's relocation",
+      "brother's land purchase",
+      "early-mid 1900s",
+      "family settlement"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\densho_densho_Oral_history_transcription_of_Masakazu_Nakashima.yaml"
+  },
+  {
+    "entity_id": 15,
+    "entity": "Great Depression",
+    "explicit_text": "During the Great Depression, many banks in Central California counties like Fresno, Madera, Kings, and Tulare went bankrupt. This economic hardship affected my family as well, especially after my wife died and I could not hire help to manage our 160 acres. I had to mortgage the land but later managed to buy back half of it. The Depression was a very difficult time for us.",
+    "implicit_text": "During the Great Depression, many banks in central California counties like Fresno, Madera, Kings, and Tulare went bankrupt. This economic hardship affected my family as well, especially after my wife died and I could not hire help to manage our 160 acres. I had to mortgage the land but later managed to buy back half of it. The Depression was a very difficult time for us.",
+    "cues": [
+      "1929 economic crash",
+      "bank failures",
+      "land mortgage",
+      "family hardship"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\densho_densho_Oral_history_transcription_of_Masakazu_Nakashima.yaml"
+  },
+  {
+    "entity_id": 16,
+    "entity": "World War II",
+    "explicit_text": "During World War II, my two sons went to Europe. My oldest son went to Germany right before the war ended and stayed there as part of the occupation forces. Meanwhile, I lived alone for 33 years after my wife died, and I leased my house to a white family while I was in the internment camp. The war brought many challenges and changes to our family life.",
+    "implicit_text": "During the Second World War, my two sons went to Europe. My oldest son went to Germany right before the war ended and stayed there as part of the occupation forces. Meanwhile, I lived alone for 33 years after my wife died, and I leased my house to a white family while I was in the internment camp. The war brought many challenges and changes to our family life.",
+    "cues": [
+      "1940s",
+      "sons in Europe",
+      "Germany occupation",
+      "internment camp"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\densho_densho_Oral_history_transcription_of_Masakazu_Nakashima.yaml"
+  },
+  {
+    "entity_id": 17,
+    "entity": "Germany",
+    "explicit_text": "My oldest son went to Germany just before World War II ended and remained there as a member of the United States occupation forces. This was a significant period for our family as he was involved in post-war efforts overseas. Germany represented both the war's end and a new chapter for my son.",
+    "implicit_text": "My oldest son went to Germany just before the Second World War ended and remained there as a member of the United States occupation forces. This was a significant period for our family as he was involved in post-war efforts overseas. Germany represented both the war's end and a new chapter for my son.",
+    "cues": [
+      "late WWII",
+      "US occupation",
+      "son's service",
+      "post-war Germany"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\densho_densho_Oral_history_transcription_of_Masakazu_Nakashima.yaml"
+  },
+  {
+    "entity_id": 18,
+    "entity": "United States occupation of Germany",
+    "explicit_text": "My oldest son stayed in Germany as part of the United States occupation after World War II. This was a time when the US was helping to rebuild and govern Germany following the war's devastation. His role in the occupation was an important part of his life and our family's history during that era.",
+    "implicit_text": "My oldest son stayed in Germany as part of the United States occupation after the Second World War. This was a time when the US was helping to rebuild and govern Germany following the war's devastation. His role in the occupation was an important part of his life and our family's history during that era.",
+    "cues": [
+      "post-1945",
+      "US military occupation",
+      "son's involvement",
+      "Germany"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\densho_densho_Oral_history_transcription_of_Masakazu_Nakashima.yaml"
+  },
+  {
+    "entity_id": 19,
+    "entity": "Sun-Maid Growers of California",
+    "explicit_text": "Growing grapes was good work because we could sell our grapes to the Sun-Maid Growers of California, so we didn't have to worry about the market. This arrangement made grape farming more stable for us compared to other crops. Nowadays, most of the work is done by machines except for watering, which shows how much has changed since I started.",
+    "implicit_text": "Growing grapes was good work because we could sell our grapes to a well-known California growers' cooperative, so we didn't have to worry about the market. This arrangement made grape farming more stable for us compared to other crops. Nowadays, most of the work is done by machines except for watering, which shows how much has changed since I started.",
+    "cues": [
+      "grape farming",
+      "market stability",
+      "Sun-Maid buyer",
+      "early to mid 1900s"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\densho_densho_Oral_history_transcription_of_Masakazu_Nakashima.yaml"
+  },
+  {
+    "entity_id": 20,
+    "entity": "Bank of America",
+    "explicit_text": "During the Great Depression, many banks in Central California failed, but I don't recall specific dealings with Bank of America. The economic crisis forced me to mortgage my land because I couldn't hire help after my wife died. Later, I was able to buy back half of the land, showing the financial struggles and recovery we experienced.",
+    "implicit_text": "During the Great Depression, many banks in central California failed, but I don't recall specific dealings with a major national bank. The economic crisis forced me to mortgage my land because I couldn't hire help after my wife died. Later, I was able to buy back half of the land, showing the financial struggles and recovery we experienced.",
+    "cues": [
+      "Great Depression",
+      "land mortgage",
+      "financial hardship",
+      "Central California"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\densho_densho_Oral_history_transcription_of_Masakazu_Nakashima.yaml"
+  },
+  {
+    "entity_id": 21,
+    "entity": "Japanese people",
+    "explicit_text": "Japanese people worked very hard, often even on Sundays, which was noted in newspapers like the Sacramento Bee. Many Japanese immigrants, including my family, came to California and bought land, worked in farming, and contributed to the community despite facing discrimination. We had good relationships with white neighbors early on, but anti-Japanese sentiment grew because of media and exclusion laws.",
+    "implicit_text": "People from Japan worked very hard, often even on Sundays, which was noted in newspapers like a central California daily. Many Japanese immigrants, including my family, came to California and bought land, worked in farming, and contributed to the community despite facing discrimination. We had good relationships with white neighbors early on, but anti-Japanese sentiment grew because of media and exclusion laws.",
+    "cues": [
+      "early 1900s immigration",
+      "hard work",
+      "land ownership",
+      "racial tensions"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\densho_densho_Oral_history_transcription_of_Masakazu_Nakashima.yaml"
+  }
+]

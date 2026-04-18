@@ -1,0 +1,138 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "Bangkok",
+    "explicit_text": "I was born in Bangkok, Thailand in 1990. It is where my early life began before my family and I moved to the United States as refugees. Bangkok holds the memories of my childhood before I started a new chapter abroad.",
+    "implicit_text": "I was born in the capital city of Thailand in 1990. It is where my early life began before my family and I moved to the United States as refugees. That city holds the memories of my childhood before I started a new chapter abroad.",
+    "cues": [
+      "1990",
+      "birthplace",
+      "early life",
+      "Thailand"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_50_chiyou_moua.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "Thailand",
+    "explicit_text": "Thailand is my home country where I was born and lived until I was about 14 years old. In 2002, the International Organization for Migration came to our Hmong village in Thailand to interview us for resettlement in the United States. Thailand represents my roots and the place I left behind when I came to America in 2004.",
+    "implicit_text": "My home country is where I was born and lived until I was about 14 years old. In 2002, an international migration agency came to our Hmong village there to interview us for resettlement in the United States. This country represents my roots and the place I left behind when I came to America in 2004.",
+    "cues": [
+      "birthplace",
+      "2002 IOM interviews",
+      "Hmong village",
+      "refugee resettlement"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_50_chiyou_moua.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "United States",
+    "explicit_text": "I arrived in the United States in 2004 as a refugee when I was 13 years old. I first lived in Denver, Colorado, where I went to middle school and high school, and later moved to Minnesota in 2010 with my family. The U.S. has been the place where I learned English, played soccer, graduated from high school, got married, and pursued higher education at St. Paul College.",
+    "implicit_text": "I arrived in the United States in 2004 as a refugee when I was 13 years old. I first lived in Denver, Colorado, where I went to middle school and high school, and later moved to Minnesota in 2010 with my family. This country has been the place where I learned English, played soccer, graduated from high school, got married, and pursued higher education at a community college in St. Paul.",
+    "cues": [
+      "2004 arrival",
+      "Denver, Colorado",
+      "Minnesota move 2010",
+      "education",
+      "marriage"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_50_chiyou_moua.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "International Organization for Migration",
+    "explicit_text": "In 2002, the International Organization for Migration visited our Hmong village in Thailand to interview us for possible resettlement in the United States. Their presence was a turning point for my family and me, as it eventually led to our move to America in 2004. I am grateful for their role in helping refugees like me find new opportunities abroad.",
+    "implicit_text": "In 2002, an international migration agency visited our Hmong village in Thailand to interview us for possible resettlement in the United States. Their presence was a turning point for my family and me, as it eventually led to our move to America in 2004. I am grateful for their role in helping refugees like me find new opportunities abroad.",
+    "cues": [
+      "2002",
+      "Hmong village",
+      "Thailand",
+      "refugee interviews",
+      "resettlement"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_50_chiyou_moua.yaml"
+  },
+  {
+    "entity_id": 5,
+    "entity": "Denver",
+    "explicit_text": "I arrived in Denver, Colorado in 2004 when I was 13 years old. It was my first home in the United States, where I attended middle school for a year before starting high school. Denver was where I began to learn English and adapt to a new culture through school and soccer.",
+    "implicit_text": "I arrived in Denver, Colorado in 2004 when I was 13 years old. It was my first home in the United States, where I attended middle school for a year before starting high school. Denver was where I began to learn English and adapt to a new culture through school and soccer.",
+    "cues": [
+      "2004 arrival",
+      "middle school",
+      "first U.S. city",
+      "English learning"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_50_chiyou_moua.yaml"
+  },
+  {
+    "entity_id": 6,
+    "entity": "Colorado",
+    "explicit_text": "I lived in Colorado from 2004 until 2010, starting in Denver and attending Arvada High School. Colorado was where I played soccer, made friends, and earned the second Team All-Conference Award from the Jefferson County League in 2006-2007. My time in Colorado shaped my early American experience and helped me build confidence in English and social skills.",
+    "implicit_text": "I lived in Colorado from 2004 until 2010, starting in Denver and attending a high school in Arvada. Colorado was where I played soccer, made friends, and earned the second Team All-Conference Award from the Jefferson County League in 2006-2007. My time in this state shaped my early American experience and helped me build confidence in English and social skills.",
+    "cues": [
+      "2004-2010",
+      "Denver",
+      "Arvada High School",
+      "Jefferson County League",
+      "soccer"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_50_chiyou_moua.yaml"
+  },
+  {
+    "entity_id": 7,
+    "entity": "Arvada High School",
+    "explicit_text": "I attended Arvada High School for four years after moving to Denver. It was there that I started playing soccer as a freshman and became the only Hmong player on the team. I scored 29 goals in my sophomore year and received the second Team All-Conference Award from the Jefferson County League, which was very meaningful to me.",
+    "implicit_text": "I attended a high school in Arvada for four years after moving to Denver. It was there that I started playing soccer as a freshman and became the only Hmong player on the team. I scored 29 goals in my sophomore year and received the second Team All-Conference Award from the Jefferson County League, which was very meaningful to me.",
+    "cues": [
+      "high school",
+      "Denver",
+      "soccer team",
+      "2006-2007 award",
+      "only Hmong player"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_50_chiyou_moua.yaml"
+  },
+  {
+    "entity_id": 8,
+    "entity": "Jefferson County League",
+    "explicit_text": "During my sophomore year at Arvada High School, I earned the second Team All-Conference Award from the Jefferson County League for scoring 29 goals. This award was important to me because it symbolized how I connected with people from other counties through soccer. It reminds me of the hard work I put into communicating and playing with teammates from diverse backgrounds.",
+    "implicit_text": "During my sophomore year at the high school in Arvada, I earned the second Team All-Conference Award from the Jefferson County League for scoring 29 goals. This award was important to me because it symbolized how I connected with people from other counties through soccer. It reminds me of the hard work I put into communicating and playing with teammates from diverse backgrounds.",
+    "cues": [
+      "2006-2007",
+      "soccer award",
+      "Arvada High School",
+      "community connection"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_50_chiyou_moua.yaml"
+  },
+  {
+    "entity_id": 9,
+    "entity": "Minnesota",
+    "explicit_text": "My family and I moved to Minnesota in 2010 because we needed more support with food stamps, jobs, and to be closer to relatives. Life in Minnesota has been going well, and it is where I got married in 2011. Now I work part-time at a casino and attend St. Paul College, continuing my education and using the English skills I learned through soccer.",
+    "implicit_text": "My family and I moved to Minnesota in 2010 because we needed more support with food stamps, jobs, and to be closer to relatives. Life in this state has been going well, and it is where I got married in 2011. Now I work part-time at a casino and attend a community college in St. Paul, continuing my education and using the English skills I learned through soccer.",
+    "cues": [
+      "2010 move",
+      "family support",
+      "marriage 2011",
+      "St. Paul College",
+      "part-time job"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_50_chiyou_moua.yaml"
+  },
+  {
+    "entity_id": 10,
+    "entity": "St. Paul College",
+    "explicit_text": "I am currently a student at St. Paul College in Minnesota. Attending this college allows me to improve my English and communicate better with my teachers and classmates. My experience playing soccer and learning English in high school has helped me succeed in college and in my part-time job at the casino.",
+    "implicit_text": "I am currently a student at a community college in St. Paul, Minnesota. Attending this college allows me to improve my English and communicate better with my teachers and classmates. My experience playing soccer and learning English in high school has helped me succeed in college and in my part-time job at the casino.",
+    "cues": [
+      "current student",
+      "Minnesota",
+      "English learning",
+      "education",
+      "communication"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_50_chiyou_moua.yaml"
+  }
+]

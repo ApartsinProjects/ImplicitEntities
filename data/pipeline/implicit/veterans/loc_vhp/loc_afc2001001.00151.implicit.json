@@ -1,0 +1,386 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "Willoughby Induction Center",
+    "explicit_text": "I started my military journey at the Willoughby Induction Center where I was processed before being shipped out for training. It was the first step before heading to Camp Perry and then Fort Leonard Wood. This place marked the beginning of my service during World War II.",
+    "implicit_text": "I started my military journey at the induction center where I was processed before being shipped out for training. It was the first step before heading to Camp Perry and then Fort Leonard Wood. This place marked the beginning of my service during World War II.",
+    "cues": [
+      "initial processing",
+      "before Camp Perry",
+      "early 1940s"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.00151.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "Camp Perry",
+    "explicit_text": "After Willoughby, I was sent to Camp Perry for further processing before moving on to Fort Leonard Wood. Camp Perry was just a brief stop on the way to more intensive training. It was part of the early phase of my preparation for deployment.",
+    "implicit_text": "After the initial induction, I was sent to a training camp in Ohio for further processing before moving on to Fort Leonard Wood. That camp was just a brief stop on the way to more intensive training. It was part of the early phase of my preparation for deployment.",
+    "cues": [
+      "after Willoughby",
+      "before Fort Leonard Wood",
+      "early 1940s"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.00151.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "Fort Leonard Wood",
+    "explicit_text": "I spent about 13 weeks at Fort Leonard Wood, Missouri, undergoing basic training and then six weeks at heavy equipment school. Unfortunately, I got tonsillitis and was hospitalized there, which delayed my deployment. While I was in the hospital, my original outfit shipped out to Seattle for Pacific duty, but I stayed behind and later was assigned to Camp Beall.",
+    "implicit_text": "I spent about 13 weeks at a Missouri base undergoing basic training and then six weeks at heavy equipment school. Unfortunately, I got tonsillitis and was hospitalized there, which delayed my deployment. While I was in the hospital, my original outfit shipped out to the West Coast for Pacific duty, but I stayed behind and later was assigned to a camp in Maryland.",
+    "cues": [
+      "13 weeks basic training",
+      "heavy equipment school",
+      "tonsillitis hospitalization",
+      "Missouri",
+      "early 1940s"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.00151.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "Seattle",
+    "explicit_text": "My original outfit was shipped to Seattle, Washington, and then sent to the Pacific theater. I only heard from them once via a postcard from Washington while I was still recovering at Fort Leonard Wood. Seattle was the departure point for many heading to the Pacific, but I was reassigned elsewhere due to illness.",
+    "implicit_text": "My original outfit was shipped to a major West Coast city, Washington state, and then sent to the Pacific theater. I only heard from them once via a postcard from that city while I was still recovering at the Missouri base. That West Coast city was the departure point for many heading to the Pacific, but I was reassigned elsewhere due to illness.",
+    "cues": [
+      "postcard from Washington",
+      "Pacific deployment",
+      "early 1940s"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.00151.yaml"
+  },
+  {
+    "entity_id": 5,
+    "entity": "Camp Beall",
+    "explicit_text": "After recovering, I was sent to Camp Beall where they were just starting up the 37th Engineer Battalion. I joined the 37th Engineers there and continued my training. Camp Beall was an important place for me to get ready for the next phases of the war.",
+    "implicit_text": "After recovering, I was sent to a Maryland camp where they were just starting up the 37th Engineer Battalion. I joined the 37th Engineers there and continued my training. That camp was an important place for me to get ready for the next phases of the war.",
+    "cues": [
+      "start of 37th Engineers",
+      "training",
+      "early 1940s"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.00151.yaml"
+  },
+  {
+    "entity_id": 6,
+    "entity": "37th Engineer Battalion",
+    "explicit_text": "I was part of the 37th Engineer Battalion, which was formed at Camp Beall. We trained hard and then moved through several locations including California and Florida for amphibious training. My role as a dozer operator was critical during the D-Day invasion and subsequent operations in Europe.",
+    "implicit_text": "I was part of the 37th Engineer Battalion, which was formed at the Maryland camp. We trained hard and then moved through several locations including California and Florida for amphibious training. My role as a dozer operator was critical during the D-Day invasion and subsequent operations in Europe.",
+    "cues": [
+      "formed at Camp Beall",
+      "training in California and Florida",
+      "D-Day",
+      "dozer operator"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.00151.yaml"
+  },
+  {
+    "entity_id": 7,
+    "entity": "California",
+    "explicit_text": "We were briefly stationed in California after Camp Beall before shipping out to Florida for amphibious training. It was a short stay but part of the preparation for the invasion. From there, we moved on to Fort Pierce in Florida.",
+    "implicit_text": "We were briefly stationed in a West Coast state after the Maryland camp before shipping out to Florida for amphibious training. It was a short stay but part of the preparation for the invasion. From there, we moved on to Fort Pierce in Florida.",
+    "cues": [
+      "brief stay",
+      "before Florida",
+      "early 1943"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.00151.yaml"
+  },
+  {
+    "entity_id": 8,
+    "entity": "Florida",
+    "explicit_text": "We traveled by train for about 11 days to Fort Pierce, Florida, where we underwent amphibious training around May or June of 1943. It was incredibly hot there, but the training was essential for the upcoming invasion. Florida was a key location for preparing troops for amphibious assaults.",
+    "implicit_text": "We traveled by train for about 11 days to Fort Pierce, Florida, where we underwent amphibious training around May or June of 1943. It was incredibly hot there, but the training was essential for the upcoming invasion. Florida was a key location for preparing troops for amphibious assaults.",
+    "cues": [
+      "Fort Pierce",
+      "amphibious training",
+      "May-June 1943",
+      "hot weather"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.00151.yaml"
+  },
+  {
+    "entity_id": 9,
+    "entity": "Fort Pierce",
+    "explicit_text": "At Fort Pierce, Florida, we completed amphibious training in the summer of 1943. The heat was intense, but it was crucial for preparing us for the beach landings in Europe. This training helped us get ready for the tough conditions we would face later.",
+    "implicit_text": "At Fort Pierce, Florida, we completed amphibious training in the summer of 1943. The heat was intense, but it was crucial for preparing us for the beach landings in Europe. This training helped us get ready for the tough conditions we would face later.",
+    "cues": [
+      "amphibious training",
+      "summer 1943",
+      "Florida"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.00151.yaml"
+  },
+  {
+    "entity_id": 10,
+    "entity": "Norfolk, Virginia",
+    "explicit_text": "After Florida, we moved up to Virginia, near Norfolk, for additional training. We spent some time on a ship for about a week before heading to Camp Pickett. Norfolk was part of the final stateside preparations before deployment overseas.",
+    "implicit_text": "After Florida, we moved up to Virginia, near a major naval base, for additional training. We spent some time on a ship for about a week before heading to Camp Pickett. That area was part of the final stateside preparations before deployment overseas.",
+    "cues": [
+      "training near Norfolk",
+      "ship training",
+      "before Camp Pickett",
+      "1943"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.00151.yaml"
+  },
+  {
+    "entity_id": 11,
+    "entity": "Camp Pickett",
+    "explicit_text": "Camp Pickett was where we took more specialized training after our time near Norfolk. I even got a three-day pass to go home during this period. It was one of the last stops before we shipped out from Camp Miles Standish in Massachusetts.",
+    "implicit_text": "Camp Pickett was where we took more specialized training after our time near the naval base in Virginia. I even got a three-day pass to go home during this period. It was one of the last stops before we shipped out from a staging camp in Massachusetts.",
+    "cues": [
+      "specialized training",
+      "three-day pass home",
+      "before shipping out",
+      "Massachusetts"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.00151.yaml"
+  },
+  {
+    "entity_id": 12,
+    "entity": "Camp Miles Standish",
+    "explicit_text": "We were shipped to Camp Miles Standish in Massachusetts before heading to Boston to sail overseas. From there, we joined a massive convoy of ships heading to England. Camp Miles Standish was the staging area for our final departure from the U.S.",
+    "implicit_text": "We were shipped to a Massachusetts staging camp before heading to Boston to sail overseas. From there, we joined a massive convoy of ships heading to England. That camp was the staging area for our final departure from the U.S.",
+    "cues": [
+      "Massachusetts",
+      "staging area",
+      "before sailing to England",
+      "1943"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.00151.yaml"
+  },
+  {
+    "entity_id": 13,
+    "entity": "Boston",
+    "explicit_text": "We sailed out of Boston with a huge convoy of ships, all heading to England. The crossing took about 11 days and nights, and the ships had to zigzag to avoid enemy submarines. Boston was the last American port I saw before heading into the European theater.",
+    "implicit_text": "We sailed out of Boston with a huge convoy of ships, all heading to England. The crossing took about 11 days and nights, and the ships had to zigzag to avoid enemy submarines. Boston was the last American port I saw before heading into the European theater.",
+    "cues": [
+      "departure port",
+      "11-day ocean crossing",
+      "convoy",
+      "1943"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.00151.yaml"
+  },
+  {
+    "entity_id": 14,
+    "entity": "Swansea",
+    "explicit_text": "Upon arriving in the UK, we went to Swansea, Wales, for additional training before the invasion. We returned there briefly after some initial exercises. Swansea was part of our preparation for the D-Day landings.",
+    "implicit_text": "Upon arriving in the UK, we went to a coastal city in Wales for additional training before the invasion. We returned there briefly after some initial exercises. That city was part of our preparation for the D-Day landings.",
+    "cues": [
+      "training in Wales",
+      "pre-D-Day",
+      "1944"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.00151.yaml"
+  },
+  {
+    "entity_id": 15,
+    "entity": "Dwight D. Eisenhower",
+    "explicit_text": "While training on a beach in England before the invasion, I saw General Dwight D. Eisenhower riding by in a staff car. We didn’t interact or salute him; he was focused on the preparations. It was a memorable moment to see the Supreme Allied Commander up close during such a critical time.",
+    "implicit_text": "While training on a beach in England before the invasion, I saw the Supreme Allied Commander riding by in a staff car. We didn’t interact or salute him; he was focused on the preparations. It was a memorable moment to see the top general up close during such a critical time.",
+    "cues": [
+      "pre-D-Day training",
+      "England",
+      "1944",
+      "Supreme Allied Commander"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.00151.yaml"
+  },
+  {
+    "entity_id": 16,
+    "entity": "Germany",
+    "explicit_text": "We could hear our planes bombing Germany while we were staged in England, and occasionally German planes would come in and drop bombs near us. One time, a German plane dropped 18 bombs in a row near a hospital where we were staying. Germany was the enemy we were preparing to fight against during the invasion and beyond.",
+    "implicit_text": "We could hear our planes bombing the enemy homeland while we were staged in England, and occasionally enemy planes would come in and drop bombs near us. One time, a plane dropped 18 bombs in a row near a hospital where we were staying. That country was the enemy we were preparing to fight against during the invasion and beyond.",
+    "cues": [
+      "bombing raids",
+      "England staging area",
+      "enemy",
+      "1944"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.00151.yaml"
+  },
+  {
+    "entity_id": 17,
+    "entity": "Lympstone",
+    "explicit_text": "Lympstone was one of the staging areas in England where we waited with many ships loaded for the invasion. The harbor was so crowded you could practically walk from one ship to another. It was tense, especially when a German plane attacked at night and we had strict orders for no lights or cigarettes.",
+    "implicit_text": "Lympstone was one of the staging areas in England where we waited with many ships loaded for the invasion. The harbor was so crowded you could practically walk from one ship to another. It was tense, especially when a German plane attacked at night and we had strict orders for no lights or cigarettes.",
+    "cues": [
+      "staging area",
+      "crowded harbor",
+      "German air attack",
+      "pre-D-Day"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.00151.yaml"
+  },
+  {
+    "entity_id": 18,
+    "entity": "Fort Balloth",
+    "explicit_text": "Fort Balloth was another staging area near Lympstone where we stayed in a house for a few days before loading onto the ships. From there, we could hear planes bombing Germany and also experienced enemy attacks. It was a nerve-wracking but important stop before the invasion.",
+    "implicit_text": "Fort Balloth was another staging area near Lympstone where we stayed in a house for a few days before loading onto the ships. From there, we could hear planes bombing the enemy homeland and also experienced enemy attacks. It was a nerve-wracking but important stop before the invasion.",
+    "cues": [
+      "staging area",
+      "pre-D-Day",
+      "enemy air raids",
+      "England"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.00151.yaml"
+  },
+  {
+    "entity_id": 19,
+    "entity": "English Channel",
+    "explicit_text": "I crossed the English Channel on an LCT with my dozer and crane during the D-Day invasion. The channel was very rough and stormy, and many men were seasick. We faced heavy shelling from the Navy as we approached the coast, and the crossing was one of the most dangerous parts of the operation.",
+    "implicit_text": "I crossed the English Channel on an LCT with my dozer and crane during the D-Day invasion. The channel was very rough and stormy, and many men were seasick. We faced heavy shelling from naval forces as we approached the coast, and the crossing was one of the most dangerous parts of the operation.",
+    "cues": [
+      "D-Day",
+      "stormy crossing",
+      "LCT",
+      "1944"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.00151.yaml"
+  },
+  {
+    "entity_id": 20,
+    "entity": "United States Navy",
+    "explicit_text": "The United States Navy provided critical support during the crossing of the English Channel, shelling the coast to soften enemy defenses. The Navy captains sometimes hesitated to bring us in because of heavy fire, but they eventually got us ashore. Their role was vital in the success of the invasion.",
+    "implicit_text": "The Navy provided critical support during the crossing of the English Channel, shelling the coast to soften enemy defenses. The Navy captains sometimes hesitated to bring us in because of heavy fire, but they eventually got us ashore. Their role was vital in the success of the invasion.",
+    "cues": [
+      "D-Day support",
+      "coastal shelling",
+      "ship captains",
+      "1944"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.00151.yaml"
+  },
+  {
+    "entity_id": 21,
+    "entity": "Ashtabula, Ohio",
+    "explicit_text": "My hometown is Ashtabula, Ohio, where my family lived during the war. A jeep driver who was wounded had a sister in Ashtabula who contacted my parents to let them know I was safe after the invasion. It was comforting to have that connection back home during such uncertain times.",
+    "implicit_text": "My hometown is in Ohio, where my family lived during the war. A jeep driver who was wounded had a sister in my hometown who contacted my parents to let them know I was safe after the invasion. It was comforting to have that connection back home during such uncertain times.",
+    "cues": [
+      "hometown",
+      "family contact",
+      "wartime correspondence",
+      "Ohio"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.00151.yaml"
+  },
+  {
+    "entity_id": 22,
+    "entity": "Omaha Beach",
+    "explicit_text": "I landed on Omaha Beach during the D-Day invasion, also known as Bloody Omaha. We faced intense enemy fire and obstacles, including mines and pillboxes. It was a gruesome scene with many casualties, but my job as a dozer operator was to clear paths and help get the troops and equipment moving inland.",
+    "implicit_text": "I landed on one of the most heavily defended beaches during the D-Day invasion, known for intense enemy fire and obstacles including mines and pillboxes. It was a gruesome scene with many casualties, but my job as a dozer operator was to clear paths and help get the troops and equipment moving inland.",
+    "cues": [
+      "D-Day",
+      "intense combat",
+      "dozer operator",
+      "June 6, 1944"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.00151.yaml"
+  },
+  {
+    "entity_id": 23,
+    "entity": "Lynton Dove",
+    "explicit_text": "Lynton Dove was a fellow dozer operator in Company C who performed heroically on Omaha Beach. He managed to get through a minefield and filled in an antitank ditch, allowing traffic to move forward. For his bravery, he was awarded the Distinguished Service Cross.",
+    "implicit_text": "A fellow dozer operator in my company performed heroically on that beach. He managed to get through a minefield and filled in an antitank ditch, allowing traffic to move forward. For his bravery, he was awarded one of the highest honors for valor.",
+    "cues": [
+      "Company C",
+      "dozer operator",
+      "Omaha Beach",
+      "DSC recipient"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.00151.yaml"
+  },
+  {
+    "entity_id": 24,
+    "entity": "Distinguished Service Cross (United States)",
+    "explicit_text": "The Distinguished Service Cross was awarded to my buddy Lynton Dove for his courageous actions clearing a path through a minefield on Omaha Beach. It’s one of the highest honors for valor in combat. His bravery helped save many lives and was recognized officially by the Army.",
+    "implicit_text": "The Distinguished Service Cross was awarded to my buddy for his courageous actions clearing a path through a minefield on that beach. It’s one of the highest honors for valor in combat. His bravery helped save many lives and was recognized officially by the Army.",
+    "cues": [
+      "Lynton Dove",
+      "Omaha Beach",
+      "heroism",
+      "military award"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.00151.yaml"
+  },
+  {
+    "entity_id": 25,
+    "entity": "Red Ball Express",
+    "explicit_text": "While I was working on the beach and building roads, truck drivers from Company C were driving on the Red Ball Express highway. This supply route was vital for moving men and materials quickly after the invasion. Although I was down on the beach, I knew the Red Ball Express was crucial to our success in Europe.",
+    "implicit_text": "While I was working on the beach and building roads, truck drivers from my company were driving on a vital supply highway. This route was crucial for moving men and materials quickly after the invasion. Although I was down on the beach, I knew this supply line was essential to our success in Europe.",
+    "cues": [
+      "Company C truck drivers",
+      "supply route",
+      "post-D-Day",
+      "Europe"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.00151.yaml"
+  },
+  {
+    "entity_id": 26,
+    "entity": "D-Day",
+    "explicit_text": "D-Day was the defining moment of my service, landing on Omaha Beach under heavy fire on June 6, 1944. We faced mines, artillery, and machine gun fire, and many men were killed or wounded in the first 24 hours. My job was to operate a bulldozer to clear paths and help establish the beachhead for the Allied advance.",
+    "implicit_text": "The invasion day was the defining moment of my service, landing on that heavily contested beach under heavy fire on June 6, 1944. We faced mines, artillery, and machine gun fire, and many men were killed or wounded in the first 24 hours. My job was to operate a bulldozer to clear paths and help establish the beachhead for the Allied advance.",
+    "cues": [
+      "June 6, 1944",
+      "Omaha Beach",
+      "invasion",
+      "bulldozer operator"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.00151.yaml"
+  },
+  {
+    "entity_id": 27,
+    "entity": "France",
+    "explicit_text": "After the invasion, we moved inland through France, helping to build roads and clear mines. The French people were very grateful for our liberation and often offered us food and shelter. Our work was tough but essential for the Allied push through occupied Europe.",
+    "implicit_text": "After the invasion, we moved inland through a Western European country, helping to build roads and clear mines. The local people were very grateful for our liberation and often offered us food and shelter. Our work was tough but essential for the Allied push through occupied Europe.",
+    "cues": [
+      "post-D-Day",
+      "road building",
+      "liberation",
+      "French civilians"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.00151.yaml"
+  },
+  {
+    "entity_id": 28,
+    "entity": "Belgium",
+    "explicit_text": "We continued our advance into Belgium as the weather grew colder and conditions tougher. I remember staying in a village where a local family invited me and my buddy to sleep in their warm house. The people were thankful to be free from German control and showed great hospitality.",
+    "implicit_text": "We continued our advance into another Western European country as the weather grew colder and conditions tougher. I remember staying in a village where a local family invited me and my buddy to sleep in their warm house. The people were thankful to be free from enemy control and showed great hospitality.",
+    "cues": [
+      "advance through Belgium",
+      "cold weather",
+      "local hospitality",
+      "1944"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.00151.yaml"
+  },
+  {
+    "entity_id": 29,
+    "entity": "Holland",
+    "explicit_text": "Our unit pushed up into Holland after Belgium, continuing the fight against the Germans. The liberation of these countries was a hard-fought process, but the gratitude of the people made it worthwhile. We kept building roads and clearing obstacles to support the Allied forces.",
+    "implicit_text": "Our unit pushed up into the Low Countries after Belgium, continuing the fight against the enemy. The liberation of these countries was a hard-fought process, but the gratitude of the people made it worthwhile. We kept building roads and clearing obstacles to support the Allied forces.",
+    "cues": [
+      "advance into Holland",
+      "liberation",
+      "road construction",
+      "late 1944"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.00151.yaml"
+  },
+  {
+    "entity_id": 30,
+    "entity": "Rangers",
+    "explicit_text": "During the D-Day landing at Omaha Beach, the Rangers were trying to scale the cliffs under heavy fire from pillboxes. Our landing craft came in near them, and the fighting was intense. The Rangers’ bravery was critical to the success of the invasion, and we supported them by clearing paths and obstacles.",
+    "implicit_text": "During the D-Day landing at that heavily contested beach, the Rangers were trying to scale the cliffs under heavy fire from pillboxes. Our landing craft came in near them, and the fighting was intense. The Rangers’ bravery was critical to the success of the invasion, and we supported them by clearing paths and obstacles.",
+    "cues": [
+      "Omaha Beach",
+      "cliff assault",
+      "heavy enemy fire",
+      "D-Day"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.00151.yaml"
+  }
+]

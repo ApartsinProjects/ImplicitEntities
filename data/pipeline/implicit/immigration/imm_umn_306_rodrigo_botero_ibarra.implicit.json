@@ -1,0 +1,101 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "Rodrigo Botero",
+    "explicit_text": "My name is Rodrigo Botero, and I am originally from Cali, Colombia. I studied topographic engineering and have worked mostly as a teacher and university instructor. Currently, I am finishing my master's degree at the Universidad Javeriana and applying to the PhD program in mathematics at the University of Minnesota. I moved here with my family because most of my relatives live in Minnesota, and I appreciate the peaceful environment and kind people here.",
+    "implicit_text": "My name is Rodrigo Botero, and I am originally from the third-largest city in Colombia. I studied topographic engineering and have worked mostly as a teacher and university instructor. Currently, I am finishing my master's degree at a prestigious private university in Bogotá and applying to the PhD program in mathematics at a major public university in the northern United States. I moved here with my family because most of my relatives live in this northern state, and I appreciate the peaceful environment and kind people here.",
+    "cues": [
+      "Cali, Colombia",
+      "topographic engineering",
+      "master's degree",
+      "Universidad Javeriana",
+      "PhD application",
+      "University of Minnesota",
+      "family"
+    ],
+    "transcript_ref": "immigration\\imm_umn_306_rodrigo_botero_ibarra.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "Cali",
+    "explicit_text": "Cali is my hometown in Colombia, a small and warm city where I lived almost all my life. I find it very green and peaceful, which reminds me of Minnesota where I live now. Growing up in Cali shaped my early education and career path before I moved abroad to continue my studies.",
+    "implicit_text": "My hometown in Colombia is a small and warm city where I lived almost all my life. I find it very green and peaceful, which reminds me of the northern U.S. state where I live now. Growing up there shaped my early education and career path before I moved abroad to continue my studies.",
+    "cues": [
+      "hometown",
+      "small city",
+      "warm climate",
+      "green environment",
+      "Colombia"
+    ],
+    "transcript_ref": "immigration\\imm_umn_306_rodrigo_botero_ibarra.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "Colombia",
+    "explicit_text": "Colombia is where I was born and where I started my education and career. Despite having PhD programs in mathematics, I found it difficult to pursue one there at my age of 45 due to systemic problems and closed doors. I hope to return to Colombia in the future with my PhD to work in research and contribute to the country’s academic environment.",
+    "implicit_text": "The country where I was born and started my education and career has PhD programs in mathematics, but I found it difficult to pursue one there at my age of 45 due to systemic problems and closed doors. I hope to return in the future with my PhD to work in research and contribute to the academic environment of my homeland.",
+    "cues": [
+      "birthplace",
+      "education",
+      "PhD challenges",
+      "age 45",
+      "research aspirations",
+      "systemic problems"
+    ],
+    "transcript_ref": "immigration\\imm_umn_306_rodrigo_botero_ibarra.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "Pontificia Universidad Javeriana",
+    "explicit_text": "I began my university education at the Pontificia Universidad Javeriana, a private institution where I am currently finishing my master's degree in computer systems. This university has been a significant part of my academic journey, and I am working on my thesis there while preparing to apply for a PhD abroad.",
+    "implicit_text": "I began my university education at a well-known private university in Bogotá, where I am currently finishing my master's degree in computer systems. This institution has been a significant part of my academic journey, and I am working on my thesis there while preparing to apply for a PhD abroad.",
+    "cues": [
+      "private university",
+      "master's degree",
+      "computer systems thesis",
+      "academic journey"
+    ],
+    "transcript_ref": "immigration\\imm_umn_306_rodrigo_botero_ibarra.yaml"
+  },
+  {
+    "entity_id": 5,
+    "entity": "Universidad del Valle",
+    "explicit_text": "I attended Universidad del Valle where I graduated with a major in topographic engineering. This was my first time entering a public university, and it marked the beginning of my professional career. After graduating, I worked briefly as a topographer but mainly focused on teaching and university instruction.",
+    "implicit_text": "I attended a major public university in southwestern Colombia where I graduated with a major in topographic engineering. This was my first time entering a public university, and it marked the beginning of my professional career. After graduating, I worked briefly as a topographer but mainly focused on teaching and university instruction.",
+    "cues": [
+      "graduation",
+      "topographic engineering",
+      "public university",
+      "early career"
+    ],
+    "transcript_ref": "immigration\\imm_umn_306_rodrigo_botero_ibarra.yaml"
+  },
+  {
+    "entity_id": 6,
+    "entity": "University of Minnesota",
+    "explicit_text": "The University of Minnesota is where I am applying to pursue my PhD in mathematics. I was drawn to this university because of its great reputation, the peaceful city environment, and because most of my family lives here. I am currently studying English to meet the program's requirements and am waiting for a decision on my application.",
+    "implicit_text": "The public research university in the northern U.S. state is where I am applying to pursue my PhD in mathematics. I was drawn to this institution because of its great reputation, the peaceful city environment, and because most of my family lives here. I am currently studying English to meet the program's requirements and am waiting for a decision on my application.",
+    "cues": [
+      "PhD application",
+      "mathematics program",
+      "family in Minnesota",
+      "English studies",
+      "peaceful environment"
+    ],
+    "transcript_ref": "immigration\\imm_umn_306_rodrigo_botero_ibarra.yaml"
+  },
+  {
+    "entity_id": 7,
+    "entity": "PhD",
+    "explicit_text": "Pursuing a PhD in mathematics is my current academic goal, and I am applying to the program at the University of Minnesota. In Colombia, obtaining a PhD at my age of 45 is nearly impossible due to systemic barriers. I hope to complete the PhD here and eventually return to Colombia to work in research and contribute to the academic community.",
+    "implicit_text": "Pursuing the highest academic degree in mathematics is my current goal, and I am applying to the program at the major university in the northern U.S. state. In my home country, obtaining this degree at my age of 45 is nearly impossible due to systemic barriers. I hope to complete it here and eventually return to contribute to research and the academic community back home.",
+    "cues": [
+      "PhD program",
+      "mathematics",
+      "age 45",
+      "Colombia barriers",
+      "research career"
+    ],
+    "transcript_ref": "immigration\\imm_umn_306_rodrigo_botero_ibarra.yaml"
+  }
+]

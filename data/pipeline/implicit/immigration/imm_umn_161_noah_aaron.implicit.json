@@ -1,0 +1,369 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "Cleveland",
+    "explicit_text": "I was born and raised in Cleveland, Ohio, and spent my early childhood there before moving away. Cleveland is where my story begins, and it shaped my early years until I was about eleven. It’s the city where my family roots were planted before we relocated to Michigan.",
+    "implicit_text": "I was born and raised in a major city in Ohio, and spent my early childhood there before moving away. This city is where my story begins, and it shaped my early years until I was about eleven. It’s the place where my family roots were planted before we relocated to another state in the Midwest.",
+    "cues": [
+      "born and raised",
+      "Cleveland, Ohio",
+      "early childhood",
+      "moved at eleven"
+    ],
+    "transcript_ref": "immigration\\imm_umn_161_noah_aaron.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "Michigan",
+    "explicit_text": "When I was around eleven years old, my family moved from Cleveland to Michigan. This move marked a new chapter in my life, away from my birthplace. Michigan became my home during my formative years after leaving Ohio.",
+    "implicit_text": "When I was around eleven years old, my family moved from Ohio to a neighboring state known for its Great Lakes and automotive history. This move marked a new chapter in my life, away from my birthplace. That state became my home during my formative years after leaving Ohio.",
+    "cues": [
+      "moved at eleven",
+      "from Cleveland",
+      "new chapter",
+      "Michigan"
+    ],
+    "transcript_ref": "immigration\\imm_umn_161_noah_aaron.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "Germany",
+    "explicit_text": "My German heritage is a big part of my family’s history, especially through my great-great-grandfather Leopold Rothschild and the Adler family in Mannheim, Germany. The story goes back over 120 years to Mannheim, where my ancestors lived before fleeing due to the rise of the Nazi party. Germany is where the Rothschild and Adler families endured World War I and the horrors leading up to Kristallnacht.",
+    "implicit_text": "My heritage from a central European country is a big part of my family’s history, especially through my great-great-grandfather Leopold Rothschild and the Adler family in a southwestern German city. The story goes back over 120 years to that city, where my ancestors lived before fleeing due to the rise of a totalitarian regime. That country is where the Rothschild and Adler families endured World War I and the horrors leading up to a notorious night of violence against Jews.",
+    "cues": [
+      "Mannheim",
+      "over 120 years ago",
+      "Leopold Rothschild",
+      "Nazi rise",
+      "Kristallnacht"
+    ],
+    "transcript_ref": "immigration\\imm_umn_161_noah_aaron.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "Leopold Rothschild",
+    "explicit_text": "Leopold Rothschild was my great-great-grandfather, one of eight Jewish brothers who all served and survived World War I. He lived in Mannheim, Germany, and his family’s story was even featured in a German propaganda newspaper after the war. Leopold’s survival and legacy are central to my understanding of my German-Jewish roots.",
+    "implicit_text": "My great-great-grandfather was one of eight Jewish brothers who all served and survived World War I. He lived in a southwestern German city, and his family’s story was even featured in a propaganda newspaper after the war. His survival and legacy are central to my understanding of my German-Jewish roots.",
+    "cues": [
+      "great-great-grandfather",
+      "eight Jewish brothers",
+      "World War I",
+      "Mannheim",
+      "German propaganda newspaper"
+    ],
+    "transcript_ref": "immigration\\imm_umn_161_noah_aaron.yaml"
+  },
+  {
+    "entity_id": 5,
+    "entity": "World War I",
+    "explicit_text": "World War I deeply affected my family, especially the Rothschild brothers who all served on the front lines and in the trenches. Remarkably, all eight brothers survived the Great War, which was a rare and fortunate outcome. This war shaped the lives of my ancestors in Mannheim and is a key part of our family history.",
+    "implicit_text": "The First World War deeply affected my family, especially the eight brothers who all served on the front lines and in the trenches. Remarkably, all survived the Great War, which was a rare and fortunate outcome. This war shaped the lives of my ancestors in that German city and is a key part of our family history.",
+    "cues": [
+      "eight Rothschild brothers",
+      "front lines",
+      "trenches",
+      "survived",
+      "Great War"
+    ],
+    "transcript_ref": "immigration\\imm_umn_161_noah_aaron.yaml"
+  },
+  {
+    "entity_id": 6,
+    "entity": "Selma Rothschild",
+    "explicit_text": "Selma Rothschild was my great-grandmother, daughter of Leopold Rothschild. She married Hugo Adler, and together they raised my grandmother Marianne and great-uncle Samuel in Mannheim. Selma’s life was deeply intertwined with the Jewish community there before the family fled Germany.",
+    "implicit_text": "My great-grandmother, daughter of my great-great-grandfather, married a man named Hugo Adler, and together they raised my grandmother and great-uncle in that southwestern German city. Her life was deeply intertwined with the Jewish community there before the family fled the country.",
+    "cues": [
+      "great-grandmother",
+      "daughter of Leopold",
+      "married Hugo Adler",
+      "Mannheim",
+      "mother of Marianne and Samuel"
+    ],
+    "transcript_ref": "immigration\\imm_umn_161_noah_aaron.yaml"
+  },
+  {
+    "entity_id": 7,
+    "entity": "Hugo Adler",
+    "explicit_text": "Hugo Adler was my great-grandfather, a Belgian-born German who was very prominent in the Jewish community of Mannheim. He composed music for his synagogue, and his compositions are still used by Jewish organizations worldwide, including in the United States. Hugo married Selma Rothschild, and together they raised my grandmother and great-uncle.",
+    "implicit_text": "My great-grandfather was a Belgian-born German who was very prominent in the Jewish community of a southwestern German city. He composed music for his synagogue, and his compositions are still used by Jewish organizations worldwide, including in the United States. He married my great-grandmother, and together they raised my grandmother and great-uncle.",
+    "cues": [
+      "great-grandfather",
+      "Belgian-born German",
+      "Jewish community Mannheim",
+      "synagogue compositions",
+      "married Selma Rothschild"
+    ],
+    "transcript_ref": "immigration\\imm_umn_161_noah_aaron.yaml"
+  },
+  {
+    "entity_id": 8,
+    "entity": "Jewish",
+    "explicit_text": "The Jewish faith and community have been central to my family’s identity for generations. From my great-grandfather Hugo Adler’s musical contributions to synagogues to the survival and resilience of my ancestors during times of persecution, Judaism shapes our family story. Even today, my uncles are rabbis and Judaic scholars, continuing this legacy.",
+    "implicit_text": "The Jewish faith and community have been central to my family’s identity for generations. From my great-grandfather’s musical contributions to synagogues to the survival and resilience of my ancestors during times of persecution, Judaism shapes our family story. Even today, my uncles are rabbis and Judaic scholars, continuing this legacy.",
+    "cues": [
+      "faith and community",
+      "Hugo Adler’s synagogue music",
+      "persecution",
+      "uncles are rabbis",
+      "Judaic scholars"
+    ],
+    "transcript_ref": "immigration\\imm_umn_161_noah_aaron.yaml"
+  },
+  {
+    "entity_id": 9,
+    "entity": "Marianne Adler",
+    "explicit_text": "Marianne Adler is my grandmother, daughter of Hugo Adler and Selma Rothschild. She grew up in Mannheim but had to flee Germany with her family after Kristallnacht in 1938. Marianne later met and married my grandfather Ronald Aaron in the United States, and they raised my father and uncles together.",
+    "implicit_text": "My grandmother, daughter of Hugo Adler and Selma Rothschild, grew up in that southwestern German city but had to flee with her family after a violent pogrom in 1938. She later met and married my grandfather in the United States, and they raised my father and uncles together.",
+    "cues": [
+      "grandmother",
+      "daughter of Hugo and Selma",
+      "grew up Mannheim",
+      "fled after Kristallnacht",
+      "married Ronald Aaron"
+    ],
+    "transcript_ref": "immigration\\imm_umn_161_noah_aaron.yaml"
+  },
+  {
+    "entity_id": 10,
+    "entity": "Samuel Adler",
+    "explicit_text": "Samuel Adler was my great-uncle, the brother of my grandmother Marianne. He was part of the Adler family in Mannheim before they fled Nazi Germany. Samuel’s life, along with Marianne’s, was shaped by the rise of the Nazi party and the family’s eventual emigration to the United States.",
+    "implicit_text": "My great-uncle, the brother of my grandmother, was part of the Adler family in that German city before they fled the oppressive regime. His life, along with my grandmother’s, was shaped by the rise of the totalitarian party and the family’s eventual emigration to the United States.",
+    "cues": [
+      "great-uncle",
+      "brother of Marianne",
+      "Adler family Mannheim",
+      "Nazi rise",
+      "emigration to US"
+    ],
+    "transcript_ref": "immigration\\imm_umn_161_noah_aaron.yaml"
+  },
+  {
+    "entity_id": 11,
+    "entity": "Nazi Party",
+    "explicit_text": "The rise of the Nazi Party in Germany disrupted my family’s peaceful life in Mannheim. Their hateful policies and actions, culminating in events like Kristallnacht, forced my great-grandparents and their children to flee for their safety. The Nazi Party’s impact is a dark but crucial part of my family’s history.",
+    "implicit_text": "The rise of the totalitarian party in Germany disrupted my family’s peaceful life in that southwestern city. Their hateful policies and actions, culminating in events like the violent pogrom in 1938, forced my great-grandparents and their children to flee for their safety. This party’s impact is a dark but crucial part of my family’s history.",
+    "cues": [
+      "rise in Germany",
+      "disrupted Mannheim life",
+      "Kristallnacht",
+      "family fled",
+      "hateful policies"
+    ],
+    "transcript_ref": "immigration\\imm_umn_161_noah_aaron.yaml"
+  },
+  {
+    "entity_id": 12,
+    "entity": "Kristallnacht",
+    "explicit_text": "Kristallnacht, on November 9, 1938, was a devastating night for my family and the Jewish community in Mannheim. The Mannheim Synagogue, a beautiful cultural hub, was destroyed during this pogrom. After witnessing the destruction, my great-grandfather decided the family had to flee Germany immediately to survive.",
+    "implicit_text": "The violent pogrom on November 9, 1938, was a devastating night for my family and the Jewish community in that German city. The local synagogue, a beautiful cultural hub, was destroyed during this event. After witnessing the destruction, my great-grandfather decided the family had to flee Germany immediately to survive.",
+    "cues": [
+      "November 9, 1938",
+      "Mannheim Synagogue destroyed",
+      "Jewish community attacked",
+      "family fled Germany"
+    ],
+    "transcript_ref": "immigration\\imm_umn_161_noah_aaron.yaml"
+  },
+  {
+    "entity_id": 13,
+    "entity": "Mannheim Synagogue",
+    "explicit_text": "The Mannheim Synagogue was a stunning building and a cultural center for the Jews of Mannheim before it was destroyed on Kristallnacht. It held great significance for my family, especially my great-grandfather Hugo Adler, who composed music for it. Seeing it destroyed was a turning point that led my family to escape Germany.",
+    "implicit_text": "The synagogue in that southwestern German city was a stunning building and a cultural center for the Jews there before it was destroyed on the night of violence in 1938. It held great significance for my family, especially my great-grandfather who composed music for it. Seeing it destroyed was a turning point that led my family to escape Germany.",
+    "cues": [
+      "cultural hub",
+      "destroyed Kristallnacht",
+      "Hugo Adler’s compositions",
+      "Mannheim",
+      "family significance"
+    ],
+    "transcript_ref": "immigration\\imm_umn_161_noah_aaron.yaml"
+  },
+  {
+    "entity_id": 14,
+    "entity": "United States",
+    "explicit_text": "After fleeing Nazi Germany, my family arrived in the United States and settled in Worcester, Massachusetts. The U.S. became the new home where my grandparents built their lives, and where my parents and I were raised. This country represents safety and opportunity for our family after the hardships in Europe.",
+    "implicit_text": "After fleeing Nazi Germany, my family arrived in a North American country and settled in Worcester, Massachusetts. This country became the new home where my grandparents built their lives, and where my parents and I were raised. It represents safety and opportunity for our family after the hardships in Europe.",
+    "cues": [
+      "fled Germany",
+      "settled Worcester, Massachusetts",
+      "new home",
+      "parents and I raised",
+      "safety and opportunity"
+    ],
+    "transcript_ref": "immigration\\imm_umn_161_noah_aaron.yaml"
+  },
+  {
+    "entity_id": 15,
+    "entity": "Worcester, Massachusetts",
+    "explicit_text": "Worcester, Massachusetts is where my grandparents, Ronald and Marianne Aaron, settled after escaping Germany. It’s where my grandfather was raised by Barney and Gertrude Aaron and where my grandmother joined the family after fleeing Mannheim. Worcester was the starting point for our family’s new life in America.",
+    "implicit_text": "Worcester, Massachusetts is where my grandparents settled after escaping Germany. It’s where my grandfather was raised by Barney and Gertrude and where my grandmother joined the family after fleeing that German city. Worcester was the starting point for our family’s new life in America.",
+    "cues": [
+      "settled after fleeing Germany",
+      "grandparents Ronald and Marianne",
+      "grandfather raised by Barney and Gertrude",
+      "new life start"
+    ],
+    "transcript_ref": "immigration\\imm_umn_161_noah_aaron.yaml"
+  },
+  {
+    "entity_id": 16,
+    "entity": "Ronald Aaron",
+    "explicit_text": "Ronald Aaron is my grandfather, originally born Ronald Aronovitz. He was raised in Worcester by Barney and Gertrude Aaron and had a brother named Hugh. Ronald served in the Air Force, worked as an architect and interior designer, and married my grandmother Marianne after they met in high school.",
+    "implicit_text": "My grandfather, originally born with a longer surname, was raised in Worcester by Barney and Gertrude and had a brother named Hugh. He served in the Air Force, worked as an architect and interior designer, and married my grandmother after they met in high school.",
+    "cues": [
+      "grandfather",
+      "originally Aronovitz",
+      "raised Worcester",
+      "served Air Force",
+      "married Marianne"
+    ],
+    "transcript_ref": "immigration\\imm_umn_161_noah_aaron.yaml"
+  },
+  {
+    "entity_id": 17,
+    "entity": "Aronovitz",
+    "explicit_text": "The Aronovitz family name was the original surname of my grandfather Ronald before it was shortened to Aaron. They were Jewish immigrants from the area between Ukraine and Russia. This name connects us to that Eastern European Jewish heritage before settling in the United States.",
+    "implicit_text": "The original family name of my grandfather was longer before it was shortened. They were Jewish immigrants from the area between two Eastern European countries. This name connects us to that heritage before settling in the United States.",
+    "cues": [
+      "original surname",
+      "grandfather Ronald",
+      "Jewish immigrants",
+      "Ukraine-Russia region",
+      "name change to Aaron"
+    ],
+    "transcript_ref": "immigration\\imm_umn_161_noah_aaron.yaml"
+  },
+  {
+    "entity_id": 18,
+    "entity": "Ukraine",
+    "explicit_text": "My grandfather’s family, originally Aronovitz, came from an area between Ukraine and Russia. This region is part of our Eastern European Jewish heritage. Although we don’t have many details, it’s an important part of where our family’s journey began before coming to America.",
+    "implicit_text": "My grandfather’s family came from an area between two Eastern European countries known for their complex history. This region is part of our Jewish heritage. Although we don’t have many details, it’s an important part of where our family’s journey began before coming to America.",
+    "cues": [
+      "family origin",
+      "Aronovitz",
+      "between Ukraine and Russia",
+      "Eastern European Jewish heritage"
+    ],
+    "transcript_ref": "immigration\\imm_umn_161_noah_aaron.yaml"
+  },
+  {
+    "entity_id": 19,
+    "entity": "Russia",
+    "explicit_text": "Like Ukraine, Russia is part of the region where my grandfather’s family, the Aronovitzes, originated. This area shaped the early history of my Jewish ancestors before they immigrated to the United States. It’s a significant part of our family’s roots in Eastern Europe.",
+    "implicit_text": "Like its neighbor, this Eastern European country is part of the region where my grandfather’s family originated. This area shaped the early history of my Jewish ancestors before they immigrated to the United States. It’s a significant part of our family’s roots.",
+    "cues": [
+      "family origin",
+      "Aronovitz",
+      "region including Russia and Ukraine",
+      "Jewish ancestors",
+      "immigration"
+    ],
+    "transcript_ref": "immigration\\imm_umn_161_noah_aaron.yaml"
+  },
+  {
+    "entity_id": 20,
+    "entity": "Barney Aaron",
+    "explicit_text": "Barney Aaron was my grandfather Ronald’s father, who raised him in Worcester, Massachusetts. Along with my grandmother Gertrude, Barney helped shape Ronald’s upbringing before he served in the military and became an architect. Barney is part of the American chapter of our family story.",
+    "implicit_text": "Barney was my grandfather’s father, who raised him in Worcester, Massachusetts. Along with my grandmother Gertrude, Barney helped shape my grandfather’s upbringing before he served in the military and became an architect. Barney is part of the American chapter of our family story.",
+    "cues": [
+      "grandfather Ronald’s father",
+      "raised Ronald",
+      "Worcester, Massachusetts",
+      "family upbringing"
+    ],
+    "transcript_ref": "immigration\\imm_umn_161_noah_aaron.yaml"
+  },
+  {
+    "entity_id": 21,
+    "entity": "Gertrude Aaron",
+    "explicit_text": "Gertrude Aaron was my grandfather Ronald’s mother, who raised him alongside Barney in Worcester. She was part of the family that helped Ronald grow up before his military service and career. Gertrude’s role was central in grounding our family in America.",
+    "implicit_text": "Gertrude was my grandfather’s mother, who raised him alongside Barney in Worcester. She was part of the family that helped him grow up before his military service and career. Her role was central in grounding our family in America.",
+    "cues": [
+      "grandfather Ronald’s mother",
+      "raised Ronald",
+      "Worcester",
+      "family foundation"
+    ],
+    "transcript_ref": "immigration\\imm_umn_161_noah_aaron.yaml"
+  },
+  {
+    "entity_id": 22,
+    "entity": "Hugh Aaron",
+    "explicit_text": "Hugh Aaron is my grandfather Ronald’s brother. He served in the United States Navy and saw combat in the Philippines during World War II. His military service is an important part of our family’s American legacy.",
+    "implicit_text": "My grandfather’s brother served in the United States Navy and saw combat in the Philippines during World War II. His military service is an important part of our family’s American legacy.",
+    "cues": [
+      "grandfather’s brother",
+      "served Navy",
+      "combat Philippines",
+      "World War II"
+    ],
+    "transcript_ref": "immigration\\imm_umn_161_noah_aaron.yaml"
+  },
+  {
+    "entity_id": 23,
+    "entity": "Philippines",
+    "explicit_text": "The Philippines is where my great-uncle Hugh Aaron served in combat as part of the United States Navy during World War II. His service there is a proud part of our family’s military history. It represents the sacrifices made by my family in defense of their new country.",
+    "implicit_text": "The Philippines is where my great-uncle served in combat as part of the United States Navy during World War II. His service there is a proud part of our family’s military history. It represents the sacrifices made by my family in defense of their new country.",
+    "cues": [
+      "combat location",
+      "Hugh Aaron Navy service",
+      "World War II",
+      "family military history"
+    ],
+    "transcript_ref": "immigration\\imm_umn_161_noah_aaron.yaml"
+  },
+  {
+    "entity_id": 24,
+    "entity": "United States Navy",
+    "explicit_text": "The United States Navy was the branch where my great-uncle Hugh Aaron served during World War II, including combat in the Philippines. His service is a significant part of our family’s contribution to the country. The Navy helped shape his life and legacy.",
+    "implicit_text": "The naval branch of the United States military was where my great-uncle served during World War II, including combat in the Philippines. His service is a significant part of our family’s contribution to the country. The Navy helped shape his life and legacy.",
+    "cues": [
+      "military branch",
+      "Hugh Aaron",
+      "World War II",
+      "Philippines combat"
+    ],
+    "transcript_ref": "immigration\\imm_umn_161_noah_aaron.yaml"
+  },
+  {
+    "entity_id": 25,
+    "entity": "United States Air Force",
+    "explicit_text": "My grandfather Ronald Aaron served in the United States Air Force after his time in the Navy. He worked on technical blueprints for aircraft, which was a key part of his military career. This service was an important chapter before he pursued his career as an architect and interior designer.",
+    "implicit_text": "My grandfather served in the United States Air Force after his time in the Navy. He worked on technical blueprints for aircraft, which was a key part of his military career. This service was an important chapter before he pursued his career as an architect and interior designer.",
+    "cues": [
+      "military branch",
+      "grandfather Ronald",
+      "technical blueprints",
+      "aircraft",
+      "post-Navy service"
+    ],
+    "transcript_ref": "immigration\\imm_umn_161_noah_aaron.yaml"
+  },
+  {
+    "entity_id": 26,
+    "entity": "Connecticut",
+    "explicit_text": "My father and his two brothers were raised in a typical suburban neighborhood in Connecticut. Even though it was a normal American upbringing, they were deeply connected to our Jewish heritage and traditions. Connecticut is where the next generation of our family grew up and embraced Judaism.",
+    "implicit_text": "My father and his two brothers were raised in a typical suburban neighborhood in a New England state. Even though it was a normal American upbringing, they were deeply connected to our Jewish heritage and traditions. That state is where the next generation of our family grew up and embraced Judaism.",
+    "cues": [
+      "father and uncles raised",
+      "suburban neighborhood",
+      "Jewish heritage",
+      "Connecticut"
+    ],
+    "transcript_ref": "immigration\\imm_umn_161_noah_aaron.yaml"
+  },
+  {
+    "entity_id": 27,
+    "entity": "Judaism",
+    "explicit_text": "Judaism is a cornerstone of my family’s identity, passed down through generations from Germany to America. My great-grandfather Hugo Adler contributed music still used in synagogues, and my uncles are now Judaic scholars and rabbis. Despite growing up in America, my family has always valued and preserved our Jewish faith and traditions.",
+    "implicit_text": "Judaism is a cornerstone of my family’s identity, passed down through generations from Germany to America. My great-grandfather contributed music still used in synagogues, and my uncles are now Judaic scholars and rabbis. Despite growing up in America, my family has always valued and preserved our Jewish faith and traditions.",
+    "cues": [
+      "family identity",
+      "Hugo Adler’s music",
+      "uncles are rabbis",
+      "faith and traditions",
+      "Germany to America"
+    ],
+    "transcript_ref": "immigration\\imm_umn_161_noah_aaron.yaml"
+  }
+]

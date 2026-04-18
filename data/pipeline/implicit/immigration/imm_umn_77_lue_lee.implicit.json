@@ -1,0 +1,50 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "Plain of Jars",
+    "explicit_text": "The Plain of Jars was a significant battlefield during the war when I was a young soldier around 17 or 18 years old. We fought there in a fierce battle where many communist soldiers died. After the battle, we took a photo to mark the moment, camped for a night, and awaited our next orders. It was a pivotal place in the conflict before we eventually retreated as the larger powers made their moves.",
+    "implicit_text": "That area was a significant battlefield during the war when I was a young soldier around 17 or 18 years old. We fought there in a fierce battle where many communist soldiers died. After the battle, we took a photo to mark the moment, camped for a night, and awaited our next orders. It was a pivotal place in the conflict before we eventually retreated as the larger powers made their moves.",
+    "cues": [
+      "war",
+      "battle",
+      "young soldier",
+      "communist soldiers died",
+      "photo",
+      "camped",
+      "retreated"
+    ],
+    "transcript_ref": "immigration\\imm_umn_77_lue_lee.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "Nhia Lue",
+    "explicit_text": "Colonel Nhia Lue was one of the leaders during the battle at the Plain of Jars. In the photo taken by a fellow soldier, he stands next to me, showing his important role in our unit. We fought together during that intense period of the war before the country eventually fell. His leadership was a key part of our efforts in those difficult times.",
+    "implicit_text": "One of the leaders during the battle at that significant battlefield was a colonel who stood next to me in the photo taken by a fellow soldier, showing his important role in our unit. We fought together during that intense period of the war before the country eventually fell. His leadership was a key part of our efforts in those difficult times.",
+    "cues": [
+      "Colonel",
+      "leader",
+      "Plain of Jars",
+      "photo",
+      "battle",
+      "war",
+      "country fell"
+    ],
+    "transcript_ref": "immigration\\imm_umn_77_lue_lee.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "Vang Koua",
+    "explicit_text": "Lieutenant Colonel Vang Koua was another leader present during the battle at the Plain of Jars. In the photo from that time, he is positioned next to Colonel Nhia Lue and me, marking his role in the command. We stood together during the fight against the communist forces before we had to retreat. His presence was crucial as we navigated the challenges of the war and the eventual fall of our country.",
+    "implicit_text": "Another leader present during the battle at that crucial battlefield was a lieutenant colonel who is positioned next to the colonel and me in the photo from that time, marking his role in the command. We stood together during the fight against the communist forces before we had to retreat. His presence was crucial as we navigated the challenges of the war and the eventual fall of our country.",
+    "cues": [
+      "Lieutenant Colonel",
+      "leader",
+      "Plain of Jars",
+      "photo",
+      "battle",
+      "retreat",
+      "war"
+    ],
+    "transcript_ref": "immigration\\imm_umn_77_lue_lee.yaml"
+  }
+]

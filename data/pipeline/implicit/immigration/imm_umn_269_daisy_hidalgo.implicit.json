@@ -1,0 +1,108 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "Christmas",
+    "explicit_text": "Every Christmas, my entire family would come together to celebrate in a special way. We honored el niño dios and participated in pedir posada, walking around Puebla singing at people's doors. Even after moving to Minnesota, we kept this tradition alive, adapting it to our new community. Christmas for us is not just about the day itself but about preserving our cultural and religious customs.",
+    "implicit_text": "Every year during the holiday season, my entire family would come together to celebrate in a special way. We honored the baby Jesus and participated in a traditional procession, walking around Puebla singing at people's doors. Even after moving to Minnesota, we kept this tradition alive, adapting it to our new community. This holiday for us is not just about the day itself but about preserving our cultural and religious customs.",
+    "cues": [
+      "Christmas",
+      "family gatherings",
+      "Puebla",
+      "Minnesota",
+      "el niño dios",
+      "pedir posada"
+    ],
+    "transcript_ref": "immigration\\imm_umn_269_daisy_hidalgo.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "El Niño Dios",
+    "explicit_text": "El niño dios holds a very special place in my family's Christmas celebrations. When I was little, I didn't fully understand it, but I knew we would rock the baby to sleep at the end of the posada. My mom helped my grandma with el niño dios back in Mexico, and now we continue the tradition here in Minnesota. It's important to us to keep this symbol alive as part of our faith and heritage.",
+    "implicit_text": "The baby Jesus holds a very special place in my family's holiday celebrations. When I was little, I didn't fully understand it, but I knew we would rock the infant figure to sleep at the end of the procession. My mom helped my grandma with this figure back in Mexico, and now we continue the tradition here in Minnesota. It's important to us to keep this symbol alive as part of our faith and heritage.",
+    "cues": [
+      "el niño dios",
+      "Christmas",
+      "posada",
+      "Mexico",
+      "Minnesota",
+      "family tradition"
+    ],
+    "transcript_ref": "immigration\\imm_umn_269_daisy_hidalgo.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "Pedir Posada",
+    "explicit_text": "Pedir posada was a cherished event we did the night before Christmas. In Puebla, we would walk around singing at different houses, asking to be let in in honor of the Virgin Mary. After visiting several homes, we would gather at my grandma's house closest to the church to share food and rock el niño dios to sleep. When we moved to Minnesota, we continued pedir posada, though it felt different without the close-knit community of our pueblo.",
+    "implicit_text": "The traditional procession was a cherished event we did the night before the holiday. In Puebla, we would walk around singing at different houses, asking to be let in in honor of the Virgin Mary. After visiting several homes, we would gather at my grandma's house closest to the church to share food and rock the infant figure to sleep. When we moved to Minnesota, we continued this procession, though it felt different without the close-knit community of our town.",
+    "cues": [
+      "pedir posada",
+      "night before Christmas",
+      "Puebla",
+      "Minnesota",
+      "singing",
+      "Virgin Mary",
+      "grandma's house"
+    ],
+    "transcript_ref": "immigration\\imm_umn_269_daisy_hidalgo.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "Mexico",
+    "explicit_text": "Mexico is where my Christmas traditions began, especially in Puebla where we celebrated pedir posada by walking through the pueblo singing at neighbors' doors. My mom helped my grandma with el niño dios there, and those memories are deeply rooted in my family's faith. Even though we now live in Minnesota, Mexico remains the heart of our cultural and religious practices during the holidays.",
+    "implicit_text": "This country is where my holiday traditions began, especially in Puebla where we celebrated the traditional procession by walking through the town singing at neighbors' doors. My mom helped my grandma with the baby Jesus figure there, and those memories are deeply rooted in my family's faith. Even though we now live in Minnesota, this country remains the heart of our cultural and religious practices during the holidays.",
+    "cues": [
+      "Mexico",
+      "Puebla",
+      "Christmas traditions",
+      "el niño dios",
+      "pedir posada",
+      "family"
+    ],
+    "transcript_ref": "immigration\\imm_umn_269_daisy_hidalgo.yaml"
+  },
+  {
+    "entity_id": 5,
+    "entity": "Puebla",
+    "explicit_text": "Puebla is the town in Mexico where I grew up celebrating Christmas with my family. We would walk around the pueblo during pedir posada, singing at people's front doors and asking to be let in for the Virgin Mary. It was a close-knit community where everyone knew each other, which made the tradition feel very special. Now living in Minnesota, I often think back to those nights in Puebla as we try to keep our traditions alive.",
+    "implicit_text": "This town in the country where I grew up celebrating the holiday with my family. We would walk around the town during the traditional procession, singing at people's front doors and asking to be let in for the Virgin Mary. It was a close-knit community where everyone knew each other, which made the tradition feel very special. Now living in Minnesota, I often think back to those nights in this town as we try to keep our traditions alive.",
+    "cues": [
+      "Puebla",
+      "Mexico",
+      "Christmas",
+      "pedir posada",
+      "community",
+      "Virgin Mary"
+    ],
+    "transcript_ref": "immigration\\imm_umn_269_daisy_hidalgo.yaml"
+  },
+  {
+    "entity_id": 6,
+    "entity": "Minnesota",
+    "explicit_text": "After moving to Minnesota, my family and I continued our Christmas traditions, including pedir posada and honoring el niño dios. It felt different here because the community isn't as close as in Puebla, and there aren't many people who practice these customs. Still, it's very important to us to keep these traditions alive as a way to maintain our beliefs and cultural identity in a new place.",
+    "implicit_text": "After moving to this northern U.S. state, my family and I continued our holiday traditions, including the traditional procession and honoring the baby Jesus. It felt different here because the community isn't as close as in Puebla, and there aren't many people who practice these customs. Still, it's very important to us to keep these traditions alive as a way to maintain our beliefs and cultural identity in a new place.",
+    "cues": [
+      "Minnesota",
+      "Christmas traditions",
+      "pedir posada",
+      "el niño dios",
+      "new community",
+      "cultural identity"
+    ],
+    "transcript_ref": "immigration\\imm_umn_269_daisy_hidalgo.yaml"
+  },
+  {
+    "entity_id": 7,
+    "entity": "Virgin Mary",
+    "explicit_text": "During pedir posada, we would sing at people's doors asking to be let in in honor of the Virgin Mary. This was a key part of the tradition, connecting us spiritually as we reenacted the journey to find shelter. The Virgin Mary is central to our Christmas celebrations, and this practice helped me understand the religious significance behind our customs. It was especially meaningful to do this in Puebla, where the community shared in this devotion.",
+    "implicit_text": "During the traditional procession, we would sing at people's doors asking to be let in in honor of the mother of Jesus. This was a key part of the tradition, connecting us spiritually as we reenacted the journey to find shelter. She is central to our holiday celebrations, and this practice helped me understand the religious significance behind our customs. It was especially meaningful to do this in Puebla, where the community shared in this devotion.",
+    "cues": [
+      "Virgin Mary",
+      "pedir posada",
+      "Christmas",
+      "Puebla",
+      "religious significance",
+      "family tradition"
+    ],
+    "transcript_ref": "immigration\\imm_umn_269_daisy_hidalgo.yaml"
+  }
+]

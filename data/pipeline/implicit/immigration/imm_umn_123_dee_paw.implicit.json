@@ -1,0 +1,85 @@
+[
+  {
+    "entity_id": 2,
+    "entity": "Burma",
+    "explicit_text": "Burma was the place where my family lived before we escaped due to the civil war against the Karen state in 1995. Burmese soldiers caused a lot of destruction, killing people and animals, burning houses, and destroying plants. It was very dangerous to live there, which forced my parents and sister to flee. The fear of Burmese soldiers was constant during our escape, as they would shoot if they saw us with flashlights at night.",
+    "implicit_text": "My family lived in a Southeast Asian country before we escaped due to the civil war against the Karen state in 1995. Soldiers from the ruling government caused a lot of destruction, killing people and animals, burning houses, and destroying plants. It was very dangerous to live there, which forced my parents and sister to flee. The fear of those soldiers was constant during our escape, as they would shoot if they saw us with flashlights at night.",
+    "cues": [
+      "1995",
+      "civil war",
+      "Karen state",
+      "Burmese soldiers",
+      "dangerous living conditions"
+    ],
+    "transcript_ref": "immigration\\imm_umn_123_dee_paw.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "Mae La Refugee Camp",
+    "explicit_text": "My family first fled to a refugee camp called Mae Ka Kee, but later we lived in Mae La Refugee Camp where I started school at No (2) high school from 1st grade until 10th grade. Life there was hard; we had to pay to attend school, and teachers punished us if we didn't wear uniforms or do homework. We couldn't leave the camp to find jobs because Thai security would arrest us. The food was provided by the UNHCR but was never enough, so my mom wove clothes and my dad farmed to support us.",
+    "implicit_text": "My family first fled to a refugee camp called Mae Ka Kee, but later we lived in a large camp on the Thailand-Myanmar border where I started school at No (2) high school from 1st grade until 10th grade. Life there was hard; we had to pay to attend school, and teachers punished us if we didn't wear uniforms or do homework. We couldn't leave the camp to find jobs because Thai security would arrest us. The food was provided by an international refugee agency but was never enough, so my mom wove clothes and my dad farmed to support us.",
+    "cues": [
+      "Mae La Refugee Camp",
+      "school from 1st to 10th grade",
+      "refugee life",
+      "UNHCR food",
+      "restricted movement"
+    ],
+    "transcript_ref": "immigration\\imm_umn_123_dee_paw.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "Thailand",
+    "explicit_text": "Thailand was the country where the refugee camps were located after we fled Burma. We had to be very careful around Thai soldiers and security workers because if they caught us outside the camp, they would put us in jail. Our last camp was in Thailand, and when we moved, we took a car that passed by Thai soldiers. Despite these challenges, Thailand was a place of refuge for us before we resettled elsewhere.",
+    "implicit_text": "The country where the refugee camps were located after we fled the conflict was in Southeast Asia, neighboring the country we escaped from. We had to be very careful around soldiers and security workers there because if they caught us outside the camp, they would put us in jail. Our last camp was in this country, and when we moved, we took a car that passed by these soldiers. Despite these challenges, this nation was a place of refuge for us before we resettled elsewhere.",
+    "cues": [
+      "refugee camps",
+      "Thai soldiers",
+      "security workers",
+      "risk of jail",
+      "place of refuge"
+    ],
+    "transcript_ref": "immigration\\imm_umn_123_dee_paw.yaml"
+  },
+  {
+    "entity_id": 5,
+    "entity": "United Nations High Commissioner for Refugees",
+    "explicit_text": "The United Nations High Commissioner for Refugees, or UNHCR, provided us with food while we were in the refugee camp. They gave us rice, oil, yellow beans, red pepper, fish paste, and salt, but it was never enough to fully support our family. Their assistance was crucial for our survival during those difficult times in the camp.",
+    "implicit_text": "An international organization dedicated to protecting refugees provided us with food while we were in the refugee camp. They gave us rice, oil, yellow beans, red pepper, fish paste, and salt, but it was never enough to fully support our family. Their assistance was crucial for our survival during those difficult times in the camp.",
+    "cues": [
+      "UNHCR food aid",
+      "rice, oil, beans, pepper, fish paste, salt",
+      "refugee camp support",
+      "insufficient food"
+    ],
+    "transcript_ref": "immigration\\imm_umn_123_dee_paw.yaml"
+  },
+  {
+    "entity_id": 6,
+    "entity": "United States",
+    "explicit_text": "The United States was the country that accepted my family as refugees after we applied through the resettlement program. In July 2013, we left the refugee camp and began our long journey to America. It was our first time on an airplane, and although we disliked the food, we were grateful for the help we received at every airport. The US gave us a new chance to live safely and start over.",
+    "implicit_text": "A North American country accepted my family as refugees after we applied through the resettlement program. In July 2013, we left the refugee camp and began our long journey to this country. It was our first time on an airplane, and although we disliked the food, we were grateful for the help we received at every airport. This nation gave us a new chance to live safely and start over.",
+    "cues": [
+      "refugee resettlement",
+      "July 2013 departure",
+      "first airplane experience",
+      "airport assistance",
+      "new life opportunity"
+    ],
+    "transcript_ref": "immigration\\imm_umn_123_dee_paw.yaml"
+  },
+  {
+    "entity_id": 7,
+    "entity": "St. Paul, Minnesota",
+    "explicit_text": "We finally arrived in St. Paul, Minnesota in August 2013, which became our new home in the United States. It was the last stop on our journey after leaving the refugee camp and traveling by plane. St. Paul represented safety and a fresh start for my family after years of hardship and uncertainty.",
+    "implicit_text": "We finally arrived in a Midwestern city in August 2013, which became our new home in the United States. It was the last stop on our journey after leaving the refugee camp and traveling by plane. This city represented safety and a fresh start for my family after years of hardship and uncertainty.",
+    "cues": [
+      "arrival August 2013",
+      "final destination",
+      "new home",
+      "fresh start",
+      "end of refugee journey"
+    ],
+    "transcript_ref": "immigration\\imm_umn_123_dee_paw.yaml"
+  }
+]

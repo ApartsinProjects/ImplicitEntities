@@ -1,0 +1,438 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "Oklahoma City",
+    "explicit_text": "I was born in Oklahoma City on May 15, 1948, and much of my life and career has been rooted here. My family moved here from Cleveland, Oklahoma, and I attended schools like Nichols Hills Elementary and Casady School in Oklahoma City. Later, I served as the Ward 2 City Councilman and Vice Mayor here before becoming a Corporation Commissioner.",
+    "implicit_text": "I was born in the capital city of Oklahoma on May 15, 1948, and much of my life and career has been rooted here. My family moved here from a small town in Oklahoma, and I attended schools like Nichols Hills Elementary and Casady School in this city. Later, I served as the Ward 2 City Councilman and Vice Mayor here before becoming a Corporation Commissioner.",
+    "cues": [
+      "born 1948",
+      "Nichols Hills Elementary",
+      "Casady School",
+      "Ward 2 City Councilman",
+      "Vice Mayor"
+    ],
+    "transcript_ref": "regional\\voices_of_oklahoma\\vok_anthony-bob.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "Jim Thorpe Building",
+    "explicit_text": "We are recording this interview in the Jim Thorpe Building, which is part of the State Capitol Complex here in Oklahoma City. This building houses the Oklahoma Corporation Commission, where I currently work as a Commissioner. It's a significant place for state government operations.",
+    "implicit_text": "We are recording this interview in the building named after a famous athlete, which is part of the State Capitol Complex here in the Oklahoma capital. This building houses the state agency responsible for regulating utilities and energy, where I currently work as a Commissioner. It's a significant place for state government operations.",
+    "cues": [
+      "State Capitol Complex",
+      "Oklahoma Corporation Commission",
+      "Oklahoma City"
+    ],
+    "transcript_ref": "regional\\voices_of_oklahoma\\vok_anthony-bob.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "Oklahoma Corporation Commission",
+    "explicit_text": "I have been serving as a Commissioner at the Oklahoma Corporation Commission since January 1989, now in my fourth six-year term. This role has allowed me to engage deeply with energy and utility regulation in the state. Before that, I worked in business and local government, but this statewide office has been my primary focus for over two decades.",
+    "implicit_text": "I have been serving as a Commissioner at the state regulatory agency overseeing utilities and energy since January 1989, now in my fourth six-year term. This role has allowed me to engage deeply with energy and utility regulation in the state. Before that, I worked in business and local government, but this statewide office has been my primary focus for over two decades.",
+    "cues": [
+      "Commissioner since 1989",
+      "fourth six-year term",
+      "energy regulation",
+      "Oklahoma"
+    ],
+    "transcript_ref": "regional\\voices_of_oklahoma\\vok_anthony-bob.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "St. Anthony Hospital",
+    "explicit_text": "I was born at St. Anthony Hospital in Oklahoma City, as were all six of my brothers. This hospital has a special place in my family's history, being the birthplace of many of us. My mother was also born nearby, though in a home rather than a hospital.",
+    "implicit_text": "I was born at a well-known hospital in the Oklahoma capital, as were all six of my brothers. This hospital has a special place in my family's history, being the birthplace of many of us. My mother was also born nearby, though in a home rather than a hospital.",
+    "cues": [
+      "birthplace",
+      "Oklahoma City",
+      "family"
+    ],
+    "transcript_ref": "regional\\voices_of_oklahoma\\vok_anthony-bob.yaml"
+  },
+  {
+    "entity_id": 5,
+    "entity": "Enid, Oklahoma",
+    "explicit_text": "My mother grew up in Enid, Oklahoma, because her father worked for the Champlin Oil Company located there. Although she was born in Oklahoma City, Enid was where she spent her childhood. This connection ties part of my family history to that city and the oil industry.",
+    "implicit_text": "My mother grew up in a northwestern Oklahoma city because her father worked for an oil company located there. Although she was born in the state capital, that city was where she spent her childhood. This connection ties part of my family history to that city and the oil industry.",
+    "cues": [
+      "mother's childhood",
+      "Champlin Oil Company",
+      "Enid"
+    ],
+    "transcript_ref": "regional\\voices_of_oklahoma\\vok_anthony-bob.yaml"
+  },
+  {
+    "entity_id": 6,
+    "entity": "Champlin Oil Company",
+    "explicit_text": "My maternal grandfather worked for the Champlin Oil Company in Enid, Oklahoma, which is why my mother grew up there. This company was part of the oil industry that influenced my family's life in Oklahoma. It connects to the broader energy themes that have been part of my career.",
+    "implicit_text": "My maternal grandfather worked for a regional oil company in a northwestern Oklahoma city, which is why my mother grew up there. This company was part of the oil industry that influenced my family's life in Oklahoma. It connects to the broader energy themes that have been part of my career.",
+    "cues": [
+      "maternal grandfather",
+      "Enid",
+      "oil industry"
+    ],
+    "transcript_ref": "regional\\voices_of_oklahoma\\vok_anthony-bob.yaml"
+  },
+  {
+    "entity_id": 7,
+    "entity": "Cleveland, Oklahoma",
+    "explicit_text": "My father, Guy Mauldin Anthony, was born in Cleveland, Oklahoma in 1915. He attended some school there before the family and company headquarters moved to Oklahoma City. His early years in Cleveland set the stage for our family's later life in the city.",
+    "implicit_text": "My father, Guy Mauldin Anthony, was born in a small Oklahoma town in 1915. He attended some school there before the family and company headquarters moved to the state capital. His early years in that town set the stage for our family's later life in the city.",
+    "cues": [
+      "father's birthplace",
+      "1915",
+      "early schooling"
+    ],
+    "transcript_ref": "regional\\voices_of_oklahoma\\vok_anthony-bob.yaml"
+  },
+  {
+    "entity_id": 8,
+    "entity": "Classen High School",
+    "explicit_text": "My father graduated from Classen High School in Oklahoma City after our family moved there. This school was part of his education before he went into business. It represents the family's transition from smaller towns to the city.",
+    "implicit_text": "My father graduated from a prominent high school in the Oklahoma capital after our family moved there. This school was part of his education before he went into business. It represents the family's transition from smaller towns to the city.",
+    "cues": [
+      "father's high school",
+      "Oklahoma City"
+    ],
+    "transcript_ref": "regional\\voices_of_oklahoma\\vok_anthony-bob.yaml"
+  },
+  {
+    "entity_id": 9,
+    "entity": "Nichols Hills Elementary School",
+    "explicit_text": "I attended Nichols Hills Elementary for kindergarten through second grade. It was a public school near where I lived in Oklahoma City. After that, I transferred to Casady School for the rest of my education.",
+    "implicit_text": "I attended a public elementary school near where I lived in the Oklahoma capital for kindergarten through second grade. After that, I transferred to a private Episcopalian school for the rest of my education.",
+    "cues": [
+      "elementary school",
+      "Oklahoma City",
+      "early education"
+    ],
+    "transcript_ref": "regional\\voices_of_oklahoma\\vok_anthony-bob.yaml"
+  },
+  {
+    "entity_id": 10,
+    "entity": "Casady School",
+    "explicit_text": "From third grade through high school graduation, I attended Casady School, an Episcopalian church-affiliated school in Oklahoma City. This school shaped much of my early education and social life. It was a significant part of my upbringing before college.",
+    "implicit_text": "From third grade through high school graduation, I attended a private Episcopalian church-affiliated school in the Oklahoma capital. This school shaped much of my early education and social life. It was a significant part of my upbringing before college.",
+    "cues": [
+      "third grade to high school",
+      "Episcopalian school",
+      "Oklahoma City"
+    ],
+    "transcript_ref": "regional\\voices_of_oklahoma\\vok_anthony-bob.yaml"
+  },
+  {
+    "entity_id": 11,
+    "entity": "The Wharton School",
+    "explicit_text": "I went to The Wharton School of Finance and Commerce at the University of Pennsylvania, graduating in 1970. It’s the oldest business school in the U.S., and my father also attended Wharton, so it felt natural for me to follow that path. My time there prepared me for a career in business and public service.",
+    "implicit_text": "I went to the oldest business school in the U.S. at the University of Pennsylvania, graduating in 1970. My father also attended this prestigious business school, so it felt natural for me to follow that path. My time there prepared me for a career in business and public service.",
+    "cues": [
+      "graduated 1970",
+      "business education",
+      "father also attended"
+    ],
+    "transcript_ref": "regional\\voices_of_oklahoma\\vok_anthony-bob.yaml"
+  },
+  {
+    "entity_id": 12,
+    "entity": "University of Pennsylvania",
+    "explicit_text": "The Wharton School is part of the University of Pennsylvania in Philadelphia, where I completed my undergraduate studies. My education there was foundational, and it connected me to a broader network beyond Oklahoma. Philadelphia was my home during those college years.",
+    "implicit_text": "The business school I attended is part of a major university in Philadelphia, where I completed my undergraduate studies. My education there was foundational, and it connected me to a broader network beyond Oklahoma. Philadelphia was my home during those college years.",
+    "cues": [
+      "undergraduate education",
+      "Philadelphia",
+      "Wharton School"
+    ],
+    "transcript_ref": "regional\\voices_of_oklahoma\\vok_anthony-bob.yaml"
+  },
+  {
+    "entity_id": 13,
+    "entity": "Vietnam War",
+    "explicit_text": "During the Vietnam War, I was a Second Lieutenant, but my service was deferred while I pursued education and work. The Army deferred me and many classmates, allowing me to study at the London School of Economics and later work with the U.S. House of Representatives. The war was a backdrop to my early career decisions.",
+    "implicit_text": "During the Vietnam War, I was a Second Lieutenant, but my service was deferred while I pursued education and work. The Army deferred me and many classmates, allowing me to study at a prestigious London institution and later work with the U.S. House of Representatives. The war was a backdrop to my early career decisions.",
+    "cues": [
+      "Second Lieutenant",
+      "deferred service",
+      "early 1970s"
+    ],
+    "transcript_ref": "regional\\voices_of_oklahoma\\vok_anthony-bob.yaml"
+  },
+  {
+    "entity_id": 14,
+    "entity": "London School of Economics",
+    "explicit_text": "I earned a Master’s degree in monetary economics at the London School of Economics in London, England, after graduating from Wharton. This was around 1970-71, and it broadened my understanding of global economics. It was an important step before returning to the U.S. to work and continue my education.",
+    "implicit_text": "I earned a Master’s degree in monetary economics at a renowned London institution after graduating from business school. This was around 1970-71, and it broadened my understanding of global economics. It was an important step before returning to the U.S. to work and continue my education.",
+    "cues": [
+      "Master’s degree",
+      "early 1970s",
+      "London, England"
+    ],
+    "transcript_ref": "regional\\voices_of_oklahoma\\vok_anthony-bob.yaml"
+  },
+  {
+    "entity_id": 15,
+    "entity": "London",
+    "explicit_text": "I spent a year in London studying at the London School of Economics during the early 1970s. Living there gave me international exposure and a deeper understanding of economics. It was a formative experience before returning to Oklahoma and the U.S.",
+    "implicit_text": "I spent a year in the capital of England studying at a prestigious economics school during the early 1970s. Living there gave me international exposure and a deeper understanding of economics. It was a formative experience before returning to Oklahoma and the U.S.",
+    "cues": [
+      "early 1970s",
+      "graduate studies",
+      "international experience"
+    ],
+    "transcript_ref": "regional\\voices_of_oklahoma\\vok_anthony-bob.yaml"
+  },
+  {
+    "entity_id": 16,
+    "entity": "Yale University",
+    "explicit_text": "After working a year, I pursued another graduate degree at Yale University, earning a Master of Arts in administrative science. This was the precursor to Yale’s current school of management. It added to my education in public administration and management.",
+    "implicit_text": "After working a year, I pursued another graduate degree at an Ivy League university in Connecticut, earning a Master of Arts in administrative science. This was the precursor to that university’s current school of management. It added to my education in public administration and management.",
+    "cues": [
+      "Master of Arts",
+      "administrative science",
+      "post-LSE education"
+    ],
+    "transcript_ref": "regional\\voices_of_oklahoma\\vok_anthony-bob.yaml"
+  },
+  {
+    "entity_id": 17,
+    "entity": "Harvard University",
+    "explicit_text": "I completed a third Master’s degree at Harvard University, earning a Master of Public Administration. This further prepared me for public service and leadership roles. Harvard’s program was the final piece of my formal education before fully entering my career.",
+    "implicit_text": "I completed a third Master’s degree at an Ivy League university in Massachusetts, earning a Master of Public Administration. This further prepared me for public service and leadership roles. That program was the final piece of my formal education before fully entering my career.",
+    "cues": [
+      "Master of Public Administration",
+      "final graduate degree",
+      "public service preparation"
+    ],
+    "transcript_ref": "regional\\voices_of_oklahoma\\vok_anthony-bob.yaml"
+  },
+  {
+    "entity_id": 18,
+    "entity": "C.R. Anthony & Company",
+    "explicit_text": "C.R. Anthony & Company was my family’s business, founded by my grandfather Charles Ross Anthony. I started working there as a child, doing chores and working in stores during summers and holidays. I became more involved full-time around 1974 and eventually served as Chairman of the Board until the company was sold in 1987.",
+    "implicit_text": "My family’s retail business, founded by my grandfather Charles Ross Anthony, was where I started working as a child, doing chores and working in stores during summers and holidays. I became more involved full-time around 1974 and eventually served as Chairman of the Board until the company was sold in 1987.",
+    "cues": [
+      "family business",
+      "started working as child",
+      "Chairman of the Board",
+      "sold 1987"
+    ],
+    "transcript_ref": "regional\\voices_of_oklahoma\\vok_anthony-bob.yaml"
+  },
+  {
+    "entity_id": 19,
+    "entity": "6th & Broadway",
+    "explicit_text": "The headquarters of C.R. Anthony & Company was located at 6th & Broadway in Oklahoma City. As a kid, I would go there early in the morning to help with tasks like sorting mail before heading to the YMCA. It was a central place in my early work experience and family business life.",
+    "implicit_text": "The headquarters of my family’s retail company was located at a downtown intersection in the Oklahoma capital. As a kid, I would go there early in the morning to help with tasks like sorting mail before heading to the YMCA. It was a central place in my early work experience and family business life.",
+    "cues": [
+      "company headquarters",
+      "early work experience",
+      "Oklahoma City"
+    ],
+    "transcript_ref": "regional\\voices_of_oklahoma\\vok_anthony-bob.yaml"
+  },
+  {
+    "entity_id": 20,
+    "entity": "United States House of Representatives",
+    "explicit_text": "In 1972, while deferred from military service, I worked as a staff economist for the U.S. House of Representatives. I was on a special energy staff for the House Interior and Insular Affairs Committee, analyzing energy demand studies. This experience was valuable, especially as the Arab oil embargo followed shortly after.",
+    "implicit_text": "In 1972, while deferred from military service, I worked as a staff economist for the national legislative body. I was on a special energy staff for the House Interior and Insular Affairs Committee, analyzing energy demand studies. This experience was valuable, especially as the Arab oil embargo followed shortly after.",
+    "cues": [
+      "staff economist",
+      "1972",
+      "energy studies",
+      "House Interior and Insular Affairs Committee"
+    ],
+    "transcript_ref": "regional\\voices_of_oklahoma\\vok_anthony-bob.yaml"
+  },
+  {
+    "entity_id": 21,
+    "entity": "Arab oil embargo",
+    "explicit_text": "The Arab oil embargo occurred in October 1973, shortly after I had worked on energy demand studies for Congress. This event heightened national interest in energy issues, which I had already been studying. It was a pivotal moment that connected to my later work as a Corporation Commissioner.",
+    "implicit_text": "The oil embargo by Arab nations occurred in October 1973, shortly after I had worked on energy demand studies for Congress. This event heightened national interest in energy issues, which I had already been studying. It was a pivotal moment that connected to my later work as a state regulatory commissioner.",
+    "cues": [
+      "October 1973",
+      "energy crisis",
+      "Congressional studies"
+    ],
+    "transcript_ref": "regional\\voices_of_oklahoma\\vok_anthony-bob.yaml"
+  },
+  {
+    "entity_id": 22,
+    "entity": "John Dingell",
+    "explicit_text": "John Dingell was a Representative on the State and Foreign Commerce Committee who, after the Arab oil embargo, requested that I update my energy demand study. Although I was back in Oklahoma working for my family’s company, he sent me documents to analyze. It was an interesting interaction that showed the importance of my work.",
+    "implicit_text": "A prominent Representative on the State and Foreign Commerce Committee requested that I update my energy demand study after the oil embargo. Although I was back in Oklahoma working for my family’s company, he sent me documents to analyze. It was an interesting interaction that showed the importance of my work.",
+    "cues": [
+      "Representative",
+      "requested study update",
+      "early 1970s",
+      "energy policy"
+    ],
+    "transcript_ref": "regional\\voices_of_oklahoma\\vok_anthony-bob.yaml"
+  },
+  {
+    "entity_id": 23,
+    "entity": "Citicorp Venture Capital",
+    "explicit_text": "In April 1987, the shareholders of C.R. Anthony & Company sold control to Citicorp Venture Capital. I stayed on as Chairman of the Board for a couple of years after the sale. This marked a significant transition in the family business and my career path.",
+    "implicit_text": "In April 1987, the shareholders of my family’s retail company sold control to a major financial services firm’s venture capital arm. I stayed on as Chairman of the Board for a couple of years after the sale. This marked a significant transition in the family business and my career path.",
+    "cues": [
+      "1987 sale",
+      "Chairman of the Board",
+      "company transition"
+    ],
+    "transcript_ref": "regional\\voices_of_oklahoma\\vok_anthony-bob.yaml"
+  },
+  {
+    "entity_id": 24,
+    "entity": "Ward 2 (Oklahoma City Council)",
+    "explicit_text": "I was elected as the Ward 2 City Councilman in Oklahoma City in 1979 and also served as Vice Mayor during that time. Interestingly, I was the only non-incumbent to run without drawing an opponent. This local government experience was an important step before my statewide office.",
+    "implicit_text": "I was elected as the Ward 2 City Councilman in the Oklahoma capital in 1979 and also served as Vice Mayor during that time. Interestingly, I was the only non-incumbent to run without drawing an opponent. This local government experience was an important step before my statewide office.",
+    "cues": [
+      "1979",
+      "Ward 2 Councilman",
+      "Vice Mayor",
+      "Oklahoma City"
+    ],
+    "transcript_ref": "regional\\voices_of_oklahoma\\vok_anthony-bob.yaml"
+  },
+  {
+    "entity_id": 25,
+    "entity": "Don Nickles",
+    "explicit_text": "Don Nickles was a prominent Oklahoma politician who has since left the scene. With his departure, I became the longest-serving statewide elected official in Oklahoma. His career provides context for the political environment in which I have served.",
+    "implicit_text": "A prominent Oklahoma politician who has since left the scene was part of the political environment during my career. With his departure, I became the longest-serving statewide elected official in Oklahoma. His career provides context for the political environment in which I have served.",
+    "cues": [
+      "Oklahoma politician",
+      "longest-serving official context"
+    ],
+    "transcript_ref": "regional\\voices_of_oklahoma\\vok_anthony-bob.yaml"
+  },
+  {
+    "entity_id": 26,
+    "entity": "Clifton Scott",
+    "explicit_text": "Clifton Scott was the state auditor who has also left public office. With both Don Nickles and Clifton Scott gone, I am currently the longest-serving statewide elected official in Oklahoma. This highlights the longevity of my public service career.",
+    "implicit_text": "The former state auditor who has also left public office was part of the political landscape during my tenure. With both he and another prominent politician gone, I am currently the longest-serving statewide elected official in Oklahoma. This highlights the longevity of my public service career.",
+    "cues": [
+      "state auditor",
+      "longest-serving official context"
+    ],
+    "transcript_ref": "regional\\voices_of_oklahoma\\vok_anthony-bob.yaml"
+  },
+  {
+    "entity_id": 27,
+    "entity": "Bruce Hagen",
+    "explicit_text": "Bruce Hagen from North Dakota was an example of a long-serving utility commissioner, having served 36 years. When I started as a Corporation Commissioner, he was the longest-serving in the nation. His tenure illustrates how elected commissioners often have lengthy careers.",
+    "implicit_text": "A utility commissioner from a northern Great Plains state was an example of a long-serving official, having served 36 years. When I started as a Corporation Commissioner, he was the longest-serving in the nation. His tenure illustrates how elected commissioners often have lengthy careers.",
+    "cues": [
+      "North Dakota",
+      "36 years service",
+      "utility commissioner"
+    ],
+    "transcript_ref": "regional\\voices_of_oklahoma\\vok_anthony-bob.yaml"
+  },
+  {
+    "entity_id": 28,
+    "entity": "North Dakota",
+    "explicit_text": "North Dakota is where Bruce Hagen served as a utility commissioner for 36 years. His long tenure set a precedent for longevity in such elected positions. It provides a comparison point for my own service in Oklahoma.",
+    "implicit_text": "The northern Great Plains state is where a long-serving utility commissioner held office for 36 years. His long tenure set a precedent for longevity in such elected positions. It provides a comparison point for my own service in Oklahoma.",
+    "cues": [
+      "Bruce Hagen",
+      "long-serving commissioner"
+    ],
+    "transcript_ref": "regional\\voices_of_oklahoma\\vok_anthony-bob.yaml"
+  },
+  {
+    "entity_id": 29,
+    "entity": "Charles Ross Anthony",
+    "explicit_text": "Charles Ross Anthony, or C.R. Anthony, was my grandfather and the founder of our family business. Born around August 10, 1884, in middle Tennessee, he came from a sharecropping family and became an orphan at age 12. He moved to Indian Territory at a young age and built a legacy that shaped my family and career.",
+    "implicit_text": "My grandfather, born around August 10, 1884, in middle Tennessee, came from a sharecropping family and became an orphan at age 12. He moved west to what was then Indian Territory at a young age and built a legacy that shaped my family and career.",
+    "cues": [
+      "grandfather",
+      "born 1884",
+      "middle Tennessee",
+      "founder of C.R. Anthony & Co."
+    ],
+    "transcript_ref": "regional\\voices_of_oklahoma\\vok_anthony-bob.yaml"
+  },
+  {
+    "entity_id": 30,
+    "entity": "Philadelphia",
+    "explicit_text": "Philadelphia is where the University of Pennsylvania and The Wharton School are located, where I completed my undergraduate studies. It was a significant city for my education and early adult life. My father also attended school there, making it a family tradition.",
+    "implicit_text": "The city where the university and business school I attended are located was significant for my education and early adult life. My father also attended school there, making it a family tradition.",
+    "cues": [
+      "University of Pennsylvania",
+      "Wharton School",
+      "family tradition"
+    ],
+    "transcript_ref": "regional\\voices_of_oklahoma\\vok_anthony-bob.yaml"
+  },
+  {
+    "entity_id": 31,
+    "entity": "Indian Territory",
+    "explicit_text": "Indian Territory was the destination my grandfather Charles Ross Anthony chose when he left Tennessee at age 12. He traveled there with little money and no family support, seeking a fresh start. He lived in places like Holdenville and began building the life that would lead to our family business.",
+    "implicit_text": "The destination my grandfather chose when he left Tennessee at age 12 was a territory that later became part of Oklahoma. He traveled there with little money and no family support, seeking a fresh start. He lived in places like Holdenville and began building the life that would lead to our family business.",
+    "cues": [
+      "grandfather's migration",
+      "age 12",
+      "Holdenville",
+      "fresh start"
+    ],
+    "transcript_ref": "regional\\voices_of_oklahoma\\vok_anthony-bob.yaml"
+  },
+  {
+    "entity_id": 32,
+    "entity": "Holdenville, Oklahoma",
+    "explicit_text": "Holdenville was where my grandfather stayed when he first arrived in Indian Territory. He had some distant relatives there but was largely on his own. Stories from that time include his encounters with local families and his early work experiences.",
+    "implicit_text": "This small Oklahoma town was where my grandfather stayed when he first arrived in Indian Territory. He had some distant relatives there but was largely on his own. Stories from that time include his encounters with local families and his early work experiences.",
+    "cues": [
+      "grandfather's early residence",
+      "Indian Territory",
+      "relatives"
+    ],
+    "transcript_ref": "regional\\voices_of_oklahoma\\vok_anthony-bob.yaml"
+  },
+  {
+    "entity_id": 33,
+    "entity": "Tennessee",
+    "explicit_text": "My grandfather was born in middle Tennessee, in a sharecropping family. The difficult economic conditions and his becoming an orphan at age 12 led him to leave Tennessee for Indian Territory. Tennessee is the starting point of his remarkable journey westward.",
+    "implicit_text": "My grandfather was born in middle Tennessee, in a sharecropping family. The difficult economic conditions and his becoming an orphan at age 12 led him to leave Tennessee for Indian Territory. Tennessee is the starting point of his remarkable journey westward.",
+    "cues": [
+      "grandfather's birthplace",
+      "sharecropping family",
+      "early hardship"
+    ],
+    "transcript_ref": "regional\\voices_of_oklahoma\\vok_anthony-bob.yaml"
+  },
+  {
+    "entity_id": 34,
+    "entity": "Nashville, Tennessee",
+    "explicit_text": "Nashville is located in middle Tennessee near where my grandfather was born. It serves as a geographic reference point for his early life before he moved west. Though he was born nearby, he left Tennessee as a young boy to seek better opportunities.",
+    "implicit_text": "This city in middle Tennessee near where my grandfather was born serves as a geographic reference point for his early life before he moved west. Though he was born nearby, he left Tennessee as a young boy to seek better opportunities.",
+    "cues": [
+      "middle Tennessee",
+      "grandfather's birthplace vicinity"
+    ],
+    "transcript_ref": "regional\\voices_of_oklahoma\\vok_anthony-bob.yaml"
+  },
+  {
+    "entity_id": 35,
+    "entity": "McGuffey Readers",
+    "explicit_text": "My grandfather had very limited formal education and reportedly had only reached the sixth grade of the McGuffey Readers. This reflects the humble and challenging educational background he had before moving to Indian Territory. It shows how far he came from those beginnings.",
+    "implicit_text": "My grandfather had very limited formal education and reportedly had only reached the sixth grade of a well-known series of educational readers. This reflects the humble and challenging educational background he had before moving to Indian Territory. It shows how far he came from those beginnings.",
+    "cues": [
+      "limited education",
+      "sixth grade",
+      "grandfather's schooling"
+    ],
+    "transcript_ref": "regional\\voices_of_oklahoma\\vok_anthony-bob.yaml"
+  },
+  {
+    "entity_id": 36,
+    "entity": "The Trading Post",
+    "explicit_text": "While not explicitly detailed in this interview, The Trading Post is known as a publication that has featured stories about my grandfather. It is part of the historical record that preserves his legacy and the early days of our family business. It connects to the broader history of our family in Oklahoma.",
+    "implicit_text": "While not explicitly detailed in this interview, a regional publication is known for featuring stories about my grandfather. It is part of the historical record that preserves his legacy and the early days of our family business. It connects to the broader history of our family in Oklahoma.",
+    "cues": [
+      "publication",
+      "family history",
+      "grandfather's legacy"
+    ],
+    "transcript_ref": "regional\\voices_of_oklahoma\\vok_anthony-bob.yaml"
+  }
+]

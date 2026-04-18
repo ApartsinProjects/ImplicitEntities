@@ -1,0 +1,91 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "Thailand",
+    "explicit_text": "I was born in Thailand in 1999 after my family fled Burma because of the war. When I was just three months old, we moved to the Umphiem Refugee Camp in Thailand, which was a safe place for many Karen people like us. We stayed there for about 14 or 15 years before resettling in the United States in 2013. Even though I left Thailand, many of my relatives still live there, and I often think about them.",
+    "implicit_text": "I was born in a Southeast Asian country in 1999 after my family fled Burma because of the war. When I was just three months old, we moved to a refugee camp in that country, which was a safe place for many Karen people like us. We stayed there for about 14 or 15 years before resettling in the United States in 2013. Even though I left that country, many of my relatives still live there, and I often think about them.",
+    "cues": [
+      "1999",
+      "Umphiem Refugee Camp",
+      "Karen people",
+      "family",
+      "refugee camp"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_131_lor_say.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "Burma",
+    "explicit_text": "Before I was born, my family lived in Burma, but because of the war and the danger there, they decided to leave. They were really afraid to stay, so they crossed the border into Thailand to find safety. Many Karen people, including my family, had to flee the jungle and leave Burma behind. Even now, some of my relatives remain in Burma, and I hope to return one day to help them.",
+    "implicit_text": "Before I was born, my family lived in a country in Southeast Asia, but because of the war and the danger there, they decided to leave. They were really afraid to stay, so they crossed the border into a neighboring country to find safety. Many Karen people, including my family, had to flee the jungle and leave that country behind. Even now, some of my relatives remain there, and I hope to return one day to help them.",
+    "cues": [
+      "before 1999",
+      "war",
+      "Karen people",
+      "border crossing",
+      "family"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_131_lor_say.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "Umphiem Refugee Camp",
+    "explicit_text": "I grew up in the Umphiem Refugee Camp in Thailand after my family moved there when I was just three months old. Life in the camp was hard because we couldn’t go outside due to Thai security restrictions, but I went to school there and made many childhood friends. My family stayed in the camp for about 14 or 15 years until we resettled in the United States in 2013. Leaving the camp was very emotional for me because I had to say goodbye to friends and family who still live there.",
+    "implicit_text": "I grew up in a refugee camp in Thailand after my family moved there when I was just three months old. Life in the camp was hard because we couldn’t go outside due to Thai security restrictions, but I went to school there and made many childhood friends. My family stayed in the camp for about 14 or 15 years until we resettled in the United States in 2013. Leaving the camp was very emotional for me because I had to say goodbye to friends and family who still live there.",
+    "cues": [
+      "1999",
+      "Thailand",
+      "refugee camp",
+      "school",
+      "friends",
+      "2013"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_131_lor_say.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "Karen people",
+    "explicit_text": "I belong to the Karen people, who have faced a lot of hardship due to the war in Burma. Many Karen, including my family, had to flee to Thailand and live in refugee camps like Umphiem to find safety. Even now, many Karen people remain in unsafe places, and I want to help them by volunteering when I finish my education. The Karen community is very important to me, and I hope to support them as much as I can.",
+    "implicit_text": "I belong to an ethnic group that has faced a lot of hardship due to the war in Burma. Many from this group, including my family, had to flee to Thailand and live in refugee camps like Umphiem to find safety. Even now, many from this community remain in unsafe places, and I want to help them by volunteering when I finish my education. This community is very important to me, and I hope to support them as much as I can.",
+    "cues": [
+      "Burma",
+      "war",
+      "refugee camps",
+      "Umphiem",
+      "help",
+      "volunteer"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_131_lor_say.yaml"
+  },
+  {
+    "entity_id": 5,
+    "entity": "United States",
+    "explicit_text": "My family and I resettled in the United States on June 19, 2013, after living in the refugee camp for over a decade. Coming to the U.S. gave me freedom to go anywhere and meet new, friendly people. I attended Washington High School here and joined the soccer and wrestling teams, which I really enjoyed. I have big goals to graduate high school, go to college, and eventually give back to my people by volunteering in my home country.",
+    "implicit_text": "My family and I resettled in North America on June 19, 2013, after living in the refugee camp for over a decade. Coming to this country gave me freedom to go anywhere and meet new, friendly people. I attended a local high school here and joined the soccer and wrestling teams, which I really enjoyed. I have big goals to graduate high school, go to college, and eventually give back to my people by volunteering in my home country.",
+    "cues": [
+      "June 19, 2013",
+      "resettlement",
+      "freedom",
+      "Washington High School",
+      "soccer",
+      "wrestling",
+      "education"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_131_lor_say.yaml"
+  },
+  {
+    "entity_id": 6,
+    "entity": "Washington High School",
+    "explicit_text": "After moving to the United States, I went to Washington High School where I got involved in sports like soccer and wrestling. Being part of these teams helped me make new friends and feel more at home in a new country. I love the school environment and it motivates me to work hard toward graduating and going to college. Washington High School has been an important part of my journey since arriving in the U.S.",
+    "implicit_text": "After moving to the United States, I went to a public high school where I got involved in sports like soccer and wrestling. Being part of these teams helped me make new friends and feel more at home in a new country. I love the school environment and it motivates me to work hard toward graduating and going to college. This school has been an important part of my journey since arriving in the U.S.",
+    "cues": [
+      "United States",
+      "high school",
+      "soccer",
+      "wrestling",
+      "friends",
+      "education"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_131_lor_say.yaml"
+  }
+]

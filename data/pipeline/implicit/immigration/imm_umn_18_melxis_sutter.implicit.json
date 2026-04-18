@@ -1,0 +1,94 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "Venezuela",
+    "explicit_text": "I am from Venezuela, a country in South America where my family had a comfortable life with money, a home, and good schools. However, resources for people like my brother, who has cerebral palsy, were very limited there. Society did not offer much support or opportunities for special needs individuals, which was a big reason why we decided to leave Venezuela. We faced judgment and lack of understanding for my brother’s condition, which made life difficult for us.",
+    "implicit_text": "I am from a country in South America where my family had a comfortable life with money, a home, and good schools. However, resources for people like my brother, who has cerebral palsy, were very limited there. Society did not offer much support or opportunities for special needs individuals, which was a big reason why we decided to leave that country. We faced judgment and lack of understanding for my brother’s condition, which made life difficult for us.",
+    "cues": [
+      "comfortable life",
+      "limited resources for special needs",
+      "judgment",
+      "South America"
+    ],
+    "transcript_ref": "immigration\\imm_umn_18_melxis_sutter.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "South America",
+    "explicit_text": "Venezuela, where I was born and raised, is part of South America. Growing up there, I saw firsthand how some countries in South America, including Venezuela and Chile, had different opportunities and challenges. My dad is from Chile, and we considered moving there because the education system was better for my brother. South America was our starting point, but ultimately we felt guided to move to the United States for my brother’s sake.",
+    "implicit_text": "The country where I was born and raised is part of a continent in the southern hemisphere known for its diverse cultures and landscapes. Growing up there, I saw firsthand how some countries in that continent, including my birth country and another nation to the south, had different opportunities and challenges. My dad is from that southern nation, and we considered moving there because the education system was better for my brother. That continent was our starting point, but ultimately we felt guided to move to the United States for my brother’s sake.",
+    "cues": [
+      "Venezuela",
+      "Chile",
+      "education",
+      "family origins"
+    ],
+    "transcript_ref": "immigration\\imm_umn_18_melxis_sutter.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "United States",
+    "explicit_text": "We moved to the United States when I was almost fifteen because it offered my brother the medical care and education he needed for his cerebral palsy. It was a huge change for us—new language, new culture, and my dad had to take on labor jobs he never imagined doing. Despite the challenges, we felt welcomed and supported, especially through resources in the community and The Church of Jesus Christ of Latter-day Saints. The United States gave my brother opportunities to continue schooling until he was 21 and to hold jobs, which was something we couldn’t find in Venezuela.",
+    "implicit_text": "We moved to a North American country when I was almost fifteen because it offered my brother the medical care and education he needed for his cerebral palsy. It was a huge change for us—new language, new culture, and my dad had to take on labor jobs he never imagined doing. Despite the challenges, we felt welcomed and supported, especially through resources in the community and a particular church. This country gave my brother opportunities to continue schooling until he was 21 and to hold jobs, which was something we couldn’t find in our home country.",
+    "cues": [
+      "immigration",
+      "language barrier",
+      "education and therapy",
+      "church support",
+      "opportunities"
+    ],
+    "transcript_ref": "immigration\\imm_umn_18_melxis_sutter.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "Cerebral palsy",
+    "explicit_text": "My brother has cerebral palsy, and his condition shaped our family’s immigration journey. In Venezuela, there were very few resources or support systems for people with cerebral palsy, and he could only attend a special school until age 12. When we moved to the United States, he was able to access therapy, psychiatric care, and extended schooling until age 21. His condition required us to seek out the best possible environment, and I am grateful we found that here.",
+    "implicit_text": "My brother has a neurological condition that shaped our family’s immigration journey. In our home country, there were very few resources or support systems for people with this condition, and he could only attend a special school until age 12. When we moved to the United States, he was able to access therapy, psychiatric care, and extended schooling until age 21. His condition required us to seek out the best possible environment, and I am grateful we found that here.",
+    "cues": [
+      "special needs",
+      "limited schooling in Venezuela",
+      "therapy and psychiatric care",
+      "extended education"
+    ],
+    "transcript_ref": "immigration\\imm_umn_18_melxis_sutter.yaml"
+  },
+  {
+    "entity_id": 5,
+    "entity": "The Church of Jesus Christ of Latter-day Saints",
+    "explicit_text": "My family are members of The Church of Jesus Christ of Latter-day Saints, and our faith played a big role in our decision to immigrate. When we were deciding where to go, we prayed for guidance and felt strongly that the Lord wanted us to come to the United States. The church community here provided many resources and weekly activities for special needs children like my brother, which helped us feel supported. Our faith gave us strength through the difficult transition and sacrifices we made.",
+    "implicit_text": "My family are members of a well-known religious organization, and our faith played a big role in our decision to immigrate. When we were deciding where to go, we prayed for guidance and felt strongly that the Lord wanted us to come to the United States. The community of this faith here provided many resources and weekly activities for special needs children like my brother, which helped us feel supported. Our faith gave us strength through the difficult transition and sacrifices we made.",
+    "cues": [
+      "faith",
+      "prayer and guidance",
+      "community support",
+      "special needs activities"
+    ],
+    "transcript_ref": "immigration\\imm_umn_18_melxis_sutter.yaml"
+  },
+  {
+    "entity_id": 6,
+    "entity": "Chile",
+    "explicit_text": "My dad is originally from Chile, and when we were considering where to move for my brother’s care, Chile was a strong option. The country had a good economy and better education opportunities for special needs children compared to Venezuela. However, after praying and considering our options, we felt the Lord directed us to the United States instead. Chile was part of our family’s background and a hopeful possibility, but ultimately we chose a different path.",
+    "implicit_text": "My dad is originally from a South American country known for its stable economy and good education system. When we were considering where to move for my brother’s care, this country was a strong option. It had better education opportunities for special needs children compared to our home country. However, after praying and considering our options, we felt the Lord directed us to the United States instead. This country was part of our family’s background and a hopeful possibility, but ultimately we chose a different path.",
+    "cues": [
+      "dad's origin",
+      "education opportunities",
+      "economic conditions",
+      "immigration decision"
+    ],
+    "transcript_ref": "immigration\\imm_umn_18_melxis_sutter.yaml"
+  },
+  {
+    "entity_id": 7,
+    "entity": "Hugo Chávez",
+    "explicit_text": "When we left Venezuela, Hugo Chávez had been president for about three years. At that time, we hadn’t yet experienced the severe economic difficulties that came later, but we knew the situation was unstable. Leaving when we did was a blessing because the country’s economy and conditions worsened under his leadership. His presidency was part of the backdrop to our decision to seek a better life elsewhere for my brother and our family.",
+    "implicit_text": "When we left our home country, a particular leader had been president for about three years. At that time, we hadn’t yet experienced the severe economic difficulties that came later, but we knew the situation was unstable. Leaving when we did was a blessing because the country’s economy and conditions worsened under his leadership. His presidency was part of the backdrop to our decision to seek a better life elsewhere for my brother and our family.",
+    "cues": [
+      "Hugo Chávez presidency",
+      "economic instability",
+      "timing of immigration",
+      "Venezuela conditions"
+    ],
+    "transcript_ref": "immigration\\imm_umn_18_melxis_sutter.yaml"
+  }
+]

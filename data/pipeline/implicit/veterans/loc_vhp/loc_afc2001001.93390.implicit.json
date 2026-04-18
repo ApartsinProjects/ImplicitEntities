@@ -1,0 +1,368 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "Pasadena, California",
+    "explicit_text": "I was born in Pasadena, California in 1950 and grew up there in a small Filipino enclave. I attended several local schools including Sacred Heart, Washington, and John Muir High School, all in Pasadena. Our family was very tight-knit and we stayed in the Pasadena area for most of my childhood and early adulthood.",
+    "implicit_text": "I was born in a city in Southern California in 1950 and grew up there in a small Filipino enclave. I attended several local schools including a Catholic school, a public high school named after a U.S. president, and another high school named after a famous naturalist, all in that city. Our family was very tight-knit and we stayed in that area for most of my childhood and early adulthood.",
+    "cues": [
+      "1950",
+      "Filipino community",
+      "Sacred Heart High School",
+      "Washington High School",
+      "John Muir High School"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.93390.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "Hollywood",
+    "explicit_text": "Although I was born in Pasadena, I was actually born in a hospital located in Hollywood. It was just the place of my birth, but I was raised in Pasadena where my family settled. Hollywood was only significant as the hospital location at the time of my birth in 1950.",
+    "implicit_text": "Although I was born in that Southern California city, my actual birth took place in a hospital located in the famous entertainment district nearby. It was just the place of my birth, but I was raised in the city where my family settled. That entertainment district was only significant as the hospital location at the time of my birth in 1950.",
+    "cues": [
+      "1950",
+      "hospital",
+      "birthplace"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.93390.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "Sacred Heart High School",
+    "explicit_text": "I attended Sacred Heart High School as part of my early education in Pasadena. It was a Catholic school where I began my formal schooling before moving on to other local schools. Music was my favorite subject there, which shaped my later career as a musician.",
+    "implicit_text": "I attended a Catholic high school as part of my early education in that Southern California city. It was where I began my formal schooling before moving on to other local schools. Music was my favorite subject there, which shaped my later career as a musician.",
+    "cues": [
+      "Pasadena",
+      "Catholic school",
+      "music",
+      "early education"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.93390.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "Washington High School (Pasadena, California)",
+    "explicit_text": "After Sacred Heart, I went on to attend Washington High School in Pasadena. This was part of my continued education in the Pasadena area, where I stayed rooted throughout my youth. I graduated from high school around 1970 and was deeply involved in music during that time.",
+    "implicit_text": "After the Catholic school, I went on to attend a public high school named after a U.S. president in that Southern California city. This was part of my continued education in the area, where I stayed rooted throughout my youth. I graduated from high school around 1970 and was deeply involved in music during that time.",
+    "cues": [
+      "Pasadena",
+      "high school",
+      "graduation 1970",
+      "music"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.93390.yaml"
+  },
+  {
+    "entity_id": 5,
+    "entity": "John Muir High School",
+    "explicit_text": "John Muir High School was another school I attended in Pasadena. Like Washington and Sacred Heart, it was part of my local education experience. I graduated from high school in 1970 and was passionate about music throughout my school years.",
+    "implicit_text": "Another school I attended in that Southern California city was a high school named after a famous naturalist. Like the other schools, it was part of my local education experience. I graduated from high school in 1970 and was passionate about music throughout my school years.",
+    "cues": [
+      "Pasadena",
+      "high school",
+      "graduation 1970",
+      "music"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.93390.yaml"
+  },
+  {
+    "entity_id": 6,
+    "entity": "Philippines",
+    "explicit_text": "My father was born in the Philippines and came to the United States alone when he was 14. He later joined the U.S. Army and served during World War II. Our family’s roots trace back to the Philippines, and we formed a Filipino community in Pasadena after migrating here.",
+    "implicit_text": "My father was born in a Southeast Asian country and came to the United States alone when he was 14. He later joined the U.S. Army and served during the global conflict of the 1940s. Our family’s roots trace back to that country, and we formed a Filipino community in the Southern California city after migrating here.",
+    "cues": [
+      "father born",
+      "migration",
+      "U.S. Army",
+      "World War II"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.93390.yaml"
+  },
+  {
+    "entity_id": 7,
+    "entity": "United States Army",
+    "explicit_text": "My father served as a sergeant in the United States Army during World War II, working as a military police officer. He was stationed in the southern U.S., including Mississippi and Louisiana, where he guarded German prisoners of war. Additionally, two of my older brothers served in the Army and Air Force during the Vietnam War.",
+    "implicit_text": "My father served as a sergeant in the U.S. military during the global conflict of the 1940s, working as a military police officer. He was stationed in the southern U.S., including states along the Mississippi River and the Gulf Coast, where he guarded German prisoners of war. Additionally, two of my older brothers served in the Army and Air Force during the conflict in Southeast Asia.",
+    "cues": [
+      "World War II",
+      "MP",
+      "Mississippi",
+      "Louisiana",
+      "Vietnam War",
+      "brothers"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.93390.yaml"
+  },
+  {
+    "entity_id": 8,
+    "entity": "World War II",
+    "explicit_text": "During World War II, my father served in the U.S. Army as an MP, guarding German prisoners of war in the southern United States. This was a challenging time as he faced discrimination being called a Jap despite his service. His experiences during the war shaped much of our family’s history.",
+    "implicit_text": "During the global conflict of the 1940s, my father served in the U.S. military as an MP, guarding German prisoners of war in the southern United States. This was a challenging time as he faced discrimination despite his service. His experiences during the war shaped much of our family’s history.",
+    "cues": [
+      "father service",
+      "MP",
+      "southern U.S.",
+      "German POWs",
+      "discrimination"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.93390.yaml"
+  },
+  {
+    "entity_id": 9,
+    "entity": "Mississippi",
+    "explicit_text": "My mother was born and raised in Mississippi, where she met my father during his Army service in World War II. They married and later moved to California. Mississippi was a significant place for our family’s beginnings and my mother’s roots.",
+    "implicit_text": "My mother was born and raised in a southern U.S. state known for its river and delta region, where she met my father during his military service in the 1940s. They married and later moved to California. That state was a significant place for our family’s beginnings and my mother’s roots.",
+    "cues": [
+      "mother birthplace",
+      "met father",
+      "World War II",
+      "family roots"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.93390.yaml"
+  },
+  {
+    "entity_id": 10,
+    "entity": "Louisiana",
+    "explicit_text": "Louisiana was part of the southern region where my father served as an MP during World War II, guarding German prisoners of war. It was in this area, including Mississippi and Louisiana, that my parents met and started their family before moving to California.",
+    "implicit_text": "Another southern U.S. state along the Gulf Coast was part of the region where my father served as an MP during the global conflict of the 1940s, guarding German prisoners of war. It was in this area, including the state where my mother was from and this Gulf Coast state, that my parents met and started their family before moving to California.",
+    "cues": [
+      "father service",
+      "MP",
+      "German POWs",
+      "meeting parents"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.93390.yaml"
+  },
+  {
+    "entity_id": 11,
+    "entity": "Vietnam War",
+    "explicit_text": "During the Vietnam War, two of my older brothers served in the U.S. Air Force and Army. In 1970, shortly after I graduated high school, I joined a USO tour to entertain troops in Vietnam and nearby locations. This experience was eye-opening and deeply connected me to the realities of the war and the servicemen involved.",
+    "implicit_text": "During the conflict in Southeast Asia, two of my older brothers served in the U.S. Air Force and Army. In 1970, shortly after I graduated high school, I joined a tour organized to entertain troops in that war zone and nearby locations. This experience was eye-opening and deeply connected me to the realities of the war and the servicemen involved.",
+    "cues": [
+      "1970",
+      "brothers service",
+      "USO tour",
+      "entertaining troops"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.93390.yaml"
+  },
+  {
+    "entity_id": 12,
+    "entity": "United States Air Force",
+    "explicit_text": "Two of my brothers served in the United States Air Force during the Vietnam War. Their service was a significant part of our family’s military involvement. I also traveled through Andrews Air Force Base as part of a USO tour to entertain troops in Vietnam.",
+    "implicit_text": "Two of my brothers served in the U.S. Air Force during the conflict in Southeast Asia. Their service was a significant part of our family’s military involvement. I also traveled through a major military airbase near the U.S. capital as part of a tour to entertain troops in that war.",
+    "cues": [
+      "Vietnam War",
+      "brothers",
+      "Andrews Air Force Base",
+      "family military"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.93390.yaml"
+  },
+  {
+    "entity_id": 13,
+    "entity": "Oregon",
+    "explicit_text": "I briefly moved to Oregon for about a year but returned quickly because my family was very close and rooted in the Pasadena area. Oregon was a short chapter in my life, but it made me appreciate the tight-knit community we had back home.",
+    "implicit_text": "I briefly moved to a Pacific Northwest state for about a year but returned quickly because my family was very close and rooted in the Southern California area. That state was a short chapter in my life, but it made me appreciate the tight-knit community we had back home.",
+    "cues": [
+      "brief move",
+      "family ties",
+      "Pasadena return"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.93390.yaml"
+  },
+  {
+    "entity_id": 14,
+    "entity": "KLOM",
+    "explicit_text": "In 1970, after graduating high school, I was volunteering and singing jazz at the jazz station KLOM. It was during this time that I was recruited by a group of comedians and musicians to join a USO tour entertaining troops in Vietnam. KLOM was an important part of my early music career.",
+    "implicit_text": "In 1970, after graduating high school, I was volunteering and singing jazz at a local jazz radio station. It was during this time that I was recruited by a group of comedians and musicians to join a tour entertaining troops in Southeast Asia. That station was an important part of my early music career.",
+    "cues": [
+      "1970",
+      "jazz singer",
+      "volunteering",
+      "USO recruitment"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.93390.yaml"
+  },
+  {
+    "entity_id": 15,
+    "entity": "Local 47",
+    "explicit_text": "I was a member of Local 47, the musicians' union, when I was recruited for the USO tour to Vietnam. They picked me up from Local 47 for the audition to join the band that would entertain troops overseas. Being part of Local 47 connected me to professional opportunities in music.",
+    "implicit_text": "I was a member of the local musicians' union when I was recruited for the tour to Southeast Asia. They picked me up from the union for the audition to join the band that would entertain troops overseas. Being part of the union connected me to professional opportunities in music.",
+    "cues": [
+      "1970",
+      "musicians union",
+      "USO audition",
+      "music career"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.93390.yaml"
+  },
+  {
+    "entity_id": 16,
+    "entity": "Andrews Air Force Base",
+    "explicit_text": "Our USO group flew from LAX to Andrews Air Force Base before heading overseas to Japan and then Vietnam. Andrews Air Force Base was the staging point for our journey to entertain troops during the Vietnam War. It was my first experience traveling by airplane and leaving the country.",
+    "implicit_text": "Our entertainment group flew from Los Angeles International Airport to a major military airbase near Washington, D.C. before heading overseas to Japan and then Southeast Asia. That airbase was the staging point for our journey to entertain troops during the conflict. It was my first experience traveling by airplane and leaving the country.",
+    "cues": [
+      "1970",
+      "USO tour",
+      "first airplane trip",
+      "Vietnam War"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.93390.yaml"
+  },
+  {
+    "entity_id": 17,
+    "entity": "Japan",
+    "explicit_text": "Our first stop on the USO tour was Japan, specifically Tokyo, where we performed a quick show for the troops stationed there. It was a brief but important part of our journey before heading to Guam, Hawaii, and then Vietnam. Japan was my first international performance location.",
+    "implicit_text": "Our first stop on the tour was an East Asian country, specifically its capital city, where we performed a quick show for the troops stationed there. It was a brief but important part of our journey before heading to other Pacific islands and then the war zone. That country was my first international performance location.",
+    "cues": [
+      "1970",
+      "Tokyo",
+      "USO performance",
+      "troops entertainment"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.93390.yaml"
+  },
+  {
+    "entity_id": 18,
+    "entity": "Tokyo",
+    "explicit_text": "In Tokyo, Japan, we performed a short show for U.S. troops as part of our USO tour in 1970. It was a quick stop on the way to Vietnam and Thailand, and it marked my first time performing overseas. The experience was exciting and part of a larger adventure entertaining servicemen.",
+    "implicit_text": "In the capital city of that East Asian country, we performed a short show for U.S. troops as part of our tour in 1970. It was a quick stop on the way to Southeast Asia, and it marked my first time performing overseas. The experience was exciting and part of a larger adventure entertaining servicemen.",
+    "cues": [
+      "1970",
+      "Japan",
+      "USO show",
+      "troops"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.93390.yaml"
+  },
+  {
+    "entity_id": 19,
+    "entity": "Guam",
+    "explicit_text": "Guam was one of the stops on our way to Vietnam during the USO tour. We only stopped briefly to refuel and rest but did not perform there. It was part of the travel route that took us from the U.S. to the war zones in Southeast Asia.",
+    "implicit_text": "A U.S. territory island in the Pacific was one of the stops on our way to the war zone during the tour. We only stopped briefly to refuel and rest but did not perform there. It was part of the travel route that took us from the U.S. to the combat areas in Southeast Asia.",
+    "cues": [
+      "1970",
+      "USO tour",
+      "travel stop",
+      "Vietnam War"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.93390.yaml"
+  },
+  {
+    "entity_id": 20,
+    "entity": "Hawaii",
+    "explicit_text": "We also stopped in Hawaii on the way to Vietnam, but we did not perform there. It was another refueling and transit point during our USO tour in 1970. Hawaii was part of the journey to reach the troops in Vietnam and Thailand.",
+    "implicit_text": "We also stopped in a U.S. state in the Pacific Ocean on the way to the war zone, but we did not perform there. It was another refueling and transit point during our 1970 tour. That state was part of the journey to reach the troops in Southeast Asia.",
+    "cues": [
+      "1970",
+      "USO tour",
+      "travel stop",
+      "Vietnam War"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.93390.yaml"
+  },
+  {
+    "entity_id": 21,
+    "entity": "Thailand",
+    "explicit_text": "After performing in Vietnam, we traveled to Thailand where I had two brothers stationed—one in Udon and one in Hoopen. We performed shows for the troops there as well. Thailand was an important part of our tour and connected me personally to my brothers’ military service.",
+    "implicit_text": "After performing in the war zone, we traveled to a Southeast Asian country where I had two brothers stationed—one in a city known for its air base and another in a less well-known location. We performed shows for the troops there as well. That country was an important part of our tour and connected me personally to my brothers’ military service.",
+    "cues": [
+      "1970",
+      "Vietnam War",
+      "brothers stationed",
+      "USO performances"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.93390.yaml"
+  },
+  {
+    "entity_id": 22,
+    "entity": "USS Ranger (CV-61)",
+    "explicit_text": "One of the most memorable parts of the USO tour was performing aboard the USS Ranger in the Bay of Tonkin. The ship was massive, and we entertained hundreds of sailors in the flight bay. It was surreal to perform on a moving aircraft carrier surrounded by the ocean and thousands of servicemen.",
+    "implicit_text": "One of the most memorable parts of the tour was performing aboard a large U.S. Navy aircraft carrier in a gulf off the coast of Vietnam. The ship was massive, and we entertained hundreds of sailors in the flight bay. It was surreal to perform on a moving aircraft carrier surrounded by the ocean and thousands of servicemen.",
+    "cues": [
+      "1970",
+      "Bay of Tonkin",
+      "USO performance",
+      "aircraft carrier"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.93390.yaml"
+  },
+  {
+    "entity_id": 23,
+    "entity": "Bay of Tonkin",
+    "explicit_text": "We performed aboard the USS Ranger in the Bay of Tonkin during our USO tour in 1970. It was a unique experience to entertain troops in such a significant and active war zone area. The whole ship was swaying, and the horizon could be seen through the bay door, making it a memorable setting.",
+    "implicit_text": "We performed aboard the aircraft carrier in the gulf off the coast of Vietnam during our 1970 tour. It was a unique experience to entertain troops in such a significant and active war zone area. The whole ship was swaying, and the horizon could be seen through the bay door, making it a memorable setting.",
+    "cues": [
+      "1970",
+      "USS Ranger",
+      "Vietnam War",
+      "USO performance"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.93390.yaml"
+  },
+  {
+    "entity_id": 24,
+    "entity": "United Service Organizations",
+    "explicit_text": "Our USO tour was organized to entertain U.S. troops during the Vietnam War. We worked closely with USO officials who cleared us for travel and coordinated our shows. The USO provided the structure and support that allowed us to bring music and comedy to servicemen in difficult conditions.",
+    "implicit_text": "Our tour was organized to entertain U.S. troops during the conflict in Southeast Asia. We worked closely with officials from a well-known organization that supports military personnel, who cleared us for travel and coordinated our shows. This organization provided the structure and support that allowed us to bring music and comedy to servicemen in difficult conditions.",
+    "cues": [
+      "1970",
+      "Vietnam War",
+      "entertaining troops",
+      "travel clearance"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.93390.yaml"
+  },
+  {
+    "entity_id": 25,
+    "entity": "Patty Harrison",
+    "explicit_text": "Patty Harrison was one of the two comedians who recruited me for the USO tour in 1970. She was part of our small group that included three musicians and two comedians, all women. Patty performed comedic skits, including a spoof of a Hawaiian dance, adding humor and levity to our shows.",
+    "implicit_text": "One of the two comedians who recruited me for the 1970 tour was a woman known for her comedic skits. She was part of our small group that included three musicians and two comedians, all women. She performed comedic skits, including a spoof of a Hawaiian dance, adding humor and levity to our shows.",
+    "cues": [
+      "1970",
+      "USO tour",
+      "comedian",
+      "Hawaiian skit"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.93390.yaml"
+  },
+  {
+    "entity_id": 26,
+    "entity": "Robin Tyler",
+    "explicit_text": "Robin Tyler was the other comedian in our USO group during the 1970 Vietnam tour. Alongside Patty Harrison, she helped bring comedy and anti-war humor to our performances. Both were openly lesbian, which influenced the inclusivity and tone of our shows for the troops.",
+    "implicit_text": "The other comedian in our group during the 1970 Southeast Asia tour was a woman who, along with the other comedian, helped bring comedy and anti-war humor to our performances. Both were openly lesbian, which influenced the inclusivity and tone of our shows for the troops.",
+    "cues": [
+      "1970",
+      "USO tour",
+      "comedian",
+      "anti-war activism"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.93390.yaml"
+  },
+  {
+    "entity_id": 27,
+    "entity": "Ben Tre",
+    "explicit_text": "We performed a short show in Ben Tre, Vietnam during our USO tour. The environment was intense, as many of the troops were heavily intoxicated or under the influence of drugs. This experience showed me the harsh realities of the war and the conditions the soldiers faced daily.",
+    "implicit_text": "We performed a short show in a city in southern Vietnam during our tour. The environment was intense, as many of the troops were heavily intoxicated or under the influence of drugs. This experience showed me the harsh realities of the war and the conditions the soldiers faced daily.",
+    "cues": [
+      "1970",
+      "Vietnam War",
+      "USO performance",
+      "troop conditions"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.93390.yaml"
+  },
+  {
+    "entity_id": 28,
+    "entity": "Hava Nagila",
+    "explicit_text": "During our USO shows, we played a variety of music to represent the diverse backgrounds of the troops, including the song Hava Nagila for the Jewish servicemen. It was important to us to acknowledge and include everyone in the audience. This song was part of our effort to bring comfort and familiarity to the troops far from home.",
+    "implicit_text": "During our shows, we played a variety of music to represent the diverse backgrounds of the troops, including a traditional Jewish song for the servicemen of that faith. It was important to us to acknowledge and include everyone in the audience. This song was part of our effort to bring comfort and familiarity to the troops far from home.",
+    "cues": [
+      "1970",
+      "USO shows",
+      "diverse music",
+      "Jewish troops"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.93390.yaml"
+  }
+]

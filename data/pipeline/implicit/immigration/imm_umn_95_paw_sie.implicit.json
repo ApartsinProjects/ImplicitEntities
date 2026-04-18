@@ -1,0 +1,84 @@
+[
+  {
+    "entity_id": 2,
+    "entity": "Thay Baw Boe",
+    "explicit_text": "I was born in a Karen village called Thay Baw Boe. It’s where my early childhood began before my family moved to a refugee camp. Growing up there shaped my identity and roots before we faced the challenges of displacement.",
+    "implicit_text": "I was born in a Karen village deep in the hills. It’s where my early childhood began before my family moved to a refugee camp. Growing up there shaped my identity and roots before we faced the challenges of displacement.",
+    "cues": [
+      "Karen village",
+      "birthplace",
+      "early childhood"
+    ],
+    "transcript_ref": "immigration\\imm_umn_95_paw_sie.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "Nu Poe Refugee Camp",
+    "explicit_text": "In 1997, when I was seven years old, my family moved to the Nu Poe Refugee Camp on the border of Burma and Thailand. We were among the first Burmese refugees in Thailand at that camp. I spent 15 years there growing up and attending school, where I received my most treasured gift, a dictionary from my high school teacher.",
+    "implicit_text": "In 1997, when I was seven years old, my family moved to a refugee camp on the border of Burma and Thailand. We were among the first Burmese refugees in that camp within Thailand. I spent 15 years there growing up and attending school, where I received my most treasured gift, a dictionary from my high school teacher.",
+    "cues": [
+      "1997",
+      "border of Burma and Thailand",
+      "first Burmese refugees",
+      "15 years",
+      "high school",
+      "dictionary gift"
+    ],
+    "transcript_ref": "immigration\\imm_umn_95_paw_sie.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "Burma",
+    "explicit_text": "Burma is the country my family originally came from before we fled due to conflict. Living near the border of Burma and Thailand, we sought refuge in Thailand to escape the difficulties there. My identity as a Burmese refugee has influenced my journey and the challenges I faced growing up.",
+    "implicit_text": "The country my family originally came from before we fled due to conflict lies just across the border from Thailand. Living near that border, we sought refuge in Thailand to escape the difficulties there. My identity as a refugee from that nation has influenced my journey and the challenges I faced growing up.",
+    "cues": [
+      "origin country",
+      "conflict",
+      "border with Thailand",
+      "refugee status"
+    ],
+    "transcript_ref": "immigration\\imm_umn_95_paw_sie.yaml"
+  },
+  {
+    "entity_id": 5,
+    "entity": "Thailand",
+    "explicit_text": "Thailand became my home when my family and I moved to the Nu Poe Refugee Camp in 1997. We were the first Burmese refugees recognized there, and I spent 15 years growing up in that camp within Thailand. It was a place of hardship but also education and hope before we eventually emigrated.",
+    "implicit_text": "This Southeast Asian country became my home when my family and I moved to the refugee camp on its border in 1997. We were the first Burmese refugees recognized there, and I spent 15 years growing up in that camp within its territory. It was a place of hardship but also education and hope before we eventually emigrated.",
+    "cues": [
+      "1997",
+      "Nu Poe Refugee Camp",
+      "first Burmese refugees",
+      "15 years",
+      "refugee life"
+    ],
+    "transcript_ref": "immigration\\imm_umn_95_paw_sie.yaml"
+  },
+  {
+    "entity_id": 6,
+    "entity": "United States",
+    "explicit_text": "My family and I emigrated to the United States on January 28, 2012, which was a day I will never forget. Moving here represented a huge opportunity and the fulfillment of a dream for us as refugees to rebuild our lives. Since arriving, I have focused on education and personal growth, carrying with me a dictionary that symbolizes my hard work and hope.",
+    "implicit_text": "My family and I emigrated to North America on January 28, 2012, which was a day I will never forget. Moving here represented a huge opportunity and the fulfillment of a dream for us as refugees to rebuild our lives. Since arriving, I have focused on education and personal growth, carrying with me a dictionary that symbolizes my hard work and hope.",
+    "cues": [
+      "January 28, 2012",
+      "emigration",
+      "opportunity",
+      "dream",
+      "education"
+    ],
+    "transcript_ref": "immigration\\imm_umn_95_paw_sie.yaml"
+  },
+  {
+    "entity_id": 7,
+    "entity": "Minnesota",
+    "explicit_text": "I have been living in Minnesota for three years since arriving in the United States. This state has become my new home where I continue to pursue my education and future goals. I brought with me a dictionary from my refugee camp school, which remains a valuable reminder of my journey and the importance of hard work.",
+    "implicit_text": "I have been living in the northern U.S. state known for its lakes for three years since arriving in the country. This state has become my new home where I continue to pursue my education and future goals. I brought with me a dictionary from my refugee camp school, which remains a valuable reminder of my journey and the importance of hard work.",
+    "cues": [
+      "three years",
+      "new home",
+      "education",
+      "dictionary",
+      "refugee camp school"
+    ],
+    "transcript_ref": "immigration\\imm_umn_95_paw_sie.yaml"
+  }
+]

@@ -1,0 +1,147 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "Laos",
+    "explicit_text": "My parents originally came from Laos before they fled to Thailand in 1975. Laos was where my father fought as a soldier alongside the Americans during the Vietnam War. It was a place of both struggle and memories for my family, as they had to leave it behind to seek safety and a new life.",
+    "implicit_text": "My parents originally came from the landlocked Southeast Asian country before they fled to its neighbor in 1975. That country was where my father fought as a soldier alongside the Americans during the Vietnam War. It was a place of both struggle and memories for my family, as they had to leave it behind to seek safety and a new life.",
+    "cues": [
+      "1975",
+      "father fought as soldier",
+      "Vietnam War",
+      "emigration"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_33_shue_qa_moua.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "Thailand",
+    "explicit_text": "After leaving Laos, my mother and family crossed the Mekong River to Thailand in 1975, where they stayed in a refugee camp. My father reunited with them there before we emigrated to the United States in 1976. Thailand was a crucial refuge for the Hmong people during those turbulent times after the fall of Saigon.",
+    "implicit_text": "After leaving the country to the north, my mother and family crossed a major river to the neighboring kingdom in 1975, where they stayed in a refugee camp. My father reunited with them there before we emigrated to the United States in 1976. That kingdom was a crucial refuge for the Hmong people during those turbulent times after the fall of Saigon.",
+    "cues": [
+      "1975",
+      "Mekong River crossing",
+      "refugee camp",
+      "reunion with father"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_33_shue_qa_moua.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "United States",
+    "explicit_text": "My parents emigrated to the United States in November 1976, seeking a better life after the war. We first lived in New York City, where my parents had their first child and began chasing the American Dream. Over the years, we moved through several states before settling and building a home in California.",
+    "implicit_text": "My parents emigrated to the land of opportunity in November 1976, seeking a better life after the war. We first lived in a major East Coast city, where my parents had their first child and began chasing the American Dream. Over the years, we moved through several states before settling and building a home on the West Coast.",
+    "cues": [
+      "November 1976",
+      "New York City",
+      "American Dream",
+      "multiple states",
+      "California home"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_33_shue_qa_moua.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "California",
+    "explicit_text": "California became our family's home in 1988 when my father finally secured steady work as a social worker. It was there that we bought our first house, marking a significant milestone in our journey as immigrants. California holds many memories of stability and growth for our family.",
+    "implicit_text": "The West Coast state became our family's home in 1988 when my father finally secured steady work as a social worker. It was there that we bought our first house, marking a significant milestone in our journey as immigrants. That state holds many memories of stability and growth for our family.",
+    "cues": [
+      "1988",
+      "father social worker",
+      "first home",
+      "stability"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_33_shue_qa_moua.yaml"
+  },
+  {
+    "entity_id": 5,
+    "entity": "Minnesota",
+    "explicit_text": "I was born in California but now live in Minnesota, where I continue to reflect on my family's immigrant journey. Minnesota represents the present chapter of my life, carrying forward the legacy and cultural values my parents instilled in me from their experiences.",
+    "implicit_text": "I was born in the West Coast state but now live in the northern Midwestern state, where I continue to reflect on my family's immigrant journey. This northern state represents the present chapter of my life, carrying forward the legacy and cultural values my parents instilled in me from their experiences.",
+    "cues": [
+      "birth in California",
+      "current residence",
+      "continuing family legacy"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_33_shue_qa_moua.yaml"
+  },
+  {
+    "entity_id": 6,
+    "entity": "Vietnam War",
+    "explicit_text": "During the Vietnam War, many Hmong men, including my father, were recruited to fight alongside the Americans. This war deeply affected my family’s fate, leading to our displacement and eventual emigration. The conflict shaped the course of our lives and the sacrifices my parents made.",
+    "implicit_text": "During the conflict in Southeast Asia, many Hmong men, including my father, were recruited to fight alongside the Americans. This war deeply affected my family’s fate, leading to our displacement and eventual emigration. The conflict shaped the course of our lives and the sacrifices my parents made.",
+    "cues": [
+      "Vietnam War",
+      "Hmong men recruited",
+      "father soldier",
+      "displacement"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_33_shue_qa_moua.yaml"
+  },
+  {
+    "entity_id": 7,
+    "entity": "Hmong people",
+    "explicit_text": "The Hmong people, including my family, played a significant role during the Vietnam War by supporting the Americans. After the fall of Saigon in 1975, over 100,000 Hmongs, led by General Vang Pao, sought asylum in Thailand. Our cultural values, like the use of silver bars called choj nyiaj, remain a strong part of our identity and history.",
+    "implicit_text": "The ethnic group from the mountainous regions of Southeast Asia, including my family, played a significant role during the Vietnam War by supporting the Americans. After the fall of Saigon in 1975, over 100,000 from this community, led by their prominent general, sought asylum in Thailand. Our cultural values, like the use of silver bars called choj nyiaj, remain a strong part of our identity and history.",
+    "cues": [
+      "Vietnam War",
+      "support Americans",
+      "fall of Saigon 1975",
+      "General Vang Pao",
+      "choj nyiaj"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_33_shue_qa_moua.yaml"
+  },
+  {
+    "entity_id": 8,
+    "entity": "Fall of Saigon",
+    "explicit_text": "The fall of Saigon in 1975 was a turning point for my family and the entire Hmong community. It forced our leader, General Vang Pao, and many others to flee to Thailand for safety. This event led directly to my parents’ decision to send my mother and relatives across the Mekong River and eventually emigrate to the United States.",
+    "implicit_text": "The 1975 capture of the South Vietnamese capital was a turning point for my family and the entire Hmong community. It forced our leader, the prominent general, and many others to flee to Thailand for safety. This event led directly to my parents’ decision to send my mother and relatives across the major river and eventually emigrate to the United States.",
+    "cues": [
+      "1975",
+      "fall of Saigon",
+      "General Vang Pao",
+      "flight to Thailand",
+      "family separation"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_33_shue_qa_moua.yaml"
+  },
+  {
+    "entity_id": 9,
+    "entity": "Vang Pao",
+    "explicit_text": "General Vang Pao was the great leader of the Hmong people during the Vietnam War. After the fall of Saigon in 1975, he led more than 100,000 Hmongs, including my family, to seek asylum in Thailand. His leadership was a beacon of hope during those difficult times of displacement and uncertainty.",
+    "implicit_text": "The great leader of the Hmong people during the Vietnam War was a beacon of hope. After the fall of Saigon in 1975, he led more than 100,000 from our community, including my family, to seek asylum in Thailand. His leadership was a beacon of hope during those difficult times of displacement and uncertainty.",
+    "cues": [
+      "Vietnam War",
+      "fall of Saigon 1975",
+      "Hmong leader",
+      "asylum in Thailand"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_33_shue_qa_moua.yaml"
+  },
+  {
+    "entity_id": 10,
+    "entity": "Mekong River",
+    "explicit_text": "The Mekong River was the dangerous crossing point my mother, her brothers, and grandmothers took in 1975 to escape Laos and reach Thailand. My father stayed behind to finish his duties as a soldier before reuniting with them later in a refugee camp. That river crossing symbolizes the beginning of our family's journey to safety and a new life.",
+    "implicit_text": "The dangerous crossing point my mother, her brothers, and grandmothers took in 1975 to escape the country to the north and reach its neighbor was a major river in Southeast Asia. My father stayed behind to finish his duties as a soldier before reuniting with them later in a refugee camp. That river crossing symbolizes the beginning of our family's journey to safety and a new life.",
+    "cues": [
+      "1975",
+      "river crossing",
+      "escape Laos",
+      "reunion in refugee camp"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_33_shue_qa_moua.yaml"
+  },
+  {
+    "entity_id": 11,
+    "entity": "New York City",
+    "explicit_text": "After arriving in the United States in 1976, my parents and I lived in New York City for several years. It was there that my parents had their first child and began to build a life while chasing the American Dream. New York City was our first home in America and marked the start of our immigrant experience.",
+    "implicit_text": "After arriving in the United States in 1976, my parents and I lived in the largest city on the East Coast for several years. It was there that my parents had their first child and began to build a life while chasing the American Dream. That city was our first home in America and marked the start of our immigrant experience.",
+    "cues": [
+      "1976",
+      "first child born",
+      "American Dream",
+      "first US home"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_33_shue_qa_moua.yaml"
+  }
+]

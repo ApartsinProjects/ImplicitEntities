@@ -1,0 +1,53 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "Knoxville, Tennessee",
+    "explicit_text": "I was born in Knoxville, Tennessee, on May 15th, 1877. My parents were George and a in aie a right, though I don't recall much about my early years there. I haven't got any estimation how long I lived in Tennessee before moving on. Knoxville is where my story begins, but most of my life and work happened elsewhere.",
+    "implicit_text": "I was born in a city in eastern Tennessee on May 15th, 1877. My parents were George and a in aie a right, though I don't recall much about my early years there. I haven't got any estimation how long I lived in that state before moving on. That city is where my story begins, but most of my life and work happened elsewhere.",
+    "cues": [
+      "born May 15th, 1877",
+      "parents George and a in aie a right",
+      "early life"
+    ],
+    "transcript_ref": "depression_era\\federal_writers_project\\fwp_John_and_Susan_Wright.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "Monroe County, Georgia",
+    "explicit_text": "After Tennessee, I lived in Forsyth, Monroe County, Georgia, where I picked cotton. I married my first wife, Isabella, there, though I can't recall the exact year. Monroe County was part of my early adult life before I moved to Florida. It was a time of hard work and family beginnings for me.",
+    "implicit_text": "After Tennessee, I lived in Forsyth, a town in a central Georgia county, where I picked cotton. I married my first wife, Isabella, there, though I can't recall the exact year. That county was part of my early adult life before I moved to Florida. It was a time of hard work and family beginnings for me.",
+    "cues": [
+      "Forsyth, Monroe County, Georgia",
+      "picked cotton",
+      "married Isabella",
+      "early adult life"
+    ],
+    "transcript_ref": "depression_era\\federal_writers_project\\fwp_John_and_Susan_Wright.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "Lakeland, Florida",
+    "explicit_text": "I've been living near Lakeland, Florida, for about thirty-eight years now. I often go to town there to sell vegetables and trade, though sometimes folks trick me, like when my goats ran off in the rain and hid under a house in Lakeland. I also had some trouble with a man there over a goat sale, which led to some hard feelings. Lakeland is the nearest town where I do my trading and selling.",
+    "implicit_text": "I've been living near a city in central Florida for about thirty-eight years now. I often go to that town to sell vegetables and trade, though sometimes folks trick me, like when my goats ran off in the rain and hid under a house there. I also had some trouble with a man there over a goat sale, which led to some hard feelings. That city is the nearest town where I do my trading and selling.",
+    "cues": [
+      "thirty-eight years in Florida",
+      "goat ran off in rain",
+      "trading vegetables",
+      "dispute over goat sale"
+    ],
+    "transcript_ref": "depression_era\\federal_writers_project\\fwp_John_and_Susan_Wright.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "Polk County, Florida",
+    "explicit_text": "I live in Polk County, Florida, but I don't participate in voting because I was told that's white folks' business, not mine. This county is where my home and farm are, where I trap animals and grow vegetables. Life here is simple, without modern conveniences like electricity or radio, but I manage with what I have. Polk County is where I raise my family and make my living.",
+    "implicit_text": "I live in a county in central Florida, but I don't participate in voting because I was told that's white folks' business, not mine. This county is where my home and farm are, where I trap animals and grow vegetables. Life here is simple, without modern conveniences like electricity or radio, but I manage with what I have. This county is where I raise my family and make my living.",
+    "cues": [
+      "Polk County",
+      "no voting",
+      "simple living",
+      "home and farm location"
+    ],
+    "transcript_ref": "depression_era\\federal_writers_project\\fwp_John_and_Susan_Wright.yaml"
+  }
+]

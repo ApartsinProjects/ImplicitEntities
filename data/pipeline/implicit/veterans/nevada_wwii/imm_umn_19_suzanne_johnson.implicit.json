@@ -1,0 +1,132 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "Seoul",
+    "explicit_text": "I was born in Seoul, South Korea in 1966 and was told I was found abandoned there just days after birth. Later, I lived in the Ilsan orphanage in Seoul before being adopted. Although I initially believed my birth story was true, I later discovered some of the information about Seoul and my early days there might have been fabricated.",
+    "implicit_text": "I was born in the capital city of South Korea in 1966 and was told I was found abandoned there just days after birth. Later, I lived in an orphanage located in the northern part of that city before being adopted. Although I initially believed my birth story was true, I later discovered some of the information about that city and my early days there might have been fabricated.",
+    "cues": [
+      "1966",
+      "birthplace",
+      "Ilsan orphanage",
+      "adoption"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_19_suzanne_johnson.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "South Korea",
+    "explicit_text": "South Korea is my birth country, and growing up, I was often reminded that Koreans were poor and that I would have starved if I stayed there. Learning about South Korea's history, including the Korean War, helped me understand the context of my adoption. I also found out that South Korea was not part of the Hague Convention in the 1960s, which affected the authentication of adoption paperwork.",
+    "implicit_text": "My birth country is in East Asia, and growing up, I was often reminded that people there were poor and that I would have starved if I stayed. Learning about this country's history, including the war fought on the peninsula, helped me understand the context of my adoption. I also found out that this nation was not part of the Hague Convention in the 1960s, which affected the authentication of adoption paperwork.",
+    "cues": [
+      "birth country",
+      "1960s",
+      "Korean War",
+      "Hague Convention"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_19_suzanne_johnson.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "Minnesota",
+    "explicit_text": "After being adopted by an American military family, I was raised in Minnesota. My adoptive family followed the advice of the adoption agency, Holt Children's Services, and tried to raise me without special attention to my Korean heritage. Minnesota became my home, but it was only later in life that I began to explore my origins and identity.",
+    "implicit_text": "After being adopted by an American military family, I was raised in a northern U.S. state known for its lakes and cold winters. My adoptive family followed the advice of the adoption agency and tried to raise me without special attention to my Asian heritage. This state became my home, but it was only later in life that I began to explore my origins and identity.",
+    "cues": [
+      "adoption",
+      "American military family",
+      "Holt Children's Services",
+      "home"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_19_suzanne_johnson.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "Holt Children's Services",
+    "explicit_text": "Holt Children's Services was the adoption agency that brought me to the United States. In 2008, I started researching my adoption through Holt and spent months digging through my adoption file. Although I found some documents from Holt, I also discovered many inconsistencies and possible fabrications in the information they provided about my birth and early life.",
+    "implicit_text": "The adoption agency that brought me to the United States was a well-known organization specializing in international adoptions. In 2008, I started researching my adoption through this agency and spent months digging through my adoption file. Although I found some documents from them, I also discovered many inconsistencies and possible fabrications in the information they provided about my birth and early life.",
+    "cues": [
+      "2008",
+      "adoption agency",
+      "research",
+      "adoption file"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_19_suzanne_johnson.yaml"
+  },
+  {
+    "entity_id": 5,
+    "entity": "Korean War",
+    "explicit_text": "Understanding the history of the Korean War was crucial for me to grasp why international adoption from Korea began. The war created many orphans and difficult circumstances that led to children like me being adopted abroad. Learning about this event helped me make sense of my own story and the broader context of Korean adoption in the 1960s.",
+    "implicit_text": "Understanding the history of the conflict on the Korean peninsula was crucial for me to grasp why international adoption from that country began. The war created many orphans and difficult circumstances that led to children like me being adopted abroad. Learning about this event helped me make sense of my own story and the broader context of adoption in the 1960s.",
+    "cues": [
+      "history",
+      "1960s",
+      "orphans",
+      "international adoption"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_19_suzanne_johnson.yaml"
+  },
+  {
+    "entity_id": 6,
+    "entity": "Daegu",
+    "explicit_text": "According to my adoption file, I possibly lived in Daegu until I was about two years old before being moved to the Ilsan orphanage in Seoul. This part of my early life is one of the few pieces of information I have about my childhood in Korea. Although details are scarce, Daegu represents a part of my unknown past.",
+    "implicit_text": "According to my adoption file, I possibly lived in a large southeastern city in South Korea until I was about two years old before being moved to the orphanage in the capital. This part of my early life is one of the few pieces of information I have about my childhood in that country. Although details are scarce, this city represents a part of my unknown past.",
+    "cues": [
+      "early childhood",
+      "adoption file",
+      "moved at age 2",
+      "Korea"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_19_suzanne_johnson.yaml"
+  },
+  {
+    "entity_id": 7,
+    "entity": "Ilsan",
+    "explicit_text": "I was placed in the Ilsan orphanage in Seoul after living in Daegu, as I was considered 'adoptable' there. This orphanage is the only confirmed place from my early life before adoption. I even have a photograph of a friend from Ilsan, and I have been trying to reconnect with her ever since.",
+    "implicit_text": "I was placed in an orphanage located in the northern district of the capital city after living in the southeastern city, as I was considered 'adoptable' there. This orphanage is the only confirmed place from my early life before adoption. I even have a photograph of a friend from that orphanage, and I have been trying to reconnect with her ever since.",
+    "cues": [
+      "Ilsan orphanage",
+      "Seoul",
+      "adoptable",
+      "friend"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_19_suzanne_johnson.yaml"
+  },
+  {
+    "entity_id": 8,
+    "entity": "Hague Convention",
+    "explicit_text": "I learned that South Korea was not part of the Hague Convention during the time of my adoption, which meant they were not required to authenticate adoption paperwork like birth records. This lack of regulation contributed to the inconsistencies and possible fabrications in my adoption documents. Understanding this helped me realize why verifying my origins was so difficult.",
+    "implicit_text": "I learned that the East Asian country of my birth was not part of an international treaty governing adoption during the time of my adoption, which meant they were not required to authenticate adoption paperwork like birth records. This lack of regulation contributed to the inconsistencies and possible fabrications in my adoption documents. Understanding this helped me realize why verifying my origins was so difficult.",
+    "cues": [
+      "1960s",
+      "South Korea",
+      "adoption paperwork",
+      "lack of authentication"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_19_suzanne_johnson.yaml"
+  },
+  {
+    "entity_id": 9,
+    "entity": "Korean Bridge",
+    "explicit_text": "In 2009, I contacted Korean Bridge, a nonprofit organization dedicated to reuniting orphans with their birth families. John, a representative, helped me get on the Korean TV show 'I Miss This Person' to try and find my childhood friend and biological family. Although the show didn't provide answers, Korean Bridge gave me hope and support in my search.",
+    "implicit_text": "In 2009, I contacted a nonprofit organization dedicated to reuniting orphans with their birth families from my birth country. A representative named John helped me get on a television show in that country called 'I Miss This Person' to try and find my childhood friend and biological family. Although the show didn't provide answers, the organization gave me hope and support in my search.",
+    "cues": [
+      "2009",
+      "nonprofit",
+      "reunion efforts",
+      "TV show"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_19_suzanne_johnson.yaml"
+  },
+  {
+    "entity_id": 10,
+    "entity": "I Miss This Person",
+    "explicit_text": "I appeared on the Korean TV program 'I Miss This Person' on July 7th, 2009, hoping to find my childhood friend from the Ilsan orphanage and possibly my biological family. Unfortunately, the show did not yield any answers, but it was an important step in my journey to uncover my past. The experience connected me with others who share similar adoption stories.",
+    "implicit_text": "I appeared on a television program in my birth country on July 7th, 2009, hoping to find my childhood friend from the orphanage and possibly my biological family. Unfortunately, the show did not yield any answers, but it was an important step in my journey to uncover my past. The experience connected me with others who share similar adoption stories.",
+    "cues": [
+      "July 7th, 2009",
+      "Korean TV",
+      "search for friend",
+      "Ilsan orphanage"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_19_suzanne_johnson.yaml"
+  }
+]

@@ -1,0 +1,72 @@
+[
+  {
+    "entity_id": 2,
+    "entity": "Thailand",
+    "explicit_text": "My family moved to Thailand because of the war in Burma. We lived in a Karen refugee camp called Umphiem, where many Karen people fled to find safety. I was just three months old when we arrived in 1999, and I grew up there until we left for the United States in 2013. Even though I left Thailand, many of my relatives still live there, and it holds a significant part of my early life.",
+    "implicit_text": "My family moved to a Southeast Asian country because of the war in Burma. We lived in a Karen refugee camp called Umphiem, where many Karen people fled to find safety. I was just three months old when we arrived in 1999, and I grew up there until we left for the United States in 2013. Even though I left that country, many of my relatives still live there, and it holds a significant part of my early life.",
+    "cues": [
+      "1999",
+      "Karen refugee camp",
+      "Umphiem",
+      "family relocation",
+      "relatives"
+    ],
+    "transcript_ref": "immigration\\imm_umn_131_lor_say.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "Burma",
+    "explicit_text": "Burma was my family's original home before we had to flee because of the war. They were afraid to stay there, so we crossed the border into Thailand for safety. Even after moving, many Karen people, including my relatives, remain in Burma, which is still unsafe for them. I hope one day to return and help my people there after I finish my education.",
+    "implicit_text": "That country was my family's original home before we had to flee because of the war. They were afraid to stay there, so we crossed the border into a neighboring Southeast Asian country for safety. Even after moving, many Karen people, including my relatives, remain in that place, which is still unsafe for them. I hope one day to return and help my people there after I finish my education.",
+    "cues": [
+      "war",
+      "family origin",
+      "Karen people",
+      "unsafe conditions",
+      "hope to return"
+    ],
+    "transcript_ref": "immigration\\imm_umn_131_lor_say.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "Umphiem Refugee Camp",
+    "explicit_text": "I grew up in the Umphiem Refugee Camp in Thailand, where my family lived for about 14 or 15 years. We couldn't leave the camp because Thai security wouldn't allow it, so my childhood and schooling happened entirely within its boundaries. I had many friends there, and leaving them behind when we moved to the United States in 2013 was very hard for me. The camp was a place of safety for many Karen people like my family during difficult times.",
+    "implicit_text": "I grew up in a refugee camp in a Southeast Asian country, where my family lived for about 14 or 15 years. We couldn't leave the camp because local security wouldn't allow it, so my childhood and schooling happened entirely within its boundaries. I had many friends there, and leaving them behind when we moved to the United States in 2013 was very hard for me. The camp was a place of safety for many Karen people like my family during difficult times.",
+    "cues": [
+      "1999-2013",
+      "Karen refugee camp",
+      "restricted movement",
+      "childhood friends",
+      "safety"
+    ],
+    "transcript_ref": "immigration\\imm_umn_131_lor_say.yaml"
+  },
+  {
+    "entity_id": 5,
+    "entity": "United States",
+    "explicit_text": "My family and I moved to the United States on June 19, 2013, after applying in 2012. Coming here gave me the freedom to go anywhere and meet new, friendly people. I started attending Washington High School and joined the soccer and wrestling teams, which I really enjoy. Although I left my father behind, who passed away in 2008, I am determined to succeed here and eventually give back to my people.",
+    "implicit_text": "My family and I moved to North America on June 19, 2013, after applying in 2012. Coming here gave me the freedom to go anywhere and meet new, friendly people. I started attending a local high school and joined the soccer and wrestling teams, which I really enjoy. Although I left my father behind, who passed away in 2008, I am determined to succeed here and eventually give back to my people.",
+    "cues": [
+      "June 19, 2013",
+      "freedom",
+      "new community",
+      "Washington High School",
+      "goals"
+    ],
+    "transcript_ref": "immigration\\imm_umn_131_lor_say.yaml"
+  },
+  {
+    "entity_id": 6,
+    "entity": "Washington High School",
+    "explicit_text": "At Washington High School, I joined the soccer and wrestling teams, which became a big part of my life here in the U.S. I enjoy the activities and the friendly environment, and it has helped me feel more at home. My goal is to graduate from Washington High School and then go on to college. This school has been an important step in my journey toward helping my people back in Burma and Thailand.",
+    "implicit_text": "At the local high school, I joined the soccer and wrestling teams, which became a big part of my life here in the U.S. I enjoy the activities and the friendly environment, and it has helped me feel more at home. My goal is to graduate from this school and then go on to college. This school has been an important step in my journey toward helping my people back in Burma and Thailand.",
+    "cues": [
+      "soccer team",
+      "wrestling team",
+      "friendly environment",
+      "graduation goals",
+      "college plans"
+    ],
+    "transcript_ref": "immigration\\imm_umn_131_lor_say.yaml"
+  }
+]

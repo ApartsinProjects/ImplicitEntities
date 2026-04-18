@@ -1,0 +1,120 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "Taiwan",
+    "explicit_text": "I was born in Taiwan, a beautiful island where I spent most of my childhood. Growing up there shaped much of who I am, especially in my hometown of Taichung. Taiwan is where my family's cycling factory is located, and it's the place I always think of when I see my family photo.",
+    "implicit_text": "I was born on a beautiful island where I spent most of my childhood. Growing up there shaped much of who I am, especially in my hometown of Taichung. This island is where my family's cycling factory is located, and it's the place I always think of when I see my family photo.",
+    "cues": [
+      "birthplace",
+      "childhood",
+      "family business",
+      "cycling factory"
+    ],
+    "transcript_ref": "immigration\\imm_umn_322_chih_lin_chi.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "Taichung",
+    "explicit_text": "Taichung, or T'ai-chung as it's sometimes called, is where I was born and raised. It has a great landscape and a suitable temperature, making it a wonderful place to grow up. My parents have owned a cycling factory in the Dajia District of Taichung for over twenty years, which I decided to take over.",
+    "implicit_text": "The city where I was born and raised has a great landscape and a suitable temperature, making it a wonderful place to grow up. My parents have owned a cycling factory in the Dajia District of this city for over twenty years, which I decided to take over.",
+    "cues": [
+      "birthplace",
+      "childhood",
+      "Dajia District",
+      "cycling factory"
+    ],
+    "transcript_ref": "immigration\\imm_umn_322_chih_lin_chi.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "Taipei",
+    "explicit_text": "After growing up in Taichung, I moved to Taipei, the capital city of Taiwan, to complete my education in economics. It was in Taipei where I finished university before receiving the message from my parents about taking over the family business. Taipei represents an important step in my academic and personal journey.",
+    "implicit_text": "After growing up in Taichung, I moved to the capital city of the island to complete my education in economics. It was there where I finished university before receiving the message from my parents about taking over the family business. This city represents an important step in my academic and personal journey.",
+    "cues": [
+      "capital city",
+      "economic education",
+      "university",
+      "transition"
+    ],
+    "transcript_ref": "immigration\\imm_umn_322_chih_lin_chi.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "Japan",
+    "explicit_text": "Japan is one of the main export destinations for my family's cycling factory. Since our business focuses on exporting to Japan, I needed to improve my English to communicate effectively with customers there. This connection to Japan influenced my decision to study English abroad.",
+    "implicit_text": "One of the main export destinations for my family's cycling factory is a country in East Asia known for its technology and culture. Since our business focuses on exporting there, I needed to improve my English to communicate effectively with customers. This connection influenced my decision to study English abroad.",
+    "cues": [
+      "export market",
+      "business communication",
+      "family factory",
+      "customers"
+    ],
+    "transcript_ref": "immigration\\imm_umn_322_chih_lin_chi.yaml"
+  },
+  {
+    "entity_id": 5,
+    "entity": "Europe",
+    "explicit_text": "Europe is another key market for my family's cycling factory exports. Like Japan, I had to learn English to communicate with European customers. This international aspect of the business motivated me to come to the United States for formal English education.",
+    "implicit_text": "Another key market for my family's cycling factory exports is a continent comprising many countries with diverse cultures. Like the East Asian country, I had to learn English to communicate with customers there. This international aspect of the business motivated me to come to the United States for formal English education.",
+    "cues": [
+      "export market",
+      "business communication",
+      "family factory",
+      "customers"
+    ],
+    "transcript_ref": "immigration\\imm_umn_322_chih_lin_chi.yaml"
+  },
+  {
+    "entity_id": 6,
+    "entity": "United States",
+    "explicit_text": "I came to the United States to improve my English because my skills were very poor, and I needed to communicate with international customers. I enrolled at Century College in Minnesota in July 2014 to get formal university instruction. The U.S. has been a place of both struggle and growth for me as I adapt to a new culture while pursuing my goals.",
+    "implicit_text": "I came to a North American country to improve my English because my skills were very poor, and I needed to communicate with international customers. I enrolled at a college in Minnesota in July 2014 to get formal university instruction. This country has been a place of both struggle and growth for me as I adapt to a new culture while pursuing my goals.",
+    "cues": [
+      "English education",
+      "Century College",
+      "Minnesota",
+      "2014",
+      "cultural adaptation"
+    ],
+    "transcript_ref": "immigration\\imm_umn_322_chih_lin_chi.yaml"
+  },
+  {
+    "entity_id": 7,
+    "entity": "Century College",
+    "explicit_text": "I enrolled at Century College in Minnesota on July 2, 2014, to improve my English skills. This college became my first step in formal university instruction in the United States. Studying there was challenging at first, but it helped me gain the confidence to communicate and pursue my family business goals.",
+    "implicit_text": "I enrolled at a community college in Minnesota on July 2, 2014, to improve my English skills. This institution became my first step in formal university instruction in the United States. Studying there was challenging at first, but it helped me gain the confidence to communicate and pursue my family business goals.",
+    "cues": [
+      "enrollment date",
+      "Minnesota",
+      "English education",
+      "formal instruction"
+    ],
+    "transcript_ref": "immigration\\imm_umn_322_chih_lin_chi.yaml"
+  },
+  {
+    "entity_id": 8,
+    "entity": "Minnesota",
+    "explicit_text": "Minnesota is where I studied at Century College starting in 2014 to improve my English. Living in Minnesota was a big change from Taiwan, and I initially felt frustrated and pressured. However, it became a place where I worked hard to overcome language barriers and cultural differences.",
+    "implicit_text": "This U.S. state is where I studied at a community college starting in 2014 to improve my English. Living there was a big change from Taiwan, and I initially felt frustrated and pressured. However, it became a place where I worked hard to overcome language barriers and cultural differences.",
+    "cues": [
+      "location of Century College",
+      "2014",
+      "language learning",
+      "cultural adjustment"
+    ],
+    "transcript_ref": "immigration\\imm_umn_322_chih_lin_chi.yaml"
+  },
+  {
+    "entity_id": 9,
+    "entity": "Chinese New Year",
+    "explicit_text": "The family photo I brought with me was taken during our Chinese New Year celebration in 2014. This event is very special to us because family time is rare, and we make sure to spend those few days together. The photo reminds me of my family's love and hard work, giving me strength when I feel frustrated far from home.",
+    "implicit_text": "The family photo I brought with me was taken during our traditional lunar new year celebration in 2014. This event is very special to us because family time is rare, and we make sure to spend those few days together. The photo reminds me of my family's love and hard work, giving me strength when I feel frustrated far from home.",
+    "cues": [
+      "2014",
+      "family celebration",
+      "rare family time",
+      "emotional support"
+    ],
+    "transcript_ref": "immigration\\imm_umn_322_chih_lin_chi.yaml"
+  }
+]

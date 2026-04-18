@@ -1,0 +1,275 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "Los Angeles",
+    "explicit_text": "I was born in Los Angeles, California, on March 18, 1933. Growing up there, it was the starting point of my life and family history. My family lived in L.A., but we often traveled north to Bakersfield for summers and holidays. Los Angeles has always been home to me and the place where many of my family stories began.",
+    "implicit_text": "I was born in the largest city of Southern California on March 18, 1933. Growing up there, it was the starting point of my life and family history. My family lived in that city, but we often traveled north to a smaller Central Valley city for summers and holidays. That Southern California city has always been home to me and the place where many of my family stories began.",
+    "cues": [
+      "born March 18, 1933",
+      "family lived in Los Angeles",
+      "travel to Bakersfield",
+      "home"
+    ],
+    "transcript_ref": "academic\\smithsonian_art\\smith_African-American_artists_of_Los_Angeles_John_Riddle.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "California",
+    "explicit_text": "California has been central to my family's story, especially places like Los Angeles and Bakersfield. My mother was born in Indiana, but we spent many summers in Bakersfield, California, traveling up Highway 99. California's hot and dry climate shaped many of my childhood memories, especially working in the fields during summer. It’s where my roots and family history are deeply planted.",
+    "implicit_text": "The Golden State has been central to my family's story, especially places like the big Southern California city and the Central Valley town. My mother was born in Indiana, but we spent many summers in that Central Valley location, traveling up a major north-south highway. The state's hot and dry climate shaped many of my childhood memories, especially working in the fields during summer. It’s where my roots and family history are deeply planted.",
+    "cues": [
+      "Los Angeles",
+      "Bakersfield",
+      "Highway 99",
+      "summer work",
+      "hot and dry climate"
+    ],
+    "transcript_ref": "academic\\smithsonian_art\\smith_African-American_artists_of_Los_Angeles_John_Riddle.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "John Thomas Riddle, Sr.",
+    "explicit_text": "My father is John Thomas Riddle, Sr., one of twelve children. He was about the sixth child in the family. His side of the family had a wide range of personalities, including a preacher father and siblings with very different paths, like a communist brother and a numbers racketeer. My father’s background shaped much of my understanding of family complexity.",
+    "implicit_text": "My father is one of twelve children, about the sixth in the family. His side had a wide range of personalities, including a preacher father and siblings with very different paths, like a communist brother and a numbers racketeer. My father’s background shaped much of my understanding of family complexity.",
+    "cues": [
+      "father",
+      "one of twelve children",
+      "sixth child",
+      "family diversity",
+      "communist brother",
+      "numbers racketeer"
+    ],
+    "transcript_ref": "academic\\smithsonian_art\\smith_African-American_artists_of_Los_Angeles_John_Riddle.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "Helen Louise Wheeler",
+    "explicit_text": "My mother is Helen Louise Wheeler, born in Bloomington, Indiana, but she grew up spending summers in Bakersfield, California. She came from the Wheeler family, which included my Uncle George and my grandmother Emma, who was an amazing cook. My mother’s side of the family had a rich history and was a big part of my childhood summers and holidays.",
+    "implicit_text": "My mother was born in Bloomington, Indiana, but she grew up spending summers in that Central Valley city in California. She came from a family that included my Uncle George and my grandmother Emma, who was an amazing cook. My mother’s side of the family had a rich history and was a big part of my childhood summers and holidays.",
+    "cues": [
+      "mother",
+      "born Bloomington, Indiana",
+      "Wheeler family",
+      "Bakersfield summers",
+      "grandmother Emma"
+    ],
+    "transcript_ref": "academic\\smithsonian_art\\smith_African-American_artists_of_Los_Angeles_John_Riddle.yaml"
+  },
+  {
+    "entity_id": 5,
+    "entity": "Joanne Tyler Jefferson",
+    "explicit_text": "Joanne Tyler Jefferson is my older sister. Along with my other sister Judy Keeling and my brother Paul Anthony Riddle, she is part of my immediate family. Growing up with them in Los Angeles shaped much of my early life. We shared many family experiences together.",
+    "implicit_text": "My older sister is part of my immediate family along with another sister and my brother. Growing up with them in the large Southern California city shaped much of my early life. We shared many family experiences together.",
+    "cues": [
+      "older sister",
+      "siblings",
+      "Los Angeles family",
+      "Joanne Tyler Jefferson"
+    ],
+    "transcript_ref": "academic\\smithsonian_art\\smith_African-American_artists_of_Los_Angeles_John_Riddle.yaml"
+  },
+  {
+    "entity_id": 6,
+    "entity": "Judy Keeling",
+    "explicit_text": "Judy Keeling is my sister, one of my siblings along with Joanne Tyler Jefferson and my brother Paul Anthony Riddle. We grew up together in Los Angeles, sharing family life and memories. She is an important part of my family story.",
+    "implicit_text": "One of my sisters is part of my siblings along with my other sister and brother. We grew up together in the big Southern California city, sharing family life and memories. She is an important part of my family story.",
+    "cues": [
+      "sister",
+      "siblings",
+      "Los Angeles family",
+      "Judy Keeling"
+    ],
+    "transcript_ref": "academic\\smithsonian_art\\smith_African-American_artists_of_Los_Angeles_John_Riddle.yaml"
+  },
+  {
+    "entity_id": 7,
+    "entity": "Paul Anthony Riddle",
+    "explicit_text": "Paul Anthony Riddle is my brother. He is part of my immediate family along with my sisters Joanne and Judy. Growing up in Los Angeles, we shared many family moments and experiences. He’s a key figure in my family background.",
+    "implicit_text": "My brother is part of my immediate family along with my two sisters. Growing up in the large Southern California city, we shared many family moments and experiences. He’s a key figure in my family background.",
+    "cues": [
+      "brother",
+      "siblings",
+      "Los Angeles family",
+      "Paul Anthony Riddle"
+    ],
+    "transcript_ref": "academic\\smithsonian_art\\smith_African-American_artists_of_Los_Angeles_John_Riddle.yaml"
+  },
+  {
+    "entity_id": 8,
+    "entity": "Bakersfield, California",
+    "explicit_text": "Bakersfield, California, is where my mother’s side of the family lived and where we spent many summers and holidays. It’s about 115 miles north of Los Angeles, up what was then Highway 99. I have vivid memories of hot, dry weather, working in the fields, and my grandmother Emma’s incredible cooking there. Bakersfield was a place of both hard work and family togetherness.",
+    "implicit_text": "That Central Valley city in California is where my mother’s side of the family lived and where we spent many summers and holidays. It’s about 115 miles north of the big Southern California city, up what was then Highway 99. I have vivid memories of hot, dry weather, working in the fields, and my grandmother Emma’s incredible cooking there. That city was a place of both hard work and family togetherness.",
+    "cues": [
+      "mother’s family",
+      "summer visits",
+      "115 miles north of Los Angeles",
+      "Highway 99",
+      "grandmother Emma",
+      "hot and dry"
+    ],
+    "transcript_ref": "academic\\smithsonian_art\\smith_African-American_artists_of_Los_Angeles_John_Riddle.yaml"
+  },
+  {
+    "entity_id": 9,
+    "entity": "Indiana",
+    "explicit_text": "Indiana is where my mother, Helen Louise Wheeler, was born, specifically Bloomington. Although she moved to California, her roots in Indiana are part of our family history. We often talked about that connection when reflecting on our family’s journey westward. Indiana represents the origin of my mother’s side of the family.",
+    "implicit_text": "The Midwest state is where my mother was born, specifically in Bloomington. Although she moved to California, her roots in that state are part of our family history. We often talked about that connection when reflecting on our family’s journey westward. That state represents the origin of my mother’s side of the family.",
+    "cues": [
+      "mother born",
+      "Bloomington, Indiana",
+      "family origins",
+      "mother’s roots"
+    ],
+    "transcript_ref": "academic\\smithsonian_art\\smith_African-American_artists_of_Los_Angeles_John_Riddle.yaml"
+  },
+  {
+    "entity_id": 10,
+    "entity": "Bloomington, Indiana",
+    "explicit_text": "Bloomington, Indiana, is my mother’s birthplace. Even though we lived in California, Bloomington was important as the starting point of her life before moving west. It’s a key part of my family’s story and heritage. We always remembered it when thinking about where we came from.",
+    "implicit_text": "Bloomington in the Midwest state is my mother’s birthplace. Even though we lived in California, that city was important as the starting point of her life before moving west. It’s a key part of my family’s story and heritage. We always remembered it when thinking about where we came from.",
+    "cues": [
+      "mother’s birthplace",
+      "Indiana",
+      "family heritage",
+      "origin"
+    ],
+    "transcript_ref": "academic\\smithsonian_art\\smith_African-American_artists_of_Los_Angeles_John_Riddle.yaml"
+  },
+  {
+    "entity_id": 11,
+    "entity": "World War II",
+    "explicit_text": "World War II affected my family through my Uncle George, who served in the war. After returning, he struggled with alcoholism and became a kind of philosopher figure in the family, though he was often misunderstood. His experience in the war and its aftermath left a lasting impression on me during my childhood summers in Bakersfield.",
+    "implicit_text": "The global conflict of the early 1940s affected my family through my Uncle George, who served in the war. After returning, he struggled with alcoholism and became a kind of philosopher figure in the family, though he was often misunderstood. His experience in the war and its aftermath left a lasting impression on me during my childhood summers in that Central Valley city.",
+    "cues": [
+      "Uncle George",
+      "served in World War II",
+      "post-war struggles",
+      "alcoholism",
+      "family impact"
+    ],
+    "transcript_ref": "academic\\smithsonian_art\\smith_African-American_artists_of_Los_Angeles_John_Riddle.yaml"
+  },
+  {
+    "entity_id": 12,
+    "entity": "George Wheeler",
+    "explicit_text": "George Wheeler was my uncle on my mother’s side. He was divorced and had served in World War II, but after the war, he became an alcoholic. Despite his struggles, he had a lot of wisdom and often shared his thoughts with me during summer nights under the grape arbor. He was a complex figure—both a philosopher and a family outcast.",
+    "implicit_text": "My uncle on my mother’s side was divorced and had served in the World War II conflict, but after the war, he became an alcoholic. Despite his struggles, he had a lot of wisdom and often shared his thoughts with me during summer nights under the grape arbor. He was a complex figure—both a philosopher and a family outcast.",
+    "cues": [
+      "uncle",
+      "mother’s side",
+      "World War II veteran",
+      "alcoholic",
+      "wise but troubled"
+    ],
+    "transcript_ref": "academic\\smithsonian_art\\smith_African-American_artists_of_Los_Angeles_John_Riddle.yaml"
+  },
+  {
+    "entity_id": 13,
+    "entity": "Emma Wheeler",
+    "explicit_text": "Emma Wheeler was my grandmother on my mother’s side, and she was an incredible cook who even catered for restaurants and hotels from her kitchen. I have fond memories of her cooking and the summers spent at her home in Bakersfield. She also raised chickens and had a chicken coop, which left vivid impressions on me as a child.",
+    "implicit_text": "My grandmother on my mother’s side was an incredible cook who even catered for restaurants and hotels from her kitchen. I have fond memories of her cooking and the summers spent at her home in that Central Valley city. She also raised chickens and had a chicken coop, which left vivid impressions on me as a child.",
+    "cues": [
+      "grandmother",
+      "mother’s side",
+      "catered for restaurants",
+      "Bakersfield",
+      "chicken coop"
+    ],
+    "transcript_ref": "academic\\smithsonian_art\\smith_African-American_artists_of_Los_Angeles_John_Riddle.yaml"
+  },
+  {
+    "entity_id": 14,
+    "entity": "Suzy Johnson",
+    "explicit_text": "Suzy Johnson is my aunt who lives in Los Angeles now. She was originally a Pinkney before marrying and changing her last name. She is part of the extended family on my mother’s side, connected through multiple marriages and family branches. Her presence in L.A. links back to our broader family network.",
+    "implicit_text": "My aunt now lives in the large Southern California city. She was originally a Pinkney before marrying and changing her last name. She is part of the extended family on my mother’s side, connected through multiple marriages and family branches. Her presence in that city links back to our broader family network.",
+    "cues": [
+      "aunt",
+      "lives in Los Angeles",
+      "formerly Pinkney",
+      "mother’s side",
+      "family connections"
+    ],
+    "transcript_ref": "academic\\smithsonian_art\\smith_African-American_artists_of_Los_Angeles_John_Riddle.yaml"
+  },
+  {
+    "entity_id": 15,
+    "entity": "Pinkney family",
+    "explicit_text": "The Pinkney family is part of my extended family through my Aunt Suzy and her brother Oliver. They were connected to my mother’s side, with Suzy now Johnson and Oliver deceased. The Pinkney family adds another layer to the complex family history I grew up with. Their ties to Los Angeles and Bakersfield were part of our family story.",
+    "implicit_text": "The Pinkney family is part of my extended family through my aunt and her brother. They were connected to my mother’s side, with my aunt now having a married name and her brother deceased. The Pinkney family adds another layer to the complex family history I grew up with. Their ties to the large Southern California city and the Central Valley town were part of our family story.",
+    "cues": [
+      "extended family",
+      "Aunt Suzy",
+      "Oliver Pinkney",
+      "mother’s side",
+      "Los Angeles"
+    ],
+    "transcript_ref": "academic\\smithsonian_art\\smith_African-American_artists_of_Los_Angeles_John_Riddle.yaml"
+  },
+  {
+    "entity_id": 16,
+    "entity": "Oliver Pinkney",
+    "explicit_text": "Oliver Pinkney was my aunt Suzy’s brother and part of the Pinkney family. He is deceased now, but he was part of the family network connected to my mother’s side. His presence was part of the family stories I heard growing up. The Pinkney family ties were important in understanding my broader family background.",
+    "implicit_text": "My aunt’s brother was part of the Pinkney family. He is deceased now, but he was part of the family network connected to my mother’s side. His presence was part of the family stories I heard growing up. The Pinkney family ties were important in understanding my broader family background.",
+    "cues": [
+      "aunt Suzy’s brother",
+      "Pinkney family",
+      "deceased",
+      "mother’s side"
+    ],
+    "transcript_ref": "academic\\smithsonian_art\\smith_African-American_artists_of_Los_Angeles_John_Riddle.yaml"
+  },
+  {
+    "entity_id": 17,
+    "entity": "Drisdom",
+    "explicit_text": "Drisdom was the last name of my grandfather that I remember on my mother’s side. He worked at the railroad and had a drawer full of pocket watches with lids that popped open, which fascinated me as a child. His presence is part of the family history I recall from my time in Bakersfield. He represents an earlier generation in my family.",
+    "implicit_text": "The last name of my grandfather on my mother’s side that I remember was Drisdom. He worked at the railroad and had a drawer full of pocket watches with lids that popped open, which fascinated me as a child. His presence is part of the family history I recall from my time in that Central Valley city. He represents an earlier generation in my family.",
+    "cues": [
+      "grandfather",
+      "mother’s side",
+      "railroad worker",
+      "pocket watches",
+      "family history"
+    ],
+    "transcript_ref": "academic\\smithsonian_art\\smith_African-American_artists_of_Los_Angeles_John_Riddle.yaml"
+  },
+  {
+    "entity_id": 18,
+    "entity": "Highway 99",
+    "explicit_text": "Highway 99 was the route we took from Los Angeles to Bakersfield during summers and holidays. Back then, it was known simply as 99, and the trip was always a pleasurable journey north. Traveling this highway connected me to my mother’s family and the summers spent in Bakersfield. It’s a road tied to many family memories.",
+    "implicit_text": "The major highway was the route we took from the large Southern California city to the Central Valley town during summers and holidays. Back then, it was known simply as 99, and the trip was always a pleasurable journey north. Traveling this highway connected me to my mother’s family and the summers spent in that Central Valley city. It’s a road tied to many family memories.",
+    "cues": [
+      "route to Bakersfield",
+      "Los Angeles to Bakersfield",
+      "summer trips",
+      "family travel"
+    ],
+    "transcript_ref": "academic\\smithsonian_art\\smith_African-American_artists_of_Los_Angeles_John_Riddle.yaml"
+  },
+  {
+    "entity_id": 19,
+    "entity": "C. Morton Riddle",
+    "explicit_text": "C. Morton Riddle was my paternal grandfather, a tall preacher with white hair who stood very straight. He was a significant figure in my father’s side of the family, which included twelve children. His presence and role as a preacher influenced the family’s character and history. I remember him as a dignified and imposing man.",
+    "implicit_text": "My paternal grandfather was a tall preacher with white hair who stood very straight. He was a significant figure in my father’s side of the family, which included twelve children. His presence and role as a preacher influenced the family’s character and history. I remember him as a dignified and imposing man.",
+    "cues": [
+      "paternal grandfather",
+      "preacher",
+      "tall and thin",
+      "father’s side",
+      "family patriarch"
+    ],
+    "transcript_ref": "academic\\smithsonian_art\\smith_African-American_artists_of_Los_Angeles_John_Riddle.yaml"
+  },
+  {
+    "entity_id": 20,
+    "entity": "Communism",
+    "explicit_text": "Communism was part of my family story in an unusual way—one of my father’s brothers was a communist. This was quite strange within our family context, especially given the diversity of roles among my father’s siblings, which ranged from a preacher’s son to a numbers racketeer. It showed how varied and complex our family history was. The presence of communism in the family was a notable and surprising fact.",
+    "implicit_text": "A political ideology was part of my family story in an unusual way—one of my father’s brothers was a communist. This was quite strange within our family context, especially given the diversity of roles among my father’s siblings, which ranged from a preacher’s son to a numbers racketeer. It showed how varied and complex our family history was. The presence of that ideology in the family was a notable and surprising fact.",
+    "cues": [
+      "father’s brother",
+      "communist",
+      "family diversity",
+      "unusual political affiliation"
+    ],
+    "transcript_ref": "academic\\smithsonian_art\\smith_African-American_artists_of_Los_Angeles_John_Riddle.yaml"
+  }
+]

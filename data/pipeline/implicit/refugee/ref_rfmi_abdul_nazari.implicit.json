@@ -1,0 +1,143 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "Raleigh, North Carolina",
+    "explicit_text": "This interview is taking place in Raleigh, North Carolina on July 2, 2019. Although I first arrived in Charlotte, I moved to Durham for my daughter's medical treatment, but Raleigh is where this conversation is happening. Raleigh represents a place where I have shared my story and reflected on my journey from Afghanistan to the United States.",
+    "implicit_text": "This interview is taking place in the capital city of North Carolina on July 2, 2019. Although I first arrived in Charlotte, I moved to Durham for my daughter's medical treatment, but this city is where this conversation is happening. It represents a place where I have shared my story and reflected on my journey from Afghanistan to the United States.",
+    "cues": [
+      "July 2, 2019",
+      "interview location",
+      "North Carolina"
+    ],
+    "transcript_ref": "refugee\\ref_rfmi_abdul_nazari.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "Mazar-i-Sharif",
+    "explicit_text": "I come from Mazar-i-Sharif, Afghanistan, where I lived before moving to the United States in 2017. Life there was difficult because of the ongoing war and threats from the Taliban due to my work with Americans. Leaving Mazar-i-Sharif was necessary to protect my family and myself, and it marked the beginning of a new chapter in Charlotte, North Carolina.",
+    "implicit_text": "I come from a major city in northern Afghanistan, where I lived before moving to the United States in 2017. Life there was difficult because of the ongoing war and threats from insurgents due to my work with Americans. Leaving that city was necessary to protect my family and myself, and it marked the beginning of a new chapter in Charlotte, North Carolina.",
+    "cues": [
+      "Mazar-i-Sharif",
+      "Afghanistan",
+      "war",
+      "Taliban threats",
+      "2017"
+    ],
+    "transcript_ref": "refugee\\ref_rfmi_abdul_nazari.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "United States",
+    "explicit_text": "I moved to the United States in October 2017 with my wife and children for safety and medical reasons. The U.S. has been a place of support; organizations helped me find housing and medical care, especially for my daughter's liver transplant. Though I worked hard in Charlotte and faced challenges, the community here has been very welcoming and supportive for my family and me.",
+    "implicit_text": "I moved to this country in October 2017 with my wife and children for safety and medical reasons. It has been a place of support; organizations helped me find housing and medical care, especially for my daughter's liver transplant. Though I worked hard in Charlotte and faced challenges, the community here has been very welcoming and supportive for my family and me.",
+    "cues": [
+      "October 2017",
+      "Charlotte, North Carolina",
+      "medical care",
+      "community support"
+    ],
+    "transcript_ref": "refugee\\ref_rfmi_abdul_nazari.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "Charlotte, North Carolina",
+    "explicit_text": "When I first arrived in the U.S., I lived in Charlotte from October 2017 until January 2018. Charlotte was a good place to start; I received free housing for three months and support from local organizations. I worked in a busy food truck downtown, serving hundreds of customers on weekends, but had to move to Durham when my daughter needed specialized medical care.",
+    "implicit_text": "When I first arrived in the U.S., I lived in the largest city in North Carolina from October 2017 until January 2018. This city was a good place to start; I received free housing for three months and support from local organizations. I worked in a busy food truck downtown, serving hundreds of customers on weekends, but had to move to Durham when my daughter needed specialized medical care.",
+    "cues": [
+      "October 2017 to January 2018",
+      "food truck work",
+      "free housing",
+      "medical appointments"
+    ],
+    "transcript_ref": "refugee\\ref_rfmi_abdul_nazari.yaml"
+  },
+  {
+    "entity_id": 5,
+    "entity": "Durham, North Carolina",
+    "explicit_text": "I moved to Durham because my daughter needed treatment at the University Hospital there. Since January 2018, Durham has been our home while she underwent a liver transplant and many medical appointments. The community here, including World Relief and Islamic Relief, has been very helpful in supporting my family during this difficult time.",
+    "implicit_text": "I moved to a city known for its university hospital because my daughter needed treatment there. Since January 2018, this city has been our home while she underwent a liver transplant and many medical appointments. The community here, including two relief organizations, has been very helpful in supporting my family during this difficult time.",
+    "cues": [
+      "January 2018",
+      "University Hospital",
+      "liver transplant",
+      "World Relief",
+      "Islamic Relief"
+    ],
+    "transcript_ref": "refugee\\ref_rfmi_abdul_nazari.yaml"
+  },
+  {
+    "entity_id": 6,
+    "entity": "Taliban",
+    "explicit_text": "The Taliban found out about my work with Americans back in Afghanistan, and my life was in danger because of that. Their threats forced me to leave Mazar-i-Sharif and seek safety in the United States. The Taliban's presence was a constant danger for me and my family, which made resettlement necessary.",
+    "implicit_text": "The militant group found out about my work with Americans back in Afghanistan, and my life was in danger because of that. Their threats forced me to leave my hometown and seek safety in the United States. Their presence was a constant danger for me and my family, which made resettlement necessary.",
+    "cues": [
+      "Afghanistan",
+      "threats",
+      "work with Americans",
+      "forced migration"
+    ],
+    "transcript_ref": "refugee\\ref_rfmi_abdul_nazari.yaml"
+  },
+  {
+    "entity_id": 7,
+    "entity": "Islamic Relief",
+    "explicit_text": "Islamic Relief has been a great help to me and my family during my daughter's medical treatment in Durham. They provided support and assistance when we needed it most, especially after we moved from Charlotte. I am grateful for their kindness and the help they offered during this challenging time.",
+    "implicit_text": "One Islamic charity has been a great help to me and my family during my daughter's medical treatment in Durham. They provided support and assistance when we needed it most, especially after we moved from Charlotte. I am grateful for their kindness and the help they offered during this challenging time.",
+    "cues": [
+      "Durham, North Carolina",
+      "medical support",
+      "family assistance"
+    ],
+    "transcript_ref": "refugee\\ref_rfmi_abdul_nazari.yaml"
+  },
+  {
+    "entity_id": 8,
+    "entity": "World Relief",
+    "explicit_text": "World Relief has played a crucial role in helping my family settle in the United States. They assisted us with housing, doctor appointments, and daily needs, especially during my daughter's liver transplant process. Their support, along with the Muslim community volunteers, made a big difference in our lives here in Durham.",
+    "implicit_text": "Another relief organization has played a crucial role in helping my family settle in the United States. They assisted us with housing, doctor appointments, and daily needs, especially during my daughter's liver transplant process. Their support, along with the Muslim community volunteers, made a big difference in our lives here in Durham.",
+    "cues": [
+      "housing assistance",
+      "medical appointments",
+      "liver transplant",
+      "Durham"
+    ],
+    "transcript_ref": "refugee\\ref_rfmi_abdul_nazari.yaml"
+  },
+  {
+    "entity_id": 10,
+    "entity": "Toronto",
+    "explicit_text": "I connected with a volunteer named Nastreem from the Muslim community in Toronto who helped coordinate support for my family. She moved with us to the hospital and kept in touch, helping to organize volunteers and resources through a Facebook group. Toronto's Muslim community played an important role in supporting us even though we were in North Carolina.",
+    "implicit_text": "I connected with a volunteer named Nastreem from the Muslim community in a major Canadian city who helped coordinate support for my family. She moved with us to the hospital and kept in touch, helping to organize volunteers and resources through a Facebook group. That city's Muslim community played an important role in supporting us even though we were in North Carolina.",
+    "cues": [
+      "volunteer Nastreem",
+      "Muslim community",
+      "Facebook group",
+      "cross-border support"
+    ],
+    "transcript_ref": "refugee\\ref_rfmi_abdul_nazari.yaml"
+  },
+  {
+    "entity_id": 11,
+    "entity": "Pakistan",
+    "explicit_text": "I met many Pakistani Muslims here in the United States who have been very kind and supportive to me and my family. One woman from Pakistan, Rob, helped me with clothing, food, and other needs during my daughter's treatment. Their generosity and care made me feel lucky to have such a community around me.",
+    "implicit_text": "I met many Muslims from a neighboring South Asian country here in the United States who have been very kind and supportive to me and my family. One woman from that country, Rob, helped me with clothing, food, and other needs during my daughter's treatment. Their generosity and care made me feel lucky to have such a community around me.",
+    "cues": [
+      "Pakistani Muslim community",
+      "support with food and clothing",
+      "medical treatment period"
+    ],
+    "transcript_ref": "refugee\\ref_rfmi_abdul_nazari.yaml"
+  },
+  {
+    "entity_id": 12,
+    "entity": "India",
+    "explicit_text": "Along with the Pakistani community, Indian Muslims here also helped me and my family a lot. Their kindness and support during our difficult times have been very meaningful to us. I feel blessed to have brothers and sisters from both India and Pakistan standing with us in this new country.",
+    "implicit_text": "Along with the Pakistani community, Muslims from another South Asian country here also helped me and my family a lot. Their kindness and support during our difficult times have been very meaningful to us. I feel blessed to have brothers and sisters from both of these countries standing with us in this new country.",
+    "cues": [
+      "Indian Muslim community",
+      "community support",
+      "United States"
+    ],
+    "transcript_ref": "refugee\\ref_rfmi_abdul_nazari.yaml"
+  }
+]

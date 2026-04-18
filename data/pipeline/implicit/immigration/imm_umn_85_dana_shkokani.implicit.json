@@ -1,0 +1,85 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "Israel",
+    "explicit_text": "My grandmother told me about Israel in 1948 when she was sixteen and pregnant. Israeli forces came to her door, ordering people to leave or be shot, which forced her and many others to flee their homes. She escaped with her baby and a key to a house she no longer owned. This event shaped my family's history and my own identity as an immigrant.",
+    "implicit_text": "My grandmother told me about the events of 1948 in the land that became a new state when she was sixteen and pregnant. Armed forces from the newly declared country came to her door, ordering people to leave or be shot, which forced her and many others to flee their homes. She escaped with her baby and a key to a house she no longer owned. This event shaped my family's history and my own identity as an immigrant.",
+    "cues": [
+      "1948",
+      "Israeli forces",
+      "immigration",
+      "grandmother's story"
+    ],
+    "transcript_ref": "immigration\\imm_umn_85_dana_shkokani.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "Nakba",
+    "explicit_text": "The Nakba is a painful anniversary for me and my family, marking the day in 1948 when my grandmother and 700,000 Palestinians were forced to flee their homes. When I was sixteen, we would march and yell to remember that day. It also connects to the tragic death of my friend Nadeem Nawara, who wanted to resist oppression during the Nakba anniversary and was shot for throwing a rock.",
+    "implicit_text": "That tragic anniversary is a painful day for me and my family, marking the time in 1948 when my grandmother and 700,000 Palestinians were forced to flee their homes. When I was sixteen, we would march and yell to remember that day. It also connects to the tragic death of my friend who wanted to resist oppression during that anniversary and was shot for throwing a rock.",
+    "cues": [
+      "1948",
+      "anniversary",
+      "700,000 Palestinians fled",
+      "marches",
+      "Nadeem Nawara's death"
+    ],
+    "transcript_ref": "immigration\\imm_umn_85_dana_shkokani.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "Nadeem Nawara",
+    "explicit_text": "Nadeem Nawara was my friend who wanted to take a stand against oppression during the Nakba anniversary when I was sixteen. He was brave and threw a rock at the oppressors, but was immediately shot four times in the chest. Witnessing his death was a turning point for me, making me realize I had to leave and seek a different life.",
+    "implicit_text": "My friend was someone who wanted to take a stand against oppression during that painful anniversary when I was sixteen. He was brave and threw a rock at the oppressors, but was immediately shot four times in the chest. Witnessing his death was a turning point for me, making me realize I had to leave and seek a different life.",
+    "cues": [
+      "Nakba anniversary",
+      "friend",
+      "rock throwing",
+      "shot four times",
+      "turning point"
+    ],
+    "transcript_ref": "immigration\\imm_umn_85_dana_shkokani.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "United States",
+    "explicit_text": "The United States has been a complicated place for me. When I first visited my brothers there, I hated how green and fake it looked and was frustrated by people's privileged complaints. Later, when I moved here alone, I faced culture shocks like racism and freedom of speech that I hadn't understood before. Despite the challenges, it became a place where I found my independence and passion, even if I sometimes feel caught between two worlds.",
+    "implicit_text": "This country has been a complicated place for me. When I first visited my brothers there, I hated how green and fake it looked and was frustrated by people's privileged complaints. Later, when I moved here alone, I faced culture shocks like racism and freedom of speech that I hadn't understood before. Despite the challenges, it became a place where I found my independence and passion, even if I sometimes feel caught between two worlds.",
+    "cues": [
+      "visited brothers",
+      "green landscape",
+      "privilege",
+      "racism",
+      "freedom of speech",
+      "independence"
+    ],
+    "transcript_ref": "immigration\\imm_umn_85_dana_shkokani.yaml"
+  },
+  {
+    "entity_id": 5,
+    "entity": "Columbus State Community College",
+    "explicit_text": "I spent two long years at Columbus State Community College before transferring to Ohio State University. Those years were a stepping stone for me, a time of adjustment and preparation for the bigger challenges ahead. Columbus State helped me get ready academically and personally for the new environment I would face at OSU.",
+    "implicit_text": "I spent two long years at a community college in Ohio before transferring to a large state university. Those years were a stepping stone for me, a time of adjustment and preparation for the bigger challenges ahead. That college helped me get ready academically and personally for the new environment I would face at the university.",
+    "cues": [
+      "two years",
+      "academic preparation",
+      "transition",
+      "stepping stone"
+    ],
+    "transcript_ref": "immigration\\imm_umn_85_dana_shkokani.yaml"
+  },
+  {
+    "entity_id": 6,
+    "entity": "Ohio State University",
+    "explicit_text": "Getting into Ohio State University was a major turning point in my life. At OSU, I majored in Computer Science Engineering but discovered my passion for social justice through meeting students in political science, psychology, and sociology. I became a student activist, faced culture shocks like racism and freedom of speech, and grew from one of the shyest students to someone deeply engaged in campus life and activism.",
+    "implicit_text": "Getting into a major public university in Ohio was a major turning point in my life. There, I majored in Computer Science Engineering but discovered my passion for social justice through meeting students in political science, psychology, and sociology. I became a student activist, faced culture shocks like racism and freedom of speech, and grew from one of the shyest students to someone deeply engaged in campus life and activism.",
+    "cues": [
+      "admission",
+      "Computer Science Engineering",
+      "student activism",
+      "culture shocks",
+      "social justice"
+    ],
+    "transcript_ref": "immigration\\imm_umn_85_dana_shkokani.yaml"
+  }
+]

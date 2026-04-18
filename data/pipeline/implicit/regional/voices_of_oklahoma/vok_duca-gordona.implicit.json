@@ -1,0 +1,515 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "Altus, Oklahoma",
+    "explicit_text": "I was born in Altus, Oklahoma on June 6, 1940. It's where my life began before moving around due to my mother's career. Altus holds the memory of my early days before my family circumstances changed.",
+    "implicit_text": "I was born in a small city in southwestern Oklahoma on June 6, 1940. It's where my life began before moving around due to my mother's career. That place holds the memory of my early days before my family circumstances changed.",
+    "cues": [
+      "born June 6, 1940",
+      "birthplace",
+      "early life"
+    ],
+    "transcript_ref": "regional\\voices_of_oklahoma\\vok_duca-gordona.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "Lola May Mark-Moore",
+    "explicit_text": "My mother, Lola May Mark-Moore, was born and raised in Chickasha, Oklahoma. She was very outgoing and independent, and she was the first woman manager at Dresser Industries. She worked for Manning, Maxwell and Moore in Tulsa before moving to Pineville, Louisiana when the company was sold to Dresser.",
+    "implicit_text": "My mother was born and raised in a town in Oklahoma known for its rich history. She was very outgoing and independent, and she was the first woman manager at a major oilfield equipment company. She worked for a Tulsa-based manufacturing firm before moving to Louisiana when the company was sold.",
+    "cues": [
+      "born Chickasha, Oklahoma",
+      "first woman manager at Dresser Industries",
+      "worked at Manning, Maxwell and Moore",
+      "moved to Pineville, Louisiana"
+    ],
+    "transcript_ref": "regional\\voices_of_oklahoma\\vok_duca-gordona.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "Chickasha, Oklahoma",
+    "explicit_text": "Both my mother and father were from Chickasha, Oklahoma, where they met and married. I spent many summers there with my grandmother, who lived there for the rest of her life. Chickasha was an important place in my family's history and my childhood.",
+    "implicit_text": "Both my mother and father were from a city in Oklahoma where they met and married. I spent many summers there with my grandmother, who lived there for the rest of her life. That city was an important place in my family's history and my childhood.",
+    "cues": [
+      "mother and father born there",
+      "family marriage",
+      "summer visits",
+      "grandmother's residence"
+    ],
+    "transcript_ref": "regional\\voices_of_oklahoma\\vok_duca-gordona.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "Dresser Industries",
+    "explicit_text": "My mother was the first woman manager at Dresser Industries after they acquired Manning, Maxwell and Moore. This required her to move from Tulsa to Pineville, Louisiana. Dresser Industries was a significant part of her career and our family's relocation.",
+    "implicit_text": "My mother was the first woman manager at a large oilfield equipment corporation after they acquired her previous employer. This required her to move from Tulsa to a city in Louisiana. That corporation was a significant part of her career and our family's relocation.",
+    "cues": [
+      "mother's management role",
+      "company acquisition",
+      "move to Pineville, Louisiana"
+    ],
+    "transcript_ref": "regional\\voices_of_oklahoma\\vok_duca-gordona.yaml"
+  },
+  {
+    "entity_id": 5,
+    "entity": "Manning, Maxwell and Moore",
+    "explicit_text": "My mother worked for Manning, Maxwell and Moore in Tulsa before the company was sold to Dresser Industries. Her role there was important, and the sale led to her moving to Pineville, Louisiana. This company was a key part of her professional life.",
+    "implicit_text": "My mother worked for a Tulsa-based manufacturing company before it was sold to a larger oilfield equipment firm. Her role there was important, and the sale led to her moving to Louisiana. This company was a key part of her professional life.",
+    "cues": [
+      "mother's employment",
+      "Tulsa location",
+      "sale to Dresser Industries",
+      "relocation"
+    ],
+    "transcript_ref": "regional\\voices_of_oklahoma\\vok_duca-gordona.yaml"
+  },
+  {
+    "entity_id": 6,
+    "entity": "Pineville, Louisiana",
+    "explicit_text": "When Manning, Maxwell and Moore was sold to Dresser Industries, my mother had to move from Tulsa to Pineville, Louisiana for her new role. This move was a significant change for our family tied to her career advancement.",
+    "implicit_text": "When my mother's Tulsa employer was sold to a larger corporation, she had to move to a city in Louisiana for her new role. This move was a significant change for our family tied to her career advancement.",
+    "cues": [
+      "mother's relocation",
+      "company sale",
+      "career move"
+    ],
+    "transcript_ref": "regional\\voices_of_oklahoma\\vok_duca-gordona.yaml"
+  },
+  {
+    "entity_id": 7,
+    "entity": "Gordon Talmadge Moore",
+    "explicit_text": "My father, Gordon Talmadge Moore, was born in Chickasha, Oklahoma and had a rather dull personality compared to my mother. He worked various jobs including for Mistletoe Express and a newspaper, and later as a taxi driver in Wichita, Kansas. Tragically, he was murdered during a robbery while driving a taxi after retirement.",
+    "implicit_text": "My father was born in an Oklahoma city and had a rather dull personality compared to my mother. He worked various jobs including for a local express company and a newspaper, and later as a taxi driver in Kansas. Tragically, he was murdered during a robbery while driving a taxi after retirement.",
+    "cues": [
+      "born Chickasha, Oklahoma",
+      "worked Mistletoe Express and newspaper",
+      "taxi driver in Wichita",
+      "murdered during robbery"
+    ],
+    "transcript_ref": "regional\\voices_of_oklahoma\\vok_duca-gordona.yaml"
+  },
+  {
+    "entity_id": 8,
+    "entity": "Wichita, Kansas",
+    "explicit_text": "My father moved to Wichita, Kansas after retirement and worked as a taxi driver. Unfortunately, it was there that he was robbed and killed. Wichita marks the sad end of his life.",
+    "implicit_text": "My father moved to a city in Kansas after retirement and worked as a taxi driver. Unfortunately, it was there that he was robbed and killed. That city marks the sad end of his life.",
+    "cues": [
+      "father's residence",
+      "taxi driving",
+      "father's murder"
+    ],
+    "transcript_ref": "regional\\voices_of_oklahoma\\vok_duca-gordona.yaml"
+  },
+  {
+    "entity_id": 9,
+    "entity": "Whittier Elementary School",
+    "explicit_text": "I started my education at Whittier Elementary School. It was the first step in my schooling before moving on to junior high and high school in Tulsa. Whittier was where my academic journey began.",
+    "implicit_text": "I started my education at an elementary school in Tulsa. It was the first step in my schooling before moving on to junior high and high school in the same city. That school was where my academic journey began.",
+    "cues": [
+      "elementary school",
+      "early education",
+      "Tulsa"
+    ],
+    "transcript_ref": "regional\\voices_of_oklahoma\\vok_duca-gordona.yaml"
+  },
+  {
+    "entity_id": 10,
+    "entity": "Cleveland Junior High School",
+    "explicit_text": "After Whittier, I attended Cleveland Junior High School as part of my progression through Tulsa's school system. It was the middle step before high school and an important part of my education.",
+    "implicit_text": "After elementary school, I attended a junior high named after a U.S. president in Tulsa as part of my progression through the local school system. It was the middle step before high school and an important part of my education.",
+    "cues": [
+      "junior high school",
+      "Tulsa education path"
+    ],
+    "transcript_ref": "regional\\voices_of_oklahoma\\vok_duca-gordona.yaml"
+  },
+  {
+    "entity_id": 11,
+    "entity": "Will Rogers High School",
+    "explicit_text": "I went to Will Rogers High School in Tulsa, even though I lived in the Central High School district. My mother changed my address so I could attend Will Rogers, which was closer and more convenient. I graduated from there and was later inducted into its Hall of Fame. Many notable people, including Anita Bryant and Leon Russell, also attended Will Rogers.",
+    "implicit_text": "I went to a high school in Tulsa named after a famous humorist, even though I lived in the district for another high school. My mother changed my address so I could attend the closer and more convenient school. I graduated from there and was later inducted into its Hall of Fame. Many notable people, including a famous singer and a renowned musician, also attended that school.",
+    "cues": [
+      "attended high school",
+      "address changed to attend",
+      "Hall of Fame inductee",
+      "notable alumni"
+    ],
+    "transcript_ref": "regional\\voices_of_oklahoma\\vok_duca-gordona.yaml"
+  },
+  {
+    "entity_id": 12,
+    "entity": "Central High School (Tulsa, Oklahoma)",
+    "explicit_text": "Although I lived in the Central High School district in Tulsa, I did not attend Central. My mother arranged for me to go to Will Rogers High School instead. Central was the school I was zoned for but did not attend.",
+    "implicit_text": "Although I lived in the district for a central Tulsa high school, I did not attend that school. My mother arranged for me to go to the high school named after a famous humorist instead. The central school was the one I was zoned for but did not attend.",
+    "cues": [
+      "district zoning",
+      "did not attend",
+      "Tulsa"
+    ],
+    "transcript_ref": "regional\\voices_of_oklahoma\\vok_duca-gordona.yaml"
+  },
+  {
+    "entity_id": 13,
+    "entity": "Anita Bryant",
+    "explicit_text": "Anita Bryant was my best friend from sophomore year at Will Rogers High School. We bonded because neither of us came from money and were somewhat outsiders at school. She was a singer and later became famous as a 2nd runner-up Miss America and spokesperson for orange juice. We remained close over the years, and I was there for her when her sister died and was buried in Tulsa.",
+    "implicit_text": "My best friend from sophomore year at the humorist-named high school was a singer who came from a modest background like me, making us outsiders at school. She later became famous as a runner-up in a national beauty pageant and a spokesperson for orange juice. We remained close over the years, and I was there for her when her sister died and was buried in Tulsa.",
+    "cues": [
+      "best friends from sophomore year",
+      "Will Rogers High School",
+      "singer and Miss America runner-up",
+      "family support"
+    ],
+    "transcript_ref": "regional\\voices_of_oklahoma\\vok_duca-gordona.yaml"
+  },
+  {
+    "entity_id": 14,
+    "entity": "Texas",
+    "explicit_text": "Anita Bryant lived in Texas later in life, but when her sister died, she came back to Tulsa for the burial. Texas was where her family resided away from Tulsa.",
+    "implicit_text": "My best friend later lived in a southern U.S. state known for its size and culture, but when her sister died, she came back to Tulsa for the burial. That state was where her family resided away from Tulsa.",
+    "cues": [
+      "Anita Bryant's residence",
+      "sister's death and burial"
+    ],
+    "transcript_ref": "regional\\voices_of_oklahoma\\vok_duca-gordona.yaml"
+  },
+  {
+    "entity_id": 15,
+    "entity": "Don McNeill's Breakfast Club",
+    "explicit_text": "After graduating from Will Rogers, Anita Bryant appeared on Don McNeill's Breakfast Club, a well-known ABC radio show. This helped launch her singing career early on. It was a significant opportunity for her right out of high school.",
+    "implicit_text": "After graduating from the humorist-named high school, my friend appeared on a well-known ABC radio morning show hosted by Don McNeill. This helped launch her singing career early on. It was a significant opportunity for her right out of high school.",
+    "cues": [
+      "Anita Bryant's early career",
+      "ABC radio",
+      "post-high school"
+    ],
+    "transcript_ref": "regional\\voices_of_oklahoma\\vok_duca-gordona.yaml"
+  },
+  {
+    "entity_id": 16,
+    "entity": "Pat Boone",
+    "explicit_text": "Anita Bryant was once engaged to Pat Boone's brother after high school. This connection was part of her early life before she moved on to other opportunities in Florida and beyond.",
+    "implicit_text": "My friend was once engaged to the brother of a famous singer and actor after high school. This connection was part of her early life before she moved on to other opportunities in Florida and beyond.",
+    "cues": [
+      "Anita Bryant's engagement",
+      "Pat Boone's brother"
+    ],
+    "transcript_ref": "regional\\voices_of_oklahoma\\vok_duca-gordona.yaml"
+  },
+  {
+    "entity_id": 17,
+    "entity": "Bob Green",
+    "explicit_text": "Bob Green was Anita Bryant's husband, but he was not a good partner. I remember him making faces at her during a performance at Will Rogers, showing his ego. Despite his behavior, Anita continued her career and traveled with Bob Hope entertaining troops.",
+    "implicit_text": "My friend's husband was not a good partner. I remember him making faces at her during a performance at our high school, showing his ego. Despite his behavior, she continued her career and traveled with a famous entertainer entertaining troops.",
+    "cues": [
+      "Anita Bryant's husband",
+      "negative behavior",
+      "Will Rogers performance",
+      "entertaining troops"
+    ],
+    "transcript_ref": "regional\\voices_of_oklahoma\\vok_duca-gordona.yaml"
+  },
+  {
+    "entity_id": 18,
+    "entity": "Bob Hope",
+    "explicit_text": "Anita Bryant traveled overseas with Bob Hope, performing for the troops. He was very kind to her, and those tours were wonderful experiences. It was a positive memory connected to her career.",
+    "implicit_text": "My friend traveled overseas with a legendary comedian and entertainer, performing for the troops. He was very kind to her, and those tours were wonderful experiences. It was a positive memory connected to her career.",
+    "cues": [
+      "entertained troops overseas",
+      "Bob Hope tours",
+      "Anita Bryant's career"
+    ],
+    "transcript_ref": "regional\\voices_of_oklahoma\\vok_duca-gordona.yaml"
+  },
+  {
+    "entity_id": 19,
+    "entity": "Leon Russell",
+    "explicit_text": "Leon Russell was a year behind me at Will Rogers High School. He was quiet and nerdy looking then, very different from the famous musician he became. We didn't put him in the school's Hall of Fame for years because of his drug problems, but eventually he was inducted after he became famous.",
+    "implicit_text": "A year behind me at the humorist-named high school was a quiet, nerdy-looking student who later became a famous musician. We didn't put him in the school's Hall of Fame for years because of his drug problems, but eventually he was inducted after he became famous.",
+    "cues": [
+      "Will Rogers alumnus",
+      "quiet student",
+      "later fame",
+      "Hall of Fame induction"
+    ],
+    "transcript_ref": "regional\\voices_of_oklahoma\\vok_duca-gordona.yaml"
+  },
+  {
+    "entity_id": 20,
+    "entity": "Don Chandler",
+    "explicit_text": "Don Chandler was a football player from Will Rogers who went on to play in the NFL for the New York Giants and Green Bay Packers. He was the kicker who won the first two Super Bowls. He is one of the notable athletes from our school.",
+    "implicit_text": "A football player from our high school went on to play in the NFL for two major teams. He was the kicker who won the first two Super Bowls. He is one of the notable athletes from our school.",
+    "cues": [
+      "Will Rogers football player",
+      "NFL kicker",
+      "New York Giants",
+      "Green Bay Packers",
+      "Super Bowl winner"
+    ],
+    "transcript_ref": "regional\\voices_of_oklahoma\\vok_duca-gordona.yaml"
+  },
+  {
+    "entity_id": 21,
+    "entity": "New York Giants",
+    "explicit_text": "Don Chandler, a Will Rogers graduate, played for the New York Giants as a kicker. He was part of the early NFL history and contributed to their success. The Giants were one of the teams connected to my school's famous athletes.",
+    "implicit_text": "One of our high school's graduates played as a kicker for a New York NFL team. He was part of early NFL history and contributed to their success. That team was one of the ones connected to my school's famous athletes.",
+    "cues": [
+      "Don Chandler's NFL team",
+      "football history"
+    ],
+    "transcript_ref": "regional\\voices_of_oklahoma\\vok_duca-gordona.yaml"
+  },
+  {
+    "entity_id": 22,
+    "entity": "Green Bay Packers",
+    "explicit_text": "Don Chandler also played for the Green Bay Packers and was the kicker for the first two Super Bowl wins. This team was part of his professional football career after graduating from Will Rogers High School.",
+    "implicit_text": "The same athlete also played for a Wisconsin NFL team and was the kicker for the first two Super Bowl wins. This team was part of his professional football career after graduating from our high school.",
+    "cues": [
+      "Don Chandler's NFL team",
+      "Super Bowl victories"
+    ],
+    "transcript_ref": "regional\\voices_of_oklahoma\\vok_duca-gordona.yaml"
+  },
+  {
+    "entity_id": 23,
+    "entity": "Super Bowl",
+    "explicit_text": "Don Chandler, from Will Rogers High School, was the kicker who won the first two Super Bowls with the Green Bay Packers. This event is a highlight in the sports history connected to my school.",
+    "implicit_text": "A graduate of my high school was the kicker who won the first two championship games of the NFL with a Wisconsin team. This event is a highlight in the sports history connected to my school.",
+    "cues": [
+      "first two Super Bowls",
+      "Don Chandler",
+      "Will Rogers alumnus"
+    ],
+    "transcript_ref": "regional\\voices_of_oklahoma\\vok_duca-gordona.yaml"
+  },
+  {
+    "entity_id": 24,
+    "entity": "David Gates",
+    "explicit_text": "David Gates, who was in my class at Will Rogers, was known for his music even in high school. He was part of the band Bread and famous for songs like 'Baby I'm-a Want You.' We were friends, and I remember his girlfriend Jo who went to Central High School.",
+    "implicit_text": "A classmate at the humorist-named high school was known for his music even in school. He was part of a band famous for soft rock hits. We were friends, and I remember his girlfriend who went to the central Tulsa high school.",
+    "cues": [
+      "Will Rogers classmate",
+      "musician",
+      "Bread band",
+      "friendship"
+    ],
+    "transcript_ref": "regional\\voices_of_oklahoma\\vok_duca-gordona.yaml"
+  },
+  {
+    "entity_id": 25,
+    "entity": "Bread (band)",
+    "explicit_text": "David Gates was the lead singer of Bread, a band famous for hits like 'Baby I'm-a Want You.' As a classmate and friend, I knew him during his early years before he became famous with Bread.",
+    "implicit_text": "The musician from my class was the lead singer of a band famous for hits like 'Baby I'm-a Want You.' As a classmate and friend, I knew him during his early years before he became famous with that group.",
+    "cues": [
+      "David Gates' band",
+      "music career",
+      "Will Rogers connection"
+    ],
+    "transcript_ref": "regional\\voices_of_oklahoma\\vok_duca-gordona.yaml"
+  },
+  {
+    "entity_id": 26,
+    "entity": "Jo (person)",
+    "explicit_text": "Jo was David Gates' girlfriend in high school and went to Central High School. I knew them both and remember the song 'Jo Baby' that David wrote. She has been very sick in recent years, and David has been taking care of her in California.",
+    "implicit_text": "Jo was the girlfriend of my musician friend in high school and attended the central Tulsa high school. I knew them both and remember the song he wrote named after her. She has been very sick in recent years, and he has been taking care of her in California.",
+    "cues": [
+      "David Gates' girlfriend",
+      "Central High School",
+      "song inspiration",
+      "illness"
+    ],
+    "transcript_ref": "regional\\voices_of_oklahoma\\vok_duca-gordona.yaml"
+  },
+  {
+    "entity_id": 27,
+    "entity": "Paul Davis (singer)",
+    "explicit_text": "Paul Davis was another notable musician from Will Rogers High School. He was known for designing covers for Rolling Stone magazine as well. He was part of the talented group of alumni from our school.",
+    "implicit_text": "Another notable musician from our high school was known for his singing and also for designing magazine covers. He was part of the talented group of alumni from our school.",
+    "cues": [
+      "Will Rogers alumnus",
+      "musician",
+      "Rolling Stone cover designer"
+    ],
+    "transcript_ref": "regional\\voices_of_oklahoma\\vok_duca-gordona.yaml"
+  },
+  {
+    "entity_id": 28,
+    "entity": "Rolling Stone",
+    "explicit_text": "Paul Davis, a Will Rogers graduate, designed covers for Rolling Stone magazine. This connection highlights the artistic talent that came from our school.",
+    "implicit_text": "A graduate of our high school designed covers for a famous music and culture magazine. This connection highlights the artistic talent that came from our school.",
+    "cues": [
+      "Paul Davis' work",
+      "magazine cover design"
+    ],
+    "transcript_ref": "regional\\voices_of_oklahoma\\vok_duca-gordona.yaml"
+  },
+  {
+    "entity_id": 29,
+    "entity": "Archie Goodwin (comics)",
+    "explicit_text": "Archie Goodwin, a comic book writer, was among the notable people from Will Rogers High School. He contributed to the arts and was part of our school's impressive alumni roster.",
+    "implicit_text": "A comic book writer was among the notable people from our high school. He contributed to the arts and was part of our school's impressive alumni roster.",
+    "cues": [
+      "comic book writer",
+      "Will Rogers alumnus"
+    ],
+    "transcript_ref": "regional\\voices_of_oklahoma\\vok_duca-gordona.yaml"
+  },
+  {
+    "entity_id": 30,
+    "entity": "S. E. Hinton",
+    "explicit_text": "S. E. Hinton, the author of The Outsiders, was a quiet but very nice student at Will Rogers High School. She was in the first Hall of Fame class and was known for her writing, including poetry. She was a respected figure among us.",
+    "implicit_text": "The author of a famous novel about youth gangs was a quiet but very nice student at our high school. She was in the first Hall of Fame class and was known for her writing, including poetry. She was a respected figure among us.",
+    "cues": [
+      "author",
+      "Will Rogers Hall of Fame",
+      "quiet student",
+      "writer"
+    ],
+    "transcript_ref": "regional\\voices_of_oklahoma\\vok_duca-gordona.yaml"
+  },
+  {
+    "entity_id": 31,
+    "entity": "The Outsiders (novel)",
+    "explicit_text": "The Outsiders, written by S. E. Hinton, is a famous novel connected to my high school through its author. It represents the literary talent that came from Will Rogers High School.",
+    "implicit_text": "A famous novel about teenage struggles, written by an alumnus of my high school, represents the literary talent that came from that school.",
+    "cues": [
+      "S. E. Hinton's novel",
+      "Will Rogers connection"
+    ],
+    "transcript_ref": "regional\\voices_of_oklahoma\\vok_duca-gordona.yaml"
+  },
+  {
+    "entity_id": 32,
+    "entity": "Russell B. Myers",
+    "explicit_text": "I interviewed Russell B. Myers, the creator of Broom-Hilda, who won the National Cartoonists Society Best Humor Award. He is a notable figure in cartooning and humor, connected to the broader world of arts and entertainment.",
+    "implicit_text": "I interviewed a cartoonist who created a well-known comic strip and won a prestigious humor award. He is a notable figure in cartooning and humor, connected to the broader world of arts and entertainment.",
+    "cues": [
+      "cartoonist",
+      "Broom-Hilda creator",
+      "award winner",
+      "interviewed"
+    ],
+    "transcript_ref": "regional\\voices_of_oklahoma\\vok_duca-gordona.yaml"
+  },
+  {
+    "entity_id": 33,
+    "entity": "Broom-Hilda",
+    "explicit_text": "Broom-Hilda is a comic strip created by Russell B. Myers, whom I interviewed. It is well-known in the cartooning community and earned him the National Cartoonists Society Best Humor Award.",
+    "implicit_text": "A comic strip created by the cartoonist I interviewed is well-known in the cartooning community and earned him a national award for humor.",
+    "cues": [
+      "comic strip",
+      "Russell B. Myers",
+      "humor award"
+    ],
+    "transcript_ref": "regional\\voices_of_oklahoma\\vok_duca-gordona.yaml"
+  },
+  {
+    "entity_id": 34,
+    "entity": "National Cartoonists Society",
+    "explicit_text": "The National Cartoonists Society awarded Russell B. Myers the Best Humor Award for his work on Broom-Hilda. This organization recognizes excellence in cartooning and humor.",
+    "implicit_text": "A national organization for cartoonists awarded the humor prize to the creator of a famous comic strip. This organization recognizes excellence in cartooning and humor.",
+    "cues": [
+      "award organization",
+      "Russell B. Myers",
+      "cartooning"
+    ],
+    "transcript_ref": "regional\\voices_of_oklahoma\\vok_duca-gordona.yaml"
+  },
+  {
+    "entity_id": 35,
+    "entity": "David Rader",
+    "explicit_text": "David Rader was a star athlete at the University of Tulsa and later served in the Oklahoma Senate. He is also a Will Rogers alumnus and was involved in selecting Hall of Fame inductees. His career spans sports and politics.",
+    "implicit_text": "A star athlete at a local university and later a state senator was also an alumnus of our high school. He was involved in selecting Hall of Fame inductees. His career spans sports and politics.",
+    "cues": [
+      "Will Rogers alumnus",
+      "TU star",
+      "Oklahoma Senate",
+      "Hall of Fame committee"
+    ],
+    "transcript_ref": "regional\\voices_of_oklahoma\\vok_duca-gordona.yaml"
+  },
+  {
+    "entity_id": 36,
+    "entity": "Oklahoma Senate",
+    "explicit_text": "Both David Rader and Roger Randall, who went to Will Rogers, served in the Oklahoma Senate. This shows the political involvement of some of my school's alumni.",
+    "implicit_text": "Both a former athlete and another alumnus from our high school served in the state senate. This shows the political involvement of some of my school's alumni.",
+    "cues": [
+      "David Rader",
+      "Roger Randall",
+      "political service"
+    ],
+    "transcript_ref": "regional\\voices_of_oklahoma\\vok_duca-gordona.yaml"
+  },
+  {
+    "entity_id": 37,
+    "entity": "Roger Randall",
+    "explicit_text": "Roger Randall, a Will Rogers graduate, served in the Oklahoma Senate and was also mayor of Tulsa. He was involved in our school's Hall of Fame selection process. He is a notable figure in local politics.",
+    "implicit_text": "An alumnus of our high school served in the state senate and was also mayor of our city. He was involved in our school's Hall of Fame selection process. He is a notable figure in local politics.",
+    "cues": [
+      "Will Rogers alumnus",
+      "Oklahoma Senate",
+      "mayor of Tulsa",
+      "Hall of Fame committee"
+    ],
+    "transcript_ref": "regional\\voices_of_oklahoma\\vok_duca-gordona.yaml"
+  },
+  {
+    "entity_id": 38,
+    "entity": "Mayor of Tulsa",
+    "explicit_text": "Roger Randall, who attended Will Rogers High School, served as mayor of Tulsa. His leadership role is part of the legacy of our school's alumni in public service.",
+    "implicit_text": "A graduate of our high school served as mayor of our city. His leadership role is part of the legacy of our school's alumni in public service.",
+    "cues": [
+      "Roger Randall",
+      "Tulsa mayor",
+      "public service"
+    ],
+    "transcript_ref": "regional\\voices_of_oklahoma\\vok_duca-gordona.yaml"
+  },
+  {
+    "entity_id": 39,
+    "entity": "Gaylord Sartain",
+    "explicit_text": "Gaylord Sartain was younger than me but always funny and part of the Will Rogers community. He is remembered fondly as a humorous presence among our alumni.",
+    "implicit_text": "A younger alumnus of our high school was always funny and part of the community. He is remembered fondly as a humorous presence among our alumni.",
+    "cues": [
+      "younger alumnus",
+      "humorous",
+      "Will Rogers connection"
+    ],
+    "transcript_ref": "regional\\voices_of_oklahoma\\vok_duca-gordona.yaml"
+  },
+  {
+    "entity_id": 40,
+    "entity": "Paula Unruh",
+    "explicit_text": "Paula Unruh was a senior executive in the Reagan administration and also a graduate of Will Rogers High School. She represents the high level of achievement among our school's alumni.",
+    "implicit_text": "A senior executive in the 1980s U.S. presidential administration was also a graduate of our high school. She represents the high level of achievement among our school's alumni.",
+    "cues": [
+      "Will Rogers alumna",
+      "Reagan administration",
+      "senior executive"
+    ],
+    "transcript_ref": "regional\\voices_of_oklahoma\\vok_duca-gordona.yaml"
+  },
+  {
+    "entity_id": 41,
+    "entity": "Reagan administration",
+    "explicit_text": "Paula Unruh, a Will Rogers graduate, served as a senior executive in the Reagan administration. This connects my school to national government leadership during that era.",
+    "implicit_text": "A graduate of our high school served as a senior executive in the U.S. government during the 1980s. This connects my school to national leadership during that era.",
+    "cues": [
+      "Paula Unruh",
+      "senior executive",
+      "national government"
+    ],
+    "transcript_ref": "regional\\voices_of_oklahoma\\vok_duca-gordona.yaml"
+  },
+  {
+    "entity_id": 42,
+    "entity": "Tulsa, Oklahoma",
+    "explicit_text": "Tulsa, Oklahoma is where I grew up and attended school, including Whittier Elementary, Cleveland Junior High, and Will Rogers High School. It is the city where many of my family events and friendships took place. Tulsa has been central to my life and memories.",
+    "implicit_text": "I grew up and attended school in a city in northeastern Oklahoma, including elementary, junior high, and high school. It is the city where many of my family events and friendships took place. That city has been central to my life and memories.",
+    "cues": [
+      "hometown",
+      "schooling",
+      "family life",
+      "friendships"
+    ],
+    "transcript_ref": "regional\\voices_of_oklahoma\\vok_duca-gordona.yaml"
+  }
+]

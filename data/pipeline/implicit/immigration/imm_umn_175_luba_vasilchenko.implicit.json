@@ -1,0 +1,109 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "Astrakhan",
+    "explicit_text": "My mom was born in Astrakhan, Russia in 1981. She grew up in a city that was very communist and had no freedom of religion. Some of her family members were even jailed because they were Christian. Astrakhan was the place they left behind when they moved to the United States in 1996.",
+    "implicit_text": "My mom was born in a southern Russian city in 1981. She grew up in a place that was very communist and had no freedom of religion. Some of her family members were even jailed because they were Christian. That city was the place they left behind when they moved to the United States in 1996.",
+    "cues": [
+      "1981",
+      "communist city",
+      "no freedom of religion",
+      "family jailed",
+      "1996 emigration"
+    ],
+    "transcript_ref": "immigration\\imm_umn_175_luba_vasilchenko.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "Russia",
+    "explicit_text": "Russia was my mom's home country before she moved to the United States. Life there was tough because it was a communist country with no religious freedom, which affected my family deeply. In 1996, my mom and her family left Russia to seek a better life in America. They came to the US hoping for freedom and new opportunities.",
+    "implicit_text": "My mom's home country before she moved to the United States was a large nation spanning Eastern Europe and northern Asia. Life there was tough because it was a communist country with no religious freedom, which affected my family deeply. In 1996, my mom and her family left that country to seek a better life in America. They came to the US hoping for freedom and new opportunities.",
+    "cues": [
+      "communist country",
+      "no religious freedom",
+      "family jailed",
+      "1996 emigration",
+      "seeking freedom"
+    ],
+    "transcript_ref": "immigration\\imm_umn_175_luba_vasilchenko.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "United States",
+    "explicit_text": "The United States has been a place of hope and freedom for my family since 1996 when my mom and her family moved here from Russia. They were happy to find a country where religion was free and people spoke English. We live in Portland, Oregon, and my mom finished high school and some college here. I was born in the US in 2004, and I feel very grateful to be part of this country.",
+    "implicit_text": "This country has been a place of hope and freedom for my family since 1996 when my mom and her family moved here from Russia. They were happy to find a nation where religion was free and people spoke English. We live in Portland, Oregon, and my mom finished high school and some college here. I was born in this country in 2004, and I feel very grateful to be part of it.",
+    "cues": [
+      "1996 immigration",
+      "freedom of religion",
+      "English language",
+      "Portland, Oregon",
+      "born 2004"
+    ],
+    "transcript_ref": "immigration\\imm_umn_175_luba_vasilchenko.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "Portland, Oregon",
+    "explicit_text": "Portland, Oregon is where my family settled when they arrived in the United States. My mom started middle school here and had to learn English quickly to fit in. She finished high school in Portland, and I was born here in 2004 along with my siblings. Most of our extended family lives in Portland, so we often gather here to celebrate holidays.",
+    "implicit_text": "This city in the Pacific Northwest is where my family settled when they arrived in the United States. My mom started middle school here and had to learn English quickly to fit in. She finished high school in this city, and I was born here in 2004 along with my siblings. Most of our extended family lives here, so we often gather to celebrate holidays.",
+    "cues": [
+      "arrival city",
+      "middle school",
+      "high school",
+      "born 2004",
+      "family gatherings"
+    ],
+    "transcript_ref": "immigration\\imm_umn_175_luba_vasilchenko.yaml"
+  },
+  {
+    "entity_id": 5,
+    "entity": "Concordia University",
+    "explicit_text": "My sister is currently attending Concordia University after finishing high school in Portland. She is studying to become a nurse, which makes us very proud. Concordia University is an important part of our family's educational journey here in the United States.",
+    "implicit_text": "My sister is currently attending a private university in Portland after finishing high school here. She is studying to become a nurse, which makes us very proud. This university is an important part of our family's educational journey here in the United States.",
+    "cues": [
+      "sister",
+      "post-high school",
+      "nursing studies",
+      "Portland",
+      "family education"
+    ],
+    "transcript_ref": "immigration\\imm_umn_175_luba_vasilchenko.yaml"
+  },
+  {
+    "entity_id": 6,
+    "entity": "Thanksgiving",
+    "explicit_text": "Thanksgiving is our favorite holiday to celebrate as a family. We get together with all our grandparents and cousins here in Portland, Oregon. It's a special time because we are thankful for this country and the opportunities it has given us.",
+    "implicit_text": "This holiday is our favorite to celebrate as a family. We get together with all our grandparents and cousins here in Portland, Oregon. It's a special time because we are thankful for this country and the opportunities it has given us.",
+    "cues": [
+      "family gatherings",
+      "Portland, Oregon",
+      "thankfulness",
+      "favorite holiday"
+    ],
+    "transcript_ref": "immigration\\imm_umn_175_luba_vasilchenko.yaml"
+  },
+  {
+    "entity_id": 7,
+    "entity": "Easter",
+    "explicit_text": "Easter is one of the holidays my family loves to celebrate together. We often have big family gatherings with our grandparents and cousins in Portland. It’s a joyful time that brings us closer as a family.",
+    "implicit_text": "This holiday is one my family loves to celebrate together. We often have big family gatherings with our grandparents and cousins in Portland. It’s a joyful time that brings us closer as a family.",
+    "cues": [
+      "family gatherings",
+      "Portland, Oregon",
+      "holiday celebration"
+    ],
+    "transcript_ref": "immigration\\imm_umn_175_luba_vasilchenko.yaml"
+  },
+  {
+    "entity_id": 8,
+    "entity": "Christmas",
+    "explicit_text": "Christmas is another important holiday for my family. We celebrate it with all our relatives who live in Portland, Oregon. It’s a blessed time for us to be together and enjoy the season.",
+    "implicit_text": "This holiday is another important time for my family. We celebrate it with all our relatives who live in Portland, Oregon. It’s a blessed time for us to be together and enjoy the season.",
+    "cues": [
+      "family gatherings",
+      "Portland, Oregon",
+      "holiday celebration"
+    ],
+    "transcript_ref": "immigration\\imm_umn_175_luba_vasilchenko.yaml"
+  }
+]

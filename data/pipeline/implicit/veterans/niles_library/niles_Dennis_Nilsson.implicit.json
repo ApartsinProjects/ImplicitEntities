@@ -1,0 +1,379 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "Chicago (Place)",
+    "explicit_text": "I was living in Chicago when I was drafted into the Army in September 1967. Specifically, I lived on the Northwest Side in the Humboldt Park neighborhood. Chicago was also where I attended high school and worked before entering service. My induction took place at the Selective Service Headquarters on Van Buren Street in Chicago.",
+    "implicit_text": "I was living in a major Midwestern city when I was drafted into the Army in September 1967. Specifically, I lived on the Northwest Side in the Humboldt Park neighborhood. That city was also where I attended high school and worked before entering service. My induction took place at the Selective Service Headquarters on Van Buren Street in that city.",
+    "cues": [
+      "September 1967",
+      "Northwest Side",
+      "Humboldt Park",
+      "Van Buren Street",
+      "Selective Service Headquarters"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_Dennis_Nilsson.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "Humboldt Park (Place)",
+    "explicit_text": "Humboldt Park was the neighborhood I called home in Chicago before I entered the Army in 1967. It’s on the Northwest Side of the city, and that’s where I lived during my high school and early college years. It was a familiar place I left behind when I was drafted.",
+    "implicit_text": "Humboldt Park was the neighborhood I called home in that large Midwestern city before I entered the Army in 1967. It’s on the Northwest Side of the city, and that’s where I lived during my high school and early college years. It was a familiar place I left behind when I was drafted.",
+    "cues": [
+      "1967",
+      "Northwest Side Chicago",
+      "home neighborhood"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_Dennis_Nilsson.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "St. Philip Basilica High School (Organization)",
+    "explicit_text": "I attended St. Philip Basilica High School on Jackson and Kedzie on Chicago’s West Side. It was a solid school, and I played football there in the Chicago Catholic League. Interestingly, I learned that a World War II veteran from Niles, Mr. Kenneth Lee, also attended St. Philip’s back in the early 1940s.",
+    "implicit_text": "I attended a Catholic high school located at Jackson and Kedzie on the West Side of that major city. It was a solid school, and I played football there in the city’s Catholic League. Interestingly, I learned that a World War II veteran from Niles, Mr. Kenneth Lee, also attended that school back in the early 1940s.",
+    "cues": [
+      "Chicago West Side",
+      "Jackson and Kedzie",
+      "Chicago Catholic League",
+      "early 1940s",
+      "World War II veteran Kenneth Lee"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_Dennis_Nilsson.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "World War II (Event)",
+    "explicit_text": "My father was born and raised in Ireland and became a U.S. citizen, but he was never drafted or inducted into World War II. I also know of a World War II veteran named Kenneth Lee from Niles who attended the same high school I did, St. Philip Basilica. So while I didn’t have a family tradition of military service in World War II, I was aware of others from my community who served.",
+    "implicit_text": "My father was born and raised in Ireland and became a U.S. citizen, but he was never drafted or inducted into the global conflict of the 1940s. I also know of a World War II veteran named Kenneth Lee from Niles who attended the same high school I did. So while I didn’t have a family tradition of military service in that war, I was aware of others from my community who served.",
+    "cues": [
+      "Father from Ireland",
+      "never drafted",
+      "Kenneth Lee",
+      "Niles",
+      "St. Philip Basilica High School"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_Dennis_Nilsson.yaml"
+  },
+  {
+    "entity_id": 5,
+    "entity": "Niles, Illinois (Place)",
+    "explicit_text": "Niles, Illinois is where Mr. Kenneth Lee lives, a World War II veteran I heard about who also attended St. Philip Basilica High School back in the early 1940s. It’s a place connected to my high school community through him, even though I never lived there myself.",
+    "implicit_text": "Niles, Illinois is where Mr. Kenneth Lee lives, a World War II veteran I heard about who also attended my high school back in the early 1940s. It’s a place connected to my high school community through him, even though I never lived there myself.",
+    "cues": [
+      "World War II veteran Kenneth Lee",
+      "early 1940s",
+      "St. Philip Basilica High School"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_Dennis_Nilsson.yaml"
+  },
+  {
+    "entity_id": 6,
+    "entity": "St. Procopius College (Organization)",
+    "explicit_text": "Before I was drafted, I was attending St. Procopius College in Lisle, Illinois. I was a sophomore majoring in history when I had to drop out due to illness. Had I stayed in school, I would have had an S-2 deferment from the draft, but I decided to enter the Army in 1967 anyway.",
+    "implicit_text": "Before I was drafted, I was attending a college in Lisle, Illinois. I was a sophomore majoring in history when I had to drop out due to illness. Had I stayed in school, I would have had an S-2 deferment from the draft, but I decided to enter the Army in 1967 anyway.",
+    "cues": [
+      "Lisle, Illinois",
+      "sophomore",
+      "history major",
+      "1967",
+      "S-2 deferment"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_Dennis_Nilsson.yaml"
+  },
+  {
+    "entity_id": 7,
+    "entity": "Ireland (Place)",
+    "explicit_text": "My father was born and raised in Ireland before becoming a U.S. citizen. Despite his Irish roots, he was never drafted or inducted into World War II. Ireland is part of my family heritage, but it didn’t directly influence my military service.",
+    "implicit_text": "My father was born and raised in Ireland before becoming a U.S. citizen. Despite his Irish roots, he was never drafted or inducted into the global conflict of the 1940s. That country is part of my family heritage, but it didn’t directly influence my military service.",
+    "cues": [
+      "Father born and raised",
+      "U.S. citizenship",
+      "World War II draft"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_Dennis_Nilsson.yaml"
+  },
+  {
+    "entity_id": 8,
+    "entity": "Selective Service System (Organization)",
+    "explicit_text": "I reported to the Selective Service Headquarters on Van Buren Street in Chicago for my induction physical in 1967. That’s where they processed my draft notice and arranged my draft date. From there, I was sent by train from Union Station to Fort Leonard Wood for basic training.",
+    "implicit_text": "I reported to the draft processing center on Van Buren Street in that major Midwestern city for my induction physical in 1967. That’s where they processed my draft notice and arranged my draft date. From there, I was sent by train from Union Station to Fort Leonard Wood for basic training.",
+    "cues": [
+      "Van Buren Street Chicago",
+      "1967",
+      "draft physical",
+      "Union Station",
+      "Fort Leonard Wood"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_Dennis_Nilsson.yaml"
+  },
+  {
+    "entity_id": 9,
+    "entity": "Van Buren Street (Chicago) (Place)",
+    "explicit_text": "Van Buren Street in Chicago is where the Selective Service Headquarters was located when I was inducted in 1967. I went there for my physical and initial processing before being sent to Fort Leonard Wood. The building was still there at the time of my interview.",
+    "implicit_text": "Van Buren Street in that large Midwestern city is where the draft processing center was located when I was inducted in 1967. I went there for my physical and initial processing before being sent to Fort Leonard Wood. The building was still there at the time of my interview.",
+    "cues": [
+      "Selective Service Headquarters",
+      "1967",
+      "Chicago",
+      "draft physical"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_Dennis_Nilsson.yaml"
+  },
+  {
+    "entity_id": 10,
+    "entity": "Union Station (St. Louis) (Place)",
+    "explicit_text": "After my induction in Chicago, we were taken to Union Station in St. Louis by train. From there, buses transported us to Fort Leonard Wood for basic training. It was part of the journey from Chicago to my Army training base.",
+    "implicit_text": "After my induction in that Midwestern city, we were taken to a major train station in St. Louis by train. From there, buses transported us to Fort Leonard Wood for basic training. It was part of the journey from the city where I was inducted to my Army training base.",
+    "cues": [
+      "St. Louis",
+      "Union Station",
+      "train travel",
+      "Fort Leonard Wood"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_Dennis_Nilsson.yaml"
+  },
+  {
+    "entity_id": 11,
+    "entity": "Fort Leonard Wood (Place)",
+    "explicit_text": "I completed my eight weeks of basic training at Fort Leonard Wood, Missouri, and then stayed on for eight more weeks of advanced individual training as a combat engineer. Fort Leonard Wood was where they trained engineers like me for combat roles. The training there prepared me well for my duties in Vietnam.",
+    "implicit_text": "I completed my eight weeks of basic training at a military base in Missouri, and then stayed on for eight more weeks of advanced individual training as a combat engineer. That base was where they trained engineers like me for combat roles. The training there prepared me well for my duties in Southeast Asia.",
+    "cues": [
+      "Missouri",
+      "basic training",
+      "advanced individual training",
+      "combat engineer",
+      "1967-1968"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_Dennis_Nilsson.yaml"
+  },
+  {
+    "entity_id": 12,
+    "entity": "Chicago Catholic League (Organization)",
+    "explicit_text": "I played football in high school in the Chicago Catholic League, which was one of the strongest football leagues in the country at the time. That athletic background helped me with the physical demands of basic training. It gave me confidence that the Army’s physical agility tests wouldn’t be too hard.",
+    "implicit_text": "I played football in high school in a strong Catholic league in that major city, which was one of the strongest football leagues in the country at the time. That athletic background helped me with the physical demands of basic training. It gave me confidence that the Army’s physical agility tests wouldn’t be too hard.",
+    "cues": [
+      "high school football",
+      "Chicago Catholic League",
+      "physical training",
+      "1960s"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_Dennis_Nilsson.yaml"
+  },
+  {
+    "entity_id": 13,
+    "entity": "Vietnam War (Event)",
+    "explicit_text": "I was drafted in 1967 during the Vietnam War and knew that I would likely be sent there after training. I arrived in Vietnam on February 29, 1968, landing at Tan Son Nhut Air Base near Saigon. My time there involved mine sweeping, patrolling, and working closely with infantry units in combat engineer roles.",
+    "implicit_text": "I was drafted in 1967 during the conflict in Southeast Asia and knew that I would likely be sent there after training. I arrived in that country on February 29, 1968, landing at the main air base near its largest city. My time there involved mine sweeping, patrolling, and working closely with infantry units in combat engineer roles.",
+    "cues": [
+      "drafted 1967",
+      "arrived 1968",
+      "Tan Son Nhut Air Base",
+      "combat engineer",
+      "mine sweeping"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_Dennis_Nilsson.yaml"
+  },
+  {
+    "entity_id": 14,
+    "entity": "25th Infantry Division (Military_Unit)",
+    "explicit_text": "Once in Vietnam, I was assigned to the 25th Infantry Division’s combat engineer battalion. They were based in Cu Chi and later moved to Tay Ninh Province near the Cambodian border. The division operated in the Parrot’s Beak area, a strategic location close to the Ho Chi Minh Trail.",
+    "implicit_text": "Once in Southeast Asia, I was assigned to a combat engineer battalion within a well-known infantry division. They were based in Cu Chi and later moved to Tay Ninh Province near the Cambodian border. The division operated in the Parrot’s Beak area, a strategic location close to the enemy’s main supply trail.",
+    "cues": [
+      "Vietnam 1968",
+      "Cu Chi",
+      "Tay Ninh Province",
+      "Parrot’s Beak",
+      "combat engineers"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_Dennis_Nilsson.yaml"
+  },
+  {
+    "entity_id": 15,
+    "entity": "Oakland, California (Place)",
+    "explicit_text": "After finishing my training at Fort Leonard Wood, I flew from Chicago to Oakland, California, where I entered the reception center. I stayed there for about two days before being assigned a flight to Vietnam. Oakland was a key transit point on my way overseas.",
+    "implicit_text": "After finishing my training in Missouri, I flew from the Midwestern city to a major West Coast city where I entered the reception center. I stayed there for about two days before being assigned a flight to Southeast Asia. That city was a key transit point on my way overseas.",
+    "cues": [
+      "1968",
+      "reception center",
+      "flight assignment",
+      "transit to Vietnam"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_Dennis_Nilsson.yaml"
+  },
+  {
+    "entity_id": 16,
+    "entity": "O'Hare International Airport (Place)",
+    "explicit_text": "I flew out of O'Hare International Airport in Chicago to Oakland on a commercial flight, but I had to be in uniform and travel on military standby with a discounted fare. This was part of my journey to join my unit in Vietnam after training.",
+    "implicit_text": "I flew out of the large international airport in that Midwestern city to the West Coast on a commercial flight, but I had to be in uniform and travel on military standby with a discounted fare. This was part of my journey to join my unit in Southeast Asia after training.",
+    "cues": [
+      "Chicago",
+      "military standby",
+      "1968",
+      "flight to Oakland"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_Dennis_Nilsson.yaml"
+  },
+  {
+    "entity_id": 17,
+    "entity": "Travis Air Force Base (Place)",
+    "explicit_text": "From Oakland, we flew to Travis Air Force Base in California as part of the route to Vietnam. Travis was a major stopover before continuing on to Anchorage, Alaska, and then to Japan. It was part of a long journey that took about 23 hours total.",
+    "implicit_text": "From the West Coast city, we flew to a major Air Force base in California as part of the route to Southeast Asia. That base was a major stopover before continuing on to Anchorage, Alaska, and then to Japan. It was part of a long journey that took about 23 hours total.",
+    "cues": [
+      "California",
+      "1968",
+      "transit to Vietnam",
+      "flight route"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_Dennis_Nilsson.yaml"
+  },
+  {
+    "entity_id": 18,
+    "entity": "Anchorage, Alaska (Place)",
+    "explicit_text": "Our flight from Travis Air Force Base stopped in Anchorage, Alaska, on the way to Vietnam. It was a brief layover on a long journey that included stops in Japan before arriving at Tan Son Nhut Air Base. The route was over the top, a shorter path than going around Hawaii.",
+    "implicit_text": "Our flight from the California Air Force base stopped in Anchorage, Alaska, on the way to Southeast Asia. It was a brief layover on a long journey that included stops in Japan before arriving at the main air base near the largest city in that country. The route was over the top, a shorter path than going around Hawaii.",
+    "cues": [
+      "1968",
+      "flight route",
+      "stopover",
+      "Vietnam deployment"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_Dennis_Nilsson.yaml"
+  },
+  {
+    "entity_id": 19,
+    "entity": "Yokosuka, Japan (Place)",
+    "explicit_text": "After Anchorage, we stopped in Yokosuka, Japan, before flying on to Tan Son Nhut Air Base in Vietnam. Yokosuka was another transit point on the nearly 23-hour journey from the U.S. to Vietnam. None of the soldiers on the plane were people I knew from training.",
+    "implicit_text": "After Anchorage, we stopped in Yokosuka, Japan, before flying on to the main air base near the largest city in Southeast Asia. Yokosuka was another transit point on the nearly 23-hour journey from the U.S. to that country. None of the soldiers on the plane were people I knew from training.",
+    "cues": [
+      "1968",
+      "flight route",
+      "transit point",
+      "Vietnam deployment"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_Dennis_Nilsson.yaml"
+  },
+  {
+    "entity_id": 20,
+    "entity": "Tan Son Nhut Air Base (Place)",
+    "explicit_text": "I landed at Tan Son Nhut Air Base near Saigon at 5:30 pm on February 29, 1968. The air was extremely humid with a light rain, and the haze made the sky look cloudless. From there, we took a bus with protective screens to a processing base where we stayed a couple of days before joining our units.",
+    "implicit_text": "I landed at the main air base near the largest city in Southeast Asia at 5:30 pm on February 29, 1968. The air was extremely humid with a light rain, and the haze made the sky look cloudless. From there, we took a bus with protective screens to a processing base where we stayed a couple of days before joining our units.",
+    "cues": [
+      "February 29, 1968",
+      "Saigon",
+      "humid weather",
+      "processing base",
+      "Vietnam War"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_Dennis_Nilsson.yaml"
+  },
+  {
+    "entity_id": 21,
+    "entity": "Saigon (Place)",
+    "explicit_text": "Tan Son Nhut Air Base, where I landed in 1968, was the international airport for Saigon, which is now known as Ho Chi Minh City. The 25th Infantry Division operated in areas about 20-25 miles from Saigon, including Cu Chi and Tay Ninh Province near the Cambodian border.",
+    "implicit_text": "The main air base where I landed in 1968 was the international airport for the largest city in that Southeast Asian country, now known by a different name. The infantry division I served with operated in areas about 20-25 miles from that city, including Cu Chi and Tay Ninh Province near the Cambodian border.",
+    "cues": [
+      "Vietnam 1968",
+      "Tan Son Nhut Air Base",
+      "25th Infantry Division",
+      "Cu Chi",
+      "Tay Ninh Province"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_Dennis_Nilsson.yaml"
+  },
+  {
+    "entity_id": 22,
+    "entity": "Cu Chi (Place)",
+    "explicit_text": "Cu Chi was the base of the 25th Infantry Division’s combat engineers where I was stationed after arriving in Vietnam. It’s located in South Vietnam about 20-25 miles from Saigon. From there, my company later moved to Tay Ninh Province near the Cambodian border.",
+    "implicit_text": "Cu Chi was the base of the combat engineers where I was stationed after arriving in Southeast Asia. It’s located about 20-25 miles from the largest city in that country. From there, my company later moved to Tay Ninh Province near the Cambodian border.",
+    "cues": [
+      "South Vietnam",
+      "1968",
+      "25th Infantry Division",
+      "combat engineers",
+      "near Saigon"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_Dennis_Nilsson.yaml"
+  },
+  {
+    "entity_id": 23,
+    "entity": "South Vietnam (Place)",
+    "explicit_text": "I served in South Vietnam during the Vietnam War, arriving in early 1968. My unit, the 25th Infantry Division, operated in areas near Saigon and along the Cambodian border. We conducted mine sweeps, patrolled roads, and supported infantry operations in this region.",
+    "implicit_text": "I served in the southern part of that Southeast Asian country during the war, arriving in early 1968. My unit operated in areas near the largest city and along the Cambodian border. We conducted mine sweeps, patrolled roads, and supported infantry operations in this region.",
+    "cues": [
+      "Vietnam War",
+      "1968",
+      "25th Infantry Division",
+      "Saigon",
+      "Cambodian border"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_Dennis_Nilsson.yaml"
+  },
+  {
+    "entity_id": 24,
+    "entity": "Cambodia (Place)",
+    "explicit_text": "Cambodia was just across the border from where my unit operated in Tay Ninh Province and the Parrot’s Beak area. The Ho Chi Minh Trail ran through Cambodia, making it a strategic location during the war. We were close enough to see the border and knew enemy forces used that route to infiltrate South Vietnam.",
+    "implicit_text": "Cambodia was just across the border from where my unit operated in Tay Ninh Province and the Parrot’s Beak area. The enemy’s main supply trail ran through Cambodia, making it a strategic location during the war. We were close enough to see the border and knew enemy forces used that route to infiltrate the southern part of the country.",
+    "cues": [
+      "Cambodian border",
+      "Tay Ninh Province",
+      "Parrot’s Beak",
+      "Ho Chi Minh Trail",
+      "Vietnam War"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_Dennis_Nilsson.yaml"
+  },
+  {
+    "entity_id": 25,
+    "entity": "Parrot's Beak (Cambodia) (Place)",
+    "explicit_text": "The Parrot’s Beak is a region on the Cambodian border shaped like a bird’s beak where the 25th Infantry Division was positioned. It was a key infiltration point for the enemy coming down the Ho Chi Minh Trail into South Vietnam. Our unit operated nearby, protecting the area and conducting patrols.",
+    "implicit_text": "The Parrot’s Beak is a region on the Cambodian border shaped like a bird’s beak where the infantry division was positioned. It was a key infiltration point for the enemy coming down the main supply trail into the southern part of the country. Our unit operated nearby, protecting the area and conducting patrols.",
+    "cues": [
+      "Cambodian border",
+      "25th Infantry Division",
+      "Ho Chi Minh Trail",
+      "Vietnam War",
+      "infiltration route"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_Dennis_Nilsson.yaml"
+  },
+  {
+    "entity_id": 26,
+    "entity": "Ho Chi Minh Trail (Place)",
+    "explicit_text": "The Ho Chi Minh Trail was the enemy’s main supply route running through Laos and Cambodia into South Vietnam. Our unit in the 25th Infantry Division operated near the trail’s end at the Parrot’s Beak area on the Cambodian border. We conducted mine sweeps and patrols to disrupt enemy movements along this route.",
+    "implicit_text": "The main supply trail was the enemy’s primary route running through Laos and Cambodia into the southern part of that Southeast Asian country. Our unit operated near the trail’s end at the Parrot’s Beak area on the Cambodian border. We conducted mine sweeps and patrols to disrupt enemy movements along this route.",
+    "cues": [
+      "Vietnam War",
+      "Parrot’s Beak",
+      "Cambodian border",
+      "25th Infantry Division",
+      "enemy supply route"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_Dennis_Nilsson.yaml"
+  },
+  {
+    "entity_id": 27,
+    "entity": "Tay Ninh Province (Place)",
+    "explicit_text": "After several months at Cu Chi, my company was moved to Tay Ninh Province, right on the Cambodian border. This area was critical because it was close to the Ho Chi Minh Trail and the Parrot’s Beak. We continued mine sweeping and security patrols there to protect convoys and disrupt enemy activity.",
+    "implicit_text": "After several months at Cu Chi, my company was moved to Tay Ninh Province, right on the Cambodian border. This area was critical because it was close to the main supply trail and the Parrot’s Beak. We continued mine sweeping and security patrols there to protect convoys and disrupt enemy activity.",
+    "cues": [
+      "Vietnam War",
+      "Cambodian border",
+      "Ho Chi Minh Trail",
+      "25th Infantry Division",
+      "combat engineers"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_Dennis_Nilsson.yaml"
+  },
+  {
+    "entity_id": 28,
+    "entity": "Army of the Republic of Vietnam (Military_Unit)",
+    "explicit_text": "While I was in Vietnam with the U.S. Army’s 25th Infantry Division, we often operated alongside the Army of the Republic of Vietnam forces. They were the South Vietnamese military fighting against the North Vietnamese and Viet Cong. Our combat engineers supported joint operations in the region.",
+    "implicit_text": "While I was in Southeast Asia with the U.S. infantry division, we often operated alongside the South Vietnamese military forces. They were the local military fighting against the North Vietnamese and Viet Cong. Our combat engineers supported joint operations in the region.",
+    "cues": [
+      "Vietnam War",
+      "25th Infantry Division",
+      "South Vietnam",
+      "joint operations"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_Dennis_Nilsson.yaml"
+  }
+]

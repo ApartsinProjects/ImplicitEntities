@@ -1,0 +1,286 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "Chicago",
+    "explicit_text": "I was born in Chicago, Illinois, specifically at St. Luke's Hospital on December 3, 1931. Later, I worked in the Chicago Public Schools for about half a year before being drafted into the Army in 1953. My wife also taught in Chicago Public Schools before joining me overseas.",
+    "implicit_text": "I was born in a major Midwestern city, specifically at a well-known hospital there on December 3, 1931. Later, I worked in the public school system of that city for about half a year before being drafted into the Army in 1953. My wife also taught in the same city's public schools before joining me overseas.",
+    "cues": [
+      "December 3, 1931",
+      "St. Luke's Hospital",
+      "Chicago Public Schools",
+      "1953"
+    ],
+    "transcript_ref": "veterans\\ippl_library\\ippl_vhp_army_bing.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "Illinois",
+    "explicit_text": "Illinois is where I was born and where I spent part of my early life, including my time working in the Chicago Public Schools. When I was drafted in 1953, I left Illinois to begin my military service. My wife also returned to Illinois to live with her parents and work in the family flower shop before joining me overseas.",
+    "implicit_text": "The state where I was born and spent part of my early life included my time working in the public schools of a major city there. When I was drafted in 1953, I left that state to begin my military service. My wife also returned to her parents' home in that state and worked in the family flower shop before joining me overseas.",
+    "cues": [
+      "birthplace",
+      "Chicago Public Schools",
+      "1953",
+      "family flower shop"
+    ],
+    "transcript_ref": "veterans\\ippl_library\\ippl_vhp_army_bing.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "St. Luke's Hospital (Chicago)",
+    "explicit_text": "I was born at St. Luke's Hospital in Chicago on December 3, 1931. This hospital is where my life began before I eventually went on to serve in the Army. It holds significance as the place of my birth in Illinois.",
+    "implicit_text": "I was born at a prominent hospital in the major Midwestern city on December 3, 1931. This hospital is where my life began before I eventually went on to serve in the Army. It holds significance as the place of my birth in that state.",
+    "cues": [
+      "birth",
+      "December 3, 1931",
+      "Chicago",
+      "Illinois"
+    ],
+    "transcript_ref": "veterans\\ippl_library\\ippl_vhp_army_bing.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "United States Army",
+    "explicit_text": "I was drafted into the United States Army in 1953 while attending school and married for nine months. I went through basic training at Fort Leonard Wood and later trained as an aircraft mechanic at San Marcos Air Force Base in Texas. Eventually, I was stationed in Mannheim, Germany, working on Army aircraft, while my wife became an Army civilian employee teaching children of servicemen.",
+    "implicit_text": "I was drafted into the national military in 1953 while attending school and married for nine months. I went through basic training at a Missouri base and later trained as an aircraft mechanic at a Texas Air Force Base. Eventually, I was stationed in Mannheim, Germany, working on military aircraft, while my wife became a civilian employee teaching children of servicemen.",
+    "cues": [
+      "drafted 1953",
+      "basic training",
+      "Fort Leonard Wood",
+      "San Marcos Air Force Base",
+      "Mannheim, Germany"
+    ],
+    "transcript_ref": "veterans\\ippl_library\\ippl_vhp_army_bing.yaml"
+  },
+  {
+    "entity_id": 5,
+    "entity": "Cleveland",
+    "explicit_text": "Before my husband was drafted, I taught for a year in Cleveland, Ohio. This was part of my early teaching career before moving on to teach in Chicago Public Schools. My teaching experience in Cleveland helped me secure a teaching position later in Germany.",
+    "implicit_text": "Before my husband was drafted, I taught for a year in a large Ohio city on Lake Erie. This was part of my early teaching career before moving on to teach in the public schools of a major Midwestern city. My teaching experience in that Ohio city helped me secure a teaching position later in Germany.",
+    "cues": [
+      "teaching",
+      "Cleveland, Ohio",
+      "one year",
+      "early career"
+    ],
+    "transcript_ref": "veterans\\ippl_library\\ippl_vhp_army_bing.yaml"
+  },
+  {
+    "entity_id": 6,
+    "entity": "Fort Leonard Wood",
+    "explicit_text": "I underwent my basic training at Fort Leonard Wood in 1953. My wife would travel there on weekends to stay with me, along with a friend whose husband was also in training. Basic training was tough but typical, focusing on survival and weapons training.",
+    "implicit_text": "I underwent my basic training at a Missouri Army base in 1953. My wife would travel there on weekends to stay with me, along with a friend whose husband was also in training. Basic training was tough but typical, focusing on survival and weapons training.",
+    "cues": [
+      "basic training",
+      "1953",
+      "weekend visits",
+      "training with M1 rifle"
+    ],
+    "transcript_ref": "veterans\\ippl_library\\ippl_vhp_army_bing.yaml"
+  },
+  {
+    "entity_id": 7,
+    "entity": "St. Louis",
+    "explicit_text": "My wife and her friend traveled together to St. Louis, Missouri, to visit us during our basic training weekends at Fort Leonard Wood. St. Louis was a stopover point on their trips to see their husbands before returning to their jobs.",
+    "implicit_text": "My wife and her friend traveled together to a major Missouri city to visit us during our basic training weekends at the nearby Army base. That city was a stopover point on their trips to see their husbands before returning to their jobs.",
+    "cues": [
+      "weekend visits",
+      "Fort Leonard Wood",
+      "St. Louis, Missouri",
+      "1953"
+    ],
+    "transcript_ref": "veterans\\ippl_library\\ippl_vhp_army_bing.yaml"
+  },
+  {
+    "entity_id": 8,
+    "entity": "San Marcos Air Force Base",
+    "explicit_text": "After basic training, I was sent to San Marcos Air Force Base in Texas to train as an aircraft mechanic, despite having no prior mechanical experience. This training prepared me for my later work repairing Army aircraft in Germany.",
+    "implicit_text": "After basic training, I was sent to an Air Force Base in Texas to train as an aircraft mechanic, despite having no prior mechanical experience. This training prepared me for my later work repairing military aircraft in Germany.",
+    "cues": [
+      "post-basic training",
+      "aircraft mechanic training",
+      "Texas",
+      "no prior experience"
+    ],
+    "transcript_ref": "veterans\\ippl_library\\ippl_vhp_army_bing.yaml"
+  },
+  {
+    "entity_id": 9,
+    "entity": "Texas",
+    "explicit_text": "I spent some time in Texas while my husband trained at San Marcos Air Force Base. I worked as a florist in San Antonio and Austin, trying to find teaching jobs but was unsuccessful. Later, I returned to my parents' home in Illinois before deciding to travel to Germany to be with my husband.",
+    "implicit_text": "I spent some time in the southern state while my husband trained at an Air Force Base there. I worked as a florist in two cities within that state, trying to find teaching jobs but was unsuccessful. Later, I returned to my parents' home in the Midwest before deciding to travel to Germany to be with my husband.",
+    "cues": [
+      "San Marcos Air Force Base",
+      "San Antonio",
+      "Austin",
+      "florist work",
+      "attempted teaching"
+    ],
+    "transcript_ref": "veterans\\ippl_library\\ippl_vhp_army_bing.yaml"
+  },
+  {
+    "entity_id": 10,
+    "entity": "San Antonio",
+    "explicit_text": "While my husband was training in Texas, I worked in a floral shop in San Antonio. This was part of my effort to support myself while hoping to find a teaching position. It was during this time I realized I wanted to join my husband overseas.",
+    "implicit_text": "While my husband was training in the southern state, I worked in a floral shop in one of its major cities. This was part of my effort to support myself while hoping to find a teaching position. It was during this time I realized I wanted to join my husband overseas.",
+    "cues": [
+      "floral shop",
+      "Texas",
+      "support work",
+      "husband's training"
+    ],
+    "transcript_ref": "veterans\\ippl_library\\ippl_vhp_army_bing.yaml"
+  },
+  {
+    "entity_id": 11,
+    "entity": "Austin, Texas",
+    "explicit_text": "Alongside San Antonio, I also worked in Austin, Texas, at a floral shop while my husband was at San Marcos Air Force Base. This was before I eventually left for Germany to be with him. My time in Austin was part of my varied efforts to find work.",
+    "implicit_text": "Alongside San Antonio, I also worked in another city in the southern state at a floral shop while my husband was at the Air Force Base. This was before I eventually left for Germany to be with him. My time in that city was part of my varied efforts to find work.",
+    "cues": [
+      "floral shop",
+      "Texas",
+      "support work",
+      "husband's training"
+    ],
+    "transcript_ref": "veterans\\ippl_library\\ippl_vhp_army_bing.yaml"
+  },
+  {
+    "entity_id": 12,
+    "entity": "Mannheim",
+    "explicit_text": "I was stationed at Coleman Barracks in Mannheim, Germany, where I worked repairing Army aircraft. My wife joined me there after securing a teaching position through the United States Army Europe school system. We lived off base in a small town called Blumenau, near Mannheim.",
+    "implicit_text": "I was stationed at a U.S. military base in a German city where I worked repairing Army aircraft. My wife joined me there after securing a teaching position through the military's European school system. We lived off base in a small town nearby.",
+    "cues": [
+      "Coleman Barracks",
+      "Germany",
+      "aircraft mechanic",
+      "wife teaching",
+      "Blumenau apartment"
+    ],
+    "transcript_ref": "veterans\\ippl_library\\ippl_vhp_army_bing.yaml"
+  },
+  {
+    "entity_id": 13,
+    "entity": "Coleman Barracks",
+    "explicit_text": "Coleman Barracks in Mannheim was my base in Germany where I worked as an aircraft mechanic. It was an Army Air Force base where I repaired light aircraft like the L-19, L-17, and H-21 helicopters. My wife was also stationed nearby as an Army civilian teacher.",
+    "implicit_text": "The military base in that German city was where I worked as an aircraft mechanic. It was an Army Air Force base where I repaired light aircraft like the L-19, L-17, and H-21 helicopters. My wife was also stationed nearby as a civilian teacher employed by the Army.",
+    "cues": [
+      "Mannheim, Germany",
+      "Army Air Force base",
+      "aircraft repair",
+      "L-19, L-17, H-21"
+    ],
+    "transcript_ref": "veterans\\ippl_library\\ippl_vhp_army_bing.yaml"
+  },
+  {
+    "entity_id": 14,
+    "entity": "France",
+    "explicit_text": "I traveled to Germany by ship from France, specifically on the Liberte Ship of the French line. The journey took seven days, and I arrived in Germany around the beginning of February after missing the initial boat from Chicago. This trip was my way of joining my husband overseas despite my parents' objections.",
+    "implicit_text": "I traveled to Germany by ship from a Western European country, specifically on a French ocean liner. The journey took seven days, and I arrived in Germany around the beginning of February after missing the initial boat from the Midwest. This trip was my way of joining my husband overseas despite my parents' objections.",
+    "cues": [
+      "Liberte Ship",
+      "French line",
+      "seven-day voyage",
+      "early February",
+      "joining husband"
+    ],
+    "transcript_ref": "veterans\\ippl_library\\ippl_vhp_army_bing.yaml"
+  },
+  {
+    "entity_id": 15,
+    "entity": "Cal Lancaster",
+    "explicit_text": "On the ship to Germany, I met Cal Lancaster, the superintendent of the USA Europe School. He was returning to Germany after attending his mother's funeral in the States. He offered me a teaching position if I could verify my credentials, which I did, and he enrolled me as an Army civilian teacher at Mannheim schools.",
+    "implicit_text": "On the ship to Germany, I met the superintendent of the military's European school system. He was returning to Germany after attending his mother's funeral in the States. He offered me a teaching position if I could verify my credentials, which I did, and he enrolled me as a civilian teacher at schools in that German city.",
+    "cues": [
+      "ship to Germany",
+      "USA Europe School superintendent",
+      "teaching job offer",
+      "credential verification",
+      "Mannheim schools"
+    ],
+    "transcript_ref": "veterans\\ippl_library\\ippl_vhp_army_bing.yaml"
+  },
+  {
+    "entity_id": 16,
+    "entity": "United States Army Europe",
+    "explicit_text": "I worked as a Department of Army Civilian employee under United States Army Europe, teaching children of servicemen stationed in Germany. Cal Lancaster, the superintendent, managed the schools I taught at. My husband was also stationed in the same area, which allowed us to live together off base.",
+    "implicit_text": "I worked as a Department of Army Civilian employee under the military's European command, teaching children of servicemen stationed in Germany. The superintendent managed the schools I taught at. My husband was also stationed in the same area, which allowed us to live together off base.",
+    "cues": [
+      "Army civilian employee",
+      "teaching",
+      "Cal Lancaster",
+      "Mannheim schools",
+      "family life"
+    ],
+    "transcript_ref": "veterans\\ippl_library\\ippl_vhp_army_bing.yaml"
+  },
+  {
+    "entity_id": 17,
+    "entity": "Blumenau",
+    "explicit_text": "We lived in an apartment in Blumenau, a small town near Mannheim, Germany. This was a great privilege since I was able to live off base with my wife. The apartment was previously occupied by someone rotating back to the U.S., and it allowed us a more normal life during the assignment.",
+    "implicit_text": "We lived in an apartment in a small town near the German city where I was stationed. This was a great privilege since I was able to live off base with my wife. The apartment was previously occupied by someone rotating back to the U.S., and it allowed us a more normal life during the assignment.",
+    "cues": [
+      "small town",
+      "near Mannheim",
+      "off base living",
+      "apartment rental",
+      "privilege"
+    ],
+    "transcript_ref": "veterans\\ippl_library\\ippl_vhp_army_bing.yaml"
+  },
+  {
+    "entity_id": 18,
+    "entity": "Russian Army",
+    "explicit_text": "During my time in Germany, there were alerts when the Russian Army was besieging the eastern part of Germany. In those situations, troops would report to their positions and prepare to move, but my aircraft group usually stayed back to service planes. These alerts were brief and felt almost like a vacation compared to normal Army life.",
+    "implicit_text": "During my time in Germany, there were alerts when the eastern European army was besieging the eastern part of the country. In those situations, troops would report to their positions and prepare to move, but my aircraft group usually stayed back to service planes. These alerts were brief and felt almost like a vacation compared to normal military life.",
+    "cues": [
+      "alerts",
+      "Russian Army",
+      "eastern Germany",
+      "troop mobilization",
+      "aircraft maintenance"
+    ],
+    "transcript_ref": "veterans\\ippl_library\\ippl_vhp_army_bing.yaml"
+  },
+  {
+    "entity_id": 19,
+    "entity": "L-19 Bird Dog",
+    "explicit_text": "Part of my job in Germany was repairing the L-19 Bird Dog aircraft, among other light Army aircraft. I learned to rebuild engines and maintain these planes despite having no prior mechanical experience before the Army. This training and work gave me valuable technical skills.",
+    "implicit_text": "Part of my job in Germany was repairing a specific light observation aircraft, among other light military planes. I learned to rebuild engines and maintain these planes despite having no prior mechanical experience before the Army. This training and work gave me valuable technical skills.",
+    "cues": [
+      "aircraft repair",
+      "L-19 Bird Dog",
+      "engine rebuilding",
+      "Army training",
+      "Mannheim"
+    ],
+    "transcript_ref": "veterans\\ippl_library\\ippl_vhp_army_bing.yaml"
+  },
+  {
+    "entity_id": 20,
+    "entity": "L-17 Navion",
+    "explicit_text": "I was responsible for repairing the L-17 Navion aircraft while stationed at Coleman Barracks in Germany. This was part of my broader role maintaining various Army light aircraft. The work required precision and adherence to Army procedures.",
+    "implicit_text": "I was responsible for repairing a particular light civilian-style aircraft adapted for military use while stationed at the base in Germany. This was part of my broader role maintaining various Army light aircraft. The work required precision and adherence to military procedures.",
+    "cues": [
+      "L-17 Navion",
+      "aircraft mechanic",
+      "Coleman Barracks",
+      "Germany",
+      "Army maintenance"
+    ],
+    "transcript_ref": "veterans\\ippl_library\\ippl_vhp_army_bing.yaml"
+  },
+  {
+    "entity_id": 21,
+    "entity": "Piasecki H-21",
+    "explicit_text": "Among the aircraft I repaired was the Piasecki H-21 helicopter. My duties included engine rebuilding and ensuring these helicopters were flight-ready. This was a significant responsibility, especially given my initial lack of mechanical experience before joining the Army.",
+    "implicit_text": "Among the aircraft I repaired was a tandem-rotor helicopter used by the military. My duties included engine rebuilding and ensuring these helicopters were flight-ready. This was a significant responsibility, especially given my initial lack of mechanical experience before joining the Army.",
+    "cues": [
+      "Piasecki H-21",
+      "helicopter repair",
+      "engine rebuilding",
+      "Army aircraft",
+      "Mannheim"
+    ],
+    "transcript_ref": "veterans\\ippl_library\\ippl_vhp_army_bing.yaml"
+  }
+]

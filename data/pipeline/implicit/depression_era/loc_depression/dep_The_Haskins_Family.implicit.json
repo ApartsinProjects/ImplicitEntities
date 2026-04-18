@@ -1,0 +1,99 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "Key West, Florida",
+    "explicit_text": "I was born and raised in Key West, Florida, and it holds a special place in my heart. Paul and I lived there for many years before he was transferred to Fort Lauderdale and later Miami. We still have family and friends there, and we often visit because most of our folks live in Key West. I love gardening and used to keep a lovely noisy garden there with Murdock. Someday, we hope to own a home there again if the railroad ever gets built back and Paul can be transferred.",
+    "implicit_text": "I was born and raised on the southernmost island city in Florida, and it holds a special place in my heart. Paul and I lived there for many years before he was transferred to a city known for its extensive canal system and later to a major metropolitan area in South Florida. We still have family and friends there, and we often visit because most of our folks live on that island. I love gardening and used to keep a lovely noisy garden there with Murdock. Someday, we hope to own a home there again if the coastal railroad ever gets built back and Paul can be transferred.",
+    "cues": [
+      "born and raised",
+      "family and friends",
+      "garden with Murdock",
+      "hope to own home",
+      "railroad transfer"
+    ],
+    "transcript_ref": "depression_era\\loc_depression\\dep_The_Haskins_Family.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "Good Housekeeping",
+    "explicit_text": "Good Housekeeping is one of the magazines I keep around the house. I often find it on the small table beside the overstuffed chair in the living room. It’s part of the everyday life here, alongside other publications like Unlearn, a photography magazine. I enjoy having these magazines handy while I listen to the radio or relax in the living room.",
+    "implicit_text": "One of the magazines I keep around the house is a well-known publication focused on home and lifestyle. I often find it on the small table beside the overstuffed chair in the living room. It’s part of the everyday life here, alongside other publications like Unlearn, a photography magazine. I enjoy having these magazines handy while I listen to the radio or relax in the living room.",
+    "cues": [
+      "magazine on table",
+      "living room",
+      "beside chair",
+      "everyday life"
+    ],
+    "transcript_ref": "depression_era\\loc_depression\\dep_The_Haskins_Family.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "Florida East Coast Railway",
+    "explicit_text": "Paul has worked for the Florida East Coast Railway for the past 14 years as a car repairer. He started in Key West and was later transferred to the shops in Fort Lauderdale and then Miami. His job requires him to be ready at any hour in case of an accident, and he rarely takes time off since he is paid semi-monthly without paid vacation. Despite the hard work, it provides steady income and benefits like railroad passes, though we mostly travel by car.",
+    "implicit_text": "Paul has worked for the coastal railroad company serving Florida’s Atlantic coast for the past 14 years as a car repairer. He started in the island city where we lived and was later transferred to the shops in the canal city and then the large South Florida metropolis. His job requires him to be ready at any hour in case of an accident, and he rarely takes time off since he is paid semi-monthly without paid vacation. Despite the hard work, it provides steady income and benefits like railroad passes, though we mostly travel by car.",
+    "cues": [
+      "14 years",
+      "car repairer",
+      "Key West, Fort Lauderdale, Miami",
+      "steady work",
+      "railroad passes"
+    ],
+    "transcript_ref": "depression_era\\loc_depression\\dep_The_Haskins_Family.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "Fort Lauderdale, Florida",
+    "explicit_text": "We lived in Fort Lauderdale for a while after Paul was transferred there from Key West. At first, I didn’t like it much, but over time we made many friends. We rented a house near the railroad shops so Paul’s commute was easy and the children could get to school without much trouble. Still, I preferred Key West and eventually we moved again to Miami.",
+    "implicit_text": "We lived in the canal city for a while after Paul was transferred there from the island city. At first, I didn’t like it much, but over time we made many friends. We rented a house near the railroad shops so Paul’s commute was easy and the children could get to school without much trouble. Still, I preferred the island city and eventually we moved again to the large South Florida metropolis.",
+    "cues": [
+      "lived there after transfer",
+      "made friends",
+      "near railroad shops",
+      "children’s school",
+      "preferred Key West"
+    ],
+    "transcript_ref": "depression_era\\loc_depression\\dep_The_Haskins_Family.yaml"
+  },
+  {
+    "entity_id": 5,
+    "entity": "Miami, Florida",
+    "explicit_text": "Miami is where we live now after Paul’s transfer from Fort Lauderdale. I didn’t care much for Miami at first, especially since the rent is higher here compared to Key West. We rented a furnished house for a year near Paul’s work, which is convenient for the family. I’m slowly getting used to the city, but I still dream of going back to Key West someday.",
+    "implicit_text": "The large South Florida metropolis is where we live now after Paul’s transfer from the canal city. I didn’t care much for this city at first, especially since the rent is higher here compared to the island city. We rented a furnished house for a year near Paul’s work, which is convenient for the family. I’m slowly getting used to the city, but I still dream of going back to the island city someday.",
+    "cues": [
+      "current residence",
+      "higher rent than Key West",
+      "rented furnished house",
+      "near Paul’s work",
+      "adjusting to city"
+    ],
+    "transcript_ref": "depression_era\\loc_depression\\dep_The_Haskins_Family.yaml"
+  },
+  {
+    "entity_id": 6,
+    "entity": "Chevrolet",
+    "explicit_text": "When we moved from Key West to Fort Lauderdale, we bought a Chevrolet because it was hard to get around without a car there. Paul usually takes the car in the morning, but if I want it during the day, I keep it and call for him at four o’clock. It’s been very useful for visiting around town and running errands. Before that, in Key West, we managed without a car just fine.",
+    "implicit_text": "When we moved from the island city to the canal city, we bought a popular American automobile brand because it was hard to get around without a car there. Paul usually takes the car in the morning, but if I want it during the day, I keep it and call for him at four o’clock. It’s been very useful for visiting around town and running errands. Before that, in the island city, we managed without a car just fine.",
+    "cues": [
+      "bought after moving to Fort Lauderdale",
+      "used daily for transportation",
+      "Paul and I share use",
+      "helpful for errands",
+      "no car in Key West"
+    ],
+    "transcript_ref": "depression_era\\loc_depression\\dep_The_Haskins_Family.yaml"
+  },
+  {
+    "entity_id": 7,
+    "entity": "Whooping cough",
+    "explicit_text": "Celia, our youngest, had whooping cough recently. Thankfully, our family has good health overall, so we don’t spend much on doctors or medicine. It was a worrying time, but she recovered well. We try to take good care of the children’s health, especially since Paul works hard and we want to keep the family strong.",
+    "implicit_text": "Celia, our youngest, had a severe respiratory illness characterized by intense coughing fits recently. Thankfully, our family has good health overall, so we don’t spend much on doctors or medicine. It was a worrying time, but she recovered well. We try to take good care of the children’s health, especially since Paul works hard and we want to keep the family strong.",
+    "cues": [
+      "Celia had whooping cough",
+      "good family health",
+      "little medical expense",
+      "recovered well",
+      "family care"
+    ],
+    "transcript_ref": "depression_era\\loc_depression\\dep_The_Haskins_Family.yaml"
+  }
+]

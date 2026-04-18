@@ -1,0 +1,408 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "Camp Wallace",
+    "explicit_text": "I was trained at Camp Wallace in Texas after being drafted in 1943. It was a desolate spot built on a filled-in swamp that smelled sweet like seashells. There, I learned to be a telephone lineman, climbing fifty-foot poles, although I wasn’t as skilled as some guys who had done it before. It was a tough but interesting training experience.",
+    "implicit_text": "I was trained at a remote military camp in Texas after being drafted in 1943. It was a desolate spot built on a filled-in swamp that smelled sweet like seashells. There, I learned to be a telephone lineman, climbing fifty-foot poles, although I wasn’t as skilled as some guys who had done it before. It was a tough but interesting training experience.",
+    "cues": [
+      "1943",
+      "Texas",
+      "telephone lineman training",
+      "swamp area"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_John_DeCecco.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "Texas",
+    "explicit_text": "After basic training in Illinois, we were sent to Texas, specifically Camp Wallace, for specialized training. Texas was a dry, desolate place with a unique sweet seashell smell from the swamp they filled in to build the camp. It was there in 1943 that I learned to climb poles and work as a telephone lineman for the Army.",
+    "implicit_text": "After basic training in Illinois, we were sent to that southern state, specifically to a camp built on a swampy area, for specialized training. The place was dry and desolate with a unique sweet seashell smell from the swamp they filled in to build the camp. It was there in 1943 that I learned to climb poles and work as a telephone lineman for the Army.",
+    "cues": [
+      "1943",
+      "Camp Wallace",
+      "training",
+      "desolate swamp area"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_John_DeCecco.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "United States Army",
+    "explicit_text": "I was drafted into the United States Army on January 6th, 1943, after being rejected by the Navy due to a heart murmur. The Army took me in and trained me at Camp Wallace, Texas, and later sent me overseas. I served in a radar unit in the Pacific theater, including places like New Guinea and Goodenough Island, supporting the war effort against the Japanese Empire.",
+    "implicit_text": "I was drafted into the national ground forces on January 6th, 1943, after being rejected by the Navy due to a heart murmur. The Army took me in and trained me at that Texas camp, and later sent me overseas. I served in a radar unit in the Pacific theater, including places like New Guinea and Goodenough Island, supporting the war effort against the Japanese Empire.",
+    "cues": [
+      "drafted 1943",
+      "Camp Wallace",
+      "radar unit",
+      "Pacific theater",
+      "Japanese Empire"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_John_DeCecco.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "Kedzie Avenue",
+    "explicit_text": "My draft board was just a few blocks up from our house on Kedzie Avenue, near Wicker Park in Chicago. It was close enough that I remember walking there for my draft process in early 1943. That neighborhood was part of my life before I entered the Army.",
+    "implicit_text": "My draft board was just a few blocks up from our house on a major avenue near a well-known Chicago neighborhood. It was close enough that I remember walking there for my draft process in early 1943. That neighborhood was part of my life before I entered the Army.",
+    "cues": [
+      "1943",
+      "Chicago",
+      "draft board location",
+      "near Wicker Park"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_John_DeCecco.yaml"
+  },
+  {
+    "entity_id": 5,
+    "entity": "Wicker Park",
+    "explicit_text": "Wicker Park was near where I lived in Chicago, close to Kedzie Avenue where my draft board was located. I used to go over to Wicker Park before being drafted in 1943. It was part of my everyday life before joining the Army.",
+    "implicit_text": "That well-known Chicago neighborhood was near where I lived, close to the avenue where my draft board was located. I used to go over there before being drafted in 1943. It was part of my everyday life before joining the Army.",
+    "cues": [
+      "Chicago",
+      "near Kedzie Avenue",
+      "pre-1943 life"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_John_DeCecco.yaml"
+  },
+  {
+    "entity_id": 6,
+    "entity": "Camp Walton",
+    "explicit_text": "After being sworn in downtown Chicago, we were taken to Camp Walton at Fort Sheridan, Illinois, in January 1943. It was bitterly cold, about six below zero, and we stood outside in long johns and overcoats waiting for chow. That was my first real Army camp experience before heading to Texas.",
+    "implicit_text": "After being sworn in downtown Chicago, we were taken to a camp at a military installation in Illinois in January 1943. It was bitterly cold, about six below zero, and we stood outside in long johns and overcoats waiting for chow. That was my first real Army camp experience before heading to Texas.",
+    "cues": [
+      "January 1943",
+      "Fort Sheridan, Illinois",
+      "cold weather",
+      "initial Army camp"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_John_DeCecco.yaml"
+  },
+  {
+    "entity_id": 7,
+    "entity": "Fort Sheridan",
+    "explicit_text": "Fort Sheridan in Illinois was where Camp Walton was located, and that's where I spent some of my early Army days in January 1943. It was freezing cold, and we endured the harsh weather while getting used to Army life. From there, we moved on to Texas for further training.",
+    "implicit_text": "That military installation in Illinois was where the camp was located, and that's where I spent some of my early Army days in January 1943. It was freezing cold, and we endured the harsh weather while getting used to Army life. From there, we moved on to Texas for further training.",
+    "cues": [
+      "January 1943",
+      "Camp Walton",
+      "cold weather",
+      "Illinois"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_John_DeCecco.yaml"
+  },
+  {
+    "entity_id": 8,
+    "entity": "North Platte",
+    "explicit_text": "On the way to Texas, our train stopped in North Platte, Nebraska, where the townspeople applauded us like heroes. We marched through town and were treated to lunch at a big hotel. That stop was a memorable moment of encouragement early in my Army journey.",
+    "implicit_text": "On the way to Texas, our train stopped in a Nebraska town where the townspeople applauded us like heroes. We marched through town and were treated to lunch at a big hotel. That stop was a memorable moment of encouragement early in my Army journey.",
+    "cues": [
+      "1943",
+      "Nebraska",
+      "train stop",
+      "community support"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_John_DeCecco.yaml"
+  },
+  {
+    "entity_id": 9,
+    "entity": "Nebraska",
+    "explicit_text": "During my transit to Texas for training in 1943, we passed through Nebraska, stopping in North Platte. The people there showed great support by applauding us and providing lunch. It was a heartwarming experience amid the long journey.",
+    "implicit_text": "During my transit to Texas for training in 1943, we passed through that Midwestern state, stopping in a town known for welcoming troops. The people there showed great support by applauding us and providing lunch. It was a heartwarming experience amid the long journey.",
+    "cues": [
+      "1943",
+      "North Platte",
+      "train stop",
+      "community support"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_John_DeCecco.yaml"
+  },
+  {
+    "entity_id": 10,
+    "entity": "Chicago",
+    "explicit_text": "I grew up near Kedzie Avenue and Wicker Park in Chicago, where my draft board was located. After being drafted in January 1943, I spent some time in Chicago before heading to Fort Sheridan and then Texas. The city was home before my military service began.",
+    "implicit_text": "I grew up near a major avenue and a well-known neighborhood in a large Midwestern city, where my draft board was located. After being drafted in January 1943, I spent some time there before heading to the military installation in Illinois and then Texas. The city was home before my military service began.",
+    "cues": [
+      "pre-1943",
+      "Kedzie Avenue",
+      "Wicker Park",
+      "draft board location"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_John_DeCecco.yaml"
+  },
+  {
+    "entity_id": 11,
+    "entity": "Camp Shanks",
+    "explicit_text": "After training in Texas, we traveled to Camp Shanks near New York City in 1943. It was a brand new camp with bright brown soil, similar to the ground in Colorado. We were promised a three-day leave in New York but ended up boarding a ship shortly after arriving.",
+    "implicit_text": "After training in Texas, we traveled to a staging camp near New York City in 1943. It was a brand new camp with bright brown soil, similar to the ground in Colorado. We were promised a three-day leave in New York but ended up boarding a ship shortly after arriving.",
+    "cues": [
+      "1943",
+      "near New York City",
+      "brand new camp",
+      "pre-deployment staging"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_John_DeCecco.yaml"
+  },
+  {
+    "entity_id": 12,
+    "entity": "Colorado",
+    "explicit_text": "My wife is from Colorado, and we visit there often. When I arrived at Camp Shanks near New York City, the ground reminded me of Colorado’s bright brown soil. It was a small connection to home during my Army journey in 1943.",
+    "implicit_text": "My wife is from a western mountain state, and we visit there often. When I arrived at that staging camp near New York City, the ground reminded me of that state’s bright brown soil. It was a small connection to home during my Army journey in 1943.",
+    "cues": [
+      "1943",
+      "Camp Shanks",
+      "soil comparison",
+      "wife’s home state"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_John_DeCecco.yaml"
+  },
+  {
+    "entity_id": 13,
+    "entity": "Uruguay (ship)",
+    "explicit_text": "We sailed to Australia aboard the ship named Uruguay in 1943. It was originally a luxury liner from Uruguay, later used in the Spanish-American War, and had a history of fires and salvage. By the time we boarded, it was a small, fast ship used for troop transport, and despite being old, it was reliable and well-fed us during the 31-day voyage.",
+    "implicit_text": "We sailed to Australia aboard a ship named after a South American country in 1943. It was originally a luxury liner from that country, later used in the Spanish-American War, and had a history of fires and salvage. By the time we boarded, it was a small, fast ship used for troop transport, and despite being old, it was reliable and well-fed us during the 31-day voyage.",
+    "cues": [
+      "1943",
+      "troop transport",
+      "Spanish-American War history",
+      "31-day voyage to Australia"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_John_DeCecco.yaml"
+  },
+  {
+    "entity_id": 14,
+    "entity": "Spanish–American War",
+    "explicit_text": "The ship Uruguay had a history tied to the Spanish-American War; it was sent to Spain during that conflict and caught fire. It was later salvaged and returned to Uruguay. This history was interesting to me as we traveled on that same ship in 1943 during World War II.",
+    "implicit_text": "The ship we traveled on had a history tied to the conflict between Spain and the United States; it was sent to Spain during that war and caught fire. It was later salvaged and returned to its home country. This history was interesting to me as we traveled on that same ship in 1943 during World War II.",
+    "cues": [
+      "ship Uruguay",
+      "fire and salvage",
+      "historical context",
+      "Spanish-American War"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_John_DeCecco.yaml"
+  },
+  {
+    "entity_id": 15,
+    "entity": "New York City",
+    "explicit_text": "We stopped in New York City at Camp Shanks in 1943 before boarding the ship Uruguay. We were promised a three-day leave in the city, but instead, we went directly to the docks to embark. New York was a brief but important staging point in my deployment overseas.",
+    "implicit_text": "We stopped in New York City at a staging camp in 1943 before boarding the ship named after a South American country. We were promised a three-day leave in the city, but instead, we went directly to the docks to embark. New York was a brief but important staging point in my deployment overseas.",
+    "cues": [
+      "1943",
+      "Camp Shanks",
+      "pre-embarkation",
+      "troop movement"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_John_DeCecco.yaml"
+  },
+  {
+    "entity_id": 16,
+    "entity": "Australia",
+    "explicit_text": "After a long 31-day voyage on the Uruguay, we finally arrived in Australia in 1943. We stayed there for about three to four months at Camp Ascot, which was in the middle of a racetrack. Australia was a nice place with friendly people and towns that reminded me of home, though their trains were narrow gauge and small.",
+    "implicit_text": "After a long 31-day voyage on that troop transport ship, we finally arrived in Australia in 1943. We stayed there for about three to four months at a camp located in the middle of a racetrack. Australia was a nice place with friendly people and towns that reminded me of home, though their trains were narrow gauge and small.",
+    "cues": [
+      "1943",
+      "Camp Ascot",
+      "racetrack location",
+      "friendly locals"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_John_DeCecco.yaml"
+  },
+  {
+    "entity_id": 17,
+    "entity": "Bora Bora",
+    "explicit_text": "During our voyage to Australia, we stopped at Bora Bora for a couple of days in 1943. One of the ships in our convoy had mechanical trouble and needed welding repairs, and we saw smoke from damage caused by the Japanese. It was a tense moment, knowing the war was close even in these remote places.",
+    "implicit_text": "During our voyage to Australia, we stopped at an island in the South Pacific for a couple of days in 1943. One of the ships in our convoy had mechanical trouble and needed welding repairs, and we saw smoke from damage caused by the Japanese. It was a tense moment, knowing the war was close even in these remote places.",
+    "cues": [
+      "1943",
+      "ship repairs",
+      "Japanese attack damage",
+      "Pacific transit"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_John_DeCecco.yaml"
+  },
+  {
+    "entity_id": 18,
+    "entity": "New Zealand",
+    "explicit_text": "On the way to Australia, we stopped in New Zealand to drop off some troops. It was part of our long journey across the Pacific in 1943. New Zealand was a brief but important stop before we reached our main base in Australia.",
+    "implicit_text": "On the way to Australia, we stopped in a neighboring island nation to drop off some troops. It was part of our long journey across the Pacific in 1943. That country was a brief but important stop before we reached our main base in Australia.",
+    "cues": [
+      "1943",
+      "troop drop-off",
+      "Pacific transit",
+      "en route to Australia"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_John_DeCecco.yaml"
+  },
+  {
+    "entity_id": 19,
+    "entity": "Camp Ascot",
+    "explicit_text": "In Australia, we were stationed at Camp Ascot, which was located in the middle of a racetrack. It served as a Casualty Replacement Depot, though I never registered as a casualty. I was there for about three to four months in 1943, and it was where I met a fellow I had worked with before in a store back home.",
+    "implicit_text": "In Australia, we were stationed at a camp located in the middle of a racetrack. It served as a Casualty Replacement Depot, though I never registered as a casualty. I was there for about three to four months in 1943, and it was where I met a fellow I had worked with before in a store back home.",
+    "cues": [
+      "1943",
+      "Australia",
+      "Casualty Replacement Depot",
+      "racetrack location"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_John_DeCecco.yaml"
+  },
+  {
+    "entity_id": 20,
+    "entity": "Pearl Harbor",
+    "explicit_text": "Pearl Harbor was attacked on December 7th, 1941, which changed everything for us. Some of the boys I met in New Guinea had been in peacetime service for a year and were ready to come home, but after Pearl Harbor, they got stuck and spent four to five years overseas. That attack marked the real start of the war for us.",
+    "implicit_text": "The surprise attack on the naval base in Hawaii on December 7th, 1941, changed everything for us. Some of the boys I met in New Guinea had been in peacetime service for a year and were ready to come home, but after that attack, they got stuck and spent four to five years overseas. That event marked the real start of the war for us.",
+    "cues": [
+      "December 7th, 1941",
+      "start of US involvement",
+      "New Guinea troops",
+      "extended service"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_John_DeCecco.yaml"
+  },
+  {
+    "entity_id": 21,
+    "entity": "Navy Reserve",
+    "explicit_text": "Before being drafted into the Army, I tried to join the Navy Reserve in Glenview, Illinois, around 1939 or 1940. I was too young at seventeen and had some physical issues like a curvature of the back from bike riding, which delayed my acceptance. I even helped drive a miniature gas truck for the Navy Reserve boys who pedaled out to Dundee, Illinois.",
+    "implicit_text": "Before being drafted into the Army, I tried to join the naval reserve in a suburb north of Chicago around 1939 or 1940. I was too young at seventeen and had some physical issues like a curvature of the back from bike riding, which delayed my acceptance. I even helped drive a miniature gas truck for the reserve boys who pedaled out to a nearby town.",
+    "cues": [
+      "1939-1940",
+      "Glenview, Illinois",
+      "too young",
+      "physical issues"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_John_DeCecco.yaml"
+  },
+  {
+    "entity_id": 22,
+    "entity": "Glenview, Illinois",
+    "explicit_text": "Glenview, Illinois, was where I tried to join the Navy Reserve before the war. I went there to sign up but was turned away because I was only seventeen. It was also where I helped drive a miniature gas truck for the Reserve boys who biked to Dundee.",
+    "implicit_text": "That suburb north of Chicago was where I tried to join the naval reserve before the war. I went there to sign up but was turned away because I was only seventeen. It was also where I helped drive a miniature gas truck for the reserve boys who biked to a nearby town.",
+    "cues": [
+      "1939-1940",
+      "Navy Reserve attempt",
+      "too young",
+      "gas truck driving"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_John_DeCecco.yaml"
+  },
+  {
+    "entity_id": 23,
+    "entity": "Dundee, Illinois",
+    "explicit_text": "Dundee, Illinois, was about twenty-five miles from Glenview, where the Navy Reserve boys pedaled out to. I helped by driving a miniature gas truck to refuel their planes. It was part of my early attempts to serve before being drafted into the Army.",
+    "implicit_text": "That nearby town about twenty-five miles from the suburb north of Chicago was where the naval reserve boys pedaled out to. I helped by driving a miniature gas truck to refuel their planes. It was part of my early attempts to serve before being drafted into the Army.",
+    "cues": [
+      "1939-1940",
+      "Navy Reserve support",
+      "gas truck driving",
+      "near Glenview"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_John_DeCecco.yaml"
+  },
+  {
+    "entity_id": 24,
+    "entity": "Atlantic Ocean",
+    "explicit_text": "One of my friends who joined the Navy early was lost when his ship was sunk in the Atlantic Ocean while convoying cargo ships to England. That made me realize how dangerous the war was, and I was lucky not to have gone with him. The Atlantic was a deadly place during the war.",
+    "implicit_text": "One of my friends who joined the Navy early was lost when his ship was sunk in the ocean between the Americas and Europe while convoying cargo ships to the British Isles. That made me realize how dangerous the war was, and I was lucky not to have gone with him. That ocean was a deadly place during the war.",
+    "cues": [
+      "early 1940s",
+      "convoy duty",
+      "ship sunk",
+      "dangerous war zone"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_John_DeCecco.yaml"
+  },
+  {
+    "entity_id": 25,
+    "entity": "England",
+    "explicit_text": "The friend I mentioned was on a ship convoying cargo to England when it was sunk in the Atlantic. England was a key destination for these convoys during the war. His loss made me appreciate my own survival even more.",
+    "implicit_text": "The friend I mentioned was on a ship convoying cargo to the British Isles when it was sunk in the Atlantic. That destination was a key point for these convoys during the war. His loss made me appreciate my own survival even more.",
+    "cues": [
+      "early 1940s",
+      "cargo convoys",
+      "ship sunk",
+      "Atlantic crossing"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_John_DeCecco.yaml"
+  },
+  {
+    "entity_id": 26,
+    "entity": "New Guinea",
+    "explicit_text": "I was stationed in New Guinea during the war, arriving after training and time in Australia. We landed on Goodenough Island nearby, and I worked with radar to detect planes early. Some of the boys I met there had been stuck in service after Pearl Harbor, spending four to five years in the Pacific.",
+    "implicit_text": "I was stationed in a large island in the southwestern Pacific during the war, arriving after training and time in Australia. We landed on a nearby island, and I worked with radar to detect planes early. Some of the boys I met there had been stuck in service after the attack on the naval base in Hawaii, spending four to five years in the Pacific.",
+    "cues": [
+      "1943",
+      "Pacific theater",
+      "radar unit",
+      "Goodenough Island"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_John_DeCecco.yaml"
+  },
+  {
+    "entity_id": 27,
+    "entity": "Goodenough Island",
+    "explicit_text": "Goodenough Island near New Guinea was one of the nicest places I was stationed. There were no mosquitoes, and we had mosquito netting on our bunks. We arrived there in 1943 and set up radar and searchlight units to help defend against enemy aircraft.",
+    "implicit_text": "That nearby island was one of the nicest places I was stationed. There were no mosquitoes, and we had mosquito netting on our bunks. We arrived there in 1943 and set up radar and searchlight units to help defend against enemy aircraft.",
+    "cues": [
+      "1943",
+      "near New Guinea",
+      "no mosquitoes",
+      "radar and searchlight unit"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_John_DeCecco.yaml"
+  },
+  {
+    "entity_id": 28,
+    "entity": "Japanese Empire",
+    "explicit_text": "The Japanese Empire was our enemy in the Pacific War. They attacked places like Bora Bora, where one of our convoy ships was damaged. We were always on alert for Japanese planes and submarines, using radar and searchlights to detect their movements.",
+    "implicit_text": "The empire from Japan was our enemy in the Pacific War. They attacked places like the South Pacific island where one of our convoy ships was damaged. We were always on alert for their planes and submarines, using radar and searchlights to detect their movements.",
+    "cues": [
+      "World War II",
+      "Pacific theater",
+      "Bora Bora attack",
+      "enemy forces"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_John_DeCecco.yaml"
+  },
+  {
+    "entity_id": 29,
+    "entity": "Zero (fighter aircraft)",
+    "explicit_text": "We were trained to spot enemy planes like the Japanese Zero fighters using radar and rangefinders. Detecting these planes early was crucial for our anti-aircraft defenses. I was part of a unit that helped track incoming aircraft to protect our forces.",
+    "implicit_text": "We were trained to spot enemy planes like the Japanese fighter aircraft using radar and rangefinders. Detecting these planes early was crucial for our anti-aircraft defenses. I was part of a unit that helped track incoming aircraft to protect our forces.",
+    "cues": [
+      "World War II",
+      "radar detection",
+      "Japanese aircraft",
+      "anti-aircraft defense"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_John_DeCecco.yaml"
+  },
+  {
+    "entity_id": 30,
+    "entity": "P-40 Warhawk",
+    "explicit_text": "The P-40 Warhawk was one of the American fighter planes we supported with our radar and searchlight units. Our job was to detect enemy planes early so fighters like the P-40 could intercept them. It was part of the air defense strategy in the Pacific.",
+    "implicit_text": "The American fighter plane we supported with our radar and searchlight units was one of the main aircraft used in the Pacific. Our job was to detect enemy planes early so fighters like that could intercept them. It was part of the air defense strategy in the Pacific.",
+    "cues": [
+      "World War II",
+      "American fighter",
+      "radar support",
+      "Pacific theater"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_John_DeCecco.yaml"
+  },
+  {
+    "entity_id": 31,
+    "entity": "Sadur",
+    "explicit_text": "The transcript does not mention Sadur or provide any context about it.",
+    "implicit_text": "The transcript does not mention this entity or provide any context about it.",
+    "cues": [],
+    "transcript_ref": "veterans\\niles_library\\niles_John_DeCecco.yaml"
+  },
+  {
+    "entity_id": 32,
+    "entity": "Manila",
+    "explicit_text": "The transcript does not mention Manila or provide any context about it.",
+    "implicit_text": "The transcript does not mention this entity or provide any context about it.",
+    "cues": [],
+    "transcript_ref": "veterans\\niles_library\\niles_John_DeCecco.yaml"
+  }
+]

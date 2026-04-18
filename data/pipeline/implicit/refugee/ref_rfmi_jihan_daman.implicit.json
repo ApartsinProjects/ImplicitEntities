@@ -1,0 +1,230 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "Iraq",
+    "explicit_text": "I am originally from Iraq, where I grew up as a Chaldean Catholic. We left Iraq around 1981 because of the Iran–Iraq War and the political persecution my family faced, especially my father who refused to join Saddam's party. After many years away, I returned twice to northern Iraq to help establish mental health clinics following the ISIS invasion. Despite my connection to Iraq, I no longer see it as a place I could live freely due to the restrictions and dangers there.",
+    "implicit_text": "I am originally from a Middle Eastern country where I grew up as a Chaldean Catholic. We left around 1981 because of a war with a neighboring country and the political persecution my family faced, especially my father who refused to join the ruling party. After many years away, I returned twice to the northern region to help establish mental health clinics following the extremist group's invasion. Despite my connection to this land, I no longer see it as a place I could live freely due to the restrictions and dangers there.",
+    "cues": [
+      "1981",
+      "Chaldean Catholic",
+      "Iran–Iraq War",
+      "Saddam's party",
+      "ISIS invasion",
+      "northern Iraq"
+    ],
+    "transcript_ref": "refugee\\ref_rfmi_jihan_daman.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "Chaldean Catholic Church",
+    "explicit_text": "I identify as Chaldean Catholic, which is an important part of my identity and community. My faith was a factor in my family's persecution back in Iraq, as my father faced pressure related to his religious beliefs. Even after resettling in the US, I maintained my connection to the church, and my daughter attended a Catholic school here. I also worked closely with a priest friend in Iraq to establish mental health clinics after the ISIS invasion, showing how my faith community remained central to my life.",
+    "implicit_text": "I identify as Chaldean Catholic, which is an important part of my identity and community. My faith was a factor in my family's persecution back in my home country, as my father faced pressure related to his religious beliefs. Even after resettling in the US, I maintained my connection to this church, and my daughter attended a Catholic school here. I also worked closely with a priest friend in my homeland to establish mental health clinics after the extremist group's invasion, showing how my faith community remained central to my life.",
+    "cues": [
+      "Chaldean Catholic",
+      "Iraq",
+      "religious persecution",
+      "Catholic school",
+      "priest friend",
+      "mental health clinics"
+    ],
+    "transcript_ref": "refugee\\ref_rfmi_jihan_daman.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "Iran–Iraq War",
+    "explicit_text": "The Iran–Iraq War started in 1980, and by 1981, my family and I had already witnessed a year and a half of it. This war deeply affected us, especially with the threat of my brothers being drafted into the military. My father, who worked for the Department of Human Services, was very concerned about the war’s uncertain end and the danger it posed to our family. This conflict was a major reason why we decided to leave Iraq and seek refuge elsewhere.",
+    "implicit_text": "The war between my country and its neighbor started in 1980, and by 1981, my family and I had already witnessed a year and a half of it. This war deeply affected us, especially with the threat of my brothers being drafted into the military. My father, who worked for a government social services department, was very concerned about the war’s uncertain end and the danger it posed to our family. This conflict was a major reason why we decided to leave and seek refuge elsewhere.",
+    "cues": [
+      "1980",
+      "1981",
+      "drafting brothers",
+      "Department of Human Services",
+      "war impact"
+    ],
+    "transcript_ref": "refugee\\ref_rfmi_jihan_daman.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "Department of Human Services",
+    "explicit_text": "My father worked for the Department of Human Services in Iraq, which gave him access to information and rumors about the war and political situation. This role made him particularly worried about the drafting of my brothers during the Iran–Iraq War, as he heard news quickly through his work. His concerns about the safety and future of our family influenced our decision to leave Iraq in 1981.",
+    "implicit_text": "My father worked for the government social services department in our home country, which gave him access to information and rumors about the war and political situation. This role made him particularly worried about the drafting of my brothers during the war with the neighboring country, as he heard news quickly through his work. His concerns about the safety and future of our family influenced our decision to leave in 1981.",
+    "cues": [
+      "Iraq",
+      "father's job",
+      "rumors",
+      "Iran–Iraq War",
+      "family safety"
+    ],
+    "transcript_ref": "refugee\\ref_rfmi_jihan_daman.yaml"
+  },
+  {
+    "entity_id": 5,
+    "entity": "Greece",
+    "explicit_text": "After leaving Iraq in 1981, my family and I arrived in Greece where my uncle was living. We stayed there for four and a half years while waiting for refugee resettlement, which was a difficult period as we had to work from a young age and lost our schooling. Greece was our first refuge, and during that time, we registered with the Red Cross and the UNHCR. The long wait was partly due to restrictive immigration policies similar to those during Ronald Reagan’s administration.",
+    "implicit_text": "After leaving my home country in 1981, my family and I arrived in a southeastern European nation where my uncle was living. We stayed there for four and a half years while waiting for refugee resettlement, which was a difficult period as we had to work from a young age and lost our schooling. That country was our first refuge, and during that time, we registered with international humanitarian organizations. The long wait was partly due to restrictive immigration policies similar to those during the early 1980s US administration.",
+    "cues": [
+      "1981",
+      "uncle in Greece",
+      "four and a half years",
+      "Red Cross",
+      "UNHCR",
+      "refugee wait"
+    ],
+    "transcript_ref": "refugee\\ref_rfmi_jihan_daman.yaml"
+  },
+  {
+    "entity_id": 6,
+    "entity": "United Nations High Commissioner for Refugees",
+    "explicit_text": "When we arrived in Greece in 1981, we applied for refugee status through the United Nations High Commissioner for Refugees, or UNHCR. At that time, the Red Cross was also involved in refugee registration and support. The UNHCR was part of the process that helped us seek resettlement in the United States, although the wait was long and challenging due to immigration policies.",
+    "implicit_text": "When we arrived in that southeastern European country in 1981, we applied for refugee status through the United Nations agency responsible for refugees. At that time, the Red Cross was also involved in refugee registration and support. This UN agency was part of the process that helped us seek resettlement in the United States, although the wait was long and challenging due to immigration policies.",
+    "cues": [
+      "1981",
+      "Greece",
+      "refugee registration",
+      "Red Cross",
+      "resettlement process"
+    ],
+    "transcript_ref": "refugee\\ref_rfmi_jihan_daman.yaml"
+  },
+  {
+    "entity_id": 7,
+    "entity": "International Red Cross and Red Crescent Movement",
+    "explicit_text": "The Red Cross played a significant role in our refugee registration when we arrived in Greece in 1981. My father often mentioned the Red Cross as the organization where we registered for assistance. They were part of the early support system for families like ours who were fleeing persecution and seeking resettlement in the United States.",
+    "implicit_text": "The Red Cross played a significant role in our refugee registration when we arrived in that southeastern European country in 1981. My father often mentioned the Red Cross as the organization where we registered for assistance. They were part of the early support system for families like ours who were fleeing persecution and seeking resettlement in the United States.",
+    "cues": [
+      "1981",
+      "Greece",
+      "refugee registration",
+      "father's mentions",
+      "support organization"
+    ],
+    "transcript_ref": "refugee\\ref_rfmi_jihan_daman.yaml"
+  },
+  {
+    "entity_id": 8,
+    "entity": "United States",
+    "explicit_text": "We finally arrived in the United States in 1985, settling in Michigan where there was a growing Chaldean community. Coming here was a huge change; I was 17 and had to catch up on lost schooling while learning English from scratch. The US gave me freedoms I never had before, like freedom of speech and religious expression, which I deeply value. Despite initial struggles, I built my life here, went to Detroit Public Schools, then Wayne State University, and now consider the US my home.",
+    "implicit_text": "We finally arrived in the United States in 1985, settling in Michigan where there was a growing community of people from my cultural background. Coming here was a huge change; I was 17 and had to catch up on lost schooling while learning English from scratch. The US gave me freedoms I never had before, like freedom of speech and religious expression, which I deeply value. Despite initial struggles, I built my life here, went to Detroit Public Schools, then Wayne State University, and now consider this country my home.",
+    "cues": [
+      "1985",
+      "Michigan",
+      "Chaldean community",
+      "freedom of speech",
+      "Detroit Public Schools",
+      "Wayne State University"
+    ],
+    "transcript_ref": "refugee\\ref_rfmi_jihan_daman.yaml"
+  },
+  {
+    "entity_id": 9,
+    "entity": "Ronald Reagan",
+    "explicit_text": "During the early 1980s, when my family was stuck in Greece waiting for resettlement, the immigration policies under President Ronald Reagan's administration made it very difficult for refugees like us to enter the United States. The restrictions and delays we experienced then remind me of similar challenges refugees face today. This political climate contributed to the four and a half years we spent waiting in Greece before finally coming to the US in 1985.",
+    "implicit_text": "During the early 1980s, when my family was stuck in that southeastern European country waiting for resettlement, the immigration policies under the US president at the time made it very difficult for refugees like us to enter the United States. The restrictions and delays we experienced then remind me of similar challenges refugees face today. This political climate contributed to the four and a half years we spent waiting before finally coming to the US in 1985.",
+    "cues": [
+      "early 1980s",
+      "immigration policies",
+      "refugee delays",
+      "Greece wait",
+      "1985 arrival"
+    ],
+    "transcript_ref": "refugee\\ref_rfmi_jihan_daman.yaml"
+  },
+  {
+    "entity_id": 10,
+    "entity": "English as a second or foreign language",
+    "explicit_text": "When I arrived in the US at age 17, I had to learn English as a second language while attending high school. It was very challenging because I had missed years of schooling and had no technology or resources beyond a dictionary. I remember my ESL teacher, Ms. David, who was very supportive and even accepted our Arabic writing during a quiz. Learning English was a struggle, but it was essential for me to succeed in school and later at Wayne State University.",
+    "implicit_text": "When I arrived in the US at age 17, I had to learn English as a second language while attending high school. It was very challenging because I had missed years of schooling and had no technology or resources beyond a dictionary. I remember my ESL teacher, Ms. David, who was very supportive and even accepted our Arabic writing during a quiz. Learning English was a struggle, but it was essential for me to succeed in school and later at university.",
+    "cues": [
+      "1985",
+      "age 17",
+      "high school",
+      "Ms. David",
+      "ESL class",
+      "language struggle"
+    ],
+    "transcript_ref": "refugee\\ref_rfmi_jihan_daman.yaml"
+  },
+  {
+    "entity_id": 11,
+    "entity": "Detroit Public Schools Community District",
+    "explicit_text": "I attended Detroit Public Schools after arriving in Michigan in 1985. The education system was tough for me because I was behind in school and had to take ESL classes to learn English. Despite the challenges, I managed to graduate, although I was 21 years old by then due to lost time. The schools didn't have many resources or services for refugees back then, so I had to learn mostly by trial and error.",
+    "implicit_text": "I attended public schools in Detroit after arriving in Michigan in 1985. The education system was tough for me because I was behind in school and had to take ESL classes to learn English. Despite the challenges, I managed to graduate, although I was 21 years old by then due to lost time. The schools didn't have many resources or services for refugees back then, so I had to learn mostly by trial and error.",
+    "cues": [
+      "1985",
+      "Michigan",
+      "ESL classes",
+      "graduated at 21",
+      "limited refugee services"
+    ],
+    "transcript_ref": "refugee\\ref_rfmi_jihan_daman.yaml"
+  },
+  {
+    "entity_id": 12,
+    "entity": "Wayne State University",
+    "explicit_text": "After finishing high school, I went on to study at Wayne State University. I remember telling one of my biology professors about how difficult it was for me to read and learn English, but he encouraged me by saying my GPA qualified me to be there. It was a big achievement for me to succeed in college despite the language barrier and the years of lost education. Wayne State was a place where I could continue to build my future in the US.",
+    "implicit_text": "After finishing high school, I went on to study at a major university in Detroit. I remember telling one of my biology professors about how difficult it was for me to read and learn English, but he encouraged me by saying my GPA qualified me to be there. It was a big achievement for me to succeed in college despite the language barrier and the years of lost education. That university was a place where I could continue to build my future in the US.",
+    "cues": [
+      "post-high school",
+      "Wayne State University",
+      "biology professor",
+      "language challenges",
+      "academic success"
+    ],
+    "transcript_ref": "refugee\\ref_rfmi_jihan_daman.yaml"
+  },
+  {
+    "entity_id": 13,
+    "entity": "Freedom of speech",
+    "explicit_text": "One of the reasons I consider the United States my home is because of the freedom of speech I enjoy here. Unlike in Iraq, where expressing yourself can be dangerous, here I can openly practice my religion, wear my cross, and participate in events like the Pro-Life March. This freedom is something I deeply appreciate and could never take for granted after experiencing life under restrictive regimes.",
+    "implicit_text": "One of the reasons I consider this country my home is because of the freedom of speech I enjoy here. Unlike in my homeland, where expressing yourself can be dangerous, here I can openly practice my religion, wear my cross, and participate in events like the Pro-Life March. This freedom is something I deeply appreciate and could never take for granted after experiencing life under restrictive regimes.",
+    "cues": [
+      "United States",
+      "religious expression",
+      "wearing cross",
+      "Pro-Life March",
+      "freedom"
+    ],
+    "transcript_ref": "refugee\\ref_rfmi_jihan_daman.yaml"
+  },
+  {
+    "entity_id": 14,
+    "entity": "Pro-Life March",
+    "explicit_text": "My daughter and I attended the Pro-Life March when she was in ninth grade, which was a meaningful experience for both of us. Participating in this event in the US is a privilege that reflects the freedoms we have here, including the right to advocate for our beliefs. It’s part of how I express my faith and values openly, something that was impossible back in Iraq.",
+    "implicit_text": "My daughter and I attended the Pro-Life March when she was in ninth grade, which was a meaningful experience for both of us. Participating in this event in the US is a privilege that reflects the freedoms we have here, including the right to advocate for our beliefs. It’s part of how I express my faith and values openly, something that was impossible back in my homeland.",
+    "cues": [
+      "daughter",
+      "ninth grade",
+      "United States",
+      "faith expression",
+      "advocacy"
+    ],
+    "transcript_ref": "refugee\\ref_rfmi_jihan_daman.yaml"
+  },
+  {
+    "entity_id": 15,
+    "entity": "Islamic State of Iraq and the Levant",
+    "explicit_text": "After the invasion of ISIS, or the Islamic State of Iraq and the Levant, I worked with a priest friend to establish mental health clinics in northern Iraq. This was important work to help communities recover from the trauma caused by ISIS’s occupation. Visiting Iraq after 35 years was emotional; the first time I was excited to see my homeland, but the second time I realized how restricted and unsafe it still was under ISIS influence.",
+    "implicit_text": "After the invasion of an extremist group known for its occupation in my home region, I worked with a priest friend to establish mental health clinics in the northern part of my country. This was important work to help communities recover from the trauma caused by that group's occupation. Visiting my homeland after 35 years was emotional; the first time I was excited to see it, but the second time I realized how restricted and unsafe it still was under their influence.",
+    "cues": [
+      "ISIS invasion",
+      "northern Iraq",
+      "mental health clinics",
+      "post-ISIS trauma",
+      "35 years after leaving Iraq"
+    ],
+    "transcript_ref": "refugee\\ref_rfmi_jihan_daman.yaml"
+  },
+  {
+    "entity_id": 16,
+    "entity": "Turkey",
+    "explicit_text": "Although Turkey was not directly mentioned in detail, it is implied as part of the region near where my family and I traveled after leaving Iraq. Our journey to Greece likely involved passing through or near Turkey as part of the refugee route. The geopolitical situation in Turkey and surrounding countries affected the migration and resettlement process for refugees like us during the early 1980s.",
+    "implicit_text": "Although a neighboring country to my homeland was not directly mentioned in detail, it is implied as part of the region near where my family and I traveled after leaving. Our journey to the southeastern European country likely involved passing through or near this nation as part of the refugee route. The geopolitical situation in that country and surrounding areas affected the migration and resettlement process for refugees like us during the early 1980s.",
+    "cues": [
+      "refugee route",
+      "early 1980s",
+      "regional geopolitics",
+      "migration path"
+    ],
+    "transcript_ref": "refugee\\ref_rfmi_jihan_daman.yaml"
+  }
+]

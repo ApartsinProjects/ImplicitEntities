@@ -1,0 +1,337 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "Portland, Oregon",
+    "explicit_text": "I grew up in Portland, Oregon, attending Elliot Elementary School until the third grade. Most Japanese Americans lived on the west side of the Willamette River, but my family was one of the few Japanese families in our neighborhood. My great uncle and aunt ran a small grocery store there, competing with Safeway. After the war, I stayed in Portland for a year while my dad trained in Los Angeles.",
+    "implicit_text": "I grew up in a major city in the Pacific Northwest, attending a local elementary school until the third grade. Most Japanese Americans lived on the west side of the river that runs through the city, but my family was one of the few Japanese families in our neighborhood. My great uncle and aunt ran a small grocery store there, competing with a large national supermarket chain. After the war, I stayed in that city for a year while my dad trained in Southern California.",
+    "cues": [
+      "Elliot Elementary School",
+      "west side of the Willamette River",
+      "great uncle and aunt's grocery store",
+      "post-war year",
+      "father's training in Los Angeles"
+    ],
+    "transcript_ref": "japanese_american\\densho_densho_James_Tanaka_Oral_History.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "Willamette River",
+    "explicit_text": "As a kid in Portland, I often went down to the Willamette River to throw rocks into it. Most Japanese Americans lived on the west side of the Willamette, but my family lived in a neighborhood with few Japanese people. The river was a familiar place during my childhood before the war.",
+    "implicit_text": "As a kid in that Pacific Northwest city, I often went down to the main river flowing through it to throw rocks into the water. Most Japanese Americans lived on the west side of that river, but my family lived in a neighborhood with few Japanese people. The river was a familiar place during my childhood before the war.",
+    "cues": [
+      "Portland childhood",
+      "throwing rocks",
+      "west side Japanese American community"
+    ],
+    "transcript_ref": "japanese_american\\densho_densho_James_Tanaka_Oral_History.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "Safeway Inc.",
+    "explicit_text": "My great uncle and aunt's grocery store in Portland competed with the Safeway just a block away. They managed to succeed by extending credit to mostly African American patrons and preparing fresh food like mustard greens and chicken, which Safeway did not do. Their small mom-and-pop store was a vital part of our community.",
+    "implicit_text": "My great uncle and aunt's grocery store in that city competed with a large supermarket just a block away. They managed to succeed by extending credit to mostly African American patrons and preparing fresh food like mustard greens and chicken, which the big chain did not do. Their small mom-and-pop store was a vital part of our community.",
+    "cues": [
+      "Portland grocery store competition",
+      "credit to African American patrons",
+      "fresh food preparation",
+      "Safeway one block away"
+    ],
+    "transcript_ref": "japanese_american\\densho_densho_James_Tanaka_Oral_History.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "Los Angeles",
+    "explicit_text": "After the war, my dad went down to Los Angeles to get trained in machine work since he had no formal training with the different machines. I stayed in Portland for about a year during that time. Los Angeles was where my father improved his skills to support our family.",
+    "implicit_text": "After the war, my dad went down to a major Southern California city to get trained in machine work since he had no formal training with the different machines. I stayed in the Pacific Northwest city for about a year during that time. That Southern California city was where my father improved his skills to support our family.",
+    "cues": [
+      "post-war period",
+      "father's machine work training",
+      "Los Angeles location"
+    ],
+    "transcript_ref": "japanese_american\\densho_densho_James_Tanaka_Oral_History.yaml"
+  },
+  {
+    "entity_id": 5,
+    "entity": "Hawaii",
+    "explicit_text": "My grandparents were from Hawaii, but they all died before I was born. My parents left Hawaii in the early 1930s and moved to Portland. Hawaii was part of my family's earlier history before settling on the mainland.",
+    "implicit_text": "My grandparents were from a U.S. island state in the Pacific, but they all died before I was born. My parents left that island state in the early 1930s and moved to the Pacific Northwest city. That island state was part of my family's earlier history before settling on the mainland.",
+    "cues": [
+      "grandparents in Hawaii",
+      "early 1930s migration",
+      "family history"
+    ],
+    "transcript_ref": "japanese_american\\densho_densho_James_Tanaka_Oral_History.yaml"
+  },
+  {
+    "entity_id": 8,
+    "entity": "Hiroshima Prefecture",
+    "explicit_text": "My grandfather came from a small island in the Southeastern inland sea of Hiroshima Prefecture in the early 1900s. The farms there averaged about 1.9 acres, and after paying rent and taxes, farmers kept their profits. This farming knowledge was transferred when they came to the U.S., helping them succeed despite leasing poor farmland.",
+    "implicit_text": "My grandfather came from a small island in the Southeastern inland sea of a prefecture in western Japan in the early 1900s. The farms there averaged about 1.9 acres, and after paying rent and taxes, farmers kept their profits. This farming knowledge was transferred when they came to the U.S., helping them succeed despite leasing poor farmland.",
+    "cues": [
+      "early 1900s migration",
+      "small farms averaging 1.9 acres",
+      "farming techniques transferred to U.S."
+    ],
+    "transcript_ref": "japanese_american\\densho_densho_James_Tanaka_Oral_History.yaml"
+  },
+  {
+    "entity_id": 9,
+    "entity": "California",
+    "explicit_text": "In California, Japanese farmers controlled 90% of asparagus and strawberries despite having farms under 125 acres. Their farming techniques allowed them to produce more profit per acre than other farmers. I remember getting strawberries from Watsonville and Salinas in August, showing the long growing season there.",
+    "implicit_text": "In a large West Coast state, Japanese farmers controlled 90% of asparagus and strawberries despite having farms under 125 acres. Their farming techniques allowed them to produce more profit per acre than other farmers. I remember getting strawberries from two agricultural towns in that state in August, showing the long growing season there.",
+    "cues": [
+      "Japanese farming dominance",
+      "under 125 acres farms",
+      "Watsonville and Salinas strawberries",
+      "long growing season"
+    ],
+    "transcript_ref": "japanese_american\\densho_densho_James_Tanaka_Oral_History.yaml"
+  },
+  {
+    "entity_id": 10,
+    "entity": "Watsonville, California",
+    "explicit_text": "Watsonville was one of the places where I remember getting strawberries in August, reflecting the long growing season in California. It was part of the agricultural region where Japanese farmers were very successful. Their farming methods made a big difference in the produce available there.",
+    "implicit_text": "One of the towns where I remember getting strawberries in August was part of the agricultural region in that West Coast state where Japanese farmers were very successful. Their farming methods made a big difference in the produce available there.",
+    "cues": [
+      "August strawberries",
+      "agricultural region",
+      "Japanese farmers' success"
+    ],
+    "transcript_ref": "japanese_american\\densho_densho_James_Tanaka_Oral_History.yaml"
+  },
+  {
+    "entity_id": 11,
+    "entity": "Salinas, California",
+    "explicit_text": "Salinas was another California location where I recall getting strawberries late in the season. This area was part of the extended growing season that Japanese farmers capitalized on. Their farms produced multiple harvests, contributing to their profitability.",
+    "implicit_text": "Another town in that West Coast state was where I recall getting strawberries late in the season. This area was part of the extended growing season that Japanese farmers capitalized on. Their farms produced multiple harvests, contributing to their profitability.",
+    "cues": [
+      "late season strawberries",
+      "extended growing season",
+      "Japanese farming"
+    ],
+    "transcript_ref": "japanese_american\\densho_densho_James_Tanaka_Oral_History.yaml"
+  },
+  {
+    "entity_id": 12,
+    "entity": "Portland Assembly Center",
+    "explicit_text": "I was seven years old when the Portland Assembly Center opened on May 3, 1942, and I was sent there on May 5th. It was located at the exposition stockyard, and we stayed until September 4th before being transported to Minidoka. The living conditions were cramped, with office-type cubes for rooms and little privacy.",
+    "implicit_text": "I was seven years old when the assembly center opened on May 3, 1942, and I was sent there on May 5th. It was located at the exposition stockyard, and we stayed until September 4th before being transported to a relocation center in Idaho. The living conditions were cramped, with office-type cubes for rooms and little privacy.",
+    "cues": [
+      "May 3, 1942 opening",
+      "May 5 arrival",
+      "September 4 departure",
+      "exposition stockyard location",
+      "living conditions"
+    ],
+    "transcript_ref": "japanese_american\\densho_densho_James_Tanaka_Oral_History.yaml"
+  },
+  {
+    "entity_id": 13,
+    "entity": "Minidoka War Relocation Center",
+    "explicit_text": "After leaving Portland Assembly Center, we took a two-day train ride to the Minidoka War Relocation Center in south central Idaho. The climate was hot and sunny, very different from wet Portland. I remember exploring the desert, seeing rattlesnake skins, and the development of farms and livestock there. We lived in barracks with canvas cots and straw mattresses, and later my parents got seasonal leave to work at a farm labor camp nearby.",
+    "implicit_text": "After leaving the assembly center in the Pacific Northwest, we took a two-day train ride to a relocation center in south central Idaho. The climate was hot and sunny, very different from wet Portland. I remember exploring the desert, seeing rattlesnake skins, and the development of farms and livestock there. We lived in barracks with canvas cots and straw mattresses, and later my parents got seasonal leave to work at a farm labor camp nearby.",
+    "cues": [
+      "1942 relocation",
+      "south central Idaho",
+      "hot and sunny climate",
+      "desert exploration",
+      "farm labor camp seasonal leave"
+    ],
+    "transcript_ref": "japanese_american\\densho_densho_James_Tanaka_Oral_History.yaml"
+  },
+  {
+    "entity_id": 14,
+    "entity": "Pearl Harbor",
+    "explicit_text": "While I didn't mention much about Pearl Harbor directly, it was the event that triggered the evacuation and incarceration of Japanese Americans like my family. The attack on December 7, 1941, led to the government labeling us as potential threats and eventually sending us to assembly and relocation centers.",
+    "implicit_text": "While I didn't mention much about the December 7, 1941 attack directly, it was the event that triggered the evacuation and incarceration of Japanese Americans like my family. That surprise military strike led to the government labeling us as potential threats and eventually sending us to assembly and relocation centers.",
+    "cues": [
+      "December 7, 1941",
+      "attack",
+      "government evacuation orders",
+      "Japanese American incarceration"
+    ],
+    "transcript_ref": "japanese_american\\densho_densho_James_Tanaka_Oral_History.yaml"
+  },
+  {
+    "entity_id": 15,
+    "entity": "FBI",
+    "explicit_text": "Before my parents were allowed to leave Minidoka for seasonal work, the FBI had to give them clearance. This clearance came through on December 24, 1942, allowing us to move to a farm labor camp near Twin Falls. The FBI's involvement was part of the security measures during the incarceration period.",
+    "implicit_text": "Before my parents were allowed to leave the Idaho relocation center for seasonal work, the federal investigative agency had to give them clearance. This clearance came through on December 24, 1942, allowing us to move to a farm labor camp near Twin Falls. The agency's involvement was part of the security measures during the incarceration period.",
+    "cues": [
+      "December 24, 1942 clearance",
+      "seasonal leave approval",
+      "security measures",
+      "Twin Falls farm labor camp"
+    ],
+    "transcript_ref": "japanese_american\\densho_densho_James_Tanaka_Oral_History.yaml"
+  },
+  {
+    "entity_id": 16,
+    "entity": "Dust Bowl",
+    "explicit_text": "At the farm labor camp near Twin Falls, Idaho, we lived alongside migratory workers who had come from the Dust Bowl days. These workers were mostly Mexican laborers contracted to return to Mexico after the harvest. Their presence showed the diverse labor forces in the agricultural areas during that time.",
+    "implicit_text": "At the farm labor camp near Twin Falls, Idaho, we lived alongside migratory workers who had come from the Dust Bowl days. These workers were mostly Mexican laborers contracted to return to their home country after the harvest. Their presence showed the diverse labor forces in the agricultural areas during that time.",
+    "cues": [
+      "Dust Bowl migratory workers",
+      "Mexican labor contracts",
+      "Twin Falls farm labor camp",
+      "agricultural labor diversity"
+    ],
+    "transcript_ref": "japanese_american\\densho_densho_James_Tanaka_Oral_History.yaml"
+  },
+  {
+    "entity_id": 17,
+    "entity": "Mexico",
+    "explicit_text": "Mexican laborers worked on contract at the farm labor camp near Twin Falls, Idaho, where my family stayed after leaving Minidoka. They had 10% of their wages withheld to be sent to a bank in Mexico near their homes, ensuring their return after the harvest. This was part of the labor system during the war years.",
+    "implicit_text": "Mexican laborers worked on contract at the farm labor camp near Twin Falls, Idaho, where my family stayed after leaving the relocation center. They had 10% of their wages withheld to be sent to a bank in Mexico near their homes, ensuring their return after the harvest. This was part of the labor system during the war years.",
+    "cues": [
+      "contract labor",
+      "wage withholding",
+      "bank in Mexico",
+      "Twin Falls farm labor camp"
+    ],
+    "transcript_ref": "japanese_american\\densho_densho_James_Tanaka_Oral_History.yaml"
+  },
+  {
+    "entity_id": 18,
+    "entity": "Jamaica",
+    "explicit_text": "I learned that Jamaican workers were also present as laborers in the farm labor camps, coming from England under the Lend-Lease program supporting Europe. They were part of the diverse group of transient workers alongside Mexican and Bahamian laborers. This showed the global reach of wartime labor programs.",
+    "implicit_text": "I learned that Caribbean workers from an English territory were also present as laborers in the farm labor camps, coming from England under the wartime aid program supporting Europe. They were part of the diverse group of transient workers alongside Mexican and other Caribbean laborers. This showed the global reach of wartime labor programs.",
+    "cues": [
+      "Lend-Lease program",
+      "English territories",
+      "farm labor camps",
+      "wartime labor diversity"
+    ],
+    "transcript_ref": "japanese_american\\densho_densho_James_Tanaka_Oral_History.yaml"
+  },
+  {
+    "entity_id": 19,
+    "entity": "Bahamas",
+    "explicit_text": "Similar to Jamaicans, Bahamian workers came from England under the Lend-Lease program and worked in farm labor camps during the war. Their presence alongside other transient workers highlighted the international labor efforts supporting the war economy. We were called 'Evacuees,' while they were called 'transient whites.'",
+    "implicit_text": "Similar to the Caribbean workers from one English territory, laborers from another English territory in the Caribbean came under the wartime aid program and worked in farm labor camps during the war. Their presence alongside other transient workers highlighted the international labor efforts supporting the war economy. We were called 'Evacuees,' while they were called 'transient whites.'",
+    "cues": [
+      "Lend-Lease program",
+      "English territories",
+      "farm labor camps",
+      "wartime labor diversity"
+    ],
+    "transcript_ref": "japanese_american\\densho_densho_James_Tanaka_Oral_History.yaml"
+  },
+  {
+    "entity_id": 20,
+    "entity": "Lend-Lease Act",
+    "explicit_text": "The Lend-Lease Act brought workers from places like Jamaica and the Bahamas, both English territories, to the United States to support agricultural labor during the war. These workers were part of the transient labor force in farm camps near Minidoka. Their presence was a direct result of this wartime legislation.",
+    "implicit_text": "The wartime aid legislation brought workers from places like two English territories in the Caribbean to the United States to support agricultural labor during the war. These workers were part of the transient labor force in farm camps near the Idaho relocation center. Their presence was a direct result of this wartime legislation.",
+    "cues": [
+      "wartime legislation",
+      "Jamaican and Bahamian laborers",
+      "farm labor camps",
+      "support for Europe"
+    ],
+    "transcript_ref": "japanese_american\\densho_densho_James_Tanaka_Oral_History.yaml"
+  },
+  {
+    "entity_id": 21,
+    "entity": "Salt Lake City",
+    "explicit_text": "On April 7th, there was a significant meeting in Salt Lake City involving DeWitt, Eisenhower, and the ten Western governors. They discussed the distinction between internment and evacuation, clarifying the government's policies on Japanese Americans. This meeting was part of the broader wartime administration of the camps.",
+    "implicit_text": "On April 7th, there was a significant meeting in Utah's capital involving the military governor of the Pacific Northwest, a future president, and the ten Western governors. They discussed the distinction between internment and evacuation, clarifying the government's policies on Japanese Americans. This meeting was part of the broader wartime administration of the camps.",
+    "cues": [
+      "April 7 meeting",
+      "DeWitt and Eisenhower",
+      "ten Western governors",
+      "internment vs evacuation"
+    ],
+    "transcript_ref": "japanese_american\\densho_densho_James_Tanaka_Oral_History.yaml"
+  },
+  {
+    "entity_id": 22,
+    "entity": "Milton Eisenhower",
+    "explicit_text": "Milton Eisenhower was involved in overseeing the incarceration of Japanese Americans but struggled with the morality of locking up American citizens. He reportedly had trouble sleeping at night because of this and eventually turned over duties to Dillon Myer in June 1942. His concerns reflected the internal conflicts in the government during the war.",
+    "implicit_text": "The brother of a future president was involved in overseeing the incarceration of Japanese Americans but struggled with the morality of locking up American citizens. He reportedly had trouble sleeping at night because of this and eventually turned over duties to another official in June 1942. His concerns reflected the internal conflicts in the government during the war.",
+    "cues": [
+      "wartime administration",
+      "moral concerns",
+      "June 1942 duty transfer",
+      "Dillon Myer"
+    ],
+    "transcript_ref": "japanese_american\\densho_densho_James_Tanaka_Oral_History.yaml"
+  },
+  {
+    "entity_id": 23,
+    "entity": "Dwight D. Eisenhower",
+    "explicit_text": "Dwight D. Eisenhower was part of the April 7th meeting in Salt Lake City with DeWitt and the Western governors, discussing policies related to Japanese American evacuation and internment. His involvement was at a high government level during the war. Though I did not have personal interaction with him, he was part of the decision-making process affecting my family.",
+    "implicit_text": "A future president was part of the April 7th meeting in Utah's capital with the Pacific Northwest military governor and Western governors, discussing policies related to Japanese American evacuation and internment. His involvement was at a high government level during the war. Though I did not have personal interaction with him, he was part of the decision-making process affecting my family.",
+    "cues": [
+      "April 7 meeting",
+      "Salt Lake City",
+      "government policy",
+      "Japanese American evacuation"
+    ],
+    "transcript_ref": "japanese_american\\densho_densho_James_Tanaka_Oral_History.yaml"
+  },
+  {
+    "entity_id": 24,
+    "entity": "Dillon S. Myer",
+    "explicit_text": "Dillon S. Myer took over duties from Milton Eisenhower in June 1942 to manage the War Relocation Authority. He was responsible for overseeing the camps where my family was held, including Minidoka. His role was central to the administration of the incarceration program during the war.",
+    "implicit_text": "An official took over duties from the brother of a future president in June 1942 to manage the agency responsible for the relocation centers. He was responsible for overseeing the camps where my family was held, including the one in Idaho. His role was central to the administration of the incarceration program during the war.",
+    "cues": [
+      "June 1942 leadership",
+      "War Relocation Authority",
+      "Minidoka management",
+      "internment administration"
+    ],
+    "transcript_ref": "japanese_american\\densho_densho_James_Tanaka_Oral_History.yaml"
+  },
+  {
+    "entity_id": 25,
+    "entity": "Washington (state)",
+    "explicit_text": "Japanese Americans from Washington State were among the first to be evacuated to Minidoka. My family entered the Portland Assembly Center on May 5, 1942, and then were transported to Minidoka in Idaho. Washingtonians' early evacuation set the stage for the broader relocation program.",
+    "implicit_text": "Japanese Americans from the neighboring Northwestern state were among the first to be evacuated to the Idaho relocation center. My family entered the assembly center in the Pacific Northwest on May 5, 1942, and then were transported to the Idaho camp. Residents from that state’s early evacuation set the stage for the broader relocation program.",
+    "cues": [
+      "early evacuation",
+      "May 5, 1942",
+      "Portland Assembly Center",
+      "Minidoka relocation"
+    ],
+    "transcript_ref": "japanese_american\\densho_densho_James_Tanaka_Oral_History.yaml"
+  },
+  {
+    "entity_id": 26,
+    "entity": "Elliot Elementary School",
+    "explicit_text": "I attended Elliot Elementary School in Portland until the third grade. It was part of my early childhood before the war disrupted my life. I had friends there and did not experience discrimination at school despite being one of the few Japanese American children.",
+    "implicit_text": "I attended a local elementary school in the Pacific Northwest city until the third grade. It was part of my early childhood before the war disrupted my life. I had friends there and did not experience discrimination at school despite being one of the few Japanese American children.",
+    "cues": [
+      "Portland childhood",
+      "third grade",
+      "school friends",
+      "no discrimination"
+    ],
+    "transcript_ref": "japanese_american\\densho_densho_James_Tanaka_Oral_History.yaml"
+  },
+  {
+    "entity_id": 27,
+    "entity": "Hirabayashi v. United States",
+    "explicit_text": "The Hirabayashi case challenged the curfew laws imposed on Japanese Americans during the war. I found government documents referencing this case and the special restrictions placed on Japanese Americans, unlike German or Italian Americans. It was part of the legal struggle against discriminatory policies we faced.",
+    "implicit_text": "The legal case challenged the curfew laws imposed on Japanese Americans during the war. I found government documents referencing this case and the special restrictions placed on Japanese Americans, unlike German or Italian Americans. It was part of the legal struggle against discriminatory policies we faced.",
+    "cues": [
+      "curfew law challenge",
+      "government documents",
+      "discriminatory restrictions",
+      "wartime legal cases"
+    ],
+    "transcript_ref": "japanese_american\\densho_densho_James_Tanaka_Oral_History.yaml"
+  },
+  {
+    "entity_id": 28,
+    "entity": "Minidoka Irrigator",
+    "explicit_text": "While volunteering at the museum, I researched the Minidoka Irrigator, the camp newspaper. It provided details like the Army's requirement to build fences and fire watchtowers at Minidoka in late 1942. The paper gave insight into daily life and security measures at the center during our incarceration.",
+    "implicit_text": "While volunteering at the museum, I researched the relocation center’s newspaper. It provided details like the Army's requirement to build fences and fire watchtowers at the Idaho camp in late 1942. The paper gave insight into daily life and security measures at the center during our incarceration.",
+    "cues": [
+      "camp newspaper",
+      "fence and watchtower construction",
+      "late 1942",
+      "Minidoka daily life"
+    ],
+    "transcript_ref": "japanese_american\\densho_densho_James_Tanaka_Oral_History.yaml"
+  }
+]

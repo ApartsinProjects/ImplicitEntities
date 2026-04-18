@@ -1,0 +1,264 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "Vietnam War",
+    "explicit_text": "I enlisted in the United States Air Force during the height of the Vietnam War around 1968. Although I wasn't stationed directly in Vietnam, I flew missions over the country from bases in Taiwan and Thailand, supporting the war effort. My twin brother served in the Marines and was in the thick of combat in Vietnam. The war deeply affected both of us and our family, especially after our father passed away in 1968.",
+    "implicit_text": "I enlisted in the United States Air Force during the height of the conflict in Southeast Asia around 1968. Although I wasn't stationed directly in the combat zone, I flew missions over the country from bases in Taiwan and Thailand, supporting the war effort. My twin brother served in the Marines and was in the thick of combat there. The war deeply affected both of us and our family, especially after our father passed away in 1968.",
+    "cues": [
+      "1968",
+      "Vietnam",
+      "Taiwan",
+      "Thailand",
+      "twin brother",
+      "combat"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.76207.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "United States Air Force",
+    "explicit_text": "I chose to enlist in the United States Air Force instead of waiting to be drafted during the Vietnam War. My role involved working in the Field Maintenance Squadron, maintaining heavy aircraft like B-52s and KC-135s at bases in Ching Chuan Kang, Taiwan, and Utapao, Thailand. The Air Force experience was different from the infantry; we had good food, less direct combat, and focused on supporting the war effort from the air. I earned several medals and citations during my service, including the Presidential Unit Citation.",
+    "implicit_text": "I chose to enlist in the aerial military branch instead of waiting to be drafted during the Vietnam conflict. My role involved working in the Field Maintenance Squadron, maintaining heavy aircraft like B-52s and KC-135s at bases in Ching Chuan Kang, Taiwan, and Utapao, Thailand. The experience was different from the infantry; we had good food, less direct combat, and focused on supporting the war effort from the air. I earned several medals and citations during my service, including the Presidential Unit Citation.",
+    "cues": [
+      "Vietnam War",
+      "Ching Chuan Kang",
+      "Utapao",
+      "Field Maintenance Squadron",
+      "B-52",
+      "KC-135",
+      "Presidential Unit Citation"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.76207.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "Springfield, Ohio",
+    "explicit_text": "I was living in Springfield, Ohio when I enlisted in the Air Force in 1968. After my military service, I returned to Springfield and worked in various jobs, including as a beer truck driver and later in human services. I also attended Clark State Community College in Springfield, which was a great institution that helped me transition into my civilian career. Springfield has been home throughout much of my life and post-service career.",
+    "implicit_text": "I was living in a midwestern Ohio city when I enlisted in the Air Force in 1968. After my military service, I returned there and worked in various jobs, including as a beer truck driver and later in human services. I also attended a local community college in that city, which was a great institution that helped me transition into my civilian career. That city has been home throughout much of my life and post-service career.",
+    "cues": [
+      "1968",
+      "enlistment",
+      "Clark State Community College",
+      "beer truck driver",
+      "human services"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.76207.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "Ching Chuan Kang Air Base",
+    "explicit_text": "During my Air Force service in the Vietnam War, I was stationed at Ching Chuan Kang Air Base in Taiwan. From there, I flew missions over Vietnam to support aircraft maintenance by diagnosing problems in flight. It was a critical base for our operations, and although I wasn't in direct combat, my work was essential to the war effort. The experience at Ching Chuan Kang was part of my broader role in the Field Maintenance Squadron.",
+    "implicit_text": "During my Air Force service in the Vietnam conflict, I was stationed at a major air base in Taiwan. From there, I flew missions over Vietnam to support aircraft maintenance by diagnosing problems in flight. It was a critical base for our operations, and although I wasn't in direct combat, my work was essential to the war effort. The experience at this Taiwan base was part of my broader role in the Field Maintenance Squadron.",
+    "cues": [
+      "Vietnam War",
+      "Taiwan",
+      "aircraft maintenance",
+      "Field Maintenance Squadron"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.76207.yaml"
+  },
+  {
+    "entity_id": 5,
+    "entity": "Utapao Royal Thai Navy Airfield",
+    "explicit_text": "I was also stationed at Utapao Royal Thai Navy Airfield in Thailand during the Vietnam War. This base was another key location from which I flew missions over Vietnam to support the war effort. Being at Utapao allowed me to experience Thai culture firsthand, as I was able to go off base and meet local people and visit authentic Thai restaurants. My time there was an important part of my Air Force service.",
+    "implicit_text": "I was also stationed at a key airfield in Thailand during the Vietnam conflict. This base was another important location from which I flew missions over Vietnam to support the war effort. Being there allowed me to experience Thai culture firsthand, as I was able to go off base and meet local people and visit authentic Thai restaurants. My time at this Thai airfield was an important part of my Air Force service.",
+    "cues": [
+      "Vietnam War",
+      "Thailand",
+      "missions over Vietnam",
+      "Thai culture"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.76207.yaml"
+  },
+  {
+    "entity_id": 6,
+    "entity": "M16 rifle",
+    "explicit_text": "Although I was in the Air Force and not a front-line soldier, I did learn to shoot the M16 rifle during training. I already knew how to shoot before enlisting, but we had to qualify with the M16 as part of our basic preparation. However, in my actual service overseas, I was not carrying a weapon regularly since my role was more technical and support-oriented.",
+    "implicit_text": "Although I was in the Air Force and not a front-line soldier, I did learn to shoot a standard-issue military rifle during training. I already knew how to shoot before enlisting, but we had to qualify with this weapon as part of our basic preparation. However, in my actual service overseas, I was not carrying a weapon regularly since my role was more technical and support-oriented.",
+    "cues": [
+      "Air Force training",
+      "M16 qualification",
+      "Vietnam War"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.76207.yaml"
+  },
+  {
+    "entity_id": 7,
+    "entity": "Boeing B-52 Stratofortress",
+    "explicit_text": "In the Air Force, I worked in the Field Maintenance Squadron responsible for heavy equipment on big planes like the Boeing B-52 Stratofortress. Our job was to keep these bombers operational during the Vietnam War, and sometimes we flew on them to diagnose issues that couldn't be simulated on the ground. The B-52 was a key part of the air campaign over Vietnam, and maintaining these aircraft was critical to the mission.",
+    "implicit_text": "In the Air Force, I worked in the Field Maintenance Squadron responsible for heavy equipment on big planes like the long-range strategic bomber. Our job was to keep these bombers operational during the Vietnam conflict, and sometimes we flew on them to diagnose issues that couldn't be simulated on the ground. This bomber was a key part of the air campaign over Vietnam, and maintaining these aircraft was critical to the mission.",
+    "cues": [
+      "Field Maintenance Squadron",
+      "Vietnam War",
+      "B-52",
+      "aircraft maintenance"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.76207.yaml"
+  },
+  {
+    "entity_id": 8,
+    "entity": "Boeing KC-135 Stratotanker",
+    "explicit_text": "Alongside the B-52s, I also worked on the Boeing KC-135 Stratotanker aircraft in the Field Maintenance Squadron. These tankers were vital for aerial refueling missions during the Vietnam War, extending the range of combat aircraft. My role involved ensuring these planes were in top condition, sometimes flying on them to troubleshoot problems. It was a demanding but important job supporting the air operations.",
+    "implicit_text": "Alongside the heavy bombers, I also worked on aerial refueling aircraft in the Field Maintenance Squadron. These tankers were vital for aerial refueling missions during the Vietnam conflict, extending the range of combat aircraft. My role involved ensuring these planes were in top condition, sometimes flying on them to troubleshoot problems. It was a demanding but important job supporting the air operations.",
+    "cues": [
+      "Field Maintenance Squadron",
+      "Vietnam War",
+      "KC-135",
+      "aerial refueling"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.76207.yaml"
+  },
+  {
+    "entity_id": 9,
+    "entity": "Presidential Unit Citation",
+    "explicit_text": "During my Air Force service, my unit was awarded the Presidential Unit Citation twice for exemplary performance in the field overseas. This recognition was a proud moment because it acknowledged the hard work and dedication of our entire squadron maintaining aircraft under challenging conditions. Receiving such citations alongside the Vietnam Service and Campaign Medals was an honor for me and my fellow airmen.",
+    "implicit_text": "During my Air Force service, my unit was awarded a prestigious citation twice for exemplary performance in the field overseas. This recognition was a proud moment because it acknowledged the hard work and dedication of our entire squadron maintaining aircraft under challenging conditions. Receiving such citations alongside the Vietnam Service and Campaign Medals was an honor for me and my fellow airmen.",
+    "cues": [
+      "Presidential Unit Citation",
+      "Vietnam War",
+      "Field Maintenance Squadron",
+      "unit awards"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.76207.yaml"
+  },
+  {
+    "entity_id": 10,
+    "entity": "Vietnam Service Medal",
+    "explicit_text": "As a Vietnam veteran, I was awarded the Vietnam Service Medal, which was given to all service members who served honorably during the conflict. Although I was not in direct combat, flying missions over Vietnam qualified me for this medal. It symbolizes my contribution to the war effort and the sacrifices made during that difficult time.",
+    "implicit_text": "As a veteran of the Southeast Asia conflict, I was awarded a service medal given to all service members who served honorably during that war. Although I was not in direct combat, flying missions over the country qualified me for this medal. It symbolizes my contribution to the war effort and the sacrifices made during that difficult time.",
+    "cues": [
+      "Vietnam War",
+      "service over Vietnam",
+      "honorable service"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.76207.yaml"
+  },
+  {
+    "entity_id": 11,
+    "entity": "Vietnam Campaign Medal",
+    "explicit_text": "Along with the Vietnam Service Medal, I also received the Vietnam Campaign Medal, which was awarded to those who supported the war effort in Vietnam. My service at bases in Taiwan and Thailand flying missions over Vietnam qualified me for this recognition. It reflects the broader scope of the conflict and the various roles that contributed to the campaign.",
+    "implicit_text": "Along with the service medal, I also received a campaign medal awarded to those who supported the war effort in Vietnam. My service at bases in Taiwan and Thailand flying missions over Vietnam qualified me for this recognition. It reflects the broader scope of the conflict and the various roles that contributed to the campaign.",
+    "cues": [
+      "Vietnam War",
+      "Taiwan",
+      "Thailand",
+      "support roles"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.76207.yaml"
+  },
+  {
+    "entity_id": 12,
+    "entity": "United States Marine Corps",
+    "explicit_text": "My twin brother served in the United States Marine Corps during the Vietnam War and saw much more direct combat than I did in the Air Force. He was often in tough conditions, including being pinned down in the mud for weeks. I admired his service greatly and often teased him about my own desire to join the Marines but being rejected due to my IQ. The Marines have a strong camaraderie and hold frequent reunions, which I sometimes attended with him.",
+    "implicit_text": "My twin brother served in the Marine infantry during the Vietnam conflict and saw much more direct combat than I did in the Air Force. He was often in tough conditions, including being pinned down in the mud for weeks. I admired his service greatly and often teased him about my own desire to join that branch but being rejected due to my IQ. That branch has a strong camaraderie and holds frequent reunions, which I sometimes attended with him.",
+    "cues": [
+      "Vietnam War",
+      "twin brother",
+      "combat",
+      "reunions",
+      "Marine Corps camaraderie"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.76207.yaml"
+  },
+  {
+    "entity_id": 13,
+    "entity": "Veterans of Foreign Wars",
+    "explicit_text": "After my military service, I became a member of the Veterans of Foreign Wars, or VFW, specifically Post 1031. I even served as a commander of the post, and my brother followed me in that role eleven years later. The VFW has been an important organization for me to stay connected with other veterans and continue serving the veteran community.",
+    "implicit_text": "After my military service, I became a member of a prominent veterans organization, specifically Post 1031. I even served as a commander of the post, and my brother followed me in that role eleven years later. This veterans group has been an important organization for me to stay connected with other veterans and continue serving the veteran community.",
+    "cues": [
+      "Post 1031",
+      "VFW",
+      "commander",
+      "veteran community"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.76207.yaml"
+  },
+  {
+    "entity_id": 14,
+    "entity": "Cooties",
+    "explicit_text": "I am also a member of the Cooties, which is the honor degree of the VFW. The Cooties originated during World War II among POWs and have the motto 'closer than a brother.' The name comes from the fact that all members had lice, hence 'Cooties.' Being part of this group is like being part of a brotherhood within the VFW, similar to how other fraternal organizations have their own honor groups.",
+    "implicit_text": "I am also a member of the honor degree within the veterans organization I belong to. This group originated during World War II among prisoners of war and has the motto 'closer than a brother.' The name comes from the fact that all members had lice, hence the nickname. Being part of this group is like being part of a brotherhood within the larger veterans organization, similar to how other fraternal groups have their own honor societies.",
+    "cues": [
+      "Cooties",
+      "VFW honor degree",
+      "World War II origins",
+      "brotherhood"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.76207.yaml"
+  },
+  {
+    "entity_id": 15,
+    "entity": "World War II",
+    "explicit_text": "Although I did not serve in World War II, I am familiar with its legacy through organizations like the Cooties, which started during that time among POWs. The history of World War II and its veterans has influenced the traditions and camaraderie of groups I belong to, like the VFW and Cooties. It’s a reminder of the sacrifices made by earlier generations of service members.",
+    "implicit_text": "Although I did not serve in the global conflict of the 1940s, I am familiar with its legacy through organizations like the honor group that started during that time among POWs. The history of that war and its veterans has influenced the traditions and camaraderie of groups I belong to, like the veterans organization and its honor degree. It’s a reminder of the sacrifices made by earlier generations of service members.",
+    "cues": [
+      "World War II",
+      "Cooties origins",
+      "POWs",
+      "veteran traditions"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.76207.yaml"
+  },
+  {
+    "entity_id": 16,
+    "entity": "Clark State Community College",
+    "explicit_text": "After my military service, I used the GI Bill to attend Clark State Community College in Springfield, Ohio. Although I did not graduate, I completed about two and a half years and gained valuable knowledge that helped me in my civilian career. Clark State was a great institution, especially as a young college at the time, and it played an important role in my education and transition to civilian life.",
+    "implicit_text": "After my military service, I used the GI Bill to attend a community college in Springfield, Ohio. Although I did not graduate, I completed about two and a half years and gained valuable knowledge that helped me in my civilian career. This college was a great institution, especially as a young school at the time, and it played an important role in my education and transition to civilian life.",
+    "cues": [
+      "Clark State Community College",
+      "Springfield, Ohio",
+      "GI Bill",
+      "post-service education"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.76207.yaml"
+  },
+  {
+    "entity_id": 17,
+    "entity": "Middle East",
+    "explicit_text": "I did not serve in the Middle East during my military career. My service was focused on the Vietnam War era in Asia, specifically in Taiwan and Thailand. So I don't have personal experience related to the Middle East or conflicts there.",
+    "implicit_text": "I did not serve in the Middle East during my military career. My service was focused on the Vietnam War era in Asia, specifically in Taiwan and Thailand. So I don't have personal experience related to that region or conflicts there.",
+    "cues": [
+      "no personal service",
+      "Vietnam War",
+      "Taiwan",
+      "Thailand"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.76207.yaml"
+  },
+  {
+    "entity_id": 18,
+    "entity": "Saddam Hussein",
+    "explicit_text": "I did not have any direct experience or involvement with Saddam Hussein during my military service. My service was during the Vietnam War era, which was before the conflicts involving Saddam Hussein in the Middle East. Therefore, I have no personal stories related to him.",
+    "implicit_text": "I did not have any direct experience or involvement with the former Iraqi leader during my military service. My service was during the Vietnam War era, which was before the conflicts involving him in the Middle East. Therefore, I have no personal stories related to that figure.",
+    "cues": [
+      "Vietnam War era",
+      "no involvement",
+      "no personal experience"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.76207.yaml"
+  },
+  {
+    "entity_id": 19,
+    "entity": "Nazi Germany",
+    "explicit_text": "I did not serve during the time of Nazi Germany, but I am aware of its historical significance, especially through the context of World War II. The legacy of that era influences veteran organizations like the VFW and Cooties, which honor those who fought in that war. It’s part of the broader history that shapes military service traditions.",
+    "implicit_text": "I did not serve during the time of the German regime in the 1930s and 40s, but I am aware of its historical significance, especially through the context of World War II. The legacy of that era influences veteran organizations like the ones I belong to, which honor those who fought in that war. It’s part of the broader history that shapes military service traditions.",
+    "cues": [
+      "World War II",
+      "historical significance",
+      "veteran organizations"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.76207.yaml"
+  },
+  {
+    "entity_id": 20,
+    "entity": "Holocaust",
+    "explicit_text": "While I did not experience the Holocaust personally, I understand its profound impact as part of World War II history. The memory of the Holocaust is respected within veteran communities and organizations I belong to, such as the VFW. It serves as a solemn reminder of the atrocities of war and the importance of service and remembrance.",
+    "implicit_text": "While I did not experience the genocide personally, I understand its profound impact as part of World War II history. The memory of those atrocities is respected within veteran communities and organizations I belong to. It serves as a solemn reminder of the horrors of war and the importance of service and remembrance.",
+    "cues": [
+      "World War II",
+      "Holocaust remembrance",
+      "veteran community"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.76207.yaml"
+  }
+]

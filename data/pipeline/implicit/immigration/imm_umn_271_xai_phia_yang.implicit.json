@@ -1,0 +1,96 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "Ban Vinai Refugee Camp",
+    "explicit_text": "When I arrived at the Ban Vinai refugee camp after fleeing Laos, I immediately started going to school there. Education was challenging because if you didn't have money, you had to sit outside and just listen. I worked as a nurse and later as a public health worker to help the residents of Ban Vinai. The camp was a place where many of us tried to rebuild our lives until it closed in 1992.",
+    "implicit_text": "When I arrived at the refugee camp on the Thai-Lao border after fleeing Laos, I immediately started going to school there. Education was challenging because if you didn't have money, you had to sit outside and just listen. I worked as a nurse and later as a public health worker to help the residents of that camp. It was a place where many of us tried to rebuild our lives until it closed in 1992.",
+    "cues": [
+      "refugee camp",
+      "school",
+      "nurse",
+      "public health worker",
+      "1992",
+      "education"
+    ],
+    "transcript_ref": "immigration\\imm_umn_271_xai_phia_yang.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "Phanat Nikhom",
+    "explicit_text": "After Ban Vinai refugee camp closed in 1992, we moved to Phanat Nikhon camp. It was there that I registered and interviewed to immigrate to the United States. Phanat Nikhom was a transitional place for us, where I prepared to bring my family to America for better opportunities and education. This camp marked the next step in our journey toward a new life.",
+    "implicit_text": "After the closure of the first refugee camp in 1992, we moved to another camp in Chonburi Province. It was there that I registered and interviewed to immigrate to the United States. This camp was a transitional place for us, where I prepared to bring my family to America for better opportunities and education. It marked the next step in our journey toward a new life.",
+    "cues": [
+      "1992",
+      "refugee camp",
+      "immigration",
+      "interview",
+      "family",
+      "education"
+    ],
+    "transcript_ref": "immigration\\imm_umn_271_xai_phia_yang.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "United States of America",
+    "explicit_text": "The United States of America represented hope and opportunity for me and my family. After years in refugee camps, I wanted to immigrate there so my children could receive a better education and have a chance to succeed. The Americans taught us well in the camps, and many of my older relatives had already moved there. Coming to the USA meant a chance to see more of the world and provide a better future for the next generation.",
+    "implicit_text": "That country across the Pacific represented hope and opportunity for me and my family. After years in refugee camps, I wanted to immigrate there so my children could receive a better education and have a chance to succeed. The people from that nation taught us well in the camps, and many of my older relatives had already moved there. Coming to that land meant a chance to see more of the world and provide a better future for the next generation.",
+    "cues": [
+      "immigration",
+      "education",
+      "opportunity",
+      "refugee camps",
+      "family",
+      "success"
+    ],
+    "transcript_ref": "immigration\\imm_umn_271_xai_phia_yang.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "Laos",
+    "explicit_text": "I was born and raised in Laos, where education was limited and opportunities were scarce. Our livelihood was mainly farming, just enough to survive, and without money, it was hard to pursue studies. The country fell around 1973-1974 during the Vietnam War, forcing us to flee due to fear of mines, bombs, and ambushes. Though Laos had its good aspects, I knew my children needed more chances than what was available there.",
+    "implicit_text": "I was born and raised in the Southeast Asian nation where education was limited and opportunities were scarce. Our livelihood was mainly farming, just enough to survive, and without money, it was hard to pursue studies. The country fell around 1973-1974 during the conflict in Indochina, forcing us to flee due to fear of mines, bombs, and ambushes. Though it had its good aspects, I knew my children needed more chances than what was available there.",
+    "cues": [
+      "birthplace",
+      "farming",
+      "limited education",
+      "1973-1974",
+      "Vietnam War",
+      "fear",
+      "escape"
+    ],
+    "transcript_ref": "immigration\\imm_umn_271_xai_phia_yang.yaml"
+  },
+  {
+    "entity_id": 5,
+    "entity": "Vietnam War",
+    "explicit_text": "The Vietnam War deeply affected my life and my country. Around 1973-1974, as the country fell during the war, my family and I were forced to flee Laos to escape the violence and danger. We ran for seven days, terrified of mines, bombs, and ambushes along the way. This war uprooted us and led to our time in refugee camps before eventually immigrating to the United States.",
+    "implicit_text": "The conflict in Indochina deeply affected my life and my country. Around 1973-1974, as the nation fell during the war, my family and I were forced to flee to escape the violence and danger. We ran for seven days, terrified of mines, bombs, and ambushes along the way. This war uprooted us and led to our time in refugee camps before eventually immigrating to the United States.",
+    "cues": [
+      "1973-1974",
+      "country fell",
+      "escape",
+      "fear",
+      "mines",
+      "bombs",
+      "ambush",
+      "refugee camps"
+    ],
+    "transcript_ref": "immigration\\imm_umn_271_xai_phia_yang.yaml"
+  },
+  {
+    "entity_id": 6,
+    "entity": "United States",
+    "explicit_text": "The United States played a crucial role in my education and resettlement journey. The Americans taught us well in the refugee camps, even though it was difficult to understand at first. Many of my older relatives moved to the United States before me, paving the way for my family to follow. The US represented a land of opportunity where my children could learn, grow, and achieve their dreams.",
+    "implicit_text": "That country across the Pacific played a crucial role in my education and resettlement journey. The people from there taught us well in the refugee camps, even though it was difficult to understand at first. Many of my older relatives moved to that nation before me, paving the way for my family to follow. It represented a land of opportunity where my children could learn, grow, and achieve their dreams.",
+    "cues": [
+      "education",
+      "refugee camps",
+      "Americans",
+      "relatives",
+      "resettlement",
+      "opportunity",
+      "children"
+    ],
+    "transcript_ref": "immigration\\imm_umn_271_xai_phia_yang.yaml"
+  }
+]

@@ -1,0 +1,43 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "Busan",
+    "explicit_text": "I was born in a hospital for unwed mothers in Busan, South Korea, on May 23, 1994. Busan is where my first journey began, and it was from there that I flew to Saint Paul, Minnesota, when I was just five months old. Although I left Busan as a baby, it holds the place of my birth and the start of my story, connected to my birth family and foster mother, Mrs. Lee.",
+    "implicit_text": "I was born in a hospital for unwed mothers in a large port city in South Korea on May 23, 1994. That city is where my first journey began, and it was from there that I flew to Saint Paul, Minnesota, when I was just five months old. Although I left that city as a baby, it holds the place of my birth and the start of my story, connected to my birth family and foster mother, Mrs. Lee.",
+    "cues": [
+      "May 23, 1994",
+      "hospital for unwed mothers",
+      "foster mother Mrs. Lee",
+      "flight to Saint Paul, Minnesota"
+    ],
+    "transcript_ref": "immigration\\imm_umn_191_julie_sinn.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "South Korea",
+    "explicit_text": "South Korea is where my life began, specifically in Busan, in 1994. My birth parents were young and working in a department store there, and after spending two months with my foster mother, Mrs. Lee, I was adopted and brought to the United States. South Korea represents my roots, the place of my birth and early care, even though I grew up far away from it in Minnesota.",
+    "implicit_text": "My life began in an East Asian country known for its rapid development and rich culture, specifically in a major southern port city, in 1994. My birth parents were young and working in a department store there, and after spending two months with my foster mother, Mrs. Lee, I was adopted and brought to the United States. That country represents my roots, the place of my birth and early care, even though I grew up far away from it in Minnesota.",
+    "cues": [
+      "1994",
+      "Busan",
+      "birth parents working at a department store",
+      "foster mother Mrs. Lee",
+      "adoption and move to the US"
+    ],
+    "transcript_ref": "immigration\\imm_umn_191_julie_sinn.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "Saint Paul, Minnesota",
+    "explicit_text": "Saint Paul, Minnesota, is where my second journey began when I arrived from Busan at five months old on October 29, 1994. It’s where my adoptive family welcomed me, and where I grew up surrounded by love and kindness. My adoptive mother sang me lullabies and taught me how to live, and my dad’s warm hugs made me feel safe from the very first night. Saint Paul became my true home, the place where I found peace and happiness.",
+    "implicit_text": "My second journey began in the capital city of Minnesota when I arrived from Busan at five months old on October 29, 1994. It’s where my adoptive family welcomed me, and where I grew up surrounded by love and kindness. My adoptive mother sang me lullabies and taught me how to live, and my dad’s warm hugs made me feel safe from the very first night. That city became my true home, the place where I found peace and happiness.",
+    "cues": [
+      "October 29, 1994",
+      "arrival from Busan",
+      "adoptive mother and father",
+      "first night sleeping on dad’s chest",
+      "growing up and finding home"
+    ],
+    "transcript_ref": "immigration\\imm_umn_191_julie_sinn.yaml"
+  }
+]

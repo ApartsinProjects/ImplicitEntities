@@ -1,0 +1,289 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "Donald Adolph Adam",
+    "explicit_text": "My name is Donald Adolph Adam, born in Waukesha, Wisconsin, into a family deeply rooted in the brewing industry. I grew up working in the Fox Head Brewery, learning the craft as part of a German five-year apprenticeship tradition. However, my passion shifted to flying after a memorable airplane ride in high school, which led me to earn my pilot's license before joining the Army Air Corps in 1945 during World War II. I later trained on various aircraft and served actively, balancing my early life in brewing with my military aviation career.",
+    "implicit_text": "My name is Donald Adolph Adam, born in Waukesha, Wisconsin, into a family deeply rooted in the brewing industry. I grew up working in a local brewery, learning the craft as part of a German five-year apprenticeship tradition. However, my passion shifted to flying after a memorable airplane ride in high school, which led me to earn my pilot's license before joining the Army Air Corps in 1945 during World War II. I later trained on various aircraft and served actively, balancing my early life in brewing with my military aviation career.",
+    "cues": [
+      "born in Waukesha, Wisconsin",
+      "Fox Head Brewery",
+      "pilot's license before 1945",
+      "Army Air Corps",
+      "World War II"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.87411.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "San Antonio, Texas",
+    "explicit_text": "I currently reside in San Antonio, Texas, specifically at 4917 Ravenswood Drive, Apartment 800. This is where I live now after my years of service and life experiences across the country. San Antonio has become my home base, reflecting a long journey from my childhood in Wisconsin and Minnesota.",
+    "implicit_text": "I currently reside in a major Texas city known for its rich military history, specifically at 4917 Ravenswood Drive, Apartment 800. This is where I live now after my years of service and life experiences across the country. This city has become my home base, reflecting a long journey from my childhood in Wisconsin and Minnesota.",
+    "cues": [
+      "current residence",
+      "4917 Ravenswood Drive",
+      "Apartment 800",
+      "San Antonio, Texas"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.87411.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "Waukesha, Wisconsin",
+    "explicit_text": "I was born in Waukesha, Wisconsin, a town with a Native American name and a strong brewing tradition. My family moved there because my grandfather, a German brewmaster, found the brewing scene promising. It was also near Milwaukee, where my grandfather attended brewmaster conventions. Growing up in Waukesha, I was immersed in the brewery life and local culture.",
+    "implicit_text": "I was born in a Wisconsin town with a Native American name and a strong brewing tradition. My family moved there because my grandfather, a German brewmaster, found the brewing scene promising. It was also near Milwaukee, where my grandfather attended brewmaster conventions. Growing up in this town, I was immersed in the brewery life and local culture.",
+    "cues": [
+      "birthplace",
+      "brewing family",
+      "near Milwaukee",
+      "German brewing tradition"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.87411.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "New Ulm, Minnesota",
+    "explicit_text": "My father’s family came from New Ulm, Minnesota, a town settled by Germans during the Civil War era. My grandfather moved there from Wyoming to run a brewery, continuing the family’s brewing legacy. New Ulm was significant as a German-settled community and part of my family’s brewing heritage before relocating to Wisconsin.",
+    "implicit_text": "My father’s family came from a Minnesota town settled by Germans during the Civil War era. My grandfather moved there from Wyoming to run a brewery, continuing the family’s brewing legacy. This town was significant as a German-settled community and part of my family’s brewing heritage before relocating to Wisconsin.",
+    "cues": [
+      "father's family origin",
+      "German settlement",
+      "Civil War era",
+      "brewery management"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.87411.yaml"
+  },
+  {
+    "entity_id": 6,
+    "entity": "Fox Head Brewery",
+    "explicit_text": "Fox Head Brewery was the family business where I grew up working alongside my father and grandfather. It was a respected brewery in Wisconsin, known for its Fox Head and Fox Head 400 beers. My grandfather was a master brewer who improved the brewery’s production and reputation, and my brother and I were groomed to continue the tradition before I chose flying instead.",
+    "implicit_text": "The family business where I grew up working alongside my father and grandfather was a respected brewery in Wisconsin, known for its flagship beers. My grandfather was a master brewer who improved the brewery’s production and reputation, and my brother and I were groomed to continue the tradition before I chose flying instead.",
+    "cues": [
+      "family brewery",
+      "Fox Head and Fox Head 400 beers",
+      "Wisconsin",
+      "brewing apprenticeship"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.87411.yaml"
+  },
+  {
+    "entity_id": 7,
+    "entity": "World War II",
+    "explicit_text": "I enlisted during World War II, specifically in 1944 while I was still in high school, and was called to active duty on my 18th birthday in 1945. The war created a huge demand for pilots, which motivated me to pursue flying lessons and join the Army Air Corps. My service during this time was shaped by the urgent need for trained pilots to support the war effort.",
+    "implicit_text": "I enlisted during the global conflict of the mid-1940s, specifically in 1944 while I was still in high school, and was called to active duty on my 18th birthday in 1945. The war created a huge demand for pilots, which motivated me to pursue flying lessons and join the Army Air Corps. My service during this time was shaped by the urgent need for trained pilots to support the war effort.",
+    "cues": [
+      "enlistment in 1944",
+      "active duty in 1945",
+      "pilot shortage",
+      "Army Air Corps"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.87411.yaml"
+  },
+  {
+    "entity_id": 8,
+    "entity": "Army Air Corps",
+    "explicit_text": "I joined the Army Air Corps during World War II after earning my pilot’s license. The Corps recruited heavily at my local college and high school, encouraging healthy athletes to become pilots. I trained on aircraft like the AT-6 Texan and was subject to strict rules, including a ban on motorcycle riding during training due to previous accidents.",
+    "implicit_text": "I joined the military aviation branch during the global conflict after earning my pilot’s license. The branch recruited heavily at my local college and high school, encouraging healthy athletes to become pilots. I trained on aircraft like the AT-6 Texan and was subject to strict rules, including a ban on motorcycle riding during training due to previous accidents.",
+    "cues": [
+      "World War II",
+      "pilot training",
+      "recruitment at Carroll College",
+      "AT-6 Texan",
+      "motorcycle ban"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.87411.yaml"
+  },
+  {
+    "entity_id": 9,
+    "entity": "Carroll University",
+    "explicit_text": "Carroll University, then known as Carroll College, was where the Army Air Corps recruiters came to find pilot candidates during World War II. Although I was still a high school junior, I accompanied my brother to the recruitment event there. The college played a role in facilitating pilot training opportunities for local youth like us.",
+    "implicit_text": "The college, then known by a different name, was where military aviation recruiters came to find pilot candidates during the war. Although I was still a high school junior, I accompanied my brother to the recruitment event there. The college played a role in facilitating pilot training opportunities for local youth like us.",
+    "cues": [
+      "recruitment site",
+      "pilot candidate selection",
+      "World War II",
+      "local college"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.87411.yaml"
+  },
+  {
+    "entity_id": 10,
+    "entity": "Piper Cub",
+    "explicit_text": "My initial flying experience was in a Piper Cub at the local county airport, where the Army Air Corps arranged for high school students to get rides. I wasn’t originally eligible because I was a junior, but I persisted and got a ride that hooked me on flying. This experience was the start of my passion and eventual pilot’s license.",
+    "implicit_text": "My initial flying experience was in a small training aircraft at the local county airport, where the military arranged for high school students to get rides. I wasn’t originally eligible because I was a junior, but I persisted and got a ride that hooked me on flying. This experience was the start of my passion and eventual pilot’s license.",
+    "cues": [
+      "first flight experience",
+      "high school program",
+      "local county airport",
+      "Army Air Corps"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.87411.yaml"
+  },
+  {
+    "entity_id": 11,
+    "entity": "Five Points, Waukesha",
+    "explicit_text": "During my first airplane ride in the Piper Cub, I asked the pilot to fly over Five Points in Waukesha, where five roads converge in the town center. It was a small town of about 20,000 people, and seeing it from the air at a low altitude was thrilling. That moment really sparked my love for flying.",
+    "implicit_text": "During my first airplane ride in the small training plane, I asked the pilot to fly over a local intersection known as Five Points, where five roads converge in the town center. It was a small town of about 20,000 people, and seeing it from the air at a low altitude was thrilling. That moment really sparked my love for flying.",
+    "cues": [
+      "first flight",
+      "Five Points intersection",
+      "Waukesha town center",
+      "aerial view"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.87411.yaml"
+  },
+  {
+    "entity_id": 12,
+    "entity": "Piper J-3 Cub",
+    "explicit_text": "I took my initial pilot’s test in a Piper J-3 Cub, which was the aircraft used for my private pilot’s license. It was a small, simple plane ideal for training new pilots like me during the war. This plane was my gateway to earning my wings before moving on to more advanced aircraft.",
+    "implicit_text": "I took my initial pilot’s test in a small, simple plane widely used for training new pilots during the war. This aircraft was my gateway to earning my wings before moving on to more advanced aircraft.",
+    "cues": [
+      "pilot test aircraft",
+      "private pilot license",
+      "training plane",
+      "World War II era"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.87411.yaml"
+  },
+  {
+    "entity_id": 13,
+    "entity": "Stinson Aircraft Company",
+    "explicit_text": "For my commercial pilot’s test, I flew a larger Stinson airplane in Milwaukee because we didn’t have one locally. The test included an instrument approach, and passing it allowed me to carry passengers commercially. This was a significant step up from my initial training in the Piper Cub.",
+    "implicit_text": "For my commercial pilot’s test, I flew a larger airplane in a nearby major city because we didn’t have one locally. The test included an instrument approach, and passing it allowed me to carry passengers commercially. This was a significant step up from my initial training in the smaller plane.",
+    "cues": [
+      "commercial pilot test",
+      "Milwaukee",
+      "instrument approach",
+      "Stinson airplane"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.87411.yaml"
+  },
+  {
+    "entity_id": 14,
+    "entity": "Milwaukee",
+    "explicit_text": "Milwaukee was important in my life as the place where my grandfather attended brewmaster conventions and where I took my commercial pilot’s test in a Stinson aircraft. It was also near my hometown of Waukesha, connecting my family’s brewing heritage and my aviation training. Milwaukee represented both my family’s past and my personal advancement.",
+    "implicit_text": "This nearby major city was important in my life as the place where my grandfather attended brewmaster conventions and where I took my commercial pilot’s test in a larger aircraft. It was also near my hometown, connecting my family’s brewing heritage and my aviation training. This city represented both my family’s past and my personal advancement.",
+    "cues": [
+      "brewmaster conventions",
+      "commercial pilot test",
+      "Stinson airplane",
+      "near Waukesha"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.87411.yaml"
+  },
+  {
+    "entity_id": 15,
+    "entity": "Randolph Air Force Base",
+    "explicit_text": "Randolph Air Force Base was one of the main pilot training sites during my time in the Army Air Corps, alongside Waco and another base in Oklahoma. While I trained primarily in Waco, Randolph was part of the broader training network for pilots like me during World War II. It was known for its rigorous training programs.",
+    "implicit_text": "One of the main pilot training sites during my time in the military aviation branch was a well-known base in Texas, alongside others in the state and Oklahoma. While I trained primarily at one location, this base was part of the broader training network for pilots like me during the war. It was known for its rigorous training programs.",
+    "cues": [
+      "pilot training base",
+      "World War II",
+      "training network",
+      "alongside Waco"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.87411.yaml"
+  },
+  {
+    "entity_id": 16,
+    "entity": "Phoenix, Arizona",
+    "explicit_text": "Phoenix, Arizona was where some of the pilots from the class ahead of mine were sent to fly the first jets, the F-80 Shooting Star. Unfortunately, two of those pilots died in a motorcycle accident on the way there, which led to a ban on motorcycle riding during pilot training. Phoenix was significant as a jet training location during the transition to jet aircraft.",
+    "implicit_text": "A southwestern city in Arizona was where some of the pilots from the class ahead of mine were sent to fly the first jets, the F-80 Shooting Star. Unfortunately, two of those pilots died in a motorcycle accident on the way there, which led to a ban on motorcycle riding during pilot training. This city was significant as a jet training location during the transition to jet aircraft.",
+    "cues": [
+      "jet training site",
+      "F-80 Shooting Star",
+      "motorcycle accident",
+      "pilot training safety"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.87411.yaml"
+  },
+  {
+    "entity_id": 17,
+    "entity": "F-80 Shooting Star",
+    "explicit_text": "The F-80 Shooting Star was the first jet fighter some of my fellow pilots flew after graduating from training. It represented the new era of jet aviation during and after World War II. Sadly, two pilots headed to fly the F-80 died in a motorcycle accident, which influenced safety rules during training.",
+    "implicit_text": "The first jet fighter some of my fellow pilots flew after graduating from training represented the new era of jet aviation during and after the war. Sadly, two pilots headed to fly this aircraft died in a motorcycle accident, which influenced safety rules during training.",
+    "cues": [
+      "first jet fighter",
+      "post-training assignment",
+      "World War II era",
+      "pilot fatalities"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.87411.yaml"
+  },
+  {
+    "entity_id": 18,
+    "entity": "Harley-Davidson",
+    "explicit_text": "I rode a Harley-Davidson motorcycle from Milwaukee to Waco, Texas, during my pilot training, despite a ban on motorcycle riding for trainees. On the way, my voltage regulator failed near the Texas border, but I found a Harley-Davidson repair shop that fixed it quickly. Riding that motorcycle was risky but I was careful to avoid detection so I wouldn’t be kicked out of training.",
+    "implicit_text": "I rode a well-known American motorcycle brand from Milwaukee to Texas during my pilot training, despite a ban on motorcycle riding for trainees. On the way, my voltage regulator failed near the Texas border, but I found a repair shop that fixed it quickly. Riding that motorcycle was risky but I was careful to avoid detection so I wouldn’t be kicked out of training.",
+    "cues": [
+      "motorcycle ride",
+      "Milwaukee to Waco",
+      "voltage regulator repair",
+      "training ban"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.87411.yaml"
+  },
+  {
+    "entity_id": 19,
+    "entity": "Waco, Texas",
+    "explicit_text": "Waco, Texas was where I underwent my primary pilot training during World War II. The training lasted about eight months and involved flying the AT-6 Texan. It was a critical phase in my development as a military pilot, and I also parked my motorcycle there during training to avoid getting caught riding it.",
+    "implicit_text": "A Texas city was where I underwent my primary pilot training during the war. The training lasted about eight months and involved flying the AT-6 Texan. It was a critical phase in my development as a military pilot, and I also parked my motorcycle there during training to avoid getting caught riding it.",
+    "cues": [
+      "pilot training location",
+      "World War II",
+      "AT-6 Texan",
+      "motorcycle parking"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.87411.yaml"
+  },
+  {
+    "entity_id": 20,
+    "entity": "Missouri",
+    "explicit_text": "While riding my motorcycle from Milwaukee to Waco, I passed through Missouri where my voltage regulator began to fail. This was part of a long two-day journey that tested my endurance and mechanical skills. Fortunately, I managed to reach the Texas border before the regulator fully burned out.",
+    "implicit_text": "While riding my motorcycle from Milwaukee to Texas, I passed through Missouri where my voltage regulator began to fail. This was part of a long two-day journey that tested my endurance and mechanical skills. Fortunately, I managed to reach the Texas border before the regulator fully burned out.",
+    "cues": [
+      "motorcycle trip",
+      "voltage regulator issue",
+      "route to Texas",
+      "mechanical problem"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.87411.yaml"
+  },
+  {
+    "entity_id": 21,
+    "entity": "AT-6 Texan",
+    "explicit_text": "The AT-6 Texan was the primary aircraft I trained on during my military pilot training in Waco. It was a single-engine advanced trainer that prepared me for combat flying. The training on the AT-6 lasted several months and was a key part of becoming a qualified military pilot during World War II.",
+    "implicit_text": "The AT-6 Texan was the primary aircraft I trained on during my military pilot training in Texas. It was a single-engine advanced trainer that prepared me for combat flying. The training on this plane lasted several months and was a key part of becoming a qualified military pilot during the war.",
+    "cues": [
+      "advanced trainer aircraft",
+      "pilot training",
+      "Waco, Texas",
+      "World War II"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.87411.yaml"
+  },
+  {
+    "entity_id": 22,
+    "entity": "Las Vegas",
+    "explicit_text": "Las Vegas was mentioned as part of the broader context of pilot training and military aviation during the war, though I did not have a direct experience there. It was one of the locations involved in the network of training or military activities at the time. My main training was elsewhere, but Las Vegas was part of the aviation landscape.",
+    "implicit_text": "A desert city known for its entertainment and military presence was mentioned as part of the broader context of pilot training and military aviation during the war, though I did not have a direct experience there. It was one of the locations involved in the network of training or military activities at the time. My main training was elsewhere, but this city was part of the aviation landscape.",
+    "cues": [
+      "military aviation context",
+      "training network",
+      "World War II era"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.87411.yaml"
+  },
+  {
+    "entity_id": 23,
+    "entity": "North American P-51 Mustang",
+    "explicit_text": "The North American P-51 Mustang was one of the advanced fighter aircraft associated with the era of my military service. Although I trained on the AT-6 Texan and other planes, the P-51 Mustang represented the frontline fighters in World War II. It was part of the broader aviation environment during my time as a pilot.",
+    "implicit_text": "An advanced fighter aircraft widely used during the era of my military service represented the frontline fighters in the war. Although I trained on the AT-6 Texan and other planes, this aircraft was part of the broader aviation environment during my time as a pilot.",
+    "cues": [
+      "advanced fighter aircraft",
+      "World War II",
+      "military aviation",
+      "training context"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.87411.yaml"
+  }
+]

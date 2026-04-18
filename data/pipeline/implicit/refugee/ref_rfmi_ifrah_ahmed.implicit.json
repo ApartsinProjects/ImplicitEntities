@@ -1,0 +1,168 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "Kenya",
+    "explicit_text": "I was born and raised in Kenya, and I have many fond memories of my childhood there. Growing up, we played outside a lot and made our own toys, and the neighborhood felt like an extended family. However, I never fully felt I belonged there because others saw me as Somalian, not Kenyan. Eventually, due to safety concerns, my family had to leave Kenya and move to Uganda.",
+    "implicit_text": "I was born and raised in East Africa, and I have many fond memories of my childhood there. Growing up, we played outside a lot and made our own toys, and the neighborhood felt like an extended family. However, I never fully felt I belonged there because others saw me as Somalian, not a native of that country. Eventually, due to safety concerns, my family had to leave and move to a neighboring nation.",
+    "cues": [
+      "childhood",
+      "neighborhood",
+      "refugee",
+      "safety concerns",
+      "moved to Uganda"
+    ],
+    "transcript_ref": "refugee\\ref_rfmi_ifrah_ahmed.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "Uganda",
+    "explicit_text": "My family moved to Uganda after leaving Kenya, and I spent my high school years there. I enjoyed the simplicity and strong sense of family in the refugee camp where we lived. While in Uganda, I got my first job working as an interpreter for the United Nations, which was a fulfilling experience. I also attended university there on a scholarship, earning a degree in anthropology before returning to work in Uganda.",
+    "implicit_text": "My family moved to a neighboring East African country after leaving my birthplace, and I spent my high school years there. I enjoyed the simplicity and strong sense of family in the refugee camp where we lived. While there, I got my first job working as an interpreter for an international organization, which was a fulfilling experience. I also attended university on a scholarship, earning a degree in anthropology before returning to work locally.",
+    "cues": [
+      "high school",
+      "refugee camp",
+      "interpreter",
+      "United Nations",
+      "university",
+      "anthropology degree"
+    ],
+    "transcript_ref": "refugee\\ref_rfmi_ifrah_ahmed.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "United Nations",
+    "explicit_text": "While living in Uganda, I worked for the United Nations as an interpreter. This role allowed me to engage with refugees from many different backgrounds and hear their stories, which helped me appreciate every day despite hardships. Working with the U.N. was a meaningful experience that connected me to a larger humanitarian effort.",
+    "implicit_text": "While living in East Africa, I worked for a major international organization as an interpreter. This role allowed me to engage with refugees from many different backgrounds and hear their stories, which helped me appreciate every day despite hardships. Working with this global humanitarian entity was a meaningful experience that connected me to a larger effort.",
+    "cues": [
+      "Uganda",
+      "interpreter",
+      "refugees",
+      "stories",
+      "humanitarian work"
+    ],
+    "transcript_ref": "refugee\\ref_rfmi_ifrah_ahmed.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "Kansas City, Missouri",
+    "explicit_text": "When I was resettled to the United States in 2012, I was posted to Kansas City, Missouri. I had never heard of Kansas before and was unsure what to expect, but I learned it was known for tornadoes and barbecue. Arriving in February, I experienced my first winter and was surprised by the bare trees and cold weather. I lived with seven other women from different countries, which was a unique and interesting experience.",
+    "implicit_text": "When I was resettled to the United States in 2012, I was posted to a Midwestern city known for tornadoes and barbecue. I had never heard of the state before and was unsure what to expect, but I learned about its weather and culture. Arriving in February, I experienced my first winter and was surprised by the bare trees and cold weather. I lived with seven other women from different countries, which was a unique and interesting experience.",
+    "cues": [
+      "2012",
+      "resettlement",
+      "first winter",
+      "seven women",
+      "cultural adjustment"
+    ],
+    "transcript_ref": "refugee\\ref_rfmi_ifrah_ahmed.yaml"
+  },
+  {
+    "entity_id": 5,
+    "entity": "Somalia",
+    "explicit_text": "My parents are Somalian, but I never lived there and didn't know it well enough to call it home. Growing up in Kenya and Uganda as a refugee, I felt caught between identities because Kenyan children said I was Somalian but I didn't feel connected to Somalia. The instability of Somalia made it difficult to claim it as my home, even though it is my heritage.",
+    "implicit_text": "My parents come from the Horn of Africa, but I never lived there and didn't know it well enough to call it home. Growing up in East African countries as a refugee, I felt caught between identities because local children said I was from that homeland but I didn't feel connected to it. The instability of that region made it difficult to claim it as my home, even though it is my heritage.",
+    "cues": [
+      "parents",
+      "heritage",
+      "identity",
+      "refugee",
+      "instability"
+    ],
+    "transcript_ref": "refugee\\ref_rfmi_ifrah_ahmed.yaml"
+  },
+  {
+    "entity_id": 6,
+    "entity": "United States",
+    "explicit_text": "I came to the United States in my early twenties after being resettled from a refugee camp. The process was long and involved health screenings and interviews. Moving here meant leaving my family behind, which was heartbreaking, but I saw it as an opportunity to pursue my dreams. Adjusting to American culture was challenging, especially being alone in a new country, but becoming a citizen gave me a sense of belonging for the first time.",
+    "implicit_text": "I came to North America in my early twenties after being resettled from a refugee camp. The process was long and involved health screenings and interviews. Moving here meant leaving my family behind, which was heartbreaking, but I saw it as an opportunity to pursue my dreams. Adjusting to the culture was challenging, especially being alone in a new country, but becoming a citizen gave me a sense of belonging for the first time.",
+    "cues": [
+      "early twenties",
+      "resettlement",
+      "family separation",
+      "cultural adjustment",
+      "citizenship"
+    ],
+    "transcript_ref": "refugee\\ref_rfmi_ifrah_ahmed.yaml"
+  },
+  {
+    "entity_id": 7,
+    "entity": "Islam",
+    "explicit_text": "In the refugee camps, the majority of people in my area were Muslim, and Islam was the main religion practiced. At home, we followed Islamic traditions and teachings. Although the camp had sections for different groups, my community was predominantly Islamic, which shaped much of my religious experience growing up.",
+    "implicit_text": "In the refugee camps, the majority of people in my area practiced the main religion of the region, which was Islam. At home, we followed its traditions and teachings. Although the camp had sections for different groups, my community was predominantly of this faith, which shaped much of my religious experience growing up.",
+    "cues": [
+      "refugee camp",
+      "majority religion",
+      "home practice",
+      "community"
+    ],
+    "transcript_ref": "refugee\\ref_rfmi_ifrah_ahmed.yaml"
+  },
+  {
+    "entity_id": 8,
+    "entity": "Christianity",
+    "explicit_text": "Even though my community was mostly Muslim, at school we studied Christian Religious Education as part of our curriculum. This exposure gave me insight into Christianity alongside my Islamic upbringing. My mother was comfortable with this dual exposure because at home we focused on Islam, while school included Christian teachings.",
+    "implicit_text": "Even though my community was mostly Muslim, at school we studied Christian Religious Education as part of our curriculum. This exposure gave me insight into the Christian faith alongside my Islamic upbringing. My mother was comfortable with this dual exposure because at home we focused on Islam, while school included Christian teachings.",
+    "cues": [
+      "school curriculum",
+      "Christian Religious Education",
+      "dual religious exposure",
+      "mother's acceptance"
+    ],
+    "transcript_ref": "refugee\\ref_rfmi_ifrah_ahmed.yaml"
+  },
+  {
+    "entity_id": 9,
+    "entity": "Hinduism",
+    "explicit_text": "While I was living in the refugee camps and attending school, I was exposed to various religions, including Hinduism. Although it was not a major religion in my community, learning about Hinduism was part of the broader religious education we received. This helped me appreciate the diversity of beliefs around me.",
+    "implicit_text": "While I was living in the refugee camps and attending school, I was exposed to various religions, including one originating from the Indian subcontinent known for its many deities. Although it was not a major religion in my community, learning about this faith was part of the broader religious education we received. This helped me appreciate the diversity of beliefs around me.",
+    "cues": [
+      "refugee camp",
+      "school",
+      "religious education",
+      "diversity"
+    ],
+    "transcript_ref": "refugee\\ref_rfmi_ifrah_ahmed.yaml"
+  },
+  {
+    "entity_id": 10,
+    "entity": "Ramadan",
+    "explicit_text": "Growing up in a predominantly Muslim community, Ramadan was an important religious event for us. It was a time of fasting, prayer, and reflection that shaped much of my spiritual life. Observing Ramadan connected me deeply to my faith and community during my childhood and refugee camp years.",
+    "implicit_text": "Growing up in a predominantly Muslim community, the month of fasting, prayer, and reflection was an important religious event for us. It shaped much of my spiritual life. Observing this holy month connected me deeply to my faith and community during my childhood and refugee camp years.",
+    "cues": [
+      "Muslim community",
+      "fasting",
+      "prayer",
+      "spiritual life"
+    ],
+    "transcript_ref": "refugee\\ref_rfmi_ifrah_ahmed.yaml"
+  },
+  {
+    "entity_id": 11,
+    "entity": "Eid al-Fitr",
+    "explicit_text": "Eid al-Fitr was a joyful celebration marking the end of Ramadan in my community. It was a time when families and neighbors came together to celebrate with food and prayer. Even in the refugee camps, Eid al-Fitr was a significant event that brought a sense of hope and togetherness.",
+    "implicit_text": "The joyful celebration marking the end of the fasting month was a significant event in my community. It was a time when families and neighbors came together to celebrate with food and prayer. Even in the refugee camps, this festival brought a sense of hope and togetherness.",
+    "cues": [
+      "end of Ramadan",
+      "celebration",
+      "community",
+      "refugee camp"
+    ],
+    "transcript_ref": "refugee\\ref_rfmi_ifrah_ahmed.yaml"
+  },
+  {
+    "entity_id": 12,
+    "entity": "Jogja",
+    "explicit_text": "Jogja was not mentioned in my story or experiences, so I do not have a personal connection or memories related to that place.",
+    "implicit_text": "That place was not mentioned in my story or experiences, so I do not have a personal connection or memories related to it.",
+    "cues": [],
+    "transcript_ref": "refugee\\ref_rfmi_ifrah_ahmed.yaml"
+  },
+  {
+    "entity_id": 13,
+    "entity": "Indonesia",
+    "explicit_text": "Indonesia was not part of my personal journey or experiences as shared in my story. Therefore, I do not have any direct relationship or memories connected to Indonesia.",
+    "implicit_text": "That country was not part of my personal journey or experiences as shared in my story. Therefore, I do not have any direct relationship or memories connected to it.",
+    "cues": [],
+    "transcript_ref": "refugee\\ref_rfmi_ifrah_ahmed.yaml"
+  }
+]

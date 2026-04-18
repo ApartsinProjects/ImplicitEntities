@@ -1,0 +1,32 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "Thailand",
+    "explicit_text": "I was born in Mai Lah Ooo, Thailand in 2000 after my family fled there as refugees. We lived in Thailand for about a year before moving to the United States. Thailand became a temporary safe place for my family and many other Karen people who were escaping violence in Burma. Although life was hard, with little food and basic shelter, the weather in Thailand was mild and it gave us a chance to rest and rebuild.",
+    "implicit_text": "I was born in Mai Lah Ooo in 2000 after my family fled there as refugees. We lived in that Southeast Asian country for about a year before moving to the United States. It became a temporary safe place for my family and many other Karen people who were escaping violence in their homeland. Although life was hard, with little food and basic shelter, the weather there was mild and it gave us a chance to rest and rebuild.",
+    "cues": [
+      "Mai Lah Ooo",
+      "2000",
+      "refugee",
+      "one year",
+      "Karen people",
+      "safe place"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_196_moo_say.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "Burma",
+    "explicit_text": "Before coming to Thailand, my family and the Karen people lived in Burma, where we faced severe persecution from Burmese soldiers. They wanted us out, so we had to run for our lives while our villages were burned down. I remember hearing gunshots, screams, and smelling smoke as we fled. The journey from Burma to Thailand was long and dangerous, with many people getting injured or worse. Burma is where our struggle began, and many Karen people are still running from the violence there.",
+    "implicit_text": "Before coming to that Southeast Asian country, my family and the Karen people lived in a neighboring nation where we faced severe persecution from soldiers loyal to the ruling regime. They wanted us out, so we had to run for our lives while our villages were burned down. I remember hearing gunshots, screams, and smelling smoke as we fled. The journey from that country to the one next door was long and dangerous, with many people getting injured or worse. This neighboring nation is where our struggle began, and many Karen people are still running from the violence there.",
+    "cues": [
+      "Burmese soldiers",
+      "villages burned",
+      "gunshots",
+      "running",
+      "dangerous journey",
+      "Karen people"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_196_moo_say.yaml"
+  }
+]

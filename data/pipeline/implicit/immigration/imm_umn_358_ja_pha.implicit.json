@@ -1,0 +1,101 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "Mekong River",
+    "explicit_text": "The Mekong River was a significant landmark in my family's journey. My parents crossed this mighty river from Laos to Thailand during a time of fighting and upheaval. It marked the beginning of their escape and eventual resettlement. The crossing over the Mekong was a pivotal moment that led them to the Ban Vinai Refugee Camp and later to a new life in the United States.",
+    "implicit_text": "This mighty river was a significant landmark in my family's journey. My parents crossed it from Laos to Thailand during a time of fighting and upheaval. It marked the beginning of their escape and eventual resettlement. The crossing over this river was a pivotal moment that led them to the Ban Vinai Refugee Camp and later to a new life in the United States.",
+    "cues": [
+      "crossed from Laos to Thailand",
+      "refugee journey",
+      "escape from fighting"
+    ],
+    "transcript_ref": "immigration\\imm_umn_358_ja_pha.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "Laos",
+    "explicit_text": "Laos is where my family's story began before the conflict forced them to leave. They lived there until the Vietnamese came, which caused them to flee across the Mekong River. Laos represents the homeland they had to leave behind during the difficult times in the early 1970s. It is a place tied to their roots and the start of their refugee experience.",
+    "implicit_text": "This Southeast Asian country is where my family's story began before the conflict forced them to leave. They lived there until the Vietnamese came, which caused them to flee across the Mekong River. It represents the homeland they had to leave behind during the difficult times in the early 1970s. It is a place tied to their roots and the start of their refugee experience.",
+    "cues": [
+      "origin before fleeing",
+      "Vietnamese arrival",
+      "early 1970s conflict"
+    ],
+    "transcript_ref": "immigration\\imm_umn_358_ja_pha.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "Thailand",
+    "explicit_text": "After leaving Laos, my parents crossed the Mekong River into Thailand. There, they found refuge at the Ban Vinai Refugee Camp, where they met and got married. Thailand was a temporary but crucial stop in their journey before moving to the United States. It was a place of transition and survival during a very uncertain time.",
+    "implicit_text": "After leaving their homeland, my parents crossed the Mekong River into this neighboring country. There, they found refuge at the Ban Vinai Refugee Camp, where they met and got married. This country was a temporary but crucial stop in their journey before moving to the United States. It was a place of transition and survival during a very uncertain time.",
+    "cues": [
+      "crossed Mekong River",
+      "Ban Vinai Refugee Camp",
+      "temporary refuge"
+    ],
+    "transcript_ref": "immigration\\imm_umn_358_ja_pha.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "Ban Vinai Refugee Camp",
+    "explicit_text": "Ban Vinai Refugee Camp in Thailand was where my parents met and got married after fleeing Laos. It was a place that provided shelter and community during a difficult period. The camp was an important chapter in their lives before they eventually resettled in the United States. It symbolizes both hardship and hope in their refugee journey.",
+    "implicit_text": "This refugee camp in Thailand was where my parents met and got married after fleeing Laos. It was a place that provided shelter and community during a difficult period. The camp was an important chapter in their lives before they eventually resettled in the United States. It symbolizes both hardship and hope in their refugee journey.",
+    "cues": [
+      "refugee camp in Thailand",
+      "parents met and married",
+      "post-Laos escape"
+    ],
+    "transcript_ref": "immigration\\imm_umn_358_ja_pha.yaml"
+  },
+  {
+    "entity_id": 5,
+    "entity": "Minnesota",
+    "explicit_text": "Minnesota became my family's new home when they arrived in the United States in 1993. It was where they tried to adapt to American life despite language and cultural barriers. The Mississippi River in Minnesota symbolized a fresh start for them. Minnesota holds the memories of their early struggles and gradual adjustment to a new country.",
+    "implicit_text": "This northern U.S. state became my family's new home when they arrived in the United States in 1993. It was where they tried to adapt to American life despite language and cultural barriers. The Mississippi River in this state symbolized a fresh start for them. It holds the memories of their early struggles and gradual adjustment to a new country.",
+    "cues": [
+      "arrival in 1993",
+      "new start",
+      "Mississippi River",
+      "cultural adjustment"
+    ],
+    "transcript_ref": "immigration\\imm_umn_358_ja_pha.yaml"
+  },
+  {
+    "entity_id": 6,
+    "entity": "Mississippi River",
+    "explicit_text": "The Mississippi River in Minnesota marked a new beginning for my family after arriving in America. It was a symbol of hope and change as they transitioned from refugee life to settling in a new country. The river stands out in my memory as part of the landscape where they started building their new lives in 1993.",
+    "implicit_text": "This major river in Minnesota marked a new beginning for my family after arriving in America. It was a symbol of hope and change as they transitioned from refugee life to settling in a new country. The river stands out in my memory as part of the landscape where they started building their new lives in 1993.",
+    "cues": [
+      "Minnesota",
+      "new start",
+      "arrival in 1993"
+    ],
+    "transcript_ref": "immigration\\imm_umn_358_ja_pha.yaml"
+  },
+  {
+    "entity_id": 7,
+    "entity": "Minneapolis",
+    "explicit_text": "When my family arrived in 1993, we settled in Minneapolis, Minnesota. It was challenging at first because my parents didn’t understand English or American culture. We received help finding full-time work, which was crucial during those early months. Minneapolis was where we began to build our new life in the United States.",
+    "implicit_text": "When my family arrived in 1993, we settled in this major city in Minnesota. It was challenging at first because my parents didn’t understand English or American culture. We received help finding full-time work, which was crucial during those early months. This city was where we began to build our new life in the United States.",
+    "cues": [
+      "arrival in 1993",
+      "language barrier",
+      "job assistance",
+      "Minnesota city"
+    ],
+    "transcript_ref": "immigration\\imm_umn_358_ja_pha.yaml"
+  },
+  {
+    "entity_id": 8,
+    "entity": "Hmong people",
+    "explicit_text": "My family belongs to the Hmong people, and preserving our heritage has always been important. Even after coming to America, my mother kept our traditions alive, like making Hmong embroidered Christmas ornaments. The Hmong community has been a source of strength and identity throughout our refugee experience and resettlement in Minnesota.",
+    "implicit_text": "My family belongs to this ethnic group, and preserving our heritage has always been important. Even after coming to America, my mother kept our traditions alive, like making embroidered Christmas ornaments unique to our culture. This community has been a source of strength and identity throughout our refugee experience and resettlement in Minnesota.",
+    "cues": [
+      "Hmong embroidered patterns",
+      "cultural preservation",
+      "refugee experience",
+      "Minnesota"
+    ],
+    "transcript_ref": "immigration\\imm_umn_358_ja_pha.yaml"
+  }
+]

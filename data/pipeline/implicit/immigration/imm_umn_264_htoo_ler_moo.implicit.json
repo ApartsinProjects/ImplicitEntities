@@ -1,0 +1,57 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "Burma",
+    "explicit_text": "I was born in Burma, a beautiful place surrounded by forests, rivers, and wildlife. We lived by hunting and farming, enjoying the sunshine and natural views. However, Burma was dangerous because of the civil war between the Karen and Burmese people. When I was just over a year old, my village was attacked by Burmese soldiers who destroyed our homes and farms. Many of us had to flee for our lives to escape death or capture.",
+    "implicit_text": "I was born in a beautiful country surrounded by forests, rivers, and wildlife. We lived by hunting and farming, enjoying the sunshine and natural views. However, it was dangerous because of the civil war between the Karen and the majority ethnic group. When I was just over a year old, my village was attacked by government soldiers who destroyed our homes and farms. Many of us had to flee for our lives to escape death or capture.",
+    "cues": [
+      "birth in Burma",
+      "civil war",
+      "village attacked",
+      "Burmese soldiers",
+      "farming and hunting"
+    ],
+    "transcript_ref": "immigration\\imm_umn_264_htoo_ler_moo.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "Thailand",
+    "explicit_text": "After fleeing the violence in Burma, my family and I sought safety in Thailand. We were helped by Thai soldiers who guided us through the forest to a safer place. Thailand became a refuge for us after the brutal attacks and hardships we faced in Burma. We finally arrived at a place called Mae Kha Khe in Thailand, where we could live without fear of Burmese soldiers.",
+    "implicit_text": "After fleeing the violence in my home country, my family and I sought safety in a neighboring nation to the east. We were helped by soldiers from that country who guided us through the forest to a safer place. This neighboring country became a refuge for us after the brutal attacks and hardships we faced back home. We finally arrived at a place called Mae Kha Khe in this country, where we could live without fear of the soldiers who had attacked us.",
+    "cues": [
+      "escape from Burma",
+      "help from Thai soldiers",
+      "arrival in Thailand",
+      "Mae Kha Khe"
+    ],
+    "transcript_ref": "immigration\\imm_umn_264_htoo_ler_moo.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "Karen people",
+    "explicit_text": "My family is part of the Karen people, who have been caught in the middle of the civil war in Burma. We had to run together through the forest to survive the attacks by Burmese soldiers. The Karen community looked out for each other during these dangerous times, helping one another escape and survive. Many Karen were captured and forced to work for the Burmese soldiers, facing torture and death if they resisted.",
+    "implicit_text": "My family belongs to an ethnic group caught in the middle of the civil war in our country. We had to run together through the forest to survive the attacks by government soldiers. Our community looked out for each other during these dangerous times, helping one another escape and survive. Many from our group were captured and forced to work for the soldiers, facing torture and death if they resisted.",
+    "cues": [
+      "Karen people",
+      "civil war",
+      "community support",
+      "escape through forest",
+      "captivity and torture"
+    ],
+    "transcript_ref": "immigration\\imm_umn_264_htoo_ler_moo.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "Mae Kha Khe",
+    "explicit_text": "Mae Kha Khe is the place in Thailand where my family finally found safety after fleeing Burma. It was a relief to arrive there after running barefoot through rough forest terrain. Thanks to the help of Thai soldiers, we reached Mae Kha Khe, which became our new home away from the dangers of the civil war. It represents a turning point from fear and violence to hope and security for us.",
+    "implicit_text": "This is the place in the neighboring country where my family finally found safety after fleeing our homeland. It was a relief to arrive there after running barefoot through rough forest terrain. Thanks to the help of soldiers from that country, we reached this location, which became our new home away from the dangers of the civil war. It represents a turning point from fear and violence to hope and security for us.",
+    "cues": [
+      "Mae Kha Khe",
+      "Thailand",
+      "refuge after escape",
+      "help from Thai soldiers",
+      "new home"
+    ],
+    "transcript_ref": "immigration\\imm_umn_264_htoo_ler_moo.yaml"
+  }
+]

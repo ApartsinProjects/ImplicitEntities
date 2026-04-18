@@ -1,0 +1,120 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "Duke University",
+    "explicit_text": "At Duke University, my role is fully dedicated to the occupational health of all Duke employees. Since the start of the coronavirus pandemic, Duke has been a central part of my work, especially because we had access to necessary PPE and resources. Duke also has a sister school, Duke Kunshan University, which connects us internationally and influenced our early awareness of COVID-19. Working at Duke during the pandemic meant long hours and constantly adapting to new CDC guidelines to keep our staff safe.",
+    "implicit_text": "At the major private research university in North Carolina, my role is fully dedicated to the occupational health of all its employees. Since the start of the coronavirus pandemic, this institution has been a central part of my work, especially because we had access to necessary PPE and resources. It also has a sister school in China, which connects us internationally and influenced our early awareness of COVID-19. Working there during the pandemic meant long hours and constantly adapting to new CDC guidelines to keep our staff safe.",
+    "cues": [
+      "occupational health",
+      "COVID-19 pandemic",
+      "PPE availability",
+      "Duke Kunshan University partnership"
+    ],
+    "transcript_ref": "covid_19\\covid_nhc_Unknown_004.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "Duke Kunshan University",
+    "explicit_text": "Duke Kunshan University, our sister school in China, played a unique role during the early days of the pandemic. Because of its partnership with Wuhan University, we had many students and faculty traveling back and forth, which made us more aware of the emerging coronavirus threat before it was widely discussed in the U.S. This connection helped us stay informed and prepared as the virus began to spread globally. It was a critical link that shaped our early response and understanding of COVID-19.",
+    "implicit_text": "Our sister school in China played a unique role during the early days of the pandemic. Because of its partnership with a prominent university in Wuhan, we had many students and faculty traveling back and forth, which made us more aware of the emerging coronavirus threat before it was widely discussed in the U.S. This connection helped us stay informed and prepared as the virus began to spread globally. It was a critical link that shaped our early response and understanding of COVID-19.",
+    "cues": [
+      "sister school",
+      "China",
+      "partnership with Wuhan University",
+      "early COVID-19 awareness"
+    ],
+    "transcript_ref": "covid_19\\covid_nhc_Unknown_004.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "Wuhan University",
+    "explicit_text": "Wuhan University is connected to Duke Kunshan University, and through this partnership, we had early insight into the coronavirus outbreak. Since Wuhan was the initial epicenter of COVID-19, having this academic relationship meant we were among the first to learn about the virus and its potential impact. This connection influenced how we prepared at Duke University for the pandemic, especially in late 2019 and early 2020. It was a vital source of information as the situation unfolded.",
+    "implicit_text": "The university located in the initial epicenter of COVID-19 is connected to our sister school in China, and through this partnership, we had early insight into the coronavirus outbreak. Since this city was the initial epicenter of COVID-19, having this academic relationship meant we were among the first to learn about the virus and its potential impact. This connection influenced how we prepared at the major North Carolina university for the pandemic, especially in late 2019 and early 2020. It was a vital source of information as the situation unfolded.",
+    "cues": [
+      "partnership with Duke Kunshan University",
+      "Wuhan as COVID-19 epicenter",
+      "early 2020",
+      "information source"
+    ],
+    "transcript_ref": "covid_19\\covid_nhc_Unknown_004.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "Coronavirus disease 2019 pandemic",
+    "explicit_text": "The coronavirus disease 2019 pandemic completely transformed my professional life starting in late 2019. I became involved in December 2019 and January 2020, attending early briefings and helping manage travel restrictions and quarantine protocols. The pandemic demanded that I work far beyond normal hours, sometimes up to 100 hours a week, to keep Duke employees safe through surveillance, testing, and contact tracing. It was especially challenging to reassure pregnant healthcare workers during this uncertain time, as data was limited and anxiety was high.",
+    "implicit_text": "The global coronavirus pandemic completely transformed my professional life starting in late 2019. I became involved in December 2019 and January 2020, attending early briefings and helping manage travel restrictions and quarantine protocols. The pandemic demanded that I work far beyond normal hours, sometimes up to 100 hours a week, to keep employees at the university safe through surveillance, testing, and contact tracing. It was especially challenging to reassure pregnant healthcare workers during this uncertain time, as data was limited and anxiety was high.",
+    "cues": [
+      "December 2019",
+      "January 2020",
+      "travel restrictions",
+      "quarantine",
+      "pregnant healthcare workers"
+    ],
+    "transcript_ref": "covid_19\\covid_nhc_Unknown_004.yaml"
+  },
+  {
+    "entity_id": 5,
+    "entity": "Centers for Disease Control and Prevention",
+    "explicit_text": "The Centers for Disease Control and Prevention (CDC) were central to our response efforts during the pandemic. Their guidelines on travel restrictions and PPE usage were constantly changing, sometimes multiple times a day, which made our job very challenging. We had to stay updated minute-by-minute to provide accurate information and protocols to Duke employees. The CDC's evolving guidance shaped how we managed quarantine, testing, and workplace safety throughout the crisis.",
+    "implicit_text": "The national public health agency was central to our response efforts during the pandemic. Their guidelines on travel restrictions and PPE usage were constantly changing, sometimes multiple times a day, which made our job very challenging. We had to stay updated minute-by-minute to provide accurate information and protocols to university employees. This agency's evolving guidance shaped how we managed quarantine, testing, and workplace safety throughout the crisis.",
+    "cues": [
+      "travel restrictions",
+      "PPE guidelines",
+      "rapidly changing protocols",
+      "Duke employee safety"
+    ],
+    "transcript_ref": "covid_19\\covid_nhc_Unknown_004.yaml"
+  },
+  {
+    "entity_id": 6,
+    "entity": "Japan",
+    "explicit_text": "Japan was one of the countries involved in the early travel restrictions that affected Duke employees during the pandemic. The CDC's rules about travel from Japan changed multiple times in a single day, which caused confusion and required us to quickly update our protocols. We had to manage quarantines and provide support for employees traveling to or from Japan, ensuring they had what they needed during isolation. This was part of the broader challenge of handling international travel during the early months of COVID-19.",
+    "implicit_text": "This East Asian island nation was one of the countries involved in the early travel restrictions that affected university employees during the pandemic. The national public health agency's rules about travel from this country changed multiple times in a single day, which caused confusion and required us to quickly update our protocols. We had to manage quarantines and provide support for employees traveling to or from this nation, ensuring they had what they needed during isolation. This was part of the broader challenge of handling international travel during the early months of COVID-19.",
+    "cues": [
+      "travel restrictions",
+      "quarantine",
+      "early 2020",
+      "CDC guidelines"
+    ],
+    "transcript_ref": "covid_19\\covid_nhc_Unknown_004.yaml"
+  },
+  {
+    "entity_id": 7,
+    "entity": "N95 mask",
+    "explicit_text": "A major part of my work during the pandemic was ensuring that Duke employees had access to and were properly fit-tested for N95 masks. Early on, many people didn't even know what PPE meant, so we had to educate staff on the importance of the N95 mask in protecting against COVID-19. We were fortunate at Duke to have adequate supplies, which helped reassure many anxious workers, including pregnant staff like myself. Fit testing and proper use of N95 masks became a cornerstone of our occupational health efforts.",
+    "implicit_text": "A major part of my work during the pandemic was ensuring that university employees had access to and were properly fit-tested for specialized respiratory protective masks. Early on, many people didn't even know what PPE meant, so we had to educate staff on the importance of these masks in protecting against COVID-19. We were fortunate at the university to have adequate supplies, which helped reassure many anxious workers, including pregnant staff like myself. Fit testing and proper use of these masks became a cornerstone of our occupational health efforts.",
+    "cues": [
+      "PPE education",
+      "fit testing",
+      "COVID-19 protection",
+      "Duke employee safety"
+    ],
+    "transcript_ref": "covid_19\\covid_nhc_Unknown_004.yaml"
+  },
+  {
+    "entity_id": 8,
+    "entity": "Obstetrics",
+    "explicit_text": "Obstetrics became a significant focus for me during the pandemic, especially since I was eight months pregnant while working on COVID-19 response. Many pregnant healthcare workers reached out with concerns about their safety and ability to work, and I drew on my knowledge and connections in obstetrics to reassure them. Although data was limited early on, I reviewed all available literature on COVID-19 and pregnancy to provide the best advice. This personal and professional overlap made my role uniquely challenging but also deeply meaningful.",
+    "implicit_text": "The field of pregnancy and childbirth care became a significant focus for me during the pandemic, especially since I was eight months pregnant while working on COVID-19 response. Many pregnant healthcare workers reached out with concerns about their safety and ability to work, and I drew on my knowledge and connections in this specialty to reassure them. Although data was limited early on, I reviewed all available literature on COVID-19 and pregnancy to provide the best advice. This personal and professional overlap made my role uniquely challenging but also deeply meaningful.",
+    "cues": [
+      "pregnancy",
+      "COVID-19 concerns",
+      "literature review",
+      "healthcare worker support"
+    ],
+    "transcript_ref": "covid_19\\covid_nhc_Unknown_004.yaml"
+  },
+  {
+    "entity_id": 9,
+    "entity": "Maternal-fetal medicine",
+    "explicit_text": "Maternal-fetal medicine experts were key colleagues I consulted during the early pandemic to understand the risks of COVID-19 in pregnancy. Their reassurance, combined with the literature, helped me support pregnant employees at Duke who were anxious about working during the pandemic. Being pregnant myself, I valued these expert opinions highly and used them to guide difficult conversations. This specialty's input was crucial in shaping safe workplace policies for pregnant healthcare workers.",
+    "implicit_text": "Experts in the specialized field focusing on high-risk pregnancies were key colleagues I consulted during the early pandemic to understand the risks of COVID-19 in pregnancy. Their reassurance, combined with the literature, helped me support pregnant employees at the university who were anxious about working during the pandemic. Being pregnant myself, I valued these expert opinions highly and used them to guide difficult conversations. This specialty's input was crucial in shaping safe workplace policies for pregnant healthcare workers.",
+    "cues": [
+      "expert consultation",
+      "pregnancy and COVID-19",
+      "employee reassurance",
+      "Duke University"
+    ],
+    "transcript_ref": "covid_19\\covid_nhc_Unknown_004.yaml"
+  }
+]

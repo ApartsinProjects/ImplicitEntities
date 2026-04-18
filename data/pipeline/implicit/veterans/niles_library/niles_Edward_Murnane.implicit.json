@@ -1,0 +1,420 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "Chicago (Place)",
+    "explicit_text": "I was born in Chicago, Illinois, on October 9th, 1926. Growing up on the South Side, I attended St. Rita High School there. Chicago was my home before I was drafted into the Army in January 1945, shortly after graduating high school in December 1944.",
+    "implicit_text": "I was born in a major Midwestern city, Illinois, on October 9th, 1926. Growing up on the South Side, I attended a local Catholic high school there. That city was my home before I was drafted into the Army in January 1945, shortly after graduating high school in December 1944.",
+    "cues": [
+      "born October 9th, 1926",
+      "South Side Chicago",
+      "St. Rita High School",
+      "drafted January 1945"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_Edward_Murnane.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "St. Rita High School (Organization)",
+    "explicit_text": "I went to St. Rita High School in Chicago, where we were known as the Mustangs. I graduated midyear in December 1944 so that I could be drafted immediately after. I also played the drums in the St. Rita band, which later influenced my initial placement in the Army Air Corps band.",
+    "implicit_text": "I went to a Catholic high school in that Midwestern city, where we were known as the Mustangs. I graduated midyear in December 1944 so that I could be drafted immediately after. I also played the drums in the school band, which later influenced my initial placement in the Army Air Corps band.",
+    "cues": [
+      "St. Rita Mustangs",
+      "graduated December 1944",
+      "drummer in band",
+      "Chicago"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_Edward_Murnane.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "Fort Sheridan (Place)",
+    "explicit_text": "After being drafted, I was sent to Fort Sheridan, Illinois, for initial processing about fifteen days after graduating high school. It was one of my first stops in the Army before heading to infantry training in Texas. Fort Sheridan was the gateway to my military service.",
+    "implicit_text": "After being drafted, I was sent to an Army post in Illinois for initial processing about fifteen days after graduating high school. It was one of my first stops in the Army before heading to infantry training in Texas. That post was the gateway to my military service.",
+    "cues": [
+      "drafted January 1945",
+      "initial processing",
+      "Illinois",
+      "15 days after graduation"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_Edward_Murnane.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "Camp Fannin (Place)",
+    "explicit_text": "I trained at Camp Fannin in East Texas, near Tyler, for seventeen weeks of infantry training. This was my first major boot camp experience, where I prepared for the planned invasion of Japan. Camp Fannin was a key part of my early military life in 1945.",
+    "implicit_text": "I trained at an infantry training camp in East Texas, near Tyler, for seventeen weeks. This was my first major boot camp experience, where I prepared for the planned invasion of Japan. That camp was a key part of my early military life in 1945.",
+    "cues": [
+      "Camp Fannin",
+      "East Texas",
+      "near Tyler",
+      "17 weeks infantry training",
+      "1945"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_Edward_Murnane.yaml"
+  },
+  {
+    "entity_id": 5,
+    "entity": "Tyler, Texas (Place)",
+    "explicit_text": "Camp Fannin was located near Tyler, Texas, which is known as the Rose Capital of the World. While I was at Camp Fannin for infantry training, I became familiar with the area. Tyler was part of my journey through the Army's training camps in 1945.",
+    "implicit_text": "The infantry training camp was located near a Texas city known as the Rose Capital of the World. While I was at the camp for infantry training, I became familiar with the area. That city was part of my journey through the Army's training camps in 1945.",
+    "cues": [
+      "near Tyler, Texas",
+      "Rose Capital of the World",
+      "infantry training",
+      "1945"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_Edward_Murnane.yaml"
+  },
+  {
+    "entity_id": 6,
+    "entity": "Camp Maxie (Place)",
+    "explicit_text": "After Camp Fannin, I was sent to Camp Maxie, also in East Texas, for further infantry training focused on the invasion of Japan. This was part of my continued preparation before being shipped out overseas. Camp Maxie was another important step in my Army training in early 1945.",
+    "implicit_text": "After the first Texas camp, I was sent to another camp also in East Texas for further infantry training focused on the invasion of Japan. This was part of my continued preparation before being shipped out overseas. That camp was another important step in my Army training in early 1945.",
+    "cues": [
+      "Camp Maxie",
+      "East Texas",
+      "infantry training",
+      "invasion of Japan preparation",
+      "1945"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_Edward_Murnane.yaml"
+  },
+  {
+    "entity_id": 7,
+    "entity": "Oregon (Place)",
+    "explicit_text": "Following my time in Texas, I was sent to a camp in Oregon for additional infantry training. I don't recall the exact name of the camp, but it was part of my progression through various training locations. Oregon was one of the last stops stateside before heading to Washington and then overseas.",
+    "implicit_text": "Following my time in Texas, I was sent to a camp in the Pacific Northwest for additional infantry training. I don't recall the exact name of the camp, but it was part of my progression through various training locations. That state was one of the last stops stateside before heading to another in the region and then overseas.",
+    "cues": [
+      "camp in Oregon",
+      "infantry training",
+      "1945",
+      "before deployment overseas"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_Edward_Murnane.yaml"
+  },
+  {
+    "entity_id": 8,
+    "entity": "Washington (state) (Place)",
+    "explicit_text": "After Oregon, I went to a camp in Washington State for more training before deployment. From there, we departed from Camp Lawton, Washington, to go overseas. Washington was the final staging area in the U.S. before heading to the Philippines in 1945.",
+    "implicit_text": "After the Pacific Northwest, I went to a camp in the neighboring state for more training before deployment. From there, we departed from a camp in that state to go overseas. That state was the final staging area in the U.S. before heading to the Philippines in 1945.",
+    "cues": [
+      "camp in Washington State",
+      "Camp Lawton",
+      "final training",
+      "deployment overseas",
+      "1945"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_Edward_Murnane.yaml"
+  },
+  {
+    "entity_id": 9,
+    "entity": "World War II (Event)",
+    "explicit_text": "I was drafted into the Army during World War II in early 1945, trained for the invasion of Japan as an infantryman, but the war ended before I saw combat. I was on the USS Bolivar heading to the Philippines when VJ Day occurred after the atomic bombings. The war shaped my service and my outlook, and I was proud to serve during such a pivotal time.",
+    "implicit_text": "I was drafted into the Army during the global conflict in early 1945, trained for the invasion of Japan as an infantryman, but the war ended before I saw combat. I was on a naval transport heading to the Philippines when the war's end was declared after the atomic bombings. The war shaped my service and my outlook, and I was proud to serve during such a pivotal time.",
+    "cues": [
+      "drafted 1945",
+      "invasion of Japan training",
+      "VJ Day",
+      "atomic bombings",
+      "USS Bolivar",
+      "Philippines"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_Edward_Murnane.yaml"
+  },
+  {
+    "entity_id": 10,
+    "entity": "Spanish–American War (Event)",
+    "explicit_text": "Though I didn't serve during the Spanish–American War, its legacy affected my time in the Philippines. Because of the Spanish educational system before that war, Spanish was commonly spoken alongside Tagalog, which helped me communicate with locals. My knowledge of Spanish, gained in high school, was very useful there.",
+    "implicit_text": "Though I didn't serve during the 1898 conflict between the U.S. and Spain, its legacy affected my time in the Philippines. Because of the Spanish educational system before that war, Spanish was commonly spoken alongside Tagalog, which helped me communicate with locals. My knowledge of Spanish, gained in high school, was very useful there.",
+    "cues": [
+      "Spanish educational system",
+      "Philippines",
+      "Spanish language",
+      "Tagalog",
+      "post-Spanish–American War"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_Edward_Murnane.yaml"
+  },
+  {
+    "entity_id": 11,
+    "entity": "Philippines (Place)",
+    "explicit_text": "I was stationed in the Philippines after World War II ended, first arriving at Leyte and then Luzon, where I spent most of my time at Clark Air Base and in Manila. I developed a strong connection to the country, learning some of the local language and geography. The Philippines was where I recovered from tropical encephalitis and formed lasting memories and friendships.",
+    "implicit_text": "I was stationed in a Southeast Asian archipelago after World War II ended, first arriving at Leyte and then Luzon, where I spent most of my time at a major air base and in the capital city. I developed a strong connection to the country, learning some of the local language and geography. That country was where I recovered from tropical encephalitis and formed lasting memories and friendships.",
+    "cues": [
+      "Leyte",
+      "Luzon",
+      "Clark Air Base",
+      "Manila",
+      "post-WWII",
+      "tropical encephalitis",
+      "language"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_Edward_Murnane.yaml"
+  },
+  {
+    "entity_id": 12,
+    "entity": "Tagalog language (Work)",
+    "explicit_text": "While in the Philippines, I picked up some Tagalog, the native language, which helped me communicate with the locals. My background in Spanish made it easier since Spanish was also widely spoken due to historical reasons. Speaking Tagalog enriched my experience and allowed me to connect with Filipino people, including nurses I later worked with back home.",
+    "implicit_text": "While in that Southeast Asian country, I picked up some of the native language, which helped me communicate with the locals. My background in Spanish made it easier since Spanish was also widely spoken due to historical reasons. Speaking the local language enriched my experience and allowed me to connect with people, including nurses I later worked with back home.",
+    "cues": [
+      "Tagalog",
+      "Philippines",
+      "Spanish language background",
+      "communication",
+      "Filipino nurses"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_Edward_Murnane.yaml"
+  },
+  {
+    "entity_id": 13,
+    "entity": "VJ Day (Event)",
+    "explicit_text": "I was on the USS Bolivar heading to the Philippines when VJ Day happened, marking the end of World War II. We didn't hear about the atomic bombings until we reached Leyte, and the news was met with great relief because it meant we would likely survive. VJ Day changed the course of my service from combat to occupation and support duties.",
+    "implicit_text": "I was on a naval transport heading to the Philippines when the war's end was declared, marking the conclusion of World War II. We didn't hear about the atomic bombings until we reached Leyte, and the news was met with great relief because it meant we would likely survive. That day changed the course of my service from combat to occupation and support duties.",
+    "cues": [
+      "VJ Day",
+      "USS Bolivar",
+      "Leyte",
+      "end of World War II",
+      "atomic bombings"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_Edward_Murnane.yaml"
+  },
+  {
+    "entity_id": 14,
+    "entity": "Atomic bombings of Hiroshima and Nagasaki (Event)",
+    "explicit_text": "The atomic bombings of Hiroshima and Nagasaki occurred while I was en route to the Philippines. We only learned about them after arriving at Leyte, and the news was a huge relief because it meant the war was over and the planned invasion of Japan was canceled. It saved countless lives, including mine.",
+    "implicit_text": "The atomic bombings of two Japanese cities occurred while I was en route to the Philippines. We only learned about them after arriving at Leyte, and the news was a huge relief because it meant the war was over and the planned invasion of Japan was canceled. It saved countless lives, including mine.",
+    "cues": [
+      "atomic bombings",
+      "Hiroshima",
+      "Nagasaki",
+      "en route to Philippines",
+      "1945",
+      "end of war"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_Edward_Murnane.yaml"
+  },
+  {
+    "entity_id": 15,
+    "entity": "Leyte (Place)",
+    "explicit_text": "Leyte was the first island in the Philippines where we arrived after crossing the Pacific. We didn't disembark there, but it was our initial point of entry into the Philippines after the war ended. Leyte was significant as a staging area before moving on to Luzon.",
+    "implicit_text": "Leyte was the first island in the Philippines where we arrived after crossing the Pacific. We didn't disembark there, but it was our initial point of entry into the Philippines after the war ended. Leyte was significant as a staging area before moving on to Luzon.",
+    "cues": [
+      "Leyte",
+      "Philippines",
+      "arrival point",
+      "post-VJ Day",
+      "1945"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_Edward_Murnane.yaml"
+  },
+  {
+    "entity_id": 16,
+    "entity": "Luzon (Place)",
+    "explicit_text": "Luzon was where I was stationed in the northern Philippines, home to Manila and Clark Air Base. It was the big island where I first stepped off the ship and experienced the tropical environment. Luzon became my base for supply duties and recovery after illness during 1945-46.",
+    "implicit_text": "Luzon was where I was stationed in the northern Philippines, home to the capital city and a major air base. It was the big island where I first stepped off the ship and experienced the tropical environment. Luzon became my base for supply duties and recovery after illness during 1945-46.",
+    "cues": [
+      "Luzon",
+      "northern Philippines",
+      "Manila",
+      "Clark Air Base",
+      "post-WWII"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_Edward_Murnane.yaml"
+  },
+  {
+    "entity_id": 17,
+    "entity": "Manila (Place)",
+    "explicit_text": "I spent a good deal of time in Manila, the capital city on Luzon, while stationed in the Philippines. I got to know the city well and still remember it vividly. Manila was part of my daily life during my service and helped me connect with the local culture.",
+    "implicit_text": "I spent a good deal of time in the capital city on Luzon while stationed in the Philippines. I got to know the city well and still remember it vividly. That city was part of my daily life during my service and helped me connect with the local culture.",
+    "cues": [
+      "Manila",
+      "Luzon",
+      "Philippines",
+      "post-WWII",
+      "connection to local culture"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_Edward_Murnane.yaml"
+  },
+  {
+    "entity_id": 18,
+    "entity": "USS Bolivar (APA-34) (Military_Unit)",
+    "explicit_text": "I sailed to the Philippines aboard the USS Bolivar (APA-34), an armed naval transport ship. The journey took me from Vancouver, Washington, to Leyte and then Luzon. It was on this ship that I transitioned from infantry training to my eventual role in the Army Air Corps after the war ended.",
+    "implicit_text": "I sailed to the Philippines aboard an armed naval transport ship. The journey took me from a port in Washington State to Leyte and then Luzon. It was on this ship that I transitioned from infantry training to my eventual role in the Army Air Corps after the war ended.",
+    "cues": [
+      "USS Bolivar (APA-34)",
+      "armed naval transport",
+      "Vancouver Washington",
+      "Leyte",
+      "Luzon",
+      "1945"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_Edward_Murnane.yaml"
+  },
+  {
+    "entity_id": 19,
+    "entity": "Vancouver, Washington (Place)",
+    "explicit_text": "My journey overseas began in Vancouver, Washington, where I boarded the USS Bolivar. It was the last U.S. port I saw before heading to the Philippines. Vancouver marked the start of my deployment in 1945 after completing training camps across the country.",
+    "implicit_text": "My journey overseas began in a city in Washington State, where I boarded the naval transport. It was the last U.S. port I saw before heading to the Philippines. That city marked the start of my deployment in 1945 after completing training camps across the country.",
+    "cues": [
+      "Vancouver, Washington",
+      "departure point",
+      "USS Bolivar",
+      "1945"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_Edward_Murnane.yaml"
+  },
+  {
+    "entity_id": 20,
+    "entity": "Clark Air Base (Place)",
+    "explicit_text": "Clark Air Base on Luzon was where I spent most of my time in the Philippines. I worked there as a supply sergeant, distributing uniforms and supplies. It was also where I was hospitalized with tropical encephalitis and later recovered in Baguio. Clark was a central hub for the Thirteenth Air Force during and after the war.",
+    "implicit_text": "A major air base on Luzon was where I spent most of my time in the Philippines. I worked there as a supply sergeant, distributing uniforms and supplies. It was also where I was hospitalized with tropical encephalitis and later recovered in a mountain city. That base was a central hub for the Thirteenth Air Force during and after the war.",
+    "cues": [
+      "Clark Air Base",
+      "Luzon",
+      "supply sergeant",
+      "tropical encephalitis",
+      "Thirteenth Air Force",
+      "1945-46"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_Edward_Murnane.yaml"
+  },
+  {
+    "entity_id": 21,
+    "entity": "Thirteenth Air Force (Military_Unit)",
+    "explicit_text": "I was assigned to the Thirteenth Air Force while stationed in the Philippines, based at Clark Air Base. This unit operated in the Pacific, including the Philippines, Saipan, and Tinian. My role involved supply duties supporting the Air Force after the war ended.",
+    "implicit_text": "I was assigned to a numbered Air Force while stationed in the Philippines, based at the major air base on Luzon. This unit operated in the Pacific, including the Philippines, Saipan, and Tinian. My role involved supply duties supporting the Air Force after the war ended.",
+    "cues": [
+      "Thirteenth Air Force",
+      "Clark Air Base",
+      "Philippines",
+      "Saipan",
+      "Tinian",
+      "post-WWII"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_Edward_Murnane.yaml"
+  },
+  {
+    "entity_id": 22,
+    "entity": "Fifth Air Force (Military_Unit)",
+    "explicit_text": "The Fifth Air Force was the counterpart to the Thirteenth Air Force in Europe during World War II. While I was with the Thirteenth in the Pacific, the Fifth operated in Europe. I mention it to contrast the theaters of operation during the war.",
+    "implicit_text": "Another numbered Air Force was the counterpart to the one I served with in the Pacific, operating in Europe during World War II. While I was with the Pacific unit, the European unit operated overseas. I mention it to contrast the theaters of operation during the war.",
+    "cues": [
+      "Fifth Air Force",
+      "Europe",
+      "World War II",
+      "contrast with Thirteenth Air Force"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_Edward_Murnane.yaml"
+  },
+  {
+    "entity_id": 23,
+    "entity": "Saipan (Place)",
+    "explicit_text": "Saipan was one of the islands where the Thirteenth Air Force operated during the war. Although I was stationed primarily in the Philippines, I was aware of Saipan's strategic importance along with Tinian and the Marianas. These islands were key to the air campaign in the Pacific.",
+    "implicit_text": "Saipan was one of the islands where the Pacific Air Force operated during the war. Although I was stationed primarily in the Philippines, I was aware of Saipan's strategic importance along with Tinian and the Marianas. These islands were key to the air campaign in the Pacific.",
+    "cues": [
+      "Saipan",
+      "Thirteenth Air Force",
+      "Mariana Islands",
+      "Pacific Theater",
+      "WWII"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_Edward_Murnane.yaml"
+  },
+  {
+    "entity_id": 24,
+    "entity": "Tinian (Place)",
+    "explicit_text": "Tinian, along with Saipan, was part of the Western Mariana Islands where the Thirteenth Air Force was active. While I didn't serve there directly, it was part of the broader area of operations connected to my unit. Tinian was crucial for launching air operations in the Pacific.",
+    "implicit_text": "Tinian, along with Saipan, was part of the Western Mariana Islands where the Pacific Air Force was active. While I didn't serve there directly, it was part of the broader area of operations connected to my unit. Tinian was crucial for launching air operations in the Pacific.",
+    "cues": [
+      "Tinian",
+      "Mariana Islands",
+      "Thirteenth Air Force",
+      "Pacific Theater",
+      "WWII"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_Edward_Murnane.yaml"
+  },
+  {
+    "entity_id": 25,
+    "entity": "Mariana Islands (Place)",
+    "explicit_text": "The Mariana Islands, including Saipan and Tinian, were important bases for the Thirteenth Air Force during World War II. My unit operated in this region, supporting air campaigns against Japan. Though I was stationed in the Philippines, the Marianas were part of the larger strategic area.",
+    "implicit_text": "The Mariana Islands, including Saipan and Tinian, were important bases for the Pacific Air Force during World War II. My unit operated in this region, supporting air campaigns against Japan. Though I was stationed in the Philippines, the Marianas were part of the larger strategic area.",
+    "cues": [
+      "Mariana Islands",
+      "Saipan",
+      "Tinian",
+      "Thirteenth Air Force",
+      "Pacific Theater"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_Edward_Murnane.yaml"
+  },
+  {
+    "entity_id": 26,
+    "entity": "Baguio (Place)",
+    "explicit_text": "After falling ill with tropical encephalitis at Clark Air Base, I was sent to Baguio, the mountain capital of the Philippines, to recuperate. Baguio was cooler and served as a recovery center for soldiers like me in early 1946. My time there helped me regain my health before returning to duty.",
+    "implicit_text": "After falling ill with tropical encephalitis at the major air base, I was sent to a mountain city in the Philippines to recuperate. That city was cooler and served as a recovery center for soldiers like me in early 1946. My time there helped me regain my health before returning to duty.",
+    "cues": [
+      "Baguio",
+      "mountain capital",
+      "Philippines",
+      "recuperation",
+      "tropical encephalitis",
+      "1946"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_Edward_Murnane.yaml"
+  },
+  {
+    "entity_id": 27,
+    "entity": "United States Army Air Forces (Organization)",
+    "explicit_text": "Though I initially trained as an infantryman, I ended up assigned to the United States Army Air Forces in the Philippines. I started in the Air Corps band but then moved to supply duties at Clark Air Base. The Army Air Forces were a major part of my service after the war ended.",
+    "implicit_text": "Though I initially trained as an infantryman, I ended up assigned to the Army Air Forces in the Philippines. I started in the Air Corps band but then moved to supply duties at the major air base. The Army Air Forces were a major part of my service after the war ended.",
+    "cues": [
+      "United States Army Air Forces",
+      "infantry to Air Corps",
+      "Clark Air Base",
+      "Philippines",
+      "post-WWII"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_Edward_Murnane.yaml"
+  },
+  {
+    "entity_id": 28,
+    "entity": "GI Bill (Work)",
+    "explicit_text": "While I didn't discuss it in detail, the GI Bill was an important part of many veterans' lives after the war. It helped many of my peers pursue education and careers after service. I was aware of its significance as I transitioned back to civilian life.",
+    "implicit_text": "While I didn't discuss it in detail, a veterans' education and benefits program was an important part of many veterans' lives after the war. It helped many of my peers pursue education and careers after service. I was aware of its significance as I transitioned back to civilian life.",
+    "cues": [
+      "GI Bill",
+      "post-WWII veterans",
+      "education",
+      "career support"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_Edward_Murnane.yaml"
+  },
+  {
+    "entity_id": 29,
+    "entity": "Northwestern University (Organization)",
+    "explicit_text": "I didn't mention attending Northwestern University in this interview, but it is a notable institution in the Chicago area where I grew up. Many veterans from Chicago pursued higher education at places like Northwestern after the war. It represents the opportunities available to returning servicemen.",
+    "implicit_text": "I didn't mention attending a prominent university in the Chicago area in this interview, but it is a notable institution where I grew up. Many veterans from that city pursued higher education at places like that university after the war. It represents the opportunities available to returning servicemen.",
+    "cues": [
+      "Northwestern University",
+      "Chicago area",
+      "post-WWII education",
+      "veterans"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_Edward_Murnane.yaml"
+  },
+  {
+    "entity_id": 30,
+    "entity": "Lindblom High School (Organization)",
+    "explicit_text": "I went to St. Rita High School, not Lindblom, but Lindblom is another Chicago high school known in the area. Like St. Rita, it served many young men who went on to serve in World War II. It represents the community and educational environment of Chicago youth at the time.",
+    "implicit_text": "I went to a Catholic high school, not another well-known public high school in Chicago, but that other school is also known in the area. Like my school, it served many young men who went on to serve in World War II. It represents the community and educational environment of Chicago youth at the time.",
+    "cues": [
+      "Lindblom High School",
+      "Chicago",
+      "WWII era",
+      "community schools"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_Edward_Murnane.yaml"
+  }
+]

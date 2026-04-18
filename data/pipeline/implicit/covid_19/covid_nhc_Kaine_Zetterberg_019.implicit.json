@@ -1,0 +1,113 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "Montana",
+    "explicit_text": "I am proud to be a fifth generation Montanan, and I have spent my professional life serving rural communities here. Living in Montana, especially in small towns like Shelby, means facing challenges like limited access to pharmacy services. I have seen firsthand how important it is to provide quality care in these rural areas, where the nearest big chain pharmacies can be 90 miles away. Montana's rural nature shapes much of the work I do and the relationships I build with my patients.",
+    "implicit_text": "I am proud to be a fifth generation resident of this northern Rocky Mountain state, and I have spent my professional life serving rural communities here. Living in this state, especially in small towns like Shelby, means facing challenges like limited access to pharmacy services. I have seen firsthand how important it is to provide quality care in these rural areas, where the nearest big chain pharmacies can be 90 miles away. The rural nature of this state shapes much of the work I do and the relationships I build with my patients.",
+    "cues": [
+      "fifth generation Montanan",
+      "rural Montana",
+      "Shelby",
+      "limited pharmacy access"
+    ],
+    "transcript_ref": "covid_19\\covid_nhc_Kaine_Zetterberg_019.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "University of Montana",
+    "explicit_text": "I attended the University of Montana and graduated from the Skaggs School of Pharmacy in 2019. My education there prepared me well for my role as a pharmacist, especially working in rural communities. The training I received at the University of Montana gave me the foundation to understand both the clinical and practical aspects of pharmacy care. It’s where I started my journey to becoming a healthcare provider dedicated to serving Montana’s population.",
+    "implicit_text": "I attended the flagship public university in this northern Rocky Mountain state and graduated from its pharmacy school in 2019. My education there prepared me well for my role as a pharmacist, especially working in rural communities. The training I received at this university gave me the foundation to understand both the clinical and practical aspects of pharmacy care. It’s where I started my journey to becoming a healthcare provider dedicated to serving the population of this state.",
+    "cues": [
+      "University of Montana",
+      "Skaggs School of Pharmacy",
+      "class of 2019",
+      "pharmacy degree"
+    ],
+    "transcript_ref": "covid_19\\covid_nhc_Kaine_Zetterberg_019.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "COVID-19 pandemic",
+    "explicit_text": "The COVID-19 pandemic drastically changed how I practiced pharmacy starting in early 2020. At first, we had to close our pharmacy doors to minimize face-to-face contact and deliver medications in protective gear, which was only possible because we are a low volume facility. We implemented makeshift protective barriers like Saran wrap before upgrading to plexiglass, which remains in place today. The pandemic also gave us temporary freedoms, like being allowed to dispense 90-day supplies of medications, which was a huge help for our rural patients. It was a challenging time balancing safety, patient perceptions, and adapting to new protocols.",
+    "implicit_text": "The global coronavirus outbreak drastically changed how I practiced pharmacy starting in early 2020. At first, we had to close our pharmacy doors to minimize face-to-face contact and deliver medications in protective gear, which was only possible because we are a low volume facility. We implemented makeshift protective barriers like Saran wrap before upgrading to plexiglass, which remains in place today. The pandemic also gave us temporary freedoms, like being allowed to dispense 90-day supplies of medications, which was a huge help for our rural patients. It was a challenging time balancing safety, patient perceptions, and adapting to new protocols.",
+    "cues": [
+      "early 2020",
+      "closing pharmacy doors",
+      "Saran wrap barrier",
+      "plexiglass",
+      "90-day medication supply",
+      "rural patients"
+    ],
+    "transcript_ref": "covid_19\\covid_nhc_Kaine_Zetterberg_019.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "Maria's Health Care Clinic",
+    "explicit_text": "I am the director of pharmacy at Maria's Health Care Clinic, a role I've held for about a year. Our clinic serves the local population’s outpatient pharmacy needs and also supports clinic patients and hospital employees. Being part of Maria's means providing essential pharmacy services in a small, rural community where access is limited. We work hard to offer personalized care and ensure patients get the medications they need despite the challenges of our location.",
+    "implicit_text": "I am the director of pharmacy at a local health care clinic named after a woman, a role I've held for about a year. Our clinic serves the local population’s outpatient pharmacy needs and also supports clinic patients and hospital employees. Being part of this clinic means providing essential pharmacy services in a small, rural community where access is limited. We work hard to offer personalized care and ensure patients get the medications they need despite the challenges of our location.",
+    "cues": [
+      "director of pharmacy",
+      "Maria's Health Care Clinic",
+      "local population",
+      "rural community",
+      "outpatient pharmacy"
+    ],
+    "transcript_ref": "covid_19\\covid_nhc_Kaine_Zetterberg_019.yaml"
+  },
+  {
+    "entity_id": 5,
+    "entity": "Walmart",
+    "explicit_text": "Walmart is one of the large chain pharmacies located about 90 miles away from Shelby, Montana. Insurance companies often restrict patients to 30-day medication supplies at local pharmacies like mine, but allow 90-day supplies only if patients go to places like Walmart. This forces patients to travel long distances just to get their prescriptions filled for a longer duration, which is a significant burden in rural Montana. During COVID-19, we were temporarily allowed to provide 90-day supplies locally, which made a big difference compared to having to drive to Walmart.",
+    "implicit_text": "One of the large chain pharmacies located about 90 miles away from Shelby is a major national retailer known for its supercenters. Insurance companies often restrict patients to 30-day medication supplies at local pharmacies like mine, but allow 90-day supplies only if patients go to places like this retailer. This forces patients to travel long distances just to get their prescriptions filled for a longer duration, which is a significant burden in rural Montana. During COVID-19, we were temporarily allowed to provide 90-day supplies locally, which made a big difference compared to having to drive to this large chain.",
+    "cues": [
+      "Walmart",
+      "90 miles from Shelby",
+      "insurance restrictions",
+      "30-day vs 90-day supply",
+      "COVID-19 temporary policy"
+    ],
+    "transcript_ref": "covid_19\\covid_nhc_Kaine_Zetterberg_019.yaml"
+  },
+  {
+    "entity_id": 6,
+    "entity": "Walgreens",
+    "explicit_text": "Walgreens is another large chain pharmacy located 90 miles away from Shelby, Montana, similar to Walmart and CVS. Insurance plans often require patients to go to Walgreens if they want a 90-day supply of their medications, which is inconvenient for our rural patients. This distance creates barriers to medication adherence and forces patients to make long trips. The temporary allowance during the COVID-19 pandemic to dispense 90-day supplies locally was a welcome change compared to the usual restrictions that push patients to Walgreens.",
+    "implicit_text": "Another large chain pharmacy located 90 miles away from Shelby is a well-known national drugstore chain often found in urban and suburban areas. Insurance plans often require patients to go to this chain if they want a 90-day supply of their medications, which is inconvenient for our rural patients. This distance creates barriers to medication adherence and forces patients to make long trips. The temporary allowance during the COVID-19 pandemic to dispense 90-day supplies locally was a welcome change compared to the usual restrictions that push patients to this pharmacy chain.",
+    "cues": [
+      "Walgreens",
+      "90 miles from Shelby",
+      "insurance restrictions",
+      "90-day supply",
+      "COVID-19 policy"
+    ],
+    "transcript_ref": "covid_19\\covid_nhc_Kaine_Zetterberg_019.yaml"
+  },
+  {
+    "entity_id": 7,
+    "entity": "CVS Pharmacy",
+    "explicit_text": "CVS Pharmacy is one of the large chain pharmacies located 90 miles from Shelby, Montana, alongside Walmart and Walgreens. Insurance companies often limit local pharmacies like ours to dispensing only 30-day supplies, pushing patients to CVS if they want a 90-day supply. This creates a hardship for rural patients who must travel long distances to get their medications. The COVID-19 pandemic temporarily allowed us to provide 90-day supplies, which was a positive change compared to the usual restrictions that favor large chains like CVS.",
+    "implicit_text": "One of the large chain pharmacies located 90 miles from Shelby, alongside other major national drugstore chains, is a prominent pharmacy brand recognized across the country. Insurance companies often limit local pharmacies like ours to dispensing only 30-day supplies, pushing patients to this chain if they want a 90-day supply. This creates a hardship for rural patients who must travel long distances to get their medications. The COVID-19 pandemic temporarily allowed us to provide 90-day supplies, which was a positive change compared to the usual restrictions that favor large chains like this one.",
+    "cues": [
+      "CVS Pharmacy",
+      "90 miles from Shelby",
+      "insurance limitations",
+      "30-day vs 90-day supply",
+      "COVID-19 temporary allowance"
+    ],
+    "transcript_ref": "covid_19\\covid_nhc_Kaine_Zetterberg_019.yaml"
+  },
+  {
+    "entity_id": 8,
+    "entity": "Medicare",
+    "explicit_text": "Medicare is a government-subsidized but privately run insurance program that many of our elderly patients rely on. Navigating Medicare plans is incredibly complicated for patients over 65, and it’s often overwhelming for them to find a plan that won’t bankrupt them. As a pharmacist, I try to help patients understand their options, but there are very few people who truly grasp the complexities of Medicare and can guide patients effectively. It’s a daunting system, and I wish there were more resources to assist our elderly community members.",
+    "implicit_text": "This government-subsidized but privately run insurance program is one that many of our elderly patients rely on. Navigating its plans is incredibly complicated for patients over 65, and it’s often overwhelming for them to find a plan that won’t bankrupt them. As a pharmacist, I try to help patients understand their options, but there are very few people who truly grasp the complexities of this program and can guide patients effectively. It’s a daunting system, and I wish there were more resources to assist our elderly community members.",
+    "cues": [
+      "Medicare",
+      "government-subsidized",
+      "privately run",
+      "patients 65 and older",
+      "insurance complexity"
+    ],
+    "transcript_ref": "covid_19\\covid_nhc_Kaine_Zetterberg_019.yaml"
+  }
+]

@@ -1,0 +1,100 @@
+[
+  {
+    "entity_id": 2,
+    "entity": "Karen State",
+    "explicit_text": "I was born in Karen State, Burma, in 1989. My family had to leave our village there because of the war and violence from Burmese soldiers. Karen State is where my roots are, and even though I left when I was very young, the stories of what happened there, like my grandfather and uncle being killed, deeply affect me.",
+    "implicit_text": "I was born in the southeastern region of Burma in 1989. My family had to leave our village there because of the war and violence from Burmese soldiers. That area is where my roots are, and even though I left when I was very young, the stories of what happened there, like my grandfather and uncle being killed, deeply affect me.",
+    "cues": [
+      "1989",
+      "birthplace",
+      "war",
+      "Burmese soldiers",
+      "family violence"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_52_mu_klu_paw.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "Burma",
+    "explicit_text": "Before coming to the United States, my family lived in Burma, but we could not stay because of the ongoing war. I was just a baby when my family fled because Burmese soldiers would kill Karen people and destroy their homes without permission. Life was very hard there, especially for children who couldn't go to school because we had to keep moving to survive.",
+    "implicit_text": "Before coming to the United States, my family lived in the country known as Myanmar, but we could not stay because of the ongoing war. I was just a baby when my family fled because soldiers from the ruling government would kill Karen people and destroy their homes without permission. Life was very hard there, especially for children who couldn't go to school because we had to keep moving to survive.",
+    "cues": [
+      "before 2014",
+      "war",
+      "Burmese soldiers",
+      "displacement",
+      "children's education"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_52_mu_klu_paw.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "Thailand",
+    "explicit_text": "After leaving Burma, my family moved to Thailand where I grew up and went to school. I finished high school and college there, graduating in 2012. Thailand was a poor country, but I loved living there because I had the chance to study and learn English. I also did a ten-month internship in Mae Sot, helping train people from Karen villages.",
+    "implicit_text": "After leaving Myanmar, my family moved to the neighboring country to the east where I grew up and went to school. I finished high school and college there, graduating in 2012. That country was a poor one, but I loved living there because I had the chance to study and learn English. I also did a ten-month internship in a border town, helping train people from Karen villages.",
+    "cues": [
+      "childhood",
+      "high school",
+      "college graduation 2012",
+      "Mae Sot internship",
+      "education"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_52_mu_klu_paw.yaml"
+  },
+  {
+    "entity_id": 5,
+    "entity": "United States",
+    "explicit_text": "I came to the United States on May 15, 2014, to join my brother and sister who were already here. My family settled in St. Paul, Minnesota, and I have been living here since then. I love living in the US because I have the freedom to pursue my goals and can take care of my aging parents. Although the weather is very cold compared to Thailand, we are happy here.",
+    "implicit_text": "I came to North America on May 15, 2014, to join my brother and sister who were already here. My family settled in the capital city of Minnesota, and I have been living here since then. I love living in this country because I have the freedom to pursue my goals and can take care of my aging parents. Although the weather is very cold compared to where I grew up, we are happy here.",
+    "cues": [
+      "May 15, 2014",
+      "family reunification",
+      "St. Paul, Minnesota",
+      "caregiving",
+      "new opportunities"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_52_mu_klu_paw.yaml"
+  },
+  {
+    "entity_id": 6,
+    "entity": "St. Paul, Minnesota",
+    "explicit_text": "My family and I have been living in St. Paul, Minnesota since 2014, about eleven months when I first spoke about it. It is very different from where I grew up, especially because of the cold weather. But I appreciate living here because it gives us the chance to do what we want and to take care of my parents who need help with appointments and daily life.",
+    "implicit_text": "My family and I have been living in the capital city of Minnesota since 2014, about eleven months when I first spoke about it. It is very different from where I grew up, especially because of the cold weather. But I appreciate living here because it gives us the chance to do what we want and to take care of my parents who need help with appointments and daily life.",
+    "cues": [
+      "2014 arrival",
+      "cold weather",
+      "family caregiving",
+      "new home",
+      "Minnesota"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_52_mu_klu_paw.yaml"
+  },
+  {
+    "entity_id": 7,
+    "entity": "Mae Sot",
+    "explicit_text": "During my college years in Thailand, I completed a ten-month internship in Mae Sot. There, I worked closely with my coordinator to provide training to people who came from Karen villages. This experience was very important for me because it connected me to my Karen community and helped me develop leadership skills.",
+    "implicit_text": "During my college years in the neighboring country to the east, I completed a ten-month internship in a border town. There, I worked closely with my coordinator to provide training to people who came from Karen villages. This experience was very important for me because it connected me to my Karen community and helped me develop leadership skills.",
+    "cues": [
+      "college internship",
+      "ten months",
+      "training",
+      "Karen villages",
+      "Thailand"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_52_mu_klu_paw.yaml"
+  },
+  {
+    "entity_id": 8,
+    "entity": "KCFC",
+    "explicit_text": "In my church, KCFC, I was chosen by the youth to be the youth singer leader. Every week, I practice songs at the youth pastor's house on Saturdays to prepare for Sunday services. Being part of KCFC is very special to me because it connects me to my faith and my community, and I love singing and leading the youth there.",
+    "implicit_text": "In my church community, I was chosen by the youth to be the youth singer leader. Every week, I practice songs at the youth pastor's house on Saturdays to prepare for Sunday services. Being part of this church group is very special to me because it connects me to my faith and my community, and I love singing and leading the youth there.",
+    "cues": [
+      "church",
+      "youth singer leader",
+      "weekly practice",
+      "community",
+      "faith"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_52_mu_klu_paw.yaml"
+  }
+]

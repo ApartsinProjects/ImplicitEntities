@@ -1,0 +1,628 @@
+[
+  {
+    "id": 1,
+    "entity": "Chicago",
+    "type": "Place",
+    "surface_forms": [
+      "Chicago",
+      "Northside",
+      "Southside"
+    ],
+    "wikipedia_title": "Chicago",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Chicago",
+    "wikidata_qid": "Q1297",
+    "aliases": [
+      "Chicago, Illinois",
+      "The Windy City",
+      "City by the Lake",
+      "The Queen of the West",
+      "Chi-Town",
+      "Chitown",
+      "The Second City",
+      "City of Chicago",
+      "City of Broad Shoulders",
+      "Chi-Raq"
+    ],
+    "description": "city and county seat of Cook County, and largest city in State of Illinois, United States of America",
+    "description_wiki": "Chicago is the most populous city in the U.S. state of Illinois and in the Midwestern United States."
+  },
+  {
+    "id": 2,
+    "entity": "Lane Tech High School",
+    "type": "Organization",
+    "surface_forms": [
+      "Lane Technical High School",
+      "Lane Tech"
+    ],
+    "wikipedia_title": "Lane_Technical_College_Prep_High_School",
+    "wikipedia_url": "",
+    "wikidata_qid": "Q6485447",
+    "aliases": [
+      "Lane Technical High School",
+      "Albert G. Lane Technical High School",
+      "Albert G. Lane Tech College Prep High School",
+      "Lane Technical College Preparatory High School",
+      "Albert G. Lane Technical College Preparatory High School",
+      "Lane Tech",
+      "Lane Tech College Prep High School",
+      "Albert Grannis Lane Manual Training High School"
+    ],
+    "description": "high school in Illinois, United States",
+    "description_wiki": ""
+  },
+  {
+    "id": 3,
+    "entity": "Norden Bombsight",
+    "type": "Work",
+    "surface_forms": [
+      "Norden Bombsight",
+      "the Norden Bombsight"
+    ],
+    "wikipedia_title": "Norden_bombsight",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Norden_bombsight",
+    "wikidata_qid": "Q1707691",
+    "aliases": [
+      "Norden Mk. XV"
+    ],
+    "description": "used on US bombers during World War II, the Korean War, and the Vietnam War",
+    "description_wiki": "The Norden Mk."
+  },
+  {
+    "id": 4,
+    "entity": "Poland",
+    "type": "Place",
+    "surface_forms": [
+      "Poland"
+    ],
+    "wikipedia_title": "Poland",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Poland",
+    "wikidata_qid": "Q36",
+    "aliases": [
+      "Republic of Poland"
+    ],
+    "description": "country in Central Europe",
+    "description_wiki": "Poland, officially the Republic of Poland, is a country in Central Europe."
+  },
+  {
+    "id": 5,
+    "entity": "Nazi Germany",
+    "type": "Organization",
+    "surface_forms": [
+      "Nazis",
+      "the SS"
+    ],
+    "wikipedia_title": "Nazi_Germany",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Nazi_Germany",
+    "wikidata_qid": "Q7318",
+    "aliases": [
+      "Third Reich",
+      "Greater German Reich",
+      "Hitler's Third Reich",
+      "German Reich",
+      "Thousand-Year Reich",
+      "Nazi-Germany"
+    ],
+    "description": "Germany from 1933 to 1945 while under control of the Nazi Party",
+    "description_wiki": "Nazi Germany, officially the German Reich and later the Greater German Reich, was the German state between 1933 and 1945, when Adolf Hitler and the Nazi Party controlled the country, transforming it into a totalitarian dictatorship."
+  },
+  {
+    "id": 6,
+    "entity": "United States Army",
+    "type": "Organization",
+    "surface_forms": [
+      "Army",
+      "the Army",
+      "the Service"
+    ],
+    "wikipedia_title": "United_States_Army",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/United_States_Army",
+    "wikidata_qid": "Q9212",
+    "aliases": [
+      "US Army",
+      "U.S. Army",
+      "USAR",
+      "American Army",
+      "Ground forces of the United States Armed Forces",
+      "US land forces",
+      "US troop",
+      "US troops",
+      "U. S. Army",
+      "USA"
+    ],
+    "description": "land service branch of the United States Armed Forces",
+    "description_wiki": "The United States Army (U.S. Army) is the land service branch of the United States Armed Forces."
+  },
+  {
+    "id": 7,
+    "entity": "Coast Guard",
+    "type": "Organization",
+    "surface_forms": [
+      "Coast Guard"
+    ],
+    "wikipedia_title": "United_States_Coast_Guard",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/United_States_Coast_Guard",
+    "wikidata_qid": "Q11224",
+    "aliases": [
+      "USCG",
+      "US Coast Guard",
+      "U.S. Coast Guard",
+      "United States Coast Guard, USCG"
+    ],
+    "description": "security and rescue military service branch for U.S. waters",
+    "description_wiki": "The United States Coast Guard (USCG) is the maritime security, search and rescue, and law enforcement service branch of the United States Armed Forces."
+  },
+  {
+    "id": 8,
+    "entity": "United States Marine Corps",
+    "type": "Organization",
+    "surface_forms": [
+      "Marines",
+      "Marine Corps",
+      "USMC"
+    ],
+    "wikipedia_title": "United_States_Marine_Corps",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/United_States_Marine_Corps",
+    "wikidata_qid": "Q11218",
+    "aliases": [
+      "USMC",
+      "Marine Corps",
+      "US Marine Corps",
+      "United States Marines",
+      "U.S. Marines",
+      "U.S. Marine Corps"
+    ],
+    "description": "maritime land force service branch of the United States Armed Forces",
+    "description_wiki": "The United States Marine Corps (USMC), also referred to as the United States Marines or simply the Marines, is the naval infantry service branch of the United States Armed Forces."
+  },
+  {
+    "id": 9,
+    "entity": "Army Air Corps",
+    "type": "Organization",
+    "surface_forms": [
+      "Army Air Corps"
+    ],
+    "wikipedia_title": "United_States_Army_Air_Corps",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/United_States_Army_Air_Corps",
+    "wikidata_qid": "Q2140008",
+    "aliases": [
+      "Air Corps, United States Army",
+      "Air Corps, U.S. Army",
+      "Air Corps, U.S.A.",
+      "U.S. Army Air Corps",
+      "A.C.",
+      "AC",
+      "Army Air Corps"
+    ],
+    "description": "air warfare branch of the U.S. Army from 1926 to 1947",
+    "description_wiki": "The United States Army Air Corps (USAAC) was the aerial warfare service component of the United States Army between 1926 and 1941."
+  },
+  {
+    "id": 10,
+    "entity": "Fort Sheridan",
+    "type": "Place",
+    "surface_forms": [
+      "Fort Sheridan"
+    ],
+    "wikipedia_title": "Fort_Sheridan",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Fort_Sheridan",
+    "wikidata_qid": "Q108927539",
+    "aliases": [],
+    "description": "Wikimedia disambiguation page",
+    "description_wiki": "Fort Sheridan may refer to:"
+  },
+  {
+    "id": 11,
+    "entity": "Fort Riley",
+    "type": "Place",
+    "surface_forms": [
+      "Fort Riley",
+      "Fort Riley, Kansas"
+    ],
+    "wikipedia_title": "Fort_Riley",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Fort_Riley",
+    "wikidata_qid": "Q1438701",
+    "aliases": [
+      "Fort Riley, KS"
+    ],
+    "description": "United States Army installation located in North Central Kansas",
+    "description_wiki": "Fort Riley is a United States Army installation located in North Central Kansas, on the Kansas River, also known as the Kaw, between Junction City and Manhattan."
+  },
+  {
+    "id": 12,
+    "entity": "Texas",
+    "type": "Place",
+    "surface_forms": [
+      "Texas"
+    ],
+    "wikipedia_title": "Texas",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Texas",
+    "wikidata_qid": "Q1439",
+    "aliases": [
+      "TX",
+      "Lone Star State",
+      "Texas, United States",
+      "State of Texas",
+      "US-TX",
+      "Tex."
+    ],
+    "description": "state of the United States of America",
+    "description_wiki": "Texas (  TEK-səss) is the most populous state in the Southern United States."
+  },
+  {
+    "id": 13,
+    "entity": "New York (state)",
+    "type": "Place",
+    "surface_forms": [
+      "New York"
+    ],
+    "wikipedia_title": "New_York_(state)",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/New_York_(state)",
+    "wikidata_qid": "Q1384",
+    "aliases": [
+      "NY",
+      "New York, United States",
+      "State of New York",
+      "NYS",
+      "New York (state)",
+      "NY state",
+      "New York state",
+      "The Empire State",
+      "US-NY",
+      "Empire State"
+    ],
+    "description": "state of the United States of America",
+    "description_wiki": "New York, also called New York State, is a state located in the northeastern United States."
+  },
+  {
+    "id": 14,
+    "entity": "Kentucky",
+    "type": "Place",
+    "surface_forms": [
+      "Kentucky"
+    ],
+    "wikipedia_title": "Kentucky",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Kentucky",
+    "wikidata_qid": "Q1603",
+    "aliases": [
+      "Commonwealth of Kentucky",
+      "KY",
+      "Kentucky, United States",
+      "Bluegrass State",
+      "Ky.",
+      "US-KY"
+    ],
+    "description": "state of the United States of America",
+    "description_wiki": "Kentucky (US:  , UK: ), officially the Commonwealth of Kentucky, is a landlocked state in the Southeastern region of the United States."
+  },
+  {
+    "id": 15,
+    "entity": "California",
+    "type": "Place",
+    "surface_forms": [
+      "California",
+      "Riverside, California",
+      "Los Angeles"
+    ],
+    "wikipedia_title": "California",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/California",
+    "wikidata_qid": "Q99",
+    "aliases": [
+      "State of California",
+      "The Golden State",
+      "Calif.",
+      "California, United States",
+      "Cali.",
+      "Cal.",
+      "CA",
+      "US-CA",
+      "Golden State"
+    ],
+    "description": "state of the United States of America",
+    "description_wiki": "California () is a state in the Western United States that lies on the Pacific Coast."
+  },
+  {
+    "id": 16,
+    "entity": "Salt Lake City",
+    "type": "Place",
+    "surface_forms": [
+      "Salt Lake City",
+      "Salt Lake City, Utah"
+    ],
+    "wikipedia_title": "Salt_Lake_City",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Salt_Lake_City",
+    "wikidata_qid": "Q23337",
+    "aliases": [
+      "Salt Lake",
+      "SLC",
+      "Salt Lake City, Utah",
+      "Salt Lake City, UT"
+    ],
+    "description": "city in and county seat of Salt Lake County, Utah, United States and the capital of Utah",
+    "description_wiki": "Salt Lake City, often shortened to Salt Lake or SLC, is the capital and most populous city of the U.S. state of Utah."
+  },
+  {
+    "id": 17,
+    "entity": "Utah",
+    "type": "Place",
+    "surface_forms": [
+      "Utah"
+    ],
+    "wikipedia_title": "Utah",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Utah",
+    "wikidata_qid": "Q829",
+    "aliases": [
+      "State of Utah",
+      "Utah, United States",
+      "Beehive State",
+      "Mormon State",
+      "UT",
+      "US-UT"
+    ],
+    "description": "state of the United States of America",
+    "description_wiki": "Utah is a landlocked state in the Mountain West subregion of the  Western United States."
+  },
+  {
+    "id": 18,
+    "entity": "Beaver Dam, Arizona",
+    "type": "Place",
+    "surface_forms": [
+      "Beaver Dam, Arizona"
+    ],
+    "wikipedia_title": "Beaver_Dam,_Arizona",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Beaver_Dam,_Arizona",
+    "wikidata_qid": "Q4878053",
+    "aliases": [
+      "Beaver Dam, Arizona",
+      "Beaver Dam, AZ"
+    ],
+    "description": "census-designated place in Mohave County, Arizona, United States",
+    "description_wiki": "Beaver Dam is an unincorporated community and census-designated place (CDP) in Mohave County, Arizona, United States, that is located in the Arizona Strip region and was settled on December 2, 1863."
+  },
+  {
+    "id": 19,
+    "entity": "Great Depression",
+    "type": "Event",
+    "surface_forms": [
+      "the Depression",
+      "the Depression in 1929",
+      "During the Depression"
+    ],
+    "wikipedia_title": "Great_Depression",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Great_Depression",
+    "wikidata_qid": "Q8698",
+    "aliases": [],
+    "description": "worldwide economic depression (1929–1939)",
+    "description_wiki": "The Great Depression was a severe global economic downturn from 1929 to 1939."
+  },
+  {
+    "id": 20,
+    "entity": "124th Cavalry Regiment",
+    "type": "Military_Unit",
+    "surface_forms": [
+      "124th Cavalry",
+      "124th Cavalry outfit"
+    ],
+    "wikipedia_title": "124th_Cavalry_Regiment_(United_States)",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/124th_Cavalry_Regiment_(United_States)",
+    "wikidata_qid": "Q39073272",
+    "aliases": [],
+    "description": "military unit",
+    "description_wiki": "The 124th Cavalry Regiment (nicknamed \"Mars Men\") is a United States Army cavalry regiment, represented in the Texas Army National Guard by 1st Squadron, 124th Cavalry, part of the 56th Infantry Brigade Combat Team at Waco."
+  },
+  {
+    "id": 21,
+    "entity": "Major Stadler",
+    "type": "Person",
+    "surface_forms": [
+      "Major Stadler",
+      "Major"
+    ],
+    "wikipedia_title": "Major_Stadler",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Major_Stadler"
+  },
+  {
+    "id": 22,
+    "entity": "Merchant Marine",
+    "type": "Organization",
+    "surface_forms": [
+      "Merchant Marines"
+    ],
+    "wikipedia_title": "United_States_Merchant_Marine",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/United_States_Merchant_Marine",
+    "wikidata_qid": "Q1772052",
+    "aliases": [
+      "U.S. Merchant Marine"
+    ],
+    "description": "U.S. civilian mariners",
+    "description_wiki": "The United States Merchant Marine refers collectively to U.S.-flagged commercial vessels, both privately and federally owned, and the civilian mariners who crew them."
+  },
+  {
+    "id": 23,
+    "entity": "Melbourne",
+    "type": "Place",
+    "surface_forms": [
+      "Melbourne",
+      "Melbourne, Australia"
+    ],
+    "wikipedia_title": "Melbourne",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Melbourne",
+    "wikidata_qid": "Q3141",
+    "aliases": [
+      "Melbourne, Victoria",
+      "Melbourne, Australia",
+      "Greater Melbourne",
+      "Melbourne, AUS",
+      "Naarm",
+      "Melbourne, Victoria, Australia",
+      "Melbourne, VIC",
+      "Melbourne, VIC, Australia",
+      "Narrm",
+      "Melbs"
+    ],
+    "description": "capital city of Victoria, Australia",
+    "description_wiki": "Melbourne ( MEL-bərn, locally [ˈmæɫbən] ; Boonwurrung/Woiwurrung: Narrm or Naarm) is the capital and most populous city of the Australian state of Victoria, and the second most-populous city in Australia."
+  },
+  {
+    "id": 24,
+    "entity": "Australia",
+    "type": "Place",
+    "surface_forms": [
+      "Australia",
+      "Down under Australia"
+    ],
+    "wikipedia_title": "Australia",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Australia",
+    "wikidata_qid": "Q408",
+    "aliases": [
+      "Commonwealth of Australia",
+      "Straya",
+      "Aussieland",
+      "Oz",
+      "Stralia",
+      "New Holland",
+      "New Hollandia",
+      "Nova Hollandia",
+      "Down Under",
+      "Stria"
+    ],
+    "description": "country in Oceania",
+    "description_wiki": "Australia, officially the Commonwealth of Australia, is a country comprising the mainland of the Australian continent, the island of Tasmania and numerous smaller islands."
+  },
+  {
+    "id": 25,
+    "entity": "Bombay",
+    "type": "Place",
+    "surface_forms": [
+      "Bombay",
+      "Bombay, India"
+    ],
+    "wikipedia_title": "Mumbai",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Mumbai",
+    "wikidata_qid": "Q1156",
+    "aliases": [
+      "Bombay"
+    ],
+    "description": "capital city in Maharashtra, India",
+    "description_wiki": "Mumbai ( muum-BY; Marathi: Mumbaī, pronounced [ˈmumbəi] ), also known as Bombay ( bom-BAY; its official name until 1995), is the capital city of the Indian state of Maharashtra."
+  },
+  {
+    "id": 26,
+    "entity": "India",
+    "type": "Place",
+    "surface_forms": [
+      "India",
+      "India."
+    ],
+    "wikipedia_title": "India",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/India",
+    "wikidata_qid": "Q668",
+    "aliases": [
+      "Republic of India",
+      "Bharat",
+      "Bharatvarsh",
+      "Hindustan",
+      "Bharata",
+      "Hindoostan",
+      "Indostan",
+      "Bharat Ganarajya",
+      "Al Hind",
+      "Tianzhu"
+    ],
+    "description": "country in South Asia",
+    "description_wiki": "India, officially the Republic of India, is a country in South Asia."
+  },
+  {
+    "id": 27,
+    "entity": "Calcutta",
+    "type": "Place",
+    "surface_forms": [
+      "Calcutta"
+    ],
+    "wikipedia_title": "Kolkata",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Kolkata",
+    "wikidata_qid": "Q1348",
+    "aliases": [
+      "Calcutta",
+      "City of Palaces",
+      "City of Processions",
+      "City of Joy",
+      "Cal",
+      "Kol"
+    ],
+    "description": "capital city of West Bengal, India",
+    "description_wiki": "Kolkata, also known as Calcutta (its official name until 2001), is the capital and largest city of the Indian state of West Bengal."
+  },
+  {
+    "id": 28,
+    "entity": "Assam",
+    "type": "Place",
+    "surface_forms": [
+      "Assam",
+      "Assam, India"
+    ],
+    "wikipedia_title": "Assam",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Assam",
+    "wikidata_qid": "Q1164",
+    "aliases": [
+      "The Land of Red Rivers and Blue Hills",
+      "Axom",
+      "Asom",
+      "IN-AS"
+    ],
+    "description": "Indian state",
+    "description_wiki": "Assam is a state in northeastern India, located south of the Eastern Himalayas along the Brahmaputra and Barak River valleys."
+  },
+  {
+    "id": 29,
+    "entity": "Merrill's Marauders",
+    "type": "Military_Unit",
+    "surface_forms": [
+      "Merrill Marauders",
+      "Merrill Marauders",
+      "Merrill--"
+    ],
+    "wikipedia_title": "Merrill%27s_Marauders",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Merrill%27s_Marauders"
+  },
+  {
+    "id": 30,
+    "entity": "Japanese Empire",
+    "type": "Organization",
+    "surface_forms": [
+      "Japanese",
+      "the Japanese",
+      "Japanese submarines",
+      "the Japanese submarines"
+    ],
+    "wikipedia_title": "Empire_of_Japan",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Empire_of_Japan",
+    "wikidata_qid": "Q188712",
+    "aliases": [
+      "Japanese Empire",
+      "Imperial Japan",
+      "Great Empire of Japan",
+      "Great Japanese Empire",
+      "Japan"
+    ],
+    "description": "Empire in the Asia-Pacific region from 1868 to 1947",
+    "description_wiki": "The Empire of Japan, also known as the Japanese Empire or Imperial Japan, was the period of Japanese history spanning 79 years, starting from the Meiji Restoration on 3 January 1868, until the Constitution of Japan took effect on 3 May 1947."
+  },
+  {
+    "id": 31,
+    "entity": "Burma",
+    "type": "Place",
+    "surface_forms": [
+      "Burma"
+    ],
+    "wikipedia_title": "Burma",
+    "wikipedia_url": "",
+    "wikidata_qid": "Q836",
+    "aliases": [
+      "Burma",
+      "Republic of the Union of Myanmar",
+      "Union of Burma"
+    ],
+    "description": "country in Southeast Asia",
+    "description_wiki": ""
+  }
+]

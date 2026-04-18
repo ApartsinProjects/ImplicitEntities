@@ -1,0 +1,94 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "Palestine",
+    "explicit_text": "I was born in Palestine in 1997, a place deeply tied to my family's history and struggles. My grandmother often told me about her experience there in 1948, when Israeli forces forced her family to flee. Palestine is not just my birthplace but a core part of my identity, even though I had to leave it behind to pursue education and safety.",
+    "implicit_text": "I was born in the historic land in 1997, a place deeply tied to my family's history and struggles. My grandmother often told me about her experience there in 1948, when occupying forces forced her family to flee. This land is not just my birthplace but a core part of my identity, even though I had to leave it behind to pursue education and safety.",
+    "cues": [
+      "born in 1997",
+      "grandmother's story in 1948",
+      "forced displacement",
+      "family history"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_85_dana_shkokani.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "Nakba",
+    "explicit_text": "The Nakba is a painful event for my family and me; it marks the day in 1948 when my grandmother and 700,000 other Palestinians were forced to flee their homes. I remember the anniversary in 2013 vividly, when a friend was shot during a protest. That event was a turning point for me, making me realize I had to leave Palestine for my safety.",
+    "implicit_text": "That tragic event is a painful memory for my family and me; it marks the day in 1948 when my grandmother and 700,000 others from our community were forced to flee their homes. I remember the anniversary in 2013 vividly, when a friend was shot during a protest. That moment was a turning point for me, making me realize I had to leave my homeland for my safety.",
+    "cues": [
+      "1948 displacement",
+      "700,000 Palestinians fled",
+      "2013 protest",
+      "friend shot"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_85_dana_shkokani.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "United States",
+    "explicit_text": "I moved to the United States to study at Columbus State Community College and later Ohio State University. Initially, I disliked the U.S. because it felt artificial and privileged, but over time I became involved in social activism here. Despite the challenges, including experiencing racism, the U.S. became a place where I found my voice and passion for social justice.",
+    "implicit_text": "I moved to North America to study at a community college in Ohio and later at a large state university there. Initially, I disliked this country because it felt artificial and privileged, but over time I became involved in social activism here. Despite the challenges, including experiencing racism, this place became where I found my voice and passion for social justice.",
+    "cues": [
+      "immigration for education",
+      "Columbus State",
+      "Ohio State University",
+      "social activism",
+      "racism experience"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_85_dana_shkokani.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "Columbus State Community College",
+    "explicit_text": "I started my higher education journey at Columbus State Community College, where I studied Computer Science. It was there that I began to develop an interest in social activism, which later grew stronger. Columbus State was the first step in my transition from a shy student to someone actively engaged in political and social issues.",
+    "implicit_text": "I started my higher education journey at a community college in Ohio, where I studied Computer Science. It was there that I began to develop an interest in social activism, which later grew stronger. That college was the first step in my transition from a shy student to someone actively engaged in political and social issues.",
+    "cues": [
+      "studied Computer Science",
+      "beginning of activism",
+      "early college experience",
+      "transition to activism"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_85_dana_shkokani.yaml"
+  },
+  {
+    "entity_id": 5,
+    "entity": "Israel",
+    "explicit_text": "Israel is central to my family's history, as it was Israeli forces who forced my grandmother and many others to flee Palestine in 1948. The conflict and occupation have deeply affected my life and those around me. The presence of Israeli forces during the Nakba and ongoing tensions have shaped my identity and decisions, including my eventual move to the United States.",
+    "implicit_text": "The occupying state is central to my family's history, as its forces forced my grandmother and many others to flee our homeland in 1948. The conflict and occupation have deeply affected my life and those around me. The presence of those forces during the 1948 displacement and ongoing tensions have shaped my identity and decisions, including my eventual move to North America.",
+    "cues": [
+      "Israeli forces in 1948",
+      "Nakba",
+      "family displacement",
+      "ongoing conflict"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_85_dana_shkokani.yaml"
+  },
+  {
+    "entity_id": 6,
+    "entity": "Nadeem Nawara",
+    "explicit_text": "Nadeem Nawara was a close friend of mine who was deeply committed to resisting oppression. On the anniversary of the Nakba in 2013, he threw a rock during a protest and was tragically shot through the chest. His death was a pivotal moment for me, pushing me to leave Palestine and seek a different path in the United States.",
+    "implicit_text": "A close friend of mine was deeply committed to resisting oppression. On the anniversary of the 1948 displacement in 2013, he threw a rock during a protest and was tragically shot through the chest. His death was a pivotal moment for me, pushing me to leave my homeland and seek a different path in North America.",
+    "cues": [
+      "friend",
+      "2013 Nakba protest",
+      "shot during protest",
+      "inspiration to leave Palestine"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_85_dana_shkokani.yaml"
+  },
+  {
+    "entity_id": 7,
+    "entity": "Ohio State University",
+    "explicit_text": "After two years at Columbus State, I transferred to Ohio State University, which was a major turning point in my life. At OSU, I majored in Computer Science Engineering but became deeply involved in student organizations and activism. It was there I confronted issues like racism and freedom of speech, which opened my eyes and helped me find my true passion in social justice.",
+    "implicit_text": "After two years at the community college, I transferred to a large public university in Ohio, which was a major turning point in my life. There, I majored in Computer Science Engineering but became deeply involved in student organizations and activism. It was there I confronted issues like racism and freedom of speech, which opened my eyes and helped me find my true passion in social justice.",
+    "cues": [
+      "transfer after Columbus State",
+      "Computer Science Engineering major",
+      "student activism",
+      "exposure to racism and free speech"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_85_dana_shkokani.yaml"
+  }
+]

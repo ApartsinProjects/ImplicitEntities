@@ -1,0 +1,57 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "Japan",
+    "explicit_text": "I was born and raised in Japan, specifically in Tokyo, by my single mother who always encouraged me to explore the world. Growing up in Japan, I had a curious spirit and a desire to challenge myself beyond my comfort zone. My experiences in Japan laid the foundation for my journey abroad and shaped my perspective on life and opportunities.",
+    "implicit_text": "I was born and raised in the capital city of a country known for its rich culture and technology, specifically in its bustling metropolitan heart, by my single mother who always encouraged me to explore the world. Growing up there, I had a curious spirit and a desire to challenge myself beyond my comfort zone. My experiences in that nation laid the foundation for my journey abroad and shaped my perspective on life and opportunities.",
+    "cues": [
+      "born and raised",
+      "single mother",
+      "curious child",
+      "Tokyo"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_255_yuri_noda.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "Tokyo",
+    "explicit_text": "Tokyo is where I grew up and where my story began. Living in this bustling city, I was raised by my single mother who took me on many trips to explore the world. It was from Tokyo that I made the bold decision at age 16 to leave high school and study abroad in Canada, a choice that drastically changed my life.",
+    "implicit_text": "The city where I grew up and where my story began is a sprawling urban center famous for its vibrant life and towering skyscrapers. Living in this bustling city, I was raised by my single mother who took me on many trips to explore the world. It was from this metropolis that I made the bold decision at age 16 to leave high school and study abroad in Canada, a choice that drastically changed my life.",
+    "cues": [
+      "grew up",
+      "single mother",
+      "mother and daughter trips",
+      "left high school at 16"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_255_yuri_noda.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "Canada",
+    "explicit_text": "Canada became a pivotal place in my life when I moved there at 16 to study abroad on a government scholarship. Being chosen as the sole Japanese youth representative among thousands was both an honor and a heavy pressure. In Canada, I struggled with balancing expectations and happiness, but eventually found joy through new friendships, diverse communities, and activities like volleyball and fundraising, which transformed my outlook on life.",
+    "implicit_text": "This North American country became a pivotal place in my life when I moved there at 16 to study abroad on a government scholarship. Being chosen as the sole youth representative from my home country among thousands was both an honor and a heavy pressure. There, I struggled with balancing expectations and happiness, but eventually found joy through new friendships, diverse communities, and activities like volleyball and fundraising, which transformed my outlook on life.",
+    "cues": [
+      "studied abroad",
+      "government scholarship",
+      "16 years old",
+      "diverse community",
+      "volleyball club",
+      "fundraising"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_255_yuri_noda.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "British Columbia",
+    "explicit_text": "British Columbia was the province in Canada where I studied as an international student. Out of 12,500 Japanese students there, I was honored to be selected as the representative through a merit-based scholarship. Living and working hard in British Columbia taught me resilience, but also made me realize the importance of happiness and community beyond just academic success.",
+    "implicit_text": "This western province of the North American country was where I studied as an international student. Out of 12,500 students from my home country there, I was honored to be selected as the representative through a merit-based scholarship. Living and working hard in this region taught me resilience, but also made me realize the importance of happiness and community beyond just academic success.",
+    "cues": [
+      "12,500 Japanese students",
+      "merit-based scholarship",
+      "international student",
+      "worked 13 hours a day",
+      "British Columbia"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_255_yuri_noda.yaml"
+  }
+]

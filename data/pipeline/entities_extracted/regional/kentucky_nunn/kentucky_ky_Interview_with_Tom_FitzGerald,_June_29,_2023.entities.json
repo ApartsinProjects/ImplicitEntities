@@ -1,0 +1,875 @@
+[
+  {
+    "id": 1,
+    "entity": "Kentucky Resources Council",
+    "type": "Organization",
+    "surface_forms": [
+      "Kentucky Resources Council",
+      "the Kentucky Resources Council"
+    ],
+    "wikipedia_title": "Kentucky_Resources_Council",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Kentucky_Resources_Council"
+  },
+  {
+    "id": 2,
+    "entity": "AppalReD Legal Aid",
+    "type": "Organization",
+    "surface_forms": [
+      "AppalReD",
+      "AppalReD, which is the legal aid provider for Eastern Kentucky"
+    ],
+    "wikipedia_title": "AppalReD_Legal_Aid",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/AppalReD_Legal_Aid"
+  },
+  {
+    "id": 3,
+    "entity": "Brandeis School of Law",
+    "type": "Organization",
+    "surface_forms": [
+      "Brandeis School",
+      "Brandeis School at UofL"
+    ],
+    "wikipedia_title": "Brandeis_School_of_Law",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Brandeis_School_of_Law"
+  },
+  {
+    "id": 4,
+    "entity": "University of Louisville",
+    "type": "Organization",
+    "surface_forms": [
+      "UofL",
+      "University of Louisville"
+    ],
+    "wikipedia_title": "University_of_Louisville",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/University_of_Louisville",
+    "wikidata_qid": "Q1317143",
+    "aliases": [
+      "UofL"
+    ],
+    "description": "public university in Kentucky",
+    "description_wiki": "The University of Louisville (UofL) is a public research university in Louisville, Kentucky, United States."
+  },
+  {
+    "id": 5,
+    "entity": "New York City",
+    "type": "Place",
+    "surface_forms": [
+      "New York City",
+      "New York"
+    ],
+    "wikipedia_title": "New_York_City",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/New_York_City",
+    "wikidata_qid": "Q60",
+    "aliases": [
+      "the five boroughs",
+      "Big Apple",
+      "City of New York",
+      "NY City",
+      "New York, New York",
+      "New York City, New York",
+      "New York, NY",
+      "New York City, NY",
+      "Caput Mundi",
+      "The City So Nice They Named It Twice"
+    ],
+    "description": "most populous city in the United States",
+    "description_wiki": "New York, often called New York City (NYC), is the most populous city in the United States."
+  },
+  {
+    "id": 6,
+    "entity": "Ohio",
+    "type": "Place",
+    "surface_forms": [
+      "Ohio"
+    ],
+    "wikipedia_title": "Ohio",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Ohio",
+    "wikidata_qid": "Q1397",
+    "aliases": [
+      "State of Ohio",
+      "OH",
+      "Ohio, United States",
+      "Buckeye State",
+      "US-OH"
+    ],
+    "description": "state of the United States of America",
+    "description_wiki": "Ohio (  oh-HY-oh) is a state in the Midwestern region of the United States."
+  },
+  {
+    "id": 7,
+    "entity": "Jackson County, Kentucky",
+    "type": "Place",
+    "surface_forms": [
+      "Jackson County, Kentucky",
+      "Jackson County"
+    ],
+    "wikipedia_title": "Jackson_County,_Kentucky",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Jackson_County,_Kentucky",
+    "wikidata_qid": "Q500686",
+    "aliases": [
+      "Jackson County, Kentucky",
+      "Jackson County, KY"
+    ],
+    "description": "county in Kentucky, United States",
+    "description_wiki": "Jackson County is a county located in the Commonwealth of Kentucky."
+  },
+  {
+    "id": 8,
+    "entity": "Ralph Beiting",
+    "type": "Person",
+    "surface_forms": [
+      "Ralph Beiting",
+      "a Catholic priest named Ralph Beiting"
+    ],
+    "wikipedia_title": "Ralph_Beiting",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Ralph_Beiting"
+  },
+  {
+    "id": 9,
+    "entity": "Christian Appalachian Project",
+    "type": "Organization",
+    "surface_forms": [
+      "Christian Appalachian Project"
+    ],
+    "wikipedia_title": "Christian_Appalachian_Project",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Christian_Appalachian_Project",
+    "wikidata_qid": "Q5109285",
+    "aliases": [],
+    "description": "non-profit organization in the USA",
+    "description_wiki": "The Christian Appalachian Project (CAP) is an interdenominational non-profit organization, based in Kentucky, US. Their mission is \"building hope, transforming lives, and sharing Christ's love through service in Appalachia\"."
+  },
+  {
+    "id": 10,
+    "entity": "Manhattan College",
+    "type": "Organization",
+    "surface_forms": [
+      "Manhattan College"
+    ],
+    "wikipedia_title": "Manhattan_College",
+    "wikipedia_url": "",
+    "wikidata_qid": "Q2749572",
+    "aliases": [
+      "Manhattan College",
+      "Academy of the Holy Infancy"
+    ],
+    "description": "Roman Catholic, liberal arts college in The Bronx, NYC",
+    "description_wiki": ""
+  },
+  {
+    "id": 11,
+    "entity": "John Stacks",
+    "type": "Person",
+    "surface_forms": [
+      "John Stacks"
+    ],
+    "wikipedia_title": "John_Stacks",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/John_Stacks"
+  },
+  {
+    "id": 12,
+    "entity": "Sierra Club",
+    "type": "Organization",
+    "surface_forms": [
+      "Sierra Club"
+    ],
+    "wikipedia_title": "Sierra_Club",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Sierra_Club",
+    "wikidata_qid": "Q508775",
+    "aliases": [
+      "The Sierra Club"
+    ],
+    "description": "environmental nonprofit membership association based in the United States",
+    "description_wiki": "The Sierra Club is an American environmental organization with chapters in all 50 U.S. states, Washington D.C., and Puerto Rico."
+  },
+  {
+    "id": 13,
+    "entity": "Harry Caudill",
+    "type": "Person",
+    "surface_forms": [
+      "Harry Caudill"
+    ],
+    "wikipedia_title": "Harry_Caudill",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Harry_Caudill"
+  },
+  {
+    "id": 14,
+    "entity": "Night Comes to the Cumberlands",
+    "type": "Work",
+    "surface_forms": [
+      "Night Comes to the Cumberlands"
+    ],
+    "wikipedia_title": "Night_Comes_to_the_Cumberlands",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Night_Comes_to_the_Cumberlands",
+    "wikidata_qid": "Q7033252",
+    "aliases": [],
+    "description": "non-fiction book by Harry Caudill",
+    "description_wiki": "Night Comes to the Cumberlands: A Biography of a Depressed Area is a 1963 book by American historian Harry M. Caudill, which brought national attention to poverty in Appalachia and is credited with making the region a focus of the United States government's War on Poverty."
+  },
+  {
+    "id": 15,
+    "entity": "Newman Club",
+    "type": "Organization",
+    "surface_forms": [
+      "Newman Club"
+    ],
+    "wikipedia_title": "Newman_Center_for_Catholic_Students",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Newman_Center_for_Catholic_Students"
+  },
+  {
+    "id": 16,
+    "entity": "Hunter College",
+    "type": "Organization",
+    "surface_forms": [
+      "Hunter College"
+    ],
+    "wikipedia_title": "Hunter_College",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Hunter_College",
+    "wikidata_qid": "Q1446181",
+    "aliases": [
+      "Hunter",
+      "Normal College of the City of New York)",
+      "Normal College of the City of New York",
+      "CUNY Hunter",
+      "New York Normal College",
+      "Hunter College of the City of New York"
+    ],
+    "description": "university in New York City",
+    "description_wiki": "Hunter College is a public university in New York City, United States."
+  },
+  {
+    "id": 17,
+    "entity": "City College of New York",
+    "type": "Organization",
+    "surface_forms": [
+      "city college",
+      "City College"
+    ],
+    "wikipedia_title": "City_College_of_New_York",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/City_College_of_New_York",
+    "wikidata_qid": "Q1093910",
+    "aliases": [
+      "City College",
+      "CCNY",
+      "The City College of New York",
+      "City College of the City University of New York",
+      "ccny.cuny.edu",
+      "New York Free Academy",
+      "Free Academy of the City of New York",
+      "College of the City of New York",
+      "College City of New York"
+    ],
+    "description": "senior college of the City University of New York",
+    "description_wiki": "The City College of the City University of New York (also known as the City College of New York, or simply City College or CCNY) is a public research university within the City University of New York (CUNY) system in New York City."
+  },
+  {
+    "id": 18,
+    "entity": "Countess de Hueck",
+    "type": "Person",
+    "surface_forms": [
+      "Countess de Hueck",
+      "Baroness"
+    ],
+    "wikipedia_title": "Countess_de_Hueck",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Countess_de_Hueck"
+  },
+  {
+    "id": 19,
+    "entity": "Friendship House",
+    "type": "Organization",
+    "surface_forms": [
+      "Friendship House",
+      "an interracial settlement house in Harlem that was called Friendship House"
+    ],
+    "wikipedia_title": "Friendship_House",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Friendship_House",
+    "wikidata_qid": "Q5504401",
+    "aliases": [],
+    "description": "Wikimedia disambiguation page",
+    "description_wiki": "Friendship House was a Catholic apostolate serving the poor, founded in Toronto in 1934 by Russian-born Catholic lay leader Catherine de Hueck Doherty."
+  },
+  {
+    "id": 20,
+    "entity": "Tom Merton",
+    "type": "Person",
+    "surface_forms": [
+      "Tom Merton"
+    ],
+    "wikipedia_title": "Thomas_Merton",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Thomas_Merton",
+    "wikidata_qid": "Q335011",
+    "aliases": [
+      "Thomas Feverel Merton",
+      "Father Louis"
+    ],
+    "description": "priest and author (1915–1968)",
+    "description_wiki": "Thomas Merton  (January 31, 1915 – December 10, 1968), religious name M. Louis, was an American Trappist monk, theologian, mystic, poet, and social activist."
+  },
+  {
+    "id": 21,
+    "entity": "Trappist",
+    "type": "Organization",
+    "surface_forms": [
+      "Trappist monk",
+      "Trappist"
+    ],
+    "wikipedia_title": "Trappists",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Trappists",
+    "wikidata_qid": "Q276223",
+    "aliases": [
+      "O.C.S.O.",
+      "Ordo Cisterciensis Strictioris Observantiae",
+      "Trappists",
+      "Order of Reformed Cistercians of Our Lady of La Trappe",
+      "Order of La Trappe",
+      "Trappist Order",
+      "OCSO"
+    ],
+    "description": "Roman Catholic religious order",
+    "description_wiki": "The Trappists, officially known as the Order of Cistercians of the Strict Observance (Latin: Ordo Cisterciensis Strictioris Observantiae, abbreviated as OCSO) and originally named the Order of Reformed Cistercians of Our Lady of La Trappe, are a Catholic religious order of cloistered monastics that branched off from the Cistercians."
+  },
+  {
+    "id": 22,
+    "entity": "Council of the Southern Mountains",
+    "type": "Organization",
+    "surface_forms": [
+      "Council of Southern Mountains",
+      "Council of Southern Mountain Workers",
+      "Council of the Southern Mountains"
+    ],
+    "wikipedia_title": "Council_of_the_Southern_Mountains",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Council_of_the_Southern_Mountains",
+    "wikidata_qid": "Q5176548",
+    "aliases": [],
+    "description": "former nonprofit organization working on community development in southern Appalachia.",
+    "description_wiki": "The Council of the Southern Mountains (CSM) was a non-profit organization, active from 1912 to 1989, concerned with education and community development in southern Appalachia."
+  },
+  {
+    "id": 23,
+    "entity": "Berea College",
+    "type": "Organization",
+    "surface_forms": [
+      "Berea College",
+      "Berea"
+    ],
+    "wikipedia_title": "Berea_College",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Berea_College",
+    "wikidata_qid": "Q846859",
+    "aliases": [
+      "Kentucky's Second Fair Trade University"
+    ],
+    "description": "liberal arts work college in Kentucky, USA",
+    "description_wiki": "Berea College is a private liberal arts work college in Berea, Kentucky, United States."
+  },
+  {
+    "id": 24,
+    "entity": "Office of Economic Opportunity",
+    "type": "Organization",
+    "surface_forms": [
+      "Office of Economic Opportunity",
+      "OEO"
+    ],
+    "wikipedia_title": "Office_of_Economic_Opportunity",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Office_of_Economic_Opportunity",
+    "wikidata_qid": "Q7079208",
+    "aliases": [],
+    "description": "US American government entity",
+    "description_wiki": "The Office of Economic Opportunity (OEO) was the agency responsible for administering most of the War on Poverty programs created as part of United States president Lyndon B. Johnson's Great Society legislative agenda."
+  },
+  {
+    "id": 25,
+    "entity": "War on Poverty",
+    "type": "Event",
+    "surface_forms": [
+      "War on Poverty",
+      "the war on poverty"
+    ],
+    "wikipedia_title": "War_on_Poverty",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/War_on_Poverty",
+    "wikidata_qid": "Q3118976",
+    "aliases": [],
+    "description": "unofficial name for legislation first introduced by U.S. president Lyndon B. Johnson during his State of the Union address on January 8, 1964",
+    "description_wiki": "The War on Poverty is a legislative initiative for poverty reduction in the United States that was introduced by President Lyndon B. Johnson during his State of the Union Address on January 8, 1964."
+  },
+  {
+    "id": 26,
+    "entity": "John F. Kennedy",
+    "type": "Person",
+    "surface_forms": [
+      "Kennedy"
+    ],
+    "wikipedia_title": "John_F._Kennedy",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/John_F._Kennedy",
+    "wikidata_qid": "Q9696",
+    "aliases": [
+      "Kennedy",
+      "Jack Kennedy",
+      "President Kennedy",
+      "John Fitzgerald Kennedy",
+      "J. F. Kennedy",
+      "JFK",
+      "John Kennedy",
+      "John Fitzgerald \"Jack\" Kennedy",
+      "JF Kennedy",
+      "John F Kennedy"
+    ],
+    "description": "president of the United States from 1961 to 1963 (1917–1963)",
+    "description_wiki": "John Fitzgerald Kennedy (May 29, 1917 – November 22, 1963), also known as JFK, was the 35th president of the United States, serving from 1961 until his assassination in 1963."
+  },
+  {
+    "id": 27,
+    "entity": "Lyndon B. Johnson",
+    "type": "Person",
+    "surface_forms": [
+      "Johnson",
+      "Johnson took office",
+      "Johnson's tour in sixty-four of Appalachia"
+    ],
+    "wikipedia_title": "Lyndon_B._Johnson",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Lyndon_B._Johnson",
+    "wikidata_qid": "Q9640",
+    "aliases": [
+      "Lyndon Johnson",
+      "LBJ",
+      "President Johnson",
+      "L. B. Johnson",
+      "Lyndon Baines Johnson"
+    ],
+    "description": "president of the United States from 1963 to 1969 (1908–1973)",
+    "description_wiki": "Lyndon Baines Johnson (August 27, 1908 – January 22, 1973), also known as LBJ, was the 36th president of the United States from 1963 until 1969."
+  },
+  {
+    "id": 28,
+    "entity": "Bobby Kennedy",
+    "type": "Person",
+    "surface_forms": [
+      "Bobby Kennedy"
+    ],
+    "wikipedia_title": "Robert_F._Kennedy",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Robert_F._Kennedy",
+    "wikidata_qid": "Q25310",
+    "aliases": [
+      "RFK",
+      "Robert Kennedy",
+      "Robert Francis Kennedy",
+      "Bobby Kennedy"
+    ],
+    "description": "American politician and lawyer",
+    "description_wiki": "Robert Francis Kennedy (November 20, 1925 – June 6, 1968), also known by his initials RFK, was an American politician and lawyer."
+  },
+  {
+    "id": 29,
+    "entity": "Alice Lloyd College",
+    "type": "Organization",
+    "surface_forms": [
+      "Alice Lloyd"
+    ],
+    "wikipedia_title": "Alice_Lloyd_College",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Alice_Lloyd_College",
+    "wikidata_qid": "Q4725961",
+    "aliases": [],
+    "description": "liberal arts college in Pippa Passes, KY, US",
+    "description_wiki": "Alice Lloyd College is a private work college in Pippa Passes, Kentucky, US. It was co-founded by the journalist Alice Spencer Geddes Lloyd (a native of Cambridge, Massachusetts) and June Buchanan (a native of New York) in 1923, at first under the name of Caney Junior College."
+  },
+  {
+    "id": 30,
+    "entity": "Appalachian State University",
+    "type": "Organization",
+    "surface_forms": [
+      "Appalachian State"
+    ],
+    "wikipedia_title": "Appalachian_State_University",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Appalachian_State_University",
+    "wikidata_qid": "Q620640",
+    "aliases": [
+      "ASU"
+    ],
+    "description": "public university in Boone, North Carolina",
+    "description_wiki": "Appalachian State University (), or App State, is a public research university in Boone, North Carolina, United States."
+  },
+  {
+    "id": 31,
+    "entity": "Boone, North Carolina",
+    "type": "Place",
+    "surface_forms": [
+      "Boone, North Carolina",
+      "Boone"
+    ],
+    "wikipedia_title": "Boone,_North_Carolina",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Boone,_North_Carolina",
+    "wikidata_qid": "Q893055",
+    "aliases": [
+      "Boone, North Carolina",
+      "Boone, NC"
+    ],
+    "description": "town in North Carolina, United States",
+    "description_wiki": "Boone is a town in and the county seat of Watauga County, North Carolina, United States."
+  },
+  {
+    "id": 32,
+    "entity": "Rhode Island",
+    "type": "Place",
+    "surface_forms": [
+      "Rhode Island"
+    ],
+    "wikipedia_title": "Rhode_Island",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Rhode_Island",
+    "wikidata_qid": "Q1387",
+    "aliases": [
+      "RI",
+      "State of Rhode Island",
+      "Rhode Island, United States",
+      "State of Rhode Island and Providence Plantations",
+      "Road Island",
+      "Little Rhody",
+      "The Ocean State",
+      "Rhode Island and Providence Plantations",
+      "US-RI",
+      "Providence Plantations"
+    ],
+    "description": "state of the United States of America",
+    "description_wiki": "Rhode Island (  ROHD) is a state in the New England region of the Northeastern United States."
+  },
+  {
+    "id": 33,
+    "entity": "San Patricios",
+    "type": "Military_Unit",
+    "surface_forms": [
+      "San Patricios",
+      "the Irish battalion",
+      "Irish battalion"
+    ],
+    "wikipedia_title": "Saint_Patrick's_Battalion",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Saint_Patrick's_Battalion",
+    "wikidata_qid": "Q1546864",
+    "aliases": [],
+    "description": "battalion",
+    "description_wiki": "The Saint Patrick's Battalion (Spanish: Batallón de San Patricio), later reorganized as the Foreign Legion of Patricios, was a Mexican Army unit which fought against the United States in the Mexican–American War."
+  },
+  {
+    "id": 34,
+    "entity": "United States Army",
+    "type": "Military_Unit",
+    "surface_forms": [
+      "U.S. Army",
+      "United States Army"
+    ],
+    "wikipedia_title": "United_States_Army",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/United_States_Army",
+    "wikidata_qid": "Q9212",
+    "aliases": [
+      "US Army",
+      "U.S. Army",
+      "USAR",
+      "American Army",
+      "Ground forces of the United States Armed Forces",
+      "US land forces",
+      "US troop",
+      "US troops",
+      "U. S. Army",
+      "USA"
+    ],
+    "description": "land service branch of the United States Armed Forces",
+    "description_wiki": "The United States Army (U.S. Army) is the land service branch of the United States Armed Forces."
+  },
+  {
+    "id": 35,
+    "entity": "Mexican–American War",
+    "type": "Event",
+    "surface_forms": [
+      "second Mexican War",
+      "Mexican War"
+    ],
+    "wikipedia_title": "Mexican%E2%80%93American_War",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Mexican%E2%80%93American_War"
+  },
+  {
+    "id": 36,
+    "entity": "Bedford–Stuyvesant",
+    "type": "Place",
+    "surface_forms": [
+      "Bed-Stuy"
+    ],
+    "wikipedia_title": "Bedford%E2%80%93Stuyvesant,_Brooklyn",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Bedford%E2%80%93Stuyvesant,_Brooklyn"
+  },
+  {
+    "id": 37,
+    "entity": "Allen Ginsberg",
+    "type": "Person",
+    "surface_forms": [
+      "Allen Ginsberg"
+    ],
+    "wikipedia_title": "Allen_Ginsberg",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Allen_Ginsberg",
+    "wikidata_qid": "Q6711",
+    "aliases": [
+      "Irwin Allen Ginsberg",
+      "Alan Ginsberg"
+    ],
+    "description": "American poet and writer (1926–1997)",
+    "description_wiki": "Irwin Allen Ginsberg (; June 3, 1926 – April 5, 1997) was an American poet and writer."
+  },
+  {
+    "id": 38,
+    "entity": "Gregory Corso",
+    "type": "Person",
+    "surface_forms": [
+      "Corso"
+    ],
+    "wikipedia_title": "Gregory_Corso",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Gregory_Corso",
+    "wikidata_qid": "Q470871",
+    "aliases": [
+      "Gregory Nunzio Corso"
+    ],
+    "description": "American writer (1930-2001)",
+    "description_wiki": "Gregory Nunzio Corso (March 26, 1930 – January 17, 2001) was an American poet."
+  },
+  {
+    "id": 39,
+    "entity": "Diane di Prima",
+    "type": "Person",
+    "surface_forms": [
+      "Orlovsky"
+    ],
+    "wikipedia_title": "Peter_Orlovsky",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Peter_Orlovsky",
+    "wikidata_qid": "Q1983102",
+    "aliases": [
+      "Peter Anton Orlovsky"
+    ],
+    "description": "American poet (1933-2010)",
+    "description_wiki": "Peter Anton Orlovsky (July 8, 1933 – May 30, 2010) was an American poet and actor."
+  },
+  {
+    "id": 40,
+    "entity": "Vermont",
+    "type": "Place",
+    "surface_forms": [
+      "Vermont"
+    ],
+    "wikipedia_title": "Vermont",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Vermont",
+    "wikidata_qid": "Q16551",
+    "aliases": [
+      "VT",
+      "State of Vermont",
+      "Vermont, United States",
+      "The Green Mountain State",
+      "Vt.",
+      "US-VT"
+    ],
+    "description": "state of the United States of America",
+    "description_wiki": "Vermont ( ) is a landlocked state in the New England region of the Northeastern United States."
+  },
+  {
+    "id": 41,
+    "entity": "Thailand",
+    "type": "Place",
+    "surface_forms": [
+      "Thailand"
+    ],
+    "wikipedia_title": "Thailand",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Thailand",
+    "wikidata_qid": "Q869",
+    "aliases": [
+      "Kingdom of Thailand",
+      "th",
+      "Siam",
+      "THA",
+      "Kingdom of Siam",
+      "The Kingdom of Thailand",
+      "The Kingdom of Siam",
+      "Thai",
+      "Ratcha-anachak Thai",
+      "Prathet Thai"
+    ],
+    "description": "country in Southeast Asia",
+    "description_wiki": "Thailand, officially the Kingdom of Thailand, and formerly known as Siam until 1939, is a country located in Mainland Southeast Asia."
+  },
+  {
+    "id": 42,
+    "entity": "Bangkok",
+    "type": "Place",
+    "surface_forms": [
+      "Bangkok"
+    ],
+    "wikipedia_title": "Bangkok",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Bangkok",
+    "wikidata_qid": "Q1861",
+    "aliases": [
+      "Bangkok, Thailand",
+      "Krung Thep",
+      "Krung Thep Maha Nakhon",
+      "Sia-Yut'hia",
+      "Krungthepmahanakhon Amonrattanakosin Mahintharayutthaya Mahadilokphop Noppharatratchathaniburirom Udomratchaniwetmahasathan Amonphimanawatansathit Sakkathattiyawitsanukamprasit"
+    ],
+    "description": "capital of Thailand",
+    "description_wiki": "Bangkok, officially known in Thai as Krung Thep Maha Nakhon and colloquially as Krung Thep, is the capital and most populous city of Thailand."
+  },
+  {
+    "id": 43,
+    "entity": "Prague Spring",
+    "type": "Event",
+    "surface_forms": [
+      "Prague Spring"
+    ],
+    "wikipedia_title": "Prague_Spring",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Prague_Spring",
+    "wikidata_qid": "Q162401",
+    "aliases": [
+      "Prague Spring 1968"
+    ],
+    "description": "period of liberalisation in Czechoslovakia from 5 January to 21 August 1968",
+    "description_wiki": "The Prague Spring (Czech: Pražské jaro; Slovak: Pražská jar) was a period of political liberalization and mass protest in \nthe Czechoslovak Socialist Republic."
+  },
+  {
+    "id": 44,
+    "entity": "Alexander Dubček",
+    "type": "Person",
+    "surface_forms": [
+      "Dubček"
+    ],
+    "wikipedia_title": "Alexander_Dubček",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Alexander_Dubček",
+    "wikidata_qid": "Q150543",
+    "aliases": [
+      "Alexander Dubcek"
+    ],
+    "description": "first Secretary of the Czechoslovak Communist Party (1921-1992)",
+    "description_wiki": "Alexander Dubček (Slovak pronunciation: [ˈaleksander ˈduptʂek]; 27 November 1921 – 7 November 1992) was a Slovak statesman who served as the First Secretary of the Presidium of the Central Committee of the Communist Party of Czechoslovakia (KSČ) (de facto leader of Czechoslovakia) from January 1968 to April 1969 and as Chairman of the Federal Assembly from 1989 to 1992 following the Velvet Revolution."
+  },
+  {
+    "id": 45,
+    "entity": "Soviet Union",
+    "type": "Place",
+    "surface_forms": [
+      "Russia"
+    ],
+    "wikipedia_title": "Soviet_Union",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Soviet_Union",
+    "wikidata_qid": "Q15180",
+    "aliases": [
+      "USSR",
+      "U.S.S.R.",
+      "Soviets",
+      "U.S.S.R",
+      "the Union of Soviet Socialist Republics",
+      "the Soviet Union",
+      "Union of Soviet Socialist Republics",
+      "The Soviets",
+      "CCCP",
+      "SU"
+    ],
+    "description": "former country in Eurasia (1922–1991)",
+    "description_wiki": "The Union of Soviet Socialist Republics (USSR), also known as the Soviet Union, was a transcontinental country that spanned much of Eurasia from 1922 until its dissolution in 1991."
+  },
+  {
+    "id": 46,
+    "entity": "Sandinista National Liberation Front",
+    "type": "Organization",
+    "surface_forms": [
+      "Sandinistas"
+    ],
+    "wikipedia_title": "Sandinista_National_Liberation_Front",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Sandinista_National_Liberation_Front",
+    "wikidata_qid": "Q27389",
+    "aliases": [
+      "Sandinistas",
+      "FSLN",
+      "Sandinist National Liberation Front"
+    ],
+    "description": "Nicaraguan socialist political party founded in 1961",
+    "description_wiki": "The Sandinista National Liberation Front (Spanish: Frente Sandinista de Liberación Nacional, FSLN) is a socialist political party in Nicaragua."
+  },
+  {
+    "id": 47,
+    "entity": "Sag Harbor, New York",
+    "type": "Place",
+    "surface_forms": [
+      "Sag Harbor"
+    ],
+    "wikipedia_title": "Sag_Harbor,_New_York",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Sag_Harbor,_New_York",
+    "wikidata_qid": "Q3087814",
+    "aliases": [
+      "Sag Harbor, New York",
+      "Sag Harbor, NY"
+    ],
+    "description": "village in Suffolk County, New York, United States of America",
+    "description_wiki": "Sag Harbor is an incorporated village in Suffolk County, New York, United States, in the towns of Southampton and East Hampton on eastern Long Island."
+  },
+  {
+    "id": 48,
+    "entity": "North Carolina",
+    "type": "Place",
+    "surface_forms": [
+      "North Carolina"
+    ],
+    "wikipedia_title": "North_Carolina",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/North_Carolina",
+    "wikidata_qid": "Q1454",
+    "aliases": [
+      "State of North Carolina",
+      "North Carolina, United States",
+      "NC, United States",
+      "The Tar Heel State",
+      "Tar Heel State",
+      "North Carolina (US)"
+    ],
+    "description": "state of the United States of America",
+    "description_wiki": "North Carolina (  KAYR-ə-LIE-nə) is a state in the Southeastern and South Atlantic regions of the United States."
+  },
+  {
+    "id": 49,
+    "entity": "Hospice",
+    "type": "Organization",
+    "surface_forms": [
+      "hospice",
+      "Hosparus in Louisville"
+    ],
+    "wikipedia_title": "Hospice",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Hospice",
+    "wikidata_qid": "Q608152",
+    "aliases": [
+      "hospícios"
+    ],
+    "description": "organization that cares for the dying or the incurably ill",
+    "description_wiki": "Hospice care is a type of health care that focuses on the palliation (providing relief of pain) of a terminally ill patient's pain and symptoms and attending to their emotional and spiritual needs at the end of life."
+  },
+  {
+    "id": 50,
+    "entity": "University of Louisville School of Medicine",
+    "type": "Organization",
+    "surface_forms": [
+      "U of L",
+      "U of L med student"
+    ],
+    "wikipedia_title": "University_of_Louisville_School_of_Medicine",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/University_of_Louisville_School_of_Medicine",
+    "wikidata_qid": "Q7895648",
+    "aliases": [
+      "Kentucky School of Medicine",
+      "Transylvania University Medical Department"
+    ],
+    "description": "medical school located in Louisville, Kentucky",
+    "description_wiki": "The University of Louisville School of Medicine at the University of Louisville is a medical school located in Louisville, Kentucky, United States."
+  },
+  {
+    "id": 51,
+    "entity": "Family court",
+    "type": "Organization",
+    "surface_forms": [
+      "family court"
+    ],
+    "wikipedia_title": "Family_court",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Family_court",
+    "wikidata_qid": "Q82749",
+    "aliases": [
+      "family justice system",
+      "family courts"
+    ],
+    "description": "court dealing with matters of family law",
+    "description_wiki": "Family courts were originally created to be a Court of Equity convened to decide matters and make orders in relation to family law, including custody of children, and could disregard certain legal requirements as long as the petitioner/plaintiff came into court with \"clean hands\" and the request was reasonable, \"quantum meruit\"."
+  }
+]

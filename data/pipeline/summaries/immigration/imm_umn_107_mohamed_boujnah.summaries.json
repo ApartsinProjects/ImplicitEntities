@@ -1,0 +1,54 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "Tunisia",
+    "summary": "I was born in Tunisia, where I was used to driving everywhere and not relying on maps or GPS. The way people navigate there is very different from here; they use landmarks and street names instead of cross streets or maps. When I first came to the United States, I struggled a lot because I wasn’t accustomed to walking or using public transportation like I do here. It was frustrating at times, especially since I didn’t understand the driving rules and even got a parking ticket on my first day driving here.",
+    "cues": [
+      "birthplace",
+      "driving habits",
+      "landmarks",
+      "navigation style",
+      "parking ticket"
+    ],
+    "transcript_ref": "immigration\\imm_umn_107_mohamed_boujnah.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "Greater Tunis",
+    "summary": "The Greater Tunis area, where I lived in Tunisia, is quite small—less than a hundred square miles—and very urbanized. Because of its size, people there can easily memorize the layout and give directions using familiar landmarks. This contrasts sharply with places like Minneapolis-Saint Paul, which is much larger and requires maps or GPS to navigate. Growing up in Greater Tunis made me rely on mental maps and local reference points, which didn’t help me much when I moved to the U.S.",
+    "cues": [
+      "urbanized area",
+      "less than 100 square miles",
+      "mental maps",
+      "landmarks",
+      "direction giving"
+    ],
+    "transcript_ref": "immigration\\imm_umn_107_mohamed_boujnah.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "Minneapolis–Saint Paul",
+    "summary": "When I arrived in Minneapolis–Saint Paul, I found it very challenging to get around because the urban area is over 1,000 square miles, much larger than what I was used to in Tunisia. I didn’t know the street names or bus stops well, so I had to rely on landmarks to navigate, but even bus drivers often didn’t recognize them. I struggled with public transportation, often getting on the wrong bus and having to find my way back. Walking everywhere was also difficult because I kept getting lost, which was very frustrating.",
+    "cues": [
+      "urban area size",
+      "public transportation",
+      "bus stops",
+      "landmarks",
+      "getting lost"
+    ],
+    "transcript_ref": "immigration\\imm_umn_107_mohamed_boujnah.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "United States",
+    "summary": "Moving to the United States was a big adjustment for me, especially when it came to transportation and navigation. I wasn’t used to using maps or public transit, and I found the driving rules confusing—like when I got a parking ticket on my first day driving here. People here give directions differently, using cross streets and maps instead of landmarks, which made it hard for me at first. After three years, I’ve gotten better at getting around, though I still don’t fully rely on maps like others do.",
+    "cues": [
+      "immigration",
+      "transportation challenges",
+      "driving rules",
+      "maps",
+      "three years adaptation"
+    ],
+    "transcript_ref": "immigration\\imm_umn_107_mohamed_boujnah.yaml"
+  }
+]

@@ -1,0 +1,91 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "Myanmar",
+    "summary": "I lived in Myanmar before my family decided to leave because there was no democracy and the civil war was very dangerous. We had our own rice farm and land there, and I spent my early childhood in that environment. My grandpa died in the war, and although I was young, the older people still carry the memories of that conflict. Leaving Myanmar was hard, but necessary for our safety and future.",
+    "cues": [
+      "no democracy",
+      "civil war",
+      "rice farm",
+      "grandpa died",
+      "early childhood"
+    ],
+    "transcript_ref": "refugee\\ref_rfmi_lell_thin.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "Thailand",
+    "summary": "When my family fled Myanmar, we went to a refugee camp in Thailand called Tham Hin. I was 10 years old when we arrived, and we stayed there for about a year. The camp was very crowded, but I was able to attend school while we lived there. It was a difficult time, but it was a safe place compared to the fighting back home.",
+    "cues": [
+      "refugee camp",
+      "Tham Hin",
+      "10 years old",
+      "one year",
+      "school"
+    ],
+    "transcript_ref": "refugee\\ref_rfmi_lell_thin.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "Tham Hin",
+    "summary": "Tham Hin was the refugee camp in Thailand where my family and I stayed after leaving Myanmar. It was crowded, but I went to school there and lived with my parents, siblings, and extended family. We only stayed for a year before moving on to the United States. That camp was a crucial stop in our journey to safety.",
+    "cues": [
+      "refugee camp",
+      "Thailand",
+      "crowded",
+      "school",
+      "one year"
+    ],
+    "transcript_ref": "refugee\\ref_rfmi_lell_thin.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "United States",
+    "summary": "My family and I came to the United States to have a better life and education. When I first arrived, I thought it was fun and very different from Myanmar and Thailand, especially the nature and school system. We came as a group but were separated into different states. My parents wanted us to have opportunities they never had back home.",
+    "cues": [
+      "better education",
+      "different nature",
+      "different school",
+      "group resettlement",
+      "separated states"
+    ],
+    "transcript_ref": "refugee\\ref_rfmi_lell_thin.yaml"
+  },
+  {
+    "entity_id": 5,
+    "entity": "Utah",
+    "summary": "We have extended family in Utah, and my dad visited them once after we arrived in the US. Although I live elsewhere, Utah is important because it connects me to my relatives here. It’s part of the network of Karen people who have resettled in America. Even though I haven't spent much time there, it feels like a link to my family.",
+    "cues": [
+      "extended family",
+      "dad visited once",
+      "Karen community",
+      "United States"
+    ],
+    "transcript_ref": "refugee\\ref_rfmi_lell_thin.yaml"
+  },
+  {
+    "entity_id": 6,
+    "entity": "Philadelphia",
+    "summary": "My dad's family is also in Philadelphia, which is another place where some of our relatives live in the US. Like Utah, it’s part of where our extended family has settled after leaving Myanmar. Though I haven’t visited much, knowing they are there gives me a sense of connection and support. It’s part of our new home in America.",
+    "cues": [
+      "dad's family",
+      "extended family",
+      "United States",
+      "resettlement"
+    ],
+    "transcript_ref": "refugee\\ref_rfmi_lell_thin.yaml"
+  },
+  {
+    "entity_id": 8,
+    "entity": "Karen conflict",
+    "summary": "The Karen conflict was the reason my family had to leave Myanmar. The fighting and killing during the civil war made it unsafe for us to stay. My grandpa died in that war, and even though I was young, the older people still remember the pain and trauma. This conflict shaped my family's journey and our search for safety in refugee camps and eventually the US.",
+    "cues": [
+      "civil war",
+      "fighting and killing",
+      "grandpa died",
+      "trauma",
+      "escape"
+    ],
+    "transcript_ref": "refugee\\ref_rfmi_lell_thin.yaml"
+  }
+]

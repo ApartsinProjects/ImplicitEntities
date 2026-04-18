@@ -1,0 +1,166 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "Italy",
+    "explicit_text": "Italy is where my mother, Deborah Bisazza, was born in 1969, specifically in Verona. She grew up in Vicenza, a small town near Venice, in a well-off family supported by my grandfather's model train company. My parents initially lived together in Italy after meeting in France, but due to visa difficulties and my dad's trouble finding work, they eventually left Italy for the United States.",
+    "implicit_text": "My mother, Deborah Bisazza, was born in 1969 in Verona, a city in a European country known for its rich history and proximity to Venice. She grew up in Vicenza, a small town near that famous city, in a well-off family supported by my grandfather's model train company. My parents initially lived together in that European country after meeting in France, but due to visa difficulties and my dad's trouble finding work, they eventually left for the United States.",
+    "cues": [
+      "1969",
+      "Verona",
+      "Vicenza",
+      "model train company",
+      "visa difficulties"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_6_deborah_bisazza.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "Anthony Allen",
+    "explicit_text": "Anthony Allen is my father, an American who met my mother while studying abroad in Lyon, France. He was born in Denver, Colorado, to Michael and Sandy Allen and was on an exchange program from the University of Georgia. He worked for the Peace Corps in Bulgaria and even hitchhiked to Italy to see my mom before they decided to live together and eventually moved to the U.S.",
+    "implicit_text": "My father is an American who met my mother while studying abroad in Lyon, France. He was born in Denver, Colorado, to Michael and Sandy Allen and was on an exchange program from a university in the southern United States. He worked for an international volunteer organization in Bulgaria and even hitchhiked to the European country where my mom lived before they decided to live together and eventually moved to the U.S.",
+    "cues": [
+      "Lyon, France",
+      "University of Georgia",
+      "Denver, Colorado",
+      "Peace Corps",
+      "Bulgaria",
+      "Italy"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_6_deborah_bisazza.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "University of Verona",
+    "explicit_text": "My mother attended the University of Verona in Italy, where her immigration story began. It was during her time there that she decided to do an exchange program to Lyon, France, which led to meeting my father. The university played a key role in starting the journey that eventually brought our family to the United States.",
+    "implicit_text": "My mother attended a university in Verona, Italy, where her immigration story began. It was during her time there that she decided to do an exchange program to Lyon, France, which led to meeting my father. That university played a key role in starting the journey that eventually brought our family to the United States.",
+    "cues": [
+      "University of Verona",
+      "Italy",
+      "exchange program",
+      "Lyon, France"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_6_deborah_bisazza.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "Lyon",
+    "explicit_text": "Lyon, France, is where my parents met while both were on exchange programs—my mother from the University of Verona and my father from the University of Georgia. They dated there for a few years and kept in touch through letters and phone calls after leaving. Lyon was the place that sparked their relationship and set the stage for their future together.",
+    "implicit_text": "Lyon, France, is where my parents met while both were on exchange programs—my mother from a university in Verona and my father from a university in Georgia. They dated there for a few years and kept in touch through letters and phone calls after leaving. Lyon was the place that sparked their relationship and set the stage for their future together.",
+    "cues": [
+      "exchange program",
+      "University of Verona",
+      "University of Georgia",
+      "letters",
+      "phone calls"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_6_deborah_bisazza.yaml"
+  },
+  {
+    "entity_id": 5,
+    "entity": "University of Georgia",
+    "explicit_text": "My father attended the University of Georgia and was on an exchange program to Lyon, France, when he met my mother. This university was part of the path that brought him abroad and eventually led to our family's immigration story. It connected him to Europe and to my mother, shaping the course of their lives.",
+    "implicit_text": "My father attended a university in Georgia and was on an exchange program to Lyon, France, when he met my mother. This university was part of the path that brought him abroad and eventually led to our family's immigration story. It connected him to Europe and to my mother, shaping the course of their lives.",
+    "cues": [
+      "University of Georgia",
+      "exchange program",
+      "Lyon, France",
+      "immigration"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_6_deborah_bisazza.yaml"
+  },
+  {
+    "entity_id": 6,
+    "entity": "Denver",
+    "explicit_text": "Denver, Colorado, is where my father, Anthony Allen, was born to Michael and Sandy Allen. It’s part of his American roots before he went abroad for his studies and work. Though we didn’t live there, Denver represents the beginning of my dad’s story and his family background.",
+    "implicit_text": "Denver, Colorado, is where my father was born to Michael and Sandy Allen. It’s part of his American roots before he went abroad for his studies and work. Though we didn’t live there, Denver represents the beginning of my dad’s story and his family background.",
+    "cues": [
+      "Denver, Colorado",
+      "Michael and Sandy Allen",
+      "birthplace"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_6_deborah_bisazza.yaml"
+  },
+  {
+    "entity_id": 7,
+    "entity": "Peace Corps",
+    "explicit_text": "My father worked for the Peace Corps in Bulgaria, which was a significant chapter in his life. It was during this time that he hitchhiked to Italy to visit my mother, showing his dedication to their relationship. The Peace Corps experience also reflects his adventurous and service-oriented character before settling down.",
+    "implicit_text": "My father worked for an international volunteer organization in Bulgaria, which was a significant chapter in his life. It was during this time that he hitchhiked to Italy to visit my mother, showing his dedication to their relationship. That experience also reflects his adventurous and service-oriented character before settling down.",
+    "cues": [
+      "Peace Corps",
+      "Bulgaria",
+      "hitchhiking",
+      "Italy",
+      "relationship"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_6_deborah_bisazza.yaml"
+  },
+  {
+    "entity_id": 8,
+    "entity": "Bulgaria",
+    "explicit_text": "Bulgaria is where my father was working with the Peace Corps when he made the memorable journey to Italy to see my mother. This shows how committed he was despite the distance and challenges. Bulgaria was a place of service and adventure for him before our family life began.",
+    "implicit_text": "Bulgaria is where my father was working with an international volunteer group when he made the memorable journey to Italy to see my mother. This shows how committed he was despite the distance and challenges. Bulgaria was a place of service and adventure for him before our family life began.",
+    "cues": [
+      "Bulgaria",
+      "Peace Corps",
+      "Italy",
+      "hitchhiking"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_6_deborah_bisazza.yaml"
+  },
+  {
+    "entity_id": 9,
+    "entity": "Anchorage",
+    "explicit_text": "Anchorage, Alaska, is where my parents moved after struggling to get a visa and work in Italy. It was a big change from Italy, especially in terms of weather and culture, since my dad’s parents lived there. My mother found work at Nordstrom’s shortly after they moved, but eventually, the cold climate led them to relocate again.",
+    "implicit_text": "Anchorage, Alaska, is where my parents moved after struggling to get a visa and work in Italy. It was a big change from Italy, especially in terms of weather and culture, since my dad’s parents lived there. My mother found work at a department store shortly after they moved, but eventually, the cold climate led them to relocate again.",
+    "cues": [
+      "Anchorage, Alaska",
+      "visa difficulties",
+      "Nordstrom",
+      "weather",
+      "culture"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_6_deborah_bisazza.yaml"
+  },
+  {
+    "entity_id": 10,
+    "entity": "Alaska",
+    "explicit_text": "Alaska was the state where my parents first settled in the United States, specifically in Anchorage, after leaving Italy. It was a drastic change from Italy’s climate and culture, and although my mom found work at Nordstrom’s, the cold weather was tough for us. This experience was part of our early American life before moving to Portland, Oregon.",
+    "implicit_text": "Alaska was the state where my parents first settled in the United States, specifically in Anchorage, after leaving Italy. It was a drastic change from Italy’s climate and culture, and although my mom found work at a department store, the cold weather was tough for us. This experience was part of our early American life before moving to Portland, Oregon.",
+    "cues": [
+      "Alaska",
+      "Anchorage",
+      "Nordstrom",
+      "climate",
+      "immigration"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_6_deborah_bisazza.yaml"
+  },
+  {
+    "entity_id": 11,
+    "entity": "Nordstrom",
+    "explicit_text": "My mother started working at Nordstrom’s in Anchorage, Alaska, just four months after marrying my father to get her green card. This job was important for her as she began building a life in the United States. However, despite the work, the cold climate made them decide to move to Portland, Oregon for a better environment.",
+    "implicit_text": "My mother started working at a well-known department store in Anchorage, Alaska, just four months after marrying my father to get her green card. This job was important for her as she began building a life in the United States. However, despite the work, the cold climate made them decide to move to Portland, Oregon for a better environment.",
+    "cues": [
+      "Nordstrom",
+      "Anchorage, Alaska",
+      "green card",
+      "work",
+      "move to Portland"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_6_deborah_bisazza.yaml"
+  },
+  {
+    "entity_id": 12,
+    "entity": "Portland, Oregon",
+    "explicit_text": "Portland, Oregon, is where my family settled after leaving Alaska because the cold was too much for us. My mother obtained her full citizenship there, and it became our home where I was born in 2000 and my sister in 2002. Although we started with strong ties to our Italian heritage, living in Portland and attending American schools gradually changed how we connected to our roots.",
+    "implicit_text": "Portland, Oregon, is where my family settled after leaving Alaska because the cold was too much for us. My mother obtained her full citizenship there, and it became our home where I was born in 2000 and my sister in 2002. Although we started with strong ties to our Italian heritage, living in Portland and attending American schools gradually changed how we connected to our roots.",
+    "cues": [
+      "Portland, Oregon",
+      "citizenship",
+      "birthplace",
+      "Italian heritage",
+      "schools"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_6_deborah_bisazza.yaml"
+  }
+]

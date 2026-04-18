@@ -1,0 +1,142 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "South Korea",
+    "explicit_text": "I was born in South Korea on November 22, 1993, and spent part of my childhood there. In 2002, my family moved to Gyeonggi Province, South Korea, where I faced challenges adjusting to the school system and making new friends. Although it was uncomfortable at first, I eventually adapted and built strong connections. South Korea helped me maintain my Korean language skills and shaped my identity.",
+    "implicit_text": "I was born in my home country on November 22, 1993, and spent part of my childhood there. In 2002, my family moved to a province near the capital, where I faced challenges adjusting to the school system and making new friends. Although it was uncomfortable at first, I eventually adapted and built strong connections. This country helped me maintain my Korean language skills and shaped my identity.",
+    "cues": [
+      "born November 22, 1993",
+      "Gyeonggi Province",
+      "2002",
+      "school challenges",
+      "language"
+    ],
+    "transcript_ref": "immigration\\imm_umn_328_soyeon_kim.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "United States",
+    "explicit_text": "My family immigrated to the United States in 1997 when my dad was assigned to Hyundai’s laboratory in Ann Arbor, Michigan. I struggled at first with the new lifestyle and language but gradually adapted. After living in South Korea and Canada, we finally settled permanently in the U.S., moving to Georgia and later attending the University of Georgia. Becoming a U.S. citizen last April was a proud moment for my brother and me.",
+    "implicit_text": "My family immigrated to the country known for its stars and stripes in 1997 when my dad was assigned to a major automotive company's laboratory in Ann Arbor, Michigan. I struggled at first with the new lifestyle and language but gradually adapted. After living in my birth country and Canada, we finally settled permanently in this nation, moving to Georgia and later attending a prominent state university there. Becoming a citizen of this country last April was a proud moment for my brother and me.",
+    "cues": [
+      "immigrated 1997",
+      "Ann Arbor, Michigan",
+      "Georgia",
+      "University of Georgia",
+      "citizenship April"
+    ],
+    "transcript_ref": "immigration\\imm_umn_328_soyeon_kim.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "Hyundai",
+    "explicit_text": "Hyundai played a significant role in my family's immigration story because my dad was assigned to their laboratory in Ann Arbor, Michigan in 1997. This job opportunity was the reason we first moved from South Korea to the United States. Hyundai’s presence in Ann Arbor shaped the early years of our life in America and influenced our family's decisions.",
+    "implicit_text": "A leading South Korean automotive manufacturer played a significant role in my family's immigration story because my dad was assigned to their laboratory in Ann Arbor, Michigan in 1997. This job opportunity was the reason we first moved from my birth country to the United States. The presence of this company in Ann Arbor shaped the early years of our life in America and influenced our family's decisions.",
+    "cues": [
+      "dad's job",
+      "Hyundai laboratory",
+      "Ann Arbor, Michigan",
+      "1997",
+      "immigration reason"
+    ],
+    "transcript_ref": "immigration\\imm_umn_328_soyeon_kim.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "Ann Arbor, Michigan",
+    "explicit_text": "Ann Arbor, Michigan was where my family first settled when we moved to the United States in 1997 due to my dad’s job at Hyundai’s laboratory. It was a challenging time for me as I was a timid child and had difficulty adjusting to school and the new environment. Despite the struggles, this place marked the beginning of my bilingual journey and adaptation to American life.",
+    "implicit_text": "The city in Michigan where the University of Michigan is located was where my family first settled when we moved to the United States in 1997 due to my dad’s job at a South Korean car company's laboratory. It was a challenging time for me as I was a timid child and had difficulty adjusting to school and the new environment. Despite the struggles, this place marked the beginning of my bilingual journey and adaptation to American life.",
+    "cues": [
+      "moved 1997",
+      "Hyundai laboratory",
+      "first U.S. home",
+      "language learning",
+      "childhood challenges"
+    ],
+    "transcript_ref": "immigration\\imm_umn_328_soyeon_kim.yaml"
+  },
+  {
+    "entity_id": 5,
+    "entity": "Gyeonggi Province",
+    "explicit_text": "In 2002, my family moved to Gyeonggi Province in South Korea, which was a big change after living in the U.S. I had to leave my comfort zone and adjust to a different school system where I struggled with spelling and keeping up with classmates. Over time, I made many friends and slowly adapted to life there, even though I missed my old school and neighborhood in America.",
+    "implicit_text": "In 2002, my family moved to a province surrounding Seoul in my birth country, which was a big change after living in the U.S. I had to leave my comfort zone and adjust to a different school system where I struggled with spelling and keeping up with classmates. Over time, I made many friends and slowly adapted to life there, even though I missed my old school and neighborhood in America.",
+    "cues": [
+      "moved 2002",
+      "South Korea",
+      "school struggles",
+      "making friends",
+      "adjustment"
+    ],
+    "transcript_ref": "immigration\\imm_umn_328_soyeon_kim.yaml"
+  },
+  {
+    "entity_id": 6,
+    "entity": "Canada",
+    "explicit_text": "Before our immigration process to the U.S. was complete, my family moved to Canada in 2007 to help my brother and me maintain our English skills. We lived in London, Ontario during that time, and a year later, in 2008, we received notification that our U.S. immigration was finalized. Canada was a transitional place that prepared us for our permanent move to America.",
+    "implicit_text": "Before our immigration process to the U.S. was complete, my family moved to a North American country known for its maple leaf flag in 2007 to help my brother and me maintain our English skills. We lived in a city in Ontario during that time, and a year later, in 2008, we received notification that our U.S. immigration was finalized. This country was a transitional place that prepared us for our permanent move to America.",
+    "cues": [
+      "moved 2007",
+      "London, Ontario",
+      "immigration process",
+      "English language",
+      "transition"
+    ],
+    "transcript_ref": "immigration\\imm_umn_328_soyeon_kim.yaml"
+  },
+  {
+    "entity_id": 7,
+    "entity": "London, Ontario",
+    "explicit_text": "London, Ontario was where my family lived temporarily in Canada starting in 2007 while waiting for our U.S. immigration to be approved. It was an important stop on our journey because it allowed us to keep up with English before moving to the U.S. permanently. After about a year there, we packed up and drove south to Georgia to start our new life in America.",
+    "implicit_text": "The city in southwestern Ontario where my family lived temporarily starting in 2007 was an important stop on our journey while waiting for our U.S. immigration to be approved. It allowed us to keep up with English before moving to the U.S. permanently. After about a year there, we packed up and drove south to Georgia to start our new life in America.",
+    "cues": [
+      "lived 2007-2008",
+      "Canada",
+      "immigration waiting",
+      "English practice",
+      "move to Georgia"
+    ],
+    "transcript_ref": "immigration\\imm_umn_328_soyeon_kim.yaml"
+  },
+  {
+    "entity_id": 8,
+    "entity": "Statesboro, Georgia",
+    "explicit_text": "When we first moved to Statesboro, Georgia, it was difficult to understand the strong southern accent and I felt the pressure of being one of the few Asian students. People often assumed we were Chinese and sometimes made fun of us with hurtful comments. Despite these challenges, Statesboro was where I first experienced life in the American South and began adjusting to a new culture.",
+    "implicit_text": "When we first moved to a college town in southeastern Georgia, it was difficult to understand the strong southern accent and I felt the pressure of being one of the few Asian students. People often assumed we were Chinese and sometimes made fun of us with hurtful comments. Despite these challenges, this town was where I first experienced life in the American South and began adjusting to a new culture.",
+    "cues": [
+      "moved 2008",
+      "southern accent",
+      "few Asian students",
+      "cultural adjustment",
+      "school experiences"
+    ],
+    "transcript_ref": "immigration\\imm_umn_328_soyeon_kim.yaml"
+  },
+  {
+    "entity_id": 9,
+    "entity": "Newnan, Georgia",
+    "explicit_text": "In 2009, my family moved to Newnan, Georgia because of my dad’s job. This move was another step in our life in the U.S. and brought new opportunities. I continued my education there and eventually graduated from high school in 2012 before moving on to college.",
+    "implicit_text": "In 2009, my family moved to a city southwest of Atlanta, Georgia because of my dad’s job. This move was another step in our life in the U.S. and brought new opportunities. I continued my education there and eventually graduated from high school in 2012 before moving on to college.",
+    "cues": [
+      "moved 2009",
+      "dad’s job",
+      "education",
+      "high school graduation 2012",
+      "Georgia"
+    ],
+    "transcript_ref": "immigration\\imm_umn_328_soyeon_kim.yaml"
+  },
+  {
+    "entity_id": 10,
+    "entity": "University of Georgia",
+    "explicit_text": "After graduating high school in 2012, I moved to Athens, Georgia to attend the University of Georgia. I am currently majoring in Mechanical Engineering there. Attending this university has been an important part of my journey in America and my personal growth.",
+    "implicit_text": "After graduating high school in 2012, I moved to Athens, Georgia to attend the flagship public university of the state. I am currently majoring in Mechanical Engineering there. Attending this university has been an important part of my journey in America and my personal growth.",
+    "cues": [
+      "moved 2012",
+      "Athens, Georgia",
+      "Mechanical Engineering major",
+      "university education",
+      "personal growth"
+    ],
+    "transcript_ref": "immigration\\imm_umn_328_soyeon_kim.yaml"
+  }
+]

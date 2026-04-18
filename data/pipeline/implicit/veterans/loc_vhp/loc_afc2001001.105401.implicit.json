@@ -1,0 +1,236 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "Wagner, South Dakota",
+    "explicit_text": "I was born in Wagner, South Dakota, and lived there until 1942 when I was 17 years old. Wagner is where my roots are, and it’s in the southeast corner of South Dakota, near where my great-grandfather, Chief Running Bull of the Yankton Sioux tribe, lived. Leaving Wagner was a big step for me as I went to work in a defense plant during the Great Depression before eventually joining the Marines.",
+    "implicit_text": "I was born in a small town in the southeast corner of South Dakota, near where my great-grandfather, Chief Running Bull of the Yankton Sioux tribe, lived. I lived there until 1942 when I was 17 years old. Leaving that town was a big step for me as I went to work in a defense plant during the economic crisis before eventually joining the Marines.",
+    "cues": [
+      "born in Wagner",
+      "lived until 1942",
+      "southeast corner of South Dakota",
+      "great-grandfather Running Bull"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.105401.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "Great Depression",
+    "explicit_text": "During the Great Depression, I worked at a defense plant to make some money before joining the Marine Corps. It was a tough time for many people, and I stayed at that job until 1948. The Depression shaped a lot of my early life and influenced my decision to eventually enlist in the military.",
+    "implicit_text": "During the severe economic downturn of the 1930s, I worked at a defense plant to make some money before joining the Marine Corps. It was a tough time for many people, and I stayed at that job until 1948. That period shaped a lot of my early life and influenced my decision to eventually enlist in the military.",
+    "cues": [
+      "worked at defense plant",
+      "Great Depression days",
+      "until 1948",
+      "economic hardship"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.105401.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "United States Marine Corps",
+    "explicit_text": "I joined the United States Marine Corps in 1948 after working through the Depression years. My training was at Camp Elliott in San Diego, California, where I spent about four to five months preparing as an infantryman and machine gunner. I served with the Fourth Marine Raider Battalion and later with Chesty Puller's A Company, 1st Battalion, 7th Marines, staying with that unit throughout my service.",
+    "implicit_text": "I joined the branch of the U.S. armed forces known for its amphibious and expeditionary warfare in 1948 after working through the Depression years. My training was at a camp in San Diego, California, where I spent about four to five months preparing as an infantryman and machine gunner. I served with an elite raider battalion and later with the company led by the legendary officer Chesty Puller, staying with that unit throughout my service.",
+    "cues": [
+      "joined Marines 1948",
+      "Camp Elliott training",
+      "infantryman and machine gunner",
+      "Fourth Marine Raider Battalion",
+      "Chesty Puller's A Company"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.105401.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "Running Bull",
+    "explicit_text": "My great-grandfather was Chief Running Bull of the Yankton Sioux tribe. He passed away in 1900, long before I was born, but his legacy was a significant part of my family history. Being connected to Chief Running Bull gave me a strong sense of identity and pride in my Sioux heritage.",
+    "implicit_text": "My great-grandfather was a chief of the Yankton Sioux tribe who passed away in 1900, long before I was born, but his legacy was a significant part of my family history. Being connected to him gave me a strong sense of identity and pride in my Sioux heritage.",
+    "cues": [
+      "great-grandfather",
+      "Chief Running Bull",
+      "Yankton Sioux tribe",
+      "died 1900"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.105401.yaml"
+  },
+  {
+    "entity_id": 5,
+    "entity": "Yankton Sioux",
+    "explicit_text": "I am descended from the Yankton Sioux tribe, specifically through my great-grandfather, Chief Running Bull. The Yankton Sioux are located in the southeast corner of South Dakota, and their culture and history have always been important to me. Though I grew up outside the reservation, my connection to the Yankton Sioux shaped my understanding of who I am.",
+    "implicit_text": "I am descended from a Native American tribe located in the southeast corner of South Dakota, specifically through my great-grandfather, a tribal chief. Their culture and history have always been important to me. Though I grew up outside the reservation, my connection to this tribe shaped my understanding of who I am.",
+    "cues": [
+      "Yankton Sioux tribe",
+      "southeast South Dakota",
+      "Chief Running Bull",
+      "tribal heritage"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.105401.yaml"
+  },
+  {
+    "entity_id": 6,
+    "entity": "Camp Elliott",
+    "explicit_text": "I went to boot camp at Camp Elliott in San Diego, California, on the West Coast. I spent about four to five months there training as an infantryman and machine gunner before shipping out in March 1944. Camp Elliott was where I learned the skills that would carry me through the rest of my Marine Corps service.",
+    "implicit_text": "I went to boot camp at a military training base in San Diego, California, on the West Coast. I spent about four to five months there training as an infantryman and machine gunner before shipping out in March 1944. That camp was where I learned the skills that would carry me through the rest of my service.",
+    "cues": [
+      "boot camp",
+      "Camp Elliott",
+      "San Diego",
+      "four to five months training",
+      "March 1944"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.105401.yaml"
+  },
+  {
+    "entity_id": 7,
+    "entity": "San Diego, California",
+    "explicit_text": "San Diego, California, was where I trained at Camp Elliott and later shipped out to the Pacific. After leaving Omaha, Nebraska, I took a Pullman train to San Diego before boarding the USS Polk to head overseas. San Diego was a key staging point for many of us Marines during the war.",
+    "implicit_text": "San Diego, California, was where I trained at a military camp and later shipped out to the Pacific. After leaving Omaha, Nebraska, I took a Pullman train to that city before boarding a troop carrier to head overseas. It was a key staging point for many of us during the war.",
+    "cues": [
+      "Camp Elliott",
+      "training location",
+      "shipped out from San Diego",
+      "USS Polk departure"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.105401.yaml"
+  },
+  {
+    "entity_id": 8,
+    "entity": "Fourth Marine Raider Battalion",
+    "explicit_text": "When I first went overseas in March 1944, I joined the Fourth Marine Raider Battalion, although they had officially been disbanded in February of that year. Despite that, I was assigned to them initially before being transferred to Chesty Puller's A Company. The Raider Battalion was a prestigious unit, and I was proud to be part of it, even briefly.",
+    "implicit_text": "When I first went overseas in March 1944, I joined an elite raider battalion, although they had officially been disbanded in February of that year. Despite that, I was assigned to them initially before being transferred to the company led by Chesty Puller. That battalion was a prestigious unit, and I was proud to be part of it, even briefly.",
+    "cues": [
+      "joined Fourth Marine Raider Battalion",
+      "March 1944",
+      "disbanded February 1944",
+      "transferred to Chesty Puller's A Company"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.105401.yaml"
+  },
+  {
+    "entity_id": 9,
+    "entity": "Chesty Puller",
+    "explicit_text": "Chesty Puller was the legendary Marine officer in command of A Company, 1st Battalion, 7th Marines, the unit I served with after the Raider Battalion was disbanded. I joined his company in Omaha, Nebraska, and stayed with them throughout my Marine Corps career. Serving under Puller was an honor, and his leadership was something we all respected deeply.",
+    "implicit_text": "The legendary Marine officer in command of the company I served with after the raider battalion was disbanded was someone we all respected deeply. I joined his company in Omaha, Nebraska, and stayed with them throughout my Marine Corps career. Serving under his leadership was an honor.",
+    "cues": [
+      "Chesty Puller",
+      "A Company, 1st Battalion, 7th Marines",
+      "joined in Omaha",
+      "stayed throughout service"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.105401.yaml"
+  },
+  {
+    "entity_id": 10,
+    "entity": "A Company, 1st Battalion, 7th Marines",
+    "explicit_text": "After the Fourth Marine Raider Battalion disbanded, I was transferred to Chesty Puller's A Company, 1st Battalion, 7th Marines, where I served as a rifleman. I joined them in Omaha, Nebraska, and stayed with this unit for the duration of my time in the Marines. We saw intense combat, including the Battle of Peleliu, and I was proud to be part of such a dedicated group.",
+    "implicit_text": "After the elite raider battalion disbanded, I was transferred to the company led by the famous officer, where I served as a rifleman. I joined them in Omaha, Nebraska, and stayed with this unit for the duration of my time in the Marines. We saw intense combat, including a brutal battle on a Pacific island, and I was proud to be part of such a dedicated group.",
+    "cues": [
+      "A Company, 1st Battalion, 7th Marines",
+      "joined in Omaha",
+      "served as rifleman",
+      "Battle of Peleliu"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.105401.yaml"
+  },
+  {
+    "entity_id": 11,
+    "entity": "Omaha, Nebraska",
+    "explicit_text": "I joined Chesty Puller's A Company in Omaha, Nebraska, before heading west to San Diego for training and deployment. Omaha was a key point where I linked up with my unit before shipping out overseas. It was the last stop in the States before the long journey to the Pacific theater.",
+    "implicit_text": "I joined the company led by the legendary officer in Omaha, Nebraska, before heading west to San Diego for training and deployment. Omaha was a key point where I linked up with my unit before shipping out overseas. It was the last stop in the States before the long journey to the Pacific theater.",
+    "cues": [
+      "joined unit in Omaha",
+      "departure point",
+      "before San Diego training"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.105401.yaml"
+  },
+  {
+    "entity_id": 12,
+    "entity": "USS Polk (APA-35)",
+    "explicit_text": "I was transported overseas on the USS Polk, a troop carrier that took me from San Diego to the Pacific islands. The ship was our home for the journey to New Caledonia, where I first arrived in the combat zone. The USS Polk played a crucial role in moving troops like me to the front lines during the war.",
+    "implicit_text": "I was transported overseas on a troop carrier ship that took me from San Diego to the Pacific islands. The ship was our home for the journey to New Caledonia, where I first arrived in the combat zone. This vessel played a crucial role in moving troops like me to the front lines during the war.",
+    "cues": [
+      "USS Polk troop carrier",
+      "shipped out from San Diego",
+      "to New Caledonia",
+      "Pacific deployment"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.105401.yaml"
+  },
+  {
+    "entity_id": 13,
+    "entity": "Bill Veeck",
+    "explicit_text": "I shared a blanket with Bill Veeck, a fellow Marine, while we slept under a Higgins boat during our deployment. Bill Veeck lost a leg, and we had a close bond during those tough times. Sharing that blanket was a small comfort amid the chaos of war.",
+    "implicit_text": "I shared a blanket with a fellow Marine, who later lost a leg, while we slept under a landing craft during our deployment. We had a close bond during those tough times. Sharing that blanket was a small comfort amid the chaos of war.",
+    "cues": [
+      "shared blanket",
+      "slept under Higgins boat",
+      "Bill Veeck lost a leg",
+      "Marine comrade"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.105401.yaml"
+  },
+  {
+    "entity_id": 14,
+    "entity": "Higgins boat",
+    "explicit_text": "We slept under a Higgins boat during our time overseas, and it was there that I shared a blanket with Bill Veeck. The Higgins boat was also the type of landing craft we used for the amphibious assault on Peleliu. It was a vital piece of equipment for getting us ashore under heavy enemy fire.",
+    "implicit_text": "We slept under a type of landing craft during our time overseas, and it was there that I shared a blanket with a fellow Marine. That craft was also the kind we used for the amphibious assault on a Pacific island. It was a vital piece of equipment for getting us ashore under heavy enemy fire.",
+    "cues": [
+      "slept under Higgins boat",
+      "shared blanket",
+      "used for landing",
+      "Battle of Peleliu"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.105401.yaml"
+  },
+  {
+    "entity_id": 15,
+    "entity": "New Caledonia",
+    "explicit_text": "My first stop overseas was New Caledonia after leaving San Diego aboard the USS Polk. From there, we moved on to the Russell Islands and then Pavuvu as part of our Pacific campaign. New Caledonia was an important staging area before heading into combat zones.",
+    "implicit_text": "My first stop overseas was New Caledonia after leaving San Diego aboard the troop carrier. From there, we moved on to the Russell Islands and then Pavuvu as part of our Pacific campaign. New Caledonia was an important staging area before heading into combat zones.",
+    "cues": [
+      "first overseas location",
+      "arrived after San Diego",
+      "staging area",
+      "Pacific campaign"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.105401.yaml"
+  },
+  {
+    "entity_id": 16,
+    "entity": "Russell Islands",
+    "explicit_text": "After New Caledonia, we moved to the Russell Islands as part of our progression toward the front lines. The Russell Islands were one of the stepping stones in the Pacific before we reached Pavuvu and eventually Peleliu. It was part of the chain of islands we secured during the war.",
+    "implicit_text": "After New Caledonia, we moved to the Russell Islands as part of our progression toward the front lines. The Russell Islands were one of the stepping stones in the Pacific before we reached Pavuvu and eventually the island where we fought a brutal battle. It was part of the chain of islands we secured during the war.",
+    "cues": [
+      "moved after New Caledonia",
+      "Pacific island chain",
+      "staging area before Peleliu"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.105401.yaml"
+  },
+  {
+    "entity_id": 17,
+    "entity": "Pavuvu",
+    "explicit_text": "Pavuvu was another island we were stationed on after the Russell Islands, continuing our advance through the Pacific. It was part of the preparation and buildup before the intense fighting at Peleliu. Pavuvu gave us a place to rest and regroup before heading into battle.",
+    "implicit_text": "Pavuvu was another island we were stationed on after the Russell Islands, continuing our advance through the Pacific. It was part of the preparation and buildup before the intense fighting on a heavily contested island. Pavuvu gave us a place to rest and regroup before heading into battle.",
+    "cues": [
+      "stationed after Russell Islands",
+      "preparation before Peleliu",
+      "Pacific island"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.105401.yaml"
+  },
+  {
+    "entity_id": 18,
+    "entity": "Battle of Peleliu",
+    "explicit_text": "The Battle of Peleliu was my first combat experience, landing on September 15th, 1944, after months of training and travel. We made an opposed landing under heavy enemy fire, with explosions and machine gun rounds hitting around us. The beach was covered with dead Marines, and I spent the night alone in a swamp surrounded by Japanese soldiers. It was a brutal battle that lasted about fifty days, and I was wounded three days after landing.",
+    "implicit_text": "The battle on that Pacific island was my first combat experience, landing on September 15th, 1944, after months of training and travel. We made an opposed landing under heavy enemy fire, with explosions and machine gun rounds hitting around us. The beach was covered with dead Marines, and I spent the night alone in a swamp surrounded by Japanese soldiers. It was a brutal battle that lasted about fifty days, and I was wounded three days after landing.",
+    "cues": [
+      "Battle of Peleliu",
+      "landed September 15, 1944",
+      "heavy opposition",
+      "wounded after three days",
+      "fought for fifty days"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.105401.yaml"
+  }
+]

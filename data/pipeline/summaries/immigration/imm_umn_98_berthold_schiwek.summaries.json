@@ -1,0 +1,118 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "Sensburg",
+    "summary": "My grandfather was born in Sensburg, Poland, in 1932. The family owned a small farm there, and life was tough during the war, especially since my grandfather's father served as a driver for the supply headquarters. After the war, when Russian troops occupied the area, the family suffered greatly, with their house plundered and my grandfather's sister abducted. In 1947, they had to flee Sensburg and make their way to Germany, carrying only what they could.",
+    "cues": [
+      "1932",
+      "small farm",
+      "war",
+      "Russian troops occupation",
+      "1947 flight to Germany"
+    ],
+    "transcript_ref": "immigration\\imm_umn_98_berthold_schiwek.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "Poland",
+    "summary": "My grandfather grew up in Poland, specifically in Sensburg, during a very difficult time marked by war and occupation. The family struggled to survive by running their farm and selling products on the black market. After World War II ended, the presence of Russian troops in Poland led to severe hardships for them, including the abduction of my grandfather's sister. Eventually, in 1947, they were forced to leave Poland and resettle in Germany.",
+    "cues": [
+      "Sensburg",
+      "war",
+      "black market",
+      "Russian troops",
+      "1947 expulsion"
+    ],
+    "transcript_ref": "immigration\\imm_umn_98_berthold_schiwek.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "Russian troops",
+    "summary": "After the war ended, Russian troops occupied the area around Sensburg where my grandfather's family lived. Their presence brought fear and suffering; my grandfather's sister was abducted, and their home was plundered. This occupation was one of the reasons the family was forced to flee Poland in 1947 and seek refuge in Germany. The trauma of those times stayed with my grandfather throughout his life.",
+    "cues": [
+      "post-World War II",
+      "Sensburg occupation",
+      "abduction",
+      "plundering",
+      "1947 flight"
+    ],
+    "transcript_ref": "immigration\\imm_umn_98_berthold_schiwek.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "Germany",
+    "summary": "In 1947, my grandfather's family was ordered to leave Poland and make their way to Germany. They traveled in cattle wagons from Sensburg to Waltershausen in Thuringia, where they faced restrictions like being forbidden to speak German. Germany was divided into four zones, and refugees like my grandfather's family were placed accordingly unless they had relatives. Eventually, they reunited with family in Western Pomerania and settled in Steinhagen, where they rebuilt their lives through agriculture and work.",
+    "cues": [
+      "1947 migration",
+      "Waltershausen",
+      "Thuringia",
+      "four zones",
+      "Western Pomerania",
+      "Steinhagen"
+    ],
+    "transcript_ref": "immigration\\imm_umn_98_berthold_schiwek.yaml"
+  },
+  {
+    "entity_id": 5,
+    "entity": "Waltershausen",
+    "summary": "Waltershausen in Thuringia was the first place my grandfather's family arrived after fleeing Poland in 1947. They were transported there in cattle wagons and faced many challenges, including the prohibition against speaking German. It was a former prisoner camp where refugees were divided into zones if they had no relatives. This stop was a difficult but necessary part of their journey before they could reunite with family and move on to Western Pomerania.",
+    "cues": [
+      "1947 arrival",
+      "Thuringia",
+      "former prisoner camp",
+      "refugee division",
+      "language prohibition"
+    ],
+    "transcript_ref": "immigration\\imm_umn_98_berthold_schiwek.yaml"
+  },
+  {
+    "entity_id": 6,
+    "entity": "Thuringia",
+    "summary": "Thuringia was the region where Waltershausen is located, and it was where my grandfather's family first settled after fleeing Poland in 1947. Life there was harsh; they were housed in a former prisoner camp and had to navigate restrictions like not being allowed to speak German. Thuringia represented a transitional phase for the family before they could reconnect with relatives and move to Western Pomerania to start anew.",
+    "cues": [
+      "Waltershausen",
+      "1947 refugee settlement",
+      "former prisoner camp",
+      "language restrictions"
+    ],
+    "transcript_ref": "immigration\\imm_umn_98_berthold_schiwek.yaml"
+  },
+  {
+    "entity_id": 7,
+    "entity": "Western Pomerania",
+    "summary": "My grandfather's father settled in Western Pomerania after the family fled Poland. Through Aunt Emma, they learned about his whereabouts and were able to reunite there. The family then moved to Steinhagen, where they shared an estate with other families and lived off agriculture. Western Pomerania became the place where they rebuilt their lives after the hardships of war and displacement.",
+    "cues": [
+      "post-1947 reunion",
+      "father's settlement",
+      "Aunt Emma",
+      "Steinhagen",
+      "agriculture"
+    ],
+    "transcript_ref": "immigration\\imm_umn_98_berthold_schiwek.yaml"
+  },
+  {
+    "entity_id": 8,
+    "entity": "Steinhagen",
+    "summary": "Steinhagen was the town where my grandfather's family finally settled after reuniting in Western Pomerania. They shared an estate with several families and lived off agriculture, which was how they supported themselves. My grandfather worked on the land and later began an apprenticeship as a mechanic. Steinhagen was where the family rebuilt their lives and where my grandfather met his wife Gerda and started his own family.",
+    "cues": [
+      "Western Pomerania",
+      "shared estate",
+      "agriculture",
+      "mechanic apprenticeship",
+      "family life"
+    ],
+    "transcript_ref": "immigration\\imm_umn_98_berthold_schiwek.yaml"
+  },
+  {
+    "entity_id": 9,
+    "entity": "Stralsund",
+    "summary": "Today, my grandfather lives in Stralsund as a great-grandfather. After many years of hardship, displacement, and rebuilding, Stralsund became his home in later life. It represents the culmination of his journey from Sensburg, through war and exile, to a place where he could enjoy his freedoms and family. Stralsund is where his story continues in peace.",
+    "cues": [
+      "later life",
+      "great-grandfather",
+      "post-war settlement",
+      "final home"
+    ],
+    "transcript_ref": "immigration\\imm_umn_98_berthold_schiwek.yaml"
+  }
+]

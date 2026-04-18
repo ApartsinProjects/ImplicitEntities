@@ -1,0 +1,100 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "Somalia",
+    "explicit_text": "I was born and raised in Somalia, specifically in Mogadishu, where I grew up in a close-knit neighborhood. My father served in the military until 1991, when the Somali Civil War began and the government started to collapse. Many of my relatives were killed during the war, which forced me and my son to leave Somalia in 2002 to seek safety. Somalia is my homeland, and although there is now more peace, I hope to return someday to visit.",
+    "implicit_text": "I was born and raised in the capital city of a Horn of Africa country, where I grew up in a close-knit neighborhood. My father served in the military until 1991, when the civil war began and the government started to collapse. Many of my relatives were killed during the war, which forced me and my son to leave our homeland in 2002 to seek safety. This country is my homeland, and although there is now more peace, I hope to return someday to visit.",
+    "cues": [
+      "Mogadishu",
+      "1991",
+      "Somali Civil War",
+      "relatives killed",
+      "2002 departure"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_293_maryama_hussein.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "Egypt",
+    "explicit_text": "After fleeing Somalia in 2002, my son and I went to Egypt because I had a friend there. We lived in Cairo, but life was difficult since I struggled to find work and afford education for my children. My daughter was born in Egypt during this time, and despite the challenges, we tried to live peacefully. Eventually, I applied to the United Nations High Commissioner for Refugees for resettlement from Egypt.",
+    "implicit_text": "After fleeing my home country in 2002, my son and I went to a North African nation because I had a friend there. We lived in its capital city, but life was difficult since I struggled to find work and afford education for my children. My daughter was born there during this time, and despite the challenges, we tried to live peacefully. Eventually, I applied to the United Nations agency that assists refugees for resettlement from that country.",
+    "cues": [
+      "2002 arrival",
+      "Cairo",
+      "friend in Egypt",
+      "daughter born",
+      "UN refugee application"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_293_maryama_hussein.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "United Nations High Commissioner for Refugees",
+    "explicit_text": "I reached out to the United Nations High Commissioner for Refugees while living in Egypt because I needed help securing a better future for my family. They have been assisting refugees worldwide for over fifty years, and after a four-year wait, they accepted me and my children as refugees. Thanks to their support, we were resettled in the United States, which gave me hope for a new beginning despite the struggles I faced upon arrival.",
+    "implicit_text": "I reached out to the international agency dedicated to helping displaced people while living in Egypt because I needed help securing a better future for my family. They have been assisting refugees worldwide for over fifty years, and after a four-year wait, they accepted me and my children as refugees. Thanks to their support, we were resettled in the United States, which gave me hope for a new beginning despite the struggles I faced upon arrival.",
+    "cues": [
+      "application in Egypt",
+      "four-year wait",
+      "refugee acceptance",
+      "resettlement in United States",
+      "over fifty years of service"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_293_maryama_hussein.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "United States",
+    "explicit_text": "I was resettled in the United States after being accepted as a refugee by the UNHCR. Living in St. Paul, Minnesota, I faced many challenges such as not speaking English and having no money when I first arrived. I work hard, study English, and raise my children here, hoping to build a better future for them. The United States became my new home after years of hardship and waiting.",
+    "implicit_text": "I was resettled in a North American country after being accepted as a refugee by the UNHCR. Living in a Midwestern city known for its cold winters, I faced many challenges such as not speaking English and having no money when I first arrived. I work hard, study English, and raise my children here, hoping to build a better future for them. This country became my new home after years of hardship and waiting.",
+    "cues": [
+      "resettlement",
+      "St. Paul, Minnesota",
+      "English studies",
+      "work and family life",
+      "refugee status"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_293_maryama_hussein.yaml"
+  },
+  {
+    "entity_id": 5,
+    "entity": "Somali Civil War",
+    "explicit_text": "The Somali Civil War started in 1991, the same year my father stopped serving in the military. It was a devastating time when the government collapsed and people began fighting each other, destroying property and taking many lives, including those of my uncle and other relatives. This war forced me to flee Somalia with my son in 2002 to save our lives. The conflict shaped much of my early life and the difficult journey that followed.",
+    "implicit_text": "The civil war in my home country started in 1991, the same year my father stopped serving in the military. It was a devastating time when the government collapsed and people began fighting each other, destroying property and taking many lives, including those of my uncle and other relatives. This war forced me to flee my homeland with my son in 2002 to save our lives. The conflict shaped much of my early life and the difficult journey that followed.",
+    "cues": [
+      "1991 start",
+      "government collapse",
+      "relatives killed",
+      "fleeing Somalia",
+      "1991 military service end"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_293_maryama_hussein.yaml"
+  },
+  {
+    "entity_id": 6,
+    "entity": "Mogadishu",
+    "explicit_text": "I was born in Mogadishu in December and grew up in a beautiful neighborhood where everyone knew each other. As a child, I visited my great-grandfather who had many animals, which was an exciting experience for me. Mogadishu was my home until the civil war began in 1991, which eventually forced me to leave for safety reasons. Despite the hardships, I have fond memories of my early years in Mogadishu.",
+    "implicit_text": "I was born in the capital city of my country in December and grew up in a beautiful neighborhood where everyone knew each other. As a child, I visited my great-grandfather who had many animals, which was an exciting experience for me. This city was my home until the civil war began in 1991, which eventually forced me to leave for safety reasons. Despite the hardships, I have fond memories of my early years there.",
+    "cues": [
+      "birthplace",
+      "December birth",
+      "neighborhood community",
+      "great-grandfather's livestock",
+      "1991 civil war start"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_293_maryama_hussein.yaml"
+  },
+  {
+    "entity_id": 7,
+    "entity": "St. Paul, Minnesota",
+    "explicit_text": "Now I live in St. Paul, Minnesota, where I work, study English, and raise my children. Life here is still a struggle because I have to balance school and a second-shift job, but I am determined to provide a good future for my family. St. Paul became my home after resettlement from Egypt through the UNHCR, and I am grateful for the opportunities it offers. I wake up early every day to prepare my children for school and keep pushing forward.",
+    "implicit_text": "Now I live in a Midwestern city in the United States, where I work, study English, and raise my children. Life here is still a struggle because I have to balance school and a second-shift job, but I am determined to provide a good future for my family. This city became my home after resettlement from Egypt through the UNHCR, and I am grateful for the opportunities it offers. I wake up early every day to prepare my children for school and keep pushing forward.",
+    "cues": [
+      "current residence",
+      "English studies",
+      "work second shift",
+      "family life",
+      "resettlement"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_293_maryama_hussein.yaml"
+  }
+]

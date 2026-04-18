@@ -1,0 +1,319 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "Lonnie Pondly",
+    "explicit_text": "I met Lonnie Pondly, a colored preacher who lived in a small two-room house down a white sandy lane. He was born in 1859 in Madison County, Georgia, and was once a slave. Lonnie had a good education for a negro of his time and shared vivid memories of his life under slavery, his masters, and the hardships faced during and after the Civil War. He also spoke about his experiences growing up, learning to read and write, and eventually becoming a teacher and preacher.",
+    "implicit_text": "I met a colored preacher who lived in a small two-room house down a white sandy lane. He was born in 1859 in a county in Georgia, and was once a slave. He had a good education for a negro of his time and shared vivid memories of his life under slavery, his masters, and the hardships faced during and after the Civil War. He also spoke about his experiences growing up, learning to read and write, and eventually becoming a teacher and preacher.",
+    "cues": [
+      "1859",
+      "Madison County, Georgia",
+      "slave",
+      "preacher",
+      "education"
+    ],
+    "transcript_ref": "depression_era\\federal_writers_project\\fwp_Reminiscence_of_a_Negro_Preacher.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "Madison County, Georgia",
+    "explicit_text": "Madison County, Georgia, is where I was born and spent my early years as a slave. It was about six miles from Danielsville, and the plantations there were where my family and I lived and worked. This county was home to the Lester and Munn families, who owned the plantations where I was raised. It was a place marked by the struggles of slavery but also by the community and culture we built despite those hardships.",
+    "implicit_text": "This county in Georgia is where I was born and spent my early years as a slave. It was about six miles from a nearby town, and the plantations there were where my family and I lived and worked. This county was home to the Lester and Munn families, who owned the plantations where I was raised. It was a place marked by the struggles of slavery but also by the community and culture we built despite those hardships.",
+    "cues": [
+      "birthplace",
+      "slave plantations",
+      "Lester family",
+      "Munn family",
+      "Danielsville"
+    ],
+    "transcript_ref": "depression_era\\federal_writers_project\\fwp_Reminiscence_of_a_Negro_Preacher.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "Danielsville, Georgia",
+    "explicit_text": "Danielsville, Georgia, was the nearby town about six miles from where I was born in Madison County. It was close to the plantations where my family lived, including those owned by the Lesters and Jimmie Munn. The Danielsville Road was a familiar place, especially since my father's master lived there. It was part of the landscape of my childhood and the life of the enslaved community around me.",
+    "implicit_text": "The nearby town about six miles from where I was born in that Georgia county was close to the plantations where my family lived, including those owned by the Lesters and Jimmie Munn. The road named after this town was a familiar place, especially since my father's master lived there. It was part of the landscape of my childhood and the life of the enslaved community around me.",
+    "cues": [
+      "six miles from birthplace",
+      "plantations",
+      "Danielsville Road",
+      "Jimmie Munn"
+    ],
+    "transcript_ref": "depression_era\\federal_writers_project\\fwp_Reminiscence_of_a_Negro_Preacher.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "Nancy Lester",
+    "explicit_text": "Nancy Lester was my young mistress during my time as a slave. She was kind to us children, often paying us to help her with small tasks like bringing water or gathering bark. She cared for us deeply and never allowed anyone, not even our own parents, to whip us. Her kindness made our childhood happier despite the hardships of slavery.",
+    "implicit_text": "My young mistress during my time as a slave was kind to us children, often paying us to help her with small tasks like bringing water or gathering bark. She cared for us deeply and never allowed anyone, not even our own parents, to whip us. Her kindness made our childhood happier despite the hardships of slavery.",
+    "cues": [
+      "young mistress",
+      "slave childhood",
+      "kindness",
+      "Madison County"
+    ],
+    "transcript_ref": "depression_era\\federal_writers_project\\fwp_Reminiscence_of_a_Negro_Preacher.yaml"
+  },
+  {
+    "entity_id": 5,
+    "entity": "John Lester",
+    "explicit_text": "John Lester was my master during slavery. He was a tough man who once told me I would never amount to anything when I refused to hoe cotton. Despite his sternness, he cared about the health and well-being of his slaves, wanting them to grow up strong and healthy. He was part of the Lester family who owned the plantation where I lived.",
+    "implicit_text": "My master during slavery was a tough man who once told me I would never amount to anything when I refused to hoe cotton. Despite his sternness, he cared about the health and well-being of his slaves, wanting them to grow up strong and healthy. He was part of the family who owned the plantation where I lived.",
+    "cues": [
+      "master",
+      "slave owner",
+      "Madison County",
+      "plantation life"
+    ],
+    "transcript_ref": "depression_era\\federal_writers_project\\fwp_Reminiscence_of_a_Negro_Preacher.yaml"
+  },
+  {
+    "entity_id": 6,
+    "entity": "Jimmie Munn",
+    "explicit_text": "Jimmie Munn was my father's master, living on the Danielsville Road. My father had to get a pass from Mr. Jimmie to visit my mother since they were on different plantations. If he was caught without a pass, he faced severe punishment, including twenty-five lashes. Mr. Jimmie represented the strict control slave owners had over the lives of their slaves.",
+    "implicit_text": "My father's master lived on the road named after the nearby town. My father had to get a pass from him to visit my mother since they were on different plantations. If he was caught without a pass, he faced severe punishment, including twenty-five lashes. This man represented the strict control slave owners had over the lives of their slaves.",
+    "cues": [
+      "father's master",
+      "Danielsville Road",
+      "slave passes",
+      "punishment"
+    ],
+    "transcript_ref": "depression_era\\federal_writers_project\\fwp_Reminiscence_of_a_Negro_Preacher.yaml"
+  },
+  {
+    "entity_id": 7,
+    "entity": "Sallie Lester",
+    "explicit_text": "Sallie Lester was the daughter of my mistress and sometimes got mad at us children for trifling. She would try to whip us, but we would call for Old Mistress, who always stopped her. Miss Sallie’s anger was short-lived, and she never really harmed us. She was part of the Lester family that owned the plantation where I grew up.",
+    "implicit_text": "The daughter of my mistress sometimes got mad at us children for trifling. She would try to whip us, but we would call for the older woman, who always stopped her. Her anger was short-lived, and she never really harmed us. She was part of the family that owned the plantation where I grew up.",
+    "cues": [
+      "daughter of mistress",
+      "discipline",
+      "slave children",
+      "Lester family"
+    ],
+    "transcript_ref": "depression_era\\federal_writers_project\\fwp_Reminiscence_of_a_Negro_Preacher.yaml"
+  },
+  {
+    "entity_id": 8,
+    "entity": "Uncle Harry",
+    "explicit_text": "Uncle Harry was a respected man in our community and was made a deacon by the preacher. He would pass the bread and wine during church services, which we attended together with both white and colored people sitting on different sides. Uncle Harry was clever; for example, he hid his watch under the woodpile to keep it from the Yankees. He was a symbol of strength and resilience among us.",
+    "implicit_text": "A respected man in our community was made a deacon by the preacher. He would pass the bread and wine during church services, which we attended together with both white and colored people sitting on different sides. He was clever; for example, he hid his watch under the woodpile to keep it from the invading soldiers. He was a symbol of strength and resilience among us.",
+    "cues": [
+      "deacon",
+      "church",
+      "watch hiding",
+      "community leader"
+    ],
+    "transcript_ref": "depression_era\\federal_writers_project\\fwp_Reminiscence_of_a_Negro_Preacher.yaml"
+  },
+  {
+    "entity_id": 9,
+    "entity": "Yankees",
+    "explicit_text": "The Yankees came through our area during the Civil War, and their presence was both frightening and disruptive. They took our horses, money, and valuables, often mistreating my mistress and others. I remember one Yankee cutting open my mistress’s dress to find gold and silver. They also tortured Mr. Franklin, my master's older brother, to find hidden money. Their arrival marked a harsh and violent period for us.",
+    "implicit_text": "The invading soldiers came through our area during the Civil War, and their presence was both frightening and disruptive. They took our horses, money, and valuables, often mistreating my mistress and others. I remember one soldier cutting open my mistress’s dress to find gold and silver. They also tortured my master's older brother to find hidden money. Their arrival marked a harsh and violent period for us.",
+    "cues": [
+      "Civil War",
+      "confiscation",
+      "mistreatment",
+      "Madison County",
+      "Mr. Franklin"
+    ],
+    "transcript_ref": "depression_era\\federal_writers_project\\fwp_Reminiscence_of_a_Negro_Preacher.yaml"
+  },
+  {
+    "entity_id": 10,
+    "entity": "Mr. Franklin",
+    "explicit_text": "Mr. Franklin was my master's older brother who suffered terribly at the hands of the Yankees. They hung him by his toes and neck, trying to force him to reveal where he hid his money. Even when they threatened to bore into his head, he refused to tell until he begged them to stop and finally revealed the hiding place. He was a brave man who protected his family's valuables despite the torture.",
+    "implicit_text": "My master's older brother suffered terribly at the hands of the invading soldiers. They hung him by his toes and neck, trying to force him to reveal where he hid his money. Even when they threatened to bore into his head, he refused to tell until he begged them to stop and finally revealed the hiding place. He was a brave man who protected his family's valuables despite the torture.",
+    "cues": [
+      "master's brother",
+      "torture",
+      "Yankees",
+      "money hiding",
+      "Madison County"
+    ],
+    "transcript_ref": "depression_era\\federal_writers_project\\fwp_Reminiscence_of_a_Negro_Preacher.yaml"
+  },
+  {
+    "entity_id": 11,
+    "entity": "Augusta, Georgia",
+    "explicit_text": "Augusta, Georgia, was a distant place we would travel to with ox carts, taking about two weeks to make the round trip. We hauled cotton there, which was a slow and difficult journey. It was a significant destination for selling cotton and obtaining supplies like shoes and dresses. The trip to Augusta was part of the hard work and trade life on the plantation.",
+    "implicit_text": "A distant city in Georgia was a place we would travel to with ox carts, taking about two weeks to make the round trip. We hauled cotton there, which was a slow and difficult journey. It was a significant destination for selling cotton and obtaining supplies like shoes and dresses. The trip to this city was part of the hard work and trade life on the plantation.",
+    "cues": [
+      "trade destination",
+      "two-week ox cart journey",
+      "cotton hauling",
+      "supplies"
+    ],
+    "transcript_ref": "depression_era\\federal_writers_project\\fwp_Reminiscence_of_a_Negro_Preacher.yaml"
+  },
+  {
+    "entity_id": 12,
+    "entity": "New Grove, Georgia",
+    "explicit_text": "New Grove, Georgia, was where I lived after marrying Julia Johnson. It was the place where I settled down and dedicated my life to God. I worked hard in the fields there, picking cotton and managing my land and animals. New Grove marked a new chapter in my life after the hardships of slavery and the war.",
+    "implicit_text": "After marrying Julia Johnson, I lived in a town in Georgia where I settled down and dedicated my life to God. I worked hard in the fields there, picking cotton and managing my land and animals. This town marked a new chapter in my life after the hardships of slavery and the war.",
+    "cues": [
+      "residence",
+      "marriage",
+      "cotton farming",
+      "post-slavery life"
+    ],
+    "transcript_ref": "depression_era\\federal_writers_project\\fwp_Reminiscence_of_a_Negro_Preacher.yaml"
+  },
+  {
+    "entity_id": 13,
+    "entity": "Dr. Ilona",
+    "explicit_text": "Dr. Ilona was not mentioned in my story, so I have no memories or experiences to share about her.",
+    "implicit_text": "This doctor was not mentioned in my story, so I have no memories or experiences to share about her.",
+    "cues": [],
+    "transcript_ref": "depression_era\\federal_writers_project\\fwp_Reminiscence_of_a_Negro_Preacher.yaml"
+  },
+  {
+    "entity_id": 14,
+    "entity": "Dr. Clark",
+    "explicit_text": "Dr. Clark was not a part of my recollections or experiences, so I cannot provide any information about him.",
+    "implicit_text": "This doctor was not a part of my recollections or experiences, so I cannot provide any information about him.",
+    "cues": [],
+    "transcript_ref": "depression_era\\federal_writers_project\\fwp_Reminiscence_of_a_Negro_Preacher.yaml"
+  },
+  {
+    "entity_id": 15,
+    "entity": "Clarke County, Georgia",
+    "explicit_text": "Clarke County, Georgia, did not come up in my memories or stories, so I have no connection or experiences to share about it.",
+    "implicit_text": "This county in Georgia did not come up in my memories or stories, so I have no connection or experiences to share about it.",
+    "cues": [],
+    "transcript_ref": "depression_era\\federal_writers_project\\fwp_Reminiscence_of_a_Negro_Preacher.yaml"
+  },
+  {
+    "entity_id": 16,
+    "entity": "Atlanta",
+    "explicit_text": "Atlanta was not mentioned in my narrative, so I have no personal history or experiences related to that city.",
+    "implicit_text": "This major Georgia city was not mentioned in my narrative, so I have no personal history or experiences related to that place.",
+    "cues": [],
+    "transcript_ref": "depression_era\\federal_writers_project\\fwp_Reminiscence_of_a_Negro_Preacher.yaml"
+  },
+  {
+    "entity_id": 17,
+    "entity": "Green County, Georgia",
+    "explicit_text": "Green County, Georgia, was not part of my story or experiences, so I have no information to provide about it.",
+    "implicit_text": "This county in Georgia was not part of my story or experiences, so I have no information to provide about it.",
+    "cues": [],
+    "transcript_ref": "depression_era\\federal_writers_project\\fwp_Reminiscence_of_a_Negro_Preacher.yaml"
+  },
+  {
+    "entity_id": 18,
+    "entity": "Oglethorpe County, Georgia",
+    "explicit_text": "Oglethorpe County, Georgia, did not feature in my memories or life story, so I cannot speak about it.",
+    "implicit_text": "This county in Georgia did not feature in my memories or life story, so I cannot speak about it.",
+    "cues": [],
+    "transcript_ref": "depression_era\\federal_writers_project\\fwp_Reminiscence_of_a_Negro_Preacher.yaml"
+  },
+  {
+    "entity_id": 19,
+    "entity": "Madison County, Georgia",
+    "explicit_text": "Madison County, Georgia, was my birthplace and the site of my early life as a slave. It was home to the plantations of the Lester family and others who owned the land where my family lived. This county witnessed my childhood, the hardships of slavery, and the transition to freedom after the Civil War. It holds many memories of both pain and resilience.",
+    "implicit_text": "The county in Georgia where I was born was the site of my early life as a slave. It was home to the plantations of the Lester family and others who owned the land where my family lived. This county witnessed my childhood, the hardships of slavery, and the transition to freedom after the Civil War. It holds many memories of both pain and resilience.",
+    "cues": [
+      "birthplace",
+      "slave plantations",
+      "Lester family",
+      "post-war life"
+    ],
+    "transcript_ref": "depression_era\\federal_writers_project\\fwp_Reminiscence_of_a_Negro_Preacher.yaml"
+  },
+  {
+    "entity_id": 20,
+    "entity": "Oconee County, Georgia",
+    "explicit_text": "Oconee County, Georgia, was not mentioned in my story, so I have no experiences or memories connected to it.",
+    "implicit_text": "This county in Georgia was not mentioned in my story, so I have no experiences or memories connected to it.",
+    "cues": [],
+    "transcript_ref": "depression_era\\federal_writers_project\\fwp_Reminiscence_of_a_Negro_Preacher.yaml"
+  },
+  {
+    "entity_id": 21,
+    "entity": "Jackson County, Georgia",
+    "explicit_text": "Jackson County, Georgia, did not come up in my recollections, so I have no personal connection or stories about it.",
+    "implicit_text": "This county in Georgia did not come up in my recollections, so I have no personal connection or stories about it.",
+    "cues": [],
+    "transcript_ref": "depression_era\\federal_writers_project\\fwp_Reminiscence_of_a_Negro_Preacher.yaml"
+  },
+  {
+    "entity_id": 22,
+    "entity": "Banks County, Georgia",
+    "explicit_text": "Banks County, Georgia, was not part of my narrative, so I cannot share any experiences related to it.",
+    "implicit_text": "This county in Georgia was not part of my narrative, so I cannot share any experiences related to it.",
+    "cues": [],
+    "transcript_ref": "depression_era\\federal_writers_project\\fwp_Reminiscence_of_a_Negro_Preacher.yaml"
+  },
+  {
+    "entity_id": 23,
+    "entity": "Lennett County, Georgia",
+    "explicit_text": "Lennett County, Georgia, was not mentioned in my story, so I have no memories or information about it.",
+    "implicit_text": "This county in Georgia was not mentioned in my story, so I have no memories or information about it.",
+    "cues": [],
+    "transcript_ref": "depression_era\\federal_writers_project\\fwp_Reminiscence_of_a_Negro_Preacher.yaml"
+  },
+  {
+    "entity_id": 24,
+    "entity": "Athens, Georgia",
+    "explicit_text": "Athens, Georgia, did not appear in my experiences or stories, so I have no connection to it.",
+    "implicit_text": "This city in Georgia did not appear in my experiences or stories, so I have no connection to it.",
+    "cues": [],
+    "transcript_ref": "depression_era\\federal_writers_project\\fwp_Reminiscence_of_a_Negro_Preacher.yaml"
+  },
+  {
+    "entity_id": 25,
+    "entity": "Home, Georgia",
+    "explicit_text": "Home, Georgia, was not referenced in my narrative, so I have no experiences or memories related to that place.",
+    "implicit_text": "This town in Georgia was not referenced in my narrative, so I have no experiences or memories related to that place.",
+    "cues": [],
+    "transcript_ref": "depression_era\\federal_writers_project\\fwp_Reminiscence_of_a_Negro_Preacher.yaml"
+  },
+  {
+    "entity_id": 26,
+    "entity": "Richmond, Virginia",
+    "explicit_text": "Richmond, Virginia, was not part of my story or experiences, so I cannot speak about it.",
+    "implicit_text": "This city in Virginia was not part of my story or experiences, so I cannot speak about it.",
+    "cues": [],
+    "transcript_ref": "depression_era\\federal_writers_project\\fwp_Reminiscence_of_a_Negro_Preacher.yaml"
+  },
+  {
+    "entity_id": 27,
+    "entity": "Johnstown, Pennsylvania",
+    "explicit_text": "Johnstown, Pennsylvania, did not come up in my life story or memories, so I have no information about it.",
+    "implicit_text": "This city in Pennsylvania did not come up in my life story or memories, so I have no information about it.",
+    "cues": [],
+    "transcript_ref": "depression_era\\federal_writers_project\\fwp_Reminiscence_of_a_Negro_Preacher.yaml"
+  },
+  {
+    "entity_id": 28,
+    "entity": "Allenville, Georgia",
+    "explicit_text": "Allenville, Georgia, was not mentioned in my narrative, so I have no experiences or connections to share about it.",
+    "implicit_text": "This town in Georgia was not mentioned in my narrative, so I have no experiences or connections to share about it.",
+    "cues": [],
+    "transcript_ref": "depression_era\\federal_writers_project\\fwp_Reminiscence_of_a_Negro_Preacher.yaml"
+  },
+  {
+    "entity_id": 29,
+    "entity": "Rome, Georgia",
+    "explicit_text": "Rome, Georgia, did not feature in my story or experiences, so I cannot provide any information about it.",
+    "implicit_text": "This city in Georgia did not feature in my story or experiences, so I cannot provide any information about it.",
+    "cues": [],
+    "transcript_ref": "depression_era\\federal_writers_project\\fwp_Reminiscence_of_a_Negro_Preacher.yaml"
+  },
+  {
+    "entity_id": 30,
+    "entity": "Walter Jones",
+    "explicit_text": "Walter Jones was not mentioned in my recollections, so I have no personal stories or connections with him.",
+    "implicit_text": "This man was not mentioned in my recollections, so I have no personal stories or connections with him.",
+    "cues": [],
+    "transcript_ref": "depression_era\\federal_writers_project\\fwp_Reminiscence_of_a_Negro_Preacher.yaml"
+  },
+  {
+    "entity_id": 31,
+    "entity": "Baltimore",
+    "explicit_text": "Baltimore was not part of my experiences or memories, so I have no information to share about it.",
+    "implicit_text": "This city was not part of my experiences or memories, so I have no information to share about it.",
+    "cues": [],
+    "transcript_ref": "depression_era\\federal_writers_project\\fwp_Reminiscence_of_a_Negro_Preacher.yaml"
+  }
+]

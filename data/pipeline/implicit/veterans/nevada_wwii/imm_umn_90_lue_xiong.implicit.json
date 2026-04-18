@@ -1,0 +1,119 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "Appleton, Wisconsin",
+    "explicit_text": "I was born in Appleton, Wisconsin, in 1993, which is where my childhood began after my family settled there as refugees. My parents came to Appleton after fleeing from Laos and Thailand due to the aftermath of the Vietnam War. Growing up in Appleton, I have many memories, both happy and sad, that shaped my early years.",
+    "implicit_text": "I was born in a small city in Wisconsin in 1993, which is where my childhood began after my family settled there as refugees. My parents came to this city after fleeing from Laos and Thailand due to the aftermath of the Vietnam War. Growing up there, I have many memories, both happy and sad, that shaped my early years.",
+    "cues": [
+      "1993",
+      "childhood",
+      "refugee settlement",
+      "family"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_90_lue_xiong.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "University of Minnesota",
+    "explicit_text": "I am currently a student at the University of Minnesota, pursuing my education there. Attending this university has been an important part of my life as I continue to grow and learn beyond my childhood experiences. It represents a new chapter in my journey after growing up in Appleton, Wisconsin.",
+    "implicit_text": "I am currently a student at a major public university in Minnesota, pursuing my education there. Attending this university has been an important part of my life as I continue to grow and learn beyond my childhood experiences. It represents a new chapter in my journey after growing up in that Wisconsin city.",
+    "cues": [
+      "student",
+      "education",
+      "University of Minnesota",
+      "post-childhood"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_90_lue_xiong.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "United States",
+    "explicit_text": "My parents came to the United States as refugees in 1993, the same year I was born, seeking safety and a new life after the Vietnam War. Growing up in the United States, particularly in Appleton, Wisconsin, I experienced both struggles and joys as my family adjusted to a new culture and life. The U.S. is where my story unfolds, from my parents' hard work to my own education.",
+    "implicit_text": "My parents came to this country as refugees in 1993, the same year I was born, seeking safety and a new life after the Vietnam War. Growing up in this nation, particularly in the small Wisconsin city where we settled, I experienced both struggles and joys as my family adjusted to a new culture and life. This country is where my story unfolds, from my parents' hard work to my own education.",
+    "cues": [
+      "1993",
+      "refugees",
+      "Appleton, Wisconsin",
+      "family life"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_90_lue_xiong.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "Thailand",
+    "explicit_text": "Before coming to the United States, my parents lived in Thailand as refugees after being forced to leave Laos due to the Vietnam War. They stayed in refugee camps there before finally settling in Appleton, Wisconsin. Thailand was a difficult but necessary stop in their journey to safety and a better life for our family.",
+    "implicit_text": "Before coming to the United States, my parents lived in a Southeast Asian kingdom as refugees after being forced to leave Laos due to the Vietnam War. They stayed in refugee camps there before finally settling in that Wisconsin city. This country was a difficult but necessary stop in their journey to safety and a better life for our family.",
+    "cues": [
+      "refugee camps",
+      "post-Vietnam War",
+      "family migration",
+      "Laos to Thailand"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_90_lue_xiong.yaml"
+  },
+  {
+    "entity_id": 5,
+    "entity": "Vietnam War",
+    "explicit_text": "The Vietnam War had a profound impact on my family, as it forced the Hmong people, including my parents, to flee Laos and seek refuge elsewhere. This war and its aftermath led to my parents' displacement to Thailand and eventually to the United States. The war's consequences shaped the course of my family's history and my own life.",
+    "implicit_text": "The conflict in Southeast Asia had a profound impact on my family, as it forced the Hmong people, including my parents, to flee Laos and seek refuge elsewhere. This war and its aftermath led to my parents' displacement to Thailand and eventually to the United States. The war's consequences shaped the course of my family's history and my own life.",
+    "cues": [
+      "Hmong people",
+      "displacement",
+      "Laos",
+      "refugee journey"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_90_lue_xiong.yaml"
+  },
+  {
+    "entity_id": 7,
+    "entity": "Laos",
+    "explicit_text": "My parents originally came from Laos, but because of the Vietnam War and the dangers it brought to the Hmong people, they had to leave their homeland. They first relocated to refugee camps in Thailand before coming to the United States. Laos is where my family's story began before the upheaval that changed everything.",
+    "implicit_text": "My parents originally came from a landlocked Southeast Asian country, but because of the Vietnam War and the dangers it brought to the Hmong people, they had to leave their homeland. They first relocated to refugee camps in Thailand before coming to the United States. That country is where my family's story began before the upheaval that changed everything.",
+    "cues": [
+      "Hmong people",
+      "Vietnam War",
+      "refugee displacement",
+      "family origin"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_90_lue_xiong.yaml"
+  },
+  {
+    "entity_id": 8,
+    "entity": "Jack's Pizza",
+    "explicit_text": "My dad worked full-time at a pizza factory called Jack's Pizza when I was a child. He would leave in the afternoon and work until early morning to support our family. His hard work at Jack's Pizza was a big part of our lives and helped us get through tough times.",
+    "implicit_text": "My dad worked full-time at a local pizza factory when I was a child. He would leave in the afternoon and work until early morning to support our family. His hard work at that pizza place was a big part of our lives and helped us get through tough times.",
+    "cues": [
+      "full-time job",
+      "pizza factory",
+      "father's work",
+      "childhood memories"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_90_lue_xiong.yaml"
+  },
+  {
+    "entity_id": 9,
+    "entity": "Aldi",
+    "explicit_text": "My mom would take me and my younger siblings to Aldi's for grocery shopping since my dad used the car for work and she didn't know how to drive. We would walk about twenty-five minutes to get there, carrying food stamp coupons to buy what we needed. Aldi's was a familiar place during my childhood in Appleton, where we picked up simple dinners like spicy chicken fingers and apple juice.",
+    "implicit_text": "My mom would take me and my younger siblings to a discount grocery store for shopping since my dad used the car for work and she didn't know how to drive. We would walk about twenty-five minutes to get there, carrying food stamp coupons to buy what we needed. That store was a familiar place during my childhood in the Wisconsin city, where we picked up simple dinners like spicy chicken fingers and apple juice.",
+    "cues": [
+      "grocery shopping",
+      "walking",
+      "food stamps",
+      "childhood routine"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_90_lue_xiong.yaml"
+  },
+  {
+    "entity_id": 10,
+    "entity": "Yu-Gi-Oh!",
+    "explicit_text": "My two older brothers, Lia and Meng, often spent their time playing Yu-Gi-Oh! cards with friends rather than joining me and my younger siblings on errands. Yu-Gi-Oh! was a popular pastime for them growing up, and it often kept them occupied while we did grocery shopping. It was part of the everyday life and culture in our family during my childhood.",
+    "implicit_text": "My two older brothers, Lia and Meng, often spent their time playing a popular trading card game with friends rather than joining me and my younger siblings on errands. This card game was a popular pastime for them growing up, and it often kept them occupied while we did grocery shopping. It was part of the everyday life and culture in our family during my childhood.",
+    "cues": [
+      "older brothers",
+      "playing cards",
+      "childhood activities",
+      "family life"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_90_lue_xiong.yaml"
+  }
+]

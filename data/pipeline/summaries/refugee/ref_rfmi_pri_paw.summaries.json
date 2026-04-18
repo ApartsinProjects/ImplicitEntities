@@ -1,0 +1,140 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "Burma",
+    "summary": "I was born in Burma, but I don't really remember much about it because I was just a baby when my family fled due to the war and Burmese soldiers attacking our village. My parents escaped from Burma to Thailand to find safety. Even though I was born there, my memories of Burma are very faint since I grew up mostly in Thailand.",
+    "cues": [
+      "born in Burma",
+      "fled war",
+      "Burmese soldiers",
+      "village",
+      "early childhood"
+    ],
+    "transcript_ref": "refugee\\ref_rfmi_pri_paw.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "Thailand",
+    "summary": "I grew up in Thailand for about 15 years before moving to the United States. I lived in refugee camps there, specifically the Mila refugee camp, where life was tough but manageable. We had limited resources, no electricity for most, and schools that taught Thai and English but not Burmese. Thailand was where I spent most of my childhood and learned about the challenges of refugee life.",
+    "cues": [
+      "grew up in Thailand",
+      "15 years",
+      "refugee camps",
+      "Mila refugee camp",
+      "school",
+      "limited resources"
+    ],
+    "transcript_ref": "refugee\\ref_rfmi_pri_paw.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "Mila refugee camp",
+    "summary": "I lived in the Mila refugee camp in Thailand, which was one of several camps there. Life in Mila was difficult; houses were made of bamboo and leaves, and we had no electricity unless you were rich. The United Nations and Thai people sometimes brought food supplies like rice and fish paste to the camp. School was available but sometimes required small fees, and we learned Thai and English there.",
+    "cues": [
+      "Mila refugee camp",
+      "Thailand",
+      "bamboo houses",
+      "no electricity",
+      "UN food aid",
+      "school"
+    ],
+    "transcript_ref": "refugee\\ref_rfmi_pri_paw.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "United States",
+    "summary": "I moved to the United States when I was about 15 years old through a resettlement program organized by the United Nations. Before coming here, I went through interviews, health checkups, and training about life in America, like how to call 911 and what to expect. Life here is very different from the camps—there's clean water, bathrooms, schools, and more opportunities. The U.S. became my new home where I could learn English and live more comfortably.",
+    "cues": [
+      "moved at 15 years old",
+      "United Nations resettlement",
+      "interviews and health checkups",
+      "training about American life",
+      "better living conditions"
+    ],
+    "transcript_ref": "refugee\\ref_rfmi_pri_paw.yaml"
+  },
+  {
+    "entity_id": 5,
+    "entity": "United Nations",
+    "summary": "The United Nations played an important role in my life by coming to the refugee camps in Thailand and offering resettlement opportunities to countries like the United States, Canada, and Europe. They helped organize interviews and health screenings to determine eligibility for moving abroad. The UN also sometimes provided food aid to the camps, helping families like mine survive during difficult times.",
+    "cues": [
+      "United Nations",
+      "refugee camps",
+      "resettlement interviews",
+      "health screenings",
+      "food aid"
+    ],
+    "transcript_ref": "refugee\\ref_rfmi_pri_paw.yaml"
+  },
+  {
+    "entity_id": 6,
+    "entity": "Facebook",
+    "summary": "When I was living in the refugee camp in Thailand, we didn't have access to the internet or social media like Facebook. It was only after moving to the United States that I started to learn about Facebook and how people use it to connect. Back in the camp, technology like Facebook was not part of our daily life because we lacked computers and Wi-Fi.",
+    "cues": [
+      "no internet in camp",
+      "no Facebook in Thailand",
+      "learned about Facebook after moving to US",
+      "technology access"
+    ],
+    "transcript_ref": "refugee\\ref_rfmi_pri_paw.yaml"
+  },
+  {
+    "entity_id": 7,
+    "entity": "Nokia",
+    "summary": "In the refugee camp, the phones we used were mostly Nokia phones, the old basic models without internet or social media. These phones were simple and used mainly for calling, often with prepaid SIM cards. We didn't have smartphones or Wi-Fi back then, so Nokia phones were our main way to communicate with family and friends.",
+    "cues": [
+      "Nokia phones",
+      "basic phones",
+      "prepaid SIM cards",
+      "no internet",
+      "communication in camp"
+    ],
+    "transcript_ref": "refugee\\ref_rfmi_pri_paw.yaml"
+  },
+  {
+    "entity_id": 8,
+    "entity": "Japan",
+    "summary": "Japan was mentioned briefly in the context of places where refugees could apply to resettle, along with the United States, Canada, and Europe. However, I personally did not move to Japan, but it was one of the options offered by the United Nations during resettlement interviews in the refugee camps.",
+    "cues": [
+      "Japan as resettlement option",
+      "UN resettlement program",
+      "mentioned with US, Canada, Europe"
+    ],
+    "transcript_ref": "refugee\\ref_rfmi_pri_paw.yaml"
+  },
+  {
+    "entity_id": 9,
+    "entity": "New York City",
+    "summary": "Although not detailed extensively, New York City was part of my journey when I arrived in the United States. I remember landing at John F. Kennedy International Airport, which serves New York City, before settling in Syracuse, New York. New York City was the first place I touched in America, marking the beginning of my new life here.",
+    "cues": [
+      "New York City arrival",
+      "John F. Kennedy International Airport",
+      "initial US entry point"
+    ],
+    "transcript_ref": "refugee\\ref_rfmi_pri_paw.yaml"
+  },
+  {
+    "entity_id": 10,
+    "entity": "John F. Kennedy International Airport",
+    "summary": "I arrived in the United States through John F. Kennedy International Airport, which was my first experience stepping onto American soil. It was part of the process after leaving the refugee camp in Thailand and completing all the interviews and medical checkups. JFK Airport was the gateway to my new life in America before moving on to Syracuse.",
+    "cues": [
+      "arrival in US",
+      "John F. Kennedy International Airport",
+      "post-interview travel",
+      "gateway to America"
+    ],
+    "transcript_ref": "refugee\\ref_rfmi_pri_paw.yaml"
+  },
+  {
+    "entity_id": 11,
+    "entity": "Syracuse, New York",
+    "summary": "After arriving in the United States, I settled in Syracuse, New York. This city became my new home where I started attending school and learning English. Syracuse offered a very different life compared to the refugee camps, with better facilities like clean water, bathrooms, and schools. It was here that I began to adjust to American life and culture.",
+    "cues": [
+      "settled in Syracuse",
+      "started school",
+      "learning English",
+      "better living conditions"
+    ],
+    "transcript_ref": "refugee\\ref_rfmi_pri_paw.yaml"
+  }
+]

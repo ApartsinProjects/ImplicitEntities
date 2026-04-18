@@ -1,0 +1,90 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "Duke University",
+    "explicit_text": "I work as a physical therapist at Duke University, specifically at the Duke Student Wellness Center. I'm also on faculty at Duke's Doctor of Physical Therapy Program, which means I split my time between clinical work and teaching. During the COVID-19 pandemic, the campus has been quieter with fewer people around, which has changed how often I am in clinic. Additionally, I coordinate Alumni Engagement at Duke's Physical Therapy School and have seen how our alumni have adapted to telehealth services. My niece is a freshman at Duke, so I feel connected to the student experience during these times as well.",
+    "implicit_text": "I work as a physical therapist at a major university in Durham, specifically at the student wellness center. I'm also on faculty at the university's Doctor of Physical Therapy Program, which means I split my time between clinical work and teaching. During the COVID-19 pandemic, the campus has been quieter with fewer people around, which has changed how often I am in clinic. Additionally, I coordinate Alumni Engagement at the physical therapy school there and have seen how our alumni have adapted to telehealth services. My niece is a freshman at this university, so I feel connected to the student experience during these times as well.",
+    "cues": [
+      "Duke Student Wellness Center",
+      "Duke's DPT Program",
+      "faculty",
+      "COVID-19 pandemic",
+      "Alumni Engagement",
+      "student experience"
+    ],
+    "transcript_ref": "covid_19\\covid_nhc_Rosie_Canizares_008.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "COVID-19 pandemic",
+    "explicit_text": "The COVID-19 pandemic has significantly changed my work and the healthcare environment since early 2020. It introduced telehealth visits, which were not common before, allowing me to see patients even during quarantine. The pandemic also brought challenges like PPE requirements, fewer people on campus, and changes in injury patterns due to altered activity levels. It has highlighted mental health issues and inequalities in healthcare access, especially with technology needed for telehealth. Personally, it affected my family when my dad was hospitalized in Virginia during the early months of the pandemic, complicating communication and care.",
+    "implicit_text": "The global pandemic that began in early 2020 has significantly changed my work and the healthcare environment. It introduced telehealth visits, which were not common before, allowing me to see patients even during quarantine. The pandemic also brought challenges like PPE requirements, fewer people on campus, and changes in injury patterns due to altered activity levels. It has highlighted mental health issues and inequalities in healthcare access, especially with technology needed for telehealth. Personally, it affected my family when my dad was hospitalized in Virginia during the early months of the outbreak, complicating communication and care.",
+    "cues": [
+      "early 2020",
+      "telehealth",
+      "PPE",
+      "mental health",
+      "inequalities",
+      "family hospitalization",
+      "Virginia",
+      "North Carolina"
+    ],
+    "transcript_ref": "covid_19\\covid_nhc_Rosie_Canizares_008.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "Telehealth",
+    "explicit_text": "Telehealth became an important part of my practice during the COVID-19 pandemic, something that was rarely used before. It has allowed me to continue seeing patients remotely, including those in quarantine, which is a major advantage. Insurance coverage for telehealth has been uncertain, with initial end dates pushed back due to surges, and there is ongoing advocacy to maintain reimbursement. I coordinate with Duke's Physical Therapy alumni and know that many have adopted telehealth as well. However, telehealth also exposes inequalities since patients need access to technology to benefit from it.",
+    "implicit_text": "Remote healthcare delivery became an important part of my practice during the recent global health crisis, something that was rarely used before. It has allowed me to continue seeing patients remotely, including those in quarantine, which is a major advantage. Insurance coverage for these virtual visits has been uncertain, with initial end dates pushed back due to surges, and there is ongoing advocacy to maintain reimbursement. I coordinate with the physical therapy alumni from my university and know that many have adopted this approach as well. However, this method also exposes inequalities since patients need access to technology to benefit from it.",
+    "cues": [
+      "COVID-19 pandemic",
+      "remote patient visits",
+      "insurance reimbursement",
+      "Duke Physical Therapy alumni",
+      "healthcare inequalities"
+    ],
+    "transcript_ref": "covid_19\\covid_nhc_Rosie_Canizares_008.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "Broadway",
+    "explicit_text": "Broadway has been deeply affected by the COVID-19 pandemic, with performances just now beginning to think about returning. As someone with a clinical subspecialty in performing arts physical therapy, I've seen how this population has been uniquely impacted. The shutdown of performing arts companies has had ripple effects on health and wellness for those involved. This is an area that many people might not consider when thinking about the pandemic's impact. It ties into broader concerns about how COVID has affected various communities differently.",
+    "implicit_text": "The theater district in New York City has been deeply affected by the recent global health crisis, with performances just now beginning to think about returning. As someone with a clinical subspecialty in performing arts physical therapy, I've seen how this population has been uniquely impacted. The shutdown of performing arts companies has had ripple effects on health and wellness for those involved. This is an area that many people might not consider when thinking about the pandemic's impact. It ties into broader concerns about how the outbreak has affected various communities differently.",
+    "cues": [
+      "COVID-19 pandemic",
+      "performing arts physical therapy",
+      "Broadway shutdown",
+      "return of performances"
+    ],
+    "transcript_ref": "covid_19\\covid_nhc_Rosie_Canizares_008.yaml"
+  },
+  {
+    "entity_id": 5,
+    "entity": "Virginia",
+    "explicit_text": "My dad was hospitalized in Virginia during the early stages of the COVID-19 pandemic, which was a challenging experience for our family. He developed acute appendicitis on his 79th birthday and spent time in the ICU and hospital wards. Because of visitor restrictions and his compromised immune system, I was hesitant and initially unable to see him despite being a healthcare worker. Coordinating his care remotely was difficult, and I even ended up acting as his home health therapist without prior experience. This situation highlighted the emotional and logistical challenges families faced during the pandemic.",
+    "implicit_text": "My dad was hospitalized in a Mid-Atlantic state during the early stages of the recent pandemic, which was a challenging experience for our family. He developed acute appendicitis on his 79th birthday and spent time in the ICU and hospital wards. Because of visitor restrictions and his compromised immune system, I was hesitant and initially unable to see him despite being a healthcare worker. Coordinating his care remotely was difficult, and I even ended up acting as his home health therapist without prior experience. This situation highlighted the emotional and logistical challenges families faced during the pandemic.",
+    "cues": [
+      "early June 2020",
+      "acute appendicitis",
+      "hospitalization",
+      "ICU",
+      "visitor restrictions",
+      "home health therapy"
+    ],
+    "transcript_ref": "covid_19\\covid_nhc_Rosie_Canizares_008.yaml"
+  },
+  {
+    "entity_id": 6,
+    "entity": "North Carolina",
+    "explicit_text": "I live and work in North Carolina, where I serve as a physical therapist at Duke University. During the pandemic, I have been balancing my clinical duties with faculty responsibilities at Duke's Physical Therapy Program. Being based in North Carolina while my dad was hospitalized in Virginia added complexity to managing his care due to travel and visitation restrictions. The pandemic has also changed how healthcare is delivered in North Carolina, with increased use of telehealth and new protocols on campus and in clinical settings. Overall, my professional and personal life in North Carolina has been deeply influenced by these events.",
+    "implicit_text": "I live and work in a southeastern U.S. state, where I serve as a physical therapist at a prominent university. During the pandemic, I have been balancing my clinical duties with faculty responsibilities at the university's Physical Therapy Program. Being based in this state while my dad was hospitalized in a neighboring state added complexity to managing his care due to travel and visitation restrictions. The pandemic has also changed how healthcare is delivered here, with increased use of telehealth and new protocols on campus and in clinical settings. Overall, my professional and personal life in this region has been deeply influenced by these events.",
+    "cues": [
+      "Duke University",
+      "clinical and faculty roles",
+      "COVID-19 pandemic",
+      "telehealth",
+      "family care challenges"
+    ],
+    "transcript_ref": "covid_19\\covid_nhc_Rosie_Canizares_008.yaml"
+  }
+]

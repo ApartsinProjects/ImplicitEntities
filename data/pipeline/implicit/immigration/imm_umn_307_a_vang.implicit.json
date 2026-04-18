@@ -1,0 +1,93 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "Vietnam War",
+    "explicit_text": "My parents fled their home after the Vietnam War ended because they were afraid of what might happen if they stayed. Many Hmongs, including my family, were persecuted and had to escape into the jungle. The war's aftermath forced thousands to become refugees, and my parents ended up in refugee camps in Thailand before coming to the United States.",
+    "implicit_text": "My parents fled their home after the conflict in Southeast Asia ended because they were afraid of what might happen if they stayed. Many Hmongs, including my family, were persecuted and had to escape into the jungle. The war's aftermath forced thousands to become refugees, and my parents ended up in refugee camps in a neighboring country before coming to the United States.",
+    "cues": [
+      "end of the war in Vietnam",
+      "Hmongs fleeing",
+      "refugee camps",
+      "persecution"
+    ],
+    "transcript_ref": "immigration\\imm_umn_307_a_vang.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "Thailand",
+    "explicit_text": "After the Vietnam War, my parents became refugees and lived in refugee camps in Thailand. It was a difficult time for them, but it was a necessary step before they could come to the United States. Thailand was a temporary home where many Hmong families, including mine, stayed while seeking safety and a new beginning.",
+    "implicit_text": "After the war in Southeast Asia, my parents became refugees and lived in camps in a neighboring Southeast Asian country. It was a difficult time for them, but it was a necessary step before they could come to the United States. That country was a temporary home where many Hmong families, including mine, stayed while seeking safety and a new beginning.",
+    "cues": [
+      "refugee camps",
+      "post-Vietnam War",
+      "temporary refuge",
+      "Hmong families"
+    ],
+    "transcript_ref": "immigration\\imm_umn_307_a_vang.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "United States",
+    "explicit_text": "My parents came to the United States after being refugees in Thailand, hoping to build a better life for our family. We settled in Fresno, California, where they worked hard and eventually rented a bigger house to accommodate our large family. Although the language was difficult for them, they slowly learned English while raising many children, including me.",
+    "implicit_text": "My parents came to this country after being refugees in Southeast Asia, hoping to build a better life for our family. We settled in a city in California, where they worked hard and eventually rented a bigger house to accommodate our large family. Although the language was difficult for them, they slowly learned English while raising many children, including me.",
+    "cues": [
+      "parents came after Thailand",
+      "Fresno, California",
+      "learning English",
+      "family life"
+    ],
+    "transcript_ref": "immigration\\imm_umn_307_a_vang.yaml"
+  },
+  {
+    "entity_id": 5,
+    "entity": "Fresno, California",
+    "explicit_text": "Fresno, California was where my family first settled after arriving in the United States. We lived there for more than 20 years, growing bigger and renting a larger house to fit everyone. It was a place where my parents worked hard, and my siblings and I grew up, even though the language and culture were very different from what they knew.",
+    "implicit_text": "This city in California was where my family first settled after arriving in the United States. We lived there for more than 20 years, growing bigger and renting a larger house to fit everyone. It was a place where my parents worked hard, and my siblings and I grew up, even though the language and culture were very different from what they knew.",
+    "cues": [
+      "settled after arriving in U.S.",
+      "more than 20 years",
+      "large family house",
+      "parents working"
+    ],
+    "transcript_ref": "immigration\\imm_umn_307_a_vang.yaml"
+  },
+  {
+    "entity_id": 6,
+    "entity": "Como Park Senior High School",
+    "explicit_text": "I started going to Como Park Senior High School with my sister after we moved from Fresno. It was my first school in Minnesota, and I attended there until the third quarter of the school year. This school marked the beginning of my new life in a different state with my family.",
+    "implicit_text": "I started going to a public high school in a suburb of Saint Paul with my sister after we moved from Fresno. It was my first school in Minnesota, and I attended there until the third quarter of the school year. This school marked the beginning of my new life in a different state with my family.",
+    "cues": [
+      "started school with sister",
+      "after moving from Fresno",
+      "Minnesota",
+      "third quarter of school year"
+    ],
+    "transcript_ref": "immigration\\imm_umn_307_a_vang.yaml"
+  },
+  {
+    "entity_id": 7,
+    "entity": "Ham Lake, Minnesota",
+    "explicit_text": "After living in Fresno, my family moved to Ham Lake, Minnesota, which was a big change for us. It was there that I continued my education and lived with my family, including my two older siblings who joined me later. Ham Lake became our new home as we adjusted to life in Minnesota.",
+    "implicit_text": "After living in Fresno, my family moved to a city in Anoka County, Minnesota, which was a big change for us. It was there that I continued my education and lived with my family, including my two older siblings who joined me later. That city became our new home as we adjusted to life in Minnesota.",
+    "cues": [
+      "moved from Fresno",
+      "Minnesota",
+      "family relocation",
+      "continuing education"
+    ],
+    "transcript_ref": "immigration\\imm_umn_307_a_vang.yaml"
+  },
+  {
+    "entity_id": 8,
+    "entity": "Andover High School (Minnesota)",
+    "explicit_text": "Once we moved to Ham Lake, my two older siblings and I attended Andover High School in Minnesota. I am now almost finished with my sophomore year there. This school has been a big part of my life as I continue to adapt and grow in a new environment.",
+    "implicit_text": "Once we moved to that Minnesota city, my two older siblings and I attended the local high school there. I am now almost finished with my sophomore year at that school. This school has been a big part of my life as I continue to adapt and grow in a new environment.",
+    "cues": [
+      "moved to Ham Lake",
+      "attended with older siblings",
+      "Andover High School",
+      "sophomore year"
+    ],
+    "transcript_ref": "immigration\\imm_umn_307_a_vang.yaml"
+  }
+]

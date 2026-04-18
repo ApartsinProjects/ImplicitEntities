@@ -1,0 +1,40 @@
+{
+  "version": "v5",
+  "seed": 42,
+  "split_ratios": {
+    "train": 0.7,
+    "dev": 0.1,
+    "test": 0.2
+  },
+  "total_samples": 25136,
+  "total_entities": 12337,
+  "train": {
+    "samples": 17971,
+    "entities": 8635
+  },
+  "dev": {
+    "samples": 2532,
+    "entities": 1234
+  },
+  "test": {
+    "samples": 4633,
+    "entities": 2468
+  },
+  "entity_overlap": {
+    "train_dev": 0,
+    "train_test": 0,
+    "dev_test": 0
+  },
+  "by_type": {
+    "Place": 11893,
+    "Organization": 5366,
+    "Person": 3450,
+    "Event": 2162,
+    "Work": 1195,
+    "Military_Unit": 537,
+    "": 533
+  },
+  "by_collection": {
+    "unknown": 25136
+  }
+}

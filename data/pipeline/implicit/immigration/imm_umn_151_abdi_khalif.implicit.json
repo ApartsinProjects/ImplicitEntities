@@ -1,0 +1,107 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "Somalia",
+    "explicit_text": "I was born in Somalia, but I had to flee the country on January 12, 1991 because of the Somali Civil War. Somalia is where my roots are, and even though I left, it has always been a significant part of my life. I returned to Kismayo in Somalia after two years, where my aunt lived and helped me learn business. Somalia represents both my past struggles and my beginnings.",
+    "implicit_text": "I was born in the Horn of Africa, but I had to flee the country on January 12, 1991 because of the civil war there. That place is where my roots are, and even though I left, it has always been a significant part of my life. I returned to a coastal city in the southern part of the country after two years, where my aunt lived and helped me learn business. This homeland represents both my past struggles and my beginnings.",
+    "cues": [
+      "born in Somalia",
+      "fled January 12, 1991",
+      "Somali Civil War",
+      "returned to Kismayo",
+      "aunt's business"
+    ],
+    "transcript_ref": "immigration\\imm_umn_151_abdi_khalif.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "Doble",
+    "explicit_text": "After fleeing Somalia in 1991, I went to a small town called Doble, which is near the border of Kenya. It was a place of refuge for me during those difficult times. I stayed there for about two years before returning to Kismayo in Somalia. Doble was important as a safe stop during my escape from the civil war.",
+    "implicit_text": "After fleeing the Horn of Africa in 1991, I went to a small town near the border of Kenya. It was a place of refuge for me during those difficult times. I stayed there for about two years before returning to the coastal city in the southern part of my home country. That town was important as a safe stop during my escape from the civil war.",
+    "cues": [
+      "fled Somalia 1991",
+      "small town near Kenya border",
+      "stayed two years",
+      "refuge"
+    ],
+    "transcript_ref": "immigration\\imm_umn_151_abdi_khalif.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "Kenya",
+    "explicit_text": "Kenya is the neighboring country near the town of Doble where I first fled after leaving Somalia in 1991. Although I did not settle in Kenya, its proximity to Doble made it a significant landmark during my journey. The border area between Somalia and Kenya was a critical passage for me as I sought safety from the civil war.",
+    "implicit_text": "The neighboring country near the town where I first fled after leaving my home in 1991 was significant. Although I did not settle there, its proximity to that border town made it a notable landmark during my journey. The border area between my homeland and this country was a critical passage for me as I sought safety from the civil war.",
+    "cues": [
+      "near border of Kenya",
+      "fled Somalia 1991",
+      "Doble near Kenya"
+    ],
+    "transcript_ref": "immigration\\imm_umn_151_abdi_khalif.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "Kismayo",
+    "explicit_text": "Kismayo is the city in Jubaland where I was born and where my aunt lived. After spending two years in Doble, I returned to Kismayo to reconnect with family and learn business from my aunt. It was in Kismayo that I started my own business one year after returning. This city holds a special place in my heart as both my birthplace and the start of my entrepreneurial journey.",
+    "implicit_text": "The city in the southern region where I was born and where my aunt lived played a big role in my life. After spending two years in the border town, I returned there to reconnect with family and learn business from my aunt. It was in this city that I started my own business one year after returning. This place holds a special place in my heart as both my birthplace and the start of my entrepreneurial journey.",
+    "cues": [
+      "born in Kismayo",
+      "returned after two years",
+      "aunt's business",
+      "started own business"
+    ],
+    "transcript_ref": "immigration\\imm_umn_151_abdi_khalif.yaml"
+  },
+  {
+    "entity_id": 5,
+    "entity": "Jubaland",
+    "explicit_text": "Jubaland is the region where Kismayo is located, and it is where I was born and raised. Returning to Jubaland after fleeing Somalia allowed me to reconnect with my family and community. It was in this region that I learned business skills from my aunt and eventually started my own business. Jubaland represents my origins and the foundation of my work ethic.",
+    "implicit_text": "The region where that southern city is located is where I was born and raised. Returning there after fleeing my home country allowed me to reconnect with my family and community. It was in this area that I learned business skills from my aunt and eventually started my own business. This region represents my origins and the foundation of my work ethic.",
+    "cues": [
+      "region of Kismayo",
+      "birthplace",
+      "business learning",
+      "family ties"
+    ],
+    "transcript_ref": "immigration\\imm_umn_151_abdi_khalif.yaml"
+  },
+  {
+    "entity_id": 6,
+    "entity": "South Africa",
+    "explicit_text": "Seven years after starting my business in Kismayo, I moved to South Africa to expand my business ventures. In South Africa, I dealt in clothing, shoes, and cosmetics. Although I worked hard there, I did not feel safe, which eventually led me to begin the resettlement process to the United States in 2001. South Africa was an important chapter in my life for business growth but lacked the security I needed.",
+    "implicit_text": "Seven years after starting my business in the southern coastal city, I moved to a country at the southern tip of Africa to expand my business ventures. There, I dealt in clothing, shoes, and cosmetics. Although I worked hard, I did not feel safe, which eventually led me to begin the resettlement process to the United States in 2001. That country was an important chapter in my life for business growth but lacked the security I needed.",
+    "cues": [
+      "moved seven years after starting business",
+      "business in clothing, shoes, cosmetics",
+      "lack of safety",
+      "resettlement process 2001"
+    ],
+    "transcript_ref": "immigration\\imm_umn_151_abdi_khalif.yaml"
+  },
+  {
+    "entity_id": 7,
+    "entity": "United States",
+    "explicit_text": "I began my resettlement process to the United States on November 18, 2001, and finally arrived there on January 13, 2014. The United States has given me safety and freedom that I did not have in Somalia or South Africa. I am grateful to the US government and people for welcoming me and providing the documents and support I needed. Now, I am working and happy here, with hopes to open my own business someday and enjoy the freedom to work for myself.",
+    "implicit_text": "I began my resettlement process to a North American country on November 18, 2001, and finally arrived there on January 13, 2014. This country has given me safety and freedom that I did not have in my homeland or the southern African nation. I am grateful to its government and people for welcoming me and providing the documents and support I needed. Now, I am working and happy here, with hopes to open my own business someday and enjoy the freedom to work for myself.",
+    "cues": [
+      "resettlement process November 18, 2001",
+      "arrived January 13, 2014",
+      "safety and freedom",
+      "grateful to US government",
+      "working and business plans"
+    ],
+    "transcript_ref": "immigration\\imm_umn_151_abdi_khalif.yaml"
+  },
+  {
+    "entity_id": 8,
+    "entity": "Somali Civil War",
+    "explicit_text": "The Somali Civil War forced me to flee my home country on January 12, 1991. This conflict disrupted my life and made it unsafe to remain in Somalia. The war was the reason I first went to Doble near Kenya and later moved through various places before resettling in the United States. The civil war shaped much of my journey and my search for safety and stability.",
+    "implicit_text": "The civil conflict in my home country forced me to flee on January 12, 1991. This war disrupted my life and made it unsafe to remain there. The conflict was the reason I first went to a border town near Kenya and later moved through various places before resettling in the United States. This war shaped much of my journey and my search for safety and stability.",
+    "cues": [
+      "fled January 12, 1991",
+      "disrupted life",
+      "unsafe in Somalia",
+      "journey to safety"
+    ],
+    "transcript_ref": "immigration\\imm_umn_151_abdi_khalif.yaml"
+  }
+]

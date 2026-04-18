@@ -1,0 +1,149 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "Marcus Daly Hospital",
+    "explicit_text": "I have been the director of patient care services at Marcus Daly Hospital in Hamilton, Montana for 15 years. It's a critical access hospital with a 25-bed capacity, primarily serving a rural community with limited resources. Before the COVID-19 pandemic, we were focused on expanding services, including planning a new cancer infusion center to reduce the need for patients to travel to Missoula. During the pandemic, I served as chief of operations in our hospital incident command system, coordinating logistics and resource planning to prepare for COVID-19 cases.",
+    "implicit_text": "I have been the director of patient care services at a critical access hospital in Hamilton, Montana for 15 years. It's a 25-bed facility primarily serving a rural community with limited resources. Before the COVID-19 pandemic, we were focused on expanding services, including planning a new cancer infusion center to reduce the need for patients to travel to a larger city nearby. During the pandemic, I served as chief of operations in our hospital incident command system, coordinating logistics and resource planning to prepare for COVID-19 cases.",
+    "cues": [
+      "15 years",
+      "critical access hospital",
+      "25-bed capacity",
+      "rural hospital",
+      "cancer infusion center planning",
+      "chief of operations",
+      "hospital incident command system",
+      "COVID-19 pandemic"
+    ],
+    "transcript_ref": "covid_19\\covid_nhc_Jennifer_Bush_017.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "Hamilton, Montana",
+    "explicit_text": "I live and work in Hamilton, Montana, a small town where Marcus Daly Hospital is located. Being a rural community, we faced unique challenges during the COVID-19 pandemic, especially with limited hospital beds and resources. Patients often had to travel about 45 miles to Missoula for oncology treatments before we planned to build a local infusion center. Hamilton’s isolation gave us some time to prepare, but the fear and uncertainty of the pandemic hitting our small town were very real.",
+    "implicit_text": "I live and work in a small town in Montana where the local critical access hospital is located. Being a rural community, we faced unique challenges during the COVID-19 pandemic, especially with limited hospital beds and resources. Patients often had to travel about 45 miles to a regional medical center for oncology treatments before we planned to build a local infusion center. Our town’s isolation gave us some time to prepare, but the fear and uncertainty of the pandemic hitting our small community were very real.",
+    "cues": [
+      "small town",
+      "rural community",
+      "Marcus Daly Hospital location",
+      "45 miles to Missoula",
+      "COVID-19 pandemic",
+      "oncology treatment travel"
+    ],
+    "transcript_ref": "covid_19\\covid_nhc_Jennifer_Bush_017.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "Missoula, Montana",
+    "explicit_text": "Before we built our own cancer infusion center, most of our patients from Hamilton had to travel to Missoula, Montana, which is about 45 miles away, for their oncology treatments. This was a significant burden for our community, and one of the reasons we were so focused on expanding services at Marcus Daly Hospital. Missoula served as the regional hub for specialized care that we couldn't provide locally at the time.",
+    "implicit_text": "Before we built our own cancer infusion center, most of our patients from the small Montana town had to travel to a city about 45 miles away for their oncology treatments. This was a significant burden for our community, and one of the reasons we were so focused on expanding services at the local hospital. That city served as the regional hub for specialized care that we couldn't provide locally at the time.",
+    "cues": [
+      "45 miles from Hamilton",
+      "oncology treatment",
+      "regional hub",
+      "patient travel",
+      "service expansion"
+    ],
+    "transcript_ref": "covid_19\\covid_nhc_Jennifer_Bush_017.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "COVID-19 pandemic",
+    "explicit_text": "The COVID-19 pandemic hit our community later than many places, but it brought a lot of fear and uncertainty to Marcus Daly Hospital. Starting early 2020, we began planning for PPE shortages, ventilator capacity, and how to manage potential patient surges. I was chief of operations in our hospital incident command system, coordinating logistics and training staff to handle ICU patients despite our limited resources. The pandemic pushed all of us outside our comfort zones, and we faced the real fear of losing coworkers and patients as cases arrived in Hamilton.",
+    "implicit_text": "The pandemic hit our community later than many places, but it brought a lot of fear and uncertainty to the rural hospital where I work. Starting early 2020, we began planning for PPE shortages, ventilator capacity, and how to manage potential patient surges. I was chief of operations in our hospital incident command system, coordinating logistics and training staff to handle ICU patients despite our limited resources. The crisis pushed all of us outside our comfort zones, and we faced the real fear of losing coworkers and patients as cases arrived in our town.",
+    "cues": [
+      "early 2020",
+      "PPE shortages",
+      "ventilator capacity",
+      "hospital incident command system",
+      "staff training",
+      "fear and uncertainty",
+      "Hamilton cases"
+    ],
+    "transcript_ref": "covid_19\\covid_nhc_Jennifer_Bush_017.yaml"
+  },
+  {
+    "entity_id": 5,
+    "entity": "New York City",
+    "explicit_text": "During the early months of the COVID-19 pandemic, we closely watched what was happening in New York City and other hard-hit areas. Seeing the crisis there made us realize the importance of preparing our small hospital in Hamilton to avoid similar shortages and chaos. We wanted to ensure our nurses wouldn't have to resort to makeshift PPE like garbage bags, so we focused heavily on securing supplies and planning for worst-case scenarios.",
+    "implicit_text": "During the early months of the pandemic, we closely watched what was happening in a major metropolitan area on the East Coast and other hard-hit locations. Seeing the crisis there made us realize the importance of preparing our small hospital in Montana to avoid similar shortages and chaos. We wanted to ensure our nurses wouldn't have to resort to makeshift PPE like garbage bags, so we focused heavily on securing supplies and planning for worst-case scenarios.",
+    "cues": [
+      "early 2020",
+      "COVID-19 impact",
+      "PPE shortages",
+      "hospital preparation",
+      "New York City outbreak"
+    ],
+    "transcript_ref": "covid_19\\covid_nhc_Jennifer_Bush_017.yaml"
+  },
+  {
+    "entity_id": 6,
+    "entity": "Ebola virus epidemic",
+    "explicit_text": "We had experience with the Ebola virus epidemic through training with Rocky Mountain Laboratories, which gave us confidence that we were prepared for that threat. However, unlike Ebola, COVID-19 felt much more alarming to our providers because we knew it would reach Hamilton and impact our hospital. The Ebola scare was serious, but it didn't create the same level of fear or uncertainty as COVID did in our community.",
+    "implicit_text": "We had experience with a previous viral epidemic through training with a renowned infectious disease research facility, which gave us confidence that we were prepared for that threat. However, unlike that virus, the recent respiratory pandemic felt much more alarming to our providers because we knew it would reach our town and impact our hospital. The earlier scare was serious, but it didn't create the same level of fear or uncertainty as this new disease did in our community.",
+    "cues": [
+      "Ebola training",
+      "Rocky Mountain Laboratories",
+      "provider confidence",
+      "contrast with COVID-19",
+      "Hamilton preparedness"
+    ],
+    "transcript_ref": "covid_19\\covid_nhc_Jennifer_Bush_017.yaml"
+  },
+  {
+    "entity_id": 7,
+    "entity": "Rocky Mountain Laboratories",
+    "explicit_text": "Rocky Mountain Laboratories has been a key partner in training our staff for infectious disease threats like Ebola. Their expertise helped us feel prepared for that epidemic, even though we never expected to see Ebola cases in Hamilton. This long-standing relationship gave us a foundation of knowledge, but COVID-19 presented a very different and more immediate challenge for our hospital.",
+    "implicit_text": "A well-known infectious disease research center has been a key partner in training our staff for threats like Ebola. Their expertise helped us feel prepared for that epidemic, even though we never expected to see cases of that disease in our small Montana town. This long-standing relationship gave us a foundation of knowledge, but the recent pandemic presented a very different and more immediate challenge for our hospital.",
+    "cues": [
+      "infectious disease training",
+      "Ebola epidemic",
+      "staff preparedness",
+      "Hamilton, Montana",
+      "long-term partnership"
+    ],
+    "transcript_ref": "covid_19\\covid_nhc_Jennifer_Bush_017.yaml"
+  },
+  {
+    "entity_id": 8,
+    "entity": "United States",
+    "explicit_text": "As a nurse and healthcare leader in the United States, I have witnessed how national crises like the September 11 attacks and the COVID-19 pandemic have shaped healthcare responses. During 9/11, we were told we might be called into service early, which was a sobering moment for me as a nursing student. The COVID-19 pandemic has been another defining event, revealing the challenges of healthcare capacity and resource allocation in rural America like here in Montana.",
+    "implicit_text": "As a nurse and healthcare leader in this country, I have witnessed how national crises like the September 11 attacks and the recent pandemic have shaped healthcare responses. During 9/11, we were told we might be called into service early, which was a sobering moment for me as a nursing student. The recent pandemic has been another defining event, revealing the challenges of healthcare capacity and resource allocation in rural America like here in Montana.",
+    "cues": [
+      "September 11 attacks",
+      "COVID-19 pandemic",
+      "nursing career",
+      "healthcare challenges",
+      "rural America"
+    ],
+    "transcript_ref": "covid_19\\covid_nhc_Jennifer_Bush_017.yaml"
+  },
+  {
+    "entity_id": 9,
+    "entity": "Hospital Incident Command System",
+    "explicit_text": "When COVID-19 cases began to appear in Hamilton, we stood up our Hospital Incident Command System on March 17th, 2020, to coordinate our response. I served as chief of operations, working closely with logistics and the incident command team manager to manage resources and staff roles. This system was crucial for organizing our efforts to handle the pandemic, from PPE procurement to training staff for ICU care under unprecedented conditions.",
+    "implicit_text": "When cases began to appear in our town, we stood up our emergency hospital management system on March 17th, 2020, to coordinate our response. I served as chief of operations, working closely with logistics and the incident command team manager to manage resources and staff roles. This system was crucial for organizing our efforts to handle the pandemic, from PPE procurement to training staff for ICU care under unprecedented conditions.",
+    "cues": [
+      "March 17, 2020",
+      "COVID-19 response",
+      "chief of operations",
+      "logistics coordination",
+      "staff training",
+      "resource management"
+    ],
+    "transcript_ref": "covid_19\\covid_nhc_Jennifer_Bush_017.yaml"
+  },
+  {
+    "entity_id": 10,
+    "entity": "September 11 attacks",
+    "explicit_text": "I was a nursing student on September 11, 2001, and that day was a turning point in my awareness of healthcare emergencies. We were told to attend class despite the attacks, but there was talk that we might be called into nursing service early if the situation worsened. That experience was the last time before COVID-19 that I felt such a serious threat that pushed me to prepare for stepping outside my comfort zone in healthcare.",
+    "implicit_text": "I was a nursing student on September 11, 2001, and that day was a turning point in my awareness of healthcare emergencies. We were told to attend class despite the attacks, but there was talk that we might be called into nursing service early if the situation worsened. That experience was the last time before the recent pandemic that I felt such a serious threat that pushed me to prepare for stepping outside my comfort zone in healthcare.",
+    "cues": [
+      "September 11, 2001",
+      "nursing student",
+      "emergency preparedness",
+      "early nursing service",
+      "healthcare threat"
+    ],
+    "transcript_ref": "covid_19\\covid_nhc_Jennifer_Bush_017.yaml"
+  }
+]

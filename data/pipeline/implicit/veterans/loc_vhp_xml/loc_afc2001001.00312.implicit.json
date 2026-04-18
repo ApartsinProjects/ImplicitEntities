@@ -1,0 +1,95 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "Iraq",
+    "explicit_text": "During the Gulf War, we encountered a lot of Iraqi forces who were often hiding in bunkers. When we got stuck in the mud, many Iraqis started surrendering because they were scared. We saw their tanks buried in the sand, camouflaged to avoid detection, but they were stuck and we used them for target practice. It was a harsh environment with nothing but desert around us.",
+    "implicit_text": "During the Gulf War, we encountered a lot of enemy forces who were often hiding in bunkers. When we got stuck in the mud, many of them started surrendering because they were scared. We saw their tanks buried in the sand, camouflaged to avoid detection, but they were stuck and we used them for target practice. It was a harsh environment with nothing but desert around us.",
+    "cues": [
+      "Gulf War",
+      "bunkers",
+      "tanks buried in sand",
+      "desert"
+    ],
+    "transcript_ref": "veterans\\loc_vhp_xml\\loc_afc2001001.00312.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "Kuwait",
+    "explicit_text": "Our mission was to clear Kuwait of enemy forces, and we had to make safe lanes through minefields so others could advance. I remember Kuwait City being very modern, with high-rise buildings and a mix of traditional and modern culture. After the war, many Kuwaiti civilians came to thank us for giving them their city back, which was one of my most memorable moments. We had little interaction with the Kuwaiti people during the fighting, but their gratitude afterward was powerful.",
+    "implicit_text": "Our mission was to clear the invaded territory of enemy forces, and we had to make safe lanes through minefields so others could advance. I remember the capital city being very modern, with high-rise buildings and a mix of traditional and modern culture. After the war, many civilians came to thank us for giving them their city back, which was one of my most memorable moments. We had little interaction with the local people during the fighting, but their gratitude afterward was powerful.",
+    "cues": [
+      "Gulf War",
+      "Kuwait City",
+      "modern buildings",
+      "civilians thanking us"
+    ],
+    "transcript_ref": "veterans\\loc_vhp_xml\\loc_afc2001001.00312.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "United States Marine Corps",
+    "explicit_text": "I served in the United States Marine Corps during the Gulf War, where we were often the first to go into combat, just like in Afghanistan later on. I was part of a select unit chosen because we were all single men, tasked with clearing paths through minefields. I rose through the ranks to become a tank commander, responsible for my crew and making quick decisions in battle. The Marine Corps taught me a lot about leadership and teamwork under pressure.",
+    "implicit_text": "I served in the branch of the U.S. military known for being first into combat during the Gulf War, just like in Afghanistan later on. I was part of a select unit chosen because we were all single men, tasked with clearing paths through minefields. I rose through the ranks to become a tank commander, responsible for my crew and making quick decisions in battle. This military branch taught me a lot about leadership and teamwork under pressure.",
+    "cues": [
+      "Gulf War",
+      "Afghanistan",
+      "tank commander",
+      "single men unit"
+    ],
+    "transcript_ref": "veterans\\loc_vhp_xml\\loc_afc2001001.00312.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "Afghanistan",
+    "explicit_text": "Though my main combat experience was in the Gulf War, I know that the United States Marine Corps was the first to be deployed in Afghanistan as well. The Marines are often the first boots on the ground to start operations, just like we were in Kuwait. I wasn’t deployed there myself, but I understand the role we play in initiating combat missions in places like Afghanistan.",
+    "implicit_text": "Though my main combat experience was in the Gulf War, I know that the same military branch was the first to be deployed in the conflict in Central Asia as well. They are often the first boots on the ground to start operations, just like we were in the Persian Gulf region. I wasn’t deployed there myself, but I understand the role we play in initiating combat missions in places like that.",
+    "cues": [
+      "United States Marine Corps",
+      "first to deploy",
+      "combat missions"
+    ],
+    "transcript_ref": "veterans\\loc_vhp_xml\\loc_afc2001001.00312.yaml"
+  },
+  {
+    "entity_id": 5,
+    "entity": "Gulf War",
+    "explicit_text": "I fought in the Gulf War as part of a tank unit tasked with clearing minefields so others could advance into Kuwait. The war was intense, and we were told to expect 80 percent casualties, but luckily my unit made it through without any deaths. We faced mines, enemy bunkers, and camouflaged tanks, and after the war, we had some downtime playing cards and relaxing. The Gulf War was a defining experience for me and my fellow Marines.",
+    "implicit_text": "I fought in the early 1990s conflict as part of a tank unit tasked with clearing minefields so others could advance into the occupied territory. The war was intense, and we were told to expect 80 percent casualties, but luckily my unit made it through without any deaths. We faced mines, enemy bunkers, and camouflaged tanks, and after the war, we had some downtime playing cards and relaxing. That conflict was a defining experience for me and my fellow Marines.",
+    "cues": [
+      "minefields",
+      "Kuwait",
+      "80 percent casualties expected",
+      "combat",
+      "cards"
+    ],
+    "transcript_ref": "veterans\\loc_vhp_xml\\loc_afc2001001.00312.yaml"
+  },
+  {
+    "entity_id": 6,
+    "entity": "M60 tank",
+    "explicit_text": "I was the driver and later the tank commander of an M60 tank during the Gulf War. The M60 had a 105mm main gun, two machine guns including a .50 caliber and an M16 machine gun, plus I carried an M16 rifle and a nine millimeter pistol. We used the tank to clear minefields with a plow attachment, though it wasn’t always reliable. Driving the M60 was challenging, especially at night using night vision sights, but I loved being the driver and leading the crew.",
+    "implicit_text": "I was the driver and later the tank commander of a main battle tank during the Gulf War. The vehicle had a 105mm main gun, two machine guns including a .50 caliber and an M16 machine gun, plus I carried an M16 rifle and a nine millimeter pistol. We used the tank to clear minefields with a plow attachment, though it wasn’t always reliable. Driving this tank was challenging, especially at night using night vision sights, but I loved being the driver and leading the crew.",
+    "cues": [
+      "Gulf War",
+      "tank commander",
+      "105mm gun",
+      "machine guns",
+      "mine plow",
+      "night vision"
+    ],
+    "transcript_ref": "veterans\\loc_vhp_xml\\loc_afc2001001.00312.yaml"
+  },
+  {
+    "entity_id": 7,
+    "entity": "M16 rifle",
+    "explicit_text": "In my tank during the Gulf War, we used the M16 rifle as a standard weapon alongside machine guns and the tank’s main gun. The M16 was attached to the tank and could be fired from inside, which was useful in combat situations. I also personally carried an M16 rifle as part of my gear. It was one of the essential weapons we relied on during our missions.",
+    "implicit_text": "In my tank during the Gulf War, we used this standard-issue rifle alongside machine guns and the tank’s main gun. The rifle was attached to the tank and could be fired from inside, which was useful in combat situations. I also personally carried one as part of my gear. It was one of the essential weapons we relied on during our missions.",
+    "cues": [
+      "Gulf War",
+      "tank weapon",
+      "fired from inside tank",
+      "personal weapon"
+    ],
+    "transcript_ref": "veterans\\loc_vhp_xml\\loc_afc2001001.00312.yaml"
+  }
+]

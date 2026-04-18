@@ -1,0 +1,212 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "United States Cadet Nurse Corps",
+    "explicit_text": "I served in the United States Cadet Nurse Corps during World War II. I joined after working three years at the Detroit Edison Company, seeking a better opportunity. The Corps trained young women from various backgrounds to become registered nurses through a three-year program that combined classes and hospital work, such as at Harper Hospital in Detroit. We didn’t have military ranks or pins, just our school pin and diploma, and the government fully supported our training. The Corps was a wartime program that ended after those enrolled finished their courses.",
+    "implicit_text": "I served in a wartime nursing training program during World War II. I joined after working three years at an electrical utility company in Detroit, seeking a better opportunity. The program trained young women from various backgrounds to become registered nurses through a three-year curriculum combining classes and hospital work, such as at a major Detroit hospital. We didn’t have military ranks or pins, just our school pin and diploma, and the government fully supported our training. This program was created for the war effort and ended after those enrolled finished their courses.",
+    "cues": [
+      "World War II",
+      "three-year training",
+      "Harper Hospital",
+      "government funded",
+      "no military ranks"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_Martha_Shipp.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "Detroit Edison Company",
+    "explicit_text": "Before joining the United States Cadet Nurse Corps, I worked for three years at the Detroit Edison Company in electrical service. It wasn’t related to the medical field, but it was my first job after high school. I decided to leave that job when I heard about the Cadet Nurse Corps and thought I could do better by training as a nurse. My time there was important as it gave me work experience before I changed careers.",
+    "implicit_text": "Before joining the wartime nursing training program, I worked for three years at a Detroit-based electrical service company. It wasn’t related to the medical field, but it was my first job after high school. I decided to leave that job when I heard about the nursing training program and thought I could do better by becoming a nurse. My time there was important as it gave me work experience before I changed careers.",
+    "cues": [
+      "three years after high school",
+      "electrical service",
+      "Detroit",
+      "before nursing"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_Martha_Shipp.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "Harper Hospital",
+    "explicit_text": "I trained at Harper Hospital in Detroit as part of my nursing education with the United States Cadet Nurse Corps. Our days were split between classes and working with patients to complete an eight-hour day. Many of the nurses had gone into service, so students like me kept the hospital running during the war. After finishing my training, I returned to Harper Hospital for about nine months before moving on to other nursing positions.",
+    "implicit_text": "I trained at a prominent Detroit hospital as part of my nursing education with the wartime nursing program. Our days were split between classes and working with patients to complete an eight-hour day. Many of the nurses had gone into military service, so students like me kept the hospital running during the war. After finishing my training, I returned to that hospital for about nine months before moving on to other nursing positions.",
+    "cues": [
+      "Detroit",
+      "training hospital",
+      "World War II nurse shortage",
+      "post-training work"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_Martha_Shipp.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "Maywood, Illinois",
+    "explicit_text": "During the last six months of my nursing training, I worked at the Veterans Hospital in Maywood, Illinois. This was a choice offered to us, and I selected to work with veterans, many of whom were from World War II and some from World War I. Maywood was a significant place for me because it was where I gained experience caring for disabled veterans, including a paraplegic patient who painted with his teeth. The hospital remains important, though smaller now, as Loyola University Chicago has taken over some buildings there.",
+    "implicit_text": "During the last six months of my nursing training, I worked at a Veterans Hospital in a suburb of Chicago, Illinois. This was a choice offered to us, and I selected to work with veterans, many of whom were from World War II and some from World War I. That location was significant for me because it was where I gained experience caring for disabled veterans, including a paraplegic patient who painted with his teeth. The hospital remains important, though smaller now, as a local university has taken over some buildings there.",
+    "cues": [
+      "last six months of training",
+      "Veterans Hospital",
+      "World War II and World War I veterans",
+      "Loyola University Chicago"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_Martha_Shipp.yaml"
+  },
+  {
+    "entity_id": 5,
+    "entity": "Hines Veterans Hospital",
+    "explicit_text": "I spent the final six months of my nursing training at Hines Veterans Hospital near Maywood, Illinois, in 1947. There, I cared for veterans from both World War II and World War I, including a memorable paraplegic patient who painted with his mouth. Hines was a critical facility for veterans' care, and although it has since become smaller, it was an important part of my nursing education and early career.",
+    "implicit_text": "I spent the final six months of my nursing training at a large veterans hospital near a Chicago suburb in Illinois, in 1947. There, I cared for veterans from both World War II and World War I, including a memorable paraplegic patient who painted with his mouth. This hospital was a critical facility for veterans' care, and although it has since become smaller, it was an important part of my nursing education and early career.",
+    "cues": [
+      "1947",
+      "veterans care",
+      "World War I and II veterans",
+      "Maywood, Illinois"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_Martha_Shipp.yaml"
+  },
+  {
+    "entity_id": 6,
+    "entity": "World War II",
+    "explicit_text": "World War II was the backdrop for my nursing training and service. The war created a shortage of registered nurses as many enlisted, so the United States Cadet Nurse Corps was established to train more nurses quickly. I was in training during the war’s final years and graduated in 1947, after the war ended in 1945. I remember hearing the news of the war’s end while working in the hospital, and there was much excitement among staff and patients alike.",
+    "implicit_text": "The global conflict from 1939 to 1945 was the backdrop for my nursing training and service. The war created a shortage of registered nurses as many enlisted, so the wartime nursing training program was established to train more nurses quickly. I was in training during the war’s final years and graduated in 1947, after the conflict ended in 1945. I remember hearing the news of the war’s end while working in the hospital, and there was much excitement among staff and patients alike.",
+    "cues": [
+      "1941-1945",
+      "nurse shortage",
+      "Cadet Nurse Corps",
+      "war end August 1945",
+      "hospital work"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_Martha_Shipp.yaml"
+  },
+  {
+    "entity_id": 7,
+    "entity": "World War I",
+    "explicit_text": "During my time at Hines Veterans Hospital, I cared for veterans from both World War II and World War I. Some of the older veterans had served in World War I, and their presence reminded me of the long legacy of service these men had given. It was humbling to work alongside those who had fought in both world wars, and it gave me a deeper appreciation for the sacrifices made over many years.",
+    "implicit_text": "During my time at the veterans hospital near Chicago, I cared for veterans from both the global conflicts of the early and mid-20th century. Some of the older veterans had served in the earlier war, and their presence reminded me of the long legacy of service these men had given. It was humbling to work alongside those who had fought in both world wars, and it gave me a deeper appreciation for the sacrifices made over many years.",
+    "cues": [
+      "Hines Veterans Hospital",
+      "World War I veterans",
+      "post-World War II era",
+      "veteran care"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_Martha_Shipp.yaml"
+  },
+  {
+    "entity_id": 8,
+    "entity": "Loyola University Chicago",
+    "explicit_text": "Loyola University Chicago now occupies some of the buildings at the former Hines Veterans Hospital site in Maywood, Illinois. When I was training there in 1947, it was still a large veterans hospital, but over time the facility has become smaller as Loyola expanded its presence. This change reflects the evolving nature of veteran care and the university's growth in the area.",
+    "implicit_text": "A well-known Jesuit university in Chicago now occupies some of the buildings at the former large veterans hospital site in a Chicago suburb. When I was training there in 1947, it was still a large veterans hospital, but over time the facility has become smaller as the university expanded its presence. This change reflects the evolving nature of veteran care and the university's growth in the area.",
+    "cues": [
+      "Maywood, Illinois",
+      "post-1947",
+      "Hines Hospital buildings",
+      "veteran care changes"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_Martha_Shipp.yaml"
+  },
+  {
+    "entity_id": 9,
+    "entity": "Mount Clemens, Michigan",
+    "explicit_text": "I grew up in Mount Clemens, Michigan, which is about 20 miles north of Detroit. It was where I attended high school before working at Detroit Edison Company and later joining the United States Cadet Nurse Corps. Returning to my high school for private chemistry lessons was part of my preparation for nursing school, showing how my roots in Mount Clemens helped shape my career path.",
+    "implicit_text": "I grew up in a small city about 20 miles north of Detroit, Michigan. It was where I attended high school before working at the electrical utility company and later joining the wartime nursing training program. Returning to my high school for private chemistry lessons was part of my preparation for nursing school, showing how my roots in that city helped shape my career path.",
+    "cues": [
+      "birthplace",
+      "high school",
+      "20 miles north of Detroit",
+      "chemistry lessons"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_Martha_Shipp.yaml"
+  },
+  {
+    "entity_id": 10,
+    "entity": "Detroit",
+    "explicit_text": "Detroit was central to my early adult life and nursing training. I worked at Detroit Edison Company before entering the United States Cadet Nurse Corps, and I trained at Harper Hospital in Detroit. The city had several large hospitals with training programs, including Henry Ford Hospital where a friend trained. Detroit also hosted reunions for our nurse corps group, reflecting the strong community we built there.",
+    "implicit_text": "This major Midwestern city was central to my early adult life and nursing training. I worked at the electrical utility company before entering the wartime nursing training program, and I trained at a prominent hospital there. The city had several large hospitals with training programs, including another well-known hospital where a friend trained. The city also hosted reunions for our nurse corps group, reflecting the strong community we built there.",
+    "cues": [
+      "Detroit Edison Company",
+      "Harper Hospital",
+      "Henry Ford Hospital",
+      "nurse training",
+      "reunions"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_Martha_Shipp.yaml"
+  },
+  {
+    "entity_id": 11,
+    "entity": "Henry Ford Hospital",
+    "explicit_text": "Henry Ford Hospital in Detroit was one of the major hospitals that had a United States Cadet Nurse Corps training program, similar to where I trained at Harper Hospital. Although I did not train there myself, a friend of mine completed her training at Henry Ford Hospital. It was part of the network of large Detroit hospitals that supported the wartime nursing effort.",
+    "implicit_text": "A major hospital in the same Midwestern city was one of the key sites for the wartime nursing training program, similar to where I trained at a different hospital. Although I did not train there myself, a friend of mine completed her training at that hospital. It was part of the network of large city hospitals that supported the wartime nursing effort.",
+    "cues": [
+      "Detroit",
+      "Cadet Nurse Corps training",
+      "peer training site"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_Martha_Shipp.yaml"
+  },
+  {
+    "entity_id": 12,
+    "entity": "Indianapolis",
+    "explicit_text": "Indianapolis was one of the cities with a veterans hospital where Cadet Nurse Corps trainees could be assigned for their veteran nursing experience. While I was sent to Hines Veterans Hospital near Maywood, Illinois, I know that some of my classmates were sent to Indianapolis. These placements were part of a national system to provide nursing care to veterans across the United States.",
+    "implicit_text": "A Midwestern city known for its veterans hospital was one of the locations where trainees in the wartime nursing program could be assigned for veteran nursing experience. While I was sent to a veterans hospital near a Chicago suburb, I know that some of my classmates were sent to this city. These placements were part of a national system to provide nursing care to veterans across the United States.",
+    "cues": [
+      "veterans hospital",
+      "Cadet Nurse Corps assignments",
+      "veteran care",
+      "national placements"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_Martha_Shipp.yaml"
+  },
+  {
+    "entity_id": 13,
+    "entity": "Colorado",
+    "explicit_text": "After completing my required service at Hines Veterans Hospital and returning briefly to Harper Hospital, I took a nursing position in Colorado. This move was unrelated to veterans' care but allowed me to continue my nursing career in a new location. It marked a new chapter for me after my wartime and immediate postwar nursing experiences in the Midwest.",
+    "implicit_text": "After completing my required service at the veterans hospital near Chicago and returning briefly to the Detroit hospital, I took a nursing position in a western state known for its mountains. This move was unrelated to veterans' care but allowed me to continue my nursing career in a new location. It marked a new chapter for me after my wartime and immediate postwar nursing experiences in the Midwest.",
+    "cues": [
+      "post-Hines Hospital",
+      "nursing career",
+      "new location",
+      "not veterans related"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_Martha_Shipp.yaml"
+  },
+  {
+    "entity_id": 14,
+    "entity": "Pueblo, Colorado",
+    "explicit_text": "I worked in Pueblo, Colorado after finishing my nursing training and service in Illinois. This was part of my continued nursing career outside of the veterans’ hospital system. Moving to Pueblo represented a fresh start in a different part of the country following my formative years in the Midwest during and after World War II.",
+    "implicit_text": "I worked in a city in southern Colorado after finishing my nursing training and service in Illinois. This was part of my continued nursing career outside of the veterans’ hospital system. Moving to this city represented a fresh start in a different part of the country following my formative years in the Midwest during and after World War II.",
+    "cues": [
+      "post-training job",
+      "nursing career",
+      "Pueblo, Colorado",
+      "postwar period"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_Martha_Shipp.yaml"
+  },
+  {
+    "entity_id": 15,
+    "entity": "Army",
+    "explicit_text": "During World War II, many registered nurses joined the Army or Navy, which created a shortage of nurses at home. My sisters worked in automobile factories making parts for the Army and Navy, supporting the war effort on the home front. Although I was in the United States Cadet Nurse Corps and did not serve overseas or in the Army directly, the Army’s needs influenced the creation of the Corps and my training.",
+    "implicit_text": "During the global conflict of the early 1940s, many registered nurses joined the Army or Navy, which created a shortage of nurses at home. My sisters worked in automobile factories making parts for the military branches, supporting the war effort on the home front. Although I was in the wartime nursing training program and did not serve overseas or in the Army directly, the Army’s needs influenced the creation of the program and my training.",
+    "cues": [
+      "World War II",
+      "nurse shortage",
+      "sisters’ factory work",
+      "home front support"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_Martha_Shipp.yaml"
+  },
+  {
+    "entity_id": 16,
+    "entity": "Navy",
+    "explicit_text": "Like the Army, the Navy also drew many nurses into service during World War II, contributing to the shortage of nurses in civilian hospitals. My sisters helped by working in factories producing parts for the Navy and Army, supporting the military’s needs. Although I served in the United States Cadet Nurse Corps and did not join the Navy, their demand for nurses was part of the reason the Corps was established.",
+    "implicit_text": "Like the Army, the Navy also drew many nurses into service during the global conflict, contributing to the shortage of nurses in civilian hospitals. My sisters helped by working in factories producing parts for both military branches, supporting their needs. Although I served in the wartime nursing training program and did not join the Navy, their demand for nurses was part of the reason the program was established.",
+    "cues": [
+      "World War II",
+      "nurse shortage",
+      "sisters’ factory work",
+      "military support"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_Martha_Shipp.yaml"
+  }
+]

@@ -1,0 +1,273 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "Guadalcanal",
+    "explicit_text": "Many of our drill instructors at boot camp had been on Guadalcanal, and they would tell us sea stories that would curl your hair. Hearing about their experiences made me eager to get my rifle and go fight. Guadalcanal was a tough battle that shaped the Marines who trained us.",
+    "implicit_text": "Many of our drill instructors at boot camp had been on that pivotal Pacific island campaign, and they would tell us sea stories that would curl your hair. Hearing about their experiences made me eager to get my rifle and go fight. That tough battle shaped the Marines who trained us.",
+    "cues": [
+      "boot camp",
+      "drill instructors",
+      "sea stories",
+      "World War II"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\nevada_wwii_Charles_Harton.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "M-1 rifle",
+    "explicit_text": "We were one of the first platoons to get an M-1 rifle, which actually made us mad because we wanted the M1903 Springfield instead. The M-1 was new to us, and we envied the guys who had the '03 during boot camp. Later, as a rifle coach at Camp Mathews, I got really good with the M-1, even mastering off-hand shooting techniques.",
+    "implicit_text": "We were one of the first platoons to get the new semi-automatic service rifle, which actually made us mad because we wanted the older bolt-action Springfield instead. The new rifle was unfamiliar to us, and we envied the guys who had the classic rifle during boot camp. Later, as a rifle coach at the marksmanship training center, I got really good with the semi-automatic, even mastering off-hand shooting techniques.",
+    "cues": [
+      "boot camp",
+      "early issue",
+      "Camp Mathews",
+      "rifle coach",
+      "World War II"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\nevada_wwii_Charles_Harton.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "M1903 Springfield",
+    "explicit_text": "During boot camp, we envied the guys who had the M1903 Springfield rifle because it was considered the classic Marine rifle. We wanted to be salty and talk about going through boot camp with the '03, but instead we got the newer M-1 rifle. It was a point of pride and tradition among Marines.",
+    "implicit_text": "During boot camp, we envied the guys who had the classic bolt-action rifle because it was considered the traditional Marine rifle. We wanted to be salty and talk about going through boot camp with that rifle, but instead we got the newer semi-automatic service rifle. It was a point of pride and tradition among Marines.",
+    "cues": [
+      "boot camp",
+      "rifle preference",
+      "Marine Corps tradition",
+      "World War II"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\nevada_wwii_Charles_Harton.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "Camp Mathews",
+    "explicit_text": "After boot camp, I was sent to Camp Mathews because I was a good shot. I worked as a rifle range coach there for about six months, which was great duty since I was the boss and got to teach others to shoot well. It also improved my own marksmanship significantly.",
+    "implicit_text": "After boot camp, I was sent to the marksmanship training center because I was a good shot. I worked as a rifle range coach there for about six months, which was great duty since I was the boss and got to teach others to shoot well. It also improved my own marksmanship significantly.",
+    "cues": [
+      "post-boot camp",
+      "rifle range coach",
+      "six months",
+      "training"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\nevada_wwii_Charles_Harton.yaml"
+  },
+  {
+    "entity_id": 5,
+    "entity": "Camp Pendleton",
+    "explicit_text": "I was stationed at Camp Pendleton after Camp Mathews, where one of the big things to do was stealing jeeps for fun. One time, after getting stuck in the mountains, we were caught and spent a tough weekend in the brig. It was also where the 4th Marine Division formed before we shipped out to the Pacific.",
+    "implicit_text": "I was stationed at the large West Coast Marine base after the marksmanship center, where one of the big things to do was stealing jeeps for fun. One time, after getting stuck in the mountains, we were caught and spent a tough weekend in the brig. It was also where the 4th Marine Division formed before we shipped out to the Pacific.",
+    "cues": [
+      "post-training",
+      "jeep stealing",
+      "brig experience",
+      "4th Marine Division",
+      "World War II"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\nevada_wwii_Charles_Harton.yaml"
+  },
+  {
+    "entity_id": 6,
+    "entity": "United States Marine Corps",
+    "explicit_text": "Joining the United States Marine Corps was a life-changing experience, especially boot camp, which was mentally and physically grueling. The Corps prepared us quickly for combat, with many veterans of Guadalcanal as drill instructors. I served with the 4th Marine Division and fought in major Pacific battles like Saipan and Tinian.",
+    "implicit_text": "Joining the Marine Corps was a life-changing experience, especially boot camp, which was mentally and physically grueling. The Corps prepared us quickly for combat, with many veterans of that early Pacific island campaign as drill instructors. I served with the 4th Marine Division and fought in major Pacific battles like Saipan and Tinian.",
+    "cues": [
+      "boot camp",
+      "Guadalcanal veterans",
+      "4th Marine Division",
+      "Pacific Theater",
+      "World War II"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\nevada_wwii_Charles_Harton.yaml"
+  },
+  {
+    "entity_id": 7,
+    "entity": "4th Marine Division",
+    "explicit_text": "I was part of the 4th Marine Division, which formed at Camp Pendleton and went straight into combat in the Pacific. We made amphibious landings in the Marshall Islands, then trained hard on Maui before fighting at Saipan and Tinian. The division was well drilled and coordinated with the Navy for landing operations.",
+    "implicit_text": "I was part of the division that formed at the large West Coast base and went straight into combat in the Pacific. We made amphibious landings in the central Pacific islands, then trained hard on Maui before fighting at Saipan and Tinian. The division was well drilled and coordinated with the Navy for landing operations.",
+    "cues": [
+      "Camp Pendleton",
+      "Marshall Islands",
+      "Maui",
+      "Saipan",
+      "Tinian",
+      "amphibious landings"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\nevada_wwii_Charles_Harton.yaml"
+  },
+  {
+    "entity_id": 8,
+    "entity": "Marshall Islands",
+    "explicit_text": "Our 4th Marine Division made an amphibious landing in the Marshall Islands early in the campaign. The advance party set things up on Maui, and the main and rear echelons followed. I was in the rear echelon and didn’t make the initial landing, but it was a key stepping stone in the Pacific war.",
+    "implicit_text": "Our division made an amphibious landing in the central Pacific island group early in the campaign. The advance party set things up on Maui, and the main and rear echelons followed. I was in the rear echelon and didn’t make the initial landing, but it was a key stepping stone in the Pacific war.",
+    "cues": [
+      "4th Marine Division",
+      "amphibious landing",
+      "Maui",
+      "Pacific Theater",
+      "World War II"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\nevada_wwii_Charles_Harton.yaml"
+  },
+  {
+    "entity_id": 9,
+    "entity": "Maui",
+    "explicit_text": "Maui was where the advance party of our division prepared for the upcoming battles, setting up training and logistics. The main force and rear echelon joined later, and we trained extensively there for the assaults on Saipan and Tinian. Maui was a crucial staging ground in the Pacific campaign.",
+    "implicit_text": "That Hawaiian island was where the advance party of our division prepared for the upcoming battles, setting up training and logistics. The main force and rear echelon joined later, and we trained extensively there for the assaults on Saipan and Tinian. It was a crucial staging ground in the Pacific campaign.",
+    "cues": [
+      "advance party",
+      "training",
+      "Saipan",
+      "Tinian",
+      "Pacific Theater"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\nevada_wwii_Charles_Harton.yaml"
+  },
+  {
+    "entity_id": 10,
+    "entity": "Saipan",
+    "explicit_text": "The Battle of Saipan was intense and brutal. We landed under heavy artillery fire and had to move quickly off the beach. After securing the island, we witnessed horrific mass suicides by Japanese soldiers and civilians at Marpi Point. Saipan was the first Japanese territory captured, and it was a turning point in the war.",
+    "implicit_text": "The battle on that Mariana island was intense and brutal. We landed under heavy artillery fire and had to move quickly off the beach. After securing the island, we witnessed horrific mass suicides by Japanese soldiers and civilians at Marpi Point. It was the first Japanese territory captured, and it was a turning point in the war.",
+    "cues": [
+      "Battle of Saipan",
+      "amphibious landing",
+      "artillery fire",
+      "Marpi Point",
+      "mass suicides",
+      "Pacific Theater"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\nevada_wwii_Charles_Harton.yaml"
+  },
+  {
+    "entity_id": 11,
+    "entity": "Tinian",
+    "explicit_text": "About two weeks after Saipan, we landed on Tinian aboard LSTs. The operation was very smooth because everyone knew their roles perfectly. Tinian was close to Saipan, and the experience there was more organized and efficient compared to earlier battles.",
+    "implicit_text": "About two weeks after Saipan, we landed on the nearby island aboard landing ships. The operation was very smooth because everyone knew their roles perfectly. It was close to Saipan, and the experience there was more organized and efficient compared to earlier battles.",
+    "cues": [
+      "landing",
+      "LST",
+      "two weeks after Saipan",
+      "Pacific Theater",
+      "World War II"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\nevada_wwii_Charles_Harton.yaml"
+  },
+  {
+    "entity_id": 12,
+    "entity": "Pearl Harbor",
+    "explicit_text": "Before heading to Saipan, we stopped at Pearl Harbor for a bit of liberty. Our ship tied up alongside the sunken USS Oklahoma, with the USS Arizona behind us. We even climbed around inside the Oklahoma’s compartments, where they were still recovering remains, which was a sobering experience just before going into combat.",
+    "implicit_text": "Before heading to Saipan, we stopped at the naval base in Hawaii for a bit of liberty. Our ship tied up alongside the sunken battleship Oklahoma, with the Arizona behind us. We even climbed around inside the Oklahoma’s compartments, where they were still recovering remains, which was a sobering experience just before going into combat.",
+    "cues": [
+      "stopover",
+      "liberty",
+      "USS Oklahoma",
+      "USS Arizona",
+      "remains recovery",
+      "World War II"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\nevada_wwii_Charles_Harton.yaml"
+  },
+  {
+    "entity_id": 13,
+    "entity": "USS Oklahoma (BB-37)",
+    "explicit_text": "At Pearl Harbor, our ship tied up alongside the sunken USS Oklahoma. We were able to go down gangways onto the Oklahoma and even climb inside its compartments. It was eerie because they were still finding and recovering remains from the attack, which really brought home the cost of war.",
+    "implicit_text": "At the naval base in Hawaii, our ship tied up alongside the sunken battleship Oklahoma. We were able to go down gangways onto the Oklahoma and even climb inside its compartments. It was eerie because they were still finding and recovering remains from the attack, which really brought home the cost of war.",
+    "cues": [
+      "Pearl Harbor",
+      "sunken battleship",
+      "remains recovery",
+      "World War II"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\nevada_wwii_Charles_Harton.yaml"
+  },
+  {
+    "entity_id": 14,
+    "entity": "USS Arizona (BB-39)",
+    "explicit_text": "While at Pearl Harbor, the USS Arizona was visible behind our ship. It remained sunken and a stark reminder of the attack. Being near the Arizona and Oklahoma before heading into combat made the war feel very real and personal.",
+    "implicit_text": "While at the naval base in Hawaii, the sunken battleship Arizona was visible behind our ship. It remained sunken and a stark reminder of the attack. Being near the Arizona and Oklahoma before heading into combat made the war feel very real and personal.",
+    "cues": [
+      "Pearl Harbor",
+      "sunken battleship",
+      "World War II"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\nevada_wwii_Charles_Harton.yaml"
+  },
+  {
+    "entity_id": 15,
+    "entity": "Ford Island",
+    "explicit_text": "Ford Island was near where we docked at Pearl Harbor, connected by gangways from the sunken Oklahoma. It was part of the harbor area that had been attacked, and seeing it up close was a sobering experience before we went on to fight in the Pacific.",
+    "implicit_text": "That island in the middle of the harbor was near where we docked at the naval base in Hawaii, connected by gangways from the sunken Oklahoma. It was part of the harbor area that had been attacked, and seeing it up close was a sobering experience before we went on to fight in the Pacific.",
+    "cues": [
+      "Pearl Harbor",
+      "near USS Oklahoma",
+      "World War II"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\nevada_wwii_Charles_Harton.yaml"
+  },
+  {
+    "entity_id": 16,
+    "entity": "Battle of Saipan",
+    "explicit_text": "I fought in the Battle of Saipan as part of the 4th Marine Division. We landed under heavy artillery fire and had to move quickly off the beach to survive. After securing the island, we witnessed the tragic mass suicides of Japanese soldiers and civilians, which was a haunting experience. Saipan was a pivotal battle in the Pacific campaign.",
+    "implicit_text": "I fought in the intense battle on the Mariana island as part of the 4th Marine Division. We landed under heavy artillery fire and had to move quickly off the beach to survive. After securing the island, we witnessed the tragic mass suicides of Japanese soldiers and civilians, which was a haunting experience. It was a pivotal battle in the Pacific campaign.",
+    "cues": [
+      "amphibious landing",
+      "artillery fire",
+      "mass suicides",
+      "Pacific Theater",
+      "World War II"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\nevada_wwii_Charles_Harton.yaml"
+  },
+  {
+    "entity_id": 17,
+    "entity": "Battle of Tinian",
+    "explicit_text": "The Battle of Tinian followed shortly after Saipan, and we landed aboard LSTs. The operation was very well executed because everyone knew exactly what to do. It was a slick, efficient battle compared to some of the earlier ones, and it helped us secure another key island in the Pacific.",
+    "implicit_text": "The battle on the nearby island followed shortly after Saipan, and we landed aboard landing ships. The operation was very well executed because everyone knew exactly what to do. It was a slick, efficient battle compared to some of the earlier ones, and it helped us secure another key island in the Pacific.",
+    "cues": [
+      "landing",
+      "LST",
+      "two weeks after Saipan",
+      "Pacific Theater",
+      "World War II"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\nevada_wwii_Charles_Harton.yaml"
+  },
+  {
+    "entity_id": 18,
+    "entity": "Battle of Iwo Jima",
+    "explicit_text": "The transcript doesn’t mention my personal experience with the Battle of Iwo Jima, so I can’t speak directly about it. However, it was one of the major battles in the Pacific after Saipan and Tinian. Many Marines fought there, and it was known for its fierce combat.",
+    "implicit_text": "The transcript doesn’t mention my personal experience with the famous volcanic island battle, so I can’t speak directly about it. However, it was one of the major battles in the Pacific after Saipan and Tinian. Many Marines fought there, and it was known for its fierce combat.",
+    "cues": [
+      "major Pacific battle",
+      "post-Saipan and Tinian",
+      "World War II"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\nevada_wwii_Charles_Harton.yaml"
+  },
+  {
+    "entity_id": 19,
+    "entity": "Barrett M82",
+    "explicit_text": "The Barrett M82 wasn’t mentioned in my experiences during World War II. My focus was on weapons like the M-1 rifle and the BAR during the island campaigns. The Barrett M82 is a more modern weapon that came long after my time.",
+    "implicit_text": "The long-range anti-materiel rifle wasn’t mentioned in my experiences during World War II. My focus was on weapons like the semi-automatic service rifle and the Browning Automatic Rifle during the island campaigns. That weapon is a more modern one that came long after my time.",
+    "cues": [
+      "not mentioned",
+      "modern weapon",
+      "post-World War II"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\nevada_wwii_Charles_Harton.yaml"
+  },
+  {
+    "entity_id": 20,
+    "entity": "LST",
+    "explicit_text": "We used LSTs to land on Tinian after Saipan. These landing ships were essential for amphibious operations, allowing us to get men and equipment onto the beaches efficiently. Riding in those boats was tough, with diesel exhaust and seasickness, but they were crucial to our success.",
+    "implicit_text": "We used landing ship tanks to land on Tinian after Saipan. These landing ships were essential for amphibious operations, allowing us to get men and equipment onto the beaches efficiently. Riding in those boats was tough, with diesel exhaust and seasickness, but they were crucial to our success.",
+    "cues": [
+      "landing ship",
+      "Tinian",
+      "amphibious operations",
+      "Pacific Theater",
+      "World War II"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\nevada_wwii_Charles_Harton.yaml"
+  }
+]

@@ -1,0 +1,268 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "Japan",
+    "explicit_text": "I was born in Japan in 1899, specifically in Wakayama Prefecture. My early life there was in a quiet village, and I attended elementary school and later Meisei Business School in Osaka. Japan was where my family roots were, and it was also where my father returned after his first trip abroad before coming back to the United States. I remember some of the historical events like the Russo-Japanese War during my childhood in Japan.",
+    "implicit_text": "I was born in 1899 in a quiet village within a coastal prefecture known for its mountains and temples. My early life was spent there, attending elementary school and later a business school in a major commercial city nearby. My family roots were deeply tied to this region, and it was also where my father returned after his first trip abroad before coming back to the United States. I remember some historical events like the war between Russia and my homeland during my childhood in that area.",
+    "cues": [
+      "born 1899",
+      "Wakayama Prefecture",
+      "Meisei Business School",
+      "Russo-Japanese War",
+      "Osaka"
+    ],
+    "transcript_ref": "japanese_american\\densho_densho_Oral_history_transcription_of_Masao_Nishimi.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "Wakayama Prefecture",
+    "explicit_text": "I come from Wakayama Prefecture in Japan, a quiet village where I grew up with my brothers and sisters. My father was a shrine carpenter there, and my family had some connection to cargo boats from Osaka. The village was small with limited job opportunities, which was part of the reason my father sought work abroad. Many people from our village eventually formed the Tawara Villagers' Association here in the United States.",
+    "implicit_text": "I come from a quiet village in a coastal prefecture in my home country, where I grew up with my brothers and sisters. My father worked as a shrine carpenter there, and my family had connections to cargo boats operating out of a nearby large port city. The village was small with limited job opportunities, which was part of the reason my father sought work abroad. Many people from our village eventually formed a community association here in the United States.",
+    "cues": [
+      "quiet village",
+      "shrine carpenter",
+      "limited jobs",
+      "Tawara Villagers' Association",
+      "family"
+    ],
+    "transcript_ref": "japanese_american\\densho_densho_Oral_history_transcription_of_Masao_Nishimi.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "Australia",
+    "explicit_text": "My father first went to Australia before coming to the United States. He waited there for a chance to get a job on an American military boat. Australia was a stepping stone for him before he reached San Francisco, where he eventually landed and started working. I don't have many details about his time in Australia, but it was part of his journey to the U.S.",
+    "implicit_text": "My father first went to a country known for its vast outback and unique wildlife before coming to the United States. He waited there for a chance to get a job on an American military boat. That country was a stepping stone for him before he reached a major West Coast city, where he eventually landed and started working. I don't have many details about his time there, but it was part of his journey to the U.S.",
+    "cues": [
+      "father's journey",
+      "waiting for job",
+      "American military boat",
+      "before San Francisco",
+      "early 1890s"
+    ],
+    "transcript_ref": "japanese_american\\densho_densho_Oral_history_transcription_of_Masao_Nishimi.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "San Francisco",
+    "explicit_text": "San Francisco was the place where my father finally landed after coming from Australia. He swam from the military boat anchored offshore to the pier and found his way to the Japanese community on Fourth Street. He worked for the railroad company there as a repairman and even recuperated at San Pedro Hospital for beriberi. San Francisco was the first U.S. city my father settled in before returning to Japan and then coming back again.",
+    "implicit_text": "A major West Coast city was where my father finally landed after coming from the country down under. He swam from the military boat anchored offshore to the pier and found his way to the local community on Fourth Street. He worked for the railroad company there as a repairman and even recuperated at a hospital for beriberi. That city was the first U.S. place my father settled in before returning to his homeland and then coming back again.",
+    "cues": [
+      "father's landing",
+      "swam to pier",
+      "Fourth Street",
+      "railroad company",
+      "San Pedro Hospital"
+    ],
+    "transcript_ref": "japanese_american\\densho_densho_Oral_history_transcription_of_Masao_Nishimi.yaml"
+  },
+  {
+    "entity_id": 5,
+    "entity": "San Pedro Hospital",
+    "explicit_text": "My father was treated at San Pedro Hospital in San Francisco when he suffered from beriberi. He stayed there for a while to recuperate before returning to Japan. I know this because my family talked about his illness and recovery during his early years in the United States. San Pedro Hospital was an important place for his health during that difficult time.",
+    "implicit_text": "My father was treated at a hospital in that West Coast city when he suffered from beriberi. He stayed there for a while to recuperate before returning to his home country. I know this because my family talked about his illness and recovery during his early years in the United States. That hospital was an important place for his health during that difficult time.",
+    "cues": [
+      "father's illness",
+      "beriberi",
+      "San Francisco",
+      "recovery",
+      "early 1890s"
+    ],
+    "transcript_ref": "japanese_american\\densho_densho_Oral_history_transcription_of_Masao_Nishimi.yaml"
+  },
+  {
+    "entity_id": 6,
+    "entity": "Osaka",
+    "explicit_text": "I attended Meisei Business School in Osaka, which was a Catholic school. My mother's family had business ties connected to cargo boats from Osaka, like the Tenyo-Maru. Osaka was a significant city for my education and family business background. Also, my mother's younger brother went to a pharmacy school in Osaka before he passed away.",
+    "implicit_text": "I attended a business school in a large commercial city known for its vibrant port and industrial activity. It was a Catholic school. My mother's family had business ties connected to cargo boats from that city, like one called Tenyo-Maru. That city was significant for my education and family business background. Also, my mother's younger brother went to a pharmacy school there before he passed away.",
+    "cues": [
+      "Meisei Business School",
+      "Catholic school",
+      "family cargo boats",
+      "Tenyo-Maru",
+      "pharmacy school"
+    ],
+    "transcript_ref": "japanese_american\\densho_densho_Oral_history_transcription_of_Masao_Nishimi.yaml"
+  },
+  {
+    "entity_id": 7,
+    "entity": "Kaiyo-Maru",
+    "explicit_text": "Kaiyo-Maru was one of the cargo boats connected to my mother's family business in Japan. Although I was more familiar with the Tenyo-Maru, I knew about Kaiyo-Maru when I was little. These boats transported cargo between Osaka and other places, playing a role in my family's livelihood back home. They represented the kind of business my mother's family was involved in before we moved abroad.",
+    "implicit_text": "One of the cargo boats connected to my mother's family business was known as Kaiyo-Maru. Although I was more familiar with another ship, I knew about this one when I was little. These boats transported cargo between the large commercial city and other places, playing a role in my family's livelihood back home. They represented the kind of business my mother's family was involved in before we moved abroad.",
+    "cues": [
+      "family cargo boats",
+      "mother's family business",
+      "cargo transport",
+      "Osaka",
+      "childhood knowledge"
+    ],
+    "transcript_ref": "japanese_american\\densho_densho_Oral_history_transcription_of_Masao_Nishimi.yaml"
+  },
+  {
+    "entity_id": 8,
+    "entity": "Tenyo-Maru",
+    "explicit_text": "The Tenyo-Maru was a cargo ship that my mother's family owned or operated in Japan. It sailed routes involving Osaka and was part of the family's business activities. I remember hearing about it when I was young, and it symbolized the kind of transport business my family was involved in before I came to the United States. It was a significant part of my family's history in Japan.",
+    "implicit_text": "The Tenyo-Maru was a cargo ship that my mother's family owned or operated in my home country. It sailed routes involving the large port city and was part of the family's business activities. I remember hearing about it when I was young, and it symbolized the kind of transport business my family was involved in before I came to the United States. It was a significant part of my family's history back home.",
+    "cues": [
+      "cargo ship",
+      "family business",
+      "Osaka",
+      "childhood memories",
+      "transport routes"
+    ],
+    "transcript_ref": "japanese_american\\densho_densho_Oral_history_transcription_of_Masao_Nishimi.yaml"
+  },
+  {
+    "entity_id": 9,
+    "entity": "Meisei Business School",
+    "explicit_text": "I attended Meisei Business School in Osaka, which was a Catholic institution. I chose to go there because I was interested in business, influenced by my mother's business-minded nature. However, my father stopped sending money for my tuition, and my elder brother encouraged me to come to the United States instead. Meisei Business School was where I nurtured my early ambitions before leaving Japan.",
+    "implicit_text": "I attended a Catholic business school in the large commercial city known for its port. I chose to go there because I was interested in business, influenced by my mother's business-minded nature. However, my father stopped sending money for my tuition, and my elder brother encouraged me to come to the United States instead. That school was where I nurtured my early ambitions before leaving my home country.",
+    "cues": [
+      "business school",
+      "Osaka",
+      "Catholic school",
+      "father stopped tuition",
+      "early 1910s"
+    ],
+    "transcript_ref": "japanese_american\\densho_densho_Oral_history_transcription_of_Masao_Nishimi.yaml"
+  },
+  {
+    "entity_id": 10,
+    "entity": "Catholic Church",
+    "explicit_text": "The Meisei Business School I attended in Osaka was a Catholic school, so I was exposed to the Catholic Church through my education. Although I didn't speak much about religion, the school's affiliation meant that Catholic teachings were part of the environment. It was part of my school experience in Japan before I came to the United States.",
+    "implicit_text": "The business school I attended in the large commercial city was a Catholic institution, so I was exposed to Catholic teachings through my education. Although I didn't speak much about religion, the school's affiliation meant that Catholic values were part of the environment. It was part of my school experience before I came to the United States.",
+    "cues": [
+      "Meisei Business School",
+      "Osaka",
+      "Catholic school",
+      "education",
+      "early 1910s"
+    ],
+    "transcript_ref": "japanese_american\\densho_densho_Oral_history_transcription_of_Masao_Nishimi.yaml"
+  },
+  {
+    "entity_id": 11,
+    "entity": "Tawara Villagers' Association",
+    "explicit_text": "The Tawara Villagers' Association was formed here in the United States by people from my home village in Wakayama Prefecture. Almost every family from the village had at least one person who came to the U.S., and the association helped maintain connections among us. It was a way to keep our community ties alive despite being far from home. I was aware of this group as part of the immigrant experience of my village people.",
+    "implicit_text": "A community association was formed here in the United States by people from my home village in that coastal prefecture. Almost every family from the village had at least one person who came to the U.S., and the association helped maintain connections among us. It was a way to keep our community ties alive despite being far from home. I was aware of this group as part of the immigrant experience of my village people.",
+    "cues": [
+      "immigrant association",
+      "Wakayama village",
+      "community ties",
+      "United States",
+      "family connections"
+    ],
+    "transcript_ref": "japanese_american\\densho_densho_Oral_history_transcription_of_Masao_Nishimi.yaml"
+  },
+  {
+    "entity_id": 12,
+    "entity": "Sino-Japanese War",
+    "explicit_text": "I was asked about the Sino-Japanese War, but I think the Russo-Japanese War happened when I was little. I don't recall much about the Sino-Japanese War itself. The wars were part of the historical backdrop of my early years in Japan, but I was too young to have clear memories of them.",
+    "implicit_text": "I was asked about the war between China and my country, but I think the war with Russia happened when I was little. I don't recall much about the earlier conflict itself. The wars were part of the historical backdrop of my early years, but I was too young to have clear memories of them.",
+    "cues": [
+      "early 1900s",
+      "childhood",
+      "historical wars",
+      "Japan",
+      "Russo-Japanese War"
+    ],
+    "transcript_ref": "japanese_american\\densho_densho_Oral_history_transcription_of_Masao_Nishimi.yaml"
+  },
+  {
+    "entity_id": 13,
+    "entity": "Russo-Japanese War",
+    "explicit_text": "The Russo-Japanese War took place when I was a child, and I remember participating in a lantern procession during that time. It was one of the significant events during my early years in Japan. Although I was young, the war was part of the atmosphere in my village and country. It left an impression on me as a notable historical event from my childhood.",
+    "implicit_text": "The war with Russia took place when I was a child, and I remember participating in a lantern procession during that time. It was one of the significant events during my early years in my home country. Although I was young, the war was part of the atmosphere in my village and nation. It left an impression on me as a notable historical event from my childhood.",
+    "cues": [
+      "childhood",
+      "lantern procession",
+      "early 1900s",
+      "Japan",
+      "historical event"
+    ],
+    "transcript_ref": "japanese_american\\densho_densho_Oral_history_transcription_of_Masao_Nishimi.yaml"
+  },
+  {
+    "entity_id": 14,
+    "entity": "Hawaii",
+    "explicit_text": "When I came to the United States at age sixteen in 1916, I stopped overnight in Hawaii. I stayed at a Japanese-run hotel, which was modest but welcoming. There was a misunderstanding where some people thought I was an alien or a thief, but once they realized I spoke Japanese, they understood. Hawaii was a brief but memorable stop on my journey to the mainland U.S.",
+    "implicit_text": "When I came to the United States at age sixteen in 1916, I stopped overnight in a Pacific island territory known for its tropical climate and Japanese-run businesses. I stayed at a modest but welcoming hotel operated by people from my homeland. There was a misunderstanding where some thought I was an alien or a thief, but once they realized I spoke my native language, they understood. That place was a brief but memorable stop on my journey to the mainland U.S.",
+    "cues": [
+      "1916",
+      "overnight stop",
+      "Japanese hotel",
+      "misunderstanding",
+      "travel to U.S."
+    ],
+    "transcript_ref": "japanese_american\\densho_densho_Oral_history_transcription_of_Masao_Nishimi.yaml"
+  },
+  {
+    "entity_id": 15,
+    "entity": "Kobe",
+    "explicit_text": "I boarded the ship called Shugyo-Maru at Kobe when I left Japan for the United States. Kobe was the port city where my journey began, and I remember buying fruit there before boarding. It was the starting point of my long voyage across the Pacific. Kobe was important as the place where I left Japan to join my family in America.",
+    "implicit_text": "I boarded a ship called Shugyo-Maru at a port city famous for its international trade and as a gateway to the Pacific when I left my home country for the United States. That city was where my journey began, and I remember buying fruit there before boarding. It was the starting point of my long voyage across the ocean. That port city was important as the place where I left my homeland to join my family in America.",
+    "cues": [
+      "boarding ship",
+      "Shugyo-Maru",
+      "port city",
+      "fruit purchase",
+      "departure point"
+    ],
+    "transcript_ref": "japanese_american\\densho_densho_Oral_history_transcription_of_Masao_Nishimi.yaml"
+  },
+  {
+    "entity_id": 16,
+    "entity": "Shugyo-Maru",
+    "explicit_text": "The Shugyo-Maru was the ship I took from Kobe to Yokohama on my way to the United States. During the trip, I experienced some incidents, like having my fruit stolen on board and noticing changes to the ship's entrances. The ship also had a shop where passengers could buy goods, though it wasn't compulsory. Shugyo-Maru was part of my first journey abroad as a young man.",
+    "implicit_text": "The Shugyo-Maru was the ship I took from the port city to another major port on my way to the United States. During the trip, I experienced some incidents, like having my fruit stolen on board and noticing changes to the ship's entrances. The ship also had a shop where passengers could buy goods, though it wasn't compulsory. That ship was part of my first journey abroad as a young man.",
+    "cues": [
+      "ship",
+      "Kobe to Yokohama",
+      "fruit stolen",
+      "ship shop",
+      "early 1910s"
+    ],
+    "transcript_ref": "japanese_american\\densho_densho_Oral_history_transcription_of_Masao_Nishimi.yaml"
+  },
+  {
+    "entity_id": 17,
+    "entity": "Yokohama",
+    "explicit_text": "After boarding at Kobe, the ship arrived at Yokohama, where I left my belongings on board and went to Tokyo to visit a relative. Yokohama was a key port city in my journey to the United States. Although I got lost in Tokyo and couldn't meet my relative, I returned to Yokohama to continue my voyage. Yokohama was an important stop before I finally left Japan.",
+    "implicit_text": "After boarding at the first port city, the ship arrived at another key port where I left my belongings on board and went to the capital city to visit a relative. That port was a key stop in my journey to the United States. Although I got lost in the capital and couldn't meet my relative, I returned to the port to continue my voyage. That city was an important stop before I finally left my home country.",
+    "cues": [
+      "arrival port",
+      "left belongings",
+      "Tokyo visit",
+      "early 1910s",
+      "departure"
+    ],
+    "transcript_ref": "japanese_american\\densho_densho_Oral_history_transcription_of_Masao_Nishimi.yaml"
+  },
+  {
+    "entity_id": 18,
+    "entity": "Tokyo",
+    "explicit_text": "I went to Tokyo from Yokohama to see a relative who was a senior at a pharmacy school. Unfortunately, I got lost and couldn't find him despite asking a policeman for directions. Tokyo was a big and confusing city for me at that time. After failing to meet my relative, I returned to Yokohama to continue my journey to the United States.",
+    "implicit_text": "I went to the capital city from the port to see a relative who was a senior at a pharmacy school. Unfortunately, I got lost and couldn't find him despite asking a policeman for directions. The capital was a big and confusing city for me at that time. After failing to meet my relative, I returned to the port to continue my journey to the United States.",
+    "cues": [
+      "visit relative",
+      "pharmacy school",
+      "got lost",
+      "early 1910s",
+      "Tokyo experience"
+    ],
+    "transcript_ref": "japanese_american\\densho_densho_Oral_history_transcription_of_Masao_Nishimi.yaml"
+  },
+  {
+    "entity_id": 19,
+    "entity": "Angel Island",
+    "explicit_text": "Although not explicitly detailed, Angel Island was likely part of the immigration process when I arrived in the United States. Many Japanese immigrants passed through Angel Island as they entered the country. It was part of the journey for people like me coming from Japan during that era. Angel Island represents the gateway for many immigrants seeking new lives in America.",
+    "implicit_text": "Although not explicitly detailed, a Pacific island immigration station was likely part of the process when I arrived in the United States. Many immigrants from my home country passed through that station as they entered the country. It was part of the journey for people like me coming from my homeland during that era. That island represents the gateway for many immigrants seeking new lives in America.",
+    "cues": [
+      "immigration",
+      "entry to U.S.",
+      "Japanese immigrants",
+      "early 1900s",
+      "gateway"
+    ],
+    "transcript_ref": "japanese_american\\densho_densho_Oral_history_transcription_of_Masao_Nishimi.yaml"
+  }
+]

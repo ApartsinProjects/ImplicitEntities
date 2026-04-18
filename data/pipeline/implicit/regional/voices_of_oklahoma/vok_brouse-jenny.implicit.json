@@ -1,0 +1,393 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "Tulsa, Oklahoma",
+    "explicit_text": "I was born in Tulsa, Oklahoma in 1924, though not in a hospital. My father moved to Tulsa around 1914 during the oil boom and worked as a peddler before opening a grocery store called Stop and Shop Market. I grew up there, attending Sidney Lanier Elementary, Woodrow Wilson Junior High, and Central High School. Tulsa was home through my childhood and teenage years, even during the hardships of the Great Depression.",
+    "implicit_text": "I was born in a city in Oklahoma in 1924, though not in a hospital. My father moved there around 1914 during the oil boom and worked as a peddler before opening a grocery store called Stop and Shop Market. I grew up there, attending Sidney Lanier Elementary, Woodrow Wilson Junior High, and Central High School. That city was home through my childhood and teenage years, even during the hardships of the Great Depression.",
+    "cues": [
+      "1924 birth",
+      "oil boom",
+      "Stop and Shop Market",
+      "Sidney Lanier Elementary",
+      "Central High School",
+      "Great Depression"
+    ],
+    "transcript_ref": "regional\\voices_of_oklahoma\\vok_brouse-jenny.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "Oratov",
+    "explicit_text": "My mother, Briana Foonberg, and my father, Harry Robinowitz, were both born in Oratov, a small town in Kiev Governorate, Russia. They lived there before emigrating to the United States. My grandfather managed a sugar beet plantation there, and my parents married young in Oratov. It was a modest but comfortable life until they decided to leave due to the hardships and anti-Semitism.",
+    "implicit_text": "My mother, Briana Foonberg, and my father, Harry Robinowitz, were both born in a small town in the Kiev Governorate region of Russia. They lived there before emigrating to the United States. My grandfather managed a sugar beet plantation there, and my parents married young in that town. It was a modest but comfortable life until they decided to leave due to the hardships and anti-Semitism.",
+    "cues": [
+      "Oratov",
+      "Kiev Governorate",
+      "Russia",
+      "sugar beet plantation",
+      "early 1900s"
+    ],
+    "transcript_ref": "regional\\voices_of_oklahoma\\vok_brouse-jenny.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "Kiev Governorate",
+    "explicit_text": "The Kiev Governorate in Russia was where my parents lived before coming to America. It was part of the Ukraine region, and my family’s life there was centered around the sugar beet plantation my grandfather managed. My parents married there, and my two brothers were born in that area before they emigrated in the early 1920s.",
+    "implicit_text": "The Kiev Governorate in Russia was where my parents lived before coming to America. It was part of the Ukraine region, and my family’s life there was centered around the sugar beet plantation my grandfather managed. My parents married there, and my two brothers were born in that area before they emigrated in the early 1920s.",
+    "cues": [
+      "Kiev Governorate",
+      "Ukraine",
+      "early 1900s",
+      "sugar beet plantation",
+      "family origins"
+    ],
+    "transcript_ref": "regional\\voices_of_oklahoma\\vok_brouse-jenny.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "Russia",
+    "explicit_text": "My family’s roots are in Russia, where my parents were born and married. Life there was difficult, especially because we were Jewish and faced discrimination, like my uncle Jimmy Foonberg’s experience in the Russian Army. It was this hardship and fear that eventually pushed my family to leave Russia in the early 1920s, crossing borders to seek a better life in the United States.",
+    "implicit_text": "My family’s roots are in a large country in Eastern Europe, where my parents were born and married. Life there was difficult, especially because we were Jewish and faced discrimination, like my uncle Jimmy Foonberg’s experience in the army of that country. It was this hardship and fear that eventually pushed my family to leave in the early 1920s, crossing borders to seek a better life in the United States.",
+    "cues": [
+      "early 1900s",
+      "Jewish discrimination",
+      "Russian Army",
+      "emigration",
+      "family hardship"
+    ],
+    "transcript_ref": "regional\\voices_of_oklahoma\\vok_brouse-jenny.yaml"
+  },
+  {
+    "entity_id": 5,
+    "entity": "United States",
+    "explicit_text": "My father came to the United States in 1914, initially settling in Omaha, Nebraska with the help of my aunt who signed an affidavit for him. Later, he moved to Tulsa, Oklahoma, where he worked as a peddler and then opened a grocery store. My mother and brothers joined him in 1922 after a difficult journey from Russia. I was born in the U.S. in 1924, and this country became our home and place of opportunity despite the challenges we faced.",
+    "implicit_text": "My father came to this country in 1914, initially settling in Omaha, Nebraska with the help of my aunt who signed an affidavit for him. Later, he moved to a city in Oklahoma, where he worked as a peddler and then opened a grocery store. My mother and brothers joined him in 1922 after a difficult journey from Russia. I was born here in 1924, and this country became our home and place of opportunity despite the challenges we faced.",
+    "cues": [
+      "1914 immigration",
+      "Omaha, Nebraska",
+      "Tulsa, Oklahoma",
+      "1922 family reunion",
+      "1924 birth"
+    ],
+    "transcript_ref": "regional\\voices_of_oklahoma\\vok_brouse-jenny.yaml"
+  },
+  {
+    "entity_id": 6,
+    "entity": "Omaha, Nebraska",
+    "explicit_text": "Omaha, Nebraska was where my father first stayed when he came to America in 1914. My mother’s oldest sister lived there and signed the affidavit required for my father’s entry into the United States. Although my father eventually moved on to Tulsa, Omaha was an important initial stop for our family’s immigration journey.",
+    "implicit_text": "Omaha, Nebraska was where my father first stayed when he came to America in 1914. My mother’s oldest sister lived there and signed the affidavit required for my father’s entry into the United States. Although my father eventually moved on to Tulsa, Omaha was an important initial stop for our family’s immigration journey.",
+    "cues": [
+      "1914",
+      "father's arrival",
+      "aunt's affidavit",
+      "immigration process"
+    ],
+    "transcript_ref": "regional\\voices_of_oklahoma\\vok_brouse-jenny.yaml"
+  },
+  {
+    "entity_id": 7,
+    "entity": "California",
+    "explicit_text": "During the Great Depression, my mother and I moved to California to live with my aunt because we were broke. We stayed in Santa Monica for a time, where I attended school and was even promoted a half grade. California was a place of refuge during hard times, and I remember experiencing an earthquake while living there. Eventually, we returned to Tulsa when our financial situation improved.",
+    "implicit_text": "During the Great Depression, my mother and I moved to the West Coast to live with my aunt because we were broke. We stayed in Santa Monica for a time, where I attended school and was even promoted a half grade. That state was a place of refuge during hard times, and I remember experiencing an earthquake while living there. Eventually, we returned to Tulsa when our financial situation improved.",
+    "cues": [
+      "Great Depression",
+      "Santa Monica",
+      "school promotion",
+      "earthquake",
+      "financial hardship"
+    ],
+    "transcript_ref": "regional\\voices_of_oklahoma\\vok_brouse-jenny.yaml"
+  },
+  {
+    "entity_id": 8,
+    "entity": "Los Angeles",
+    "explicit_text": "My mother’s sisters moved to Los Angeles after the oil boom in Tulsa dropped. While I was in California during the Depression, we stayed with my aunt in Santa Monica, which is near Los Angeles. The family’s move to Los Angeles was part of a broader migration to find better opportunities when Tulsa’s economy faltered.",
+    "implicit_text": "My mother’s sisters moved to a major city in California after the oil boom in Tulsa dropped. While I was in that state during the Depression, we stayed with my aunt in Santa Monica, which is near that city. The family’s move there was part of a broader migration to find better opportunities when Tulsa’s economy faltered.",
+    "cues": [
+      "oil boom decline",
+      "family migration",
+      "Santa Monica",
+      "Great Depression"
+    ],
+    "transcript_ref": "regional\\voices_of_oklahoma\\vok_brouse-jenny.yaml"
+  },
+  {
+    "entity_id": 9,
+    "entity": "Santa Monica, California",
+    "explicit_text": "I lived in Santa Monica with my aunt for a while during the Depression when my mother and I moved to California. I attended school there and was promoted a half grade. I also vividly remember experiencing an earthquake while we lived upstairs in the house. It was a memorable time during a difficult period for our family.",
+    "implicit_text": "I lived in Santa Monica with my aunt for a while during the Depression when my mother and I moved to California. I attended school there and was promoted a half grade. I also vividly remember experiencing an earthquake while we lived upstairs in the house. It was a memorable time during a difficult period for our family.",
+    "cues": [
+      "Great Depression",
+      "school",
+      "earthquake",
+      "aunt's home"
+    ],
+    "transcript_ref": "regional\\voices_of_oklahoma\\vok_brouse-jenny.yaml"
+  },
+  {
+    "entity_id": 10,
+    "entity": "Dnieper River",
+    "explicit_text": "The Dnieper River was a significant border in my family’s emigration journey from Russia to Romania. My mother and brothers crossed it by boat as part of their escape from persecution in the early 1920s. One boat made it safely across, while another was fired upon. Crossing the Dnieper was a dangerous but crucial step toward reaching the United States.",
+    "implicit_text": "A major river was a significant border in my family’s emigration journey from Russia to Romania. My mother and brothers crossed it by boat as part of their escape from persecution in the early 1920s. One boat made it safely across, while another was fired upon. Crossing that river was a dangerous but crucial step toward reaching the United States.",
+    "cues": [
+      "early 1920s",
+      "emigration",
+      "border crossing",
+      "Russia to Romania",
+      "family escape"
+    ],
+    "transcript_ref": "regional\\voices_of_oklahoma\\vok_brouse-jenny.yaml"
+  },
+  {
+    "entity_id": 11,
+    "entity": "Romania",
+    "explicit_text": "Romania was the country my family entered after crossing the Dnieper River from Russia during their escape in the early 1920s. It was part of the route they took before eventually emigrating to the United States. The journey was long and difficult, involving walking at night and hiding during the day to avoid capture.",
+    "implicit_text": "Romania was the country my family entered after crossing the Dnieper River from Russia during their escape in the early 1920s. It was part of the route they took before eventually emigrating to the United States. The journey was long and difficult, involving walking at night and hiding during the day to avoid capture.",
+    "cues": [
+      "early 1920s",
+      "emigration route",
+      "border crossing",
+      "family escape"
+    ],
+    "transcript_ref": "regional\\voices_of_oklahoma\\vok_brouse-jenny.yaml"
+  },
+  {
+    "entity_id": 12,
+    "entity": "France",
+    "explicit_text": "My family traveled across the Atlantic on a French boat when they emigrated to the United States. My mother and one brother were seasick and stayed in the cabin, while my other brother Mike was all over the boat and learned to speak French by the time they landed. This passage was part of their journey from Europe to New York in 1922.",
+    "implicit_text": "My family traveled across the Atlantic on a French boat when they emigrated to the United States. My mother and one brother were seasick and stayed in the cabin, while my other brother Mike was all over the boat and learned to speak French by the time they landed. This passage was part of their journey from Europe to New York in 1922.",
+    "cues": [
+      "1922",
+      "French boat",
+      "Atlantic crossing",
+      "seasickness",
+      "language learning"
+    ],
+    "transcript_ref": "regional\\voices_of_oklahoma\\vok_brouse-jenny.yaml"
+  },
+  {
+    "entity_id": 13,
+    "entity": "New York City",
+    "explicit_text": "My mother and brothers landed in New York City after their long journey from Russia and France in 1922. They stayed with an aunt who lived there while making arrangements to continue on to Tulsa, Oklahoma. New York was the first American city they saw, and they likely came through Ellis Island upon arrival.",
+    "implicit_text": "My mother and brothers landed in New York City after their long journey from Russia and France in 1922. They stayed with an aunt who lived there while making arrangements to continue on to Tulsa, Oklahoma. That city was the first American city they saw, and they likely came through Ellis Island upon arrival.",
+    "cues": [
+      "1922 arrival",
+      "aunt's home",
+      "immigration",
+      "Ellis Island",
+      "family reunion"
+    ],
+    "transcript_ref": "regional\\voices_of_oklahoma\\vok_brouse-jenny.yaml"
+  },
+  {
+    "entity_id": 14,
+    "entity": "Ellis Island",
+    "explicit_text": "My family came through Ellis Island when they arrived in the United States in 1922. Although some relatives tried to find official records and couldn’t, I’m pretty sure that’s where they entered because they landed in New York and had family there. Ellis Island was the gateway for many immigrants like my family seeking a new life.",
+    "implicit_text": "My family came through the famous immigration station when they arrived in the United States in 1922. Although some relatives tried to find official records and couldn’t, I’m pretty sure that’s where they entered because they landed in New York and had family there. That station was the gateway for many immigrants like my family seeking a new life.",
+    "cues": [
+      "1922 immigration",
+      "New York arrival",
+      "family records",
+      "gateway for immigrants"
+    ],
+    "transcript_ref": "regional\\voices_of_oklahoma\\vok_brouse-jenny.yaml"
+  },
+  {
+    "entity_id": 15,
+    "entity": "Chile",
+    "explicit_text": "Some of my mother’s relatives emigrated to South America, including Chile, during the same period my family was leaving Russia. I never met them, but contact has been made with those relatives in Chile and other South American countries. It shows how widespread our family’s diaspora was during those difficult times.",
+    "implicit_text": "Some of my mother’s relatives emigrated to South America, including a country on the Pacific coast, during the same period my family was leaving Russia. I never met them, but contact has been made with those relatives in that country and other South American countries. It shows how widespread our family’s diaspora was during those difficult times.",
+    "cues": [
+      "early 1900s emigration",
+      "South America",
+      "family connections",
+      "Chile"
+    ],
+    "transcript_ref": "regional\\voices_of_oklahoma\\vok_brouse-jenny.yaml"
+  },
+  {
+    "entity_id": 16,
+    "entity": "Stop & Shop",
+    "explicit_text": "My father eventually opened a grocery store called Stop and Shop Market in Tulsa. One location was on 11th Street and the last one was in Brookside. It was a convenience store ahead of its time, and the name was inspired by a similar store in Chicago where my oldest brother had lived.",
+    "implicit_text": "My father eventually opened a grocery store called Stop and Shop Market in Tulsa. One location was on 11th Street and the last one was in Brookside. It was a convenience store ahead of its time, and the name was inspired by a similar store in Chicago where my oldest brother had lived.",
+    "cues": [
+      "1920s",
+      "Tulsa",
+      "grocery store",
+      "11th Street",
+      "Brookside",
+      "family business"
+    ],
+    "transcript_ref": "regional\\voices_of_oklahoma\\vok_brouse-jenny.yaml"
+  },
+  {
+    "entity_id": 17,
+    "entity": "Sidney Lanier High School",
+    "explicit_text": "The first school I attended was Sidney Lanier Elementary, located on Harvard Avenue near 21st Street in Tulsa. I have fond memories of going there as a child before moving on to junior high and high school. It was the start of my formal education in America.",
+    "implicit_text": "The first school I attended was an elementary school located on Harvard Avenue near 21st Street in Tulsa. I have fond memories of going there as a child before moving on to junior high and high school. It was the start of my formal education in America.",
+    "cues": [
+      "Tulsa",
+      "elementary school",
+      "Harvard Avenue",
+      "early education"
+    ],
+    "transcript_ref": "regional\\voices_of_oklahoma\\vok_brouse-jenny.yaml"
+  },
+  {
+    "entity_id": 18,
+    "entity": "Woodrow Wilson Junior High School",
+    "explicit_text": "After Sidney Lanier, I attended Woodrow Wilson Junior High School in Tulsa. It was the next step in my education before I went on to Central High School. I enjoyed school and did well academically throughout these years.",
+    "implicit_text": "After Sidney Lanier, I attended a junior high school named after a U.S. president in Tulsa. It was the next step in my education before I went on to Central High School. I enjoyed school and did well academically throughout these years.",
+    "cues": [
+      "Tulsa",
+      "junior high",
+      "education progression"
+    ],
+    "transcript_ref": "regional\\voices_of_oklahoma\\vok_brouse-jenny.yaml"
+  },
+  {
+    "entity_id": 19,
+    "entity": "Central High School (Tulsa, Oklahoma)",
+    "explicit_text": "I went to Central High School downtown Tulsa, the old building that is now the Public Service Company of Oklahoma. I loved school and worked hard, even though I wasn’t brilliant. It was during my time at Central that I planned to go to college despite financial challenges.",
+    "implicit_text": "I went to Central High School downtown Tulsa, the old building that is now the Public Service Company of Oklahoma. I loved school and worked hard, even though I wasn’t brilliant. It was during my time at Central that I planned to go to college despite financial challenges.",
+    "cues": [
+      "Tulsa",
+      "high school",
+      "education",
+      "Public Service Company building"
+    ],
+    "transcript_ref": "regional\\voices_of_oklahoma\\vok_brouse-jenny.yaml"
+  },
+  {
+    "entity_id": 20,
+    "entity": "Public Service Company of Oklahoma",
+    "explicit_text": "The old Central High School building in Tulsa, where I attended, is now the Public Service Company of Oklahoma. It’s interesting to think that the place where I studied is now used for something so different. It connects my past schooling with Tulsa’s present landscape.",
+    "implicit_text": "The old Central High School building in Tulsa, where I attended, is now the Public Service Company of Oklahoma. It’s interesting to think that the place where I studied is now used for something so different. It connects my past schooling with Tulsa’s present landscape.",
+    "cues": [
+      "Tulsa",
+      "Central High School building",
+      "current use"
+    ],
+    "transcript_ref": "regional\\voices_of_oklahoma\\vok_brouse-jenny.yaml"
+  },
+  {
+    "entity_id": 21,
+    "entity": "Tulsa University",
+    "explicit_text": "After graduating from Central High School, I enrolled at Tulsa University. I wanted to go to college despite my brother Mike telling me it would be too expensive. I took bookkeeping, typing, and shorthand classes to prepare myself and was able to attend TU, which was a big achievement for me.",
+    "implicit_text": "After graduating from Central High School, I enrolled at the university in Tulsa. I wanted to go to college despite my brother Mike telling me it would be too expensive. I took bookkeeping, typing, and shorthand classes to prepare myself and was able to attend that university, which was a big achievement for me.",
+    "cues": [
+      "post-high school",
+      "college enrollment",
+      "Tulsa University",
+      "family encouragement"
+    ],
+    "transcript_ref": "regional\\voices_of_oklahoma\\vok_brouse-jenny.yaml"
+  },
+  {
+    "entity_id": 22,
+    "entity": "Great Depression",
+    "explicit_text": "The Great Depression hit my family hard. We were broke and had to move several times, sometimes living apart. My mother and I even went to California for a while to live with relatives. Despite the hardship, we managed to keep going and eventually returned to Tulsa when things improved.",
+    "implicit_text": "The economic crisis of the 1930s hit my family hard. We were broke and had to move several times, sometimes living apart. My mother and I even went to California for a while to live with relatives. Despite the hardship, we managed to keep going and eventually returned to Tulsa when things improved.",
+    "cues": [
+      "1930s",
+      "financial hardship",
+      "family moves",
+      "California stay"
+    ],
+    "transcript_ref": "regional\\voices_of_oklahoma\\vok_brouse-jenny.yaml"
+  },
+  {
+    "entity_id": 23,
+    "entity": "Pearl Harbor",
+    "explicit_text": "I was about seventeen years old when Pearl Harbor was attacked in 1941. I remember the shock and the impact it had on everyone around me. It marked a turning point in our lives and in the country’s history.",
+    "implicit_text": "I was about seventeen years old when the attack on the naval base in Hawaii happened in 1941. I remember the shock and the impact it had on everyone around me. It marked a turning point in our lives and in the country’s history.",
+    "cues": [
+      "December 7, 1941",
+      "age 17",
+      "world event",
+      "U.S. involvement in WWII"
+    ],
+    "transcript_ref": "regional\\voices_of_oklahoma\\vok_brouse-jenny.yaml"
+  },
+  {
+    "entity_id": 24,
+    "entity": "Russian Army",
+    "explicit_text": "My uncle Jimmy Foonberg served in the Russian Army during World War I but was treated terribly because he was Jewish. His boots were stolen and not replaced, and when he was injured, he was denied treatment. He eventually deserted the army, fearing execution if caught, which was a key reason our family decided to flee Russia.",
+    "implicit_text": "My uncle Jimmy Foonberg served in the army of the large Eastern European country during World War I but was treated terribly because he was Jewish. His boots were stolen and not replaced, and when he was injured, he was denied treatment. He eventually deserted the army, fearing execution if caught, which was a key reason our family decided to flee that country.",
+    "cues": [
+      "World War I era",
+      "anti-Semitism",
+      "desertion",
+      "family escape"
+    ],
+    "transcript_ref": "regional\\voices_of_oklahoma\\vok_brouse-jenny.yaml"
+  },
+  {
+    "entity_id": 25,
+    "entity": "Harry Robinowitz",
+    "explicit_text": "My father, Harry Robinowitz, was born in Oratov, Russia, and came to the United States in 1914. He worked as a peddler in Tulsa before opening the Stop and Shop Market grocery store. He was a hardworking man who became an American citizen and supported our family through difficult times.",
+    "implicit_text": "My father was born in a small town in Russia and came to the United States in 1914. He worked as a peddler in Tulsa before opening the Stop and Shop Market grocery store. He was a hardworking man who became an American citizen and supported our family through difficult times.",
+    "cues": [
+      "born Oratov",
+      "1914 immigration",
+      "Tulsa peddler",
+      "grocery store owner",
+      "American citizen"
+    ],
+    "transcript_ref": "regional\\voices_of_oklahoma\\vok_brouse-jenny.yaml"
+  },
+  {
+    "entity_id": 26,
+    "entity": "Briana Foonberg",
+    "explicit_text": "My mother, Briana Foonberg, was born in Oratov, Russia, and came to the United States in 1922 with my brothers. She lived through the hardships of emigration and the Great Depression, often struggling with broken English but always supporting our family. She and I even lived in California for a time during the Depression.",
+    "implicit_text": "My mother was born in a small town in Russia and came to the United States in 1922 with my brothers. She lived through the hardships of emigration and the Great Depression, often struggling with broken English but always supporting our family. She and I even lived in California for a time during the Depression.",
+    "cues": [
+      "born Oratov",
+      "1922 immigration",
+      "Great Depression",
+      "California stay",
+      "family support"
+    ],
+    "transcript_ref": "regional\\voices_of_oklahoma\\vok_brouse-jenny.yaml"
+  },
+  {
+    "entity_id": 27,
+    "entity": "Mike Robinowitz",
+    "explicit_text": "My brother Mike was born in 1909 in Russia and came to the United States with my mother in 1922. He learned to speak French on the boat crossing the Atlantic and later moved to Chicago. He was practical and advised me to take bookkeeping and typing instead of Latin and French to prepare for college.",
+    "implicit_text": "My brother Mike was born in 1909 in Russia and came to the United States with my mother in 1922. He learned to speak French on the boat crossing the Atlantic and later moved to Chicago. He was practical and advised me to take bookkeeping and typing instead of Latin and French to prepare for college.",
+    "cues": [
+      "born 1909",
+      "1922 immigration",
+      "learned French",
+      "Chicago",
+      "family advice"
+    ],
+    "transcript_ref": "regional\\voices_of_oklahoma\\vok_brouse-jenny.yaml"
+  },
+  {
+    "entity_id": 28,
+    "entity": "Sal Robinowitz",
+    "explicit_text": "My brother Sal was born in 1911 in Russia and came to the United States with my mother and family in 1922. He grew up in Tulsa along with the rest of us. Though less is said about him, he was part of our close-knit family during those early years in America.",
+    "implicit_text": "My brother Sal was born in 1911 in Russia and came to the United States with my mother and family in 1922. He grew up in Tulsa along with the rest of us. Though less is said about him, he was part of our close-knit family during those early years in America.",
+    "cues": [
+      "born 1911",
+      "1922 immigration",
+      "Tulsa upbringing",
+      "family"
+    ],
+    "transcript_ref": "regional\\voices_of_oklahoma\\vok_brouse-jenny.yaml"
+  },
+  {
+    "entity_id": 29,
+    "entity": "Jimmy Foonberg",
+    "explicit_text": "Jimmy Foonberg was my mother’s baby brother who served in the Russian Army during World War I. He was mistreated because he was Jewish, and after being injured and denied care, he deserted the army, fearing execution if caught. His desperate situation was a catalyst for our family’s decision to leave Russia and seek safety elsewhere.",
+    "implicit_text": "Jimmy Foonberg was my mother’s baby brother who served in the army of the large Eastern European country during World War I. He was mistreated because he was Jewish, and after being injured and denied care, he deserted the army, fearing execution if caught. His desperate situation was a catalyst for our family’s decision to leave that country and seek safety elsewhere.",
+    "cues": [
+      "Russian Army",
+      "World War I",
+      "anti-Semitism",
+      "desertion",
+      "family emigration"
+    ],
+    "transcript_ref": "regional\\voices_of_oklahoma\\vok_brouse-jenny.yaml"
+  }
+]

@@ -1,0 +1,264 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "Kansas City, Missouri",
+    "explicit_text": "I was born in Kansas City, Missouri, at Saint Luke's Hospital where my grandfather worked as an insurance salesman. My family had strong ties to the area, with my mother’s relatives and my father’s education connected to the region. Later, after living in Wyoming, we moved back to Missouri, and I attended school in Carrollton, which is near Kansas City. The city and its surroundings have been a significant part of my family’s history and my upbringing.",
+    "implicit_text": "I was born in a major Midwestern city at a hospital where my grandfather worked as an insurance salesman. My family had strong ties to the area, with my mother’s relatives and my father’s education connected to the region. Later, after living in Wyoming, we moved back to this state, and I attended school in a nearby town close to that city. The city and its surroundings have been a significant part of my family’s history and my upbringing.",
+    "cues": [
+      "birthplace",
+      "Saint Luke's Hospital",
+      "family ties",
+      "Carrollton",
+      "education"
+    ],
+    "transcript_ref": "regional\\voices_of_oklahoma\\vok_bailey-keith.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "Miami Station, Missouri",
+    "explicit_text": "My mother, Anne Lee Trotter, was born in Miami Station, Missouri. That’s where her parents lived when I was born, and it was part of my family’s roots in Missouri. Though I wasn’t born there myself, Miami Station is important as the place where my maternal family originated. It connects to the broader Missouri background that shaped my early life.",
+    "implicit_text": "My mother, Anne Lee Trotter, was born in a small community in Missouri known as Miami Station. That’s where her parents lived when I was born, and it was part of my family’s roots in Missouri. Though I wasn’t born there myself, this place is important as the origin of my maternal family. It connects to the broader Missouri background that shaped my early life.",
+    "cues": [
+      "mother's birthplace",
+      "family roots",
+      "Missouri"
+    ],
+    "transcript_ref": "regional\\voices_of_oklahoma\\vok_bailey-keith.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "Saint Luke's Hospital (Kansas City)",
+    "explicit_text": "Saint Luke's Hospital in Kansas City is where I was born, and it also played a role in my grandfather’s career as an insurance salesman. We lived with my grandparents in Kansas City while my father was overseas during World War II. So Saint Luke's was not just a hospital but part of the family’s life during a challenging time. It’s a place tied to my earliest memories and family support.",
+    "implicit_text": "The hospital in the major Midwestern city where I was born also played a role in my grandfather’s career as an insurance salesman. We lived with my grandparents in that city while my father was overseas during World War II. So the hospital was not just a medical facility but part of the family’s life during a challenging time. It’s a place tied to my earliest memories and family support.",
+    "cues": [
+      "birthplace",
+      "grandfather's workplace",
+      "family residence",
+      "World War II"
+    ],
+    "transcript_ref": "regional\\voices_of_oklahoma\\vok_bailey-keith.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "World War II",
+    "explicit_text": "During World War II, my father, George Weymouth Bailey, served overseas and was part of an expense-paid tour of the Mediterranean with General Patton. While he was away, my family lived with my grandparents in Kansas City. The war shaped much of our family’s movements and my father’s career path afterward. It was a defining event that influenced where we lived and how we grew up.",
+    "implicit_text": "During the global conflict of the early 1940s, my father, George Weymouth Bailey, served overseas and was part of an expense-paid tour of the Mediterranean with a famous general. While he was away, my family lived with my grandparents in the major Midwestern city. The war shaped much of our family’s movements and my father’s career path afterward. It was a defining event that influenced where we lived and how we grew up.",
+    "cues": [
+      "father's military service",
+      "Mediterranean tour",
+      "family living arrangements",
+      "1940s"
+    ],
+    "transcript_ref": "regional\\voices_of_oklahoma\\vok_bailey-keith.yaml"
+  },
+  {
+    "entity_id": 5,
+    "entity": "George Weymouth Bailey",
+    "explicit_text": "My father, George Weymouth Bailey, was a dedicated family dentist who grew up in Sheridan, Wyoming. He attended William Jewell College in Missouri, as did many of my mother’s relatives, which is how my parents met. After serving in World War II and touring with General Patton, he established a dental practice in Kemmerer, Wyoming, before moving back to Missouri. He was a hardworking man with a fixed routine, always on call for his patients, and deeply respected in his community until his tragic death at Shangri-La Marina.",
+    "implicit_text": "My father was a dedicated family dentist who grew up in a Wyoming town called Sheridan. He attended a college in Missouri, as did many of my mother’s relatives, which is how my parents met. After serving in the war and touring with a renowned general, he established a dental practice in a Wyoming town before moving back to Missouri. He was a hardworking man with a fixed routine, always on call for his patients, and deeply respected in his community until his tragic death at a marina.",
+    "cues": [
+      "father",
+      "dentist",
+      "Sheridan Wyoming",
+      "William Jewell College",
+      "World War II",
+      "Shangri-La Marina accident"
+    ],
+    "transcript_ref": "regional\\voices_of_oklahoma\\vok_bailey-keith.yaml"
+  },
+  {
+    "entity_id": 6,
+    "entity": "Sheridan, Wyoming",
+    "explicit_text": "Sheridan, Wyoming, is where my father grew up along with his siblings. It’s a place that connects to his early life before he went to William Jewell College in Missouri. Though I didn’t live there myself, Sheridan was important in shaping my father’s background and values. It represents the Wyoming roots on my father’s side of the family.",
+    "implicit_text": "The Wyoming town of Sheridan is where my father grew up along with his siblings. It’s a place that connects to his early life before he went to college in Missouri. Though I didn’t live there myself, Sheridan was important in shaping my father’s background and values. It represents the Wyoming roots on my father’s side of the family.",
+    "cues": [
+      "father's hometown",
+      "early life",
+      "Wyoming"
+    ],
+    "transcript_ref": "regional\\voices_of_oklahoma\\vok_bailey-keith.yaml"
+  },
+  {
+    "entity_id": 7,
+    "entity": "William Jewell College",
+    "explicit_text": "William Jewell College in Liberty, Missouri, was where my father and his siblings went to school, as well as several of my mother’s relatives. It’s a small college near Kansas City that brought my parents’ families together. My brother and I also had connections to the college through family and friends, making it a significant educational institution in our family history.",
+    "implicit_text": "The small college in Liberty, Missouri, was where my father and his siblings went to school, as well as several of my mother’s relatives. It’s near the major Midwestern city and brought my parents’ families together. My brother and I also had connections to the college through family and friends, making it a significant educational institution in our family history.",
+    "cues": [
+      "father's education",
+      "family connections",
+      "Liberty Missouri",
+      "college"
+    ],
+    "transcript_ref": "regional\\voices_of_oklahoma\\vok_bailey-keith.yaml"
+  },
+  {
+    "entity_id": 8,
+    "entity": "Kemmerer, Wyoming",
+    "explicit_text": "After World War II, my family moved to Kemmerer, Wyoming, where my father started his dental practice as the only dentist for miles around. I attended my first school there, and it was a small town with a close-knit community. We lived there until my mother’s mother developed rheumatoid arthritis, which prompted us to move back to Missouri. Kemmerer represents my early childhood and my father’s professional beginnings.",
+    "implicit_text": "After the war, my family moved to a small Wyoming town where my father started his dental practice as the only dentist for miles around. I attended my first school there, and it was a close-knit community. We lived there until my mother’s mother developed rheumatoid arthritis, which prompted us to move back to Missouri. That town represents my early childhood and my father’s professional beginnings.",
+    "cues": [
+      "early childhood",
+      "father's dental practice",
+      "school",
+      "small town",
+      "Wyoming"
+    ],
+    "transcript_ref": "regional\\voices_of_oklahoma\\vok_bailey-keith.yaml"
+  },
+  {
+    "entity_id": 9,
+    "entity": "Mediterranean Sea",
+    "explicit_text": "During World War II, my father was part of an expense-paid tour of the Mediterranean Sea with General Patton, traveling from North Africa to Sicily and then Italy. This experience was part of his military service before he returned to civilian life. The Mediterranean was a backdrop for his wartime journey and a significant chapter in his life story.",
+    "implicit_text": "During the war, my father was part of an expense-paid tour of the Mediterranean Sea with a famous general, traveling from North Africa to Sicily and then Italy. This experience was part of his military service before he returned to civilian life. The Mediterranean was a backdrop for his wartime journey and a significant chapter in his life story.",
+    "cues": [
+      "World War II",
+      "military tour",
+      "General Patton",
+      "North Africa",
+      "Sicily",
+      "Italy"
+    ],
+    "transcript_ref": "regional\\voices_of_oklahoma\\vok_bailey-keith.yaml"
+  },
+  {
+    "entity_id": 10,
+    "entity": "George S. Patton",
+    "explicit_text": "General George S. Patton was the commander under whom my father served during World War II. My father had an expense-paid tour with Patton’s forces through the Mediterranean, including North Africa, Sicily, and Italy. Patton’s leadership was a key part of my father’s military experience, which influenced his life after the war.",
+    "implicit_text": "The general under whom my father served during the war was a renowned commander known for his leadership in the Mediterranean theater. My father had an expense-paid tour with this general’s forces through North Africa, Sicily, and Italy. The general’s leadership was a key part of my father’s military experience, which influenced his life after the war.",
+    "cues": [
+      "World War II",
+      "military service",
+      "Mediterranean tour",
+      "father's experience"
+    ],
+    "transcript_ref": "regional\\voices_of_oklahoma\\vok_bailey-keith.yaml"
+  },
+  {
+    "entity_id": 11,
+    "entity": "North Africa Campaign",
+    "explicit_text": "My father participated in the North Africa Campaign during World War II as part of General Patton’s forces. This campaign was the beginning of his Mediterranean tour before moving on to Sicily and Italy. It was a significant military event that shaped his wartime service and my family’s history.",
+    "implicit_text": "My father participated in the North Africa Campaign during the war as part of the forces led by a famous general. This campaign was the beginning of his Mediterranean tour before moving on to Sicily and Italy. It was a significant military event that shaped his wartime service and my family’s history.",
+    "cues": [
+      "World War II",
+      "military service",
+      "General Patton",
+      "Mediterranean tour"
+    ],
+    "transcript_ref": "regional\\voices_of_oklahoma\\vok_bailey-keith.yaml"
+  },
+  {
+    "entity_id": 12,
+    "entity": "Sicily Campaign",
+    "explicit_text": "The Sicily Campaign was part of my father’s military service during World War II with General Patton’s forces. After North Africa, he moved through Sicily as part of the Mediterranean tour. This campaign was a key stage in the war and in my father’s experience before returning home to start his dental practice.",
+    "implicit_text": "The Sicily Campaign was part of my father’s military service during the war with the forces commanded by a renowned general. After North Africa, he moved through Sicily as part of the Mediterranean tour. This campaign was a key stage in the war and in my father’s experience before returning home to start his dental practice.",
+    "cues": [
+      "World War II",
+      "military service",
+      "General Patton",
+      "Mediterranean tour"
+    ],
+    "transcript_ref": "regional\\voices_of_oklahoma\\vok_bailey-keith.yaml"
+  },
+  {
+    "entity_id": 13,
+    "entity": "Italy",
+    "explicit_text": "Italy was the final part of my father’s World War II Mediterranean tour with General Patton. After campaigns in North Africa and Sicily, he served in Italy before coming back to civilian life. Italy marks the conclusion of his wartime journey and the transition to his post-war career.",
+    "implicit_text": "Italy was the final part of my father’s Mediterranean tour during the war under a famous general. After campaigns in North Africa and Sicily, he served in Italy before coming back to civilian life. Italy marks the conclusion of his wartime journey and the transition to his post-war career.",
+    "cues": [
+      "World War II",
+      "military service",
+      "General Patton",
+      "Mediterranean tour"
+    ],
+    "transcript_ref": "regional\\voices_of_oklahoma\\vok_bailey-keith.yaml"
+  },
+  {
+    "entity_id": 14,
+    "entity": "United Way",
+    "explicit_text": "I spent a lot of time involved in the United Way, which reflects my commitment to community and helping others. The organization’s focus on supporting families, neighbors, and churches resonates with my experience growing up in small towns. United Way embodies the spirit of community care that I value deeply.",
+    "implicit_text": "I spent a lot of time involved in a well-known nonprofit organization focused on community support, which reflects my commitment to helping others. The organization’s focus on supporting families, neighbors, and churches resonates with my experience growing up in small towns. It embodies the spirit of community care that I value deeply.",
+    "cues": [
+      "community involvement",
+      "charity",
+      "small town values"
+    ],
+    "transcript_ref": "regional\\voices_of_oklahoma\\vok_bailey-keith.yaml"
+  },
+  {
+    "entity_id": 15,
+    "entity": "Carrollton, Missouri",
+    "explicit_text": "I attended junior high and high school in Carrollton, Missouri, a farming community located on the Missouri River bluff east of Kansas City. It was there that I was active in sports like football, basketball, and baseball. Carrollton was an important place for my adolescent years and helped shape my early interests and education.",
+    "implicit_text": "I attended junior high and high school in a farming community located on a river bluff east of the major Midwestern city. It was there that I was active in sports like football, basketball, and baseball. That town was an important place for my adolescent years and helped shape my early interests and education.",
+    "cues": [
+      "junior high",
+      "high school",
+      "sports",
+      "Missouri River",
+      "farming community"
+    ],
+    "transcript_ref": "regional\\voices_of_oklahoma\\vok_bailey-keith.yaml"
+  },
+  {
+    "entity_id": 16,
+    "entity": "Missouri River",
+    "explicit_text": "Carrollton, Missouri, where I went to school, is situated on the Missouri River bluff. The river and its surroundings were part of the landscape of my youth in Missouri. It’s a geographic feature tied to my schooling and the community I grew up in after moving back from Wyoming.",
+    "implicit_text": "The town where I went to school is situated on a bluff overlooking a major river in Missouri. The river and its surroundings were part of the landscape of my youth in the state. It’s a geographic feature tied to my schooling and the community I grew up in after moving back from Wyoming.",
+    "cues": [
+      "Carrollton location",
+      "geography",
+      "Missouri"
+    ],
+    "transcript_ref": "regional\\voices_of_oklahoma\\vok_bailey-keith.yaml"
+  },
+  {
+    "entity_id": 17,
+    "entity": "University of Michigan",
+    "explicit_text": "A contemporary of mine, Jim, who petitioned with me to add an algebra class in high school, went on to become president of the University of Michigan as a nuclear physicist. While I didn’t attend there myself, the University of Michigan represents the academic aspirations and achievements of people close to me. It’s part of the broader educational context of my youth.",
+    "implicit_text": "A contemporary of mine, Jim, who petitioned with me to add an algebra class in high school, went on to become president of a prominent Midwestern university as a nuclear physicist. While I didn’t attend there myself, that university represents the academic aspirations and achievements of people close to me. It’s part of the broader educational context of my youth.",
+    "cues": [
+      "high school peer",
+      "academic achievement",
+      "university leadership"
+    ],
+    "transcript_ref": "regional\\voices_of_oklahoma\\vok_bailey-keith.yaml"
+  },
+  {
+    "entity_id": 18,
+    "entity": "Williams Companies",
+    "explicit_text": "Jim, a contemporary of mine from high school who was involved in pushing for advanced math classes, later worked at the Williams Companies after becoming a nuclear physicist and president of the University of Michigan. Though I wasn’t directly connected to Williams Companies, it’s linked to the success of people I knew growing up. It symbolizes the career paths that stemmed from our early education.",
+    "implicit_text": "Jim, a contemporary of mine from high school who was involved in pushing for advanced math classes, later worked at a major energy company after becoming a nuclear physicist and president of a well-known university. Though I wasn’t directly connected to that company, it’s linked to the success of people I knew growing up. It symbolizes the career paths that stemmed from our early education.",
+    "cues": [
+      "high school peer",
+      "career",
+      "energy company"
+    ],
+    "transcript_ref": "regional\\voices_of_oklahoma\\vok_bailey-keith.yaml"
+  },
+  {
+    "entity_id": 19,
+    "entity": "Shangri-La Marina",
+    "explicit_text": "Shangri-La Marina is where my father tragically died in a car accident about 25 years ago. He missed a turn at the marina, and his car went into the water on a dark, rainy night. Despite efforts to rescue him, he drowned, which was a devastating loss for our family. The marina later added fencing to prevent such accidents, and it remains a poignant place in our family history.",
+    "implicit_text": "The marina where my father tragically died in a car accident about 25 years ago is a place that remains poignant in our family history. He missed a turn at the marina, and his car went into the water on a dark, rainy night. Despite efforts to rescue him, he drowned, which was a devastating loss for our family. The marina later added fencing to prevent such accidents.",
+    "cues": [
+      "father's death",
+      "car accident",
+      "marina",
+      "late 1980s",
+      "family tragedy"
+    ],
+    "transcript_ref": "regional\\voices_of_oklahoma\\vok_bailey-keith.yaml"
+  },
+  {
+    "entity_id": 20,
+    "entity": "Grove, Oklahoma",
+    "explicit_text": "After my father’s accident at Shangri-La Marina, he was taken to a hospital in Grove, Oklahoma. That’s where we received the call about his condition, and the hospital staff were very gracious and supportive during that difficult time. Grove became part of the story of my father’s final moments and our family’s response to the tragedy.",
+    "implicit_text": "After my father’s accident at the marina, he was taken to a hospital in a nearby Oklahoma town called Grove. That’s where we received the call about his condition, and the hospital staff were very gracious and supportive during that difficult time. Grove became part of the story of my father’s final moments and our family’s response to the tragedy.",
+    "cues": [
+      "hospital",
+      "father's accident",
+      "family support",
+      "Oklahoma"
+    ],
+    "transcript_ref": "regional\\voices_of_oklahoma\\vok_bailey-keith.yaml"
+  }
+]

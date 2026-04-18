@@ -1,0 +1,99 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "Confluence Health",
+    "explicit_text": "I started my medical assistant career at Confluence Health, where I learned a lot about phlebotomy, patient intake, and clinical duties. When the COVID-19 pandemic began in early 2020, Confluence Health abruptly shut down in-person visits and shifted to phone and video appointments. They also worked closely with Central Washington Hospital, receiving reports about ICU and ventilator cases, which made the seriousness of the pandemic clear to me. Although I valued my time there, I moved on because Confluence couldn't offer the more hands-on clinical experience I wanted.",
+    "implicit_text": "I started my medical assistant career at a regional healthcare system, where I learned a lot about phlebotomy, patient intake, and clinical duties. When the COVID-19 pandemic began in early 2020, this healthcare provider abruptly shut down in-person visits and shifted to phone and video appointments. They also worked closely with a nearby hospital, receiving reports about ICU and ventilator cases, which made the seriousness of the pandemic clear to me. Although I valued my time there, I moved on because this organization couldn't offer the more hands-on clinical experience I wanted.",
+    "cues": [
+      "early 2020",
+      "phlebotomy",
+      "patient intake",
+      "COVID-19 shutdown",
+      "relationship with Central Washington Hospital"
+    ],
+    "transcript_ref": "covid_19\\covid_nhc_Meliza_Sanchez_025.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "Columbia Valley Community Health",
+    "explicit_text": "I currently work at Columbia Valley Community Health, where I transitioned to a more clinical role as a medical assistant. I was drawn here because of the community focus and the broader range of services, including OB and procedures not available at Confluence Health. At CVCH, we even have a dedicated COVID hall with a COVID provider, and I got to learn about PPE and PCR testing firsthand. It’s been a great learning experience, and I appreciate being able to offer COVID testing and care to patients who trust us for their routine health needs.",
+    "implicit_text": "I currently work at a community-focused health center in the Columbia Valley, where I transitioned to a more clinical role as a medical assistant. I was drawn here because of the community focus and the broader range of services, including OB and procedures not available at my previous employer. At this center, we even have a dedicated COVID hall with a COVID provider, and I got to learn about PPE and PCR testing firsthand. It’s been a great learning experience, and I appreciate being able to offer COVID testing and care to patients who trust us for their routine health needs.",
+    "cues": [
+      "current role",
+      "COVID hall",
+      "PPE training",
+      "community services",
+      "transition from Confluence Health"
+    ],
+    "transcript_ref": "covid_19\\covid_nhc_Meliza_Sanchez_025.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "COVID-19 pandemic",
+    "explicit_text": "The COVID-19 pandemic hit suddenly and changed everything in 2020. At first, I was in shock and didn’t fully grasp how serious it was until reports from Central Washington Hospital showed how many people were in ICU and on ventilators. I personally tested positive for COVID on July 8, 2020, and was hospitalized at Lakeshore Hospital for six days on oxygen. My dad also got very sick and was on a ventilator, which was a scary time for my family. Professionally, the pandemic forced clinics like Confluence Health to shut down in-person visits, and at Columbia Valley, we adapted by creating a COVID hall and implementing strict safety measures.",
+    "implicit_text": "The global viral outbreak hit suddenly and changed everything in 2020. At first, I was in shock and didn’t fully grasp how serious it was until reports from a regional hospital showed how many people were in ICU and on ventilators. I personally tested positive for the virus on July 8, 2020, and was hospitalized at a local hospital for six days on oxygen. My dad also got very sick and was on a ventilator, which was a scary time for my family. Professionally, the outbreak forced clinics like the first healthcare system I worked at to shut down in-person visits, and at the community health center, we adapted by creating a COVID hall and implementing strict safety measures.",
+    "cues": [
+      "2020",
+      "hospitalization",
+      "oxygen supplement",
+      "family illness",
+      "clinic shutdowns",
+      "safety protocols"
+    ],
+    "transcript_ref": "covid_19\\covid_nhc_Meliza_Sanchez_025.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "Central Washington Hospital",
+    "explicit_text": "During the early days of the COVID-19 pandemic, Confluence Health worked closely with Central Washington Hospital, receiving updates about the number of patients in ICU, PCU, and on ventilators. These reports were crucial in helping me understand the severity of the pandemic. Although I didn’t work directly at Central Washington Hospital, their data influenced safety protocols and patient care decisions at my workplace. It was sobering to hear about how overwhelmed the hospital was, which made the lockdowns and precautions feel necessary.",
+    "implicit_text": "During the early days of the pandemic, the regional healthcare system I worked for collaborated closely with a major hospital in Central Washington, receiving updates about the number of patients in ICU, PCU, and on ventilators. These reports were crucial in helping me understand the severity of the pandemic. Although I didn’t work directly at that hospital, their data influenced safety protocols and patient care decisions at my workplace. It was sobering to hear about how overwhelmed the hospital was, which made the lockdowns and precautions feel necessary.",
+    "cues": [
+      "early 2020",
+      "COVID-19 patient reports",
+      "ICU and ventilator statistics",
+      "influence on safety measures"
+    ],
+    "transcript_ref": "covid_19\\covid_nhc_Meliza_Sanchez_025.yaml"
+  },
+  {
+    "entity_id": 5,
+    "entity": "Ebola virus epidemic",
+    "explicit_text": "When the COVID-19 pandemic started, I remember thinking about previous viruses like the Ebola epidemic, which thankfully never reached us here. That comparison initially made me underestimate COVID-19 because Ebola was so severe but geographically limited. It wasn’t until the pandemic spread widely across the country and affected hospitals like Central Washington that I realized how serious COVID really was. So, while Ebola was something I had heard about, COVID-19 became a very real and immediate challenge for me personally and professionally.",
+    "implicit_text": "When the pandemic started, I remember thinking about previous viruses like the Ebola outbreak, which thankfully never reached us here. That comparison initially made me underestimate the new virus because Ebola was so severe but geographically limited. It wasn’t until the pandemic spread widely across the country and affected hospitals like the one in Central Washington that I realized how serious this new virus really was. So, while Ebola was something I had heard about, this pandemic became a very real and immediate challenge for me personally and professionally.",
+    "cues": [
+      "2019-2020",
+      "comparison to Ebola",
+      "initial underestimation",
+      "realization of COVID severity"
+    ],
+    "transcript_ref": "covid_19\\covid_nhc_Meliza_Sanchez_025.yaml"
+  },
+  {
+    "entity_id": 6,
+    "entity": "PCR test",
+    "explicit_text": "At Columbia Valley Community Health, I learned how to order and administer PCR tests for COVID-19, which was a new experience for me. Being involved in the COVID hall allowed me to understand the testing process and its importance in managing the pandemic. I was excited to be part of this effort because it helped keep the community safe and reduced the burden on hospitals. This hands-on experience with PCR testing was a significant part of my growth as a medical assistant during the pandemic.",
+    "implicit_text": "At the community health center in Columbia Valley, I learned how to order and administer molecular diagnostic tests for COVID-19, which was a new experience for me. Being involved in the COVID hall allowed me to understand the testing process and its importance in managing the pandemic. I was excited to be part of this effort because it helped keep the community safe and reduced the burden on hospitals. This hands-on experience with molecular testing was a significant part of my growth as a medical assistant during the pandemic.",
+    "cues": [
+      "COVID hall",
+      "testing procedures",
+      "ordering PCR tests",
+      "community safety",
+      "professional growth"
+    ],
+    "transcript_ref": "covid_19\\covid_nhc_Meliza_Sanchez_025.yaml"
+  },
+  {
+    "entity_id": 7,
+    "entity": "Lakeshore Hospital",
+    "explicit_text": "In July 2020, after testing positive for COVID-19, I was admitted to Lakeshore Hospital on the 13th and stayed until the 19th. I needed oxygen supplementation because my oxygen saturation dropped to 83, even though I was a healthy 23-year-old with no prior conditions. The care I received from doctors like Dr. Davenport, Dr. Renaud, and Dr. Snyder was excellent, and I made a full recovery. This hospital stay was a pivotal and scary experience for me, but it also gave me a deeper understanding of the disease and the healthcare system.",
+    "implicit_text": "In July 2020, after testing positive for the virus, I was admitted to a local hospital on the 13th and stayed until the 19th. I needed oxygen supplementation because my oxygen saturation dropped to 83, even though I was a healthy 23-year-old with no prior conditions. The care I received from doctors like Dr. Davenport, Dr. Renaud, and Dr. Snyder was excellent, and I made a full recovery. This hospital stay was a pivotal and scary experience for me, but it also gave me a deeper understanding of the disease and the healthcare system.",
+    "cues": [
+      "July 13-19, 2020",
+      "oxygen supplementation",
+      "healthy young adult",
+      "doctors Davenport, Renaud, Snyder",
+      "full recovery"
+    ],
+    "transcript_ref": "covid_19\\covid_nhc_Meliza_Sanchez_025.yaml"
+  }
+]

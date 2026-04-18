@@ -1,0 +1,85 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "Sa La refugee camp",
+    "explicit_text": "I was born in Sa La refugee camp in Thailand in 1999. At night, the camp was beautiful with many twinkling stars that made it a pretty place to live. We stayed there until 2002 when a bad storm destroyed our home, forcing us to move to another camp. Sa La was where my early childhood memories began amidst the challenges of refugee life.",
+    "implicit_text": "I was born in a refugee camp in northern Thailand in 1999. At night, the camp was beautiful with many twinkling stars that made it a pretty place to live. We stayed there until 2002 when a bad storm destroyed our home, forcing us to move to another camp. That camp was where my early childhood memories began amidst the challenges of refugee life.",
+    "cues": [
+      "1999",
+      "Thailand",
+      "refugee camp",
+      "storm in 2002"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_157_enna_say.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "Thailand",
+    "explicit_text": "Thailand was the country where my family lived in refugee camps for many years. I was born in Sa La refugee camp there in 1999, and later we moved to Mae La Oon refugee camp in 2002 after a storm destroyed our home. Life in Thailand was difficult; my father struggled to find work and faced tough choices. Eventually, in 2011, we left Thailand to start a new life in the United States.",
+    "implicit_text": "The country where my family lived in refugee camps for many years was in Southeast Asia. I was born in a refugee camp there in 1999, and later we moved to another camp in 2002 after a storm destroyed our home. Life in that country was difficult; my father struggled to find work and faced tough choices. Eventually, in 2011, we left that nation to start a new life in the United States.",
+    "cues": [
+      "1999",
+      "2002",
+      "Sa La refugee camp",
+      "Mae La Oon refugee camp",
+      "refugee life"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_157_enna_say.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "Mae La Oon refugee camp",
+    "explicit_text": "In 2002, after a storm destroyed our home, my family moved to Mae La Oon refugee camp in Thailand. When we arrived, we built a bamboo house, but my dad couldn’t find a job and faced many hardships. Despite these challenges, the camp was where my younger brothers were born in 2003 and 2006, bringing happiness to my family. It was also in Mae La Oon that we applied for relocation to the United States in 2010.",
+    "implicit_text": "In 2002, after a storm destroyed our home, my family moved to another refugee camp in northern Thailand. When we arrived, we built a bamboo house, but my dad couldn’t find a job and faced many hardships. Despite these challenges, the camp was where my younger brothers were born in 2003 and 2006, bringing happiness to my family. It was also in that camp that we applied for relocation to the United States in 2010.",
+    "cues": [
+      "2002",
+      "Thailand",
+      "bamboo house",
+      "birth of brothers 2003 and 2006",
+      "refugee camp"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_157_enna_say.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "United States",
+    "explicit_text": "My family applied to be relocated to the United States in 2010 and were accepted, finally leaving in 2011. We were nervous at first because my parents worried we might not be treated well, but after talking with my aunt in Minnesota, they decided to apply. Arriving in the U.S. was a dream come true; we moved into a bigger apartment and I started school where I met many Karen people and others from different races. Over time, I learned English and began building a new life here.",
+    "implicit_text": "My family applied to be relocated to a North American country in 2010 and were accepted, finally leaving in 2011. We were nervous at first because my parents worried we might not be treated well, but after talking with my aunt in the Midwest, they decided to apply. Arriving in that country was a dream come true; we moved into a bigger apartment and I started school where I met many Karen people and others from different races. Over time, I learned English and began building a new life there.",
+    "cues": [
+      "2010 application",
+      "2011 relocation",
+      "Minnesota",
+      "school",
+      "new life"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_157_enna_say.yaml"
+  },
+  {
+    "entity_id": 5,
+    "entity": "Minnesota",
+    "explicit_text": "Minnesota is where my aunt lives, and she encouraged my parents to apply for relocation to the United States. When we arrived in 2011, we took a taxi from the airport to our new apartment, which was much bigger than our home in Thailand. At school in Minnesota, I saw many Karen people and other races I had never seen before. It became the place where I started learning English and adjusting to life in America.",
+    "implicit_text": "The state in the U.S. where my aunt lives encouraged my parents to apply for relocation. When we arrived in 2011, we took a taxi from the airport to our new apartment, which was much bigger than our home in Thailand. At school there, I saw many Karen people and other races I had never seen before. It became the place where I started learning English and adjusting to life in America.",
+    "cues": [
+      "2011 arrival",
+      "aunt",
+      "apartment",
+      "school",
+      "learning English"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_157_enna_say.yaml"
+  },
+  {
+    "entity_id": 6,
+    "entity": "Mae Sot",
+    "explicit_text": "Before moving to the United States, my family went to Mae Sot for medical exams including X-rays and shots. During this time, the X-rays showed that my parents had tuberculosis, so they had to stay there for two more weeks for treatment. Mae Sot was an important step in the relocation process, ensuring we were healthy before traveling to America.",
+    "implicit_text": "Before moving to the United States, my family went to a border town in western Thailand for medical exams including X-rays and shots. During this time, the X-rays showed that my parents had tuberculosis, so they had to stay there for two more weeks for treatment. That town was an important step in the relocation process, ensuring we were healthy before traveling to America.",
+    "cues": [
+      "2011",
+      "medical exams",
+      "X-rays",
+      "tuberculosis",
+      "relocation process"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_157_enna_say.yaml"
+  }
+]

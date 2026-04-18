@@ -1,0 +1,421 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "Ellis Island",
+    "explicit_text": "On the day of the attacks, I was heading to Ellis Island after hearing about the first plane hitting the North Tower. We evacuated people from Liberty Island to Ellis, and Ellis became a triage and staging area. After the second tower collapsed, I brought people back to Ellis Island because Manhattan was filled with smoke. Post-attack, Ellis Island was secured with bomb-sniffing dogs and car inspections, and our boats were kept there instead of Manhattan.",
+    "implicit_text": "On the day of the attacks, I was heading to the immigration station after hearing about the first plane hitting the North Tower. We evacuated people from Liberty Island to the immigration station, and it became a triage and staging area. After the second tower collapsed, I brought people back there because Manhattan was filled with smoke. Post-attack, the island was secured with bomb-sniffing dogs and car inspections, and our boats were kept there instead of Manhattan.",
+    "cues": [
+      "September 11, 2001",
+      "evacuation",
+      "triage",
+      "security",
+      "bomb-sniffing dogs"
+    ],
+    "transcript_ref": "september_11\\nps911_arberg_alfred_feb_1_2002.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "Larry",
+    "explicit_text": "Larry was my deckhand that morning when I was doing an oil change at the Marine Inspection Office. He was the one who first told me that a plane had hit one of the buildings. His alert was the start of everything for me that day, as I came upstairs and saw the smoke over the buildings.",
+    "implicit_text": "He was my deckhand that morning when I was doing an oil change at the Marine Inspection Office. He was the one who first told me that a plane had hit one of the buildings. His alert was the start of everything for me that day, as I came upstairs and saw the smoke over the buildings.",
+    "cues": [
+      "September 11, 2001",
+      "Marine Inspection Office",
+      "deckhand",
+      "first alert"
+    ],
+    "transcript_ref": "september_11\\nps911_arberg_alfred_feb_1_2002.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "Marine Inspection Office",
+    "explicit_text": "I was at the Marine Inspection Office in Manhattan near the Staten Island Ferry Terminal when the attacks began. I was downstairs doing an oil change on a generator when Larry told me a plane hit a building. From the MIO, I could see smoke over the buildings but not the Trade Center itself until I backed out and headed north.",
+    "implicit_text": "I was at the maritime regulatory office in Manhattan near the Staten Island Ferry Terminal when the attacks began. I was downstairs doing an oil change on a generator when Larry told me a plane hit a building. From there, I could see smoke over the buildings but not the Trade Center itself until I backed out and headed north.",
+    "cues": [
+      "September 11, 2001",
+      "Manhattan",
+      "Staten Island Ferry Terminal",
+      "oil change"
+    ],
+    "transcript_ref": "september_11\\nps911_arberg_alfred_feb_1_2002.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "World Trade Center",
+    "explicit_text": "I witnessed the attacks on the World Trade Center firsthand from the water. I first saw smoke coming from the North Tower around 9 a.m., and then I saw the second plane hit the South Tower from the corner of my eye. The collapse of the towers sent smoke rolling down Manhattan, and the area around the Financial Center was covered in debris.",
+    "implicit_text": "I witnessed the attacks on the twin towers firsthand from the water. I first saw smoke coming from the North Tower around 9 a.m., and then I saw the second plane hit the South Tower from the corner of my eye. The collapse of the towers sent smoke rolling down Manhattan, and the area around the Financial Center was covered in debris.",
+    "cues": [
+      "September 11, 2001",
+      "North Tower",
+      "South Tower",
+      "Manhattan",
+      "Financial Center"
+    ],
+    "transcript_ref": "september_11\\nps911_arberg_alfred_feb_1_2002.yaml"
+  },
+  {
+    "entity_id": 5,
+    "entity": "Castle Clinton",
+    "explicit_text": "While heading up north towards Ellis Island, I passed near Castle Clinton. It was during this time that I saw the second plane come low over the Statue of Liberty before hitting the South Tower. Castle Clinton was just part of the route I was taking as I tried to understand what was happening.",
+    "implicit_text": "While heading up north towards Ellis Island, I passed near the historic fort in Battery Park. It was during this time that I saw the second plane come low over the Statue of Liberty before hitting the South Tower. That fort was just part of the route I was taking as I tried to understand what was happening.",
+    "cues": [
+      "September 11, 2001",
+      "route to Ellis Island",
+      "near Statue of Liberty"
+    ],
+    "transcript_ref": "september_11\\nps911_arberg_alfred_feb_1_2002.yaml"
+  },
+  {
+    "entity_id": 6,
+    "entity": "Statue of Liberty",
+    "explicit_text": "I saw the second plane fly very low over the Statue of Liberty before it crashed into the South Tower. We also evacuated people from Liberty Island, which is where the Statue of Liberty stands. The island was cleared quickly, and I transported people from there to Ellis Island and then to Manhattan.",
+    "implicit_text": "I saw the second plane fly very low over the iconic copper statue before it crashed into the South Tower. We also evacuated people from Liberty Island, which is where that statue stands. The island was cleared quickly, and I transported people from there to Ellis Island and then to Manhattan.",
+    "cues": [
+      "September 11, 2001",
+      "plane flew low",
+      "evacuation",
+      "Liberty Island"
+    ],
+    "transcript_ref": "september_11\\nps911_arberg_alfred_feb_1_2002.yaml"
+  },
+  {
+    "entity_id": 7,
+    "entity": "North Tower",
+    "explicit_text": "The first plane hit the North Tower, and I saw the smoke coming from it around 9 a.m. I was near the Marine Inspection Office when I noticed the smoke over the buildings and then identified it as the North Tower. It was the initial sign that something terrible was happening.",
+    "implicit_text": "The first plane hit the northern of the twin towers, and I saw the smoke coming from it around 9 a.m. I was near the Marine Inspection Office when I noticed the smoke over the buildings and then identified it as the northern tower. It was the initial sign that something terrible was happening.",
+    "cues": [
+      "September 11, 2001",
+      "first plane hit",
+      "Marine Inspection Office",
+      "smoke"
+    ],
+    "transcript_ref": "september_11\\nps911_arberg_alfred_feb_1_2002.yaml"
+  },
+  {
+    "entity_id": 8,
+    "entity": "South Tower",
+    "explicit_text": "I saw the second plane hit the South Tower from the corner of my eye while I was heading north. It was shocking and eerie because I didn’t realize we were under attack until that moment. Later, the South Tower collapsed, sending smoke rolling down Manhattan.",
+    "implicit_text": "I saw the second plane hit the southern of the twin towers from the corner of my eye while I was heading north. It was shocking and eerie because I didn’t realize we were under attack until that moment. Later, the southern tower collapsed, sending smoke rolling down Manhattan.",
+    "cues": [
+      "September 11, 2001",
+      "second plane hit",
+      "collapse",
+      "Manhattan"
+    ],
+    "transcript_ref": "september_11\\nps911_arberg_alfred_feb_1_2002.yaml"
+  },
+  {
+    "entity_id": 9,
+    "entity": "Manhattan",
+    "explicit_text": "Manhattan was the central location of the attacks, and I was navigating boats around its waterfront that day. After the towers collapsed, the smoke rolled down the streets, making it impossible to drop people off safely. I also drove through Manhattan later that evening and crossed the Brooklyn Bridge, witnessing people walking across it amid the chaos.",
+    "implicit_text": "That borough was the central location of the attacks, and I was navigating boats around its waterfront that day. After the towers collapsed, the smoke rolled down the streets, making it impossible to drop people off safely. I also drove through the area later that evening and crossed the famous bridge, witnessing people walking across it amid the chaos.",
+    "cues": [
+      "September 11, 2001",
+      "World Trade Center",
+      "smoke",
+      "Brooklyn Bridge",
+      "evacuations"
+    ],
+    "transcript_ref": "september_11\\nps911_arberg_alfred_feb_1_2002.yaml"
+  },
+  {
+    "entity_id": 10,
+    "entity": "Jim Watkins",
+    "explicit_text": "Jim Watkins was with me in the wheelhouse on the boat when we were heading back into Manhattan after evacuating people. He is the budget analyst at Ellis Island. We were about three-quarters of the way in when the second tower collapsed, and we had to turn back because of the smoke.",
+    "implicit_text": "He was with me in the wheelhouse on the boat when we were heading back into Manhattan after evacuating people. He is the budget analyst at the immigration station. We were about three-quarters of the way in when the second tower collapsed, and we had to turn back because of the smoke.",
+    "cues": [
+      "September 11, 2001",
+      "Ellis Island",
+      "wheelhouse",
+      "budget analyst"
+    ],
+    "transcript_ref": "september_11\\nps911_arberg_alfred_feb_1_2002.yaml"
+  },
+  {
+    "entity_id": 11,
+    "entity": "Pete O'Dougherty",
+    "explicit_text": "Pete O'Dougherty is the chief of maintenance and my boss. After the towers collapsed, he coordinated switching boats from Liberty IV to Liberty II to better handle potential medical evacuations. He also was with us later that evening when we dropped people off near the Brooklyn Bridge and the Circle Line at 42nd Street.",
+    "implicit_text": "He is the chief of maintenance and my boss. After the towers collapsed, he coordinated switching boats from Liberty IV to Liberty II to better handle potential medical evacuations. He also was with us later that evening when we dropped people off near the Brooklyn Bridge and the Circle Line at 42nd Street.",
+    "cues": [
+      "September 11, 2001",
+      "chief of maintenance",
+      "boat operations",
+      "Brooklyn Bridge"
+    ],
+    "transcript_ref": "september_11\\nps911_arberg_alfred_feb_1_2002.yaml"
+  },
+  {
+    "entity_id": 12,
+    "entity": "Gene",
+    "explicit_text": "Gene is one of the EMTs who got on the boat with Pete and Ray Hammond to head into Manhattan after the towers collapsed. He was part of the emergency response team assisting with evacuations and triage efforts during the crisis.",
+    "implicit_text": "He is one of the EMTs who got on the boat with Pete and Ray Hammond to head into Manhattan after the towers collapsed. He was part of the emergency response team assisting with evacuations and triage efforts during the crisis.",
+    "cues": [
+      "September 11, 2001",
+      "EMT",
+      "Manhattan",
+      "emergency response"
+    ],
+    "transcript_ref": "september_11\\nps911_arberg_alfred_feb_1_2002.yaml"
+  },
+  {
+    "entity_id": 13,
+    "entity": "Ray Hammond",
+    "explicit_text": "Ray Hammond is one of the Rangers who joined Pete and Gene on the boat heading into Manhattan after the attacks. He was involved in the response efforts during the evacuation and triage operations around the World Trade Center area.",
+    "implicit_text": "He is one of the Rangers who joined Pete and Gene on the boat heading into Manhattan after the attacks. He was involved in the response efforts during the evacuation and triage operations around the World Trade Center area.",
+    "cues": [
+      "September 11, 2001",
+      "Ranger",
+      "Manhattan",
+      "emergency response"
+    ],
+    "transcript_ref": "september_11\\nps911_arberg_alfred_feb_1_2002.yaml"
+  },
+  {
+    "entity_id": 14,
+    "entity": "Battery Park City",
+    "explicit_text": "When we arrived in Manhattan after the towers collapsed, Battery Park City was packed with every boat imaginable, all picking up people and taking them to safety. It was a major hub for evacuation efforts, and we were told to stand by because the area was overwhelmed with rescue vessels.",
+    "implicit_text": "When we arrived in Manhattan after the towers collapsed, that neighborhood was packed with every boat imaginable, all picking up people and taking them to safety. It was a major hub for evacuation efforts, and we were told to stand by because the area was overwhelmed with rescue vessels.",
+    "cues": [
+      "September 11, 2001",
+      "Manhattan waterfront",
+      "evacuation hub",
+      "boats"
+    ],
+    "transcript_ref": "september_11\\nps911_arberg_alfred_feb_1_2002.yaml"
+  },
+  {
+    "entity_id": 15,
+    "entity": "NYPD",
+    "explicit_text": "The NYPD was controlling access to critical areas like the Brooklyn Bridge after the attacks. When I tried to cross the Brooklyn Bridge, a lieutenant from the NYPD stopped me but then allowed me through after I identified myself. They had stanchions set up and were restricting all but essential traffic.",
+    "implicit_text": "The city police department was controlling access to critical areas like the Brooklyn Bridge after the attacks. When I tried to cross the bridge, a lieutenant from the police stopped me but then allowed me through after I identified myself. They had stanchions set up and were restricting all but essential traffic.",
+    "cues": [
+      "September 11, 2001",
+      "Brooklyn Bridge",
+      "security",
+      "lieutenant"
+    ],
+    "transcript_ref": "september_11\\nps911_arberg_alfred_feb_1_2002.yaml"
+  },
+  {
+    "entity_id": 16,
+    "entity": "Brooklyn Bridge",
+    "explicit_text": "I crossed the Brooklyn Bridge alone in my car that evening after the attacks, which felt eerie because I was the only vehicle allowed. On the bridge, I saw many people walking across on foot, staggering and straggling as they evacuated the city. The NYPD had blocked the bridge but made an exception for me after I explained who I was.",
+    "implicit_text": "I crossed that famous suspension bridge alone in my car that evening after the attacks, which felt eerie because I was the only vehicle allowed. On the bridge, I saw many people walking across on foot, staggering and straggling as they evacuated the city. The police had blocked the bridge but made an exception for me after I explained who I was.",
+    "cues": [
+      "September 11, 2001",
+      "evacuation",
+      "NYPD",
+      "foot traffic"
+    ],
+    "transcript_ref": "september_11\\nps911_arberg_alfred_feb_1_2002.yaml"
+  },
+  {
+    "entity_id": 17,
+    "entity": "Long Island",
+    "explicit_text": "I live in Long Island, and after the attacks, all westbound traffic into Manhattan was closed, so I couldn’t get home for a few days. When I finally could return to work, I had to take the Verrazzano-Narrows Bridge and Bayonne Bridge, paying multiple tolls just to get to the city. It was a tough commute for several weeks.",
+    "implicit_text": "I live in that suburban area east of the city, and after the attacks, all westbound traffic into Manhattan was closed, so I couldn’t get home for a few days. When I finally could return to work, I had to take the Verrazzano-Narrows Bridge and Bayonne Bridge, paying multiple tolls just to get to the city. It was a tough commute for several weeks.",
+    "cues": [
+      "September 11, 2001",
+      "commute",
+      "bridge tolls",
+      "Long Island residence"
+    ],
+    "transcript_ref": "september_11\\nps911_arberg_alfred_feb_1_2002.yaml"
+  },
+  {
+    "entity_id": 18,
+    "entity": "Verrazzano-Narrows Bridge",
+    "explicit_text": "After the attacks, the usual routes into Manhattan were closed, so I had to take the Verrazzano-Narrows Bridge to get to work. This detour added tolls and time to my daily commute from Long Island. It was part of the new normal for a while after the event.",
+    "implicit_text": "After the attacks, the usual routes into Manhattan were closed, so I had to take that large suspension bridge connecting Staten Island to Brooklyn to get to work. This detour added tolls and time to my daily commute from Long Island. It was part of the new normal for a while after the event.",
+    "cues": [
+      "September 11, 2001",
+      "commute",
+      "Long Island",
+      "bridge tolls"
+    ],
+    "transcript_ref": "september_11\\nps911_arberg_alfred_feb_1_2002.yaml"
+  },
+  {
+    "entity_id": 19,
+    "entity": "Bayonne Bridge",
+    "explicit_text": "Similar to the Verrazzano-Narrows Bridge, I had to use the Bayonne Bridge to reach Manhattan after the attacks because direct routes were closed. This added extra toll costs and travel time to my daily routine. It was a significant inconvenience but necessary given the security situation.",
+    "implicit_text": "Similar to the Verrazzano-Narrows Bridge, I had to use that steel arch bridge connecting New Jersey to Staten Island to reach Manhattan after the attacks because direct routes were closed. This added extra toll costs and travel time to my daily routine. It was a significant inconvenience but necessary given the security situation.",
+    "cues": [
+      "September 11, 2001",
+      "commute",
+      "bridge tolls",
+      "Long Island"
+    ],
+    "transcript_ref": "september_11\\nps911_arberg_alfred_feb_1_2002.yaml"
+  },
+  {
+    "entity_id": 20,
+    "entity": "United States Coast Guard",
+    "explicit_text": "The Coast Guard was involved in providing water and support during the days following the attacks. They had water supplies in New York, helping ensure that staff and responders had what they needed. Their presence was part of the overall security and support network around Ellis Island and the harbor.",
+    "implicit_text": "The maritime security service was involved in providing water and support during the days following the attacks. They had water supplies in New York, helping ensure that staff and responders had what they needed. Their presence was part of the overall security and support network around Ellis Island and the harbor.",
+    "cues": [
+      "post-September 11, 2001",
+      "water supply",
+      "support",
+      "New York harbor"
+    ],
+    "transcript_ref": "september_11\\nps911_arberg_alfred_feb_1_2002.yaml"
+  },
+  {
+    "entity_id": 21,
+    "entity": "Park Police",
+    "explicit_text": "The Park Police played a role in transporting me and my deckhand back to Manhattan after our night shifts. They would pick us up by boat from Ellis Island so we could get home safely. They were part of the security and logistical support around the islands after the attacks.",
+    "implicit_text": "The federal park law enforcement played a role in transporting me and my deckhand back to Manhattan after our night shifts. They would pick us up by boat from Ellis Island so we could get home safely. They were part of the security and logistical support around the islands after the attacks.",
+    "cues": [
+      "post-September 11, 2001",
+      "boat transport",
+      "Ellis Island",
+      "security"
+    ],
+    "transcript_ref": "september_11\\nps911_arberg_alfred_feb_1_2002.yaml"
+  },
+  {
+    "entity_id": 22,
+    "entity": "Liberty II",
+    "explicit_text": "Liberty II is one of the boats we use, mainly for garbage hauling because it has a wide-open deck. It has a single 671 engine and is not used for passenger transport except in emergencies. After the attacks, we switched to using Liberty II for potential medical evacuations because of its open deck space.",
+    "implicit_text": "This vessel is one of the boats we use, mainly for garbage hauling because it has a wide-open deck. It has a single 671 engine and is not used for passenger transport except in emergencies. After the attacks, we switched to using this boat for potential medical evacuations because of its open deck space.",
+    "cues": [
+      "boat",
+      "garbage hauling",
+      "post-September 11, 2001",
+      "emergency use"
+    ],
+    "transcript_ref": "september_11\\nps911_arberg_alfred_feb_1_2002.yaml"
+  },
+  {
+    "entity_id": 23,
+    "entity": "Liberty III",
+    "explicit_text": "Liberty III serves mostly as a backup to Liberty IV and sometimes hauls garbage, though not as much as Liberty II. During the attacks, my boss Mike Kartanowicz was commandeered from the Fire Department and used Liberty III to shuttle firemen back and forth to the North Shore Marina. It was an important support vessel during the emergency.",
+    "implicit_text": "This boat serves mostly as a backup to our main vessel and sometimes hauls garbage, though not as much as Liberty II. During the attacks, my boss Mike Kartanowicz was commandeered from the Fire Department and used this boat to shuttle firemen back and forth to the North Shore Marina. It was an important support vessel during the emergency.",
+    "cues": [
+      "boat",
+      "backup",
+      "firemen transport",
+      "September 11, 2001"
+    ],
+    "transcript_ref": "september_11\\nps911_arberg_alfred_feb_1_2002.yaml"
+  },
+  {
+    "entity_id": 24,
+    "entity": "Liberty IV",
+    "explicit_text": "Liberty IV is our main boat, 64 feet long with 1400 horsepower, used primarily to transport staff and VIPs between Ellis and Liberty Islands. On the day of the attacks, I was operating Liberty IV when evacuations began. It holds 80 people and was critical in moving people quickly during the crisis.",
+    "implicit_text": "This is our main boat, 64 feet long with 1400 horsepower, used primarily to transport staff and VIPs between Ellis and Liberty Islands. On the day of the attacks, I was operating this vessel when evacuations began. It holds 80 people and was critical in moving people quickly during the crisis.",
+    "cues": [
+      "boat",
+      "main vessel",
+      "staff transport",
+      "September 11, 2001"
+    ],
+    "transcript_ref": "september_11\\nps911_arberg_alfred_feb_1_2002.yaml"
+  },
+  {
+    "entity_id": 25,
+    "entity": "President of the United States",
+    "explicit_text": "In July, before the attacks, we had the President of the United States on Liberty IV. It was a significant event for us, showing the importance of the boat and the islands. This was mentioned to highlight the boat’s VIP role in addition to emergency duties.",
+    "implicit_text": "In July, before the attacks, we had the nation's leader on our main boat. It was a significant event for us, showing the importance of the boat and the islands. This was mentioned to highlight the boat’s VIP role in addition to emergency duties.",
+    "cues": [
+      "July (year not specified)",
+      "Liberty IV",
+      "VIP transport",
+      "President visit"
+    ],
+    "transcript_ref": "september_11\\nps911_arberg_alfred_feb_1_2002.yaml"
+  },
+  {
+    "entity_id": 26,
+    "entity": "Frank Mills",
+    "explicit_text": "Frank Mills is the deputy superintendent who was with my boss Pete O'Dougherty when they got on a boat to drop people off near the Brooklyn Bridge after the attacks. He was involved in coordinating the response and transport efforts that day. Frank was part of the leadership managing the crisis on the water.",
+    "implicit_text": "He is the deputy superintendent who was with my boss Pete O'Dougherty when they got on a boat to drop people off near the Brooklyn Bridge after the attacks. He was involved in coordinating the response and transport efforts that day. Frank was part of the leadership managing the crisis on the water.",
+    "cues": [
+      "September 11, 2001",
+      "deputy superintendent",
+      "Brooklyn Bridge",
+      "response coordination"
+    ],
+    "transcript_ref": "september_11\\nps911_arberg_alfred_feb_1_2002.yaml"
+  },
+  {
+    "entity_id": 27,
+    "entity": "Mike Kartanowicz",
+    "explicit_text": "Mike Kartanowicz is my boss and a supervisory captain who was commandeered from the Fire Department during the attacks. He used Liberty III to shuttle firemen back and forth to the North Shore Marina for several hours. Mike played a key role in supporting the emergency response efforts by coordinating boat transport.",
+    "implicit_text": "He is my boss and a supervisory captain who was commandeered from the Fire Department during the attacks. He used Liberty III to shuttle firemen back and forth to the North Shore Marina for several hours. Mike played a key role in supporting the emergency response efforts by coordinating boat transport.",
+    "cues": [
+      "September 11, 2001",
+      "supervisory captain",
+      "firemen transport",
+      "Liberty III"
+    ],
+    "transcript_ref": "september_11\\nps911_arberg_alfred_feb_1_2002.yaml"
+  },
+  {
+    "entity_id": 28,
+    "entity": "Fire Department of New York",
+    "explicit_text": "The Fire Department of New York was heavily involved in the response, with many firemen being transported by boat to the North Shore Marina. My boss Mike Kartanowicz was commandeered from the FDNY to help shuttle firemen during the crisis. Their presence was critical in the rescue and recovery efforts at the World Trade Center.",
+    "implicit_text": "The city's fire department was heavily involved in the response, with many firemen being transported by boat to the North Shore Marina. My boss Mike Kartanowicz was commandeered from this department to help shuttle firemen during the crisis. Their presence was critical in the rescue and recovery efforts at the World Trade Center.",
+    "cues": [
+      "September 11, 2001",
+      "firemen transport",
+      "emergency response",
+      "North Shore Marina"
+    ],
+    "transcript_ref": "september_11\\nps911_arberg_alfred_feb_1_2002.yaml"
+  },
+  {
+    "entity_id": 29,
+    "entity": "North River",
+    "explicit_text": "After dropping people off near the Brooklyn Bridge, we proceeded up the North River to drop off more evacuees by the Circle Line at 42nd Street. The North River was part of our route navigating Manhattan’s waterfront during the evacuation efforts. It was a busy and tense time on the water.",
+    "implicit_text": "After dropping people off near the Brooklyn Bridge, we proceeded up the river along Manhattan’s west side to drop off more evacuees by the Circle Line at 42nd Street. This river was part of our route navigating Manhattan’s waterfront during the evacuation efforts. It was a busy and tense time on the water.",
+    "cues": [
+      "September 11, 2001",
+      "evacuation route",
+      "Manhattan waterfront",
+      "Circle Line"
+    ],
+    "transcript_ref": "september_11\\nps911_arberg_alfred_feb_1_2002.yaml"
+  },
+  {
+    "entity_id": 30,
+    "entity": "Circle Line",
+    "explicit_text": "We dropped off evacuees by the Circle Line at 42nd Street after the attacks. The Circle Line area was one of the points along Manhattan’s waterfront where people were brought to safety. It was part of the coordinated effort to manage the large number of evacuees.",
+    "implicit_text": "We dropped off evacuees by the sightseeing cruise terminal at 42nd Street after the attacks. That area was one of the points along Manhattan’s waterfront where people were brought to safety. It was part of the coordinated effort to manage the large number of evacuees.",
+    "cues": [
+      "September 11, 2001",
+      "evacuation",
+      "42nd Street",
+      "Manhattan waterfront"
+    ],
+    "transcript_ref": "september_11\\nps911_arberg_alfred_feb_1_2002.yaml"
+  },
+  {
+    "entity_id": 31,
+    "entity": "42nd Street (Manhattan)",
+    "explicit_text": "42nd Street was one of the locations where we dropped off evacuees by the Circle Line after the towers collapsed. It was part of the route we took navigating the North River and Manhattan’s waterfront during the emergency response. The area was busy with rescue and evacuation activity.",
+    "implicit_text": "This street was one of the locations where we dropped off evacuees by the Circle Line after the towers collapsed. It was part of the route we took navigating the river and Manhattan’s waterfront during the emergency response. The area was busy with rescue and evacuation activity.",
+    "cues": [
+      "September 11, 2001",
+      "evacuation",
+      "Circle Line",
+      "North River"
+    ],
+    "transcript_ref": "september_11\\nps911_arberg_alfred_feb_1_2002.yaml"
+  },
+  {
+    "entity_id": 32,
+    "entity": "September 11 attacks",
+    "explicit_text": "On September 11, 2001, I was at the Marine Inspection Office when the first plane hit the North Tower. I witnessed the second plane hit the South Tower from the water and participated in evacuating people from Liberty and Ellis Islands. The collapse of the towers sent smoke rolling through Manhattan, and the city was locked down with heavy security. I helped transport evacuees and emergency personnel throughout the day and experienced the disruption to commuting and daily life afterward.",
+    "implicit_text": "On September 11, 2001, I was at the maritime regulatory office when the first plane hit the northern tower. I witnessed the second plane hit the southern tower from the water and participated in evacuating people from Liberty and Ellis Islands. The collapse of the towers sent smoke rolling through Manhattan, and the city was locked down with heavy security. I helped transport evacuees and emergency personnel throughout the day and experienced the disruption to commuting and daily life afterward.",
+    "cues": [
+      "September 11, 2001",
+      "World Trade Center",
+      "evacuation",
+      "Manhattan",
+      "security lockdown"
+    ],
+    "transcript_ref": "september_11\\nps911_arberg_alfred_feb_1_2002.yaml"
+  }
+]

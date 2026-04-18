@@ -1,0 +1,159 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "The Bronx",
+    "explicit_text": "I was born and raised in the Bronx, New York, in a family just a notch above genteel poverty. My parents, Jewish immigrants from Poland, worked in the garment industry there. Growing up in the Bronx shaped my early life before we moved to Los Angeles in 1929 due to a prolonged strike in the garment industry.",
+    "implicit_text": "I was born and raised in a New York City borough known for its vibrant culture, in a family just a notch above genteel poverty. My parents, Jewish immigrants from Eastern Europe, worked in the garment industry there. Growing up in that borough shaped my early life before we moved to the West Coast in 1929 due to a prolonged strike in the garment industry.",
+    "cues": [
+      "Bronx, New York",
+      "born and raised",
+      "garment industry",
+      "1929",
+      "family background"
+    ],
+    "transcript_ref": "academic\\columbia_oral_history\\columbia_Life_of_a_leftist_labor_lawyer_oral_history.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "Poland",
+    "explicit_text": "My parents were Jewish immigrants from Poland who came to New York and met while working in the garment industry. Their Polish heritage was part of our family identity, even as they adapted to life in America. Their conservative political views contrasted with my later Leftist leanings.",
+    "implicit_text": "My parents were Jewish immigrants from a Central European country who came to New York and met while working in the garment industry. Their heritage from that country was part of our family identity, even as they adapted to life in America. Their conservative political views contrasted with my later Leftist leanings.",
+    "cues": [
+      "Jewish immigrants",
+      "Poland",
+      "garment industry",
+      "family background"
+    ],
+    "transcript_ref": "academic\\columbia_oral_history\\columbia_Life_of_a_leftist_labor_lawyer_oral_history.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "Los Angeles",
+    "explicit_text": "Our family moved to Los Angeles in 1929 after my father sought work there due to a strike in New York's garment industry. I became a college student at UCLA, which was a completely new environment for me as a 19-year-old New Yorker. Los Angeles was where my political views began to take shape during the Great Depression.",
+    "implicit_text": "Our family moved to a major West Coast city in 1929 after my father sought work there due to a strike in New York's garment industry. I became a college student at a large public university there, which was a completely new environment for me as a 19-year-old New Yorker. That city was where my political views began to take shape during the Great Depression.",
+    "cues": [
+      "Los Angeles",
+      "1929",
+      "UCLA",
+      "garment industry strike",
+      "Great Depression"
+    ],
+    "transcript_ref": "academic\\columbia_oral_history\\columbia_Life_of_a_leftist_labor_lawyer_oral_history.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "University of California, Los Angeles",
+    "explicit_text": "I attended UCLA as a Political Science major with a Philosophy minor starting around 1929. The Great Depression was just beginning, and the campus had a lively intellectual atmosphere with professors who supported underdogs and New Deal ideas. I joined the Social Problems Club, which met at the YWCA, and met influential Leftists like Aubrey Grossman there.",
+    "implicit_text": "I attended a well-known public university in Southern California as a Political Science major with a Philosophy minor starting around 1929. The Great Depression was just beginning, and the campus had a lively intellectual atmosphere with professors who supported underdogs and New Deal ideas. I joined the Social Problems Club, which met at a nearby community center, and met influential Leftists like Aubrey Grossman there.",
+    "cues": [
+      "UCLA",
+      "1929",
+      "Political Science major",
+      "Great Depression",
+      "Social Problems Club",
+      "YWCA",
+      "Aubrey Grossman"
+    ],
+    "transcript_ref": "academic\\columbia_oral_history\\columbia_Life_of_a_leftist_labor_lawyer_oral_history.yaml"
+  },
+  {
+    "entity_id": 5,
+    "entity": "Great Depression",
+    "explicit_text": "The Great Depression began just as I started college at UCLA, profoundly influencing the intellectual environment around me. It was a time when ideas like Social Security and unemployment relief were hot topics among my professors and peers. This period helped solidify my Leftist political views and commitment to social justice.",
+    "implicit_text": "The severe economic downturn that began just as I started college profoundly influenced the intellectual environment around me. It was a time when ideas like Social Security and unemployment relief were hot topics among my professors and peers. This period helped solidify my Leftist political views and commitment to social justice.",
+    "cues": [
+      "Great Depression",
+      "UCLA",
+      "Social Security",
+      "unemployment",
+      "1930s"
+    ],
+    "transcript_ref": "academic\\columbia_oral_history\\columbia_Life_of_a_leftist_labor_lawyer_oral_history.yaml"
+  },
+  {
+    "entity_id": 6,
+    "entity": "New Deal",
+    "explicit_text": "During my time at UCLA in the early 1930s, the New Deal was a major political and social initiative that captured the attention of my professors and peers. They often advocated for its programs, like Social Security, which aligned with my growing Leftist views. The New Deal represented hope and change during the hardships of the Great Depression.",
+    "implicit_text": "During my time at that Southern California university in the early 1930s, a major political and social initiative was capturing the attention of my professors and peers. They often advocated for its programs, like Social Security, which aligned with my growing Leftist views. This initiative represented hope and change during the hardships of the Great Depression.",
+    "cues": [
+      "New Deal",
+      "Social Security",
+      "Great Depression",
+      "UCLA",
+      "early 1930s"
+    ],
+    "transcript_ref": "academic\\columbia_oral_history\\columbia_Life_of_a_leftist_labor_lawyer_oral_history.yaml"
+  },
+  {
+    "entity_id": 7,
+    "entity": "YWCA",
+    "explicit_text": "The Social Problems Club I joined at UCLA was actually barred on campus, so we met across the street at the YWCA. It was there that I connected with many people who later became prominent in California Leftism, including Aubrey Grossman. The YWCA was an important gathering place for political discussion and activism during my college years.",
+    "implicit_text": "The Social Problems Club I joined at the university was actually barred on campus, so we met across the street at a well-known community organization focused on empowering women. It was there that I connected with many people who later became prominent in California Leftism, including Aubrey Grossman. That community center was an important gathering place for political discussion and activism during my college years.",
+    "cues": [
+      "YWCA",
+      "Social Problems Club",
+      "UCLA",
+      "California Leftism",
+      "Aubrey Grossman"
+    ],
+    "transcript_ref": "academic\\columbia_oral_history\\columbia_Life_of_a_leftist_labor_lawyer_oral_history.yaml"
+  },
+  {
+    "entity_id": 8,
+    "entity": "Aubrey Grossman",
+    "explicit_text": "I met Aubrey Grossman through the Social Problems Club meetings at the YWCA while I was at UCLA. He later became one of my first employers and eventually one of my clients, marking a significant professional and political relationship. Aubrey was a key figure in California Leftism and influenced my early career as a lawyer.",
+    "implicit_text": "I met Aubrey Grossman through the Social Problems Club meetings at the community center while I was at university. He later became one of my first employers and eventually one of my clients, marking a significant professional and political relationship. Aubrey was a key figure in California Leftism and influenced my early career as a lawyer.",
+    "cues": [
+      "Aubrey Grossman",
+      "Social Problems Club",
+      "YWCA",
+      "UCLA",
+      "employer",
+      "client"
+    ],
+    "transcript_ref": "academic\\columbia_oral_history\\columbia_Life_of_a_leftist_labor_lawyer_oral_history.yaml"
+  },
+  {
+    "entity_id": 9,
+    "entity": "Columbia University",
+    "explicit_text": "After graduating from UCLA, I received a scholarship to attend graduate school at Columbia University. I initially studied international law, focusing on the Spanish Civil War, which was a hot issue in the late 1930s, before switching to a regular law course. At Columbia, I also worked on research for a legal-political essay and met influential Leftists like Carol King.",
+    "implicit_text": "After graduating from the university in Southern California, I received a scholarship to attend graduate school at a prestigious Ivy League institution in New York City. I initially studied international law, focusing on a European civil war, which was a hot issue in the late 1930s, before switching to a regular law course. At that university, I also worked on research for a legal-political essay and met influential Leftists like Carol King.",
+    "cues": [
+      "Columbia University",
+      "graduate school",
+      "international law",
+      "Spanish Civil War",
+      "late 1930s",
+      "Carol King"
+    ],
+    "transcript_ref": "academic\\columbia_oral_history\\columbia_Life_of_a_leftist_labor_lawyer_oral_history.yaml"
+  },
+  {
+    "entity_id": 10,
+    "entity": "Spanish Civil War",
+    "explicit_text": "The Spanish Civil War was a major international issue during my graduate studies at Columbia University in the late 1930s. I initially focused on international law with the war as a central topic, reflecting the political tensions of the time. This period deepened my commitment to Leftist causes and informed my legal studies.",
+    "implicit_text": "A major European civil war was a significant international issue during my graduate studies at the Ivy League university in the late 1930s. I initially focused on international law with that conflict as a central topic, reflecting the political tensions of the time. This period deepened my commitment to Leftist causes and informed my legal studies.",
+    "cues": [
+      "Spanish Civil War",
+      "Columbia University",
+      "international law",
+      "late 1930s",
+      "political tensions"
+    ],
+    "transcript_ref": "academic\\columbia_oral_history\\columbia_Life_of_a_leftist_labor_lawyer_oral_history.yaml"
+  },
+  {
+    "entity_id": 11,
+    "entity": "Carol King",
+    "explicit_text": "While at Columbia University, I met Carol King, a famous immigration lawyer who was also a committed Leftist. She influenced me greatly during my graduate studies and early legal career. Carol represented the kind of legal activism and dedication to social justice that I aspired to.",
+    "implicit_text": "While at the Ivy League university, I met Carol King, a famous immigration lawyer who was also a committed Leftist. She influenced me greatly during my graduate studies and early legal career. Carol represented the kind of legal activism and dedication to social justice that I aspired to.",
+    "cues": [
+      "Carol King",
+      "Columbia University",
+      "immigration lawyer",
+      "Leftist",
+      "legal career"
+    ],
+    "transcript_ref": "academic\\columbia_oral_history\\columbia_Life_of_a_leftist_labor_lawyer_oral_history.yaml"
+  }
+]

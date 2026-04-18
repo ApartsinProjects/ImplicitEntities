@@ -1,0 +1,181 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "Jefferson Healthcare",
+    "explicit_text": "I have been working at Jefferson Healthcare since July 10th, 2006, in various roles including Care Team Support and referral coordinator. I handle doctors' paperwork, medication authorizations, and patient scheduling, often working closely with doctors like Dr. Hong and Dr. Carlson. The transition to Coleman and the implementation of Epic Systems in 2013 changed how we worked, but I enjoy my role and the teamwork here. Despite the challenges, especially during the COVID-19 pandemic, Jefferson Healthcare remains a place where I feel useful and connected.",
+    "implicit_text": "I have been working at the local healthcare system since July 10th, 2006, in various roles including Care Team Support and referral coordinator. I handle doctors' paperwork, medication authorizations, and patient scheduling, often working closely with doctors like Dr. Hong and Dr. Carlson. The transition to a new call center and the implementation of a major electronic health record system in 2013 changed how we worked, but I enjoy my role and the teamwork here. Despite the challenges, especially during the COVID-19 pandemic, this healthcare organization remains a place where I feel useful and connected.",
+    "cues": [
+      "July 10th, 2006",
+      "Care Team Support",
+      "referral coordinator",
+      "Coleman transition",
+      "Epic Systems implementation",
+      "COVID-19 pandemic"
+    ],
+    "transcript_ref": "covid_19\\covid_nhc_Dorothy_Kirk_014.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "Dr. Hong",
+    "explicit_text": "Dr. Hong is one of the four doctors I support at Jefferson Healthcare, and I often help with her schedule changes, especially when she has personal events like delivering a baby. I also assist in checking out patients with her, which I enjoy because it allows me to connect with patients and offer gentle support for issues like mood and depression. Working alongside Dr. Hong has been a consistent part of my daily routine, and I appreciate the trust she places in me to help manage her patient care.",
+    "implicit_text": "One of the four doctors I support at the local healthcare system often needs help with schedule changes, especially when she has personal events like delivering a baby. I also assist in checking out patients with her, which I enjoy because it allows me to connect with patients and offer gentle support for issues like mood and depression. Working alongside this physician has been a consistent part of my daily routine, and I appreciate the trust she places in me to help manage her patient care.",
+    "cues": [
+      "Jefferson Healthcare",
+      "schedule changes",
+      "patient checkouts",
+      "delivering a baby",
+      "mood support"
+    ],
+    "transcript_ref": "covid_19\\covid_nhc_Dorothy_Kirk_014.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "Dr. Carlson",
+    "explicit_text": "Dr. Carlson is another doctor I work closely with at Jefferson Healthcare, often sharing similar scheduling challenges as Dr. Hong. I help manage her patient appointments and paperwork, ensuring everything runs smoothly. Like with Dr. Hong, I frequently assist in patient checkouts, which allows me to provide some comfort and understanding to patients under her care. Our teamwork helps keep the practice organized and responsive to patient needs.",
+    "implicit_text": "Another doctor I work closely with at the local healthcare system often shares similar scheduling challenges as the other physician I support. I help manage her patient appointments and paperwork, ensuring everything runs smoothly. Like with the other doctor, I frequently assist in patient checkouts, which allows me to provide some comfort and understanding to patients under her care. Our teamwork helps keep the practice organized and responsive to patient needs.",
+    "cues": [
+      "Jefferson Healthcare",
+      "scheduling",
+      "patient checkouts",
+      "teamwork"
+    ],
+    "transcript_ref": "covid_19\\covid_nhc_Dorothy_Kirk_014.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "Coleman",
+    "explicit_text": "Coleman was a significant organizational change at Jefferson Healthcare that shifted how we handled calls and paperwork. Before Coleman, we all answered phones individually, but after the transition, we developed a phone center and new workflows that improved our efficiency. I started before Coleman and saw firsthand how it reshaped our daily routines and helped us find a better rhythm in managing patient care and referrals. It was a big adjustment but ultimately positive for our work environment.",
+    "implicit_text": "A significant organizational change at the local healthcare system shifted how we handled calls and paperwork. Before this change, we all answered phones individually, but after the transition, we developed a phone center and new workflows that improved our efficiency. I started before this change and saw firsthand how it reshaped our daily routines and helped us find a better rhythm in managing patient care and referrals. It was a big adjustment but ultimately positive for our work environment.",
+    "cues": [
+      "Jefferson Healthcare",
+      "phone center",
+      "workflow changes",
+      "organizational transition"
+    ],
+    "transcript_ref": "covid_19\\covid_nhc_Dorothy_Kirk_014.yaml"
+  },
+  {
+    "entity_id": 5,
+    "entity": "Epic Systems",
+    "explicit_text": "In 2013, Jefferson Healthcare switched to Epic Systems from Allscripts, which was a challenging transition because Epic was designed more for hospitals than smaller medical groups. Learning Epic was complicated and took a lot of time, especially for tasks like registration and workers' comp cases. Despite the difficulties, we adapted, and it became part of our daily work, though I still remember how frustrating it was at first compared to the simpler Allscripts system.",
+    "implicit_text": "In 2013, the local healthcare system switched to a new electronic health record system from a previous one, which was a challenging transition because the new system was designed more for hospitals than smaller medical groups. Learning it was complicated and took a lot of time, especially for tasks like registration and workers' comp cases. Despite the difficulties, we adapted, and it became part of our daily work, though I still remember how frustrating it was at first compared to the simpler previous system.",
+    "cues": [
+      "2013",
+      "Jefferson Healthcare",
+      "transition from Allscripts",
+      "hospital-focused design",
+      "registration challenges"
+    ],
+    "transcript_ref": "covid_19\\covid_nhc_Dorothy_Kirk_014.yaml"
+  },
+  {
+    "entity_id": 6,
+    "entity": "Allscripts",
+    "explicit_text": "Before 2013, Jefferson Healthcare used Allscripts for managing referrals and paperwork, which I found much easier and more straightforward than Epic. With Allscripts, we could quickly type out referral destinations and fax necessary documents without dealing with excessive questions. It made my job as a referral coordinator smoother, and I appreciated how efficient the system was during those years.",
+    "implicit_text": "Before 2013, the local healthcare system used a different electronic health record system for managing referrals and paperwork, which I found much easier and more straightforward than the one that replaced it. With that system, we could quickly type out referral destinations and fax necessary documents without dealing with excessive questions. It made my job as a referral coordinator smoother, and I appreciated how efficient the system was during those years.",
+    "cues": [
+      "pre-2013",
+      "Jefferson Healthcare",
+      "referral management",
+      "ease of use",
+      "faxing documents"
+    ],
+    "transcript_ref": "covid_19\\covid_nhc_Dorothy_Kirk_014.yaml"
+  },
+  {
+    "entity_id": 7,
+    "entity": "Swedish Medical Center",
+    "explicit_text": "Swedish Medical Center is one of the referral destinations I frequently worked with while coordinating patient care at Jefferson Healthcare. When processing referrals, I would send over face sheets, imaging, and notes to doctors at Swedish, ensuring patients were connected to the right specialists. It was part of my daily routine to manage these communications efficiently to support patient care.",
+    "implicit_text": "One of the referral destinations I frequently worked with while coordinating patient care at the local healthcare system was a well-known medical center in the region. When processing referrals, I would send over face sheets, imaging, and notes to doctors there, ensuring patients were connected to the right specialists. It was part of my daily routine to manage these communications efficiently to support patient care.",
+    "cues": [
+      "referrals",
+      "patient care coordination",
+      "document faxing",
+      "Jefferson Healthcare"
+    ],
+    "transcript_ref": "covid_19\\covid_nhc_Dorothy_Kirk_014.yaml"
+  },
+  {
+    "entity_id": 8,
+    "entity": "QFC",
+    "explicit_text": "I noticed a change in mask policies at QFC during the COVID-19 pandemic when I went shopping and saw many people, including the cashier, not wearing masks. They told me that as long as you've had your COVID vaccines, you don't have to wear masks in their supermarket anymore. It was a heartening sign that the pandemic restrictions were easing and life was starting to return to normal.",
+    "implicit_text": "I noticed a change in mask policies at a local supermarket during the COVID-19 pandemic when I went shopping and saw many people, including the cashier, not wearing masks. They told me that as long as you've had your COVID vaccines, you don't have to wear masks in their store anymore. It was a heartening sign that the pandemic restrictions were easing and life was starting to return to normal.",
+    "cues": [
+      "COVID-19 pandemic",
+      "mask policy change",
+      "vaccination",
+      "supermarket",
+      "QFC"
+    ],
+    "transcript_ref": "covid_19\\covid_nhc_Dorothy_Kirk_014.yaml"
+  },
+  {
+    "entity_id": 9,
+    "entity": "COVID-19 pandemic",
+    "explicit_text": "The COVID-19 pandemic deeply affected my work and personal life, especially with the introduction of mask mandates and social distancing. At Jefferson Healthcare, we had to wear masks constantly, which was difficult at first, like when I visited my mother in the ICU in 2018 and struggled to keep the mask on. Over time, I got used to it, and it became part of our routine to protect vulnerable patients and ourselves. The pandemic also changed how we interacted with patients and coworkers, but thankfully, the team spirit remained strong.",
+    "implicit_text": "The global pandemic deeply affected my work and personal life, especially with the introduction of mask mandates and social distancing. At the local healthcare system, we had to wear masks constantly, which was difficult at first, like when I visited my mother in the ICU in 2018 and struggled to keep the mask on. Over time, I got used to it, and it became part of our routine to protect vulnerable patients and ourselves. The pandemic also changed how we interacted with patients and coworkers, but thankfully, the team spirit remained strong.",
+    "cues": [
+      "mask mandates",
+      "social distancing",
+      "ICU visit 2018",
+      "patient safety",
+      "workplace changes"
+    ],
+    "transcript_ref": "covid_19\\covid_nhc_Dorothy_Kirk_014.yaml"
+  },
+  {
+    "entity_id": 10,
+    "entity": "Intensive care unit",
+    "explicit_text": "In 2018, I visited my mother when she was admitted to the intensive care unit due to pneumonia. The ICU staff required me to wear a mask properly, which was very uncomfortable at first because I wasn't used to it. That experience was tough emotionally and physically, but it made me appreciate the precautions taken to protect patients and visitors. It also made me realize how important it is to adapt to safety measures in healthcare settings.",
+    "implicit_text": "In 2018, I visited my mother when she was admitted to the critical care area due to pneumonia. The staff required me to wear a mask properly, which was very uncomfortable at first because I wasn't used to it. That experience was tough emotionally and physically, but it made me appreciate the precautions taken to protect patients and visitors. It also made me realize how important it is to adapt to safety measures in healthcare settings.",
+    "cues": [
+      "2018",
+      "mother's pneumonia",
+      "hospital visit",
+      "mask requirement",
+      "patient safety"
+    ],
+    "transcript_ref": "covid_19\\covid_nhc_Dorothy_Kirk_014.yaml"
+  },
+  {
+    "entity_id": 11,
+    "entity": "Joe Biden",
+    "explicit_text": "I once had a counseling session where my counselor showed me a video of Joe Biden interacting with children, claiming it was evidence of wrongdoing. I explained that people could read his lips and that nothing inappropriate was happening in that video. It was a strange moment, but it reassured me that such accusations were unfounded and that Biden was not involved in anything illegal. This experience highlighted how misinformation can affect perceptions.",
+    "implicit_text": "I once had a counseling session where my counselor showed me a video of the current U.S. president interacting with children, claiming it was evidence of wrongdoing. I explained that people could read his lips and that nothing inappropriate was happening in that video. It was a strange moment, but it reassured me that such accusations were unfounded and that the president was not involved in anything illegal. This experience highlighted how misinformation can affect perceptions.",
+    "cues": [
+      "counseling session",
+      "video analysis",
+      "accusations",
+      "misinformation",
+      "Joe Biden"
+    ],
+    "transcript_ref": "covid_19\\covid_nhc_Dorothy_Kirk_014.yaml"
+  },
+  {
+    "entity_id": 12,
+    "entity": "Woody Allen",
+    "explicit_text": "Woody Allen was mentioned briefly during my counseling sessions, but I didn't have a direct connection or strong feelings about him. The mention was part of a broader discussion about public figures and controversies, but it didn't impact my work or personal life significantly. I mostly focused on my job and supporting patients rather than celebrity issues.",
+    "implicit_text": "A famous filmmaker was mentioned briefly during my counseling sessions, but I didn't have a direct connection or strong feelings about him. The mention was part of a broader discussion about public figures and controversies, but it didn't impact my work or personal life significantly. I mostly focused on my job and supporting patients rather than celebrity issues.",
+    "cues": [
+      "counseling session",
+      "public figures",
+      "controversies",
+      "no personal connection"
+    ],
+    "transcript_ref": "covid_19\\covid_nhc_Dorothy_Kirk_014.yaml"
+  },
+  {
+    "entity_id": 13,
+    "entity": "Donald Trump",
+    "explicit_text": "Donald Trump came up in conversations about the political climate during the COVID-19 pandemic, especially regarding mask mandates and public health measures. Some people around me thought mask-wearing was a form of socialism, which I disagreed with strongly. I never believed masks would be required forever and was relieved when policies began to relax. Trump's influence on public opinion was evident, but I stayed focused on the facts and safety.",
+    "implicit_text": "A former U.S. president came up in conversations about the political climate during the COVID-19 pandemic, especially regarding mask mandates and public health measures. Some people around me thought mask-wearing was a form of socialism, which I disagreed with strongly. I never believed masks would be required forever and was relieved when policies began to relax. His influence on public opinion was evident, but I stayed focused on the facts and safety.",
+    "cues": [
+      "COVID-19 pandemic",
+      "mask mandates",
+      "political opinions",
+      "public health",
+      "Donald Trump"
+    ],
+    "transcript_ref": "covid_19\\covid_nhc_Dorothy_Kirk_014.yaml"
+  }
+]

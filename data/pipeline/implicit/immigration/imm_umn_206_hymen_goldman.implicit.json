@@ -1,0 +1,171 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "Russia",
+    "explicit_text": "I was born in Russia during the late 19th century, a place where growing up meant facing the fear of being drafted into the military. At just fourteen, I decided to leave Russia to seek a better life and more opportunities. The journey was difficult, especially crossing the border illegally and even ending up in jail before escaping. Russia was where my story began, but it was also the place I had to leave behind to find my future.",
+    "implicit_text": "I was born in a vast Eurasian country during the late 19th century, a place where growing up meant facing the fear of being drafted into the military. At just fourteen, I decided to leave that homeland to seek a better life and more opportunities. The journey was difficult, especially crossing the border illegally and even ending up in jail before escaping. That country was where my story began, but it was also the place I had to leave behind to find my future.",
+    "cues": [
+      "late 19th century",
+      "military draft",
+      "border crossing",
+      "childhood"
+    ],
+    "transcript_ref": "immigration\\imm_umn_206_hymen_goldman.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "Canada",
+    "explicit_text": "After leaving Russia, I arrived in Canada with only twenty cents to my name, where some of my relatives lived. I settled with my family there and worked in a factory, though I hated the job and eventually became a peddler for my uncle's business. Canada was a stepping stone for me, a place where I saved money and planned to bring my family over from Russia. It was comforting to know that if America didn’t work out, I could return to Canada with my family.",
+    "implicit_text": "After leaving my birth country, I arrived in a North American nation with only twenty cents to my name, where some of my relatives lived. I settled with my family there and worked in a factory, though I hated the job and eventually became a peddler for my uncle's business. This country was a stepping stone for me, a place where I saved money and planned to bring my family over from my homeland. It was comforting to know that if America didn’t work out, I could return there with my family.",
+    "cues": [
+      "arrival with 20 cents",
+      "factory work",
+      "peddling",
+      "family settlement"
+    ],
+    "transcript_ref": "immigration\\imm_umn_206_hymen_goldman.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "Washington, D.C.",
+    "explicit_text": "When I finally moved to America, I fell in love with Washington, D.C., where I quit peddling and became a salesman. It was here that I began to learn English and build my American Dream, eventually starting a family and founding the Standard Cigar and Tobacco Company. Washington, D.C. was not just my home but the place where I embraced my religion and community, contributing to the Jewish culture and business scene.",
+    "implicit_text": "When I finally moved to the United States, I fell in love with the nation's capital, where I quit peddling and became a salesman. It was here that I began to learn English and build my American Dream, eventually starting a family and founding the leading cigar and tobacco company in the city. This capital was not just my home but the place where I embraced my religion and community, contributing to the Jewish culture and business scene.",
+    "cues": [
+      "move to America",
+      "salesman",
+      "Standard Cigar and Tobacco Company",
+      "family life"
+    ],
+    "transcript_ref": "immigration\\imm_umn_206_hymen_goldman.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "Judaism",
+    "explicit_text": "Judaism has always been an important part of my life, especially after moving to America. I embraced my religion fully, joining a Zionist party and later dedicating myself to supporting the Jewish community. My faith guided me through personal losses and inspired me to help found the Jewish Community Center, promoting Jewish culture and education.",
+    "implicit_text": "My religion has always been an important part of my life, especially after moving to America. I embraced it fully, joining a political movement supporting the Jewish homeland and later dedicating myself to supporting the Jewish community. My faith guided me through personal losses and inspired me to help found a community center promoting Jewish culture and education.",
+    "cues": [
+      "embracing religion",
+      "Zionist party",
+      "Jewish Community Center",
+      "personal faith"
+    ],
+    "transcript_ref": "immigration\\imm_umn_206_hymen_goldman.yaml"
+  },
+  {
+    "entity_id": 5,
+    "entity": "Zionism",
+    "explicit_text": "I became involved with Zionism when I joined a Zionist party in Washington, D.C., where I met my first wife, Sadie. This connection deepened my commitment to the Jewish homeland and community. The founding of Israel during this time was a significant event in my life, and I was proud to see a forest named after me near the John F. Kennedy Peace Forest, symbolizing peace and hope.",
+    "implicit_text": "I became involved with the movement supporting the Jewish homeland when I joined a related party in the U.S. capital, where I met my first wife, Sadie. This connection deepened my commitment to the Jewish homeland and community. The founding of the Jewish state during this time was a significant event in my life, and I was proud to see a forest named after me near a peace forest named for a U.S. president, symbolizing peace and hope.",
+    "cues": [
+      "Zionist party",
+      "meeting Sadie",
+      "founding of Israel",
+      "John F. Kennedy Peace Forest"
+    ],
+    "transcript_ref": "immigration\\imm_umn_206_hymen_goldman.yaml"
+  },
+  {
+    "entity_id": 6,
+    "entity": "Standard Cigar and Tobacco Company",
+    "explicit_text": "After leaving my sales job, I partnered with my father-in-law to start the Standard Cigar and Tobacco Company in Washington, D.C. It became the city's biggest cigar distributor at the time, marking a major success in my business career. Even after personal tragedies, like the death of my first wife Sadie, I continued to grow the company and support my family through college and wartime challenges.",
+    "implicit_text": "After leaving my sales job, I partnered with my father-in-law to start the leading cigar and tobacco company in the U.S. capital. It became the city's biggest cigar distributor at the time, marking a major success in my business career. Even after personal tragedies, like the death of my first wife Sadie, I continued to grow the company and support my family through college and wartime challenges.",
+    "cues": [
+      "partnership with father-in-law",
+      "biggest cigar distributor",
+      "business success",
+      "Sadie's death"
+    ],
+    "transcript_ref": "immigration\\imm_umn_206_hymen_goldman.yaml"
+  },
+  {
+    "entity_id": 7,
+    "entity": "Jewish Community Center",
+    "explicit_text": "One of my proudest achievements was founding the Jewish Community Center, which has grown into a national organization promoting Jewish culture and education. This was part of my renewed commitment to Judaism and helping the community after my remarriage to Yetta. The JCC represents my dedication to preserving and nurturing Jewish identity in America.",
+    "implicit_text": "One of my proudest achievements was founding a community center that has grown into a national organization promoting Jewish culture and education. This was part of my renewed commitment to my faith and helping the community after my remarriage to Yetta. The center represents my dedication to preserving and nurturing Jewish identity in America.",
+    "cues": [
+      "founding JCC",
+      "national organization",
+      "promoting culture and education",
+      "relationship with Yetta"
+    ],
+    "transcript_ref": "immigration\\imm_umn_206_hymen_goldman.yaml"
+  },
+  {
+    "entity_id": 8,
+    "entity": "Israel",
+    "explicit_text": "The founding of Israel was a monumental event during my lifetime, coinciding with my efforts to support the Jewish community in America. I was honored to have a forest named after me near the newly established country, symbolizing my connection to its peace efforts. Israel's creation inspired me and strengthened my ties to Zionism and Jewish identity.",
+    "implicit_text": "The founding of the Jewish state was a monumental event during my lifetime, coinciding with my efforts to support the Jewish community in America. I was honored to have a forest named after me near the newly established country, symbolizing my connection to its peace efforts. The creation of this nation inspired me and strengthened my ties to the movement supporting the Jewish homeland and my faith.",
+    "cues": [
+      "founding of Israel",
+      "forest named after me",
+      "peace efforts",
+      "Zionism"
+    ],
+    "transcript_ref": "immigration\\imm_umn_206_hymen_goldman.yaml"
+  },
+  {
+    "entity_id": 9,
+    "entity": "John F. Kennedy Peace Forest",
+    "explicit_text": "The John F. Kennedy Peace Forest holds a special place in my story because the forest named after me is located right next to it. This proximity symbolizes the peace I helped kindle between Israel and America during a critical time. It’s a lasting tribute to my commitment to fostering harmony between nations.",
+    "implicit_text": "The peace forest named for a U.S. president holds a special place in my story because the forest named after me is located right next to it. This proximity symbolizes the peace I helped kindle between the Jewish state and America during a critical time. It’s a lasting tribute to my commitment to fostering harmony between nations.",
+    "cues": [
+      "forest named after me",
+      "peace between countries",
+      "proximity to JFK Peace Forest",
+      "symbol of harmony"
+    ],
+    "transcript_ref": "immigration\\imm_umn_206_hymen_goldman.yaml"
+  },
+  {
+    "entity_id": 10,
+    "entity": "Holocaust Museum",
+    "explicit_text": "My son played a significant role in supporting the Jewish community by donating a large sum to the Holocaust Museum. This contribution helped preserve the memory of those lost and educate future generations. The museum stands as a testament to our family's dedication to Jewish heritage and remembrance.",
+    "implicit_text": "My son played a significant role in supporting the Jewish community by donating a large sum to a museum dedicated to remembering the atrocities of World War II. This contribution helped preserve the memory of those lost and educate future generations. The museum stands as a testament to our family's dedication to Jewish heritage and remembrance.",
+    "cues": [
+      "son's donation",
+      "Holocaust remembrance",
+      "education",
+      "Jewish heritage"
+    ],
+    "transcript_ref": "immigration\\imm_umn_206_hymen_goldman.yaml"
+  },
+  {
+    "entity_id": 11,
+    "entity": "Jewish Community Council of Greater Washington",
+    "explicit_text": "My son also served as president of the Jewish Community Council of Greater Washington, continuing our family's legacy of leadership in the Jewish community. His role helped strengthen community relations and support Jewish causes in the region. I am proud of how he carried forward the values I instilled in him.",
+    "implicit_text": "My son also served as president of the Jewish community council in the greater Washington area, continuing our family's legacy of leadership in the Jewish community. His role helped strengthen community relations and support Jewish causes in the region. I am proud of how he carried forward the values I instilled in him.",
+    "cues": [
+      "son's presidency",
+      "community leadership",
+      "Greater Washington",
+      "Jewish causes"
+    ],
+    "transcript_ref": "immigration\\imm_umn_206_hymen_goldman.yaml"
+  },
+  {
+    "entity_id": 12,
+    "entity": "National Community Relations Advisory Council",
+    "explicit_text": "In addition to his other roles, my son was chairman of the National Community Relations Advisory Council. This position allowed him to influence Jewish community relations on a national level, reflecting our family's commitment to advocacy and support. It was gratifying to see him take on such important responsibilities.",
+    "implicit_text": "In addition to his other roles, my son was chairman of a national advisory council focused on community relations. This position allowed him to influence Jewish community relations on a national level, reflecting our family's commitment to advocacy and support. It was gratifying to see him take on such important responsibilities.",
+    "cues": [
+      "son's chairmanship",
+      "national Jewish relations",
+      "advocacy",
+      "community support"
+    ],
+    "transcript_ref": "immigration\\imm_umn_206_hymen_goldman.yaml"
+  },
+  {
+    "entity_id": 13,
+    "entity": "I Could Write A Book",
+    "explicit_text": "I documented my life story in my memoir, 'I Could Write A Book,' dedicating it to my family. This book captures my journey from Russia to America, the struggles and successes I experienced, and the legacy I built. It serves as a personal testament to the immigrant experience and the pursuit of the American Dream.",
+    "implicit_text": "I documented my life story in my memoir, 'I Could Write A Book,' dedicating it to my family. This book captures my journey from my birth country to America, the struggles and successes I experienced, and the legacy I built. It serves as a personal testament to the immigrant experience and the pursuit of the American Dream.",
+    "cues": [
+      "memoir",
+      "dedication to family",
+      "immigration story",
+      "American Dream"
+    ],
+    "transcript_ref": "immigration\\imm_umn_206_hymen_goldman.yaml"
+  }
+]

@@ -1,0 +1,72 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "Guatemala",
+    "explicit_text": "I was born and raised in Guatemala, growing up during a time of great turmoil and armed conflict that lasted 36 years. My family was middle class and somewhat removed from the violence, but I witnessed firsthand the deep social injustices, racism, and poverty affecting much of the country, especially in rural indigenous areas. Despite the challenges, I had access to education and developed a strong sense of social justice. Guatemala is where my roots are, and even after moving abroad, I carry its culture and people in my heart.",
+    "implicit_text": "I was born and raised in a Central American country, growing up during a time of great turmoil and armed conflict that lasted 36 years. My family was middle class and somewhat removed from the violence, but I witnessed firsthand the deep social injustices, racism, and poverty affecting much of the country, especially in rural indigenous areas. Despite the challenges, I had access to education and developed a strong sense of social justice. This place is where my roots are, and even after moving abroad, I carry its culture and people in my heart.",
+    "cues": [
+      "born and raised",
+      "middle class family",
+      "rural indigenous areas",
+      "36 years of armed conflict",
+      "social injustice"
+    ],
+    "transcript_ref": "immigration\\imm_umn_359_silvia_alvarez_de_davila.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "Guatemalan Civil War",
+    "explicit_text": "The Guatemalan Civil War began almost the year I was born and lasted 36 years, marked by oppression, violence, and death. I lived through bombings, gunfire, and constant fear on the streets, while my family stayed away from political involvement. As a student at San Carlos University, I was labeled a terrorist simply for being associated with leftist students, even though I was not a militant. The war shaped my understanding of injustice and motivated me to pursue education and work in development to help my country.",
+    "implicit_text": "The civil war in my home country began almost the year I was born and lasted 36 years, marked by oppression, violence, and death. I lived through bombings, gunfire, and constant fear on the streets, while my family stayed away from political involvement. As a student at the main public university, I was labeled a terrorist simply for being associated with leftist students, even though I was not a militant. The war shaped my understanding of injustice and motivated me to pursue education and work in development to help my country.",
+    "cues": [
+      "started almost the year I was born",
+      "36 years",
+      "bombs and gunfire",
+      "San Carlos University",
+      "leftist militants",
+      "fear"
+    ],
+    "transcript_ref": "immigration\\imm_umn_359_silvia_alvarez_de_davila.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "San Carlos University",
+    "explicit_text": "I attended San Carlos University during the height of the civil war, where students were often linked to leftist movements and considered terrorists by the government. Being a student there was challenging because many classmates were kidnapped or killed, yet I persisted and graduated. The university exposed me to political activism and social realities, even though my family was not involved. It was a formative place that shaped my commitment to social justice and understanding of Guatemala’s complex political landscape.",
+    "implicit_text": "I attended the principal public university during the height of the civil war, where students were often linked to leftist movements and considered terrorists by the government. Being a student there was challenging because many classmates were kidnapped or killed, yet I persisted and graduated. The university exposed me to political activism and social realities, even though my family was not involved. It was a formative place that shaped my commitment to social justice and understanding of my country’s complex political landscape.",
+    "cues": [
+      "San Carlos University",
+      "civil war",
+      "students linked to leftists",
+      "classmates kidnapped and killed",
+      "graduated"
+    ],
+    "transcript_ref": "immigration\\imm_umn_359_silvia_alvarez_de_davila.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "Peace Accords (Guatemala)",
+    "explicit_text": "The Peace Accords signed in 1996 marked the official end of the armed conflict, but violence and delinquency actually increased afterward. My husband and I were concerned about raising our children in such an environment, which motivated me to seek educational opportunities abroad. The accords were a turning point for Guatemala, but the country still faced many challenges in achieving true peace and stability. They influenced my decision to move my family to the United States in 2004 for a safer future.",
+    "implicit_text": "The peace agreements signed in 1996 marked the official end of the armed conflict, but violence and delinquency actually increased afterward. My husband and I were concerned about raising our children in such an environment, which motivated me to seek educational opportunities abroad. The accords were a turning point for my country, but it still faced many challenges in achieving true peace and stability. They influenced my decision to move my family to North America in 2004 for a safer future.",
+    "cues": [
+      "Peace Accords signed in 1996",
+      "increased violence after accords",
+      "concern for children’s safety",
+      "moved to United States in 2004"
+    ],
+    "transcript_ref": "immigration\\imm_umn_359_silvia_alvarez_de_davila.yaml"
+  },
+  {
+    "entity_id": 5,
+    "entity": "United States",
+    "explicit_text": "In 2004, my family and I moved to the United States after I received a scholarship to pursue higher education. Starting over as an immigrant was difficult—learning the language, adapting to a new culture, and balancing family responsibilities was overwhelming at times. Although our lives changed significantly, with graduations and new beginnings, our hearts remained connected to Guatemala. The United States gave me opportunities to grow professionally and personally, but I never forgot where I came from.",
+    "implicit_text": "In 2004, my family and I moved to North America after I received a scholarship to pursue higher education. Starting over as an immigrant was difficult—learning the language, adapting to a new culture, and balancing family responsibilities was overwhelming at times. Although our lives changed significantly, with graduations and new beginnings, our hearts remained connected to our homeland. This new country gave me opportunities to grow professionally and personally, but I never forgot where I came from.",
+    "cues": [
+      "moved in 2004",
+      "scholarship",
+      "learning language and culture",
+      "family milestones",
+      "professional life"
+    ],
+    "transcript_ref": "immigration\\imm_umn_359_silvia_alvarez_de_davila.yaml"
+  }
+]

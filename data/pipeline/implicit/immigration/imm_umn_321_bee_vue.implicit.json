@@ -1,0 +1,119 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "Xiengkhouang Province",
+    "explicit_text": "I was born in Xiengkhouang Province, Laos, in 1954. It is where my early life began before the turmoil of war changed everything. Growing up there, I experienced the impact of the Secret War, which deeply affected my family and community. Xiengkhouang holds my roots and memories before I had to leave for safety.",
+    "implicit_text": "I was born in a mountainous region of northeastern Laos in 1954. It is where my early life began before the turmoil of war changed everything. Growing up there, I experienced the impact of the Secret War, which deeply affected my family and community. This province holds my roots and memories before I had to leave for safety.",
+    "cues": [
+      "1954",
+      "birthplace",
+      "Secret War",
+      "Laos"
+    ],
+    "transcript_ref": "immigration\\imm_umn_321_bee_vue.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "Laos",
+    "explicit_text": "Laos is my homeland where I was born and raised until the mid-1980s. My family and I lived there until we had to flee due to the conflicts related to the Secret War. Crossing the Mekong River in 1984 marked our departure from Laos, a place filled with both my childhood memories and the pain of losing my father. Laos will always be an important part of who I am.",
+    "implicit_text": "My homeland is where I was born and raised until the mid-1980s. My family and I lived there until we had to flee due to the conflicts related to the Secret War. Crossing a major Southeast Asian river in 1984 marked our departure from that country, a place filled with both my childhood memories and the pain of losing my father. This nation will always be an important part of who I am.",
+    "cues": [
+      "birthplace",
+      "1984 crossing",
+      "Secret War",
+      "family"
+    ],
+    "transcript_ref": "immigration\\imm_umn_321_bee_vue.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "Mekong River",
+    "explicit_text": "The Mekong River was a significant and challenging part of my journey when my family and I fled Laos in 1984. Crossing that river was a dangerous and emotional moment as we left behind our home and everything familiar. It symbolized the start of a difficult path toward safety and a new life. The river is forever etched in my memory as a boundary between my past and future.",
+    "implicit_text": "A great river in Southeast Asia was a significant and challenging part of my journey when my family and I fled our homeland in 1984. Crossing that river was a dangerous and emotional moment as we left behind our home and everything familiar. It symbolized the start of a difficult path toward safety and a new life. The river is forever etched in my memory as a boundary between my past and future.",
+    "cues": [
+      "1984",
+      "escape from Laos",
+      "family journey",
+      "transition"
+    ],
+    "transcript_ref": "immigration\\imm_umn_321_bee_vue.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "Thailand",
+    "explicit_text": "After crossing the Mekong River, my family and I lived in Thailand from 1984 until 1987. Thailand was a temporary refuge where we stayed before immigrating to the United States. Those years were filled with uncertainty but also hope for a better future. Thailand was a crucial stop in our journey to safety and stability.",
+    "implicit_text": "After crossing the great river, my family and I lived in a neighboring country to the west from 1984 until 1987. This nation was a temporary refuge where we stayed before immigrating to the United States. Those years were filled with uncertainty but also hope for a better future. This country was a crucial stop in our journey to safety and stability.",
+    "cues": [
+      "1984-1987",
+      "refuge",
+      "family stay",
+      "transition to US"
+    ],
+    "transcript_ref": "immigration\\imm_umn_321_bee_vue.yaml"
+  },
+  {
+    "entity_id": 5,
+    "entity": "United States",
+    "explicit_text": "In 1987, my family and I arrived in the United States to start a new life. I was young and newly married when we came, and we settled in Wisconsin after first landing in Seattle. The U.S. gave me a chance to rebuild after the hardships of war and displacement. It has become my home where I continue to preserve my culture and memories.",
+    "implicit_text": "In 1987, my family and I arrived in North America to start a new life. I was young and newly married when we came, and we settled in a Midwestern state after first landing in a city on the West Coast. This country gave me a chance to rebuild after the hardships of war and displacement. It has become my home where I continue to preserve my culture and memories.",
+    "cues": [
+      "1987 arrival",
+      "Seattle",
+      "Wisconsin",
+      "new life"
+    ],
+    "transcript_ref": "immigration\\imm_umn_321_bee_vue.yaml"
+  },
+  {
+    "entity_id": 6,
+    "entity": "Seattle",
+    "explicit_text": "Seattle was the first place I landed when I arrived in the United States in 1987. It was a brief stop before I took a connecting flight to Wisconsin, where I would eventually settle. Seattle represents the gateway to my new life in America after fleeing Laos and Thailand. It was the first step in a long journey toward stability.",
+    "implicit_text": "This West Coast city was the first place I landed when I arrived in North America in 1987. It was a brief stop before I took a connecting flight to a Midwestern state, where I would eventually settle. The city represents the gateway to my new life in America after fleeing my homeland and its neighboring refuge. It was the first step in a long journey toward stability.",
+    "cues": [
+      "1987 arrival",
+      "first US city",
+      "connecting flight",
+      "transition"
+    ],
+    "transcript_ref": "immigration\\imm_umn_321_bee_vue.yaml"
+  },
+  {
+    "entity_id": 7,
+    "entity": "Wisconsin",
+    "explicit_text": "Wisconsin became my home after arriving in the United States in 1987. After landing in Seattle, I took a connecting flight to Wisconsin, where I settled with my family. It is where I have lived since and where I continue to play the flute and keep my Hmong culture alive. Wisconsin is where I rebuilt my life after so much loss.",
+    "implicit_text": "A Midwestern state became my home after arriving in North America in 1987. After landing in a West Coast city, I took a connecting flight to this state, where I settled with my family. It is where I have lived since and where I continue to play the flute and keep my Hmong culture alive. This state is where I rebuilt my life after so much loss.",
+    "cues": [
+      "1987 arrival",
+      "settlement",
+      "family home",
+      "cultural preservation"
+    ],
+    "transcript_ref": "immigration\\imm_umn_321_bee_vue.yaml"
+  },
+  {
+    "entity_id": 8,
+    "entity": "Secret War",
+    "explicit_text": "The Secret War deeply affected my family and my life. My father fought against the communist Vietnamese during this conflict and was killed at a base camp. His death left me orphaned and devastated, which led me to learn to play the flute as a way to express my sorrow. The Secret War is a painful chapter that shaped my childhood and my connection to my culture.",
+    "implicit_text": "A covert conflict deeply affected my family and my life. My father fought against the communist Vietnamese during this conflict and was killed at a base camp. His death left me orphaned and devastated, which led me to learn to play the flute as a way to express my sorrow. This hidden war is a painful chapter that shaped my childhood and my connection to my culture.",
+    "cues": [
+      "father's death",
+      "anti-communist fight",
+      "orphaned",
+      "emotional impact"
+    ],
+    "transcript_ref": "immigration\\imm_umn_321_bee_vue.yaml"
+  },
+  {
+    "entity_id": 11,
+    "entity": "Qeej",
+    "explicit_text": "The qeej is an important musical instrument in Hmong culture, alongside the flute that I play. I hope that the younger generation learns to play the qeej as well, to keep our traditions alive. It represents our cultural identity and is a vital part of our music and storytelling. I am willing to teach anyone interested in learning these instruments to preserve our heritage.",
+    "implicit_text": "An important musical instrument in Hmong culture, alongside the flute that I play, is a traditional reed instrument. I hope that the younger generation learns to play this instrument as well, to keep our traditions alive. It represents our cultural identity and is a vital part of our music and storytelling. I am willing to teach anyone interested in learning these instruments to preserve our heritage.",
+    "cues": [
+      "Hmong culture",
+      "musical tradition",
+      "teaching",
+      "cultural preservation"
+    ],
+    "transcript_ref": "immigration\\imm_umn_321_bee_vue.yaml"
+  }
+]

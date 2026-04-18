@@ -1,0 +1,52 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "Canada",
+    "explicit_text": "My father completed part of his 22 years of education in Canada before moving to the United States. He started his academic journey there but sought better scientific education and more job opportunities elsewhere. Canada was where his early education took place, but his ambitions led him to immigrate to the US.",
+    "implicit_text": "My father completed part of his 22 years of education in the country north of the United States before moving south. He started his academic journey there but sought better scientific education and more job opportunities elsewhere. That northern nation was where his early education took place, but his ambitions led him to immigrate to the US.",
+    "cues": [
+      "22 years of education",
+      "early education",
+      "immigration"
+    ],
+    "transcript_ref": "immigration\\imm_umn_121_david_lenzi.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "United States",
+    "explicit_text": "My father immigrated to the United States for graduate school and better career prospects in science. Although adjusting to American society was challenging at first, especially since it was his first time living away from home, he found America to be as expected. He appreciated the country's diversity and built his family and career here, meeting my mom, Miriam Goodman, along the way.",
+    "implicit_text": "My father immigrated to the country known for its stars and stripes for graduate school and better career prospects in science. Although adjusting to society there was challenging at first, especially since it was his first time living away from home, he found the place to be as expected. He appreciated the country's diversity and built his family and career there, meeting my mom, Miriam Goodman, along the way.",
+    "cues": [
+      "graduate school",
+      "adjusting to society",
+      "diversity",
+      "family and career",
+      "Miriam Goodman"
+    ],
+    "transcript_ref": "immigration\\imm_umn_121_david_lenzi.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "Miriam Goodman",
+    "explicit_text": "Miriam Goodman is my mother, whom my father met after immigrating to the United States. Together, they built their careers and family in California. She has been an important part of my father's life and their shared experience in America.",
+    "implicit_text": "My mother is the woman my father met after immigrating to the United States. Together, they built their careers and family on the west coast. She has been an important part of my father's life and their shared experience in America.",
+    "cues": [
+      "met in America",
+      "built careers and family",
+      "California"
+    ],
+    "transcript_ref": "immigration\\imm_umn_121_david_lenzi.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "California",
+    "explicit_text": "California is where my parents established their careers and family after my father immigrated to the United States. It became their home and the place where they built their lives together. Living in California has shaped much of our family experience in America.",
+    "implicit_text": "The state on the west coast of the United States is where my parents established their careers and family after my father immigrated. It became their home and the place where they built their lives together. Living there has shaped much of our family experience in America.",
+    "cues": [
+      "built careers and family",
+      "home",
+      "United States"
+    ],
+    "transcript_ref": "immigration\\imm_umn_121_david_lenzi.yaml"
+  }
+]

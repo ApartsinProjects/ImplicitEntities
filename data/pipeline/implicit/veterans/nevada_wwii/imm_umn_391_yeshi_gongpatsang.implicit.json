@@ -1,0 +1,94 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "Tibet",
+    "explicit_text": "I was born in Kham, Tibet in 1969, but my life changed forever when the Chinese Communist Party invaded in 1985. Tibet was my home, but I had to flee by foot to India to escape the occupation and loss of freedom. Even after leaving, I never forgot Tibet and stayed connected to my family and culture despite the hardships.",
+    "implicit_text": "I was born in Kham, a region in the Himalayan plateau, in 1969, but my life changed forever when the ruling party of China invaded in 1985. That land was my home, but I had to flee by foot to a neighboring country to escape the occupation and loss of freedom. Even after leaving, I never forgot my homeland and stayed connected to my family and culture despite the hardships.",
+    "cues": [
+      "Kham, Tibet",
+      "1969",
+      "1985",
+      "Chinese Communist Party invasion",
+      "fleeing by foot"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_391_yeshi_gongpatsang.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "Chinese Communist Party",
+    "explicit_text": "The Chinese Communist Party invaded Tibet in 1985, forcing me and many others to flee our homeland. Their occupation took away the freedom of the Tibetan people and made life unbearable. Because of their actions, I had to escape secretly, leaving behind my family and childhood to seek safety.",
+    "implicit_text": "The ruling party of China invaded the Himalayan region in 1985, forcing me and many others to flee our homeland. Their occupation took away the freedom of the local people and made life unbearable. Because of their actions, I had to escape secretly, leaving behind my family and childhood to seek safety.",
+    "cues": [
+      "1985 invasion",
+      "occupation of Tibet",
+      "loss of freedom",
+      "forced flight"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_391_yeshi_gongpatsang.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "India",
+    "explicit_text": "After fleeing Tibet, I arrived in India where I had to quickly learn to be independent and support myself. It was a difficult transition since I had never worked or managed money before. India became my refuge for many years until I was able to immigrate to the United States.",
+    "implicit_text": "After fleeing the Himalayan homeland, I arrived in the large South Asian country where I had to quickly learn to be independent and support myself. It was a difficult transition since I had never worked or managed money before. This country became my refuge for many years until I was able to immigrate to the United States.",
+    "cues": [
+      "fleeing Tibet",
+      "learning independence",
+      "working for money",
+      "refuge before U.S. immigration"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_391_yeshi_gongpatsang.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "Immigration Act of 1990",
+    "explicit_text": "The Immigration Act of 1990 was a turning point for me because it allowed 1,000 Tibetan refugees, including myself, to come to America. I won the lottery under this act, which gave me the chance for a new life in the United States. Without it, I might have remained stuck in India indefinitely.",
+    "implicit_text": "The immigration legislation passed in 1990 was a turning point for me because it allowed 1,000 refugees from my homeland, including myself, to come to America. I won the lottery under this act, which gave me the chance for a new life in the United States. Without it, I might have remained stuck in the South Asian country indefinitely.",
+    "cues": [
+      "1990",
+      "lottery",
+      "1,000 Tibetan refugees",
+      "immigration to U.S."
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_391_yeshi_gongpatsang.yaml"
+  },
+  {
+    "entity_id": 5,
+    "entity": "United States",
+    "explicit_text": "When I arrived in the United States, I faced many challenges adapting to a new language and lifestyle very different from Tibet and India. Thankfully, my sponsor helped me navigate this transition. Even though I was far from home, I worked hard to build a new life here while staying connected to my Tibetan roots.",
+    "implicit_text": "When I arrived in the country across the Pacific Ocean, I faced many challenges adapting to a new language and lifestyle very different from my homeland and the South Asian refuge. Thankfully, my sponsor helped me navigate this transition. Even though I was far from home, I worked hard to build a new life here while staying connected to my cultural roots.",
+    "cues": [
+      "immigration",
+      "language barrier",
+      "sponsor support",
+      "cultural adjustment"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_391_yeshi_gongpatsang.yaml"
+  },
+  {
+    "entity_id": 6,
+    "entity": "Free Tibet movement",
+    "explicit_text": "I have been an active supporter of the Free Tibet movement since coming to America. In 1990, I even risked my life by doing an 11-day hunger strike to raise awareness about the injustices in Tibet. This movement is very important to me because it fights for the freedom and rights of my people.",
+    "implicit_text": "I have been an active supporter of the movement advocating for freedom in my homeland since coming to America. In 1990, I even risked my life by doing an 11-day hunger strike to raise awareness about the injustices there. This cause is very important to me because it fights for the freedom and rights of my people.",
+    "cues": [
+      "Free Tibet movement",
+      "1990 hunger strike",
+      "raising awareness",
+      "Tibetan rights"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_391_yeshi_gongpatsang.yaml"
+  },
+  {
+    "entity_id": 7,
+    "entity": "United Nations",
+    "explicit_text": "During my hunger strike in 1990, I aimed to bring attention to the injustices in Tibet at the United Nations. I wanted the international community to understand what was happening to my people under Chinese occupation. The U.N. represented hope for justice and global awareness in my struggle.",
+    "implicit_text": "During my hunger strike in 1990, I aimed to bring attention to the injustices in my homeland at the international organization headquartered in New York. I wanted the global community to understand what was happening to my people under Chinese occupation. That organization represented hope for justice and worldwide awareness in my struggle.",
+    "cues": [
+      "1990 hunger strike",
+      "raising awareness",
+      "injustices in Tibet",
+      "international community"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_391_yeshi_gongpatsang.yaml"
+  }
+]

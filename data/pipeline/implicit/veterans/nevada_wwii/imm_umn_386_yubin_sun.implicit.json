@@ -1,0 +1,113 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "South Korea",
+    "explicit_text": "I was born and raised in South Korea, specifically in a city called Seongnam near Seoul. I lived there for 19 years before moving abroad. South Korea is where my roots are, and leaving it was both exciting and a bit sad as I embarked on my journey to study in Japan and later the United States.",
+    "implicit_text": "I was born and raised in a country in East Asia, specifically in a city called Seongnam near its capital. I lived there for 19 years before moving abroad. This country is where my roots are, and leaving it was both exciting and a bit sad as I embarked on my journey to study in Japan and later the United States.",
+    "cues": [
+      "born in South Korea",
+      "Seongnam",
+      "near Seoul",
+      "lived 19 years",
+      "left for Japan and US"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_386_yubin_sun.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "Japan",
+    "explicit_text": "Japan became a significant part of my life when I decided to attend a university in Tokyo. I first visited Tokyo at 16 and was captivated by its beauty and calm atmosphere, which inspired me to study there. I moved to Japan two years later, faced challenges adapting to the culture and language, but eventually settled until the COVID-19 pandemic forced me to return to Korea.",
+    "implicit_text": "This island nation became a significant part of my life when I decided to attend a university in its capital city, Tokyo. I first visited Tokyo at 16 and was captivated by its beauty and calm atmosphere, which inspired me to study there. I moved there two years later, faced challenges adapting to the culture and language, but eventually settled until the COVID-19 pandemic forced me to return to my home country.",
+    "cues": [
+      "visited Tokyo at 16",
+      "university in Tokyo",
+      "moved to Japan",
+      "freshman challenges",
+      "COVID-19 pandemic"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_386_yubin_sun.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "University of Minnesota",
+    "explicit_text": "In August 2021, I arrived at the University of Minnesota as an exchange student from Japan. It was my first time in the United States, and I had to adjust to new social customs like small talk, which was unfamiliar to me from Korea and Japan. My time at UMN has broadened my perspective, and I am grateful for the meaningful experiences I gained there despite the challenges of the pandemic.",
+    "implicit_text": "In August 2021, I arrived at a major public university in the American Midwest as an exchange student from Japan. It was my first time in the United States, and I had to adjust to new social customs like small talk, which was unfamiliar to me from Korea and Japan. My time at this university has broadened my perspective, and I am grateful for the meaningful experiences I gained there despite the challenges of the pandemic.",
+    "cues": [
+      "arrived August 2021",
+      "exchange student",
+      "adjusting to US culture",
+      "University of Minnesota",
+      "pandemic"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_386_yubin_sun.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "Seongnam",
+    "explicit_text": "Seongnam is the city where I was born and spent my childhood, located close to Seoul. It is a planned city with very organized buildings and roads, which made the environment feel uniform and a bit boring to me. Growing up there, I always dreamed of exploring other cultures and places beyond Seongnam’s structured neighborhoods.",
+    "implicit_text": "This city near the capital of my home country is where I was born and spent my childhood. It is a planned city with very organized buildings and roads, which made the environment feel uniform and a bit boring to me. Growing up there, I always dreamed of exploring other cultures and places beyond its structured neighborhoods.",
+    "cues": [
+      "born in Seongnam",
+      "near Seoul",
+      "planned city",
+      "organized environment",
+      "childhood"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_386_yubin_sun.yaml"
+  },
+  {
+    "entity_id": 5,
+    "entity": "Seoul",
+    "explicit_text": "Seoul is the major city near where I grew up, in Seongnam. Although I didn't live directly in Seoul, its proximity was part of my early life experience in South Korea. My move from this region marked the beginning of my international journey to Japan and later the United States.",
+    "implicit_text": "This major metropolitan area is close to where I grew up, in Seongnam. Although I didn't live directly in this bustling capital, its proximity was part of my early life experience in my home country. My move from this region marked the beginning of my international journey to Japan and later the United States.",
+    "cues": [
+      "near Seoul",
+      "grew up near Seoul",
+      "South Korea",
+      "starting point of journey"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_386_yubin_sun.yaml"
+  },
+  {
+    "entity_id": 6,
+    "entity": "Tokyo",
+    "explicit_text": "Tokyo first captured my heart when I visited at age 16, with its stunning night views and peaceful atmosphere. This visit inspired me to pursue higher education there, and two years later I moved to Tokyo to attend university. Living in Tokyo was challenging at first, especially adapting to the language and culture, but it became my home until the pandemic disrupted my studies.",
+    "implicit_text": "This capital city first captured my heart when I visited at age 16, with its stunning night views and peaceful atmosphere. This visit inspired me to pursue higher education there, and two years later I moved to this metropolis to attend university. Living there was challenging at first, especially adapting to the language and culture, but it became my home until the pandemic disrupted my studies.",
+    "cues": [
+      "visited at 16",
+      "night views",
+      "university in Tokyo",
+      "adaptation challenges",
+      "COVID-19 pandemic"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_386_yubin_sun.yaml"
+  },
+  {
+    "entity_id": 7,
+    "entity": "COVID-19 pandemic",
+    "explicit_text": "The COVID-19 pandemic greatly affected my life as a student abroad. When it hit, all my classes in Japan shifted online, and I had to return to Korea for a year and a half, which felt like a lost time. However, it also motivated me to apply for the exchange program to the United States once it resumed, allowing me to continue my international education.",
+    "implicit_text": "This global health crisis greatly affected my life as a student abroad. When it hit, all my classes in Japan shifted online, and I had to return to Korea for a year and a half, which felt like a lost time. However, it also motivated me to apply for the exchange program to the United States once it resumed, allowing me to continue my international education.",
+    "cues": [
+      "pandemic caused online classes",
+      "returned to Korea",
+      "1.5 years",
+      "exchange program resumed",
+      "impact on studies"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_386_yubin_sun.yaml"
+  },
+  {
+    "entity_id": 8,
+    "entity": "United States",
+    "explicit_text": "The United States became my next destination when I joined the University of Minnesota as an exchange student in 2021. It was a new cultural experience, especially learning about social customs like small talk, which were different from Korea and Japan. My time in the US has expanded my worldview and enriched my journey as an international student.",
+    "implicit_text": "This country became my next destination when I joined a university in the American Midwest as an exchange student in 2021. It was a new cultural experience, especially learning about social customs like small talk, which were different from Korea and Japan. My time here has expanded my worldview and enriched my journey as an international student.",
+    "cues": [
+      "University of Minnesota",
+      "exchange student 2021",
+      "new social customs",
+      "cultural experience",
+      "broadened perspective"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_386_yubin_sun.yaml"
+  }
+]

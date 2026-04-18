@@ -1,0 +1,86 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "Mexico",
+    "explicit_text": "My dad was born in Mexico and immigrated to the United States as a kid. Even though I grew up far from the Rio Grande, closer to Lake Superior, the Mexican culture has always been a part of my life. For example, tortillas are a staple at our breakfast table, a tradition that connects me to my dad’s roots. Mexico is where my family’s story begins, and it influences our meals and memories.",
+    "implicit_text": "My dad was born in a country south of the United States and immigrated here as a kid. Even though I grew up far from the Rio Grande, closer to Lake Superior, the culture from his homeland has always been a part of my life. For example, tortillas are a staple at our breakfast table, a tradition that connects me to my dad’s roots. That country is where my family’s story begins, and it influences our meals and memories.",
+    "cues": [
+      "immigration",
+      "dad born in Mexico",
+      "cultural traditions",
+      "tortillas",
+      "Rio Grande"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_362_adam_martinez.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "Los Angeles",
+    "explicit_text": "My dad grew up in Los Angeles, and that's where he met my mom back in the 1970s. My brother and I were actually born there before our family moved to Minnesota when I was still a baby. Los Angeles is kind of the starting point for our family in the U.S., even though I’ve spent most of my life elsewhere. It’s interesting to think about how our story began in that city.",
+    "implicit_text": "My dad grew up in a major city on the west coast, and that's where he met my mom back in the 1970s. My brother and I were actually born there before our family moved to Minnesota when I was still a baby. That city is kind of the starting point for our family in the U.S., even though I’ve spent most of my life elsewhere. It’s interesting to think about how our story began in that place.",
+    "cues": [
+      "1970s",
+      "parents met",
+      "birthplace of me and my brother",
+      "family move",
+      "Los Angeles"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_362_adam_martinez.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "Twin Cities",
+    "explicit_text": "My mom was born and raised in the Twin Cities, so that’s where her roots are. Even though I was born in Los Angeles, my family moved to Minnesota when I was a baby, and I’ve lived here ever since. The Twin Cities represent my mom’s background and the place where my family settled after leaving California. It’s a big part of my identity growing up as a second-generation Mexican immigrant.",
+    "implicit_text": "My mom was born and raised in the metropolitan area of Minnesota’s two largest cities, so that’s where her roots are. Even though I was born in Los Angeles, my family moved to Minnesota when I was a baby, and I’ve lived here ever since. That metro area represents my mom’s background and the place where my family settled after leaving California. It’s a big part of my identity growing up as a second-generation Mexican immigrant.",
+    "cues": [
+      "mom born and raised",
+      "Minnesota",
+      "family move",
+      "Twin Cities",
+      "second-generation immigrant"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_362_adam_martinez.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "Minnesota",
+    "explicit_text": "My family moved to Minnesota when I was still a baby, and I’ve lived here my entire life. Growing up in Minnesota, especially near Lake Superior, has shaped my experience as a second-generation Mexican immigrant. It’s a different environment than where my dad grew up, but it’s home to me. Minnesota is where I went to school and where our family traditions, like breakfast with tortillas, continued.",
+    "implicit_text": "My family moved to the northern U.S. state known for its lakes when I was still a baby, and I’ve lived here my entire life. Growing up in this state, especially near Lake Superior, has shaped my experience as a second-generation Mexican immigrant. It’s a different environment than where my dad grew up, but it’s home to me. This state is where I went to school and where our family traditions, like breakfast with tortillas, continued.",
+    "cues": [
+      "family move",
+      "entire life",
+      "Lake Superior",
+      "second-generation immigrant",
+      "home"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_362_adam_martinez.yaml"
+  },
+  {
+    "entity_id": 5,
+    "entity": "University of Minnesota",
+    "explicit_text": "I’m currently a senior at the University of Minnesota, which has been a big part of my life. Being here has allowed me to reflect on my identity and family traditions, like the importance of tortillas at the breakfast table. The university is where I’m shaping my future while staying connected to my roots. It’s a place that bridges my personal story with my academic journey.",
+    "implicit_text": "I’m currently a senior at the large public university in Minnesota, which has been a big part of my life. Being here has allowed me to reflect on my identity and family traditions, like the importance of tortillas at the breakfast table. This university is where I’m shaping my future while staying connected to my roots. It’s a place that bridges my personal story with my academic journey.",
+    "cues": [
+      "senior",
+      "current student",
+      "identity reflection",
+      "family traditions",
+      "academic journey"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_362_adam_martinez.yaml"
+  },
+  {
+    "entity_id": 6,
+    "entity": "Lake Superior",
+    "explicit_text": "I grew up closer to Lake Superior than the Rio Grande, which is quite a contrast to my dad’s upbringing in Mexico. Living near Lake Superior in Minnesota has given me a unique perspective on my heritage and environment. It’s a reminder of how far my family has come and how we blend different cultures and places in our daily lives. Lake Superior is part of the backdrop of my story as a second-generation Mexican immigrant.",
+    "implicit_text": "I grew up closer to the largest of the Great Lakes than the Rio Grande, which is quite a contrast to my dad’s upbringing in Mexico. Living near this massive freshwater lake in Minnesota has given me a unique perspective on my heritage and environment. It’s a reminder of how far my family has come and how we blend different cultures and places in our daily lives. This lake is part of the backdrop of my story as a second-generation Mexican immigrant.",
+    "cues": [
+      "geographic contrast",
+      "Minnesota",
+      "heritage",
+      "family story",
+      "second-generation immigrant"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_362_adam_martinez.yaml"
+  }
+]

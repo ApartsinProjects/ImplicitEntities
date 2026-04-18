@@ -1,0 +1,73 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "Xieng Khouang Province",
+    "explicit_text": "My mother was born and raised in Xieng Khouang Province, a small area in Laos. She lived there until she was 14, growing up with her many siblings. During their time in Xieng Khouang, her family faced terrible hardships, including the loss of three of her older brothers due to illness and militia violence. The memories of fleeing through the jungle and the pain of leaving her brothers behind in that unknown forest stayed with her deeply.",
+    "implicit_text": "My mother was born and raised in a small mountainous region in northern Laos. She lived there until she was 14, growing up with her many siblings. During their time in that area, her family faced terrible hardships, including the loss of three of her older brothers due to illness and militia violence. The memories of fleeing through the jungle and the pain of leaving her brothers behind in that unknown forest stayed with her deeply.",
+    "cues": [
+      "small province",
+      "Laos",
+      "age 14",
+      "jungle",
+      "loss of brothers",
+      "militia"
+    ],
+    "transcript_ref": "immigration\\imm_umn_228_mai_xiong.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "Laos",
+    "explicit_text": "My mother's early life was shaped by the turmoil in Laos, where she and her family had to run through dense jungles to escape danger. Laos was the backdrop of her childhood struggles, including the tragic deaths of her brothers and the constant fear of militia attacks. After fleeing from their home province, they stayed briefly in Vang Vieng, still within Laos, before moving on. The stories she told me about Laos are filled with pain, survival, and hope for a better future.",
+    "implicit_text": "My mother's early life was shaped by the turmoil in her Southeast Asian homeland, where she and her family had to run through dense jungles to escape danger. This country was the backdrop of her childhood struggles, including the tragic deaths of her brothers and the constant fear of militia attacks. After fleeing from their home province, they stayed briefly in a small town known for its karst landscape, still within that nation, before moving on. The stories she told me about her homeland are filled with pain, survival, and hope for a better future.",
+    "cues": [
+      "jungle",
+      "militia attacks",
+      "Vang Vieng",
+      "childhood",
+      "family struggles"
+    ],
+    "transcript_ref": "immigration\\imm_umn_228_mai_xiong.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "Vang Vieng",
+    "explicit_text": "After leaving the dangerous forests of Laos, my mother and her family found temporary refuge in Vang Vieng, where they stayed for about three months. It was in Vang Vieng that my mother met my father, and they got married in a relative's simple bamboo and wooden home. Despite the brief peace, news of attacks on nearby villages forced them to leave once again. Vang Vieng holds a special place in our family history as the site of my parents' union amid uncertainty.",
+    "implicit_text": "After leaving the dangerous forests of her homeland, my mother and her family found temporary refuge in a small town famous for its limestone hills and river scenery, where they stayed for about three months. It was there that my mother met my father, and they got married in a relative's simple bamboo and wooden home. Despite the brief peace, news of attacks on nearby villages forced them to leave once again. That town holds a special place in our family history as the site of my parents' union amid uncertainty.",
+    "cues": [
+      "three months stay",
+      "meeting my father",
+      "marriage",
+      "bamboo and wooden home",
+      "news of attacks"
+    ],
+    "transcript_ref": "immigration\\imm_umn_228_mai_xiong.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "Thailand",
+    "explicit_text": "My parents eventually fled westward into Thailand to escape the violence threatening their lives in Laos. They arrived at refugee camps there, seeking safety from the bombings and gunfire that had plagued their homeland. Thailand was a place of temporary refuge, but also a place where my mother dreamed of a peaceful life elsewhere. It was in those camps that she began to imagine a future in the United States, free from war and fear.",
+    "implicit_text": "My parents eventually fled westward into a neighboring country to escape the violence threatening their lives in their homeland. They arrived at refugee camps there, seeking safety from the bombings and gunfire that had plagued their country. This neighboring nation was a place of temporary refuge, but also a place where my mother dreamed of a peaceful life elsewhere. It was in those camps that she began to imagine a future in a distant land, free from war and fear.",
+    "cues": [
+      "refugee camps",
+      "escape from violence",
+      "temporary refuge",
+      "dreams of peace",
+      "westward journey"
+    ],
+    "transcript_ref": "immigration\\imm_umn_228_mai_xiong.yaml"
+  },
+  {
+    "entity_id": 5,
+    "entity": "United States",
+    "explicit_text": "While in the refugee camps in Thailand, my mother often thought about the United States as a place of hope and safety. She imagined a life there without the thunderous bombings, earth-shaking violence, and rapid gunfire that had haunted her past. The United States represented a new beginning for her and her family, a place where they could finally live in peace. Her dreams of settling there kept her strong during those difficult times.",
+    "implicit_text": "While in the refugee camps in that neighboring country, my mother often thought about a distant country across the ocean as a place of hope and safety. She imagined a life there without the thunderous bombings, earth-shaking violence, and rapid gunfire that had haunted her past. That distant land represented a new beginning for her and her family, a place where they could finally live in peace. Her dreams of settling there kept her strong during those difficult times.",
+    "cues": [
+      "refugee camps in Thailand",
+      "hope and safety",
+      "end of violence",
+      "new beginning",
+      "family future"
+    ],
+    "transcript_ref": "immigration\\imm_umn_228_mai_xiong.yaml"
+  }
+]

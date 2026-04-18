@@ -1,0 +1,335 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "Cleveland, Ohio",
+    "summary": "I was born and raised in Cleveland, Ohio in 1996. It was my home until I moved to Michigan when I was around eleven years old. Cleveland is where my early childhood memories are rooted before my family relocated.",
+    "cues": [
+      "1996",
+      "childhood",
+      "moved at eleven"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_161_noah_aaron.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "Michigan",
+    "summary": "When I was about eleven years old, my family moved from Cleveland to Michigan. It was a significant change during my youth before I eventually settled in Minnesota for university. Michigan was an important part of my upbringing.",
+    "cues": [
+      "moved at eleven",
+      "childhood",
+      "transition"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_161_noah_aaron.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "Minnesota",
+    "summary": "Minnesota is where I currently live and study. After growing up in Ohio and Michigan, I came here to attend the University of Minnesota. This state represents the latest chapter of my life and education.",
+    "cues": [
+      "University of Minnesota",
+      "current residence",
+      "education"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_161_noah_aaron.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "University of Minnesota",
+    "summary": "I am a student at the University of Minnesota, which is where I am pursuing my education now. It’s a place that connects me to my present and future, contrasting with my family’s deep historical roots in Germany and America. Being here helps me explore my identity and heritage.",
+    "cues": [
+      "current student",
+      "education",
+      "Minnesota"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_161_noah_aaron.yaml"
+  },
+  {
+    "entity_id": 5,
+    "entity": "Mannheim",
+    "summary": "Mannheim, Germany, is where my great-great-grandfather Leopold Rothschild and my great-grandparents lived. It’s the place where my family’s story begins over 120 years ago. Mannheim was a vibrant Jewish community until the rise of the Nazi Party disrupted our lives.",
+    "cues": [
+      "over 120 years ago",
+      "Leopold Rothschild",
+      "Jewish community",
+      "Nazi rise"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_161_noah_aaron.yaml"
+  },
+  {
+    "entity_id": 6,
+    "entity": "Leopold Rothschild",
+    "summary": "Leopold Rothschild was my great-great-grandfather, one of eight Jewish brothers who all served and survived World War I. He lived in Mannheim, Germany, and his family’s resilience during the war is a proud part of my heritage. His story is foundational to understanding my family’s past.",
+    "cues": [
+      "great-great-grandfather",
+      "eight brothers",
+      "World War I",
+      "Mannheim"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_161_noah_aaron.yaml"
+  },
+  {
+    "entity_id": 7,
+    "entity": "World War I",
+    "summary": "World War I deeply affected my family, especially my great-great-grandfather Leopold Rothschild and his seven brothers, all of whom served on the front lines. Remarkably, all eight brothers survived the war, which was a rare and fortunate outcome. This event is a significant chapter in my family history.",
+    "cues": [
+      "eight brothers served",
+      "front lines",
+      "survived",
+      "early 20th century"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_161_noah_aaron.yaml"
+  },
+  {
+    "entity_id": 8,
+    "entity": "Selma Rothschild",
+    "summary": "Selma Rothschild was my great-grandmother, daughter of Leopold Rothschild. She married Hugo Adler, and together they raised my grandmother and great-uncle in Mannheim. Selma’s life was deeply intertwined with the Jewish community before the Nazi era forced them to flee.",
+    "cues": [
+      "great-grandmother",
+      "married Hugo Adler",
+      "Mannheim",
+      "Jewish community"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_161_noah_aaron.yaml"
+  },
+  {
+    "entity_id": 9,
+    "entity": "Hugo Adler",
+    "summary": "Hugo Adler was my great-grandfather, born in Belgium but living in Mannheim, where he was a prominent figure in the Jewish community. He composed music for his synagogue, and those compositions are still used worldwide today. His legacy lives on through both his music and his family.",
+    "cues": [
+      "great-grandfather",
+      "Belgian-born",
+      "Mannheim",
+      "Jewish composer"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_161_noah_aaron.yaml"
+  },
+  {
+    "entity_id": 10,
+    "entity": "Jewish",
+    "summary": "My family has a rich Jewish heritage that has shaped our identity for generations. From my great-grandfather Hugo Adler’s role in the Jewish community of Mannheim to my uncles becoming Judaic scholars and rabbis, Judaism is central to our story. Despite hardships like Kristallnacht, our faith and culture have endured.",
+    "cues": [
+      "Jewish community",
+      "Mannheim",
+      "Judaic scholars",
+      "family tradition"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_161_noah_aaron.yaml"
+  },
+  {
+    "entity_id": 11,
+    "entity": "Marianne Adler",
+    "summary": "Marianne Adler is my grandmother, daughter of Hugo and Selma Adler. She was born in Mannheim but fled Germany with her family after Kristallnacht in 1938. Marianne later met and married Ronald Aaron in the United States, continuing our family’s story in America.",
+    "cues": [
+      "grandmother",
+      "fled Germany 1938",
+      "married Ronald Aaron",
+      "Mannheim"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_161_noah_aaron.yaml"
+  },
+  {
+    "entity_id": 12,
+    "entity": "Samuel Adler",
+    "summary": "Samuel Adler was my great-uncle, the brother of my grandmother Marianne. He was part of the Adler family in Mannheim before they fled Nazi Germany. His story is part of the larger family narrative of survival and migration.",
+    "cues": [
+      "great-uncle",
+      "Mannheim",
+      "Jewish family",
+      "Nazi era"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_161_noah_aaron.yaml"
+  },
+  {
+    "entity_id": 13,
+    "entity": "Nazi Party",
+    "summary": "The rise of the Nazi Party in Germany marked a dark turning point for my family. Their ascent led to the destruction of the Mannheim Synagogue and forced my great-grandparents to flee for their lives in 1938. The Nazi Party’s actions shattered the peace my family had known.",
+    "cues": [
+      "rise in 1930s",
+      "Kristallnacht 1938",
+      "Mannheim Synagogue destroyed",
+      "family fled"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_161_noah_aaron.yaml"
+  },
+  {
+    "entity_id": 14,
+    "entity": "Kristallnacht",
+    "summary": "Kristallnacht, on November 9, 1938, was a tragic event that destroyed the Mannheim Synagogue and terrified my family. After witnessing the devastation, my great-grandfather decided we had to escape Germany immediately. This night changed everything for the Adlers and led to our immigration to America.",
+    "cues": [
+      "November 9, 1938",
+      "Mannheim Synagogue destroyed",
+      "family fled Germany",
+      "Jewish persecution"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_161_noah_aaron.yaml"
+  },
+  {
+    "entity_id": 15,
+    "entity": "Mannheim Synagogue",
+    "summary": "The Mannheim Synagogue was a beautiful cultural hub for the Jewish community where my great-grandfather Hugo Adler composed music. Sadly, it was destroyed during Kristallnacht in 1938, marking a devastating loss for our family and community. Its destruction was a catalyst for our family’s escape to America.",
+    "cues": [
+      "cultural hub",
+      "destroyed Kristallnacht 1938",
+      "Hugo Adler’s compositions",
+      "Mannheim"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_161_noah_aaron.yaml"
+  },
+  {
+    "entity_id": 16,
+    "entity": "United States",
+    "summary": "After fleeing Nazi Germany, my family settled in the United States, specifically in Worcester, Massachusetts. America became our new home where my grandparents built their lives and where my parents and I were born and raised. The U.S. represents safety and opportunity for my family.",
+    "cues": [
+      "immigration post-1938",
+      "Worcester, Massachusetts",
+      "family settlement",
+      "new home"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_161_noah_aaron.yaml"
+  },
+  {
+    "entity_id": 17,
+    "entity": "Worcester, Massachusetts",
+    "summary": "Worcester, Massachusetts is where my family settled after escaping Germany. My grandparents, Ronald Aaron and Marianne Adler, lived there when they were young, and it’s where my grandfather was raised. Worcester was the American starting point for our family’s new life.",
+    "cues": [
+      "family settlement",
+      "grandparents’ youth",
+      "post-1938 immigration",
+      "Massachusetts"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_161_noah_aaron.yaml"
+  },
+  {
+    "entity_id": 18,
+    "entity": "Ronald Aaron",
+    "summary": "Ronald Aaron is my grandfather, raised in Worcester, Massachusetts after his family emigrated from Eastern Europe. He served in the United States Navy during combat in the Philippines and later in the Air Force, where he worked on aircraft blueprints. Ronald later became an architect and interior designer and married my grandmother Marianne.",
+    "cues": [
+      "grandfather",
+      "Worcester",
+      "Navy in Philippines",
+      "Air Force",
+      "architect"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_161_noah_aaron.yaml"
+  },
+  {
+    "entity_id": 19,
+    "entity": "Aronovitz",
+    "summary": "The Aronovitz family is my grandfather Ronald Aaron’s original family name before it was shortened. They were Jewish immigrants from the region between Ukraine and Russia. The Aronovitzes settled in Worcester, Massachusetts, where Ronald and his brother Hugh were raised.",
+    "cues": [
+      "original family name",
+      "Jewish immigrants",
+      "Ukraine-Russia region",
+      "Worcester"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_161_noah_aaron.yaml"
+  },
+  {
+    "entity_id": 20,
+    "entity": "Ukraine",
+    "summary": "My grandfather’s family, the Aronovitzes, came from an area between Ukraine and Russia. This region is part of our Eastern European Jewish heritage. Though we don’t have many records, it’s an important part of where my family’s story begins before coming to America.",
+    "cues": [
+      "ancestral region",
+      "Aronovitz family origin",
+      "Eastern Europe",
+      "Jewish heritage"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_161_noah_aaron.yaml"
+  },
+  {
+    "entity_id": 21,
+    "entity": "Russia",
+    "summary": "Along with Ukraine, Russia is part of the ancestral homeland of my grandfather’s family, the Aronovitzes. They emigrated from this area to the United States, seeking safety and opportunity. This region is a key part of my family’s immigrant story.",
+    "cues": [
+      "ancestral region",
+      "Aronovitz family origin",
+      "Eastern Europe",
+      "immigration"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_161_noah_aaron.yaml"
+  },
+  {
+    "entity_id": 22,
+    "entity": "Barney Aaron",
+    "summary": "Barney Aaron was my great-grandfather on my grandfather Ronald’s side. He, along with Gertrude Aaron, raised Ronald and his brother Hugh in Worcester, Massachusetts. Barney’s role as a patriarch helped shape the family’s American experience.",
+    "cues": [
+      "great-grandfather",
+      "Worcester",
+      "raised Ronald and Hugh",
+      "family patriarch"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_161_noah_aaron.yaml"
+  },
+  {
+    "entity_id": 23,
+    "entity": "Gertrude Aaron",
+    "summary": "Gertrude Aaron was my great-grandmother who, together with Barney Aaron, raised my grandfather Ronald and his brother Hugh in Worcester. She was part of the Aronovitz family that immigrated from Eastern Europe. Gertrude’s nurturing helped ground our family in America.",
+    "cues": [
+      "great-grandmother",
+      "Worcester",
+      "raised Ronald and Hugh",
+      "immigrant family"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_161_noah_aaron.yaml"
+  },
+  {
+    "entity_id": 24,
+    "entity": "Hugh Aaron",
+    "summary": "Hugh Aaron is my grandfather Ronald’s brother. He served in the United States Navy and is pictured in his uniform after returning from combat in the Philippines. Hugh’s military service is part of our family’s proud American story.",
+    "cues": [
+      "grandfather’s brother",
+      "Navy service",
+      "combat in Philippines",
+      "military"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_161_noah_aaron.yaml"
+  },
+  {
+    "entity_id": 25,
+    "entity": "Philippines",
+    "summary": "The Philippines is where my great-uncle Hugh Aaron served during his time in the United States Navy. His combat experience there is a significant part of our family’s military history. This overseas service reflects our family’s commitment to America.",
+    "cues": [
+      "military combat",
+      "Navy",
+      "Hugh Aaron",
+      "overseas service"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_161_noah_aaron.yaml"
+  },
+  {
+    "entity_id": 26,
+    "entity": "United States Navy",
+    "summary": "My great-uncle Hugh Aaron served in the United States Navy during World War II, including combat in the Philippines. His service is a proud part of our family’s American legacy. The Navy was a key part of his life before he returned home.",
+    "cues": [
+      "Hugh Aaron",
+      "combat Philippines",
+      "military service",
+      "World War II"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_161_noah_aaron.yaml"
+  },
+  {
+    "entity_id": 27,
+    "entity": "United States Air Force",
+    "summary": "My grandfather Ronald Aaron served in the United States Air Force after his Navy service. He worked drawing technical blueprints for aircraft, contributing his skills to the military effort. This was an important chapter in his life before he became an architect.",
+    "cues": [
+      "Ronald Aaron",
+      "Air Force service",
+      "technical blueprints",
+      "military career"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_161_noah_aaron.yaml"
+  },
+  {
+    "entity_id": 28,
+    "entity": "Judaism",
+    "summary": "Judaism is central to my family’s identity and history. From my great-grandfather Hugo Adler’s synagogue compositions to my uncles becoming rabbis and Judaic scholars, our faith has been a guiding force. Despite the challenges of persecution and migration, Judaism remains a vital part of who we are.",
+    "cues": [
+      "family faith",
+      "Hugo Adler’s music",
+      "rabbis in family",
+      "cultural identity"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_161_noah_aaron.yaml"
+  }
+]

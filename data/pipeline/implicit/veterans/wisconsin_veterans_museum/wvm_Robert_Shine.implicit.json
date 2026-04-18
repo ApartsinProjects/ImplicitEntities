@@ -1,0 +1,247 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "United States Army",
+    "explicit_text": "I was drafted into the United States Army in 1953, around May. I went through basic training at Fort Leonard Wood and then was deployed to Korea during the Korean War. My roles included working in supply and as a company clerk, handling weapons and clothing distribution. Serving in the Army was a big change from home, but I was proud to serve my country.",
+    "implicit_text": "I was drafted into the national military in 1953, around May. I went through basic training at a Missouri training center and then was deployed to Korea during the Korean War. My roles included working in supply and as a company clerk, handling weapons and clothing distribution. Serving in the armed forces was a big change from home, but I was proud to serve my country.",
+    "cues": [
+      "1953",
+      "drafted",
+      "basic training",
+      "Fort Leonard Wood",
+      "Korean War",
+      "supply",
+      "company clerk"
+    ],
+    "transcript_ref": "veterans\\wisconsin_veterans_museum\\wvm_Robert_Shine.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "Chicago",
+    "explicit_text": "My induction into the Army started in Chicago, where we processed through before heading to basic training. It was the first stop on my journey from civilian life to military service. Chicago was just a processing point, but it marked the beginning of my Army experience.",
+    "implicit_text": "My induction into the military started in a major Midwestern city, where we processed through before heading to basic training. It was the first stop on my journey from civilian life to military service. That city was just a processing point, but it marked the beginning of my military experience.",
+    "cues": [
+      "induction",
+      "processing",
+      "start of Army service"
+    ],
+    "transcript_ref": "veterans\\wisconsin_veterans_museum\\wvm_Robert_Shine.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "Fort Leonard Wood",
+    "explicit_text": "I did my basic training at Fort Leonard Wood, which was really hot at the time, probably around 1953. We had to march long distances with heavy backpacks and keep our barracks and gear spotless. It was tough but manageable, and it prepared me for the challenges ahead in Korea.",
+    "implicit_text": "I did my basic training at a training center in Missouri, which was really hot at the time, probably around 1953. We had to march long distances with heavy backpacks and keep our barracks and gear spotless. It was tough but manageable, and it prepared me for the challenges ahead in Korea.",
+    "cues": [
+      "basic training",
+      "1953",
+      "hot weather",
+      "marching",
+      "Fort Leonard Wood"
+    ],
+    "transcript_ref": "veterans\\wisconsin_veterans_museum\\wvm_Robert_Shine.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "Midway Airport",
+    "explicit_text": "After basic training, we flew out of Midway Airport to Seattle, Washington. That was the last point in the U.S. before heading overseas to Korea. Leaving from Midway marked the start of my deployment abroad.",
+    "implicit_text": "After basic training, we flew out of a major Chicago airport to Seattle, Washington. That was the last point in the U.S. before heading overseas to Korea. Leaving from that airport marked the start of my deployment abroad.",
+    "cues": [
+      "post-basic training",
+      "flight to Seattle",
+      "departure point"
+    ],
+    "transcript_ref": "veterans\\wisconsin_veterans_museum\\wvm_Robert_Shine.yaml"
+  },
+  {
+    "entity_id": 5,
+    "entity": "Seattle",
+    "explicit_text": "We stopped briefly at Fort Lewis near Seattle, Washington, where we had a chance to relax a bit and even go to a tavern for a couple of beers. It was a nice break before we left the mainland. Seattle was a memorable waypoint on our way to Korea.",
+    "implicit_text": "We stopped briefly at a military base near Seattle, Washington, where we had a chance to relax a bit and even go to a tavern for a couple of beers. It was a nice break before we left the mainland. That city was a memorable waypoint on our way to Korea.",
+    "cues": [
+      "Fort Lewis",
+      "Seattle",
+      "short stay",
+      "tavern visit"
+    ],
+    "transcript_ref": "veterans\\wisconsin_veterans_museum\\wvm_Robert_Shine.yaml"
+  },
+  {
+    "entity_id": 6,
+    "entity": "Fort Lewis",
+    "explicit_text": "At Fort Lewis near Seattle, we stayed for about a day before leaving from Puget Sound. It was a brief but welcome stop where we could unwind a little before heading out to sea. I remember it well because we got to enjoy a couple of beers at a tavern nearby.",
+    "implicit_text": "At a military base near Seattle, we stayed for about a day before leaving from the nearby sound. It was a brief but welcome stop where we could unwind a little before heading out to sea. I remember it well because we got to enjoy a couple of beers at a tavern nearby.",
+    "cues": [
+      "Fort Lewis",
+      "Seattle",
+      "one day stay",
+      "pre-deployment"
+    ],
+    "transcript_ref": "veterans\\wisconsin_veterans_museum\\wvm_Robert_Shine.yaml"
+  },
+  {
+    "entity_id": 7,
+    "entity": "Puget Sound",
+    "explicit_text": "We departed from Puget Sound on a ship heading to Japan and then Korea. It was the first time I saw flying fish there. The sea journey was rough, but Puget Sound was the last American port we left behind before heading overseas.",
+    "implicit_text": "We departed from a large natural harbor on the northwest coast on a ship heading to Japan and then Korea. It was the first time I saw flying fish there. The sea journey was rough, but that harbor was the last American port we left behind before heading overseas.",
+    "cues": [
+      "departure",
+      "sea journey",
+      "flying fish",
+      "Puget Sound"
+    ],
+    "transcript_ref": "veterans\\wisconsin_veterans_museum\\wvm_Robert_Shine.yaml"
+  },
+  {
+    "entity_id": 8,
+    "entity": "Japan",
+    "explicit_text": "We stopped in Japan for processing at a Japanese naval base, but only for a day or two. I remember the submarine nets being pulled open as we entered the harbor. We got to go downtown briefly, and the taxi ride was wild with drivers honking constantly. Japan was just a short stopover before heading into Korea.",
+    "implicit_text": "We stopped in a Pacific island nation for processing at a naval base, but only for a day or two. I remember the submarine nets being pulled open as we entered the harbor. We got to go downtown briefly, and the taxi ride was wild with drivers honking constantly. That country was just a short stopover before heading into Korea.",
+    "cues": [
+      "Japanese naval base",
+      "processing",
+      "submarine nets",
+      "taxi ride",
+      "short stay"
+    ],
+    "transcript_ref": "veterans\\wisconsin_veterans_museum\\wvm_Robert_Shine.yaml"
+  },
+  {
+    "entity_id": 9,
+    "entity": "Korean War",
+    "explicit_text": "I served in the Korean War starting in 1953 after being drafted. We were stationed near the 38th parallel, building roads and patrolling the area. The conditions were harsh and cold, and I even suffered frostbite on my feet. Despite the hardships, I was proud to serve during this conflict.",
+    "implicit_text": "I served in the conflict on the Korean peninsula starting in 1953 after being drafted. We were stationed near the dividing line between North and South Korea, building roads and patrolling the area. The conditions were harsh and cold, and I even suffered frostbite on my feet. Despite the hardships, I was proud to serve during this conflict.",
+    "cues": [
+      "1953",
+      "drafted",
+      "38th parallel",
+      "road construction",
+      "patrols",
+      "frostbite",
+      "cold conditions"
+    ],
+    "transcript_ref": "veterans\\wisconsin_veterans_museum\\wvm_Robert_Shine.yaml"
+  },
+  {
+    "entity_id": 10,
+    "entity": "Busan",
+    "explicit_text": "We arrived in Korea at Busan, or at least near there, after a rough sea voyage. From there, we took a train to Chuncheon where I joined the 73rd Engineer Combat Battalion. Busan was the entry point into Korea and the start of my time on the ground in the war zone.",
+    "implicit_text": "We arrived in Korea at a southeastern port city, or at least near there, after a rough sea voyage. From there, we took a train to a northern city where I joined the 73rd Engineer Combat Battalion. That port was the entry point into Korea and the start of my time on the ground in the war zone.",
+    "cues": [
+      "arrival in Korea",
+      "Busan port",
+      "train to Chuncheon",
+      "start of deployment"
+    ],
+    "transcript_ref": "veterans\\wisconsin_veterans_museum\\wvm_Robert_Shine.yaml"
+  },
+  {
+    "entity_id": 11,
+    "entity": "Chuncheon",
+    "explicit_text": "Chuncheon was where I joined the 73rd Engineer Combat Battalion after arriving in Korea. It was a big change from home, with no stores and a very different environment. We had a houseboy who helped keep our living area clean, which was a small comfort in a tough place.",
+    "implicit_text": "The northern city was where I joined the 73rd Engineer Combat Battalion after arriving in Korea. It was a big change from home, with no stores and a very different environment. We had a houseboy who helped keep our living area clean, which was a small comfort in a tough place.",
+    "cues": [
+      "joining unit",
+      "73rd Engineer Combat Battalion",
+      "living conditions",
+      "houseboy"
+    ],
+    "transcript_ref": "veterans\\wisconsin_veterans_museum\\wvm_Robert_Shine.yaml"
+  },
+  {
+    "entity_id": 12,
+    "entity": "73rd Engineer Combat Battalion",
+    "explicit_text": "I was assigned to the 73rd Engineer Combat Battalion in Korea. We worked on building roads near the 38th parallel and carried out patrols. The unit was responsible for engineering tasks in a very cold and challenging environment, and I also worked in supply and as a company clerk there.",
+    "implicit_text": "I was assigned to the 73rd Engineer Combat Battalion in Korea. We worked on building roads near the dividing line between North and South Korea and carried out patrols. The unit was responsible for engineering tasks in a very cold and challenging environment, and I also worked in supply and as a company clerk there.",
+    "cues": [
+      "73rd Engineer Combat Battalion",
+      "road building",
+      "38th parallel",
+      "patrols",
+      "supply",
+      "company clerk"
+    ],
+    "transcript_ref": "veterans\\wisconsin_veterans_museum\\wvm_Robert_Shine.yaml"
+  },
+  {
+    "entity_id": 13,
+    "entity": "38th parallel north",
+    "explicit_text": "We were stationed right on the 38th parallel north, the dividing line between North and South Korea. I helped build a road to the Sea of Japan from there and participated in patrols along the border. It was a tense and cold area, very different from anything back home.",
+    "implicit_text": "We were stationed right on the dividing line between North and South Korea. I helped build a road to the body of water on the east coast from there and participated in patrols along the border. It was a tense and cold area, very different from anything back home.",
+    "cues": [
+      "38th parallel",
+      "border",
+      "road construction",
+      "patrols",
+      "Sea of Japan"
+    ],
+    "transcript_ref": "veterans\\wisconsin_veterans_museum\\wvm_Robert_Shine.yaml"
+  },
+  {
+    "entity_id": 14,
+    "entity": "Sea of Japan",
+    "explicit_text": "Part of my work involved building a road to the Sea of Japan while stationed near the 38th parallel. I only worked on that project for a day before moving to supply duties. The Sea of Japan was a significant geographic point during my deployment.",
+    "implicit_text": "Part of my work involved building a road to the eastern sea while stationed near the dividing line between North and South Korea. I only worked on that project for a day before moving to supply duties. That sea was a significant geographic point during my deployment.",
+    "cues": [
+      "road construction",
+      "38th parallel",
+      "Sea of Japan",
+      "engineering work"
+    ],
+    "transcript_ref": "veterans\\wisconsin_veterans_museum\\wvm_Robert_Shine.yaml"
+  },
+  {
+    "entity_id": 15,
+    "entity": "M1 Garand",
+    "explicit_text": "I remember firing the M1 Garand rifle during training and patrols. The rifle had a strong kick, and the first time I fired it, I wasn't holding it right and got a cut under my eye. We also had to take the M1s apart and reassemble them quickly as part of our training at Inchon.",
+    "implicit_text": "I remember firing a standard-issue semi-automatic rifle during training and patrols. The rifle had a strong kick, and the first time I fired it, I wasn't holding it right and got a cut under my eye. We also had to take these rifles apart and reassemble them quickly as part of our training at a port city in Korea.",
+    "cues": [
+      "M1 Garand",
+      "rifle firing",
+      "training",
+      "injury",
+      "Inchon"
+    ],
+    "transcript_ref": "veterans\\wisconsin_veterans_museum\\wvm_Robert_Shine.yaml"
+  },
+  {
+    "entity_id": 16,
+    "entity": "Bazooka",
+    "explicit_text": "We used the bazooka in training and it was actually easier to fire than the M1 Garand because it had no kick. We practiced firing at old jeeps and tanks, and it was a lot of fun. The bazooka was a memorable part of my combat training experience.",
+    "implicit_text": "We used a shoulder-fired anti-tank weapon in training and it was actually easier to fire than the standard rifle because it had no kick. We practiced firing at old jeeps and tanks, and it was a lot of fun. That weapon was a memorable part of my combat training experience.",
+    "cues": [
+      "bazooka",
+      "training",
+      "firing practice",
+      "jeeps and tanks"
+    ],
+    "transcript_ref": "veterans\\wisconsin_veterans_museum\\wvm_Robert_Shine.yaml"
+  },
+  {
+    "entity_id": 17,
+    "entity": "Dale Erston",
+    "explicit_text": "While picking up supplies one time, I ran into my friend Dale Erston at his company. I didn't know he was there until I saw the place and went to visit him. I gave him an extra pair of shoes he needed, which was a small but meaningful gesture during our time in Korea.",
+    "implicit_text": "While picking up supplies one time, I ran into my friend at his company. I didn't know he was there until I saw the place and went to visit him. I gave him an extra pair of shoes he needed, which was a small but meaningful gesture during our time in Korea.",
+    "cues": [
+      "Dale Erston",
+      "friend",
+      "supply pickup",
+      "shoe gift"
+    ],
+    "transcript_ref": "veterans\\wisconsin_veterans_museum\\wvm_Robert_Shine.yaml"
+  },
+  {
+    "entity_id": 18,
+    "entity": "Inchon",
+    "explicit_text": "I went to Inchon to help take apart and reassemble weapons like the M1 Garand as part of our training. The city was heavily bombed when we were there, and I remember a church that was badly damaged. Inchon looked very different then compared to how it is today.",
+    "implicit_text": "I went to a heavily bombed port city in Korea to help take apart and reassemble weapons like the standard rifle as part of our training. The city was heavily bombed when we were there, and I remember a church that was badly damaged. That city looked very different then compared to how it is today.",
+    "cues": [
+      "Inchon",
+      "weapon training",
+      "bomb damage",
+      "church",
+      "city changes"
+    ],
+    "transcript_ref": "veterans\\wisconsin_veterans_museum\\wvm_Robert_Shine.yaml"
+  }
+]

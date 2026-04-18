@@ -1,0 +1,42 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "Burma",
+    "explicit_text": "I was born in Burma in 1999, a place surrounded by beautiful forests, rivers, and wildlife. We lived by hunting and farming, enjoying the sun and nature around us. However, Burma was dangerous because of the civil war between the Karen people and the Burmese soldiers. When I was just over a year old, our village was attacked by Burmese soldiers who destroyed our homes and farms, forcing my family to flee for our lives.",
+    "implicit_text": "I was born in a country in Southeast Asia in 1999, a place surrounded by beautiful forests, rivers, and wildlife. We lived by hunting and farming, enjoying the sun and nature around us. However, the region was dangerous because of the civil war between the Karen people and the national soldiers. When I was just over a year old, our village was attacked by government soldiers who destroyed our homes and farms, forcing my family to flee for our lives.",
+    "cues": [
+      "1999",
+      "civil war",
+      "Karen and Burmese conflict",
+      "village attack",
+      "hunting and farming"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_264_htoo_ler_moo.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "Thailand",
+    "explicit_text": "After our village in Burma was attacked, my family and I fled through the forest and eventually found safety in Thailand. We were helped by Thai soldiers who guided us to a safer place far from the Burmese soldiers. Thailand became a refuge for us after escaping the violence in Burma. It was a place where we could finally feel safe, even though the journey there was very difficult.",
+    "implicit_text": "After our village in the neighboring country was attacked, my family and I fled through the forest and eventually found safety in a nearby Southeast Asian nation. We were helped by soldiers from that country who guided us to a safer place far from the attacking forces. This nation became a refuge for us after escaping the violence. It was a place where we could finally feel safe, even though the journey there was very difficult.",
+    "cues": [
+      "escape from Burma",
+      "help from Thai soldiers",
+      "refuge",
+      "safety from conflict"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_264_htoo_ler_moo.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "Mae Ka Kee",
+    "explicit_text": "Mae Ka Kee is the place in Thailand where my family and I finally arrived after fleeing from Burma. It was a safe haven after the dangerous journey through the forest and the attacks by Burmese soldiers. Mae Ka Kee became our new home where we could live without fear of being attacked. It marked the end of a terrifying escape and the beginning of a new chapter for us.",
+    "implicit_text": "This town in the neighboring Southeast Asian country is where my family and I finally arrived after fleeing from the conflict zone. It was a safe haven after the dangerous journey through the forest and the attacks by soldiers from our homeland. This place became our new home where we could live without fear of being attacked. It marked the end of a terrifying escape and the beginning of a new chapter for us.",
+    "cues": [
+      "arrival in Thailand",
+      "safe haven",
+      "refuge for Karen people",
+      "end of escape journey"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_264_htoo_ler_moo.yaml"
+  }
+]

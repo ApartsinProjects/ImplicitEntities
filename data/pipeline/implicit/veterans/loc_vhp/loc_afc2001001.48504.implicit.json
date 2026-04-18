@@ -1,0 +1,258 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "United States Army Air Corps",
+    "explicit_text": "I decided to enlist in the United States Army Air Corps because I already had a private pilot's license and wanted to serve as a fighter pilot. The Army Air Corps was responsible for training pilots like me during World War II, and I went through boot camp and various flight training programs under their command. It was a tough but rewarding experience, and I was proud to be part of such an important military organization during the war.",
+    "implicit_text": "I decided to enlist in the military aviation branch because I already had a private pilot's license and wanted to serve as a fighter pilot. This branch was responsible for training pilots like me during World War II, and I went through boot camp and various flight training programs under their command. It was a tough but rewarding experience, and I was proud to be part of such an important military organization during the war.",
+    "cues": [
+      "World War II",
+      "pilot training",
+      "fighter pilot",
+      "boot camp"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.48504.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "Santa Ana Army Air Base",
+    "explicit_text": "My boot camp training took place at Santa Ana Army Air Base, which was a huge training center for cadets including flyers, bombardiers, and navigators. I arrived there alone and was assigned to a group mostly made up of Texans, which was a unique experience because they were very proud of their state and initially gave me a hard time. After a few weeks, I earned their respect and was even granted honorary Texas citizenship. The base was where I learned the basics of military discipline and camaraderie.",
+    "implicit_text": "My boot camp training took place at a large training center in Southern California, which was a huge training center for cadets including flyers, bombardiers, and navigators. I arrived there alone and was assigned to a group mostly made up of Texans, which was a unique experience because they were very proud of their state and initially gave me a hard time. After a few weeks, I earned their respect and was even granted honorary Texas citizenship. The base was where I learned the basics of military discipline and camaraderie.",
+    "cues": [
+      "boot camp",
+      "cadet training",
+      "Texans",
+      "Army Air Corps",
+      "Santa Ana"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.48504.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "Texas",
+    "explicit_text": "Texas played a big role in my early military experience because most of the cadets at Santa Ana Army Air Base were Texans. They were very proud and vocal about their state, and at first, they gave me a lot of grief until I stood up to them. Eventually, they accepted me and even made me an honorary Texan, which was a turning point in my training. I flew with many Texans during the war and admired their skills as fighters.",
+    "implicit_text": "That southern U.S. state played a big role in my early military experience because most of the cadets at the training base were from there. They were very proud and vocal about their state, and at first, they gave me a lot of grief until I stood up to them. Eventually, they accepted me and even made me an honorary citizen of their state, which was a turning point in my training. I flew with many pilots from that state during the war and admired their skills as fighters.",
+    "cues": [
+      "Santa Ana Army Air Base",
+      "cadet group",
+      "Texan pride",
+      "World War II"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.48504.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "Texas A&M University",
+    "explicit_text": "Johnnie Godbolt, one of the Texans I met at Santa Ana Army Air Base, was an All-American end from Texas A&M University. He was a big, quiet guy who ended up helping me gain acceptance among the Texans during boot camp. His presence and support were important to me during those early days in the military, and it connected me indirectly to Texas A&M through him.",
+    "implicit_text": "Johnnie Godbolt, one of the Texans I met at the training base, was an All-American end from a well-known university in that state. He was a big, quiet guy who ended up helping me gain acceptance among the Texans during boot camp. His presence and support were important to me during those early days in the military, and it connected me indirectly to that university through him.",
+    "cues": [
+      "Johnnie Godbolt",
+      "Santa Ana Army Air Base",
+      "Texas",
+      "boot camp"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.48504.yaml"
+  },
+  {
+    "entity_id": 5,
+    "entity": "University of Arizona",
+    "explicit_text": "While training at Ryan Field near Tucson, Arizona, I also attended the University of Arizona. Being familiar with Tucson and the university area helped me adjust to the flying conditions and made the training more comfortable. It was a good experience balancing flight training with some connection to the university environment during the summer of 1942.",
+    "implicit_text": "While training at a field near Tucson, Arizona, I also attended the local state university. Being familiar with Tucson and the university area helped me adjust to the flying conditions and made the training more comfortable. It was a good experience balancing flight training with some connection to the university environment during the summer of 1942.",
+    "cues": [
+      "Ryan Field",
+      "Tucson, Arizona",
+      "1942",
+      "flight training"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.48504.yaml"
+  },
+  {
+    "entity_id": 6,
+    "entity": "Tucson, Arizona",
+    "explicit_text": "Tucson, Arizona was close to both Ryan Field and Marana Air Base, where I did much of my flight training during 1942. The desert climate was tough, especially at Marana where temperatures reached over 110 degrees. Tucson was also home to the University of Arizona, which I attended while training at Ryan Field, so it was a familiar and important place for me during my pilot training.",
+    "implicit_text": "That city in southern Arizona was close to both Ryan Field and Marana Air Base, where I did much of my flight training during 1942. The desert climate was tough, especially at Marana where temperatures reached over 110 degrees. The city was also home to the state university, which I attended while training at Ryan Field, so it was a familiar and important place for me during my pilot training.",
+    "cues": [
+      "Ryan Field",
+      "Marana Air Base",
+      "University of Arizona",
+      "1942",
+      "pilot training"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.48504.yaml"
+  },
+  {
+    "entity_id": 7,
+    "entity": "Ryan Field (Arizona)",
+    "explicit_text": "After boot camp, I went to Ryan Field, a primary training base about 15 miles outside Tucson, Arizona, in June 1942. There, I flew the Ryan single-engine airplane and did a lot of ground and flight study. Ryan Field was where I became friends with Johnnie Godbolt, who tragically died during a run around the field. Despite that, I was made Cadet Commander of the A Squadron shortly after, which was a proud moment for me.",
+    "implicit_text": "After boot camp, I went to a primary training base about 15 miles outside Tucson, Arizona, in June 1942. There, I flew a single-engine airplane and did a lot of ground and flight study. This base was where I became friends with Johnnie Godbolt, who tragically died during a run around the field. Despite that, I was made Cadet Commander of the A Squadron shortly after, which was a proud moment for me.",
+    "cues": [
+      "June 1942",
+      "primary training",
+      "Ryan single-engine airplane",
+      "Johnnie Godbolt",
+      "Tucson, Arizona"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.48504.yaml"
+  },
+  {
+    "entity_id": 8,
+    "entity": "Marana Air Base",
+    "explicit_text": "I trained at Marana Air Base after Ryan Field, where we flew more advanced aircraft in the heart of Arizona's cotton district. The heat was intense, often over 110 degrees, making it difficult to handle the planes on the ground. Marana was also unique because it hosted both American and Chinese pilots training together during 1942, which was part of the effort to support China in the war through programs like the Flying Tigers.",
+    "implicit_text": "I trained at an air base in Arizona's cotton district after Ryan Field, where we flew more advanced aircraft in intense heat often over 110 degrees, making it difficult to handle the planes on the ground. This base was also unique because it hosted both American and Chinese pilots training together during 1942, which was part of the effort to support China in the war through programs like the Flying Tigers.",
+    "cues": [
+      "1942",
+      "advanced flight training",
+      "cotton district",
+      "Chinese pilots",
+      "Arizona"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.48504.yaml"
+  },
+  {
+    "entity_id": 9,
+    "entity": "Madame Chiang Kai-shek",
+    "explicit_text": "Madame Chiang Kai-shek played a significant role in China's air force development by persuading Claire Chennault to lead the Nationalist China's Air Force in 1937. This effort was crucial because the Japanese were overwhelming the Chinese forces at the time. Her involvement indirectly influenced the training of Chinese pilots in the U.S. during my time at Marana Air Base in 1942.",
+    "implicit_text": "The wife of China's leader played a significant role in that country's air force development by persuading an American aviator to lead the Nationalist China's Air Force in 1937. This effort was crucial because the Japanese were overwhelming the Chinese forces at the time. Her involvement indirectly influenced the training of Chinese pilots in the U.S. during my time at the Arizona air base in 1942.",
+    "cues": [
+      "1937",
+      "China",
+      "Claire Chennault",
+      "Nationalist China Air Force",
+      "Marana Air Base"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.48504.yaml"
+  },
+  {
+    "entity_id": 10,
+    "entity": "Claire Lee Chennault",
+    "explicit_text": "Claire Lee Chennault was a retired U.S. Army Air Force Major who took command of the Nationalist China's Air Force in 1937. He tried to recruit American pilots to help China fight the Japanese, but initially, the U.S. government forbade it. Eventually, by 1941, he received P-40 aircraft and American pilots could join, forming the famous Flying Tigers. His leadership was a pivotal part of the air war in China, and I learned about him while training at Marana Air Base.",
+    "implicit_text": "A retired U.S. Army Air Force Major took command of Nationalist China's Air Force in 1937. He tried to recruit American pilots to help China fight the Japanese, but initially, the U.S. government forbade it. Eventually, by 1941, he received P-40 aircraft and American pilots could join, forming the famous volunteer group. His leadership was a pivotal part of the air war in China, and I learned about him while training at the Arizona air base.",
+    "cues": [
+      "1937",
+      "Nationalist China Air Force",
+      "P-40 aircraft",
+      "Flying Tigers",
+      "Marana Air Base"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.48504.yaml"
+  },
+  {
+    "entity_id": 11,
+    "entity": "National Revolutionary Army",
+    "explicit_text": "The National Revolutionary Army was the military force of China that Claire Chennault took over in 1937 to lead their air force against the Japanese. During my training at Marana Air Base in 1942, we were involved in training Chinese pilots who were part of this army. It was a unique experience because the Chinese pilots didn't speak English, which made communication challenging but important for our joint efforts.",
+    "implicit_text": "The military force of China that the American aviator took over in 1937 to lead their air force against the Japanese was involved in training Chinese pilots at the Arizona air base in 1942. It was a unique experience because the Chinese pilots didn't speak English, which made communication challenging but important for our joint efforts.",
+    "cues": [
+      "1937",
+      "China",
+      "Claire Chennault",
+      "Marana Air Base",
+      "Chinese pilots"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.48504.yaml"
+  },
+  {
+    "entity_id": 12,
+    "entity": "Flying Tigers",
+    "explicit_text": "The Flying Tigers were an American volunteer group led by Claire Chennault who flew P-40 Warhawks to defend China against Japanese forces starting around 1941. I learned about their formation and mission while training at Marana Air Base in 1942, where Chinese and American pilots trained together. The Flying Tigers became famous for their bravery and effectiveness, and their story was part of the backdrop of my own pilot training.",
+    "implicit_text": "An American volunteer group led by the retired U.S. Major flew P-40 Warhawks to defend China against Japanese forces starting around 1941. I learned about their formation and mission while training at the Arizona air base in 1942, where Chinese and American pilots trained together. This group became famous for their bravery and effectiveness, and their story was part of the backdrop of my own pilot training.",
+    "cues": [
+      "1941",
+      "P-40 Warhawk",
+      "Claire Chennault",
+      "Marana Air Base",
+      "China"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.48504.yaml"
+  },
+  {
+    "entity_id": 13,
+    "entity": "Luke Air Force Base",
+    "explicit_text": "After completing basic training at Marana, I was sent to Luke Air Force Base near Phoenix, Arizona, for advanced fighter pilot training. Luke was where I trained on the P-40 Warhawk and the North American T-6 Texan, the planes I flew before being commissioned. The base was known for its rigorous training and was the final step before becoming a fighter pilot in World War II.",
+    "implicit_text": "After completing basic training at the Arizona air base, I was sent to a base near Phoenix, Arizona, for advanced fighter pilot training. There, I trained on the P-40 Warhawk and the North American T-6 Texan, the planes I flew before being commissioned. The base was known for its rigorous training and was the final step before becoming a fighter pilot in World War II.",
+    "cues": [
+      "advanced fighter training",
+      "P-40 Warhawk",
+      "North American T-6 Texan",
+      "Phoenix, Arizona",
+      "World War II"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.48504.yaml"
+  },
+  {
+    "entity_id": 14,
+    "entity": "Ajo, Arizona",
+    "explicit_text": "I spent about two weeks at Ajo, Arizona, during my training for gunnery practice. This was where we learned how to shoot from the fighter aircraft using various weapons, including rifles, pistols, and moving targets. My experience as a hunter since childhood helped me excel in this part of training, which was essential for becoming a successful fighter pilot.",
+    "implicit_text": "I spent about two weeks in a small town in Arizona during my training for gunnery practice. This was where we learned how to shoot from the fighter aircraft using various weapons, including rifles, pistols, and moving targets. My experience as a hunter since childhood helped me excel in this part of training, which was essential for becoming a successful fighter pilot.",
+    "cues": [
+      "gunnery training",
+      "fighter aircraft",
+      "Arizona",
+      "World War II"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.48504.yaml"
+  },
+  {
+    "entity_id": 15,
+    "entity": "P-40 Warhawk",
+    "explicit_text": "The P-40 Warhawk was the primary fighter aircraft I trained on at Luke Air Force Base. It was a single-seat fighter that I was eager to fly, especially after my extensive preparation. The P-40 was also the plane used by the Flying Tigers in China, which made it famous and respected. Flying the P-40 was a thrilling experience and a key part of my journey to becoming a fighter pilot.",
+    "implicit_text": "The primary fighter aircraft I trained on at the base near Phoenix was a single-seat fighter that I was eager to fly, especially after my extensive preparation. This plane was also used by the famous American volunteer group in China, which made it famous and respected. Flying this aircraft was a thrilling experience and a key part of my journey to becoming a fighter pilot.",
+    "cues": [
+      "Luke Air Force Base",
+      "fighter training",
+      "Flying Tigers",
+      "single-seat fighter"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.48504.yaml"
+  },
+  {
+    "entity_id": 16,
+    "entity": "North American T-6 Texan",
+    "explicit_text": "The North American T-6 Texan was another important aircraft I trained on at Luke Air Force Base. Unlike the P-40, it had a back seat for an instructor and was used for advanced maneuvers and instrument flying. The T-6 was widely used during World War II for training pilots, and mastering it was crucial before moving on to combat aircraft like the P-40.",
+    "implicit_text": "Another important aircraft I trained on at the base near Phoenix had a back seat for an instructor and was used for advanced maneuvers and instrument flying. This trainer was widely used during World War II for training pilots, and mastering it was crucial before moving on to combat aircraft like the primary fighter.",
+    "cues": [
+      "Luke Air Force Base",
+      "advanced training",
+      "instrument flying",
+      "World War II"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.48504.yaml"
+  },
+  {
+    "entity_id": 17,
+    "entity": "Amelia Earhart",
+    "explicit_text": "When I was seven years old, my family lived in Casa Grande, Arizona, and I had a memorable encounter with Amelia Earhart. She made an emergency landing near our house during her first solo cross-country flight in 1928. My mother helped repair her plane's fabric wings, and Amelia thanked the neighbors before taking off again. That moment inspired me to become a fighter pilot years later.",
+    "implicit_text": "When I was seven years old, my family lived in a town in Arizona, and I had a memorable encounter with a famous female aviator. She made an emergency landing near our house during her first solo cross-country flight in 1928. My mother helped repair her plane's fabric wings, and the aviator thanked the neighbors before taking off again. That moment inspired me to become a fighter pilot years later.",
+    "cues": [
+      "1928",
+      "Casa Grande, Arizona",
+      "first solo cross-country flight",
+      "emergency landing"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.48504.yaml"
+  },
+  {
+    "entity_id": 18,
+    "entity": "Casa Grande, Arizona",
+    "explicit_text": "Casa Grande, Arizona, was where I lived as a child when Amelia Earhart made her emergency landing nearby in 1928. It was a small town where my family stayed for my mother's health for about a year. That experience with Amelia Earhart left a lasting impression on me and sparked my early interest in aviation and flying.",
+    "implicit_text": "That town in Arizona was where I lived as a child when the famous female aviator made her emergency landing nearby in 1928. It was a small town where my family stayed for my mother's health for about a year. That experience left a lasting impression on me and sparked my early interest in aviation and flying.",
+    "cues": [
+      "1928",
+      "Amelia Earhart",
+      "childhood",
+      "Arizona"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.48504.yaml"
+  },
+  {
+    "entity_id": 19,
+    "entity": "European Theater of World War II",
+    "explicit_text": "Although I trained extensively as a fighter pilot during World War II, my narrative focused more on my training in the United States and the Pacific-related efforts like the Flying Tigers. The transcript did not mention my direct involvement in the European Theater of World War II, so I cannot speak to that experience from this account.",
+    "implicit_text": "Although I trained extensively as a fighter pilot during World War II, my narrative focused more on my training in the United States and the Pacific-related efforts like the volunteer group in China. The transcript did not mention my direct involvement in the European combat zone, so I cannot speak to that experience from this account.",
+    "cues": [
+      "World War II",
+      "training",
+      "United States",
+      "Flying Tigers"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.48504.yaml"
+  }
+]

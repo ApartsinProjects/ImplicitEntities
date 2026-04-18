@@ -1,0 +1,70 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "Burma",
+    "explicit_text": "I was born in Burma in 1999, and even though I left when I was very young, Burma was always a part of my school lessons in the refugee camp in Thailand. I remember my geography teacher gave us homework about Burma, and we had to memorize a long paragraph about it. Burma was a subject that connected me to my roots while I was living far away in the camp.",
+    "implicit_text": "I was born in a Southeast Asian country in 1999, and even though I left when I was very young, that country was always a part of my school lessons in the refugee camp in Thailand. I remember my geography teacher gave us homework about that place, and we had to memorize a long paragraph about it. It was a subject that connected me to my roots while I was living far away in the camp.",
+    "cues": [
+      "born in 1999",
+      "geography homework",
+      "refugee camp school",
+      "teacher"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_370_eh_ka_pu_moo.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "Thailand",
+    "explicit_text": "When I was two years old, my family moved to Thailand, where I grew up in a refugee camp and went to school. The school was very basic, made of bamboo, leaves, and wood, and it was often damaged by rain and wind. Life in Thailand was challenging, but I was excited to go to school every day, even though the teachers were strict and the punishments harsh. I sang the Karen National Anthem every morning and wore a uniform, and my experiences there shaped much of my early life.",
+    "implicit_text": "When I was two years old, my family moved to a neighboring Southeast Asian country, where I grew up in a refugee camp and went to school. The school was very basic, made of bamboo, leaves, and wood, and it was often damaged by rain and wind. Life there was challenging, but I was excited to go to school every day, even though the teachers were strict and the punishments harsh. I sang the Karen National Anthem every morning and wore a uniform, and my experiences there shaped much of my early life.",
+    "cues": [
+      "moved at age two",
+      "refugee camp school",
+      "bamboo and wood school",
+      "Karen National Anthem",
+      "strict teachers"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_370_eh_ka_pu_moo.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "United States",
+    "explicit_text": "My family resettled in the United States after living in the refugee camp in Thailand, and I became a student at Washington High School in St. Paul, Minnesota. When I first started school here, I didn't understand English and felt scared and worried about talking to people. But over time, I grew more comfortable, made new friends, and appreciated the resources like computers and comfortable seating that were very different from my school in Thailand. I love school here more than I did before, even though I was initially afraid of quizzes and passing grades.",
+    "implicit_text": "My family resettled in North America after living in the refugee camp in Thailand, and I became a student at a high school in St. Paul, Minnesota. When I first started school here, I didn't understand English and felt scared and worried about talking to people. But over time, I grew more comfortable, made new friends, and appreciated the resources like computers and comfortable seating that were very different from my school in Thailand. I love school here more than I did before, even though I was initially afraid of quizzes and passing grades.",
+    "cues": [
+      "resettled",
+      "Washington High School",
+      "St. Paul, Minnesota",
+      "language barrier",
+      "school resources"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_370_eh_ka_pu_moo.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "Washington High School (St. Paul, Minnesota)",
+    "explicit_text": "I am currently a student at Washington High School in St. Paul, Minnesota, after moving to the United States from Thailand. At first, I struggled because I didn't understand English and was worried about school, but the classrooms here are big, and we have computers and many books, which is very different from my previous school. Over time, I became more comfortable with my teachers and classmates, and I really enjoy going to school here now.",
+    "implicit_text": "I am currently a student at a high school in St. Paul, Minnesota, after moving to North America from Thailand. At first, I struggled because I didn't understand English and was worried about school, but the classrooms here are big, and we have computers and many books, which is very different from my previous school. Over time, I became more comfortable with my teachers and classmates, and I really enjoy going to school here now.",
+    "cues": [
+      "student",
+      "St. Paul, Minnesota",
+      "big classrooms",
+      "computers",
+      "adjustment to English"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_370_eh_ka_pu_moo.yaml"
+  },
+  {
+    "entity_id": 5,
+    "entity": "Karen National Anthem",
+    "explicit_text": "In the refugee camp school in Thailand, every morning and afternoon we sang the Karen National Anthem, which was also our school song. It was an important part of our daily routine and helped us feel connected to our Karen identity. Singing it together with my classmates gave me a sense of belonging despite the difficult conditions we lived in.",
+    "implicit_text": "In the refugee camp school in Thailand, every morning and afternoon we sang the anthem of the Karen people, which was also our school song. It was an important part of our daily routine and helped us feel connected to our Karen identity. Singing it together with my classmates gave me a sense of belonging despite the difficult conditions we lived in.",
+    "cues": [
+      "refugee camp school",
+      "daily singing",
+      "school song",
+      "Karen identity"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_370_eh_ka_pu_moo.yaml"
+  }
+]

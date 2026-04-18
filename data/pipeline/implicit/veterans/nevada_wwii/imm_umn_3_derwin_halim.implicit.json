@@ -1,0 +1,87 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "Jakarta",
+    "explicit_text": "I was born in Jakarta, Indonesia in 1980. Growing up there, I completed my high school education before moving abroad. Jakarta is where my early life and education began, shaping my foundation before I decided to pursue higher education in the United States.",
+    "implicit_text": "I was born in the capital city of Indonesia in 1980. Growing up there, I completed my high school education before moving abroad. That city is where my early life and education began, shaping my foundation before I decided to pursue higher education in the United States.",
+    "cues": [
+      "born in 1980",
+      "high school",
+      "early life",
+      "Indonesia"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_3_derwin_halim.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "Indonesia",
+    "explicit_text": "Indonesia is my home country where I was born and raised, specifically in Jakarta. I completed my high school education there before moving to the U.S. in 1998. Growing up in Indonesia, English was part of the national curriculum, which helped me prepare for studying abroad.",
+    "implicit_text": "My home country is an archipelagic nation in Southeast Asia where I was born and raised, specifically in its bustling capital. I completed my high school education there before moving to the U.S. in 1998. Growing up in that country, English was part of the national curriculum, which helped me prepare for studying abroad.",
+    "cues": [
+      "home country",
+      "Jakarta",
+      "high school",
+      "English curriculum",
+      "moved in 1998"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_3_derwin_halim.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "Minnesota",
+    "explicit_text": "I moved to Minnesota in 1998 to pursue higher education, joining my older sister who was already living there. Minnesota became my new home where I attended both Normandale Community College and the University of Minnesota. I have continued to live and work in Minnesota as an engineer since graduating.",
+    "implicit_text": "I moved to a Midwestern U.S. state in 1998 to pursue higher education, joining my older sister who was already living there. This state became my new home where I attended both a local community college and a major public university. I have continued to live and work in this state as an engineer since graduating.",
+    "cues": [
+      "moved in 1998",
+      "older sister",
+      "higher education",
+      "Normandale Community College",
+      "University of Minnesota",
+      "engineer"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_3_derwin_halim.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "Normandale Community College",
+    "explicit_text": "I started my higher education at Normandale Community College in Minnesota, the same school my sister attended. I spent two years there taking basic and liberal arts classes to ease into studying in English. This experience helped me transition smoothly before transferring to the University of Minnesota.",
+    "implicit_text": "I started my higher education at a community college in the Midwestern state, the same school my sister attended. I spent two years there taking basic and liberal arts classes to ease into studying in English. This experience helped me transition smoothly before transferring to the large public university in the same state.",
+    "cues": [
+      "Normandale Community College",
+      "two years",
+      "basic classes",
+      "sister attended",
+      "Minnesota"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_3_derwin_halim.yaml"
+  },
+  {
+    "entity_id": 5,
+    "entity": "University of Minnesota",
+    "explicit_text": "After Normandale, I transferred to the University of Minnesota where I completed my electrical engineering degree in 2002. During my time there, I was encouraged to get internships to gain work experience in the U.S. I secured internships which led to job offers and eventually helped me stay and work in Minnesota.",
+    "implicit_text": "After community college, I transferred to a well-known public university in the Midwest where I completed my electrical engineering degree in 2002. During my time there, I was encouraged to get internships to gain work experience in the U.S. I secured internships which led to job offers and eventually helped me stay and work in that state.",
+    "cues": [
+      "University of Minnesota",
+      "transferred after Normandale",
+      "graduated 2002",
+      "electrical engineering",
+      "internships",
+      "Minnesota"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_3_derwin_halim.yaml"
+  },
+  {
+    "entity_id": 6,
+    "entity": "EB-3 visa",
+    "explicit_text": "When I applied for my green card, I was placed in the EB-3 category, which is for people with a bachelor's degree like me. The wait was long, about six or seven years, because many applicants are in that slot. It was a slow process, but I had to be patient and work hard while waiting for the green card approval.",
+    "implicit_text": "When I applied for my green card, I was placed in the employment-based third preference category, which is for people with a bachelor's degree like me. The wait was long, about six or seven years, because many applicants are in that slot. It was a slow process, but I had to be patient and work hard while waiting for the green card approval.",
+    "cues": [
+      "green card application",
+      "EB-3 category",
+      "bachelor's degree",
+      "six to seven years wait",
+      "long process"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_3_derwin_halim.yaml"
+  }
+]

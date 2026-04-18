@@ -1,0 +1,407 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "John Lewis",
+    "explicit_text": "I first felt part of a real movement in early 1960 during the Nashville sit-ins, especially after my first arrest in February. I was deeply involved in the civil rights movement, serving as chairman of SNCC and also on the board of the Southern Christian Leadership Conference. I participated in key events like Freedom Day in Selma in 1963 and led marches in 1965, including the Selma to Montgomery march where I was brutally beaten at the Edmund Pettus Bridge. Throughout, I maintained a close relationship with Martin Luther King Jr. and worked alongside other leaders to push for voting rights and social change.",
+    "implicit_text": "I first felt part of a real movement in early 1960 during the sit-ins in a southern city known for its music scene, especially after my first arrest in February. I was deeply involved in the civil rights movement, serving as chairman of a student-led nonviolent coordinating committee and also on the board of a major southern Christian leadership organization. I participated in key events like Freedom Day in a small Alabama city in 1963 and led marches in 1965, including the march from that city to the state capital where I was brutally beaten at a famous bridge. Throughout, I maintained a close relationship with a prominent civil rights leader and worked alongside other leaders to push for voting rights and social change.",
+    "cues": [
+      "early 1960",
+      "Nashville sit-ins",
+      "February arrest",
+      "chairman of SNCC",
+      "board member of SCLC",
+      "Freedom Day 1963",
+      "Selma to Montgomery march 1965",
+      "beaten at Edmund Pettus Bridge"
+    ],
+    "transcript_ref": "civil_rights\\cr_lewis_john85.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "Nashville",
+    "explicit_text": "Nashville was where my civil rights activism really began, especially in the fall and winter of 1959 with nonviolent workshops and sit-ins at lunch counters downtown. It was there in late February 1960 that I was arrested for the first time, which made me realize I was part of a larger movement. The Nashville Student Movement was a key part of SNCC, and it connected young activists like me to the broader struggle for racial justice.",
+    "implicit_text": "This southern city was where my civil rights activism really began, especially in the fall and winter of 1959 with nonviolent workshops and sit-ins at lunch counters downtown. It was there in late February 1960 that I was arrested for the first time, which made me realize I was part of a larger movement. The local student movement was a key part of the student nonviolent coordinating committee, and it connected young activists like me to the broader struggle for racial justice.",
+    "cues": [
+      "fall and winter 1959",
+      "sit-ins",
+      "February 1960 arrest",
+      "Nashville Student Movement",
+      "downtown lunch counters"
+    ],
+    "transcript_ref": "civil_rights\\cr_lewis_john85.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "Selma, Alabama",
+    "explicit_text": "Selma was a focal point of the civil rights struggle, especially in the early 1960s when voter registration was almost nonexistent for black citizens. I first went there in 1963 for Freedom Day, where hundreds of blacks stood in line to register despite hostile law enforcement. In 1965, Selma became the site of major marches and protests, including the violent confrontation at the Edmund Pettus Bridge. The city was a symbol of resistance but also of the harsh repression faced by activists.",
+    "implicit_text": "This small Alabama city was a focal point of the civil rights struggle, especially in the early 1960s when voter registration was almost nonexistent for black citizens. I first went there in 1963 for Freedom Day, where hundreds of blacks stood in line to register despite hostile law enforcement. In 1965, it became the site of major marches and protests, including the violent confrontation at a well-known bridge. The city was a symbol of resistance but also of the harsh repression faced by activists.",
+    "cues": [
+      "1963 Freedom Day",
+      "hostile law enforcement",
+      "voter registration",
+      "1965 marches",
+      "Edmund Pettus Bridge"
+    ],
+    "transcript_ref": "civil_rights\\cr_lewis_john85.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "Freedom Day (Selma)",
+    "explicit_text": "Freedom Day in Selma on October 8, 1963, was a turning point in the civil rights movement. Hundreds of black citizens lined up at the county courthouse to take literacy tests for voter registration, but only a few were allowed in. We faced hostility from Sheriff Jim Clark and his deputies, and many were arrested. The event drew attention from figures like James Baldwin and Howard Zinn and underscored the urgent need for voting rights.",
+    "implicit_text": "Freedom Day in that Alabama city on October 8, 1963, was a turning point in the civil rights movement. Hundreds of black citizens lined up at the county courthouse to take literacy tests for voter registration, but only a few were allowed in. We faced hostility from the local sheriff and his deputies, and many were arrested. The event drew attention from figures like James Baldwin and Howard Zinn and underscored the urgent need for voting rights.",
+    "cues": [
+      "October 8, 1963",
+      "voter registration",
+      "Sheriff Jim Clark",
+      "arrests",
+      "James Baldwin",
+      "Howard Zinn"
+    ],
+    "transcript_ref": "civil_rights\\cr_lewis_john85.yaml"
+  },
+  {
+    "entity_id": 5,
+    "entity": "Civil rights movement",
+    "explicit_text": "The civil rights movement was the larger struggle I dedicated my life to, starting in the late 1950s and early 1960s. It involved coordinated efforts like sit-ins, marches, and voter registration drives across the South, including Nashville and Selma. I worked within organizations like SNCC and SCLC, alongside leaders like Martin Luther King Jr., to challenge segregation and racial injustice. The movement faced violent opposition but made historic gains, especially in securing voting rights.",
+    "implicit_text": "The larger struggle I dedicated my life to began in the late 1950s and early 1960s. It involved coordinated efforts like sit-ins, marches, and voter registration drives across the South, including the cities where I was active. I worked within organizations like the student nonviolent coordinating committee and a southern Christian leadership group, alongside leaders like the prominent civil rights figure, to challenge segregation and racial injustice. The movement faced violent opposition but made historic gains, especially in securing voting rights.",
+    "cues": [
+      "late 1950s",
+      "1960s",
+      "sit-ins",
+      "marches",
+      "voter registration",
+      "SNCC",
+      "SCLC",
+      "Martin Luther King Jr."
+    ],
+    "transcript_ref": "civil_rights\\cr_lewis_john85.yaml"
+  },
+  {
+    "entity_id": 6,
+    "entity": "March on Washington for Jobs and Freedom",
+    "explicit_text": "The March on Washington in 1963 was a significant event where the Student Nonviolent Coordinating Committee called for 'one man, one vote.' It inspired us to take action in places like Selma to test that demand. The march helped galvanize the movement and brought national attention to the struggle for civil rights and economic justice.",
+    "implicit_text": "The 1963 march in the nation’s capital was a significant event where the student nonviolent coordinating committee called for 'one man, one vote.' It inspired us to take action in places like the Alabama city to test that demand. The march helped galvanize the movement and brought national attention to the struggle for civil rights and economic justice.",
+    "cues": [
+      "1963",
+      "SNCC call for one man one vote",
+      "inspiration for Selma actions",
+      "national attention"
+    ],
+    "transcript_ref": "civil_rights\\cr_lewis_john85.yaml"
+  },
+  {
+    "entity_id": 7,
+    "entity": "Student Nonviolent Coordinating Committee",
+    "explicit_text": "I served as chairman of the Student Nonviolent Coordinating Committee during the early 1960s, playing a key role in organizing protests and voter registration efforts. SNCC was deeply involved in Selma from 1962 onward and worked closely with the Nashville Student Movement. We sometimes had tensions with other groups like SCLC, but I worked to maintain unity. SNCC made tough decisions, like initially not participating officially in the Selma to Montgomery march, though I and a few others joined individually.",
+    "implicit_text": "I served as chairman of the student nonviolent coordinating committee during the early 1960s, playing a key role in organizing protests and voter registration efforts. This committee was deeply involved in the Alabama city from 1962 onward and worked closely with the local student movement in the southern music city. We sometimes had tensions with other groups like the southern Christian leadership conference, but I worked to maintain unity. The committee made tough decisions, like initially not participating officially in the march from the Alabama city to the state capital, though I and a few others joined individually.",
+    "cues": [
+      "chairman",
+      "early 1960s",
+      "Selma involvement from 1962",
+      "Nashville Student Movement",
+      "tensions with SCLC",
+      "Selma to Montgomery march 1965"
+    ],
+    "transcript_ref": "civil_rights\\cr_lewis_john85.yaml"
+  },
+  {
+    "entity_id": 8,
+    "entity": "Birmingham church bombing",
+    "explicit_text": "The bombing of a church in Birmingham in 1963, where four little girls were killed, was a tragic and galvanizing moment for the movement. It happened just weeks before Freedom Day in Selma and strengthened our resolve to fight for justice and voting rights. The horror of that event reminded us of the violent resistance we faced.",
+    "implicit_text": "The bombing of a church in a major Alabama city in 1963, where four little girls were killed, was a tragic and galvanizing moment for the movement. It happened just weeks before Freedom Day in the smaller Alabama city and strengthened our resolve to fight for justice and voting rights. The horror of that event reminded us of the violent resistance we faced.",
+    "cues": [
+      "1963",
+      "four little girls killed",
+      "weeks before Freedom Day",
+      "Birmingham",
+      "galvanizing moment"
+    ],
+    "transcript_ref": "civil_rights\\cr_lewis_john85.yaml"
+  },
+  {
+    "entity_id": 9,
+    "entity": "Sheriff Jim Clark",
+    "explicit_text": "Sheriff Jim Clark was a vicious and mean law enforcement figure in Selma who fiercely opposed our efforts to register black voters. I encountered him multiple times, including during Freedom Day in 1963 and again in January 1965 when he called me an 'outside agitator' and had us arrested. His posse used violence and intimidation against peaceful protesters, making him a symbol of the resistance we faced.",
+    "implicit_text": "The sheriff of the Alabama city was a vicious and mean law enforcement figure who fiercely opposed our efforts to register black voters. I encountered him multiple times, including during Freedom Day in 1963 and again in January 1965 when he called me an 'outside agitator' and had us arrested. His posse used violence and intimidation against peaceful protesters, making him a symbol of the resistance we faced.",
+    "cues": [
+      "Selma",
+      "Freedom Day 1963",
+      "January 1965 arrest",
+      "violent opposition",
+      "outside agitator"
+    ],
+    "transcript_ref": "civil_rights\\cr_lewis_john85.yaml"
+  },
+  {
+    "entity_id": 10,
+    "entity": "James Baldwin",
+    "explicit_text": "James Baldwin was one of the outside observers who came to Selma during Freedom Day in 1963. His presence, along with others like Howard Zinn, helped bring national attention to the struggle for voting rights. Baldwin's role as a writer and intellectual gave voice to the movement's cause beyond the immediate protests.",
+    "implicit_text": "A renowned writer and intellectual was one of the outside observers who came to the Alabama city during Freedom Day in 1963. His presence, along with others like a well-known historian, helped bring national attention to the struggle for voting rights. His role as a writer gave voice to the movement's cause beyond the immediate protests.",
+    "cues": [
+      "Freedom Day 1963",
+      "outside observer",
+      "national attention",
+      "writer and intellectual"
+    ],
+    "transcript_ref": "civil_rights\\cr_lewis_john85.yaml"
+  },
+  {
+    "entity_id": 11,
+    "entity": "Howard Zinn",
+    "explicit_text": "Howard Zinn, the historian, was present in Selma during Freedom Day in 1963 as an outside observer. His support helped document and publicize the civil rights struggle, lending historical perspective to the movement. Zinn's involvement underscored the importance of intellectual allies in our fight for justice.",
+    "implicit_text": "A historian known for his activism was present in the Alabama city during Freedom Day in 1963 as an outside observer. His support helped document and publicize the civil rights struggle, lending historical perspective to the movement. His involvement underscored the importance of intellectual allies in our fight for justice.",
+    "cues": [
+      "Freedom Day 1963",
+      "historian",
+      "outside observer",
+      "documentation and support"
+    ],
+    "transcript_ref": "civil_rights\\cr_lewis_john85.yaml"
+  },
+  {
+    "entity_id": 12,
+    "entity": "Martin Luther King Jr.",
+    "explicit_text": "Martin Luther King Jr. was my hero and mentor from the time I was a teenager growing up in Alabama. He invited me to join the board of the Southern Christian Leadership Conference in 1962, and I served as a liaison between SCLC and SNCC. Though we sometimes had differences, he was like a big brother and symbol of the movement. I worked closely with him throughout the civil rights struggle, especially in Selma.",
+    "implicit_text": "The prominent civil rights leader was my hero and mentor from the time I was a teenager growing up in Alabama. He invited me to join the board of a southern Christian leadership organization in 1962, and I served as a liaison between that group and the student nonviolent coordinating committee. Though we sometimes had differences, he was like a big brother and symbol of the movement. I worked closely with him throughout the civil rights struggle, especially in the Alabama city.",
+    "cues": [
+      "mentor since teenage years",
+      "board member of SCLC 1962",
+      "liaison between SCLC and SNCC",
+      "close friendship",
+      "Selma campaigns"
+    ],
+    "transcript_ref": "civil_rights\\cr_lewis_john85.yaml"
+  },
+  {
+    "entity_id": 13,
+    "entity": "Southern Christian Leadership Conference",
+    "explicit_text": "The Southern Christian Leadership Conference, led by Martin Luther King Jr., was a major organization in the civil rights movement. I served on its board starting in 1962 and helped maintain communication between SCLC and the student activists in SNCC. SCLC played a key role in Selma, organizing marches and protests alongside local activists and SNCC members.",
+    "implicit_text": "The southern Christian leadership organization, led by the prominent civil rights leader, was a major group in the civil rights movement. I served on its board starting in 1962 and helped maintain communication between it and the student activists in the coordinating committee. This organization played a key role in the Alabama city, organizing marches and protests alongside local activists and committee members.",
+    "cues": [
+      "board member 1962",
+      "Martin Luther King Jr. leadership",
+      "coordination with SNCC",
+      "Selma marches"
+    ],
+    "transcript_ref": "civil_rights\\cr_lewis_john85.yaml"
+  },
+  {
+    "entity_id": 14,
+    "entity": "Nashville Student Movement",
+    "explicit_text": "The Nashville Student Movement was a local group of young activists involved in sit-ins and nonviolent protests in 1959 and 1960. It was part of the broader SNCC network, and I was deeply involved in its activities. This movement laid the groundwork for my later leadership roles and the larger civil rights campaigns in the South.",
+    "implicit_text": "The local student movement in the southern music city was a group of young activists involved in sit-ins and nonviolent protests in 1959 and 1960. It was part of the broader student nonviolent coordinating committee network, and I was deeply involved in its activities. This movement laid the groundwork for my later leadership roles and the larger civil rights campaigns in the South.",
+    "cues": [
+      "1959-1960",
+      "sit-ins",
+      "part of SNCC",
+      "early activism"
+    ],
+    "transcript_ref": "civil_rights\\cr_lewis_john85.yaml"
+  },
+  {
+    "entity_id": 15,
+    "entity": "Selma to Montgomery marches",
+    "explicit_text": "The Selma to Montgomery marches in 1965 were pivotal in the fight for voting rights. After the killing of Jimmie Lee Jackson, leaders including Andrew Young, Hosea Williams, James Bevel, and I organized a peaceful, nonviolent march covering fifty miles. On the first day at the Edmund Pettus Bridge, we were met with violent resistance from Alabama state troopers and Sheriff Clark's posse. Despite being beaten and hospitalized, the marches helped bring national attention and federal protection for voting rights.",
+    "implicit_text": "The 1965 marches from the Alabama city to the state capital were pivotal in the fight for voting rights. After the killing of a young activist, leaders including Andrew Young, Hosea Williams, James Bevel, and I organized a peaceful, nonviolent march covering fifty miles. On the first day at the famous bridge, we were met with violent resistance from state troopers and the local sheriff's posse. Despite being beaten and hospitalized, the marches helped bring national attention and federal protection for voting rights.",
+    "cues": [
+      "1965",
+      "Jimmie Lee Jackson's death",
+      "Andrew Young",
+      "Hosea Williams",
+      "James Bevel",
+      "Edmund Pettus Bridge",
+      "violent opposition"
+    ],
+    "transcript_ref": "civil_rights\\cr_lewis_john85.yaml"
+  },
+  {
+    "entity_id": 16,
+    "entity": "Jimmie Lee Jackson",
+    "explicit_text": "Jimmie Lee Jackson was a young black man from Marion, Alabama, who was shot and killed during a peaceful protest in early 1965. His death deeply affected us and became a catalyst for the Selma to Montgomery marches. He was leading a demonstration in Perry County when he was shot and later died at a hospital in Selma.",
+    "implicit_text": "A young black man from a town in Perry County, Alabama, was shot and killed during a peaceful protest in early 1965. His death deeply affected us and became a catalyst for the marches from the Alabama city to the state capital. He was leading a demonstration in Perry County when he was shot and later died at a hospital in the Alabama city.",
+    "cues": [
+      "early 1965",
+      "Marion, Alabama",
+      "peaceful protest",
+      "shot and killed",
+      "catalyst for Selma marches"
+    ],
+    "transcript_ref": "civil_rights\\cr_lewis_john85.yaml"
+  },
+  {
+    "entity_id": 17,
+    "entity": "Perry County, Alabama",
+    "explicit_text": "Perry County, Alabama, near Selma, was the site of a peaceful protest where Jimmie Lee Jackson was shot in 1965. The county was part of the black belt region where fear and resistance to civil rights were strong. This tragic event in Perry County helped spark the larger Selma to Montgomery voting rights campaign.",
+    "implicit_text": "Perry County, Alabama, near the Alabama city, was the site of a peaceful protest where a young activist was shot in 1965. The county was part of the black belt region where fear and resistance to civil rights were strong. This tragic event in Perry County helped spark the larger voting rights campaign from the Alabama city to the state capital.",
+    "cues": [
+      "1965",
+      "Jimmie Lee Jackson shooting",
+      "black belt region",
+      "near Selma",
+      "civil rights resistance"
+    ],
+    "transcript_ref": "civil_rights\\cr_lewis_john85.yaml"
+  },
+  {
+    "entity_id": 18,
+    "entity": "Marion, Alabama",
+    "explicit_text": "Marion, Alabama, is the town in Perry County where Jimmie Lee Jackson was shot during a peaceful protest in 1965. It was a place marked by racial tension and violence against civil rights activists. The incident there was a turning point that led to the Selma to Montgomery marches.",
+    "implicit_text": "The town in Perry County where the young activist was shot during a peaceful protest in 1965 was marked by racial tension and violence against civil rights activists. The incident there was a turning point that led to the marches from the Alabama city to the state capital.",
+    "cues": [
+      "1965",
+      "Jimmie Lee Jackson shooting",
+      "racial tension",
+      "civil rights violence"
+    ],
+    "transcript_ref": "civil_rights\\cr_lewis_john85.yaml"
+  },
+  {
+    "entity_id": 19,
+    "entity": "Atlanta",
+    "explicit_text": "Atlanta was the site of an all-night SNCC executive committee meeting in March 1965 where we debated whether to participate in the Selma to Montgomery march. The decision was made that SNCC would not officially join, but I and three others chose to go as individuals. Atlanta was also where I met with other leaders to plan the march and coordinate efforts.",
+    "implicit_text": "This southern city was the site of an all-night executive committee meeting of the student nonviolent coordinating committee in March 1965 where we debated whether to participate in the march from the Alabama city to the state capital. The decision was made that the committee would not officially join, but I and three others chose to go as individuals. This city was also where I met with other leaders to plan the march and coordinate efforts.",
+    "cues": [
+      "March 1965",
+      "SNCC executive meeting",
+      "decision on Selma march",
+      "planning with leaders"
+    ],
+    "transcript_ref": "civil_rights\\cr_lewis_john85.yaml"
+  },
+  {
+    "entity_id": 20,
+    "entity": "Freedom House (Selma)",
+    "explicit_text": "Freedom House in Selma was where I and other activists stayed when we arrived early in 1965 to join the Selma voting rights campaign. We slept on the floor there before meeting with SCLC leaders at Brown Chapel AME church to plan the march. It served as a base for organizing and supporting the movement in Selma.",
+    "implicit_text": "A local activist house in the Alabama city was where I and other activists stayed when we arrived early in 1965 to join the voting rights campaign. We slept on the floor there before meeting with southern Christian leadership conference leaders at a historic AME church to plan the march. It served as a base for organizing and supporting the movement in the Alabama city.",
+    "cues": [
+      "Selma 1965",
+      "activist lodging",
+      "base for organizing",
+      "preparation for march"
+    ],
+    "transcript_ref": "civil_rights\\cr_lewis_john85.yaml"
+  },
+  {
+    "entity_id": 21,
+    "entity": "Andrew Young",
+    "explicit_text": "Andrew Young was a key leader in the Southern Christian Leadership Conference who worked closely with us during the Selma campaign. I met with him at Brown Chapel AME church in 1965 to plan the Selma to Montgomery march. He was instrumental in organizing and leading the movement alongside other prominent figures.",
+    "implicit_text": "Andrew Young was a key leader in the southern Christian leadership organization who worked closely with us during the Alabama city campaign. I met with him at the historic AME church in 1965 to plan the march from the Alabama city to the state capital. He was instrumental in organizing and leading the movement alongside other prominent figures.",
+    "cues": [
+      "SCLC leader",
+      "Selma 1965",
+      "Brown Chapel AME church",
+      "march planning"
+    ],
+    "transcript_ref": "civil_rights\\cr_lewis_john85.yaml"
+  },
+  {
+    "entity_id": 22,
+    "entity": "Hosea Williams",
+    "explicit_text": "Hosea Williams was another prominent SCLC leader who worked with me during the Selma voting rights campaign. We communicated closely during the march at the Edmund Pettus Bridge, deciding to stand silently and peacefully in the face of violent opposition. He was a trusted ally in the struggle for justice.",
+    "implicit_text": "Hosea Williams was another prominent leader in the southern Christian leadership group who worked with me during the Alabama city voting rights campaign. We communicated closely during the march at the famous bridge, deciding to stand silently and peacefully in the face of violent opposition. He was a trusted ally in the struggle for justice.",
+    "cues": [
+      "SCLC leader",
+      "Selma 1965",
+      "Edmund Pettus Bridge",
+      "peaceful protest"
+    ],
+    "transcript_ref": "civil_rights\\cr_lewis_john85.yaml"
+  },
+  {
+    "entity_id": 23,
+    "entity": "James Bevel",
+    "explicit_text": "James Bevel was an important strategist and leader within SCLC who helped organize the Selma to Montgomery marches. I met with him at Brown Chapel AME church in 1965 along with other leaders to coordinate the protest. His role was vital in shaping the nonviolent campaign for voting rights.",
+    "implicit_text": "James Bevel was an important strategist and leader within the southern Christian leadership organization who helped organize the marches from the Alabama city to the state capital. I met with him at the historic AME church in 1965 along with other leaders to coordinate the protest. His role was vital in shaping the nonviolent campaign for voting rights.",
+    "cues": [
+      "SCLC strategist",
+      "Selma 1965",
+      "Brown Chapel AME church",
+      "march organization"
+    ],
+    "transcript_ref": "civil_rights\\cr_lewis_john85.yaml"
+  },
+  {
+    "entity_id": 24,
+    "entity": "Edmund Pettus Bridge",
+    "explicit_text": "The Edmund Pettus Bridge in Selma was the site of a brutal confrontation on March 7, 1965, when peaceful marchers, including myself, were attacked by Alabama state troopers and Sheriff Clark's posse. We stood silently and peacefully as the troopers advanced with clubs, tear gas, and horses. I was beaten and hospitalized after the violence, but the event became a powerful symbol of the civil rights struggle.",
+    "implicit_text": "The famous bridge in the Alabama city was the site of a brutal confrontation on March 7, 1965, when peaceful marchers, including myself, were attacked by state troopers and the local sheriff's posse. We stood silently and peacefully as the troopers advanced with clubs, tear gas, and horses. I was beaten and hospitalized after the violence, but the event became a powerful symbol of the civil rights struggle.",
+    "cues": [
+      "March 7, 1965",
+      "Selma",
+      "violent attack",
+      "state troopers",
+      "silent protest",
+      "hospitalization"
+    ],
+    "transcript_ref": "civil_rights\\cr_lewis_john85.yaml"
+  },
+  {
+    "entity_id": 25,
+    "entity": "Alabama State Troopers",
+    "explicit_text": "The Alabama State Troopers were the law enforcement officers who violently confronted us during the Selma to Montgomery march at the Edmund Pettus Bridge in 1965. They used clubs, tear gas, and horses to beat and disperse peaceful protesters. Their actions were a stark example of the brutal resistance to civil rights in the South.",
+    "implicit_text": "The state troopers of Alabama were the law enforcement officers who violently confronted us during the march from the Alabama city to the state capital at the famous bridge in 1965. They used clubs, tear gas, and horses to beat and disperse peaceful protesters. Their actions were a stark example of the brutal resistance to civil rights in the South.",
+    "cues": [
+      "Selma 1965",
+      "Edmund Pettus Bridge",
+      "violent crackdown",
+      "clubs and tear gas",
+      "opposition to civil rights"
+    ],
+    "transcript_ref": "civil_rights\\cr_lewis_john85.yaml"
+  },
+  {
+    "entity_id": 26,
+    "entity": "Good Samaritan Hospital (Selma)",
+    "explicit_text": "After being beaten during the Selma march at the Edmund Pettus Bridge, I was taken to Good Samaritan Hospital in downtown Selma. I was treated for a concussion and stayed there for three days. The hospital was where I recovered from the injuries inflicted by law enforcement during the protest.",
+    "implicit_text": "After being beaten during the march at the famous bridge, I was taken to a hospital in downtown Alabama city. I was treated for a concussion and stayed there for three days. The hospital was where I recovered from the injuries inflicted by law enforcement during the protest.",
+    "cues": [
+      "Selma 1965",
+      "post-beating treatment",
+      "concussion",
+      "three-day hospitalization"
+    ],
+    "transcript_ref": "civil_rights\\cr_lewis_john85.yaml"
+  },
+  {
+    "entity_id": 27,
+    "entity": "Vietnam War",
+    "explicit_text": "During the Selma march in 1965, I questioned how President Johnson could send troops to fight in the Vietnam War while refusing to protect black citizens in Selma seeking their right to vote. This contradiction highlighted the government's misplaced priorities and the urgency of our cause. The war was a backdrop to the civil rights struggle, influencing our critique of American policies.",
+    "implicit_text": "During the 1965 march, I questioned how the president could send troops to fight in a Southeast Asian conflict while refusing to protect black citizens in the Alabama city seeking their right to vote. This contradiction highlighted the government's misplaced priorities and the urgency of our cause. The war was a backdrop to the civil rights struggle, influencing our critique of American policies.",
+    "cues": [
+      "1965",
+      "President Johnson",
+      "troops sent to Vietnam",
+      "lack of protection in Selma",
+      "government priorities"
+    ],
+    "transcript_ref": "civil_rights\\cr_lewis_john85.yaml"
+  },
+  {
+    "entity_id": 28,
+    "entity": "Congo Crisis",
+    "explicit_text": "I referenced the Congo Crisis during the Selma march to point out the irony that the U.S. government was willing to send troops abroad to places like the Congo but not to protect black Americans fighting for voting rights at home. This comparison underscored the hypocrisy in U.S. foreign and domestic policies during the 1960s.",
+    "implicit_text": "I referenced the crisis in central Africa during the 1965 march to point out the irony that the U.S. government was willing to send troops abroad to places like that but not to protect black Americans fighting for voting rights at home. This comparison underscored the hypocrisy in U.S. foreign and domestic policies during the 1960s.",
+    "cues": [
+      "1965",
+      "U.S. troops sent abroad",
+      "Congo",
+      "lack of domestic protection",
+      "civil rights struggle"
+    ],
+    "transcript_ref": "civil_rights\\cr_lewis_john85.yaml"
+  },
+  {
+    "entity_id": 29,
+    "entity": "Dominican Civil War",
+    "explicit_text": "Similarly, I mentioned the Dominican Civil War to highlight how President Johnson deployed troops overseas while neglecting the violence faced by civil rights activists in Selma. This contrast was part of my statement at Brown Chapel AME church after the march. It reflected the broader tensions between U.S. foreign interventions and the fight for justice at home.",
+    "implicit_text": "Similarly, I mentioned the civil war in the Caribbean nation to highlight how the president deployed troops overseas while neglecting the violence faced by civil rights activists in the Alabama city. This contrast was part of my statement at the historic AME church after the march. It reflected the broader tensions between U.S. foreign interventions and the fight for justice at home.",
+    "cues": [
+      "1965",
+      "U.S. military intervention",
+      "Dominican Republic",
+      "civil rights neglect",
+      "Selma statement"
+    ],
+    "transcript_ref": "civil_rights\\cr_lewis_john85.yaml"
+  }
+]

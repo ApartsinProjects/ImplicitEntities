@@ -1,0 +1,132 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "Belo Horizonte",
+    "explicit_text": "I boarded a plane from Belo Horizonte, Brazil on April 27, 1996, heading to New York City. Belo Horizonte was my starting point before coming to the United States. It was part of my family's plan to temporarily move so my mother could save money before returning home. That city represents the life we left behind in pursuit of new opportunities.",
+    "implicit_text": "I boarded a plane from the capital of Minas Gerais, Brazil on April 27, 1996, heading to New York City. This city was my starting point before coming to the United States. It was part of my family's plan to temporarily move so my mother could save money before returning home. That place represents the life we left behind in pursuit of new opportunities.",
+    "cues": [
+      "April 27, 1996",
+      "plane departure",
+      "Brazil",
+      "family plan"
+    ],
+    "transcript_ref": "immigration\\imm_umn_94_thiago_heilman.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "Brazil",
+    "explicit_text": "Brazil is my native country where my family and I originally lived before coming to the United States. Our plan was to return there after my mother saved enough money during our temporary stay in New York City. Though I stayed behind in the U.S., Brazil remains the place where my roots and early life began. It symbolizes the life we dreamed of but ultimately changed by coming here.",
+    "implicit_text": "My native country is where my family and I originally lived before coming to the United States. Our plan was to return there after my mother saved enough money during our temporary stay in New York City. Though I stayed behind in the U.S., that country remains the place where my roots and early life began. It symbolizes the life we dreamed of but ultimately changed by coming here.",
+    "cues": [
+      "native country",
+      "family plan",
+      "temporary stay",
+      "Belo Horizonte"
+    ],
+    "transcript_ref": "immigration\\imm_umn_94_thiago_heilman.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "New York City",
+    "explicit_text": "When I arrived in New York City in 1996, I was amazed by the skyline and the World Trade Center. It was a place full of endless opportunities and represented the new world I wanted to be part of. Though my family eventually returned to Brazil, I stayed in New York City to pursue my American Dream. This city was the backdrop of my transformation from a visitor to a DREAMER.",
+    "implicit_text": "When I arrived in the largest city in the United States in 1996, I was amazed by the skyline and the iconic twin towers. It was a place full of endless opportunities and represented the new world I wanted to be part of. Though my family eventually returned to Brazil, I stayed in this city to pursue my American Dream. This city was the backdrop of my transformation from a visitor to a DREAMER.",
+    "cues": [
+      "1996 arrival",
+      "World Trade Center",
+      "skyline",
+      "opportunities"
+    ],
+    "transcript_ref": "immigration\\imm_umn_94_thiago_heilman.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "World Trade Center (1973–2001)",
+    "explicit_text": "The first time I saw the World Trade Center in New York City, it was a breathtaking sight that exceeded all my expectations. It stood as a symbol of the new world and the opportunities that awaited me. Seeing it in 1996 made me feel hopeful about the future I could build here. It was part of the cityscape that inspired me to stay and strive for my dreams.",
+    "implicit_text": "The first time I saw the iconic twin towers in the largest city of the United States, it was a breathtaking sight that exceeded all my expectations. They stood as a symbol of the new world and the opportunities that awaited me. Seeing them in 1996 made me feel hopeful about the future I could build here. They were part of the cityscape that inspired me to stay and strive for my dreams.",
+    "cues": [
+      "1996",
+      "New York City",
+      "symbol of opportunity",
+      "first sight"
+    ],
+    "transcript_ref": "immigration\\imm_umn_94_thiago_heilman.yaml"
+  },
+  {
+    "entity_id": 5,
+    "entity": "United States",
+    "explicit_text": "Growing up in the United States, this country became my home and the place where I wanted to build my future. Despite coming here on a visitor visa and becoming undocumented, I saw the U.S. as the land of opportunity. My American Dream was to get an education and have a stable family. The U.S. shaped my identity and gave me the chance to fight for my place despite the challenges.",
+    "implicit_text": "Growing up in this country, it became my home and the place where I wanted to build my future. Despite coming here on a visitor visa and becoming undocumented, I saw this nation as the land of opportunity. My American Dream was to get an education and have a stable family. This country shaped my identity and gave me the chance to fight for my place despite the challenges.",
+    "cues": [
+      "childhood",
+      "undocumented status",
+      "American Dream",
+      "education"
+    ],
+    "transcript_ref": "immigration\\imm_umn_94_thiago_heilman.yaml"
+  },
+  {
+    "entity_id": 6,
+    "entity": "Barack Obama",
+    "explicit_text": "President Barack Obama changed my life on June 15, 2012, when he announced an executive action that created the Deferred Action for Childhood Arrivals program. This gave me and many others like me a chance to live legally in the United States as DREAMERS. Thanks to his leadership, I received my employment authorization and social security cards, which opened doors I thought were closed forever. I will always be grateful for that moment that helped me move closer to my dreams.",
+    "implicit_text": "The president in office on June 15, 2012, changed my life when he announced an executive action that created a program for young undocumented immigrants brought to the country as children. This gave me and many others like me a chance to live legally in the United States as DREAMERS. Thanks to his leadership, I received my employment authorization and social security cards, which opened doors I thought were closed forever. I will always be grateful for that moment that helped me move closer to my dreams.",
+    "cues": [
+      "June 15, 2012",
+      "executive action",
+      "DREAMERS",
+      "employment authorization"
+    ],
+    "transcript_ref": "immigration\\imm_umn_94_thiago_heilman.yaml"
+  },
+  {
+    "entity_id": 7,
+    "entity": "Deferred Action for Childhood Arrivals",
+    "explicit_text": "The Deferred Action for Childhood Arrivals program, announced in 2012, was a turning point in my life as an undocumented immigrant. It allowed me to obtain legal documents like my work permit and social security card, which I had never had before. This program gave me hope and the freedom to pursue my goals in the United States. It transformed me from an invisible person into someone with recognized rights and opportunities.",
+    "implicit_text": "The program announced in 2012 to protect young undocumented immigrants from deportation was a turning point in my life. It allowed me to obtain legal documents like my work permit and social security card, which I had never had before. This program gave me hope and the freedom to pursue my goals in the United States. It transformed me from an invisible person into someone with recognized rights and opportunities.",
+    "cues": [
+      "2012 announcement",
+      "legal documents",
+      "work permit",
+      "immigration status"
+    ],
+    "transcript_ref": "immigration\\imm_umn_94_thiago_heilman.yaml"
+  },
+  {
+    "entity_id": 8,
+    "entity": "Minnesota",
+    "explicit_text": "Minnesota played an important role in the fight for equal rights when it became the 12th state to recognize same-sex marriages on May 14, 2013. This progress was meaningful to me as it reflected broader changes in society and law that affected immigration rights for same-sex couples. It was part of a wave of change that made the United States more inclusive and fair. Minnesota’s decision gave hope to many families like mine.",
+    "implicit_text": "This Midwestern state played an important role in the fight for equal rights when it became the 12th state to recognize same-sex marriages on May 14, 2013. This progress was meaningful to me as it reflected broader changes in society and law that affected immigration rights for same-sex couples. It was part of a wave of change that made the United States more inclusive and fair. The decision in this state gave hope to many families like mine.",
+    "cues": [
+      "May 14, 2013",
+      "same-sex marriage recognition",
+      "12th state",
+      "equal rights"
+    ],
+    "transcript_ref": "immigration\\imm_umn_94_thiago_heilman.yaml"
+  },
+  {
+    "entity_id": 9,
+    "entity": "United States Supreme Court",
+    "explicit_text": "The United States Supreme Court made a historic decision on June 26, 2013, when it struck down the Defense of Marriage Act. This ruling granted same-sex couples equal immigration rights, which was a huge step forward for fairness and equality. It affected my life and the lives of many others by recognizing our families legally. The Supreme Court’s decision was a landmark moment in the ongoing struggle for civil rights in America.",
+    "implicit_text": "The highest court in the United States made a historic decision on June 26, 2013, when it struck down a federal law that denied same-sex couples equal immigration rights. This ruling granted those couples equal rights, which was a huge step forward for fairness and equality. It affected my life and the lives of many others by recognizing our families legally. The court’s decision was a landmark moment in the ongoing struggle for civil rights in America.",
+    "cues": [
+      "June 26, 2013",
+      "DOMA struck down",
+      "equal immigration rights",
+      "civil rights"
+    ],
+    "transcript_ref": "immigration\\imm_umn_94_thiago_heilman.yaml"
+  },
+  {
+    "entity_id": 10,
+    "entity": "Defense of Marriage Act",
+    "explicit_text": "The Defense of Marriage Act, or DOMA, was a law that denied same-sex couples equal immigration rights until it was struck down by the Supreme Court in 2013. Before that, families like mine faced legal barriers that made it harder to stay together. When DOMA was overturned, it opened the door for equal treatment under immigration law. This change was a critical part of my story and the broader fight for equality in the United States.",
+    "implicit_text": "A federal law that denied same-sex couples equal immigration rights was overturned by the Supreme Court in 2013. Before that, families like mine faced legal barriers that made it harder to stay together. When this law was struck down, it opened the door for equal treatment under immigration law. This change was a critical part of my story and the broader fight for equality in the United States.",
+    "cues": [
+      "DOMA",
+      "immigration rights",
+      "struck down 2013",
+      "same-sex couples"
+    ],
+    "transcript_ref": "immigration\\imm_umn_94_thiago_heilman.yaml"
+  }
+]

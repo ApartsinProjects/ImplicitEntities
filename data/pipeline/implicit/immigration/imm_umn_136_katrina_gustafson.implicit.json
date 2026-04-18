@@ -1,0 +1,171 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "Manila",
+    "explicit_text": "My mother and her five siblings were all born in Manila, which is the capital and largest city of the Philippines. It was their hometown before some of them migrated to the United States in the 1980s and 1990s. Manila represents the roots of my family and the place they left behind in search of better opportunities abroad.",
+    "implicit_text": "My mother and her five siblings were all born in the capital and largest city of the Philippines. It was their hometown before some of them migrated to the United States in the 1980s and 1990s. This city represents the roots of my family and the place they left behind in search of better opportunities abroad.",
+    "cues": [
+      "1980s",
+      "1990s",
+      "capital",
+      "largest city",
+      "birthplace of mother and siblings"
+    ],
+    "transcript_ref": "immigration\\imm_umn_136_katrina_gustafson.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "Philippines",
+    "explicit_text": "The Philippines is where my family originally comes from, and it shaped much of my early cultural identity. My grandparents, Leonardo and Virginia Lanzona, lived there before migrating to the United States in 1991. Even though they later moved back to the Philippines while I was in middle school, my Filipino heritage from the Philippines remains a big part of who I am.",
+    "implicit_text": "The country in Southeast Asia where my family originally comes from shaped much of my early cultural identity. My grandparents, Leonardo and Virginia Lanzona, lived there before migrating to the United States in 1991. Even though they later moved back while I was in middle school, my heritage from that country remains a big part of who I am.",
+    "cues": [
+      "1991 migration",
+      "Filipino heritage",
+      "grandparents' origin",
+      "middle school",
+      "culture and identity"
+    ],
+    "transcript_ref": "immigration\\imm_umn_136_katrina_gustafson.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "United States",
+    "explicit_text": "The United States became my family's new home starting in the 1980s and 1990s when my mother and her sisters migrated here for education and work. My grandparents followed in 1991 to be closer to their grandchildren. I was born here in 1994, and growing up in the U.S. meant balancing American culture with my Filipino roots.",
+    "implicit_text": "This North American country became my family's new home starting in the 1980s and 1990s when my mother and her sisters migrated here for education and work. My grandparents followed in 1991 to be closer to their grandchildren. I was born here in 1994, and growing up meant balancing its culture with my Filipino roots.",
+    "cues": [
+      "1980s",
+      "1990s",
+      "1991 migration",
+      "birth 1994",
+      "cultural balance"
+    ],
+    "transcript_ref": "immigration\\imm_umn_136_katrina_gustafson.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "New York City",
+    "explicit_text": "My aunt Vina moved to New York City to pursue her Master's degree during the 1980s or 1990s. She was part of the family members who migrated to the U.S. for educational opportunities. New York City was an important place for her academic journey before the rest of the family joined later.",
+    "implicit_text": "My aunt Vina moved to the largest city in New York State to pursue her Master's degree during the 1980s or 1990s. She was part of the family members who migrated to the U.S. for educational opportunities. This city was an important place for her academic journey before the rest of the family joined later.",
+    "cues": [
+      "1980s",
+      "1990s",
+      "Master's degree",
+      "migration for education"
+    ],
+    "transcript_ref": "immigration\\imm_umn_136_katrina_gustafson.yaml"
+  },
+  {
+    "entity_id": 5,
+    "entity": "Leonardo Lanzona",
+    "explicit_text": "My lolo, Leonardo Lanzona, was a retired doctor who migrated from the Philippines to the United States in 1991 with my lola. He moved to Wheeling, Illinois, to be close to his grandchildren and embraced American culture by learning English and even getting a driver's license before I was born in 1994. I have fond memories of sitting on his lap watching Jeopardy and hearing him swear in Tagalog sometimes.",
+    "implicit_text": "My lolo was a retired doctor who migrated from the Philippines to the United States in 1991 with my lola. He moved to a suburb in Illinois to be close to his grandchildren and embraced American culture by learning English and even getting a driver's license before I was born in 1994. I have fond memories of sitting on his lap watching a popular quiz show and hearing him swear in Tagalog sometimes.",
+    "cues": [
+      "1991 migration",
+      "retired doctor",
+      "Wheeling, Illinois",
+      "driver's license",
+      "1994 birth",
+      "Jeopardy",
+      "Tagalog swearing"
+    ],
+    "transcript_ref": "immigration\\imm_umn_136_katrina_gustafson.yaml"
+  },
+  {
+    "entity_id": 6,
+    "entity": "Virginia Lanzona",
+    "explicit_text": "My lola, Virginia Lanzona, was a retired pharmacist who came to the United States with my lolo in 1991. She lived with my parents in Wheeling, Illinois, and was very protective, always watching over me when I played outside. Her presence was a big part of my childhood, and she balanced tradition with adapting to life in America.",
+    "implicit_text": "My lola was a retired pharmacist who came to the United States with my lolo in 1991. She lived with my parents in a suburb of Chicago and was very protective, always watching over me when I played outside. Her presence was a big part of my childhood, and she balanced tradition with adapting to life in America.",
+    "cues": [
+      "1991 migration",
+      "retired pharmacist",
+      "Wheeling, Illinois",
+      "childhood supervision",
+      "Filipino tradition"
+    ],
+    "transcript_ref": "immigration\\imm_umn_136_katrina_gustafson.yaml"
+  },
+  {
+    "entity_id": 7,
+    "entity": "Wheeling, Illinois",
+    "explicit_text": "Wheeling, Illinois, is the small town where my grandparents lived after migrating to the United States in 1991. They moved into my mother and father's home there, and it became the backdrop for many of my early memories, like playing in the park under my lola's watchful eye. It was in Wheeling that my lolo got his American driver's license and where I grew up blending Filipino and American cultures.",
+    "implicit_text": "This small town in Illinois is where my grandparents lived after migrating to the United States in 1991. They moved into my mother and father's home there, and it became the backdrop for many of my early memories, like playing in the park under my lola's watchful eye. It was in this town that my lolo got his American driver's license and where I grew up blending Filipino and American cultures.",
+    "cues": [
+      "1991 migration",
+      "grandparents' residence",
+      "mother and father's home",
+      "childhood memories",
+      "driver's license"
+    ],
+    "transcript_ref": "immigration\\imm_umn_136_katrina_gustafson.yaml"
+  },
+  {
+    "entity_id": 8,
+    "entity": "Jeopardy!",
+    "explicit_text": "Jeopardy! was a show I remember watching as a child while sitting on my lolo's lap. It was part of how I connected with American culture growing up in Wheeling, Illinois. Before I learned the correct English pronunciations, I even pronounced 'Jeopardy' with a Filipino accent, which my family found endearing.",
+    "implicit_text": "This popular American quiz show was something I remember watching as a child while sitting on my lolo's lap. It was part of how I connected with American culture growing up in a suburb of Chicago. Before I learned the correct English pronunciations, I even pronounced the show's name with a Filipino accent, which my family found endearing.",
+    "cues": [
+      "childhood",
+      "Wheeling, Illinois",
+      "lolo's lap",
+      "language learning",
+      "American culture"
+    ],
+    "transcript_ref": "immigration\\imm_umn_136_katrina_gustafson.yaml"
+  },
+  {
+    "entity_id": 9,
+    "entity": "Tagalog language",
+    "explicit_text": "Tagalog was the language my lolo sometimes swore in, which always made me quiver as a child. It was part of the Filipino culture that surrounded me growing up in a bicultural household. Even though I was born in the U.S., Tagalog helped me stay connected to my Filipino roots through my grandparents.",
+    "implicit_text": "The language my lolo sometimes swore in always made me quiver as a child. It was part of the Filipino culture that surrounded me growing up in a bicultural household. Even though I was born in the U.S., this language helped me stay connected to my Filipino roots through my grandparents.",
+    "cues": [
+      "childhood",
+      "lolo's swearing",
+      "Filipino culture",
+      "bicultural household",
+      "heritage"
+    ],
+    "transcript_ref": "immigration\\imm_umn_136_katrina_gustafson.yaml"
+  },
+  {
+    "entity_id": 10,
+    "entity": "Dahil Sa Iyo",
+    "explicit_text": "I remember singing along to 'Dahil Sa Iyo' with my lolo on days he picked me up from elementary school. That song was a special connection between us, bridging my Filipino heritage and my American upbringing. It was moments like those that made me appreciate the blend of cultures in my life.",
+    "implicit_text": "I remember singing along to a famous Filipino love song with my lolo on days he picked me up from elementary school. That song was a special connection between us, bridging my Filipino heritage and my American upbringing. It was moments like those that made me appreciate the blend of cultures in my life.",
+    "cues": [
+      "elementary school",
+      "lolo",
+      "Filipino heritage",
+      "cultural connection",
+      "music"
+    ],
+    "transcript_ref": "immigration\\imm_umn_136_katrina_gustafson.yaml"
+  },
+  {
+    "entity_id": 11,
+    "entity": "Burger King",
+    "explicit_text": "Burger King was the place my lolo would sometimes buy me a kids meal when he picked me up from school. It was a small but memorable part of my childhood in Wheeling, Illinois, showing how American culture mixed with my Filipino family traditions. Those moments made me feel loved and connected to both worlds.",
+    "implicit_text": "This fast-food chain was the place my lolo would sometimes buy me a kids meal when he picked me up from school. It was a small but memorable part of my childhood in a Chicago suburb, showing how American culture mixed with my Filipino family traditions. Those moments made me feel loved and connected to both worlds.",
+    "cues": [
+      "childhood",
+      "lolo",
+      "kids meal",
+      "Wheeling, Illinois",
+      "American culture"
+    ],
+    "transcript_ref": "immigration\\imm_umn_136_katrina_gustafson.yaml"
+  },
+  {
+    "entity_id": 12,
+    "entity": "Fourth of July",
+    "explicit_text": "I have fond memories of celebrating the Fourth of July by watching parades and collecting candy. It was one of the ways I experienced American culture growing up alongside my Filipino traditions. These celebrations were a joyful part of my bicultural upbringing in the United States.",
+    "implicit_text": "I have fond memories of celebrating the national holiday on July 4th by watching parades and collecting candy. It was one of the ways I experienced American culture growing up alongside my Filipino traditions. These celebrations were a joyful part of my bicultural upbringing in the United States.",
+    "cues": [
+      "childhood",
+      "parades",
+      "candy",
+      "American culture",
+      "bicultural upbringing"
+    ],
+    "transcript_ref": "immigration\\imm_umn_136_katrina_gustafson.yaml"
+  }
+]

@@ -1,0 +1,401 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "Chicago",
+    "explicit_text": "I was living in Chicago when I entered the service in April 1944. I grew up on the Northside, around Milwaukee, Armitage, and Western, at 2440 West Courtland Street. I went to Lane Tech High School there and had a good life playing sports. Chicago was home to me and my family before I was drafted into the Army.",
+    "implicit_text": "I was living in the city known for its deep-dish pizza and towering skyline when I entered the service in April 1944. I grew up on the Northside, around Milwaukee, Armitage, and Western, at 2440 West Courtland Street. I went to a well-known technical high school there and had a good life playing sports. That city was home to me and my family before I was drafted into the Army.",
+    "cues": [
+      "April 1944",
+      "Northside Chicago",
+      "2440 West Courtland Street",
+      "Lane Tech High School"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_Matthew_Potoczek.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "Lane Tech High School",
+    "explicit_text": "I attended Lane Tech High School in Chicago and graduated in January 1944. I loved it there, especially playing basketball, football, and baseball. The teachers and athletic coaches were wonderful, and it was a big part of my youth before joining the Army. Many of my friends from Lane Tech went to Europe during the war.",
+    "implicit_text": "I attended the technical high school famous for its strong engineering and athletic programs in that major Midwestern city and graduated in January 1944. I loved it there, especially playing basketball, football, and baseball. The teachers and athletic coaches were wonderful, and it was a big part of my youth before joining the Army. Many of my friends from that school went to Europe during the war.",
+    "cues": [
+      "Chicago",
+      "Graduated January 1944",
+      "sports",
+      "teachers",
+      "friends in Europe"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_Matthew_Potoczek.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "Norden Bombsight",
+    "explicit_text": "My brother Walter worked on the lenses for the Norden Bombsight during the war, which was considered important military work. Because of that, he was deferred from joining the Army. I remember that his work on the bombsight lenses was critical and kept him from being drafted.",
+    "implicit_text": "My brother Walter worked on the lenses for a critical military bombsight during the war, which was considered important military work. Because of that, he was deferred from joining the Army. I remember that his work on the bombsight lenses was critical and kept him from being drafted.",
+    "cues": [
+      "World War II",
+      "brother Walter",
+      "military work",
+      "deferred from Army"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_Matthew_Potoczek.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "Poland",
+    "explicit_text": "My parents came from Poland, and it was very personal for me during the war. My Uncle Andrew was killed by the Nazis on his farm there, which deeply affected my family. My mother cried over the loss, and that was part of why I wanted to join the Army and fight in Europe.",
+    "implicit_text": "My parents came from Eastern Europe, and it was very personal for me during the war. My Uncle Andrew was killed by the Nazis on his farm there, which deeply affected my family. My mother cried over the loss, and that was part of why I wanted to join the Army and fight in Europe.",
+    "cues": [
+      "Parents from Poland",
+      "Uncle Andrew killed by Nazis",
+      "family impact",
+      "World War II"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_Matthew_Potoczek.yaml"
+  },
+  {
+    "entity_id": 5,
+    "entity": "Nazi Germany",
+    "explicit_text": "Nazi Germany was the enemy that took my uncle’s life in Poland. I wanted to join the Army early to fight against them in Europe, but I ended up being sent to the Pacific instead. The Nazis and their SS were responsible for many atrocities that affected my family personally.",
+    "implicit_text": "The fascist regime that took my uncle’s life in Eastern Europe was the enemy. I wanted to join the Army early to fight against them in Europe, but I ended up being sent to the Pacific instead. That regime and their SS were responsible for many atrocities that affected my family personally.",
+    "cues": [
+      "Uncle killed by Nazis",
+      "World War II",
+      "wanted to fight in Europe",
+      "SS"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_Matthew_Potoczek.yaml"
+  },
+  {
+    "entity_id": 6,
+    "entity": "United States Army",
+    "explicit_text": "I was drafted into the United States Army in April 1944 after finishing high school. I trained at Fort Sheridan and Fort Riley before being sent overseas. The Army gave me food, clothing, and tough training, including working with horses and mules in the 124th Cavalry Regiment. I served in the Pacific Theater during the war.",
+    "implicit_text": "I was drafted into the national military in April 1944 after finishing high school. I trained at a post near Chicago and then at a Kansas base before being sent overseas. The military gave me food, clothing, and tough training, including working with horses and mules in a cavalry regiment. I served in the Pacific Theater during the war.",
+    "cues": [
+      "Drafted April 1944",
+      "Fort Sheridan",
+      "Fort Riley",
+      "124th Cavalry Regiment",
+      "Pacific Theater"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_Matthew_Potoczek.yaml"
+  },
+  {
+    "entity_id": 7,
+    "entity": "Coast Guard",
+    "explicit_text": "My brother Stanley joined the Coast Guard during the war. While I was drafted into the Army, he served in the Coast Guard, so we were both contributing to the war effort in different branches. It was a family effort to support the country.",
+    "implicit_text": "My brother Stanley joined the maritime service responsible for coastal defense during the war. While I was drafted into the Army, he served in that maritime branch, so we were both contributing to the war effort in different branches. It was a family effort to support the country.",
+    "cues": [
+      "Brother Stanley",
+      "World War II",
+      "different military branches"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_Matthew_Potoczek.yaml"
+  },
+  {
+    "entity_id": 8,
+    "entity": "United States Marine Corps",
+    "explicit_text": "I didn’t serve in the United States Marine Corps, but when I was drafted, I didn’t have a preference for any branch. I was willing to go wherever they needed me, whether it was the Marines, Coast Guard, Army Air Corps, or Army. Ultimately, I was placed in the Army.",
+    "implicit_text": "I didn’t serve in the branch known for its amphibious assaults and rigorous training, but when I was drafted, I didn’t have a preference for any branch. I was willing to go wherever they needed me, whether it was that branch, the maritime service, the air corps, or the Army. Ultimately, I was placed in the Army.",
+    "cues": [
+      "Drafted 1944",
+      "no branch preference",
+      "Army service"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_Matthew_Potoczek.yaml"
+  },
+  {
+    "entity_id": 9,
+    "entity": "Army Air Corps",
+    "explicit_text": "Like with the Marines and Coast Guard, I was open to serving in the Army Air Corps if needed. However, I ended up in the Cavalry Regiment in the Army. I didn’t get to choose my assignment, as they sent me where they needed me most during the war.",
+    "implicit_text": "Like with the Marines and Coast Guard, I was open to serving in the air arm of the Army if needed. However, I ended up in the Cavalry Regiment in the Army. I didn’t get to choose my assignment, as they sent me where they needed me most during the war.",
+    "cues": [
+      "Drafted 1944",
+      "open to any branch",
+      "assigned to Cavalry"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_Matthew_Potoczek.yaml"
+  },
+  {
+    "entity_id": 10,
+    "entity": "Fort Sheridan",
+    "explicit_text": "After being inducted at the post office in Chicago, I was sent to Fort Sheridan for initial processing. It was my first time away from home, and it was a big adjustment. From there, I went on to Fort Riley for further training.",
+    "implicit_text": "After being inducted at the post office in Chicago, I was sent to the military post near that city for initial processing. It was my first time away from home, and it was a big adjustment. From there, I went on to a training base in Kansas for further training.",
+    "cues": [
+      "Inducted Chicago post office",
+      "first time away from home",
+      "training start"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_Matthew_Potoczek.yaml"
+  },
+  {
+    "entity_id": 11,
+    "entity": "Fort Riley",
+    "explicit_text": "Fort Riley, Kansas was where I went after Fort Sheridan for basic training with the 124th Cavalry Regiment. It was tough training with forced marches, rifle shooting, and working with horses and mules. I spent a lot of time there preparing for deployment overseas.",
+    "implicit_text": "The Kansas base was where I went after the initial processing for basic training with the 124th Cavalry Regiment. It was tough training with forced marches, rifle shooting, and working with horses and mules. I spent a lot of time there preparing for deployment overseas.",
+    "cues": [
+      "Basic training",
+      "Kansas",
+      "124th Cavalry Regiment",
+      "horses and mules"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_Matthew_Potoczek.yaml"
+  },
+  {
+    "entity_id": 12,
+    "entity": "Texas",
+    "explicit_text": "Sergeant Porter, our tough drill sergeant at Fort Riley, was from Texas. He was very strict and kept us moving all the time during training. Texas was part of the diverse backgrounds of the men I served with in the Army.",
+    "implicit_text": "Sergeant Porter, our tough drill sergeant at the Kansas base, was from the southern state known for its cowboy culture. He was very strict and kept us moving all the time during training. That state was part of the diverse backgrounds of the men I served with in the Army.",
+    "cues": [
+      "Sergeant Porter",
+      "drill sergeant",
+      "Fort Riley",
+      "Texas"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_Matthew_Potoczek.yaml"
+  },
+  {
+    "entity_id": 13,
+    "entity": "New York (state)",
+    "explicit_text": "I met soldiers from all over the country during training, including guys from New York. One of my friends, Dick Miller, was from Salt Lake City, but we had others from places like New York and Kentucky. It was a real mix of backgrounds in the Army.",
+    "implicit_text": "I met soldiers from all over the country during training, including guys from the northeastern state famous for New York City. One of my friends, Dick Miller, was from Salt Lake City, but we had others from places like that state and Kentucky. It was a real mix of backgrounds in the Army.",
+    "cues": [
+      "Training",
+      "diverse soldiers",
+      "New York",
+      "Salt Lake City",
+      "Kentucky"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_Matthew_Potoczek.yaml"
+  },
+  {
+    "entity_id": 14,
+    "entity": "Kentucky",
+    "explicit_text": "One of my close friends in the Army was from Kentucky, a man we called Clay. He came from a very poor background with a dirt floor house and no running water. Despite our different upbringings, we became very close friends during the war.",
+    "implicit_text": "One of my close friends in the Army was from the southern state known for bluegrass and horse racing, a man we called Clay. He came from a very poor background with a dirt floor house and no running water. Despite our different upbringings, we became very close friends during the war.",
+    "cues": [
+      "Friend Clay",
+      "poor background",
+      "Army friendship",
+      "Kentucky"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_Matthew_Potoczek.yaml"
+  },
+  {
+    "entity_id": 15,
+    "entity": "California",
+    "explicit_text": "After finishing training at Fort Riley, we were sent to California, specifically Riverside, for new equipment and preparation before shipping out. California was the last stop in the U.S. before we boarded the ship to go overseas. It was a clue we were headed to the Pacific.",
+    "implicit_text": "After finishing training at the Kansas base, we were sent to the West Coast, specifically Riverside, for new equipment and preparation before shipping out. That state was the last stop in the U.S. before we boarded the ship to go overseas. It was a clue we were headed to the Pacific.",
+    "cues": [
+      "Riverside, California",
+      "new equipment",
+      "preparation for deployment",
+      "Pacific Theater"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_Matthew_Potoczek.yaml"
+  },
+  {
+    "entity_id": 16,
+    "entity": "Salt Lake City",
+    "explicit_text": "My friend Dick Miller was from Salt Lake City, Utah. We had some friendly religious teasing since I was Catholic and he was a Mormon, but we became best friends. He still lives in Utah and has a home in Beaver Dam, Arizona where I visited him.",
+    "implicit_text": "My friend Dick Miller was from Salt Lake City, Utah. We had some friendly religious teasing since I was Catholic and he was a Mormon, but we became best friends. He still lives in Utah and has a home in Beaver Dam, Arizona where I visited him.",
+    "cues": [
+      "Friend Dick Miller",
+      "Salt Lake City, Utah",
+      "religious differences",
+      "friendship"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_Matthew_Potoczek.yaml"
+  },
+  {
+    "entity_id": 17,
+    "entity": "Utah",
+    "explicit_text": "Utah was home to my good friend Dick Miller, who was a Mormon. We joked about the tough times Mormons had in Illinois, but we stayed close friends through the war and beyond. He retired and lives partly in Utah and partly in Arizona.",
+    "implicit_text": "Utah was home to my good friend Dick Miller, who was a Mormon. We joked about the tough times Mormons had in Illinois, but we stayed close friends through the war and beyond. He retired and lives partly in Utah and partly in Arizona.",
+    "cues": [
+      "Friend Dick Miller",
+      "Mormon",
+      "Illinois history",
+      "retirement"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_Matthew_Potoczek.yaml"
+  },
+  {
+    "entity_id": 18,
+    "entity": "Beaver Dam, Arizona",
+    "explicit_text": "I visited my friend Dick Miller at his home in Beaver Dam, Arizona. It’s a beautiful place, and he and his wife were very welcoming. It was nice to see him after all these years since the war.",
+    "implicit_text": "I visited my friend Dick Miller at his home in a small community in Arizona known for its scenic desert landscapes. It’s a beautiful place, and he and his wife were very welcoming. It was nice to see him after all these years since the war.",
+    "cues": [
+      "Friend Dick Miller",
+      "Beaver Dam, Arizona",
+      "post-war visit"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_Matthew_Potoczek.yaml"
+  },
+  {
+    "entity_id": 19,
+    "entity": "Great Depression",
+    "explicit_text": "I was born during the Great Depression, and I remember how hard times were. My mother had to put cardboard in my shoes because the leather wore out. People in our neighborhood lost jobs and homes, and some even committed suicide. It was a tough childhood before the war.",
+    "implicit_text": "I was born during the economic crisis of the 1930s, and I remember how hard times were. My mother had to put cardboard in my shoes because the leather wore out. People in our neighborhood lost jobs and homes, and some even committed suicide. It was a tough childhood before the war.",
+    "cues": [
+      "Born during Depression",
+      "poverty",
+      "family struggles",
+      "suicides in neighborhood"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_Matthew_Potoczek.yaml"
+  },
+  {
+    "entity_id": 20,
+    "entity": "124th Cavalry Regiment",
+    "explicit_text": "I served in the 124th Cavalry Regiment during the war. Although I didn’t know much about horses or mules before, I learned quickly and loved working with them. We used mules to carry equipment, and they even shipped the animals overseas with us.",
+    "implicit_text": "I served in the 124th Cavalry Regiment during the war. Although I didn’t know much about horses or mules before, I learned quickly and loved working with them. We used mules to carry equipment, and they even shipped the animals overseas with us.",
+    "cues": [
+      "124th Cavalry Regiment",
+      "horses and mules",
+      "overseas deployment",
+      "training"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_Matthew_Potoczek.yaml"
+  },
+  {
+    "entity_id": 21,
+    "entity": "Major Stadler",
+    "explicit_text": "Major Stadler wrote a history of our unit, the 124th Cavalry Regiment, which I brought to the interview. My memory isn’t perfect, but his report helped fill in details about our service. He was an important figure documenting our experiences.",
+    "implicit_text": "Major Stadler wrote a history of our unit, the 124th Cavalry Regiment, which I brought to the interview. My memory isn’t perfect, but his report helped fill in details about our service. He was an important figure documenting our experiences.",
+    "cues": [
+      "Major Stadler",
+      "unit history",
+      "124th Cavalry Regiment",
+      "documentation"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_Matthew_Potoczek.yaml"
+  },
+  {
+    "entity_id": 22,
+    "entity": "Merchant Marine",
+    "explicit_text": "The Merchant Marine was responsible for transporting the horses and mules overseas separately from the troops. While we were on one ship, the animals came on another. They played a key role in moving supplies and equipment during the war.",
+    "implicit_text": "The civilian maritime service was responsible for transporting the horses and mules overseas separately from the troops. While we were on one ship, the animals came on another. They played a key role in moving supplies and equipment during the war.",
+    "cues": [
+      "Merchant Marine",
+      "transport horses and mules",
+      "World War II logistics"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_Matthew_Potoczek.yaml"
+  },
+  {
+    "entity_id": 23,
+    "entity": "Melbourne",
+    "explicit_text": "Our ship stopped in Melbourne, Australia for a break during the long voyage to the Pacific. We got to go ashore, rent bicycles, and even met some local girls who were very kind to us. It was a pleasant and memorable stop before continuing on to India.",
+    "implicit_text": "Our ship stopped in a major Australian city for a break during the long voyage to the Pacific. We got to go ashore, rent bicycles, and even met some local girls who were very kind to us. It was a pleasant and memorable stop before continuing on to India.",
+    "cues": [
+      "Melbourne, Australia",
+      "ship stop",
+      "bicycle riding",
+      "friendly locals"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_Matthew_Potoczek.yaml"
+  },
+  {
+    "entity_id": 24,
+    "entity": "Australia",
+    "explicit_text": "We traveled through Australia on our way to the Pacific Theater. Melbourne was our main stop where we enjoyed some time off the ship. The people were friendly and welcoming, which was a nice contrast to the harsh conditions we later faced.",
+    "implicit_text": "We traveled through the country known for its vast outback and unique wildlife on our way to the Pacific Theater. That city was our main stop where we enjoyed some time off the ship. The people were friendly and welcoming, which was a nice contrast to the harsh conditions we later faced.",
+    "cues": [
+      "Australia",
+      "Melbourne stop",
+      "friendly locals",
+      "Pacific route"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_Matthew_Potoczek.yaml"
+  },
+  {
+    "entity_id": 25,
+    "entity": "Bombay",
+    "explicit_text": "When we reached Bombay, India, it was a terrible place compared to Australia. The poverty was overwhelming with many people starving and begging. It was so bad that we felt safer on the ship than on shore, and it really depressed me to see such suffering.",
+    "implicit_text": "When we reached the bustling Indian port city, it was a terrible place compared to Australia. The poverty was overwhelming with many people starving and begging. It was so bad that we felt safer on the ship than on shore, and it really depressed me to see such suffering.",
+    "cues": [
+      "Bombay, India",
+      "poverty",
+      "starvation",
+      "contrast to Australia"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_Matthew_Potoczek.yaml"
+  },
+  {
+    "entity_id": 26,
+    "entity": "India",
+    "explicit_text": "Our journey took us through India, stopping in places like Bombay and Calcutta. The poverty there was shocking, especially in Bombay where people were begging and starving. It was a harsh reality that contrasted with my experiences back home and in Australia.",
+    "implicit_text": "Our journey took us through the South Asian country, stopping in places like Bombay and Calcutta. The poverty there was shocking, especially in Bombay where people were begging and starving. It was a harsh reality that contrasted with my experiences back home and in Australia.",
+    "cues": [
+      "India",
+      "Bombay",
+      "Calcutta",
+      "poverty",
+      "World War II"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_Matthew_Potoczek.yaml"
+  },
+  {
+    "entity_id": 27,
+    "entity": "Calcutta",
+    "explicit_text": "Calcutta was one of the places we passed through in India during the war. I didn’t spend much time there, but it was part of the route we took to reach the combat zones in the Pacific. The conditions in India were tough to witness.",
+    "implicit_text": "Calcutta was one of the places we passed through in that South Asian country during the war. I didn’t spend much time there, but it was part of the route we took to reach the combat zones in the Pacific. The conditions in that country were tough to witness.",
+    "cues": [
+      "Calcutta, India",
+      "transit point",
+      "World War II"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_Matthew_Potoczek.yaml"
+  },
+  {
+    "entity_id": 28,
+    "entity": "Assam",
+    "explicit_text": "Assam was part of the region in India near where we operated in the China-Burma-India Theater. It was a remote and difficult area, and our unit had to adapt to tough jungle conditions. The terrain and climate were challenging for all of us.",
+    "implicit_text": "Assam was part of the region in that South Asian country near where we operated in the China-Burma-India Theater. It was a remote and difficult area, and our unit had to adapt to tough jungle conditions. The terrain and climate were challenging for all of us.",
+    "cues": [
+      "Assam, India",
+      "China-Burma-India Theater",
+      "jungle conditions"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_Matthew_Potoczek.yaml"
+  },
+  {
+    "entity_id": 29,
+    "entity": "Merrill's Marauders",
+    "explicit_text": "While I was not a member of Merrill's Marauders, they were a well-known unit operating in the same general area of the China-Burma-India Theater. Our unit worked in similar conditions, facing the Japanese in Burma. Their reputation was something we all respected.",
+    "implicit_text": "While I was not a member of the famous long-range penetration unit, they were a well-known group operating in the same general area of the China-Burma-India Theater. Our unit worked in similar conditions, facing the Japanese in Burma. Their reputation was something we all respected.",
+    "cues": [
+      "Merrill's Marauders",
+      "CBI Theater",
+      "Japanese enemy",
+      "World War II"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_Matthew_Potoczek.yaml"
+  },
+  {
+    "entity_id": 30,
+    "entity": "Japanese Empire",
+    "explicit_text": "The Japanese Empire was the enemy we faced in the Pacific. They captured our food supplies at times, and their submarines threatened our troop transport ships. Fighting them in Burma and the Pacific was difficult and dangerous, and we lost a lot of weight due to scarce food.",
+    "implicit_text": "The Asian empire was the enemy we faced in the Pacific. They captured our food supplies at times, and their submarines threatened our troop transport ships. Fighting them in Burma and the Pacific was difficult and dangerous, and we lost a lot of weight due to scarce food.",
+    "cues": [
+      "Japanese Empire",
+      "Pacific Theater",
+      "submarine threat",
+      "food shortages"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_Matthew_Potoczek.yaml"
+  },
+  {
+    "entity_id": 31,
+    "entity": "Burma",
+    "explicit_text": "I served in Burma during the war, where conditions were harsh and food was scarce. Our unit used mules to carry equipment through the jungle terrain. The Japanese controlled much of the area, and we had to fight hard to survive and complete our missions.",
+    "implicit_text": "I served in the Southeast Asian country during the war, where conditions were harsh and food was scarce. Our unit used mules to carry equipment through the jungle terrain. The enemy controlled much of the area, and we had to fight hard to survive and complete our missions.",
+    "cues": [
+      "Burma",
+      "jungle warfare",
+      "mules for transport",
+      "Japanese enemy"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_Matthew_Potoczek.yaml"
+  }
+]

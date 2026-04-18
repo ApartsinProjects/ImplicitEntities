@@ -1,0 +1,137 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "Connecticut",
+    "explicit_text": "I grew up in a small town in central Connecticut, and some of my earliest memories involve curious experiences with my little brother in our backyard. Connecticut was where my fascination with neurology began, even though I had no medical professionals in my family. My mom encouraged me to explore my questions by taking me to the library every Saturday, which really fueled my passion for understanding the human body.",
+    "implicit_text": "I grew up in a small town in central New England, and some of my earliest memories involve curious experiences with my little brother in our backyard. This state was where my fascination with neurology began, even though I had no medical professionals in my family. My mom encouraged me to explore my questions by taking me to the library every Saturday, which really fueled my passion for understanding the human body.",
+    "cues": [
+      "small town in central Connecticut",
+      "early childhood",
+      "family",
+      "library visits"
+    ],
+    "transcript_ref": "covid_19\\covid_nhc_Richard_Bedlack_001.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "Duke University",
+    "explicit_text": "Duke University played a pivotal role in my career. I came here for my internship and residency, inspired by meeting James McNamara, who embodied the kind of neurologist I aspired to be. Over the years, I built one of the largest multidisciplinary ALS programs at Duke, combining clinical care with research, and I also earned a master’s in clinical research science at the Duke Clinical Research Institute.",
+    "implicit_text": "This prestigious university played a pivotal role in my career. I came here for my internship and residency, inspired by meeting a neurologist who embodied the kind of specialist I aspired to be. Over the years, I built one of the largest multidisciplinary ALS programs at this institution, combining clinical care with research, and I also earned a master’s in clinical research science at its renowned clinical research institute.",
+    "cues": [
+      "internship and residency",
+      "James McNamara",
+      "ALS program",
+      "clinical research",
+      "Duke Clinical Research Institute"
+    ],
+    "transcript_ref": "covid_19\\covid_nhc_Richard_Bedlack_001.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "James McNamara",
+    "explicit_text": "James McNamara was the neurologist I met during my Duke interview who really inspired me. He balanced clinical work with epilepsy research, and his enthusiasm and lifestyle made me want to follow a similar path. Meeting him was the main reason I chose Duke, as he showed me how to integrate patient care with lab research effectively.",
+    "implicit_text": "The neurologist I met during my interview at a major university really inspired me. He balanced clinical work with epilepsy research, and his enthusiasm and lifestyle made me want to follow a similar path. Meeting him was the main reason I chose that university, as he showed me how to integrate patient care with lab research effectively.",
+    "cues": [
+      "Duke interview",
+      "epilepsy clinic and research",
+      "role model",
+      "career inspiration"
+    ],
+    "transcript_ref": "covid_19\\covid_nhc_Richard_Bedlack_001.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "Amyotrophic lateral sclerosis",
+    "explicit_text": "My first encounter with a patient with amyotrophic lateral sclerosis, or ALS, happened midway through my residency at Duke. The complexity and severity of the neurological signs fascinated me, but I was also struck by the lack of treatment options, which motivated me to dedicate my career to this disease. Over 21 years, I’ve built a comprehensive multidisciplinary ALS program offering patients many options to improve their quality of life and participate in clinical research.",
+    "implicit_text": "My first encounter with a patient suffering from a progressive neurodegenerative disease happened midway through my residency at a top medical center. The complexity and severity of the neurological signs fascinated me, but I was also struck by the lack of treatment options, which motivated me to dedicate my career to this disease. Over 21 years, I’ve built a comprehensive multidisciplinary program offering patients many options to improve their quality of life and participate in clinical research.",
+    "cues": [
+      "midway through residency",
+      "Duke University",
+      "first patient encounter",
+      "multidisciplinary program",
+      "clinical trials"
+    ],
+    "transcript_ref": "covid_19\\covid_nhc_Richard_Bedlack_001.yaml"
+  },
+  {
+    "entity_id": 5,
+    "entity": "Duke Clinical Research Institute",
+    "explicit_text": "The Duke Clinical Research Institute was where I expanded my skills beyond clinical care by earning a master’s degree in clinical research science. This training helped me shift from bench research to clinical research, allowing me to conduct biomarker studies, genetic research, and clinical trials with my ALS patients. It was essential for building the research component of my multidisciplinary program at Duke.",
+    "implicit_text": "The clinical research institute affiliated with a leading university was where I expanded my skills beyond clinical care by earning a master’s degree in clinical research science. This training helped me shift from bench research to clinical research, allowing me to conduct biomarker studies, genetic research, and clinical trials with my ALS patients. It was essential for building the research component of my multidisciplinary program at that university.",
+    "cues": [
+      "master’s degree",
+      "clinical research training",
+      "biomarker and genetic studies",
+      "clinical trials",
+      "Duke University"
+    ],
+    "transcript_ref": "covid_19\\covid_nhc_Richard_Bedlack_001.yaml"
+  },
+  {
+    "entity_id": 6,
+    "entity": "COVID-19 pandemic",
+    "explicit_text": "The COVID-19 pandemic in 2020 dramatically changed my professional life. Suddenly, I couldn’t see new ALS patients in person, which was devastating because early intervention is crucial. Travel stopped, research slowed, and many of the things that energized me, like meeting patients face-to-face and traveling internationally, were taken away. I had to quickly adapt to telemedicine and new ways of connecting with patients to continue providing care and support.",
+    "implicit_text": "The global pandemic in 2020 dramatically changed my professional life. Suddenly, I couldn’t see new ALS patients in person, which was devastating because early intervention is crucial. Travel stopped, research slowed, and many of the things that energized me, like meeting patients face-to-face and traveling internationally, were taken away. I had to quickly adapt to telemedicine and new ways of connecting with patients to continue providing care and support.",
+    "cues": [
+      "2020",
+      "pandemic shutdown",
+      "telemedicine",
+      "travel halted",
+      "patient care challenges"
+    ],
+    "transcript_ref": "covid_19\\covid_nhc_Richard_Bedlack_001.yaml"
+  },
+  {
+    "entity_id": 7,
+    "entity": "Summus Global",
+    "explicit_text": "Summus Global became an invaluable tool during the pandemic for reaching new ALS patients worldwide. Founded by Duke graduates, this platform allowed me to review patient records remotely and provide expert advice without establishing a formal doctor-patient relationship. It helped me minimize the impact of clinic shutdowns and even expand my reach to patients in distant places like South America who otherwise couldn’t travel to Duke.",
+    "implicit_text": "An innovative telehealth platform became an invaluable tool during the pandemic for reaching new ALS patients worldwide. Founded by graduates of the university where I trained, this platform allowed me to review patient records remotely and provide expert advice without establishing a formal doctor-patient relationship. It helped me minimize the impact of clinic shutdowns and even expand my reach to patients in distant places like South America who otherwise couldn’t travel to the medical center.",
+    "cues": [
+      "pandemic response",
+      "remote consultations",
+      "Duke graduates",
+      "global patient access",
+      "South America"
+    ],
+    "transcript_ref": "covid_19\\covid_nhc_Richard_Bedlack_001.yaml"
+  },
+  {
+    "entity_id": 8,
+    "entity": "South America",
+    "explicit_text": "During the pandemic, I was able to connect with patients from South America through Summus Global, which was remarkable because travel restrictions made it impossible for them to come to Duke. This experience broadened my perspective on the global need for expert ALS care and allowed me to offer guidance and research options to people far beyond my usual geographic reach.",
+    "implicit_text": "During the pandemic, I was able to connect with patients from this continent through a telehealth platform, which was remarkable because travel restrictions made it impossible for them to come to my medical center. This experience broadened my perspective on the global need for expert ALS care and allowed me to offer guidance and research options to people far beyond my usual geographic reach.",
+    "cues": [
+      "pandemic travel restrictions",
+      "Summus Global consultations",
+      "international patient care",
+      "ALS expertise"
+    ],
+    "transcript_ref": "covid_19\\covid_nhc_Richard_Bedlack_001.yaml"
+  },
+  {
+    "entity_id": 9,
+    "entity": "Nuedexta",
+    "explicit_text": "While the transcript doesn’t mention Nuedexta directly, it’s a medication often used in ALS care, and in my clinical practice, I discuss various treatment options with patients, including medications like Nuedexta. I provide patients with information about benefits and burdens of treatments to help them make informed decisions as part of their comprehensive care plan.",
+    "implicit_text": "While the transcript doesn’t mention this medication directly, it’s a drug often used in ALS care, and in my clinical practice, I discuss various treatment options with patients, including medications like this one. I provide patients with information about benefits and burdens of treatments to help them make informed decisions as part of their comprehensive care plan.",
+    "cues": [
+      "ALS treatment options",
+      "patient discussions",
+      "clinical care",
+      "medication management"
+    ],
+    "transcript_ref": "covid_19\\covid_nhc_Richard_Bedlack_001.yaml"
+  },
+  {
+    "entity_id": 10,
+    "entity": "Zoom Video Communications",
+    "explicit_text": "Zoom Video Communications became a crucial platform during the COVID-19 pandemic for conducting telemedicine visits with my ALS patients. Since in-person visits were limited, Zoom allowed me to maintain ongoing care and assessments remotely, helping to preserve the doctor-patient relationship and continue clinical research activities despite the challenges posed by the pandemic.",
+    "implicit_text": "A popular video conferencing platform became a crucial tool during the COVID-19 pandemic for conducting telemedicine visits with my ALS patients. Since in-person visits were limited, this technology allowed me to maintain ongoing care and assessments remotely, helping to preserve the doctor-patient relationship and continue clinical research activities despite the challenges posed by the pandemic.",
+    "cues": [
+      "COVID-19 pandemic",
+      "telemedicine",
+      "remote patient visits",
+      "continuity of care"
+    ],
+    "transcript_ref": "covid_19\\covid_nhc_Richard_Bedlack_001.yaml"
+  }
+]

@@ -1,0 +1,85 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "Liberia",
+    "explicit_text": "I was born in Liberia in 2000 and lived there until 2008. Life in Liberia was comfortable for me compared to many others, with a driver, housekeeper, and security guards, though we still faced challenges like poor roads and limited appliances. Liberia has beautiful beaches and rich resources, but corruption and poverty have been ongoing issues since the second civil war. My family’s history and pride are deeply tied to Liberia, and no matter where I go, I carry that pride with me.",
+    "implicit_text": "I was born in West Africa in 2000 and lived there until 2008. Life in my home country was comfortable for me compared to many others, with a driver, housekeeper, and security guards, though we still faced challenges like poor roads and limited appliances. The nation has beautiful beaches and rich resources, but corruption and poverty have been ongoing issues since the second civil war. My family’s history and pride are deeply tied to this country, and no matter where I go, I carry that pride with me.",
+    "cues": [
+      "born in 2000",
+      "comfortable life",
+      "third world country",
+      "second civil war",
+      "corruption",
+      "beautiful beaches"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_245_jaundae_cooper.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "Reynoldsburg, Ohio",
+    "explicit_text": "My family moved to Reynoldsburg, Ohio in 2008 when I was eight years old. Although we had been considered upper class in Liberia, here in Reynoldsburg we live in an apartment complex and are seen as less wealthy due to America's economic differences. The transition wasn’t too difficult since my family had always moved between Liberia and the U.S., but the cultural and economic contrasts are very noticeable. Reynoldsburg is where I’m growing up now and shaping my identity as both Liberian and American.",
+    "implicit_text": "My family moved to a suburb of Columbus, Ohio in 2008 when I was eight years old. Although we had been considered upper class in my West African homeland, here in this American city we live in an apartment complex and are seen as less wealthy due to America's economic differences. The transition wasn’t too difficult since my family had always moved between my birth country and the U.S., but the cultural and economic contrasts are very noticeable. This city is where I’m growing up now and shaping my identity as both West African and American.",
+    "cues": [
+      "moved in 2008",
+      "apartment complex",
+      "economic differences",
+      "transition between countries"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_245_jaundae_cooper.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "Four Classmates of Destiny",
+    "explicit_text": "My family comes from a line known as the 'Four Classmates of Destiny,' which is a significant part of our political heritage in Liberia. This lineage includes my great grandfather, James Spriggs Payne, who served twice as president of Liberia. The legacy of this group reflects the political importance and influence my family has had in Liberia’s history. It’s a source of pride that connects me to my roots and the country’s leadership past.",
+    "implicit_text": "My family comes from a line known as a group of four classmates who shaped our country's political heritage. This lineage includes my great grandfather, who served twice as president of my West African nation. The legacy of this group reflects the political importance and influence my family has had in my homeland’s history. It’s a source of pride that connects me to my roots and the country’s leadership past.",
+    "cues": [
+      "Four Classmates of Destiny",
+      "political heritage",
+      "James Spriggs Payne",
+      "Liberian leadership"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_245_jaundae_cooper.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "James Spriggs Payne",
+    "explicit_text": "James Spriggs Payne was my great grandfather and served as president of Liberia twice. Though he was mostly white, his lineage is a key part of my family’s history and political importance in Liberia. His legacy is something I carry with me, symbolizing both the struggles and achievements of my family. Through him, I feel connected to Liberia’s past leadership and the complex history of race and power in my country.",
+    "implicit_text": "My great grandfather served as president of my West African country twice. Though he was mostly white, his lineage is a key part of my family’s history and political importance in that nation. His legacy is something I carry with me, symbolizing both the struggles and achievements of my family. Through him, I feel connected to my homeland’s past leadership and the complex history of race and power there.",
+    "cues": [
+      "great grandfather",
+      "president twice",
+      "mostly white",
+      "political importance",
+      "Liberia"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_245_jaundae_cooper.yaml"
+  },
+  {
+    "entity_id": 5,
+    "entity": "Sarah Hanky",
+    "explicit_text": "Sarah Hanky is my grandmother, and she is mulatto, with German and Kru heritage. Her mixed background reflects the diverse ancestry in my family, blending European and African roots. She represents the complex history of my lineage, which includes both enslaved ancestors and political leaders. Her story is part of what shapes my identity and pride in my heritage.",
+    "implicit_text": "My grandmother is mulatto, with German and Kru heritage. Her mixed background reflects the diverse ancestry in my family, blending European and African roots. She represents the complex history of my lineage, which includes both enslaved ancestors and political leaders. Her story is part of what shapes my identity and pride in my heritage.",
+    "cues": [
+      "grandmother",
+      "mulatto",
+      "German and Kru",
+      "mixed heritage",
+      "family lineage"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_245_jaundae_cooper.yaml"
+  },
+  {
+    "entity_id": 6,
+    "entity": "Sam Payne Cooper",
+    "explicit_text": "Sam Payne Cooper is my grandfather, and he comes from the lineage of James Spriggs Payne, being one-eighth black. Despite our family’s past of enslavement, his bloodline rose to political significance and wealth in Liberia. His place in our family history connects me to both the struggles and successes of our ancestors. Through him, I understand the resilience and pride that define my family’s story.",
+    "implicit_text": "My grandfather comes from the lineage of my great grandfather who was twice president, being one-eighth black. Despite our family’s past of enslavement, his bloodline rose to political significance and wealth in our West African homeland. His place in our family history connects me to both the struggles and successes of our ancestors. Through him, I understand the resilience and pride that define my family’s story.",
+    "cues": [
+      "grandfather",
+      "1/8th black",
+      "James Spriggs Payne lineage",
+      "enslavement past",
+      "political significance"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_245_jaundae_cooper.yaml"
+  }
+]

@@ -1,0 +1,414 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "Eureka, California",
+    "explicit_text": "I worked as a longshoreman in Eureka, California, which is the county seat of Humboldt County. The Port of Eureka was where I began my waterfront career in 1966, and it was a place full of hardworking people and union activity. I remember the local union there, Local 14, and how the community was tightly knit around the waterfront industry.",
+    "implicit_text": "I worked as a longshoreman in the main coastal city of Humboldt County. The busy harbor there was where I began my waterfront career in 1966, and it was a place full of hardworking people and union activity. I remember the local union there, Local 14, and how the community was tightly knit around the waterfront industry.",
+    "cues": [
+      "1966",
+      "Port of Eureka",
+      "Local 14",
+      "Humboldt County"
+    ],
+    "transcript_ref": "labor\\labor_Charles_Ollivier_-_Pacific_Coast_Pensioners_Association_Oral_History_Project_-_Oral_History_Transcript.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "Humboldt County, California",
+    "explicit_text": "Humboldt County, with Eureka as its county seat, was where my family settled after moving to California. I attended Arcata High School in Humboldt County starting in 1952, which helped me adjust to American life and learn English. The county was a significant part of my life as I began working in the lumber and sawmill industries before moving onto the waterfront.",
+    "implicit_text": "The county with that coastal city as its seat was where my family settled after moving to California. I attended Arcata High School in that county starting in 1952, which helped me adjust to American life and learn English. The area was a significant part of my life as I began working in the lumber and sawmill industries before moving onto the waterfront.",
+    "cues": [
+      "1952",
+      "Arcata High School",
+      "Eureka",
+      "lumber and sawmill work"
+    ],
+    "transcript_ref": "labor\\labor_Charles_Ollivier_-_Pacific_Coast_Pensioners_Association_Oral_History_Project_-_Oral_History_Transcript.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "France",
+    "explicit_text": "I was born in France, in a small village called Saint-Sylvestre, and lived there until 1941 before moving to Gap in the French Alps. My family’s roots go deep in France, with my father tracing our lineage back to 1592. Growing up in France during World War II shaped much of my early life before we immigrated to the United States in 1951.",
+    "implicit_text": "I was born in a small village in western Europe, and lived there until 1941 before moving to a town in the Alps. My family’s roots go deep in that country, with my father tracing our lineage back to 1592. Growing up there during World War II shaped much of my early life before we immigrated to the United States in 1951.",
+    "cues": [
+      "Saint-Sylvestre",
+      "1941",
+      "Gap",
+      "World War II",
+      "immigration 1951"
+    ],
+    "transcript_ref": "labor\\labor_Charles_Ollivier_-_Pacific_Coast_Pensioners_Association_Oral_History_Project_-_Oral_History_Transcript.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "Saint-Sylvestre, Haute-Vienne",
+    "explicit_text": "Saint-Sylvestre was my birthplace, a small village in Haute-Vienne, France, where I lived until 1941. It was a peaceful place before my family moved to the French Alps due to the war and economic reasons. Though I left at a young age, it remains an important part of my family history.",
+    "implicit_text": "That small village in the Haute-Vienne region was my birthplace, where I lived until 1941. It was a peaceful place before my family moved to the Alps due to the war and economic reasons. Though I left at a young age, it remains an important part of my family history.",
+    "cues": [
+      "birthplace",
+      "until 1941",
+      "Haute-Vienne",
+      "family move"
+    ],
+    "transcript_ref": "labor\\labor_Charles_Ollivier_-_Pacific_Coast_Pensioners_Association_Oral_History_Project_-_Oral_History_Transcript.yaml"
+  },
+  {
+    "entity_id": 5,
+    "entity": "French Alps",
+    "explicit_text": "My parents were both born near Gap in the French Alps, and my family moved there in 1941 during the war. I spent a decade in Gap, a small city in the High Alps, which is also known as the door to Provence. The French Alps were a beautiful and formative place for me, and I have visited Gap many times since then.",
+    "implicit_text": "My parents were both born near a town in the French Alps, and my family moved there in 1941 during the war. I spent a decade in that small city in the High Alps, which is also known as the door to Provence. The Alps were a beautiful and formative place for me, and I have visited that town many times since then.",
+    "cues": [
+      "1941-1951",
+      "Gap",
+      "High Alps",
+      "door to Provence",
+      "family roots"
+    ],
+    "transcript_ref": "labor\\labor_Charles_Ollivier_-_Pacific_Coast_Pensioners_Association_Oral_History_Project_-_Oral_History_Transcript.yaml"
+  },
+  {
+    "entity_id": 6,
+    "entity": "Gap, Hautes-Alpes",
+    "explicit_text": "Gap is where I lived from 1941 to 1951, a city in the Hautes-Alpes with about 10,000 people back then. It was a wonderful place to grow up, located about an hour and a half from the Mediterranean Sea. Gap is also notable for being a stop in the Tour de France, which I have followed closely over the years.",
+    "implicit_text": "That city in the Hautes-Alpes is where I lived from 1941 to 1951, with about 10,000 people back then. It was a wonderful place to grow up, located about an hour and a half from the Mediterranean Sea. The city is also notable for being a stop in a famous cycling race, which I have followed closely over the years.",
+    "cues": [
+      "1941-1951",
+      "10,000 population",
+      "Mediterranean proximity",
+      "Tour de France stop"
+    ],
+    "transcript_ref": "labor\\labor_Charles_Ollivier_-_Pacific_Coast_Pensioners_Association_Oral_History_Project_-_Oral_History_Transcript.yaml"
+  },
+  {
+    "entity_id": 7,
+    "entity": "Tour de France",
+    "explicit_text": "The Tour de France is a famous cycling race that recently stopped in Gap, the city where I spent much of my youth. It’s a beautiful event that highlights the region’s stunning landscape in the French Alps. Though I was not directly involved, the Tour de France connects me to my roots in Gap and the surrounding area.",
+    "implicit_text": "The famous cycling race recently stopped in the city where I spent much of my youth. It’s a beautiful event that highlights the region’s stunning landscape in the Alps. Though I was not directly involved, the race connects me to my roots in that city and the surrounding area.",
+    "cues": [
+      "recent Tour de France stop",
+      "Gap",
+      "French Alps",
+      "cycling event"
+    ],
+    "transcript_ref": "labor\\labor_Charles_Ollivier_-_Pacific_Coast_Pensioners_Association_Oral_History_Project_-_Oral_History_Transcript.yaml"
+  },
+  {
+    "entity_id": 8,
+    "entity": "Mediterranean Sea",
+    "explicit_text": "The Mediterranean Sea is about an hour and a half drive from Gap, where I lived as a child. It represents the southern border of the region known as Provence, which Gap is considered the door to. The proximity to the sea added to the beauty and appeal of the area during my childhood.",
+    "implicit_text": "The sea about an hour and a half drive from the city where I lived as a child represents the southern border of the region known as Provence, which that city is considered the door to. The proximity to the sea added to the beauty and appeal of the area during my childhood.",
+    "cues": [
+      "hour and a half from Gap",
+      "Provence",
+      "southern France"
+    ],
+    "transcript_ref": "labor\\labor_Charles_Ollivier_-_Pacific_Coast_Pensioners_Association_Oral_History_Project_-_Oral_History_Transcript.yaml"
+  },
+  {
+    "entity_id": 9,
+    "entity": "World War II",
+    "explicit_text": "World War II had a profound impact on my family and my early life. In 1941, during the German occupation of France, my father was drafted and sent away, so I didn’t see him much during that time. The war influenced our move within France and eventually led to our immigration to the United States in 1951.",
+    "implicit_text": "The global conflict had a profound impact on my family and my early life. In 1941, during the German occupation of my home country, my father was drafted and sent away, so I didn’t see him much during that time. The war influenced our move within the country and eventually led to our immigration to the United States in 1951.",
+    "cues": [
+      "1941 German occupation",
+      "father drafted",
+      "family separation",
+      "immigration 1951"
+    ],
+    "transcript_ref": "labor\\labor_Charles_Ollivier_-_Pacific_Coast_Pensioners_Association_Oral_History_Project_-_Oral_History_Transcript.yaml"
+  },
+  {
+    "entity_id": 10,
+    "entity": "United States",
+    "explicit_text": "My family moved to the United States in 1951 after growing disenchanted with the bureaucracy in post-war France. We first lived in Big Piney, Wyoming, then Pocatello, Idaho, before settling in California. The U.S. became my new home where I adapted to a new culture, learned English, and eventually built my career as a longshoreman.",
+    "implicit_text": "My family moved to the United States in 1951 after growing disenchanted with the bureaucracy in post-war Europe. We first lived in a small Wyoming town, then Idaho, before settling in California. The U.S. became my new home where I adapted to a new culture, learned English, and eventually built my career as a longshoreman.",
+    "cues": [
+      "immigration 1951",
+      "Big Piney Wyoming",
+      "Pocatello Idaho",
+      "California",
+      "career start"
+    ],
+    "transcript_ref": "labor\\labor_Charles_Ollivier_-_Pacific_Coast_Pensioners_Association_Oral_History_Project_-_Oral_History_Transcript.yaml"
+  },
+  {
+    "entity_id": 11,
+    "entity": "Idaho",
+    "explicit_text": "After arriving in the United States, my family lived briefly in Pocatello, Idaho, for about six months. My father worked on the railroad there, but the opportunities were limited. Idaho was part of our early struggles as immigrants before we moved to California for better prospects.",
+    "implicit_text": "After arriving in the United States, my family lived briefly in a southeastern Idaho city for about six months. My father worked on the railroad there, but the opportunities were limited. That state was part of our early struggles as immigrants before we moved to California for better prospects.",
+    "cues": [
+      "Pocatello",
+      "six months",
+      "father railroad work",
+      "early immigrant struggles"
+    ],
+    "transcript_ref": "labor\\labor_Charles_Ollivier_-_Pacific_Coast_Pensioners_Association_Oral_History_Project_-_Oral_History_Transcript.yaml"
+  },
+  {
+    "entity_id": 12,
+    "entity": "Utah",
+    "explicit_text": "Before returning to France, my father worked in Utah for French farmers during the 1920s and early 1930s. This experience gave him familiarity with the United States, which later influenced our decision to immigrate there in 1951. Utah was part of my father’s early working life abroad.",
+    "implicit_text": "Before returning to Europe, my father worked in a western U.S. state for French farmers during the 1920s and early 1930s. This experience gave him familiarity with the United States, which later influenced our decision to immigrate there in 1951. That state was part of my father’s early working life abroad.",
+    "cues": [
+      "1920s-1931",
+      "French farmers",
+      "father's work experience",
+      "immigration influence"
+    ],
+    "transcript_ref": "labor\\labor_Charles_Ollivier_-_Pacific_Coast_Pensioners_Association_Oral_History_Project_-_Oral_History_Transcript.yaml"
+  },
+  {
+    "entity_id": 13,
+    "entity": "Colorado",
+    "explicit_text": "Our family history in the United States began in Colorado in the 1880s, where a great uncle worked in the mines. This was the start of the Ollivier family's immigration story to America. Colorado represents the early roots of our family in the U.S., long before I was born.",
+    "implicit_text": "Our family history in the United States began in a Rocky Mountain state in the 1880s, where a great uncle worked in the mines. This was the start of our family’s immigration story to America. That state represents the early roots of our family in the U.S., long before I was born.",
+    "cues": [
+      "1880s",
+      "great uncle mining work",
+      "family immigration roots"
+    ],
+    "transcript_ref": "labor\\labor_Charles_Ollivier_-_Pacific_Coast_Pensioners_Association_Oral_History_Project_-_Oral_History_Transcript.yaml"
+  },
+  {
+    "entity_id": 14,
+    "entity": "Big Piney, Wyoming",
+    "explicit_text": "When we first arrived in the United States in 1951, we lived in Big Piney, Wyoming. It was a harsh environment with cold weather and little work, which made life difficult for my father and family. We didn’t stay there long before moving on to Idaho and then California.",
+    "implicit_text": "When we first arrived in the United States in 1951, we lived in a small Wyoming town. It was a harsh environment with cold weather and little work, which made life difficult for my father and family. We didn’t stay there long before moving on to Idaho and then California.",
+    "cues": [
+      "1951 arrival",
+      "harsh weather",
+      "limited work",
+      "short stay"
+    ],
+    "transcript_ref": "labor\\labor_Charles_Ollivier_-_Pacific_Coast_Pensioners_Association_Oral_History_Project_-_Oral_History_Transcript.yaml"
+  },
+  {
+    "entity_id": 15,
+    "entity": "Pocatello, Idaho",
+    "explicit_text": "After leaving Wyoming, we moved to Pocatello, Idaho, where my father found work on the railroad. We stayed there for about six months, but the opportunities were still limited. This was a transitional period before settling in California where we had family support.",
+    "implicit_text": "After leaving Wyoming, we moved to a southeastern Idaho city where my father found work on the railroad. We stayed there for about six months, but the opportunities were still limited. This was a transitional period before settling in California where we had family support.",
+    "cues": [
+      "six months",
+      "father railroad work",
+      "transition to California"
+    ],
+    "transcript_ref": "labor\\labor_Charles_Ollivier_-_Pacific_Coast_Pensioners_Association_Oral_History_Project_-_Oral_History_Transcript.yaml"
+  },
+  {
+    "entity_id": 16,
+    "entity": "California",
+    "explicit_text": "California became our final destination after moving around the western U.S. My uncle Armand lived there, and it offered better work opportunities for my father and me. I attended Arcata High School in California and later worked in the lumber and plywood mills before joining the longshoremen in Eureka.",
+    "implicit_text": "California became our final destination after moving around the western U.S. My uncle lived there, and it offered better work opportunities for my father and me. I attended high school in Northern California and later worked in the lumber and plywood mills before joining the longshoremen in the coastal city.",
+    "cues": [
+      "post-1952",
+      "Arcata High School",
+      "family support",
+      "work opportunities"
+    ],
+    "transcript_ref": "labor\\labor_Charles_Ollivier_-_Pacific_Coast_Pensioners_Association_Oral_History_Project_-_Oral_History_Transcript.yaml"
+  },
+  {
+    "entity_id": 17,
+    "entity": "San Francisco",
+    "explicit_text": "San Francisco was home to my uncle Armand and a place tied to my family’s history. My aunt Suzanne worked for the Folger coffee family there, and my uncle was involved in the waterfront scene, working in the Embarcadero area. The city also connects to the longshoremen’s strike of 1934 and Harry Bridges, whom my uncle respected greatly.",
+    "implicit_text": "A major West Coast city was home to my uncle and a place tied to my family’s history. My aunt worked for a well-known coffee family there, and my uncle was involved in the waterfront scene, working in the Embarcadero area. The city also connects to the longshoremen’s strike of 1934 and a famous union leader whom my uncle respected greatly.",
+    "cues": [
+      "uncle Armand",
+      "aunt Suzanne",
+      "Folgers",
+      "Embarcadero",
+      "1934 strike",
+      "Harry Bridges"
+    ],
+    "transcript_ref": "labor\\labor_Charles_Ollivier_-_Pacific_Coast_Pensioners_Association_Oral_History_Project_-_Oral_History_Transcript.yaml"
+  },
+  {
+    "entity_id": 18,
+    "entity": "Fieldbrook, California",
+    "explicit_text": "Fieldbrook was where my uncle Armand lived with his wife Suzanne and my uncle Léon after they bought property there in 1945. It was part of our family’s California roots and a place I visited when I first met my uncle in 1944. Fieldbrook represents the family’s settlement in Northern California.",
+    "implicit_text": "A small Northern California community was where my uncle lived with his wife and another uncle after they bought property there in 1945. It was part of our family’s California roots and a place I visited when I first met my uncle in 1944. That community represents the family’s settlement in Northern California.",
+    "cues": [
+      "1945 property purchase",
+      "family home",
+      "Northern California"
+    ],
+    "transcript_ref": "labor\\labor_Charles_Ollivier_-_Pacific_Coast_Pensioners_Association_Oral_History_Project_-_Oral_History_Transcript.yaml"
+  },
+  {
+    "entity_id": 19,
+    "entity": "French Army",
+    "explicit_text": "My uncle Armand served in the French Army during World War II before also being drafted into the United States Army. This dual service reflects the complex history of our family during the war years. His military experience was part of the family stories I grew up hearing.",
+    "implicit_text": "My uncle served in the French Army during World War II before also being drafted into the United States Army. This dual service reflects the complex history of our family during the war years. His military experience was part of the family stories I grew up hearing.",
+    "cues": [
+      "World War II",
+      "French Army service",
+      "U.S. Army draft"
+    ],
+    "transcript_ref": "labor\\labor_Charles_Ollivier_-_Pacific_Coast_Pensioners_Association_Oral_History_Project_-_Oral_History_Transcript.yaml"
+  },
+  {
+    "entity_id": 20,
+    "entity": "United States Army",
+    "explicit_text": "My uncle Armand was drafted into the United States Army during World War II after serving in the French Army. This shows his commitment to both his native and adopted countries during a difficult time. His military service was a significant part of his life and our family history.",
+    "implicit_text": "My uncle was drafted into the United States Army during World War II after serving in the French Army. This shows his commitment to both his native and adopted countries during a difficult time. His military service was a significant part of his life and our family history.",
+    "cues": [
+      "World War II",
+      "drafted U.S. Army",
+      "dual military service"
+    ],
+    "transcript_ref": "labor\\labor_Charles_Ollivier_-_Pacific_Coast_Pensioners_Association_Oral_History_Project_-_Oral_History_Transcript.yaml"
+  },
+  {
+    "entity_id": 21,
+    "entity": "Folgers",
+    "explicit_text": "My aunt Suzanne worked for the Folger family in San Francisco, known for their coffee business. She was one of the world’s best cooks, which made her a valued employee. Folgers represents a connection between our family and San Francisco’s working class and business community.",
+    "implicit_text": "My aunt worked for a prominent coffee family in a major West Coast city. She was one of the world’s best cooks, which made her a valued employee. This connection represents a link between our family and that city’s working class and business community.",
+    "cues": [
+      "San Francisco",
+      "aunt Suzanne",
+      "coffee family",
+      "employment"
+    ],
+    "transcript_ref": "labor\\labor_Charles_Ollivier_-_Pacific_Coast_Pensioners_Association_Oral_History_Project_-_Oral_History_Transcript.yaml"
+  },
+  {
+    "entity_id": 22,
+    "entity": "Embarcadero (San Francisco)",
+    "explicit_text": "The Embarcadero in San Francisco was where my uncle Armand worked in a small cafe during the 1930s. It was also the site of the tragic killing of two longshoremen in 1934, events that led to the famous longshoremen’s strike. This area is deeply tied to my family’s connection to the waterfront and union history.",
+    "implicit_text": "The waterfront area in that West Coast city was where my uncle worked in a small cafe during the 1930s. It was also the site of the tragic killing of two longshoremen in 1934, events that led to the famous longshoremen’s strike. This area is deeply tied to my family’s connection to the waterfront and union history.",
+    "cues": [
+      "1934 killings",
+      "longshoremen strike",
+      "uncle Armand work",
+      "San Francisco waterfront"
+    ],
+    "transcript_ref": "labor\\labor_Charles_Ollivier_-_Pacific_Coast_Pensioners_Association_Oral_History_Project_-_Oral_History_Transcript.yaml"
+  },
+  {
+    "entity_id": 23,
+    "entity": "Harry Bridges",
+    "explicit_text": "Harry Bridges was a legendary union leader whom my uncle Armand greatly respected. Though my uncle never met him personally, he followed his leadership during the formation of the International Longshore and Warehouse Union. When I was about to become a longshoreman, my uncle encouraged me by praising Bridges as one of the finest union leaders ever.",
+    "implicit_text": "A legendary union leader was greatly respected by my uncle. Though my uncle never met him personally, he followed his leadership during the formation of the major West Coast longshoremen’s union. When I was about to become a longshoreman, my uncle encouraged me by praising this leader as one of the finest union leaders ever.",
+    "cues": [
+      "union leader",
+      "ILWU formation",
+      "uncle Armand respect",
+      "longshoreman career"
+    ],
+    "transcript_ref": "labor\\labor_Charles_Ollivier_-_Pacific_Coast_Pensioners_Association_Oral_History_Project_-_Oral_History_Transcript.yaml"
+  },
+  {
+    "entity_id": 24,
+    "entity": "Longshoremen's strike of 1934",
+    "explicit_text": "The longshoremen’s strike of 1934 was a pivotal event in San Francisco’s labor history, sparked by the killing of two longshoremen at the Embarcadero. My uncle Armand was working nearby during this time and witnessed the tensions firsthand. This strike helped shape the union movement that I later joined in Eureka.",
+    "implicit_text": "The longshoremen’s strike of 1934 was a pivotal event in that West Coast city’s labor history, sparked by the killing of two longshoremen at the waterfront. My uncle was working nearby during this time and witnessed the tensions firsthand. This strike helped shape the union movement that I later joined in the Northern California port.",
+    "cues": [
+      "1934",
+      "San Francisco",
+      "Embarcadero killings",
+      "union history"
+    ],
+    "transcript_ref": "labor\\labor_Charles_Ollivier_-_Pacific_Coast_Pensioners_Association_Oral_History_Project_-_Oral_History_Transcript.yaml"
+  },
+  {
+    "entity_id": 25,
+    "entity": "Arcata, California",
+    "explicit_text": "After moving to California, I attended Arcata High School starting in 1952. This was where I learned English and studied American history and government, helping me adjust to life in the United States. Arcata was my first American school experience and a stepping stone to my future work life.",
+    "implicit_text": "After moving to California, I attended high school in a Northern California town starting in 1952. This was where I learned English and studied American history and government, helping me adjust to life in the United States. That town was my first American school experience and a stepping stone to my future work life.",
+    "cues": [
+      "1952",
+      "Arcata High School",
+      "English learning",
+      "American education"
+    ],
+    "transcript_ref": "labor\\labor_Charles_Ollivier_-_Pacific_Coast_Pensioners_Association_Oral_History_Project_-_Oral_History_Transcript.yaml"
+  },
+  {
+    "entity_id": 26,
+    "entity": "Purity Stores",
+    "explicit_text": "My first job in the United States was working as a bag boy at a Purity store, a grocery chain. I earned about a dollar an hour and stayed there for a few months before moving on to work in a sawmill. This job was part of my early American work experience as a teenager.",
+    "implicit_text": "My first job in the United States was working as a bag boy at a grocery chain store. I earned about a dollar an hour and stayed there for a few months before moving on to work in a sawmill. This job was part of my early American work experience as a teenager.",
+    "cues": [
+      "first job",
+      "bag boy",
+      "grocery chain",
+      "early work experience"
+    ],
+    "transcript_ref": "labor\\labor_Charles_Ollivier_-_Pacific_Coast_Pensioners_Association_Oral_History_Project_-_Oral_History_Transcript.yaml"
+  },
+  {
+    "entity_id": 27,
+    "entity": "Lumber and Sawmill Workers' Union, Local 2789",
+    "explicit_text": "I worked in a unionized plywood mill starting in 1953, which was part of the Lumber and Sawmill Workers' Union, Local 2789. This was my introduction to union work and hard labor, building my strength on the green chain. The union experience there helped prepare me for my later career as a longshoreman.",
+    "implicit_text": "I worked in a unionized plywood mill starting in 1953, which was part of the local lumber and sawmill workers' union. This was my introduction to union work and hard labor, building my strength on the green chain. The union experience there helped prepare me for my later career as a longshoreman.",
+    "cues": [
+      "1953",
+      "plywood mill",
+      "unionized work",
+      "Local 2789"
+    ],
+    "transcript_ref": "labor\\labor_Charles_Ollivier_-_Pacific_Coast_Pensioners_Association_Oral_History_Project_-_Oral_History_Transcript.yaml"
+  },
+  {
+    "entity_id": 28,
+    "entity": "International Longshore and Warehouse Union",
+    "explicit_text": "I joined the International Longshore and Warehouse Union in 1966 when I started working on the waterfront in Eureka. The union was a diverse group with Greeks, blacks, Swedes, Norwegians, and me, representing the French. The ILWU was a major part of my life for 35 years, and I loved every minute of working as a longshoreman under its banner.",
+    "implicit_text": "I joined the major West Coast longshoremen’s union in 1966 when I started working on the waterfront in the Northern California port. The union was a diverse group with Greeks, blacks, Swedes, Norwegians, and me, representing the French. That union was a major part of my life for 35 years, and I loved every minute of working as a longshoreman under its banner.",
+    "cues": [
+      "1966 start",
+      "Eureka waterfront",
+      "diverse membership",
+      "35 years career"
+    ],
+    "transcript_ref": "labor\\labor_Charles_Ollivier_-_Pacific_Coast_Pensioners_Association_Oral_History_Project_-_Oral_History_Transcript.yaml"
+  },
+  {
+    "entity_id": 29,
+    "entity": "Port of Eureka",
+    "explicit_text": "The Port of Eureka was where I began my longshoreman career in 1966. It was a busy place with a strong union presence, and I quickly proved myself as a skilled lift driver. The port and its workers became my second family and the center of my working life for decades.",
+    "implicit_text": "The busy harbor in the Northern California coastal city was where I began my longshoreman career in 1966. It was a busy place with a strong union presence, and I quickly proved myself as a skilled lift driver. The port and its workers became my second family and the center of my working life for decades.",
+    "cues": [
+      "1966",
+      "longshoreman start",
+      "lift driver",
+      "union activity"
+    ],
+    "transcript_ref": "labor\\labor_Charles_Ollivier_-_Pacific_Coast_Pensioners_Association_Oral_History_Project_-_Oral_History_Transcript.yaml"
+  },
+  {
+    "entity_id": 30,
+    "entity": "Local 14 (International Longshore and Warehouse Union)",
+    "explicit_text": "Local 14 was the union local in Eureka where I was interviewed and accepted as a longshoreman in 1966. It had about 140 members at the time, many of whom were tough, experienced gang bosses. Joining Local 14 was a proud moment for me, and it marked the beginning of a rewarding career on the waterfront.",
+    "implicit_text": "The local union in the Northern California port was where I was interviewed and accepted as a longshoreman in 1966. It had about 140 members at the time, many of whom were tough, experienced gang bosses. Joining that local was a proud moment for me, and it marked the beginning of a rewarding career on the waterfront.",
+    "cues": [
+      "1966",
+      "140 members",
+      "gang bosses",
+      "union membership"
+    ],
+    "transcript_ref": "labor\\labor_Charles_Ollivier_-_Pacific_Coast_Pensioners_Association_Oral_History_Project_-_Oral_History_Transcript.yaml"
+  },
+  {
+    "entity_id": 31,
+    "entity": "Portland, Oregon",
+    "explicit_text": "Portland, Oregon was mentioned as part of the broader longshoremen’s union network, but I did not have direct personal experience there. It represents one of the other West Coast ports connected through the ILWU. My focus remained primarily on Eureka and Northern California.",
+    "implicit_text": "A major Oregon city was mentioned as part of the broader longshoremen’s union network, but I did not have direct personal experience there. It represents one of the other West Coast ports connected through the union. My focus remained primarily on the Northern California port and surrounding area.",
+    "cues": [
+      "West Coast port",
+      "ILWU network",
+      "no direct experience"
+    ],
+    "transcript_ref": "labor\\labor_Charles_Ollivier_-_Pacific_Coast_Pensioners_Association_Oral_History_Project_-_Oral_History_Transcript.yaml"
+  },
+  {
+    "entity_id": 32,
+    "entity": "Hilton Hotels & Resorts",
+    "explicit_text": "Hilton Hotels & Resorts was not directly mentioned in my story or experiences. My work and family history were more connected to the waterfront, lumber mills, and union activities rather than the hotel industry.",
+    "implicit_text": "The well-known hotel chain was not directly mentioned in my story or experiences. My work and family history were more connected to the waterfront, lumber mills, and union activities rather than the hotel industry.",
+    "cues": [
+      "not mentioned",
+      "no direct connection"
+    ],
+    "transcript_ref": "labor\\labor_Charles_Ollivier_-_Pacific_Coast_Pensioners_Association_Oral_History_Project_-_Oral_History_Transcript.yaml"
+  }
+]

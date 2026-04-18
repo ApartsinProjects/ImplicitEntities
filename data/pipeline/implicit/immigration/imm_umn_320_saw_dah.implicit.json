@@ -1,0 +1,72 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "Thailand",
+    "explicit_text": "Thailand was not my home country, but I lived in a camp on its border after my family fled the Burmese government. We stayed there for a while, receiving new clothes and staying in a hotel for a night before continuing our journey. Although it was a tiny community and life was hard, I remember feeling fresh and rich when we arrived. The road to Thailand was muddy and difficult, but it was a necessary stop before flying to the United States.",
+    "implicit_text": "That country was not my home, but I lived in a camp on its border after my family fled the government of Burma. We stayed there for a while, receiving new clothes and staying in a hotel for a night before continuing our journey. Although it was a tiny community and life was hard, I remember feeling fresh and rich when we arrived. The road to that place was muddy and difficult, but it was a necessary stop before flying to the United States.",
+    "cues": [
+      "camp on the border",
+      "new shirts, pants and shoes",
+      "hotel stay",
+      "muddy road",
+      "tiny community"
+    ],
+    "transcript_ref": "immigration\\imm_umn_320_saw_dah.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "Burmese government",
+    "explicit_text": "My family ran away from the Burmese government to find safety and peace. We left because life under their control was not secure, and we wanted a better future for our children. Escaping the Burmese government led us to live in a camp in Thailand before eventually moving to the United States. The fear of the Burmese government shaped much of our early journey and decisions.",
+    "implicit_text": "My family ran away from the regime controlling Burma to find safety and peace. We left because life under their control was not secure, and we wanted a better future for our children. Escaping that government led us to live in a camp in Thailand before eventually moving to the United States. The fear of that regime shaped much of our early journey and decisions.",
+    "cues": [
+      "ran away",
+      "safety",
+      "peace",
+      "camp in Thailand",
+      "better future"
+    ],
+    "transcript_ref": "immigration\\imm_umn_320_saw_dah.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "United States of America",
+    "explicit_text": "The United States of America was where my family hoped to find a better life with more money and education for the children. I arrived there with my parents and three older sisters, feeling excited but also scared, especially during the plane ride. Life in the U.S. was hard at first, especially because I didn’t understand English and felt embarrassed at school. Over time, I got used to the new culture, schools, and the opportunities available, and I now enjoy living here and hope for success in the future.",
+    "implicit_text": "That country was where my family hoped to find a better life with more money and education for the children. I arrived there with my parents and three older sisters, feeling excited but also scared, especially during the plane ride. Life in that nation was hard at first, especially because I didn’t understand English and felt embarrassed at school. Over time, I got used to the new culture, schools, and the opportunities available, and I now enjoy living here and hope for success in the future.",
+    "cues": [
+      "hope and happiness",
+      "plane ride",
+      "first day of school",
+      "language barrier",
+      "new life",
+      "future success"
+    ],
+    "transcript_ref": "immigration\\imm_umn_320_saw_dah.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "Minnesota",
+    "explicit_text": "Minnesota was the state where my new life in America began. I noticed there was a lot of food and money compared to where I came from, which was a big change. The weather was very different too, with cold winters and hot summers, which took some getting used to. Minnesota gave me the chance to go to school and start fresh, even though I had to move through several schools over the years.",
+    "implicit_text": "That state was where my new life in America began. I noticed there was a lot of food and money compared to where I came from, which was a big change. The weather was very different too, with cold winters and hot summers, which took some getting used to. That place gave me the chance to go to school and start fresh, even though I had to move through several schools over the years.",
+    "cues": [
+      "a lot of food and money",
+      "cold and hot weather",
+      "new life",
+      "school changes"
+    ],
+    "transcript_ref": "immigration\\imm_umn_320_saw_dah.yaml"
+  },
+  {
+    "entity_id": 5,
+    "entity": "Saint Paul, Minnesota",
+    "explicit_text": "I started my new life specifically in Saint Paul, Minnesota. The city was bright with wide and clear roads, which was very different from where I had lived before. Living in Saint Paul was challenging because of the weather and adjusting to a new culture, but over time I adapted. I went to many appointments and clinics, and although it was hard, Saint Paul became my home where I built my future.",
+    "implicit_text": "I started my new life specifically in the capital city of that state. The city was bright with wide and clear roads, which was very different from where I had lived before. Living there was challenging because of the weather and adjusting to a new culture, but over time I adapted. I went to many appointments and clinics, and although it was hard, that city became my home where I built my future.",
+    "cues": [
+      "Saint Paul city",
+      "bright city",
+      "wide roads",
+      "cold and hot weather",
+      "appointments and clinics"
+    ],
+    "transcript_ref": "immigration\\imm_umn_320_saw_dah.yaml"
+  }
+]

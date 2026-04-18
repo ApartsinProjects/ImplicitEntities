@@ -1,0 +1,67 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "Vietnam",
+    "explicit_text": "I am originally from Vietnam, where the food is very fresh and diverse, with many kinds of meat, vegetables, and seafood sold daily at the market from early morning to evening. Back home, people buy fresh ingredients every day to cook at home. I miss this freshness because it is very different from what I find here in the U.S. Vietnamese food is very important to me as it connects me to my culture and makes me feel good.",
+    "implicit_text": "I am originally from a Southeast Asian country where the food is very fresh and diverse, with many kinds of meat, vegetables, and seafood sold daily at the market from early morning to evening. Back home, people buy fresh ingredients every day to cook at home. I miss this freshness because it is very different from what I find here in the U.S. The cuisine from my homeland is very important to me as it connects me to my culture and makes me feel good.",
+    "cues": [
+      "fresh food",
+      "daily markets",
+      "meat, vegetables, seafood",
+      "Vietnamese culture"
+    ],
+    "transcript_ref": "immigration\\imm_umn_279_kiem_vo.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "United States",
+    "explicit_text": "I came to the United States in December 2008, seeking new opportunities and a better life. Living here has been challenging, especially when it comes to finding fresh Vietnamese food like I had back home. Many Vietnamese people in the U.S. also shop at Asian markets to find familiar food, but often the quality and freshness don't compare to Vietnam. Despite these challenges, I have made a home here and continue to study English to improve my life.",
+    "implicit_text": "I came to this North American country in December 2008, seeking new opportunities and a better life. Living here has been challenging, especially when it comes to finding fresh Vietnamese food like I had back home. Many Vietnamese people in this country also shop at Asian markets to find familiar food, but often the quality and freshness don't compare to my homeland. Despite these challenges, I have made a home here and continue to study English to improve my life.",
+    "cues": [
+      "December 2008",
+      "Vietnamese community",
+      "Asian markets",
+      "adjusting to life"
+    ],
+    "transcript_ref": "immigration\\imm_umn_279_kiem_vo.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "Minneapolis",
+    "explicit_text": "I currently live in Minneapolis, Minnesota, where I am studying English at the Cedar Riverside Community. Living in Minneapolis has been a mix of experiences, especially when it comes to food, as it's hard to find fresh Vietnamese ingredients here. Still, Minneapolis is home now, and I try to adapt by shopping at markets in nearby areas like St. Paul. The city has a growing Vietnamese community, which helps me feel connected to my roots.",
+    "implicit_text": "I currently live in a major city in Minnesota, where I am studying English at a local community center. Living here has been a mix of experiences, especially when it comes to food, as it's hard to find fresh Vietnamese ingredients here. Still, this city is home now, and I try to adapt by shopping at markets in nearby areas like the state capital. The city has a growing Vietnamese community, which helps me feel connected to my roots.",
+    "cues": [
+      "Minneapolis, MN",
+      "studying English",
+      "food challenges",
+      "Vietnamese community"
+    ],
+    "transcript_ref": "immigration\\imm_umn_279_kiem_vo.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "Cedar Riverside Community",
+    "explicit_text": "I am studying English at the Cedar Riverside Community in Minneapolis, which has been a great place for me to learn and improve my language skills. This community center supports people like me who are new to the U.S. and want to adapt to life here. Being part of Cedar Riverside helps me connect with others and gain confidence in speaking English, which is essential for my daily life and future goals.",
+    "implicit_text": "I am studying English at a community center in Minneapolis, which has been a great place for me to learn and improve my language skills. This center supports people like me who are new to the U.S. and want to adapt to life here. Being part of this community helps me connect with others and gain confidence in speaking English, which is essential for my daily life and future goals.",
+    "cues": [
+      "English study",
+      "Minneapolis",
+      "community support",
+      "language learning"
+    ],
+    "transcript_ref": "immigration\\imm_umn_279_kiem_vo.yaml"
+  },
+  {
+    "entity_id": 5,
+    "entity": "St. Paul, Minnesota",
+    "explicit_text": "When I want to buy Asian food, I often go to the market in St. Paul, Minnesota, because it has more options than what I can find in Minneapolis. However, the food there is not as fresh as in Vietnam, and some items are frozen, which is different from what I am used to. Many Vietnamese people living in the U.S. also shop at the St. Paul market to find familiar foods. This market is important to me as it helps me maintain a connection to my culture through food.",
+    "implicit_text": "When I want to buy Asian food, I often go to the market in the capital city of Minnesota, because it has more options than what I can find in Minneapolis. However, the food there is not as fresh as in Vietnam, and some items are frozen, which is different from what I am used to. Many Vietnamese people living in the U.S. also shop at this market to find familiar foods. This market is important to me as it helps me maintain a connection to my culture through food.",
+    "cues": [
+      "St. Paul market",
+      "Asian food shopping",
+      "frozen food",
+      "Vietnamese community"
+    ],
+    "transcript_ref": "immigration\\imm_umn_279_kiem_vo.yaml"
+  }
+]

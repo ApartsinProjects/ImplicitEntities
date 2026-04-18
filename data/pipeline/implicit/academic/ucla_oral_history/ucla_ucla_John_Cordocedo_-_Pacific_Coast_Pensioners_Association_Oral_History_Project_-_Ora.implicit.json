@@ -1,0 +1,375 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "North Vancouver",
+    "explicit_text": "I was born in North Vancouver in 1933, and my family has deep roots there. My grandfather jumped ship from Chile and settled in the area, marrying a Squamish woman. My father was born just east of the Lions Gate Bridge, near Cordocedo Slough, and worked as a longshoreman until an accident ended his career. Growing up, I lived near the Lions Gate Bridge and saw the community evolve over the years.",
+    "implicit_text": "I was born in a coastal city just north of Vancouver in 1933, and my family has deep roots there. My grandfather jumped ship from South America and settled in the area, marrying a local Indigenous woman. My father was born just east of the famous suspension bridge connecting the city to Vancouver, near a well-known slough, and worked as a longshoreman until an accident ended his career. Growing up, I lived near that iconic bridge and saw the community evolve over the years.",
+    "cues": [
+      "1933",
+      "grandfather from Chile",
+      "Lions Gate Bridge",
+      "Cordocedo Slough",
+      "longshoreman father"
+    ],
+    "transcript_ref": "academic\\ucla_oral_history\\ucla_ucla_John_Cordocedo_-_Pacific_Coast_Pensioners_Association_Oral_History_Project_-_Ora.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "Chile",
+    "explicit_text": "My grandfather was originally from Chile and jumped ship in British Columbia. He was part of a larger Chilean community that integrated with the Squamish Nation and the white community in the Pacific Northwest, including Seattle and Tacoma. The Chileans have been on the Seattle waterfront since the 1870s and 80s, and their legacy is part of my family history. This Chilean heritage mixed with First Nations and other backgrounds makes my family story quite unique.",
+    "implicit_text": "My grandfather was originally from a South American country on the Pacific coast and jumped ship in British Columbia. He was part of a larger community from that country that integrated with the local Indigenous Nation and the white community in the Pacific Northwest, including Seattle and Tacoma. People from that country have been on the Seattle waterfront since the 1870s and 80s, and their legacy is part of my family history. This heritage mixed with First Nations and other backgrounds makes my family story quite unique.",
+    "cues": [
+      "grandfather from Chile",
+      "Seattle and Tacoma",
+      "1870s and 80s",
+      "integration with Squamish"
+    ],
+    "transcript_ref": "academic\\ucla_oral_history\\ucla_ucla_John_Cordocedo_-_Pacific_Coast_Pensioners_Association_Oral_History_Project_-_Ora.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "Vancouver Island",
+    "explicit_text": "My grandfather worked as a longshoreman on Vancouver Island before settling in North Vancouver. The island was part of the early maritime economy where many families like mine found work. It was a significant place for the early generations of my family, linking the maritime and indigenous communities. Vancouver Island's longshore work was part of the foundation for our family's livelihood.",
+    "implicit_text": "My grandfather worked as a longshoreman on a large island off the southwest coast of British Columbia before settling in the city north of Vancouver. The island was part of the early maritime economy where many families like mine found work. It was a significant place for the early generations of my family, linking the maritime and Indigenous communities. The island's longshore work was part of the foundation for our family's livelihood.",
+    "cues": [
+      "grandfather longshoreman",
+      "early maritime economy",
+      "family livelihood"
+    ],
+    "transcript_ref": "academic\\ucla_oral_history\\ucla_ucla_John_Cordocedo_-_Pacific_Coast_Pensioners_Association_Oral_History_Project_-_Ora.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "Squamish people",
+    "explicit_text": "My grandmother was a Squamish princess, and through her, my family is connected to the Squamish Nation. The Squamish people had their own lumber-loading gangs called the Bow and Arrow Gangs on the Indian Reserve where I used to go with my father. They were not unionized at first but played a vital role in the early waterfront labor. I have a deep respect for the Squamish people and their history on the North Shore.",
+    "implicit_text": "My grandmother was a princess of the local Coast Salish Nation, and through her, my family is connected to that Indigenous community. The people had their own lumber-loading gangs called the Bow and Arrow Gangs on the nearby Indigenous Reserve where I used to go with my father. They were not unionized at first but played a vital role in the early waterfront labor. I have a deep respect for this Nation and their history on the North Shore.",
+    "cues": [
+      "grandmother Squamish princess",
+      "Bow and Arrow Gangs",
+      "Indian Reserve",
+      "early waterfront labor"
+    ],
+    "transcript_ref": "academic\\ucla_oral_history\\ucla_ucla_John_Cordocedo_-_Pacific_Coast_Pensioners_Association_Oral_History_Project_-_Ora.yaml"
+  },
+  {
+    "entity_id": 5,
+    "entity": "Lions Gate Bridge",
+    "explicit_text": "The Lions Gate Bridge is a landmark near where my father was born, just east at the footing of the bridge. Our family lived in houses right under the bridge for a time, close to the waterfront community. It’s a significant geographic marker for my family’s history in North Vancouver. The bridge area was part of the early settlement and working-class neighborhoods where my ancestors lived.",
+    "implicit_text": "The iconic suspension bridge connecting the North Shore to Vancouver is a landmark near where my father was born, just east at the footing of the bridge. Our family lived in houses right under the bridge for a time, close to the waterfront community. It’s a significant geographic marker for my family’s history in that coastal city. The bridge area was part of the early settlement and working-class neighborhoods where my ancestors lived.",
+    "cues": [
+      "father born near Lions Gate Bridge",
+      "family lived under bridge",
+      "North Vancouver waterfront"
+    ],
+    "transcript_ref": "academic\\ucla_oral_history\\ucla_ucla_John_Cordocedo_-_Pacific_Coast_Pensioners_Association_Oral_History_Project_-_Ora.yaml"
+  },
+  {
+    "entity_id": 6,
+    "entity": "Cordocedo Slough",
+    "explicit_text": "Cordocedo Slough was the place where my father was born, near the Lions Gate Bridge in North Vancouver. It was part of the early settlement area for families like mine, including those of Hawaiian and Chilean descent. The slough area was a hub for the waterfront workers and their families. It holds a special place in my family’s history as the birthplace of my father.",
+    "implicit_text": "A well-known slough near the famous suspension bridge in the coastal city north of Vancouver was the place where my father was born. It was part of the early settlement area for families like mine, including those of Hawaiian and South American descent. The slough area was a hub for the waterfront workers and their families. It holds a special place in my family’s history as the birthplace of my father.",
+    "cues": [
+      "father born at Cordocedo Slough",
+      "near Lions Gate Bridge",
+      "early settlement area"
+    ],
+    "transcript_ref": "academic\\ucla_oral_history\\ucla_ucla_John_Cordocedo_-_Pacific_Coast_Pensioners_Association_Oral_History_Project_-_Ora.yaml"
+  },
+  {
+    "entity_id": 7,
+    "entity": "Seattle",
+    "explicit_text": "Seattle was home to many Chilean families like mine who worked on the waterfront since the late 19th century. I have relatives who worked there, including my cousin Ralph Bend who was a walking boss in Seattle. The city was part of the larger Pacific Northwest maritime community that connected with Vancouver and other ports. The longshore traditions and union activities in Seattle influenced the labor movements I was involved in.",
+    "implicit_text": "This major Pacific Northwest city was home to many South American families like mine who worked on the waterfront since the late 19th century. I have relatives who worked there, including my cousin Ralph Bend who was a walking boss in that city. It was part of the larger maritime community that connected with Vancouver and other ports. The longshore traditions and union activities there influenced the labor movements I was involved in.",
+    "cues": [
+      "Chilean families in Seattle",
+      "relatives like Ralph Bend",
+      "Pacific Northwest maritime community",
+      "union activities"
+    ],
+    "transcript_ref": "academic\\ucla_oral_history\\ucla_ucla_John_Cordocedo_-_Pacific_Coast_Pensioners_Association_Oral_History_Project_-_Ora.yaml"
+  },
+  {
+    "entity_id": 8,
+    "entity": "Tacoma, Washington",
+    "explicit_text": "Tacoma, Washington, was another city where Chilean families settled and worked on the waterfront, similar to Seattle. It was part of the network of ports along the West Coast where my family and others found employment. The maritime culture in Tacoma was connected to the broader labor and community ties across the border. These cities shared a lot of history with the Canadian ports.",
+    "implicit_text": "Another West Coast city where South American families settled and worked on the waterfront, similar to Seattle. It was part of the network of ports along the West Coast where my family and others found employment. The maritime culture there was connected to the broader labor and community ties across the border. These cities shared a lot of history with the Canadian ports.",
+    "cues": [
+      "Chilean families in Tacoma",
+      "West Coast ports",
+      "maritime culture",
+      "cross-border labor ties"
+    ],
+    "transcript_ref": "academic\\ucla_oral_history\\ucla_ucla_John_Cordocedo_-_Pacific_Coast_Pensioners_Association_Oral_History_Project_-_Ora.yaml"
+  },
+  {
+    "entity_id": 9,
+    "entity": "Columbia River",
+    "explicit_text": "The Columbia River area was important in the fur trade, and when that depleted, many workers moved north to the Fraser River. Some supervisors from Hawaii managed the Native workers at the Columbia River before moving north. My mother is descended from those Hawaiian supervisors, which adds to my diverse heritage. The Columbia River was a key part of the early economic shifts in the region.",
+    "implicit_text": "The river area forming part of the border between Oregon and Washington was important in the fur trade, and when that depleted, many workers moved north to the Fraser River. Some supervisors from the Hawaiian Islands managed the Native workers at this river before moving north. My mother is descended from those Hawaiian supervisors, which adds to my diverse heritage. This river was a key part of the early economic shifts in the region.",
+    "cues": [
+      "fur trade depletion",
+      "movement north to Fraser River",
+      "Hawaiian supervisors",
+      "mother’s Hawaiian descent"
+    ],
+    "transcript_ref": "academic\\ucla_oral_history\\ucla_ucla_John_Cordocedo_-_Pacific_Coast_Pensioners_Association_Oral_History_Project_-_Ora.yaml"
+  },
+  {
+    "entity_id": 10,
+    "entity": "Hawaii",
+    "explicit_text": "Hawaii figures in my family history through my mother’s side, who descends from Hawaiian supervisors called Kanakas. These Hawaiians managed Native workers along the Columbia River and later moved north. I even found relatives in Hawaii through DNA testing. The Hawaiian community lived in places like Moodyville and Kanaka Row near Vancouver, and their presence shaped the waterfront culture.",
+    "implicit_text": "The Hawaiian Islands figure in my family history through my mother’s side, who descends from Hawaiian supervisors called Kanakas. These Hawaiians managed Native workers along the Columbia River and later moved north. I even found relatives in those islands through DNA testing. The Hawaiian community lived in places like Moodyville and Kanaka Row near Vancouver, and their presence shaped the waterfront culture.",
+    "cues": [
+      "mother’s Hawaiian descent",
+      "Kanakas",
+      "Moodyville and Kanaka Row",
+      "DNA relatives in Hawaii"
+    ],
+    "transcript_ref": "academic\\ucla_oral_history\\ucla_ucla_John_Cordocedo_-_Pacific_Coast_Pensioners_Association_Oral_History_Project_-_Ora.yaml"
+  },
+  {
+    "entity_id": 11,
+    "entity": "Welsh people",
+    "explicit_text": "On my grandfather’s side, there is Welsh heritage as well, which adds another layer to my family’s diverse background. It’s a mix of Chilean, Squamish, Hawaiian, and Welsh roots, making our family story quite complex. I sometimes joke about it being a consomme soup of cultures. This Welsh connection is part of the broader immigrant story in British Columbia.",
+    "implicit_text": "On my grandfather’s side, there is heritage from a Celtic nation known for its valleys and coal mining, which adds another layer to my family’s diverse background. It’s a mix of South American, Indigenous, Hawaiian, and Celtic roots, making our family story quite complex. I sometimes joke about it being a consomme soup of cultures. This Celtic connection is part of the broader immigrant story in British Columbia.",
+    "cues": [
+      "grandfather’s Welsh heritage",
+      "family cultural mix",
+      "immigrant story in BC"
+    ],
+    "transcript_ref": "academic\\ucla_oral_history\\ucla_ucla_John_Cordocedo_-_Pacific_Coast_Pensioners_Association_Oral_History_Project_-_Ora.yaml"
+  },
+  {
+    "entity_id": 12,
+    "entity": "Moodyville",
+    "explicit_text": "Moodyville was a settlement where many Hawaiians, or Kanakas, lived near Vancouver. It was a lumber-loading hub and the place where my mother was born. The area was segregated, with Kanakas living separately from the Commonwealth people. Moodyville is also known for the early concept of job rotation among workers, which influenced longshore labor practices.",
+    "implicit_text": "This historic settlement near Vancouver was where many Hawaiians, or Kanakas, lived. It was a lumber-loading hub and the place where my mother was born. The area was segregated, with Kanakas living separately from the Commonwealth people. Moodyville is also known for the early concept of job rotation among workers, which influenced longshore labor practices.",
+    "cues": [
+      "Moodyville settlement",
+      "Kanaka community",
+      "lumber-loading hub",
+      "job rotation concept"
+    ],
+    "transcript_ref": "academic\\ucla_oral_history\\ucla_ucla_John_Cordocedo_-_Pacific_Coast_Pensioners_Association_Oral_History_Project_-_Ora.yaml"
+  },
+  {
+    "entity_id": 13,
+    "entity": "Man Along the Shore",
+    "explicit_text": "Man Along the Shore is a book put out by pensioners that documents the history of longshore workers, including the Kanaka Row community. It has a section about the Hawaiian presence and early labor practices on the waterfront. I was involved in starting the idea of producing books like this to preserve our history. It’s an important record of the struggles and culture of longshore workers.",
+    "implicit_text": "This book, put out by pensioners, documents the history of longshore workers, including the Kanaka Row community. It has a section about the Hawaiian presence and early labor practices on the waterfront. I was involved in starting the idea of producing books like this to preserve our history. It’s an important record of the struggles and culture of longshore workers.",
+    "cues": [
+      "book by pensioners",
+      "Kanaka Row history",
+      "early labor practices",
+      "preserving longshore history"
+    ],
+    "transcript_ref": "academic\\ucla_oral_history\\ucla_ucla_John_Cordocedo_-_Pacific_Coast_Pensioners_Association_Oral_History_Project_-_Ora.yaml"
+  },
+  {
+    "entity_id": 14,
+    "entity": "Indian Reserve",
+    "explicit_text": "I used to go with my father to the hiring hall on the Indian Reserve where the Squamish people had their own lumber-loading gangs called the Bow and Arrow Gangs. These gangs were employer-organized and not unionized at first. The Reserve was a central place for First Nations labor on the waterfront. It was segregated from the general cargo work done in Vancouver Harbour.",
+    "implicit_text": "I used to go with my father to the hiring hall on the Indigenous Reserve where the local Nation had their own lumber-loading gangs called the Bow and Arrow Gangs. These gangs were employer-organized and not unionized at first. The Reserve was a central place for First Nations labor on the waterfront. It was segregated from the general cargo work done in the main harbor.",
+    "cues": [
+      "hiring hall on Indian Reserve",
+      "Bow and Arrow Gangs",
+      "Squamish labor",
+      "segregated waterfront work"
+    ],
+    "transcript_ref": "academic\\ucla_oral_history\\ucla_ucla_John_Cordocedo_-_Pacific_Coast_Pensioners_Association_Oral_History_Project_-_Ora.yaml"
+  },
+  {
+    "entity_id": 15,
+    "entity": "Vancouver Harbour",
+    "explicit_text": "Vancouver Harbour was the main site for general cargo loading, separate from the lumber-loading work on the North Shore. The employers eventually decided to integrate the workforce between the two sides to avoid labor shortages. This integration marked a significant change in how work was shared across the harbor. I was involved in union activities related to this integration during my career.",
+    "implicit_text": "The main harbor in the city of Vancouver was the primary site for general cargo loading, separate from the lumber-loading work on the North Shore. The employers eventually decided to integrate the workforce between the two sides to avoid labor shortages. This integration marked a significant change in how work was shared across the harbor. I was involved in union activities related to this integration during my career.",
+    "cues": [
+      "general cargo at Vancouver Harbour",
+      "workforce integration",
+      "labor shortages",
+      "union involvement"
+    ],
+    "transcript_ref": "academic\\ucla_oral_history\\ucla_ucla_John_Cordocedo_-_Pacific_Coast_Pensioners_Association_Oral_History_Project_-_Ora.yaml"
+  },
+  {
+    "entity_id": 16,
+    "entity": "Seaboard Marine",
+    "explicit_text": "Seaboard Marine was a major shipping company affiliated with General Steamship in San Francisco that operated on the North Shore lumber docks. Membership and payment to the company were required to ship lumber, which made it hard for smaller outfits to survive. Eventually, a separate dock was built for the smaller companies, but lumber shipping declined with containerization. Seaboard Marine played a big role in the maritime economy where my family worked.",
+    "implicit_text": "A major shipping company affiliated with a San Francisco-based steamship line operated on the North Shore lumber docks. Membership and payment to the company were required to ship lumber, which made it hard for smaller outfits to survive. Eventually, a separate dock was built for the smaller companies, but lumber shipping declined with containerization. This company played a big role in the maritime economy where my family worked.",
+    "cues": [
+      "Seaboard Marine shipping",
+      "affiliated with General Steamship",
+      "North Shore lumber docks",
+      "shipping industry changes"
+    ],
+    "transcript_ref": "academic\\ucla_oral_history\\ucla_ucla_John_Cordocedo_-_Pacific_Coast_Pensioners_Association_Oral_History_Project_-_Ora.yaml"
+  },
+  {
+    "entity_id": 17,
+    "entity": "General Steamship Company",
+    "explicit_text": "The General Steamship Company in San Francisco was affiliated with Seaboard Marine, which operated on the North Shore lumber docks. They controlled much of the lumber shipping business, requiring membership and fees. This control shaped the shipping industry and labor relations in the region. It was part of the maritime environment I grew up around and later worked within.",
+    "implicit_text": "The steamship company based in San Francisco was affiliated with the major lumber shipping firm operating on the North Shore docks. They controlled much of the lumber shipping business, requiring membership and fees. This control shaped the shipping industry and labor relations in the region. It was part of the maritime environment I grew up around and later worked within.",
+    "cues": [
+      "General Steamship affiliation",
+      "Seaboard Marine",
+      "lumber shipping control",
+      "maritime labor environment"
+    ],
+    "transcript_ref": "academic\\ucla_oral_history\\ucla_ucla_John_Cordocedo_-_Pacific_Coast_Pensioners_Association_Oral_History_Project_-_Ora.yaml"
+  },
+  {
+    "entity_id": 18,
+    "entity": "Port of Vancouver",
+    "explicit_text": "I served as president of the Port of Vancouver in 1965 and again in 1969, during a time of significant labor turmoil. The Port was central to the shipping and longshore industries in British Columbia. I also served as vice president of the Canadian area before retiring in 1996. The Port of Vancouver was where much of my career and union activity took place.",
+    "implicit_text": "I served as president of the major Canadian port in 1965 and again in 1969, during a time of significant labor turmoil. The port was central to the shipping and longshore industries in British Columbia. I also served as vice president of the Canadian area before retiring in 1996. This port was where much of my career and union activity took place.",
+    "cues": [
+      "Port of Vancouver president 1965 and 1969",
+      "labor turmoil",
+      "vice president Canadian area",
+      "retired 1996"
+    ],
+    "transcript_ref": "academic\\ucla_oral_history\\ucla_ucla_John_Cordocedo_-_Pacific_Coast_Pensioners_Association_Oral_History_Project_-_Ora.yaml"
+  },
+  {
+    "entity_id": 19,
+    "entity": "Seattle Cemetery",
+    "explicit_text": "I have researched longshoremen’s graveyards, including those in Seattle Cemetery where many lumber carriers and early workers are buried. These cemeteries have separate sections for different groups, reflecting the segregated history of the waterfront. My grandfather, the Chilean, is buried in the Squamish Nations graveyard in North Vancouver, which I found after 60 years of searching. These burial sites are important to preserving our history.",
+    "implicit_text": "I have researched longshoremen’s graveyards, including those in a cemetery in the major Pacific Northwest city where many lumber carriers and early workers are buried. These cemeteries have separate sections for different groups, reflecting the segregated history of the waterfront. My grandfather, the South American, is buried in the Indigenous Nations graveyard in the coastal city north of Vancouver, which I found after 60 years of searching. These burial sites are important to preserving our history.",
+    "cues": [
+      "longshoremen graveyards",
+      "Seattle Cemetery",
+      "segregated burial sections",
+      "grandfather’s grave in North Vancouver"
+    ],
+    "transcript_ref": "academic\\ucla_oral_history\\ucla_ucla_John_Cordocedo_-_Pacific_Coast_Pensioners_Association_Oral_History_Project_-_Ora.yaml"
+  },
+  {
+    "entity_id": 20,
+    "entity": "Portland, Oregon",
+    "explicit_text": "Portland was one of the West Coast ports where many Canadians, including First Nations people, migrated to work on the waterfront. I tracked the origins of many longshore labor ideas that flowed from British Columbia down to Portland and other cities. The labor and union connections between Portland and Canadian ports were strong. It was part of the broader network of maritime communities I was involved with.",
+    "implicit_text": "This city in Oregon was one of the West Coast ports where many Canadians, including First Nations people, migrated to work on the waterfront. I tracked the origins of many longshore labor ideas that flowed from British Columbia down to this city and others. The labor and union connections between this city and Canadian ports were strong. It was part of the broader network of maritime communities I was involved with.",
+    "cues": [
+      "Canadian workers in Portland",
+      "labor ideas from BC",
+      "union connections",
+      "West Coast maritime network"
+    ],
+    "transcript_ref": "academic\\ucla_oral_history\\ucla_ucla_John_Cordocedo_-_Pacific_Coast_Pensioners_Association_Oral_History_Project_-_Ora.yaml"
+  },
+  {
+    "entity_id": 21,
+    "entity": "Port Townsend, Washington",
+    "explicit_text": "Port Townsend is another port city where early longshore workers and their families are buried and where labor traditions developed. I researched graveyards there as part of understanding the history of waterfront workers. The city is part of the regional maritime culture that connects with Vancouver and Seattle. These places share a common labor heritage that shaped my career.",
+    "implicit_text": "This port city in Washington is another place where early longshore workers and their families are buried and where labor traditions developed. I researched graveyards there as part of understanding the history of waterfront workers. The city is part of the regional maritime culture that connects with Vancouver and Seattle. These places share a common labor heritage that shaped my career.",
+    "cues": [
+      "longshore worker graveyards",
+      "labor traditions",
+      "regional maritime culture",
+      "connection to Vancouver and Seattle"
+    ],
+    "transcript_ref": "academic\\ucla_oral_history\\ucla_ucla_John_Cordocedo_-_Pacific_Coast_Pensioners_Association_Oral_History_Project_-_Ora.yaml"
+  },
+  {
+    "entity_id": 22,
+    "entity": "International Longshore and Warehouse Union",
+    "explicit_text": "I was deeply involved with the International Longshore and Warehouse Union throughout my career. The ILWU was the first to organize in British Columbia, and many of its principles originated there. I admired leaders like Harry Bridges and learned a lot from union figures such as Bob Robinson. The union shaped the labor landscape of the waterfront and my own life as a longshoreman and leader.",
+    "implicit_text": "I was deeply involved with the major West Coast longshore union throughout my career. This union was the first to organize in British Columbia, and many of its principles originated there. I admired leaders like a prominent labor figure from the Pacific Northwest and learned a lot from union figures such as Bob Robinson. The union shaped the labor landscape of the waterfront and my own life as a longshoreman and leader.",
+    "cues": [
+      "ILWU involvement",
+      "first to organize in BC",
+      "Harry Bridges admiration",
+      "Bob Robinson mentorship"
+    ],
+    "transcript_ref": "academic\\ucla_oral_history\\ucla_ucla_John_Cordocedo_-_Pacific_Coast_Pensioners_Association_Oral_History_Project_-_Ora.yaml"
+  },
+  {
+    "entity_id": 23,
+    "entity": "Harry Bridges",
+    "explicit_text": "Harry Bridges was a great influence on me and many others in the union movement. I admired him deeply and learned a lot just by listening to him throughout my life. He was a socialist and a powerful labor leader, though he faced challenges like McCarthyism that affected his ability to cross borders. His leadership was instrumental in shaping the ILWU and waterfront labor struggles.",
+    "implicit_text": "This influential labor leader from the Pacific Northwest was a great influence on me and many others in the union movement. I admired him deeply and learned a lot just by listening to him throughout my life. He was a socialist and a powerful labor leader, though he faced challenges like political persecution that affected his ability to cross borders. His leadership was instrumental in shaping the West Coast longshore union and waterfront labor struggles.",
+    "cues": [
+      "Harry Bridges influence",
+      "socialist labor leader",
+      "McCarthyism challenges",
+      "ILWU leadership"
+    ],
+    "transcript_ref": "academic\\ucla_oral_history\\ucla_ucla_John_Cordocedo_-_Pacific_Coast_Pensioners_Association_Oral_History_Project_-_Ora.yaml"
+  },
+  {
+    "entity_id": 24,
+    "entity": "Louis Goldblatt",
+    "explicit_text": "Louis Goldblatt was a key figure in the union movement alongside Harry Bridges, though they had a bit of a fallout. Despite that, Goldblatt was important in Canadian labor circles. I respected both men for their contributions to the waterfront unions. Their work helped shape the labor environment I was part of in Canada and the US.",
+    "implicit_text": "This key figure in the union movement worked alongside the prominent Pacific Northwest labor leader, though they had a bit of a fallout. Despite that, he was important in Canadian labor circles. I respected both men for their contributions to the waterfront unions. Their work helped shape the labor environment I was part of in Canada and the US.",
+    "cues": [
+      "Louis Goldblatt union figure",
+      "association with Harry Bridges",
+      "Canadian labor influence"
+    ],
+    "transcript_ref": "academic\\ucla_oral_history\\ucla_ucla_John_Cordocedo_-_Pacific_Coast_Pensioners_Association_Oral_History_Project_-_Ora.yaml"
+  },
+  {
+    "entity_id": 25,
+    "entity": "McCarthyism",
+    "explicit_text": "During the McCarthy era, Harry Bridges was targeted and barred from entering Canada because of suspicions about his political beliefs. This period was tough for union leaders, costing the membership millions to defend him legally. It was a time of intense political pressure that affected the labor movement deeply. I witnessed how McCarthyism shaped the struggles of union leaders and members alike.",
+    "implicit_text": "During the era of intense anti-communist suspicion in the 1950s, the prominent labor leader was targeted and barred from entering Canada because of suspicions about his political beliefs. This period was tough for union leaders, costing the membership millions to defend him legally. It was a time of intense political pressure that affected the labor movement deeply. I witnessed how this political witch hunt shaped the struggles of union leaders and members alike.",
+    "cues": [
+      "McCarthyism era",
+      "Harry Bridges barred from Canada",
+      "legal defense costs",
+      "political pressure on unions"
+    ],
+    "transcript_ref": "academic\\ucla_oral_history\\ucla_ucla_John_Cordocedo_-_Pacific_Coast_Pensioners_Association_Oral_History_Project_-_Ora.yaml"
+  },
+  {
+    "entity_id": 26,
+    "entity": "Bob Robinson",
+    "explicit_text": "Bob Robinson was the vice president of the ILWU and spent a lot of time helping and teaching young union members like me. When I was in my early twenties, he was one of the leaders who guided me through the complexities of union work. His support was invaluable as I learned about labor organizing and negotiations. I owe much of my knowledge to people like Bob Robinson.",
+    "implicit_text": "Bob Robinson was the vice president of the major West Coast longshore union and spent a lot of time helping and teaching young union members like me. When I was in my early twenties, he was one of the leaders who guided me through the complexities of union work. His support was invaluable as I learned about labor organizing and negotiations. I owe much of my knowledge to people like Bob Robinson.",
+    "cues": [
+      "Bob Robinson ILWU vice president",
+      "mentor in early twenties",
+      "union guidance",
+      "labor organizing"
+    ],
+    "transcript_ref": "academic\\ucla_oral_history\\ucla_ucla_John_Cordocedo_-_Pacific_Coast_Pensioners_Association_Oral_History_Project_-_Ora.yaml"
+  },
+  {
+    "entity_id": 27,
+    "entity": "Ralph Bend",
+    "explicit_text": "Ralph Bend was my first cousin and a walking boss in Seattle, coming from the Squamish Nation in Vancouver. He represents the connection between First Nations workers across the border. His role as a leader in Seattle’s waterfront labor shows how our family was involved in union work on both sides. Ralph’s example was part of my understanding of the labor movement’s reach and diversity.",
+    "implicit_text": "Ralph Bend was my first cousin and a walking boss in the major Pacific Northwest city, coming from the local Indigenous Nation in the coastal city north of Vancouver. He represents the connection between First Nations workers across the border. His role as a leader in that city’s waterfront labor shows how our family was involved in union work on both sides. Ralph’s example was part of my understanding of the labor movement’s reach and diversity.",
+    "cues": [
+      "first cousin Ralph Bend",
+      "walking boss in Seattle",
+      "Squamish Nation",
+      "cross-border labor connections"
+    ],
+    "transcript_ref": "academic\\ucla_oral_history\\ucla_ucla_John_Cordocedo_-_Pacific_Coast_Pensioners_Association_Oral_History_Project_-_Ora.yaml"
+  },
+  {
+    "entity_id": 28,
+    "entity": "Stu Bombary",
+    "explicit_text": "Stu Bombary was my brother-in-law and a professional lacrosse player who worked in the waterfront unions. He played lacrosse in Canada before moving to Los Angeles and joining Local 13. His career shows how sports and labor intersected in our family and community. Stu’s journey from Canada to Los Angeles reflects the mobility of union workers along the West Coast.",
+    "implicit_text": "Stu Bombary was my brother-in-law and a professional lacrosse player who worked in the waterfront unions. He played lacrosse in Canada before moving to Southern California and joining a local union there. His career shows how sports and labor intersected in our family and community. Stu’s journey from Canada to Southern California reflects the mobility of union workers along the West Coast.",
+    "cues": [
+      "brother-in-law Stu Bombary",
+      "professional lacrosse player",
+      "worked in Los Angeles Local 13",
+      "sports and labor connection"
+    ],
+    "transcript_ref": "academic\\ucla_oral_history\\ucla_ucla_John_Cordocedo_-_Pacific_Coast_Pensioners_Association_Oral_History_Project_-_Ora.yaml"
+  },
+  {
+    "entity_id": 29,
+    "entity": "Los Angeles",
+    "explicit_text": "Los Angeles was where my brother-in-law Stu Bombary ended up working in Local 13 after playing lacrosse in Canada. It’s part of the broader West Coast labor network that includes Vancouver, Seattle, and Portland. The city represents the southern reach of the maritime union community I was connected to. It shows how union workers moved and found opportunities along the coast.",
+    "implicit_text": "This major Southern California city was where my brother-in-law ended up working in a local union after playing lacrosse in Canada. It’s part of the broader West Coast labor network that includes Vancouver, Seattle, and Portland. The city represents the southern reach of the maritime union community I was connected to. It shows how union workers moved and found opportunities along the coast.",
+    "cues": [
+      "Stu Bombary in Los Angeles",
+      "Local 13",
+      "West Coast labor network",
+      "maritime union community"
+    ],
+    "transcript_ref": "academic\\ucla_oral_history\\ucla_ucla_John_Cordocedo_-_Pacific_Coast_Pensioners_Association_Oral_History_Project_-_Ora.yaml"
+  }
+]

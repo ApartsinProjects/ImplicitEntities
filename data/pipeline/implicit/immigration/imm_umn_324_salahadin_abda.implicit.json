@@ -1,0 +1,115 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "Ethiopia",
+    "explicit_text": "I was born in Ethiopia, specifically in Bale Robe, Oromia region. Ethiopia has an oppressive dictatorship that does not allow freedom of speech, and speaking freely could lead to terrible consequences. I left Ethiopia in 1997 right after high school because of political dangers, including kidnappings related to tribal conflicts. I miss the land, the weather, and my family there, but the political problems and lack of freedom make it hard to return.",
+    "implicit_text": "I was born in a country in the Horn of Africa, specifically in Bale Robe, within the Oromia region. This country has an oppressive dictatorship that does not allow freedom of speech, and speaking freely could lead to terrible consequences. I left that nation in 1997 right after high school because of political dangers, including kidnappings related to tribal conflicts. I miss the land, the weather, and my family there, but the political problems and lack of freedom make it hard to return.",
+    "cues": [
+      "born in Ethiopia",
+      "oppressive dictatorship",
+      "1997",
+      "political dangers",
+      "tribal kidnappings",
+      "miss the land and weather"
+    ],
+    "transcript_ref": "immigration\\imm_umn_324_salahadin_abda.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "Bale Robe",
+    "explicit_text": "Bale Robe is where I was born, located in the Oromia region of Ethiopia. It is part of my roots and where my family still lives. Although I left Bale Robe due to political oppression and safety concerns, I carry memories of that place with me. I hope one day to return to Bale Robe and reconnect with the land and people I grew up with.",
+    "implicit_text": "The town where I was born is located in the Oromia region of the country I come from. It is part of my roots and where my family still lives. Although I left that town due to political oppression and safety concerns, I carry memories of that place with me. I hope one day to return and reconnect with the land and people I grew up with.",
+    "cues": [
+      "born in Bale Robe",
+      "Oromia region",
+      "family still there",
+      "left due to political oppression",
+      "hope to return"
+    ],
+    "transcript_ref": "immigration\\imm_umn_324_salahadin_abda.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "Oromia Region",
+    "explicit_text": "I come from the Oromia region in Ethiopia, where Bale Robe is located. The region is part of my identity and upbringing. Unfortunately, the political climate in Oromia, like the rest of Ethiopia, is harsh and has forced me to leave for safety reasons. Despite the difficulties, I still feel connected to Oromia and long to visit again someday.",
+    "implicit_text": "I come from a region in the central part of my home country, where the town I was born in is located. The region is part of my identity and upbringing. Unfortunately, the political climate there, like the rest of the country, is harsh and has forced me to leave for safety reasons. Despite the difficulties, I still feel connected to that region and long to visit again someday.",
+    "cues": [
+      "Oromia region",
+      "Bale Robe location",
+      "political climate",
+      "forced to leave",
+      "connection to homeland"
+    ],
+    "transcript_ref": "immigration\\imm_umn_324_salahadin_abda.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "Nairobi",
+    "explicit_text": "After leaving Ethiopia in 1997, I moved to Nairobi, Kenya, where I lived in refugee camps for over five years. Nairobi was where I met my wife, and we bonded over our shared refugee status. We fell in love and got married there in 2000. Nairobi was a pivotal place in my life, marking the transition from my homeland to a new chapter abroad.",
+    "implicit_text": "After leaving my home country in 1997, I moved to the capital city of Kenya, where I lived in refugee camps for over five years. That city was where I met my wife, and we bonded over our shared refugee status. We fell in love and got married there in 2000. That city was a pivotal place in my life, marking the transition from my homeland to a new chapter abroad.",
+    "cues": [
+      "moved in 1997",
+      "refugee camps",
+      "met wife",
+      "married in 2000",
+      "transition point"
+    ],
+    "transcript_ref": "immigration\\imm_umn_324_salahadin_abda.yaml"
+  },
+  {
+    "entity_id": 5,
+    "entity": "Kenya",
+    "explicit_text": "Kenya became my home after I fled Ethiopia in 1997, and I stayed there for a little over five years. Compared to Ethiopia, Kenya was more stable despite its corruption, and the government managed things better. It was in Kenya that I met my wife and started building a new life. Kenya gave me refuge and hope during a difficult time before moving to the United States.",
+    "implicit_text": "This East African country became my home after I fled my homeland in 1997, and I stayed there for a little over five years. Compared to where I came from, this country was more stable despite its corruption, and the government managed things better. It was there that I met my wife and started building a new life. This country gave me refuge and hope during a difficult time before moving to the United States.",
+    "cues": [
+      "lived over five years",
+      "more stable than Ethiopia",
+      "government management",
+      "met wife",
+      "refuge and hope"
+    ],
+    "transcript_ref": "immigration\\imm_umn_324_salahadin_abda.yaml"
+  },
+  {
+    "entity_id": 6,
+    "entity": "United States",
+    "explicit_text": "I arrived in the United States in 2003 after my wife moved there in 2000 and I applied for a marriage visa. I first lived in Minnesota, which was very different from Nairobi, especially with the cold winters that shocked me. The U.S. offered many opportunities, but I also faced challenges like racism and hard work in manufacturing before pursuing my dream in the medical field. I have built a family here and hope to provide a better future for my children despite the difficulties.",
+    "implicit_text": "I arrived in North America in 2003 after my wife moved there in 2000 and I applied for a marriage visa. I first lived in a northern state known for its cold winters, which shocked me compared to my previous home. This country offered many opportunities, but I also faced challenges like racism and hard work in manufacturing before pursuing my dream in the medical field. I have built a family here and hope to provide a better future for my children despite the difficulties.",
+    "cues": [
+      "arrived 2003",
+      "marriage visa CR-1",
+      "Minnesota residence",
+      "culture shock",
+      "racism experience",
+      "medical career pursuit"
+    ],
+    "transcript_ref": "immigration\\imm_umn_324_salahadin_abda.yaml"
+  },
+  {
+    "entity_id": 7,
+    "entity": "Minnesota",
+    "explicit_text": "Minnesota is where I settled when I came to the United States in 2003 to join my wife. The cold winters were a big shock to me compared to Nairobi. My wife and I were happy to be reunited there, and the community helped set me up with an apartment, car, and furnished house. Minnesota became the place where I started working hard, first in manufacturing and later in healthcare, while raising our family.",
+    "implicit_text": "This northern U.S. state is where I settled when I came to join my wife in 2003. The cold winters were a big shock to me compared to the warmer climate I was used to. My wife and I were happy to be reunited there, and the community helped set me up with an apartment, car, and furnished house. This state became the place where I started working hard, first in manufacturing and later in healthcare, while raising our family.",
+    "cues": [
+      "moved in 2003",
+      "cold winters",
+      "reunited with wife",
+      "apartment and car provided",
+      "started working and family life"
+    ],
+    "transcript_ref": "immigration\\imm_umn_324_salahadin_abda.yaml"
+  },
+  {
+    "entity_id": 8,
+    "entity": "Las Vegas",
+    "explicit_text": "Some of my old friends moved to Las Vegas, and they were more surprised by the culture shock than I was when I came to the United States. While I lived in Minnesota, I heard about their experiences in Las Vegas, which helped me appreciate the differences in how people adapt to new environments. Las Vegas represents another example of the challenges immigrants face adjusting to American life.",
+    "implicit_text": "Some of my old friends moved to a city in Nevada, and they were more surprised by the culture shock than I was when I came to the United States. While I lived in the northern state, I heard about their experiences in that desert city, which helped me appreciate the differences in how people adapt to new environments. That city represents another example of the challenges immigrants face adjusting to American life.",
+    "cues": [
+      "friends moved to Las Vegas",
+      "culture shock comparison",
+      "different adaptation experiences",
+      "immigrant challenges"
+    ],
+    "transcript_ref": "immigration\\imm_umn_324_salahadin_abda.yaml"
+  }
+]

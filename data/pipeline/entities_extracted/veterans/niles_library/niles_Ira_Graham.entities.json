@@ -1,0 +1,513 @@
+[
+  {
+    "id": 1,
+    "entity": "Chicago",
+    "type": "Place",
+    "surface_forms": [
+      "Chicago",
+      "south side",
+      "north side",
+      "main street in Chicago"
+    ],
+    "wikipedia_title": "Chicago",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Chicago",
+    "wikidata_qid": "Q1297",
+    "aliases": [
+      "Chicago, Illinois",
+      "The Windy City",
+      "City by the Lake",
+      "The Queen of the West",
+      "Chi-Town",
+      "Chitown",
+      "The Second City",
+      "City of Chicago",
+      "City of Broad Shoulders",
+      "Chi-Raq"
+    ],
+    "description": "city and county seat of Cook County, and largest city in State of Illinois, United States of America",
+    "description_wiki": "Chicago is the most populous city in the U.S. state of Illinois and in the Midwestern United States."
+  },
+  {
+    "id": 2,
+    "entity": "Lindblom High School",
+    "type": "Organization",
+    "surface_forms": [
+      "Lindblom High School",
+      "Lindblom"
+    ],
+    "wikipedia_title": "Lindblom_High_School",
+    "wikipedia_url": "",
+    "wikidata_qid": "Q7346902",
+    "aliases": [
+      "Lindblom Technical High School",
+      "Robert Lindblom Technical High School",
+      "Robert Lindblom High School",
+      "Lindblom High School"
+    ],
+    "description": "High School in Chicago, Illinois",
+    "description_wiki": ""
+  },
+  {
+    "id": 3,
+    "entity": "ROTC",
+    "type": "Organization",
+    "surface_forms": [
+      "ROTC",
+      "the ROTC"
+    ],
+    "wikipedia_title": "Reserve_Officers%27_Training_Corps",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Reserve_Officers%27_Training_Corps"
+  },
+  {
+    "id": 4,
+    "entity": "Pearl Harbor",
+    "type": "Place",
+    "surface_forms": [
+      "Pearl Harbor",
+      "the attack on Pearl Harbor"
+    ],
+    "wikipedia_title": "Pearl_Harbor",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Pearl_Harbor",
+    "wikidata_qid": "Q127091",
+    "aliases": [
+      "Pearl Harbour"
+    ],
+    "description": "harbor on the island of Oahu, Hawaii, USA",
+    "description_wiki": "Pearl Harbor is a lagoon harbor on the island of Oʻahu, Hawaii, United States, west of Honolulu."
+  },
+  {
+    "id": 5,
+    "entity": "Attack on Pearl Harbor",
+    "type": "Event",
+    "surface_forms": [
+      "Pearl Harbor had been attacked",
+      "the attack on Pearl Harbor",
+      "December 7"
+    ],
+    "wikipedia_title": "Attack_on_Pearl_Harbor",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Attack_on_Pearl_Harbor",
+    "wikidata_qid": "Q52418",
+    "aliases": [
+      "Pearl Harbor attack",
+      "Bombing of Pearl Harbor",
+      "Hawaii Operation",
+      "Tour:USS Nevada- Pearl Harbor attack"
+    ],
+    "description": "1941 Japanese surprise attack on the U.S",
+    "description_wiki": "On December 7, 1941, the Empire of Japan launched a surprise military strike on the United States Pacific Fleet at its naval base at Pearl Harbor on Oahu, Hawaii."
+  },
+  {
+    "id": 6,
+    "entity": "Boy Scouts of America",
+    "type": "Organization",
+    "surface_forms": [
+      "Boy Scouts",
+      "scouting",
+      "Scout Camp",
+      "Eagle Scout"
+    ],
+    "wikipedia_title": "Boy_Scouts_of_America",
+    "wikipedia_url": "",
+    "wikidata_qid": "Q608132",
+    "aliases": [
+      "BSA",
+      "Boy Scouts of America"
+    ],
+    "description": "American nonprofit organization",
+    "description_wiki": ""
+  },
+  {
+    "id": 7,
+    "entity": "Alan Milach",
+    "type": "Person",
+    "surface_forms": [
+      "Alan Milach",
+      "Mr. Milach"
+    ],
+    "wikipedia_title": "Alan_Milach",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Alan_Milach"
+  },
+  {
+    "id": 8,
+    "entity": "Hunter College",
+    "type": "Organization",
+    "surface_forms": [
+      "Hunter College",
+      "Hunter College in New York City"
+    ],
+    "wikipedia_title": "Hunter_College",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Hunter_College",
+    "wikidata_qid": "Q1446181",
+    "aliases": [
+      "Hunter",
+      "Normal College of the City of New York)",
+      "Normal College of the City of New York",
+      "CUNY Hunter",
+      "New York Normal College",
+      "Hunter College of the City of New York"
+    ],
+    "description": "university in New York City",
+    "description_wiki": "Hunter College is a public university in New York City, United States."
+  },
+  {
+    "id": 9,
+    "entity": "Patton (film)",
+    "type": "Work",
+    "surface_forms": [
+      "DVD \"Patton\"",
+      "the movie \"Patton\""
+    ],
+    "wikipedia_title": "Patton_(film)",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Patton_(film)",
+    "wikidata_qid": "Q217220",
+    "aliases": [],
+    "description": "1970 film directed by Franklin J. Schaffner",
+    "description_wiki": "Patton is a 1970 American epic biographical war film about U.S. General George S. Patton during World War II. It stars George C. Scott as Patton and Karl Malden as General Omar Bradley."
+  },
+  {
+    "id": 10,
+    "entity": "United States Navy",
+    "type": "Organization",
+    "surface_forms": [
+      "Navy",
+      "the Navy",
+      "naval service"
+    ],
+    "wikipedia_title": "United_States_Navy",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/United_States_Navy",
+    "wikidata_qid": "Q11220",
+    "aliases": [
+      "USN",
+      "US Navy",
+      "U.S. Navy"
+    ],
+    "description": "maritime branch of the United States military",
+    "description_wiki": "The United States Navy (USN) is the maritime service branch of the United States Armed Forces and is designated as the navy of the United States in the Constitution."
+  },
+  {
+    "id": 11,
+    "entity": "Great Lakes Naval Training Station",
+    "type": "Place",
+    "surface_forms": [
+      "Great Lakes",
+      "Great Lakes Naval Training Station",
+      "Great Lakes boot camp",
+      "Great Lakes service school"
+    ],
+    "wikipedia_title": "Naval_Station_Great_Lakes",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Naval_Station_Great_Lakes",
+    "wikidata_qid": "Q3337219",
+    "aliases": [
+      "NAVSTA Great Lakes",
+      "Naval Training Center Great Lakes",
+      "NTC Great Lakes",
+      "Great Mistakes",
+      "Training Support Center Great Lakes",
+      "TSC Great Lakes",
+      "NSGL"
+    ],
+    "description": "naval training base for the United States Navy, outside of Chicago, Illinois",
+    "description_wiki": "Naval Station Great Lakes (NAVSTA Great Lakes) is the home of the United States Navy's only current boot camp, located near North Chicago, in Lake County, Illinois, along Lake Michigan."
+  },
+  {
+    "id": 12,
+    "entity": "Quartermaster",
+    "type": "Military_Unit",
+    "surface_forms": [
+      "Quartermaster",
+      "quartermaster",
+      "Quartermaster 3rd Class",
+      "rating Quartermaster 3rd Class"
+    ],
+    "wikipedia_title": "Quartermaster_(military)",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Quartermaster_(military)"
+  },
+  {
+    "id": 13,
+    "entity": "Iwo Jima",
+    "type": "Place",
+    "surface_forms": [
+      "Iwo Jima"
+    ],
+    "wikipedia_title": "Battle_of_Iwo_Jima",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Battle_of_Iwo_Jima",
+    "wikidata_qid": "Q180182",
+    "aliases": [
+      "Operation Detachment"
+    ],
+    "description": "1945 major battle in which US Forces captured the island of Iwo Jima from Japan during World War II",
+    "description_wiki": "The Battle of Iwo Jima (硫黄島の戦い, Iōtō no Tatakai, Iōjima no Tatakai; 19 February – 26 March 1945) was a major battle in which the United States Marine Corps (USMC) and United States Navy (USN) landed on and eventually captured the island of Iwo Jima from the Imperial Japanese Army (IJA) during World War II. The American invasion, designated Operation Detachment, had the goal of capturing the island with its two airfields: South Field and Central Field."
+  },
+  {
+    "id": 14,
+    "entity": "Battle of Okinawa",
+    "type": "Event",
+    "surface_forms": [
+      "Okinawa",
+      "Battle of Okinawa"
+    ],
+    "wikipedia_title": "Battle_of_Okinawa",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Battle_of_Okinawa",
+    "wikidata_qid": "Q192660",
+    "aliases": [
+      "Operation Iceberg"
+    ],
+    "description": "1945 major battle of the Pacific War",
+    "description_wiki": "The Battle of Okinawa (Japanese: 沖縄戦, Hepburn: Okinawa-sen), codenamed Operation Iceberg, was a major battle of the Pacific War fought on the island of Okinawa by the United States Army and United States Marine Corps forces against the Imperial Japanese Army."
+  },
+  {
+    "id": 15,
+    "entity": "San Francisco",
+    "type": "Place",
+    "surface_forms": [
+      "San Francisco"
+    ],
+    "wikipedia_title": "San_Francisco",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/San_Francisco",
+    "wikidata_qid": "Q62",
+    "aliases": [
+      "San Francisco, California",
+      "The City by the Bay",
+      "SF",
+      "SFO",
+      "The Golden City",
+      "Paris of the West",
+      "Baghdad by the Bay",
+      "San Francisco County",
+      "San Francisco County, California",
+      "San Fran"
+    ],
+    "description": "consolidated city and county in California, United States",
+    "description_wiki": "San Francisco, officially the City and County of San Francisco, is the fourth-most populous city in California and the 17th-most populous in the United States, with a population of 826,079 in 2025."
+  },
+  {
+    "id": 16,
+    "entity": "Pearl Harbor",
+    "type": "Place",
+    "surface_forms": [
+      "Pearl Harbor"
+    ],
+    "wikipedia_title": "Pearl_Harbor",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Pearl_Harbor",
+    "wikidata_qid": "Q127091",
+    "aliases": [
+      "Pearl Harbour"
+    ],
+    "description": "harbor on the island of Oahu, Hawaii, USA",
+    "description_wiki": "Pearl Harbor is a lagoon harbor on the island of Oʻahu, Hawaii, United States, west of Honolulu."
+  },
+  {
+    "id": 17,
+    "entity": "Samar",
+    "type": "Place",
+    "surface_forms": [
+      "Samar"
+    ],
+    "wikipedia_title": "Samar",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Samar",
+    "wikidata_qid": "Q219737",
+    "aliases": [
+      "Samar Island"
+    ],
+    "description": "island in the Philippines",
+    "description_wiki": "Samar ( SAH-mar) is the third largest island in the Philippines."
+  },
+  {
+    "id": 18,
+    "entity": "Leyte",
+    "type": "Place",
+    "surface_forms": [
+      "Leyte"
+    ],
+    "wikipedia_title": "Leyte",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Leyte",
+    "wikidata_qid": "Q211377",
+    "aliases": [
+      "Leyte Island"
+    ],
+    "description": "island in the Philippines",
+    "description_wiki": "Leyte ( LAY-tee, LAY-tay, Tagalog: [ˈleite]) is an island in the Visayas group of islands in the Philippines."
+  },
+  {
+    "id": 19,
+    "entity": "Admiralty Islands",
+    "type": "Place",
+    "surface_forms": [
+      "Admiralty Islands"
+    ],
+    "wikipedia_title": "Admiralty_Islands",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Admiralty_Islands",
+    "wikidata_qid": "Q119230",
+    "aliases": [],
+    "description": "archipelago in the South Pacific Ocean",
+    "description_wiki": "The Admiralty Islands are an archipelago group of 40 islands in the Bismarck Archipelago, to the north of New Guinea in the South Pacific Ocean."
+  },
+  {
+    "id": 20,
+    "entity": "Hollandia",
+    "type": "Place",
+    "surface_forms": [
+      "Hollandia"
+    ],
+    "wikipedia_title": "Hollandia",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Hollandia",
+    "wikidata_qid": "Q1218134",
+    "aliases": [],
+    "description": "Wikimedia disambiguation page",
+    "description_wiki": "Hollandia may refer to:"
+  },
+  {
+    "id": 21,
+    "entity": "USS APC-4",
+    "type": "Military_Unit",
+    "surface_forms": [
+      "US SAPc 4",
+      "USS APC 4",
+      "USS APC-4"
+    ],
+    "wikipedia_title": "USS_APC-4",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/USS_APC-4"
+  },
+  {
+    "id": 22,
+    "entity": "Philippines",
+    "type": "Place",
+    "surface_forms": [
+      "Philippines",
+      "the Philippines"
+    ],
+    "wikipedia_title": "Philippines",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Philippines",
+    "wikidata_qid": "Q928",
+    "aliases": [
+      "Republic of the Philippines",
+      "The Philippines",
+      "Philippine Islands",
+      "RP"
+    ],
+    "description": "archipelagic country in Southeast Asia",
+    "description_wiki": "The Philippines, officially the Republic of the Philippines, is an archipelagic country in Southeast Asia."
+  },
+  {
+    "id": 23,
+    "entity": "Subic Bay",
+    "type": "Place",
+    "surface_forms": [
+      "Subic Bay"
+    ],
+    "wikipedia_title": "Subic_Bay",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Subic_Bay",
+    "wikidata_qid": "Q1542528",
+    "aliases": [],
+    "description": "bay forming part of Luzon Sea on the west coast of the island of Luzon, Philippines",
+    "description_wiki": "Subic Bay is a bay on the west coast of the island of Luzon in the Philippines, about 100 kilometers (62 mi) northwest of Manila Bay."
+  },
+  {
+    "id": 24,
+    "entity": "V-E Day",
+    "type": "Event",
+    "surface_forms": [
+      "V-E Day"
+    ],
+    "wikipedia_title": "Victory_in_Europe_Day",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Victory_in_Europe_Day",
+    "wikidata_qid": "Q622365",
+    "aliases": [
+      "VE Day",
+      "V-E Day"
+    ],
+    "description": "public holiday commemorating the surrender of Nazi Germany (8 May 1945)",
+    "description_wiki": "Victory in Europe Day is the day celebrating the formal acceptance by the Allies of World War II of Nazi Germany's unconditional surrender of its armed forces on Tuesday, 8 May 1945; it marked the official surrender of all German military operations."
+  },
+  {
+    "id": 25,
+    "entity": "New Guinea",
+    "type": "Place",
+    "surface_forms": [
+      "New Guinea"
+    ],
+    "wikipedia_title": "New_Guinea",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/New_Guinea",
+    "wikidata_qid": "Q40285",
+    "aliases": [
+      "Niugini",
+      "Papua",
+      "Pulau Papua",
+      "Papua Island",
+      "Neu Guinea",
+      "Nieuw-Guinea",
+      "Nouvelle Guinee",
+      "Nouvelle Guinée",
+      "Nov-Gvineo",
+      "Nueva Guinea"
+    ],
+    "description": "island in the Pacific Ocean",
+    "description_wiki": "New Guinea (Tok Pisin: Niugini; Hiri Motu: Niu Gini; Indonesian: Papua, fossilized Nugini, also known as Papua or historically Irian) is the world's second-largest island, with an area of 785,753 km2 (303,381 sq mi)."
+  },
+  {
+    "id": 26,
+    "entity": "DC-3",
+    "type": "Work",
+    "surface_forms": [
+      "DC-3"
+    ],
+    "wikipedia_title": "Douglas_DC-3",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Douglas_DC-3",
+    "wikidata_qid": "Q190211",
+    "aliases": [
+      "Gooney Bird",
+      "Douglas DC-3 Dakota",
+      "Dakota DC-3",
+      "DC-3",
+      "DC3"
+    ],
+    "description": "1935 airliner family",
+    "description_wiki": "The Douglas DC-3 is a propeller-driven airliner that was manufactured by the Douglas Aircraft Company."
+  },
+  {
+    "id": 27,
+    "entity": "V-mail",
+    "type": "Work",
+    "surface_forms": [
+      "V-mail"
+    ],
+    "wikipedia_title": "V-mail",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/V-mail",
+    "wikidata_qid": "Q918109",
+    "aliases": [
+      "Victory Mail"
+    ],
+    "description": "hybrid mail process of the United States in WWII",
+    "description_wiki": "V-mail, short for Victory Mail, was a hybrid mail process used by the United States during the Second World War as the primary and secure method to correspond with soldiers stationed abroad."
+  },
+  {
+    "id": 28,
+    "entity": "Atomic bombings of Hiroshima and Nagasaki",
+    "type": "Event",
+    "surface_forms": [
+      "atomic bomb being dropped in Japan",
+      "the bomb"
+    ],
+    "wikipedia_title": "Atomic_bombings_of_Hiroshima_and_Nagasaki",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Atomic_bombings_of_Hiroshima_and_Nagasaki",
+    "wikidata_qid": "Q488",
+    "aliases": [],
+    "description": "1945 use of nuclear weapons against Japan in World War II",
+    "description_wiki": "On 6 and 9 August 1945, the United States detonated two atomic bombs over the Japanese cities of Hiroshima and Nagasaki, respectively, during the final days of World War II. The aerial bombings killed 150,000 to 246,000 people, most of whom were civilians, and remain the first and only uses of nuclear weapons in an armed conflict."
+  },
+  {
+    "id": 29,
+    "entity": "Shellback",
+    "type": "Event",
+    "surface_forms": [
+      "shellbacks",
+      "crossing the equator"
+    ],
+    "wikipedia_title": "Shellback",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Shellback",
+    "wikidata_qid": "Q10819648",
+    "aliases": [],
+    "description": "Wikimedia disambiguation page",
+    "description_wiki": "Shellback may refer to:"
+  }
+]

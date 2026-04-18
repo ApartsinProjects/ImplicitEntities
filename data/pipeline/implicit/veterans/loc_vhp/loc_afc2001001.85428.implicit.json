@@ -1,0 +1,322 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "World War II",
+    "explicit_text": "I served in World War II as part of the U.S. Air Force, reaching the rank of major before I turned down a promotion to lieutenant colonel and went home. My service began in 1942, and I was involved in training and navigation instruction as well as overseas deployment. During the war, I was part of the 91st Bomb Group and had experiences in places like England and Blythe, California. It was a time of intense military activity and personal growth.",
+    "implicit_text": "I served during the global conflict that lasted from 1939 to 1945 as part of the U.S. Air Force, reaching the rank of major before I turned down a promotion to lieutenant colonel and went home. My service began in 1942, and I was involved in training and navigation instruction as well as overseas deployment. During the war, I was part of the 91st Bomb Group and had experiences in places like England and Blythe, California. It was a time of intense military activity and personal growth.",
+    "cues": [
+      "1942",
+      "U.S. Air Force",
+      "91st Bomb Group",
+      "England",
+      "Blythe, California"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.85428.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "Van Nuys, California",
+    "explicit_text": "I was born in Van Nuys, California, in 1919. My father owned a men's store there when I was born, and it was the place where my early family life began. Later, we moved away from Van Nuys, but it remains my birthplace and the start of my story. It was a small community where my family had roots before moving to other parts of California.",
+    "implicit_text": "I was born in a neighborhood in the San Fernando Valley of Los Angeles in 1919. My father owned a men's store there when I was born, and it was the place where my early family life began. Later, we moved away from that area, but it remains my birthplace and the start of my story. It was a small community where my family had roots before moving to other parts of California.",
+    "cues": [
+      "1919",
+      "father's men's store",
+      "birthplace",
+      "family roots"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.85428.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "Chicago, Illinois",
+    "explicit_text": "My mother was American-born and raised in Chicago, Illinois, where she met my father after he moved from St. Louis. Chicago was an important city in my family's history, as it was where my parents met and began their life together. Although I wasn't born there, Chicago played a key role in my family background and heritage.",
+    "implicit_text": "My mother was American-born and raised in a major Midwestern city known for its deep-dish pizza and architectural history, where she met my father after he moved from St. Louis. That city was an important place in my family's history, as it was where my parents met and began their life together. Although I wasn't born there, it played a key role in my family background and heritage.",
+    "cues": [
+      "mother raised",
+      "parents met",
+      "family background"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.85428.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "Germany",
+    "explicit_text": "My father was born in Germany but ran away from home around age 14. His journey took him from Germany to Russia, then to England, and eventually to the United States. Germany is where his story began, and it shaped the early part of his adventurous life before he settled in America.",
+    "implicit_text": "My father was born in a European country known for its rich history and beer, but ran away from home around age 14. His journey took him from there to Russia, then to England, and eventually to the United States. That country is where his story began, and it shaped the early part of his adventurous life before he settled in America.",
+    "cues": [
+      "father born",
+      "ran away at 14",
+      "journey to Russia and England"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.85428.yaml"
+  },
+  {
+    "entity_id": 5,
+    "entity": "Russia",
+    "explicit_text": "After leaving Germany, my father lived in Russia for several years before moving on to England. Russia was a significant stop in his journey as a young runaway, and it was part of the path that eventually led him to the United States. His time there was formative, although I don't have many details about his life in Russia.",
+    "implicit_text": "After leaving his European homeland, my father lived in the largest country in the world by land area for several years before moving on to England. That country was a significant stop in his journey as a young runaway, and it was part of the path that eventually led him to the United States. His time there was formative, although I don't have many details about his life during that period.",
+    "cues": [
+      "father's journey",
+      "several years",
+      "between Germany and England"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.85428.yaml"
+  },
+  {
+    "entity_id": 6,
+    "entity": "England",
+    "explicit_text": "My father stayed in England for some time after living in Russia, before emigrating to the United States around the late 1890s. England was the last stop in his European journey before he boarded a ship to America. It was an important part of his story as a young man seeking a new life.",
+    "implicit_text": "My father stayed in the island nation west of mainland Europe for some time after living in Russia, before emigrating to the United States around the late 1890s. That country was the last stop in his European journey before he boarded a ship to America. It was an important part of his story as a young man seeking a new life.",
+    "cues": [
+      "father's stay",
+      "late 1890s",
+      "emigration to U.S."
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.85428.yaml"
+  },
+  {
+    "entity_id": 7,
+    "entity": "St. Louis, Missouri",
+    "explicit_text": "After arriving in the United States, my father lived in St. Louis, Missouri, for quite a while before moving north to Chicago. St. Louis was part of his early American experience, where he settled temporarily before establishing himself further. It was a stepping stone in his journey to building a life in America.",
+    "implicit_text": "After arriving in the United States, my father lived in a major city on the Mississippi River known for its Gateway Arch for quite a while before moving north to Chicago. That city was part of his early American experience, where he settled temporarily before establishing himself further. It was a stepping stone in his journey to building a life in America.",
+    "cues": [
+      "father's residence",
+      "early U.S. life",
+      "before Chicago"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.85428.yaml"
+  },
+  {
+    "entity_id": 8,
+    "entity": "San Diego, California",
+    "explicit_text": "We moved to San Diego when I was young, where my father ran a military-type store for several years. It was a significant period in my childhood before we relocated again. San Diego represented a military-influenced environment that perhaps foreshadowed my later service in the Air Force.",
+    "implicit_text": "We moved to a coastal city in Southern California when I was young, where my father ran a military-type store for several years. It was a significant period in my childhood before we relocated again. That city represented a military-influenced environment that perhaps foreshadowed my later service in the Air Force.",
+    "cues": [
+      "childhood",
+      "father's military-type store",
+      "several years"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.85428.yaml"
+  },
+  {
+    "entity_id": 9,
+    "entity": "Culver City, California",
+    "explicit_text": "Eventually, my family moved to Culver City, California, settling near the border with Palms. This is where I went to grade school and continued my early education. Culver City became our home after San Diego and was part of my formative years.",
+    "implicit_text": "Eventually, my family moved to a city in Los Angeles County near the border with the Palms neighborhood. This is where I went to grade school and continued my early education. That city became our home after San Diego and was part of my formative years.",
+    "cues": [
+      "family move",
+      "border with Palms",
+      "early education"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.85428.yaml"
+  },
+  {
+    "entity_id": 10,
+    "entity": "Palms, Los Angeles",
+    "explicit_text": "I attended Palms Grammar School in Palms, Los Angeles, after moving near Culver City. This neighborhood was where I started my formal schooling and grew up alongside my brother. Palms was an important part of my childhood community.",
+    "implicit_text": "I attended a grammar school in a neighborhood of Los Angeles called Palms after moving near Culver City. This neighborhood was where I started my formal schooling and grew up alongside my brother. That area was an important part of my childhood community.",
+    "cues": [
+      "Palms Grammar School",
+      "early schooling",
+      "childhood neighborhood"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.85428.yaml"
+  },
+  {
+    "entity_id": 11,
+    "entity": "Venus High School",
+    "explicit_text": "My brother went on to attend Venus High School, where he was active in football and other activities. While I did not attend there myself, Venus High School was part of my family's educational background. It represents my brother's achievements during our youth.",
+    "implicit_text": "My brother went on to attend a high school in the San Fernando Valley area, where he was active in football and other activities. While I did not attend there myself, that high school was part of my family's educational background. It represents my brother's achievements during our youth.",
+    "cues": [
+      "brother's attendance",
+      "football player",
+      "family education"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.85428.yaml"
+  },
+  {
+    "entity_id": 12,
+    "entity": "University of Nevada, Reno",
+    "explicit_text": "I was attending the University of Nevada, Reno, studying engineering when I was recruited by the Air Corps in 1942. My brother had already graduated from the same university and had joined the military. The university was a key part of my life before I entered the Air Force.",
+    "implicit_text": "I was attending a university in Nevada's capital city, studying engineering when I was recruited by the Air Corps in 1942. My brother had already graduated from the same university and had joined the military. That university was a key part of my life before I entered the Air Force.",
+    "cues": [
+      "engineering student",
+      "1942",
+      "brother graduated",
+      "military recruitment"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.85428.yaml"
+  },
+  {
+    "entity_id": 13,
+    "entity": "National Guard",
+    "explicit_text": "My brother initially joined the National Guard before receiving his commission as a second lieutenant in the Army. The National Guard was his first step into military service during the war. It was part of his progression from college to active duty.",
+    "implicit_text": "My brother initially joined a reserve military force that supports the Army and Air Force before receiving his commission as a second lieutenant in the Army. That reserve force was his first step into military service during the war. It was part of his progression from college to active duty.",
+    "cues": [
+      "brother's service",
+      "first military step",
+      "before Army commission"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.85428.yaml"
+  },
+  {
+    "entity_id": 14,
+    "entity": "United States Army",
+    "explicit_text": "After turning down an appointment to West Point, my brother joined the United States Army and was commissioned as a second lieutenant. He worked in surveying and was eventually sent to Brazil during the war. The Army was his branch of service, distinct from my Air Force career.",
+    "implicit_text": "After turning down an appointment to a prestigious military academy, my brother joined the United States Army and was commissioned as a second lieutenant. He worked in surveying and was eventually sent to Brazil during the war. The Army was his branch of service, distinct from my Air Force career.",
+    "cues": [
+      "brother's commission",
+      "surveying work",
+      "Brazil assignment"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.85428.yaml"
+  },
+  {
+    "entity_id": 15,
+    "entity": "West Point",
+    "explicit_text": "My brother was offered an appointment to West Point but chose to decline it and instead joined the Army directly. This decision shaped his military career and path during World War II. West Point was a significant opportunity that he passed on for other reasons.",
+    "implicit_text": "My brother was offered an appointment to the United States Military Academy but chose to decline it and instead joined the Army directly. This decision shaped his military career and path during World War II. That academy was a significant opportunity that he passed on for other reasons.",
+    "cues": [
+      "brother's appointment",
+      "declined",
+      "military career choice"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.85428.yaml"
+  },
+  {
+    "entity_id": 16,
+    "entity": "United States Air Force",
+    "explicit_text": "I enlisted in the United States Air Force in January 1942, bringing my engineering background to navigation training and instruction. I trained at Mather Field and other locations, eventually becoming a navigation instructor and serving overseas. The Air Force was my branch throughout World War II, where I reached the rank of major.",
+    "implicit_text": "I enlisted in the aerial warfare service branch of the U.S. military in January 1942, bringing my engineering background to navigation training and instruction. I trained at a California airfield and other locations, eventually becoming a navigation instructor and serving overseas. That branch was my service throughout the global conflict, where I reached the rank of major.",
+    "cues": [
+      "enlisted 1942",
+      "navigation training",
+      "Mather Field",
+      "rank major"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.85428.yaml"
+  },
+  {
+    "entity_id": 17,
+    "entity": "Mather Field",
+    "explicit_text": "My first navigation course in the Air Force was at Mather Field in California. It was where I began specialized training after pilot and cadet training. Mather Field was an important step in my development as a navigator and instructor.",
+    "implicit_text": "My first navigation course in the Air Force was at an airfield near Sacramento, California. It was where I began specialized training after pilot and cadet training. That airfield was an important step in my development as a navigator and instructor.",
+    "cues": [
+      "navigation course",
+      "California",
+      "early Air Force training"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.85428.yaml"
+  },
+  {
+    "entity_id": 18,
+    "entity": "Stearman Model 75",
+    "explicit_text": "During my pilot training, I flew the Stearman Model 75 and the BT-13 aircraft. The Stearman was part of my basic pilot knowledge, although I wasn't qualified to fly other planes beyond that. It was a key training aircraft in my early military aviation experience.",
+    "implicit_text": "During my pilot training, I flew a biplane trainer commonly used in the 1930s and 1940s along with the BT-13 aircraft. That biplane was part of my basic pilot knowledge, although I wasn't qualified to fly other planes beyond that. It was a key training aircraft in my early military aviation experience.",
+    "cues": [
+      "pilot training",
+      "basic knowledge",
+      "Stearman Model 75"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.85428.yaml"
+  },
+  {
+    "entity_id": 19,
+    "entity": "Louisiana",
+    "explicit_text": "I was sent to Louisiana to evaluate a navigation school that was updating returning airmen from the Far East and Middle East. While there, my classmate and I once humorously demonstrated how to make a dry martini during a show-and-tell session, which got me into trouble with the colonel. Louisiana was a memorable stop during my instructional duties.",
+    "implicit_text": "I was sent to a southern U.S. state known for its bayous and jazz music to evaluate a navigation school that was updating returning airmen from the Far East and Middle East. While there, my classmate and I once humorously demonstrated how to make a dry martini during a show-and-tell session, which got me into trouble with the colonel. That state was a memorable stop during my instructional duties.",
+    "cues": [
+      "navigation school evaluation",
+      "show-and-tell incident",
+      "military training"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.85428.yaml"
+  },
+  {
+    "entity_id": 20,
+    "entity": "Texas",
+    "explicit_text": "While stationed in Texas, I had an incident involving bringing liquor into a classroom during a navigation training session, which was against base regulations. I was nearly court-martialed but was sent home instead after promising never to return. Texas was a challenging and memorable place during my service.",
+    "implicit_text": "While stationed in a large southern U.S. state known for its size and cowboy culture, I had an incident involving bringing liquor into a classroom during a navigation training session, which was against base regulations. I was nearly court-martialed but was sent home instead after promising never to return. That state was a challenging and memorable place during my service.",
+    "cues": [
+      "liquor incident",
+      "nearly court-martialed",
+      "stationed during training"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.85428.yaml"
+  },
+  {
+    "entity_id": 21,
+    "entity": "Blythe, California",
+    "explicit_text": "I was stationed in Blythe, California, after my instructor duties and before being sent overseas. Blythe was where I returned after the Texas incident and where the colonel eventually laughed off the martini episode. It was part of my stateside military service during the war.",
+    "implicit_text": "I was stationed in a desert city in eastern California after my instructor duties and before being sent overseas. That city was where I returned after the Texas incident and where the colonel eventually laughed off the martini episode. It was part of my stateside military service during the war.",
+    "cues": [
+      "stationed post-training",
+      "Texas incident follow-up",
+      "military base"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.85428.yaml"
+  },
+  {
+    "entity_id": 22,
+    "entity": "Jimmy Doolittle",
+    "explicit_text": "I was involved with Jimmy Doolittle's group during their preparations for the famous Doolittle Raid. We served as navigators for his crews during training flights around Sacramento and Southern California, although the destination of their mission was kept secret. Doolittle was a legendary figure I had the honor to support during the war.",
+    "implicit_text": "I was involved with a famous aviator's group during their preparations for a daring bombing raid. We served as navigators for his crews during training flights around Sacramento and Southern California, although the destination of their mission was kept secret. That aviator was a legendary figure I had the honor to support during the war.",
+    "cues": [
+      "Doolittle Raid",
+      "navigation support",
+      "Sacramento",
+      "Southern California"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.85428.yaml"
+  },
+  {
+    "entity_id": 23,
+    "entity": "Doolittle Raid",
+    "explicit_text": "The Doolittle Raid was a significant mission during World War II, and I was part of the navigation team that helped prepare the crews. Although we didn't know the exact target, we flew training routes in California to ready the group. It was a critical and secretive operation that I was proud to be connected with.",
+    "implicit_text": "That daring bombing mission was a significant operation during the global conflict, and I was part of the navigation team that helped prepare the crews. Although we didn't know the exact target, we flew training routes in California to ready the group. It was a critical and secretive operation that I was proud to be connected with.",
+    "cues": [
+      "World War II",
+      "training flights",
+      "California",
+      "secret mission"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.85428.yaml"
+  },
+  {
+    "entity_id": 24,
+    "entity": "91st Bomb Group",
+    "explicit_text": "I became part of the 91st Bomb Group during World War II after my instructor duties. This unit was involved in bombing missions over Europe, and I served as a navigator within the group. Being with the 91st Bomb Group was a defining part of my wartime service overseas.",
+    "implicit_text": "I became part of a well-known bomber unit during the global conflict after my instructor duties. This unit was involved in bombing missions over Europe, and I served as a navigator within the group. Being with that unit was a defining part of my wartime service overseas.",
+    "cues": [
+      "World War II",
+      "navigator",
+      "Europe",
+      "bombing missions"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.85428.yaml"
+  },
+  {
+    "entity_id": 25,
+    "entity": "Florida",
+    "explicit_text": "Florida was mentioned as one of the places related to military activities, but I did not have direct service there. It may have been part of broader Air Force training or deployment areas during the war. My experiences were focused elsewhere, so Florida was not a primary location for me.",
+    "implicit_text": "A southeastern U.S. state known for its beaches and oranges was mentioned as one of the places related to military activities, but I did not have direct service there. It may have been part of broader Air Force training or deployment areas during the war. My experiences were focused elsewhere, so that state was not a primary location for me.",
+    "cues": [
+      "military context",
+      "training locations",
+      "no direct service"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.85428.yaml"
+  },
+  {
+    "entity_id": 26,
+    "entity": "Walla Walla, Washington",
+    "explicit_text": "Walla Walla, Washington, was another location connected to military training or operations during the war, but I did not have personal experience there. It was part of the network of bases and schools involved in preparing airmen. My service took me to other places primarily.",
+    "implicit_text": "A city in the Pacific Northwest known for its agriculture and military training facilities was another location connected to military training or operations during the war, but I did not have personal experience there. It was part of the network of bases and schools involved in preparing airmen. My service took me to other places primarily.",
+    "cues": [
+      "military training",
+      "Air Force bases",
+      "no personal assignment"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.85428.yaml"
+  }
+]

@@ -1,0 +1,288 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "Illinois Institute of Technology",
+    "explicit_text": "I was attending Illinois Institute of Technology as a mechanical engineering student before I enlisted in the Army in August 1943. The Army had come to many colleges, including IIT, to offer an Army Specialized Training Program for engineering students. Although I started there, I was soon sent to the University of Wisconsin–Madison to continue my studies before the program was disbanded.",
+    "implicit_text": "I was attending a well-known Chicago university as a mechanical engineering student before I enlisted in the Army in August 1943. The Army had come to many colleges, including this one, to offer an Army Specialized Training Program for engineering students. Although I started there, I was soon sent to a large Midwestern university to continue my studies before the program was disbanded.",
+    "cues": [
+      "August 1943",
+      "mechanical engineering",
+      "Army Specialized Training Program",
+      "college"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_Irving_Abramson.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "University of Wisconsin–Madison",
+    "explicit_text": "After initially enrolling at Illinois Institute of Technology, the Army sent me to the University of Wisconsin–Madison to continue my engineering education under the Army Specialized Training Program. I studied there for two terms before the program was discontinued in late 1943 or early 1944 due to the war's increasing demands for soldiers. It was my first time away from home before basic training.",
+    "implicit_text": "After initially enrolling at a Chicago technical institute, the Army sent me to a prominent university in Madison to continue my engineering education under the Army Specialized Training Program. I studied there for two terms before the program was discontinued in late 1943 or early 1944 due to the war's increasing demands for soldiers. It was my first time away from home before basic training.",
+    "cues": [
+      "two terms",
+      "Army Specialized Training Program",
+      "1943-1944",
+      "engineering education"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_Irving_Abramson.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "Army Specialized Training Program",
+    "explicit_text": "The Army Specialized Training Program was an initiative that allowed engineering students like me to continue college at government expense and then enter the Army as second lieutenants after graduation. I was part of this program and attended University of Wisconsin–Madison under it. However, the program was disbanded in 1943 or 1944 as the Army needed more infantry soldiers, which led to me being sent to Fort Sheridan for induction.",
+    "implicit_text": "This military initiative allowed engineering students like me to continue college at government expense and then enter the Army as second lieutenants after graduation. I was part of this program and attended the university in Madison under it. However, the program was disbanded in 1943 or 1944 as the Army needed more infantry soldiers, which led to me being sent to a training base in Illinois for induction.",
+    "cues": [
+      "1943-1944",
+      "engineering students",
+      "disbanded",
+      "Fort Sheridan",
+      "second lieutenant"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_Irving_Abramson.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "Fort Sheridan",
+    "explicit_text": "After the Army Specialized Training Program was disbanded, I was ordered to report to Fort Sheridan in Illinois for my induction into the Army. This was a turning point where I transitioned from being a college student to a soldier preparing for basic training. Fort Sheridan was the place where I officially entered active service.",
+    "implicit_text": "After the specialized training program was disbanded, I was ordered to report to an Army induction center in Illinois for my induction into the Army. This was a turning point where I transitioned from being a college student to a soldier preparing for basic training. This location was where I officially entered active service.",
+    "cues": [
+      "Illinois",
+      "induction",
+      "post-Army Specialized Training Program",
+      "1943-1944"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_Irving_Abramson.yaml"
+  },
+  {
+    "entity_id": 5,
+    "entity": "Chicago",
+    "explicit_text": "My family lived in Chicago during the time I enlisted, and my father was running a business in the Albany Park neighborhood. I left from Chicago to join the Army, and it was my home base before I went off to basic training and eventually overseas. Chicago was the city where my roots and family support were during those early years of the war.",
+    "implicit_text": "My family lived in a major Midwestern city during the time I enlisted, and my father was running a business in one of its neighborhoods. I left from this city to join the Army, and it was my home base before I went off to basic training and eventually overseas. This city was where my roots and family support were during those early years of the war.",
+    "cues": [
+      "1943",
+      "family",
+      "Albany Park",
+      "business",
+      "home"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_Irving_Abramson.yaml"
+  },
+  {
+    "entity_id": 6,
+    "entity": "Albany Park, Chicago",
+    "explicit_text": "Albany Park in Chicago was where my father had his business when I enlisted in 1943. It was the neighborhood I came from before heading off to the Army. This area was part of my family's life and the community I knew before the war changed everything.",
+    "implicit_text": "The neighborhood in that major Midwestern city was where my father had his business when I enlisted in 1943. It was the area I came from before heading off to the Army. This community was part of my family's life and the place I knew before the war changed everything.",
+    "cues": [
+      "Chicago",
+      "father's business",
+      "1943",
+      "family neighborhood"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_Irving_Abramson.yaml"
+  },
+  {
+    "entity_id": 7,
+    "entity": "Lane Tech College Prep High School",
+    "explicit_text": "I attended Lane Tech College Prep High School in Chicago for all four years of my high school education. It was a wonderful school and laid the foundation for my engineering studies later at Illinois Institute of Technology. My time there was important in shaping my academic and personal development before the war.",
+    "implicit_text": "I attended a well-regarded technical college preparatory high school in that major Midwestern city for all four years of my high school education. It was a wonderful school and laid the foundation for my engineering studies later at the Chicago technical institute. My time there was important in shaping my academic and personal development before the war.",
+    "cues": [
+      "Chicago",
+      "four years",
+      "high school education",
+      "pre-college"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_Irving_Abramson.yaml"
+  },
+  {
+    "entity_id": 8,
+    "entity": "North Carolina",
+    "explicit_text": "After induction at Fort Sheridan, I was sent to a basic training camp in North Carolina. This was my first real military training experience, where I met soldiers from all over the country and got a glimpse of the diverse America we were fighting for. It was a tough but eye-opening time before I was assigned to the 100th Infantry Division.",
+    "implicit_text": "After induction at the Illinois training center, I was sent to a basic training camp in a southeastern U.S. state known for its military bases. This was my first real military training experience, where I met soldiers from all over the country and got a glimpse of the diverse America we were fighting for. It was a tough but eye-opening time before I was assigned to the 100th Infantry Division.",
+    "cues": [
+      "basic training",
+      "post-induction",
+      "diverse soldiers",
+      "1944"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_Irving_Abramson.yaml"
+  },
+  {
+    "entity_id": 9,
+    "entity": "100th Infantry Division (United States)",
+    "explicit_text": "I was assigned to the 100th Infantry Division, also known as the Century Division, after completing basic training. We trained in Georgia before shipping out to Europe. The division saw heavy combat as we pushed through France and into Germany, including during the Battle of the Bulge and in the Black Forest where I was wounded in December 1944.",
+    "implicit_text": "I was assigned to an infantry division nicknamed the Century Division after completing basic training. We trained in a southern U.S. state before shipping out to Europe. The division saw heavy combat as we pushed through France and into Germany, including during the Battle of the Bulge and in the Black Forest where I was wounded in December 1944.",
+    "cues": [
+      "Georgia training",
+      "Europe deployment",
+      "Battle of the Bulge",
+      "Black Forest",
+      "December 1944"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_Irving_Abramson.yaml"
+  },
+  {
+    "entity_id": 10,
+    "entity": "Georgia (U.S. state)",
+    "explicit_text": "After basic training in North Carolina, I was sent to Georgia to train with the 100th Infantry Division. This was where we prepared for our deployment to Europe. Georgia was a key staging area before we headed to New York to embark for the war overseas.",
+    "implicit_text": "After basic training in the southeastern state, I was sent to another southern state to train with the Century Division. This was where we prepared for our deployment to Europe. That state was a key staging area before we headed to New York to embark for the war overseas.",
+    "cues": [
+      "100th Infantry Division",
+      "training",
+      "pre-deployment",
+      "1944"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_Irving_Abramson.yaml"
+  },
+  {
+    "entity_id": 11,
+    "entity": "New York City",
+    "explicit_text": "From Georgia, my unit was sent to New York City, where we boarded ships to cross the Atlantic to Europe. We left from the ports in New York and zigzagged across the ocean to avoid German submarines. New York was the last stop in the U.S. before entering the European theater.",
+    "implicit_text": "From the southern training area, my unit was sent to a major East Coast city, where we boarded ships to cross the Atlantic to Europe. We left from the ports in this city and zigzagged across the ocean to avoid German submarines. This city was the last stop in the U.S. before entering the European theater.",
+    "cues": [
+      "embarkation",
+      "Atlantic crossing",
+      "1944",
+      "convoy",
+      "submarine avoidance"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_Irving_Abramson.yaml"
+  },
+  {
+    "entity_id": 12,
+    "entity": "Marseille",
+    "explicit_text": "We landed in Marseille, France, after crossing the Atlantic. By the time we arrived, the Americans had already established a strong foothold there. From Marseille, we began our march north through France and eventually into Germany, facing increasingly heavy combat as we approached the front lines.",
+    "implicit_text": "We landed in a major southern French port city after crossing the Atlantic. By the time we arrived, the Americans had already established a strong foothold there. From this city, we began our march north through France and eventually into Germany, facing increasingly heavy combat as we approached the front lines.",
+    "cues": [
+      "France",
+      "landing port",
+      "1944",
+      "European campaign",
+      "march north"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_Irving_Abramson.yaml"
+  },
+  {
+    "entity_id": 13,
+    "entity": "France",
+    "explicit_text": "After landing in Marseille, we moved through eastern France toward Germany. The fighting intensified as we got closer to the front, and we experienced artillery bombardments and rifle skirmishes. It was in France, during the winter of 1944, that I first heard the sounds of battle and faced the harsh conditions of cold and rain in foxholes.",
+    "implicit_text": "After landing in southern France, we moved through eastern parts of the country toward Germany. The fighting intensified as we got closer to the front, and we experienced artillery bombardments and rifle skirmishes. It was in this country, during the winter of 1944, that I first heard the sounds of battle and faced the harsh conditions of cold and rain in foxholes.",
+    "cues": [
+      "Marseille landing",
+      "eastern France",
+      "winter 1944",
+      "artillery attacks",
+      "front lines"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_Irving_Abramson.yaml"
+  },
+  {
+    "entity_id": 14,
+    "entity": "Germany",
+    "explicit_text": "We pushed into Germany as part of the 100th Infantry Division, facing heavy artillery fire and dangerous combat. It was in the Black Forest region of Germany where I was wounded in December 1944. The fighting was intense as we pushed the Germans back during the Battle of the Bulge and other operations.",
+    "implicit_text": "We pushed into the enemy's homeland as part of the Century Division, facing heavy artillery fire and dangerous combat. It was in a dense forested region of this country where I was wounded in December 1944. The fighting was intense as we pushed the enemy back during the Battle of the Bulge and other operations.",
+    "cues": [
+      "Black Forest",
+      "December 1944",
+      "Battle of the Bulge",
+      "artillery attacks",
+      "infantry combat"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_Irving_Abramson.yaml"
+  },
+  {
+    "entity_id": 15,
+    "entity": "C ration",
+    "explicit_text": "While in Europe, we were issued C rations, which were canned prepared foods like corned beef hash and stew. These could be heated over a small burner and were part of the standard field rations. Along with K rations, they kept us fed during long marches and combat operations.",
+    "implicit_text": "While in Europe, we were issued canned prepared foods like corned beef hash and stew. These could be heated over a small burner and were part of the standard field rations. Along with another type of ration, they kept us fed during long marches and combat operations.",
+    "cues": [
+      "field rations",
+      "canned food",
+      "corned beef hash",
+      "Europe",
+      "1944"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_Irving_Abramson.yaml"
+  },
+  {
+    "entity_id": 16,
+    "entity": "K ration",
+    "explicit_text": "The K ration was another type of field ration we carried, consisting of dried foods packed in a small box similar to a Cracker Jack box. It contained crackers, cheese, chocolate bars, and other items. We usually ate either K or C rations depending on the situation, and they were essential for sustenance in the field.",
+    "implicit_text": "Another type of field ration we carried consisted of dried foods packed in a small box similar to a Cracker Jack box. It contained crackers, cheese, chocolate bars, and other items. We usually ate either this or canned rations depending on the situation, and they were essential for sustenance in the field.",
+    "cues": [
+      "dried food",
+      "small box",
+      "field rations",
+      "Europe",
+      "1944"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_Irving_Abramson.yaml"
+  },
+  {
+    "entity_id": 17,
+    "entity": "V-mail",
+    "explicit_text": "During training and early deployment, I kept in touch with my family through V-mail, which was a way to send letters quickly and efficiently during the war. It was especially common while we were still in the U.S. and during the early stages of deployment. Once in the front lines, mail became less frequent but still a vital connection to home.",
+    "implicit_text": "During training and early deployment, I kept in touch with my family through a special wartime mail system that allowed letters to be sent quickly and efficiently. It was especially common while we were still in the U.S. and during the early stages of deployment. Once in the front lines, mail became less frequent but still a vital connection to home.",
+    "cues": [
+      "communication",
+      "family letters",
+      "training period",
+      "early Europe deployment",
+      "wartime mail"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_Irving_Abramson.yaml"
+  },
+  {
+    "entity_id": 18,
+    "entity": "Battle of the Bulge",
+    "explicit_text": "I was involved in the fighting during the Battle of the Bulge in late 1944 as part of the 100th Infantry Division. The battle was intense, with heavy artillery bombardments and dangerous rifle engagements. It was during this period, specifically in December 1944 in the Black Forest region, that I was wounded by artillery shrapnel.",
+    "implicit_text": "I was involved in the fighting during a major late-1944 battle in the Ardennes as part of the Century Division. The battle was intense, with heavy artillery bombardments and dangerous rifle engagements. It was during this period, specifically in December 1944 in the Black Forest region, that I was wounded by artillery shrapnel.",
+    "cues": [
+      "late 1944",
+      "100th Infantry Division",
+      "Black Forest",
+      "artillery",
+      "wounded"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_Irving_Abramson.yaml"
+  },
+  {
+    "entity_id": 19,
+    "entity": "Black Forest",
+    "explicit_text": "The Black Forest in Germany was where I was wounded on December 11, 1944. We had dug shallow foxholes when the German artillery began shelling us for what seemed like hours. I was lying in a foxhole when shrapnel from a shell hit my left side, breaking my leg and puncturing my chest. It was a terrifying and life-changing experience.",
+    "implicit_text": "A dense forested region in the enemy's homeland was where I was wounded on December 11, 1944. We had dug shallow foxholes when the German artillery began shelling us for what seemed like hours. I was lying in a foxhole when shrapnel from a shell hit my left side, breaking my leg and puncturing my chest. It was a terrifying and life-changing experience.",
+    "cues": [
+      "Germany",
+      "December 11, 1944",
+      "artillery attack",
+      "foxhole",
+      "wounded"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_Irving_Abramson.yaml"
+  },
+  {
+    "entity_id": 20,
+    "entity": "MASH (TV series)",
+    "explicit_text": "While I did not mention MASH directly in my service, the experiences I had in the field, including being wounded and treated in aid stations, remind me of the kind of situations portrayed in the MASH TV series. The show captures the harsh realities of war and medical care close to the front lines, similar to what I witnessed during World War II.",
+    "implicit_text": "While I did not mention a famous TV series about a mobile army surgical hospital directly in my service, the experiences I had in the field, including being wounded and treated in aid stations, remind me of the kind of situations portrayed in that show. The series captures the harsh realities of war and medical care close to the front lines, similar to what I witnessed during World War II.",
+    "cues": [
+      "medical care",
+      "field hospitals",
+      "wartime experience",
+      "injury treatment",
+      "wartime reality"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_Irving_Abramson.yaml"
+  },
+  {
+    "entity_id": 21,
+    "entity": "Western Union",
+    "explicit_text": "During the war, Western Union was often used to send official telegrams, including notifications to families about soldiers' statuses. While I did not specify receiving a Western Union telegram myself, it was a common means of communication during World War II for urgent messages. It played a role in how families stayed informed about their loved ones.",
+    "implicit_text": "During the war, a well-known telegram company was often used to send official messages, including notifications to families about soldiers' statuses. While I did not specify receiving a telegram myself, it was a common means of communication during World War II for urgent messages. It played a role in how families stayed informed about their loved ones.",
+    "cues": [
+      "wartime communication",
+      "telegram",
+      "family notification",
+      "World War II"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_Irving_Abramson.yaml"
+  }
+]

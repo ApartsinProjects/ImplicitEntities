@@ -1,0 +1,296 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "Maria Teresa Altamirano",
+    "explicit_text": "My mother, Maria Teresa Altamirano, was a housewife. She raised me and my siblings in Brownsville, Texas. Although she was not supportive of my decision to join the Marine Corps, she played a significant role in my early life. Her influence was part of my upbringing in South Texas.",
+    "implicit_text": "My mother was a housewife. She raised me and my siblings in Brownsville, Texas. Although she was not supportive of my decision to join the Marine Corps, she played a significant role in my early life. Her influence was part of my upbringing in South Texas.",
+    "cues": [
+      "Brownsville, Texas",
+      "mother",
+      "housewife",
+      "South Texas"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.104125.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "Miguel Angel Altamirano",
+    "explicit_text": "My father, Miguel Angel Altamirano, was an electrician by trade. He was the senior figure in our family and, like my mother, he was not in favor of me joining the military. Growing up in Brownsville, Texas, his work ethic and background shaped much of my early life. Despite his reservations about the military, he was a central part of my family.",
+    "implicit_text": "My father was an electrician by trade. He was the senior figure in our family and, like my mother, he was not in favor of me joining the military. Growing up in Brownsville, Texas, his work ethic and background shaped much of my early life. Despite his reservations about the military, he was a central part of my family.",
+    "cues": [
+      "Brownsville, Texas",
+      "father",
+      "electrician",
+      "family"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.104125.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "Jorge Alberto Altamirano",
+    "explicit_text": "Jorge Alberto Altamirano is my brother, one of two brothers I have. He grew up with me in Brownsville, Texas, alongside our sisters and brother. While I went on to join the Marine Corps, Jorge and my other siblings had different paths. Our family was close-knit, but my decision to enlist was not supported by them.",
+    "implicit_text": "One of my two brothers grew up with me in Brownsville, Texas, alongside our sisters and brother. While I went on to join the Marine Corps, he and my other siblings had different paths. Our family was close-knit, but my decision to enlist was not supported by them.",
+    "cues": [
+      "Brownsville, Texas",
+      "brother",
+      "family",
+      "siblings"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.104125.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "Angelica Altamirano",
+    "explicit_text": "Angelica Altamirano is my sister, one of two sisters in my family. We were raised together in Brownsville, Texas. Like my other siblings, she was not supportive of my decision to join the Marine Corps. Our family dynamic was shaped by our upbringing in South Texas.",
+    "implicit_text": "One of my two sisters was raised with me in Brownsville, Texas. Like my other siblings, she was not supportive of my decision to join the Marine Corps. Our family dynamic was shaped by our upbringing in South Texas.",
+    "cues": [
+      "Brownsville, Texas",
+      "sister",
+      "family",
+      "South Texas"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.104125.yaml"
+  },
+  {
+    "entity_id": 5,
+    "entity": "Javier Altamirano",
+    "explicit_text": "Javier Altamirano is the youngest sibling in my family. Growing up in Brownsville, Texas, we shared a close family environment. He, like my other siblings, did not agree with my choice to enlist in the Marine Corps. Despite that, I was determined to serve.",
+    "implicit_text": "The youngest sibling in my family grew up with me in Brownsville, Texas, where we shared a close family environment. He, like my other siblings, did not agree with my choice to enlist in the Marine Corps. Despite that, I was determined to serve.",
+    "cues": [
+      "Brownsville, Texas",
+      "youngest sibling",
+      "family",
+      "South Texas"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.104125.yaml"
+  },
+  {
+    "entity_id": 6,
+    "entity": "United States Marine Corps",
+    "explicit_text": "I voluntarily enlisted in the United States Marine Corps right after graduating from Hanna High School in 1976. The Marine Corps was the only branch that truly drew me in, and I went through intense basic training at the San Diego Recruit Training Depot. Serving in the Marines exposed me to the diversity of the country, which was a stark contrast to my upbringing in South Texas. The experience was physically and mentally demanding but gave me discipline that I carry to this day.",
+    "implicit_text": "I voluntarily enlisted in the Marine Corps right after graduating from Hanna High School in 1976. The Marines were the only branch that truly drew me in, and I went through intense basic training at the San Diego Recruit Training Depot. Serving in this branch exposed me to the diversity of the country, which was a stark contrast to my upbringing in South Texas. The experience was physically and mentally demanding but gave me discipline that I carry to this day.",
+    "cues": [
+      "1976",
+      "Hanna High School",
+      "San Diego Recruit Training Depot",
+      "basic training",
+      "diversity",
+      "discipline"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.104125.yaml"
+  },
+  {
+    "entity_id": 7,
+    "entity": "Hanna High School",
+    "explicit_text": "I attended Hanna High School in Brownsville, Texas, and graduated in 1976. It was there that military recruiters, including Staff Sergeant Watson, visited and inspired me to enlist in the Marine Corps. Despite the general negative attitude toward the military following the Vietnam War, I was drawn to the opportunity. My time at Hanna High was the starting point for my military journey.",
+    "implicit_text": "I attended high school in Brownsville, Texas, and graduated in 1976. It was there that military recruiters, including a memorable Staff Sergeant, visited and inspired me to enlist in the Marine Corps. Despite the general negative attitude toward the military following the Vietnam War, I was drawn to the opportunity. My time at that high school was the starting point for my military journey.",
+    "cues": [
+      "Brownsville, Texas",
+      "1976",
+      "military recruiters",
+      "Staff Sergeant Watson",
+      "Vietnam War aftermath"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.104125.yaml"
+  },
+  {
+    "entity_id": 8,
+    "entity": "Vietnam War",
+    "explicit_text": "The Vietnam War had just recently ended when I graduated high school in 1976, and the general public attitude was very negative toward the military because of it. There was widespread discontent and resentment about the government's involvement in a distant conflict. This made recruiting difficult, but I chose to enlist despite the unpopular sentiment. The war's legacy shaped the environment I entered as a new recruit.",
+    "implicit_text": "The Vietnam War had just recently ended when I graduated high school in 1976, and the general public attitude was very negative toward the military because of it. There was widespread discontent and resentment about the government's involvement in a distant conflict. This made recruiting difficult, but I chose to enlist despite the unpopular sentiment. The war's legacy shaped the environment I entered as a new recruit.",
+    "cues": [
+      "1976",
+      "post-Vietnam War",
+      "public discontent",
+      "military recruitment challenges"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.104125.yaml"
+  },
+  {
+    "entity_id": 9,
+    "entity": "Staff Sergeant Watson",
+    "explicit_text": "Staff Sergeant Watson was the military recruiter who came to Hanna High School in 1976. He was an Anglo, tall, poster-board Marine who made an impression on me. Despite the general unpopularity of the military at the time, he inspired me to consider enlistment. I ended up being the only one from my group of friends to join, largely because of his visit.",
+    "implicit_text": "A tall, Anglo military recruiter came to my high school in 1976. He was a poster-board Marine who made an impression on me. Despite the general unpopularity of the military at the time, he inspired me to consider enlistment. I ended up being the only one from my group of friends to join, largely because of his visit.",
+    "cues": [
+      "1976",
+      "Hanna High School",
+      "military recruiter",
+      "Marine Corps",
+      "Brownsville, Texas"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.104125.yaml"
+  },
+  {
+    "entity_id": 10,
+    "entity": "South Texas",
+    "explicit_text": "I grew up in South Texas, specifically in Brownsville, where the population is predominantly Latino with very little diversity. This lack of diversity was striking when I joined the Marine Corps and encountered people from many different backgrounds. South Texas remains one of the least diverse areas in the country, and that contrast shaped my perspective on race and culture. It was a unique environment that influenced my early life and worldview.",
+    "implicit_text": "I grew up in South Texas, specifically in Brownsville, where the population is predominantly Latino with very little diversity. This lack of diversity was striking when I joined the Marine Corps and encountered people from many different backgrounds. South Texas remains one of the least diverse areas in the country, and that contrast shaped my perspective on race and culture. It was a unique environment that influenced my early life and worldview.",
+    "cues": [
+      "Brownsville, Texas",
+      "predominantly Latino",
+      "lack of diversity",
+      "Marine Corps experience"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.104125.yaml"
+  },
+  {
+    "entity_id": 11,
+    "entity": "Brownsville, Texas",
+    "explicit_text": "Brownsville, Texas, is where I was born and raised along with my family. It’s a city in South Texas with a largely Latino population and minimal ethnic diversity. Growing up there shaped my identity and values, but it also meant I had little exposure to other cultures until I joined the Marine Corps. Despite the challenges, I have stayed connected to Brownsville and its community.",
+    "implicit_text": "Brownsville, Texas, is where I was born and raised along with my family. It’s a city in South Texas with a largely Latino population and minimal ethnic diversity. Growing up there shaped my identity and values, but it also meant I had little exposure to other cultures until I joined the Marine Corps. Despite the challenges, I have stayed connected to Brownsville and its community.",
+    "cues": [
+      "South Texas",
+      "Latino population",
+      "family",
+      "community"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.104125.yaml"
+  },
+  {
+    "entity_id": 12,
+    "entity": "Lower Rio Grande Valley",
+    "explicit_text": "The Lower Rio Grande Valley, including Brownsville and McAllen, is where I grew up and experienced a very homogeneous culture. This region has remained one of the least affected by racial and ethnic diversity in the United States. My time in the Marine Corps was my first real exposure to the broader diversity of the country, which was eye-opening compared to the Valley. It’s a unique place with a strong Latino influence.",
+    "implicit_text": "The Lower Rio Grande Valley, including Brownsville and McAllen, is where I grew up and experienced a very homogeneous culture. This region has remained one of the least affected by racial and ethnic diversity in the United States. My time in the Marine Corps was my first real exposure to the broader diversity of the country, which was eye-opening compared to the Valley. It’s a unique place with a strong Latino influence.",
+    "cues": [
+      "Brownsville",
+      "McAllen",
+      "South Texas",
+      "lack of diversity",
+      "Marine Corps"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.104125.yaml"
+  },
+  {
+    "entity_id": 13,
+    "entity": "Starbucks",
+    "explicit_text": "Starbucks published a diversity index and conversation starters about race relations in 2015, which I used as a visual aid to illustrate racial diversity in the U.S. This initiative was a response to events like the Ferguson unrest and aimed to spark dialogue about race. I found it useful to compare the diversity in places like the East Coast to my home region in South Texas. It helped me reflect on my own experiences with diversity in the military versus my upbringing.",
+    "implicit_text": "A major coffee company published a diversity index and conversation starters about race relations in 2015, which I used as a visual aid to illustrate racial diversity in the U.S. This initiative was a response to events like the Ferguson unrest and aimed to spark dialogue about race. I found it useful to compare the diversity in places like the East Coast to my home region in South Texas. It helped me reflect on my own experiences with diversity in the military versus my upbringing.",
+    "cues": [
+      "2015",
+      "diversity index",
+      "Ferguson unrest",
+      "race relations",
+      "conversation starters"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.104125.yaml"
+  },
+  {
+    "entity_id": 14,
+    "entity": "Ferguson unrest",
+    "explicit_text": "The Ferguson unrest in 2014 was a significant event that prompted Starbucks to create materials about race relations. This unrest highlighted racial tensions in America and inspired a national conversation. I referenced this event when discussing racial diversity and the challenges of understanding race in different parts of the country. It helped contextualize my own experiences with diversity in the military compared to South Texas.",
+    "implicit_text": "The Ferguson unrest in 2014 was a significant event that prompted a major coffee company to create materials about race relations. This unrest highlighted racial tensions in America and inspired a national conversation. I referenced this event when discussing racial diversity and the challenges of understanding race in different parts of the country. It helped contextualize my own experiences with diversity in the military compared to South Texas.",
+    "cues": [
+      "2014",
+      "racial tensions",
+      "national conversation",
+      "Starbucks initiative"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.104125.yaml"
+  },
+  {
+    "entity_id": 15,
+    "entity": "University of Minnesota",
+    "explicit_text": "The University of Minnesota was the source of data I used for the USA Today Diversity Index poster board. Their research helped illustrate the chances that two random people in different regions of the U.S. would be of different races or ethnicities. This academic data was important for understanding the diversity differences between places like the East Coast and South Texas. It gave me a factual basis to discuss race and diversity in America.",
+    "implicit_text": "A large Midwestern university was the source of data I used for the USA Today Diversity Index poster board. Their research helped illustrate the chances that two random people in different regions of the U.S. would be of different races or ethnicities. This academic data was important for understanding the diversity differences between places like the East Coast and South Texas. It gave me a factual basis to discuss race and diversity in America.",
+    "cues": [
+      "USA Today Diversity Index",
+      "racial diversity data",
+      "academic research",
+      "regional differences"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.104125.yaml"
+  },
+  {
+    "entity_id": 16,
+    "entity": "San Antonio, Texas",
+    "explicit_text": "San Antonio was the first stop on my journey to the Marine Corps after high school. I went there to take the Armed Forces Entrance Exam at the AFEES building, where I was screened for eligibility. From San Antonio, I then took a flight to San Diego for boot camp. It was a key location in the early steps of my military enlistment.",
+    "implicit_text": "San Antonio was the first stop on my journey to the Marine Corps after high school. I went there to take the Armed Forces Entrance Exam at the AFEES building, where I was screened for eligibility. From San Antonio, I then took a flight to San Diego for boot camp. It was a key location in the early steps of my military enlistment.",
+    "cues": [
+      "Armed Forces Entrance Exam Station",
+      "AFEES",
+      "military screening",
+      "flight to San Diego"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.104125.yaml"
+  },
+  {
+    "entity_id": 17,
+    "entity": "Armed Forces Entrance Exam Station",
+    "explicit_text": "The Armed Forces Entrance Exam Station, or AFEES, in San Antonio was where I took my mental and physical screening before joining the Marine Corps. It was the official place to determine if I was eligible to enlist. After passing the tests there, I was given a plane ticket to San Diego for basic training. This was a crucial step in my enlistment process in 1976.",
+    "implicit_text": "The Armed Forces Entrance Exam Station, or AFEES, in San Antonio was where I took my mental and physical screening before joining the Marine Corps. It was the official place to determine if I was eligible to enlist. After passing the tests there, I was given a plane ticket to San Diego for basic training. This was a crucial step in my enlistment process in 1976.",
+    "cues": [
+      "San Antonio",
+      "military screening",
+      "eligibility",
+      "1976",
+      "Marine Corps enlistment"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.104125.yaml"
+  },
+  {
+    "entity_id": 18,
+    "entity": "Harlingen, Texas",
+    "explicit_text": "Harlingen, Texas, is where I caught my flight from after passing the Armed Forces Entrance Exam in San Antonio. The Harlingen airport was the departure point for my journey to San Diego for Marine Corps boot camp. It marked the transition from my life in South Texas to my military training on the West Coast.",
+    "implicit_text": "Harlingen, Texas, is where I caught my flight from after passing the Armed Forces Entrance Exam in San Antonio. The Harlingen airport was the departure point for my journey to San Diego for Marine Corps boot camp. It marked the transition from my life in South Texas to my military training on the West Coast.",
+    "cues": [
+      "flight departure",
+      "Harlingen airport",
+      "South Texas",
+      "Marine Corps boot camp"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.104125.yaml"
+  },
+  {
+    "entity_id": 19,
+    "entity": "San Diego, California",
+    "explicit_text": "San Diego, California, is where I completed my Marine Corps basic training at the Recruit Training Depot. The training there was intense and transformative, lasting about three months. Although the area is beautiful, the experience was grueling and focused on building discipline and teamwork. It was my first real exposure to people from diverse backgrounds, a stark contrast to my upbringing in South Texas.",
+    "implicit_text": "San Diego, California, is where I completed my Marine Corps basic training at the Recruit Training Depot. The training there was intense and transformative, lasting about three months. Although the area is beautiful, the experience was grueling and focused on building discipline and teamwork. It was my first real exposure to people from diverse backgrounds, a stark contrast to my upbringing in South Texas.",
+    "cues": [
+      "Marine Corps Recruit Training Depot",
+      "basic training",
+      "three months",
+      "diversity exposure"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.104125.yaml"
+  },
+  {
+    "entity_id": 20,
+    "entity": "San Diego Recruit Training Depot",
+    "explicit_text": "The San Diego Recruit Training Depot was where I underwent my Marine Corps boot camp in 1976. It was a physically and mentally demanding experience that stripped me down and rebuilt me as a Marine. The depot included barracks, classrooms, rifle ranges, and training hills. I lived and trained there with a diverse group of recruits, which was eye-opening compared to my South Texas background.",
+    "implicit_text": "The San Diego Recruit Training Depot was where I underwent my Marine Corps boot camp in 1976. It was a physically and mentally demanding experience that stripped me down and rebuilt me as a Marine. The depot included barracks, classrooms, rifle ranges, and training hills. I lived and trained there with a diverse group of recruits, which was eye-opening compared to my South Texas background.",
+    "cues": [
+      "1976",
+      "Marine Corps boot camp",
+      "physical and mental training",
+      "diverse recruits",
+      "San Diego"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.104125.yaml"
+  },
+  {
+    "entity_id": 21,
+    "entity": "Del Rio",
+    "explicit_text": "Del Rio was a fellow Hispanic recruit I met during basic training at the San Diego Recruit Training Depot. Although none of my platoon mates were from Texas, I reached out to him as one of the few Hispanics in the group. We bonded during the intense training, which helped me get through the challenges of boot camp. His presence was important in a platoon mostly made up of Anglos and African Americans.",
+    "implicit_text": "Del Rio was a fellow Hispanic recruit I met during basic training at the San Diego Recruit Training Depot. Although none of my platoon mates were from Texas, I reached out to him as one of the few Hispanics in the group. We bonded during the intense training, which helped me get through the challenges of boot camp. His presence was important in a platoon mostly made up of Anglos and African Americans.",
+    "cues": [
+      "San Diego Recruit Training Depot",
+      "basic training",
+      "Hispanic recruit",
+      "platoon mate"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.104125.yaml"
+  },
+  {
+    "entity_id": 22,
+    "entity": "Carbajal",
+    "explicit_text": "Carbajal was another Hispanic recruit in my platoon during Marine Corps basic training at San Diego. Along with Del Rio, he was one of the few Hispanics in a platoon mostly composed of Anglos and African Americans. We shared the experience of going through the demanding training together, which created a bond. Their presence helped me feel less isolated during boot camp.",
+    "implicit_text": "Carbajal was another Hispanic recruit in my platoon during Marine Corps basic training at San Diego. Along with Del Rio, he was one of the few Hispanics in a platoon mostly composed of Anglos and African Americans. We shared the experience of going through the demanding training together, which created a bond. Their presence helped me feel less isolated during boot camp.",
+    "cues": [
+      "San Diego Recruit Training Depot",
+      "basic training",
+      "Hispanic recruit",
+      "platoon mate"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.104125.yaml"
+  }
+]

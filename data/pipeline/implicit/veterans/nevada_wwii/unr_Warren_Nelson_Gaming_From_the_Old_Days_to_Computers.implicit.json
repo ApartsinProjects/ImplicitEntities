@@ -1,0 +1,400 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "Great Falls, Montana",
+    "explicit_text": "I was born in Great Falls, Montana, on January 19, 1913. It was where my father, Lawrence Nelson, worked as a chef. My early years were spent there before moving to southern Montana after my mother passed away.",
+    "implicit_text": "I was born in a city in Montana on January 19, 1913. It was where my father, Lawrence Nelson, worked as a chef. My early years were spent there before moving to southern Montana after my mother passed away.",
+    "cues": [
+      "January 19, 1913",
+      "birthplace",
+      "father's work",
+      "early childhood"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\unr_Warren_Nelson_Gaming_From_the_Old_Days_to_Computers.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "Denmark",
+    "explicit_text": "My grandfather came from Denmark and fought in the Northern army during the American Civil War. The family name was originally Nelsen, but due to a misunderstanding when he enlisted, it became Nelson. Denmark is where our roots began before immigrating to America.",
+    "implicit_text": "My grandfather came from a Scandinavian country and fought in the Northern army during the American Civil War. The family name was originally Nelsen, but due to a misunderstanding when he enlisted, it became Nelson. That European country is where our roots began before immigrating to America.",
+    "cues": [
+      "grandfather",
+      "immigration",
+      "Northern army",
+      "Civil War"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\unr_Warren_Nelson_Gaming_From_the_Old_Days_to_Computers.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "Oregon",
+    "explicit_text": "My father was raised in Oregon before moving to Montana. Although he was of Danish extraction, his upbringing in Oregon shaped part of his early life before he settled down as a chef in Great Falls.",
+    "implicit_text": "My father was raised in a Pacific Northwest state before moving to Montana. Although he was of Danish extraction, his upbringing in that state shaped part of his early life before he settled down as a chef in Great Falls.",
+    "cues": [
+      "father's upbringing",
+      "Oregon",
+      "before Montana"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\unr_Warren_Nelson_Gaming_From_the_Old_Days_to_Computers.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "Northern army",
+    "explicit_text": "My grandfather served in the Northern army during the American Civil War. His enlistment was marked by a name change from Nelsen to Nelson due to a sergeant's misunderstanding. This military service is a proud part of my family's history.",
+    "implicit_text": "My grandfather served in the Union forces during the American Civil War. His enlistment was marked by a name change from Nelsen to Nelson due to a sergeant's misunderstanding. This military service is a proud part of my family's history.",
+    "cues": [
+      "grandfather",
+      "Civil War",
+      "name change",
+      "Northern army"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\unr_Warren_Nelson_Gaming_From_the_Old_Days_to_Computers.yaml"
+  },
+  {
+    "entity_id": 5,
+    "entity": "American Civil War",
+    "explicit_text": "The American Civil War is significant in my family history because my grandfather fought for the Northern army during that time. It was in the 1860s, and his service led to the permanent change in our family name. This event connects me to my Danish heritage and American history.",
+    "implicit_text": "The conflict between the North and South in the 1860s is significant in my family history because my grandfather fought for the Union army during that time. His service led to the permanent change in our family name. This event connects me to my Danish heritage and American history.",
+    "cues": [
+      "grandfather's service",
+      "1860s",
+      "Northern army",
+      "family history"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\unr_Warren_Nelson_Gaming_From_the_Old_Days_to_Computers.yaml"
+  },
+  {
+    "entity_id": 6,
+    "entity": "Luxembourg",
+    "explicit_text": "My mother's parents were born in Luxembourg, and she came to Montana from St. Louis as a young girl. This Luxembourg heritage was part of my mother's German and Luxembourger background, which influenced my extended family in Montana.",
+    "implicit_text": "My mother's parents were born in a small European country between Belgium, France, and Germany, and she came to Montana from St. Louis as a young girl. This heritage was part of my mother's German and Luxembourger background, which influenced my extended family in Montana.",
+    "cues": [
+      "mother's parents",
+      "immigration",
+      "Montana",
+      "St. Louis"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\unr_Warren_Nelson_Gaming_From_the_Old_Days_to_Computers.yaml"
+  },
+  {
+    "entity_id": 7,
+    "entity": "St. Louis, Missouri",
+    "explicit_text": "My mother came out to Montana from St. Louis, Missouri, as a young girl before marrying my father. St. Louis was part of her journey from her German and Luxembourger roots to settling in Montana.",
+    "implicit_text": "My mother came out to Montana from a major city on the Mississippi River as a young girl before marrying my father. That city was part of her journey from her German and Luxembourger roots to settling in Montana.",
+    "cues": [
+      "mother's migration",
+      "young girl",
+      "Montana",
+      "family background"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\unr_Warren_Nelson_Gaming_From_the_Old_Days_to_Computers.yaml"
+  },
+  {
+    "entity_id": 8,
+    "entity": "Hysham, Montana",
+    "explicit_text": "After my mother died, I was taken to Hysham, Montana, by relatives who were actually my second cousins. Hysham was the county seat of Treasure County, a wild place with cowboys and frequent shootings. I lived on a 160-acre ranch outside town and went to school there until the third grade.",
+    "implicit_text": "After my mother died, I was taken to a small town in Montana by relatives who were actually my second cousins. This town was the county seat of a wild county with cowboys and frequent shootings. I lived on a 160-acre ranch outside town and went to school there until the third grade.",
+    "cues": [
+      "relatives",
+      "second cousins",
+      "Treasure County",
+      "ranch life",
+      "early schooling"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\unr_Warren_Nelson_Gaming_From_the_Old_Days_to_Computers.yaml"
+  },
+  {
+    "entity_id": 9,
+    "entity": "Treasure County, Montana",
+    "explicit_text": "Treasure County, with Hysham as its county seat, was where I lived on a ranch after my mother's death. It was the smallest county in Montana and quite wild in those days, with cowboys and shootings on Saturday nights. My childhood there was full of ranch work and adventures with my cousins.",
+    "implicit_text": "The county with a small Montana town as its seat was where I lived on a ranch after my mother's death. It was the smallest county in Montana and quite wild in those days, with cowboys and shootings on Saturday nights. My childhood there was full of ranch work and adventures with my cousins.",
+    "cues": [
+      "smallest county",
+      "Hysham",
+      "wild west",
+      "ranch life",
+      "childhood"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\unr_Warren_Nelson_Gaming_From_the_Old_Days_to_Computers.yaml"
+  },
+  {
+    "entity_id": 10,
+    "entity": "Eden, Montana",
+    "explicit_text": "I went to a small county school in Eden, Montana, after attending school in Hysham. The school had only six students, and I was the only boy among five girls. I was mischievous, often bringing mice to school to scare the girls.",
+    "implicit_text": "I went to a small county school in a Montana town named Eden after attending school in Hysham. The school had only six students, and I was the only boy among five girls. I was mischievous, often bringing mice to school to scare the girls.",
+    "cues": [
+      "small school",
+      "six students",
+      "mischief",
+      "early education"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\unr_Warren_Nelson_Gaming_From_the_Old_Days_to_Computers.yaml"
+  },
+  {
+    "entity_id": 11,
+    "entity": "Oklahoma",
+    "explicit_text": "My stepmother was born in Oklahoma and married my father after my mother's death. She was only eleven years older than me and had a tough life, including a child from a previous marriage. She was strict but fair and played a significant role in my upbringing from age nine onward.",
+    "implicit_text": "My stepmother was born in a southern plains state and married my father after my mother's death. She was only eleven years older than me and had a tough life, including a child from a previous marriage. She was strict but fair and played a significant role in my upbringing from age nine onward.",
+    "cues": [
+      "stepmother",
+      "birthplace",
+      "marriage",
+      "family influence"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\unr_Warren_Nelson_Gaming_From_the_Old_Days_to_Computers.yaml"
+  },
+  {
+    "entity_id": 12,
+    "entity": "Charles Marion Russell",
+    "explicit_text": "Charles Marion Russell was a great friend of my father's and a remarkable man I knew personally. He died around 1926, the year I finished grade school. I remember him bringing me the first fresh pineapple I'd ever seen from Hawaii and sharing stories while making whiskey with my father.",
+    "implicit_text": "A great friend of my father's and a remarkable man I knew personally died around 1926, the year I finished grade school. I remember him bringing me the first fresh pineapple I'd ever seen from a Pacific island and sharing stories while making whiskey with my father.",
+    "cues": [
+      "friend of father",
+      "died 1926",
+      "Hawaii pineapple",
+      "whiskey making",
+      "personal acquaintance"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\unr_Warren_Nelson_Gaming_From_the_Old_Days_to_Computers.yaml"
+  },
+  {
+    "entity_id": 13,
+    "entity": "Hawaii",
+    "explicit_text": "Hawaii is memorable to me because Charles Russell brought back the first fresh pineapple I had ever seen from there. This was long before planes flew regularly, so he brought it by ship. It was a special treat and an unusual experience for me as a child.",
+    "implicit_text": "A Pacific island chain is memorable to me because a family friend brought back the first fresh pineapple I had ever seen from there. This was long before planes flew regularly, so he brought it by ship. It was a special treat and an unusual experience for me as a child.",
+    "cues": [
+      "pineapple",
+      "Charles Russell",
+      "childhood treat",
+      "early 1900s"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\unr_Warren_Nelson_Gaming_From_the_Old_Days_to_Computers.yaml"
+  },
+  {
+    "entity_id": 14,
+    "entity": "Butte, Montana",
+    "explicit_text": "Butte, Montana, was the site of a basketball tournament where my high school team placed third. It was part of my athletic experiences during high school at Carroll College. Butte was one of the smaller towns we traveled to for games.",
+    "implicit_text": "A Montana mining town was the site of a basketball tournament where my high school team placed third. It was part of my athletic experiences during high school at Carroll College. That town was one of the smaller places we traveled to for games.",
+    "cues": [
+      "basketball tournament",
+      "high school sports",
+      "travel",
+      "Carroll College"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\unr_Warren_Nelson_Gaming_From_the_Old_Days_to_Computers.yaml"
+  },
+  {
+    "entity_id": 15,
+    "entity": "Helena, Montana",
+    "explicit_text": "I moved to Helena, Montana, to attend Carroll College, then called Mount St. Charles, for high school and college. It was there I began to appreciate athletics and met influential people like Sid Smith and Bill Jones. Helena was a formative place in my youth during the late 1920s and early 1930s.",
+    "implicit_text": "I moved to the state capital of Montana to attend Carroll College, then called Mount St. Charles, for high school and college. It was there I began to appreciate athletics and met influential people like Sid Smith and Bill Jones. That city was a formative place in my youth during the late 1920s and early 1930s.",
+    "cues": [
+      "Carroll College",
+      "Mount St. Charles",
+      "athletics",
+      "1920s-1930s",
+      "education"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\unr_Warren_Nelson_Gaming_From_the_Old_Days_to_Computers.yaml"
+  },
+  {
+    "entity_id": 16,
+    "entity": "Carroll College",
+    "explicit_text": "Carroll College, known then as Mount St. Charles, was where I attended high school and college in Helena. It was a small school with about eighty-nine college students and forty high schoolers. I played basketball and football there and was influenced by coaches and priests who shaped my life.",
+    "implicit_text": "The small Catholic college in Helena, Montana, known then as Mount St. Charles, was where I attended high school and college. It was a small school with about eighty-nine college students and forty high schoolers. I played basketball and football there and was influenced by coaches and priests who shaped my life.",
+    "cues": [
+      "Mount St. Charles",
+      "Helena",
+      "small school",
+      "sports",
+      "1920s-1930s"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\unr_Warren_Nelson_Gaming_From_the_Old_Days_to_Computers.yaml"
+  },
+  {
+    "entity_id": 17,
+    "entity": "Notre Dame University",
+    "explicit_text": "In 1930, a new football coach came from Notre Dame University to Carroll College. His name was Bill Jones, a former lineman for the famous 'Four Horsemen' and 'Seven Mules.' He encouraged me to play football and gave me confidence I had never had before.",
+    "implicit_text": "In 1930, a new football coach came from a famous Midwestern Catholic university to Carroll College. His name was Bill Jones, a former lineman for the legendary 'Four Horsemen' and 'Seven Mules.' He encouraged me to play football and gave me confidence I had never had before.",
+    "cues": [
+      "1930",
+      "football coach",
+      "Bill Jones",
+      "Four Horsemen",
+      "Seven Mules"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\unr_Warren_Nelson_Gaming_From_the_Old_Days_to_Computers.yaml"
+  },
+  {
+    "entity_id": 18,
+    "entity": "Bill Jones (judge)",
+    "explicit_text": "Bill Jones was my football coach at Carroll College in 1930, coming from Notre Dame where he played as one of the 'Four Horsemen' and 'Seven Mules.' He believed I had the guts to play football despite my size and gave me great confidence. Later, he became the chief judge in Washington, D.C., and we have remained friends over the years.",
+    "implicit_text": "Bill Jones was my football coach at Carroll College in 1930, coming from a renowned university where he played as one of the 'Four Horsemen' and 'Seven Mules.' He believed I had the guts to play football despite my size and gave me great confidence. Later, he became the chief judge in the U.S. capital and we have remained friends over the years.",
+    "cues": [
+      "football coach",
+      "1930",
+      "Notre Dame",
+      "Four Horsemen",
+      "chief judge",
+      "Washington, D.C."
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\unr_Warren_Nelson_Gaming_From_the_Old_Days_to_Computers.yaml"
+  },
+  {
+    "entity_id": 19,
+    "entity": "Four Horsemen of Notre Dame",
+    "explicit_text": "The 'Four Horsemen of Notre Dame' were legendary football players, and Bill Jones, my coach at Carroll College, was one of them. His experience and reputation inspired me when he encouraged me to play football despite my doubts about my size and ability.",
+    "implicit_text": "The legendary football players known as the 'Four Horsemen' included my coach at Carroll College. His experience and reputation inspired me when he encouraged me to play football despite my doubts about my size and ability.",
+    "cues": [
+      "Bill Jones",
+      "Notre Dame",
+      "football legacy",
+      "1930"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\unr_Warren_Nelson_Gaming_From_the_Old_Days_to_Computers.yaml"
+  },
+  {
+    "entity_id": 20,
+    "entity": "Seven Mules",
+    "explicit_text": "Bill Jones was also part of the 'Seven Mules,' the offensive line that supported the Four Horsemen at Notre Dame. Knowing he was one of the Seven Mules gave me confidence as he coached me in football at Carroll College. His toughness and skill were legendary.",
+    "implicit_text": "My coach was also part of the 'Seven Mules,' the offensive line that supported the Four Horsemen at his alma mater. Knowing he was one of the Seven Mules gave me confidence as he coached me in football at Carroll College. His toughness and skill were legendary.",
+    "cues": [
+      "Bill Jones",
+      "Notre Dame",
+      "football",
+      "1930"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\unr_Warren_Nelson_Gaming_From_the_Old_Days_to_Computers.yaml"
+  },
+  {
+    "entity_id": 21,
+    "entity": "District of Columbia",
+    "explicit_text": "Bill Jones, my former football coach, later became the chief judge of the courts in the District of Columbia. He is the counterpart to Judge Sirica and remains a friend with whom I still talk football. His career in D.C. is a remarkable part of his life after coaching.",
+    "implicit_text": "My former football coach later became the chief judge of the courts in the nation's capital. He is the counterpart to Judge Sirica and remains a friend with whom I still talk football. His career there is a remarkable part of his life after coaching.",
+    "cues": [
+      "Bill Jones",
+      "chief judge",
+      "Washington, D.C.",
+      "post-football career"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\unr_Warren_Nelson_Gaming_From_the_Old_Days_to_Computers.yaml"
+  },
+  {
+    "entity_id": 22,
+    "entity": "Father McCormack",
+    "explicit_text": "Father McCormack was a priest at Carroll College who was very good to me as I grew up. Along with Father Riley, he taught me a lot and supported me during my formative years in Helena. Their guidance helped shape my character and faith.",
+    "implicit_text": "A priest at Carroll College was very good to me as I grew up. Along with another priest, he taught me a lot and supported me during my formative years in Helena. Their guidance helped shape my character and faith.",
+    "cues": [
+      "Carroll College",
+      "priest",
+      "mentor",
+      "early 1930s"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\unr_Warren_Nelson_Gaming_From_the_Old_Days_to_Computers.yaml"
+  },
+  {
+    "entity_id": 23,
+    "entity": "Father Riley",
+    "explicit_text": "Father Riley was the principal at Carroll College and one of the priests who had a significant influence on my life. He, along with Father McCormack, supported me during my high school and college years. Their presence was a steadying force as I matured.",
+    "implicit_text": "The principal at Carroll College and one of the priests who had a significant influence on my life was a steadying force. He, along with Father McCormack, supported me during my high school and college years. Their presence was a steadying force as I matured.",
+    "cues": [
+      "Carroll College",
+      "principal",
+      "mentor",
+      "early 1930s"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\unr_Warren_Nelson_Gaming_From_the_Old_Days_to_Computers.yaml"
+  },
+  {
+    "entity_id": 24,
+    "entity": "Sid Smith",
+    "explicit_text": "Sid Smith was my high school basketball coach and a senior college student who helped me improve my skills. He made me practice dribbling for hours to build my balance, which changed my athletic ability. Sid was tough but kind and later became a very religious man and a dear friend.",
+    "implicit_text": "My high school basketball coach and a senior college student helped me improve my skills. He made me practice dribbling for hours to build my balance, which changed my athletic ability. He was tough but kind and later became a very religious man and a dear friend.",
+    "cues": [
+      "basketball coach",
+      "high school",
+      "skill development",
+      "friendship",
+      "1920s"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\unr_Warren_Nelson_Gaming_From_the_Old_Days_to_Computers.yaml"
+  },
+  {
+    "entity_id": 25,
+    "entity": "Bishop of Spokane",
+    "explicit_text": "The priest who taught me algebra and later became the Bishop of the Spokane Diocese was named Bishop Topel. He questioned my presence in his advanced algebra class because I lacked the necessary background. His role indirectly ended my hopes of attending West Point.",
+    "implicit_text": "The priest who taught me algebra and later became the bishop of a diocese in eastern Washington questioned my presence in his advanced algebra class because I lacked the necessary background. His role indirectly ended my hopes of attending the U.S. military academy.",
+    "cues": [
+      "Bishop Topel",
+      "algebra teacher",
+      "Spokane Diocese",
+      "education",
+      "West Point"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\unr_Warren_Nelson_Gaming_From_the_Old_Days_to_Computers.yaml"
+  },
+  {
+    "entity_id": 26,
+    "entity": "Spokane Diocese",
+    "explicit_text": "The Spokane Diocese is connected to my story through Bishop Topel, who taught me algebra when he was a priest. His questioning of my math skills was a turning point in my educational path. This diocese represents part of the religious mentorship I received.",
+    "implicit_text": "This diocese in eastern Washington is connected to my story through a priest who taught me algebra before becoming its bishop. His questioning of my math skills was a turning point in my educational path. This diocese represents part of the religious mentorship I received.",
+    "cues": [
+      "Bishop Topel",
+      "education",
+      "religion",
+      "Montana and Washington"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\unr_Warren_Nelson_Gaming_From_the_Old_Days_to_Computers.yaml"
+  },
+  {
+    "entity_id": 27,
+    "entity": "West Point",
+    "explicit_text": "I had an appointment to West Point and was determined to go, but my poor background in mathematics, especially algebra, made it impossible. I took courses to prepare but struggled, and a priest's questioning ended my aspirations. West Point was a dream that I couldn't fulfill due to educational gaps.",
+    "implicit_text": "I had an appointment to the U.S. military academy and was determined to go, but my poor background in mathematics, especially algebra, made it impossible. I took courses to prepare but struggled, and a priest's questioning ended my aspirations. That academy was a dream that I couldn't fulfill due to educational gaps.",
+    "cues": [
+      "appointment",
+      "mathematics",
+      "education",
+      "priest's intervention",
+      "early 1930s"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\unr_Warren_Nelson_Gaming_From_the_Old_Days_to_Computers.yaml"
+  },
+  {
+    "entity_id": 28,
+    "entity": "Father Rooney",
+    "explicit_text": "Father Rooney is mentioned as one of the priests who had a lot to do with me as I grew up, alongside Father McCormack and Father Riley. Their support and guidance were important during my time at Carroll College and helped shape my faith and character.",
+    "implicit_text": "One of the priests who had a lot to do with me as I grew up, alongside two others, provided support and guidance that were important during my time at Carroll College and helped shape my faith and character.",
+    "cues": [
+      "priest",
+      "mentor",
+      "Carroll College",
+      "early 1930s"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\unr_Warren_Nelson_Gaming_From_the_Old_Days_to_Computers.yaml"
+  },
+  {
+    "entity_id": 29,
+    "entity": "Albert Einstein",
+    "explicit_text": "Albert Einstein is not mentioned in my story, so I have no personal experience or connection with him.",
+    "implicit_text": "That famous physicist is not mentioned in my story, so I have no personal experience or connection with him.",
+    "cues": [],
+    "transcript_ref": "veterans\\nevada_wwii\\unr_Warren_Nelson_Gaming_From_the_Old_Days_to_Computers.yaml"
+  },
+  {
+    "entity_id": 30,
+    "entity": "Butte, Montana Keno games",
+    "explicit_text": "The Butte, Montana Keno games are not part of my personal history or experiences as I have shared them. My connection to Butte is mainly through basketball tournaments during my high school years.",
+    "implicit_text": "The gambling games in the Montana mining town are not part of my personal history or experiences as I have shared them. My connection to that town is mainly through basketball tournaments during my high school years.",
+    "cues": [],
+    "transcript_ref": "veterans\\nevada_wwii\\unr_Warren_Nelson_Gaming_From_the_Old_Days_to_Computers.yaml"
+  },
+  {
+    "entity_id": 31,
+    "entity": "Cal Lewis",
+    "explicit_text": "Cal Lewis is not mentioned in my story, so I have no personal recollection or relationship with him.",
+    "implicit_text": "This individual is not mentioned in my story, so I have no personal recollection or relationship with him.",
+    "cues": [],
+    "transcript_ref": "veterans\\nevada_wwii\\unr_Warren_Nelson_Gaming_From_the_Old_Days_to_Computers.yaml"
+  }
+]

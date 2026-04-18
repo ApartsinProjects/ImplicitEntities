@@ -1,0 +1,425 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "September 11 attacks",
+    "explicit_text": "I first learned about the September 11 attacks when my son called me from a bus heading into Manhattan, telling me the north tower of the World Trade Center had been hit by a plane. Initially, we thought it was an accident, but after seeing the second plane hit the south tower from Fort Wadsworth, I realized it was a coordinated attack. That day, we focused on evacuations, setting up triage at Ellis Island, and preventing further attacks, all while dealing with communication challenges and rumors of other targets.",
+    "implicit_text": "I first learned about the attacks on that September morning when my son called me from a bus heading into Manhattan, telling me the north tower of the twin skyscrapers had been hit by a plane. Initially, we thought it was an accident, but after seeing the second plane hit the other tower from Fort Wadsworth, I realized it was a coordinated attack. That day, we focused on evacuations, setting up triage at Ellis Island, and preventing further attacks, all while dealing with communication challenges and rumors of other targets.",
+    "cues": [
+      "September 11, 2001",
+      "World Trade Center",
+      "Fort Wadsworth",
+      "Ellis Island",
+      "evacuations",
+      "triage",
+      "communication challenges"
+    ],
+    "transcript_ref": "september_11\\nps911_lauro_neal_may_7_2002.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "World Trade Center",
+    "explicit_text": "The World Trade Center was the initial site of the attacks on September 11, 2001. My son called me to report the north tower had been struck, and shortly after, I witnessed the second plane hit the south tower from Fort Wadsworth. The destruction of the Trade Center triggered immediate security responses, including evacuations and setting up triage centers at nearby locations like Ellis Island.",
+    "implicit_text": "The twin skyscrapers in lower Manhattan were the initial site of the attacks on September 11, 2001. My son called me to report the north tower had been struck, and shortly after, I witnessed the second plane hit the south tower from Fort Wadsworth. The destruction of these iconic buildings triggered immediate security responses, including evacuations and setting up triage centers at nearby locations like Ellis Island.",
+    "cues": [
+      "September 11, 2001",
+      "north tower",
+      "south tower",
+      "Fort Wadsworth",
+      "evacuations"
+    ],
+    "transcript_ref": "september_11\\nps911_lauro_neal_may_7_2002.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "Manhattan",
+    "explicit_text": "Manhattan was the focal point of the September 11 attacks, with the World Trade Center located in lower Manhattan. From Fort Wadsworth, we had a clear view of Manhattan's skyline and witnessed the planes hitting the towers. The attacks led to coordinated efforts to secure Manhattan sites, including Federal Hall, and involved multiple agencies working together to manage the crisis.",
+    "implicit_text": "The borough that is the heart of New York City was the focal point of the September 11 attacks, with the twin towers located in its lower part. From Fort Wadsworth, we had a clear view of this borough's skyline and witnessed the planes hitting the towers. The attacks led to coordinated efforts to secure sites within this area, including Federal Hall, and involved multiple agencies working together to manage the crisis.",
+    "cues": [
+      "September 11, 2001",
+      "lower Manhattan",
+      "World Trade Center",
+      "Federal Hall",
+      "multi-agency coordination"
+    ],
+    "transcript_ref": "september_11\\nps911_lauro_neal_may_7_2002.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "Fort Wadsworth",
+    "explicit_text": "On September 11, I was at Fort Wadsworth with Lieutenant Dave Buckley and Sergeant Frank when we saw the planes hit the World Trade Center. Fort Wadsworth provided a clear vantage point over lower Manhattan, which was crucial for observing the unfolding events. After ordering Fort Wadsworth shut down due to security concerns, we shifted focus to evacuations and coordinating responses at nearby sites.",
+    "implicit_text": "On September 11, I was at the Staten Island military installation with Lieutenant Dave Buckley and Sergeant Frank when we saw the planes hit the twin towers. This location provided a clear vantage point over lower Manhattan, which was crucial for observing the unfolding events. After ordering this site shut down due to security concerns, we shifted focus to evacuations and coordinating responses at nearby sites.",
+    "cues": [
+      "September 11, 2001",
+      "Lieutenant Dave Buckley",
+      "Sergeant Frank",
+      "view of Manhattan",
+      "security shutdown"
+    ],
+    "transcript_ref": "september_11\\nps911_lauro_neal_may_7_2002.yaml"
+  },
+  {
+    "entity_id": 5,
+    "entity": "Statue of Liberty",
+    "explicit_text": "The Statue of Liberty was a key site during the September 11 attacks. I contacted the Statue commander to evacuate the island early in the day before visitors arrived. We set up a boat perimeter to defend against potential waterborne threats, and after evacuating residents and staff, we pulled all personnel off the island to ensure their safety.",
+    "implicit_text": "The iconic copper statue on Liberty Island was a key site during the September 11 attacks. I contacted the commander there to evacuate the island early in the day before visitors arrived. We set up a boat perimeter to defend against potential waterborne threats, and after evacuating residents and staff, we pulled all personnel off the island to ensure their safety.",
+    "cues": [
+      "September 11, 2001",
+      "evacuation",
+      "boat perimeter",
+      "early morning",
+      "staff and residents"
+    ],
+    "transcript_ref": "september_11\\nps911_lauro_neal_may_7_2002.yaml"
+  },
+  {
+    "entity_id": 6,
+    "entity": "Ellis Island",
+    "explicit_text": "Ellis Island became a critical triage and evacuation center on September 11. With about 8-9 officers covering both Ellis and Liberty Islands, we quickly set up operations to treat around 400 evacuees and injured people throughout the day. Ellis Island's proximity to Manhattan and its bridge access made it an ideal site for emergency response and coordination.",
+    "implicit_text": "The historic immigration station island became a critical triage and evacuation center on September 11. With about 8-9 officers covering both this island and Liberty Island, we quickly set up operations to treat around 400 evacuees and injured people throughout the day. Its proximity to Manhattan and its bridge access made it an ideal site for emergency response and coordination.",
+    "cues": [
+      "September 11, 2001",
+      "triage center",
+      "400 evacuees",
+      "bridge access",
+      "proximity to Manhattan"
+    ],
+    "transcript_ref": "september_11\\nps911_lauro_neal_may_7_2002.yaml"
+  },
+  {
+    "entity_id": 7,
+    "entity": "Liberty Island",
+    "explicit_text": "Liberty Island, home to the Statue of Liberty, was evacuated early on September 11 before visitors arrived. We had a small team of officers managing both Liberty and Ellis Islands, and after clearing Liberty Island, we focused on setting up defenses around it with a cordon of boats. The island was considered a potential target, so securing it was a priority.",
+    "implicit_text": "The island housing the famous statue was evacuated early on September 11 before visitors arrived. We had a small team of officers managing both this island and Ellis Island, and after clearing it, we focused on setting up defenses around it with a cordon of boats. The island was considered a potential target, so securing it was a priority.",
+    "cues": [
+      "September 11, 2001",
+      "evacuation",
+      "Statue of Liberty",
+      "boat perimeter",
+      "security priority"
+    ],
+    "transcript_ref": "september_11\\nps911_lauro_neal_may_7_2002.yaml"
+  },
+  {
+    "entity_id": 8,
+    "entity": "United States Park Police",
+    "explicit_text": "As part of the United States Park Police, I coordinated efforts on September 11 to evacuate and secure key sites like the Statue of Liberty, Ellis Island, and Federal Hall. We were augmented by officers from Brooklyn and Jamaica Bay units, and our marine units played a vital role in transporting reinforcements and forming perimeters. This event marked a significant increase in our presence at Manhattan sites, which has continued since then.",
+    "implicit_text": "As part of the federal law enforcement agency responsible for national parks, I coordinated efforts on September 11 to evacuate and secure key sites like the Statue of Liberty, Ellis Island, and Federal Hall. We were augmented by officers from Brooklyn and Jamaica Bay units, and our marine units played a vital role in transporting reinforcements and forming perimeters. This event marked a significant increase in our presence at Manhattan sites, which has continued since then.",
+    "cues": [
+      "September 11, 2001",
+      "Statue of Liberty",
+      "Ellis Island",
+      "Federal Hall",
+      "Brooklyn and Jamaica Bay units",
+      "marine operations"
+    ],
+    "transcript_ref": "september_11\\nps911_lauro_neal_may_7_2002.yaml"
+  },
+  {
+    "entity_id": 9,
+    "entity": "Federal Hall National Memorial",
+    "explicit_text": "Federal Hall requested assistance on September 11, and we were able to send a sergeant and a couple of officers from Brooklyn to support the site. While the U.S. Park Police had only occasionally supported Manhattan sites before, including during Desert Storm, this event marked a more permanent presence. Coordination with the Manhattan sites superintendent was smooth and effective during the crisis.",
+    "implicit_text": "The historic site on Wall Street requested assistance on September 11, and we were able to send a sergeant and a couple of officers from Brooklyn to support the location. While our agency had only occasionally supported Manhattan sites before, including during Desert Storm, this event marked a more permanent presence. Coordination with the Manhattan sites superintendent was smooth and effective during the crisis.",
+    "cues": [
+      "September 11, 2001",
+      "assistance request",
+      "Brooklyn officers",
+      "Desert Storm",
+      "Manhattan sites"
+    ],
+    "transcript_ref": "september_11\\nps911_lauro_neal_may_7_2002.yaml"
+  },
+  {
+    "entity_id": 10,
+    "entity": "Desert Storm",
+    "explicit_text": "During Desert Storm, the U.S. Park Police maintained a 24-hour presence at Federal Hall, which was the last time before September 11 that we had a regular assignment there. This experience helped inform our response and coordination during the 9/11 attacks when we again supported Federal Hall and other Manhattan sites. It showed the importance of interagency cooperation in times of crisis.",
+    "implicit_text": "During the Gulf War in the early 1990s, our agency maintained a 24-hour presence at the historic Wall Street site, which was the last time before September 11 that we had a regular assignment there. This experience helped inform our response and coordination during the 9/11 attacks when we again supported that site and other Manhattan locations. It showed the importance of interagency cooperation in times of crisis.",
+    "cues": [
+      "Desert Storm",
+      "Federal Hall",
+      "24-hour presence",
+      "interagency cooperation",
+      "Manhattan sites"
+    ],
+    "transcript_ref": "september_11\\nps911_lauro_neal_may_7_2002.yaml"
+  },
+  {
+    "entity_id": 11,
+    "entity": "Gateway National Recreation Area",
+    "explicit_text": "Gateway National Recreation Area includes sites like Fort Wadsworth and Floyd Bennett Field, where we have significant operations. On September 11, Fort Wadsworth was a key observation point, and Floyd Bennett Field served as the Park Police headquarters for emergency services. The superintendent of Manhattan sites had previously worked in Gateway, which helped facilitate coordination during the crisis.",
+    "implicit_text": "The national park area that includes sites like the Staten Island military installation and Floyd Bennett Field is where we have significant operations. On September 11, the Staten Island site was a key observation point, and Floyd Bennett Field served as the Park Police headquarters for emergency services. The superintendent of Manhattan sites had previously worked in this area, which helped facilitate coordination during the crisis.",
+    "cues": [
+      "Gateway National Recreation Area",
+      "Fort Wadsworth",
+      "Floyd Bennett Field",
+      "September 11, 2001",
+      "coordination"
+    ],
+    "transcript_ref": "september_11\\nps911_lauro_neal_may_7_2002.yaml"
+  },
+  {
+    "entity_id": 12,
+    "entity": "Floyd Bennett Field",
+    "explicit_text": "Floyd Bennett Field serves as the headquarters for the Park Police's emergency services units in New York City. On September 11, it was a central communication hub, and I maintained contact with my boss, Major Wilkins, who was at One Police Plaza. The field's role in emergency response is critical given its location within the Gateway National Recreation Area and proximity to other key sites.",
+    "implicit_text": "This former airfield serves as the headquarters for the Park Police's emergency services units in New York City. On September 11, it was a central communication hub, and I maintained contact with my boss, Major Wilkins, who was at the police department's main command center. The field's role in emergency response is critical given its location within the national recreation area and proximity to other key sites.",
+    "cues": [
+      "Floyd Bennett Field",
+      "emergency services",
+      "September 11, 2001",
+      "Major Wilkins",
+      "One Police Plaza"
+    ],
+    "transcript_ref": "september_11\\nps911_lauro_neal_may_7_2002.yaml"
+  },
+  {
+    "entity_id": 13,
+    "entity": "New York City Police Department",
+    "explicit_text": "The New York City Police Department played a vital role during the September 11 attacks, with their emergency services units headquartered at Floyd Bennett Field. We coordinated closely with them, especially as they sent reinforcements to support our operations at Ellis Island and other sites. Major Wilkins also responded directly to the NYPD command post at One Police Plaza, facilitating communication.",
+    "implicit_text": "The city’s primary law enforcement agency played a vital role during the September 11 attacks, with their emergency services units headquartered at Floyd Bennett Field. We coordinated closely with them, especially as they sent reinforcements to support our operations at Ellis Island and other sites. Major Wilkins also responded directly to their command post at the main police headquarters, facilitating communication.",
+    "cues": [
+      "New York City Police Department",
+      "September 11, 2001",
+      "Floyd Bennett Field",
+      "reinforcements",
+      "One Police Plaza"
+    ],
+    "transcript_ref": "september_11\\nps911_lauro_neal_may_7_2002.yaml"
+  },
+  {
+    "entity_id": 14,
+    "entity": "United States Coast Guard",
+    "explicit_text": "The United States Coast Guard has a large facility at Fort Wadsworth, which was shut down on September 11 due to security concerns. Coast Guard vessels were among the boats that formed a perimeter around Liberty Island and assisted in evacuations. Their presence was crucial in helping secure waterways and transport evacuees during the crisis.",
+    "implicit_text": "The maritime security service has a large facility at the Staten Island military installation, which was shut down on September 11 due to security concerns. Their vessels were among the boats that formed a perimeter around Liberty Island and assisted in evacuations. Their presence was crucial in helping secure waterways and transport evacuees during the crisis.",
+    "cues": [
+      "United States Coast Guard",
+      "Fort Wadsworth",
+      "September 11, 2001",
+      "boat perimeter",
+      "evacuations"
+    ],
+    "transcript_ref": "september_11\\nps911_lauro_neal_may_7_2002.yaml"
+  },
+  {
+    "entity_id": 15,
+    "entity": "United States Army Reserve",
+    "explicit_text": "The United States Army Reserve has a center at Fort Wadsworth, which was among the facilities shut down on September 11 for security reasons. While we focused on evacuations and securing the Statue of Liberty and Ellis Island, the presence of military facilities like the Army Reserve center underscored the importance of protecting critical infrastructure in the area.",
+    "implicit_text": "The military reserve component has a center at the Staten Island military installation, which was among the facilities shut down on September 11 for security reasons. While we focused on evacuations and securing the Statue of Liberty and Ellis Island, the presence of military facilities like this center underscored the importance of protecting critical infrastructure in the area.",
+    "cues": [
+      "United States Army Reserve",
+      "Fort Wadsworth",
+      "September 11, 2001",
+      "security shutdown",
+      "critical infrastructure"
+    ],
+    "transcript_ref": "september_11\\nps911_lauro_neal_may_7_2002.yaml"
+  },
+  {
+    "entity_id": 16,
+    "entity": "Defense Logistics Agency",
+    "explicit_text": "The Defense Logistics Agency has a facility at Fort Wadsworth, which was closed on September 11 as part of the security measures. Alongside other key sites like the Coast Guard and Army Reserve centers, the agency's presence highlighted the strategic importance of Fort Wadsworth. We had to consider these locations when planning our response and evacuation efforts.",
+    "implicit_text": "The federal agency responsible for logistics has a facility at the Staten Island military installation, which was closed on September 11 as part of the security measures. Alongside other key sites like the Coast Guard and Army Reserve centers, this agency's presence highlighted the strategic importance of that location. We had to consider these locations when planning our response and evacuation efforts.",
+    "cues": [
+      "Defense Logistics Agency",
+      "Fort Wadsworth",
+      "September 11, 2001",
+      "security measures",
+      "strategic importance"
+    ],
+    "transcript_ref": "september_11\\nps911_lauro_neal_may_7_2002.yaml"
+  },
+  {
+    "entity_id": 17,
+    "entity": "Verrazzano-Narrows Bridge",
+    "explicit_text": "The Verrazzano-Narrows Bridge is a critical infrastructure near Fort Wadsworth and was considered a potential target during the September 11 attacks. Given its importance, we factored it into our security planning while focusing on evacuations and protecting sites like the Statue of Liberty. Its strategic location made it a key concern in the broader emergency response.",
+    "implicit_text": "The major suspension bridge near the Staten Island military installation was considered a potential target during the September 11 attacks. Given its importance, we factored it into our security planning while focusing on evacuations and protecting sites like the Statue of Liberty. Its strategic location made it a key concern in the broader emergency response.",
+    "cues": [
+      "Verrazzano-Narrows Bridge",
+      "Fort Wadsworth",
+      "September 11, 2001",
+      "security planning",
+      "critical infrastructure"
+    ],
+    "transcript_ref": "september_11\\nps911_lauro_neal_may_7_2002.yaml"
+  },
+  {
+    "entity_id": 18,
+    "entity": "New Jersey",
+    "explicit_text": "New Jersey played a role during the September 11 evacuations, as some evacuees and agencies, like the Secret Service, moved personnel there after their offices in the Trade Center were destroyed. One sergeant was fishing in New Jersey when he was called to assist, and he took a boat to join the marine unit response. The proximity of New Jersey to New York City made it a logical staging and refuge area during the crisis.",
+    "implicit_text": "The neighboring state played a role during the September 11 evacuations, as some evacuees and agencies, like the Secret Service, moved personnel there after their offices in the twin towers were destroyed. One sergeant was fishing in this state when he was called to assist, and he took a boat to join the marine unit response. The proximity of this state to New York City made it a logical staging and refuge area during the crisis.",
+    "cues": [
+      "New Jersey",
+      "September 11, 2001",
+      "Secret Service evacuation",
+      "marine unit",
+      "proximity to NYC"
+    ],
+    "transcript_ref": "september_11\\nps911_lauro_neal_may_7_2002.yaml"
+  },
+  {
+    "entity_id": 19,
+    "entity": "Brooklyn",
+    "explicit_text": "Brooklyn was a key source of reinforcements during the September 11 response, with officers from the Brooklyn and Jamaica Bay units coming by boat to assist at Ellis Island and Federal Hall. We also transported non-essential employees from Ellis Island to Brooklyn during the evacuation. The Brooklyn units played an essential role in augmenting our forces during the crisis.",
+    "implicit_text": "The borough across the East River was a key source of reinforcements during the September 11 response, with officers from its local and Jamaica Bay units coming by boat to assist at Ellis Island and Federal Hall. We also transported non-essential employees from Ellis Island to this borough during the evacuation. The local units played an essential role in augmenting our forces during the crisis.",
+    "cues": [
+      "Brooklyn",
+      "September 11, 2001",
+      "reinforcements",
+      "Ellis Island",
+      "Jamaica Bay units"
+    ],
+    "transcript_ref": "september_11\\nps911_lauro_neal_may_7_2002.yaml"
+  },
+  {
+    "entity_id": 20,
+    "entity": "Jamaica Bay",
+    "explicit_text": "The Jamaica Bay unit contributed officers to support the response on September 11, with many arriving by boat to assist at Ellis Island and other locations. Floyd Bennett Field, located in the Jamaica Bay area, served as a headquarters for emergency services units. The area's marine resources were vital for forming perimeters and transporting evacuees during the crisis.",
+    "implicit_text": "The unit responsible for the marshland area contributed officers to support the response on September 11, with many arriving by boat to assist at Ellis Island and other locations. Floyd Bennett Field, located in this area, served as a headquarters for emergency services units. The area's marine resources were vital for forming perimeters and transporting evacuees during the crisis.",
+    "cues": [
+      "Jamaica Bay",
+      "September 11, 2001",
+      "officer reinforcements",
+      "Floyd Bennett Field",
+      "marine operations"
+    ],
+    "transcript_ref": "september_11\\nps911_lauro_neal_may_7_2002.yaml"
+  },
+  {
+    "entity_id": 21,
+    "entity": "Secret Service",
+    "explicit_text": "The Secret Service New York Field Office was evacuated on September 11 after their offices in the Trade Center were destroyed. One of their members, who was formerly a Park Policeman, contacted us to arrange evacuation to New Jersey. Our marine units helped facilitate their safe exit from the city by boat, demonstrating interagency cooperation during the crisis.",
+    "implicit_text": "The federal agency responsible for protecting national leaders had its New York Field Office evacuated on September 11 after their offices in the twin towers were destroyed. One of their members, who was formerly a Park Policeman, contacted us to arrange evacuation to New Jersey. Our marine units helped facilitate their safe exit from the city by boat, demonstrating interagency cooperation during the crisis.",
+    "cues": [
+      "Secret Service",
+      "September 11, 2001",
+      "Trade Center destruction",
+      "evacuation to New Jersey",
+      "marine assistance"
+    ],
+    "transcript_ref": "september_11\\nps911_lauro_neal_may_7_2002.yaml"
+  },
+  {
+    "entity_id": 22,
+    "entity": "Pentagon",
+    "explicit_text": "On September 11, we heard rumors that the Pentagon had been attacked, which was confirmed to be true. Along with the World Trade Center, the Pentagon was one of the two confirmed sites hit that day, while other rumored targets like the Lincoln Memorial and the Capitol were not. The spread of such rumors added to the confusion we faced while managing the response.",
+    "implicit_text": "On September 11, we heard rumors that the U.S. Department of Defense headquarters had been attacked, which was confirmed to be true. Along with the twin towers, this was one of the two confirmed sites hit that day, while other rumored targets like the Lincoln Memorial and the Capitol were not. The spread of such rumors added to the confusion we faced while managing the response.",
+    "cues": [
+      "Pentagon",
+      "September 11, 2001",
+      "confirmed attack",
+      "rumors",
+      "response confusion"
+    ],
+    "transcript_ref": "september_11\\nps911_lauro_neal_may_7_2002.yaml"
+  },
+  {
+    "entity_id": 23,
+    "entity": "Lincoln Memorial",
+    "explicit_text": "During the chaos of September 11, there were rumors that the Lincoln Memorial had been attacked, but these were not confirmed. Such misinformation was common that day, as we also heard unverified reports about other landmarks. We had to rely on official channels and news sources like CNN to verify information while managing the crisis.",
+    "implicit_text": "During the chaos of September 11, there were rumors that the famous Washington monument had been attacked, but these were not confirmed. Such misinformation was common that day, as we also heard unverified reports about other landmarks. We had to rely on official channels and news sources like CNN to verify information while managing the crisis.",
+    "cues": [
+      "Lincoln Memorial",
+      "September 11, 2001",
+      "rumors",
+      "unconfirmed reports",
+      "information verification"
+    ],
+    "transcript_ref": "september_11\\nps911_lauro_neal_may_7_2002.yaml"
+  },
+  {
+    "entity_id": 24,
+    "entity": "United States Capitol",
+    "explicit_text": "On September 11, rumors circulated that the United States Capitol had been attacked, but these reports were not verified. Along with other false rumors about various landmarks, this added to the uncertainty we faced during the initial response. We depended on communication with command centers and news outlets to separate fact from fiction.",
+    "implicit_text": "On September 11, rumors circulated that the seat of the U.S. Congress had been attacked, but these reports were not verified. Along with other false rumors about various landmarks, this added to the uncertainty we faced during the initial response. We depended on communication with command centers and news outlets to separate fact from fiction.",
+    "cues": [
+      "United States Capitol",
+      "September 11, 2001",
+      "rumors",
+      "unverified reports",
+      "communication"
+    ],
+    "transcript_ref": "september_11\\nps911_lauro_neal_may_7_2002.yaml"
+  },
+  {
+    "entity_id": 25,
+    "entity": "United States Department of State",
+    "explicit_text": "There were rumors on September 11 that the United States Department of State had been attacked, but these were not confirmed. The spread of such misinformation complicated our efforts to understand the full scope of the attacks. We relied heavily on official briefings and media coverage to stay informed during the crisis.",
+    "implicit_text": "There were rumors on September 11 that the federal agency responsible for foreign affairs had been attacked, but these were not confirmed. The spread of such misinformation complicated our efforts to understand the full scope of the attacks. We relied heavily on official briefings and media coverage to stay informed during the crisis.",
+    "cues": [
+      "United States Department of State",
+      "September 11, 2001",
+      "rumors",
+      "misinformation",
+      "official briefings"
+    ],
+    "transcript_ref": "september_11\\nps911_lauro_neal_may_7_2002.yaml"
+  },
+  {
+    "entity_id": 26,
+    "entity": "Supreme Court of the United States",
+    "explicit_text": "Rumors on September 11 suggested that the Supreme Court of the United States was attacked, but this was not true. Like other false reports about landmarks, these rumors contributed to the confusion during the emergency response. We had to carefully verify information before acting on it.",
+    "implicit_text": "Rumors on September 11 suggested that the highest federal judicial body was attacked, but this was not true. Like other false reports about landmarks, these rumors contributed to the confusion during the emergency response. We had to carefully verify information before acting on it.",
+    "cues": [
+      "Supreme Court of the United States",
+      "September 11, 2001",
+      "false rumors",
+      "confusion",
+      "verification"
+    ],
+    "transcript_ref": "september_11\\nps911_lauro_neal_may_7_2002.yaml"
+  },
+  {
+    "entity_id": 27,
+    "entity": "Chicago",
+    "explicit_text": "There was a rumor on September 11 about a building being attacked in Chicago, but this was not confirmed. Such rumors were widespread that day, reflecting the uncertainty and fear surrounding the attacks. We focused on verified information to guide our response efforts.",
+    "implicit_text": "There was a rumor on September 11 about a building being attacked in the major Midwestern city, but this was not confirmed. Such rumors were widespread that day, reflecting the uncertainty and fear surrounding the attacks. We focused on verified information to guide our response efforts.",
+    "cues": [
+      "Chicago",
+      "September 11, 2001",
+      "rumors",
+      "unconfirmed",
+      "response focus"
+    ],
+    "transcript_ref": "september_11\\nps911_lauro_neal_may_7_2002.yaml"
+  },
+  {
+    "entity_id": 28,
+    "entity": "Pittsburgh",
+    "explicit_text": "On September 11, a plane crash outside of Pittsburgh was one of the few additional confirmed incidents beyond the World Trade Center and Pentagon attacks. This information was part of the complex and rapidly changing situation we were trying to manage. Rumors about other sites were common, but the Pittsburgh crash was verified.",
+    "implicit_text": "On September 11, a plane crash outside of the western Pennsylvania city was one of the few additional confirmed incidents beyond the twin towers and Department of Defense headquarters attacks. This information was part of the complex and rapidly changing situation we were trying to manage. Rumors about other sites were common, but the crash near this city was verified.",
+    "cues": [
+      "Pittsburgh",
+      "September 11, 2001",
+      "plane crash",
+      "confirmed incident",
+      "complex situation"
+    ],
+    "transcript_ref": "september_11\\nps911_lauro_neal_may_7_2002.yaml"
+  },
+  {
+    "entity_id": 29,
+    "entity": "CNN",
+    "explicit_text": "CNN was a crucial source of information during the September 11 attacks. We had a TV on in the superintendent's office, and along with key personnel, I closely monitored their coverage to stay updated. Their reporting helped us verify rumors and coordinate our response effectively.",
+    "implicit_text": "The cable news network was a crucial source of information during the September 11 attacks. We had a TV on in the superintendent's office, and along with key personnel, I closely monitored their coverage to stay updated. Their reporting helped us verify rumors and coordinate our response effectively.",
+    "cues": [
+      "CNN",
+      "September 11, 2001",
+      "news coverage",
+      "information source",
+      "coordination"
+    ],
+    "transcript_ref": "september_11\\nps911_lauro_neal_may_7_2002.yaml"
+  },
+  {
+    "entity_id": 30,
+    "entity": "One Police Plaza",
+    "explicit_text": "One Police Plaza was the New York City Police Department command post where my boss, Major Wilkins, responded on September 11. I communicated with him directly from Floyd Bennett Field using a NEXTEL phone, which was vital given the communication challenges that day. One Police Plaza served as a central hub for coordinating the city's emergency response.",
+    "implicit_text": "The main command post of the New York City Police Department was where my boss, Major Wilkins, responded on September 11. I communicated with him directly from Floyd Bennett Field using a NEXTEL phone, which was vital given the communication challenges that day. This location served as a central hub for coordinating the city's emergency response.",
+    "cues": [
+      "One Police Plaza",
+      "September 11, 2001",
+      "NYPD command post",
+      "Major Wilkins",
+      "communication"
+    ],
+    "transcript_ref": "september_11\\nps911_lauro_neal_may_7_2002.yaml"
+  }
+]

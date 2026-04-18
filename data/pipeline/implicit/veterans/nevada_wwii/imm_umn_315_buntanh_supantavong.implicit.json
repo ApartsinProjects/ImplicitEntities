@@ -1,0 +1,100 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "Laos",
+    "explicit_text": "I was born in Laos and lived there until 1975 when my family had to flee due to the political changes happening at that time. After escaping Laos, we spent several months in the Ubon Refugee Camp before resettling in the United States. Laos is my homeland, and even though I left under difficult circumstances, it remains a central part of my identity and community work.",
+    "implicit_text": "I was born in the Southeast Asian country known for its mountainous terrain and rich cultural heritage and lived there until 1975 when my family had to flee due to the political changes happening at that time. After escaping that country, we spent several months in the Ubon Refugee Camp before resettling in the United States. That homeland is my origin, and even though I left under difficult circumstances, it remains a central part of my identity and community work.",
+    "cues": [
+      "born in Laos",
+      "fled after 1975",
+      "political changes",
+      "homeland"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_315_buntanh_supantavong.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "Chulalongkorn University",
+    "explicit_text": "In 1960, I had the opportunity to attend Chulalongkorn University in Thailand for four years while I was a Buddhist monk. This education was an important part of my life before I eventually disrobed and moved on to serve my community in other ways. Studying at Chulalongkorn University helped shape my understanding and prepared me for my future roles.",
+    "implicit_text": "In 1960, I had the opportunity to attend a prestigious university in Bangkok, Thailand, for four years while I was a Buddhist monk. This education was an important part of my life before I eventually disrobed and moved on to serve my community in other ways. Studying at this leading Thai institution helped shape my understanding and prepared me for my future roles.",
+    "cues": [
+      "1960",
+      "four years",
+      "Buddhist monk",
+      "Thailand",
+      "education"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_315_buntanh_supantavong.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "Thailand",
+    "explicit_text": "Thailand played a significant role in my life, especially during the time I attended Chulalongkorn University in 1960. Later, after fleeing Laos in 1975, my family stayed in a refugee camp in Ubon, which is in Thailand, for several months before moving to the United States. Thailand was a place of both education and refuge for me and my family during difficult times.",
+    "implicit_text": "This Southeast Asian kingdom played a significant role in my life, especially during the time I attended university in its capital city in 1960. Later, after fleeing my homeland in 1975, my family stayed in a refugee camp in Ubon, located in the northeastern region of this country, for several months before moving to the United States. This nation was a place of both education and refuge for me and my family during difficult times.",
+    "cues": [
+      "1960",
+      "Chulalongkorn University",
+      "Ubon Refugee Camp",
+      "1975",
+      "refuge"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_315_buntanh_supantavong.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "Ubon Ratchathani Province",
+    "explicit_text": "After fleeing Laos in 1975, my family and I lived in the Ubon Refugee Camp in Ubon Ratchathani Province for about 7 or 8 months. It was there that we were interviewed and eventually sponsored to resettle in the United States. The camp was a temporary but crucial stop on our journey to a new life, and it was also where we met Dr. Jerry, who helped us find a home in Rochester, Minnesota.",
+    "implicit_text": "After fleeing my homeland in 1975, my family and I lived in a refugee camp located in the northeastern province of a Southeast Asian country for about 7 or 8 months. It was there that we were interviewed and eventually sponsored to resettle in the United States. The camp was a temporary but crucial stop on our journey to a new life, and it was also where we met Dr. Jerry, who helped us find a home in Rochester, Minnesota.",
+    "cues": [
+      "1975",
+      "Ubon Refugee Camp",
+      "7 or 8 months",
+      "sponsorship",
+      "Dr. Jerry"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_315_buntanh_supantavong.yaml"
+  },
+  {
+    "entity_id": 5,
+    "entity": "Rochester, Minnesota",
+    "explicit_text": "My family resettled in Rochester, Minnesota after leaving the refugee camp in Thailand. We lived there for 16 years, during which time my children attended school and our sponsor, Dr. Jerry, took care of us. Rochester was our first home in America, and it was where we began to rebuild our lives with the help of the community and the opportunities available.",
+    "implicit_text": "My family resettled in a city in southeastern Minnesota after leaving the refugee camp in Thailand. We lived there for 16 years, during which time my children attended school and our sponsor, Dr. Jerry, took care of us. This city was our first home in America, and it was where we began to rebuild our lives with the help of the community and the opportunities available.",
+    "cues": [
+      "resettled after refugee camp",
+      "16 years",
+      "children's education",
+      "Dr. Jerry",
+      "first home in America"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_315_buntanh_supantavong.yaml"
+  },
+  {
+    "entity_id": 6,
+    "entity": "Twin Cities",
+    "explicit_text": "After living in Rochester for many years, my family moved to the Twin Cities area. This move allowed us to be closer to a larger Lao community where I serve as a Mor Phone, officiating ceremonies and supporting cultural traditions. The Twin Cities have become an important place for continuing my community work and preserving our heritage.",
+    "implicit_text": "After living in Rochester for many years, my family moved to the metropolitan area encompassing Minneapolis and Saint Paul. This move allowed us to be closer to a larger Lao community where I serve as a Mor Phone, officiating ceremonies and supporting cultural traditions. This metropolitan area has become an important place for continuing my community work and preserving our heritage.",
+    "cues": [
+      "moved after Rochester",
+      "larger Lao community",
+      "Mor Phone",
+      "officiating ceremonies",
+      "community work"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_315_buntanh_supantavong.yaml"
+  },
+  {
+    "entity_id": 7,
+    "entity": "United States",
+    "explicit_text": "The United States became my new home after my family fled Laos and spent time in a refugee camp in Thailand. Thanks to the sponsorship of an American doctor, we resettled first in Rochester, Minnesota, and later moved to the Twin Cities. America provided us with safety, education for my children, and the chance to continue serving my community as a Mor Phone.",
+    "implicit_text": "This country became my new home after my family fled Laos and spent time in a refugee camp in Thailand. Thanks to the sponsorship of an American doctor, we resettled first in Rochester, Minnesota, and later moved to the Twin Cities. This nation provided us with safety, education for my children, and the chance to continue serving my community as a Mor Phone.",
+    "cues": [
+      "resettlement",
+      "sponsorship",
+      "Rochester, Minnesota",
+      "Twin Cities",
+      "education",
+      "community service"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_315_buntanh_supantavong.yaml"
+  }
+]

@@ -1,0 +1,99 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "Laos",
+    "explicit_text": "I was born in Laos in 1936, a country that was very poor and in need of development. I served in various roles there, including General Commissioner for Rural Affairs and senator before the communist takeover in 1975. After the communists took control, life became very difficult, and I was even imprisoned in a hard labor camp. Eventually, I fled Laos in 1993 to escape the suffering under communist rule and to join my family in the United States.",
+    "implicit_text": "I was born in a Southeast Asian country in 1936, a place that was very poor and in need of development. I served in various roles there, including General Commissioner for Rural Affairs and senator before the communist takeover in 1975. After the communists took control, life became very difficult, and I was even imprisoned in a hard labor camp. Eventually, I fled that country in 1993 to escape the suffering under communist rule and to join my family in the United States.",
+    "cues": [
+      "1936 birth",
+      "poor country",
+      "communist takeover 1975",
+      "imprisonment",
+      "fled 1993"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_199_vongsavanh_boutsavath.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "Royal Lao Government",
+    "explicit_text": "I served as the General Commissioner for Rural Affairs under the Royal Lao Government from 1966 to 1973, focusing on rural community development. During that time, I also lectured at the Royal Institute of Law and Administration of Sisavong University. Later, I became a senator in the Kingdom of Laos from 1973 until the communist takeover in 1975. My work with the Royal Lao Government was central to my efforts to improve the living conditions of the Laotian people.",
+    "implicit_text": "I served as the General Commissioner for Rural Affairs under the pre-1975 government from 1966 to 1973, focusing on rural community development. During that time, I also lectured at the Royal Institute of Law and Administration of a major university in the capital. Later, I became a senator in the kingdom from 1973 until the communist takeover in 1975. My work with the former monarchy's government was central to my efforts to improve the living conditions of the people.",
+    "cues": [
+      "1966-1973 General Commissioner",
+      "Royal Lao Government",
+      "Sisavong University lecturer",
+      "1973-1975 senator",
+      "Kingdom of Laos"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_199_vongsavanh_boutsavath.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "Sisavong University",
+    "explicit_text": "Between 1968 and 1973, I was a lecturer at the Royal Institute of Law and Administration, which was part of Sisavong University. Teaching there allowed me to contribute to the education of future leaders during a critical period in Laos. It was an important role alongside my government duties, as I believed in improving both governance and education for the country's development.",
+    "implicit_text": "Between 1968 and 1973, I was a lecturer at the Royal Institute of Law and Administration, which was part of a prominent university named after a royal figure. Teaching there allowed me to contribute to the education of future leaders during a critical period in my country. It was an important role alongside my government duties, as I believed in improving both governance and education for national development.",
+    "cues": [
+      "1968-1973 lecturer",
+      "Royal Institute of Law and Administration",
+      "Sisavong University",
+      "education",
+      "Laos"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_199_vongsavanh_boutsavath.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "Pathet Lao",
+    "explicit_text": "After the communist takeover in 1975, I was imprisoned but later released because of my professional skills. I was then forced to work on projects for the Pathet Lao, including establishing the National Company of Road Transportation and the Central Warehouse. Although I worked under their regime, I was internally conflicted and eventually sought to flee the country to escape their rule.",
+    "implicit_text": "After the communist takeover in 1975, I was imprisoned but later released because of my professional skills. I was then forced to work on projects for the communist revolutionary movement, including establishing the National Company of Road Transportation and the Central Warehouse. Although I worked under their regime, I was internally conflicted and eventually sought to flee the country to escape their rule.",
+    "cues": [
+      "post-1975 communist takeover",
+      "imprisonment and release",
+      "projects for Pathet Lao",
+      "National Company of Road Transportation",
+      "Central Warehouse"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_199_vongsavanh_boutsavath.yaml"
+  },
+  {
+    "entity_id": 5,
+    "entity": "United Nations Development Programme",
+    "explicit_text": "In 1988, I was recruited by the United Nations Development Programme to work as a translator and interpreter for their Projects Program in Laos. I worked with them for about five years, which gave me an official position and some protection under the communist regime. This role also provided me the opportunity to plan my eventual escape from Laos in 1993.",
+    "implicit_text": "In 1988, I was recruited by a major international development organization to work as a translator and interpreter for their Projects Program in my home country. I worked with them for about five years, which gave me an official position and some protection under the communist regime. This role also provided me the opportunity to plan my eventual escape from that country in 1993.",
+    "cues": [
+      "1988 recruitment",
+      "translator and interpreter",
+      "Projects Program",
+      "five years of work",
+      "UNDP"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_199_vongsavanh_boutsavath.yaml"
+  },
+  {
+    "entity_id": 6,
+    "entity": "University of Paris",
+    "explicit_text": "I graduated from the University of Paris, which was a significant milestone in my education and career. This international experience shaped my perspective and motivated me to work towards improving the conditions in Laos. My education helped me serve in government and academic roles back home.",
+    "implicit_text": "I graduated from a prestigious French university in Paris, which was a significant milestone in my education and career. This international experience shaped my perspective and motivated me to work towards improving the conditions in my homeland. My education helped me serve in government and academic roles back home.",
+    "cues": [
+      "University of Paris graduate",
+      "education abroad",
+      "career foundation",
+      "influence on Laos development"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_199_vongsavanh_boutsavath.yaml"
+  },
+  {
+    "entity_id": 7,
+    "entity": "St. Paul, Minnesota",
+    "explicit_text": "In 1993, I fled Laos and came to St. Paul, Minnesota, where my younger sister and her family lived. Visiting them was initially not intended as a permanent move, but it became my refuge from the communist regime. St. Paul became my new home and a place where I could live freely and proudly as a Laotian American.",
+    "implicit_text": "In 1993, I fled my country and came to a city in Minnesota where my younger sister and her family lived. Visiting them was initially not intended as a permanent move, but it became my refuge from the communist regime. That city became my new home and a place where I could live freely and proudly as a Laotian American.",
+    "cues": [
+      "1993 arrival",
+      "sister's family",
+      "refuge from communist rule",
+      "new home",
+      "St. Paul, Minnesota"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_199_vongsavanh_boutsavath.yaml"
+  }
+]

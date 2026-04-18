@@ -1,0 +1,349 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "Nicholas Ambrose",
+    "explicit_text": "I am Nicholas Victor Ambrose, born Vito Nicola Ambrosecchia in Corleto Perticara, Italy, in 1904. I came to the United States at age eight to join my father in Connecticut. Over the years, I lived in Boston, California, Virginia, Panama, and Argentina before settling in Brooklyn with my wife Anna, where we raised our family. My life was marked by a restless spirit and a brooding aloofness that made it hard to fit into the Italian American community. Despite these challenges, I worked hard and lived quietly, much like my parents before me.",
+    "implicit_text": "I am Nicholas Victor Ambrose, born Vito Nicola Ambrosecchia in a small town in southern Italy in 1904. I came to this country at age eight to join my father in New England. Over the years, I lived in Boston, California, Virginia, Panama, and Argentina before settling in a borough of New York City with my wife Anna, where we raised our family. My life was marked by a restless spirit and a brooding aloofness that made it hard to fit into the Italian American community. Despite these challenges, I worked hard and lived quietly, much like my parents before me.",
+    "cues": [
+      "1904",
+      "Corleto Perticara",
+      "Connecticut",
+      "Boston",
+      "California",
+      "Virginia",
+      "Panama",
+      "Argentina",
+      "Brooklyn",
+      "Anna"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_43_nicholas_ambrose.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "Corleto Perticara",
+    "explicit_text": "Corleto Perticara is the town in Italy where I was born in 1904. It was a place my family moved to from Matera in search of work on large plantations. This town represents the beginning of my journey before we emigrated to the United States. It was part of the harsh southern Italian landscape that shaped my early family life.",
+    "implicit_text": "This small southern Italian town is where I was born in 1904. It was a place my family moved to from another town in search of work on large plantations. This town represents the beginning of my journey before we emigrated to the United States. It was part of the harsh southern Italian landscape that shaped my early family life.",
+    "cues": [
+      "1904",
+      "Italy",
+      "plantations",
+      "family",
+      "emigration"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_43_nicholas_ambrose.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "United States",
+    "explicit_text": "The United States became my new home when I was eight years old, after my family emigrated from Italy in 1912. We first settled in Connecticut, where my father had arrived earlier. Over time, I lived in various places across the country and beyond, including Boston, California, Virginia, and even Panama and Argentina, before finally returning to Brooklyn. The U.S. was a land of opportunity but also of isolation and struggle for my family and me.",
+    "implicit_text": "This country became my new home when I was eight years old, after my family emigrated from Italy in 1912. We first settled in New England, where my father had arrived earlier. Over time, I lived in various places across the country and beyond, including Boston, California, Virginia, and even Panama and Argentina, before finally returning to a borough of New York City. This land was a place of opportunity but also of isolation and struggle for my family and me.",
+    "cues": [
+      "1912",
+      "Connecticut",
+      "Boston",
+      "California",
+      "Virginia",
+      "Panama",
+      "Argentina",
+      "Brooklyn"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_43_nicholas_ambrose.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "Connecticut",
+    "explicit_text": "Connecticut was where my father first settled when he arrived in America in 1906, and where my family reunited six years later. We lived in Wethersfield, a small town where my father worked at the Comstock Seed Company as a farm laborer. I attended a one-room schoolhouse there, learning English and American customs. Connecticut was the place where my family began to build a new life, though my parents remained isolated from the community.",
+    "implicit_text": "This northeastern state was where my father first settled when he arrived in America in 1906, and where my family reunited six years later. We lived in a small town where my father worked at a seed company as a farm laborer. I attended a one-room schoolhouse there, learning English and American customs. This state was the place where my family began to build a new life, though my parents remained isolated from the community.",
+    "cues": [
+      "1906",
+      "Wethersfield",
+      "Comstock Seed Company",
+      "farm laborer",
+      "one-room schoolhouse"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_43_nicholas_ambrose.yaml"
+  },
+  {
+    "entity_id": 5,
+    "entity": "Boston",
+    "explicit_text": "After leaving home as a teenager, I moved to Boston. It was one of the first places I lived on my own in the United States, marking the start of a period of drifting across the country and beyond. Boston was part of my early adult life before I joined the U.S. Army and traveled further afield.",
+    "implicit_text": "After leaving home as a teenager, I moved to a major city in Massachusetts. It was one of the first places I lived on my own in this country, marking the start of a period of drifting across the country and beyond. That city was part of my early adult life before I joined the military and traveled further afield.",
+    "cues": [
+      "teenager",
+      "Boston",
+      "early adulthood",
+      "U.S. Army"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_43_nicholas_ambrose.yaml"
+  },
+  {
+    "entity_id": 6,
+    "entity": "California",
+    "explicit_text": "California was one of the places I lived after my time in the U.S. Army. I drifted there as part of my restless search for a place to settle. It was a chapter in my life before moving on to Virginia, Panama, and Argentina.",
+    "implicit_text": "This West Coast state was one of the places I lived after my time in the military. I drifted there as part of my restless search for a place to settle. It was a chapter in my life before moving on to Virginia, Panama, and Argentina.",
+    "cues": [
+      "post-U.S. Army",
+      "California",
+      "migration"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_43_nicholas_ambrose.yaml"
+  },
+  {
+    "entity_id": 7,
+    "entity": "Virginia",
+    "explicit_text": "Virginia was another stop in my travels after California. I lived there briefly as I continued to move around before eventually going to Panama and Argentina. These moves reflected my unsettled nature during those years.",
+    "implicit_text": "This Mid-Atlantic state was another stop in my travels after California. I lived there briefly as I continued to move around before eventually going to Panama and Argentina. These moves reflected my unsettled nature during those years.",
+    "cues": [
+      "Virginia",
+      "migration",
+      "post-California"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_43_nicholas_ambrose.yaml"
+  },
+  {
+    "entity_id": 8,
+    "entity": "Panama",
+    "explicit_text": "I spent some time living in Panama during my years of wandering after the U.S. Army. It was part of my broader experience living in different places across the Americas before returning to Brooklyn. Panama was one of the many places that shaped my life before settling down.",
+    "implicit_text": "I spent some time living in a Central American country during my years of wandering after the military. It was part of my broader experience living in different places across the Americas before returning to Brooklyn. That country was one of the many places that shaped my life before settling down.",
+    "cues": [
+      "Panama",
+      "migration",
+      "post-U.S. Army"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_43_nicholas_ambrose.yaml"
+  },
+  {
+    "entity_id": 9,
+    "entity": "Argentina",
+    "explicit_text": "Argentina was among the countries I lived in before coming back to Brooklyn. My time there was part of a period of drifting and searching for stability. Argentina represents the farthest point in my travels across the Americas.",
+    "implicit_text": "This South American country was among the places I lived before coming back to Brooklyn. My time there was part of a period of drifting and searching for stability. It represents the farthest point in my travels across the Americas.",
+    "cues": [
+      "Argentina",
+      "migration",
+      "pre-Brooklyn"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_43_nicholas_ambrose.yaml"
+  },
+  {
+    "entity_id": 10,
+    "entity": "Brooklyn",
+    "explicit_text": "Brooklyn became my home after all my travels, where I settled with my wife Anna and raised our five children. Though Anna was from Brooklyn, we lived apart from her relatives in Bensonhurst and Williamsburg, instead residing in Weeksville, a poor and neglected neighborhood. Brooklyn was where I finally put down roots, though I remained somewhat isolated from the Italian American community.",
+    "implicit_text": "This New York City borough became my home after all my travels, where I settled with my wife Anna and raised our five children. Though Anna was from this borough, we lived apart from her relatives in two other neighborhoods, instead residing in a poor and neglected area known for its isolation. This borough was where I finally put down roots, though I remained somewhat isolated from the Italian American community.",
+    "cues": [
+      "Brooklyn",
+      "Anna",
+      "Bensonhurst",
+      "Williamsburg",
+      "Weeksville",
+      "family"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_43_nicholas_ambrose.yaml"
+  },
+  {
+    "entity_id": 11,
+    "entity": "Matera",
+    "explicit_text": "Matera was the town where my grandparents lived in Southern Italy, perched on a hill overlooking the Gravina River. They lived in the Sassi, ancient cave dwellings that were overcrowded and unsanitary. The poverty there was so severe it was famously described in Carlo Levi's memoir, Christ Stopped at Eboli. Matera was the origin of my family before they moved to Corleto Perticara and eventually emigrated to America.",
+    "implicit_text": "This southern Italian town was where my grandparents lived, perched on a hill overlooking a dry river valley. They lived in ancient cave dwellings that were overcrowded and unsanitary. The poverty there was so severe it was famously described in a memoir by an Italian author. This town was the origin of my family before they moved to another town and eventually emigrated to America.",
+    "cues": [
+      "Matera",
+      "Southern Italy",
+      "Gravina River",
+      "Sassi",
+      "Carlo Levi",
+      "Christ Stopped at Eboli"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_43_nicholas_ambrose.yaml"
+  },
+  {
+    "entity_id": 12,
+    "entity": "Gravina River",
+    "explicit_text": "The Gravina River runs through the valley below Matera, where my grandparents lived. Their home overlooked this dry valley, a harsh landscape that shaped their difficult lives in the Sassi caves. The river and valley were part of the environment of poverty and hardship that my family endured before emigrating.",
+    "implicit_text": "This river runs through the valley below the town where my grandparents lived. Their home overlooked this dry valley, a harsh landscape that shaped their difficult lives in the cave dwellings. The river and valley were part of the environment of poverty and hardship that my family endured before emigrating.",
+    "cues": [
+      "Gravina River",
+      "Matera",
+      "Southern Italy",
+      "family home"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_43_nicholas_ambrose.yaml"
+  },
+  {
+    "entity_id": 13,
+    "entity": "I Sassi",
+    "explicit_text": "I Sassi are the cave neighborhoods in Matera where my grandparents lived. These dwellings were carved into the mountain and were overcrowded and primitive, with people and animals sharing the same space. The conditions were so dire that Carlo Levi described them vividly in his book, Christ Stopped at Eboli. Growing up hearing about I Sassi made me aware of the harsh realities my family faced in Italy.",
+    "implicit_text": "These cave neighborhoods in the southern Italian town were where my grandparents lived. These dwellings were carved into the mountain and were overcrowded and primitive, with people and animals sharing the same space. The conditions were so dire that an Italian author described them vividly in his memoir. Growing up hearing about these caves made me aware of the harsh realities my family faced in Italy.",
+    "cues": [
+      "I Sassi",
+      "Matera",
+      "cave dwellings",
+      "Carlo Levi",
+      "poverty"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_43_nicholas_ambrose.yaml"
+  },
+  {
+    "entity_id": 14,
+    "entity": "Carlo Levi",
+    "explicit_text": "Carlo Levi was the author who wrote the memoir Christ Stopped at Eboli, which described the poverty and suffering in Southern Italy, especially in places like Matera and the Sassi. His vivid account helped me understand the harsh conditions my grandparents endured. Levi's work gave voice to the struggles of people like my family before they emigrated.",
+    "implicit_text": "This Italian author wrote a memoir that described the poverty and suffering in southern Italy, especially in places like the town and cave dwellings where my grandparents lived. His vivid account helped me understand the harsh conditions my grandparents endured. His work gave voice to the struggles of people like my family before they emigrated.",
+    "cues": [
+      "Carlo Levi",
+      "Christ Stopped at Eboli",
+      "Southern Italy",
+      "poverty"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_43_nicholas_ambrose.yaml"
+  },
+  {
+    "entity_id": 15,
+    "entity": "Christ Stopped at Eboli",
+    "explicit_text": "Christ Stopped at Eboli is Carlo Levi's memoir that describes the desperate poverty in Southern Italy, including the conditions in Matera and the Sassi where my grandparents lived. The book's portrayal of starvation, disease, and isolation resonated deeply with my family's history. It helped me understand the reasons behind their emigration and the hardships they faced.",
+    "implicit_text": "This memoir by an Italian author describes the desperate poverty in southern Italy, including the conditions in the town and cave dwellings where my grandparents lived. The book's portrayal of starvation, disease, and isolation resonated deeply with my family's history. It helped me understand the reasons behind their emigration and the hardships they faced.",
+    "cues": [
+      "Christ Stopped at Eboli",
+      "Carlo Levi",
+      "Matera",
+      "poverty",
+      "emigration"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_43_nicholas_ambrose.yaml"
+  },
+  {
+    "entity_id": 16,
+    "entity": "UNESCO World Heritage Site",
+    "explicit_text": "Today, Matera and the Sassi are recognized as a UNESCO World Heritage Site, celebrated for their historical and cultural significance. This is a stark contrast to the desperate conditions my grandparents experienced there. While the site is now quiet and picturesque, for my family it was a heritage they sought to leave behind in search of a better life.",
+    "implicit_text": "Today, the southern Italian town and its cave neighborhoods are recognized as a World Heritage Site, celebrated for their historical and cultural significance. This is a stark contrast to the desperate conditions my grandparents experienced there. While the site is now quiet and picturesque, for my family it was a heritage they sought to leave behind in search of a better life.",
+    "cues": [
+      "UNESCO World Heritage Site",
+      "Matera",
+      "Sassi",
+      "heritage",
+      "poverty"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_43_nicholas_ambrose.yaml"
+  },
+  {
+    "entity_id": 17,
+    "entity": "Angelo Raffaele",
+    "explicit_text": "Angelo Raffaele was my grandfather, who lived in Matera and later moved to Corleto Perticara and then to Connecticut. He worked as a farm laborer at the Comstock Seed Company, continuing the agricultural work of his ancestors. Angelo was a hardworking man who, despite never learning English, provided for his family and laid the foundation for our life in America.",
+    "implicit_text": "My grandfather lived in the southern Italian town and later moved to another town and then to New England. He worked as a farm laborer at a seed company, continuing the agricultural work of his ancestors. He was a hardworking man who, despite never learning English, provided for his family and laid the foundation for our life in America.",
+    "cues": [
+      "Angelo Raffaele",
+      "grandfather",
+      "Matera",
+      "Corleto Perticara",
+      "Connecticut",
+      "Comstock Seed Company"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_43_nicholas_ambrose.yaml"
+  },
+  {
+    "entity_id": 18,
+    "entity": "Paola Rosa",
+    "explicit_text": "Paola Rosa was my grandmother, married to Angelo Raffaele and mother of seven children. She cared for the family while living in Matera and later in Connecticut. Like my grandfather, she never learned English and remained isolated from the wider community, but she was the heart of our family during those difficult years.",
+    "implicit_text": "My grandmother was married to my grandfather and mother of seven children. She cared for the family while living in southern Italy and later in New England. Like my grandfather, she never learned English and remained isolated from the wider community, but she was the heart of our family during those difficult years.",
+    "cues": [
+      "Paola Rosa",
+      "grandmother",
+      "Matera",
+      "Connecticut",
+      "family"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_43_nicholas_ambrose.yaml"
+  },
+  {
+    "entity_id": 19,
+    "entity": "Street of Seven Sorrows",
+    "explicit_text": "The Street of Seven Sorrows was the address in Matera where my grandparents lived when they had their first child in 1900. It was a place marked by hardship and poverty, reflecting the difficult conditions of our family’s early life. The name itself seemed to symbolize the struggles they endured before emigrating.",
+    "implicit_text": "This street in the southern Italian town was where my grandparents lived when they had their first child in 1900. It was a place marked by hardship and poverty, reflecting the difficult conditions of our family’s early life. The name itself seemed to symbolize the struggles they endured before emigrating.",
+    "cues": [
+      "Street of Seven Sorrows",
+      "Matera",
+      "1900",
+      "family home",
+      "poverty"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_43_nicholas_ambrose.yaml"
+  },
+  {
+    "entity_id": 20,
+    "entity": "Comstock Seed Company",
+    "explicit_text": "The Comstock Seed Company in Wethersfield, Connecticut, was where my grandfather Angelo found work as a farm laborer. This job allowed him to continue working the earth, much like his ancestors did in Italy. Though it provided for the family, it also contributed to their isolation, as they remained separate from the local community.",
+    "implicit_text": "This seed company in a small town in New England was where my grandfather found work as a farm laborer. This job allowed him to continue working the earth, much like his ancestors did in Italy. Though it provided for the family, it also contributed to their isolation, as they remained separate from the local community.",
+    "cues": [
+      "Comstock Seed Company",
+      "Wethersfield",
+      "Connecticut",
+      "farm laborer",
+      "Angelo Raffaele"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_43_nicholas_ambrose.yaml"
+  },
+  {
+    "entity_id": 21,
+    "entity": "U.S. Army",
+    "explicit_text": "I served in the U.S. Army for a while after leaving home as a teenager. This experience was part of my early adult life before I moved around the country and abroad. The Army was a chapter that shaped my journey and added to my restless spirit.",
+    "implicit_text": "I served in the military of this country for a while after leaving home as a teenager. This experience was part of my early adult life before I moved around the country and abroad. The military was a chapter that shaped my journey and added to my restless spirit.",
+    "cues": [
+      "U.S. Army",
+      "teenager",
+      "early adulthood"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_43_nicholas_ambrose.yaml"
+  },
+  {
+    "entity_id": 22,
+    "entity": "John Ambrose",
+    "explicit_text": "John Ambrose was my uncle, born in Wethersfield, Connecticut. He was part of our extended family that remained in the area after my grandparents settled there. John represents the branch of our family that stayed rooted in Connecticut while I moved on to other places.",
+    "implicit_text": "My uncle was born in the small New England town where my grandparents settled. He was part of our extended family that remained in the area after my grandparents settled there. He represents the branch of our family that stayed rooted in that region while I moved on to other places.",
+    "cues": [
+      "John Ambrose",
+      "uncle",
+      "Wethersfield",
+      "Connecticut"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_43_nicholas_ambrose.yaml"
+  },
+  {
+    "entity_id": 23,
+    "entity": "Bensonhurst, Brooklyn",
+    "explicit_text": "Bensonhurst is where my mother's relatives, including her cousin Giulia, lived in Brooklyn. Although Anna was from Brooklyn, we chose to live apart from her family in Bensonhurst and Williamsburg. Bensonhurst was part of the Italian American community that I found difficult to integrate into.",
+    "implicit_text": "This neighborhood in a New York City borough is where my mother's relatives, including her cousin Giulia, lived. Although Anna was from this borough, we chose to live apart from her family in this neighborhood and another. This area was part of the Italian American community that I found difficult to integrate into.",
+    "cues": [
+      "Bensonhurst",
+      "Brooklyn",
+      "Anna",
+      "Giulia",
+      "Italian American community"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_43_nicholas_ambrose.yaml"
+  },
+  {
+    "entity_id": 24,
+    "entity": "Williamsburg, Brooklyn",
+    "explicit_text": "Williamsburg was another Brooklyn neighborhood where my wife's family lived. Like Bensonhurst, it was part of the Italian American community that I struggled to fit into. We lived separately from them in Weeksville, which was a poorer and more isolated area.",
+    "implicit_text": "This neighborhood was another area in the same New York City borough where my wife's family lived. Like the other neighborhood, it was part of the Italian American community that I struggled to fit into. We lived separately from them in a poorer and more isolated area.",
+    "cues": [
+      "Williamsburg",
+      "Brooklyn",
+      "Anna",
+      "Italian American community"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_43_nicholas_ambrose.yaml"
+  },
+  {
+    "entity_id": 25,
+    "entity": "Weeksville, Brooklyn",
+    "explicit_text": "Weeksville was the neighborhood in central Brooklyn where my wife Anna and I raised our five children. It was a dilapidated, wood-frame area, far from the more established Italian American communities in Bensonhurst and Williamsburg. Living there felt like repeating the isolation and poverty of our parents’ generation, working silently and alone for a future we might never see.",
+    "implicit_text": "This neighborhood in central Brooklyn was where my wife Anna and I raised our five children. It was a dilapidated, wood-frame area, far from the more established Italian American communities in other parts of the borough. Living there felt like repeating the isolation and poverty of our parents’ generation, working silently and alone for a future we might never see.",
+    "cues": [
+      "Weeksville",
+      "Brooklyn",
+      "Anna",
+      "family",
+      "poverty",
+      "isolation"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_43_nicholas_ambrose.yaml"
+  }
+]

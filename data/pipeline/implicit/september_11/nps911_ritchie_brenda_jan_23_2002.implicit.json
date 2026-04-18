@@ -1,0 +1,254 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "Shenandoah National Park",
+    "explicit_text": "The communications center I worked in primarily served Shenandoah National Park, handling emergency notifications and coordination. It was a critical hub for managing resources and information during crises, especially in the Northeast Region. My role involved ensuring that Shenandoah and other parks were accounted for and supported during emergencies.",
+    "implicit_text": "The communications center I worked in primarily served the large national park located along the Blue Ridge Mountains, handling emergency notifications and coordination. It was a critical hub for managing resources and information during crises, especially in the Northeast Region. My role involved ensuring that this park and other nearby parks were accounted for and supported during emergencies.",
+    "cues": [
+      "communications center",
+      "emergency notifications",
+      "Northeast Region",
+      "resource mobilization"
+    ],
+    "transcript_ref": "september_11\\nps911_ritchie_brenda_jan_23_2002.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "Federal Emergency Management Agency",
+    "explicit_text": "We provided support to FEMA during major incidents, coordinating resources and responding to their requests in New York and New Jersey. FEMA teams generated orders that we helped fulfill, particularly in the Northeast Region. Our collaboration was vital in managing resources for their operations alongside National Park Service teams.",
+    "implicit_text": "We provided support to the federal agency responsible for disaster response during major incidents, coordinating resources and responding to their requests in New York and New Jersey. Their teams generated orders that we helped fulfill, particularly in the Northeast Region. Our collaboration was vital in managing resources for their operations alongside National Park Service teams.",
+    "cues": [
+      "FEMA",
+      "New York",
+      "New Jersey",
+      "resource coordination",
+      "Northeast Region"
+    ],
+    "transcript_ref": "september_11\\nps911_ritchie_brenda_jan_23_2002.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "Department of the Interior",
+    "explicit_text": "I worked closely with the Department of the Interior, especially during crisis situations, communicating directly with officials in the DOI building and up to the director and secretary. Early on, my priority was to locate DOI officials, assess their safety, and help coordinate their relocation when offices became unusable. Our communications center acted as an essential link for DOI during emergencies.",
+    "implicit_text": "I worked closely with the federal department overseeing natural resources and public lands, especially during crisis situations, communicating directly with officials in their headquarters building and up to the director and secretary. Early on, my priority was to locate these officials, assess their safety, and help coordinate their relocation when offices became unusable. Our communications center acted as an essential link for this department during emergencies.",
+    "cues": [
+      "Department of the Interior building",
+      "DOI officials",
+      "director and secretary",
+      "crisis communication",
+      "relocation"
+    ],
+    "transcript_ref": "september_11\\nps911_ritchie_brenda_jan_23_2002.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "Northeast Region (National Park Service)",
+    "explicit_text": "The coordination center mobilized and demobilized resources across the Northeast Region, including parks in Philadelphia, New York, Boston, and others. We managed multiple teams, including Type-1 and Type-2 teams, to support incidents throughout this region. It was a challenging role, especially with communication disruptions and the need to coordinate across various states.",
+    "implicit_text": "The coordination center mobilized and demobilized resources across the northeastern administrative region of the National Park Service, including parks in Philadelphia, New York, Boston, and others. We managed multiple teams, including Type-1 and Type-2 teams, to support incidents throughout this region. It was a challenging role, especially with communication disruptions and the need to coordinate across various states.",
+    "cues": [
+      "Northeast Region",
+      "Philadelphia",
+      "New York",
+      "Boston",
+      "Type-1 and Type-2 teams",
+      "resource mobilization"
+    ],
+    "transcript_ref": "september_11\\nps911_ritchie_brenda_jan_23_2002.yaml"
+  },
+  {
+    "entity_id": 5,
+    "entity": "National Park Service",
+    "explicit_text": "As part of the National Park Service, I was involved in emergency coordination and communication during major incidents. We supported not only our own parks but also assisted FEMA and other agencies by mobilizing teams and resources. The NPS played a critical role in managing safety, communications, and logistics in the Northeast Region.",
+    "implicit_text": "As part of the federal agency managing national parks, I was involved in emergency coordination and communication during major incidents. We supported not only our own parks but also assisted the federal disaster response agency and other organizations by mobilizing teams and resources. This agency played a critical role in managing safety, communications, and logistics in the Northeast Region.",
+    "cues": [
+      "National Park Service",
+      "emergency coordination",
+      "Northeast Region",
+      "FEMA support",
+      "resource mobilization"
+    ],
+    "transcript_ref": "september_11\\nps911_ritchie_brenda_jan_23_2002.yaml"
+  },
+  {
+    "entity_id": 6,
+    "entity": "Philadelphia",
+    "explicit_text": "Philadelphia was one of the key locations where we had a National Park Service team operating during the crisis. This team handled orders for parks in New York and helped locate employees to ensure their safety. Philadelphia served as an important coordination point for managing resources and personnel in the region.",
+    "implicit_text": "This major Pennsylvania city was one of the key locations where we had a National Park Service team operating during the crisis. This team handled orders for parks in New York and helped locate employees to ensure their safety. The city served as an important coordination point for managing resources and personnel in the region.",
+    "cues": [
+      "Philadelphia",
+      "NPS team",
+      "employee safety",
+      "resource coordination",
+      "Northeast Region"
+    ],
+    "transcript_ref": "september_11\\nps911_ritchie_brenda_jan_23_2002.yaml"
+  },
+  {
+    "entity_id": 7,
+    "entity": "Washington, D.C.",
+    "explicit_text": "Washington, D.C. was a central focus during the emergency, with a Type-1 Team based there and the Department of the Interior building being a critical site. We supported teams in D.C. and coordinated resources, including bringing in satellite communications and cellular on wheels to restore connectivity. The city was a hub for many of our operations and communications efforts.",
+    "implicit_text": "The U.S. capital was a central focus during the emergency, with a Type-1 Team based there and the federal department's headquarters building being a critical site. We supported teams in the capital and coordinated resources, including bringing in satellite communications and mobile cellular units to restore connectivity. The city was a hub for many of our operations and communications efforts.",
+    "cues": [
+      "Washington, D.C.",
+      "Type-1 Team",
+      "Department of the Interior",
+      "satellite communications",
+      "cellular on wheels"
+    ],
+    "transcript_ref": "september_11\\nps911_ritchie_brenda_jan_23_2002.yaml"
+  },
+  {
+    "entity_id": 8,
+    "entity": "New York City",
+    "explicit_text": "New York City was one of the areas where FEMA had a team generating orders that we supported. We helped locate employees, ensured safety, and provided resources to parks and agencies in the city. Our coordination efforts extended to New York as part of the broader Northeast Region response.",
+    "implicit_text": "This major metropolitan area was one of the locations where the federal disaster response agency had a team generating orders that we supported. We helped locate employees, ensured safety, and provided resources to parks and agencies in the city. Our coordination efforts extended to this city as part of the broader Northeast Region response.",
+    "cues": [
+      "New York City",
+      "FEMA team",
+      "employee safety",
+      "resource support",
+      "Northeast Region"
+    ],
+    "transcript_ref": "september_11\\nps911_ritchie_brenda_jan_23_2002.yaml"
+  },
+  {
+    "entity_id": 9,
+    "entity": "New Jersey",
+    "explicit_text": "FEMA in New Jersey was another key location where we filled resource orders during the incident. Our coordination center worked closely to support FEMA operations there, alongside other Northeast Region efforts. It was part of the multi-state response we managed.",
+    "implicit_text": "The neighboring state to New York was another key location where the federal disaster response agency filled resource orders during the incident. Our coordination center worked closely to support their operations there, alongside other Northeast Region efforts. It was part of the multi-state response we managed.",
+    "cues": [
+      "New Jersey",
+      "FEMA",
+      "resource orders",
+      "Northeast Region",
+      "incident response"
+    ],
+    "transcript_ref": "september_11\\nps911_ritchie_brenda_jan_23_2002.yaml"
+  },
+  {
+    "entity_id": 10,
+    "entity": "National Interagency Fire Center",
+    "explicit_text": "The National Interagency Fire Center in Boise, Idaho, sent a Type-1 Team to Washington, D.C., which we supported by supplying resources. NIFC played a role in providing specialized incident command teams during the emergency. Their involvement was crucial in managing the complex response efforts in the capital.",
+    "implicit_text": "The interagency fire coordination center located in Idaho sent a Type-1 Team to the U.S. capital, which we supported by supplying resources. This center played a role in providing specialized incident command teams during the emergency. Their involvement was crucial in managing the complex response efforts in the capital.",
+    "cues": [
+      "National Interagency Fire Center",
+      "Boise, Idaho",
+      "Type-1 Team",
+      "Washington, D.C.",
+      "resource support"
+    ],
+    "transcript_ref": "september_11\\nps911_ritchie_brenda_jan_23_2002.yaml"
+  },
+  {
+    "entity_id": 11,
+    "entity": "Boise, Idaho",
+    "explicit_text": "Boise, Idaho, is home to the National Interagency Fire Center, which sent a Type-1 Team to assist in Washington, D.C. Our coordination center worked with that team to provide necessary resources and support. Boise's NIFC was an important partner in the emergency response.",
+    "implicit_text": "This city in Idaho is home to the interagency fire coordination center, which sent a Type-1 Team to assist in the U.S. capital. Our coordination center worked with that team to provide necessary resources and support. The center based in this city was an important partner in the emergency response.",
+    "cues": [
+      "Boise, Idaho",
+      "National Interagency Fire Center",
+      "Type-1 Team",
+      "Washington, D.C.",
+      "emergency support"
+    ],
+    "transcript_ref": "september_11\\nps911_ritchie_brenda_jan_23_2002.yaml"
+  },
+  {
+    "entity_id": 12,
+    "entity": "Mission 66",
+    "explicit_text": "The communications center operated out of a small building known as a Mission 66 house, which was typical of the National Park Service's mid-20th century infrastructure. The rooms were quite small, but during the crisis, we had up to 12 people working in each room before expanding operations. This facility was the starting point before we brought in additional trailers and expanded the coordination center.",
+    "implicit_text": "The communications center operated out of a small building known by a mid-20th century federal infrastructure program name, typical of the National Park Service's facilities. The rooms were quite small, but during the crisis, we had up to 12 people working in each room before expanding operations. This facility was the starting point before we brought in additional trailers and expanded the coordination center.",
+    "cues": [
+      "Mission 66",
+      "communications center",
+      "small rooms",
+      "NPS infrastructure",
+      "emergency operations"
+    ],
+    "transcript_ref": "september_11\\nps911_ritchie_brenda_jan_23_2002.yaml"
+  },
+  {
+    "entity_id": 13,
+    "entity": "Verizon Communications",
+    "explicit_text": "Verizon Communications played a critical role by coordinating with Sprint to set up cellular on wheels at our facility. This was the first time these companies worked together to restore cell phone service during the crisis. Verizon helped provide about 150 cell phones that were issued to teams, greatly improving communication capabilities in the first eight hours.",
+    "implicit_text": "A major telecommunications company played a critical role by coordinating with another wireless provider to set up mobile cellular units at our facility. This was the first time these companies worked together to restore cell phone service during the crisis. This company helped provide about 150 cell phones that were issued to teams, greatly improving communication capabilities in the first eight hours.",
+    "cues": [
+      "Verizon Communications",
+      "Sprint",
+      "cellular on wheels",
+      "restoring service",
+      "emergency communication"
+    ],
+    "transcript_ref": "september_11\\nps911_ritchie_brenda_jan_23_2002.yaml"
+  },
+  {
+    "entity_id": 14,
+    "entity": "Sprint Corporation",
+    "explicit_text": "Sprint Corporation collaborated with Verizon to coordinate the setup of cellular on wheels at our center. This unprecedented cooperation allowed us to restore cell phone service quickly during the emergency. Sprint's contribution was vital in enabling communication for teams deployed to critical sites.",
+    "implicit_text": "Another wireless communications company collaborated with a major telecom provider to coordinate the setup of mobile cellular units at our center. This unprecedented cooperation allowed us to restore cell phone service quickly during the emergency. Their contribution was vital in enabling communication for teams deployed to critical sites.",
+    "cues": [
+      "Sprint Corporation",
+      "Verizon",
+      "cellular on wheels",
+      "communication restoration",
+      "emergency response"
+    ],
+    "transcript_ref": "september_11\\nps911_ritchie_brenda_jan_23_2002.yaml"
+  },
+  {
+    "entity_id": 15,
+    "entity": "Cellular on Wheels",
+    "explicit_text": "Cellular on Wheels, or COW, was brought in as a mobile satellite communication unit to restore cell phone service when all other systems were down. Verizon and Sprint coordinated to set it up at our center, and we issued about 150 cell phones to teams heading into the field. This technology was a game changer in the first eight hours of the crisis.",
+    "implicit_text": "Mobile cellular units, known as COWs, were brought in as satellite communication devices to restore cell phone service when all other systems were down. Two major wireless providers coordinated to set them up at our center, and we issued about 150 cell phones to teams heading into the field. This technology was a game changer in the first eight hours of the crisis.",
+    "cues": [
+      "Cellular on Wheels",
+      "mobile satellite",
+      "Verizon",
+      "Sprint",
+      "restoring cell phone service"
+    ],
+    "transcript_ref": "september_11\\nps911_ritchie_brenda_jan_23_2002.yaml"
+  },
+  {
+    "entity_id": 16,
+    "entity": "Boston",
+    "explicit_text": "Boston was one of the five 'icon' parks in the Northeast Region that we supported during the incident. Along with Independence and Sandy Hook, Boston's park units reported status updates and received resources through our coordination center. It was part of the broader regional response to maintain safety and operations.",
+    "implicit_text": "This historic New England city was one of the five 'icon' parks in the Northeast Region that we supported during the incident. Along with parks in Philadelphia and a coastal New Jersey site, the park units here reported status updates and received resources through our coordination center. It was part of the broader regional response to maintain safety and operations.",
+    "cues": [
+      "Boston",
+      "icon parks",
+      "Northeast Region",
+      "status reporting",
+      "resource support"
+    ],
+    "transcript_ref": "september_11\\nps911_ritchie_brenda_jan_23_2002.yaml"
+  },
+  {
+    "entity_id": 17,
+    "entity": "Independence National Historical Park",
+    "explicit_text": "Independence National Historical Park was among the five 'icon' parks in the Northeast Region that we directly supported during the emergency. We gathered status updates from the park and ensured resources were allocated as needed. It was a key site in our regional coordination efforts.",
+    "implicit_text": "A historic park located in Philadelphia was among the five 'icon' parks in the Northeast Region that we directly supported during the emergency. We gathered status updates from this site and ensured resources were allocated as needed. It was a key location in our regional coordination efforts.",
+    "cues": [
+      "Independence National Historical Park",
+      "icon parks",
+      "Northeast Region",
+      "status updates",
+      "resource allocation"
+    ],
+    "transcript_ref": "september_11\\nps911_ritchie_brenda_jan_23_2002.yaml"
+  },
+  {
+    "entity_id": 18,
+    "entity": "Sandy Hook",
+    "explicit_text": "Sandy Hook was one of the 'icon' parks in the Northeast Region that we supported during the crisis. We coordinated communications and resources to ensure the park's safety and operations. Sandy Hook was part of the network of parks reporting status and receiving assistance through our center.",
+    "implicit_text": "A coastal national recreation area in New Jersey was one of the 'icon' parks in the Northeast Region that we supported during the crisis. We coordinated communications and resources to ensure the site's safety and operations. This location was part of the network of parks reporting status and receiving assistance through our center.",
+    "cues": [
+      "Sandy Hook",
+      "icon parks",
+      "Northeast Region",
+      "communication",
+      "resource coordination"
+    ],
+    "transcript_ref": "september_11\\nps911_ritchie_brenda_jan_23_2002.yaml"
+  }
+]

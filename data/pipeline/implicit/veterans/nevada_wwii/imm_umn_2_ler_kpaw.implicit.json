@@ -1,0 +1,133 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "Karen State",
+    "explicit_text": "I was born in Karen State, Burma, in the year 2000. Karen State is where my family and I originally come from before we became refugees. It was a place that shaped my early life before we had to leave due to difficult circumstances. My connection to Karen State is deep because it is my homeland and where my story began.",
+    "implicit_text": "I was born in a southeastern region of Burma in the year 2000. This area is where my family and I originally come from before we became refugees. It was a place that shaped my early life before we had to leave due to difficult circumstances. My connection to this homeland is deep because it is where my story began.",
+    "cues": [
+      "born in 2000",
+      "homeland",
+      "Burma",
+      "early life"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_2_ler_kpaw.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "Burma",
+    "explicit_text": "Burma, also known as Myanmar, is the country where Karen State is located and where I was born. Life in Burma was challenging for my family, which eventually led us to flee and become refugees. The political and social conditions in Burma influenced our decision to leave and seek safety elsewhere. Burma will always be part of my identity as my birthplace.",
+    "implicit_text": "The country where that southeastern region is located is where I was born. Life there was challenging for my family, which eventually led us to flee and become refugees. The political and social conditions in that country influenced our decision to leave and seek safety elsewhere. It will always be part of my identity as my birthplace.",
+    "cues": [
+      "Karen State location",
+      "birthplace",
+      "refugee reasons",
+      "identity"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_2_ler_kpaw.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "Mae La Oo refugee camp",
+    "explicit_text": "My family and I lived in the Mae La Oo refugee camp in Thailand for many years. Life there was hard, especially for my parents who struggled to find jobs. The camp was a place of refuge but also of many challenges, like limited food and opportunities. It was where I grew up before we resettled in the United States in 2011.",
+    "implicit_text": "My family and I lived in a refugee camp in Thailand for many years. Life there was hard, especially for my parents who struggled to find jobs. The camp was a place of refuge but also of many challenges, like limited food and opportunities. It was where I grew up before we resettled in the United States in 2011.",
+    "cues": [
+      "refugee camp",
+      "Thailand",
+      "hard life",
+      "resettlement in 2011"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_2_ler_kpaw.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "Thailand",
+    "explicit_text": "Thailand was the country where my family took refuge after leaving Burma. We lived in the Mae La Oo refugee camp there, and my dad tried to find work outside the camp but faced difficulties, including being jailed for a month. We traveled through places like Mae Sot and Bangkok in Thailand during our journey to the United States. Thailand was both a place of refuge and struggle for us.",
+    "implicit_text": "This was the country where my family took refuge after leaving Burma. We lived in that refugee camp there, and my dad tried to find work outside the camp but faced difficulties, including being jailed for a month. We traveled through places like Mae Sot and Bangkok during our journey to the United States. It was both a place of refuge and struggle for us.",
+    "cues": [
+      "Mae La Oo camp",
+      "Mae Sot",
+      "Bangkok",
+      "refugee journey",
+      "dad jailed"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_2_ler_kpaw.yaml"
+  },
+  {
+    "entity_id": 5,
+    "entity": "United States",
+    "explicit_text": "In 2011, my family resettled in the United States, which was a big change for us. At first, it was hard because we didn't understand English well and had to adjust to a new culture and environment. My dad found a job in a shampoo company but faced unfair treatment. Despite the challenges, I now feel safe and comfortable living in the U.S., and it has become my new home.",
+    "implicit_text": "In 2011, my family resettled in a North American country, which was a big change for us. At first, it was hard because we didn't understand English well and had to adjust to a new culture and environment. My dad found a job in a shampoo company but faced unfair treatment. Despite the challenges, I now feel safe and comfortable living here, and it has become my new home.",
+    "cues": [
+      "resettled in 2011",
+      "language barrier",
+      "job challenges",
+      "new home"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_2_ler_kpaw.yaml"
+  },
+  {
+    "entity_id": 6,
+    "entity": "St. Paul, Minnesota",
+    "explicit_text": "After arriving in the United States, my family settled in St. Paul, Minnesota. This is where I live now and where I attend school. Living in St. Paul has been a big adjustment from my life in the refugee camp and Thailand, but I feel safe here. The city is where my family is building a new life.",
+    "implicit_text": "After arriving in that North American country, my family settled in a city in Minnesota. This is where I live now and where I attend school. Living there has been a big adjustment from my life in the refugee camp and Thailand, but I feel safe here. The city is where my family is building a new life.",
+    "cues": [
+      "resettlement",
+      "current residence",
+      "school attendance",
+      "new life"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_2_ler_kpaw.yaml"
+  },
+  {
+    "entity_id": 7,
+    "entity": "Washington Technology Magnet School",
+    "explicit_text": "I am currently a student at Washington Technology Magnet School in St. Paul. Going to this school is part of my journey to improve my English and adapt to life in the United States. School has been important for me to learn and grow after coming from a refugee camp. It represents a new opportunity for my future.",
+    "implicit_text": "I am currently a student at a technology-focused magnet school in that Minnesota city. Going to this school is part of my journey to improve my English and adapt to life in the United States. School has been important for me to learn and grow after coming from a refugee camp. It represents a new opportunity for my future.",
+    "cues": [
+      "student",
+      "St. Paul",
+      "English learning",
+      "new opportunities"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_2_ler_kpaw.yaml"
+  },
+  {
+    "entity_id": 8,
+    "entity": "Mae Sot",
+    "explicit_text": "Mae Sot is a town in Thailand that we traveled through on our way from the refugee camp to the United States. It was part of the long and worrying journey my family took in 2011. I remember being scared and seeing my younger brother faint in the car because of the smell on the dirt road there. Mae Sot was a difficult but important stop on our path to a new life.",
+    "implicit_text": "This town in Thailand was one of the places we traveled through on our way from the refugee camp to the United States. It was part of the long and worrying journey my family took in 2011. I remember being scared and seeing my younger brother faint in the car because of the smell on the dirt road there. This town was a difficult but important stop on our path to a new life.",
+    "cues": [
+      "travel route",
+      "2011 journey",
+      "younger brother fainted",
+      "Thailand"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_2_ler_kpaw.yaml"
+  },
+  {
+    "entity_id": 9,
+    "entity": "Bangkok",
+    "explicit_text": "In Bangkok, Thailand, we went through airport security on our way to the United States. I didn't understand why the security took away our belongings, and I thought they might arrive in the U.S. before us. The airport experience was confusing and stressful for me as a child. Bangkok was a key point in our journey to America.",
+    "implicit_text": "In the capital city of Thailand, we went through airport security on our way to the United States. I didn't understand why the security took away our belongings, and I thought they might arrive in the U.S. before us. The airport experience was confusing and stressful for me as a child. This city was a key point in our journey to America.",
+    "cues": [
+      "airport security",
+      "travel",
+      "confusion",
+      "Thailand"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_2_ler_kpaw.yaml"
+  },
+  {
+    "entity_id": 10,
+    "entity": "Hong Kong",
+    "explicit_text": "During our travel to the United States, we stopped in Hong Kong where I got lost in the airport for one or two hours. My mom was very worried and cried because she couldn't find me. This was a scary moment for me, but we eventually reunited and continued our journey. Hong Kong was an unexpected challenge on our way to a new life.",
+    "implicit_text": "During our travel to the United States, we stopped in a major international city where I got lost in the airport for one or two hours. My mom was very worried and cried because she couldn't find me. This was a scary moment for me, but we eventually reunited and continued our journey. That city was an unexpected challenge on our way to a new life.",
+    "cues": [
+      "airport stop",
+      "lost child",
+      "mom worried",
+      "travel"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_2_ler_kpaw.yaml"
+  }
+]

@@ -1,0 +1,74 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "Classical King FM",
+    "explicit_text": "I am the CEO of Classical King FM, a nonprofit classical music station serving the Puget Sound area including Seattle and Bellevue. When the COVID-19 pandemic hit in early 2020, we had just moved into a new building with new equipment, which made the timing challenging. I had to oversee operations closely, keep staff safe, and adapt our programming to support listeners during the crisis. We made the decision not to mention COVID on air to provide a mental health break, and introduced interactive features like a weekly all-request day to engage our audience.",
+    "implicit_text": "I am the CEO of a nonprofit classical music station serving the Puget Sound area including Seattle and Bellevue. When the global health crisis hit in early 2020, we had just moved into a new building with new equipment, which made the timing challenging. I had to oversee operations closely, keep staff safe, and adapt our programming to support listeners during the crisis. We made the decision not to mention the health crisis on air to provide a mental health break, and introduced interactive features like a weekly all-request day to engage our audience.",
+    "cues": [
+      "CEO role",
+      "nonprofit classical music station",
+      "Puget Sound region",
+      "new building move",
+      "COVID-19 pandemic",
+      "programming changes",
+      "staff safety protocols"
+    ],
+    "transcript_ref": "depression_era\\loc_influenza\\flu_Brenda_Barnes_-_Musical_Work_in_the_Time_of_COVID-19_-_Oral_History_Transcript.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "Puget Sound",
+    "explicit_text": "Puget Sound is the region that Classical King FM serves, including cities like Seattle and Bellevue. It's a vibrant area with a strong community that relies on our station for classical music and comfort, especially during tough times like the COVID-19 pandemic. Being based here means we understand the local listeners' needs and can tailor our programming to support them through challenges.",
+    "implicit_text": "This region is the area that the classical music station serves, including cities like Seattle and Bellevue. It's a vibrant area with a strong community that relies on our station for classical music and comfort, especially during tough times like the global health crisis. Being based here means we understand the local listeners' needs and can tailor our programming to support them through challenges.",
+    "cues": [
+      "Puget Sound region",
+      "Seattle",
+      "Bellevue",
+      "local listeners",
+      "community service"
+    ],
+    "transcript_ref": "depression_era\\loc_influenza\\flu_Brenda_Barnes_-_Musical_Work_in_the_Time_of_COVID-19_-_Oral_History_Transcript.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "Seattle",
+    "explicit_text": "Seattle is one of the key cities in the Puget Sound area where Classical King FM broadcasts and serves its audience. During the pandemic, our station remained physically present in Seattle, prioritizing live broadcasts to maintain a connection with listeners who were isolated at home. The city’s culture and community needs deeply influence how we operate and engage with our audience.",
+    "implicit_text": "This city is one of the key locations in the Puget Sound area where the classical music station broadcasts and serves its audience. During the global health crisis, our station remained physically present here, prioritizing live broadcasts to maintain a connection with listeners who were isolated at home. The city’s culture and community needs deeply influence how we operate and engage with our audience.",
+    "cues": [
+      "Seattle city",
+      "Puget Sound region",
+      "live broadcasts",
+      "pandemic response",
+      "community engagement"
+    ],
+    "transcript_ref": "depression_era\\loc_influenza\\flu_Brenda_Barnes_-_Musical_Work_in_the_Time_of_COVID-19_-_Oral_History_Transcript.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "Bellevue, Washington",
+    "explicit_text": "Bellevue, Washington is part of the Puget Sound region that Classical King FM serves. Like Seattle, Bellevue listeners depend on us for soothing and intelligent classical music, especially during the COVID-19 pandemic when many were isolated. Our station’s presence in this area means we are attuned to the local community’s needs and strive to provide a comforting and familiar experience through our broadcasts.",
+    "implicit_text": "This city in Washington is part of the Puget Sound region that the classical music station serves. Like Seattle, listeners here depend on us for soothing and intelligent classical music, especially during the global health crisis when many were isolated. Our station’s presence in this area means we are attuned to the local community’s needs and strive to provide a comforting and familiar experience through our broadcasts.",
+    "cues": [
+      "Bellevue city",
+      "Puget Sound region",
+      "classical music audience",
+      "pandemic listener support"
+    ],
+    "transcript_ref": "depression_era\\loc_influenza\\flu_Brenda_Barnes_-_Musical_Work_in_the_Time_of_COVID-19_-_Oral_History_Transcript.yaml"
+  },
+  {
+    "entity_id": 5,
+    "entity": "COVID-19 pandemic",
+    "explicit_text": "The COVID-19 pandemic drastically changed how we operated at Classical King FM starting in early 2020. We had just moved into a new building when stay-at-home orders were issued, so I focused on keeping staff safe while maintaining live broadcasts. We chose not to mention COVID on air to offer listeners a mental health break and introduced interactive programming like all-request Fridays to keep people connected. Managing staff safety protocols and adapting to the evolving situation was one of the most challenging parts of my role during this unprecedented event.",
+    "implicit_text": "The global health crisis drastically changed how we operated at the classical music station starting in early 2020. We had just moved into a new building when stay-at-home orders were issued, so I focused on keeping staff safe while maintaining live broadcasts. We chose not to mention the crisis on air to offer listeners a mental health break and introduced interactive programming like all-request Fridays to keep people connected. Managing staff safety protocols and adapting to the evolving situation was one of the most challenging parts of my role during this unprecedented event.",
+    "cues": [
+      "early 2020",
+      "pandemic onset",
+      "staff safety",
+      "live broadcasting",
+      "mental health break",
+      "programming adaptations"
+    ],
+    "transcript_ref": "depression_era\\loc_influenza\\flu_Brenda_Barnes_-_Musical_Work_in_the_Time_of_COVID-19_-_Oral_History_Transcript.yaml"
+  }
+]

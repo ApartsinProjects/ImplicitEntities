@@ -1,0 +1,347 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "Grace Abbott",
+    "explicit_text": "My name is Grace Abbott, born October 20th, 1907 in Sebastopol, California. I currently live at 445 Twin Lakes Circle in Oakmont Village, Santa Rosa. I have deep family roots here, with my grandparents having settled in Sonoma County during the mid-1800s. I cherish the old family photographs and stories passed down about my ancestors' journeys and lives in this region.",
+    "implicit_text": "I was born on October 20th, 1907, in a small town in California known for its apple production. I currently reside at 445 Twin Lakes Circle in a retirement community in a city famous for its wine country. My family has been rooted in this northern California region since the mid-1800s, and I treasure the old photographs and stories about my ancestors' lives here.",
+    "cues": [
+      "October 20th, 1907",
+      "Sebastopol",
+      "Santa Rosa",
+      "Oakmont Village",
+      "Sonoma County",
+      "family photographs"
+    ],
+    "transcript_ref": "regional\\disasters\\dis_Abbott_Grace_-_Oral_History_1992_Transcript.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "Santa Rosa, California",
+    "explicit_text": "I live in Santa Rosa, specifically in Oakmont Village at 445 Twin Lakes Circle. My parents were married in Santa Rosa in 1903, and I have a treasured wedding photo of them taken there. Santa Rosa has been central to many family events and memories throughout my life.",
+    "implicit_text": "I live in a city known as the largest in Sonoma County, specifically in a retirement community at 445 Twin Lakes Circle. My parents were married here in 1903, and I have a cherished wedding photo taken in this city. It has been central to many family events and memories throughout my life.",
+    "cues": [
+      "445 Twin Lakes Circle",
+      "Oakmont Village",
+      "1903 wedding",
+      "family events"
+    ],
+    "transcript_ref": "regional\\disasters\\dis_Abbott_Grace_-_Oral_History_1992_Transcript.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "Oakmont Village",
+    "explicit_text": "Oakmont Village in Santa Rosa is where I currently reside. It’s a peaceful place that connects me to the community and my family history in Sonoma County. Living here keeps me close to the places my family has called home for generations.",
+    "implicit_text": "The retirement community where I currently live is located within a city in Sonoma County. It’s a peaceful place that connects me to the local community and my family history in this region. Living here keeps me close to the places my family has called home for generations.",
+    "cues": [
+      "Santa Rosa",
+      "Sonoma County",
+      "family history"
+    ],
+    "transcript_ref": "regional\\disasters\\dis_Abbott_Grace_-_Oral_History_1992_Transcript.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "Sebastopol, California",
+    "explicit_text": "I was born in Sebastopol at my grandmother’s house on Florence Avenue in 1907. My mother’s family lived in town there, and it’s where my parents likely met. Sebastopol has always been a significant place in my family’s story.",
+    "implicit_text": "I was born at my grandmother’s house on Florence Avenue in a small town in Sonoma County in 1907. My mother’s family lived there, and it’s likely where my parents met. This town has always been significant in my family’s story.",
+    "cues": [
+      "1907 birth",
+      "Florence Avenue",
+      "mother’s family",
+      "parents meeting"
+    ],
+    "transcript_ref": "regional\\disasters\\dis_Abbott_Grace_-_Oral_History_1992_Transcript.yaml"
+  },
+  {
+    "entity_id": 5,
+    "entity": "Healdsburg, California",
+    "explicit_text": "Healdsburg is near where my grandmother’s house on Florence Avenue is located, though our house was closer to Bodega. It’s part of the broader area where my family settled and lived in Sonoma County. I often think about the connections between these small towns in our family history.",
+    "implicit_text": "A nearby town to where my grandmother’s house on Florence Avenue was located lies just a bit further from our family home closer to the coast. It’s part of the broader area in Sonoma County where my family settled and lived. I often think about the connections between these small towns in our family history.",
+    "cues": [
+      "Florence Avenue",
+      "Bodega",
+      "Sonoma County",
+      "family settlement"
+    ],
+    "transcript_ref": "regional\\disasters\\dis_Abbott_Grace_-_Oral_History_1992_Transcript.yaml"
+  },
+  {
+    "entity_id": 6,
+    "entity": "Bodega, California",
+    "explicit_text": "My grandmother’s home where I was born was near Bodega, just a few houses away from the Strout House on Florence Avenue. Bodega is part of the rural area where my family lived and farmed. It holds a special place in my memories of childhood and family roots.",
+    "implicit_text": "My grandmother’s home where I was born was near a small coastal town, just a few houses away from a well-known local residence on Florence Avenue. This rural area was where my family lived and farmed. It holds a special place in my memories of childhood and family roots.",
+    "cues": [
+      "Florence Avenue",
+      "Strout House",
+      "family farm",
+      "childhood memories"
+    ],
+    "transcript_ref": "regional\\disasters\\dis_Abbott_Grace_-_Oral_History_1992_Transcript.yaml"
+  },
+  {
+    "entity_id": 7,
+    "entity": "Strout House",
+    "explicit_text": "The Strout House is a well-known old house near where I was born on Florence Avenue. One of the Strout daughters, Erma, is an aunt by marriage to me, so I’m quite familiar with the family and the house. It’s a landmark in our family’s local history.",
+    "implicit_text": "The well-known old house near where I was born on Florence Avenue belongs to a family connected to me by marriage. One of the daughters, Erma, is an aunt by marriage, so I’m quite familiar with the family and the house. It’s a landmark in our family’s local history.",
+    "cues": [
+      "Florence Avenue",
+      "Erma Strout",
+      "family connection",
+      "local history"
+    ],
+    "transcript_ref": "regional\\disasters\\dis_Abbott_Grace_-_Oral_History_1992_Transcript.yaml"
+  },
+  {
+    "entity_id": 8,
+    "entity": "Kentucky",
+    "explicit_text": "My grandfather Winkler came from Kentucky when he was sixteen in 1849, drawn by the California Gold Rush. Although he initially went for gold, he soon decided to farm instead, which suited him better as a farmboy. Kentucky is where our family’s journey to California began.",
+    "implicit_text": "My grandfather came from a southern state known for bluegrass and horse farms when he was sixteen in 1849, drawn by the gold rush in California. Although he initially went seeking gold, he soon decided to farm instead, which suited him better as a farmboy. That southern state is where our family’s journey to California began.",
+    "cues": [
+      "1849",
+      "California Gold Rush",
+      "grandfather Winkler",
+      "family migration"
+    ],
+    "transcript_ref": "regional\\disasters\\dis_Abbott_Grace_-_Oral_History_1992_Transcript.yaml"
+  },
+  {
+    "entity_id": 9,
+    "entity": "California Gold Rush",
+    "explicit_text": "The California Gold Rush of 1849 was the reason my grandfather Winkler left Kentucky and came west. He was just sixteen and initially aimed to find gold, but he chose farming over mining once he arrived. This event was a pivotal moment that brought my family to California.",
+    "implicit_text": "The gold rush in California in 1849 was the reason my grandfather left his home state and came west. He was just sixteen and initially aimed to find gold, but he chose farming over mining once he arrived. This event was a pivotal moment that brought my family to California.",
+    "cues": [
+      "1849",
+      "grandfather Winkler",
+      "migration",
+      "farming choice"
+    ],
+    "transcript_ref": "regional\\disasters\\dis_Abbott_Grace_-_Oral_History_1992_Transcript.yaml"
+  },
+  {
+    "entity_id": 10,
+    "entity": "Missouri",
+    "explicit_text": "My maternal grandfather came from Missouri sometime in the mid-1800s before settling in California. My mother was born there in 1879, along with most of her siblings, before the family moved west via the Oregon Trail. Missouri was the starting point for my mother’s side of the family’s journey.",
+    "implicit_text": "My maternal grandfather came from a Midwestern state sometime in the mid-1800s before settling in California. My mother was born there in 1879, along with most of her siblings, before the family moved west via a famous pioneer trail. That Midwestern state was the starting point for my mother’s side of the family’s journey.",
+    "cues": [
+      "mid-1800s",
+      "maternal grandfather",
+      "mother born 1879",
+      "Oregon Trail migration"
+    ],
+    "transcript_ref": "regional\\disasters\\dis_Abbott_Grace_-_Oral_History_1992_Transcript.yaml"
+  },
+  {
+    "entity_id": 11,
+    "entity": "Oregon",
+    "explicit_text": "My mother’s family came down from Oregon to California after my grandfather first settled here. They traveled the northern route across the United States, and Oregon was part of that journey. It was a time when the west was still being settled and life was challenging but hopeful.",
+    "implicit_text": "My mother’s family came down from a northwestern state to California after my grandfather first settled here. They traveled the northern route across the United States, and that state was part of their journey. It was a time when the west was still being settled and life was challenging but hopeful.",
+    "cues": [
+      "family migration",
+      "Oregon Trail",
+      "settlement",
+      "westward journey"
+    ],
+    "transcript_ref": "regional\\disasters\\dis_Abbott_Grace_-_Oral_History_1992_Transcript.yaml"
+  },
+  {
+    "entity_id": 12,
+    "entity": "Oregon Trail",
+    "explicit_text": "My mother’s family traveled the Oregon Trail when they moved from Missouri to California. Though I don’t recall many details, my mother was old enough to remember being happy to leave Missouri behind. The Oregon Trail was a tough but important route for our family’s migration westward.",
+    "implicit_text": "My mother’s family traveled a well-known pioneer trail when they moved from Missouri to California. Though I don’t recall many details, my mother was old enough to remember being happy to leave Missouri behind. That trail was a tough but important route for our family’s migration westward.",
+    "cues": [
+      "family migration",
+      "Missouri to California",
+      "mother’s memories",
+      "westward journey"
+    ],
+    "transcript_ref": "regional\\disasters\\dis_Abbott_Grace_-_Oral_History_1992_Transcript.yaml"
+  },
+  {
+    "entity_id": 13,
+    "entity": "Sacramento, California",
+    "explicit_text": "My grandfather Winkler came over the Sierras and into Sacramento before settling down in Sonoma County. Sacramento was a key point on his journey west with a team of oxen. It represents an important stop in the migration story of my father’s family.",
+    "implicit_text": "My grandfather crossed the Sierra Nevada mountains and passed through the capital city of California before settling down in Sonoma County. That city was a key point on his journey west with a team of oxen. It represents an important stop in the migration story of my father’s family.",
+    "cues": [
+      "migration route",
+      "team of oxen",
+      "Sierras crossing",
+      "Sonoma County settlement"
+    ],
+    "transcript_ref": "regional\\disasters\\dis_Abbott_Grace_-_Oral_History_1992_Transcript.yaml"
+  },
+  {
+    "entity_id": 14,
+    "entity": "Sonoma County, California",
+    "explicit_text": "Sonoma County is where my family settled after traveling west in the mid-1800s. My father’s family farmed in Green Valley near Graton, and I grew up in this area. It’s been home to several generations of my family, rich with agricultural history and local community ties.",
+    "implicit_text": "The county in northern California where my family settled after traveling west in the mid-1800s has been home to several generations of my family. My father’s family farmed in a valley near a small town called Graton, and I grew up in this area. It’s rich with agricultural history and local community ties.",
+    "cues": [
+      "mid-1800s settlement",
+      "Green Valley",
+      "Graton",
+      "family farming"
+    ],
+    "transcript_ref": "regional\\disasters\\dis_Abbott_Grace_-_Oral_History_1992_Transcript.yaml"
+  },
+  {
+    "entity_id": 15,
+    "entity": "American Indian Wars",
+    "explicit_text": "During my grandfather Winkler’s journey west, he had some minor skirmishes with local Indians, mostly involving stolen horses. Thankfully, these encounters were not serious and the Indians were more interested in cattle than causing harm. These stories are part of the early pioneer experience in our family history.",
+    "implicit_text": "During my grandfather’s journey west, he had some minor skirmishes with local Native Americans, mostly involving stolen horses. Thankfully, these encounters were not serious and the Native Americans were more interested in cattle than causing harm. These stories are part of the early pioneer experience in our family history.",
+    "cues": [
+      "wagon train journey",
+      "horse theft",
+      "minor skirmishes",
+      "pioneer experience"
+    ],
+    "transcript_ref": "regional\\disasters\\dis_Abbott_Grace_-_Oral_History_1992_Transcript.yaml"
+  },
+  {
+    "entity_id": 16,
+    "entity": "Civil War",
+    "explicit_text": "My maternal grandfather was a Civil War veteran who served as a drummer and water boy for the Union Army. Though he lived in the South, his family were Northern sympathizers and he escaped conscription into the Confederate Army by fleeing north. He rarely spoke of the war, but I have some letters from him dating to 1918 that mention his experiences.",
+    "implicit_text": "My maternal grandfather was a veteran of the American Civil War who served as a drummer and water boy for the Northern forces. Though he lived in the South, his family were Northern sympathizers and he escaped conscription into the Southern army by fleeing north. He rarely spoke of the war, but I have some letters from him dating to 1918 that mention his experiences.",
+    "cues": [
+      "Civil War veteran",
+      "Union Army",
+      "Southern sympathizers",
+      "1918 letters"
+    ],
+    "transcript_ref": "regional\\disasters\\dis_Abbott_Grace_-_Oral_History_1992_Transcript.yaml"
+  },
+  {
+    "entity_id": 17,
+    "entity": "Union Army",
+    "explicit_text": "My grandfather served in the Union Army during the Civil War as a drummer boy and water carrier. Though he was young and from the South, his family supported the North. His service was a significant part of his life story, even if he didn’t talk about it much.",
+    "implicit_text": "My grandfather served in the Northern army during the Civil War as a drummer boy and water carrier. Though he was young and from the South, his family supported the North. His service was a significant part of his life story, even if he didn’t talk about it much.",
+    "cues": [
+      "Civil War",
+      "drummer boy",
+      "Southern sympathizer family",
+      "grandfather’s service"
+    ],
+    "transcript_ref": "regional\\disasters\\dis_Abbott_Grace_-_Oral_History_1992_Transcript.yaml"
+  },
+  {
+    "entity_id": 18,
+    "entity": "Confederate States Army",
+    "explicit_text": "My grandfather avoided conscription into the Confederate States Army by escaping through the underground to join his father in the North. His family sympathized with the Union, so this was a dangerous but necessary move. This part of his story highlights the divided loyalties during the Civil War.",
+    "implicit_text": "My grandfather avoided conscription into the Southern army by escaping through underground routes to join his father in the North. His family sympathized with the Union, so this was a dangerous but necessary move. This part of his story highlights the divided loyalties during the Civil War.",
+    "cues": [
+      "Civil War",
+      "escape from Confederate draft",
+      "family loyalties",
+      "underground route"
+    ],
+    "transcript_ref": "regional\\disasters\\dis_Abbott_Grace_-_Oral_History_1992_Transcript.yaml"
+  },
+  {
+    "entity_id": 19,
+    "entity": "Green Valley, California",
+    "explicit_text": "My father’s family lived and farmed in Green Valley, just beyond Graton. I remember living on a small ranch west of Graton where my dad built the barn first and we lived there until the house was finished. Green Valley is part of the rural landscape that shaped my childhood and family life.",
+    "implicit_text": "My father’s family lived and farmed in a valley just beyond a small town called Graton. I remember living on a small ranch west of that town where my dad built the barn first and we lived there until the house was finished. That valley is part of the rural landscape that shaped my childhood and family life.",
+    "cues": [
+      "family farm",
+      "rural area",
+      "barn living",
+      "childhood memories"
+    ],
+    "transcript_ref": "regional\\disasters\\dis_Abbott_Grace_-_Oral_History_1992_Transcript.yaml"
+  },
+  {
+    "entity_id": 20,
+    "entity": "Graton, California",
+    "explicit_text": "I lived in Graton from about age five until I married, on a small ranch where my father farmed cherries, grapes, and Gravenstein apples. My mother was active in the Graton Women's Club, and the community was close-knit and rural. Graton holds many of my fondest childhood memories.",
+    "implicit_text": "I lived in a small town known for its agriculture from about age five until I married, on a small ranch where my father farmed cherries, grapes, and a particular type of apple. My mother was active in the local women’s club, and the community was close-knit and rural. That town holds many of my fondest childhood memories.",
+    "cues": [
+      "childhood home",
+      "family farm",
+      "Graton Women's Club",
+      "rural community"
+    ],
+    "transcript_ref": "regional\\disasters\\dis_Abbott_Grace_-_Oral_History_1992_Transcript.yaml"
+  },
+  {
+    "entity_id": 21,
+    "entity": "Santa Rosa, California",
+    "explicit_text": "Santa Rosa is where I currently live and where my parents were married in 1903. It’s a central place in my family’s history and where many important family events took place. I have cherished photographs from Santa Rosa that capture those moments.",
+    "implicit_text": "The city where I currently live is also where my parents were married in 1903. It’s a central place in my family’s history and where many important family events took place. I have cherished photographs from this city that capture those moments.",
+    "cues": [
+      "current residence",
+      "1903 wedding",
+      "family history",
+      "photographs"
+    ],
+    "transcript_ref": "regional\\disasters\\dis_Abbott_Grace_-_Oral_History_1992_Transcript.yaml"
+  },
+  {
+    "entity_id": 22,
+    "entity": "Gravenstein apple",
+    "explicit_text": "My father planted Gravenstein apples in the vineyards after pulling out grapes, so the orchard would be productive. The Gravenstein apple was an important crop on our family farm near Graton. It symbolized the agricultural life we led and the cycles of farming in Sonoma County.",
+    "implicit_text": "My father planted a specific variety of apples in the orchards after pulling out grapes, so the orchard would be productive. This apple was an important crop on our family farm near Graton. It symbolized the agricultural life we led and the cycles of farming in Sonoma County.",
+    "cues": [
+      "family farm",
+      "Graton",
+      "apple orchards",
+      "agriculture"
+    ],
+    "transcript_ref": "regional\\disasters\\dis_Abbott_Grace_-_Oral_History_1992_Transcript.yaml"
+  },
+  {
+    "entity_id": 23,
+    "entity": "Ford Motor Company",
+    "explicit_text": "Our first car was a Ford, which was quite simple to operate. My mother learned to drive it despite my father's initial reluctance, and I remember riding in the back seat as she drove. The Ford was an important part of our family’s transportation and independence in rural California.",
+    "implicit_text": "Our first car was a popular early 20th-century automobile brand, which was quite simple to operate. My mother learned to drive it despite my father's initial reluctance, and I remember riding in the back seat as she drove. That car was an important part of our family’s transportation and independence in rural California.",
+    "cues": [
+      "first car",
+      "mother driving",
+      "family transportation",
+      "rural life"
+    ],
+    "transcript_ref": "regional\\disasters\\dis_Abbott_Grace_-_Oral_History_1992_Transcript.yaml"
+  },
+  {
+    "entity_id": 24,
+    "entity": "Marshall School",
+    "explicit_text": "The transcript does not mention Marshall School, so I have no personal stories or connections to share about it.",
+    "implicit_text": "The transcript does not mention the local school by name, so I have no personal stories or connections to share about it.",
+    "cues": [],
+    "transcript_ref": "regional\\disasters\\dis_Abbott_Grace_-_Oral_History_1992_Transcript.yaml"
+  },
+  {
+    "entity_id": 25,
+    "entity": "Oak Grove, California",
+    "explicit_text": "Oak Grove is not directly mentioned in my family stories or personal history, so I do not have specific memories or connections to that place.",
+    "implicit_text": "A nearby community is not directly mentioned in my family stories or personal history, so I do not have specific memories or connections to that place.",
+    "cues": [],
+    "transcript_ref": "regional\\disasters\\dis_Abbott_Grace_-_Oral_History_1992_Transcript.yaml"
+  },
+  {
+    "entity_id": 26,
+    "entity": "1906 San Francisco earthquake",
+    "explicit_text": "The 1906 San Francisco earthquake is not something I discussed or have direct memories of in my family stories. It may have affected the region, but it was not a focus in my recollections.",
+    "implicit_text": "The major earthquake in 1906 that affected the San Francisco Bay Area is not something I discussed or have direct memories of in my family stories. It may have affected the region, but it was not a focus in my recollections.",
+    "cues": [],
+    "transcript_ref": "regional\\disasters\\dis_Abbott_Grace_-_Oral_History_1992_Transcript.yaml"
+  },
+  {
+    "entity_id": 27,
+    "entity": "San Francisco, California",
+    "explicit_text": "San Francisco is near our region, but my family’s stories and life mostly centered around Sonoma County and smaller towns like Sebastopol and Santa Rosa. I don’t have detailed personal connections to San Francisco itself.",
+    "implicit_text": "The large city near our region is close by, but my family’s stories and life mostly centered around Sonoma County and smaller towns like Sebastopol and the city where I now live. I don’t have detailed personal connections to that big city itself.",
+    "cues": [],
+    "transcript_ref": "regional\\disasters\\dis_Abbott_Grace_-_Oral_History_1992_Transcript.yaml"
+  },
+  {
+    "entity_id": 28,
+    "entity": "Graton Women's Club",
+    "explicit_text": "My mother, Charlotte, was a member of the Graton Women's Club, which was an important part of her social life. The club still operates today and hosts events like a spring garden show. It represents the community involvement and social fabric of our rural town.",
+    "implicit_text": "My mother, Charlotte, was a member of the local women’s club in the small town where we lived, which was an important part of her social life. The club still operates today and hosts events like a spring garden show. It represents the community involvement and social fabric of our rural town.",
+    "cues": [
+      "mother Charlotte",
+      "social life",
+      "community club",
+      "garden show"
+    ],
+    "transcript_ref": "regional\\disasters\\dis_Abbott_Grace_-_Oral_History_1992_Transcript.yaml"
+  }
+]

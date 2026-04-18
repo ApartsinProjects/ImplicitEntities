@@ -1,0 +1,116 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "San Francisco",
+    "explicit_text": "I was born in San Francisco on January 5, 2001. It’s where my story begins, but I didn’t stay there long because when I was just six months old, I got sick and my mom, being a single mother, decided to send me to Mexico to be with my grandparents. Even though San Francisco is my birthplace, most of my childhood memories are from Mexico.",
+    "implicit_text": "I was born in a major West Coast city on January 5, 2001. It’s where my story begins, but I didn’t stay there long because when I was just six months old, I got sick and my mom, being a single mother, decided to send me to Mexico to be with my grandparents. Even though that city is my birthplace, most of my childhood memories are from Mexico.",
+    "cues": [
+      "January 5, 2001",
+      "birthplace",
+      "early infancy",
+      "mother",
+      "single mom"
+    ],
+    "transcript_ref": "immigration\\imm_umn_116_diana_ortiz.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "Mexico",
+    "explicit_text": "I spent almost ten years of my life in Mexico, living with my grandparents in Guadalajara, Jalisco. It was a place full of family, school, and traditions like going to the beach and attending parties. Living there felt like home, especially with my grandma and grandpa who took care of me like their own child. Leaving Mexico in 2009 to come back to the United States was really hard because I was so used to the culture, family, and lifestyle there.",
+    "implicit_text": "I spent almost ten years of my life in a North American country south of the U.S., living with my grandparents in a large city in Jalisco. It was a place full of family, school, and traditions like going to the beach and attending parties. Living there felt like home, especially with my grandma and grandpa who took care of me like their own child. Leaving that country in 2009 to come back to the United States was really hard because I was so used to the culture, family, and lifestyle there.",
+    "cues": [
+      "Guadalajara",
+      "Jalisco",
+      "2009",
+      "family",
+      "school",
+      "beach",
+      "grandparents"
+    ],
+    "transcript_ref": "immigration\\imm_umn_116_diana_ortiz.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "Guadalajara",
+    "explicit_text": "Guadalajara is the city in Mexico where I lived with my grandparents for nearly ten years. Their two-floor house was always full of family, including my aunts, uncles, and siblings. I went to school there and enjoyed the unique experience of Mexican school life, like buying lunch at 'la cooperativa' and strict teachers. Guadalajara holds many of my fondest childhood memories.",
+    "implicit_text": "The city where I lived with my grandparents for nearly ten years is a major urban center in Jalisco, Mexico. Their two-floor house was always full of family, including my aunts, uncles, and siblings. I went to school there and enjoyed the unique experience of Mexican school life, like buying lunch at 'la cooperativa' and strict teachers. That city holds many of my fondest childhood memories.",
+    "cues": [
+      "grandparents' house",
+      "school",
+      "la cooperativa",
+      "family",
+      "childhood"
+    ],
+    "transcript_ref": "immigration\\imm_umn_116_diana_ortiz.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "Jalisco",
+    "explicit_text": "Jalisco is the state in Mexico where Guadalajara is located, and where I grew up with my grandparents. It’s where I experienced my early school years and family life surrounded by many relatives. Jalisco’s culture shaped a lot of who I am, from the strict school rules to the traditional celebrations we attended. Living there gave me a strong connection to my roots before moving back to the United States.",
+    "implicit_text": "The state in Mexico where that big city is located, and where I grew up with my grandparents, shaped much of my early life. It’s where I experienced my early school years and family life surrounded by many relatives. The culture of this region influenced a lot of who I am, from the strict school rules to the traditional celebrations we attended. Living there gave me a strong connection to my roots before moving back to the United States.",
+    "cues": [
+      "Guadalajara",
+      "family",
+      "school",
+      "traditional celebrations",
+      "roots"
+    ],
+    "transcript_ref": "immigration\\imm_umn_116_diana_ortiz.yaml"
+  },
+  {
+    "entity_id": 5,
+    "entity": "United States",
+    "explicit_text": "I was born in the United States, but I spent most of my early childhood in Mexico before returning here in 2009. Coming back to the U.S. was a big adjustment because I didn’t know English and missed my family and the freedom I had in Mexico. School here was very different, and I struggled at first, but I wanted to make my family proud and build a better future. Over time, I learned to stay positive despite the challenges.",
+    "implicit_text": "I was born in this country, but I spent most of my early childhood in Mexico before returning here in 2009. Coming back was a big adjustment because I didn’t know English and missed my family and the freedom I had in Mexico. School here was very different, and I struggled at first, but I wanted to make my family proud and build a better future. Over time, I learned to stay positive despite the challenges.",
+    "cues": [
+      "born in U.S.",
+      "returned in 2009",
+      "language barrier",
+      "school adjustment",
+      "family pride"
+    ],
+    "transcript_ref": "immigration\\imm_umn_116_diana_ortiz.yaml"
+  },
+  {
+    "entity_id": 6,
+    "entity": "California",
+    "explicit_text": "Living in California after coming back from Mexico was a huge change for me. I missed the late-night family parties, the jaripeos, and the close-knit community I had grown up with. California felt different because I didn’t know many people and had less freedom than I was used to. It took time to adjust, but California is now where I’m building my future.",
+    "implicit_text": "Living in this large West Coast state after coming back from Mexico was a huge change for me. I missed the late-night family parties, the jaripeos, and the close-knit community I had grown up with. This state felt different because I didn’t know many people and had less freedom than I was used to. It took time to adjust, but this place is now where I’m building my future.",
+    "cues": [
+      "return from Mexico",
+      "family parties",
+      "jaripeos",
+      "adjustment",
+      "new life"
+    ],
+    "transcript_ref": "immigration\\imm_umn_116_diana_ortiz.yaml"
+  },
+  {
+    "entity_id": 7,
+    "entity": "Jaripeo",
+    "explicit_text": "Jaripeos are traditional parties we celebrated in Mexico, especially in ranches, where we wore traditional clothing and danced to traditional music. Sometimes, they even made horses dance, which was really special. I loved going to jaripeos with my cousins and family, and they were a big part of my childhood celebrations. Even here in the United States, there are some jaripeos, which are also called American rodeos.",
+    "implicit_text": "These traditional parties we celebrated in Mexico, especially in ranches, involved wearing traditional clothing and dancing to traditional music. Sometimes, they even made horses dance, which was really special. I loved going to these celebrations with my cousins and family, and they were a big part of my childhood. Even here in the United States, there are some similar events, which are also called American rodeos.",
+    "cues": [
+      "traditional parties",
+      "ranches",
+      "traditional clothing",
+      "dancing horses",
+      "family celebrations"
+    ],
+    "transcript_ref": "immigration\\imm_umn_116_diana_ortiz.yaml"
+  },
+  {
+    "entity_id": 8,
+    "entity": "American rodeo",
+    "explicit_text": "In the United States, some jaripeos are known as American rodeos. They are similar to the traditional Mexican jaripeos I grew up with, involving ranch celebrations and traditional music. Experiencing American rodeos here reminded me of the parties and cultural events I loved back in Mexico. It’s a way to keep that part of my heritage alive even after moving to the U.S.",
+    "implicit_text": "In this country, some traditional Mexican ranch celebrations are known as American rodeos. They are similar to the parties I grew up with, involving ranch celebrations and traditional music. Experiencing these events here reminded me of the cultural gatherings I loved back in Mexico. It’s a way to keep that part of my heritage alive even after moving here.",
+    "cues": [
+      "jaripeos",
+      "ranch celebrations",
+      "traditional music",
+      "cultural heritage",
+      "United States"
+    ],
+    "transcript_ref": "immigration\\imm_umn_116_diana_ortiz.yaml"
+  }
+]

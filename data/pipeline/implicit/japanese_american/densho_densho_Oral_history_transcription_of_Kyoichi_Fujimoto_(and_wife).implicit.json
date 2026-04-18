@@ -1,0 +1,390 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "Kyoichi Fujimoto",
+    "explicit_text": "My name is Kyoichi Fujimoto, born in the 30th year of Meiji, 1897, in Yamaguchi Prefecture. I came to America alone at age 15, arriving in San Francisco during President Taft's visit. I lived in Stockton with Mr. Jinnojo Hayashi and Mr. Makoto Kobayashi, attending school and delivering Japanese newspapers. My father had been in Stockton for years working in asparagus fields, but I grew up apart from my parents, raised by my grandmother.",
+    "implicit_text": "I was born in 1897 in a prefecture on the western tip of Japan's main island. I came to America alone at age 15, arriving in San Francisco during the visit of a U.S. president. I lived in a California city known for its agricultural community with two men who helped me attend school and deliver Japanese newspapers. My father had worked in the asparagus fields there for years, but I was raised apart from my parents by my grandmother.",
+    "cues": [
+      "1897",
+      "Yamaguchi Prefecture",
+      "San Francisco",
+      "President Taft",
+      "Stockton",
+      "Jinnojo Hayashi",
+      "Makoto Kobayashi"
+    ],
+    "transcript_ref": "japanese_american\\densho_densho_Oral_history_transcription_of_Kyoichi_Fujimoto_(and_wife).yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "Meiji",
+    "explicit_text": "I was born in the 30th year of Meiji, which corresponds to 1897. Growing up during the Meiji era in Yamaguchi Prefecture, I was too young to recall much about life in Japan before I left at age 15. The Meiji period was a time of change, but my memories mostly start from my childhood there before emigrating.",
+    "implicit_text": "I was born in 1897 during a period of rapid modernization and change in Japan. Growing up in a western Japanese prefecture during this era, I was too young to remember much about life before leaving at age 15. That era was a time of transformation, but my earliest memories are mostly from my childhood before emigrating.",
+    "cues": [
+      "1897",
+      "Yamaguchi Prefecture",
+      "childhood"
+    ],
+    "transcript_ref": "japanese_american\\densho_densho_Oral_history_transcription_of_Kyoichi_Fujimoto_(and_wife).yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "Yamaguchi Prefecture",
+    "explicit_text": "I was born in Yamaguchi Prefecture in 1897 during the Meiji era. It was my home until I left for America at age 15. My father and others from the same area later settled in Stockton, California, where they worked in agriculture.",
+    "implicit_text": "My birthplace was a prefecture in western Japan in 1897 during the modernization era. It was my home until I left for America at age 15. My father and others from that same region later settled in a California city where they worked in agriculture.",
+    "cues": [
+      "1897",
+      "Meiji era",
+      "father",
+      "Stockton"
+    ],
+    "transcript_ref": "japanese_american\\densho_densho_Oral_history_transcription_of_Kyoichi_Fujimoto_(and_wife).yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "Stockton, California",
+    "explicit_text": "Stockton was where my father lived and worked when I arrived in America. I stayed with Mr. Jinnojo Hayashi there, who was an agent for the Nichibei Daily and involved in asparagus farming. Stockton had a growing Japanese community of about 6,000 people, many working down the river in agriculture. I went to school there and delivered Japanese newspapers while living in town.",
+    "implicit_text": "The California city where my father lived and worked was my first home in America. I stayed with a community leader there who was both a newspaper agent and involved in asparagus farming. This city had a growing Japanese population of about 6,000, many working in agriculture along the nearby river. I attended school and delivered Japanese newspapers while living there.",
+    "cues": [
+      "father",
+      "Jinnojo Hayashi",
+      "Nichibei Daily",
+      "asparagus farming",
+      "6,000 Japanese residents",
+      "school"
+    ],
+    "transcript_ref": "japanese_american\\densho_densho_Oral_history_transcription_of_Kyoichi_Fujimoto_(and_wife).yaml"
+  },
+  {
+    "entity_id": 5,
+    "entity": "Jinnojo Hayashi",
+    "explicit_text": "Mr. Jinnojo Hayashi was a key figure in Stockton's Japanese community and a guardian to me when I arrived in America. He was an agent for the Nichibei Daily newspaper and also engaged in asparagus farming down the river. I lived with him in Stockton at 121 East Rafaet, where the newspaper office and a picture studio were located. He was well respected and helped many Japanese immigrants settle here.",
+    "implicit_text": "A prominent figure in the Japanese community of that California city was my guardian when I arrived. He was an agent for a local Japanese newspaper and also engaged in asparagus farming along the river. I lived with him at an address that housed both the newspaper office and a picture studio. He was well respected and helped many Japanese immigrants settle in the area.",
+    "cues": [
+      "Stockton",
+      "Nichibei Daily",
+      "asparagus farming",
+      "121 East Rafaet",
+      "guardian"
+    ],
+    "transcript_ref": "japanese_american\\densho_densho_Oral_history_transcription_of_Kyoichi_Fujimoto_(and_wife).yaml"
+  },
+  {
+    "entity_id": 6,
+    "entity": "San Francisco",
+    "explicit_text": "I arrived in San Francisco by ship in the fall when President William Howard Taft was visiting the city, which caused much commotion. My father was unable to meet me at the port, so I was sent to Angel Island for immigration processing. I stayed only two days in San Francisco before traveling on to Stockton. The city was still recovering from the big earthquake and had few automobiles, but I was impressed by the harbor and ferries.",
+    "implicit_text": "I arrived by ship in a major West Coast city during the fall when the U.S. president was visiting, which caused much excitement. My father was unable to meet me at the port, so I was sent to an immigration station on an island nearby. I stayed only two days in the city before traveling on to the agricultural town where my father lived. The city was still recovering from a major earthquake and had few automobiles, but I was impressed by the harbor and ferries.",
+    "cues": [
+      "arrival",
+      "President Taft visit",
+      "Angel Island",
+      "post-earthquake",
+      "harbor",
+      "ferries"
+    ],
+    "transcript_ref": "japanese_american\\densho_densho_Oral_history_transcription_of_Kyoichi_Fujimoto_(and_wife).yaml"
+  },
+  {
+    "entity_id": 7,
+    "entity": "William Howard Taft",
+    "explicit_text": "When I arrived in San Francisco, President William Howard Taft was visiting the city, which caused many offices to close and a big celebration. Because of his visit, I was delayed in entering the city and had to stay on Angel Island for about two weeks. The President's visit was a notable event during my arrival in America.",
+    "implicit_text": "When I arrived in that West Coast city, the U.S. president was visiting, causing many offices to close and a big celebration. Because of his visit, I was delayed in entering the city and had to stay on an island immigration station for about two weeks. The president's visit was a notable event during my arrival in America.",
+    "cues": [
+      "San Francisco",
+      "President Taft visit",
+      "immigration delay",
+      "Angel Island"
+    ],
+    "transcript_ref": "japanese_american\\densho_densho_Oral_history_transcription_of_Kyoichi_Fujimoto_(and_wife).yaml"
+  },
+  {
+    "entity_id": 8,
+    "entity": "Angel Island",
+    "explicit_text": "After arriving in San Francisco, I was sent to Angel Island's immigration office because my father couldn't meet me at the port. I stayed there about two weeks with a group of stowaways, struggling with the food and environment. Eventually, when President Taft's visit ended, my father came to Angel Island and I was allowed to enter San Francisco.",
+    "implicit_text": "After arriving in the West Coast city, I was sent to an island immigration office because my father couldn't meet me at the port. I stayed there about two weeks with a group of stowaways, struggling with the food and environment. Eventually, when the president's visit ended, my father came to the island and I was allowed to enter the city.",
+    "cues": [
+      "San Francisco arrival",
+      "immigration",
+      "two weeks stay",
+      "stowaways",
+      "father reunion"
+    ],
+    "transcript_ref": "japanese_american\\densho_densho_Oral_history_transcription_of_Kyoichi_Fujimoto_(and_wife).yaml"
+  },
+  {
+    "entity_id": 9,
+    "entity": "Kinji Ushijima",
+    "explicit_text": "Mr. Kinji Ushijima was a pioneer in Stockton's Japanese agricultural community. Along with Mr. Matsumoto, he found a Caucasian financier and helped dredge fertile soil from the river to create islands for farming. His efforts made farming down the river very successful and helped establish the Japanese immigrant community in Stockton.",
+    "implicit_text": "A pioneer in the agricultural community of that California city was a man who, along with another leader, found a Caucasian financier and helped dredge fertile soil from the river to create islands for farming. His efforts made farming along the river very successful and helped establish the Japanese immigrant community in the area.",
+    "cues": [
+      "Stockton",
+      "agriculture",
+      "river dredging",
+      "community founder"
+    ],
+    "transcript_ref": "japanese_american\\densho_densho_Oral_history_transcription_of_Kyoichi_Fujimoto_(and_wife).yaml"
+  },
+  {
+    "entity_id": 10,
+    "entity": "Renjutsu Matsusita",
+    "explicit_text": "My father worked alongside Mr. Renjutsu Matsusita and Mr. Jinnojo Hayashi in Stockton. They all came from the same area in Japan and were involved in asparagus farming on Orlude Island in the San Joaquin River. Mr. Matsusita was well educated and respected in the community.",
+    "implicit_text": "My father worked alongside two men from the same region in Japan in that California city. They were involved in asparagus farming on an island in the San Joaquin River. One of these men was well educated and highly respected in the community.",
+    "cues": [
+      "Stockton",
+      "asparagus farming",
+      "Orlude Island",
+      "same Japanese region"
+    ],
+    "transcript_ref": "japanese_american\\densho_densho_Oral_history_transcription_of_Kyoichi_Fujimoto_(and_wife).yaml"
+  },
+  {
+    "entity_id": 11,
+    "entity": "Orlude Island",
+    "explicit_text": "Orlude Island is located in the San Joaquin River and was where my father worked in asparagus fields. I stayed there briefly after arriving in America before moving into town to attend school. The island still produces asparagus today and had a ferry service connecting it to the mainland and other islands.",
+    "implicit_text": "The island in the San Joaquin River where my father worked was known for its asparagus fields. I stayed there briefly after arriving in America before moving into town to attend school. The island still produces asparagus today and had a ferry service connecting it to the mainland and other islands.",
+    "cues": [
+      "San Joaquin River",
+      "asparagus farming",
+      "father's work",
+      "ferry service"
+    ],
+    "transcript_ref": "japanese_american\\densho_densho_Oral_history_transcription_of_Kyoichi_Fujimoto_(and_wife).yaml"
+  },
+  {
+    "entity_id": 12,
+    "entity": "San Joaquin River",
+    "explicit_text": "The San Joaquin River area was central to the Japanese farming community where my father and others worked. Islands created by dredging fertile soil in the river, like Orlude Island and Shima Tract, became important agricultural sites. Many Japanese immigrants lived and farmed along the river and its islands.",
+    "implicit_text": "The San Joaquin River area was central to the Japanese farming community where my father and others worked. Islands created by dredging fertile soil in the river became important agricultural sites. Many Japanese immigrants lived and farmed along the river and its islands.",
+    "cues": [
+      "agriculture",
+      "islands",
+      "Orlude Island",
+      "Shima Tract",
+      "Japanese immigrants"
+    ],
+    "transcript_ref": "japanese_american\\densho_densho_Oral_history_transcription_of_Kyoichi_Fujimoto_(and_wife).yaml"
+  },
+  {
+    "entity_id": 13,
+    "entity": "Nichibei Daily",
+    "explicit_text": "The Nichibei Daily was a Japanese newspaper published in Stockton where I worked delivering papers. Mr. Jinnojo Hayashi was the agent for the paper, and the office was located at 121 East Rafaet. The paper had a strong readership in the community, with about eighty copies delivered daily in town and to nearby islands.",
+    "implicit_text": "The Japanese newspaper published in that California city was where I worked delivering papers. The community leader I lived with was the agent for the paper, and the office was located at 121 East Rafaet. The paper had a strong readership in the community, with about eighty copies delivered daily in town and to nearby islands.",
+    "cues": [
+      "Stockton",
+      "Japanese newspaper",
+      "Jinnojo Hayashi",
+      "121 East Rafaet",
+      "delivery"
+    ],
+    "transcript_ref": "japanese_american\\densho_densho_Oral_history_transcription_of_Kyoichi_Fujimoto_(and_wife).yaml"
+  },
+  {
+    "entity_id": 14,
+    "entity": "Niiyama",
+    "explicit_text": "Mr. Niiyama ran a picture studio on the second floor of the building at 121 East Rafaet in Stockton, where I lived for a time. His studio was above the Nichibei Daily newspaper office. I remember his wife cooked for us, including the pastor, and I was familiar with the Presbyterian Church nearby because of living there.",
+    "implicit_text": "A man named Niiyama ran a picture studio on the second floor of the building at 121 East Rafaet in that California city, where I lived for a time. His studio was above the Japanese newspaper office. I remember his wife cooked for us, including the pastor, and I was familiar with the nearby Presbyterian Church because of living there.",
+    "cues": [
+      "Stockton",
+      "picture studio",
+      "121 East Rafaet",
+      "community life"
+    ],
+    "transcript_ref": "japanese_american\\densho_densho_Oral_history_transcription_of_Kyoichi_Fujimoto_(and_wife).yaml"
+  },
+  {
+    "entity_id": 15,
+    "entity": "Presbyterian Church",
+    "explicit_text": "The Presbyterian Church in Stockton was a small room located in the same building where I lived and worked delivering newspapers. I lived next to the church and became familiar with it because I stayed with the pastor, Mr. Makoto Kobayashi, for a while. The church was part of the growing Japanese immigrant community's efforts to organize and support each other.",
+    "implicit_text": "The Presbyterian Church in that California city was a small room located in the same building where I lived and worked delivering newspapers. I lived next to the church and became familiar with it because I stayed with the pastor for a while. The church was part of the growing Japanese immigrant community's efforts to organize and support each other.",
+    "cues": [
+      "Stockton",
+      "small church",
+      "pastor Makoto Kobayashi",
+      "community organization"
+    ],
+    "transcript_ref": "japanese_american\\densho_densho_Oral_history_transcription_of_Kyoichi_Fujimoto_(and_wife).yaml"
+  },
+  {
+    "entity_id": 16,
+    "entity": "Tenyo-Maru",
+    "explicit_text": "I traveled from Japan to America on the ship named Tenyo-Maru, leaving from Yokohama in the fall. The port was undeveloped then, so we were ferried to the ship by rowboats. The voyage took seventeen days, and I was the only child on board going to a foreign country at that time.",
+    "implicit_text": "I traveled from Japan to America on a ship that departed from a major port in the fall. The port was undeveloped then, so we were ferried to the ship by rowboats. The voyage took seventeen days, and I was the only child on board going to a foreign country at that time.",
+    "cues": [
+      "Yokohama",
+      "fall departure",
+      "seventeen-day voyage",
+      "only child passenger"
+    ],
+    "transcript_ref": "japanese_american\\densho_densho_Oral_history_transcription_of_Kyoichi_Fujimoto_(and_wife).yaml"
+  },
+  {
+    "entity_id": 17,
+    "entity": "Mount Fuji",
+    "explicit_text": "I remember seeing the beautiful Mount Fuji as we left Japan on the Tenyo-Maru in the fall. It was a striking sight and one of my last memories of home before arriving in America. Mount Fuji symbolized the Japan I left behind as I began my new life abroad.",
+    "implicit_text": "I remember seeing the beautiful iconic mountain as we left Japan on the ship in the fall. It was a striking sight and one of my last memories of home before arriving in America. That mountain symbolized the Japan I left behind as I began my new life abroad.",
+    "cues": [
+      "departure from Japan",
+      "fall",
+      "Tenyo-Maru",
+      "symbolic memory"
+    ],
+    "transcript_ref": "japanese_american\\densho_densho_Oral_history_transcription_of_Kyoichi_Fujimoto_(and_wife).yaml"
+  },
+  {
+    "entity_id": 18,
+    "entity": "George Washington",
+    "explicit_text": "Before coming to America, I knew about George Washington from stories like 'The Cherry Tree and His Ax,' which taught about his honesty. I was aware that America was a Christian country and had some basic knowledge of its history, even though I had little opportunity to read about it. These stories shaped my early understanding of the country I was about to enter.",
+    "implicit_text": "Before coming to America, I knew about the first U.S. president from stories like 'The Cherry Tree and His Ax,' which taught about his honesty. I was aware that America was a Christian country and had some basic knowledge of its history, even though I had little opportunity to read about it. These stories shaped my early understanding of the country I was about to enter.",
+    "cues": [
+      "childhood knowledge",
+      "American history",
+      "Christian country"
+    ],
+    "transcript_ref": "japanese_american\\densho_densho_Oral_history_transcription_of_Kyoichi_Fujimoto_(and_wife).yaml"
+  },
+  {
+    "entity_id": 19,
+    "entity": "Yokohama",
+    "explicit_text": "Yokohama was the port from which I departed Japan on the Tenyo-Maru. At that time, the port was undeveloped with no pier, so passengers were transported to the ship by rowboats. Yokohama was just a name then, but it was my gateway to America.",
+    "implicit_text": "The port from which I departed Japan was undeveloped with no pier, so passengers were transported to the ship by rowboats. This port was just a name then, but it was my gateway to America.",
+    "cues": [
+      "departure port",
+      "undeveloped",
+      "rowboat transport",
+      "Tenyo-Maru"
+    ],
+    "transcript_ref": "japanese_american\\densho_densho_Oral_history_transcription_of_Kyoichi_Fujimoto_(and_wife).yaml"
+  },
+  {
+    "entity_id": 20,
+    "entity": "Makoto Kobayashi",
+    "explicit_text": "Mr. Makoto Kobayashi was a pastor in Stockton who acted as one of my guardians when I moved into town from Orlude Island. I lived with him for a while and became familiar with the Presbyterian Church through that relationship. He supported me as I attended school and adjusted to life in America.",
+    "implicit_text": "A pastor in that California city acted as one of my guardians when I moved into town from the island. I lived with him for a while and became familiar with the Presbyterian Church through that relationship. He supported me as I attended school and adjusted to life in America.",
+    "cues": [
+      "Stockton",
+      "pastor",
+      "guardian",
+      "Presbyterian Church",
+      "school support"
+    ],
+    "transcript_ref": "japanese_american\\densho_densho_Oral_history_transcription_of_Kyoichi_Fujimoto_(and_wife).yaml"
+  },
+  {
+    "entity_id": 21,
+    "entity": "Santa Fe (train station)",
+    "explicit_text": "The Santa Fe train station was near the pier in San Francisco where I arrived. Trains waited there to pick up passengers from incoming boats. I took a train from Santa Fe station to Orlude Island, which took about seventy minutes, and I was amazed by the vastness of the country during that journey.",
+    "implicit_text": "The train station near the pier in the West Coast city where I arrived was where trains waited to pick up passengers from incoming boats. I took a train from that station to the island where my father worked, which took about seventy minutes, and I was amazed by the vastness of the country during that journey.",
+    "cues": [
+      "San Francisco",
+      "pier",
+      "train station",
+      "travel to Orlude Island"
+    ],
+    "transcript_ref": "japanese_american\\densho_densho_Oral_history_transcription_of_Kyoichi_Fujimoto_(and_wife).yaml"
+  },
+  {
+    "entity_id": 22,
+    "entity": "Hokubei Asahi",
+    "explicit_text": "The Nichibei Daily newspaper later changed its name to Hokubei Asahi, which I also helped deliver. This paper was part of the Japanese community's daily life in Stockton and the surrounding areas. Delivering these papers was part of my routine as a young immigrant.",
+    "implicit_text": "The Japanese newspaper I helped deliver later changed its name but remained a key part of the community's daily life in that California city and surrounding areas. Delivering these papers was part of my routine as a young immigrant.",
+    "cues": [
+      "Japanese newspaper",
+      "Stockton",
+      "community",
+      "delivery"
+    ],
+    "transcript_ref": "japanese_american\\densho_densho_Oral_history_transcription_of_Kyoichi_Fujimoto_(and_wife).yaml"
+  },
+  {
+    "entity_id": 23,
+    "entity": "Shinsekai",
+    "explicit_text": "Shinsekai was one of the Japanese newspapers I delivered in Stockton and nearby islands. Along with the Nichibei Daily and Ofu Nippo, it helped keep the Japanese community informed and connected. Delivering these papers was part of my daily work while attending school.",
+    "implicit_text": "One of the Japanese newspapers I delivered in that California city and nearby islands helped keep the community informed and connected. Along with other papers, it was part of the daily life of the Japanese immigrant community. Delivering these papers was part of my daily work while attending school.",
+    "cues": [
+      "Japanese newspaper",
+      "delivery",
+      "Stockton",
+      "community information"
+    ],
+    "transcript_ref": "japanese_american\\densho_densho_Oral_history_transcription_of_Kyoichi_Fujimoto_(and_wife).yaml"
+  },
+  {
+    "entity_id": 24,
+    "entity": "Ofu Nippo",
+    "explicit_text": "Ofu Nippo was a Japanese newspaper published in Sacramento that I delivered during my lunch breaks in Stockton. It was one of several papers serving the Japanese immigrant community in California. Delivering it helped me earn money while I was still in school.",
+    "implicit_text": "A Japanese newspaper published in the capital city of California was among those I delivered during my lunch breaks in the agricultural town. It was one of several papers serving the Japanese immigrant community in the state. Delivering it helped me earn money while I was still in school.",
+    "cues": [
+      "Japanese newspaper",
+      "Sacramento",
+      "delivery",
+      "Stockton"
+    ],
+    "transcript_ref": "japanese_american\\densho_densho_Oral_history_transcription_of_Kyoichi_Fujimoto_(and_wife).yaml"
+  },
+  {
+    "entity_id": 25,
+    "entity": "Sacramento, California",
+    "explicit_text": "Sacramento was the city where the Ofu Nippo newspaper was published, which I delivered in Stockton. Though I lived in Stockton, the Japanese community was connected across cities through newspapers like Ofu Nippo. Sacramento was part of the broader network of Japanese immigrants in California.",
+    "implicit_text": "The capital city of California was where a Japanese newspaper I delivered was published. Though I lived in a different city, the Japanese community was connected across cities through newspapers like this one. That city was part of the broader network of Japanese immigrants in California.",
+    "cues": [
+      "Ofu Nippo",
+      "newspaper publishing",
+      "Japanese community",
+      "California"
+    ],
+    "transcript_ref": "japanese_american\\densho_densho_Oral_history_transcription_of_Kyoichi_Fujimoto_(and_wife).yaml"
+  },
+  {
+    "entity_id": 26,
+    "entity": "Kumamoto Prefecture",
+    "explicit_text": "Mr. Matsumoto, who was a leader in Stockton's Japanese community and involved in farming and business, came from Kumamoto Prefecture. He was well educated and helped found the Shima Tract and was a stockholder in the Stockton Hotel. His background from Kumamoto connected him with other immigrants and helped build the community.",
+    "implicit_text": "A community leader involved in farming and business in that California city came from a southern Japanese prefecture. He was well educated and helped develop a farming tract and was a stockholder in the local hotel. His background connected him with other immigrants and helped build the community.",
+    "cues": [
+      "Mr. Matsumoto",
+      "Stockton",
+      "Shima Tract",
+      "Stockton Hotel",
+      "community leadership"
+    ],
+    "transcript_ref": "japanese_american\\densho_densho_Oral_history_transcription_of_Kyoichi_Fujimoto_(and_wife).yaml"
+  },
+  {
+    "entity_id": 27,
+    "entity": "Stockton Hotel",
+    "explicit_text": "The Stockton Hotel is the oldest building in Stockton and was associated with Mr. Matsumoto, who was a stockholder there. It was part of the infrastructure supporting the Japanese immigrant community. Mr. Matsumoto's involvement in the hotel reflected his role as a community leader beyond farming.",
+    "implicit_text": "The oldest building in that California city was associated with a community leader who was a stockholder there. It was part of the infrastructure supporting the Japanese immigrant community. His involvement in the hotel reflected his role as a community leader beyond farming.",
+    "cues": [
+      "Stockton",
+      "oldest building",
+      "Mr. Matsumoto",
+      "community"
+    ],
+    "transcript_ref": "japanese_american\\densho_densho_Oral_history_transcription_of_Kyoichi_Fujimoto_(and_wife).yaml"
+  },
+  {
+    "entity_id": 28,
+    "entity": "Shima Tract",
+    "explicit_text": "The Shima Tract is a strip of island about seven acres in the San Joaquin River area, developed for farming by Mr. Matsumoto from Kumamoto Prefecture. It was a successful agricultural operation and remains active today. This tract was part of the efforts by Japanese immigrants to establish prosperous farming communities down the river.",
+    "implicit_text": "A strip of island about seven acres in the San Joaquin River area was developed for farming by a leader from a southern Japanese prefecture. It was a successful agricultural operation and remains active today. This tract was part of the efforts by Japanese immigrants to establish prosperous farming communities down the river.",
+    "cues": [
+      "San Joaquin River",
+      "agriculture",
+      "Mr. Matsumoto",
+      "Japanese farming community"
+    ],
+    "transcript_ref": "japanese_american\\densho_densho_Oral_history_transcription_of_Kyoichi_Fujimoto_(and_wife).yaml"
+  },
+  {
+    "entity_id": 29,
+    "entity": "Bacon Island",
+    "explicit_text": "Bacon Island was one of the islands in the San Joaquin River area where Japanese immigrants lived and farmed. It was part of the network of islands connected by ferry services for mail and newspaper delivery. Many Japanese laborers lived in camps on islands like Bacon Island during the early 20th century.",
+    "implicit_text": "One of the islands in the San Joaquin River area where Japanese immigrants lived and farmed was part of a network connected by ferry services for mail and newspaper delivery. Many Japanese laborers lived in camps on islands like this during the early 20th century.",
+    "cues": [
+      "San Joaquin River",
+      "Japanese immigrant farms",
+      "island community",
+      "ferry service"
+    ],
+    "transcript_ref": "japanese_american\\densho_densho_Oral_history_transcription_of_Kyoichi_Fujimoto_(and_wife).yaml"
+  }
+]

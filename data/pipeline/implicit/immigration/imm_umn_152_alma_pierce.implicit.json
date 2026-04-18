@@ -1,0 +1,128 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "Mexico City",
+    "explicit_text": "I was born and lived in Mexico City for 40 years. It’s a place full of pollution and traffic, which is something I wanted to leave behind for my family. Most of my work family was also born there, and although life was challenging, it shaped who I am. Leaving Mexico City was part of my journey to find a better life for my children.",
+    "implicit_text": "I was born and lived in the capital of my home country for 40 years. It’s a place full of pollution and traffic, which is something I wanted to leave behind for my family. Most of my work family was also born there, and although life was challenging, it shaped who I am. Leaving that bustling metropolis was part of my journey to find a better life for my children.",
+    "cues": [
+      "born",
+      "40 years",
+      "pollution",
+      "traffic",
+      "work family"
+    ],
+    "transcript_ref": "immigration\\imm_umn_152_alma_pierce.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "Mexico",
+    "explicit_text": "Mexico is my home country, and despite its challenges like insecurity, a deficient education system, and low salaries, it has positively influenced me and my family. We are honest and hardworking people, and I carry that with me wherever I go. However, the harsh situation there pushed me to seek better opportunities abroad for my children’s future.",
+    "implicit_text": "My home country is where I come from, and despite its challenges like insecurity, a deficient education system, and low salaries, it has positively influenced me and my family. We are honest and hardworking people, and I carry that with me wherever I go. However, the harsh situation there pushed me to seek better opportunities abroad for my children’s future.",
+    "cues": [
+      "insecurity",
+      "education system",
+      "low salaries",
+      "honest",
+      "hardworking"
+    ],
+    "transcript_ref": "immigration\\imm_umn_152_alma_pierce.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "Anchorage, Alaska",
+    "explicit_text": "Anchorage, Alaska is where my life took a new turn after I became a widow. It’s been 15 months since we moved here, and adapting to the cold winters and language has been tough. This city is where I met my current husband through my uncle, and it’s where my family has grown closer despite missing our relatives back home. Living here has brought us closer to nature and away from the chaos of Mexico City.",
+    "implicit_text": "This city in Alaska is where my life took a new turn after I became a widow. It’s been 15 months since we moved here, and adapting to the cold winters and language has been tough. This northern city is where I met my current husband through my uncle, and it’s where my family has grown closer despite missing our relatives back home. Living here has brought us closer to nature and away from the chaos of my original hometown.",
+    "cues": [
+      "15 months",
+      "cold winters",
+      "met husband",
+      "uncle",
+      "family closer"
+    ],
+    "transcript_ref": "immigration\\imm_umn_152_alma_pierce.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "United States",
+    "explicit_text": "Living in the United States has been a dream come true for me since childhood. My family and I visited the US for the first time as a family, exploring places like Disneyland, SeaWorld, and Legoland, and visiting cousins in San Diego and Los Angeles. Now that we live here, we appreciate the opportunities, security, and natural surroundings that the country offers. It’s a place where I can work hard and provide a better future for my children.",
+    "implicit_text": "Living in this North American country has been a dream come true for me since childhood. My family and I visited it for the first time as a family, exploring places like a famous theme park in Anaheim, a marine life park in San Diego, and a popular brick-themed amusement park, and visiting cousins in Southern California cities. Now that we live here, we appreciate the opportunities, security, and natural surroundings that the country offers. It’s a place where I can work hard and provide a better future for my children.",
+    "cues": [
+      "dream since childhood",
+      "family visit",
+      "Disneyland",
+      "SeaWorld",
+      "opportunities"
+    ],
+    "transcript_ref": "immigration\\imm_umn_152_alma_pierce.yaml"
+  },
+  {
+    "entity_id": 5,
+    "entity": "Disneyland",
+    "explicit_text": "Our first family visit to the United States included a memorable trip to Disneyland. It was one of the best experiences we had together, filled with joy and excitement for my children. Visiting Disneyland along with other attractions made that trip very special and unforgettable for all of us.",
+    "implicit_text": "Our first family visit to that North American country included a memorable trip to a world-renowned theme park in Anaheim. It was one of the best experiences we had together, filled with joy and excitement for my children. Visiting that iconic amusement park along with other attractions made that trip very special and unforgettable for all of us.",
+    "cues": [
+      "first family visit",
+      "United States",
+      "children",
+      "joy",
+      "memorable"
+    ],
+    "transcript_ref": "immigration\\imm_umn_152_alma_pierce.yaml"
+  },
+  {
+    "entity_id": 6,
+    "entity": "SeaWorld",
+    "explicit_text": "SeaWorld was part of our first family trip to the United States, and it was an amazing experience for my kids. They loved seeing the marine life and enjoying the shows, which added to the fun of our visit. It’s one of the places that made our trip to the US so special and memorable.",
+    "implicit_text": "A marine life theme park in Southern California was part of our first family trip to that North American country, and it was an amazing experience for my kids. They loved seeing the marine life and enjoying the shows, which added to the fun of our visit. It’s one of the places that made our trip so special and memorable.",
+    "cues": [
+      "first family trip",
+      "United States",
+      "kids",
+      "marine life",
+      "shows"
+    ],
+    "transcript_ref": "immigration\\imm_umn_152_alma_pierce.yaml"
+  },
+  {
+    "entity_id": 7,
+    "entity": "Legoland",
+    "explicit_text": "During our first visit to the United States, we also went to Legoland, which was a highlight for my children. They were fascinated by the creativity and fun of the park, and it brought us a lot of happiness as a family. That trip, including Legoland, helped us bond and create lasting memories.",
+    "implicit_text": "During our first visit to that North American country, we also went to a popular brick-themed amusement park, which was a highlight for my children. They were fascinated by the creativity and fun of the park, and it brought us a lot of happiness as a family. That trip, including that park, helped us bond and create lasting memories.",
+    "cues": [
+      "first visit",
+      "United States",
+      "children",
+      "creativity",
+      "family memories"
+    ],
+    "transcript_ref": "immigration\\imm_umn_152_alma_pierce.yaml"
+  },
+  {
+    "entity_id": 8,
+    "entity": "San Diego",
+    "explicit_text": "San Diego is where some of my cousins live, and we had the chance to visit them during our first trip to the United States. It was wonderful to reconnect with family there and share special moments together. Visiting San Diego added a personal touch to our trip and helped my children feel closer to their relatives.",
+    "implicit_text": "A coastal city in Southern California is where some of my cousins live, and we had the chance to visit them during our first trip to that North American country. It was wonderful to reconnect with family there and share special moments together. Visiting that city added a personal touch to our trip and helped my children feel closer to their relatives.",
+    "cues": [
+      "cousins",
+      "first trip",
+      "United States",
+      "family",
+      "special moments"
+    ],
+    "transcript_ref": "immigration\\imm_umn_152_alma_pierce.yaml"
+  },
+  {
+    "entity_id": 9,
+    "entity": "Los Angeles",
+    "explicit_text": "Los Angeles was another important stop during our first family visit to the United States. We visited cousins there, which made the trip more meaningful and helped us maintain family ties. The experience in Los Angeles, along with other places, made our visit truly memorable and joyful.",
+    "implicit_text": "Another major city in Southern California was an important stop during our first family visit to that North American country. We visited cousins there, which made the trip more meaningful and helped us maintain family ties. The experience in that city, along with other places, made our visit truly memorable and joyful.",
+    "cues": [
+      "cousins",
+      "first family visit",
+      "United States",
+      "family ties",
+      "memorable"
+    ],
+    "transcript_ref": "immigration\\imm_umn_152_alma_pierce.yaml"
+  }
+]

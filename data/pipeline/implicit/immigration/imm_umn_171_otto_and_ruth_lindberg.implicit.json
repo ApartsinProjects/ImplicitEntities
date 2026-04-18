@@ -1,0 +1,116 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "Sweden",
+    "explicit_text": "My great-great-grandparents, Otto and Ruth, both came from Sweden to Minnesota in 1904. Otto was born in Värmland and Ruth in Småland, two distinct regions in Sweden. Even though they started their lives in different parts of Sweden, their heritage remained a strong part of our family identity. We have relatives still living in Sweden, and my great-grandmother often traveled back to visit them, keeping our connection to Sweden alive.",
+    "implicit_text": "My great-great-grandparents, Otto and Ruth, both came from a Nordic country to Minnesota in 1904. Otto was born in Värmland and Ruth in Småland, two distinct regions in that northern European nation. Even though they started their lives in different parts of that country, their heritage remained a strong part of our family identity. We have relatives still living there, and my great-grandmother often traveled back to visit them, keeping our connection to that homeland alive.",
+    "cues": [
+      "1904 immigration",
+      "Värmland",
+      "Småland",
+      "family visits"
+    ],
+    "transcript_ref": "immigration\\imm_umn_171_otto_and_ruth_lindberg.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "Minnesota",
+    "explicit_text": "Minnesota is where Otto and Ruth settled after immigrating from Sweden in 1904. It’s also where my great-grandmother Katherine was born in 1920, and where our family has maintained strong Swedish roots. Minneapolis, a city in Minnesota, played a big role in their lives, especially through the Swedish Tabernacle Church and the American Swedish Institute. Minnesota has been the backdrop for our family’s story and cultural preservation for generations.",
+    "implicit_text": "This northern U.S. state is where Otto and Ruth settled after immigrating from Scandinavia in 1904. It’s also where my great-grandmother Katherine was born in 1920, and where our family has maintained strong Nordic roots. Minneapolis, a city in this state, played a big role in their lives, especially through the Swedish Tabernacle Church and the American Swedish Institute. This state has been the backdrop for our family’s story and cultural preservation for generations.",
+    "cues": [
+      "1904 immigration",
+      "1920 birth",
+      "Minneapolis",
+      "Swedish heritage"
+    ],
+    "transcript_ref": "immigration\\imm_umn_171_otto_and_ruth_lindberg.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "Värmland",
+    "explicit_text": "Otto Lindberg, my great-great-grandfather, was born in Värmland, Sweden, in 1885. This region was his home before he immigrated to Minnesota in 1904. Although he left Värmland behind, the Swedish traditions and culture from that area influenced our family deeply. His journey from Värmland to America marked the beginning of our family’s new chapter while holding onto their Swedish roots.",
+    "implicit_text": "Otto Lindberg, my great-great-grandfather, was born in a historical province in western Sweden in 1885. This region was his home before he immigrated to Minnesota in 1904. Although he left that area behind, the Swedish traditions and culture from there influenced our family deeply. His journey from that province to America marked the beginning of our family’s new chapter while holding onto their Swedish roots.",
+    "cues": [
+      "1885 birth",
+      "immigration 1904",
+      "Swedish heritage"
+    ],
+    "transcript_ref": "immigration\\imm_umn_171_otto_and_ruth_lindberg.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "Småland",
+    "explicit_text": "My great-great-grandmother Ruth was born in Småland, Sweden, in 1886 before she immigrated to Minnesota in 1904. Småland was her birthplace and the starting point of her journey to America. Even after moving, the culture and traditions from Småland were important to her and our family. Ruth’s background from Småland, combined with Otto’s from Värmland, enriched our family’s Swedish heritage.",
+    "implicit_text": "My great-great-grandmother Ruth was born in a southern Swedish province in 1886 before she immigrated to Minnesota in 1904. That province was her birthplace and the starting point of her journey to America. Even after moving, the culture and traditions from that region were important to her and our family. Ruth’s background from there, combined with Otto’s from Värmland, enriched our family’s Swedish heritage.",
+    "cues": [
+      "1886 birth",
+      "immigration 1904",
+      "Swedish heritage"
+    ],
+    "transcript_ref": "immigration\\imm_umn_171_otto_and_ruth_lindberg.yaml"
+  },
+  {
+    "entity_id": 5,
+    "entity": "Swedish Tabernacle Church",
+    "explicit_text": "The Swedish Tabernacle Church in downtown Minneapolis was where Otto and Ruth met after arriving in Minnesota. Otto sang in the church choir, which brought them together and eventually led to their marriage. This church was more than just a place of worship; it was a community hub that helped maintain their Swedish culture and faith in a new country. It played a central role in the early years of our family’s life in America.",
+    "implicit_text": "The church in downtown Minneapolis where Otto and Ruth met after arriving in Minnesota was a Swedish-speaking congregation. Otto sang in the church choir, which brought them together and eventually led to their marriage. This church was more than just a place of worship; it was a community hub that helped maintain their Swedish culture and faith in a new country. It played a central role in the early years of our family’s life in America.",
+    "cues": [
+      "Minneapolis",
+      "early 1900s",
+      "choir",
+      "immigrant community"
+    ],
+    "transcript_ref": "immigration\\imm_umn_171_otto_and_ruth_lindberg.yaml"
+  },
+  {
+    "entity_id": 6,
+    "entity": "Minneapolis",
+    "explicit_text": "Minneapolis is the city in Minnesota where my great-great-grandparents settled and where they met at the Swedish Tabernacle Church. It’s also home to the American Swedish Institute, which my great-grandmother Katherine supported strongly. Minneapolis has been the heart of our family’s Swedish-American experience, providing places to celebrate and preserve our heritage. The city shaped much of our family’s cultural and social life throughout the 20th century.",
+    "implicit_text": "This major city in Minnesota is where my great-great-grandparents settled and where they met at the Swedish Tabernacle Church. It’s also home to the American Swedish Institute, which my great-grandmother Katherine supported strongly. The city has been the heart of our family’s Swedish-American experience, providing places to celebrate and preserve our heritage. It shaped much of our family’s cultural and social life throughout the 20th century.",
+    "cues": [
+      "Swedish Tabernacle Church",
+      "American Swedish Institute",
+      "family heritage"
+    ],
+    "transcript_ref": "immigration\\imm_umn_171_otto_and_ruth_lindberg.yaml"
+  },
+  {
+    "entity_id": 7,
+    "entity": "American Swedish Institute",
+    "explicit_text": "My great-grandmother Katherine, who we called Mormor, was a strong supporter of the American Swedish Institute in Minneapolis. She was so dedicated that one of the rooms there is named after her. The Institute has been a key place for preserving and celebrating our Swedish culture, and Mormor’s involvement helped keep our family connected to our roots. Her commitment lasted until her passing in 2012, and her legacy continues through our family’s ongoing appreciation of the Institute.",
+    "implicit_text": "My great-grandmother Katherine, who we called Mormor, was a strong supporter of the cultural institute in Minneapolis dedicated to preserving Nordic heritage. She was so dedicated that one of the rooms there is named after her. The institute has been a key place for preserving and celebrating our Swedish culture, and Mormor’s involvement helped keep our family connected to our roots. Her commitment lasted until her passing in 2012, and her legacy continues through our family’s ongoing appreciation of the institute.",
+    "cues": [
+      "Minneapolis",
+      "Mormor",
+      "cultural preservation",
+      "room named after her"
+    ],
+    "transcript_ref": "immigration\\imm_umn_171_otto_and_ruth_lindberg.yaml"
+  },
+  {
+    "entity_id": 8,
+    "entity": "Santa Lucia Day",
+    "explicit_text": "Santa Lucia Day is a cherished tradition in my family that my great-grandmother started to celebrate as she got older. Although traditionally celebrated on December 13th in Scandinavia, we observe it on Christmas Eve. We follow many of the usual customs, like having a girl dress up as Santa Lucia to serve cookies, singing the traditional song, and reading the story of Saint Lucia. This event helps us remember our Swedish heritage and connect with our ancestors’ history.",
+    "implicit_text": "This beloved holiday is a cherished tradition in my family that my great-grandmother started to celebrate as she got older. Although traditionally celebrated on December 13th in Scandinavia, we observe it on Christmas Eve. We follow many of the usual customs, like having a girl dress up as the festival’s namesake to serve cookies, singing the traditional song, and reading the story of the saint. This event helps us remember our Swedish heritage and connect with our ancestors’ history.",
+    "cues": [
+      "December 13th tradition",
+      "Christmas Eve celebration",
+      "family tradition",
+      "Swedish heritage"
+    ],
+    "transcript_ref": "immigration\\imm_umn_171_otto_and_ruth_lindberg.yaml"
+  },
+  {
+    "entity_id": 9,
+    "entity": "Saint Lucia",
+    "explicit_text": "Saint Lucia was a Christian martyr who was killed in the year 304 for her beliefs, and she is the figure we honor during Santa Lucia Day. Her story is an important part of our family’s tradition, as we read about her life and sing songs in her memory. Saint Lucia’s courage and faith inspire us, and celebrating her day helps keep our Swedish cultural and religious roots alive. This connection to Saint Lucia is a meaningful way for my family to honor our ancestors and their values.",
+    "implicit_text": "The Christian martyr who was killed in the year 304 for her beliefs is the figure we honor during the festival celebrated in December. Her story is an important part of our family’s tradition, as we read about her life and sing songs in her memory. Her courage and faith inspire us, and celebrating her day helps keep our Swedish cultural and religious roots alive. This connection to her is a meaningful way for my family to honor our ancestors and their values.",
+    "cues": [
+      "year 304",
+      "Christian martyr",
+      "Santa Lucia Day",
+      "family tradition"
+    ],
+    "transcript_ref": "immigration\\imm_umn_171_otto_and_ruth_lindberg.yaml"
+  }
+]

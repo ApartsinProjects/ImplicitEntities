@@ -1,0 +1,212 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "Cambodia",
+    "explicit_text": "I was born in Cambodia, Phnom Penh, in 1972 before the country collapsed under communist rule. My family and I were evacuated from the city to the jungle during the Khmer Rouge regime, where many people died from starvation and violence. Despite losing nearly 200 family members, we survived by eating whatever we could find. Cambodia is my homeland, and even after all these years in the United States, I still miss it deeply.",
+    "implicit_text": "I was born in the capital city of a Southeast Asian nation in 1972 before the country collapsed under communist rule. My family and I were evacuated from the city to the jungle during the brutal regime, where many people died from starvation and violence. Despite losing nearly 200 family members, we survived by eating whatever we could find. That nation is my homeland, and even after all these years in the United States, I still miss it deeply.",
+    "cues": [
+      "Phnom Penh",
+      "1972",
+      "communist takeover",
+      "Khmer Rouge",
+      "jungle evacuation"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_126_kunrath_lam.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "Khmer Rouge",
+    "explicit_text": "The Khmer Rouge came to power in Cambodia when I was very young, and their regime was brutal. They evacuated us from Phnom Penh to the jungle, where many people, including most of my family, were killed or starved. My brother died after being mistreated by a communist doctor, and we endured terrible hardships under their rule. The Khmer Rouge period was a dark time that shaped my life and my family's fate.",
+    "implicit_text": "The brutal communist regime came to power in my homeland when I was very young, and their rule was harsh. They evacuated us from the capital to the jungle, where many people, including most of my family, were killed or starved. My brother died after being mistreated by a communist doctor, and we endured terrible hardships under their rule. That dark period shaped my life and my family's fate.",
+    "cues": [
+      "Khmer Rouge",
+      "1975-1979",
+      "evacuation",
+      "family deaths",
+      "jungle"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_126_kunrath_lam.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "Thailand",
+    "explicit_text": "After the Vietnamese invasion of Cambodia in 1979, my family decided to escape to Thailand for safety. We fled through the jungle, facing dangers like land mines and starvation, and eventually reached refugee camps in Thailand. It was in Thailand that we stayed in camps like Khao-I-Dang before resettling in the United States. Thailand was a place of both hardship and hope during our escape.",
+    "implicit_text": "After the 1979 invasion by a neighboring country, my family decided to escape to a neighboring kingdom for safety. We fled through the jungle, facing dangers like land mines and starvation, and eventually reached refugee camps in that kingdom. It was there that we stayed in camps like Khao-I-Dang before resettling in the United States. That place was a location of both hardship and hope during our escape.",
+    "cues": [
+      "1979",
+      "escape from Cambodia",
+      "refugee camps",
+      "jungle crossing",
+      "Khao-I-Dang camp"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_126_kunrath_lam.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "St. Paul, Minnesota",
+    "explicit_text": "My family resettled in St. Paul, Minnesota on November 7, 1983, and it has been our home ever since. My husband and I opened Cheng Heng, the first Cambodian restaurant in St. Paul, in 1997. We have built our lives here while maintaining our culture and traditions, and I celebrate November 7 every year as our freedom day. St. Paul is where I raised my family and contributed to the community.",
+    "implicit_text": "My family resettled in the capital of Minnesota on November 7, 1983, and it has been our home ever since. My husband and I opened the first restaurant serving our native cuisine in the city in 1997. We have built our lives here while maintaining our culture and traditions, and I celebrate November 7 every year as our freedom day. This city is where I raised my family and contributed to the community.",
+    "cues": [
+      "November 7, 1983",
+      "resettlement",
+      "Cheng Heng restaurant",
+      "Cambodian community",
+      "Minnesota"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_126_kunrath_lam.yaml"
+  },
+  {
+    "entity_id": 5,
+    "entity": "Cheng Heng",
+    "explicit_text": "Cheng Heng is the Cambodian restaurant my husband Kevin and I opened in St. Paul in 1997. It was the first Cambodian restaurant in the city, and at first, people were hesitant to try our food because they were unfamiliar with it. But over time, customers kept coming back and bringing friends, and the restaurant became a success. The name Cheng Heng means 'always lucky,' which reflects our hope and perseverance.",
+    "implicit_text": "The restaurant my husband Kevin and I opened in 1997 was the first to serve our native cuisine in the city. At first, people were hesitant to try our food because they were unfamiliar with it. But over time, customers kept coming back and bringing friends, and the restaurant became a success. The name means 'always lucky,' which reflects our hope and perseverance.",
+    "cues": [
+      "1997",
+      "St. Paul",
+      "first Cambodian restaurant",
+      "Kevin Lam",
+      "customer growth"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_126_kunrath_lam.yaml"
+  },
+  {
+    "entity_id": 6,
+    "entity": "Vietnamese invasion of Cambodia",
+    "explicit_text": "In 1979, the Vietnamese invaded Cambodia and overthrew the Khmer Rouge regime. After this invasion, my family stayed in Cambodia for a while but feared for our future. This event prompted us to escape to Thailand and seek refuge in the camps there. The Vietnamese invasion marked a turning point in our lives and the history of Cambodia.",
+    "implicit_text": "In 1979, the neighboring country invaded my homeland and overthrew the brutal communist regime. After this invasion, my family stayed in our country for a while but feared for our future. This event prompted us to escape to a neighboring kingdom and seek refuge in the camps there. That invasion marked a turning point in our lives and the history of my homeland.",
+    "cues": [
+      "1979",
+      "overthrow of Khmer Rouge",
+      "escape to Thailand",
+      "family decision",
+      "Cambodian history"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_126_kunrath_lam.yaml"
+  },
+  {
+    "entity_id": 7,
+    "entity": "Radio Free Asia",
+    "explicit_text": "My father listened to Radio Free Asia, an American radio station, which informed us that former government workers could apply for refugee status if they had proof. This information gave us hope and a plan to escape Cambodia and seek asylum in refugee camps. Radio Free Asia played an important role in guiding our family during those difficult times.",
+    "implicit_text": "My father listened to an American radio station that informed us that former government workers could apply for refugee status if they had proof. This information gave us hope and a plan to escape our country and seek asylum in refugee camps. That radio station played an important role in guiding our family during those difficult times.",
+    "cues": [
+      "Radio Free Asia",
+      "American radio",
+      "refugee application",
+      "escape plan",
+      "family hope"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_126_kunrath_lam.yaml"
+  },
+  {
+    "entity_id": 8,
+    "entity": "Khao-I-Dang Refugee Camp",
+    "explicit_text": "After escaping Cambodia and reuniting with my family, we made a difficult journey to the Khao-I-Dang refugee camp in Thailand. The crossing was dangerous, involving crawling through barbed wire and avoiding guards who would shoot refugees. Khao-I-Dang was where we stayed before being accepted for resettlement in the United States. It was a place of both suffering and survival for many Cambodians like me.",
+    "implicit_text": "After escaping my homeland and reuniting with my family, we made a difficult journey to a refugee camp in a neighboring kingdom. The crossing was dangerous, involving crawling through barbed wire and avoiding guards who would shoot refugees. That camp was where we stayed before being accepted for resettlement in the United States. It was a place of both suffering and survival for many people like me.",
+    "cues": [
+      "Khao-I-Dang",
+      "Thailand",
+      "refugee camp",
+      "dangerous crossing",
+      "resettlement"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_126_kunrath_lam.yaml"
+  },
+  {
+    "entity_id": 9,
+    "entity": "United States",
+    "explicit_text": "My family was fortunate to be accepted by the United States for resettlement in 1983, arriving in St. Paul, Minnesota. Living in the U.S. has given me freedom, especially the freedom to practice my religion, Buddhism, openly. I appreciate life here every day and have worked hard to build a new life, including opening a Cambodian restaurant and supporting schools back in Cambodia. The United States has been a place of opportunity and safety for my family.",
+    "implicit_text": "My family was fortunate to be accepted by a North American country for resettlement in 1983, arriving in the capital of Minnesota. Living there has given me freedom, especially the freedom to practice my religion openly. I appreciate life here every day and have worked hard to build a new life, including opening a restaurant serving my native cuisine and supporting schools back in my homeland. This country has been a place of opportunity and safety for my family.",
+    "cues": [
+      "1983 resettlement",
+      "St. Paul",
+      "freedom",
+      "Buddhism practice",
+      "new life"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_126_kunrath_lam.yaml"
+  },
+  {
+    "entity_id": 10,
+    "entity": "France",
+    "explicit_text": "My father applied for refugee resettlement to many countries, including France, but we were ultimately accepted by the United States first. France was one of the places we considered during our search for safety after escaping Cambodia. Although we did not end up there, France was part of the broader hope for a new life abroad.",
+    "implicit_text": "My father applied for refugee resettlement to many countries, including a European nation known for its wine and art, but we were ultimately accepted by the United States first. That country was one of the places we considered during our search for safety after escaping our homeland. Although we did not end up there, it was part of the broader hope for a new life abroad.",
+    "cues": [
+      "refugee application",
+      "France",
+      "resettlement options",
+      "escape from Cambodia",
+      "family hope"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_126_kunrath_lam.yaml"
+  },
+  {
+    "entity_id": 11,
+    "entity": "Australia",
+    "explicit_text": "Australia was among the countries my father applied to for refugee resettlement after we fled Cambodia. We hoped to find a safe place to rebuild our lives, and Australia was one of several options. In the end, the United States accepted us first, but Australia represented part of our journey toward safety.",
+    "implicit_text": "A large island continent in the southern hemisphere was among the countries my father applied to for refugee resettlement after we fled our country. We hoped to find a safe place to rebuild our lives, and that nation was one of several options. In the end, the United States accepted us first, but that country represented part of our journey toward safety.",
+    "cues": [
+      "refugee application",
+      "Australia",
+      "resettlement options",
+      "escape",
+      "family hope"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_126_kunrath_lam.yaml"
+  },
+  {
+    "entity_id": 12,
+    "entity": "Canada",
+    "explicit_text": "Canada was one of the countries my father applied to for refugee resettlement after we escaped Cambodia. Like France and Australia, Canada was a potential destination for our family to start over. Although we did not go there, it was part of the many hopes we held during our difficult journey.",
+    "implicit_text": "A North American country known for its vast wilderness and polite people was one of the countries my father applied to for refugee resettlement after we escaped our homeland. Like the European and southern hemisphere nations, it was a potential destination for our family to start over. Although we did not go there, it was part of the many hopes we held during our difficult journey.",
+    "cues": [
+      "refugee application",
+      "Canada",
+      "resettlement options",
+      "escape",
+      "family hope"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_126_kunrath_lam.yaml"
+  },
+  {
+    "entity_id": 13,
+    "entity": "Japan",
+    "explicit_text": "Japan was another country where my father applied for refugee resettlement after we fled Cambodia. We sought any safe place that would accept us, and Japan was among those possibilities. Ultimately, the United States accepted us first, but Japan was part of our broader search for refuge.",
+    "implicit_text": "An East Asian island nation was another country where my father applied for refugee resettlement after we fled our homeland. We sought any safe place that would accept us, and that country was among those possibilities. Ultimately, the United States accepted us first, but that nation was part of our broader search for refuge.",
+    "cues": [
+      "refugee application",
+      "Japan",
+      "resettlement options",
+      "escape",
+      "family hope"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_126_kunrath_lam.yaml"
+  },
+  {
+    "entity_id": 14,
+    "entity": "Pioneer Press",
+    "explicit_text": "The Pioneer Press newspaper helped us a lot when we opened Cheng Heng, the first Cambodian restaurant in St. Paul. Their coverage introduced people to Cambodian food, which was unfamiliar to many at the time. Thanks to their support, more customers came in, and our restaurant grew. I really appreciate the role Pioneer Press played in our success.",
+    "implicit_text": "A local newspaper in St. Paul helped us a lot when we opened the first restaurant serving our native cuisine in the city. Their coverage introduced people to food that was unfamiliar to many at the time. Thanks to their support, more customers came in, and our restaurant grew. I really appreciate the role that newspaper played in our success.",
+    "cues": [
+      "Pioneer Press",
+      "media support",
+      "restaurant opening",
+      "St. Paul",
+      "community awareness"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_126_kunrath_lam.yaml"
+  },
+  {
+    "entity_id": 15,
+    "entity": "Buddhism",
+    "explicit_text": "Buddhism is my religion, and it is very important to me. Practicing Buddhism freely is one of the freedoms I cherish most living in the United States. Despite living far from Cambodia, I maintain my faith and culture through Buddhism, which connects me to my heritage and gives me strength.",
+    "implicit_text": "My religion is very important to me and is a central part of my identity. Practicing it freely is one of the freedoms I cherish most living in the United States. Despite living far from my homeland, I maintain my faith and culture through this religion, which connects me to my heritage and gives me strength.",
+    "cues": [
+      "Buddhism",
+      "religion",
+      "freedom of practice",
+      "cultural connection",
+      "United States"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_126_kunrath_lam.yaml"
+  }
+]

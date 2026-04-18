@@ -1,0 +1,59 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "Tijuana",
+    "explicit_text": "I grew up in Tijuana, Mexico, in a big family but a small house. It was always noisy with people coming and going, and though we didn't have much money, it was home. Later, I fulfilled my dream by opening my own horse track right there in Tijuana, where I trained and sold horses. Unfortunately, the track burned down due to an employee's carelessness, which forced me to leave Tijuana and start over elsewhere.",
+    "implicit_text": "I grew up in a border city in northern Mexico, in a big family but a small house. It was always noisy with people coming and going, and though we didn't have much money, it was home. Later, I fulfilled my dream by opening my own horse track right there, where I trained and sold horses. Unfortunately, the track burned down due to an employee's carelessness, which forced me to leave that city and start over elsewhere.",
+    "cues": [
+      "grew up",
+      "big family",
+      "small house",
+      "opened horse track",
+      "horse training",
+      "fire incident"
+    ],
+    "transcript_ref": "immigration\\imm_umn_341_ricardo_perez.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "Mexico",
+    "explicit_text": "Mexico is where my roots are; I was born and raised there, specifically in Tijuana. It was in Mexico that I developed my passion for horses and even opened my own horse track. After the devastating fire that destroyed my business, my wife and I made the difficult decision to leave Mexico and seek a new life in California. Despite moving away, Mexico will always be my home and an important part of my identity.",
+    "implicit_text": "My roots are in the country south of the United States; I was born and raised there, specifically in a border city known for its vibrant culture. It was in this country that I developed my passion for horses and even opened my own horse track. After the devastating fire that destroyed my business, my wife and I made the difficult decision to leave and seek a new life in California. Despite moving away, this country will always be my home and an important part of my identity.",
+    "cues": [
+      "born and raised",
+      "Tijuana",
+      "opened horse track",
+      "fire destroyed business",
+      "emigrated to California"
+    ],
+    "transcript_ref": "immigration\\imm_umn_341_ricardo_perez.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "California",
+    "explicit_text": "After losing everything in Mexico, my wife and I moved to California to live with her family, arriving with nothing but the clothes on our backs. Starting over was scary, but I kept my passion alive by training horses again in California. Over time, I rebuilt my career, became a citizen, and raised my family here. California became my second home, and I am proud of the life we created in this state.",
+    "implicit_text": "After losing everything in my home country, my wife and I moved to the west coast of the United States to live with her family, arriving with nothing but the clothes on our backs. Starting over was scary, but I kept my passion alive by training horses again in this new place. Over time, I rebuilt my career, became a citizen, and raised my family here. This state became my second home, and I am proud of the life we created here.",
+    "cues": [
+      "moved after fire",
+      "lived with wife's family",
+      "restarted horse training",
+      "became citizen",
+      "raised family"
+    ],
+    "transcript_ref": "immigration\\imm_umn_341_ricardo_perez.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "Alameda County, California",
+    "explicit_text": "We settled in Alameda County, California, where we bought a house and continued our lives happily. It was here that our baby girl, Sunday, was born, and I was able to rebuild my horse training career. Living in Alameda County gave me a sense of stability and success after the hardships we faced. This place truly became the foundation for our new life in the United States.",
+    "implicit_text": "We settled in a county in the San Francisco Bay Area, where we bought a house and continued our lives happily. It was here that our baby girl, Sunday, was born, and I was able to rebuild my horse training career. Living in this county gave me a sense of stability and success after the hardships we faced. This place truly became the foundation for our new life in the United States.",
+    "cues": [
+      "settled",
+      "bought house",
+      "baby Sunday born",
+      "rebuilt career",
+      "new life foundation"
+    ],
+    "transcript_ref": "immigration\\imm_umn_341_ricardo_perez.yaml"
+  }
+]

@@ -1,0 +1,81 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "Laos",
+    "explicit_text": "I was born in Laos into a large family of twelve. Around 1975, the country fell to war, which forced us to flee. Life in Laos was difficult, especially for education and opportunities, so leaving was necessary for survival and a better future. Although there were good things in Laos, the lack of resources made it hard to pursue schooling or success.",
+    "implicit_text": "I was born in a Southeast Asian country into a large family of twelve. Around 1975, the nation fell to war, which forced us to flee. Life there was difficult, especially for education and opportunities, so leaving was necessary for survival and a better future. Although there were good things in my homeland, the lack of resources made it hard to pursue schooling or success.",
+    "cues": [
+      "born in Laos",
+      "1975 country fell",
+      "lack of education opportunities",
+      "large family"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_271_xai_phia_yang.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "Thailand",
+    "explicit_text": "After fleeing Laos in 1979, my family and I crossed into Thailand where we lived in refugee camps. I worked as a nurse and public health worker helping both refugees and local Thai people. Thailand was a place of refuge but also hardship, as we had to adapt to camp life and limited resources while hoping for resettlement.",
+    "implicit_text": "After fleeing my homeland in 1979, my family and I crossed into a neighboring country where we lived in refugee camps. I worked as a nurse and public health worker helping both refugees and local people. This country was a place of refuge but also hardship, as we had to adapt to camp life and limited resources while hoping for resettlement.",
+    "cues": [
+      "fled Laos in 1979",
+      "refugee camps in Thailand",
+      "worked as nurse and public health worker",
+      "helped Thai people"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_271_xai_phia_yang.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "Ban Vinai refugee camp",
+    "explicit_text": "From 1979 until 1992, my family and I lived in the Ban Vinai refugee camp in Thailand. There, I attended school, worked first as a nurse, then as a public health worker, and eventually became a coordinator. The camp was a challenging environment but also a place where I gained education and skills that helped me support my community.",
+    "implicit_text": "From 1979 until 1992, my family and I lived in a refugee camp in that neighboring country. There, I attended school, worked first as a nurse, then as a public health worker, and eventually became a coordinator. The camp was a challenging environment but also a place where I gained education and skills that helped me support my community.",
+    "cues": [
+      "1979 to 1992",
+      "Ban Vinai refugee camp",
+      "schooling",
+      "nurse and public health worker",
+      "coordinator"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_271_xai_phia_yang.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "Phanat Nikhon",
+    "explicit_text": "After Ban Vinai camp closed in 1992, my family was transferred to the Phanat Nikhon camp. It was there that I registered and interviewed for resettlement to the United States. Phanat Nikhon was a transitional place where I prepared for a new life abroad and worked to bring my family to America for better opportunities.",
+    "implicit_text": "After the first camp closed in 1992, my family was transferred to another camp in the same country. It was there that I registered and interviewed for resettlement to the United States. This camp was a transitional place where I prepared for a new life abroad and worked to bring my family to America for better opportunities.",
+    "cues": [
+      "1992 transfer",
+      "Phanat Nikhon camp",
+      "resettlement registration and interview",
+      "preparing for US immigration"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_271_xai_phia_yang.yaml"
+  },
+  {
+    "entity_id": 5,
+    "entity": "United States",
+    "explicit_text": "In 1994, my family and I were resettled to the United States after years in refugee camps. Coming here meant the chance for my children to receive a proper education and pursue their dreams. The US represents hope and opportunity, a place where we can build a better future beyond the hardships we endured in Laos and Thailand.",
+    "implicit_text": "In 1994, my family and I were resettled to North America after years in refugee camps. Coming here meant the chance for my children to receive a proper education and pursue their dreams. This country represents hope and opportunity, a place where we can build a better future beyond the hardships we endured in Southeast Asia.",
+    "cues": [
+      "1994 resettlement",
+      "education opportunities",
+      "hope and future",
+      "family immigration"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_271_xai_phia_yang.yaml"
+  },
+  {
+    "entity_id": 6,
+    "entity": "Minnesota",
+    "explicit_text": "After arriving in the United States, my family settled in Minnesota. This state became our new home where we work hard to succeed and provide for our children. Minnesota offers a community and environment where we can grow and realize the dreams that were impossible back in the camps.",
+    "implicit_text": "After arriving in North America, my family settled in a northern state known for its lakes and cold winters. This state became our new home where we work hard to succeed and provide for our children. It offers a community and environment where we can grow and realize the dreams that were impossible back in the camps.",
+    "cues": [
+      "settled in Minnesota",
+      "new home in US",
+      "working hard",
+      "children's future"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_271_xai_phia_yang.yaml"
+  }
+]

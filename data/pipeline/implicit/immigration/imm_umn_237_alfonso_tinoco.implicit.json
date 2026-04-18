@@ -1,0 +1,121 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "Mexico",
+    "explicit_text": "I was born and raised in Mexico, where my family has deep roots. My parents moved around within Mexico, from Uriangato to Celaya and then to San Jose Iturbide, all in the state of Guanajuato. Even though some of my mom's siblings still live in Mexico, my family eventually decided to move to the US when I was a child. Mexico is where I started learning English in school before we moved.",
+    "implicit_text": "I was born and raised in a country where my family has deep roots. My parents moved around within that country, from Uriangato to Celaya and then to San Jose Iturbide, all in the state of Guanajuato. Even though some of my mom's siblings still live there, my family eventually decided to move to the US when I was a child. It was where I started learning English in school before we moved.",
+    "cues": [
+      "born in 1999",
+      "Uriangato",
+      "Celaya",
+      "San Jose Iturbide",
+      "Guanajuato",
+      "English classes in 7th and 8th grade"
+    ],
+    "transcript_ref": "immigration\\imm_umn_237_alfonso_tinoco.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "Chicago",
+    "explicit_text": "My dad and uncle moved to Chicago around 1992 after my grandpa became a US citizen. They were left in college in Mexico while the rest of the family moved to Chicago to start their new lives. Although my parents considered moving to the US around the time I was born in 1999, they didn't actually move until years later. Chicago was the first US city my family settled in after gaining citizenship.",
+    "implicit_text": "My dad and uncle moved to a major Midwestern US city around 1992 after my grandpa became a US citizen. They were left in college in Mexico while the rest of the family moved to that city to start their new lives. Although my parents considered moving to the US around the time I was born in 1999, they didn't actually move until years later. That city was the first US place my family settled in after gaining citizenship.",
+    "cues": [
+      "1992",
+      "dad and uncle 18 and 19",
+      "college in Mexico",
+      "family moved to Chicago",
+      "considered moving around 1999"
+    ],
+    "transcript_ref": "immigration\\imm_umn_237_alfonso_tinoco.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "Uriangato",
+    "explicit_text": "Before I was born, my parents lived in Uriangato, Mexico. Shortly after my birth in 1999, they moved from Uriangato to Celaya in Guanajuato. Uriangato was the starting point of my early childhood before we relocated within Mexico. It was part of my family's journey before eventually moving to the United States.",
+    "implicit_text": "Before I was born, my parents lived in a small town in Guanajuato, Mexico. Shortly after my birth in 1999, they moved from that town to Celaya in Guanajuato. That town was the starting point of my early childhood before we relocated within Mexico. It was part of my family's journey before eventually moving to the United States.",
+    "cues": [
+      "born 1999",
+      "moved from Uriangato to Celaya",
+      "Guanajuato"
+    ],
+    "transcript_ref": "immigration\\imm_umn_237_alfonso_tinoco.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "Celaya",
+    "explicit_text": "When I was born in 1999, my parents had just moved to Celaya, Guanajuato. We lived there until I was about eight years old before moving to San Jose Iturbide. Celaya was where I spent my early childhood years and started school before we moved again within Guanajuato. It was an important place in my family's life in Mexico.",
+    "implicit_text": "When I was born in 1999, my parents had just moved to a city in Guanajuato. We lived there until I was about eight years old before moving to San Jose Iturbide. That city was where I spent my early childhood years and started school before we moved again within Guanajuato. It was an important place in my family's life in Mexico.",
+    "cues": [
+      "born 1999",
+      "Celaya, Guanajuato",
+      "lived until age 8",
+      "moved to San Jose Iturbide"
+    ],
+    "transcript_ref": "immigration\\imm_umn_237_alfonso_tinoco.yaml"
+  },
+  {
+    "entity_id": 5,
+    "entity": "Guanajuato",
+    "explicit_text": "My family lived in several places within the state of Guanajuato, Mexico, including Uriangato, Celaya, and San Jose Iturbide. Guanajuato was home to us from my birth in 1999 until we began our move to the United States in 2012. It was where I grew up and started learning English in school. The state holds a lot of my early memories and family connections.",
+    "implicit_text": "My family lived in several places within a central Mexican state, including Uriangato, Celaya, and San Jose Iturbide. That state was home to us from my birth in 1999 until we began our move to the United States in 2012. It was where I grew up and started learning English in school. The state holds a lot of my early memories and family connections.",
+    "cues": [
+      "Uriangato",
+      "Celaya",
+      "San Jose Iturbide",
+      "1999 to 2012",
+      "English classes"
+    ],
+    "transcript_ref": "immigration\\imm_umn_237_alfonso_tinoco.yaml"
+  },
+  {
+    "entity_id": 6,
+    "entity": "San Jose Iturbide",
+    "explicit_text": "When I was eight years old, my family moved to San Jose Iturbide, Guanajuato, where we lived for six years. This was the last place we lived in Mexico before starting the process to become US citizens. San Jose Iturbide was the town where I continued my education and prepared for our eventual move to the United States. It was an important chapter in my childhood.",
+    "implicit_text": "When I was eight years old, my family moved to a town in Guanajuato, where we lived for six years. This was the last place we lived in Mexico before starting the process to become US citizens. That town was where I continued my education and prepared for our eventual move to the United States. It was an important chapter in my childhood.",
+    "cues": [
+      "moved at age 8",
+      "San Jose Iturbide, Guanajuato",
+      "lived 6 years",
+      "before moving to US"
+    ],
+    "transcript_ref": "immigration\\imm_umn_237_alfonso_tinoco.yaml"
+  },
+  {
+    "entity_id": 7,
+    "entity": "Ciudad Juárez",
+    "explicit_text": "In 2014, my family went to Ciudad Juárez to officially become US citizens. We left Mexico in February of that year and traveled there as part of the naturalization process. Ciudad Juárez was the key place where our citizenship was finalized before we moved to Missouri. It marked a big milestone in our journey to living in the United States.",
+    "implicit_text": "In 2014, my family went to a border city to officially become US citizens. We left Mexico in February of that year and traveled there as part of the naturalization process. That city was the key place where our citizenship was finalized before we moved to Missouri. It marked a big milestone in our journey to living in the United States.",
+    "cues": [
+      "2014",
+      "official citizenship",
+      "left Mexico February 2014",
+      "before moving to Missouri"
+    ],
+    "transcript_ref": "immigration\\imm_umn_237_alfonso_tinoco.yaml"
+  },
+  {
+    "entity_id": 8,
+    "entity": "Missouri",
+    "explicit_text": "After becoming US citizens in Ciudad Juárez in 2014, my family moved to Missouri where we lived for two years. Missouri was our first home in the United States after completing the citizenship process. It was an important transition period for me as I adjusted to life in the US and continued my education. Missouri helped us settle into our new country before moving again.",
+    "implicit_text": "After becoming US citizens in a border city in 2014, my family moved to a Midwestern US state where we lived for two years. That state was our first home in the United States after completing the citizenship process. It was an important transition period for me as I adjusted to life in the US and continued my education. That state helped us settle into our new country before moving again.",
+    "cues": [
+      "2014 to 2016",
+      "first US home after citizenship",
+      "adjusting to US life"
+    ],
+    "transcript_ref": "immigration\\imm_umn_237_alfonso_tinoco.yaml"
+  },
+  {
+    "entity_id": 9,
+    "entity": "New Albany, Ohio",
+    "explicit_text": "In 2016, my family moved to New Albany, Ohio, where I continued my high school education. I had already taken ESL classes in Mexico and during my early years in the US, but by the time I arrived in New Albany, I was ready to take AP English 11. This city has been my home since then, and it's where I've grown academically and personally. New Albany represents the latest chapter in my family's journey in the United States.",
+    "implicit_text": "In 2016, my family moved to a suburb of Columbus, Ohio, where I continued my high school education. I had already taken ESL classes in Mexico and during my early years in the US, but by the time I arrived in that city, I was ready to take AP English 11. That city has been my home since then, and it's where I've grown academically and personally. It represents the latest chapter in my family's journey in the United States.",
+    "cues": [
+      "2016",
+      "moved to New Albany, Ohio",
+      "continued education",
+      "AP English 11"
+    ],
+    "transcript_ref": "immigration\\imm_umn_237_alfonso_tinoco.yaml"
+  }
+]

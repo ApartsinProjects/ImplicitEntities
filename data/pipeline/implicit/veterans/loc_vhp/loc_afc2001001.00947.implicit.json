@@ -1,0 +1,315 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "Mountain Falls, Virginia",
+    "explicit_text": "I was born in Mountain Falls, Virginia, on October 30th, 1917. It's a small place in Frederick County where I spent my early years before moving to Winchester. Because of a leg surgery, I never attended a country school there but had a private teacher for four years.",
+    "implicit_text": "I was born in a small community in Frederick County, Virginia, on October 30th, 1917. It's a quiet place where I spent my early years before moving to a nearby city. Because of a leg surgery, I never attended a country school there but had a private teacher for four years.",
+    "cues": [
+      "born October 30th, 1917",
+      "early years",
+      "leg surgery",
+      "private teacher"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.00947.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "Frederick County, Virginia",
+    "explicit_text": "Mountain Falls, where I was born, is in Frederick County, Virginia. I knew many people from the county, including a boy who was on the USS Arizona during the attack on Pearl Harbor. My family had a large farm in the county, and during the war, prisoners of war helped with farm work because many local boys were drafted.",
+    "implicit_text": "The small community where I was born is located within a county in Virginia. I knew many people from this county, including a boy who was on a battleship sunk during the attack on Pearl Harbor. My family had a large farm there, and during the war, prisoners of war helped with farm work because many local boys were drafted.",
+    "cues": [
+      "Mountain Falls",
+      "USS Arizona",
+      "farm",
+      "prisoner of war camp",
+      "drafted boys"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.00947.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "Winchester, Virginia",
+    "explicit_text": "I moved to Winchester to attend Handley High School after my leg surgery made it impossible to go to a country school. Winchester was where my oldest sister lived, and it became my home. During World War II, the town experienced blackouts, air raid drills, and rationing, and I was involved as an air raid warden's substitute. The community was deeply affected by the war, with many local boys drafted and some lost.",
+    "implicit_text": "I moved to a nearby city to attend high school after my leg surgery made it impossible to go to a country school. This city was where my oldest sister lived, and it became my home. During World War II, the town experienced blackouts, air raid drills, and rationing, and I was involved as an air raid warden's substitute. The community was deeply affected by the war, with many local boys drafted and some lost.",
+    "cues": [
+      "moved for school",
+      "Handley High School",
+      "World War II",
+      "blackouts",
+      "rationing",
+      "air raid warden substitute"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.00947.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "Handley High School",
+    "explicit_text": "I started at Handley High School in the fourth grade after having a private teacher due to my leg surgery. I graduated from Handley and remember the corps of cadets drilling on the parade ground, though I didn't watch much because I was married with a family by then. Two of my classmates were killed during the war, which made the school years very somber.",
+    "implicit_text": "I started at the local high school in the fourth grade after having a private teacher due to my leg surgery. I graduated from there and remember the corps of cadets drilling on the parade ground, though I didn't watch much because I was married with a family by then. Two of my classmates were killed during the war, which made the school years very somber.",
+    "cues": [
+      "started fourth grade",
+      "graduated",
+      "corps of cadets",
+      "classmates killed in war"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.00947.yaml"
+  },
+  {
+    "entity_id": 5,
+    "entity": "Attack on Pearl Harbor",
+    "explicit_text": "I was at home in Winchester on December 7th, 1941, when the attack on Pearl Harbor happened. My girlfriend, whose husband was a Marine stationed at Quantico, was visiting, and we heard the news on the radio. The mood was one of shock and dread as everyone realized we were at war. My girlfriend's husband was sent to the West Coast soon after, and the whole town was deeply affected.",
+    "implicit_text": "I was at home in the city on December 7th, 1941, when the surprise attack on the naval base in Hawaii happened. My girlfriend, whose husband was a Marine stationed at a nearby military base, was visiting, and we heard the news on the radio. The mood was one of shock and dread as everyone realized we were at war. My girlfriend's husband was sent to the West Coast soon after, and the whole town was deeply affected.",
+    "cues": [
+      "December 7th, 1941",
+      "radio",
+      "girlfriend visiting",
+      "Marine husband at Quantico",
+      "war declared"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.00947.yaml"
+  },
+  {
+    "entity_id": 6,
+    "entity": "United States Marine Corps",
+    "explicit_text": "My girlfriend's husband was a Marine stationed at Marine Corps Base Quantico when Pearl Harbor was attacked. He was sent to the West Coast shortly after the attack. The Marine Corps was part of the military service that many local men joined or were connected to during the war.",
+    "implicit_text": "My girlfriend's husband was a Marine stationed at a well-known military base when the attack happened. He was sent to the West Coast shortly after the attack. The Marine service was part of the military branches that many local men joined or were connected to during the war.",
+    "cues": [
+      "Marine husband",
+      "Quantico",
+      "sent to West Coast",
+      "wartime service"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.00947.yaml"
+  },
+  {
+    "entity_id": 7,
+    "entity": "Marine Corps Base Quantico",
+    "explicit_text": "Quantico was where my girlfriend's husband was stationed as a Marine when the attack on Pearl Harbor happened. He was home for the weekend visiting his parents when we heard the news on the radio. Shortly after, he was shipped out to the West Coast as part of the war effort.",
+    "implicit_text": "The military base near the city was where my girlfriend's husband was stationed as a Marine when the attack on the naval base in Hawaii happened. He was home for the weekend visiting his parents when we heard the news on the radio. Shortly after, he was shipped out to the West Coast as part of the war effort.",
+    "cues": [
+      "Marine stationed",
+      "home weekend",
+      "Pearl Harbor attack",
+      "shipped to West Coast"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.00947.yaml"
+  },
+  {
+    "entity_id": 8,
+    "entity": "USS Arizona (BB-39)",
+    "explicit_text": "I knew a boy from Frederick County who was on the USS Arizona when it was sunk during the Pearl Harbor attack. I found out shortly after the attack that he had been on board. The sinking was a terrible event that deeply affected our whole community.",
+    "implicit_text": "I knew a boy from the county who was on a battleship sunk during the surprise attack on the naval base in Hawaii. I found out shortly after the attack that he had been on board. The sinking was a terrible event that deeply affected our whole community.",
+    "cues": [
+      "boy from Frederick County",
+      "on USS Arizona",
+      "Pearl Harbor attack",
+      "sinking"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.00947.yaml"
+  },
+  {
+    "entity_id": 9,
+    "entity": "Germany",
+    "explicit_text": "During World War II, one of my classmates, Colin Haley, was a copilot whose plane went down over Germany. He was one of two boys from my class who were killed during the war. The war's reach was global, and Germany was a central battleground affecting many young men from my hometown.",
+    "implicit_text": "During World War II, one of my classmates, Colin Haley, was a copilot whose plane went down over a central European country. He was one of two boys from my class who were killed during the war. The war's reach was global, and that country was a central battleground affecting many young men from my hometown.",
+    "cues": [
+      "classmate Colin Haley",
+      "plane down over Germany",
+      "World War II casualties"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.00947.yaml"
+  },
+  {
+    "entity_id": 10,
+    "entity": "Kansas",
+    "explicit_text": "Another classmate, Paul Freese, was killed during boot camp training in a state that might have been Kansas or Iowa. His death was due to an accident during training, showing how dangerous even preparation for war could be. This happened during the early years of World War II.",
+    "implicit_text": "Another classmate, Paul Freese, was killed during boot camp training in a Midwestern state that might have been Kansas or Iowa. His death was due to an accident during training, showing how dangerous even preparation for war could be. This happened during the early years of World War II.",
+    "cues": [
+      "classmate Paul Freese",
+      "boot camp accident",
+      "Kansas or Iowa",
+      "World War II"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.00947.yaml"
+  },
+  {
+    "entity_id": 11,
+    "entity": "Iowa",
+    "explicit_text": "Paul Freese, a classmate of mine, died in boot camp due to an accident, and I believe it was either in Kansas or Iowa. The exact state is uncertain, but it was during his training for World War II. This loss was a reminder of the risks faced even before deployment.",
+    "implicit_text": "Paul Freese, a classmate of mine, died in boot camp due to an accident, and I believe it was either in Kansas or Iowa. The exact state is uncertain, but it was during his training for World War II. This loss was a reminder of the risks faced even before deployment.",
+    "cues": [
+      "classmate Paul Freese",
+      "boot camp accident",
+      "Kansas or Iowa",
+      "World War II"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.00947.yaml"
+  },
+  {
+    "entity_id": 12,
+    "entity": "American Viscose Company",
+    "explicit_text": "My husband worked at the American Viscose Company in Front Royal during the war. It was a war plant that made materials for parachutes, which was essential for the war effort. Because he worked there, he was initially exempt from the draft until his mother passed away.",
+    "implicit_text": "My husband worked at a manufacturing plant in a nearby town during the war. It was a war plant that made materials for parachutes, which was essential for the war effort. Because he worked there, he was initially exempt from the draft until his mother passed away.",
+    "cues": [
+      "husband's workplace",
+      "Front Royal",
+      "war plant",
+      "parachute materials",
+      "draft exemption"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.00947.yaml"
+  },
+  {
+    "entity_id": 13,
+    "entity": "Front Royal, Virginia",
+    "explicit_text": "My husband worked in Front Royal at the American Viscose Company, which was a war plant producing parachute materials during World War II. This town played a role in the war effort by supporting manufacturing. His job there kept him from being drafted until family circumstances changed.",
+    "implicit_text": "My husband worked in a town known for its war-related manufacturing during World War II. This town played a role in the war effort by supporting production of parachute materials. His job there kept him from being drafted until family circumstances changed.",
+    "cues": [
+      "husband's job",
+      "American Viscose Company",
+      "war plant",
+      "parachute production"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.00947.yaml"
+  },
+  {
+    "entity_id": 14,
+    "entity": "United States Navy",
+    "explicit_text": "After my husband received his draft papers, a Navy man encouraged him to join the Navy, and he accepted. Fortunately, the Japanese surrender happened before he had to go into active service. The Navy was one of the branches that many local men joined during the war.",
+    "implicit_text": "After my husband received his draft papers, a sailor encouraged him to join the naval service, and he accepted. Fortunately, the Japanese surrender happened before he had to go into active service. The naval branch was one of the military services that many local men joined during the war.",
+    "cues": [
+      "husband's draft",
+      "Navy recruitment",
+      "Japanese surrender",
+      "World War II"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.00947.yaml"
+  },
+  {
+    "entity_id": 15,
+    "entity": "Winchester Star",
+    "explicit_text": "The Winchester Star was our main newspaper, and it covered the Pearl Harbor attack extensively, including extra editions. We subscribed to it and I still have some of those papers saved. It was a vital source of news during the war, keeping the community informed of the latest developments.",
+    "implicit_text": "Our main local newspaper covered the attack on the naval base in Hawaii extensively, including extra editions. We subscribed to it and I still have some of those papers saved. It was a vital source of news during the war, keeping the community informed of the latest developments.",
+    "cues": [
+      "local newspaper",
+      "Pearl Harbor coverage",
+      "extra editions",
+      "wartime news"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.00947.yaml"
+  },
+  {
+    "entity_id": 16,
+    "entity": "World War II",
+    "explicit_text": "World War II changed life in Winchester and Frederick County drastically. Many boys from my class and community were drafted, and we lived with constant worry about their safety. The town had blackouts, rationing, air raid drills, and a prisoner of war camp, all reflecting the war's impact on daily life.",
+    "implicit_text": "The global conflict changed life in my hometown and county drastically. Many boys from my class and community were drafted, and we lived with constant worry about their safety. The town had blackouts, rationing, air raid drills, and a prisoner of war camp, all reflecting the war's impact on daily life.",
+    "cues": [
+      "drafting of boys",
+      "blackouts",
+      "rationing",
+      "POW camp",
+      "wartime changes"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.00947.yaml"
+  },
+  {
+    "entity_id": 17,
+    "entity": "United Service Organizations",
+    "explicit_text": "The USO in Winchester was located on Main Street and served as a place where soldiers on leave could come for entertainment and refreshments. Although I was married and couldn't go, many of my friends attended dances and social events there. It was an important morale booster for the servicemen during the war.",
+    "implicit_text": "The local branch of a national organization was located on the main street and served as a place where soldiers on leave could come for entertainment and refreshments. Although I was married and couldn't go, many of my friends attended dances and social events there. It was an important morale booster for the servicemen during the war.",
+    "cues": [
+      "USO location",
+      "Main Street",
+      "soldier entertainment",
+      "wartime morale"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.00947.yaml"
+  },
+  {
+    "entity_id": 18,
+    "entity": "Main Street (Winchester, Virginia)",
+    "explicit_text": "Main Street in Winchester was where the USO was located during the war, providing a place for soldiers to gather and enjoy dances and food. I also patrolled nearby streets like Main Street during blackout drills. It was a central part of town life during those challenging years.",
+    "implicit_text": "The main thoroughfare in the city was where the local service organization was located during the war, providing a place for soldiers to gather and enjoy dances and food. I also patrolled nearby streets like this one during blackout drills. It was a central part of town life during those challenging years.",
+    "cues": [
+      "location of USO",
+      "blackout patrols",
+      "wartime community"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.00947.yaml"
+  },
+  {
+    "entity_id": 19,
+    "entity": "Loudoun Street Historic District",
+    "explicit_text": "What was Main Street during the war is now known as Loudoun Street Historic District. I remember walking from Bond Street up to Gaunt's Drugstore along what is now Loudoun Street during blackout patrols. The area was an important part of the community's daily life during World War II.",
+    "implicit_text": "What was the main street during the war is now known by a different historic name. I remember walking from one street up to a well-known drugstore along this street during blackout patrols. The area was an important part of the community's daily life during World War II.",
+    "cues": [
+      "formerly Main Street",
+      "blackout patrol route",
+      "Gaunt's Drugstore",
+      "community center"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.00947.yaml"
+  },
+  {
+    "entity_id": 20,
+    "entity": "Gaunt's Drugstore",
+    "explicit_text": "Gaunt's Drugstore was a landmark on Main Street, now Loudoun Street, where I would pass during my air raid warden duties. It was part of the neighborhood I patrolled to ensure blackout compliance during the war. Places like Gaunt's were familiar sights in our daily lives then.",
+    "implicit_text": "A landmark drugstore on the main street, now known by its historic district name, was a place I would pass during my air raid warden duties. It was part of the neighborhood I patrolled to ensure blackout compliance during the war. Places like this were familiar sights in our daily lives then.",
+    "cues": [
+      "located on Main/Loudoun Street",
+      "blackout patrol",
+      "wartime community"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.00947.yaml"
+  },
+  {
+    "entity_id": 21,
+    "entity": "Sanitary Dairy",
+    "explicit_text": "Sanitary Dairy was another local business on the route I patrolled during blackout drills in Winchester. I had to make sure the area was dark and that residents complied with blackout rules. It was part of the neighborhood's wartime routine to keep the town safe.",
+    "implicit_text": "Another local business on the route I patrolled during blackout drills was a dairy known for its cleanliness. I had to make sure the area was dark and that residents complied with blackout rules. It was part of the neighborhood's wartime routine to keep the town safe.",
+    "cues": [
+      "local business",
+      "blackout patrol route",
+      "wartime safety measures"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.00947.yaml"
+  },
+  {
+    "entity_id": 22,
+    "entity": "Evening Star",
+    "explicit_text": "The Evening Star was the newspaper I worked with during the war, and my mother-in-law read it regularly. One night, after a shift at work, I came home not knowing about the Northern Lights being unusually bright until my mother-in-law mentioned it after seeing it in the Evening Star. The paper was an important source of local news and events.",
+    "implicit_text": "The newspaper I worked with during the war was read regularly by my mother-in-law. One night, after a shift at work, I came home not knowing about the Northern Lights being unusually bright until my mother-in-law mentioned it after seeing it in that paper. The publication was an important source of local news and events.",
+    "cues": [
+      "local newspaper",
+      "Northern Lights announcement",
+      "wartime news"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.00947.yaml"
+  },
+  {
+    "entity_id": 23,
+    "entity": "Victory garden",
+    "explicit_text": "During the war, everyone was encouraged to have a victory garden, and I had a small plot of land for growing vegetables. My family also got produce from the farm where my sisters lived. These gardens helped supplement food supplies during rationing and were a common effort in the community.",
+    "implicit_text": "During the war, everyone was encouraged to have a garden to support the war effort, and I had a small plot of land for growing vegetables. My family also got produce from the farm where my sisters lived. These gardens helped supplement food supplies during rationing and were a common effort in the community.",
+    "cues": [
+      "small garden plot",
+      "family farm produce",
+      "wartime food supplement",
+      "rationing"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.00947.yaml"
+  },
+  {
+    "entity_id": 24,
+    "entity": "Rheumatoid arthritis",
+    "explicit_text": "My brother had rheumatoid arthritis and was considered a cripple, but he was still able to drive a car. During the war, he helped bring prisoners of war from the camp to work on local farms. Despite his condition, he played an important role in supporting the agricultural efforts during the manpower shortage.",
+    "implicit_text": "My brother had a chronic joint disease and was considered disabled, but he was still able to drive a car. During the war, he helped bring prisoners of war from the camp to work on local farms. Despite his condition, he played an important role in supporting the agricultural efforts during the manpower shortage.",
+    "cues": [
+      "brother's condition",
+      "drove car",
+      "helped with POW transport",
+      "wartime farm labor"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.00947.yaml"
+  }
+]

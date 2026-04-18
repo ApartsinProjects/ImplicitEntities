@@ -1,0 +1,131 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "Taipei",
+    "explicit_text": "I was born in Taipei, Taiwan in 1996 before my family immigrated to New York City. Although I left Taipei at a young age, I have visited Taiwan every two years since I was 10 to see my mother's family. Each visit made me feel more like a tourist, as I became more distant from the language and culture of Taipei over time.",
+    "implicit_text": "I was born in the capital city of Taiwan in 1996 before my family immigrated to New York City. Although I left that city at a young age, I have visited the island every two years since I was 10 to see my mother's family. Each visit made me feel more like a tourist, as I became more distant from the language and culture of that city over time.",
+    "cues": [
+      "born 1996",
+      "visited every two years since age 10",
+      "mother's family",
+      "feeling like a tourist"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_226_kelly_wong.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "Taiwan",
+    "explicit_text": "Taiwan is where I was born and where my mother's family still lives. Growing up in New York City, I visited Taiwan regularly every couple of years since I was 10, but over time I felt more disconnected from its language and culture. Despite this distance, Taiwan remains an important part of my heritage and identity.",
+    "implicit_text": "The island where I was born is where my mother's family still lives. Growing up in New York City, I visited there regularly every couple of years since I was 10, but over time I felt more disconnected from its language and culture. Despite this distance, that place remains an important part of my heritage and identity.",
+    "cues": [
+      "born in Taiwan 1996",
+      "visited every two years since age 10",
+      "mother's family",
+      "cultural disconnection"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_226_kelly_wong.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "New York City",
+    "explicit_text": "My family immigrated to New York City when I was a child, and I grew up mainly in Brooklyn and Staten Island. Growing up in New York City exposed me to a diverse environment, although I often felt different from my mostly Caucasian friends. It was in New York City where I learned English for the first time when I started public school.",
+    "implicit_text": "My family immigrated to the largest city in the United States when I was a child, and I grew up mainly in two of its boroughs. Growing up there exposed me to a diverse environment, although I often felt different from my mostly Caucasian friends. It was in that city where I learned English for the first time when I started public school.",
+    "cues": [
+      "immigrated as a child",
+      "grew up in Brooklyn and Staten Island",
+      "diverse environment",
+      "learned English in public school"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_226_kelly_wong.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "Brooklyn",
+    "explicit_text": "I spent a significant part of my childhood growing up in Brooklyn, New York City. In Brooklyn, I had mostly Caucasian friends and often felt like the Asian one in the group, which made it hard to connect with them. This experience shaped how I viewed my cultural identity growing up in the United States.",
+    "implicit_text": "I spent a significant part of my childhood growing up in one of New York City's boroughs known for its cultural diversity. In that borough, I had mostly Caucasian friends and often felt like the Asian one in the group, which made it hard to connect with them. This experience shaped how I viewed my cultural identity growing up in the United States.",
+    "cues": [
+      "childhood in Brooklyn",
+      "mostly Caucasian friends",
+      "feeling like the Asian in the group",
+      "cultural identity"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_226_kelly_wong.yaml"
+  },
+  {
+    "entity_id": 5,
+    "entity": "Staten Island",
+    "explicit_text": "Alongside Brooklyn, Staten Island was another place where I grew up in New York City. Living in Staten Island contributed to my diverse upbringing in the United States. It was part of the environment where I balanced my family's Mandarin and Burmese languages with the English spoken outside.",
+    "implicit_text": "Alongside the other borough, this less densely populated part of New York City was another place where I grew up. Living there contributed to my diverse upbringing in the United States. It was part of the environment where I balanced my family's Mandarin and Burmese languages with the English spoken outside.",
+    "cues": [
+      "grew up in Staten Island",
+      "diverse upbringing",
+      "balancing Mandarin, Burmese, and English"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_226_kelly_wong.yaml"
+  },
+  {
+    "entity_id": 6,
+    "entity": "University of Minnesota",
+    "explicit_text": "After growing up in New York City, I went on to study at the University of Minnesota. Attending this university was an important step in my education and personal growth. It allowed me to further explore my identity and experiences as an immigrant in the United States.",
+    "implicit_text": "After growing up in New York City, I went on to study at a major public university in the Midwest. Attending this university was an important step in my education and personal growth. It allowed me to further explore my identity and experiences as an immigrant in the United States.",
+    "cues": [
+      "studied at University of Minnesota",
+      "post-New York education",
+      "personal growth",
+      "immigrant experience"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_226_kelly_wong.yaml"
+  },
+  {
+    "entity_id": 7,
+    "entity": "Mandarin Chinese",
+    "explicit_text": "Mandarin Chinese was the language my parents spoke to me and my brother at home when we lived in New York City. Although I started school without knowing any English, Mandarin was a key part of my early life and cultural connection. Over time, as I became more fluent in English, my Mandarin skills suffered, but my parents continued to speak it to us to keep the tradition alive.",
+    "implicit_text": "The primary Chinese dialect my parents spoke to me and my brother at home when we lived in New York City was the official language of mainland China and Taiwan. Although I started school without knowing any English, this language was a key part of my early life and cultural connection. Over time, as I became more fluent in English, my skills in this language suffered, but my parents continued to speak it to us to keep the tradition alive.",
+    "cues": [
+      "spoken at home by parents",
+      "early childhood language",
+      "lost fluency over time",
+      "cultural tradition"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_226_kelly_wong.yaml"
+  },
+  {
+    "entity_id": 8,
+    "entity": "Burmese language",
+    "explicit_text": "My parents also spoke Burmese to me and my brother at home, which helped us become trilingual alongside Mandarin and English. My mother used Burmese kinship terms like 'thami' for daughter and 'thatha' for son, which gave me a personal connection to our Burmese heritage. This language was a vital part of maintaining our family's cultural traditions despite living in the United States.",
+    "implicit_text": "My parents also spoke the language of my father's homeland to me and my brother at home, which helped us become trilingual alongside Mandarin and English. My mother used kinship terms from that language like 'thami' for daughter and 'thatha' for son, which gave me a personal connection to our heritage from that Southeast Asian country. This language was a vital part of maintaining our family's cultural traditions despite living in the United States.",
+    "cues": [
+      "spoken at home",
+      "trilingual upbringing",
+      "Burmese kinship terms",
+      "connection to heritage"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_226_kelly_wong.yaml"
+  },
+  {
+    "entity_id": 9,
+    "entity": "Burma",
+    "explicit_text": "Burma is where my father comes from, and it is part of my family's cultural background. Although I grew up in New York City, my parents' experiences in Burma and Taiwan shaped how they raised me and my brother. The Burmese language and traditions they passed down helped me maintain a connection to Burma despite living far away.",
+    "implicit_text": "The Southeast Asian country where my father comes from is part of my family's cultural background. Although I grew up in New York City, my parents' experiences in that country and Taiwan shaped how they raised me and my brother. The language and traditions they passed down helped me maintain a connection to that country despite living far away.",
+    "cues": [
+      "father's origin",
+      "family cultural background",
+      "parents' experiences",
+      "language and traditions"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_226_kelly_wong.yaml"
+  },
+  {
+    "entity_id": 10,
+    "entity": "United States",
+    "explicit_text": "The United States is where my family immigrated to from Taiwan when I was a child, and where I grew up in New York City. Living here exposed me to a diverse culture and allowed me to learn English, which became my dominant language. Although I sometimes felt caught between cultures, I am grateful for the opportunities and experiences the United States has given me.",
+    "implicit_text": "The country where my family immigrated to from Taiwan when I was a child is where I grew up in New York City. Living here exposed me to a diverse culture and allowed me to learn English, which became my dominant language. Although I sometimes felt caught between cultures, I am grateful for the opportunities and experiences this country has given me.",
+    "cues": [
+      "immigrated as a child",
+      "grew up in New York City",
+      "learned English",
+      "cultural diversity and opportunity"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_226_kelly_wong.yaml"
+  }
+]

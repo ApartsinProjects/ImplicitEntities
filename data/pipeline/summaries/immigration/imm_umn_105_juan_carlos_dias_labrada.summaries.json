@@ -1,0 +1,30 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "Cuba",
+    "summary": "I grew up in Cuba, where life was very hard due to low salaries and scarcity of basic goods like rice and cooking oil. The government controlled everything, and there was no freedom of expression or opportunity to own a business. Despite my good childhood thanks to my parents, I felt trapped by the lack of respect and the constant struggle for survival. I left Cuba seeking freedom and a better life, but it was painful to be separated from my elderly parents who were initially denied visas to leave. Cuba represents a place of hardship and limited opportunities in my story.",
+    "cues": [
+      "low salaries",
+      "scarcity of food",
+      "no freedom of expression",
+      "government control",
+      "parents denied visa",
+      "survival"
+    ],
+    "transcript_ref": "immigration\\imm_umn_105_juan_carlos_dias_labrada.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "United States",
+    "summary": "Coming to the United States was one of the happiest days of my life because it meant freedom of expression and fair pay. I remember the nervousness during my visa interview and the joy when it was approved, even though my parents were initially denied because of their age. The respect and kindness I experienced here, like people greeting each other and opening doors, was something I had never seen in Cuba. Eventually, my parents were allowed to join me here, and they lived their final years happily in this country. To me, the United States is the place where the American dream of peace and fair work became real.",
+    "cues": [
+      "visa interview",
+      "freedom of expression",
+      "fair pay",
+      "respectful people",
+      "parents joined later",
+      "American dream"
+    ],
+    "transcript_ref": "immigration\\imm_umn_105_juan_carlos_dias_labrada.yaml"
+  }
+]

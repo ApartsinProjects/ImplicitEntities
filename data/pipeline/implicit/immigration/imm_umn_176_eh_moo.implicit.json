@@ -1,0 +1,114 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "United Nations",
+    "explicit_text": "The United Nations played a crucial role in helping my family and many other refugees in Thailand to resettle in the United States. In 2013, my family applied through the UN for this opportunity, and after a long waiting period, we were accepted. The UN coordinated our interviews, medical checks, and final approval before we could travel to America. Their support was essential throughout the entire process.",
+    "implicit_text": "An international organization played a crucial role in helping my family and many other refugees in Thailand to resettle in the United States. In 2013, my family applied through this global body for this opportunity, and after a long waiting period, we were accepted. This organization coordinated our interviews, medical checks, and final approval before we could travel to America. Their support was essential throughout the entire process.",
+    "cues": [
+      "2013",
+      "Thailand",
+      "refugee resettlement",
+      "interviews",
+      "medical checks"
+    ],
+    "transcript_ref": "immigration\\imm_umn_176_eh_moo.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "Thailand",
+    "explicit_text": "Thailand was where my family lived in a refugee camp before we moved to the United States. We applied for resettlement through the United Nations while we were there, and had to travel within Thailand to places like Mae Sot for medical checks. Living in Thailand as refugees was difficult, but it was the starting point of our journey to a new life in America.",
+    "implicit_text": "The country in Southeast Asia was where my family lived in a refugee camp before we moved to the United States. We applied for resettlement through an international organization while we were there, and had to travel within this country to places like Mae Sot for medical checks. Living there as refugees was difficult, but it was the starting point of our journey to a new life in America.",
+    "cues": [
+      "refugee camp",
+      "2013",
+      "Mae Sot",
+      "United Nations",
+      "resettlement"
+    ],
+    "transcript_ref": "immigration\\imm_umn_176_eh_moo.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "Mae Sot",
+    "explicit_text": "Mae Sot is a town in Thailand where my family had to go for a medical check before we could leave for the United States. We traveled there by truck from our refugee camp, which was a long and tiring journey for us. We stayed in Mae Sot for about a week to complete all the health screenings, including tests for diseases like tuberculosis. It was an important step in our resettlement process.",
+    "implicit_text": "A border town in the Southeast Asian country is where my family had to go for a medical check before we could leave for the United States. We traveled there by truck from our refugee camp, which was a long and tiring journey for us. We stayed in this town for about a week to complete all the health screenings, including tests for diseases like tuberculosis. It was an important step in our resettlement process.",
+    "cues": [
+      "Thailand",
+      "medical check",
+      "one week",
+      "tuberculosis screening",
+      "refugee camp"
+    ],
+    "transcript_ref": "immigration\\imm_umn_176_eh_moo.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "Tuberculosis",
+    "explicit_text": "Tuberculosis was one of the diseases they tested for during our medical check in Mae Sot before we could go to America. If anyone had TB or other serious illnesses like cancer or heart disease, they would have had to stay longer for follow-up treatment. Thankfully, my family passed the health tests without any problems, so we were able to continue our journey.",
+    "implicit_text": "One of the diseases tested for during our medical check in the border town before we could go to America was a serious lung infection. If anyone had this or other serious illnesses like cancer or heart disease, they would have had to stay longer for follow-up treatment. Thankfully, my family passed the health tests without any problems, so we were able to continue our journey.",
+    "cues": [
+      "medical check",
+      "Mae Sot",
+      "disease screening",
+      "health test",
+      "refugee resettlement"
+    ],
+    "transcript_ref": "immigration\\imm_umn_176_eh_moo.yaml"
+  },
+  {
+    "entity_id": 5,
+    "entity": "International Organization for Migration",
+    "explicit_text": "Before leaving Thailand, people from the International Organization for Migration gave my family special IOM bags to carry with us on our trip to America. They explained that the bags would help identify us as refugees and assist us if we got lost during our travels. The IOM staff also helped guide us through the airports and flights, making the journey smoother and less confusing.",
+    "implicit_text": "Before leaving the Southeast Asian country, people from an international migration agency gave my family special bags to carry with us on our trip to America. They explained that the bags would help identify us as refugees and assist us if we got lost during our travels. The staff from this agency also helped guide us through the airports and flights, making the journey smoother and less confusing.",
+    "cues": [
+      "IOM bag",
+      "refugee identification",
+      "travel assistance",
+      "Thailand to America",
+      "2013"
+    ],
+    "transcript_ref": "immigration\\imm_umn_176_eh_moo.yaml"
+  },
+  {
+    "entity_id": 6,
+    "entity": "Japan",
+    "explicit_text": "Japan was one of the stops on our long journey from Thailand to the United States. After flying from Mae Sot, we landed in Japan and stayed there overnight before continuing our trip. It was the first time I had traveled so far, and staying in Japan was a brief but important part of our route to America.",
+    "implicit_text": "An East Asian island nation was one of the stops on our long journey from the Southeast Asian country to the United States. After flying from the border town, we landed there and stayed overnight before continuing our trip. It was the first time I had traveled so far, and staying in this country was a brief but important part of our route to America.",
+    "cues": [
+      "2013",
+      "flight stopover",
+      "overnight stay",
+      "Mae Sot to New York",
+      "travel"
+    ],
+    "transcript_ref": "immigration\\imm_umn_176_eh_moo.yaml"
+  },
+  {
+    "entity_id": 7,
+    "entity": "New York City",
+    "explicit_text": "New York City was another stop on our way to Minnesota when we came to the United States. We arrived there after flying from Japan and stayed in a hotel for one night. The next morning, we took our final flight to Minnesota. It was a busy and tiring trip, but New York was an important part of our arrival in America.",
+    "implicit_text": "A major metropolitan city on the East Coast was another stop on our way to the Midwest when we came to the United States. We arrived there after flying from the East Asian country and stayed in a hotel for one night. The next morning, we took our final flight to our new home state. It was a busy and tiring trip, but this city was an important part of our arrival in America.",
+    "cues": [
+      "2013",
+      "flight stopover",
+      "hotel stay",
+      "Japan to Minnesota",
+      "arrival in USA"
+    ],
+    "transcript_ref": "immigration\\imm_umn_176_eh_moo.yaml"
+  },
+  {
+    "entity_id": 8,
+    "entity": "Minnesota",
+    "explicit_text": "Minnesota is where my family finally arrived and started our new life in America on August 22, 2013. After a long journey with three flights, we landed there feeling dizzy and tired, but hopeful. A social worker met us at the airport and helped us get to our new home. Minnesota became the place where our family began to settle and adjust to life in the United States.",
+    "implicit_text": "A northern U.S. state is where my family finally arrived and started our new life in America on August 22, 2013. After a long journey with three flights, we landed there feeling dizzy and tired, but hopeful. A social worker met us at the airport and helped us get to our new home. This state became the place where our family began to settle and adjust to life in the United States.",
+    "cues": [
+      "August 22, 2013",
+      "final destination",
+      "social worker",
+      "new home",
+      "refugee resettlement"
+    ],
+    "transcript_ref": "immigration\\imm_umn_176_eh_moo.yaml"
+  }
+]

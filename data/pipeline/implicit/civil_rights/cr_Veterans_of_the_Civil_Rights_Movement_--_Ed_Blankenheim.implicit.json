@@ -1,0 +1,283 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "Freedom Riders",
+    "explicit_text": "I joined the Freedom Riders in 1961 after answering the call of Jim Farmer. We traveled from Tucson, Arizona, into the South to challenge segregation, but faced violent opposition in Alabama, especially near Anniston. The experience was harrowing, with mobs attacking our bus and trying to prevent our movement. Despite the dangers, the Freedom Rides were pivotal in breaking segregation in bus stations across the South.",
+    "implicit_text": "I joined the group of civil rights activists in 1961 after answering the call of the national director of a major civil rights organization. We traveled from a southwestern city into the South to challenge segregation, but faced violent opposition in a southern state, especially near a small city known for a brutal attack. The experience was harrowing, with mobs attacking our bus and trying to prevent our movement. Despite the dangers, these rides were pivotal in breaking segregation in bus stations across the South.",
+    "cues": [
+      "1961",
+      "Tucson, Arizona",
+      "Alabama",
+      "Anniston",
+      "Jim Farmer",
+      "bus station integration"
+    ],
+    "transcript_ref": "civil_rights\\cr_Veterans_of_the_Civil_Rights_Movement_--_Ed_Blankenheim.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "Tucson, Arizona",
+    "explicit_text": "I was attending school in Tucson, Arizona when I decided to join the Freedom Rides. It was from there that I answered Jim Farmer's call to take part in the civil rights movement. Tucson was my starting point before heading into the Deep South for the rides.",
+    "implicit_text": "I was attending school in a southwestern desert city when I decided to join the civil rights bus rides. It was from there that I answered the call to take part in the movement. That city was my starting point before heading into the Deep South for the rides.",
+    "cues": [
+      "1961",
+      "school",
+      "Jim Farmer",
+      "Freedom Rides"
+    ],
+    "transcript_ref": "civil_rights\\cr_Veterans_of_the_Civil_Rights_Movement_--_Ed_Blankenheim.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "Jim Farmer",
+    "explicit_text": "Jim Farmer was the national director of the Congress of Racial Equality and the one who called me to join the Freedom Rides on Mother's Day, 1961. He was a key figure in organizing the rides and later helped lead efforts to fill jails in Jackson, Mississippi, to break segregation. His leadership was instrumental in the success of the movement.",
+    "implicit_text": "The national director of a prominent civil rights group was the one who called me to join the bus rides on Mother's Day, 1961. He was a key figure in organizing the rides and later helped lead efforts to fill jails in a Mississippi city to break segregation. His leadership was instrumental in the success of the movement.",
+    "cues": [
+      "Mother's Day 1961",
+      "Congress of Racial Equality",
+      "Freedom Rides",
+      "Jackson, Mississippi"
+    ],
+    "transcript_ref": "civil_rights\\cr_Veterans_of_the_Civil_Rights_Movement_--_Ed_Blankenheim.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "Alabama",
+    "explicit_text": "Alabama was where our Freedom Ride turned violent and dangerous. Outside Anniston, Alabama, a mob surrounded our bus, set it on fire, and attacked us when we escaped. The police were unhelpful, and the hospital there refused to treat black riders properly. Alabama was a harsh reminder of the entrenched racism we were fighting.",
+    "implicit_text": "This southern state was where our civil rights bus ride turned violent and dangerous. Outside a small city there, a mob surrounded our bus, set it on fire, and attacked us when we escaped. The police were unhelpful, and the hospital there refused to treat black riders properly. That state was a harsh reminder of the entrenched racism we were fighting.",
+    "cues": [
+      "1961",
+      "Anniston",
+      "bus fire",
+      "mob violence",
+      "hospital refusal"
+    ],
+    "transcript_ref": "civil_rights\\cr_Veterans_of_the_Civil_Rights_Movement_--_Ed_Blankenheim.yaml"
+  },
+  {
+    "entity_id": 5,
+    "entity": "Anniston, Alabama",
+    "explicit_text": "Anniston, Alabama was the site of one of the most violent moments of the Freedom Rides. Our bus was firebombed there, and the mob held the doors shut trying to trap us inside. After the bus exploded, we were beaten badly, and the hospital was surrounded by a mob demanding we be handed over. It was a terrifying experience that showed the brutal resistance to desegregation.",
+    "implicit_text": "This small city in the South was the site of one of the most violent moments of the bus rides. Our bus was firebombed there, and the mob held the doors shut trying to trap us inside. After the bus exploded, we were beaten badly, and the hospital was surrounded by a mob demanding we be handed over. It was a terrifying experience that showed the brutal resistance to desegregation.",
+    "cues": [
+      "1961",
+      "bus firebombing",
+      "mob attack",
+      "hospital siege"
+    ],
+    "transcript_ref": "civil_rights\\cr_Veterans_of_the_Civil_Rights_Movement_--_Ed_Blankenheim.yaml"
+  },
+  {
+    "entity_id": 6,
+    "entity": "Hank Thomas",
+    "explicit_text": "Hank Thomas was one of the Freedom Riders on the bus in Anniston, Alabama. When the gas tank exploded, he bravely forced open the bus door, allowing us to escape the fire. His quick action saved lives during that terrifying attack.",
+    "implicit_text": "One of the riders on the bus during the firebombing bravely forced open the bus door when the gas tank exploded, allowing us to escape the fire. His quick action saved lives during that terrifying attack.",
+    "cues": [
+      "1961",
+      "Anniston bus fire",
+      "Freedom Rider",
+      "escape"
+    ],
+    "transcript_ref": "civil_rights\\cr_Veterans_of_the_Civil_Rights_Movement_--_Ed_Blankenheim.yaml"
+  },
+  {
+    "entity_id": 7,
+    "entity": "Genevieve Hughes",
+    "explicit_text": "Genevieve Hughes was one of the first Freedom Riders hospitalized after the Anniston bus attack because she and I had weak lungs. We faced discrimination even in the hospital since black patients were often not admitted properly in Alabama. Despite this, we stood firm and joined the others in the emergency room to receive care.",
+    "implicit_text": "One of the first riders hospitalized after the bus attack was a woman who, like me, had weak lungs. We faced discrimination even in the hospital since black patients were often not admitted properly in that southern state. Despite this, we stood firm and joined the others in the emergency room to receive care.",
+    "cues": [
+      "1961",
+      "Anniston hospital",
+      "Freedom Rider",
+      "racial discrimination"
+    ],
+    "transcript_ref": "civil_rights\\cr_Veterans_of_the_Civil_Rights_Movement_--_Ed_Blankenheim.yaml"
+  },
+  {
+    "entity_id": 8,
+    "entity": "Reverend Fred Shuttlesworth",
+    "explicit_text": "Reverend Fred Shuttlesworth from Birmingham was a crucial ally during the Freedom Rides. When we were trapped and threatened by mobs, he sent cars to rescue us from the hospital parking lot. We hid in houses in Birmingham under his protection before continuing our journey.",
+    "implicit_text": "A reverend from a major southern city was a crucial ally during the bus rides. When we were trapped and threatened by mobs, he sent cars to rescue us from the hospital parking lot. We hid in houses in that city under his protection before continuing our journey.",
+    "cues": [
+      "1961",
+      "Birmingham",
+      "Freedom Rides",
+      "mob threats",
+      "rescue"
+    ],
+    "transcript_ref": "civil_rights\\cr_Veterans_of_the_Civil_Rights_Movement_--_Ed_Blankenheim.yaml"
+  },
+  {
+    "entity_id": 9,
+    "entity": "Birmingham, Alabama",
+    "explicit_text": "Birmingham was a refuge for us after the violent attack in Anniston. We were hidden in houses there under the protection of Reverend Fred Shuttlesworth. From Birmingham, we tried to continue the Freedom Ride but faced further resistance from bus drivers refusing to transport us.",
+    "implicit_text": "This major southern city was a refuge for us after the violent attack in the smaller city nearby. We were hidden in houses there under the protection of a local reverend. From there, we tried to continue the bus ride but faced further resistance from bus drivers refusing to transport us.",
+    "cues": [
+      "1961",
+      "Reverend Fred Shuttlesworth",
+      "Freedom Rides",
+      "mob violence"
+    ],
+    "transcript_ref": "civil_rights\\cr_Veterans_of_the_Civil_Rights_Movement_--_Ed_Blankenheim.yaml"
+  },
+  {
+    "entity_id": 10,
+    "entity": "Montgomery, Alabama",
+    "explicit_text": "Montgomery was supposed to be our next stop on the Freedom Ride after Birmingham, but we couldn't get there by bus or plane. Threats of violence and bombings kept us from arriving safely. It was a frustrating barrier in our efforts to desegregate the South.",
+    "implicit_text": "This state capital was supposed to be our next stop on the bus ride after the major southern city, but we couldn't get there by bus or plane. Threats of violence and bombings kept us from arriving safely. It was a frustrating barrier in our efforts to desegregate the South.",
+    "cues": [
+      "1961",
+      "Freedom Rides",
+      "bus and plane threats",
+      "Alabama"
+    ],
+    "transcript_ref": "civil_rights\\cr_Veterans_of_the_Civil_Rights_Movement_--_Ed_Blankenheim.yaml"
+  },
+  {
+    "entity_id": 11,
+    "entity": "Robert F. Kennedy",
+    "explicit_text": "Robert F. Kennedy played a key role during the Freedom Rides by sending federal marshals to ensure our safety. When we were threatened with a bomb scare on a United Airlines flight, he sent officials to search the plane and even required the Assistant Attorney General to fly with us. His intervention was crucial in allowing us to continue our journey.",
+    "implicit_text": "A prominent U.S. Attorney General played a key role during the bus rides by sending federal marshals to ensure our safety. When we were threatened with a bomb scare on a commercial flight, he sent officials to search the plane and even required the Assistant Attorney General to fly with us. His intervention was crucial in allowing us to continue our journey.",
+    "cues": [
+      "1961",
+      "Freedom Rides",
+      "United Airlines",
+      "federal protection"
+    ],
+    "transcript_ref": "civil_rights\\cr_Veterans_of_the_Civil_Rights_Movement_--_Ed_Blankenheim.yaml"
+  },
+  {
+    "entity_id": 12,
+    "entity": "United Airlines",
+    "explicit_text": "United Airlines was the airline we tried to use to get from Birmingham to Montgomery during the Freedom Rides. There was a bomb threat against our flight, which led to a federal search of the plane. With the Assistant Attorney General on board to prove there was no bomb, we were finally allowed to fly safely.",
+    "implicit_text": "The airline we tried to use to get from the major southern city to the state capital during the bus rides faced a bomb threat against our flight, which led to a federal search of the plane. With the Assistant Attorney General on board to prove there was no bomb, we were finally allowed to fly safely.",
+    "cues": [
+      "1961",
+      "Freedom Rides",
+      "bomb threat",
+      "federal search"
+    ],
+    "transcript_ref": "civil_rights\\cr_Veterans_of_the_Civil_Rights_Movement_--_Ed_Blankenheim.yaml"
+  },
+  {
+    "entity_id": 13,
+    "entity": "New Orleans",
+    "explicit_text": "After being blocked from reaching Montgomery, we were flown to New Orleans where a huge rally was held in support of the Freedom Rides. Many thought this was the end of the rides, but the spirit of CORE and SNCC kept the movement alive. New Orleans was an important gathering point for civil rights activism.",
+    "implicit_text": "After being blocked from reaching the state capital, we were flown to a Louisiana city where a huge rally was held in support of the bus rides. Many thought this was the end of the rides, but the spirit of two major civil rights organizations kept the movement alive. That city was an important gathering point for civil rights activism.",
+    "cues": [
+      "1961",
+      "Freedom Rides",
+      "rally",
+      "CORE",
+      "SNCC"
+    ],
+    "transcript_ref": "civil_rights\\cr_Veterans_of_the_Civil_Rights_Movement_--_Ed_Blankenheim.yaml"
+  },
+  {
+    "entity_id": 14,
+    "entity": "Congress of Racial Equality",
+    "explicit_text": "The Congress of Racial Equality, or CORE, was the organization behind the Freedom Rides, led by Jim Farmer. CORE's spirit and determination helped keep the rides going even after violent attacks. Their efforts, alongside SNCC, were vital in breaking segregation in the South.",
+    "implicit_text": "The civil rights organization led by the national director was behind the bus rides. Their spirit and determination helped keep the rides going even after violent attacks. Their efforts, alongside a student-led group, were vital in breaking segregation in the South.",
+    "cues": [
+      "1961",
+      "Freedom Rides",
+      "Jim Farmer",
+      "civil rights activism"
+    ],
+    "transcript_ref": "civil_rights\\cr_Veterans_of_the_Civil_Rights_Movement_--_Ed_Blankenheim.yaml"
+  },
+  {
+    "entity_id": 15,
+    "entity": "Student Nonviolent Coordinating Committee",
+    "explicit_text": "The Student Nonviolent Coordinating Committee, or SNCC, worked alongside CORE during the Freedom Rides. Students from Southern colleges joined the movement, helping to fill jails in Jackson, Mississippi, which was a key tactic to break segregation. SNCC's involvement energized the civil rights struggle.",
+    "implicit_text": "The student-led civil rights committee worked alongside the other major organization during the bus rides. Students from Southern colleges joined the movement, helping to fill jails in a Mississippi city, which was a key tactic to break segregation. Their involvement energized the civil rights struggle.",
+    "cues": [
+      "1961",
+      "Freedom Rides",
+      "Jackson, Mississippi",
+      "civil rights activism"
+    ],
+    "transcript_ref": "civil_rights\\cr_Veterans_of_the_Civil_Rights_Movement_--_Ed_Blankenheim.yaml"
+  },
+  {
+    "entity_id": 16,
+    "entity": "Jackson, Mississippi",
+    "explicit_text": "Jackson, Mississippi was a critical battleground in the civil rights movement where CORE and SNCC activists filled the jails to challenge segregation. This tactic helped break the back of segregation in Mississippi bus stations. It was a tough but pivotal part of the Freedom Rides.",
+    "implicit_text": "This Mississippi city was a critical battleground in the civil rights movement where activists from two major groups filled the jails to challenge segregation. This tactic helped break the back of segregation in bus stations there. It was a tough but pivotal part of the bus rides.",
+    "cues": [
+      "1961",
+      "Freedom Rides",
+      "CORE",
+      "SNCC",
+      "jail protests"
+    ],
+    "transcript_ref": "civil_rights\\cr_Veterans_of_the_Civil_Rights_Movement_--_Ed_Blankenheim.yaml"
+  },
+  {
+    "entity_id": 17,
+    "entity": "Molokai",
+    "explicit_text": "Later in life, I became involved in civil rights issues in Hawaii, particularly concerning Molokai. Molokai is home to a colony of people with Hansen's disease, who were fighting against being forcibly relocated. Their struggle, inspired by Martin Luther King Jr.'s writings, lasted nearly a decade and ended in a victory with land and housing.",
+    "implicit_text": "Later in life, I became involved in civil rights issues in Hawaii, particularly concerning an island known for a colony of people with a stigmatized disease. They were fighting against being forcibly relocated. Their struggle, inspired by a famous civil rights leader's writings, lasted nearly a decade and ended in a victory with land and housing.",
+    "cues": [
+      "Hawaii",
+      "Hansen's disease",
+      "civil rights",
+      "Martin Luther King Jr.",
+      "court battle"
+    ],
+    "transcript_ref": "civil_rights\\cr_Veterans_of_the_Civil_Rights_Movement_--_Ed_Blankenheim.yaml"
+  },
+  {
+    "entity_id": 18,
+    "entity": "Hansen's disease",
+    "explicit_text": "Hansen's disease, formerly called leprosy, affected a community on Molokai that I worked with. The state tried to relocate these people, but they resisted, inspired by civil rights literature. Their fight for dignity and housing was a long legal battle that ended successfully about three years ago.",
+    "implicit_text": "The disease formerly called leprosy affected a community on that Hawaiian island that I worked with. The state tried to relocate these people, but they resisted, inspired by civil rights literature. Their fight for dignity and housing was a long legal battle that ended successfully about three years ago.",
+    "cues": [
+      "Molokai",
+      "civil rights",
+      "legal battle",
+      "housing victory"
+    ],
+    "transcript_ref": "civil_rights\\cr_Veterans_of_the_Civil_Rights_Movement_--_Ed_Blankenheim.yaml"
+  },
+  {
+    "entity_id": 19,
+    "entity": "Martin Luther King Jr.",
+    "explicit_text": "Martin Luther King Jr.'s writings inspired many civil rights struggles, including the fight of Hansen's disease victims on Molokai. His message gave them the courage to resist forced relocation and fight for their rights. King's influence extended beyond the South into other marginalized communities.",
+    "implicit_text": "The writings of a prominent civil rights leader inspired many struggles, including the fight of those affected by the stigmatized disease on the Hawaiian island. His message gave them the courage to resist forced relocation and fight for their rights. His influence extended beyond the South into other marginalized communities.",
+    "cues": [
+      "civil rights",
+      "Molokai",
+      "Hansen's disease",
+      "inspiration"
+    ],
+    "transcript_ref": "civil_rights\\cr_Veterans_of_the_Civil_Rights_Movement_--_Ed_Blankenheim.yaml"
+  },
+  {
+    "entity_id": 20,
+    "entity": "United States Marine Corps",
+    "explicit_text": "I joined the United States Marine Corps when I was 16 and learned that the armed forces were integrated, which contrasted sharply with civilian segregation. An incident in North Carolina where a bus driver ordered black Marines to the back of the bus stayed with me for years. This experience motivated me to join the Freedom Rides to fight segregation.",
+    "implicit_text": "I joined the U.S. armed forces at 16 and learned that the military was integrated, which contrasted sharply with civilian segregation. An incident in a southern state where a bus driver ordered black Marines to the back of the bus stayed with me for years. This experience motivated me to join the civil rights bus rides to fight segregation.",
+    "cues": [
+      "Marine Corps",
+      "integration",
+      "North Carolina",
+      "bus segregation",
+      "civil rights motivation"
+    ],
+    "transcript_ref": "civil_rights\\cr_Veterans_of_the_Civil_Rights_Movement_--_Ed_Blankenheim.yaml"
+  },
+  {
+    "entity_id": 21,
+    "entity": "North Carolina",
+    "explicit_text": "While stationed in North Carolina with the Marine Corps, I witnessed blatant segregation when a bus driver forced black Marines to the back of the bus. This incident was a stark example of the racial discrimination outside the military and stayed with me for years. It was part of what motivated me to join the Freedom Rides later on.",
+    "implicit_text": "While stationed in a southern state with the military, I witnessed blatant segregation when a bus driver forced black Marines to the back of the bus. This incident was a stark example of the racial discrimination outside the military and stayed with me for years. It was part of what motivated me to join the civil rights bus rides later on.",
+    "cues": [
+      "Marine Corps",
+      "bus segregation",
+      "racial discrimination",
+      "civil rights motivation"
+    ],
+    "transcript_ref": "civil_rights\\cr_Veterans_of_the_Civil_Rights_Movement_--_Ed_Blankenheim.yaml"
+  }
+]

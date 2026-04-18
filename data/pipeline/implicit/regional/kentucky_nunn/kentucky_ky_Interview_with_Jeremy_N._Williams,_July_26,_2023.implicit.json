@@ -1,0 +1,214 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "Robin Williams",
+    "explicit_text": "My wife, Robin Williams, is an educator who has been very supportive of my passion for history. She shares a personal connection to the coal mining heritage of Benham, Kentucky, through her family. Her father, Frank Orick, worked in the Benham mines during the early to mid-1980s. Robin and our daughter Ava often accompany me as I explore and tell stories about the region.",
+    "implicit_text": "My wife is an educator who has been very supportive of my passion for history. She shares a personal connection to the coal mining heritage of a small town in Kentucky through her family. Her father worked in the mines there during the early to mid-1980s. She and our daughter often accompany me as I explore and tell stories about the region.",
+    "cues": [
+      "educator",
+      "Benham, Kentucky",
+      "early to mid-1980s",
+      "coal mining family",
+      "daughter Ava"
+    ],
+    "transcript_ref": "regional\\kentucky_nunn\\kentucky_ky_Interview_with_Jeremy_N._Williams,_July_26,_2023.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "Benham, Kentucky",
+    "explicit_text": "Benham, Kentucky, is a town deeply connected to coal mining and steel production history. The town grew around the coal mines, which were owned by companies like International Harvester and later Wisconsin Steel. The mines and the town experienced significant changes in the 1970s and 1980s, including layoffs and the eventual closing of the mines. Benham's history is intertwined with the steel industry's rise and decline, and I have spent a lot of time learning and sharing stories about this place.",
+    "implicit_text": "This Kentucky town is deeply connected to coal mining and steel production history. It grew around the coal mines, which were owned by companies like a major farm machinery manufacturer and later a steel company from Wisconsin. The mines and the town experienced significant changes in the 1970s and 1980s, including layoffs and the eventual closing of the mines. Its history is intertwined with the steel industry's rise and decline, and I have spent a lot of time learning and sharing stories about this place.",
+    "cues": [
+      "coal mining",
+      "steel production",
+      "1970s and 1980s",
+      "International Harvester",
+      "layoffs",
+      "town incorporation"
+    ],
+    "transcript_ref": "regional\\kentucky_nunn\\kentucky_ky_Interview_with_Jeremy_N._Williams,_July_26,_2023.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "Frank Orick",
+    "explicit_text": "Frank Orick is my father-in-law who worked in the Benham coal mines during the early to mid-1980s. He was involved with engineering tasks such as setting spads underground. His work at the mines connects my family personally to the coal mining history of Benham. Frank's experience reflects the mining operations during a time of transition and decline in the industry.",
+    "implicit_text": "My father-in-law worked in the coal mines of that Kentucky town during the early to mid-1980s. He was involved with engineering tasks such as setting spads underground. His work at the mines connects my family personally to the coal mining history of that area. His experience reflects the mining operations during a time of transition and decline in the industry.",
+    "cues": [
+      "early to mid-1980s",
+      "Benham coal mines",
+      "engineering",
+      "setting spads",
+      "family connection"
+    ],
+    "transcript_ref": "regional\\kentucky_nunn\\kentucky_ky_Interview_with_Jeremy_N._Williams,_July_26,_2023.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "International Harvester",
+    "explicit_text": "International Harvester was a major company involved in farm machinery, steel production, and even automobiles like the Scout. From the 1910s through the 1960s, they were highly profitable, but starting in the 1960s and 1970s, they faced stiff competition and financial troubles. Their steel mills, including those connected to Benham, were outdated and unprofitable, which contributed to layoffs and the eventual sale of assets. International Harvester's decline had a direct impact on the coal mines and steel mills in Benham.",
+    "implicit_text": "This major company was involved in farm machinery, steel production, and even automobiles like one of the original SUVs. From the 1910s through the 1960s, they were highly profitable, but starting in the 1960s and 1970s, they faced stiff competition and financial troubles. Their steel mills, including those connected to the Kentucky mining town, were outdated and unprofitable, which contributed to layoffs and the eventual sale of assets. The company's decline had a direct impact on the coal mines and steel mills in that town.",
+    "cues": [
+      "1910s to 1960s",
+      "farm machinery",
+      "Scout automobile",
+      "steel mills",
+      "1970s financial troubles",
+      "Benham mines"
+    ],
+    "transcript_ref": "regional\\kentucky_nunn\\kentucky_ky_Interview_with_Jeremy_N._Williams,_July_26,_2023.yaml"
+  },
+  {
+    "entity_id": 5,
+    "entity": "Wisconsin Steel",
+    "explicit_text": "Wisconsin Steel was the steel mill company that oversaw the steel production connected to Benham's coal mines. In 1977, International Harvester sold Wisconsin Steel to Envirodyne, a California company without steel-making experience. This sale included the steel mills and the coal mines in Benham. Wisconsin Steel's decline and the sale marked a turning point in the region's industrial history.",
+    "implicit_text": "This steel mill company oversaw the steel production connected to the coal mines in the Kentucky town. In 1977, the major farm machinery and steel producer sold this company to a California firm without steel-making experience. This sale included the steel mills and the coal mines in the town. The steel company's decline and the sale marked a turning point in the region's industrial history.",
+    "cues": [
+      "steel mill",
+      "Benham coal mines",
+      "1977 sale",
+      "Envirodyne",
+      "International Harvester"
+    ],
+    "transcript_ref": "regional\\kentucky_nunn\\kentucky_ky_Interview_with_Jeremy_N._Williams,_July_26,_2023.yaml"
+  },
+  {
+    "entity_id": 6,
+    "entity": "Envirodyne",
+    "explicit_text": "Envirodyne was a California-based company that purchased Wisconsin Steel, including the Benham mines, from International Harvester in 1977. Despite plans to upgrade the steel mills, Envirodyne lacked steel-making experience and never fully modernized the facilities. They initially improved operations but struggled with payments, leading International Harvester to foreclose and regain control around 1980 or 1981. Envirodyne's tenure marked a period of instability and layoffs in Benham's mining operations.",
+    "implicit_text": "This California-based company purchased the Wisconsin steel mill and the Kentucky mines from the major farm machinery and steel producer in 1977. Despite plans to upgrade the steel mills, they lacked steel-making experience and never fully modernized the facilities. They initially improved operations but struggled with payments, leading the original owner to foreclose and regain control around 1980 or 1981. Their tenure marked a period of instability and layoffs in the mining operations of that town.",
+    "cues": [
+      "1977 purchase",
+      "Wisconsin Steel",
+      "Benham mines",
+      "lack of steel experience",
+      "foreclosure 1980-81"
+    ],
+    "transcript_ref": "regional\\kentucky_nunn\\kentucky_ky_Interview_with_Jeremy_N._Williams,_July_26,_2023.yaml"
+  },
+  {
+    "entity_id": 7,
+    "entity": "Scout (automobile)",
+    "explicit_text": "The Scout was an automobile produced by International Harvester, often considered one of the original SUVs. It was popular for its versatility, with designs that included removable tops and soft convertible tops. The Scout was part of International Harvester's broader product line, which also included trucks and farm machinery. It represented the company's efforts to diversify beyond farm equipment during the mid-20th century.",
+    "implicit_text": "This automobile was produced by the major farm machinery and steel company and is often considered one of the original SUVs. It was popular for its versatility, with designs that included removable tops and soft convertible tops. This vehicle was part of the company's broader product line, which also included trucks and farm machinery. It represented the company's efforts to diversify beyond farm equipment during the mid-20th century.",
+    "cues": [
+      "International Harvester",
+      "original SUV",
+      "removable tops",
+      "mid-20th century",
+      "automobile diversification"
+    ],
+    "transcript_ref": "regional\\kentucky_nunn\\kentucky_ky_Interview_with_Jeremy_N._Williams,_July_26,_2023.yaml"
+  },
+  {
+    "entity_id": 8,
+    "entity": "Farmall",
+    "explicit_text": "Farmall was a brand of tractors produced by International Harvester, known for being a leading farm machinery product for many decades. My family owned a Farmall tractor built in 1974 in England, showing how International Harvester expanded production overseas. Farmall tractors were central to the company's identity and profitability before the decline in the 1960s and 1970s. They symbolize the agricultural roots of International Harvester's business.",
+    "implicit_text": "This brand of tractors was produced by the major farm machinery and steel company and was known for being a leading farm machinery product for many decades. My family owned one built in 1974 in England, showing how the company expanded production overseas. These tractors were central to the company's identity and profitability before the decline in the 1960s and 1970s. They symbolize the agricultural roots of the company's business.",
+    "cues": [
+      "International Harvester",
+      "tractor",
+      "1974",
+      "England production",
+      "farm machinery"
+    ],
+    "transcript_ref": "regional\\kentucky_nunn\\kentucky_ky_Interview_with_Jeremy_N._Williams,_July_26,_2023.yaml"
+  },
+  {
+    "entity_id": 9,
+    "entity": "Travelall",
+    "explicit_text": "The Travelall was another vehicle produced by International Harvester, similar to the Scout but with a longer wheelbase and more storage space. It was designed to be more roomy and practical, fitting into the early SUV category. The Travelall, along with the Scout, reflected International Harvester's attempts to capture the truck and utility vehicle market. These vehicles were part of the company's diverse product offerings beyond farm equipment.",
+    "implicit_text": "This vehicle was another produced by the major farm machinery and steel company, similar to the original SUV but with a longer wheelbase and more storage space. It was designed to be more roomy and practical, fitting into the early SUV category. Along with the original SUV, it reflected the company's attempts to capture the truck and utility vehicle market. These vehicles were part of the company's diverse product offerings beyond farm equipment.",
+    "cues": [
+      "International Harvester",
+      "longer wheelbase",
+      "early SUV",
+      "truck market",
+      "vehicle design"
+    ],
+    "transcript_ref": "regional\\kentucky_nunn\\kentucky_ky_Interview_with_Jeremy_N._Williams,_July_26,_2023.yaml"
+  },
+  {
+    "entity_id": 10,
+    "entity": "England",
+    "explicit_text": "England was a country where International Harvester produced some of its farm machinery, including tractors like the one my family owned from 1974. This overseas production was part of the company's strategy to manage costs, especially as steel prices and production shifted globally. England's role in International Harvester's manufacturing highlights the company's international reach during the 1970s. It also connects to the broader context of steel and coal industries worldwide.",
+    "implicit_text": "This country was where the major farm machinery and steel company produced some of its farm machinery, including tractors like the one my family owned from 1974. This overseas production was part of the company's strategy to manage costs, especially as steel prices and production shifted globally. The country's role in the company's manufacturing highlights its international reach during the 1970s. It also connects to the broader context of steel and coal industries worldwide.",
+    "cues": [
+      "1974 tractor",
+      "International Harvester",
+      "overseas production",
+      "cost management",
+      "steel and coal industry"
+    ],
+    "transcript_ref": "regional\\kentucky_nunn\\kentucky_ky_Interview_with_Jeremy_N._Williams,_July_26,_2023.yaml"
+  },
+  {
+    "entity_id": 11,
+    "entity": "Welsh coal mining",
+    "explicit_text": "Welsh coal mining came to mind when discussing England and the coal industry connected to International Harvester's overseas production. While my research primarily found England as a production site, the Welsh coal mines represent the broader coal mining heritage in the UK. This historical context helps explain the global nature of coal and steel industries that affected places like Benham. It also illustrates the interconnectedness of mining communities across countries.",
+    "implicit_text": "Coal mining in this region of the UK came to mind when discussing England and the coal industry connected to the major farm machinery and steel company's overseas production. While my research primarily found England as a production site, the coal mines in this neighboring area represent the broader coal mining heritage in the UK. This historical context helps explain the global nature of coal and steel industries that affected places like the Kentucky mining town. It also illustrates the interconnectedness of mining communities across countries.",
+    "cues": [
+      "England",
+      "coal mining heritage",
+      "UK",
+      "global coal industry",
+      "historical context"
+    ],
+    "transcript_ref": "regional\\kentucky_nunn\\kentucky_ky_Interview_with_Jeremy_N._Williams,_July_26,_2023.yaml"
+  },
+  {
+    "entity_id": 12,
+    "entity": "US Steel",
+    "explicit_text": "US Steel was one of the major steel manufacturers in the United States that, like International Harvester and Wisconsin Steel, owned coal mines to supply their steel mills. During the late 1960s and 1970s, US Steel faced similar challenges with outdated mills and declining steel production. This decline led to layoffs and reduced coal mining operations, paralleling what happened in Benham. US Steel's experience reflects the broader struggles of the American steel industry during that era.",
+    "implicit_text": "This was one of the major steel manufacturers in the United States that, like the major farm machinery and steel company and the Wisconsin steel firm, owned coal mines to supply their steel mills. During the late 1960s and 1970s, it faced similar challenges with outdated mills and declining steel production. This decline led to layoffs and reduced coal mining operations, paralleling what happened in the Kentucky mining town. Its experience reflects the broader struggles of the American steel industry during that era.",
+    "cues": [
+      "major steel manufacturer",
+      "coal mines",
+      "1960s and 1970s",
+      "declining steel production",
+      "layoffs"
+    ],
+    "transcript_ref": "regional\\kentucky_nunn\\kentucky_ky_Interview_with_Jeremy_N._Williams,_July_26,_2023.yaml"
+  },
+  {
+    "entity_id": 13,
+    "entity": "Bethlehem Steel",
+    "explicit_text": "Bethlehem Steel was another large steel company that owned coal mines, including mines in Jenkins, Kentucky, near Benham. Like other steel producers, Bethlehem Steel experienced a downturn in the late 1960s and 1970s, which affected their mining operations. The decline in steel demand and outdated facilities led to layoffs and mine closures. Bethlehem Steel's history is closely linked to the regional coal mining communities in Kentucky.",
+    "implicit_text": "This large steel company owned coal mines, including mines in a Kentucky town near the one I focus on. Like other steel producers, it experienced a downturn in the late 1960s and 1970s, which affected their mining operations. The decline in steel demand and outdated facilities led to layoffs and mine closures. Its history is closely linked to the regional coal mining communities in Kentucky.",
+    "cues": [
+      "large steel company",
+      "coal mines in Jenkins, Kentucky",
+      "1960s and 1970s downturn",
+      "layoffs",
+      "regional mining"
+    ],
+    "transcript_ref": "regional\\kentucky_nunn\\kentucky_ky_Interview_with_Jeremy_N._Williams,_July_26,_2023.yaml"
+  },
+  {
+    "entity_id": 14,
+    "entity": "Inland Steel",
+    "explicit_text": "Inland Steel was one of the steel manufacturers that owned coal mines and faced similar industry challenges in the late 1960s and 1970s. The company experienced declines in steel production, which led to reduced demand for coal and subsequent layoffs in mining operations. Inland Steel's struggles were part of the broader pattern affecting steel and coal industries across the Midwest and Appalachia. Their experience helps explain the economic pressures on towns like Benham.",
+    "implicit_text": "This steel manufacturer owned coal mines and faced similar industry challenges in the late 1960s and 1970s. The company experienced declines in steel production, which led to reduced demand for coal and subsequent layoffs in mining operations. Its struggles were part of the broader pattern affecting steel and coal industries across the Midwest and Appalachia. Their experience helps explain the economic pressures on towns like the Kentucky mining community I study.",
+    "cues": [
+      "steel manufacturer",
+      "coal mines",
+      "1960s and 1970s",
+      "declining steel production",
+      "layoffs"
+    ],
+    "transcript_ref": "regional\\kentucky_nunn\\kentucky_ky_Interview_with_Jeremy_N._Williams,_July_26,_2023.yaml"
+  },
+  {
+    "entity_id": 15,
+    "entity": "Jenkins, Kentucky",
+    "explicit_text": "Jenkins, Kentucky, is a coal mining town located just across the mountain from Benham. Bethlehem Steel owned mines in Jenkins, linking it to the regional steel and coal industries. The town's mining history parallels that of Benham, with similar economic challenges during the steel industry's decline. Jenkins represents another important community in the Appalachian coal mining landscape connected to the steel mills.",
+    "implicit_text": "This Kentucky coal mining town is located just across the mountain from the one I focus on. A large steel company owned mines there, linking it to the regional steel and coal industries. The town's mining history parallels that of its neighbor, with similar economic challenges during the steel industry's decline. It represents another important community in the Appalachian coal mining landscape connected to the steel mills.",
+    "cues": [
+      "coal mining town",
+      "near Benham",
+      "Bethlehem Steel mines",
+      "steel industry decline",
+      "Appalachian region"
+    ],
+    "transcript_ref": "regional\\kentucky_nunn\\kentucky_ky_Interview_with_Jeremy_N._Williams,_July_26,_2023.yaml"
+  }
+]

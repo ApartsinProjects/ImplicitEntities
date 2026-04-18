@@ -1,0 +1,108 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "Dybbuk (Work)",
+    "explicit_text": "I remember the story of the Dybbuk of Bunker Street from back in 1902, when people believed a dybbuk was going from house to house making folks sick. The old Jewish women said if a dybbuk got into a holy person, a Rabbi could force it out, but sinners had no chance. Many thought the dybbuk caused sickness and death in our overcrowded neighborhood, though later some said it was typhoid fever. The dybbuk story was something we talked about often, especially when my father got sick and died. Even as a child, I wondered if the dybbuk was real or just a way to explain the hard times we faced.",
+    "implicit_text": "I remember the story from back in 1902, when people believed a spirit was going from house to house making folks sick. The old Jewish women said if this spirit got into a holy person, a Rabbi could force it out, but sinners had no chance. Many thought this spirit caused sickness and death in our overcrowded neighborhood, though later some said it was typhoid fever. The story was something we talked about often, especially when my father got sick and died. Even as a child, I wondered if the spirit was real or just a way to explain the hard times we faced.",
+    "cues": [
+      "1902",
+      "Bunker Street",
+      "Jewish community",
+      "sickness",
+      "death",
+      "Rabbi",
+      "overcrowding"
+    ],
+    "transcript_ref": "depression_era\\loc_depression\\dep_The_Dybbuk_of_Bunker_Street.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "Bunker Street (Place)",
+    "explicit_text": "Bunker Street was where I lived as a child, and it was a tough place back then. The house we lived in was built for one family but held six families, all cramped together with only one toilet in the hall. It was on Bunker Street where the dybbuk was said to roam, and where my father got sick and died in 1902. I remember the dirty alleys and the stable nearby where horses and wagons for a big department store were kept. Later, I joined a gang that hung around Bunker Street, and even after all the trouble, I still passed by the house where my mother lived.",
+    "implicit_text": "The street where I lived as a child was a tough place back then. The house we lived in was built for one family but held six families, all cramped together with only one toilet in the hall. It was on this street where the spirit was said to roam, and where my father got sick and died in 1902. I remember the dirty alleys and the stable nearby where horses and wagons for a big department store were kept. Later, I joined a gang that hung around there, and even after all the trouble, I still passed by the house where my mother lived.",
+    "cues": [
+      "early 1900s",
+      "overcrowding",
+      "six families in one house",
+      "no bathrooms",
+      "stable",
+      "gang activity"
+    ],
+    "transcript_ref": "depression_era\\loc_depression\\dep_The_Dybbuk_of_Bunker_Street.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "Halsted Street (Place)",
+    "explicit_text": "My mother used to like dressing me up on Saturdays and taking me for walks to look in the windows of the big store on Halsted Street. It was a bright spot in our hard life on Bunker Street, a chance to see something nice and feel a little better. Those walks were special because my mother cared about me then, before she got mean after my father died. Halsted Street was a place of small joys amid the tough times we lived through.",
+    "implicit_text": "My mother used to like dressing me up on Saturdays and taking me for walks to look in the windows of the big store on the main shopping street. It was a bright spot in our hard life on that tough street, a chance to see something nice and feel a little better. Those walks were special because my mother cared about me then, before she got mean after my father died. That shopping street was a place of small joys amid the tough times we lived through.",
+    "cues": [
+      "early 1900s",
+      "shopping windows",
+      "Saturday walks",
+      "mother and child",
+      "Bunker Street neighborhood"
+    ],
+    "transcript_ref": "depression_era\\loc_depression\\dep_The_Dybbuk_of_Bunker_Street.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "State Street (Chicago) (Place)",
+    "explicit_text": "Near where we lived on Bunker Street, there was a large stable where horses and wagons for a big department store on State Street were kept. Every morning, the drivers would hitch the horses and go downtown to get the wagons loaded for deliveries all over, even as far as Evanston and Highland Park. One of the drivers lived on Bunker Street and got sick from the same illness that was going around. The connection to State Street was part of how the sickness spread, or so people thought, whether it was the dybbuk or typhoid fever.",
+    "implicit_text": "Near where we lived on that tough street, there was a large stable where horses and wagons for a big department store on the main commercial street were kept. Every morning, the drivers would hitch the horses and go downtown to get the wagons loaded for deliveries all over, even as far as Evanston and Highland Park. One of the drivers lived on that street and got sick from the same illness that was going around. The connection to the main commercial street was part of how the sickness spread, or so people thought, whether it was the spirit or typhoid fever.",
+    "cues": [
+      "early 1900s",
+      "department store",
+      "horse stables",
+      "deliveries",
+      "Bunker Street",
+      "Evanston",
+      "Highland Park"
+    ],
+    "transcript_ref": "depression_era\\loc_depression\\dep_The_Dybbuk_of_Bunker_Street.yaml"
+  },
+  {
+    "entity_id": 5,
+    "entity": "Evanston, Illinois (Place)",
+    "explicit_text": "I heard that the sickness from Bunker Street had spread to Evanston, Illinois, where some of the people who got deliveries from the State Street department store lived. One of the drivers joked about the dybbuk traveling to Evanston, but later people said it was typhoid fever caused by flies that came from the overcrowded conditions back home. It was strange to think that something from our neighborhood could reach as far as Evanston and Highland Park. The sickness there made people very sick, just like it did back on Bunker Street.",
+    "implicit_text": "I heard that the sickness from that tough street had spread to a northern suburb, where some of the people who got deliveries from the big department store lived. One of the drivers joked about the spirit traveling there, but later people said it was typhoid fever caused by flies that came from the overcrowded conditions back home. It was strange to think that something from our neighborhood could reach as far as those suburbs. The sickness there made people very sick, just like it did back on that street.",
+    "cues": [
+      "early 1900s",
+      "spread of sickness",
+      "deliveries from State Street",
+      "typhoid fever",
+      "flies",
+      "overcrowding"
+    ],
+    "transcript_ref": "depression_era\\loc_depression\\dep_The_Dybbuk_of_Bunker_Street.yaml"
+  },
+  {
+    "entity_id": 6,
+    "entity": "Highland Park, Illinois (Place)",
+    "explicit_text": "Highland Park was one of the farthest places the department store wagons from State Street would deliver goods to, along with Evanston. I heard that people in Highland Park also got sick from the same illness that was hitting Bunker Street and Evanston. The drivers would travel there daily, and some thought the sickness might have traveled with them, maybe carried by flies on the horses or wagons. It was part of the story that made the dybbuk legend seem real to some, even though it was probably typhoid fever.",
+    "implicit_text": "One of the farthest places the department store wagons from the main commercial street would deliver goods to was another northern suburb, along with the one I mentioned before. I heard that people there also got sick from the same illness that was hitting our neighborhood and the other suburb. The drivers would travel there daily, and some thought the sickness might have traveled with them, maybe carried by flies on the horses or wagons. It was part of the story that made the spirit legend seem real to some, even though it was probably typhoid fever.",
+    "cues": [
+      "early 1900s",
+      "delivery route",
+      "sickness spread",
+      "dybbuk legend",
+      "typhoid fever"
+    ],
+    "transcript_ref": "depression_era\\loc_depression\\dep_The_Dybbuk_of_Bunker_Street.yaml"
+  },
+  {
+    "entity_id": 7,
+    "entity": "Typhoid fever (Event)",
+    "explicit_text": "At first, many people believed the sickness on Bunker Street was caused by a dybbuk, but later some ladies came around and said it was typhoid fever. They explained that overcrowding and using one toilet for six families caused water to back up, and flies spread the disease by landing on food. The old Jewish women still believed in the dybbuk, but the doctors and others said it was typhoid fever. This sickness took my father and many others, and it changed my whole life, leading me down a hard path.",
+    "implicit_text": "At first, many people believed the sickness on that tough street was caused by a wandering spirit, but later some ladies came around and said it was typhoid fever. They explained that overcrowding and using one toilet for six families caused water to back up, and flies spread the disease by landing on food. The old Jewish women still believed in the spirit, but the doctors and others said it was typhoid fever. This sickness took my father and many others, and it changed my whole life, leading me down a hard path.",
+    "cues": [
+      "early 1900s",
+      "Bunker Street",
+      "overcrowding",
+      "one toilet",
+      "flies",
+      "water contamination",
+      "death"
+    ],
+    "transcript_ref": "depression_era\\loc_depression\\dep_The_Dybbuk_of_Bunker_Street.yaml"
+  }
+]

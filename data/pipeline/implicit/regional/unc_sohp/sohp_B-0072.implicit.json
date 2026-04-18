@@ -1,0 +1,359 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "United States District Attorney",
+    "explicit_text": "I served as an assistant United States District Attorney here in Charlotte, which was part of the Western District of North Carolina. Although the main office was in Asheville, I was the Charlotte assistant, working closely with the U.S. Attorney based there. This was during a time when the district had multiple offices, and I was involved locally while living outside the city.",
+    "implicit_text": "I served as an assistant federal prosecutor here in Charlotte, which was part of the western judicial district of the state. Although the main office was in Asheville, I was the Charlotte assistant, working closely with the chief federal prosecutor based there. This was during a time when the district had multiple offices, and I was involved locally while living outside the city.",
+    "cues": [
+      "Charlotte",
+      "Western District of North Carolina",
+      "assistant U.S. District Attorney",
+      "Asheville"
+    ],
+    "transcript_ref": "regional\\unc_sohp\\sohp_B-0072.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "Charlotte, North Carolina",
+    "explicit_text": "Charlotte was where I worked as an assistant U.S. District Attorney and later had an office while living in Davidson. It was the central city involved in the consolidation efforts during the late 1960s and early 1970s, with discussions about merging city and county governments. Charlotte was also involved in providing water services to nearby areas like Westinghouse and Research Triangle Park during that period.",
+    "implicit_text": "This city was where I worked as an assistant federal prosecutor and later had an office while living in a nearby town. It was the central city involved in the consolidation efforts during the late 1960s and early 1970s, with discussions about merging city and county governments. The city was also involved in providing water services to nearby areas like a major industrial plant and a research park during that period.",
+    "cues": [
+      "assistant U.S. District Attorney",
+      "consolidation 1968-1971",
+      "water services",
+      "Westinghouse",
+      "Research Triangle Park"
+    ],
+    "transcript_ref": "regional\\unc_sohp\\sohp_B-0072.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "Western District of North Carolina",
+    "explicit_text": "The Western District of North Carolina had its main U.S. Attorney's office in Asheville, but also had a satellite office in Charlotte where I served as an assistant. This district covered a broad area including Asheville and Charlotte, and I was part of the legal team representing the federal government in this region. My role connected me to various communities within this district.",
+    "implicit_text": "The western judicial district of the state had its main federal prosecutor's office in Asheville, but also had a satellite office in Charlotte where I served as an assistant. This district covered a broad area including Asheville and Charlotte, and I was part of the legal team representing the federal government in this region. My role connected me to various communities within this district.",
+    "cues": [
+      "Asheville",
+      "Charlotte",
+      "U.S. Attorney's office",
+      "assistant U.S. District Attorney"
+    ],
+    "transcript_ref": "regional\\unc_sohp\\sohp_B-0072.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "Asheville, North Carolina",
+    "explicit_text": "Asheville was the location of the main office of the U.S. Attorney for the Western District of North Carolina when I was an assistant U.S. District Attorney. Although I worked primarily in Charlotte, Asheville was the home base for the district's legal administration. This connection linked me to the broader federal legal system in the western part of the state.",
+    "implicit_text": "Asheville was the location of the main office of the federal prosecutor for the western judicial district when I was an assistant federal prosecutor. Although I worked primarily in Charlotte, Asheville was the home base for the district's legal administration. This connection linked me to the broader federal legal system in the western part of the state.",
+    "cues": [
+      "U.S. Attorney main office",
+      "Western District of North Carolina",
+      "assistant U.S. District Attorney"
+    ],
+    "transcript_ref": "regional\\unc_sohp\\sohp_B-0072.yaml"
+  },
+  {
+    "entity_id": 5,
+    "entity": "Davidson, North Carolina",
+    "explicit_text": "I have lived in Davidson for many years and maintained an office in Charlotte. Before moving to Davidson, I practiced law in Statesville and began my career in Graham, Alamance County. Davidson was also the community I represented on the Charter Commission during the consolidation efforts in the late 1960s and early 1970s, and I served on the Davidson Planning Board. Living there gave me a unique perspective on local government and regional development.",
+    "implicit_text": "I have lived in a small town near Charlotte for many years and maintained an office in the city. Before moving there, I practiced law in another town and began my career in a small county seat. This town was also the community I represented on the Charter Commission during the consolidation efforts in the late 1960s and early 1970s, and I served on its Planning Board. Living there gave me a unique perspective on local government and regional development.",
+    "cues": [
+      "residence",
+      "office in Charlotte",
+      "Davidson Planning Board",
+      "Charter Commission",
+      "consolidation 1968-1971"
+    ],
+    "transcript_ref": "regional\\unc_sohp\\sohp_B-0072.yaml"
+  },
+  {
+    "entity_id": 6,
+    "entity": "Statesville, North Carolina",
+    "explicit_text": "Before moving to Davidson, I practiced law in Statesville. It was one of the places where I built my legal career before relocating to the Charlotte area. My experience there helped shape my understanding of North Carolina's legal and community issues prior to my later roles.",
+    "implicit_text": "Before moving to the small town near Charlotte, I practiced law in a nearby city. It was one of the places where I built my legal career before relocating to the metropolitan area. My experience there helped shape my understanding of the state's legal and community issues prior to my later roles.",
+    "cues": [
+      "law practice",
+      "prior to Davidson",
+      "North Carolina"
+    ],
+    "transcript_ref": "regional\\unc_sohp\\sohp_B-0072.yaml"
+  },
+  {
+    "entity_id": 7,
+    "entity": "Alamance County, North Carolina",
+    "explicit_text": "I originally began practicing law in Graham, a small town in Alamance County. This was the start of my legal career before moving to other parts of North Carolina. I have kept an eye on local developments there, such as the road between Graham and Chapel Hill, which has been a long-awaited project.",
+    "implicit_text": "I originally began practicing law in a small town that is the county seat of Alamance County. This was the start of my legal career before moving to other parts of the state. I have kept an eye on local developments there, such as the road between that town and Chapel Hill, which has been a long-awaited project.",
+    "cues": [
+      "Graham",
+      "law practice start",
+      "road between Graham and Chapel Hill"
+    ],
+    "transcript_ref": "regional\\unc_sohp\\sohp_B-0072.yaml"
+  },
+  {
+    "entity_id": 8,
+    "entity": "Graham, North Carolina",
+    "explicit_text": "Graham is where I first started practicing law, back in Alamance County. It was a small town that marked the beginning of my legal career. I still follow some local developments there, like the ongoing efforts to complete the road connecting Graham and Chapel Hill.",
+    "implicit_text": "This small town in Alamance County is where I first started practicing law. It marked the beginning of my legal career. I still follow some local developments there, like the ongoing efforts to complete the road connecting this town and Chapel Hill.",
+    "cues": [
+      "first law practice",
+      "Alamance County",
+      "road to Chapel Hill"
+    ],
+    "transcript_ref": "regional\\unc_sohp\\sohp_B-0072.yaml"
+  },
+  {
+    "entity_id": 9,
+    "entity": "Chapel Hill, North Carolina",
+    "explicit_text": "Chapel Hill is connected to Graham by a road that has been under discussion for years. I have been watching the progress of this road because it affects travel and connectivity in the region. While I have not lived there, it remains relevant to my early legal career and regional interests.",
+    "implicit_text": "This university town is connected to the small town where I began my career by a road that has been under discussion for years. I have been watching the progress of this road because it affects travel and connectivity in the region. While I have not lived there, it remains relevant to my early legal career and regional interests.",
+    "cues": [
+      "road to Graham",
+      "regional connectivity",
+      "North Carolina"
+    ],
+    "transcript_ref": "regional\\unc_sohp\\sohp_B-0072.yaml"
+  },
+  {
+    "entity_id": 10,
+    "entity": "Duke Power Company",
+    "explicit_text": "After my time as an assistant U.S. District Attorney, I became involved with Duke Power Company while living in Davidson. My role with Duke Power connected me to regional development and utility issues, especially as they related to water and sewer services in the county. This position allowed me to contribute to important infrastructure discussions during a time of growth.",
+    "implicit_text": "After my time as an assistant federal prosecutor, I became involved with a regional power company while living in the small town near Charlotte. My role with this utility connected me to regional development and utility issues, especially as they related to water and sewer services in the county. This position allowed me to contribute to important infrastructure discussions during a time of growth.",
+    "cues": [
+      "post-U.S. Attorney career",
+      "Davidson residence",
+      "utility and infrastructure"
+    ],
+    "transcript_ref": "regional\\unc_sohp\\sohp_B-0072.yaml"
+  },
+  {
+    "entity_id": 11,
+    "entity": "Frank Jackson",
+    "explicit_text": "Frank Jackson was the mayor of Davidson before Mr. Sadler, and I believe he played a role in my appointment to the Charter Commission. His influence likely helped position me as the Davidson representative during the consolidation discussions in the late 1960s. I worked closely with local leaders like him to navigate the complexities of regional government changes.",
+    "implicit_text": "The mayor who preceded the current one in the small town near Charlotte likely played a role in my appointment to the Charter Commission. His influence probably helped position me as the town representative during the consolidation discussions in the late 1960s. I worked closely with local leaders like him to navigate the complexities of regional government changes.",
+    "cues": [
+      "mayor of Davidson",
+      "prior to Sadler",
+      "Charter Commission appointment",
+      "consolidation 1968-1971"
+    ],
+    "transcript_ref": "regional\\unc_sohp\\sohp_B-0072.yaml"
+  },
+  {
+    "entity_id": 12,
+    "entity": "Sadler",
+    "explicit_text": "Mr. Sadler was the mayor of Davidson following Frank Jackson, and he was involved in the consolidation efforts. While I am not sure exactly why I was chosen as the Davidson representative, I think Mr. Sadler's leadership and the frequent presence of my office in Charlotte made it easier for me to participate. Traveling between Davidson and Charlotte was challenging due to limited highway access, which factored into the discussions.",
+    "implicit_text": "The mayor who followed the previous one in the small town near Charlotte was involved in the consolidation efforts. While I am not sure exactly why I was chosen as the town representative, I think his leadership and the frequent presence of my office in Charlotte made it easier for me to participate. Traveling between the small town and Charlotte was challenging due to limited highway access, which factored into the discussions.",
+    "cues": [
+      "mayor of Davidson",
+      "post-Frank Jackson",
+      "consolidation",
+      "travel difficulties"
+    ],
+    "transcript_ref": "regional\\unc_sohp\\sohp_B-0072.yaml"
+  },
+  {
+    "entity_id": 13,
+    "entity": "Chamber of Commerce",
+    "explicit_text": "The Chamber of Commerce seemed to be a significant force behind the consolidation talks, which had been circulating for some time before the late 1960s. Although I wasn't deeply involved in the early discussions, I know that the Chamber and other groups helped push the idea forward. The Chamber's role was part of a broader community effort to consider merging city and county governments.",
+    "implicit_text": "The local business association seemed to be a significant force behind the consolidation talks, which had been circulating for some time before the late 1960s. Although I wasn't deeply involved in the early discussions, I know that the association and other groups helped push the idea forward. Their role was part of a broader community effort to consider merging city and county governments.",
+    "cues": [
+      "consolidation discussions",
+      "late 1960s",
+      "community groups"
+    ],
+    "transcript_ref": "regional\\unc_sohp\\sohp_B-0072.yaml"
+  },
+  {
+    "entity_id": 14,
+    "entity": "Grier Martin",
+    "explicit_text": "Grier Martin was a former president of Davidson and had a hand in the early consolidation efforts. He chaired a study committee that looked into the possibility of merging governments before I became involved. His work laid some of the groundwork for the Charter Commission and the eventual vote in 1971.",
+    "implicit_text": "A former president of the small town near Charlotte had a hand in the early consolidation efforts. He chaired a study committee that looked into the possibility of merging governments before I became involved. His work laid some of the groundwork for the Charter Commission and the eventual vote in 1971.",
+    "cues": [
+      "president of Davidson",
+      "study committee",
+      "early consolidation efforts"
+    ],
+    "transcript_ref": "regional\\unc_sohp\\sohp_B-0072.yaml"
+  },
+  {
+    "entity_id": 15,
+    "entity": "H. B. Naramore",
+    "explicit_text": "H. B. Naramore served on the Davidson town board and was involved in the consolidation planning before my time. He participated in the approval of enabling legislation related to the effort. His contributions were part of the early groundwork that preceded the Charter Commission's work.",
+    "implicit_text": "A member of the town board in the small town near Charlotte was involved in the consolidation planning before my time. He participated in the approval of enabling legislation related to the effort. His contributions were part of the early groundwork that preceded the Charter Commission's work.",
+    "cues": [
+      "Davidson town board",
+      "consolidation planning",
+      "enabling legislation"
+    ],
+    "transcript_ref": "regional\\unc_sohp\\sohp_B-0072.yaml"
+  },
+  {
+    "entity_id": 16,
+    "entity": "Brookshire",
+    "explicit_text": "Brookshire was one of the local figures who commented publicly about consolidation, suggesting it might take ten to fifteen years before actual government merging would happen. His remarks in the press reflected the cautious attitude many had before the issue gained momentum in 1968 and 1969. These comments helped frame the public conversation around consolidation.",
+    "implicit_text": "A local figure publicly commented about consolidation, suggesting it might take ten to fifteen years before actual government merging would happen. His remarks in the press reflected the cautious attitude many had before the issue gained momentum in 1968 and 1969. These comments helped frame the public conversation around consolidation.",
+    "cues": [
+      "public comments",
+      "press",
+      "consolidation timeline",
+      "late 1960s"
+    ],
+    "transcript_ref": "regional\\unc_sohp\\sohp_B-0072.yaml"
+  },
+  {
+    "entity_id": 17,
+    "entity": "Westinghouse Electric Corporation",
+    "explicit_text": "Westinghouse Electric Corporation was building a plant in the county during the late 1960s, which influenced local infrastructure needs. The development prompted discussions about water and sewer services, and the county, in cooperation with the city, provided water to the Westinghouse plant. This industrial growth was a factor in the timing of consolidation talks and regional planning.",
+    "implicit_text": "A major electric corporation was building a plant in the county during the late 1960s, which influenced local infrastructure needs. The development prompted discussions about water and sewer services, and the county, in cooperation with the city, provided water to the plant. This industrial growth was a factor in the timing of consolidation talks and regional planning.",
+    "cues": [
+      "plant construction",
+      "late 1960s",
+      "water service",
+      "county and city cooperation"
+    ],
+    "transcript_ref": "regional\\unc_sohp\\sohp_B-0072.yaml"
+  },
+  {
+    "entity_id": 18,
+    "entity": "Research Triangle Park",
+    "explicit_text": "Research Triangle Park was one of the areas that received water service from the county and city cooperation during the late 1960s. Although it is located north of Charlotte, its development was part of the regional growth impacting infrastructure planning. The provision of water to this area was linked to broader efforts to improve utilities in the county.",
+    "implicit_text": "A prominent research park north of the city received water service from the county and city cooperation during the late 1960s. Although located outside the metropolitan area, its development was part of the regional growth impacting infrastructure planning. The provision of water to this area was linked to broader efforts to improve utilities in the county.",
+    "cues": [
+      "water service",
+      "late 1960s",
+      "regional development",
+      "north of Charlotte"
+    ],
+    "transcript_ref": "regional\\unc_sohp\\sohp_B-0072.yaml"
+  },
+  {
+    "entity_id": 19,
+    "entity": "Smithville, North Carolina",
+    "explicit_text": "Smithville, a small community near Huntersville and Cornelius, was in poor condition regarding water services in the late 1960s. The county and city worked together to provide water to Smithville as part of broader infrastructure improvements. This effort was part of the challenges faced in extending utilities across the county's varied geography.",
+    "implicit_text": "A small community near two northern towns was in poor condition regarding water services in the late 1960s. The county and city worked together to provide water to this community as part of broader infrastructure improvements. This effort was part of the challenges faced in extending utilities across the county's varied geography.",
+    "cues": [
+      "water service",
+      "late 1960s",
+      "near Huntersville and Cornelius",
+      "infrastructure improvements"
+    ],
+    "transcript_ref": "regional\\unc_sohp\\sohp_B-0072.yaml"
+  },
+  {
+    "entity_id": 20,
+    "entity": "Huntersville, North Carolina",
+    "explicit_text": "Huntersville is one of the northern towns in Mecklenburg County where water and sewer services were a significant concern in the late 1960s and beyond. It received water service in cooperation with the city and county, and more recently, there have been talks about consolidating Huntersville with Davidson and Cornelius. Huntersville faces similar infrastructure challenges as Davidson and is part of regional planning efforts.",
+    "implicit_text": "One of the northern towns in the county where I worked faced significant concerns about water and sewer services in the late 1960s and beyond. It received water service in cooperation with the city and county, and more recently, there have been talks about consolidating this town with two neighboring towns. It faces similar infrastructure challenges and is part of regional planning efforts.",
+    "cues": [
+      "water service",
+      "late 1960s",
+      "consolidation talks",
+      "Davidson and Cornelius"
+    ],
+    "transcript_ref": "regional\\unc_sohp\\sohp_B-0072.yaml"
+  },
+  {
+    "entity_id": 21,
+    "entity": "Cornelius, North Carolina",
+    "explicit_text": "Cornelius is another northern Mecklenburg town involved in discussions about possible consolidation with Davidson and Huntersville. It has a sewage system that is aging and operating on borrowed time, which creates urgency for upgrades. Cooperation among these towns could improve efficiency in utilities and services, and Cornelius is central to these regional planning efforts.",
+    "implicit_text": "Another northern town in the county is involved in discussions about possible consolidation with two neighboring towns. It has a sewage system that is aging and operating on borrowed time, which creates urgency for upgrades. Cooperation among these towns could improve efficiency in utilities and services, and this town is central to these regional planning efforts.",
+    "cues": [
+      "sewage system",
+      "consolidation talks",
+      "Davidson and Huntersville",
+      "infrastructure challenges"
+    ],
+    "transcript_ref": "regional\\unc_sohp\\sohp_B-0072.yaml"
+  },
+  {
+    "entity_id": 22,
+    "entity": "Yadkin River",
+    "explicit_text": "The Yadkin River is part of the watershed system affecting northern Mecklenburg County's water supply. Because of a ridge dividing watersheds, water flows toward the Yadkin or the Peedee rather than the Catawba, complicating water service provision. This geographical feature has influenced how towns like Davidson and Mooresville manage their water and sewage systems.",
+    "implicit_text": "A river forming part of the watershed system affects northern parts of the county's water supply. Because of a ridge dividing watersheds, water flows toward this river or another rather than the main river supplying the area, complicating water service provision. This geographical feature has influenced how towns like the small town near Charlotte and a nearby town manage their water and sewage systems.",
+    "cues": [
+      "watershed",
+      "northern Mecklenburg County",
+      "water supply challenges",
+      "ridge dividing watersheds"
+    ],
+    "transcript_ref": "regional\\unc_sohp\\sohp_B-0072.yaml"
+  },
+  {
+    "entity_id": 23,
+    "entity": "Peedee River",
+    "explicit_text": "The Peedee River watershed is significant in northern Mecklenburg County, where towns like Davidson place sewage back into this watershed. Due to the ridge that divides watersheds, water and sewage management involves balancing between the Peedee and Catawba Rivers. This has been a longstanding arrangement, though only recently has it become a topic of concern in regional planning.",
+    "implicit_text": "The watershed of a river in northern parts of the county is significant, where towns like the small town near Charlotte place sewage back into this watershed. Due to the ridge that divides watersheds, water and sewage management involves balancing between this river and the main river supplying the area. This has been a longstanding arrangement, though only recently has it become a topic of concern in regional planning.",
+    "cues": [
+      "watershed",
+      "sewage disposal",
+      "Davidson",
+      "northern Mecklenburg County"
+    ],
+    "transcript_ref": "regional\\unc_sohp\\sohp_B-0072.yaml"
+  },
+  {
+    "entity_id": 24,
+    "entity": "Catawba River",
+    "explicit_text": "The Catawba River watershed supplies water to Davidson, Mooresville, and Huntersville, which draw water from it and return sewage to the Peedee watershed. This arrangement is due to the ridge running through northern Mecklenburg County. The Catawba River has been a crucial resource for these communities' water needs for many years without major issues until recent debates.",
+    "implicit_text": "The main river watershed supplies water to the small town near Charlotte and neighboring towns, which draw water from it and return sewage to the other watershed. This arrangement is due to the ridge running through northern parts of the county. The river has been a crucial resource for these communities' water needs for many years without major issues until recent debates.",
+    "cues": [
+      "watershed",
+      "water supply",
+      "Davidson",
+      "Mooresville",
+      "Huntersville"
+    ],
+    "transcript_ref": "regional\\unc_sohp\\sohp_B-0072.yaml"
+  },
+  {
+    "entity_id": 25,
+    "entity": "Mooresville, North Carolina",
+    "explicit_text": "Mooresville, located north of Davidson, also relies on the Catawba River watershed for its water supply. Like Davidson and Huntersville, it returns sewage to the Peedee watershed due to the area's topography. Mooresville has historically managed its water and sewage systems in this way without major problems, reflecting regional water management practices.",
+    "implicit_text": "A town located north of the small town near Charlotte also relies on the main river watershed for its water supply. Like the small town and another northern town, it returns sewage to the other watershed due to the area's topography. This town has historically managed its water and sewage systems in this way without major problems, reflecting regional water management practices.",
+    "cues": [
+      "water supply",
+      "Catawba River watershed",
+      "sewage disposal",
+      "northern Mecklenburg County"
+    ],
+    "transcript_ref": "regional\\unc_sohp\\sohp_B-0072.yaml"
+  },
+  {
+    "entity_id": 26,
+    "entity": "North Mecklenburg High School",
+    "explicit_text": "North Mecklenburg High School marks a rough boundary in discussions about forming a single municipality in the northern part of the county. The idea was to create a unified government starting around this area and extending northward, possibly combining Davidson, Cornelius, and Huntersville. This school is a geographic reference point in regional consolidation planning.",
+    "implicit_text": "A high school in the northern part of the county marks a rough boundary in discussions about forming a single municipality in that region. The idea was to create a unified government starting around this area and extending northward, possibly combining the small town near Charlotte and two neighboring towns. This school is a geographic reference point in regional consolidation planning.",
+    "cues": [
+      "geographic boundary",
+      "municipal consolidation",
+      "northern Mecklenburg County"
+    ],
+    "transcript_ref": "regional\\unc_sohp\\sohp_B-0072.yaml"
+  },
+  {
+    "entity_id": 27,
+    "entity": "North Mecklenburg Association",
+    "explicit_text": "The North Mecklenburg Association was formed about two years ago to study the possibility of consolidating Davidson, Cornelius, and Huntersville into one municipality. The group received a report on different consolidation options, including strip unification and utility district consolidation. As of now, the association and the town boards have yet to officially respond to the study's findings.",
+    "implicit_text": "An association formed about two years ago to study the possibility of consolidating the small town near Charlotte and two neighboring towns into one municipality. The group received a report on different consolidation options, including strip unification and utility district consolidation. As of now, the association and the town boards have yet to officially respond to the study's findings.",
+    "cues": [
+      "formed two years ago",
+      "consolidation study",
+      "Davidson, Cornelius, Huntersville",
+      "regional planning"
+    ],
+    "transcript_ref": "regional\\unc_sohp\\sohp_B-0072.yaml"
+  },
+  {
+    "entity_id": 28,
+    "entity": "Interstate 77",
+    "explicit_text": "Interstate 77 runs near Davidson and Huntersville and is relevant to regional infrastructure and utility planning. Davidson has a large water main line underneath I-77, which could facilitate water service if the northern towns consolidate. This highway is a key feature in discussions about improving efficiency and cooperation among the towns' utilities.",
+    "implicit_text": "A major interstate highway runs near the small town near Charlotte and a neighboring town and is relevant to regional infrastructure and utility planning. The small town has a large water main line underneath this highway, which could facilitate water service if the northern towns consolidate. This highway is a key feature in discussions about improving efficiency and cooperation among the towns' utilities.",
+    "cues": [
+      "water main line",
+      "Davidson and Huntersville",
+      "regional infrastructure",
+      "utility planning"
+    ],
+    "transcript_ref": "regional\\unc_sohp\\sohp_B-0072.yaml"
+  }
+]

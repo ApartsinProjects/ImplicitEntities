@@ -1,0 +1,236 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "Denver (Place)",
+    "explicit_text": "I was born and raised in Denver, Colorado, in 1926. Growing up there, I attended local schools like Lincoln Elementary, Byers Junior High, and South High School. Denver was home to many of my childhood memories, from walking to school to celebrating holidays at places like the Denver Country Club. It was a close-knit community where my family and I lived and worked.",
+    "implicit_text": "I was born and raised in the capital city of Colorado in 1926. Growing up there, I attended local schools like Lincoln Elementary, Byers Junior High, and South High School. That city was home to many of my childhood memories, from walking to school to celebrating holidays at places like the local country club. It was a close-knit community where my family and I lived and worked.",
+    "cues": [
+      "1926",
+      "Lincoln Elementary School",
+      "Byers Junior High School",
+      "South High School",
+      "Denver Country Club",
+      "walking to school"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\loc_afc2001001.96131.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "ACME (Organization)",
+    "explicit_text": "My dad worked for ACME Fast Freight in Denver. He didn't drive the trucks but worked at the docks where goods were brought in and shipped out. His job at ACME was steady, even through tough times like the Great Depression, which I don't remember affecting us much. ACME was an important part of my family's livelihood during my childhood.",
+    "implicit_text": "My dad worked for a fast freight company in the Colorado capital. He didn't drive the trucks but worked at the docks where goods were brought in and shipped out. His job there was steady, even through tough times like the Great Depression, which I don't remember affecting us much. That company was an important part of my family's livelihood during my childhood.",
+    "cues": [
+      "ACME Fast Freight",
+      "docks",
+      "Denver",
+      "Great Depression"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\loc_afc2001001.96131.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "Lincoln Elementary School (Denver, Colorado) (Organization)",
+    "explicit_text": "I attended Lincoln Elementary School in Denver from grades one through six. I skipped one grade there, which helped me graduate high school early at sixteen. I loved school, especially my art teacher, Nicetrom, though I wasn’t fond of the English teacher who disciplined me for chewing gum. Walking about six blocks to Lincoln was part of my daily routine.",
+    "implicit_text": "I attended the elementary school named after the 16th president in the Colorado capital from grades one through six. I skipped one grade there, which helped me graduate high school early at sixteen. I loved school, especially my art teacher, Nicetrom, though I wasn’t fond of the English teacher who disciplined me for chewing gum. Walking about six blocks to that elementary school was part of my daily routine.",
+    "cues": [
+      "Lincoln Elementary School",
+      "grades 1-6",
+      "skipped a grade",
+      "art teacher Nicetrom",
+      "walking six blocks"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\loc_afc2001001.96131.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "Byers Junior High School (Organization)",
+    "explicit_text": "After elementary school, I went to Byers Junior High, which was also within walking distance. I liked junior high and by then I had skipped half a grade, so I was younger than most of my classmates. It was a good experience before moving on to South High School, where all my family had gone.",
+    "implicit_text": "After elementary school, I went to a junior high named Byers, which was also within walking distance. I liked junior high and by then I had skipped half a grade, so I was younger than most of my classmates. It was a good experience before moving on to the high school where all my family had gone.",
+    "cues": [
+      "Byers Junior High",
+      "walking distance",
+      "skipped half a grade",
+      "preparation for South High School"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\loc_afc2001001.96131.yaml"
+  },
+  {
+    "entity_id": 5,
+    "entity": "South High School (Denver) (Organization)",
+    "explicit_text": "I attended South High School in Denver, following in the footsteps of my family. I graduated early at sixteen in 1943, having skipped a grade earlier. I enjoyed math the most, though I wasn’t a big fan of science. During high school, I also took welding classes at Emily Griffith Technical College to prepare for wartime work.",
+    "implicit_text": "I attended the southern high school in the Colorado capital, following in the footsteps of my family. I graduated early at sixteen in 1943, having skipped a grade earlier. I enjoyed math the most, though I wasn’t a big fan of science. During high school, I also took welding classes at a local technical college to prepare for wartime work.",
+    "cues": [
+      "South High School",
+      "Denver",
+      "graduated 1943",
+      "math",
+      "Emily Griffith Technical College"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\loc_afc2001001.96131.yaml"
+  },
+  {
+    "entity_id": 6,
+    "entity": "Great Depression (Event)",
+    "explicit_text": "I was very young during the Great Depression, so I don’t really remember much about it. My family seemed to manage okay; my dad kept his job at ACME and we didn’t experience much hardship that I recall. It was more during the war years that rationing and other challenges became noticeable to me.",
+    "implicit_text": "I was very young during the economic crisis of the 1930s, so I don’t really remember much about it. My family seemed to manage okay; my dad kept his job at the freight company and we didn’t experience much hardship that I recall. It was more during the war years that rationing and other challenges became noticeable to me.",
+    "cues": [
+      "Great Depression",
+      "young child",
+      "dad kept job",
+      "little personal memory"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\loc_afc2001001.96131.yaml"
+  },
+  {
+    "entity_id": 7,
+    "entity": "Emily Griffith Technical College (Organization)",
+    "explicit_text": "While I was still in high school, I attended Emily Griffith Technical College to take welding classes. This was during World War II, and learning welding helped me prepare for work in the war effort. The skills I gained there were important when I later worked at Hurt and Company, where welding was part of my job.",
+    "implicit_text": "While I was still in high school, I attended a technical college named after its founder to take welding classes. This was during World War II, and learning welding helped me prepare for work in the war effort. The skills I gained there were important when I later worked at a local manufacturing company, where welding was part of my job.",
+    "cues": [
+      "Emily Griffith Technical College",
+      "welding classes",
+      "World War II",
+      "preparation for Hurt and Company"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\loc_afc2001001.96131.yaml"
+  },
+  {
+    "entity_id": 8,
+    "entity": "Hurt and Company (Organization)",
+    "explicit_text": "After graduating high school in 1943, I started working at Hurt and Company, which was just a half block from my home on Kalamath Street in Denver. I began by running lathes and drill presses and did some spot welding once I was old enough. Hurt and Company gave me my first real job experience during the war years.",
+    "implicit_text": "After graduating high school in 1943, I started working at a company located just a half block from my home on Kalamath Street in the Colorado capital. I began by running lathes and drill presses and did some spot welding once I was old enough. That company gave me my first real job experience during the war years.",
+    "cues": [
+      "Hurt and Company",
+      "Kalamath Street",
+      "started work 1943",
+      "machine operation",
+      "spot welding"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\loc_afc2001001.96131.yaml"
+  },
+  {
+    "entity_id": 9,
+    "entity": "Boeing (Organization)",
+    "explicit_text": "During the war, Boeing was a major employer making planes like the B-17 and B-29 bombers. While I didn’t work directly for Boeing, the skills I learned in welding and machine work were part of the broader war effort that included companies like Boeing. The planes they built were critical to the war, and I felt proud to contribute in my own way through my work.",
+    "implicit_text": "During the war, a major aerospace manufacturer was a key employer making planes like the B-17 and B-29 bombers. While I didn’t work directly for that company, the skills I learned in welding and machine work were part of the broader war effort that included such manufacturers. The planes they built were critical to the war, and I felt proud to contribute in my own way through my work.",
+    "cues": [
+      "Boeing",
+      "World War II",
+      "B-17 Flying Fortress",
+      "B-29 Superfortress",
+      "war production"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\loc_afc2001001.96131.yaml"
+  },
+  {
+    "entity_id": 10,
+    "entity": "Boeing B-17 Flying Fortress (Work)",
+    "explicit_text": "The Boeing B-17 Flying Fortress was one of the iconic bombers during World War II. Although I didn’t work directly on the B-17, it was part of the war effort that shaped my life and work during those years. The planes like the B-17 were what we were all supporting through our industrial jobs back home.",
+    "implicit_text": "The B-17 Flying Fortress was one of the iconic bombers during World War II. Although I didn’t work directly on that model, it was part of the war effort that shaped my life and work during those years. The planes like that bomber were what we were all supporting through our industrial jobs back home.",
+    "cues": [
+      "Boeing B-17 Flying Fortress",
+      "World War II",
+      "war production",
+      "industrial support"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\loc_afc2001001.96131.yaml"
+  },
+  {
+    "entity_id": 11,
+    "entity": "Nita Downing (Person)",
+    "explicit_text": "Nita Downing was not directly mentioned in my story, so I don’t have personal memories or experiences with her. My focus was mainly on my family, schools, and work during the war years in Denver.",
+    "implicit_text": "That person was not directly mentioned in my story, so I don’t have personal memories or experiences with her. My focus was mainly on my family, schools, and work during the war years in the Colorado capital.",
+    "cues": [],
+    "transcript_ref": "veterans\\nevada_wwii\\loc_afc2001001.96131.yaml"
+  },
+  {
+    "entity_id": 12,
+    "entity": "Elitch Gardens (Place)",
+    "explicit_text": "Elitch Gardens was a popular place in Denver, but I didn’t mention going there in my memories. My childhood activities were more centered around family trips with my grandmother and local celebrations like the 4th of July at the Denver Country Club.",
+    "implicit_text": "A well-known amusement park in the Colorado capital was popular, but I didn’t mention going there in my memories. My childhood activities were more centered around family trips with my grandmother and local celebrations like the 4th of July at the country club.",
+    "cues": [],
+    "transcript_ref": "veterans\\nevada_wwii\\loc_afc2001001.96131.yaml"
+  },
+  {
+    "entity_id": 13,
+    "entity": "Boeing B-29 Superfortress (Work)",
+    "explicit_text": "The Boeing B-29 Superfortress was another important bomber during World War II. Like the B-17, I didn’t work directly on the B-29, but it was part of the larger war production effort that my welding and machine shop work supported. These planes were symbols of the industrial push during the war.",
+    "implicit_text": "The B-29 Superfortress was another important bomber during World War II. Like the B-17, I didn’t work directly on that model, but it was part of the larger war production effort that my welding and machine shop work supported. These planes were symbols of the industrial push during the war.",
+    "cues": [
+      "Boeing B-29 Superfortress",
+      "World War II",
+      "war production",
+      "industrial support"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\loc_afc2001001.96131.yaml"
+  },
+  {
+    "entity_id": 15,
+    "entity": "4th of July (Event)",
+    "explicit_text": "The 4th of July was always a big celebration for my family. We would buy firecrackers and set them off, and we often went to the Denver Country Club to watch their fabulous fireworks display. It was a joyful time filled with family and community spirit in Denver.",
+    "implicit_text": "The 4th of July was always a big celebration for my family. We would buy firecrackers and set them off, and we often went to the local country club to watch their fabulous fireworks display. It was a joyful time filled with family and community spirit in the Colorado capital.",
+    "cues": [
+      "4th of July",
+      "firecrackers",
+      "Denver Country Club",
+      "fireworks",
+      "family celebration"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\loc_afc2001001.96131.yaml"
+  },
+  {
+    "entity_id": 16,
+    "entity": "Denver Country Club (Organization)",
+    "explicit_text": "The Denver Country Club was a special place where my family celebrated holidays like the 4th of July. Located near Speer Boulevard and University, it hosted fireworks that were truly spectacular. Going there was a tradition and a highlight of our holiday celebrations in Denver.",
+    "implicit_text": "The country club in the Colorado capital was a special place where my family celebrated holidays like the 4th of July. Located near Speer Boulevard and University, it hosted fireworks that were truly spectacular. Going there was a tradition and a highlight of our holiday celebrations in the city.",
+    "cues": [
+      "Denver Country Club",
+      "Speer Boulevard",
+      "University",
+      "4th of July fireworks",
+      "family tradition"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\loc_afc2001001.96131.yaml"
+  },
+  {
+    "entity_id": 17,
+    "entity": "Weber Theatre (Place)",
+    "explicit_text": "The Weber Theatre was one of the movie theaters on South Broadway where I used to go as a teenager. To afford the movies, I would deliver flyers around the neighborhood and earn free tickets. It was a fun part of my youth, and I have fond memories of going to the Weber with my friends and family.",
+    "implicit_text": "The Weber Theatre was one of the movie theaters on South Broadway where I used to go as a teenager. To afford the movies, I would deliver flyers around the neighborhood and earn free tickets. It was a fun part of my youth, and I have fond memories of going there with my friends and family.",
+    "cues": [
+      "Weber Theatre",
+      "South Broadway",
+      "teenage years",
+      "delivering flyers",
+      "free movie tickets"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\loc_afc2001001.96131.yaml"
+  },
+  {
+    "entity_id": 18,
+    "entity": "Mayan Theatre (Place)",
+    "explicit_text": "The Mayan Theatre was another favorite movie spot for me in Denver, located near First Avenue. Like the Weber, I helped distribute flyers to get free tickets to see movies there. It was part of the entertainment and social life I enjoyed during high school.",
+    "implicit_text": "The Mayan Theatre was another favorite movie spot for me in the Colorado capital, located near First Avenue. Like the Weber, I helped distribute flyers to get free tickets to see movies there. It was part of the entertainment and social life I enjoyed during high school.",
+    "cues": [
+      "Mayan Theatre",
+      "First Avenue",
+      "moviegoing",
+      "distributing flyers",
+      "high school entertainment"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\loc_afc2001001.96131.yaml"
+  },
+  {
+    "entity_id": 19,
+    "entity": "Shirley Temple (Person)",
+    "explicit_text": "I once won a Shirley Temple doll at one of the movie theaters, which I treasured as a child. The theaters often gave away prizes, and that doll was very special to me, though I don’t remember what eventually happened to it. Shirley Temple was a beloved figure, and having that doll was a real joy.",
+    "implicit_text": "I once won a famous child actress doll at one of the movie theaters, which I treasured as a child. The theaters often gave away prizes, and that doll was very special to me, though I don’t remember what eventually happened to it. That actress was a beloved figure, and having that doll was a real joy.",
+    "cues": [
+      "Shirley Temple doll",
+      "movie theater prize",
+      "childhood",
+      "Denver theaters"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\loc_afc2001001.96131.yaml"
+  }
+]

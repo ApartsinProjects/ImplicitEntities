@@ -1,0 +1,122 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "Córdoba, Veracruz",
+    "explicit_text": "I am originally from Córdoba, Veracruz, Mexico, where I grew up in a small town surrounded by mountains and beautiful rivers. Life there was simple and active, and walking everywhere was part of my daily routine. The natural landscapes made me feel free and connected to my roots before I moved to the United States.",
+    "implicit_text": "I am originally from a small town in Veracruz, Mexico, surrounded by mountains and beautiful rivers. Life there was simple and active, and walking everywhere was part of my daily routine. The natural landscapes made me feel free and connected to my roots before I moved to the United States.",
+    "cues": [
+      "small town",
+      "mountains",
+      "rivers",
+      "Mexico",
+      "childhood"
+    ],
+    "transcript_ref": "immigration\\imm_umn_291_rafael_juarez_bibiano.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "Mexico",
+    "explicit_text": "I lived in Mexico until I was 17 years old, in a small town near Córdoba, Veracruz. Growing up there meant being close to nature and living an active lifestyle, mostly on foot. Moving from Mexico to the United States was a big change for me, especially in terms of language and culture.",
+    "implicit_text": "I lived in my home country until I was 17 years old, in a small town near Veracruz. Growing up there meant being close to nature and living an active lifestyle, mostly on foot. Moving from my home country to the United States was a big change for me, especially in terms of language and culture.",
+    "cues": [
+      "until 17 years old",
+      "small town",
+      "active lifestyle",
+      "moving to USA"
+    ],
+    "transcript_ref": "immigration\\imm_umn_291_rafael_juarez_bibiano.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "Minneapolis",
+    "explicit_text": "When I was 17, I moved to Minneapolis, Minnesota, which was very different from where I grew up. Minneapolis became my home base after traveling around the United States for two years. I bought a bicycle there and found biking to be my main way of getting around, especially enjoying the summer and even the challenging winters.",
+    "implicit_text": "When I was 17, I moved to a major city in Minnesota, which was very different from where I grew up. This city became my home base after traveling around the United States for two years. I bought a bicycle there and found biking to be my main way of getting around, especially enjoying the summer and even the challenging winters.",
+    "cues": [
+      "age 17",
+      "bicycle",
+      "home base",
+      "travel return",
+      "summer and winter biking"
+    ],
+    "transcript_ref": "immigration\\imm_umn_291_rafael_juarez_bibiano.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "Minnesota",
+    "explicit_text": "Minnesota is where I settled when I first came to the United States, specifically in Minneapolis. The state’s cold winters make biking challenging, but I still ride my bicycle through snow and icy roads. Living in Minnesota taught me resilience and helped me embrace a new lifestyle different from my hometown in Mexico.",
+    "implicit_text": "This northern state is where I settled when I first came to the United States, specifically in its largest city. The state’s cold winters make biking challenging, but I still ride my bicycle through snow and icy roads. Living there taught me resilience and helped me embrace a new lifestyle different from my hometown in Mexico.",
+    "cues": [
+      "state of Minneapolis",
+      "cold winters",
+      "biking in snow",
+      "new lifestyle"
+    ],
+    "transcript_ref": "immigration\\imm_umn_291_rafael_juarez_bibiano.yaml"
+  },
+  {
+    "entity_id": 5,
+    "entity": "United States",
+    "explicit_text": "I came to the United States at 17 and spent two years traveling across the country by train, exploring different cities and cultures. The diversity I experienced—from San Jose to Nashville to New York City—opened my eyes to the many ways people live and speak English. This journey helped me grow confident and understand that being unique is what makes this country special.",
+    "implicit_text": "I came to this country at 17 and spent two years traveling across it by train, exploring different cities and cultures. The diversity I experienced—from a city in California to one in Tennessee to the big metropolis on the East Coast—opened my eyes to the many ways people live and speak English. This journey helped me grow confident and understand that being unique is what makes this country special.",
+    "cues": [
+      "age 17 arrival",
+      "two years traveling",
+      "diverse cities",
+      "learning English",
+      "cultural diversity"
+    ],
+    "transcript_ref": "immigration\\imm_umn_291_rafael_juarez_bibiano.yaml"
+  },
+  {
+    "entity_id": 6,
+    "entity": "San Jose, California",
+    "explicit_text": "During my travels around the United States, I stopped in San Jose, California, where I noticed Spanish music playing on the radio. This was one of the first places where I realized how diverse the country is, with different regions having their own cultural flavors. San Jose represented a connection to my Hispanic roots within the broader American landscape.",
+    "implicit_text": "During my travels around the country, I stopped in a city in California’s Silicon Valley, where I noticed Spanish music playing on the radio. This was one of the first places where I realized how diverse the country is, with different regions having their own cultural flavors. This city represented a connection to my Hispanic roots within the broader American landscape.",
+    "cues": [
+      "travel stop",
+      "Spanish music",
+      "cultural diversity",
+      "California"
+    ],
+    "transcript_ref": "immigration\\imm_umn_291_rafael_juarez_bibiano.yaml"
+  },
+  {
+    "entity_id": 7,
+    "entity": "Nashville, Tennessee",
+    "explicit_text": "While traveling by train, I passed through Nashville, Tennessee, where I heard country music on the radio. This was a striking contrast to the Spanish music I heard in San Jose and the hip-hop in New York City. Nashville showed me the regional differences in culture and language across the United States.",
+    "implicit_text": "While traveling by train, I passed through a city in Tennessee known for its country music scene, where I heard country music on the radio. This was a striking contrast to the Spanish music I heard in California and the hip-hop in the big East Coast city. This city showed me the regional differences in culture and language across the United States.",
+    "cues": [
+      "train travel",
+      "country music",
+      "regional culture",
+      "Tennessee"
+    ],
+    "transcript_ref": "immigration\\imm_umn_291_rafael_juarez_bibiano.yaml"
+  },
+  {
+    "entity_id": 8,
+    "entity": "New York City",
+    "explicit_text": "New York City was one of the stops on my two-year journey across the United States, where I listened to hip-hop music on the radio. The city’s energy and diversity stood out to me as part of the broader mosaic of American life. Experiencing New York helped me appreciate how varied and unique each place in the country can be.",
+    "implicit_text": "This major East Coast metropolis was one of the stops on my two-year journey across the country, where I listened to hip-hop music on the radio. The city’s energy and diversity stood out to me as part of the broader mosaic of American life. Experiencing this place helped me appreciate how varied and unique each place in the country can be.",
+    "cues": [
+      "travel stop",
+      "hip-hop music",
+      "diversity",
+      "city energy"
+    ],
+    "transcript_ref": "immigration\\imm_umn_291_rafael_juarez_bibiano.yaml"
+  },
+  {
+    "entity_id": 9,
+    "entity": "Twin Cities",
+    "explicit_text": "Back in Minneapolis and the surrounding Twin Cities area, I found a vibrant biking community, especially during the short summer months. Even when winter arrives with snow and ice, I continue biking, which surprises many people. The Twin Cities have become a place where I feel free and connected, much like my hometown in Mexico but with new challenges and joys.",
+    "implicit_text": "Back in the largest city in Minnesota and its neighboring city, I found a vibrant biking community, especially during the short summer months. Even when winter arrives with snow and ice, I continue biking, which surprises many people. This metropolitan area has become a place where I feel free and connected, much like my hometown in Mexico but with new challenges and joys.",
+    "cues": [
+      "Minneapolis and St. Paul",
+      "biking community",
+      "summer and winter biking",
+      "feeling free"
+    ],
+    "transcript_ref": "immigration\\imm_umn_291_rafael_juarez_bibiano.yaml"
+  }
+]

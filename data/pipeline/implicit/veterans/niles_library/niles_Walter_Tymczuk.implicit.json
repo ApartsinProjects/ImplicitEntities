@@ -1,0 +1,344 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "Jan Schakowsky",
+    "explicit_text": "I first learned about the Veterans History Project through Jan Schakowsky, the Representative. She was also involved in the dedication of the World War II Memorial on May 29th, which I attended. Jan Schakowsky helped connect me to resources like the Niles Library for veterans' history.",
+    "implicit_text": "I first learned about the Veterans History Project through the Representative from Illinois. She was also involved in the dedication of the World War II Memorial on May 29th, which I attended. This Congresswoman helped connect me to resources like the Niles Library for veterans' history.",
+    "cues": [
+      "Veterans History Project",
+      "Representative",
+      "World War II Memorial dedication",
+      "May 29th",
+      "Niles Library"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_Walter_Tymczuk.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "World War II Memorial",
+    "explicit_text": "I was present at the dedication of the World War II Memorial on May 29th, which was an important event for veterans like me. It was through this dedication that I became aware of the Veterans History Project. The Memorial stands as a tribute to those who served in the war, and it brought many of us together to remember our experiences.",
+    "implicit_text": "I was present at the dedication of the national monument honoring those who served in the Second World War on May 29th, which was an important event for veterans like me. It was through this dedication that I became aware of the Veterans History Project. The monument stands as a tribute to those who served in the war, and it brought many of us together to remember our experiences.",
+    "cues": [
+      "dedication",
+      "May 29th",
+      "veterans",
+      "tribute",
+      "World War II"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_Walter_Tymczuk.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "Chicago",
+    "explicit_text": "I lived in Chicago before I was drafted into the Army in December 1942. I worked there as a spot welder for the Industrial Land Company, making disk lamps and stove lamps. Chicago was home to me before the war changed everything.",
+    "implicit_text": "I lived in the major Midwestern city known for its deep-dish pizza and lakefront before I was drafted into the Army in December 1942. I worked there as a spot welder for the Industrial Land Company, making disk lamps and stove lamps. That city was home to me before the war changed everything.",
+    "cues": [
+      "lived",
+      "worked",
+      "Industrial Land Company",
+      "spot welder",
+      "December 2, 1942"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_Walter_Tymczuk.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "Camp Grant",
+    "explicit_text": "After being inducted in December 1942, I was sent to Camp Grant where we were examined and given IQ tests. It was one of the first places I trained before being assigned to Camp Claiborne in Louisiana. Camp Grant was the starting point of my military journey.",
+    "implicit_text": "After being inducted in December 1942, I was sent to the military training facility near Rockford, Illinois, where we were examined and given IQ tests. It was one of the first places I trained before being assigned to a camp in Louisiana. That camp was the starting point of my military journey.",
+    "cues": [
+      "December 2, 1942",
+      "examinations",
+      "IQ test",
+      "initial training"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_Walter_Tymczuk.yaml"
+  },
+  {
+    "entity_id": 5,
+    "entity": "Camp Claiborne",
+    "explicit_text": "I was assigned to Camp Claiborne, Louisiana, for basic training and maneuvers in the swamps. It was tough training in harsh conditions, but it prepared us for what was to come overseas. Camp Claiborne was where I learned the basics of soldiering.",
+    "implicit_text": "I was assigned to the training camp in Louisiana for basic training and maneuvers in the swamps. It was tough training in harsh conditions, but it prepared us for what was to come overseas. That camp was where I learned the basics of soldiering.",
+    "cues": [
+      "basic training",
+      "maneuvers",
+      "swamps",
+      "Louisiana",
+      "Camp Claiborne"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_Walter_Tymczuk.yaml"
+  },
+  {
+    "entity_id": 6,
+    "entity": "Louisiana",
+    "explicit_text": "I spent part of my training in Louisiana at Camp Claiborne, where we did basic training and maneuvers in the swamps. The environment was challenging, but it was an important part of my preparation for the war. Louisiana was a key location in my early military experience.",
+    "implicit_text": "I spent part of my training in the southern U.S. state known for its bayous and jazz music at a camp where we did basic training and maneuvers in the swamps. The environment was challenging, but it was an important part of my preparation for the war. That state was a key location in my early military experience.",
+    "cues": [
+      "Camp Claiborne",
+      "basic training",
+      "maneuvers",
+      "swamps"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_Walter_Tymczuk.yaml"
+  },
+  {
+    "entity_id": 7,
+    "entity": "Fort Howze",
+    "explicit_text": "After training in Louisiana, I was shipped to Fort Howze in Texas for further preparation before heading overseas. Fort Howze was the last stop in the States before we boarded ships to England in December 1943. It was a crucial staging area for us soldiers.",
+    "implicit_text": "After training in Louisiana, I was shipped to a Texas military installation for further preparation before heading overseas. This base was the last stop in the States before we boarded ships to England in December 1943. It was a crucial staging area for us soldiers.",
+    "cues": [
+      "Texas",
+      "Fort Howze",
+      "preparation",
+      "December 1943",
+      "overseas deployment"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_Walter_Tymczuk.yaml"
+  },
+  {
+    "entity_id": 8,
+    "entity": "England",
+    "explicit_text": "We landed in England around December 15th or 16th, 1943, and took a train to southern England where we camped in tents for a few days. England was our base before the invasion of France. It was cold and open fields, but it was where we gathered strength for the next phase.",
+    "implicit_text": "We landed in the United Kingdom around December 15th or 16th, 1943, and took a train to southern England where we camped in tents for a few days. That country was our base before the invasion of France. It was cold and open fields, but it was where we gathered strength for the next phase.",
+    "cues": [
+      "December 1943",
+      "train",
+      "southern England",
+      "tents",
+      "preparation for invasion"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_Walter_Tymczuk.yaml"
+  },
+  {
+    "entity_id": 9,
+    "entity": "France",
+    "explicit_text": "We landed on the beach in France on the 20th during a severe thunderstorm with rough waters. The terrain was muddy and treacherous, and the Germans shelled us heavily as we advanced. We waited for Patton's tanks to organize before pushing forward and eventually moved through France toward Paris and beyond.",
+    "implicit_text": "We landed on the beach in northern France on the 20th during a severe thunderstorm with rough waters. The terrain was muddy and treacherous, and the Germans shelled us heavily as we advanced. We waited for the general known for his aggressive armored tactics to organize before pushing forward and eventually moved through France toward its capital and beyond.",
+    "cues": [
+      "landed on beach",
+      "20th",
+      "severe thunderstorm",
+      "muddy roads",
+      "Patton's tanks",
+      "advance through France"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_Walter_Tymczuk.yaml"
+  },
+  {
+    "entity_id": 10,
+    "entity": "George S. Patton",
+    "explicit_text": "General George S. Patton played a key role in our advance after we landed in France. We waited for him to bring his tanks before pushing the Germans back. Patton's leadership was crucial as we moved through France, and later we followed his tanks as we marched and mopped up after him.",
+    "implicit_text": "The general famous for his rapid tank advances played a key role in our advance after we landed in France. We waited for him to bring his tanks before pushing the Germans back. His leadership was crucial as we moved through France, and later we followed his tanks as we marched and mopped up after him.",
+    "cues": [
+      "Patton",
+      "tanks",
+      "France",
+      "advance",
+      "leadership"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_Walter_Tymczuk.yaml"
+  },
+  {
+    "entity_id": 11,
+    "entity": "Paris",
+    "explicit_text": "We stopped outside Paris because the French wanted to take their own city to avoid destruction. After they secured Paris, we turned our attention toward Belgium and Luxembourg. Paris was a significant moment in our campaign as the French reclaimed their capital.",
+    "implicit_text": "We stopped outside the French capital because the French wanted to take their own city to avoid destruction. After they secured the capital, we turned our attention toward Belgium and Luxembourg. That city was a significant moment in our campaign as the French reclaimed their capital.",
+    "cues": [
+      "outside Paris",
+      "French liberation",
+      "avoiding destruction",
+      "turning toward Belgium and Luxembourg"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_Walter_Tymczuk.yaml"
+  },
+  {
+    "entity_id": 12,
+    "entity": "Belgium",
+    "explicit_text": "We advanced into Belgium but faced heavy German shelling. I was injured by shrapnel there during a close shell explosion. Belgium was a dangerous part of the campaign, especially as the Battle of the Bulge was about to break out.",
+    "implicit_text": "We advanced into the Western European country known for its chocolates and waffles but faced heavy German shelling. I was injured by shrapnel there during a close shell explosion. That country was a dangerous part of the campaign, especially as the Battle of the Bulge was about to break out.",
+    "cues": [
+      "advance",
+      "German shelling",
+      "shrapnel injury",
+      "Battle of the Bulge",
+      "Belgium"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_Walter_Tymczuk.yaml"
+  },
+  {
+    "entity_id": 13,
+    "entity": "Luxembourg",
+    "explicit_text": "Our forces moved through Luxembourg as part of the push after Paris. The fighting was intense, and the Germans set up strong defenses. Luxembourg was part of the route we took before the Battle of the Bulge forced us to be pulled out to help elsewhere.",
+    "implicit_text": "Our forces moved through the small European country bordered by Belgium and France as part of the push after the French capital. The fighting was intense, and the Germans set up strong defenses. That country was part of the route we took before the Battle of the Bulge forced us to be pulled out to help elsewhere.",
+    "cues": [
+      "advance",
+      "strong German defenses",
+      "route after Paris",
+      "Battle of the Bulge"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_Walter_Tymczuk.yaml"
+  },
+  {
+    "entity_id": 14,
+    "entity": "Battle of the Bulge",
+    "explicit_text": "The Battle of the Bulge was a major event where we were pulled out to help after fighting up to the Rhine River. It was intense, and during that time I was mentally affected and sent to a first aid station before being sent home. The battle marked the end of my frontline service after six months overseas.",
+    "implicit_text": "The major winter battle in the Ardennes forest was a major event where we were pulled out to help after fighting up to the Rhine River. It was intense, and during that time I was mentally affected and sent to a first aid station before being sent home. That battle marked the end of my frontline service after six months overseas.",
+    "cues": [
+      "Battle of the Bulge",
+      "Rhine River",
+      "mental strain",
+      "first aid station",
+      "sent home"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_Walter_Tymczuk.yaml"
+  },
+  {
+    "entity_id": 15,
+    "entity": "Rhine River",
+    "explicit_text": "We fought up to the Rhine River before the Battle of the Bulge broke out. The Rhine represented a key geographic milestone in the European campaign. After reaching it, we were redirected to respond to the German offensive in the Ardennes.",
+    "implicit_text": "We fought up to the major European river that marked a key geographic milestone in the campaign before the Battle of the Bulge broke out. After reaching it, we were redirected to respond to the German offensive in the Ardennes.",
+    "cues": [
+      "fighting up to Rhine River",
+      "European campaign",
+      "redirected to Battle of the Bulge"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_Walter_Tymczuk.yaml"
+  },
+  {
+    "entity_id": 16,
+    "entity": "Tennessee",
+    "explicit_text": "After being wounded and mentally affected, I was sent to a hospital in Tennessee for treatment. It was the closest mental hospital to my home at the time. Tennessee was part of my recovery before being transferred to Fort Custer in Michigan.",
+    "implicit_text": "After being wounded and mentally affected, I was sent to a hospital in the southeastern U.S. state known for its country music and whiskey for treatment. It was the closest mental hospital to my home at the time. That state was part of my recovery before being transferred to a military hospital in Michigan.",
+    "cues": [
+      "mental hospital",
+      "treatment",
+      "closest to home",
+      "Tennessee"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_Walter_Tymczuk.yaml"
+  },
+  {
+    "entity_id": 17,
+    "entity": "Battle Creek, Michigan",
+    "explicit_text": "I was sent to Fort Custer Hospital in Battle Creek, Michigan, after my time in Tennessee. That’s where I received further care and eventually got my discharge from the Army. Battle Creek was the final stop before I returned home.",
+    "implicit_text": "I was sent to the military hospital in Battle Creek, Michigan, after my time in Tennessee. That’s where I received further care and eventually got my discharge from the Army. That city was the final stop before I returned home.",
+    "cues": [
+      "Fort Custer Hospital",
+      "Battle Creek",
+      "discharge",
+      "post-war care"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_Walter_Tymczuk.yaml"
+  },
+  {
+    "entity_id": 18,
+    "entity": "Fort Custer",
+    "explicit_text": "Fort Custer in Michigan was where I was hospitalized after being pulled from the front lines. I stayed there until I was discharged from the Army. Fort Custer marked the end of my military service and the beginning of my return to civilian life.",
+    "implicit_text": "The military installation in Michigan was where I was hospitalized after being pulled from the front lines. I stayed there until I was discharged from the Army. That base marked the end of my military service and the beginning of my return to civilian life.",
+    "cues": [
+      "hospitalized",
+      "Michigan",
+      "discharge",
+      "end of service"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_Walter_Tymczuk.yaml"
+  },
+  {
+    "entity_id": 19,
+    "entity": "Industrial Land Company",
+    "explicit_text": "Before the war, I worked for the Industrial Land Company in Chicago as a spot welder. We made disk lamps and stove lamps, and later cat-eyes for tanks and jeeps for night driving. The company moved to Indiana after the war, but I chose not to follow.",
+    "implicit_text": "Before the war, I worked for a manufacturing company in Chicago as a spot welder. We made disk lamps and stove lamps, and later cat-eyes for tanks and jeeps for night driving. The company moved to Indiana after the war, but I chose not to follow.",
+    "cues": [
+      "Chicago",
+      "spot welder",
+      "disk lamps",
+      "cat-eyes for tanks",
+      "post-war move"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_Walter_Tymczuk.yaml"
+  },
+  {
+    "entity_id": 20,
+    "entity": "Dryden Rubber Company",
+    "explicit_text": "After the war, I worked at Dryden Rubber Company as a stock boy and cleanup boy because my disability limited my job options. It was hard work, but I needed to support myself. I eventually had a disagreement with my supervisor and left the job.",
+    "implicit_text": "After the war, I worked at a rubber company as a stock boy and cleanup boy because my disability limited my job options. It was hard work, but I needed to support myself. I eventually had a disagreement with my supervisor and left the job.",
+    "cues": [
+      "post-war employment",
+      "stock boy",
+      "cleanup",
+      "disability",
+      "Dryden Rubber Company"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_Walter_Tymczuk.yaml"
+  },
+  {
+    "entity_id": 21,
+    "entity": "Montgomery Ward",
+    "explicit_text": "Later on, I worked for Montgomery Ward among other jobs. I did various tasks and got jobs for others as well. It was part of my effort to rebuild my life after the war and the challenges I faced with employment.",
+    "implicit_text": "Later on, I worked for a major American retail company among other jobs. I did various tasks and got jobs for others as well. It was part of my effort to rebuild my life after the war and the challenges I faced with employment.",
+    "cues": [
+      "post-war work",
+      "various jobs",
+      "Montgomery Ward",
+      "rebuilding life"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_Walter_Tymczuk.yaml"
+  },
+  {
+    "entity_id": 22,
+    "entity": "Civilian Conservation Corps",
+    "explicit_text": "Before the war, I joined the Civilian Conservation Corps when I was about sixteen or seventeen in Wisconsin. I worked planting evergreens and received $21 a month with clothing and food provided. It was a better deal than my previous farm job and gave me some early work experience.",
+    "implicit_text": "Before the war, I joined the New Deal program when I was about sixteen or seventeen in Wisconsin. I worked planting evergreens and received $21 a month with clothing and food provided. It was a better deal than my previous farm job and gave me some early work experience.",
+    "cues": [
+      "Civilian Conservation Corps",
+      "Wisconsin",
+      "planting evergreens",
+      "age sixteen or seventeen",
+      "early work experience"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_Walter_Tymczuk.yaml"
+  },
+  {
+    "entity_id": 23,
+    "entity": "Normandy landings",
+    "explicit_text": "I was part of the Normandy landings in 1944, though I don't know exactly which beach we landed on. It was pitch black and very rough with a severe thunderstorm. The landing was difficult, with steep cliffs and mud, and many of my buddies were killed during the invasion.",
+    "implicit_text": "I was part of the massive Allied amphibious invasion in 1944, though I don't know exactly which beach we landed on. It was pitch black and very rough with a severe thunderstorm. The landing was difficult, with steep cliffs and mud, and many of my buddies were killed during the invasion.",
+    "cues": [
+      "Normandy landings",
+      "1944",
+      "pitch black",
+      "severe thunderstorm",
+      "steep cliffs",
+      "high casualties"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_Walter_Tymczuk.yaml"
+  },
+  {
+    "entity_id": 24,
+    "entity": "Saint-Lô",
+    "explicit_text": "I remember going through Saint-Lô during the campaign in France. The town was still smoldering and on fire from the fighting. Saint-Lô was a key location near where we landed and fought through some very difficult terrain.",
+    "implicit_text": "I remember going through the heavily bombed town in Normandy during the campaign in France. The town was still smoldering and on fire from the fighting. That town was a key location near where we landed and fought through some very difficult terrain.",
+    "cues": [
+      "Saint-Lô",
+      "France",
+      "smoldering town",
+      "key location",
+      "campaign"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_Walter_Tymczuk.yaml"
+  },
+  {
+    "entity_id": 25,
+    "entity": "Saving Private Ryan",
+    "explicit_text": "I heard about the movie Saving Private Ryan, which depicts the kind of fighting we experienced during the war. While I didn't mention it directly in my story, the movie captures the intensity and hardship of the battles like the Normandy landings and the push through France. It resonates with many veterans' experiences.",
+    "implicit_text": "I heard about the movie that depicts the kind of fighting we experienced during the war. While I didn't mention it directly in my story, the movie captures the intensity and hardship of the battles like the Normandy landings and the push through France. It resonates with many veterans' experiences.",
+    "cues": [
+      "Saving Private Ryan",
+      "war depiction",
+      "Normandy landings",
+      "battle intensity",
+      "veterans' experiences"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_Walter_Tymczuk.yaml"
+  }
+]

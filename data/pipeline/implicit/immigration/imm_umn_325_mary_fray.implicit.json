@@ -1,0 +1,249 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "Mary Fray",
+    "explicit_text": "My grandmother, Mary Fray, was born Anna Maria DiMillo in Italy in 1925. She immigrated to the United States as a child and eventually settled in Chicago, where she studied at the Art Institute of Chicago and worked at the USO during World War II. She married William Fray in the early 1950s and balanced her Italian heritage with her new American life. Mary always cherished her family and her love for Italy, especially Rome.",
+    "implicit_text": "My grandmother was born Anna Maria DiMillo in Italy in 1925. She immigrated to the United States as a child and eventually settled in Chicago, where she studied at a renowned art school and worked at the USO during World War II. She married William Fray in the early 1950s and balanced her Italian heritage with her new American life. She always cherished her family and her love for Italy, especially its capital city.",
+    "cues": [
+      "born 1925",
+      "Italy",
+      "immigrated to US",
+      "Art Institute of Chicago",
+      "USO",
+      "World War II",
+      "married William Fray",
+      "Chicago",
+      "Italy heritage"
+    ],
+    "transcript_ref": "immigration\\imm_umn_325_mary_fray.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "Italy",
+    "explicit_text": "Italy is where my grandmother was born and spent her early childhood, specifically in Roccamarice, Pescara province. Life became difficult there under Benito Mussolini's Fascist government, which led her family to emigrate to the United States in the early 1930s. Despite living most of her life in America, my grandmother always loved Italy, especially its culture and opera, and wished to return to Rome one day.",
+    "implicit_text": "The country where my grandmother was born and spent her early childhood, specifically in a small town in the Pescara province. Life became difficult there under the Fascist government led by Benito Mussolini, which led her family to emigrate to the United States in the early 1930s. Despite living most of her life in America, my grandmother always loved this country, especially its culture and opera, and wished to return to its capital one day.",
+    "cues": [
+      "birthplace",
+      "Roccamarice",
+      "Pescara",
+      "Fascist government",
+      "Benito Mussolini",
+      "emigration",
+      "love for Italy",
+      "Rome"
+    ],
+    "transcript_ref": "immigration\\imm_umn_325_mary_fray.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "Roccamarice",
+    "explicit_text": "Roccamarice is the small town in the Pescara province of Italy where my grandmother was born in 1925. She had a happy childhood there with her parents and siblings before the Fascist regime made life difficult. It was from Roccamarice that her family decided to leave Italy in search of a better life in the United States.",
+    "implicit_text": "This small town in the Pescara province of Italy is where my grandmother was born in 1925. She had a happy childhood there with her parents and siblings before the Fascist regime made life difficult. It was from this town that her family decided to leave Italy in search of a better life in the United States.",
+    "cues": [
+      "birthplace",
+      "1925",
+      "Pescara province",
+      "childhood",
+      "Fascist regime",
+      "emigration"
+    ],
+    "transcript_ref": "immigration\\imm_umn_325_mary_fray.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "Pescara",
+    "explicit_text": "Pescara is the province in Italy where my grandmother's hometown, Roccamarice, is located. It was part of the region she grew up in before emigrating to the United States. The political and social difficulties in Pescara under Mussolini's government influenced her family's decision to leave Italy.",
+    "implicit_text": "This province in Italy is where my grandmother's hometown is located. It was part of the region she grew up in before emigrating to the United States. The political and social difficulties in this area under Mussolini's government influenced her family's decision to leave Italy.",
+    "cues": [
+      "province",
+      "Roccamarice",
+      "Italy",
+      "Fascist government",
+      "emigration"
+    ],
+    "transcript_ref": "immigration\\imm_umn_325_mary_fray.yaml"
+  },
+  {
+    "entity_id": 5,
+    "entity": "Benito Mussolini",
+    "explicit_text": "Benito Mussolini was the Fascist leader of Italy whose government took control when my grandmother was a young child. His regime made life hard for families like hers in small towns such as Roccamarice, even seizing property like their ski resort. This oppressive environment was a major reason her family decided to emigrate to the United States.",
+    "implicit_text": "The Fascist leader of Italy whose government took control when my grandmother was a young child. His regime made life hard for families like hers in small towns such as her birthplace, even seizing property like their ski resort. This oppressive environment was a major reason her family decided to emigrate to the United States.",
+    "cues": [
+      "Fascist leader",
+      "Italy",
+      "small towns",
+      "property seizure",
+      "emigration"
+    ],
+    "transcript_ref": "immigration\\imm_umn_325_mary_fray.yaml"
+  },
+  {
+    "entity_id": 6,
+    "entity": "United States",
+    "explicit_text": "The United States became my grandmother's new home after she immigrated from Italy as a child in the early 1930s. She first settled in Portland, Maine, where she learned English and went to Portland High School, graduating in 1942. Later, she moved to Chicago to study at the Art Institute and worked at the USO during World War II, embracing her new life while maintaining her Italian roots.",
+    "implicit_text": "This country became my grandmother's new home after she immigrated from Italy as a child in the early 1930s. She first settled in Portland, Maine, where she learned English and went to Portland High School, graduating in 1942. Later, she moved to Chicago to study at the Art Institute and worked at the USO during World War II, embracing her new life while maintaining her Italian roots.",
+    "cues": [
+      "immigration",
+      "Portland, Maine",
+      "Portland High School",
+      "Chicago",
+      "Art Institute of Chicago",
+      "USO",
+      "World War II"
+    ],
+    "transcript_ref": "immigration\\imm_umn_325_mary_fray.yaml"
+  },
+  {
+    "entity_id": 7,
+    "entity": "Ellis Island",
+    "explicit_text": "Ellis Island was the entry point to the United States for my grandmother, her mother, and sister when they immigrated from Italy. They were initially denied entry due to an eye problem my grandmother had, but after treatment in Italy, they were admitted a year later. Ellis Island represents the beginning of her new life in America.",
+    "implicit_text": "The entry point to the United States for my grandmother, her mother, and sister when they immigrated from Italy. They were initially denied entry due to an eye problem my grandmother had, but after treatment back in Italy, they were admitted a year later. This place represents the beginning of her new life in America.",
+    "cues": [
+      "immigration",
+      "entry point",
+      "denied entry",
+      "eye treatment",
+      "admitted",
+      "United States"
+    ],
+    "transcript_ref": "immigration\\imm_umn_325_mary_fray.yaml"
+  },
+  {
+    "entity_id": 8,
+    "entity": "Portland, Maine",
+    "explicit_text": "Portland, Maine was where my grandmother and her family settled after arriving in the United States. She grew up there as an Italian immigrant during the 1930s and 40s, learning English and attending Portland High School, from which she graduated in 1942. It was a place of both challenge and growth before she moved to Chicago to pursue further education.",
+    "implicit_text": "This city in Maine was where my grandmother and her family settled after arriving in the United States. She grew up there as an Italian immigrant during the 1930s and 40s, learning English and attending the local high school, from which she graduated in 1942. It was a place of both challenge and growth before she moved to Chicago to pursue further education.",
+    "cues": [
+      "settlement",
+      "1930s and 40s",
+      "Italian immigrant",
+      "Portland High School",
+      "graduated 1942"
+    ],
+    "transcript_ref": "immigration\\imm_umn_325_mary_fray.yaml"
+  },
+  {
+    "entity_id": 9,
+    "entity": "Portland High School",
+    "explicit_text": "Portland High School is where my grandmother completed her education after immigrating to the United States. She graduated in 1942, having adapted quickly to learning English and American culture while maintaining her Italian identity. This school was a stepping stone before she moved to Chicago to attend the Art Institute.",
+    "implicit_text": "The high school where my grandmother completed her education after immigrating to the United States. She graduated in 1942, having adapted quickly to learning English and American culture while maintaining her Italian identity. This school was a stepping stone before she moved to Chicago to attend art school.",
+    "cues": [
+      "education",
+      "graduated 1942",
+      "Portland, Maine",
+      "immigrant experience"
+    ],
+    "transcript_ref": "immigration\\imm_umn_325_mary_fray.yaml"
+  },
+  {
+    "entity_id": 10,
+    "entity": "Chicago",
+    "explicit_text": "Chicago was the city my grandmother moved to after graduating high school in 1942. There, she attended the Art Institute of Chicago to study fabric and design and worked as a hostess at the USO during World War II. It was in Chicago that she met and married William Fray, blending Italian and Swedish cultures in her new life.",
+    "implicit_text": "The city my grandmother moved to after graduating high school in 1942. There, she attended a prestigious art institute to study fabric and design and worked as a hostess at the USO during World War II. It was in this city that she met and married William Fray, blending Italian and Swedish cultures in her new life.",
+    "cues": [
+      "moved after 1942",
+      "Art Institute of Chicago",
+      "USO hostess",
+      "World War II",
+      "marriage to William Fray"
+    ],
+    "transcript_ref": "immigration\\imm_umn_325_mary_fray.yaml"
+  },
+  {
+    "entity_id": 11,
+    "entity": "Art Institute of Chicago",
+    "explicit_text": "The Art Institute of Chicago is where my grandmother studied fabric and design after moving from Portland. She attended there during the early 1940s, balancing her studies with work at the USO during World War II. This education helped shape her new life in Chicago and her career path.",
+    "implicit_text": "The art school in Chicago where my grandmother studied fabric and design after moving from Portland. She attended there during the early 1940s, balancing her studies with work at the USO during World War II. This education helped shape her new life in Chicago and her career path.",
+    "cues": [
+      "studied fabric and design",
+      "early 1940s",
+      "Chicago",
+      "USO",
+      "World War II"
+    ],
+    "transcript_ref": "immigration\\imm_umn_325_mary_fray.yaml"
+  },
+  {
+    "entity_id": 12,
+    "entity": "United Service Organizations",
+    "explicit_text": "During World War II, my grandmother worked as a hostess at the United Service Organizations, or USO, in Chicago. This role allowed her to contribute to the war effort while enjoying a lively social life with new friends. It was an exciting and meaningful part of her young adult years.",
+    "implicit_text": "During World War II, my grandmother worked as a hostess at the United Service Organizations in Chicago. This role allowed her to contribute to the war effort while enjoying a lively social life with new friends. It was an exciting and meaningful part of her young adult years.",
+    "cues": [
+      "USO hostess",
+      "World War II",
+      "Chicago",
+      "social life",
+      "war effort"
+    ],
+    "transcript_ref": "immigration\\imm_umn_325_mary_fray.yaml"
+  },
+  {
+    "entity_id": 13,
+    "entity": "World War II",
+    "explicit_text": "World War II was a significant backdrop during my grandmother's young adulthood. While living in Chicago, she worked at the USO to support the troops, and two of her brothers served in the U.S. Army. The war years shaped much of her experience as an immigrant and a young woman in America.",
+    "implicit_text": "World War II was a significant backdrop during my grandmother's young adulthood. While living in Chicago, she worked at the USO to support the troops, and two of her brothers served in the U.S. Army. The war years shaped much of her experience as an immigrant and a young woman in America.",
+    "cues": [
+      "1940s",
+      "USO work",
+      "brothers in U.S. Army",
+      "Chicago",
+      "immigrant experience"
+    ],
+    "transcript_ref": "immigration\\imm_umn_325_mary_fray.yaml"
+  },
+  {
+    "entity_id": 14,
+    "entity": "William Fray",
+    "explicit_text": "William Fray was my grandmother's husband, whom she met in Chicago after moving there post-high school. His mother was a Swedish immigrant, so their marriage in the early 1950s brought together Italian and Swedish cultures. Together, they built a family in Geneva, Illinois, blending traditions from both backgrounds.",
+    "implicit_text": "He was my grandmother's husband, whom she met in Chicago after moving there post-high school. His mother was a Swedish immigrant, so their marriage in the early 1950s brought together Italian and Swedish cultures. Together, they built a family in Geneva, Illinois, blending traditions from both backgrounds.",
+    "cues": [
+      "husband",
+      "met in Chicago",
+      "married early 1950s",
+      "Swedish immigrant mother",
+      "Geneva, Illinois"
+    ],
+    "transcript_ref": "immigration\\imm_umn_325_mary_fray.yaml"
+  },
+  {
+    "entity_id": 15,
+    "entity": "Sweden",
+    "explicit_text": "Sweden is connected to my grandmother through her husband William Fray’s mother, who was a Swedish immigrant. This brought a blending of cultures into her family life after she married William in the 1950s. Though Italian by birth, my grandmother embraced this multicultural family environment in Illinois.",
+    "implicit_text": "This country is connected to my grandmother through her husband’s mother, who was a Swedish immigrant. This brought a blending of cultures into her family life after she married in the 1950s. Though Italian by birth, my grandmother embraced this multicultural family environment in Illinois.",
+    "cues": [
+      "Swedish immigrant mother-in-law",
+      "marriage 1950s",
+      "cultural blending",
+      "Illinois"
+    ],
+    "transcript_ref": "immigration\\imm_umn_325_mary_fray.yaml"
+  },
+  {
+    "entity_id": 16,
+    "entity": "United States Army",
+    "explicit_text": "Two of my grandmother’s brothers served in the United States Army during World War II. Their service was a source of pride for the family and connected them deeply to their new country. It was a time of sacrifice and commitment that affected the whole family while they were building their lives in America.",
+    "implicit_text": "Two of my grandmother’s brothers served in the U.S. military during World War II. Their service was a source of pride for the family and connected them deeply to their new country. It was a time of sacrifice and commitment that affected the whole family while they were building their lives in America.",
+    "cues": [
+      "brothers",
+      "served in U.S. Army",
+      "World War II",
+      "family pride",
+      "immigrant family"
+    ],
+    "transcript_ref": "immigration\\imm_umn_325_mary_fray.yaml"
+  },
+  {
+    "entity_id": 17,
+    "entity": "Rome",
+    "explicit_text": "Rome, the Eternal City, held a special place in my grandmother’s heart throughout her life. Despite living most of her years in the United States, she always wished for her grandchildren to bring her back to Rome. It symbolized her deep connection to her Italian roots and culture.",
+    "implicit_text": "The Eternal City held a special place in my grandmother’s heart throughout her life. Despite living most of her years in the United States, she always wished for her grandchildren to bring her back there. It symbolized her deep connection to her Italian roots and culture.",
+    "cues": [
+      "Rome",
+      "Eternal City",
+      "Italian heritage",
+      "wish to return",
+      "family connection"
+    ],
+    "transcript_ref": "immigration\\imm_umn_325_mary_fray.yaml"
+  }
+]

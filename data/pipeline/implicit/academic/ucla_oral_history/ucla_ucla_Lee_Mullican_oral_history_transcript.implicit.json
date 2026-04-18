@@ -1,0 +1,66 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "Chickasha, Oklahoma",
+    "explicit_text": "I was born in Chickasha, Oklahoma, in 1919, on a very cold, wintry night during a blizzard. Chickasha was a small town just south of Oklahoma City, mostly agricultural at the time, with many Indian tribes centered there after their removal from the South. I grew up there as a small-town boy, spending time both in town and on farms with my relatives. It wasn’t an oil town back then, although oil was discovered there in later years.",
+    "implicit_text": "I was born in a small agricultural town just south of the state capital in 1919, on a very cold, wintry night during a blizzard. That town was home to many Indian tribes who had been relocated there from the South. I grew up as a small-town boy, spending time both in town and on farms with my relatives. It wasn’t an oil town back then, although oil was discovered there in later years.",
+    "cues": [
+      "1919",
+      "blizzard",
+      "small town",
+      "agricultural",
+      "Indian tribes",
+      "south of Oklahoma City"
+    ],
+    "transcript_ref": "academic\\ucla_oral_history\\ucla_ucla_Lee_Mullican_oral_history_transcript.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "Oklahoma City",
+    "explicit_text": "Oklahoma City was the larger city just north of Chickasha, where I was born and raised. Although I lived in Chickasha, I often thought of Oklahoma City as the nearby urban center. My family’s life in Chickasha was influenced by its proximity to Oklahoma City, but my upbringing was very much rooted in the smaller town environment.",
+    "implicit_text": "The larger city just north of my birthplace was the nearby urban center I often thought about growing up. Although I lived in the smaller town, my family’s life was influenced by its proximity to this bigger city. My upbringing was very much rooted in the small-town environment despite being close to the state capital.",
+    "cues": [
+      "near Chickasha",
+      "urban center",
+      "Oklahoma"
+    ],
+    "transcript_ref": "academic\\ucla_oral_history\\ucla_ucla_Lee_Mullican_oral_history_transcript.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "Texas",
+    "explicit_text": "My father was born in Texas and later moved to Indian Territory with his parents. He rode up from Texas on a horse as a young man before settling in Oklahoma. His roots in Texas were an important part of his early life before he became a teacher and businessman in Indian Territory.",
+    "implicit_text": "My father was born in a southern state known for its large size and distinctive culture and later moved with his parents to the area designated for relocated Native American tribes. He rode up from that southern state on a horse as a young man before settling in what would become Oklahoma. His roots in that southern state were an important part of his early life before he became a teacher and businessman in the relocated tribal lands.",
+    "cues": [
+      "father born in Texas",
+      "rode up from Texas",
+      "early life"
+    ],
+    "transcript_ref": "academic\\ucla_oral_history\\ucla_ucla_Lee_Mullican_oral_history_transcript.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "Indian Territory",
+    "explicit_text": "Indian Territory was where my family settled after coming from Texas and North Carolina. Chickasha was part of Indian Territory when I was born, and it was home to many Indian tribes who had been removed from the South. My father taught school there, and it was a place of both cultural significance and small-town life during my childhood.",
+    "implicit_text": "The area designated for Native American tribes was where my family settled after coming from a southern state and another eastern state. My birthplace was part of this territory when I was born, and it was home to many Indian tribes who had been removed from the South. My father taught school there, and it was a place of both cultural significance and small-town life during my childhood.",
+    "cues": [
+      "Chickasha in Indian Territory",
+      "many Indian tribes",
+      "father taught school",
+      "removal from the South"
+    ],
+    "transcript_ref": "academic\\ucla_oral_history\\ucla_ucla_Lee_Mullican_oral_history_transcript.yaml"
+  },
+  {
+    "entity_id": 5,
+    "entity": "North Carolina",
+    "explicit_text": "My mother came from North Carolina a few years before meeting my father in Indian Territory. She was my father’s pupil when he was teaching school, which is how they met. Her background from North Carolina brought a different perspective to our family life in Oklahoma.",
+    "implicit_text": "My mother came from an eastern state known for its mountains and coastal plains a few years before meeting my father in the relocated tribal lands. She was my father’s pupil when he was teaching school, which is how they met. Her background from that eastern state brought a different perspective to our family life in Oklahoma.",
+    "cues": [
+      "mother from North Carolina",
+      "met father as pupil",
+      "Indian Territory"
+    ],
+    "transcript_ref": "academic\\ucla_oral_history\\ucla_ucla_Lee_Mullican_oral_history_transcript.yaml"
+  }
+]

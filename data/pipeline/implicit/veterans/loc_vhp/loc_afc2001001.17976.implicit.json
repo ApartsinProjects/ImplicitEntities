@@ -1,0 +1,235 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "Vietnam War",
+    "explicit_text": "I served two tours in the Vietnam War, first in Da Nang and then up north in Quang Tri. The heat was overwhelming when we arrived, and we faced constant threats like rocket and mortar attacks, especially near the air base we helped build. Despite limited combat, the war was intense with long hours and frequent sirens that disrupted our sleep. The experience shaped me deeply, both in skills and in values, although it was tough to see protesters when we returned home.",
+    "implicit_text": "I served two tours in the conflict in Southeast Asia, first in Da Nang and then up north in Quang Tri. The heat was overwhelming when we arrived, and we faced constant threats like rocket and mortar attacks, especially near the air base we helped build. Despite limited combat, the war was intense with long hours and frequent sirens that disrupted our sleep. The experience shaped me deeply, both in skills and in values, although it was tough to see protesters when we returned home.",
+    "cues": [
+      "two tours",
+      "Da Nang",
+      "Quang Tri",
+      "rocket and mortar attacks",
+      "air base",
+      "Vietnam War"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.17976.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "United States Navy",
+    "explicit_text": "I enlisted in the United States Navy at 17, volunteering because I wasn't ready for college yet. The Navy gave me the chance to develop technical skills, especially through the Sea Bees program. I went through boot camp in San Diego and served honorably, reaching the rank of EAS3. The Navy experience was challenging but rewarding, providing me with lifelong skills and camaraderie.",
+    "implicit_text": "I enlisted in the naval military branch of the United States at 17, volunteering because I wasn't ready for college yet. This branch gave me the chance to develop technical skills, especially through the construction battalion program. I went through boot camp in San Diego and served honorably, reaching the rank of EAS3. The experience was challenging but rewarding, providing me with lifelong skills and camaraderie.",
+    "cues": [
+      "enlisted at 17",
+      "boot camp San Diego",
+      "rank EAS3",
+      "technical skills",
+      "Sea Bees"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.17976.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "United States Navy Seabees",
+    "explicit_text": "As a member of the United States Navy Seabees, I specialized as an Engineering Aid Surveyor, doing land surveying and drafting. We built airports, bridges, piers, and even a P.O.W. camp in Vietnam. The Seabees were a tight-knit group, and I often served as a Party Chief leading survey teams. Our work was crucial, even under fire, and it gave me valuable skills that I used long after my service.",
+    "implicit_text": "As a member of the Navy's construction battalion, I specialized as an Engineering Aid Surveyor, doing land surveying and drafting. We built airports, bridges, piers, and even a P.O.W. camp in Vietnam. The battalion was a tight-knit group, and I often served as a Party Chief leading survey teams. Our work was crucial, even under fire, and it gave me valuable skills that I used long after my service.",
+    "cues": [
+      "Engineering Aid Surveyor",
+      "built airports and bridges",
+      "Party Chief",
+      "Vietnam",
+      "under fire"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.17976.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "Engineering Aid Surveyor",
+    "explicit_text": "I trained for 18 weeks in an A school focused on surveying and drafting, which prepared me to be an Engineering Aid Surveyor. In Vietnam, I led survey teams laying out critical infrastructure like airports and bridges. This role combined my early interest in land surveying with military service, and it gave me technical expertise that helped me build a career after the Navy.",
+    "implicit_text": "I trained for 18 weeks in an A school focused on surveying and drafting, which prepared me to be an Engineering Aid Surveyor. In Vietnam, I led survey teams laying out critical infrastructure like airports and bridges. This role combined my early interest in land surveying with military service, and it gave me technical expertise that helped me build a career after the Navy.",
+    "cues": [
+      "18 weeks training",
+      "surveying and drafting",
+      "led teams",
+      "Vietnam",
+      "infrastructure layout"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.17976.yaml"
+  },
+  {
+    "entity_id": 5,
+    "entity": "Da Nang",
+    "explicit_text": "My first tour in Vietnam was stationed in Da Nang, where the heat hit you as soon as you stepped off the plane. We worked on building an air base and other structures, often under threat from enemy rocket and mortar fire. Da Nang was a challenging environment but an important part of my service experience.",
+    "implicit_text": "My first tour in Vietnam was stationed in a major coastal city in central Vietnam, where the heat hit you as soon as you stepped off the plane. We worked on building an air base and other structures, often under threat from enemy rocket and mortar fire. This city was a challenging environment but an important part of my service experience.",
+    "cues": [
+      "first tour",
+      "Vietnam",
+      "heat",
+      "air base construction",
+      "rocket and mortar fire"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.17976.yaml"
+  },
+  {
+    "entity_id": 6,
+    "entity": "Quang Tri",
+    "explicit_text": "My second tour took me to Quang Tri, up north in Vietnam, where we faced frequent sirens warning of incoming attacks. We spent many nights in bunkers due to rocket and mortar threats, and the work hours were long and exhausting. Despite the danger, we kept building vital infrastructure and stayed vigilant throughout our deployment.",
+    "implicit_text": "My second tour took me to a northern province in Vietnam, where we faced frequent sirens warning of incoming attacks. We spent many nights in bunkers due to rocket and mortar threats, and the work hours were long and exhausting. Despite the danger, we kept building vital infrastructure and stayed vigilant throughout our deployment.",
+    "cues": [
+      "second tour",
+      "Quang Tri",
+      "rocket and mortar attacks",
+      "bunkers",
+      "long hours"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.17976.yaml"
+  },
+  {
+    "entity_id": 7,
+    "entity": "Vietnamese People's Army",
+    "explicit_text": "The Vietnamese People's Army was the opposing force during my tours in Vietnam. They frequently targeted the air base we built with rockets and mortars, trying to disrupt our work. Interestingly, they seemed to avoid causing casualties among us, possibly because they knew we were building for the future. Once, shells landed in our camp when it was empty, and they even apologized on a radio show hosted by Noah Hanna.",
+    "implicit_text": "The opposing communist military force during my tours in Vietnam frequently targeted the air base we built with rockets and mortars, trying to disrupt our work. Interestingly, they seemed to avoid causing casualties among us, possibly because they knew we were building for the future. Once, shells landed in our camp when it was empty, and they even apologized on a radio show hosted by a well-known broadcaster.",
+    "cues": [
+      "opposing force",
+      "rocket and mortar attacks",
+      "air base",
+      "avoided casualties",
+      "apology on Noah Hanna's radio show"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.17976.yaml"
+  },
+  {
+    "entity_id": 8,
+    "entity": "Noah Hanna",
+    "explicit_text": "Noah Hanna was a radio show host who once aired an apology from the Vietnamese People's Army after they accidentally shelled our vacant camp. That moment stood out to me as unusual during the war, showing a rare instance of communication from the enemy. It was a surprising and memorable part of my Vietnam experience.",
+    "implicit_text": "A radio show host once aired an apology from the opposing communist forces after they accidentally shelled our vacant camp. That moment stood out to me as unusual during the war, showing a rare instance of communication from the enemy. It was a surprising and memorable part of my Vietnam experience.",
+    "cues": [
+      "radio show host",
+      "apology from enemy",
+      "Vietnam War",
+      "shelling incident"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.17976.yaml"
+  },
+  {
+    "entity_id": 9,
+    "entity": "Alabama",
+    "explicit_text": "During my service in Vietnam, I remember a Marine from Alabama named Joe who was quite nervous about going out in the field. One evening, he unexpectedly tackled the Marine on guard duty, and I had to intervene to take the rifle away. Joe was discharged dishonorably afterward, and that incident remains one of the closest calls I had during the war.",
+    "implicit_text": "During my service in Vietnam, I remember a Marine from a southern U.S. state named Joe who was quite nervous about going out in the field. One evening, he unexpectedly tackled the Marine on guard duty, and I had to intervene to take the rifle away. Joe was discharged dishonorably afterward, and that incident remains one of the closest calls I had during the war.",
+    "cues": [
+      "Marine from Alabama",
+      "Vietnam",
+      "incident in bunker",
+      "discharge",
+      "nervousness"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.17976.yaml"
+  },
+  {
+    "entity_id": 10,
+    "entity": "San Diego",
+    "explicit_text": "I went to boot camp in San Diego, which was my first step into Navy life. The experience was tough, with long days and sleepless nights, but it prepared me well for my later service. San Diego was where I officially became part of the Navy and started my training as an Engineering Aid Surveyor.",
+    "implicit_text": "I went to boot camp in a major California naval training center, which was my first step into Navy life. The experience was tough, with long days and sleepless nights, but it prepared me well for my later service. That city was where I officially became part of the Navy and started my training as an Engineering Aid Surveyor.",
+    "cues": [
+      "boot camp",
+      "first step in Navy",
+      "training",
+      "San Diego"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.17976.yaml"
+  },
+  {
+    "entity_id": 11,
+    "entity": "Rhode Island",
+    "explicit_text": "After boot camp, I was stationed in Rhode Island for a period during my Navy service. It was one of the places I traveled to before heading overseas to Vietnam. Rhode Island was part of my journey through different Navy assignments and training locations.",
+    "implicit_text": "After boot camp, I was stationed in a northeastern U.S. state for a period during my Navy service. It was one of the places I traveled to before heading overseas to Vietnam. That state was part of my journey through different Navy assignments and training locations.",
+    "cues": [
+      "stationed",
+      "Navy service",
+      "before Vietnam",
+      "Rhode Island"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.17976.yaml"
+  },
+  {
+    "entity_id": 12,
+    "entity": "Guantanamo Bay Naval Base",
+    "explicit_text": "I was stationed at Guantanamo Bay Naval Base in Cuba during my Navy career before deploying to Vietnam. It was one of the key stops in my training and service path. Guantanamo Bay gave me further experience and prepared me for the challenges ahead in Southeast Asia.",
+    "implicit_text": "I was stationed at a U.S. naval base in Cuba during my Navy career before deploying to Vietnam. It was one of the key stops in my training and service path. That base gave me further experience and prepared me for the challenges ahead in Southeast Asia.",
+    "cues": [
+      "stationed",
+      "Guantanamo Bay",
+      "before Vietnam",
+      "Navy service"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.17976.yaml"
+  },
+  {
+    "entity_id": 13,
+    "entity": "Port Hueneme",
+    "explicit_text": "Port Hueneme was one of the places I was assigned to before going to Vietnam. It served as a staging and training area for the Seabees, where we prepared for our construction and surveying missions. My time there helped me get ready for the work I would do in the war zone.",
+    "implicit_text": "A naval construction battalion base in Southern California was one of the places I was assigned to before going to Vietnam. It served as a staging and training area for the construction and surveying missions. My time there helped me get ready for the work I would do in the war zone.",
+    "cues": [
+      "assigned",
+      "training",
+      "Seabees",
+      "before Vietnam",
+      "Port Hueneme"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.17976.yaml"
+  },
+  {
+    "entity_id": 14,
+    "entity": "Camp Pendleton",
+    "explicit_text": "I spent some time at Camp Pendleton as part of my Navy service before deploying to Vietnam. It was another important training location that helped shape my readiness for the challenges of war. Camp Pendleton was part of the journey that led me to my tours in Southeast Asia.",
+    "implicit_text": "I spent some time at a large Marine Corps base in Southern California as part of my Navy service before deploying to Vietnam. It was another important training location that helped shape my readiness for the challenges of war. That base was part of the journey that led me to my tours in Southeast Asia.",
+    "cues": [
+      "training",
+      "Navy service",
+      "before Vietnam",
+      "Camp Pendleton"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.17976.yaml"
+  },
+  {
+    "entity_id": 15,
+    "entity": "San Francisco",
+    "explicit_text": "I was discharged from the Navy in San Francisco after completing my two tours in Vietnam. It was a memorable day because a good friend was entering service the same day I was leaving. San Francisco marked the end of my military career and the start of my civilian life.",
+    "implicit_text": "I was discharged from the Navy in a major California city after completing my two tours in Vietnam. It was a memorable day because a good friend was entering service the same day I was leaving. That city marked the end of my military career and the start of my civilian life.",
+    "cues": [
+      "discharged",
+      "San Francisco",
+      "end of service",
+      "friend entering service"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.17976.yaml"
+  },
+  {
+    "entity_id": 16,
+    "entity": "G.I. Bill",
+    "explicit_text": "I used the G.I. Bill to support my education after the Navy, but the benefits were limited back then. I only received about $125 a month, which made it tough to get through school. Fortunately, the skills and money I earned from surveying helped me finish college and start my career.",
+    "implicit_text": "I used veterans' education benefits to support my education after the Navy, but the benefits were limited back then. I only received about $125 a month, which made it tough to get through school. Fortunately, the skills and money I earned from surveying helped me finish college and start my career.",
+    "cues": [
+      "education support",
+      "limited benefits",
+      "$125 a month",
+      "post-service",
+      "G.I. Bill"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.17976.yaml"
+  },
+  {
+    "entity_id": 17,
+    "entity": "Ed Carter",
+    "explicit_text": "Ed Carter was a close friend I made during my Navy service. After we both got out, we stayed in touch, and even our families became friends. We continue to see each other at reunions, and those friendships have been a meaningful part of my life after the military.",
+    "implicit_text": "A close friend I made during my Navy service stayed in touch after we both got out, and even our families became friends. We continue to see each other at reunions, and those friendships have been a meaningful part of my life after the military.",
+    "cues": [
+      "close friend",
+      "Navy service",
+      "post-service friendship",
+      "family gatherings",
+      "reunions"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.17976.yaml"
+  }
+]

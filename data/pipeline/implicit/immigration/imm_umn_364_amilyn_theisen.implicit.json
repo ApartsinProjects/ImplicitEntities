@@ -1,0 +1,72 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "Philippines",
+    "explicit_text": "I was born in the Philippines and I am proud to be a Filipina. Growing up there shaped my values and my close family ties. Leaving the Philippines in 2006 was difficult because I had to say goodbye to my loved ones, but I knew it was necessary for a better life. My memories and connections to the Philippines remain strong through pictures and calls to my parents.",
+    "implicit_text": "I was born in a Southeast Asian archipelago and I am proud to be a Filipina. Growing up there shaped my values and my close family ties. Leaving that country in 2006 was difficult because I had to say goodbye to my loved ones, but I knew it was necessary for a better life. My memories and connections to that homeland remain strong through pictures and calls to my parents.",
+    "cues": [
+      "born in the Philippines",
+      "Filipina",
+      "left in 2006",
+      "family ties",
+      "pictures and calls"
+    ],
+    "transcript_ref": "immigration\\imm_umn_364_amilyn_theisen.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "Abuyog",
+    "explicit_text": "I grew up in Abuyog, a province in Leyte, where life was simple and close-knit. Living there meant being surrounded by family and relatives, which I cherished deeply. The sense of community in Abuyog was very different from what I later experienced abroad. Leaving Abuyog was hard because it was my home and where my family was tightly connected.",
+    "implicit_text": "I grew up in a small town in Leyte, where life was simple and close-knit. Living there meant being surrounded by family and relatives, which I cherished deeply. The sense of community in that town was very different from what I later experienced abroad. Leaving that place was hard because it was my home and where my family was tightly connected.",
+    "cues": [
+      "grew up in Abuyog",
+      "province in Leyte",
+      "simple life",
+      "close family",
+      "community"
+    ],
+    "transcript_ref": "immigration\\imm_umn_364_amilyn_theisen.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "Leyte",
+    "explicit_text": "Leyte is the island where Abuyog is located, and it was my home province in the Philippines. Life in Leyte was peaceful and centered around family and community. I left Leyte in 2006 to start a new chapter in the United States, but my heart remains tied to that place. I often think about Leyte when I look at photos of my family and remember my roots.",
+    "implicit_text": "The island where my hometown is located was my home province in the Philippines. Life there was peaceful and centered around family and community. I left that island in 2006 to start a new chapter in the United States, but my heart remains tied to that place. I often think about it when I look at photos of my family and remember my roots.",
+    "cues": [
+      "Leyte as home province",
+      "peaceful life",
+      "left in 2006",
+      "family and community",
+      "photos"
+    ],
+    "transcript_ref": "immigration\\imm_umn_364_amilyn_theisen.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "United States",
+    "explicit_text": "I arrived in the United States in March 2006, alone and for the first time traveling internationally. It was a long and nerve-wracking journey, but my faith and the support of my siblings and best friend helped me through it. I came here to be with my husband and to build a better life together. Since then, I have made the U.S. my home and live in Saint Paul, Minnesota.",
+    "implicit_text": "I arrived in North America in March 2006, alone and for the first time traveling internationally. It was a long and nerve-wracking journey, but my faith and the support of my siblings and best friend helped me through it. I came here to be with my husband and to build a better life together. Since then, I have made this country my home and live in Saint Paul, Minnesota.",
+    "cues": [
+      "arrived March 2006",
+      "first international travel",
+      "husband",
+      "better life",
+      "Saint Paul, Minnesota"
+    ],
+    "transcript_ref": "immigration\\imm_umn_364_amilyn_theisen.yaml"
+  },
+  {
+    "entity_id": 5,
+    "entity": "Saint Paul, Minnesota",
+    "explicit_text": "Since arriving in the United States, I have lived in Saint Paul, Minnesota with my husband. We chose to stay here because of his work, and this city has become my new home. Although I miss my family back in the Philippines, Saint Paul is where I am building my life now. I keep my family close through photos and weekly calls, which help me feel connected despite the distance.",
+    "implicit_text": "Since arriving in the U.S., I have lived in the capital city of Minnesota with my husband. We chose to stay here because of his work, and this city has become my new home. Although I miss my family back in the Philippines, this place is where I am building my life now. I keep my family close through photos and weekly calls, which help me feel connected despite the distance.",
+    "cues": [
+      "lived in Saint Paul since arrival",
+      "husband's work",
+      "new home",
+      "miss family",
+      "photos and calls"
+    ],
+    "transcript_ref": "immigration\\imm_umn_364_amilyn_theisen.yaml"
+  }
+]

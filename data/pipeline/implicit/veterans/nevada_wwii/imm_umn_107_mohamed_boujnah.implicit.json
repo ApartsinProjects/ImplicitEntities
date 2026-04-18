@@ -1,0 +1,72 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "Tunisia",
+    "explicit_text": "I was born in Tunisia in 1993, and growing up there shaped how I understood navigation and transportation. In Tunisia, especially in the Greater Tunis area, people don't rely on maps or GPS because the urban area is small and easy to navigate using landmarks and street names. I was used to driving everywhere and knew the city well, which made it very different from my experience when I moved abroad. The transition from Tunisia’s familiar environment to a much larger city was challenging for me.",
+    "implicit_text": "I was born in a North African country in 1993, and growing up there shaped how I understood navigation and transportation. In the capital region, especially in the main metropolitan area, people don't rely on maps or GPS because the urban area is small and easy to navigate using landmarks and street names. I was used to driving everywhere and knew the city well, which made it very different from my experience when I moved abroad. The transition from that familiar environment to a much larger city was challenging for me.",
+    "cues": [
+      "born in 1993",
+      "Greater Tunis area",
+      "navigation habits",
+      "driving",
+      "landmarks"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_107_mohamed_boujnah.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "United States",
+    "explicit_text": "I came to the United States in 2012 to study, and adjusting to life here was difficult, especially when it came to getting around. Unlike Tunisia, people here rely heavily on maps and public transportation, which I initially struggled with because I wasn't used to reading maps or understanding bus routes. I also had trouble with driving rules, and on my first day driving, I got a parking ticket for something that was legal back home. Over time, after about three years, I finally got used to the transportation system and learned how to navigate better.",
+    "implicit_text": "I came to North America in 2012 to study, and adjusting to life here was difficult, especially when it came to getting around. Unlike my home country, people here rely heavily on maps and public transportation, which I initially struggled with because I wasn't used to reading maps or understanding bus routes. I also had trouble with driving rules, and on my first day driving, I got a parking ticket for something that was legal back home. Over time, after about three years, I finally got used to the transportation system and learned how to navigate better.",
+    "cues": [
+      "came in 2012",
+      "studying",
+      "maps and public transportation",
+      "driving rules",
+      "parking ticket"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_107_mohamed_boujnah.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "University of Minnesota",
+    "explicit_text": "I arrived in the United States in 2012 to study at the University of Minnesota, which marked the beginning of many challenges for me. Being a student there meant I had to learn how to navigate a much larger urban area and adapt to new transportation systems. The university experience was intertwined with my struggle to understand maps and public transit in Minneapolis-Saint Paul. Despite these difficulties, my time at the University of Minnesota helped me gradually adjust to life in America.",
+    "implicit_text": "I arrived in North America in 2012 to study at a major public university in the Midwest, which marked the beginning of many challenges for me. Being a student there meant I had to learn how to navigate a much larger urban area and adapt to new transportation systems. The university experience was intertwined with my struggle to understand maps and public transit in the Twin Cities metropolitan area. Despite these difficulties, my time at this university helped me gradually adjust to life in America.",
+    "cues": [
+      "2012",
+      "studying",
+      "navigation challenges",
+      "Minneapolis-Saint Paul",
+      "adjustment"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_107_mohamed_boujnah.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "Greater Tunis",
+    "explicit_text": "The Greater Tunis area, where I grew up, is quite small—less than a hundred square miles—which made it easy for me to get around without maps or GPS. People there use mental maps and landmarks to give directions, which is very different from the system in the United States. This familiarity with a compact urban space made my move to a much larger city like Minneapolis-Saint Paul very challenging. The contrast between Greater Tunis and the Twin Cities highlighted how much I had to learn to navigate a new environment.",
+    "implicit_text": "The metropolitan area surrounding the capital city where I grew up is quite small—less than a hundred square miles—which made it easy for me to get around without maps or GPS. People there use mental maps and landmarks to give directions, which is very different from the system in North America. This familiarity with a compact urban space made my move to a much larger city in the U.S. Midwest very challenging. The contrast between that small metropolitan area and the Twin Cities highlighted how much I had to learn to navigate a new environment.",
+    "cues": [
+      "Greater Tunis area",
+      "less than 100 square miles",
+      "mental maps",
+      "landmarks",
+      "urban size comparison"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_107_mohamed_boujnah.yaml"
+  },
+  {
+    "entity_id": 5,
+    "entity": "Minneapolis–Saint Paul",
+    "explicit_text": "When I first arrived in Minneapolis–Saint Paul, I found it very difficult to get around because the urban area is over 1,000 square miles, much larger than what I was used to in Tunisia. I struggled with reading maps, understanding bus routes like the 3A and 3B, and recognizing street names and bus stops. I often got lost walking or took the wrong bus, which was frustrating. Over time, I learned to use landmarks and ask for help, and after about three years, I became much more comfortable navigating the Twin Cities.",
+    "implicit_text": "When I first arrived in the Twin Cities metropolitan area, I found it very difficult to get around because the urban area is over 1,000 square miles, much larger than what I was used to in North Africa. I struggled with reading maps, understanding bus routes like the 3A and 3B, and recognizing street names and bus stops. I often got lost walking or took the wrong bus, which was frustrating. Over time, I learned to use landmarks and ask for help, and after about three years, I became much more comfortable navigating this large Midwestern urban area.",
+    "cues": [
+      "Minneapolis–Saint Paul",
+      "urban area over 1,000 square miles",
+      "bus routes",
+      "getting lost",
+      "learning to navigate"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_107_mohamed_boujnah.yaml"
+  }
+]

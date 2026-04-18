@@ -1,0 +1,100 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "Sa La refugee camp",
+    "explicit_text": "I was born in Sa La refugee camp in Thailand in 1999. The nights there were beautiful with many twinkling stars, which made the camp a pretty place to live despite the hardships. It was my first home before we had to move because a storm destroyed it. Sa La refugee camp holds the earliest memories of my childhood.",
+    "implicit_text": "I was born in a refugee camp in Thailand in 1999. The nights there were beautiful with many twinkling stars, which made the camp a pretty place to live despite the hardships. It was my first home before we had to move because a storm destroyed it. That camp holds the earliest memories of my childhood.",
+    "cues": [
+      "1999",
+      "Thailand",
+      "refugee camp",
+      "storm"
+    ],
+    "transcript_ref": "immigration\\imm_umn_157_enna_say.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "Thailand",
+    "explicit_text": "Thailand was the country where my family lived in refugee camps for many years. We first stayed in Sa La refugee camp and later moved to Mae La Oon after a storm destroyed our home. Life was hard there; my dad struggled to find work and faced many challenges. Thailand was also where we went through medical checks in Mae Sot before moving to the United States.",
+    "implicit_text": "The country where my family lived in refugee camps for many years was in Southeast Asia. We first stayed in one camp and later moved to another after a storm destroyed our home. Life was hard there; my dad struggled to find work and faced many challenges. That country was also where we went through medical checks in a border town before moving to the United States.",
+    "cues": [
+      "Sa La refugee camp",
+      "Mae La Oon",
+      "Mae Sot",
+      "refugee camps",
+      "medical checks"
+    ],
+    "transcript_ref": "immigration\\imm_umn_157_enna_say.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "Mae La Oon",
+    "explicit_text": "In 2002, my family moved to Mae La Oon, another refugee camp in Thailand, after a bad storm destroyed our home in Sa La. We built a bamboo house there, but life was tough because my dad couldn't find a job. Many people left their families to work for Thai people, but my dad wanted to stay with us. Mae La Oon was where my brothers were born and where my family faced many struggles before we eventually applied to move to America.",
+    "implicit_text": "In 2002, my family moved to another refugee camp in Thailand after a bad storm destroyed our home in the first camp. We built a bamboo house there, but life was tough because my dad couldn't find a job. Many people left their families to work for locals, but my dad wanted to stay with us. That camp was where my brothers were born and where my family faced many struggles before we eventually applied to move to America.",
+    "cues": [
+      "2002",
+      "Thailand",
+      "refugee camp",
+      "bamboo house",
+      "family struggles"
+    ],
+    "transcript_ref": "immigration\\imm_umn_157_enna_say.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "Mae Sot",
+    "explicit_text": "Mae Sot was the place in Thailand where our family went for medical exams before moving to the United States. We had to get X-rays and shots there, and unfortunately, the X-rays showed that my parents had TB, so they had to stay for two more weeks. It was a difficult waiting period, but after that, our family name was finally put on the board for resettlement. Mae Sot marked an important step in our journey to a new life.",
+    "implicit_text": "There was a border town in Thailand where our family went for medical exams before moving to the United States. We had to get X-rays and shots there, and unfortunately, the X-rays showed that my parents had TB, so they had to stay for two more weeks. It was a difficult waiting period, but after that, our family name was finally put on the board for resettlement. That town marked an important step in our journey to a new life.",
+    "cues": [
+      "Thailand",
+      "medical exams",
+      "X-rays",
+      "TB diagnosis",
+      "resettlement process"
+    ],
+    "transcript_ref": "immigration\\imm_umn_157_enna_say.yaml"
+  },
+  {
+    "entity_id": 5,
+    "entity": "Minnesota",
+    "explicit_text": "Minnesota became our new home when we finally moved to the United States in 2011. My aunt lived there and encouraged my parents to apply for resettlement because of the many opportunities. After arriving, we took a taxi to our new apartment, which was much bigger than our house in Thailand. At school, I met many Karen people and other races I had never seen before, and over the years, I learned to speak English better.",
+    "implicit_text": "A northern U.S. state became our new home when we finally moved to the United States in 2011. My aunt lived there and encouraged my parents to apply for resettlement because of the many opportunities. After arriving, we took a taxi to our new apartment, which was much bigger than our house in Thailand. At school, I met many people from my ethnic group and other races I had never seen before, and over the years, I learned to speak English better.",
+    "cues": [
+      "2011",
+      "United States",
+      "aunt",
+      "new apartment",
+      "school",
+      "Karen people"
+    ],
+    "transcript_ref": "immigration\\imm_umn_157_enna_say.yaml"
+  },
+  {
+    "entity_id": 6,
+    "entity": "United States of America",
+    "explicit_text": "The United States of America was the country we dreamed of moving to for a better life. In 2010, immigration officials told us about America, and after some hesitation, my parents applied with encouragement from my aunt. In 2011, our dream came true when we flew from Thailand to America, starting a new chapter in Minnesota. The transition was challenging but full of hope for our future.",
+    "implicit_text": "The country across the Pacific was the place we dreamed of moving to for a better life. In 2010, immigration officials told us about this country, and after some hesitation, my parents applied with encouragement from my aunt. In 2011, our dream came true when we flew from Thailand to this new land, starting a new chapter in a northern state. The transition was challenging but full of hope for our future.",
+    "cues": [
+      "2010",
+      "2011",
+      "immigration",
+      "resettlement",
+      "Minnesota"
+    ],
+    "transcript_ref": "immigration\\imm_umn_157_enna_say.yaml"
+  },
+  {
+    "entity_id": 7,
+    "entity": "Karen people",
+    "explicit_text": "The Karen people are my community and the group I belong to. When I arrived at school in Minnesota, I saw many Karen people like me, along with many other races I had never seen before. Growing up in refugee camps in Thailand and then moving to America, being part of the Karen people gave me a sense of identity and connection. Our shared experiences helped me adjust to life in a new country.",
+    "implicit_text": "My community and the group I belong to come from an ethnic group native to the border regions of Thailand and Myanmar. When I arrived at school in the northern U.S. state, I saw many people like me, along with many other races I had never seen before. Growing up in refugee camps in Thailand and then moving to America, being part of this ethnic group gave me a sense of identity and connection. Our shared experiences helped me adjust to life in a new country.",
+    "cues": [
+      "Minnesota",
+      "school",
+      "community",
+      "refugee camps",
+      "identity"
+    ],
+    "transcript_ref": "immigration\\imm_umn_157_enna_say.yaml"
+  }
+]

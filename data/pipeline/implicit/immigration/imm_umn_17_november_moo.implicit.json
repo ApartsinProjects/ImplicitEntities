@@ -1,0 +1,87 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "Mae Ra Moe refugee camp",
+    "explicit_text": "I was born in Mae Ra Moe refugee camp in Thailand, where my early life began before we sought new opportunities abroad. This camp was my first home, and it shaped much of my early experiences before my family decided to move to the United States in 2011. Leaving Mae Ra Moe was difficult because it meant leaving behind the only place I knew as home.",
+    "implicit_text": "I was born in a refugee camp located in northern Thailand, where my early life began before we sought new opportunities abroad. This camp was my first home, and it shaped much of my early experiences before my family decided to move to the United States in 2011. Leaving this camp was difficult because it meant leaving behind the only place I knew as home.",
+    "cues": [
+      "born",
+      "Mae Ra Moe refugee camp",
+      "Thailand",
+      "early life",
+      "2011"
+    ],
+    "transcript_ref": "immigration\\imm_umn_17_november_moo.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "Thailand",
+    "explicit_text": "Thailand was the country where I lived in the Mae Ra Moe refugee camp before moving to the United States. Traveling through Thailand was challenging because my family and I did not speak Thai, which made navigating places like the airport very difficult. I remember how we struggled to communicate and had to rely on a Burmese interpreter during our journey to catch the plane out of Thailand.",
+    "implicit_text": "The country where I lived in that northern refugee camp was where my family and I stayed before moving to the United States. Traveling through this Southeast Asian nation was challenging because we did not speak the local language, which made navigating places like the airport very difficult. I remember how we struggled to communicate and had to rely on a Burmese interpreter during our journey to catch the plane out of that country.",
+    "cues": [
+      "Thailand",
+      "Mae Ra Moe refugee camp",
+      "language barrier",
+      "airport",
+      "Burmese interpreter"
+    ],
+    "transcript_ref": "immigration\\imm_umn_17_november_moo.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "United States",
+    "explicit_text": "In 2011, my family and I moved to the United States after receiving permission to start a new life. When we arrived in Minnesota, I initially felt homesick and wanted to return to Thailand because I left behind my best friend and dog. But soon I realized I had to build my American dream here, so I started school and made new friends despite language differences. Now, I am proud to be in eleventh grade and ready for whatever comes next in the U.S.",
+    "implicit_text": "In 2011, my family and I moved to a new country after receiving permission to start a new life. When we arrived in a Midwestern state known for its lakes and cold winters, I initially felt homesick and wanted to return to the Southeast Asian nation because I left behind my best friend and dog. But soon I realized I had to build my dream here, so I started school and made new friends despite language differences. Now, I am proud to be in eleventh grade and ready for whatever comes next in this new homeland.",
+    "cues": [
+      "2011",
+      "United States",
+      "Minnesota",
+      "school",
+      "new life",
+      "eleventh grade"
+    ],
+    "transcript_ref": "immigration\\imm_umn_17_november_moo.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "International Organization for Migration",
+    "explicit_text": "The International Organization for Migration, or IOM, played a role in our journey from Thailand to the United States. Before heading to the airport, the staff gave us an IOM bag to carry, which marked the start of our official travel process. Their involvement was part of the larger effort to help refugees like my family resettle safely in a new country.",
+    "implicit_text": "An international agency focused on migration played a role in our journey from Southeast Asia to North America. Before heading to the airport, the staff gave us a branded bag to carry, which marked the start of our official travel process. Their involvement was part of the larger effort to help refugees like my family resettle safely in a new country.",
+    "cues": [
+      "International Organization for Migration",
+      "IOM bag",
+      "travel",
+      "refugee resettlement",
+      "Thailand to U.S."
+    ],
+    "transcript_ref": "immigration\\imm_umn_17_november_moo.yaml"
+  },
+  {
+    "entity_id": 5,
+    "entity": "Burmese language",
+    "explicit_text": "The Burmese language was crucial for my family during our travel because we did not speak Thai. At the airport in Thailand, a Burmese interpreter helped us communicate with security and guided us on where to go. Without the Burmese language, it would have been even harder for us to navigate the confusing and stressful situation as we prepared to leave for the United States.",
+    "implicit_text": "A language from my ethnic background was crucial for my family during our travel because we did not speak the local tongue of the country we were in. At the airport in Southeast Asia, an interpreter speaking this language helped us communicate with security and guided us on where to go. Without this language, it would have been even harder for us to navigate the confusing and stressful situation as we prepared to leave for North America.",
+    "cues": [
+      "Burmese language",
+      "interpreter",
+      "Thailand airport",
+      "communication",
+      "travel"
+    ],
+    "transcript_ref": "immigration\\imm_umn_17_november_moo.yaml"
+  },
+  {
+    "entity_id": 6,
+    "entity": "Minnesota",
+    "explicit_text": "Minnesota was the state where my family and I landed when we arrived in the United States. The first night there was tough because I missed my friends and dog back in Thailand. But Minnesota became the place where I decided to pursue my education and build my future. I started school, met many people, and now I am proud to be in eleventh grade, ready to face whatever comes next.",
+    "implicit_text": "The U.S. state known for its cold winters and lakes was where my family and I landed when we arrived in the new country. The first night there was tough because I missed my friends and dog back in Southeast Asia. But this northern state became the place where I decided to pursue my education and build my future. I started school, met many people, and now I am proud to be in eleventh grade, ready to face whatever comes next.",
+    "cues": [
+      "Minnesota",
+      "arrival",
+      "school",
+      "new friends",
+      "eleventh grade"
+    ],
+    "transcript_ref": "immigration\\imm_umn_17_november_moo.yaml"
+  }
+]

@@ -1,0 +1,112 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "Ban Vinai Refugee Camp",
+    "explicit_text": "My parents met and married in 1988 at the Ban Vinai Refugee Camp in Thailand. This camp was mostly filled with Hmong people like my family, who fled Laos because of the Secret War. My three older brothers were all born there, each just a year or two apart. Ban Vinai was a place of refuge but also a starting point for our family's journey to America.",
+    "implicit_text": "My parents met and married in 1988 at a refugee camp in Thailand. This camp was mostly filled with Hmong people like my family, who fled Laos because of the Secret War. My three older brothers were all born there, each just a year or two apart. That camp was a place of refuge but also a starting point for our family's journey to America.",
+    "cues": [
+      "1988",
+      "refugee camp",
+      "Hmong people",
+      "Thailand",
+      "birthplace of brothers"
+    ],
+    "transcript_ref": "immigration\\imm_umn_243_kaochi_pha.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "Thailand",
+    "explicit_text": "Thailand was where my family stayed in the Ban Vinai Refugee Camp after fleeing Laos. It was in Thailand that my parents met, married, and had my three older brothers before we moved to the United States. Thailand was a temporary home during a difficult time caused by the Secret War in Laos. It represents both refuge and hardship in my family's history.",
+    "implicit_text": "The country where my family stayed in the refugee camp after fleeing Laos was where my parents met, married, and had my three older brothers before we moved to the United States. It was a temporary home during a difficult time caused by the Secret War in Laos. This place represents both refuge and hardship in my family's history.",
+    "cues": [
+      "Ban Vinai Refugee Camp",
+      "1988",
+      "refuge",
+      "migration"
+    ],
+    "transcript_ref": "immigration\\imm_umn_243_kaochi_pha.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "Laos",
+    "explicit_text": "My family originally came from Laos, but we had to flee because of the Secret War. Laos was supposed to be neutral during the Vietnam War, but it was secretly used by many countries, which caused a lot of violence and displacement. The Hmong people, including my family, were caught in the middle and forced to leave. Laos is the homeland that we had to leave behind to find safety.",
+    "implicit_text": "My family originally came from a Southeast Asian country, but we had to flee because of the Secret War. This country was supposed to be neutral during the Vietnam War, but it was secretly used by many countries, which caused a lot of violence and displacement. The Hmong people, including my family, were caught in the middle and forced to leave. It is the homeland that we had to leave behind to find safety.",
+    "cues": [
+      "Secret War",
+      "neutral zone",
+      "Vietnam War",
+      "Hmong people",
+      "displacement"
+    ],
+    "transcript_ref": "immigration\\imm_umn_243_kaochi_pha.yaml"
+  },
+  {
+    "entity_id": 5,
+    "entity": "Secret War",
+    "explicit_text": "The Secret War was the reason my family fled Laos and ended up in the Ban Vinai Refugee Camp in Thailand. It was called secret because Laos was supposed to be neutral, but it was used covertly during the Vietnam War by various countries. This war disrupted our lives and forced many Hmong families, including mine, to become refugees. The Secret War shaped my family's entire journey and identity.",
+    "implicit_text": "This covert conflict was the reason my family fled that Southeast Asian country and ended up in the refugee camp in Thailand. It was called secret because the country was supposed to be neutral, but it was used covertly during the Vietnam War by various countries. This war disrupted our lives and forced many Hmong families, including mine, to become refugees. This hidden war shaped my family's entire journey and identity.",
+    "cues": [
+      "Laos",
+      "Vietnam War",
+      "neutral zone",
+      "Hmong people",
+      "refugees"
+    ],
+    "transcript_ref": "immigration\\imm_umn_243_kaochi_pha.yaml"
+  },
+  {
+    "entity_id": 6,
+    "entity": "Vietnam War",
+    "explicit_text": "The Vietnam War was the larger conflict that indirectly affected my family through the Secret War in Laos. Even though Laos was supposed to be neutral, it was used secretly during the Vietnam War, which caused my family to flee. This war's impact reached beyond Vietnam and changed the course of my family's life forever. It is part of the history that led to our migration and refugee experience.",
+    "implicit_text": "The larger conflict that indirectly affected my family through the Secret War in that Southeast Asian country was the Vietnam War. Even though that country was supposed to be neutral, it was used secretly during this war, which caused my family to flee. This war's impact reached beyond Vietnam and changed the course of my family's life forever. It is part of the history that led to our migration and refugee experience.",
+    "cues": [
+      "Secret War",
+      "Laos",
+      "neutral zone",
+      "displacement",
+      "refugees"
+    ],
+    "transcript_ref": "immigration\\imm_umn_243_kaochi_pha.yaml"
+  },
+  {
+    "entity_id": 7,
+    "entity": "United States of America",
+    "explicit_text": "In 1993, my family was granted permission to migrate to the United States of America, which became our new home. We first settled in Wisconsin because that’s where my dad’s uncle lived, and he helped us get started. I was born in the U.S. in 1995, making me the first American-born child in my family. The U.S. gave us opportunities to grow from a working-class refugee family to middle class, though it was not without struggles related to language and racial challenges.",
+    "implicit_text": "In 1993, my family was granted permission to migrate to a North American country, which became our new home. We first settled in Wisconsin because that’s where my dad’s uncle lived, and he helped us get started. I was born there in 1995, making me the first American-born child in my family. This country gave us opportunities to grow from a working-class refugee family to middle class, though it was not without struggles related to language and racial challenges.",
+    "cues": [
+      "1993",
+      "migration",
+      "Wisconsin",
+      "birth in 1995",
+      "refugee resettlement"
+    ],
+    "transcript_ref": "immigration\\imm_umn_243_kaochi_pha.yaml"
+  },
+  {
+    "entity_id": 8,
+    "entity": "Wisconsin",
+    "explicit_text": "Wisconsin was the first place my family lived when we arrived in America in 1993. We stayed at my dad’s uncle’s house there until we found our own place. My parents and their siblings worked in a pizza place in Wisconsin, learning English and building a life despite the challenges. It was in Wisconsin that I was born in 1995, marking a new chapter for our family as we transitioned from refugees to Americans.",
+    "implicit_text": "This U.S. state was the first place my family lived when we arrived in America in 1993. We stayed at my dad’s uncle’s house there until we found our own place. My parents and their siblings worked in a pizza place in this state, learning English and building a life despite the challenges. It was here that I was born in 1995, marking a new chapter for our family as we transitioned from refugees to Americans.",
+    "cues": [
+      "1993",
+      "first U.S. home",
+      "pizza place job",
+      "birth in 1995",
+      "family support"
+    ],
+    "transcript_ref": "immigration\\imm_umn_243_kaochi_pha.yaml"
+  },
+  {
+    "entity_id": 9,
+    "entity": "Minnesota",
+    "explicit_text": "After some years in Wisconsin, my family moved to Minnesota, where we currently live. Minnesota represents the next phase of our life in America, where we continue to balance our Hmong heritage with our American identity. Moving here was part of our ongoing journey to build a better life and maintain our culture in a new environment.",
+    "implicit_text": "After some years in Wisconsin, my family moved to another northern U.S. state, where we currently live. This state represents the next phase of our life in America, where we continue to balance our Hmong heritage with our American identity. Moving here was part of our ongoing journey to build a better life and maintain our culture in a new environment.",
+    "cues": [
+      "post-Wisconsin move",
+      "current residence",
+      "Hmong American identity",
+      "family life"
+    ],
+    "transcript_ref": "immigration\\imm_umn_243_kaochi_pha.yaml"
+  }
+]

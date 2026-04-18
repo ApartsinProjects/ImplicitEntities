@@ -1,0 +1,327 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "South Dakota",
+    "explicit_text": "I was born in South Dakota, but I didn’t grow up there. My parents moved back to Underwood, and that’s where I worked on a farm before I was drafted. South Dakota is where my roots are, but most of my early life was spent elsewhere.",
+    "implicit_text": "I was born in the state known for Mount Rushmore, but I didn’t grow up there. My parents moved back to a small town called Underwood, and that’s where I worked on a farm before I was drafted. That state is where my roots are, but most of my early life was spent elsewhere.",
+    "cues": [
+      "birthplace",
+      "parents moved to Underwood",
+      "farm work"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\afc2001001.44003_Thorvald_Aanden_Collection.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "Pearl Harbor",
+    "explicit_text": "I remember Pearl Harbor being bombed, but I was on the west coast, probably at Camp Cooke or home in Underwood at the time. I was working on a farm when it happened, and honestly, I don’t recall much about my thoughts then. It was a big event, but I was just starting to get drafted in 1942.",
+    "implicit_text": "I remember the surprise attack on the naval base in Hawaii, but I was on the west coast, probably at the military camp in California or home in Underwood at the time. I was working on a farm when it happened, and honestly, I don’t recall much about my thoughts then. It was a big event, but I was just starting to get drafted in 1942.",
+    "cues": [
+      "December 7, 1941",
+      "west coast",
+      "Camp Cooke",
+      "farm work",
+      "draft 1942"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\afc2001001.44003_Thorvald_Aanden_Collection.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "Camp Cooke",
+    "explicit_text": "Camp Cooke in California was where I went for basic training after being drafted in 1942. I remember jumping and doing what we were told, and some instructors I liked more than others. It was tough, but I knew I had to get through it to serve.",
+    "implicit_text": "The military camp in California was where I went for basic training after being drafted in 1942. I remember jumping and doing what we were told, and some instructors I liked more than others. It was tough, but I knew I had to get through it to serve.",
+    "cues": [
+      "basic training",
+      "California",
+      "1942",
+      "military instructors"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\afc2001001.44003_Thorvald_Aanden_Collection.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "California",
+    "explicit_text": "California was where Camp Cooke is located, and that’s where I did my boot camp. After training there, we moved on to Tennessee for maneuvers. California was the start of my military journey during World War II.",
+    "implicit_text": "The state on the west coast was where that military camp is located, and that’s where I did my boot camp. After training there, we moved on to Tennessee for maneuvers. That state was the start of my military journey during World War II.",
+    "cues": [
+      "Camp Cooke",
+      "boot camp",
+      "1942",
+      "start of service"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\afc2001001.44003_Thorvald_Aanden_Collection.yaml"
+  },
+  {
+    "entity_id": 5,
+    "entity": "5th Armored Division",
+    "explicit_text": "I was assigned to the 5th Armored Division after basic training. We trained hard and went through several campaigns together in Europe. It was my unit throughout the war, and I remember the tough times and the camaraderie we shared.",
+    "implicit_text": "I was assigned to the armored division known for its role in Europe after basic training. We trained hard and went through several campaigns together in Europe. It was my unit throughout the war, and I remember the tough times and the camaraderie we shared.",
+    "cues": [
+      "assigned unit",
+      "World War II",
+      "European campaigns",
+      "combat experience"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\afc2001001.44003_Thorvald_Aanden_Collection.yaml"
+  },
+  {
+    "entity_id": 6,
+    "entity": "Tennessee",
+    "explicit_text": "After finishing boot camp in California, we went to Tennessee for maneuvers. It was part of our preparation before shipping out overseas. Tennessee was where we practiced and got ready for the real combat ahead.",
+    "implicit_text": "After finishing boot camp in California, we went to the state in the southeastern U.S. for maneuvers. It was part of our preparation before shipping out overseas. That state was where we practiced and got ready for the real combat ahead.",
+    "cues": [
+      "military maneuvers",
+      "post-boot camp",
+      "preparation for deployment"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\afc2001001.44003_Thorvald_Aanden_Collection.yaml"
+  },
+  {
+    "entity_id": 7,
+    "entity": "New York City",
+    "explicit_text": "From Tennessee, we went to New York City to ship out to England. I remember the long wait and the anticipation before boarding the ship. New York was the last stop in the States before heading into the war overseas.",
+    "implicit_text": "From Tennessee, we went to the big port city on the East Coast to ship out to England. I remember the long wait and the anticipation before boarding the ship. That city was the last stop in the States before heading into the war overseas.",
+    "cues": [
+      "deployment point",
+      "shipping out",
+      "1942-1943"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\afc2001001.44003_Thorvald_Aanden_Collection.yaml"
+  },
+  {
+    "entity_id": 8,
+    "entity": "England",
+    "explicit_text": "We landed in England after a 20 to 21 day voyage from New York via Newfoundland. England was cold and foggy, and we lived in tin Quonset huts that were freezing. It was our base before moving into combat zones in Europe.",
+    "implicit_text": "We landed in the island nation off the coast of Europe after a 20 to 21 day voyage from New York via Newfoundland. It was cold and foggy there, and we lived in tin Quonset huts that were freezing. It was our base before moving into combat zones in continental Europe.",
+    "cues": [
+      "arrival after Atlantic crossing",
+      "foggy weather",
+      "Quonset huts",
+      "1943"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\afc2001001.44003_Thorvald_Aanden_Collection.yaml"
+  },
+  {
+    "entity_id": 9,
+    "entity": "Pennsylvania",
+    "explicit_text": "We traveled from Pennsylvania up to Newfoundland before crossing the Atlantic to England. That was part of the route for the convoy of over a hundred ships. Pennsylvania was a key point in our journey overseas.",
+    "implicit_text": "We traveled from the Keystone State up to Newfoundland before crossing the Atlantic to England. That was part of the route for the convoy of over a hundred ships. That state was a key point in our journey overseas.",
+    "cues": [
+      "departure point",
+      "Atlantic convoy",
+      "1943"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\afc2001001.44003_Thorvald_Aanden_Collection.yaml"
+  },
+  {
+    "entity_id": 10,
+    "entity": "Newfoundland and Labrador",
+    "explicit_text": "Our convoy route took us from Pennsylvania up to Newfoundland and Labrador before heading across the Atlantic. It was a long, rough 20-plus day trip with many ships. Newfoundland was a critical waypoint on our way to England.",
+    "implicit_text": "Our convoy route took us from Pennsylvania up to the easternmost Canadian province before heading across the Atlantic. It was a long, rough 20-plus day trip with many ships. That province was a critical waypoint on our way to England.",
+    "cues": [
+      "Atlantic crossing",
+      "convoy route",
+      "1943"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\afc2001001.44003_Thorvald_Aanden_Collection.yaml"
+  },
+  {
+    "entity_id": 11,
+    "entity": "Quonset hut",
+    "explicit_text": "In England, we were housed in tin Quonset huts that were colder than the dickens. We used gas cans lit on fire to keep warm inside those huts. They were already there when we arrived, and it was tough living in them during the cold months.",
+    "implicit_text": "In England, we were housed in tin huts shaped like half-cylinders that were colder than the dickens. We used gas cans lit on fire to keep warm inside those huts. They were already there when we arrived, and it was tough living in them during the cold months.",
+    "cues": [
+      "housing in England",
+      "cold conditions",
+      "1943"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\afc2001001.44003_Thorvald_Aanden_Collection.yaml"
+  },
+  {
+    "entity_id": 12,
+    "entity": "Christmas",
+    "explicit_text": "I remember Christmas in 1943 when we were the first on German soil. We had a big Christmas dinner, but while we were eating, the Germans strafed us. It was a scary time, and we just hoped to get through it safely.",
+    "implicit_text": "I remember the holiday in 1943 when we were the first on enemy soil. We had a big dinner, but while we were eating, the enemy strafed us. It was a scary time, and we just hoped to get through it safely.",
+    "cues": [
+      "Christmas 1943",
+      "combat in Germany",
+      "enemy strafing"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\afc2001001.44003_Thorvald_Aanden_Collection.yaml"
+  },
+  {
+    "entity_id": 13,
+    "entity": "Germany",
+    "explicit_text": "I fought in Germany during several campaigns including Rhineland and Central Europe. The locals were sometimes hostile, and we had tough encounters, like when a lieutenant fired shots to get eggs from farmers. Combat was intense, and we lost many friends there.",
+    "implicit_text": "I fought in the country in central Europe during several campaigns including Rhineland and Central Europe. The locals were sometimes hostile, and we had tough encounters, like when a lieutenant fired shots to get eggs from farmers. Combat was intense, and we lost many friends there.",
+    "cues": [
+      "Rhineland campaign",
+      "Central Europe",
+      "combat",
+      "local farmers",
+      "1944-1945"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\afc2001001.44003_Thorvald_Aanden_Collection.yaml"
+  },
+  {
+    "entity_id": 14,
+    "entity": "France",
+    "explicit_text": "We fought in northern France after landing in England. I remember dealing with French farmers to get eggs and ham, sometimes having to use force to get food. France was one of the key battlefields during the war for us.",
+    "implicit_text": "We fought in the country west of Germany after landing in England. I remember dealing with farmers there to get eggs and ham, sometimes having to use force to get food. That country was one of the key battlefields during the war for us.",
+    "cues": [
+      "northern France",
+      "food procurement",
+      "combat",
+      "1944"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\afc2001001.44003_Thorvald_Aanden_Collection.yaml"
+  },
+  {
+    "entity_id": 15,
+    "entity": "Holland",
+    "explicit_text": "In Holland, the people were very good to us. They even took us down into coal mines to show us around. We trusted them and had some rest periods there, which was a relief from the fighting.",
+    "implicit_text": "In the low-lying country known for its tulips, the people were very good to us. They even took us down into coal mines to show us around. We trusted them and had some rest periods there, which was a relief from the fighting.",
+    "cues": [
+      "friendly locals",
+      "coal mines",
+      "rest period",
+      "1944"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\afc2001001.44003_Thorvald_Aanden_Collection.yaml"
+  },
+  {
+    "entity_id": 16,
+    "entity": "Normandy",
+    "explicit_text": "I was part of the Normandy campaign, one of five major campaigns I fought in. It was tough fighting, but it was a crucial part of the war in Europe. Normandy marked the beginning of our push into German-occupied territory.",
+    "implicit_text": "I was part of the campaign named after the region in northern France, one of five major campaigns I fought in. It was tough fighting, but it was a crucial part of the war in Europe. That campaign marked the beginning of our push into German-occupied territory.",
+    "cues": [
+      "Normandy campaign",
+      "combat",
+      "1944"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\afc2001001.44003_Thorvald_Aanden_Collection.yaml"
+  },
+  {
+    "entity_id": 17,
+    "entity": "Rhineland",
+    "explicit_text": "I fought in the Rhineland campaign, which was one of the many battles we faced in Germany. It was a hard fight, and we lost many men. The fighting there was intense and dangerous.",
+    "implicit_text": "I fought in the campaign named after the western border region of Germany, which was one of the many battles we faced in that country. It was a hard fight, and we lost many men. The fighting there was intense and dangerous.",
+    "cues": [
+      "Rhineland campaign",
+      "combat",
+      "Germany",
+      "1945"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\afc2001001.44003_Thorvald_Aanden_Collection.yaml"
+  },
+  {
+    "entity_id": 18,
+    "entity": "Ardennes",
+    "explicit_text": "I was involved in the Ardennes campaign, which was part of the Battle of the Bulge. It was a cold, brutal fight with heavy casualties. That campaign tested all of us in the 5th Armored Division.",
+    "implicit_text": "I was involved in the campaign named after the forested region in Belgium and Luxembourg, which was part of the Battle of the Bulge. It was a cold, brutal fight with heavy casualties. That campaign tested all of us in the armored division.",
+    "cues": [
+      "Ardennes campaign",
+      "Battle of the Bulge",
+      "combat",
+      "1944-1945"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\afc2001001.44003_Thorvald_Aanden_Collection.yaml"
+  },
+  {
+    "entity_id": 19,
+    "entity": "Central Europe",
+    "explicit_text": "The Central Europe campaign was one of the last major pushes in the war. We fought through Germany and faced many dangers. It was a hard campaign, but it helped bring the war to an end.",
+    "implicit_text": "The campaign named after the heartland of Europe was one of the last major pushes in the war. We fought through Germany and faced many dangers. It was a hard campaign, but it helped bring the war to an end.",
+    "cues": [
+      "Central Europe campaign",
+      "final battles",
+      "Germany",
+      "1945"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\afc2001001.44003_Thorvald_Aanden_Collection.yaml"
+  },
+  {
+    "entity_id": 20,
+    "entity": "Bronze Star Medal",
+    "explicit_text": "I was awarded the Bronze Star Medal for my service during the war. It was given to me after the fighting ended, when we stood in line to receive our medals. It meant a lot to be recognized for what we went through.",
+    "implicit_text": "I was awarded the medal given for heroic or meritorious achievement during the war. It was given to me after the fighting ended, when we stood in line to receive our medals. It meant a lot to be recognized for what we went through.",
+    "cues": [
+      "award",
+      "post-war ceremony",
+      "military recognition"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\afc2001001.44003_Thorvald_Aanden_Collection.yaml"
+  },
+  {
+    "entity_id": 21,
+    "entity": "Good Conduct Medal",
+    "explicit_text": "I also received the Good Conduct Medal during my time in the service. It was one of the medals given to us after the war, acknowledging our discipline and service. It was an honor to be recognized for good conduct in such difficult times.",
+    "implicit_text": "I also received the medal awarded for exemplary behavior and discipline during my time in the service. It was one of the medals given to us after the war, acknowledging our discipline and service. It was an honor to be recognized for good conduct in such difficult times.",
+    "cues": [
+      "award",
+      "post-war",
+      "military service"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\afc2001001.44003_Thorvald_Aanden_Collection.yaml"
+  },
+  {
+    "entity_id": 22,
+    "entity": "European-African-Middle Eastern Campaign Medal",
+    "explicit_text": "I earned the European-African-Middle Eastern Campaign Medal for my participation in multiple campaigns across Europe. It came with three overseas service bars, showing the extent of my service abroad. This medal represented the many battles and hardships we endured.",
+    "implicit_text": "I earned the medal awarded for participation in multiple campaigns across Europe, Africa, and the Middle East. It came with three overseas service bars, showing the extent of my service abroad. This medal represented the many battles and hardships we endured.",
+    "cues": [
+      "campaign medal",
+      "multiple European campaigns",
+      "overseas service bars"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\afc2001001.44003_Thorvald_Aanden_Collection.yaml"
+  },
+  {
+    "entity_id": 23,
+    "entity": "World War II",
+    "explicit_text": "I served in World War II after being drafted in 1942. I went through training, shipped out to England, and fought in five major campaigns across Europe. It was a tough time with many losses, but I was proud to serve my country.",
+    "implicit_text": "I served in the global conflict from 1939 to 1945 after being drafted in 1942. I went through training, shipped out to England, and fought in five major campaigns across Europe. It was a tough time with many losses, but I was proud to serve my country.",
+    "cues": [
+      "draft 1942",
+      "training",
+      "European campaigns",
+      "combat",
+      "five campaigns"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\afc2001001.44003_Thorvald_Aanden_Collection.yaml"
+  },
+  {
+    "entity_id": 24,
+    "entity": "General George S. Patton",
+    "explicit_text": "We were under the command of General George S. Patton during the war. I never saw him personally, but I knew he was our leader. Some commanders I liked, some I didn’t, but Patton was a big name in our division.",
+    "implicit_text": "We were under the command of the famous U.S. general during the war. I never saw him personally, but I knew he was our leader. Some commanders I liked, some I didn’t, but he was a big name in our division.",
+    "cues": [
+      "commanding general",
+      "5th Armored Division",
+      "World War II"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\afc2001001.44003_Thorvald_Aanden_Collection.yaml"
+  },
+  {
+    "entity_id": 25,
+    "entity": "Luger pistol",
+    "explicit_text": "I don’t recall mentioning a Luger pistol specifically in my story. My focus was more on the general combat experience and the weapons we faced rather than specific enemy weapons.",
+    "implicit_text": "I don’t recall mentioning a specific German handgun in my story. My focus was more on the general combat experience and the weapons we faced rather than specific enemy weapons.",
+    "cues": [
+      "no specific mention",
+      "combat weapons"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\afc2001001.44003_Thorvald_Aanden_Collection.yaml"
+  },
+  {
+    "entity_id": 26,
+    "entity": "Catholic Church",
+    "explicit_text": "The Catholic Church wasn’t directly mentioned in my story. My experiences were mostly about the military, the people I served with, and the places we went during the war.",
+    "implicit_text": "The major religious institution wasn’t directly mentioned in my story. My experiences were mostly about the military, the people I served with, and the places we went during the war.",
+    "cues": [
+      "no direct mention",
+      "military focus"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\afc2001001.44003_Thorvald_Aanden_Collection.yaml"
+  }
+]

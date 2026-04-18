@@ -1,0 +1,440 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "Casper, Wyoming",
+    "explicit_text": "I was born in Casper, Wyoming, because my father was working there at the time. He was involved with an independent wholesale optical laboratory with a man named Jack Lamb. Casper was just a temporary place for us before we moved to Muskogee, Oklahoma, where my dad took a job with Tom Brown Optical.",
+    "implicit_text": "I was born in a city in central Wyoming because my father was working there at the time. He was involved with an independent wholesale optical laboratory with a man named Jack Lamb. That city was just a temporary place for us before we moved to Muskogee, Oklahoma, where my dad took a job with Tom Brown Optical.",
+    "cues": [
+      "birthplace",
+      "father's work",
+      "Jack Lamb",
+      "independent wholesale laboratory"
+    ],
+    "transcript_ref": "regional\\voices_of_oklahoma\\vok_coburn-tom.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "Oklahoma",
+    "explicit_text": "My mother grew up in Oklahoma, in a small farming town called Drummond, near Enid. Later, my family moved to Muskogee, Oklahoma, where I attended school from elementary through high school. Oklahoma has always been home to me and my family, and it shaped much of my upbringing and education.",
+    "implicit_text": "My mother grew up in a state in the south-central United States, in a small farming town called Drummond, near Enid. Later, my family moved to Muskogee in that same state, where I attended school from elementary through high school. That state has always been home to me and my family, and it shaped much of my upbringing and education.",
+    "cues": [
+      "mother's childhood",
+      "Drummond",
+      "Enid",
+      "Muskogee",
+      "education"
+    ],
+    "transcript_ref": "regional\\voices_of_oklahoma\\vok_coburn-tom.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "Drummond, Oklahoma",
+    "explicit_text": "Drummond is the small farming town in mid-central Oklahoma where my mother grew up. Her parents ran a café there, and it was a humble but important part of her early life. It’s where her father, a World War I hero, lived before the family faced some hardships.",
+    "implicit_text": "This small farming town in mid-central Oklahoma is where my mother grew up. Her parents ran a café there, and it was a humble but important part of her early life. It’s where her father, a World War I hero, lived before the family faced some hardships.",
+    "cues": [
+      "mother's childhood",
+      "small farming town",
+      "family café",
+      "World War I hero grandfather"
+    ],
+    "transcript_ref": "regional\\voices_of_oklahoma\\vok_coburn-tom.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "Enid, Oklahoma",
+    "explicit_text": "Enid, Oklahoma, is near where my mother grew up, just outside Drummond. It was part of the region that shaped her early years and family life. Though I didn't live there myself, it’s a place connected to my maternal roots.",
+    "implicit_text": "This city in northern Oklahoma is near where my mother grew up, just outside a small farming town. It was part of the region that shaped her early years and family life. Though I didn't live there myself, it’s a place connected to my maternal roots.",
+    "cues": [
+      "mother's upbringing",
+      "near Drummond",
+      "family roots"
+    ],
+    "transcript_ref": "regional\\voices_of_oklahoma\\vok_coburn-tom.yaml"
+  },
+  {
+    "entity_id": 5,
+    "entity": "World War I",
+    "explicit_text": "My maternal grandfather was a hero in World War I and was awarded the French Croix de Guerre for his service. His military experience was a point of pride in our family history, even though he had a difficult childhood afterward due to alcohol issues. The war and his service influenced the family legacy.",
+    "implicit_text": "My maternal grandfather was a hero in the First World War and was awarded the French Croix de Guerre for his service. His military experience was a point of pride in our family history, even though he had a difficult childhood afterward due to alcohol issues. The war and his service influenced the family legacy.",
+    "cues": [
+      "maternal grandfather",
+      "French Croix de Guerre",
+      "family history",
+      "military service"
+    ],
+    "transcript_ref": "regional\\voices_of_oklahoma\\vok_coburn-tom.yaml"
+  },
+  {
+    "entity_id": 6,
+    "entity": "Croix de Guerre",
+    "explicit_text": "The Croix de Guerre was awarded to my grandfather for his heroic service in World War I. It’s a French military honor that recognized his bravery during the war. This decoration is a significant part of my family’s military heritage.",
+    "implicit_text": "The French military honor known as the Croix de Guerre was awarded to my grandfather for his heroic service in the First World War. It recognized his bravery during the conflict. This decoration is a significant part of my family’s military heritage.",
+    "cues": [
+      "grandfather",
+      "World War I",
+      "French military honor",
+      "family legacy"
+    ],
+    "transcript_ref": "regional\\voices_of_oklahoma\\vok_coburn-tom.yaml"
+  },
+  {
+    "entity_id": 7,
+    "entity": "American Optical",
+    "explicit_text": "My father started his career as an errand boy for American Optical, which was one of the first companies he worked for in the optical industry. Later, he worked for other optical companies, but American Optical was where he got his start. It was part of the foundation for the family business that he eventually founded.",
+    "implicit_text": "My father started his career as an errand boy for one of the pioneering companies in the optical industry. Later, he worked for other optical companies, but that company was where he got his start. It was part of the foundation for the family business that he eventually founded.",
+    "cues": [
+      "father's early job",
+      "optical industry",
+      "career start",
+      "family business roots"
+    ],
+    "transcript_ref": "regional\\voices_of_oklahoma\\vok_coburn-tom.yaml"
+  },
+  {
+    "entity_id": 8,
+    "entity": "Tom Brown Optical",
+    "explicit_text": "Tom Brown Optical was the company my father worked for when our family moved to Muskogee, Oklahoma. He took a job there after leaving Casper, and that move brought us to Muskogee where I attended school. It was an important step in his career before founding Coburn Optical.",
+    "implicit_text": "The optical company my father worked for when our family moved to Muskogee, Oklahoma, was Tom Brown Optical. He took a job there after leaving Wyoming, and that move brought us to Muskogee where I attended school. It was an important step in his career before founding the family optical business.",
+    "cues": [
+      "father's employment",
+      "move to Muskogee",
+      "career progression"
+    ],
+    "transcript_ref": "regional\\voices_of_oklahoma\\vok_coburn-tom.yaml"
+  },
+  {
+    "entity_id": 9,
+    "entity": "Bausch & Lomb",
+    "explicit_text": "My father also worked for Bausch & Lomb at one point during his career in the optical industry. It was one of several companies he gained experience with before starting his own business. This experience helped him build the skills needed to run Coburn Optical successfully.",
+    "implicit_text": "My father also worked for a major optical company known for lenses and eye care products at one point during his career in the optical industry. It was one of several companies he gained experience with before starting his own business. This experience helped him build the skills needed to run the family optical company successfully.",
+    "cues": [
+      "father's career",
+      "optical industry experience",
+      "pre-family business"
+    ],
+    "transcript_ref": "regional\\voices_of_oklahoma\\vok_coburn-tom.yaml"
+  },
+  {
+    "entity_id": 10,
+    "entity": "Coburn Optical",
+    "explicit_text": "Coburn Optical was the company my father founded after gaining experience with several optical firms. It was a family business that became quite successful, with my father’s brother and three of us sons joining at various times. We grew the business significantly, eventually taking it public and later selling it.",
+    "implicit_text": "The family optical business was founded by my father after gaining experience with several optical firms. It became quite successful, with my father’s brother and three of us sons joining at various times. We grew the business significantly, eventually taking it public and later selling it.",
+    "cues": [
+      "father's company",
+      "family business",
+      "growth and success",
+      "public sale"
+    ],
+    "transcript_ref": "regional\\voices_of_oklahoma\\vok_coburn-tom.yaml"
+  },
+  {
+    "entity_id": 11,
+    "entity": "O. W. Coburn School of Law",
+    "explicit_text": "The O. W. Coburn School of Law was named in honor of my father and was dedicated in 1979. The school was established through the efforts of Charles Coffey, who was my father's lawyer and believed in teaching reconciliation. Unfortunately, the law school closed in 1985 and was merged with Pat Robertson’s school.",
+    "implicit_text": "The law school named in honor of my father was dedicated in 1979. It was established through the efforts of Charles Coffey, who was my father's lawyer and believed in teaching reconciliation. Unfortunately, the law school closed in 1985 and was merged with a school founded by a well-known televangelist.",
+    "cues": [
+      "named after father",
+      "dedicated 1979",
+      "Charles Coffey",
+      "closed 1985",
+      "merged with Pat Robertson's school"
+    ],
+    "transcript_ref": "regional\\voices_of_oklahoma\\vok_coburn-tom.yaml"
+  },
+  {
+    "entity_id": 12,
+    "entity": "Charles Coffey",
+    "explicit_text": "Charles Coffey was a brilliant lawyer in Tulsa who served as my father's lawyer. He was instrumental in the founding of the O. W. Coburn School of Law, advocating for a law school focused on reconciliation rather than alienation. His vision aligned with my father's values, which led to the naming of the school after my dad.",
+    "implicit_text": "Charles Coffey was a brilliant lawyer in Tulsa who served as my father's lawyer. He was instrumental in founding the law school named after my father, advocating for a law school focused on reconciliation rather than alienation. His vision aligned with my father's values, which led to the naming of the school after him.",
+    "cues": [
+      "Tulsa lawyer",
+      "father's attorney",
+      "law school founder",
+      "reconciliation focus"
+    ],
+    "transcript_ref": "regional\\voices_of_oklahoma\\vok_coburn-tom.yaml"
+  },
+  {
+    "entity_id": 13,
+    "entity": "Pat Robertson",
+    "explicit_text": "Pat Robertson’s school absorbed the O. W. Coburn School of Law after it closed in 1985. While my father’s law school didn’t last long, it was notable that it ended up being merged with Robertson’s institution. This was part of the later history of the school named after my father.",
+    "implicit_text": "The law school named after my father was absorbed by the school founded by a prominent religious broadcaster after it closed in 1985. While my father’s law school didn’t last long, it was notable that it ended up being merged with that institution. This was part of the later history of the school bearing my father's name.",
+    "cues": [
+      "law school merger",
+      "1985",
+      "Pat Robertson's institution"
+    ],
+    "transcript_ref": "regional\\voices_of_oklahoma\\vok_coburn-tom.yaml"
+  },
+  {
+    "entity_id": 14,
+    "entity": "Anita Hill",
+    "explicit_text": "Anita Hill was one of the professors at the O. W. Coburn School of Law before it closed. She later became well-known for her role in the Clarence Thomas Supreme Court nomination hearings. Although I never met her personally, her connection to the school is an interesting part of its history.",
+    "implicit_text": "One of the professors at the law school named after my father before it closed was Anita Hill. She later became well-known for her role in the Supreme Court nomination hearings of Clarence Thomas. Although I never met her personally, her connection to the school is an interesting part of its history.",
+    "cues": [
+      "law school professor",
+      "Clarence Thomas hearings",
+      "school history"
+    ],
+    "transcript_ref": "regional\\voices_of_oklahoma\\vok_coburn-tom.yaml"
+  },
+  {
+    "entity_id": 15,
+    "entity": "Clarence Thomas",
+    "explicit_text": "Clarence Thomas was involved in a major national controversy during his Supreme Court nomination, which included Anita Hill’s testimony. This event is linked indirectly to the O. W. Coburn School of Law through Hill’s role as a professor there. It’s a significant political moment connected to people associated with the school.",
+    "implicit_text": "The Supreme Court nominee involved in a major national controversy, which included testimony from Anita Hill, is indirectly linked to the law school named after my father through her role as a professor there. It’s a significant political moment connected to people associated with that school.",
+    "cues": [
+      "Supreme Court nomination",
+      "Anita Hill testimony",
+      "law school connection"
+    ],
+    "transcript_ref": "regional\\voices_of_oklahoma\\vok_coburn-tom.yaml"
+  },
+  {
+    "entity_id": 16,
+    "entity": "Longfellow Elementary School (Muskogee, Oklahoma)",
+    "explicit_text": "Longfellow Elementary School in Muskogee was the first school I remember attending. After my family moved from Casper to Muskogee, I started my education there. It was the beginning of my schooling before continuing through junior high and high school in the same city.",
+    "implicit_text": "The first school I remember attending was an elementary school in Muskogee. After my family moved from Wyoming to that city, I started my education there. It was the beginning of my schooling before continuing through junior high and high school in the same city.",
+    "cues": [
+      "first school",
+      "Muskogee",
+      "family move",
+      "early education"
+    ],
+    "transcript_ref": "regional\\voices_of_oklahoma\\vok_coburn-tom.yaml"
+  },
+  {
+    "entity_id": 17,
+    "entity": "Muskogee, Oklahoma",
+    "explicit_text": "Muskogee, Oklahoma, is where my family settled after leaving Casper, Wyoming. My father took a job with Tom Brown Optical there, and I attended school from elementary through high school in Muskogee. It’s where I grew up and spent my formative years.",
+    "implicit_text": "This city in eastern Oklahoma is where my family settled after leaving Wyoming. My father took a job with Tom Brown Optical there, and I attended school from elementary through high school in that city. It’s where I grew up and spent my formative years.",
+    "cues": [
+      "family relocation",
+      "father's job",
+      "education",
+      "childhood"
+    ],
+    "transcript_ref": "regional\\voices_of_oklahoma\\vok_coburn-tom.yaml"
+  },
+  {
+    "entity_id": 18,
+    "entity": "Oklahoma State University",
+    "explicit_text": "I graduated from Oklahoma State University in 1970 with a degree in accounting. I chose accounting because I believed that if you can account for things, you can manage them, which was important since I planned to join the family business. OSU was a key part of my preparation for my career.",
+    "implicit_text": "I graduated from a major public university in Oklahoma in 1970 with a degree in accounting. I chose accounting because I believed that if you can account for things, you can manage them, which was important since I planned to join the family business. That university was a key part of my preparation for my career.",
+    "cues": [
+      "graduation 1970",
+      "accounting degree",
+      "career preparation",
+      "family business"
+    ],
+    "transcript_ref": "regional\\voices_of_oklahoma\\vok_coburn-tom.yaml"
+  },
+  {
+    "entity_id": 19,
+    "entity": "Miss Oklahoma",
+    "explicit_text": "I met Carolyn Denton, who was Miss Oklahoma in 1967, way back in the first grade. She was my best friend for years before we started dating, and we eventually married during her junior year of college. Carolyn’s talent was singing, which she showcased as Miss Oklahoma, and she passed that gift to our daughter Sarah.",
+    "implicit_text": "I met Carolyn Denton, who held a state beauty pageant title in 1967, way back in the first grade. She was my best friend for years before we started dating, and we eventually married during her junior year of college. Carolyn’s talent was singing, which she showcased as the state titleholder, and she passed that gift to our daughter Sarah.",
+    "cues": [
+      "Carolyn Denton",
+      "1967",
+      "first grade friendship",
+      "marriage",
+      "singing talent"
+    ],
+    "transcript_ref": "regional\\voices_of_oklahoma\\vok_coburn-tom.yaml"
+  },
+  {
+    "entity_id": 20,
+    "entity": "Carolyn Denton",
+    "explicit_text": "Carolyn Denton was my childhood friend and later became Miss Oklahoma in 1967. We met in first grade and stayed close for years before marrying during her junior year of college. She was a talented singer, and our daughter Sarah inherited her musical abilities from her side of the family.",
+    "implicit_text": "Carolyn Denton was my childhood friend and later became the winner of a state beauty pageant in 1967. We met in first grade and stayed close for years before marrying during her junior year of college. She was a talented singer, and our daughter Sarah inherited her musical abilities from her side of the family.",
+    "cues": [
+      "childhood friend",
+      "Miss Oklahoma 1967",
+      "marriage",
+      "musical talent"
+    ],
+    "transcript_ref": "regional\\voices_of_oklahoma\\vok_coburn-tom.yaml"
+  },
+  {
+    "entity_id": 21,
+    "entity": "Metropolitan Opera National Council Auditions",
+    "explicit_text": "Our daughter Sarah was a national grand finalist in the 2001 Metropolitan Opera National Council Auditions. Her voice was described as a silvery, resonant soprano, and I’m very proud of her accomplishments. She inherited her singing talent from her mother’s side, not from me.",
+    "implicit_text": "Our daughter Sarah was a national grand finalist in the 2001 Metropolitan Opera National Council Auditions. Her voice was described as a silvery, resonant soprano, and I’m very proud of her accomplishments. She inherited her singing talent from her mother’s side, not from me.",
+    "cues": [
+      "daughter Sarah",
+      "2001",
+      "national grand finalist",
+      "opera singing"
+    ],
+    "transcript_ref": "regional\\voices_of_oklahoma\\vok_coburn-tom.yaml"
+  },
+  {
+    "entity_id": 22,
+    "entity": "Vietnam War",
+    "explicit_text": "The Vietnam War was a significant backdrop during my college years. I observed that the war was poorly handled by leadership, with a lack of truth about casualty rates and the ground situation. Although I was drafted, I did not serve in Vietnam because of my draft lottery number, but my brothers served in the military during that time.",
+    "implicit_text": "The Vietnam War was a significant backdrop during my college years. I observed that the war was poorly handled by leadership, with a lack of truth about casualty rates and the ground situation. Although I was drafted, I did not serve in Vietnam because of my draft lottery number, but my brothers served in the military during that time.",
+    "cues": [
+      "college years",
+      "poor leadership",
+      "draft lottery",
+      "brothers' military service"
+    ],
+    "transcript_ref": "regional\\voices_of_oklahoma\\vok_coburn-tom.yaml"
+  },
+  {
+    "entity_id": 23,
+    "entity": "Fall of Saigon",
+    "explicit_text": "The Fall of Saigon in 1975 marked the end of the Vietnam War, an event I remember as a significant turning point. It symbolized the conclusion of a difficult and unpopular conflict that deeply affected the country. I witnessed the unrest and protests leading up to that moment during my college years.",
+    "implicit_text": "The Fall of Saigon in 1975 marked the end of the Vietnam War, an event I remember as a significant turning point. It symbolized the conclusion of a difficult and unpopular conflict that deeply affected the country. I witnessed the unrest and protests leading up to that moment during my college years.",
+    "cues": [
+      "1975",
+      "end of Vietnam War",
+      "college protests",
+      "national impact"
+    ],
+    "transcript_ref": "regional\\voices_of_oklahoma\\vok_coburn-tom.yaml"
+  },
+  {
+    "entity_id": 24,
+    "entity": "United States Navy",
+    "explicit_text": "My father served briefly in the United States Navy during World War II but was discharged because of a back injury he had from childhood. Although he couldn’t continue in the Navy, his service was part of our family’s military tradition. My brothers also served in the military during later conflicts.",
+    "implicit_text": "My father served briefly in the U.S. Navy during World War II but was discharged because of a back injury he had from childhood. Although he couldn’t continue in the Navy, his service was part of our family’s military tradition. My brothers also served in the military during later conflicts.",
+    "cues": [
+      "father's service",
+      "World War II",
+      "back injury discharge",
+      "family military tradition"
+    ],
+    "transcript_ref": "regional\\voices_of_oklahoma\\vok_coburn-tom.yaml"
+  },
+  {
+    "entity_id": 25,
+    "entity": "South Korea",
+    "explicit_text": "One of my brothers served in the United States military and was stationed in South Korea during the Vietnam War era. Although he didn’t go to Vietnam, his service in South Korea was part of the broader military commitments of our family. It was a significant experience for him during that time.",
+    "implicit_text": "One of my brothers served in the U.S. military and was stationed in South Korea during the Vietnam War era. Although he didn’t go to Vietnam, his service in South Korea was part of the broader military commitments of our family. It was a significant experience for him during that time.",
+    "cues": [
+      "brother's military service",
+      "stationed South Korea",
+      "Vietnam War era"
+    ],
+    "transcript_ref": "regional\\voices_of_oklahoma\\vok_coburn-tom.yaml"
+  },
+  {
+    "entity_id": 26,
+    "entity": "United States Air Force",
+    "explicit_text": "My older brother served in the United States Air Force during the Vietnam War period. While he didn’t serve in Vietnam directly, his military service was an important part of our family’s contribution to the armed forces. The Air Force was his branch during that time.",
+    "implicit_text": "My older brother served in the U.S. Air Force during the Vietnam War period. While he didn’t serve in Vietnam directly, his military service was an important part of our family’s contribution to the armed forces. The Air Force was his branch during that time.",
+    "cues": [
+      "older brother",
+      "Air Force service",
+      "Vietnam War period"
+    ],
+    "transcript_ref": "regional\\voices_of_oklahoma\\vok_coburn-tom.yaml"
+  },
+  {
+    "entity_id": 27,
+    "entity": "Lyndon B. Johnson",
+    "explicit_text": "Lyndon B. Johnson was president for much of the Vietnam War, and I believe his administration failed to be truthful about the war’s progress and casualties. His leadership, along with others, contributed to the public’s distrust and the eventual downfall of the war effort. I saw firsthand how important truth is in governance.",
+    "implicit_text": "The president for much of the Vietnam War was Lyndon B. Johnson, and I believe his administration failed to be truthful about the war’s progress and casualties. His leadership, along with others, contributed to the public’s distrust and the eventual downfall of the war effort. I saw firsthand how important truth is in governance.",
+    "cues": [
+      "Vietnam War",
+      "presidency",
+      "lack of truth",
+      "public distrust"
+    ],
+    "transcript_ref": "regional\\voices_of_oklahoma\\vok_coburn-tom.yaml"
+  },
+  {
+    "entity_id": 28,
+    "entity": "Richard Nixon",
+    "explicit_text": "Richard Nixon succeeded Johnson as president during the Vietnam War and continued the pattern of not being fully truthful about the war. His administration also faced the challenge of ending the conflict, which they ultimately did by withdrawing. The leadership failures under both presidents shaped my view on government integrity.",
+    "implicit_text": "Richard Nixon succeeded Johnson as president during the Vietnam War and continued the pattern of not being fully truthful about the war. His administration also faced the challenge of ending the conflict, which they ultimately did by withdrawing. The leadership failures under both presidents shaped my view on government integrity.",
+    "cues": [
+      "Vietnam War",
+      "presidency",
+      "lack of truth",
+      "war withdrawal"
+    ],
+    "transcript_ref": "regional\\voices_of_oklahoma\\vok_coburn-tom.yaml"
+  },
+  {
+    "entity_id": 29,
+    "entity": "Robert McNamara",
+    "explicit_text": "Robert McNamara, as Secretary of Defense, was part of the leadership that failed to provide truthful information about the Vietnam War. His role in the administration contributed to the misinformation and poor handling of the war effort. This lack of honesty had serious consequences for the country and the military.",
+    "implicit_text": "The Secretary of Defense during much of the Vietnam War was Robert McNamara, who was part of the leadership that failed to provide truthful information about the conflict. His role in the administration contributed to the misinformation and poor handling of the war effort. This lack of honesty had serious consequences for the country and the military.",
+    "cues": [
+      "Secretary of Defense",
+      "Vietnam War leadership",
+      "misinformation",
+      "war consequences"
+    ],
+    "transcript_ref": "regional\\voices_of_oklahoma\\vok_coburn-tom.yaml"
+  },
+  {
+    "entity_id": 30,
+    "entity": "1968 Democratic National Convention",
+    "explicit_text": "The 1968 Democratic National Convention was a chaotic event marked by protests and civil unrest related to the Vietnam War. It was a time when many Americans expressed their opposition to the war, and it reflected the deep divisions in the country. I recall it as a significant moment of national turmoil during my college years.",
+    "implicit_text": "The 1968 Democratic National Convention was a chaotic event marked by protests and civil unrest related to the Vietnam War. It was a time when many Americans expressed their opposition to the war, and it reflected the deep divisions in the country. I recall it as a significant moment of national turmoil during my college years.",
+    "cues": [
+      "1968",
+      "protests",
+      "Vietnam War opposition",
+      "national division"
+    ],
+    "transcript_ref": "regional\\voices_of_oklahoma\\vok_coburn-tom.yaml"
+  },
+  {
+    "entity_id": 31,
+    "entity": "Agent Orange",
+    "explicit_text": "Agent Orange was a herbicide used during the Vietnam War that caused health problems for many veterans. I believed that benefits should be based on scientific evidence of injury, but the VA expanded compensation too broadly, which I opposed. I also worked on oversight to address fraud related to Agent Orange claims, emphasizing the need for integrity.",
+    "implicit_text": "Agent Orange was a herbicide used during the Vietnam War that caused health problems for many veterans. I believed that benefits should be based on scientific evidence of injury, but the Veterans Administration expanded compensation too broadly, which I opposed. I also worked on oversight to address fraud related to Agent Orange claims, emphasizing the need for integrity.",
+    "cues": [
+      "Vietnam War herbicide",
+      "veteran health issues",
+      "scientific evidence",
+      "VA compensation",
+      "fraud oversight"
+    ],
+    "transcript_ref": "regional\\voices_of_oklahoma\\vok_coburn-tom.yaml"
+  },
+  {
+    "entity_id": 32,
+    "entity": "United States Department of Justice",
+    "explicit_text": "The United States Department of Justice once inspected my manufacturing operation because I refused to fill out their discrimination forms, confident that I was not discriminating. They came to inspect and verify, and I had a diverse workforce including African Americans, women, and immigrants. It was an example of standing up for principles and fairness in business.",
+    "implicit_text": "The U.S. Department of Justice once inspected my manufacturing operation because I refused to fill out their discrimination forms, confident that I was not discriminating. They came to inspect and verify, and I had a diverse workforce including African Americans, women, and immigrants. It was an example of standing up for principles and fairness in business.",
+    "cues": [
+      "DOJ inspection",
+      "discrimination forms",
+      "diverse workforce",
+      "business integrity"
+    ],
+    "transcript_ref": "regional\\voices_of_oklahoma\\vok_coburn-tom.yaml"
+  },
+  {
+    "entity_id": 33,
+    "entity": "Italy",
+    "explicit_text": "Italy became a major player in the optical industry, overtaking American companies in frame production. By the time I left the family business, most frame manufacturing was controlled by Italian and Japanese companies, with no American-owned firms left. This shift reflected broader changes in global manufacturing and government policy failures.",
+    "implicit_text": "A European country became a major player in the optical industry, overtaking American companies in frame production. By the time I left the family business, most frame manufacturing was controlled by Italian and Japanese companies, with no American-owned firms left. This shift reflected broader changes in global manufacturing and government policy failures.",
+    "cues": [
+      "optical industry",
+      "frame production",
+      "Italian dominance",
+      "industry changes"
+    ],
+    "transcript_ref": "regional\\voices_of_oklahoma\\vok_coburn-tom.yaml"
+  },
+  {
+    "entity_id": 34,
+    "entity": "Japan",
+    "explicit_text": "Japan, along with Italy, took over much of the optical frame manufacturing industry that was once American. By the late 1970s, no American-owned companies remained in that sector. This was part of a larger trend of globalization and the decline of American manufacturing in certain industries.",
+    "implicit_text": "Along with Italy, Japan took over much of the optical frame manufacturing industry that was once American. By the late 1970s, no American-owned companies remained in that sector. This was part of a larger trend of globalization and the decline of American manufacturing in certain industries.",
+    "cues": [
+      "optical industry",
+      "frame production",
+      "Japanese dominance",
+      "globalization"
+    ],
+    "transcript_ref": "regional\\voices_of_oklahoma\\vok_coburn-tom.yaml"
+  }
+]

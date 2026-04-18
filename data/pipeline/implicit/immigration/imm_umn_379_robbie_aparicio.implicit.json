@@ -1,0 +1,44 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "Cancún",
+    "explicit_text": "I was born in Cancún, Mexico, which is where my journey began before moving to the United States. Growing up there, I developed a passion for football, coached by my dad. Cancún holds a special place in my heart as the starting point of my life and athletic career.",
+    "implicit_text": "I was born in a popular Mexican beach city, which is where my journey began before moving to the United States. Growing up there, I developed a passion for football, coached by my dad. That coastal city holds a special place in my heart as the starting point of my life and athletic career.",
+    "cues": [
+      "birthplace",
+      "Mexico",
+      "early life",
+      "football",
+      "dad's coaching"
+    ],
+    "transcript_ref": "immigration\\imm_umn_379_robbie_aparicio.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "Minnesota",
+    "explicit_text": "I moved to Minnesota to pursue my studies and play football at a higher level. Minnesota became my new home where I attended college and continued developing my skills on the field. The transition was significant because it allowed me to combine my academic interests with my athletic ambitions.",
+    "implicit_text": "I moved to a northern U.S. state known for its lakes to pursue my studies and play football at a higher level. That state became my new home where I attended college and continued developing my skills on the field. The transition was significant because it allowed me to combine my academic interests with my athletic ambitions.",
+    "cues": [
+      "moved to",
+      "football",
+      "studies",
+      "new home",
+      "higher level"
+    ],
+    "transcript_ref": "immigration\\imm_umn_379_robbie_aparicio.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "Gustavus Adolphus College",
+    "explicit_text": "I studied History and played football at Gustavus Adolphus College in Minnesota. This college was the perfect place for me to advance both academically and athletically. My dad’s influence and my passion for football led me to choose Gustavus Adolphus, where I had the opportunity to grow in both areas.",
+    "implicit_text": "I studied History and played football at a private liberal arts college in Minnesota. This college was the perfect place for me to advance both academically and athletically. My dad’s influence and my passion for football led me to choose that school, where I had the opportunity to grow in both areas.",
+    "cues": [
+      "History major",
+      "football player",
+      "Minnesota",
+      "dad's influence",
+      "academic and athletic growth"
+    ],
+    "transcript_ref": "immigration\\imm_umn_379_robbie_aparicio.yaml"
+  }
+]

@@ -1,0 +1,42 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "Laos",
+    "explicit_text": "I was born in Laos and lived there during a very difficult time. In 1978, I arrived in the United States after fleeing the violence that affected my family deeply. Laos is where my husband first became involved in the Secret War, and it is the place where much of my family's tragedy unfolded.",
+    "implicit_text": "I was born in a Southeast Asian country and lived there during a very difficult time. In 1978, I arrived in the United States after fleeing the violence that affected my family deeply. This country is where my husband first became involved in the covert conflict, and it is the place where much of my family's tragedy unfolded.",
+    "cues": [
+      "born in Laos",
+      "arrived in the United States in 1978",
+      "family tragedy",
+      "husband involved in Secret War"
+    ],
+    "transcript_ref": "immigration\\imm_umn_160_mor_lee.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "Secret War",
+    "explicit_text": "My husband joined the Secret War around 1960 when the Americans arrived in Laos. He started by transferring weapons from the village of Laj Huab and later enlisted for combat. The war brought great suffering to my family, as both my husband and grandson were killed by the communists during this conflict.",
+    "implicit_text": "My husband joined the covert conflict around 1960 when the Americans arrived in that Southeast Asian country. He started by transferring weapons from a small village and later enlisted for combat. The war brought great suffering to my family, as both my husband and grandson were killed by the communists during this conflict.",
+    "cues": [
+      "husband joined in 1960",
+      "Americans arrived",
+      "transferring weapons",
+      "combat",
+      "communists killed family members"
+    ],
+    "transcript_ref": "immigration\\imm_umn_160_mor_lee.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "Laj Huab",
+    "explicit_text": "Laj Huab was the village where my husband began his role in the Secret War by transferring weapons. It holds a significant place in our story because it was the starting point of his involvement in the conflict. This village is tied to the early days of the war and the hardships that followed for my family.",
+    "implicit_text": "The small village where my husband began his role in the covert conflict by transferring weapons holds a significant place in our story because it was the starting point of his involvement in the conflict. This village is tied to the early days of the war and the hardships that followed for my family.",
+    "cues": [
+      "village of Laj Huab",
+      "husband transferred weapons",
+      "start of Secret War involvement",
+      "early conflict location"
+    ],
+    "transcript_ref": "immigration\\imm_umn_160_mor_lee.yaml"
+  }
+]

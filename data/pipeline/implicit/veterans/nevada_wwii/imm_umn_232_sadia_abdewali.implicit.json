@@ -1,0 +1,55 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "Somalia",
+    "explicit_text": "I was born in Somalia in 1994, but I left when I was very young. In 2012, after finishing high school, I decided to return there to reconnect with my father and see the country for myself. Despite the media's portrayal of Somalia as a place of war and chaos, I discovered both the struggles and the beauty of the country. That visit deeply changed my perspective and inspired me to want to help the people there in a meaningful way.",
+    "implicit_text": "I was born in the Horn of Africa in 1994, but I left when I was very young. In 2012, after finishing high school, I decided to return there to reconnect with my father and see the country for myself. Despite the media's portrayal of that nation as a place of war and chaos, I discovered both the struggles and the beauty of the land. That visit deeply changed my perspective and inspired me to want to help the people there in a meaningful way.",
+    "cues": [
+      "born 1994",
+      "returned 2012",
+      "reconnected with father",
+      "media portrayal",
+      "life-changing visit"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_232_sadia_abdewali.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "Kenya",
+    "explicit_text": "My family and I moved to Kenya in 1999 when I was about five years old. We didn't stay there long because we eventually migrated to Minnesota around 2000. Kenya was a brief stop in our journey from Somalia to the United States, but it was part of my early childhood experience before settling in America.",
+    "implicit_text": "My family and I moved to the East African country known for its wildlife and Great Rift Valley in 1999 when I was about five years old. We didn't stay there long because we eventually migrated to the northern U.S. state around 2000. That country was a brief stop in our journey from the Horn of Africa to the United States, but it was part of my early childhood experience before settling in America.",
+    "cues": [
+      "moved 1999",
+      "age five",
+      "brief stay",
+      "migration path"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_232_sadia_abdewali.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "Minnesota",
+    "explicit_text": "We first moved to Minnesota around 2000 when I was five years old, but we didn't stay long because we didn't have much family there. Later, after growing up in Seattle, I moved back to Minnesota in 2014 to pursue my studies to become a K-5 teacher. Minnesota has been both an early and later home for me during different stages of my life.",
+    "implicit_text": "We first moved to the northern U.S. state known for its lakes around 2000 when I was five years old, but we didn't stay long because we didn't have much family there. Later, after growing up in the Pacific Northwest city, I moved back to that state in 2014 to pursue my studies to become a K-5 teacher. That state has been both an early and later home for me during different stages of my life.",
+    "cues": [
+      "moved 2000",
+      "lack of family",
+      "returned 2014",
+      "studying teaching"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_232_sadia_abdewali.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "Seattle",
+    "explicit_text": "After leaving Minnesota, my family moved to Seattle where I grew up and went to school. It was in Seattle that I started my life and felt like a normal kid despite all the migrations. I finished high school there in 2012 before deciding to take a journey back to Somalia. Seattle was really where I spent my formative years.",
+    "implicit_text": "After leaving the northern U.S. state, my family moved to the largest city in Washington where I grew up and went to school. It was there that I started my life and felt like a normal kid despite all the migrations. I finished high school there in 2012 before deciding to take a journey back to the Horn of Africa. That city was really where I spent my formative years.",
+    "cues": [
+      "moved after Minnesota",
+      "grew up",
+      "school",
+      "finished high school 2012"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_232_sadia_abdewali.yaml"
+  }
+]

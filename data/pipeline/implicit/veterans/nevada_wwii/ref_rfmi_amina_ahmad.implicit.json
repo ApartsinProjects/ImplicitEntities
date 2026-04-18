@@ -1,0 +1,172 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "Syria",
+    "explicit_text": "I was born in Syria in 1971 and grew up there, mostly in Aleppo after moving from a village. My family and I experienced a hard life, especially after my father passed away in 1975. The war in Syria forced us to leave in 2012, and I still keep in contact with my sister and many people who have left Syria for Europe, America, and other places. Syria is my home, and despite all the hardships, it’s hard to forget the life we had there.",
+    "implicit_text": "I was born in the Middle Eastern country in 1971 and grew up there, mostly in a major northern city after moving from a village. My family and I experienced a hard life, especially after my father passed away in 1975. The civil war in my homeland forced us to leave in 2012, and I still keep in contact with my sister and many people who have left for Europe, America, and other places. That country is my home, and despite all the hardships, it’s hard to forget the life we had there.",
+    "cues": [
+      "born 1971",
+      "father passed 1975",
+      "war in Syria 2012",
+      "contact with sister",
+      "Aleppo"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\ref_rfmi_amina_ahmad.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "Aleppo",
+    "explicit_text": "I grew up in Aleppo city after moving there from a village in 1988 to seek a better life. In Aleppo, I worked in a clothing factory starting in 1991, sewing sportswear for companies like Nike and exporting to France. Life was hard with long hours, but it was a new beginning for my family after farming in the village. Aleppo was where I transitioned from manual work to an administrative role in the factory.",
+    "implicit_text": "I grew up in a large northern city after moving there from a village in 1988 to seek a better life. In that city, I worked in a clothing factory starting in 1991, sewing sportswear for well-known brands and exporting to France. Life was hard with long hours, but it was a new beginning for my family after farming in the village. This city was where I transitioned from manual work to an administrative role in the factory.",
+    "cues": [
+      "moved 1988",
+      "worked 1991",
+      "clothing factory",
+      "Nike",
+      "export to France"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\ref_rfmi_amina_ahmad.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "Lebanon",
+    "explicit_text": "My brother worked in Lebanon during the time we were living in Aleppo and later when we moved. Lebanon was part of the places my family scattered to because of the war in Syria. It was one of the countries where my siblings sought opportunities or refuge during those difficult years.",
+    "implicit_text": "My brother worked in a neighboring country to the west during the time we were living in that northern city and later when we moved. That country was part of the places my family scattered to because of the war in my homeland. It was one of the countries where my siblings sought opportunities or refuge during those difficult years.",
+    "cues": [
+      "brother working",
+      "Aleppo period",
+      "family dispersed due to war"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\ref_rfmi_amina_ahmad.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "Cyprus",
+    "explicit_text": "My brother lived in Cyprus, and I visited him there in 1994, which was a turning point for me personally. Seeing his wife not covering her head influenced me to stop wearing the scarf myself, breaking from my cultural norms. Cyprus was significant because it exposed me to different ways of life and helped me make decisions about my own identity.",
+    "implicit_text": "My brother lived on an island in the eastern Mediterranean, and I visited him there in 1994, which was a turning point for me personally. Seeing his wife not covering her head influenced me to stop wearing the scarf myself, breaking from my cultural norms. That island was significant because it exposed me to different ways of life and helped me make decisions about my own identity.",
+    "cues": [
+      "visited 1994",
+      "brother's family",
+      "influence on personal choices"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\ref_rfmi_amina_ahmad.yaml"
+  },
+  {
+    "entity_id": 5,
+    "entity": "Nike, Inc.",
+    "explicit_text": "While working in the clothing factory in Aleppo, we produced sportswear for companies like Nike. The factory made garments that were exported to France, so I was part of the supply chain for Nike products. This work was a big part of my life in the 1990s and early 2000s before the war disrupted everything.",
+    "implicit_text": "While working in the clothing factory in that northern city, we produced sportswear for major international brands. The factory made garments that were exported to France, so I was part of the supply chain for well-known athletic companies. This work was a big part of my life in the 1990s and early 2000s before the war disrupted everything.",
+    "cues": [
+      "worked 1991",
+      "clothing factory",
+      "sportswear",
+      "export to France"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\ref_rfmi_amina_ahmad.yaml"
+  },
+  {
+    "entity_id": 6,
+    "entity": "Malaysia",
+    "explicit_text": "My family and I moved to Malaysia in 2012 because of the war in Syria. We stayed there for about five years as refugees, living without legal status, which meant no rights to work or access to free education and healthcare. The people were mostly kind, but the situation was very challenging and full of anxiety as we waited for resettlement to the United States.",
+    "implicit_text": "My family and I moved to a Southeast Asian country in 2012 because of the war in my homeland. We stayed there for about five years as refugees, living without legal status, which meant no rights to work or access to free education and healthcare. The people were mostly kind, but the situation was very challenging and full of anxiety as we waited for resettlement to the United States.",
+    "cues": [
+      "moved 2012",
+      "five years refugee",
+      "no legal status",
+      "waiting for resettlement"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\ref_rfmi_amina_ahmad.yaml"
+  },
+  {
+    "entity_id": 7,
+    "entity": "United Nations High Commissioner for Refugees",
+    "explicit_text": "While in Malaysia, we registered with the United Nations High Commissioner for Refugees, which helped us with our refugee status and eventual resettlement. They provided cultural orientation before we moved to the United States, explaining the laws and expectations there. The UNHCR was crucial in guiding us through the resettlement process.",
+    "implicit_text": "While in that Southeast Asian country, we registered with the UN agency responsible for refugee protection, which helped us with our refugee status and eventual resettlement. They provided cultural orientation before we moved to the United States, explaining the laws and expectations there. This agency was crucial in guiding us through the resettlement process.",
+    "cues": [
+      "Malaysia refugee period",
+      "cultural orientation",
+      "resettlement assistance"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\ref_rfmi_amina_ahmad.yaml"
+  },
+  {
+    "entity_id": 8,
+    "entity": "Turkey",
+    "explicit_text": "Some of my siblings fled to Turkey during the conflict in Syria. Turkey became a refuge for parts of my family who had to leave Syria because of the dangerous conditions. It was part of the wider dispersion of my family across different countries due to the war.",
+    "implicit_text": "Some of my siblings fled to a neighboring country to the north during the conflict in my homeland. That country became a refuge for parts of my family who had to leave because of the dangerous conditions. It was part of the wider dispersion of my family across different countries due to the war.",
+    "cues": [
+      "siblings in Turkey",
+      "war displacement",
+      "family separation"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\ref_rfmi_amina_ahmad.yaml"
+  },
+  {
+    "entity_id": 9,
+    "entity": "Vienna",
+    "explicit_text": "One of my brothers moved to Vienna during the Syrian conflict. Vienna was one of the places where my family members sought safety and a new life away from the war. This separation was difficult because we were very close back home in Syria.",
+    "implicit_text": "One of my brothers moved to the capital of Austria during the conflict in my homeland. That city was one of the places where my family members sought safety and a new life away from the war. This separation was difficult because we were very close back home.",
+    "cues": [
+      "brother in Vienna",
+      "family separation",
+      "war displacement"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\ref_rfmi_amina_ahmad.yaml"
+  },
+  {
+    "entity_id": 10,
+    "entity": "Germany",
+    "explicit_text": "Many people I knew from Syria, including some of my family and friends, resettled in Germany. Germany became a common destination for Syrians fleeing the war, and I stay in contact with those who moved there. It represents part of the Syrian diaspora in Europe.",
+    "implicit_text": "Many people I knew from my home country, including some of my family and friends, resettled in a large European country known for accepting many refugees. That country became a common destination for those fleeing the war, and I stay in contact with those who moved there. It represents part of the diaspora from my homeland in Europe.",
+    "cues": [
+      "Syrian refugees",
+      "family and friends in Germany",
+      "European resettlement"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\ref_rfmi_amina_ahmad.yaml"
+  },
+  {
+    "entity_id": 11,
+    "entity": "Europe",
+    "explicit_text": "Europe has been a major destination for many Syrians escaping the war, including my family members who are now scattered across different European countries. The Syrian community in Europe is large, and many of my contacts from Syria have resettled there. It’s a place of refuge but also a reminder of how far we are from home.",
+    "implicit_text": "This continent has been a major destination for many people escaping the war in my homeland, including my family members who are now scattered across different countries here. The community from my country in this region is large, and many of my contacts have resettled here. It’s a place of refuge but also a reminder of how far we are from home.",
+    "cues": [
+      "Syrian diaspora",
+      "family in Europe",
+      "war displacement"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\ref_rfmi_amina_ahmad.yaml"
+  },
+  {
+    "entity_id": 12,
+    "entity": "United States",
+    "explicit_text": "I resettled in the United States in early 2017 after spending several years as a refugee in Malaysia. The move was facilitated by the UNHCR and involved cultural orientation to prepare us for life in America. The United States represents a new beginning for me and my family after the hardships we faced in Syria and Malaysia.",
+    "implicit_text": "I resettled in North America in early 2017 after spending several years as a refugee in Southeast Asia. The move was facilitated by the UN refugee agency and involved cultural orientation to prepare us for life in this new country. This nation represents a new beginning for me and my family after the hardships we faced in our homeland and the refugee camp.",
+    "cues": [
+      "resettled 2017",
+      "cultural orientation",
+      "new beginning"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\ref_rfmi_amina_ahmad.yaml"
+  },
+  {
+    "entity_id": 13,
+    "entity": "HIAS",
+    "explicit_text": "Although I did not mention HIAS directly in the interview, organizations like HIAS are often involved in refugee resettlement processes similar to mine. They help refugees navigate the complex journey from displacement to resettlement in countries like the United States. Their support is vital for families like mine seeking safety and stability.",
+    "implicit_text": "Although I did not mention this refugee aid organization directly in the interview, groups like it are often involved in resettlement processes similar to mine. They help refugees navigate the complex journey from displacement to resettlement in countries like the United States. Their support is vital for families like mine seeking safety and stability.",
+    "cues": [
+      "refugee resettlement",
+      "support organizations",
+      "United States"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\ref_rfmi_amina_ahmad.yaml"
+  },
+  {
+    "entity_id": 14,
+    "entity": "Susan Davis",
+    "explicit_text": "Susan Davis was not mentioned in my interview, so I do not have any personal experiences or stories related to her. If she was involved in refugee work or resettlement, I am not aware of her role from my own journey.",
+    "implicit_text": "This person was not mentioned in my interview, so I do not have any personal experiences or stories related to her. If she was involved in refugee work or resettlement, I am not aware of her role from my own journey.",
+    "cues": [],
+    "transcript_ref": "veterans\\nevada_wwii\\ref_rfmi_amina_ahmad.yaml"
+  }
+]

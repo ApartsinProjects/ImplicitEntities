@@ -1,0 +1,80 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "Dessie",
+    "summary": "I was born in Dessie, a small city in Ethiopia, on October 9th, 1997. I grew up there surrounded by my big family in my grandparents' house, which made me feel safe and secure. Dessie is where I spent my early childhood until my mom left for the United States in 2004 after winning the visa lottery. Even though I left Dessie when I was 11, it remains an important part of my story and upbringing.",
+    "cues": [
+      "October 9th, 1997",
+      "small city",
+      "Ethiopia",
+      "grandparents' house",
+      "early childhood"
+    ],
+    "transcript_ref": "immigration\\imm_umn_334_elene_ejigu.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "Ethiopia",
+    "summary": "Ethiopia is my home country where I was born and raised until I was 11 years old. After my father passed away in 2003, my mom stayed with us in Ethiopia until 2004 when she won the visa lottery to come to the United States. My grandparents took care of me and my sister while my mom was in America, reminding us of her sacrifice. Ethiopia is where my family roots are, and it shaped much of my early life and identity.",
+    "cues": [
+      "birthplace",
+      "father's death 2003",
+      "visa lottery 2004",
+      "grandparents' care",
+      "family roots"
+    ],
+    "transcript_ref": "immigration\\imm_umn_334_elene_ejigu.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "United States",
+    "summary": "My mom came to the United States in 2004 after winning the visa lottery, leaving us behind in Ethiopia to pursue the American Dream. She stayed with a family friend for a year and worked two jobs to support herself and save money for our visa process. When I finally joined her in the US at age 11, I was determined to work hard in school and make the most of the opportunities here. The United States represents hope and sacrifice for my family and me.",
+    "cues": [
+      "visa lottery 2004",
+      "family friend's house",
+      "two jobs",
+      "joined at age 11",
+      "American Dream"
+    ],
+    "transcript_ref": "immigration\\imm_umn_334_elene_ejigu.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "Visa Lottery",
+    "summary": "The visa lottery changed my family's life in 2004 when my mom won it and moved to the United States. It was a difficult decision for her because she had no connections there and had to leave her whole family behind. This event marked the beginning of our long separation and her hard work to build a better future for me and my sister. The visa lottery was the gateway that allowed us eventually to reunite and start a new life in America.",
+    "cues": [
+      "2004",
+      "mom's decision",
+      "separation",
+      "hard work",
+      "reunion"
+    ],
+    "transcript_ref": "immigration\\imm_umn_334_elene_ejigu.yaml"
+  },
+  {
+    "entity_id": 5,
+    "entity": "35W bridge collapse",
+    "summary": "The 35W bridge collapse in Minneapolis in 2007 was a terrifying event for me because I was worried about my mom's safety. I couldn't stop crying until she called to tell us she was okay. Hearing about tragic events outside Ethiopia always made me fear something bad had happened to her. This incident highlighted how much I missed having my mom close during those years apart.",
+    "cues": [
+      "2007",
+      "Minneapolis",
+      "mom's safety",
+      "tragic event",
+      "emotional impact"
+    ],
+    "transcript_ref": "immigration\\imm_umn_334_elene_ejigu.yaml"
+  },
+  {
+    "entity_id": 6,
+    "entity": "Minneapolis",
+    "summary": "Minneapolis is where my mom lived after she came to the United States in 2004. It was also the city where the 35W bridge collapsed in 2007, an event that deeply affected me because I feared for my mom's safety. My mom worked hard in Minneapolis, staying with a family friend and juggling two jobs to support us. When I finally came to Minneapolis at age 11, it became the place where I started a new chapter in my life.",
+    "cues": [
+      "2004 arrival",
+      "35W bridge collapse 2007",
+      "family friend's house",
+      "two jobs",
+      "new life start"
+    ],
+    "transcript_ref": "immigration\\imm_umn_334_elene_ejigu.yaml"
+  }
+]

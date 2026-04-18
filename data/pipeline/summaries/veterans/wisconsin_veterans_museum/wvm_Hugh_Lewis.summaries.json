@@ -1,0 +1,382 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "Beloit, Wisconsin",
+    "summary": "I was born in Beloit, Wisconsin, but we moved when I was about four and a half years old. So, while Beloit is my birthplace, I really grew up elsewhere. It’s where my early life began before my family relocated.",
+    "cues": [
+      "birthplace",
+      "early childhood",
+      "moved at age 4.5"
+    ],
+    "transcript_ref": "veterans\\wisconsin_veterans_museum\\wvm_Hugh_Lewis.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "Madison, Wisconsin",
+    "summary": "My family moved to Madison, Wisconsin when I was four and a half, and I was raised on the east side of the city. We lived first on Yahara, Thornton Avenue near the river, then later on Upham Street during my growing years. I went to school here and my father worked for MG&E in Madison, so it was really my hometown throughout my youth and early adulthood.",
+    "cues": [
+      "moved at age 4.5",
+      "east side",
+      "Yahara River",
+      "Upham Street",
+      "father worked at MG&E",
+      "schooling"
+    ],
+    "transcript_ref": "veterans\\wisconsin_veterans_museum\\wvm_Hugh_Lewis.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "MG&E",
+    "summary": "My father worked for Madison Gas and Electric, MG&E, in the accounting department as a bill collector. During the Depression, it was tough on our family, but he kept his job there. MG&E was part of our family’s livelihood while I was growing up in Madison.",
+    "cues": [
+      "father's employer",
+      "accounting department",
+      "bill collector",
+      "Depression era"
+    ],
+    "transcript_ref": "veterans\\wisconsin_veterans_museum\\wvm_Hugh_Lewis.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "University of Wisconsin–Madison",
+    "summary": "I started attending the University of Wisconsin–Madison after high school, but due to financial difficulties during the Depression, I had to drop out temporarily. I planned to return but ended up working as an usher and then doorman at local theaters instead. I also participated in ROTC there, which later helped me qualify for the Air Corps cadet program.",
+    "cues": [
+      "attended post-high school",
+      "financial difficulties",
+      "worked at theaters",
+      "ROTC participation"
+    ],
+    "transcript_ref": "veterans\\wisconsin_veterans_museum\\wvm_Hugh_Lewis.yaml"
+  },
+  {
+    "entity_id": 5,
+    "entity": "Parkway Theater",
+    "summary": "I worked at the Parkway Theater on Mifflin Street in Madison, starting as an usher and eventually becoming assistant manager. It was a lively place where they staged plays featuring stars like Helen Hayes and Richard Evans. Working there gave me experience in publicity and management, and Helen Hayes even invited me to join the theater guild because she liked my writing.",
+    "cues": [
+      "Mifflin Street",
+      "usher to assistant manager",
+      "staged plays",
+      "Helen Hayes",
+      "theater guild invitation"
+    ],
+    "transcript_ref": "veterans\\wisconsin_veterans_museum\\wvm_Hugh_Lewis.yaml"
+  },
+  {
+    "entity_id": 6,
+    "entity": "Strand Theatre (Madison, Wisconsin)",
+    "summary": "The Strand Theatre was another local theater on Mifflin Street, just a block away from the Parkway Theater. Both theaters were under the same management, and I worked at both during my time as an usher and doorman. It was part of my early work experience in Madison before the war.",
+    "cues": [
+      "Mifflin Street",
+      "same management as Parkway",
+      "usher and doorman work"
+    ],
+    "transcript_ref": "veterans\\wisconsin_veterans_museum\\wvm_Hugh_Lewis.yaml"
+  },
+  {
+    "entity_id": 7,
+    "entity": "Helen Hayes",
+    "summary": "Helen Hayes was one of the big stars who came to perform at the Parkway Theater where I worked. She admired my writing and even invited me to join the theater guild, which was a tempting offer but would have meant moving to New York. It was quite an honor to be recognized by someone of her stature during those days.",
+    "cues": [
+      "Parkway Theater plays",
+      "admired my writing",
+      "invited to theater guild",
+      "considered moving to New York"
+    ],
+    "transcript_ref": "veterans\\wisconsin_veterans_museum\\wvm_Hugh_Lewis.yaml"
+  },
+  {
+    "entity_id": 8,
+    "entity": "World War II",
+    "summary": "World War II shaped much of my early adult life. I was married in 1940, and by the time the war broke out in Europe in 1939 and the U.S. entered after Pearl Harbor in 1941, I was considering joining the fight. I ultimately enlisted in the Air Corps in April 1942 and went through pilot training in the southeast, which changed my life forever.",
+    "cues": [
+      "married 1940",
+      "war broke out 1939",
+      "Pearl Harbor 1941",
+      "enlisted 1942",
+      "pilot training"
+    ],
+    "transcript_ref": "veterans\\wisconsin_veterans_museum\\wvm_Hugh_Lewis.yaml"
+  },
+  {
+    "entity_id": 9,
+    "entity": "Paul Hunter",
+    "summary": "Paul Hunter was one of my close friends before the war, along with Johnny Briggs and two others. He joined the Royal Canadian Air Force and served overseas throughout the war. Sadly, he has since passed on, but he was one of the few of our group who made it through the conflict.",
+    "cues": [
+      "pre-war friend",
+      "Royal Canadian Air Force",
+      "served overseas",
+      "deceased"
+    ],
+    "transcript_ref": "veterans\\wisconsin_veterans_museum\\wvm_Hugh_Lewis.yaml"
+  },
+  {
+    "entity_id": 10,
+    "entity": "Johnny Briggs",
+    "summary": "Johnny Briggs was another of my close friends before the war. Unfortunately, he never made it overseas because he was shot down during a target mission and was discharged. His fate was a sobering reminder of the dangers faced by those in the air service.",
+    "cues": [
+      "pre-war friend",
+      "shot down",
+      "discharged",
+      "did not serve overseas"
+    ],
+    "transcript_ref": "veterans\\wisconsin_veterans_museum\\wvm_Hugh_Lewis.yaml"
+  },
+  {
+    "entity_id": 11,
+    "entity": "Royal Canadian Air Force",
+    "summary": "The Royal Canadian Air Force was where my friend Paul Hunter served during World War II. He made it overseas and survived the war. I had considered joining the Canadian forces myself early on, but ultimately decided to enlist in the U.S. Air Corps instead.",
+    "cues": [
+      "Paul Hunter served",
+      "overseas service",
+      "considered joining"
+    ],
+    "transcript_ref": "veterans\\wisconsin_veterans_museum\\wvm_Hugh_Lewis.yaml"
+  },
+  {
+    "entity_id": 12,
+    "entity": "Ted Rundquist",
+    "summary": "Ted Rundquist was my cousin who served in the Army Air Corps Reserve in Illinois. He gave me my first airplane ride in a Douglas O-2U observation biplane when I was a kid, which hooked me on flying. Later, when I enlisted, we almost crossed paths at the cadet classification center in Santa Ana, California, where he was commandant of cadets.",
+    "cues": [
+      "cousin",
+      "Army Air Corps Reserve",
+      "first airplane ride",
+      "Douglas O-2U",
+      "Santa Ana cadet center"
+    ],
+    "transcript_ref": "veterans\\wisconsin_veterans_museum\\wvm_Hugh_Lewis.yaml"
+  },
+  {
+    "entity_id": 13,
+    "entity": "Army Air Corps",
+    "summary": "I enlisted in the Army Air Corps cadet program in April 1942, aiming to become a pilot. The Air Corps was the branch where I received my training, starting with classification in Nashville and then pilot training in Alabama and South Carolina. It was a rigorous and disciplined environment that prepared me for flying in the war.",
+    "cues": [
+      "enlisted 1942",
+      "cadet program",
+      "training Nashville, Alabama, South Carolina",
+      "pilot training"
+    ],
+    "transcript_ref": "veterans\\wisconsin_veterans_museum\\wvm_Hugh_Lewis.yaml"
+  },
+  {
+    "entity_id": 14,
+    "entity": "Douglas O-2",
+    "summary": "The Douglas O-2U was the old observation biplane my cousin Ted Rundquist flew when he gave me my first airplane ride. I was strapped into the observer's seat as a kid and couldn’t see much, but that flight sparked my lifelong interest in flying. It was a memorable experience that stayed with me.",
+    "cues": [
+      "first airplane ride",
+      "cousin Ted Rundquist",
+      "observation biplane",
+      "childhood experience"
+    ],
+    "transcript_ref": "veterans\\wisconsin_veterans_museum\\wvm_Hugh_Lewis.yaml"
+  },
+  {
+    "entity_id": 15,
+    "entity": "Attack on Pearl Harbor",
+    "summary": "I remember the attack on Pearl Harbor vividly; it was a solemn Sunday in December 1941. The news shocked everyone, including people here in Madison. I talked that day with Bill Sachtjen, a classmate who later became a prominent judge. That event was the turning point that led me to enlist in the Air Corps the following spring.",
+    "cues": [
+      "December 7, 1941",
+      "Sunday",
+      "shock",
+      "Bill Sachtjen",
+      "Madison",
+      "enlistment motivation"
+    ],
+    "transcript_ref": "veterans\\wisconsin_veterans_museum\\wvm_Hugh_Lewis.yaml"
+  },
+  {
+    "entity_id": 16,
+    "entity": "Bill Sachtjen",
+    "summary": "Bill Sachtjen was a classmate of mine from Madison who later became a prominent judge. I spoke with him on the day of the Pearl Harbor attack, and it was a memorable conversation given the gravity of the news. He was part of my social circle in Madison before the war.",
+    "cues": [
+      "classmate",
+      "Madison",
+      "prominent judge",
+      "Pearl Harbor day conversation"
+    ],
+    "transcript_ref": "veterans\\wisconsin_veterans_museum\\wvm_Hugh_Lewis.yaml"
+  },
+  {
+    "entity_id": 17,
+    "entity": "United States Army Air Forces",
+    "summary": "After Pearl Harbor, I enlisted in what was then the Army Air Corps, which later became the United States Army Air Forces. I went through the cadet program and pilot training, eventually becoming a pilot during World War II. The USAAF was the organization through which I served and trained in the southeast U.S.",
+    "cues": [
+      "enlisted 1942",
+      "pilot training",
+      "World War II service",
+      "southeast U.S."
+    ],
+    "transcript_ref": "veterans\\wisconsin_veterans_museum\\wvm_Hugh_Lewis.yaml"
+  },
+  {
+    "entity_id": 18,
+    "entity": "Santa Ana, California",
+    "summary": "I was supposed to go to Santa Ana, California for cadet classification where my cousin Ted Rundquist was commandant of cadets. However, we were taken off the train in Milwaukee and sent to Nashville instead, so I never made it to Santa Ana. It would have been interesting to see him there during my enlistment process.",
+    "cues": [
+      "planned cadet classification",
+      "cousin commandant",
+      "train stopped Milwaukee",
+      "redirected to Nashville"
+    ],
+    "transcript_ref": "veterans\\wisconsin_veterans_museum\\wvm_Hugh_Lewis.yaml"
+  },
+  {
+    "entity_id": 19,
+    "entity": "Milwaukee",
+    "summary": "Milwaukee was a stop on the train journey when I was en route to cadet classification. We were held overnight there before being sent on to Nashville for classification and physicals. It was an unexpected delay during the early days of my military induction.",
+    "cues": [
+      "train stop",
+      "overnight hold",
+      "en route to classification"
+    ],
+    "transcript_ref": "veterans\\wisconsin_veterans_museum\\wvm_Hugh_Lewis.yaml"
+  },
+  {
+    "entity_id": 20,
+    "entity": "Nashville, Tennessee",
+    "summary": "Nashville was where I underwent my initial classification tests and physical exams for pilot training. It was there that my eyesight was tested and I had to do eye exercises to qualify for flight training. Nashville was the first real step in my military training after enlistment.",
+    "cues": [
+      "classification tests",
+      "physical exams",
+      "eye exercises",
+      "pilot training qualification"
+    ],
+    "transcript_ref": "veterans\\wisconsin_veterans_museum\\wvm_Hugh_Lewis.yaml"
+  },
+  {
+    "entity_id": 21,
+    "entity": "ROTC",
+    "summary": "I participated in ROTC while attending the University of Wisconsin–Madison, which helped me when I enlisted in the Air Corps cadet program. The military indoctrination I received there gave me a foundation that made the transition to officer training smoother. It was a valuable experience before the war.",
+    "cues": [
+      "University of Wisconsin–Madison",
+      "military indoctrination",
+      "helped with cadet program"
+    ],
+    "transcript_ref": "veterans\\wisconsin_veterans_museum\\wvm_Hugh_Lewis.yaml"
+  },
+  {
+    "entity_id": 22,
+    "entity": "Maxwell Air Force Base",
+    "summary": "Maxwell Air Force Base in Alabama was where I completed my basic training after classification. The training lasted about three months and involved marching, classroom instruction, and some rifle shooting. It was a strict but fair environment that prepared me for the next phases of pilot training.",
+    "cues": [
+      "basic training",
+      "Alabama",
+      "three months",
+      "marching and classroom",
+      "rifle shooting"
+    ],
+    "transcript_ref": "veterans\\wisconsin_veterans_museum\\wvm_Hugh_Lewis.yaml"
+  },
+  {
+    "entity_id": 23,
+    "entity": "Alabama",
+    "summary": "Alabama was the state where I did both my basic training at Maxwell Field and later advanced training at Gunter Field in Montgomery. It was part of the southeastern training circuit for Air Corps cadets during the war. The climate and environment were quite different from my Wisconsin home.",
+    "cues": [
+      "basic training Maxwell Field",
+      "Gunter Field Montgomery",
+      "southeastern U.S. training"
+    ],
+    "transcript_ref": "veterans\\wisconsin_veterans_museum\\wvm_Hugh_Lewis.yaml"
+  },
+  {
+    "entity_id": 24,
+    "entity": "Orangeburg, South Carolina",
+    "summary": "Orangeburg, South Carolina was where I did my primary pilot training flying the PT-17 biplane. It was a fun and challenging time, learning to fly under the guidance of a good instructor. The training lasted about three months and included some memorable experiences with our squadron commander Surgalia.",
+    "cues": [
+      "primary pilot training",
+      "PT-17 biplane",
+      "three months",
+      "squadron commander Surgalia"
+    ],
+    "transcript_ref": "veterans\\wisconsin_veterans_museum\\wvm_Hugh_Lewis.yaml"
+  },
+  {
+    "entity_id": 25,
+    "entity": "PT-17",
+    "summary": "The PT-17 was the primary training airplane I flew in Orangeburg, South Carolina. It was a German-designed biplane that was fun to fly, though some planes were better than others. I had a memorable experience flying Surgalia’s plane during dead-stick landings, which I managed to nail on my first try.",
+    "cues": [
+      "primary trainer",
+      "biplane",
+      "Orangeburg",
+      "dead-stick landings",
+      "Surgalia’s plane"
+    ],
+    "transcript_ref": "veterans\\wisconsin_veterans_museum\\wvm_Hugh_Lewis.yaml"
+  },
+  {
+    "entity_id": 26,
+    "entity": "Surgalia",
+    "summary": "Surgalia was our squadron commander during primary pilot training in Orangeburg. He was a tall man, about 6'2\", and had a plane that was a dream to fly. I flew his plane for some challenging dead-stick landings and managed to impress him enough to get the checkered flag, meaning I passed that stage.",
+    "cues": [
+      "squadron commander",
+      "Orangeburg",
+      "6'2\"",
+      "Surgalia’s plane",
+      "dead-stick landings"
+    ],
+    "transcript_ref": "veterans\\wisconsin_veterans_museum\\wvm_Hugh_Lewis.yaml"
+  },
+  {
+    "entity_id": 27,
+    "entity": "Jennings Airport",
+    "summary": "Jennings Airport was one of the auxiliary fields near Orangeburg where we did various flying stages during pilot training. It was at Jennings that I flew Surgalia’s plane for those dead-stick landings. The airport was an important part of our training circuit in South Carolina.",
+    "cues": [
+      "auxiliary field",
+      "near Orangeburg",
+      "dead-stick landing practice",
+      "pilot training"
+    ],
+    "transcript_ref": "veterans\\wisconsin_veterans_museum\\wvm_Hugh_Lewis.yaml"
+  },
+  {
+    "entity_id": 28,
+    "entity": "Battle of Bull Run",
+    "summary": "My grandfather fought in the Civil War and was wounded at the Battle of Bull Run. Despite being on opposite sides, he and a Confederate veteran became good friends later in life. That family history gave me a perspective on camaraderie and reconciliation that I carried into my own military service.",
+    "cues": [
+      "grandfather",
+      "Civil War",
+      "wounded at Bull Run",
+      "friendship with Confederate veteran"
+    ],
+    "transcript_ref": "veterans\\wisconsin_veterans_museum\\wvm_Hugh_Lewis.yaml"
+  },
+  {
+    "entity_id": 29,
+    "entity": "Montgomery, Alabama",
+    "summary": "Montgomery, Alabama was where Gunter Field was located, and I went there for basic training after primary flight school. Unfortunately, I never got off the ground there and was eventually washed out. It was a tough experience but part of my overall military journey.",
+    "cues": [
+      "Gunter Field",
+      "basic training",
+      "washed out",
+      "Montgomery, Alabama"
+    ],
+    "transcript_ref": "veterans\\wisconsin_veterans_museum\\wvm_Hugh_Lewis.yaml"
+  },
+  {
+    "entity_id": 30,
+    "entity": "C-47 Skytrain",
+    "summary": "The transcript does not provide specific details about my experience with the C-47 Skytrain, so I cannot speak about it from my own story.",
+    "cues": [],
+    "transcript_ref": "veterans\\wisconsin_veterans_museum\\wvm_Hugh_Lewis.yaml"
+  },
+  {
+    "entity_id": 31,
+    "entity": "Monroe, Louisiana",
+    "summary": "The transcript does not mention Monroe, Louisiana in relation to my experiences, so I have no personal story to share about that place.",
+    "cues": [],
+    "transcript_ref": "veterans\\wisconsin_veterans_museum\\wvm_Hugh_Lewis.yaml"
+  },
+  {
+    "entity_id": 32,
+    "entity": "Pan American World Airways",
+    "summary": "Pan American World Airways does not come up in my story or experiences during the war or before, so I have no connection to share.",
+    "cues": [],
+    "transcript_ref": "veterans\\wisconsin_veterans_museum\\wvm_Hugh_Lewis.yaml"
+  },
+  {
+    "entity_id": 33,
+    "entity": "Miami University",
+    "summary": "Miami University is not mentioned in my narrative, so I have no personal experiences or connections with that institution.",
+    "cues": [],
+    "transcript_ref": "veterans\\wisconsin_veterans_museum\\wvm_Hugh_Lewis.yaml"
+  }
+]

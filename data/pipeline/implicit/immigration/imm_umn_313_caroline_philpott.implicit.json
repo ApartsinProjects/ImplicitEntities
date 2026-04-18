@@ -1,0 +1,94 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "England",
+    "explicit_text": "My family came to the US from England in 1982 when I was four, but I never really felt a strong connection to England. We visited England again when I was 10, which made me feel like a citizen of the world, but I always felt more American than British. I even did part of my MBA in London, yet I felt like a tourist there just like my classmates. England is the only place my parents took us on vacation, and interestingly, we never made it to Scotland.",
+    "implicit_text": "My family came to the US from the country across the Atlantic in 1982 when I was four, but I never really felt a strong connection to that place. We visited there again when I was 10, which made me feel like a citizen of the world, but I always felt more American than from that island nation. I even did part of my MBA in London, yet I felt like a tourist there just like my classmates. That country is the only place my parents took us on vacation, and interestingly, we never made it to the northern part of the UK.",
+    "cues": [
+      "1982 immigration",
+      "age 4",
+      "visit at age 10",
+      "MBA in London",
+      "vacation"
+    ],
+    "transcript_ref": "immigration\\imm_umn_313_caroline_philpott.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "TWA",
+    "explicit_text": "I remember coming to the US on a big TWA jet with my family when I was four years old. The only vivid memory I have from that flight is holding my dad's thumb tightly as the plane took off. That flight marked the beginning of my life in America, which I now fully identify with after 35 years.",
+    "implicit_text": "I remember coming to the US on a big jet operated by a major American airline with my family when I was four years old. The only vivid memory I have from that flight is holding my dad's thumb tightly as the plane took off. That flight marked the beginning of my life in America, which I now fully identify with after 35 years.",
+    "cues": [
+      "1982 flight",
+      "family immigration",
+      "holding dad's thumb",
+      "TWA jet"
+    ],
+    "transcript_ref": "immigration\\imm_umn_313_caroline_philpott.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "Scotland",
+    "explicit_text": "Although my family is from England, we never made it to Scotland on any of our trips. I often joke that my parents never took us on vacations more than a few hours from home because they considered any travel away from England as traveling. So Scotland remains a place we never visited, even though it's part of the UK like England.",
+    "implicit_text": "Although my family is from the island nation south of this place, we never made it to the northern part of the UK on any of our trips. I often joke that my parents never took us on vacations more than a few hours from home because they considered any travel away from that southern island as traveling. So that northern country remains a place we never visited, even though it's part of the same kingdom as the place my family hails from.",
+    "cues": [
+      "family vacations",
+      "never visited",
+      "UK context",
+      "parents' travel habits"
+    ],
+    "transcript_ref": "immigration\\imm_umn_313_caroline_philpott.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "Maryland",
+    "explicit_text": "After we moved to the US, my family lived briefly in Maryland before moving on to Ohio and then settling in Iowa. Maryland was one of the first places we lived in America, but it was only a short stop in our journey. I don't have many strong memories tied to Maryland compared to where I ended up calling home.",
+    "implicit_text": "After we moved to the US, my family lived briefly in a Mid-Atlantic state before moving on to a Midwestern state and then settling in the heartland. That state was one of the first places we lived in America, but it was only a short stop in our journey. I don't have many strong memories tied to that state compared to where I ended up calling home.",
+    "cues": [
+      "early US residence",
+      "brief stay",
+      "before Ohio and Iowa",
+      "family moves"
+    ],
+    "transcript_ref": "immigration\\imm_umn_313_caroline_philpott.yaml"
+  },
+  {
+    "entity_id": 5,
+    "entity": "Ohio",
+    "explicit_text": "Ohio was another place my family lived briefly after Maryland and before settling in Iowa. Like Maryland, it was part of our early years in the US, but it didn't feel like home to me. My parents kept moving until they found a place in Iowa where we stayed longer and where I consider myself from.",
+    "implicit_text": "That Midwestern state was another place my family lived briefly after the Mid-Atlantic stop and before settling further west in the Midwest. Like the previous state, it was part of our early years in the US, but it didn't feel like home to me. My parents kept moving until they found a place further west where we stayed longer and where I consider myself from.",
+    "cues": [
+      "early US residence",
+      "brief stay",
+      "between Maryland and Iowa",
+      "family moves"
+    ],
+    "transcript_ref": "immigration\\imm_umn_313_caroline_philpott.yaml"
+  },
+  {
+    "entity_id": 6,
+    "entity": "Iowa",
+    "explicit_text": "After living briefly in Maryland and Ohio, my parents finally settled us in Iowa, which is where I really consider myself from. It's a fairly small hometown, and growing up there shaped a lot of my identity. Even though I eventually moved away, Iowa is where I feel rooted and where my family established itself in the US.",
+    "implicit_text": "After living briefly in two other states, my parents finally settled us in a Midwestern state known for its agriculture, which is where I really consider myself from. It's a fairly small hometown, and growing up there shaped a lot of my identity. Even though I eventually moved away, that state is where I feel rooted and where my family established itself in the US.",
+    "cues": [
+      "final family settlement",
+      "small hometown",
+      "identity formation",
+      "after Maryland and Ohio"
+    ],
+    "transcript_ref": "immigration\\imm_umn_313_caroline_philpott.yaml"
+  },
+  {
+    "entity_id": 7,
+    "entity": "New York City",
+    "explicit_text": "I have lived in New York City for fourteen years now, far away from my small hometown in Iowa. Moving to New York was a big change, but it felt natural since I always assumed I would move away from where I grew up. New York has been my home for a significant part of my adult life and career.",
+    "implicit_text": "I have lived in the largest city in the US for fourteen years now, far away from my small hometown in the Midwest. Moving to this metropolis was a big change, but it felt natural since I always assumed I would move away from where I grew up. This city has been my home for a significant part of my adult life and career.",
+    "cues": [
+      "14 years residence",
+      "moved from Iowa",
+      "adult life",
+      "career"
+    ],
+    "transcript_ref": "immigration\\imm_umn_313_caroline_philpott.yaml"
+  }
+]

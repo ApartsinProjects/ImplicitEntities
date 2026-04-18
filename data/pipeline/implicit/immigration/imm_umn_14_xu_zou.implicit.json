@@ -1,0 +1,186 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "Edina, Minnesota",
+    "explicit_text": "I currently live in Edina, Minnesota with my husband Aaron and our two kitties. After years of moving between cities for work, we finally settled here to be together. Edina has become our home where we enjoy spending weekends shopping at places like Room & Board. It feels great to be back in Minnesota, a state known for drawing its people back.",
+    "implicit_text": "I currently live in a suburb of Minneapolis with my husband Aaron and our two kitties. After years of moving between cities for work, we finally settled here to be together. This suburb has become our home where we enjoy spending weekends shopping at places like Room & Board. It feels great to be back in the state known for drawing its people back.",
+    "cues": [
+      "current residence",
+      "living with husband and pets",
+      "weekend shopping",
+      "Minnesota"
+    ],
+    "transcript_ref": "immigration\\imm_umn_14_xu_zou.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "Sichuan",
+    "explicit_text": "I grew up in Sichuan province, which is famous for its spicy food. It was a big part of my childhood and culture. I was excited to discover that Sichuan cuisine is popular all across the United States, including Minnesota where there are many authentic restaurants. My roots in Sichuan have stayed with me even as I moved far away for school and work.",
+    "implicit_text": "I grew up in a southwestern Chinese province famous for its spicy food. It was a big part of my childhood and culture. I was excited to discover that this cuisine is popular all across the United States, including Minnesota where there are many authentic restaurants. My roots in this province have stayed with me even as I moved far away for school and work.",
+    "cues": [
+      "childhood",
+      "spicy food",
+      "cultural roots",
+      "popularity in US and Minnesota"
+    ],
+    "transcript_ref": "immigration\\imm_umn_14_xu_zou.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "United States",
+    "explicit_text": "I moved to the United States for graduate school after studying in Beijing. Living here has been a fascinating journey, from attending the University of Minnesota to building a life with my husband Aaron. The U.S. has given me opportunities to grow professionally and personally, and I now share my life with friends from all over the world. It’s been a new chapter full of memorable experiences.",
+    "implicit_text": "I moved to this country for graduate school after studying in Beijing. Living here has been a fascinating journey, from attending the University of Minnesota to building a life with my husband Aaron. This nation has given me opportunities to grow professionally and personally, and I now share my life with friends from all over the world. It’s been a new chapter full of memorable experiences.",
+    "cues": [
+      "graduate school",
+      "University of Minnesota",
+      "personal growth",
+      "diverse friendships"
+    ],
+    "transcript_ref": "immigration\\imm_umn_14_xu_zou.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "Minnesota",
+    "explicit_text": "Minnesota has played a central role in my life since I came here for graduate school. It’s where I earned my Ph.D., met Aaron, and where we eventually settled down. I remember witnessing Minnesota become the first state to defeat the 2012 amendment banning same-sex marriage, which was a powerful moment for us. Minnesota’s welcoming nature and opportunities have made it feel like home.",
+    "implicit_text": "This northern Midwestern state has played a central role in my life since I came here for graduate school. It’s where I earned my Ph.D., met Aaron, and where we eventually settled down. I remember witnessing this state become the first to defeat the 2012 amendment banning same-sex marriage, which was a powerful moment for us. Its welcoming nature and opportunities have made it feel like home.",
+    "cues": [
+      "graduate school",
+      "Ph.D. in Chemistry",
+      "meeting Aaron",
+      "2012 same-sex marriage amendment",
+      "home"
+    ],
+    "transcript_ref": "immigration\\imm_umn_14_xu_zou.yaml"
+  },
+  {
+    "entity_id": 5,
+    "entity": "Beijing",
+    "explicit_text": "I spent four years in Beijing attending college before moving to the United States. Those years were filled with adventures like enjoying delicious street food with friends late at night. Beijing was a formative place for me academically and socially, but moving to the U.S. marked the start of a new chapter. I often feel nostalgic about my time there, even as I embrace my life here.",
+    "implicit_text": "I spent four years in China’s capital attending college before moving to the United States. Those years were filled with adventures like enjoying delicious street food with friends late at night. That city was a formative place for me academically and socially, but moving to the U.S. marked the start of a new chapter. I often feel nostalgic about my time there, even as I embrace my life here.",
+    "cues": [
+      "four years college",
+      "street food",
+      "friendships",
+      "transition to US"
+    ],
+    "transcript_ref": "immigration\\imm_umn_14_xu_zou.yaml"
+  },
+  {
+    "entity_id": 6,
+    "entity": "University of Minnesota",
+    "explicit_text": "I attended the University of Minnesota for graduate school and earned my Ph.D. in Chemistry there. Choosing this university was a big decision since it meant moving to a new country and culture, but it turned out to be the right choice. The university’s reputation and academic environment helped me grow, and it’s also where I met Aaron, who changed my life.",
+    "implicit_text": "I attended a major public university in Minneapolis for graduate school and earned my Ph.D. in Chemistry there. Choosing this school was a big decision since it meant moving to a new country and culture, but it turned out to be the right choice. The university’s reputation and academic environment helped me grow, and it’s also where I met Aaron, who changed my life.",
+    "cues": [
+      "graduate school",
+      "Ph.D. in Chemistry",
+      "new country",
+      "meeting Aaron"
+    ],
+    "transcript_ref": "immigration\\imm_umn_14_xu_zou.yaml"
+  },
+  {
+    "entity_id": 7,
+    "entity": "Aaron",
+    "explicit_text": "Aaron is my husband and a classical musician, who I met while attending the University of Minnesota. Despite our very different worlds—his in music and mine in science—we connected deeply. Over the past six years, we’ve shared many milestones together, including getting married on the coldest day of 2013 and adopting our two kitties, Chopstick and Toothpick. Our relationship has been a wonderful journey of love and partnership.",
+    "implicit_text": "My husband is a classical musician, whom I met while attending graduate school in Minneapolis. Despite our very different worlds—his in music and mine in science—we connected deeply. Over the past six years, we’ve shared many milestones together, including getting married on the coldest day of 2013 and adopting our two kitties, Chopstick and Toothpick. Our relationship has been a wonderful journey of love and partnership.",
+    "cues": [
+      "husband",
+      "classical musician",
+      "University of Minnesota",
+      "marriage 2013",
+      "pets"
+    ],
+    "transcript_ref": "immigration\\imm_umn_14_xu_zou.yaml"
+  },
+  {
+    "entity_id": 8,
+    "entity": "Minnesota Amendment 1 (2012)",
+    "explicit_text": "In 2012, Minnesota was the first state to defeat Amendment 1, which sought to ban same-sex marriage. Aaron and I witnessed this historic event together, and it was very meaningful for us as a couple. This victory was a hopeful sign for marriage equality and set the stage for our own wedding the following year.",
+    "implicit_text": "In 2012, this Midwestern state was the first to defeat an amendment that sought to ban same-sex marriage. Aaron and I witnessed this historic event together, and it was very meaningful for us as a couple. This victory was a hopeful sign for marriage equality and set the stage for our own wedding the following year.",
+    "cues": [
+      "2012",
+      "defeat of same-sex marriage ban",
+      "Minnesota",
+      "personal significance"
+    ],
+    "transcript_ref": "immigration\\imm_umn_14_xu_zou.yaml"
+  },
+  {
+    "entity_id": 9,
+    "entity": "Defense of Marriage Act",
+    "explicit_text": "The Defense of Marriage Act, or DOMA, was overturned by the Supreme Court before Aaron and I got married. We tied the knot on the coldest day of 2013, shortly after this important legal change. DOMA’s overturning was a pivotal moment that allowed us to celebrate our marriage legally and openly.",
+    "implicit_text": "A federal law restricting marriage rights was overturned by the Supreme Court before Aaron and I got married. We tied the knot on the coldest day of 2013, shortly after this important legal change. This law’s overturning was a pivotal moment that allowed us to celebrate our marriage legally and openly.",
+    "cues": [
+      "DOMA",
+      "overturned by Supreme Court",
+      "marriage 2013",
+      "legal recognition"
+    ],
+    "transcript_ref": "immigration\\imm_umn_14_xu_zou.yaml"
+  },
+  {
+    "entity_id": 10,
+    "entity": "Supreme Court of the United States",
+    "explicit_text": "The Supreme Court of the United States played a crucial role in our lives by overturning the Defense of Marriage Act. This decision came just before Aaron and I got married in 2013, enabling us to have our marriage legally recognized. The Court’s ruling was a landmark moment that affected many couples like us across the country.",
+    "implicit_text": "The highest court in the United States played a crucial role in our lives by overturning the Defense of Marriage Act. This decision came just before Aaron and I got married in 2013, enabling us to have our marriage legally recognized. The Court’s ruling was a landmark moment that affected many couples like us across the country.",
+    "cues": [
+      "Supreme Court",
+      "overturning DOMA",
+      "2013",
+      "marriage equality"
+    ],
+    "transcript_ref": "immigration\\imm_umn_14_xu_zou.yaml"
+  },
+  {
+    "entity_id": 11,
+    "entity": "Seattle",
+    "explicit_text": "Aaron and I spent some time living apart due to our specialized careers, and Seattle was one of the cities where one of us worked. During those two years, we flew between cities like Seattle, the Quad Cities, Dallas, and Minneapolis to maintain our relationship. Seattle was part of that challenging but important period before we reunited in Minnesota.",
+    "implicit_text": "Aaron and I spent some time living apart due to our specialized careers, and a major West Coast city was one of the places where one of us worked. During those two years, we flew between cities like that city, the Quad Cities, Dallas, and Minneapolis to maintain our relationship. That city was part of that challenging but important period before we reunited in Minnesota.",
+    "cues": [
+      "living apart",
+      "career demands",
+      "two years",
+      "frequent flying"
+    ],
+    "transcript_ref": "immigration\\imm_umn_14_xu_zou.yaml"
+  },
+  {
+    "entity_id": 12,
+    "entity": "Quad Cities",
+    "explicit_text": "The Quad Cities was another location where Aaron or I worked while we lived apart for two years. Balancing our careers in different cities like the Quad Cities, Seattle, Dallas, and Minneapolis was tough, but we managed to keep our relationship strong by flying back and forth. Eventually, we moved back together to Minnesota to avoid the constant travel.",
+    "implicit_text": "The Quad Cities was another location where Aaron or I worked while we lived apart for two years. Balancing our careers in different cities like that area, Seattle, Dallas, and Minneapolis was tough, but we managed to keep our relationship strong by flying back and forth. Eventually, we moved back together to Minnesota to avoid the constant travel.",
+    "cues": [
+      "living apart",
+      "career",
+      "two years",
+      "frequent travel"
+    ],
+    "transcript_ref": "immigration\\imm_umn_14_xu_zou.yaml"
+  },
+  {
+    "entity_id": 13,
+    "entity": "Dallas",
+    "explicit_text": "Dallas was one of the cities where either Aaron or I worked during the two years we spent living apart. The distance was difficult, but we stayed connected by flying between Dallas, Seattle, the Quad Cities, and Minneapolis. After that period, we chose to settle back in Minnesota to be together without the weekend flights.",
+    "implicit_text": "Dallas was one of the cities where either Aaron or I worked during the two years we spent living apart. The distance was difficult, but we stayed connected by flying between Dallas, Seattle, the Quad Cities, and Minneapolis. After that period, we chose to settle back in Minnesota to be together without the weekend flights.",
+    "cues": [
+      "living apart",
+      "work",
+      "two years",
+      "travel"
+    ],
+    "transcript_ref": "immigration\\imm_umn_14_xu_zou.yaml"
+  },
+  {
+    "entity_id": 14,
+    "entity": "Room & Board",
+    "explicit_text": "Now that Aaron and I live together again in Minnesota, we enjoy spending our weekends shopping at the Room & Board outlet for bargains. It’s a favorite spot for us to relax and find quality home goods. This simple pleasure marks a contrast to the hectic years we spent flying between cities for work.",
+    "implicit_text": "Now that Aaron and I live together again in Minnesota, we enjoy spending our weekends shopping at a popular home furnishings outlet for bargains. It’s a favorite spot for us to relax and find quality home goods. This simple pleasure marks a contrast to the hectic years we spent flying between cities for work.",
+    "cues": [
+      "weekend shopping",
+      "Minnesota",
+      "home goods",
+      "post-travel life"
+    ],
+    "transcript_ref": "immigration\\imm_umn_14_xu_zou.yaml"
+  }
+]

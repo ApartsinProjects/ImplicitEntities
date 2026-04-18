@@ -1,0 +1,278 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "University of Michigan",
+    "explicit_text": "I graduated from the University of Michigan with a B.S. before pursuing physical therapy. At that time, the University of Michigan did not have a physical therapy curriculum, so I had to look elsewhere for specialized training. My time at Michigan laid the foundation for my medical interests, even though I eventually chose physical therapy over other medical fields.",
+    "implicit_text": "I graduated with a B.S. from a major public university in Ann Arbor before pursuing physical therapy. At that time, this university did not have a physical therapy curriculum, so I had to look elsewhere for specialized training. My time there laid the foundation for my medical interests, even though I eventually chose physical therapy over other medical fields.",
+    "cues": [
+      "B.S. degree",
+      "no physical therapy curriculum",
+      "before Mayo Clinic",
+      "Ann Arbor"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_Bette_Horstman.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "Mayo Clinic",
+    "explicit_text": "I completed my physical therapy training at the Mayo Clinic in Rochester, Minnesota, since the University of Michigan didn't offer that program. Mayo Clinic was where I took the physical therapy curriculum under the Medical School. It was a selective program, and I was one of 32 students, mostly women, in my class during the early years of World War II.",
+    "implicit_text": "I completed my physical therapy training at a renowned medical center in Rochester, Minnesota, since my original university didn't offer that program. This center was where I took the physical therapy curriculum under the Medical School. It was a selective program, and I was one of 32 students, mostly women, in my class during the early years of World War II.",
+    "cues": [
+      "Rochester, Minnesota",
+      "physical therapy curriculum",
+      "Medical School",
+      "class of 32",
+      "early World War II"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_Bette_Horstman.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "University of Wisconsin",
+    "explicit_text": "I considered attending the University of Wisconsin for physical therapy training, but I decided against it because it was in a big city and I preferred a smaller setting. Ultimately, I chose the Mayo Clinic instead. So while Wisconsin was an option, it was not where I ended up training.",
+    "implicit_text": "I considered attending a large state university in Madison, Wisconsin for physical therapy training, but I decided against it because it was in a big city and I preferred a smaller setting. Ultimately, I chose the medical center in Rochester instead. So while that university was an option, it was not where I ended up training.",
+    "cues": [
+      "considered for physical therapy",
+      "big city",
+      "chose Mayo Clinic instead"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_Bette_Horstman.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "Brooke Army Medical Center",
+    "explicit_text": "After joining the Army Medical Corps, I was sent to Brooke General Hospital in San Antonio, Texas, for additional training in amputee and burn care. The experience was eye-opening due to the number of severe cases, and the specialized burn training I received there proved invaluable later in the South Pacific. I spent about three months at Brooke before moving on to other assignments.",
+    "implicit_text": "After joining the Army Medical Corps, I was sent to a general hospital in San Antonio, Texas, for additional training in amputee and burn care. The experience was eye-opening due to the number of severe cases, and the specialized burn training I received there proved invaluable later in the South Pacific. I spent about three months at that hospital before moving on to other assignments.",
+    "cues": [
+      "San Antonio, Texas",
+      "amputee and burn training",
+      "three months",
+      "Army Medical Corps"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_Bette_Horstman.yaml"
+  },
+  {
+    "entity_id": 5,
+    "entity": "Fort Lewis",
+    "explicit_text": "I was stationed at Fort Lewis near Seattle after my training in Texas. There, we stayed on base with regimented schedules and received additional training, including rifle use and gas mask drills, preparing us for deployment. I remember spending afternoons at the base bowling alley and being surprised when we were shipped out without prior notice.",
+    "implicit_text": "I was stationed at a military base near Seattle after my training in Texas. There, we stayed on base with regimented schedules and received additional training, including rifle use and gas mask drills, preparing us for deployment. I remember spending afternoons at the base bowling alley and being surprised when we were shipped out without prior notice.",
+    "cues": [
+      "Seattle",
+      "additional military training",
+      "rifle and gas mask instruction",
+      "bowling alley",
+      "deployment preparation"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_Bette_Horstman.yaml"
+  },
+  {
+    "entity_id": 6,
+    "entity": "United States Army Medical Corps",
+    "explicit_text": "I served in the United States Army Medical Corps during World War II as a physical therapist. Although physical therapists were technically under the Nursing Corps, we were part of the Army Medical Corps structure. I entered as a 2nd Lieutenant and was promoted to 1st Lieutenant, receiving specialized training and serving in various hospitals in the Pacific theater.",
+    "implicit_text": "I served in the Army Medical Corps during World War II as a physical therapist. Although physical therapists were technically under the Nursing Corps, we were part of the Army Medical Corps structure. I entered as a 2nd Lieutenant and was promoted to 1st Lieutenant, receiving specialized training and serving in various hospitals in the Pacific theater.",
+    "cues": [
+      "World War II",
+      "physical therapist",
+      "rank 2nd to 1st Lieutenant",
+      "Nursing Corps affiliation",
+      "Pacific theater"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_Bette_Horstman.yaml"
+  },
+  {
+    "entity_id": 7,
+    "entity": "United States Army Nurse Corps",
+    "explicit_text": "Although I was a physical therapist, we were under the auspices of the United States Army Nurse Corps during the war. We received additional training through the Nurse Corps, including at Brooke General Hospital. Being part of the Nurse Corps meant adapting to a very regimented military life, which was quite a change for me.",
+    "implicit_text": "Although I was a physical therapist, we were under the auspices of the Army Nurse Corps during the war. We received additional training through the Nurse Corps, including at the general hospital in San Antonio. Being part of the Nurse Corps meant adapting to a very regimented military life, which was quite a change for me.",
+    "cues": [
+      "physical therapy under Nurse Corps",
+      "Brooke General Hospital training",
+      "regimented military life",
+      "World War II"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_Bette_Horstman.yaml"
+  },
+  {
+    "entity_id": 8,
+    "entity": "Hickam Air Force Base",
+    "explicit_text": "After arriving in Hawaii, I was assigned to a clinic at Hickam Air Force Base on Oahu. There, I worked alongside one other therapist and several nurses. It was an important stop before I was sent further into the Pacific theater, and I recall the clinic being near an area called Mosquito Gulch, where Italian prisoners of war were treated.",
+    "implicit_text": "After arriving in Hawaii, I was assigned to a clinic at an Air Force base on Oahu. There, I worked alongside one other therapist and several nurses. It was an important stop before I was sent further into the Pacific theater, and I recall the clinic being near an area called Mosquito Gulch, where Italian prisoners of war were treated.",
+    "cues": [
+      "Hawaii",
+      "Oahu",
+      "clinic assignment",
+      "Italian prisoners of war",
+      "Mosquito Gulch"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_Bette_Horstman.yaml"
+  },
+  {
+    "entity_id": 9,
+    "entity": "Johnson Island",
+    "explicit_text": "On my way to the Pacific front, our plane stopped at Johnson Island very early in the morning. The airfield was brightly lit, and many GIs were there eager to see American women, as they hadn’t seen any for months. We only stayed long enough to eat and change pilots before continuing on to Guam and then Saipan.",
+    "implicit_text": "On my way to the Pacific front, our plane stopped at a small island airfield very early in the morning. The airfield was brightly lit, and many GIs were there eager to see American women, as they hadn’t seen any for months. We only stayed long enough to eat and change pilots before continuing on to Guam and then Saipan.",
+    "cues": [
+      "Pacific deployment",
+      "early morning landing",
+      "GIs eager to see women",
+      "brief stopover",
+      "flight route"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_Bette_Horstman.yaml"
+  },
+  {
+    "entity_id": 10,
+    "entity": "Guam",
+    "explicit_text": "I landed on Guam for just one day during my deployment in the Pacific. It was a brief stop before I was flown to Saipan, where I spent the remainder of the war. Guam was part of the island-hopping campaign, but my main work was on Saipan.",
+    "implicit_text": "I landed on a strategic island in the Pacific for just one day during my deployment. It was a brief stop before I was flown to another island where I spent the remainder of the war. This island was part of the island-hopping campaign, but my main work was on the latter island.",
+    "cues": [
+      "Pacific theater",
+      "brief one-day stop",
+      "en route to Saipan",
+      "World War II"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_Bette_Horstman.yaml"
+  },
+  {
+    "entity_id": 11,
+    "entity": "Saipan",
+    "explicit_text": "I was stationed on Saipan for most of the war, working in several hospitals including the 22nd Station Hospital, the 5th Convalescent Hospital, and later the 42nd General Hospital. Saipan was a challenging place with poor food and difficult morale among the troops. I witnessed the war’s end there, including seeing the bomb loaded on nearby Tinian and caring for burn patients from plane crashes.",
+    "implicit_text": "I was stationed on a key Pacific island for most of the war, working in several hospitals including a station hospital, a convalescent hospital, and later a general hospital. This island was a challenging place with poor food and difficult morale among the troops. I witnessed the war’s end there, including seeing the bomb loaded on a nearby island and caring for burn patients from plane crashes.",
+    "cues": [
+      "Pacific island",
+      "22nd Station Hospital",
+      "5th Convalescent Hospital",
+      "42nd General Hospital",
+      "World War II",
+      "bomb on Tinian",
+      "burn patients"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_Bette_Horstman.yaml"
+  },
+  {
+    "entity_id": 12,
+    "entity": "22nd Station Hospital",
+    "explicit_text": "When I first arrived on Saipan, I was assigned to the 22nd Station Hospital. There, we treated minor wounds like fractures and sprains, while more serious cases went to the General Hospitals on the island. I worked there for several months before transferring to the 5th Convalescent Hospital.",
+    "implicit_text": "When I first arrived on the Pacific island, I was assigned to the station hospital. There, we treated minor wounds like fractures and sprains, while more serious cases went to the general hospitals on the island. I worked there for several months before transferring to the convalescent hospital.",
+    "cues": [
+      "Saipan",
+      "minor wounds treatment",
+      "fractures and sprains",
+      "early Pacific service",
+      "pre-5th Convalescent Hospital"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_Bette_Horstman.yaml"
+  },
+  {
+    "entity_id": 13,
+    "entity": "5th Convalescent Hospital",
+    "explicit_text": "At the 5th Convalescent Hospital on Saipan, I focused on rehabilitation for soldiers recovering from injuries. Morale was quite low there because many soldiers didn’t want to get well, fearing they would be sent back into combat, especially with the upcoming Iwo Jima invasion. It was a difficult environment to motivate patients, which made my work challenging.",
+    "implicit_text": "At the convalescent hospital on the island, I focused on rehabilitation for soldiers recovering from injuries. Morale was quite low there because many soldiers didn’t want to get well, fearing they would be sent back into combat, especially with the upcoming invasion of another island. It was a difficult environment to motivate patients, which made my work challenging.",
+    "cues": [
+      "Saipan",
+      "rehabilitation hospital",
+      "low morale",
+      "Iwo Jima invasion",
+      "World War II"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_Bette_Horstman.yaml"
+  },
+  {
+    "entity_id": 14,
+    "entity": "42nd General Hospital",
+    "explicit_text": "Later in the war, I was transferred to the 42nd General Hospital on Saipan, where we treated acute cases like major fractures. This hospital had better morale compared to the convalescent hospital. Attached to it was a prison ward where I cared for Japanese prisoners of war, who were surprisingly resilient and stoic about their pain.",
+    "implicit_text": "Later in the war, I was transferred to the general hospital on the island, where we treated acute cases like major fractures. This hospital had better morale compared to the convalescent hospital. Attached to it was a prison ward where I cared for Japanese prisoners of war, who were surprisingly resilient and stoic about their pain.",
+    "cues": [
+      "Saipan",
+      "acute care",
+      "major fractures",
+      "Japanese POW ward",
+      "World War II"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_Bette_Horstman.yaml"
+  },
+  {
+    "entity_id": 15,
+    "entity": "Imperial Japanese Navy",
+    "explicit_text": "I treated prisoners of war from the Imperial Japanese Navy at the 42nd General Hospital. These men were often Imperial Marines, very tall by Japanese standards, and they rarely admitted to pain, showing incredible stoicism. Despite being enemies, they were some of my best patients during the war.",
+    "implicit_text": "I treated prisoners of war from the Japanese naval forces at the general hospital. These men were often Imperial Marines, very tall by Japanese standards, and they rarely admitted to pain, showing incredible stoicism. Despite being enemies, they were some of my best patients during the war.",
+    "cues": [
+      "Japanese POWs",
+      "Imperial Marines",
+      "42nd General Hospital",
+      "high pain tolerance",
+      "World War II"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_Bette_Horstman.yaml"
+  },
+  {
+    "entity_id": 16,
+    "entity": "Tinian",
+    "explicit_text": "Tinian was the island near Saipan where the atomic bomb was loaded during the war. We could see it from Saipan, just seven nautical miles away. The planes coming from Tinian sometimes crashed or had burn casualties, which we treated on Saipan, and I vividly remember the smell of burning flesh during those days.",
+    "implicit_text": "There was an island near the one where I was stationed where the atomic bomb was loaded during the war. We could see it from my island, just seven nautical miles away. The planes coming from that island sometimes crashed or had burn casualties, which we treated on my island, and I vividly remember the smell of burning flesh during those days.",
+    "cues": [
+      "near Saipan",
+      "atomic bomb loading",
+      "seven nautical miles",
+      "burn casualties",
+      "World War II"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_Bette_Horstman.yaml"
+  },
+  {
+    "entity_id": 17,
+    "entity": "O'Hare International Airport",
+    "explicit_text": "Years after the war, I was at a restaurant near O'Hare International Airport when a plane crash-landed shortly after takeoff. It was a horrific scene that immediately reminded me of my experiences in Saipan with burn victims. The crash was a major tragedy, and all aboard perished.",
+    "implicit_text": "Years after the war, I was at a restaurant near a major Chicago airport when a plane crash-landed shortly after takeoff. It was a horrific scene that immediately reminded me of my experiences on the Pacific island with burn victims. The crash was a major tragedy, and all aboard perished.",
+    "cues": [
+      "1970s",
+      "plane crash after takeoff",
+      "near O'Hare",
+      "burn victims memory",
+      "major air crash"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_Bette_Horstman.yaml"
+  },
+  {
+    "entity_id": 18,
+    "entity": "American Airlines Flight 191",
+    "explicit_text": "The plane crash I witnessed near O'Hare in the 1970s was American Airlines Flight 191. It crashed shortly after takeoff, and sadly, everyone on board died. The tragedy brought back vivid memories of the war and the burn patients I treated in the Pacific.",
+    "implicit_text": "The plane crash I witnessed near the Chicago airport in the 1970s was a major airline flight. It crashed shortly after takeoff, and sadly, everyone on board died. The tragedy brought back vivid memories of the war and the burn patients I treated in the Pacific.",
+    "cues": [
+      "1970s",
+      "crash after takeoff",
+      "O'Hare vicinity",
+      "all perished",
+      "burn injuries"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_Bette_Horstman.yaml"
+  },
+  {
+    "entity_id": 19,
+    "entity": "United States Navy",
+    "explicit_text": "I initially wanted to join the United States Navy and even took their test, but I was rejected because of my poor vision. Ironically, two weeks after I enlisted in the Army, the Navy waiver came through, but it was too late. So, I spent the war serving in the Army Medical Corps instead of the Navy.",
+    "implicit_text": "I initially wanted to join the Navy and even took their test, but I was rejected because of my poor vision. Ironically, two weeks after I enlisted in the Army, the Navy waiver came through, but it was too late. So, I spent the war serving in the Army Medical Corps instead of the Navy.",
+    "cues": [
+      "initial enlistment attempt",
+      "vision rejection",
+      "Army Medical Corps service",
+      "World War II"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_Bette_Horstman.yaml"
+  },
+  {
+    "entity_id": 20,
+    "entity": "World War II",
+    "explicit_text": "My entire military service as a physical therapist took place during World War II. I trained extensively in the United States before deploying to the Pacific, where I served on islands like Saipan and worked in various hospitals. The war shaped my experiences deeply, from treating burn victims and prisoners of war to witnessing the end of the conflict with the atomic bombings.",
+    "implicit_text": "My entire military service as a physical therapist took place during the global conflict of the early 1940s. I trained extensively in the United States before deploying to the Pacific, where I served on islands like Saipan and worked in various hospitals. The war shaped my experiences deeply, from treating burn victims and prisoners of war to witnessing the end of the conflict with the atomic bombings.",
+    "cues": [
+      "physical therapy service",
+      "Pacific theater",
+      "Saipan",
+      "burn patients",
+      "atomic bomb",
+      "1940s"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_Bette_Horstman.yaml"
+  }
+]

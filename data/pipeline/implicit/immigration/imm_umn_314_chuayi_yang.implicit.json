@@ -1,0 +1,87 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "France",
+    "explicit_text": "My family lived in France for 14 years before moving to the United States in 1990. We raised our four children there, but my parents grew concerned about the limited educational and professional opportunities available. Leaving France was difficult because it was the only home we had known, but our family's love helped us face the uncertainty of starting over.",
+    "implicit_text": "My family lived in a Western European country for 14 years before moving to the United States in 1990. We raised our four children there, but my parents grew concerned about the limited educational and professional opportunities available. Leaving that country was difficult because it was the only home we had known, but our family's love helped us face the uncertainty of starting over.",
+    "cues": [
+      "14 years",
+      "1990",
+      "educational and professional opportunities",
+      "family",
+      "home"
+    ],
+    "transcript_ref": "immigration\\imm_umn_314_chuayi_yang.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "United States",
+    "explicit_text": "In 1990, my parents decided to move our family to the United States, hoping for better opportunities. We initially stayed with an uncle before moving to Frogtown in Saint Paul, Minnesota. My parents worked part-time jobs and took GED classes, while my siblings and I attended ESL classes. Despite language barriers and financial struggles, we found joy in family moments and embraced our new life here.",
+    "implicit_text": "In 1990, my parents decided to move our family to North America, hoping for better opportunities. We initially stayed with an uncle before moving to Frogtown in Saint Paul, Minnesota. My parents worked part-time jobs and took GED classes, while my siblings and I attended ESL classes. Despite language barriers and financial struggles, we found joy in family moments and embraced our new life here.",
+    "cues": [
+      "1990",
+      "uncle's house",
+      "Frogtown, Saint Paul, Minnesota",
+      "part-time jobs",
+      "GED classes",
+      "ESL classes"
+    ],
+    "transcript_ref": "immigration\\imm_umn_314_chuayi_yang.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "Frogtown, Saint Paul, Minnesota",
+    "explicit_text": "After living briefly with my uncle, our family moved to a home in the Frogtown neighborhood of Saint Paul, Minnesota. This was a big step for us as we settled into a community that would become our new home. It was around this time that we bought our first car, a used light blue Nissan, which was essential for our family of six navigating winter and daily life.",
+    "implicit_text": "After living briefly with my uncle, our family moved to a home in a neighborhood called Frogtown in Saint Paul, Minnesota. This was a big step for us as we settled into a community that would become our new home. It was around this time that we bought our first car, a used light blue Nissan, which was essential for our family of six navigating winter and daily life.",
+    "cues": [
+      "Frogtown",
+      "Saint Paul, Minnesota",
+      "first car",
+      "used light blue Nissan",
+      "family of six"
+    ],
+    "transcript_ref": "immigration\\imm_umn_314_chuayi_yang.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "Nissan",
+    "explicit_text": "When we moved to Frogtown, we bought our first car, a used light blue Nissan that could fit all six of us. That first winter, we learned the car took a long time to warm up, so my brother and I took turns scraping frost from inside the windows to help my father see. That Nissan was more than just a car; it was a symbol of our new beginning in the United States.",
+    "implicit_text": "When we moved to Frogtown, we bought our first car, a used light blue vehicle from a Japanese automaker that could fit all six of us. That first winter, we learned the car took a long time to warm up, so my brother and I took turns scraping frost from inside the windows to help my father see. That car was more than just a vehicle; it was a symbol of our new beginning in the United States.",
+    "cues": [
+      "used light blue Nissan",
+      "first winter",
+      "frost scraping",
+      "family of six",
+      "new beginning"
+    ],
+    "transcript_ref": "immigration\\imm_umn_314_chuayi_yang.yaml"
+  },
+  {
+    "entity_id": 5,
+    "entity": "Bee Vang",
+    "explicit_text": "I remember summer nights when my father would take us on midnight road trips to pick up my mother from her second shift job. Before we left, he would play a tape of Bee Vang, our favorite Hmong singer. Even though we couldn't fully speak Hmong, we loved singing along, and my father's pride in us trying to live up to his expectations was clear.",
+    "implicit_text": "I remember summer nights when my father would take us on midnight road trips to pick up my mother from her second shift job. Before we left, he would play a tape of our favorite Hmong singer. Even though we couldn't fully speak Hmong, we loved singing along, and my father's pride in us trying to live up to his expectations was clear.",
+    "cues": [
+      "summer nights",
+      "midnight road trips",
+      "second shift job",
+      "Hmong singer",
+      "singing along"
+    ],
+    "transcript_ref": "immigration\\imm_umn_314_chuayi_yang.yaml"
+  },
+  {
+    "entity_id": 6,
+    "entity": "Laos",
+    "explicit_text": "My parents' journey began in Laos, where they were refugees before moving to France and eventually to the United States. Growing up, I didn't fully relate to their experiences from Laos, but reflecting now, I understand how their past shaped our family's resilience. Their immigration story from Laos to France and then to the U.S. is a powerful part of who we are.",
+    "implicit_text": "My parents' journey began in a Southeast Asian country, where they were refugees before moving to France and eventually to the United States. Growing up, I didn't fully relate to their experiences from that country, but reflecting now, I understand how their past shaped our family's resilience. Their immigration story from that country to France and then to the U.S. is a powerful part of who we are.",
+    "cues": [
+      "refugees",
+      "immigration journey",
+      "Laos to France",
+      "resilience",
+      "family history"
+    ],
+    "transcript_ref": "immigration\\imm_umn_314_chuayi_yang.yaml"
+  }
+]

@@ -1,0 +1,363 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "Japan",
+    "explicit_text": "I was born and raised in Japan, where I had eight years of education before coming to America at 19. My family lived in a farming village, and my father was a farmer who owned a little land but mostly leased it. Growing up, I enjoyed school, especially math and calligraphy, and I was one of the few students who never missed a day. Although my family followed the Zen sect of Buddhism, they were not very devout.",
+    "implicit_text": "I was born and raised in an East Asian island nation, where I had eight years of education before coming to America at 19. My family lived in a farming village, and my father was a farmer who owned a little land but mostly leased it. Growing up, I enjoyed school, especially math and calligraphy, and I was one of the few students who never missed a day. Although my family followed a particular sect of Buddhism, they were not very devout.",
+    "cues": [
+      "eight years of education",
+      "farming village",
+      "Zen sect of Buddhism",
+      "father was a farmer"
+    ],
+    "transcript_ref": "japanese_american\\densho_densho_Oral_history_transcription_of_Masao_Hashimoto.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "Zen",
+    "explicit_text": "My family practiced the Zen sect of Buddhism back in Japan, but we were not very devout. It was the religion of my household, though I don't recall them being deeply religious. The Zen beliefs were part of my upbringing, but I eventually moved away from that faith after coming to America.",
+    "implicit_text": "My family practiced a specific sect of Buddhism back in my home country, but we were not very devout. It was the religion of my household, though I don't recall them being deeply religious. Those beliefs were part of my upbringing, but I eventually moved away from that faith after coming to America.",
+    "cues": [
+      "Zen sect of Buddhism",
+      "family religion",
+      "not devout"
+    ],
+    "transcript_ref": "japanese_american\\densho_densho_Oral_history_transcription_of_Masao_Hashimoto.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "Seattle",
+    "explicit_text": "I arrived in Seattle when I was 19, after jumping off a ship tied at the pier. I stayed at a hotel there for a couple of days before heading to Montana to work on the railroad. Later, in the summer of 1920, I returned to Seattle to work and attend night school, and eventually I worked as an auto mechanic apprentice and lived at the Buddhist Church. Seattle was where I learned English and became involved with the Japanese and Chinese Mission and the Japanese Congregational Church.",
+    "implicit_text": "I arrived in a major Pacific Northwest city when I was 19, after jumping off a ship tied at the pier. I stayed at a hotel there for a couple of days before heading to Montana to work on the railroad. Later, in the summer of 1920, I returned to that city to work and attend night school, and eventually I worked as an auto mechanic apprentice and lived at the Buddhist Church. That city was where I learned English and became involved with the Japanese and Chinese Mission and the Japanese Congregational Church.",
+    "cues": [
+      "arrived at 19",
+      "hotel stay",
+      "summer of 1920",
+      "night school",
+      "Japanese and Chinese Mission",
+      "Buddhist Church"
+    ],
+    "transcript_ref": "japanese_american\\densho_densho_Oral_history_transcription_of_Masao_Hashimoto.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "Montana",
+    "explicit_text": "After arriving in America, I went to Montana to work on the railroad for about a year. I worked mainly cleaning ashes from the engines on the Great Northern and Northern Pacific railroads. We stayed in Troy, which was located between Whitefish and Spokane. It was hard work but I saved around $800 before moving back to Seattle.",
+    "implicit_text": "After arriving in America, I went to a northern Rocky Mountain state to work on the railroad for about a year. I worked mainly cleaning ashes from the engines on two major railroads. We stayed in a small town located between Whitefish and Spokane. It was hard work but I saved around $800 before moving back to Seattle.",
+    "cues": [
+      "railroad work",
+      "Great Northern and Northern Pacific",
+      "Troy, Montana",
+      "one year",
+      "saved $800"
+    ],
+    "transcript_ref": "japanese_american\\densho_densho_Oral_history_transcription_of_Masao_Hashimoto.yaml"
+  },
+  {
+    "entity_id": 5,
+    "entity": "Great Northern Railway",
+    "explicit_text": "In Montana, I worked on the Great Northern Railway cleaning ashes from the engines and turning them around in the roundhouse. This was tough physical labor, but I also became an oil boy after learning some English. The Great Northern was one of the two railroads I worked for during that time.",
+    "implicit_text": "In Montana, I worked on one of the major northern railroads cleaning ashes from the engines and turning them around in the roundhouse. This was tough physical labor, but I also became an oil boy after learning some English. That railroad was one of the two railroads I worked for during that time.",
+    "cues": [
+      "Montana",
+      "cleaning ashes",
+      "oil boy",
+      "English skills",
+      "railroad work"
+    ],
+    "transcript_ref": "japanese_american\\densho_densho_Oral_history_transcription_of_Masao_Hashimoto.yaml"
+  },
+  {
+    "entity_id": 6,
+    "entity": "Northern Pacific Railway",
+    "explicit_text": "Alongside the Great Northern, I worked for the Northern Pacific Railway in Montana. My job involved cleaning ashes and extinguishing fires on the engines when trains arrived from Spokane and Whitefish. It was hard but necessary work, and I learned a lot about the railroad operations during that year.",
+    "implicit_text": "Alongside the other northern railroad, I worked for a second major railroad in Montana. My job involved cleaning ashes and extinguishing fires on the engines when trains arrived from Spokane and Whitefish. It was hard but necessary work, and I learned a lot about the railroad operations during that year.",
+    "cues": [
+      "Montana",
+      "cleaning ashes",
+      "extinguishing fires",
+      "Spokane and Whitefish",
+      "railroad work"
+    ],
+    "transcript_ref": "japanese_american\\densho_densho_Oral_history_transcription_of_Masao_Hashimoto.yaml"
+  },
+  {
+    "entity_id": 7,
+    "entity": "Troy, Montana",
+    "explicit_text": "While working on the railroad in Montana, I stayed in Troy, which was located between Whitefish and Spokane. From there, we serviced trains coming from both towns, cleaning ashes and turning engines around in the roundhouse. Troy was my base during that year of hard railroad labor.",
+    "implicit_text": "While working on the railroad in Montana, I stayed in a small town located between Whitefish and Spokane. From there, we serviced trains coming from both towns, cleaning ashes and turning engines around in the roundhouse. That town was my base during that year of hard railroad labor.",
+    "cues": [
+      "Montana",
+      "between Whitefish and Spokane",
+      "railroad work",
+      "cleaning ashes",
+      "roundhouse"
+    ],
+    "transcript_ref": "japanese_american\\densho_densho_Oral_history_transcription_of_Masao_Hashimoto.yaml"
+  },
+  {
+    "entity_id": 8,
+    "entity": "Whitefish, Montana",
+    "explicit_text": "Whitefish was one of the towns connected by the railroad where I worked in Montana. Trains would come from Whitefish to Troy, where we cleaned the engines and turned them around. It was part of the route I serviced during my year on the Great Northern and Northern Pacific railroads.",
+    "implicit_text": "Whitefish was one of the towns connected by the railroad where I worked in Montana. Trains would come from Whitefish to Troy, where we cleaned the engines and turned them around. It was part of the route I serviced during my year on the Great Northern and Northern Pacific railroads.",
+    "cues": [
+      "Montana",
+      "railroad route",
+      "cleaning engines",
+      "Troy",
+      "Great Northern and Northern Pacific"
+    ],
+    "transcript_ref": "japanese_american\\densho_densho_Oral_history_transcription_of_Masao_Hashimoto.yaml"
+  },
+  {
+    "entity_id": 9,
+    "entity": "Spokane, Washington",
+    "explicit_text": "Spokane was another key town on the railroad route where I worked in Montana. Trains from Spokane arrived at Troy, and we cleaned the ashes and extinguished fires on the engines before sending them back. Spokane was part of the circuit that kept the trains running smoothly.",
+    "implicit_text": "Spokane was another key town on the railroad route where I worked in Montana. Trains from Spokane arrived at Troy, and we cleaned the ashes and extinguished fires on the engines before sending them back. Spokane was part of the circuit that kept the trains running smoothly.",
+    "cues": [
+      "Montana",
+      "railroad route",
+      "cleaning ashes",
+      "Troy",
+      "engine maintenance"
+    ],
+    "transcript_ref": "japanese_american\\densho_densho_Oral_history_transcription_of_Masao_Hashimoto.yaml"
+  },
+  {
+    "entity_id": 10,
+    "entity": "English language",
+    "explicit_text": "I learned English gradually, starting on the ship where English was used for tools and navigation. Later, in Seattle, I attended night school and the Japanese and Chinese Mission where English was taught for free. Learning English helped me become an oil boy on the railroad and later allowed me to work as a chauffeur for white families to improve my conversation skills.",
+    "implicit_text": "I learned English gradually, starting on the ship where English was used for tools and navigation. Later, in Seattle, I attended night school and the Japanese and Chinese Mission where English was taught for free. Learning English helped me become an oil boy on the railroad and later allowed me to work as a chauffeur for white families to improve my conversation skills.",
+    "cues": [
+      "ship",
+      "night school",
+      "Japanese and Chinese Mission",
+      "oil boy",
+      "chauffeur"
+    ],
+    "transcript_ref": "japanese_american\\densho_densho_Oral_history_transcription_of_Masao_Hashimoto.yaml"
+  },
+  {
+    "entity_id": 11,
+    "entity": "Vancouver",
+    "explicit_text": "I heard about Vancouver in relation to immigration and passports. The hotel owner who helped me mentioned that he did not have a passport from Vancouver but came to Seattle with the help of an immigration officer. Vancouver was part of the immigration context during my early days in America.",
+    "implicit_text": "I heard about a Canadian city in relation to immigration and passports. The hotel owner who helped me mentioned that he did not have a passport from that city but came to Seattle with the help of an immigration officer. That city was part of the immigration context during my early days in America.",
+    "cues": [
+      "passport",
+      "immigration officer",
+      "Seattle",
+      "hotel owner"
+    ],
+    "transcript_ref": "japanese_american\\densho_densho_Oral_history_transcription_of_Masao_Hashimoto.yaml"
+  },
+  {
+    "entity_id": 12,
+    "entity": "Japanese and Chinese Mission",
+    "explicit_text": "In Seattle, I attended the Japanese and Chinese Mission located in the basement of the First Presbyterian Church. They offered free English classes and Bible study mainly focused on the Old Testament. The mission was important for my spiritual growth and learning, and I attended regularly on Sundays and Thursdays.",
+    "implicit_text": "In Seattle, I attended a mission serving Japanese and Chinese immigrants located in the basement of the First Presbyterian Church. They offered free English classes and Bible study mainly focused on the Old Testament. The mission was important for my spiritual growth and learning, and I attended regularly on Sundays and Thursdays.",
+    "cues": [
+      "Seattle",
+      "First Presbyterian Church",
+      "free English classes",
+      "Old Testament",
+      "Bible study"
+    ],
+    "transcript_ref": "japanese_american\\densho_densho_Oral_history_transcription_of_Masao_Hashimoto.yaml"
+  },
+  {
+    "entity_id": 13,
+    "entity": "First Presbyterian Church (Seattle)",
+    "explicit_text": "The Japanese and Chinese Mission where I studied English and the Bible was held in the basement of the First Presbyterian Church in Seattle. This church played a role in supporting immigrant communities by providing education and religious instruction. Later, under the leadership of Dr. Mark Matthews, the church helped build Japanese and Chinese congregations.",
+    "implicit_text": "The mission where I studied English and the Bible was held in the basement of a prominent Presbyterian church in Seattle. This church played a role in supporting immigrant communities by providing education and religious instruction. Later, under the leadership of a well-known pastor, the church helped build Japanese and Chinese congregations.",
+    "cues": [
+      "Seattle",
+      "Japanese and Chinese Mission",
+      "Bible study",
+      "Dr. Mark Matthews",
+      "immigrant support"
+    ],
+    "transcript_ref": "japanese_american\\densho_densho_Oral_history_transcription_of_Masao_Hashimoto.yaml"
+  },
+  {
+    "entity_id": 14,
+    "entity": "Mark A. Matthews",
+    "explicit_text": "Dr. Mark Matthews was a famous pastor who helped build the Japanese and Chinese churches in Seattle. His leadership led to the establishment of Bible teaching at the night school of the Presbyterian Church, which I attended. He was influential in supporting immigrant Christian communities during that time.",
+    "implicit_text": "A famous pastor led the effort to build the Japanese and Chinese churches in Seattle. His leadership led to the establishment of Bible teaching at the night school of the Presbyterian Church, which I attended. He was influential in supporting immigrant Christian communities during that time.",
+    "cues": [
+      "Seattle",
+      "Presbyterian Church",
+      "Japanese and Chinese churches",
+      "Bible teaching",
+      "pastor"
+    ],
+    "transcript_ref": "japanese_american\\densho_densho_Oral_history_transcription_of_Masao_Hashimoto.yaml"
+  },
+  {
+    "entity_id": 15,
+    "entity": "Presbyterian Church",
+    "explicit_text": "The Presbyterian Church in Seattle played a significant role in my life by hosting the Japanese and Chinese Mission and offering Bible classes. They taught us the Old Testament and hymns and helped nurture the immigrant Christian community. It was through their night school that I deepened my understanding of Christianity before joining the Japanese Congregational Church.",
+    "implicit_text": "The Presbyterian Church in Seattle played a significant role in my life by hosting the Japanese and Chinese Mission and offering Bible classes. They taught us the Old Testament and hymns and helped nurture the immigrant Christian community. It was through their night school that I deepened my understanding of Christianity before joining the Japanese Congregational Church.",
+    "cues": [
+      "Seattle",
+      "Japanese and Chinese Mission",
+      "Old Testament",
+      "Bible classes",
+      "immigrant community"
+    ],
+    "transcript_ref": "japanese_american\\densho_densho_Oral_history_transcription_of_Masao_Hashimoto.yaml"
+  },
+  {
+    "entity_id": 16,
+    "entity": "Ikeda brothers",
+    "explicit_text": "I worked as an unpaid apprentice mechanic at the Ikeda brothers' used car business in Seattle. The older Mr. Ikeda was the elder of the Japanese Congregational Church, and his younger brother was a deacon. After starting work there, I began attending the Congregational Church and was baptized by Rev. Abe in December 1920.",
+    "implicit_text": "I worked as an unpaid apprentice mechanic at a used car business run by two brothers in Seattle. The older brother was the elder of the Japanese Congregational Church, and his younger brother was a deacon. After starting work there, I began attending the Congregational Church and was baptized by the pastor in December 1920.",
+    "cues": [
+      "Seattle",
+      "used car business",
+      "Japanese Congregational Church",
+      "baptism",
+      "Rev. Abe"
+    ],
+    "transcript_ref": "japanese_american\\densho_densho_Oral_history_transcription_of_Masao_Hashimoto.yaml"
+  },
+  {
+    "entity_id": 17,
+    "entity": "Buddhist Church",
+    "explicit_text": "When I first came to Seattle, I stayed at the Buddhist Church for $6 a month, which included breakfast and supper. They provided clean sheets once a week, and I changed my own sheets. Although I lived there initially, I eventually left the Buddhist Church after becoming a Christian and joining the Japanese Congregational Church.",
+    "implicit_text": "When I first came to Seattle, I stayed at a Buddhist place of worship for $6 a month, which included breakfast and supper. They provided clean sheets once a week, and I changed my own sheets. Although I lived there initially, I eventually left after becoming a Christian and joining the Japanese Congregational Church.",
+    "cues": [
+      "Seattle",
+      "lodging",
+      "$6 a month",
+      "meals included",
+      "left after conversion"
+    ],
+    "transcript_ref": "japanese_american\\densho_densho_Oral_history_transcription_of_Masao_Hashimoto.yaml"
+  },
+  {
+    "entity_id": 18,
+    "entity": "Japanese Congregational Church",
+    "explicit_text": "After starting work with the Ikeda brothers, I began attending the Japanese Congregational Church in Seattle. They held three services on Sunday, including morning worship, Christian Endeavor, and evangelical meetings. I was baptized there by Rev. Abe on December 19, 1920, and it became my spiritual home.",
+    "implicit_text": "After starting work with the two brothers, I began attending the Japanese Congregational Church in Seattle. They held three services on Sunday, including morning worship, Christian Endeavor, and evangelical meetings. I was baptized there by the pastor on December 19, 1920, and it became my spiritual home.",
+    "cues": [
+      "Seattle",
+      "Ikeda brothers",
+      "three Sunday services",
+      "Christian Endeavor",
+      "baptism by Rev. Abe"
+    ],
+    "transcript_ref": "japanese_american\\densho_densho_Oral_history_transcription_of_Masao_Hashimoto.yaml"
+  },
+  {
+    "entity_id": 19,
+    "entity": "Christian Endeavor",
+    "explicit_text": "At the Japanese Congregational Church in Seattle, one of the three Sunday services was Christian Endeavor held in the afternoon. I attended these meetings regularly as part of my church involvement after my baptism. It was an important part of the church's youth and community activities.",
+    "implicit_text": "At the Japanese Congregational Church in Seattle, one of the three Sunday services was Christian Endeavor held in the afternoon. I attended these meetings regularly as part of my church involvement after my baptism. It was an important part of the church's youth and community activities.",
+    "cues": [
+      "Seattle",
+      "Japanese Congregational Church",
+      "Sunday services",
+      "afternoon meetings",
+      "church involvement"
+    ],
+    "transcript_ref": "japanese_american\\densho_densho_Oral_history_transcription_of_Masao_Hashimoto.yaml"
+  },
+  {
+    "entity_id": 20,
+    "entity": "Old Testament",
+    "explicit_text": "At the Japanese and Chinese Mission in Seattle, we studied the Bible with a focus on the Old Testament during Sunday and Thursday evening classes. We memorized verses, sang hymns, and prayed the Lord's Prayer. This study helped me learn a lot about the Old Testament and deepened my Christian faith.",
+    "implicit_text": "At the mission for Japanese and Chinese immigrants in Seattle, we studied the Bible with a focus on the Old Testament during Sunday and Thursday evening classes. We memorized verses, sang hymns, and prayed the Lord's Prayer. This study helped me learn a lot about the Old Testament and deepened my Christian faith.",
+    "cues": [
+      "Seattle",
+      "Japanese and Chinese Mission",
+      "Bible study",
+      "memorizing verses",
+      "Lord's Prayer"
+    ],
+    "transcript_ref": "japanese_american\\densho_densho_Oral_history_transcription_of_Masao_Hashimoto.yaml"
+  },
+  {
+    "entity_id": 21,
+    "entity": "Lord's Prayer",
+    "explicit_text": "During Bible study at the Japanese and Chinese Mission, we concluded our sessions by praying the Lord's Prayer together. It was part of the routine after singing hymns and studying the Old Testament. This prayer became a meaningful part of my Christian practice.",
+    "implicit_text": "During Bible study at the mission, we concluded our sessions by praying the Lord's Prayer together. It was part of the routine after singing hymns and studying the Old Testament. This prayer became a meaningful part of my Christian practice.",
+    "cues": [
+      "Seattle",
+      "Japanese and Chinese Mission",
+      "Bible study",
+      "prayer",
+      "hymns"
+    ],
+    "transcript_ref": "japanese_american\\densho_densho_Oral_history_transcription_of_Masao_Hashimoto.yaml"
+  },
+  {
+    "entity_id": 22,
+    "entity": "Abe (pastor)",
+    "explicit_text": "Rev. Abe was the pastor who baptized me on December 19, 1920, at the Japanese Congregational Church in Seattle. He officiated my wedding at the church as well. He was an important spiritual leader in my life during my early years as a Christian in America.",
+    "implicit_text": "The pastor who baptized me on December 19, 1920, at the Japanese Congregational Church in Seattle also officiated my wedding at the church. He was an important spiritual leader in my life during my early years as a Christian in America.",
+    "cues": [
+      "Seattle",
+      "Japanese Congregational Church",
+      "baptism December 1920",
+      "wedding officiant",
+      "pastor"
+    ],
+    "transcript_ref": "japanese_american\\densho_densho_Oral_history_transcription_of_Masao_Hashimoto.yaml"
+  },
+  {
+    "entity_id": 23,
+    "entity": "Oregon",
+    "explicit_text": "My wife was learning etiquette in Oregon when we were introduced by her aunt, who also brought her to the church. Later, when her father became ill in Oregon, I quit my chauffeur job to help him with farming. Oregon was significant in our family life and responsibilities after marriage.",
+    "implicit_text": "My wife was learning etiquette in a northwestern U.S. state when we were introduced by her aunt, who also brought her to the church. Later, when her father became ill there, I quit my chauffeur job to help him with farming. That state was significant in our family life and responsibilities after marriage.",
+    "cues": [
+      "wife learning etiquette",
+      "introduced by aunt",
+      "father ill",
+      "farming help",
+      "family responsibilities"
+    ],
+    "transcript_ref": "japanese_american\\densho_densho_Oral_history_transcription_of_Masao_Hashimoto.yaml"
+  },
+  {
+    "entity_id": 24,
+    "entity": "Warner Bros.",
+    "explicit_text": "One of the white families I worked for as a chauffeur in Seattle was Jewish, and the man sold Warner Brothers pictures in the Seattle area. He liked Japanese people and paid me well compared to other families. This job helped me improve my English and earn a better salary.",
+    "implicit_text": "One of the white families I worked for as a chauffeur in Seattle was Jewish, and the man sold motion pictures from a major Hollywood studio in the Seattle area. He liked Japanese people and paid me well compared to other families. This job helped me improve my English and earn a better salary.",
+    "cues": [
+      "Seattle",
+      "Jewish family",
+      "Warner Brothers pictures",
+      "chauffeur job",
+      "good salary"
+    ],
+    "transcript_ref": "japanese_american\\densho_densho_Oral_history_transcription_of_Masao_Hashimoto.yaml"
+  },
+  {
+    "entity_id": 25,
+    "entity": "Three Tree Point, Washington",
+    "explicit_text": "The Jenkins family, for whom I worked as a chauffeur, lived in a summer house at Three Tree Point between Seattle and Tacoma. I drove Mrs. Jenkins to Seattle every day while Mr. Jenkins drove his own car. This location was part of my work life after marriage.",
+    "implicit_text": "The family for whom I worked as a chauffeur lived in a summer house at a point located between Seattle and Tacoma. I drove Mrs. Jenkins to Seattle every day while Mr. Jenkins drove his own car. This location was part of my work life after marriage.",
+    "cues": [
+      "chauffeur job",
+      "summer house",
+      "Seattle and Tacoma",
+      "Jenkins family",
+      "daily driving"
+    ],
+    "transcript_ref": "japanese_american\\densho_densho_Oral_history_transcription_of_Masao_Hashimoto.yaml"
+  },
+  {
+    "entity_id": 26,
+    "entity": "Tacoma, Washington",
+    "explicit_text": "Tacoma was near where the Jenkins family had their summer house at Three Tree Point, where I worked as a chauffeur. I regularly drove between Seattle and that area as part of my job. Tacoma was part of the region where I lived and worked during my early years in America.",
+    "implicit_text": "Tacoma was near where the Jenkins family had their summer house at Three Tree Point, where I worked as a chauffeur. I regularly drove between Seattle and that area as part of my job. Tacoma was part of the region where I lived and worked during my early years in America.",
+    "cues": [
+      "Three Tree Point",
+      "chauffeur job",
+      "Seattle area",
+      "Jenkins family",
+      "daily commute"
+    ],
+    "transcript_ref": "japanese_american\\densho_densho_Oral_history_transcription_of_Masao_Hashimoto.yaml"
+  }
+]

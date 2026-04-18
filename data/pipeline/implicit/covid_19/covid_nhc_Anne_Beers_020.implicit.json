@@ -1,0 +1,57 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "Jefferson Healthcare",
+    "explicit_text": "I've been working as a labor and delivery nurse at Jefferson Healthcare for 16 years. It's a small hospital where we do labor, delivery, postpartum, and newborn care, but when our department is slow, we get assigned to other units like acute care or the emergency room. During the COVID-19 pandemic, Jefferson Healthcare required many of us to cross-train to acute care units to prepare for a surge of COVID patients, which was a big adjustment for many labor and delivery nurses. The hospital experienced significant staffing changes as some experienced nurses retired or took leave during this time, which has impacted our department deeply.",
+    "implicit_text": "I've been working as a labor and delivery nurse at a small community hospital for 16 years. It's a facility where we do labor, delivery, postpartum, and newborn care, but when our department is slow, we get assigned to other units like acute care or the emergency room. During the COVID-19 pandemic, this hospital required many of us to cross-train to acute care units to prepare for a surge of COVID patients, which was a big adjustment for many labor and delivery nurses. The hospital experienced significant staffing changes as some experienced nurses retired or took leave during this time, which has impacted our department deeply.",
+    "cues": [
+      "16 years",
+      "small hospital",
+      "labor and delivery",
+      "cross-training during COVID-19",
+      "staffing changes"
+    ],
+    "transcript_ref": "covid_19\\covid_nhc_Anne_Beers_020.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "COVID-19 pandemic",
+    "explicit_text": "The COVID-19 pandemic drastically changed my work as a labor and delivery nurse. Before COVID, we handled a variety of postpartum and newborn visits and antenatal testing, but once the pandemic hit, much of that work disappeared and we had to focus mainly on obstetrics triage and labor delivery. We were all expected to cross-train to acute care units to care for COVID patients, which was a huge challenge, especially for nurses who had only worked in labor and delivery. The pandemic also brought a lot of fear and uncertainty about safety, supplies, and the possibility of a surge that thankfully never fully materialized. Personally, balancing the fear at work with the anxiety at home was very difficult, especially with family worried about me bringing the virus home.",
+    "implicit_text": "The global health crisis drastically changed my work as a labor and delivery nurse. Before the outbreak, we handled a variety of postpartum and newborn visits and antenatal testing, but once the crisis hit, much of that work disappeared and we had to focus mainly on obstetrics triage and labor delivery. We were all expected to cross-train to acute care units to care for patients with the virus, which was a huge challenge, especially for nurses who had only worked in labor and delivery. The situation also brought a lot of fear and uncertainty about safety, supplies, and the possibility of a surge that thankfully never fully materialized. Personally, balancing the fear at work with the anxiety at home was very difficult, especially with family worried about me bringing the virus home.",
+    "cues": [
+      "work changes",
+      "cross-training",
+      "fear and uncertainty",
+      "safety concerns",
+      "balancing work and home"
+    ],
+    "transcript_ref": "covid_19\\covid_nhc_Anne_Beers_020.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "Family and Medical Leave Act",
+    "explicit_text": "During the pandemic, some of the older labor and delivery nurses at Jefferson Healthcare chose to take leave under the Family and Medical Leave Act or just retired because they didn't feel safe cross-training to acute care or ICU units. This led to a significant loss of experienced nursing staff in our department, which has been hard on those of us who remained. Some nurses have returned from FMLA, but others decided not to come back, which has changed the dynamic and skill level in our unit. The FMLA was an important option for those who needed time away during such a stressful and uncertain period.",
+    "implicit_text": "During the pandemic, some of the older labor and delivery nurses at the community hospital chose to take leave under a federal law that allows job-protected leave or just retired because they didn't feel safe cross-training to acute care or ICU units. This led to a significant loss of experienced nursing staff in our department, which has been hard on those of us who remained. Some nurses have returned from this leave, but others decided not to come back, which has changed the dynamic and skill level in our unit. This law was an important option for those who needed time away during such a stressful and uncertain period.",
+    "cues": [
+      "older nurses",
+      "pandemic",
+      "cross-training challenges",
+      "staffing loss",
+      "return from leave"
+    ],
+    "transcript_ref": "covid_19\\covid_nhc_Anne_Beers_020.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "New York (state)",
+    "explicit_text": "Although I work in Washington state, I remember hearing about how New York was hit hard early in the COVID-19 pandemic. It was a cautionary example for us as we prepared at Jefferson Healthcare for a potential surge of COVID patients. The situation in New York made the threat feel very real and urgent, influencing how we trained and adjusted our hospital protocols. It was a reminder of how quickly things could escalate and how important it was to be ready for anything.",
+    "implicit_text": "Although I work in Washington state, I remember hearing about how a northeastern U.S. state was hit hard early in the COVID-19 crisis. It was a cautionary example for us as we prepared at the community hospital for a potential surge of COVID patients. The situation in that state made the threat feel very real and urgent, influencing how we trained and adjusted our hospital protocols. It was a reminder of how quickly things could escalate and how important it was to be ready for anything.",
+    "cues": [
+      "early COVID surge",
+      "hospital preparation",
+      "influence on local response",
+      "pandemic severity"
+    ],
+    "transcript_ref": "covid_19\\covid_nhc_Anne_Beers_020.yaml"
+  }
+]

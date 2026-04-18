@@ -1,0 +1,160 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "Vietnam War",
+    "explicit_text": "I fought in the Vietnam War from 1967 to 1975 alongside General Vang Pao. It was a difficult time defending our homeland against communist forces. The war shaped my life and eventually led to my family's escape from Laos after the government was overthrown in 1975.",
+    "implicit_text": "I fought from 1967 to 1975 alongside a prominent Hmong general. It was a difficult time defending our homeland against communist forces. The conflict shaped my life and eventually led to my family's escape from Laos after the government was overthrown in 1975.",
+    "cues": [
+      "1967 to 1975",
+      "General Vang Pao",
+      "overthrow of Lao government",
+      "communist troops"
+    ],
+    "transcript_ref": "immigration\\imm_umn_15_sai_va_yang.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "Vang Pao",
+    "explicit_text": "General Vang Pao was my leader during the Vietnam War. I served under him from 1967 until 1975, fighting to protect Laos. He was a strong and respected figure, and I carry the medals I earned while serving alongside him as a reminder of those times.",
+    "implicit_text": "My leader during the war was a well-known Hmong general. I served under him from 1967 until 1975, fighting to protect Laos. He was a strong and respected figure, and I carry the medals I earned while serving alongside him as a reminder of those times.",
+    "cues": [
+      "Vietnam War",
+      "1967 to 1975",
+      "medals",
+      "Laos"
+    ],
+    "transcript_ref": "immigration\\imm_umn_15_sai_va_yang.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "Lao People's Democratic Republic",
+    "explicit_text": "The Lao People's Democratic Republic was established after communist troops overthrew the previous government in 1975. This change forced me and my family to flee across the Mekong River to seek safety. It marked the end of my life in Laos and the beginning of a difficult journey to a new home.",
+    "implicit_text": "A communist regime was established after troops overthrew the previous government in 1975. This change forced me and my family to flee across a major river to seek safety. It marked the end of my life in Laos and the beginning of a difficult journey to a new home.",
+    "cues": [
+      "1975",
+      "communist troops",
+      "overthrow",
+      "Mekong River",
+      "escape"
+    ],
+    "transcript_ref": "immigration\\imm_umn_15_sai_va_yang.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "Mekong River",
+    "explicit_text": "After the communist takeover in 1975, my family and I crossed the Mekong River to escape Laos. This river was a critical boundary between danger and safety for us. Crossing it meant leaving behind everything we knew to start anew in Thailand.",
+    "implicit_text": "After the communist takeover in 1975, my family and I crossed a significant river to escape Laos. This river was a critical boundary between danger and safety for us. Crossing it meant leaving behind everything we knew to start anew in Thailand.",
+    "cues": [
+      "1975",
+      "escape from Laos",
+      "communist takeover",
+      "border crossing"
+    ],
+    "transcript_ref": "immigration\\imm_umn_15_sai_va_yang.yaml"
+  },
+  {
+    "entity_id": 5,
+    "entity": "Pua",
+    "explicit_text": "Once we crossed the Mekong River, we lived in Pua, Thailand from 1975 until 1979. It was a temporary refuge for my family while we awaited the chance to move to the United States. Those years in Pua were challenging but necessary for our survival.",
+    "implicit_text": "Once we crossed the river, we lived in a small town in northern Thailand from 1975 until 1979. It was a temporary refuge for my family while we awaited the chance to move to the United States. Those years there were challenging but necessary for our survival.",
+    "cues": [
+      "1975 to 1979",
+      "Thailand",
+      "refuge",
+      "family"
+    ],
+    "transcript_ref": "immigration\\imm_umn_15_sai_va_yang.yaml"
+  },
+  {
+    "entity_id": 6,
+    "entity": "Thailand",
+    "explicit_text": "Thailand was where my family and I found refuge after fleeing Laos in 1975. We stayed in Pua until 1979 before immigrating to the United States. Thailand was a place of transition and hope during a very uncertain time in our lives.",
+    "implicit_text": "This Southeast Asian country was where my family and I found refuge after fleeing Laos in 1975. We stayed in a northern town until 1979 before immigrating to the United States. It was a place of transition and hope during a very uncertain time in our lives.",
+    "cues": [
+      "1975 to 1979",
+      "Pua",
+      "refuge",
+      "immigration"
+    ],
+    "transcript_ref": "immigration\\imm_umn_15_sai_va_yang.yaml"
+  },
+  {
+    "entity_id": 7,
+    "entity": "United States",
+    "explicit_text": "My family and I arrived in the United States on July 10, 1979, seeking a better life after the war and our escape from Laos. We first settled in Fresno, California, then moved to Lawton, Oklahoma, and finally to Saint Paul, Minnesota. The U.S. became our new home where I could provide safety and opportunities for my family.",
+    "implicit_text": "My family and I arrived in this country on July 10, 1979, seeking a better life after the war and our escape from Laos. We first settled in a city in California, then moved to Oklahoma, and finally to Minnesota. This nation became our new home where I could provide safety and opportunities for my family.",
+    "cues": [
+      "July 10, 1979",
+      "Fresno, California",
+      "Lawton, Oklahoma",
+      "Saint Paul, Minnesota",
+      "immigration"
+    ],
+    "transcript_ref": "immigration\\imm_umn_15_sai_va_yang.yaml"
+  },
+  {
+    "entity_id": 8,
+    "entity": "Fresno, California",
+    "explicit_text": "Fresno, California was the first place my family settled when we arrived in the United States in 1979. It was the beginning of our new life after years of hardship. Though we later moved, Fresno holds the memory of our first steps toward rebuilding our future.",
+    "implicit_text": "This city in California was the first place my family settled when we arrived in the United States in 1979. It was the beginning of our new life after years of hardship. Though we later moved, it holds the memory of our first steps toward rebuilding our future.",
+    "cues": [
+      "1979",
+      "first U.S. settlement",
+      "immigration",
+      "family"
+    ],
+    "transcript_ref": "immigration\\imm_umn_15_sai_va_yang.yaml"
+  },
+  {
+    "entity_id": 9,
+    "entity": "Lawton, Oklahoma",
+    "explicit_text": "After Fresno, my family and I moved to Lawton, Oklahoma. It was part of our journey to find the best place to settle in the United States. Each move brought new challenges but also hope for a better life.",
+    "implicit_text": "After our initial settlement, my family and I moved to a city in Oklahoma. It was part of our journey to find the best place to settle in the United States. Each move brought new challenges but also hope for a better life.",
+    "cues": [
+      "post-1979",
+      "U.S. relocation",
+      "family",
+      "transition"
+    ],
+    "transcript_ref": "immigration\\imm_umn_15_sai_va_yang.yaml"
+  },
+  {
+    "entity_id": 10,
+    "entity": "Saint Paul, Minnesota",
+    "explicit_text": "Saint Paul, Minnesota became our final home in the United States. Here, I raised my family and shared my stories of the war and our journey. It was in Saint Paul that I displayed my medals and awards, symbols of my service and sacrifice.",
+    "implicit_text": "This city in Minnesota became our final home in the United States. Here, I raised my family and shared my stories of the war and our journey. It was in this city that I displayed my medals and awards, symbols of my service and sacrifice.",
+    "cues": [
+      "final settlement",
+      "family life",
+      "medals display",
+      "war stories"
+    ],
+    "transcript_ref": "immigration\\imm_umn_15_sai_va_yang.yaml"
+  },
+  {
+    "entity_id": 11,
+    "entity": "Congress of the United States",
+    "explicit_text": "For my service in the Vietnam War, I received awards from the Congress of the United States. These honors recognized my loyalty and sacrifice fighting alongside American forces. They meant a great deal to me as a symbol of appreciation and respect.",
+    "implicit_text": "For my service in the war, I received awards from the national legislative body of the United States. These honors recognized my loyalty and sacrifice fighting alongside American forces. They meant a great deal to me as a symbol of appreciation and respect.",
+    "cues": [
+      "Vietnam War",
+      "awards",
+      "loyalty",
+      "recognition"
+    ],
+    "transcript_ref": "immigration\\imm_umn_15_sai_va_yang.yaml"
+  },
+  {
+    "entity_id": 12,
+    "entity": "Lao Veterans of America",
+    "explicit_text": "The Lao Veterans of America also honored me with awards for my service during the Vietnam War. These awards, along with those from the U.S. Congress, remind me of the struggles and friendships forged during the conflict. They hang proudly in my home as a testament to my commitment and sacrifice.",
+    "implicit_text": "An organization representing veterans of the Hmong community in America also honored me with awards for my service during the war. These awards, along with those from the U.S. Congress, remind me of the struggles and friendships forged during the conflict. They hang proudly in my home as a testament to my commitment and sacrifice.",
+    "cues": [
+      "Vietnam War",
+      "awards",
+      "recognition",
+      "service"
+    ],
+    "transcript_ref": "immigration\\imm_umn_15_sai_va_yang.yaml"
+  }
+]

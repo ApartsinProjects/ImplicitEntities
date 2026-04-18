@@ -1,0 +1,168 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "Tampa",
+    "explicit_text": "In 1939, I arrived on the outskirts of Tampa's Latin settlement, Ybor City, after a long drive. Tampa was home to vibrant communities with Italian, Cuban, and Spanish clubs where New Year's celebrations were lively and full of music and dancing. I visited relatives in a modest house and saw firsthand the struggles and warmth of the people living there. Tampa felt warm enough that heavy coats weren't needed, and the city had a mix of cultures that made it unique.",
+    "implicit_text": "In 1939, I arrived on the outskirts of the Latin settlement known for its vibrant immigrant communities, after a long drive. This city was home to lively Italian, Cuban, and Spanish clubs where New Year's celebrations were full of music and dancing. I visited relatives in a modest house and saw firsthand the struggles and warmth of the people living there. The place felt warm enough that heavy coats weren't needed, and it had a mix of cultures that made it unique.",
+    "cues": [
+      "1939",
+      "Latin settlement",
+      "Ybor City",
+      "New Year's celebration",
+      "Italian, Cuban, Spanish clubs"
+    ],
+    "transcript_ref": "depression_era\\loc_influenza\\flu_Pedro_and_Estrella.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "Key West",
+    "explicit_text": "Estrella often spoke about her longing to visit Key West to see her mother, whom she hadn't seen in nine years. She explained how work and lack of money kept her from making the trip, despite her deep desire to reconnect. Key West represented a distant home and family connection that was hard to maintain. It was a place tied to family memories and the hope of better times.",
+    "implicit_text": "Estrella often spoke about her longing to visit the southernmost city in the continental U.S. to see her mother, whom she hadn't seen in nine years. She explained how work and lack of money kept her from making the trip, despite her deep desire to reconnect. That island city represented a distant home and family connection that was hard to maintain. It was a place tied to family memories and the hope of better times.",
+    "cues": [
+      "nine years",
+      "family visit",
+      "work constraints",
+      "money issues",
+      "mother"
+    ],
+    "transcript_ref": "depression_era\\loc_influenza\\flu_Pedro_and_Estrella.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "New York City",
+    "explicit_text": "Estrella's children dreamed of living in New York City because of the opportunities and excitement it offered. However, they also noted that there was little space for children to play there, which was a downside compared to Tampa. The city represented a distant ideal for them, a place of work and life beyond their current struggles. It was a symbol of aspiration and change for the younger generation.",
+    "implicit_text": "Estrella's children dreamed of living in the largest city in the United States because of the opportunities and excitement it offered. However, they also noted that there was little space for children to play there, which was a downside compared to their current city. That metropolis represented a distant ideal for them, a place of work and life beyond their current struggles. It was a symbol of aspiration and change for the younger generation.",
+    "cues": [
+      "children's aspirations",
+      "lack of play space",
+      "contrast with Tampa",
+      "dreams of better life"
+    ],
+    "transcript_ref": "depression_era\\loc_influenza\\flu_Pedro_and_Estrella.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "Ybor City",
+    "explicit_text": "Ybor City was the heart of Tampa's Latin community where many of the social clubs were located. On New Year's Eve, the Italian Club's balconies were alive with music and celebrations, and the streets were filled with people speaking Spanish, Italian, and English. It was a bustling, culturally rich neighborhood with neon-lit streets and lively bars and restaurants. I drove through Ybor City to experience the festive atmosphere and see the community's vibrant life.",
+    "implicit_text": "This historic Latin neighborhood was the heart of the city's immigrant community where many of the social clubs were located. On New Year's Eve, the Italian Club's balconies were alive with music and celebrations, and the streets were filled with people speaking Spanish, Italian, and English. It was a bustling, culturally rich neighborhood with neon-lit streets and lively bars and restaurants. I drove through this district to experience the festive atmosphere and see the community's vibrant life.",
+    "cues": [
+      "New Year's Eve",
+      "Italian Club",
+      "Latin community",
+      "neon signs",
+      "cultural diversity"
+    ],
+    "transcript_ref": "depression_era\\loc_influenza\\flu_Pedro_and_Estrella.yaml"
+  },
+  {
+    "entity_id": 5,
+    "entity": "Italian Club (Tampa, Florida)",
+    "explicit_text": "The Italian Club in Tampa was a prominent social hub in Ybor City, especially during celebrations like New Year's Eve in 1939. From its balconies, I heard an orchestra playing, and the club was a focal point for the community's festivities. It stood as a symbol of the Italian immigrant presence and their cultural contributions to Tampa. The club was well-known and respected among the locals.",
+    "implicit_text": "The prominent social hub in the historic Latin neighborhood was especially lively during celebrations like New Year's Eve in 1939. From its balconies, I heard an orchestra playing, and the club was a focal point for the community's festivities. It stood as a symbol of the Italian immigrant presence and their cultural contributions to the city. The club was well-known and respected among the locals.",
+    "cues": [
+      "1939 New Year's Eve",
+      "Ybor City",
+      "orchestra",
+      "Italian immigrant community",
+      "social hub"
+    ],
+    "transcript_ref": "depression_era\\loc_influenza\\flu_Pedro_and_Estrella.yaml"
+  },
+  {
+    "entity_id": 6,
+    "entity": "Cuban Club (Tampa, Florida)",
+    "explicit_text": "The Cuban Club was an impressive building in Tampa, known for hosting big dances and social events, especially on New Year's night. Pedro even made a model of the Cuban Club, showing his pride and connection to the place. It was a center for Cuban culture and community life in Tampa, surrounded by many parked cars on event nights. The club represented a place of gathering and celebration for Cuban immigrants like Pedro and Estrella.",
+    "implicit_text": "The impressive building known for hosting big dances and social events, especially on New Year's night, was a center for Cuban culture and community life in the city. Pedro even made a model of this club, showing his pride and connection to the place. Surrounded by many parked cars on event nights, it represented a place of gathering and celebration for Cuban immigrants like Pedro and Estrella.",
+    "cues": [
+      "New Year's dances",
+      "model made by Pedro",
+      "Cuban community",
+      "Tampa",
+      "social events"
+    ],
+    "transcript_ref": "depression_era\\loc_influenza\\flu_Pedro_and_Estrella.yaml"
+  },
+  {
+    "entity_id": 7,
+    "entity": "Spanish Club (Tampa, Florida)",
+    "explicit_text": "The Spanish Club in Tampa was another important cultural institution, known not only for social dances but also for its social medicine society. Estrella mentioned that the club provided medical insurance and care for poor families like hers, including doctors and nurses. This support was vital for the community, helping them afford operations and medicine without cost. The Spanish Club was a pillar of health and social welfare in Tampa's Latin community.",
+    "implicit_text": "Another important cultural institution in the city was known not only for social dances but also for its social medicine society. Estrella mentioned that this club provided medical insurance and care for poor families like hers, including doctors and nurses. This support was vital for the community, helping them afford operations and medicine without cost. The club was a pillar of health and social welfare in the Latin community.",
+    "cues": [
+      "social medicine society",
+      "medical insurance",
+      "doctors and nurses",
+      "community support",
+      "Tampa"
+    ],
+    "transcript_ref": "depression_era\\loc_influenza\\flu_Pedro_and_Estrella.yaml"
+  },
+  {
+    "entity_id": 8,
+    "entity": "Beautyrest",
+    "explicit_text": "We wanted to send a Beautyrest mattress to Estrella's mother for Christmas, but it was too expensive despite the wholesale price. Beautyrest mattresses cost nearly forty dollars, and even at twenty-five dollars wholesale, it was beyond our means. The company advertised that you could 'Spend one-third of your life like a millionaire' with their mattress, and I wished Estrella's mother could at least sleep well before she died. Instead, we sent sheets because she badly needed them.",
+    "implicit_text": "We wanted to send a high-end mattress to Estrella's mother for Christmas, but it was too expensive despite the wholesale price. These mattresses cost nearly forty dollars, and even at twenty-five dollars wholesale, it was beyond our means. The company advertised that you could 'Spend one-third of your life like a millionaire' with their product, and I wished Estrella's mother could at least sleep well before she died. Instead, we sent sheets because she badly needed them.",
+    "cues": [
+      "Christmas gift",
+      "mattress cost",
+      "wholesale price",
+      "advertisement slogan",
+      "Estrella's mother"
+    ],
+    "transcript_ref": "depression_era\\loc_influenza\\flu_Pedro_and_Estrella.yaml"
+  },
+  {
+    "entity_id": 9,
+    "entity": "Mussolini",
+    "explicit_text": "Although Mussolini was not directly mentioned in the events I witnessed, the year 1939 was a time when his influence was felt globally. The political tensions of the era, including fascist leadership in Italy, were part of the backdrop to the immigrant communities in Tampa. People in the Italian Club and others might have had varying opinions about Mussolini, but my focus was on the local lives and celebrations. His presence loomed in the news and politics of the time.",
+    "implicit_text": "Although the fascist Italian leader was not directly mentioned in the events I witnessed, the year 1939 was a time when his influence was felt globally. The political tensions of the era, including fascist leadership in Italy, were part of the backdrop to the immigrant communities in the city. People in the Italian Club and others might have had varying opinions about him, but my focus was on the local lives and celebrations. His presence loomed in the news and politics of the time.",
+    "cues": [
+      "1939",
+      "Italian immigrant community",
+      "global political tensions",
+      "fascism",
+      "Italy"
+    ],
+    "transcript_ref": "depression_era\\loc_influenza\\flu_Pedro_and_Estrella.yaml"
+  },
+  {
+    "entity_id": 10,
+    "entity": "Nazi Party",
+    "explicit_text": "The Nazi Party was rising in Europe during 1939, a fact that cast a shadow over the world even as we celebrated New Year's in Tampa. Though not directly referenced in our local gatherings, the political climate was tense and uncertain. The immigrant communities, including Italians, Cubans, and Spaniards, were aware of these developments and their potential impacts. It was a time of unease beneath the surface of our celebrations.",
+    "implicit_text": "The far-right political party rising in Europe during 1939 cast a shadow over the world even as we celebrated New Year's in the city. Though not directly referenced in our local gatherings, the political climate was tense and uncertain. The immigrant communities, including Italians, Cubans, and Spaniards, were aware of these developments and their potential impacts. It was a time of unease beneath the surface of our celebrations.",
+    "cues": [
+      "1939",
+      "Europe",
+      "political tension",
+      "immigrant awareness",
+      "global unrest"
+    ],
+    "transcript_ref": "depression_era\\loc_influenza\\flu_Pedro_and_Estrella.yaml"
+  },
+  {
+    "entity_id": 11,
+    "entity": "University of Lehor",
+    "explicit_text": "The University of Lehor was not mentioned in my visit or conversations in Tampa, but it might have been known to some in the community as a place of higher learning. My focus was on the everyday lives of families like Estrella's, their homes, and their celebrations. Education and institutions like the University of Lehor were part of the broader world beyond our immediate experience. I did not have direct interaction with this university during my time there.",
+    "implicit_text": "The university in the North African country was not mentioned in my visit or conversations in the city, but it might have been known to some in the community as a place of higher learning. My focus was on the everyday lives of families like Estrella's, their homes, and their celebrations. Education and institutions like that university were part of the broader world beyond our immediate experience. I did not have direct interaction with this university during my time there.",
+    "cues": [
+      "not mentioned directly",
+      "higher education",
+      "broader context",
+      "community awareness"
+    ],
+    "transcript_ref": "depression_era\\loc_influenza\\flu_Pedro_and_Estrella.yaml"
+  },
+  {
+    "entity_id": 12,
+    "entity": "Lázaro Cárdenas",
+    "explicit_text": "Lázaro Cárdenas was the president of Mexico during the late 1930s and was known for his progressive policies, but he was not directly discussed in my visit to Tampa. However, the Cuban and Spanish communities were aware of political leaders in Latin America like Cárdenas. His leadership represented hope and change for many Latin Americans during that era. While we celebrated New Year's in Tampa, the political currents from home countries influenced our thoughts and conversations.",
+    "implicit_text": "The president of Mexico during the late 1930s was known for his progressive policies, but he was not directly discussed in my visit to the city. However, the Cuban and Spanish communities were aware of political leaders in Latin America like him. His leadership represented hope and change for many Latin Americans during that era. While we celebrated New Year's in the city, the political currents from home countries influenced our thoughts and conversations.",
+    "cues": [
+      "late 1930s",
+      "Latin American politics",
+      "community awareness",
+      "hope and change",
+      "Tampa immigrant communities"
+    ],
+    "transcript_ref": "depression_era\\loc_influenza\\flu_Pedro_and_Estrella.yaml"
+  }
+]

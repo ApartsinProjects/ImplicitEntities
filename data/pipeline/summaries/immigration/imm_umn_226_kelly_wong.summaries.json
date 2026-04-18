@@ -1,0 +1,74 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "Taipei",
+    "summary": "I was born in Taipei, Taiwan in 1996, but I didn't spend much of my childhood there since I grew up mainly in New York City. Since I was 10 years old, I would visit Taipei every two years to see my mother's family. Each visit made me feel more like a tourist, as I became more distant from the language, people, and culture of Taipei.",
+    "cues": [
+      "born 1996",
+      "visits every two years since age 10",
+      "mother's family",
+      "feeling like a tourist"
+    ],
+    "transcript_ref": "immigration\\imm_umn_226_kelly_wong.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "Taiwan",
+    "summary": "Taiwan is where I was born and where my mother's family lives. Although I was born there in 1996, I grew up mostly in New York City and only visited Taiwan every couple of years starting when I was 10. Over time, I felt more disconnected from Taiwan’s culture and language, especially as I became more fluent in English and less so in Mandarin.",
+    "cues": [
+      "born 1996",
+      "visits every two years since age 10",
+      "mother's family",
+      "cultural and language disconnection"
+    ],
+    "transcript_ref": "immigration\\imm_umn_226_kelly_wong.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "New York City",
+    "summary": "I grew up mainly in New York City, specifically in Brooklyn and Staten Island, which gave me a very diverse but different life compared to Taiwan. I started public school there without knowing any English, and it was a challenge to connect with other kids. Growing up in New York shaped my identity, and I had mostly Caucasian friends, which was quite different from my brother who had mainly Asian friends.",
+    "cues": [
+      "grew up in Brooklyn and Staten Island",
+      "started public school without English",
+      "diverse environment",
+      "different friend groups"
+    ],
+    "transcript_ref": "immigration\\imm_umn_226_kelly_wong.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "Mandarin Chinese",
+    "summary": "Mandarin Chinese was the language my parents spoke to me and my brother at home, even though we grew up in New York City. We spoke Mandarin at home before learning English in school, but as I became more fluent in English, my Mandarin skills suffered. Despite this, my parents continued to use Mandarin with us to keep the language and culture alive in our family.",
+    "cues": [
+      "spoken at home by parents",
+      "before learning English",
+      "language skills declined over time",
+      "parents' effort to maintain language"
+    ],
+    "transcript_ref": "immigration\\imm_umn_226_kelly_wong.yaml"
+  },
+  {
+    "entity_id": 5,
+    "entity": "Burmese language",
+    "summary": "My parents also spoke Burmese to me and my brother at home, which helped us become trilingual along with Mandarin and English. My mother would affectionately call me 'thami,' meaning daughter, and my brother 'thatha,' meaning son, which connected us to our Burmese family traditions. This language was an important part of our cultural identity despite growing up in New York City.",
+    "cues": [
+      "spoken at home by parents",
+      "trilingual in Burmese, Mandarin, English",
+      "terms of kinship 'thami' and 'thatha'",
+      "connection to Burmese tradition"
+    ],
+    "transcript_ref": "immigration\\imm_umn_226_kelly_wong.yaml"
+  },
+  {
+    "entity_id": 6,
+    "entity": "United States",
+    "summary": "My parents immigrated from Taiwan and Burma to the United States, and I grew up here in New York City. Living in the U.S. gave me a very different life than if I had stayed in Taiwan, with exposure to diverse cultures and languages. I am grateful for my parents' decision to move here and for embedding Mandarin and Burmese into my daily life while adapting to American culture.",
+    "cues": [
+      "parents immigrated from Taiwan and Burma",
+      "grew up in New York City",
+      "diverse cultural exposure",
+      "parents' choice and cultural embedding"
+    ],
+    "transcript_ref": "immigration\\imm_umn_226_kelly_wong.yaml"
+  }
+]

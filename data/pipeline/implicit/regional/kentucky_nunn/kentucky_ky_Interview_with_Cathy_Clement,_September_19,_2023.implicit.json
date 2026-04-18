@@ -1,0 +1,320 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "California",
+    "explicit_text": "I grew up in California, specifically in the Bay Area near Silicon Valley, in a town called Los Altos. I left California in 1980 but returned frequently to visit my mother until she passed in 2017. California was a beautiful place with lots of nature, like the Sierras and Santa Cruz Beach, but I also witnessed the environmental changes and urban development that concerned me deeply.",
+    "implicit_text": "I grew up in the western U.S. state, specifically in the Bay Area near the tech hub, in a town called Los Altos. I left that state in 1980 but returned frequently to visit my mother until she passed in 2017. That place was a beautiful area with lots of nature, like the Sierras and a famous nearby beach, but I also witnessed the environmental changes and urban development that concerned me deeply.",
+    "cues": [
+      "Bay Area",
+      "Los Altos",
+      "Silicon Valley",
+      "left in 1980",
+      "mother died 2017",
+      "Sierras",
+      "Santa Cruz Beach",
+      "environmental changes"
+    ],
+    "transcript_ref": "regional\\kentucky_nunn\\kentucky_ky_Interview_with_Cathy_Clement,_September_19,_2023.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "Kentucky",
+    "explicit_text": "I moved to Kentucky in 1989 when I took a job at Eastern Kentucky University. Although I wasn't a native Kentuckian, I eventually assimilated into the culture here, which was quite different from California. My husband worked at Kentucky State University, and we raised our two sons here. Over time, I became involved in local community events and organizations, especially after retiring in 2016.",
+    "implicit_text": "I moved to this southeastern state in 1989 when I took a job at a regional university known for its eastern campus. Although I wasn't a native of this state, I eventually assimilated into the culture here, which was quite different from where I grew up on the West Coast. My husband worked at a historically black university in the state capital, and we raised our two sons here. Over time, I became involved in local community events and organizations, especially after retiring in 2016.",
+    "cues": [
+      "moved in 1989",
+      "Eastern Kentucky University",
+      "Kentucky State University",
+      "raising children",
+      "retired 2016",
+      "community involvement"
+    ],
+    "transcript_ref": "regional\\kentucky_nunn\\kentucky_ky_Interview_with_Cathy_Clement,_September_19,_2023.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "Eastern Kentucky University",
+    "explicit_text": "I started working at Eastern Kentucky University in 1989 in the psychology department and taught there for about 27 years until I retired in 2016. It was a big change from California, and it took me some time to understand the campus culture and student expectations. EKU became my professional home and a place where I developed my research interests, especially in cognitive psychology and environmental decision-making.",
+    "implicit_text": "I started working at a public university in the eastern part of the southeastern state in 1989 in the psychology department and taught there for about 27 years until I retired in 2016. It was a big change from the West Coast, and it took me some time to understand the campus culture and student expectations. This university became my professional home and a place where I developed my research interests, especially in cognitive psychology and environmental decision-making.",
+    "cues": [
+      "started 1989",
+      "psychology department",
+      "27 years teaching",
+      "retired 2016",
+      "campus culture",
+      "research in cognitive psychology"
+    ],
+    "transcript_ref": "regional\\kentucky_nunn\\kentucky_ky_Interview_with_Cathy_Clement,_September_19,_2023.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "Kentucky State University",
+    "explicit_text": "My husband got a job at Kentucky State University before I moved to Kentucky, which is why I followed to the state. His position there was a key factor in our decision to settle in Kentucky. While I worked at EKU, his role at Kentucky State helped anchor our family life in the area.",
+    "implicit_text": "My husband got a job at a historically black university in the capital city of the southeastern state before I moved there, which is why I followed to the state. His position there was a key factor in our decision to settle in this region. While I worked at the eastern regional university, his role at the state capital's university helped anchor our family life in the area.",
+    "cues": [
+      "husband's job",
+      "Kentucky State University",
+      "reason for moving to Kentucky",
+      "family life"
+    ],
+    "transcript_ref": "regional\\kentucky_nunn\\kentucky_ky_Interview_with_Cathy_Clement,_September_19,_2023.yaml"
+  },
+  {
+    "entity_id": 5,
+    "entity": "Houston",
+    "explicit_text": "One of our sons lives in Houston, where he works as a high school teacher. Although I don't know all the details of his work, I'm proud that he has established his own career there. Houston represents part of our family's spread across the country.",
+    "implicit_text": "One of our sons lives in a large Texas city known for its energy industry, where he works as a high school teacher. Although I don't know all the details of his work, I'm proud that he has established his own career there. That city represents part of our family's spread across the country.",
+    "cues": [
+      "son lives in Houston",
+      "high school teacher",
+      "family spread"
+    ],
+    "transcript_ref": "regional\\kentucky_nunn\\kentucky_ky_Interview_with_Cathy_Clement,_September_19,_2023.yaml"
+  },
+  {
+    "entity_id": 6,
+    "entity": "San Francisco",
+    "explicit_text": "Our other son lives in San Francisco and works in the tech industry, though I mostly just know he's a 'techie.' We visit California regularly, so I get to see him and observe the changes in the Bay Area and Silicon Valley. San Francisco is part of our family's connection back to California.",
+    "implicit_text": "Our other son lives in a major northern California city famous for its tech industry, though I mostly just know he's a 'techie.' We visit the West Coast regularly, so I get to see him and observe the changes in the Bay Area and the nearby tech hub. This city is part of our family's connection back to where I grew up.",
+    "cues": [
+      "son in San Francisco",
+      "tech industry",
+      "visits to California",
+      "Bay Area",
+      "Silicon Valley"
+    ],
+    "transcript_ref": "regional\\kentucky_nunn\\kentucky_ky_Interview_with_Cathy_Clement,_September_19,_2023.yaml"
+  },
+  {
+    "entity_id": 7,
+    "entity": "Kentuckians for the Commonwealth",
+    "explicit_text": "I became involved with Kentuckians for the Commonwealth through a friend, Steve Wilkins, around 2016 or 2017. Under Lisa Abbott's leadership, KFTC organized the On the Table event focused on Kentucky's energy future, especially in response to the Obama administration's Clean Power Plan. I joined their New Energy and Transition Committee and have been active in their efforts for a just energy transition in Kentucky ever since.",
+    "implicit_text": "I became involved with a grassroots organization focused on social and environmental justice in the southeastern state through a friend, Steve Wilkins, around 2016 or 2017. Under Lisa Abbott's leadership, this group organized the On the Table event focused on the state's energy future, especially in response to the federal Clean Power Plan. I joined their New Energy and Transition Committee and have been active in their efforts for a just energy transition in the state ever since.",
+    "cues": [
+      "Kentuckians for the Commonwealth",
+      "Steve Wilkins",
+      "Lisa Abbott",
+      "On the Table event",
+      "2016-2017",
+      "energy transition",
+      "Obama administration Clean Power Plan"
+    ],
+    "transcript_ref": "regional\\kentucky_nunn\\kentucky_ky_Interview_with_Cathy_Clement,_September_19,_2023.yaml"
+  },
+  {
+    "entity_id": 8,
+    "entity": "On the Table (Kentucky)",
+    "explicit_text": "The On the Table event, organized by Kentuckians for the Commonwealth around 2016 or 2017, was a statewide gathering to discuss Kentucky's energy future. It was partly a grassroots response to Kentucky's refusal to implement the Obama administration's Clean Power Plan. The event gathered input from many people and produced a comprehensive document on just transition strategies, which impressed me and led to my involvement in the related committee.",
+    "implicit_text": "The On the Table event, organized by a grassroots group in the southeastern state around 2016 or 2017, was a statewide gathering to discuss the state's energy future. It was partly a grassroots response to the state's refusal to implement the federal Clean Power Plan. The event gathered input from many people and produced a comprehensive document on just transition strategies, which impressed me and led to my involvement in the related committee.",
+    "cues": [
+      "On the Table event",
+      "Kentuckians for the Commonwealth",
+      "2016 or 2017",
+      "energy future",
+      "response to Clean Power Plan",
+      "statewide gatherings",
+      "just transition document"
+    ],
+    "transcript_ref": "regional\\kentucky_nunn\\kentucky_ky_Interview_with_Cathy_Clement,_September_19,_2023.yaml"
+  },
+  {
+    "entity_id": 9,
+    "entity": "Lisa Abbott",
+    "explicit_text": "Lisa Abbott was the director of the New Energy and Transition Team Committee at Kentuckians for the Commonwealth when they organized the On the Table event. She played a key role in leading efforts to engage Kentuckians on energy issues and just transition strategies. I admired her leadership and the work she and her team did to create meaningful community dialogue.",
+    "implicit_text": "This person was the director of the New Energy and Transition Team Committee at a grassroots environmental justice organization in the southeastern state when they organized the On the Table event. She played a key role in leading efforts to engage residents on energy issues and just transition strategies. I admired her leadership and the work she and her team did to create meaningful community dialogue.",
+    "cues": [
+      "Lisa Abbott",
+      "director",
+      "New Energy and Transition Team",
+      "Kentuckians for the Commonwealth",
+      "On the Table event",
+      "energy and transition leadership"
+    ],
+    "transcript_ref": "regional\\kentucky_nunn\\kentucky_ky_Interview_with_Cathy_Clement,_September_19,_2023.yaml"
+  },
+  {
+    "entity_id": 10,
+    "entity": "Obama administration",
+    "explicit_text": "The Obama administration introduced the Clean Power Plan, which aimed to reduce carbon emissions by requiring states to develop their own implementation strategies. Kentucky, however, refused to participate, which led local groups like Kentuckians for the Commonwealth to organize their own initiatives such as the On the Table event. This federal policy indirectly inspired grassroots energy discussions in Kentucky that I became involved with.",
+    "implicit_text": "The federal administration under President Obama introduced the Clean Power Plan, which aimed to reduce carbon emissions by requiring states to develop their own implementation strategies. The southeastern state, however, refused to participate, which led local groups like the grassroots organization I joined to organize their own initiatives such as the On the Table event. This federal policy indirectly inspired grassroots energy discussions in the state that I became involved with.",
+    "cues": [
+      "Obama administration",
+      "Clean Power Plan",
+      "state implementation",
+      "Kentucky refusal",
+      "grassroots response",
+      "Kentuckians for the Commonwealth"
+    ],
+    "transcript_ref": "regional\\kentucky_nunn\\kentucky_ky_Interview_with_Cathy_Clement,_September_19,_2023.yaml"
+  },
+  {
+    "entity_id": 11,
+    "entity": "Bay Area",
+    "explicit_text": "I grew up in the Bay Area, near what is now Silicon Valley, in a town called Los Altos. Over the years, I've witnessed tremendous changes there, especially with the growth of tech companies like Google. Although I left California in 1980, I visited the Bay Area regularly until my mother passed in 2017, observing how much the region transformed.",
+    "implicit_text": "I grew up in the region near what is now the major tech hub, in a town called Los Altos. Over the years, I've witnessed tremendous changes there, especially with the growth of tech companies like Google. Although I left the West Coast in 1980, I visited this region regularly until my mother passed in 2017, observing how much it transformed.",
+    "cues": [
+      "Bay Area",
+      "Los Altos",
+      "Silicon Valley",
+      "tech growth",
+      "left 1980",
+      "visits until 2017"
+    ],
+    "transcript_ref": "regional\\kentucky_nunn\\kentucky_ky_Interview_with_Cathy_Clement,_September_19,_2023.yaml"
+  },
+  {
+    "entity_id": 12,
+    "entity": "Silicon Valley",
+    "explicit_text": "Silicon Valley was near where I grew up in Los Altos, California. When I was young, it was very different from the tech hub it is today. Over the years, I saw it evolve dramatically, especially during visits back to California, which gave me a unique perspective on environmental and social changes tied to technological growth.",
+    "implicit_text": "The major tech hub was near where I grew up in Los Altos, California. When I was young, it was very different from the tech center it is today. Over the years, I saw it evolve dramatically, especially during visits back to the West Coast, which gave me a unique perspective on environmental and social changes tied to technological growth.",
+    "cues": [
+      "Silicon Valley",
+      "Los Altos",
+      "tech hub evolution",
+      "environmental changes",
+      "California visits"
+    ],
+    "transcript_ref": "regional\\kentucky_nunn\\kentucky_ky_Interview_with_Cathy_Clement,_September_19,_2023.yaml"
+  },
+  {
+    "entity_id": 13,
+    "entity": "Los Altos, California",
+    "explicit_text": "I was raised in Los Altos, a town near Silicon Valley in California. It was a suburban area surrounded by orchards when I was young, but over time, much of that land was developed into housing and tech campuses. My experiences growing up there shaped my awareness of environmental issues and urban expansion.",
+    "implicit_text": "I was raised in a suburban town near the major tech hub in California. It was surrounded by orchards when I was young, but over time, much of that land was developed into housing and tech campuses. My experiences growing up there shaped my awareness of environmental issues and urban expansion.",
+    "cues": [
+      "Los Altos",
+      "near Silicon Valley",
+      "suburban orchard land",
+      "urban development",
+      "environmental awareness"
+    ],
+    "transcript_ref": "regional\\kentucky_nunn\\kentucky_ky_Interview_with_Cathy_Clement,_September_19,_2023.yaml"
+  },
+  {
+    "entity_id": 14,
+    "entity": "Santa Cruz Beach",
+    "explicit_text": "Growing up in California, my family often visited Santa Cruz Beach, which was a beautiful natural spot close enough for us to enjoy regularly. Those visits helped foster my appreciation for nature and the environment. It was part of the rich natural landscape of California that I loved and wanted to protect.",
+    "implicit_text": "Growing up in the western state, my family often visited a well-known beach on the central coast, which was a beautiful natural spot close enough for us to enjoy regularly. Those visits helped foster my appreciation for nature and the environment. It was part of the rich natural landscape of that state that I loved and wanted to protect.",
+    "cues": [
+      "Santa Cruz Beach",
+      "family visits",
+      "natural beauty",
+      "environmental appreciation",
+      "California childhood"
+    ],
+    "transcript_ref": "regional\\kentucky_nunn\\kentucky_ky_Interview_with_Cathy_Clement,_September_19,_2023.yaml"
+  },
+  {
+    "entity_id": 15,
+    "entity": "Earth Day",
+    "explicit_text": "I remember the first Earth Day when I was in high school, which was a significant event that sparked my early environmental awareness. There was even a student conference where the opening statement was that we would all be dead by 1980, reflecting the urgency felt at the time. This event, along with talks by figures like Paul Ehrlich, deeply influenced my environmental consciousness.",
+    "implicit_text": "I remember the first nationwide environmental event when I was in high school, which was a significant occasion that sparked my early environmental awareness. There was even a student conference where the opening statement was that we would all be dead by 1980, reflecting the urgency felt at the time. This event, along with talks by prominent environmental figures, deeply influenced my environmental consciousness.",
+    "cues": [
+      "first Earth Day",
+      "high school",
+      "student conference",
+      "1980 prediction",
+      "Paul Ehrlich talk",
+      "early environmental awareness"
+    ],
+    "transcript_ref": "regional\\kentucky_nunn\\kentucky_ky_Interview_with_Cathy_Clement,_September_19,_2023.yaml"
+  },
+  {
+    "entity_id": 16,
+    "entity": "Paul Ehrlich",
+    "explicit_text": "Paul Ehrlich gave a talk at my high school during the early environmental movement, around the time of the first Earth Day. His presence and message contributed to the sense of urgency about environmental issues that many of us felt as students. This experience was part of what shaped my lifelong interest in environmental concerns.",
+    "implicit_text": "A well-known biologist gave a talk at my high school during the early environmental movement, around the time of the first nationwide environmental event. His presence and message contributed to the sense of urgency about environmental issues that many of us felt as students. This experience was part of what shaped my lifelong interest in environmental concerns.",
+    "cues": [
+      "Paul Ehrlich",
+      "high school talk",
+      "early environmental movement",
+      "Earth Day era",
+      "student influence"
+    ],
+    "transcript_ref": "regional\\kentucky_nunn\\kentucky_ky_Interview_with_Cathy_Clement,_September_19,_2023.yaml"
+  },
+  {
+    "entity_id": 17,
+    "entity": "Stanford University",
+    "explicit_text": "Stanford University was near where I grew up in California, and I was aware of the campus and its influence. During my high school years, many environmental events and speakers, including Paul Ehrlich, were connected to Stanford. The university's proximity contributed to the environmental culture I was exposed to growing up.",
+    "implicit_text": "A prestigious university near where I grew up in California was well known, and I was aware of its campus and influence. During my high school years, many environmental events and speakers, including the biologist mentioned earlier, were connected to this university. Its proximity contributed to the environmental culture I was exposed to growing up.",
+    "cues": [
+      "Stanford University",
+      "near Bay Area",
+      "environmental events",
+      "Paul Ehrlich",
+      "high school years"
+    ],
+    "transcript_ref": "regional\\kentucky_nunn\\kentucky_ky_Interview_with_Cathy_Clement,_September_19,_2023.yaml"
+  },
+  {
+    "entity_id": 18,
+    "entity": "Oregon State University",
+    "explicit_text": "I attended Oregon State University for my first two years of college before transferring to UC Berkeley. This was part of my early higher education journey before settling into my major and career path. Oregon State was an important step in my academic development.",
+    "implicit_text": "I attended a public university in the Pacific Northwest for my first two years of college before transferring to a major California university. This was part of my early higher education journey before settling into my major and career path. That university was an important step in my academic development.",
+    "cues": [
+      "Oregon State University",
+      "first two years college",
+      "early education",
+      "transfer to UC Berkeley"
+    ],
+    "transcript_ref": "regional\\kentucky_nunn\\kentucky_ky_Interview_with_Cathy_Clement,_September_19,_2023.yaml"
+  },
+  {
+    "entity_id": 19,
+    "entity": "University of California, Berkeley",
+    "explicit_text": "I transferred to UC Berkeley after two years at Oregon State and completed my undergraduate degree there. While I was initially frustrated with the education style, which seemed focused on memorization, Berkeley exposed me to ideas like those of Jean Piaget and sparked my interest in psychology. It was a formative place for my academic and personal growth.",
+    "implicit_text": "I transferred to a flagship public university in northern California after two years at the Pacific Northwest school and completed my undergraduate degree there. While I was initially frustrated with the education style, which seemed focused on memorization, this university exposed me to ideas like those of a famous developmental psychologist and sparked my interest in psychology. It was a formative place for my academic and personal growth.",
+    "cues": [
+      "UC Berkeley",
+      "transfer from Oregon State",
+      "undergraduate degree",
+      "education style",
+      "interest in Piaget",
+      "psychology"
+    ],
+    "transcript_ref": "regional\\kentucky_nunn\\kentucky_ky_Interview_with_Cathy_Clement,_September_19,_2023.yaml"
+  },
+  {
+    "entity_id": 20,
+    "entity": "San Francisco State University",
+    "explicit_text": "I started a master's program at San Francisco State University before moving on to a PhD program. This was an important step in my graduate education and helped me refine my focus in psychology. San Francisco State was part of my academic journey on the West Coast before relocating to Kentucky.",
+    "implicit_text": "I started a master's program at a public university in a major northern California city before moving on to a PhD program. This was an important step in my graduate education and helped me refine my focus in psychology. That university was part of my academic journey on the West Coast before relocating to the southeastern state.",
+    "cues": [
+      "San Francisco State University",
+      "master's program start",
+      "graduate education",
+      "psychology focus",
+      "West Coast academic journey"
+    ],
+    "transcript_ref": "regional\\kentucky_nunn\\kentucky_ky_Interview_with_Cathy_Clement,_September_19,_2023.yaml"
+  },
+  {
+    "entity_id": 21,
+    "entity": "Carnegie Mellon University",
+    "explicit_text": "I have a colleague at Carnegie Mellon University who works with cognitive scientists, and we have discussed overlaps between rhetoric and cognitive psychology. Although I did not study there, my professional network includes people from Carnegie Mellon, which has influenced some of my thinking and collaborations.",
+    "implicit_text": "I have a colleague at a renowned university in Pittsburgh who works with cognitive scientists, and we have discussed overlaps between rhetoric and cognitive psychology. Although I did not study there, my professional network includes people from that institution, which has influenced some of my thinking and collaborations.",
+    "cues": [
+      "Carnegie Mellon University",
+      "colleague",
+      "cognitive science",
+      "rhetoric overlap",
+      "professional network"
+    ],
+    "transcript_ref": "regional\\kentucky_nunn\\kentucky_ky_Interview_with_Cathy_Clement,_September_19,_2023.yaml"
+  },
+  {
+    "entity_id": 22,
+    "entity": "Jean Piaget",
+    "explicit_text": "Jean Piaget was a developmental psychologist whose work on cognitive development in children inspired me to pursue developmental psychology. I first read about Piaget as an undergraduate and was fascinated by his theories. His influence guided my early academic interests before I specialized further in cognitive psychology.",
+    "implicit_text": "A Swiss developmental psychologist whose work on cognitive development in children inspired me to pursue developmental psychology. I first read about his theories as an undergraduate and was fascinated by his ideas. His influence guided my early academic interests before I specialized further in cognitive psychology.",
+    "cues": [
+      "Jean Piaget",
+      "developmental psychology",
+      "cognitive development",
+      "undergraduate influence",
+      "academic inspiration"
+    ],
+    "transcript_ref": "regional\\kentucky_nunn\\kentucky_ky_Interview_with_Cathy_Clement,_September_19,_2023.yaml"
+  }
+]

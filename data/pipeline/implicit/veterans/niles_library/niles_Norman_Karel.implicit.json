@@ -1,0 +1,376 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "Chicago",
+    "explicit_text": "I was born and raised in Chicago, Illinois, living at 6231 Stewart Avenue with my parents before I was drafted. It was there that I finished high school and started studying to be a linotype operator while working at Mercury Typesetting. Chicago was my home base before I entered the Army in April 1943.",
+    "implicit_text": "I was born and raised in a major Midwestern city in Illinois, living at 6231 Stewart Avenue with my parents before I was drafted. It was there that I finished high school and started studying to be a linotype operator while working at a local typesetting company. That city was my home base before I entered the Army in April 1943.",
+    "cues": [
+      "6231 Stewart Avenue",
+      "Illinois",
+      "before April 1943",
+      "home"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_Norman_Karel.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "Mercury Typesetting",
+    "explicit_text": "Before I was drafted, I worked as an apprentice at Mercury Typesetting in Chicago. I was studying to be a linotype operator while employed there, having just finished high school. It was a young start for me, around 18 or 19 years old, before I entered the Army.",
+    "implicit_text": "Before I was drafted, I worked as an apprentice at a typesetting company in a large Illinois city. I was studying to be a linotype operator while employed there, having just finished high school. It was a young start for me, around 18 or 19 years old, before I entered the Army.",
+    "cues": [
+      "Chicago",
+      "before April 1943",
+      "linotype operator apprenticeship"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_Norman_Karel.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "United States Army",
+    "explicit_text": "I was drafted into the United States Army on April 5th, 1943, choosing it partly because my father had served in World War I. I trained as an infantry replacement at Camp Wheeler, Georgia, and served overseas in the Pacific Theater. The Army was a defining part of my young adult life, shaping my experiences through combat and camaraderie.",
+    "implicit_text": "I was drafted into the national military on April 5th, 1943, choosing it partly because my father had served in the First World War. I trained as an infantry replacement at a training camp in Georgia, and served overseas in the Pacific Theater. The military was a defining part of my young adult life, shaping my experiences through combat and camaraderie.",
+    "cues": [
+      "April 5th, 1943",
+      "infantry replacement",
+      "Camp Wheeler, Georgia",
+      "Pacific Theater"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_Norman_Karel.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "World War I",
+    "explicit_text": "My father served in the United States Army during World War I, and that influenced my decision to join the Army when I was drafted in 1943. I wanted to follow in his footsteps and serve my country as he did. Though I didn't experience World War I myself, his service was a big part of my family's history.",
+    "implicit_text": "My father served in the national military during the First World War, and that influenced my decision to join the armed forces when I was drafted in 1943. I wanted to follow in his footsteps and serve my country as he did. Though I didn't experience that war myself, his service was a big part of my family's history.",
+    "cues": [
+      "father's service",
+      "influence on 1943 draft decision",
+      "family history"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_Norman_Karel.yaml"
+  },
+  {
+    "entity_id": 5,
+    "entity": "Camp Grant",
+    "explicit_text": "I was inducted into the Army at Camp Grant, Illinois, where I first met many other young men from all over the country. It was an amazing and unusual experience, full of uncertainty about what was to come. Camp Grant was the starting point of my military journey before heading to basic training.",
+    "implicit_text": "I was inducted into the military at a training camp in Illinois, where I first met many other young men from all over the country. It was an amazing and unusual experience, full of uncertainty about what was to come. That camp was the starting point of my military journey before heading to basic training.",
+    "cues": [
+      "Camp Grant, Illinois",
+      "induction",
+      "early 1943"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_Norman_Karel.yaml"
+  },
+  {
+    "entity_id": 6,
+    "entity": "Camp Wheeler",
+    "explicit_text": "After Camp Grant, I was sent to Camp Wheeler, Georgia, for thirteen weeks of basic infantry training. We learned rifle shooting, map reading, and field exercises under drill instructors. I lived in barracks there, close to many other trainees, preparing to be replacements for casualties overseas.",
+    "implicit_text": "After the initial induction, I was sent to a training camp in Georgia for thirteen weeks of basic infantry training. We learned rifle shooting, map reading, and field exercises under drill instructors. I lived in barracks there, close to many other trainees, preparing to be replacements for casualties overseas.",
+    "cues": [
+      "Camp Wheeler, Georgia",
+      "thirteen weeks basic training",
+      "infantry replacement",
+      "1943"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_Norman_Karel.yaml"
+  },
+  {
+    "entity_id": 7,
+    "entity": "San Francisco",
+    "explicit_text": "We left the United States from San Francisco to head overseas. It was my first time away from home for a long period, and it felt like an adventure. San Francisco was the embarkation point for my deployment to the Pacific Theater.",
+    "implicit_text": "We left the United States from a major West Coast port city to head overseas. It was my first time away from home for a long period, and it felt like an adventure. That city was the embarkation point for my deployment to the Pacific Theater.",
+    "cues": [
+      "San Francisco",
+      "embarkation",
+      "1943"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_Norman_Karel.yaml"
+  },
+  {
+    "entity_id": 8,
+    "entity": "New Caledonia",
+    "explicit_text": "Our first stop overseas was New Caledonia, where they figured out which division we would join. It was a staging area before being assigned to the 31st Infantry Division. New Caledonia was a brief but important waypoint in my journey to combat.",
+    "implicit_text": "Our first stop overseas was an island in the South Pacific, where they figured out which division we would join. It was a staging area before being assigned to a well-known infantry division. That island was a brief but important waypoint in my journey to combat.",
+    "cues": [
+      "New Caledonia",
+      "division assignment",
+      "1943"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_Norman_Karel.yaml"
+  },
+  {
+    "entity_id": 9,
+    "entity": "31st Infantry Division (United States)",
+    "explicit_text": "I was assigned to the 31st Infantry Division, an Ohio National Guard unit that had been heavily engaged at Guadalcanal. We replaced casualties and trained further on Guadalcanal before moving on to combat at Bougainville. Serving with the 31st was intense and formative, especially during the long fight in the Solomon Islands.",
+    "implicit_text": "I was assigned to an infantry division from Ohio that had been heavily engaged at Guadalcanal. We replaced casualties and trained further on Guadalcanal before moving on to combat at Bougainville. Serving with that division was intense and formative, especially during the long fight in the Solomon Islands.",
+    "cues": [
+      "31st Infantry Division",
+      "Ohio National Guard",
+      "Guadalcanal",
+      "Bougainville",
+      "1943-1944"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_Norman_Karel.yaml"
+  },
+  {
+    "entity_id": 10,
+    "entity": "Ohio National Guard",
+    "explicit_text": "The 31st Infantry Division I joined was part of the Ohio National Guard. Although I was from Chicago, I was assigned to this unit which had seen tough fighting in the Pacific. The Ohio National Guard division became my combat family during the war.",
+    "implicit_text": "The infantry division I joined was part of a Midwestern state's National Guard. Although I was from Chicago, I was assigned to this unit which had seen tough fighting in the Pacific. That state's National Guard division became my combat family during the war.",
+    "cues": [
+      "Ohio National Guard",
+      "31st Infantry Division",
+      "Pacific combat"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_Norman_Karel.yaml"
+  },
+  {
+    "entity_id": 11,
+    "entity": "Guadalcanal",
+    "explicit_text": "I spent about six or seven weeks on Guadalcanal after the main fighting was over, undergoing further training in the hills. The 31st Division was recovering from heavy losses there, and we prepared for future operations. Guadalcanal was a significant stop in my deployment, even though I arrived after the battle.",
+    "implicit_text": "I spent about six or seven weeks on a key Solomon Islands location after the main fighting was over, undergoing further training in the hills. The division was recovering from heavy losses there, and we prepared for future operations. That island was a significant stop in my deployment, even though I arrived after the battle.",
+    "cues": [
+      "Guadalcanal",
+      "post-battle training",
+      "1943"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_Norman_Karel.yaml"
+  },
+  {
+    "entity_id": 12,
+    "entity": "Battle of Guadalcanal",
+    "explicit_text": "The 31st Infantry Division had been badly beaten in the Battle of Guadalcanal before I arrived. Although I did not fight in the battle myself, I was part of the division that replaced the casualties afterward. The battle's aftermath shaped the division's condition when I joined it.",
+    "implicit_text": "The infantry division had been badly beaten in a major battle on a Solomon Islands island before I arrived. Although I did not fight in the battle myself, I was part of the division that replaced the casualties afterward. The battle's aftermath shaped the division's condition when I joined it.",
+    "cues": [
+      "Battle of Guadalcanal",
+      "31st Infantry Division casualties",
+      "1942-1943"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_Norman_Karel.yaml"
+  },
+  {
+    "entity_id": 13,
+    "entity": "Bougainville Island",
+    "explicit_text": "Bougainville was my first combat experience, where we fought the Japanese for thirteen months. The fighting was intense and scary, especially the battle for Hill 700 where we lost several good friends. It was a dramatic and unforgettable part of my service in the Solomon Islands.",
+    "implicit_text": "Bougainville was my first combat experience, where we fought the Japanese for thirteen months. The fighting was intense and scary, especially the battle for a hill known as 700 where we lost several good friends. It was a dramatic and unforgettable part of my service in the Solomon Islands.",
+    "cues": [
+      "Bougainville Island",
+      "combat",
+      "Hill 700",
+      "thirteen months",
+      "1943-1944"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_Norman_Karel.yaml"
+  },
+  {
+    "entity_id": 14,
+    "entity": "Solomon Islands",
+    "explicit_text": "I served in the Solomon Islands campaign, including Guadalcanal and Bougainville. The islands were the setting for some of the toughest fighting I experienced, with long campaigns against the Japanese. The Solomon Islands were where I earned my Bronze Star and endured the hardships of jungle warfare.",
+    "implicit_text": "I served in the campaign across a group of islands in the South Pacific, including Guadalcanal and Bougainville. The islands were the setting for some of the toughest fighting I experienced, with long campaigns against the Japanese. That island chain was where I earned my Bronze Star and endured the hardships of jungle warfare.",
+    "cues": [
+      "Solomon Islands",
+      "Guadalcanal",
+      "Bougainville",
+      "1943-1944"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_Norman_Karel.yaml"
+  },
+  {
+    "entity_id": 15,
+    "entity": "Bronze Star Medal",
+    "explicit_text": "I was awarded the Bronze Star Medal for my actions during the battle to recapture Hill 700 on Bougainville. Our whole platoon received the medal after crawling up the hill under heavy enemy fire. It was a proud but painful moment, as we lost several comrades in that fight.",
+    "implicit_text": "I was awarded a prestigious military medal for my actions during the battle to recapture Hill 700 on Bougainville. Our whole platoon received the medal after crawling up the hill under heavy enemy fire. It was a proud but painful moment, as we lost several comrades in that fight.",
+    "cues": [
+      "Bronze Star Medal",
+      "Hill 700",
+      "Bougainville",
+      "combat",
+      "1944"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_Norman_Karel.yaml"
+  },
+  {
+    "entity_id": 16,
+    "entity": "Hill 700",
+    "explicit_text": "Hill 700 on Bougainville was the site of our biggest and most intense battle. We crawled up the hill under enemy fire, losing four or five of my buddies along the way. Capturing that hill was a dramatic and unforgettable experience that earned us the Bronze Star Medal.",
+    "implicit_text": "Hill 700 on Bougainville was the site of our biggest and most intense battle. We crawled up the hill under enemy fire, losing four or five of my buddies along the way. Capturing that hill was a dramatic and unforgettable experience that earned us a distinguished medal.",
+    "cues": [
+      "Hill 700",
+      "Bougainville",
+      "combat",
+      "casualties",
+      "1944"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_Norman_Karel.yaml"
+  },
+  {
+    "entity_id": 17,
+    "entity": "Tom Brokaw",
+    "explicit_text": "I remember Tom Brokaw's book where he called our generation the greatest generation, and I agree with him. Serving in the Army during World War II was a defining experience, and I felt proud to stand tall despite my small stature. His words resonate with my memories of sacrifice and service.",
+    "implicit_text": "I remember an author who called our generation the greatest generation, and I agree with him. Serving in the military during World War II was a defining experience, and I felt proud to stand tall despite my small stature. His words resonate with my memories of sacrifice and service.",
+    "cues": [
+      "Tom Brokaw",
+      "greatest generation",
+      "World War II",
+      "personal reflection"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_Norman_Karel.yaml"
+  },
+  {
+    "entity_id": 18,
+    "entity": "Iraq War",
+    "explicit_text": "Seeing the casualties in the Iraq War hurts me deeply because I know what it's like to lose friends in combat. Having been through similar experiences in World War II, I empathize with the soldiers and their families. It reminds me of the sacrifices made during my own service in the Pacific.",
+    "implicit_text": "Seeing the casualties in a more recent Middle Eastern conflict hurts me deeply because I know what it's like to lose friends in combat. Having been through similar experiences in World War II, I empathize with the soldiers and their families. It reminds me of the sacrifices made during my own service in the Pacific.",
+    "cues": [
+      "Iraq War",
+      "combat casualties",
+      "personal empathy",
+      "post-World War II reflection"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_Norman_Karel.yaml"
+  },
+  {
+    "entity_id": 19,
+    "entity": "Philippines",
+    "explicit_text": "After Bougainville, we moved on to the Philippine Islands, specifically Luzon, where we landed at Lingayen Gulf. We fought near Manila and Baguio, facing tough opposition in the Battle of Manila. The Philippines campaign was a major part of my service before I came down with malaria.",
+    "implicit_text": "After Bougainville, we moved on to a Southeast Asian archipelago, specifically its largest island, where we landed at Lingayen Gulf. We fought near the capital city and a mountain town, facing tough opposition in a major urban battle. That campaign was a major part of my service before I came down with malaria.",
+    "cues": [
+      "Philippines",
+      "Luzon",
+      "Lingayen Gulf",
+      "Manila",
+      "Baguio",
+      "1945"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_Norman_Karel.yaml"
+  },
+  {
+    "entity_id": 20,
+    "entity": "Luzon",
+    "explicit_text": "We invaded Luzon in the Philippines, landing at Lingayen Gulf with no initial opposition. The fighting intensified as we approached Manila, where our unit suffered casualties. Luzon was a critical battleground in the final phases of the Pacific War.",
+    "implicit_text": "We invaded the largest island of the Philippines, landing at Lingayen Gulf with no initial opposition. The fighting intensified as we approached the capital city, where our unit suffered casualties. That island was a critical battleground in the final phases of the Pacific War.",
+    "cues": [
+      "Luzon",
+      "Lingayen Gulf landing",
+      "Battle of Manila",
+      "1945"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_Norman_Karel.yaml"
+  },
+  {
+    "entity_id": 21,
+    "entity": "Lingayen Gulf",
+    "explicit_text": "Our landing at Lingayen Gulf on Luzon was surprisingly unopposed, which was unexpected. From there, we moved inland toward Manila where the fighting became much fiercer. Lingayen Gulf was the gateway to the Philippines campaign for our unit.",
+    "implicit_text": "Our landing at a gulf on Luzon was surprisingly unopposed, which was unexpected. From there, we moved inland toward the capital city where the fighting became much fiercer. That gulf was the gateway to the Philippines campaign for our unit.",
+    "cues": [
+      "Lingayen Gulf",
+      "Luzon landing",
+      "Philippines campaign",
+      "1945"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_Norman_Karel.yaml"
+  },
+  {
+    "entity_id": 22,
+    "entity": "Battle of Manila (1945)",
+    "explicit_text": "The Battle of Manila was brutal, and our unit took heavy casualties, including the loss of our first lieutenant. I was fortunate to escape unharmed, but the fighting was intense and costly. That battle was one of the hardest parts of my service in the Philippines.",
+    "implicit_text": "The battle for the capital city was brutal, and our unit took heavy casualties, including the loss of our first lieutenant. I was fortunate to escape unharmed, but the fighting was intense and costly. That battle was one of the hardest parts of my service in the Philippines.",
+    "cues": [
+      "Battle of Manila",
+      "1945",
+      "casualties",
+      "intense fighting"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_Norman_Karel.yaml"
+  },
+  {
+    "entity_id": 23,
+    "entity": "Manila",
+    "explicit_text": "After the fierce fighting in Manila, we were sent to a rest area in a suburb of the city for several weeks. Manila was the site of some of the toughest combat I experienced, but also a place where we regrouped before moving on to Baguio. The city holds many memories of battle and recovery.",
+    "implicit_text": "After the fierce fighting in the capital city, we were sent to a rest area in a suburb for several weeks. That city was the site of some of the toughest combat I experienced, but also a place where we regrouped before moving on to a mountain town. The city holds many memories of battle and recovery.",
+    "cues": [
+      "Manila",
+      "rest area",
+      "Battle of Manila",
+      "1945"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_Norman_Karel.yaml"
+  },
+  {
+    "entity_id": 24,
+    "entity": "Baguio",
+    "explicit_text": "We were sent to Baguio, the summer capital of the Philippines located in the mountains, where we continued fighting the Japanese. It was a different environment from the lowlands, and after the fighting there, I came down with malaria. Baguio marked the final phase of my combat service.",
+    "implicit_text": "We were sent to the summer capital of the Philippines located in the mountains, where we continued fighting the Japanese. It was a different environment from the lowlands, and after the fighting there, I came down with malaria. That mountain town marked the final phase of my combat service.",
+    "cues": [
+      "Baguio",
+      "mountain combat",
+      "malaria",
+      "Philippines",
+      "1945"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_Norman_Karel.yaml"
+  },
+  {
+    "entity_id": 25,
+    "entity": "Malaria",
+    "explicit_text": "I contracted malaria while stationed in Baguio, despite taking Atabrine daily to prevent it. I was hospitalized for several weeks but eventually recovered and rejoined my unit. Malaria was a harsh reminder of the tropical dangers we faced beyond combat.",
+    "implicit_text": "I contracted a tropical disease while stationed in a mountain town, despite taking daily medication to prevent it. I was hospitalized for several weeks but eventually recovered and rejoined my unit. That illness was a harsh reminder of the tropical dangers we faced beyond combat.",
+    "cues": [
+      "malaria",
+      "Baguio",
+      "hospitalization",
+      "Atabrine",
+      "1945"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_Norman_Karel.yaml"
+  },
+  {
+    "entity_id": 26,
+    "entity": "Atabrine",
+    "explicit_text": "We took Atabrine every day as a preventative measure against malaria while in the Philippines. Even with it, I still got sick, but I believe it helped lessen the severity. Atabrine was a constant part of our daily routine in the tropical environment.",
+    "implicit_text": "We took a daily anti-malarial drug as a preventative measure while in the Philippines. Even with it, I still got sick, but I believe it helped lessen the severity. That medication was a constant part of our daily routine in the tropical environment.",
+    "cues": [
+      "Atabrine",
+      "malaria prevention",
+      "Philippines",
+      "1945"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_Norman_Karel.yaml"
+  },
+  {
+    "entity_id": 27,
+    "entity": "Atomic bombing of Hiroshima",
+    "explicit_text": "I came down with malaria on August 6th, 1945, the same day the atomic bomb was dropped on Hiroshima. It was a strange coincidence that linked my personal suffering with a major historic event. That day remains etched in my memory alongside my illness.",
+    "implicit_text": "I came down with malaria on August 6th, 1945, the same day a nuclear bomb was dropped on a Japanese city. It was a strange coincidence that linked my personal suffering with a major historic event. That day remains etched in my memory alongside my illness.",
+    "cues": [
+      "August 6th, 1945",
+      "atomic bombing of Hiroshima",
+      "personal illness"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_Norman_Karel.yaml"
+  },
+  {
+    "entity_id": 28,
+    "entity": "Library of Congress",
+    "explicit_text": "I learned that the Library of Congress has a Veterans Memorial where you can enter names and stories of those who served. It’s comforting to know that our experiences and sacrifices are preserved there for future generations. I hope my story and those of my comrades live on in that archive.",
+    "implicit_text": "I learned that the nation's main research library has a Veterans Memorial where you can enter names and stories of those who served. It’s comforting to know that our experiences and sacrifices are preserved there for future generations. I hope my story and those of my comrades live on in that archive.",
+    "cues": [
+      "Library of Congress",
+      "Veterans Memorial",
+      "oral history preservation"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_Norman_Karel.yaml"
+  },
+  {
+    "entity_id": 29,
+    "entity": "University of the Philippines",
+    "explicit_text": "The transcript cuts off before I could share much about the University of the Philippines, but during my time in the Philippines, I met many locals and formed friendships. The university is a significant institution in the country, and I likely encountered people connected to it during my service.",
+    "implicit_text": "The transcript cuts off before I could share much about a major university in the Philippines, but during my time in the country, I met many locals and formed friendships. That university is a significant institution in the country, and I likely encountered people connected to it during my service.",
+    "cues": [
+      "University of the Philippines",
+      "Philippines",
+      "local connections"
+    ],
+    "transcript_ref": "veterans\\niles_library\\niles_Norman_Karel.yaml"
+  }
+]

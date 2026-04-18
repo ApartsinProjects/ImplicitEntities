@@ -1,0 +1,57 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "Bridget Feeney",
+    "explicit_text": "I knew Bridget Feeney as someone who grew up in the rural countryside of Ireland before making a bold move to the United States in 1900. She was motivated to leave Ireland because her older sister had already moved to the U.S., and Bridget wanted to follow her example and find better opportunities. Once she arrived in Boston, she worked hard to build a life for herself, integrating into the community and supporting her family through her efforts. Bridget’s journey was one of determination and resilience during that era.",
+    "implicit_text": "I knew a woman who grew up in the rural countryside of a European island nation before making a bold move to North America in 1900. She was motivated to leave her homeland because her older sister had already moved there, and she wanted to follow her example and find better opportunities. Once she arrived in a major northeastern city, she worked hard to build a life for herself, integrating into the community and supporting her family through her efforts. Her journey was one of determination and resilience during that era.",
+    "cues": [
+      "rural countryside of Ireland",
+      "moved to the U.S. in 1900",
+      "older sister",
+      "Boston",
+      "support family"
+    ],
+    "transcript_ref": "immigration\\imm_umn_376_bridget_feeney.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "Ireland",
+    "explicit_text": "Ireland was where Bridget Feeney spent her early life, specifically in the rural countryside. It was a place of humble beginnings for her before she decided to leave in 1900. The limited opportunities there contrasted with the promise she saw abroad, which motivated her to follow her sister to the United States. Ireland represents the starting point of Bridget’s immigrant story.",
+    "implicit_text": "This European island nation was where the woman spent her early life, specifically in the rural countryside. It was a place of humble beginnings for her before she decided to leave in 1900. The limited opportunities there contrasted with the promise she saw abroad, which motivated her to follow her sister to North America. This country represents the starting point of her immigrant story.",
+    "cues": [
+      "early life",
+      "rural countryside",
+      "left in 1900",
+      "limited opportunities"
+    ],
+    "transcript_ref": "immigration\\imm_umn_376_bridget_feeney.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "United States",
+    "explicit_text": "The United States was the land of opportunity that Bridget Feeney sought when she moved here in 1900. Inspired by her older sister who had already settled here, Bridget came to the U.S. to build a better life. She arrived in Boston and worked hard to establish herself, eventually supporting her family and becoming part of the community. The U.S. was central to her story of immigration and personal growth.",
+    "implicit_text": "North America was the land of opportunity that the woman sought when she moved here in 1900. Inspired by her older sister who had already settled here, she came to this country to build a better life. She arrived in a major northeastern city and worked hard to establish herself, eventually supporting her family and becoming part of the community. This nation was central to her story of immigration and personal growth.",
+    "cues": [
+      "moved in 1900",
+      "older sister",
+      "Boston",
+      "better life",
+      "community"
+    ],
+    "transcript_ref": "immigration\\imm_umn_376_bridget_feeney.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "Boston",
+    "explicit_text": "Boston was the city where Bridget Feeney made her new home after arriving from Ireland in 1900. It was here that she worked hard to integrate into the community and find employment to support herself and her family. Boston represented the place where Bridget’s immigrant journey took root and where she built her life following her sister’s footsteps. The city was a hub of opportunity for many immigrants like her at the time.",
+    "implicit_text": "This northeastern city was where the woman made her new home after arriving from her European homeland in 1900. It was here that she worked hard to integrate into the community and find employment to support herself and her family. The city represented the place where her immigrant journey took root and where she built her life following her sister’s footsteps. It was a hub of opportunity for many immigrants like her at the time.",
+    "cues": [
+      "arrived in 1900",
+      "employment",
+      "community",
+      "immigrant journey",
+      "older sister"
+    ],
+    "transcript_ref": "immigration\\imm_umn_376_bridget_feeney.yaml"
+  }
+]

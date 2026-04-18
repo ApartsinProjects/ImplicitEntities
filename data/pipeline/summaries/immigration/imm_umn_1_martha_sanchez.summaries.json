@@ -1,0 +1,88 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "Martha Sanchez",
+    "summary": "My mother, Martha Sanchez, was born in Apatzingan, Michoacán, Mexico, in 1976. She lived there all her life until she married my father in 1994, and they immigrated to the United States that same year. She had my sister in 1995 and went back to Mexico for a while after her father passed away. Eventually, she returned to California in 2002 to reunite with my father, showing her strength and dedication to family.",
+    "cues": [
+      "1976",
+      "Apatzingan",
+      "Michoacán",
+      "1994 marriage",
+      "1995 sister birth",
+      "2002 return to California"
+    ],
+    "transcript_ref": "immigration\\imm_umn_1_martha_sanchez.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "Apatzingan",
+    "summary": "Apatzingan is the city in Michoacán, Mexico, where my mother, Martha Sanchez, was born and raised. It’s also where my parents met and got married in 1994 before moving to the United States. My mother returned there briefly after her father died, taking my sister with her before coming back to California. Apatzingan holds a special place in our family history as the starting point of many important life events.",
+    "cues": [
+      "birthplace of mother",
+      "parents met and married 1994",
+      "mother returned after father's death",
+      "Michoacán, Mexico"
+    ],
+    "transcript_ref": "immigration\\imm_umn_1_martha_sanchez.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "Michoacán",
+    "summary": "Michoacán is the Mexican state where Apatzingan is located, and where my mother, Martha Sanchez, was born and raised. It’s the place she called home before she and my father decided to immigrate to the United States in 1994. Even after moving, my mother went back to Michoacán for a time after her father passed away, showing her strong ties to the region. Michoacán is deeply connected to our family’s roots and identity.",
+    "cues": [
+      "state of Apatzingan",
+      "mother's birthplace",
+      "1994 immigration",
+      "mother's return after father's death"
+    ],
+    "transcript_ref": "immigration\\imm_umn_1_martha_sanchez.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "Mexico",
+    "summary": "Mexico is where my family’s story begins, with my mother, Martha Sanchez, born in Apatzingan, Michoacán. My parents met and married there before immigrating to the United States in 1994. Even after moving, my mother returned to Mexico for a while following her father’s death, bringing my sister with her. Mexico remains a significant part of our heritage and personal history.",
+    "cues": [
+      "birthplace of mother",
+      "parents married 1994",
+      "immigration to USA",
+      "mother's return after father's death"
+    ],
+    "transcript_ref": "immigration\\imm_umn_1_martha_sanchez.yaml"
+  },
+  {
+    "entity_id": 5,
+    "entity": "United States of America",
+    "summary": "My parents immigrated to the United States of America in 1994, seeking new opportunities and a better life. They settled in California, where I was born two years after my mother returned from Mexico in 2002. Growing up in the U.S., especially in East Palo Alto, I was surrounded by other immigrant families and people of color, which helped my parents and me feel connected. The U.S. is where our family built a new life despite the challenges of discrimination.",
+    "cues": [
+      "immigration 1994",
+      "California residence",
+      "birth in 2004",
+      "East Palo Alto community"
+    ],
+    "transcript_ref": "immigration\\imm_umn_1_martha_sanchez.yaml"
+  },
+  {
+    "entity_id": 6,
+    "entity": "California",
+    "summary": "California became home to my family after my parents immigrated from Mexico in 1994. After my mother returned briefly to Mexico, she came back to California in 2002 to reunite with my father, and I was born there two years later. We lived in East Palo Alto, a diverse community where many people of color and Latino immigrants lived, which helped my family feel supported and connected. California represents the place where our family grew and adapted to a new life.",
+    "cues": [
+      "immigration 1994",
+      "mother's return 2002",
+      "birth 2004",
+      "East Palo Alto residence"
+    ],
+    "transcript_ref": "immigration\\imm_umn_1_martha_sanchez.yaml"
+  },
+  {
+    "entity_id": 7,
+    "entity": "East Palo Alto, California",
+    "summary": "East Palo Alto, California, is where my family settled after returning from Mexico in 2002. It’s a community with many people of color and Latino immigrants, which made it easier for my parents to socialize and make friends who understood their experiences. Growing up there, I had friends whose parents were also immigrants, and that shared background was important to me. East Palo Alto was a place where our family found a sense of belonging and support.",
+    "cues": [
+      "residence after 2002",
+      "diverse community",
+      "Latino immigrant neighbors",
+      "social connections"
+    ],
+    "transcript_ref": "immigration\\imm_umn_1_martha_sanchez.yaml"
+  }
+]

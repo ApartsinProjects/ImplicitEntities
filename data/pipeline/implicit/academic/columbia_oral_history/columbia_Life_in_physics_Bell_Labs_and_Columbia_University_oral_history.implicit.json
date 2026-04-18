@@ -1,0 +1,290 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "South Carolina",
+    "explicit_text": "I come from a family in South Carolina, where my early roots were planted before I pursued higher education. Growing up there influenced my initial curiosity about the natural world. It was the starting point that led me to attend Furman University and Duke University before moving on to Caltech.",
+    "implicit_text": "I come from a family in the southeastern U.S. state known for its coastal cities and historical significance, where my early roots were planted before I pursued higher education. Growing up there influenced my initial curiosity about the natural world. It was the starting point that led me to attend a liberal arts college in Greenville and then a prominent university in Durham before moving on to a renowned technical institute in California.",
+    "cues": [
+      "family background",
+      "early education",
+      "Furman University",
+      "Duke University"
+    ],
+    "transcript_ref": "academic\\columbia_oral_history\\columbia_Life_in_physics_Bell_Labs_and_Columbia_University_oral_history.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "Furman University",
+    "explicit_text": "I attended Furman University as part of my early education before moving on to Duke and then Caltech. Furman was where I began to solidify my interests in physics and natural science. It laid the foundation for my later studies and research in more advanced topics.",
+    "implicit_text": "I attended a private liberal arts college in Greenville, South Carolina, as part of my early education before moving on to a university in Durham and then a technical institute in California. That college was where I began to solidify my interests in physics and natural science. It laid the foundation for my later studies and research in more advanced topics.",
+    "cues": [
+      "early education",
+      "before Duke University",
+      "foundation for physics interests"
+    ],
+    "transcript_ref": "academic\\columbia_oral_history\\columbia_Life_in_physics_Bell_Labs_and_Columbia_University_oral_history.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "Duke University",
+    "explicit_text": "After Furman University, I went to Duke University to continue my studies. Duke was an important step in my academic journey before I pursued graduate work at Caltech. It helped deepen my understanding of physics and prepared me for advanced research.",
+    "implicit_text": "After my time at the liberal arts college in Greenville, I went to a prestigious university in Durham, North Carolina, to continue my studies. That university was an important step in my academic journey before I pursued graduate work at the technical institute in Pasadena. It helped deepen my understanding of physics and prepared me for advanced research.",
+    "cues": [
+      "education path",
+      "after Furman University",
+      "before Caltech"
+    ],
+    "transcript_ref": "academic\\columbia_oral_history\\columbia_Life_in_physics_Bell_Labs_and_Columbia_University_oral_history.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "California Institute of Technology",
+    "explicit_text": "I pursued my graduate studies at the California Institute of Technology, or Caltech, where I was fortunate to be among remarkable physicists like Smythe, Zwicky, Oppenheimer, and Pauling. My doctoral thesis there was a significant milestone in my career. I also enjoyed the social aspects, such as music and hikes with fellow students during that time.",
+    "implicit_text": "I pursued my graduate studies at a renowned technical institute in Pasadena, California, where I was fortunate to be among remarkable physicists like Smythe, Zwicky, Oppenheimer, and Pauling. My doctoral thesis there was a significant milestone in my career. I also enjoyed the social aspects, such as music and hikes with fellow students during that time.",
+    "cues": [
+      "graduate studies",
+      "doctoral thesis",
+      "Smythe, Zwicky, Oppenheimer, Pauling",
+      "music and hikes"
+    ],
+    "transcript_ref": "academic\\columbia_oral_history\\columbia_Life_in_physics_Bell_Labs_and_Columbia_University_oral_history.yaml"
+  },
+  {
+    "entity_id": 5,
+    "entity": "Quantum mechanics",
+    "explicit_text": "My first physics course sparked a deep fascination with quantum mechanics, which greatly influenced my future research interests. Along with nuclear physics and relativity, quantum mechanics shaped how I approached understanding the physical world. This foundation was critical as I moved into advanced studies and research.",
+    "implicit_text": "My first physics course sparked a deep fascination with the branch of physics dealing with the behavior of particles at atomic and subatomic levels, which greatly influenced my future research interests. Along with nuclear physics and relativity, this field shaped how I approached understanding the physical world. This foundation was critical as I moved into advanced studies and research.",
+    "cues": [
+      "first physics course",
+      "early education",
+      "research interests"
+    ],
+    "transcript_ref": "academic\\columbia_oral_history\\columbia_Life_in_physics_Bell_Labs_and_Columbia_University_oral_history.yaml"
+  },
+  {
+    "entity_id": 6,
+    "entity": "Nuclear physics",
+    "explicit_text": "Nuclear physics was one of the key subjects that captivated me during my early physics education. It, along with quantum mechanics and relativity, helped shape the direction of my scientific pursuits. This interest carried through to my later work in spectroscopy and radar technology.",
+    "implicit_text": "The study of atomic nuclei and their interactions was one of the key subjects that captivated me during my early physics education. It, along with quantum mechanics and relativity, helped shape the direction of my scientific pursuits. This interest carried through to my later work in spectroscopy and radar technology.",
+    "cues": [
+      "early physics education",
+      "research interests",
+      "spectroscopy",
+      "radar technology"
+    ],
+    "transcript_ref": "academic\\columbia_oral_history\\columbia_Life_in_physics_Bell_Labs_and_Columbia_University_oral_history.yaml"
+  },
+  {
+    "entity_id": 7,
+    "entity": "Theory of relativity",
+    "explicit_text": "The theory of relativity was another fundamental area that fascinated me early on in my physics courses. It complemented my interests in quantum mechanics and nuclear physics, forming a broad base for my scientific understanding. These theories influenced how I approached problems throughout my career.",
+    "implicit_text": "The fundamental theory developed by Einstein that describes gravitation and the relationship between space and time was another area that fascinated me early on in my physics courses. It complemented my interests in quantum mechanics and nuclear physics, forming a broad base for my scientific understanding. These theories influenced how I approached problems throughout my career.",
+    "cues": [
+      "early physics courses",
+      "research interests",
+      "scientific foundation"
+    ],
+    "transcript_ref": "academic\\columbia_oral_history\\columbia_Life_in_physics_Bell_Labs_and_Columbia_University_oral_history.yaml"
+  },
+  {
+    "entity_id": 8,
+    "entity": "Caltech faculty",
+    "explicit_text": "At Caltech, I was surrounded by a distinguished faculty including Smythe, Zwicky, Oppenheimer, and Pauling, who were instrumental in my development as a physicist. Their mentorship and the vibrant academic environment made Caltech a remarkable place to study. Interacting with them helped shape my doctoral work and research philosophy.",
+    "implicit_text": "At the Pasadena technical institute, I was surrounded by a distinguished faculty including Smythe, Zwicky, Oppenheimer, and Pauling, who were instrumental in my development as a physicist. Their mentorship and the vibrant academic environment made that place remarkable to study. Interacting with them helped shape my doctoral work and research philosophy.",
+    "cues": [
+      "Smythe, Zwicky, Oppenheimer, Pauling",
+      "doctoral thesis",
+      "academic environment"
+    ],
+    "transcript_ref": "academic\\columbia_oral_history\\columbia_Life_in_physics_Bell_Labs_and_Columbia_University_oral_history.yaml"
+  },
+  {
+    "entity_id": 9,
+    "entity": "Bell Labs",
+    "explicit_text": "In 1939, I joined Bell Telephone Laboratories, which was a leading research institution at the time. I became part of their seminar group and was assigned to radar work during World War II. After the war, I continued research in microwave spectroscopy there before moving on to academia.",
+    "implicit_text": "In 1939, I joined a leading telecommunications research institution known for pioneering work in electronics and communications. I became part of their seminar group and was assigned to radar work during World War II. After the war, I continued research in microwave spectroscopy there before moving on to academia.",
+    "cues": [
+      "1939",
+      "radar work",
+      "World War II",
+      "microwave spectroscopy"
+    ],
+    "transcript_ref": "academic\\columbia_oral_history\\columbia_Life_in_physics_Bell_Labs_and_Columbia_University_oral_history.yaml"
+  },
+  {
+    "entity_id": 10,
+    "entity": "World War II",
+    "explicit_text": "During World War II, I worked on radar technology at Bell Labs, collaborating closely with the MIT Radiation Laboratory. It was a period marked by urgency and secrecy, but the work was crucial to the war effort. This experience deeply influenced my career trajectory in applied physics.",
+    "implicit_text": "During the global conflict from 1939 to 1945, I worked on radar technology at a major research laboratory, collaborating closely with a prominent radiation laboratory at a leading technical institute. It was a period marked by urgency and secrecy, but the work was crucial to the war effort. This experience deeply influenced my career trajectory in applied physics.",
+    "cues": [
+      "radar technology",
+      "Bell Labs",
+      "MIT Radiation Laboratory",
+      "urgency and secrecy"
+    ],
+    "transcript_ref": "academic\\columbia_oral_history\\columbia_Life_in_physics_Bell_Labs_and_Columbia_University_oral_history.yaml"
+  },
+  {
+    "entity_id": 11,
+    "entity": "MIT Radiation Laboratory",
+    "explicit_text": "I collaborated with the MIT Radiation Laboratory during World War II on radar technology. This partnership was essential to advancing the radar systems used in the war. The experience was intense but rewarding, contributing to important technological developments.",
+    "implicit_text": "I collaborated with a specialized laboratory at a top Massachusetts technical institute during the Second World War on radar technology. This partnership was essential to advancing the radar systems used in the war. The experience was intense but rewarding, contributing to important technological developments.",
+    "cues": [
+      "World War II",
+      "radar technology",
+      "Bell Labs collaboration"
+    ],
+    "transcript_ref": "academic\\columbia_oral_history\\columbia_Life_in_physics_Bell_Labs_and_Columbia_University_oral_history.yaml"
+  },
+  {
+    "entity_id": 12,
+    "entity": "Columbia University",
+    "explicit_text": "In 1948, I became a professor of physics at Columbia University, where I focused on microwave spectroscopy. My work there included experiments with ammonia and studying hyper-fine structure, often in collaboration with the Office of Naval Research. Columbia was a key phase in my academic and research career.",
+    "implicit_text": "In 1948, I became a professor of physics at an Ivy League university in New York City, where I focused on microwave spectroscopy. My work there included experiments with ammonia and studying hyper-fine structure, often in collaboration with a naval research office. That university was a key phase in my academic and research career.",
+    "cues": [
+      "1948",
+      "professor of physics",
+      "microwave spectroscopy",
+      "Office of Naval Research"
+    ],
+    "transcript_ref": "academic\\columbia_oral_history\\columbia_Life_in_physics_Bell_Labs_and_Columbia_University_oral_history.yaml"
+  },
+  {
+    "entity_id": 13,
+    "entity": "Office of Naval Research",
+    "explicit_text": "While at Columbia University, I worked closely with the Office of Naval Research on microwave spectroscopy projects. Their support was important for my experiments involving ammonia and hyper-fine structure. This collaboration helped bridge academic research with military applications.",
+    "implicit_text": "While at the Ivy League university in New York, I worked closely with a U.S. naval research agency on microwave spectroscopy projects. Their support was important for my experiments involving ammonia and hyper-fine structure. This collaboration helped bridge academic research with military applications.",
+    "cues": [
+      "Columbia University",
+      "microwave spectroscopy",
+      "ammonia experiments",
+      "military applications"
+    ],
+    "transcript_ref": "academic\\columbia_oral_history\\columbia_Life_in_physics_Bell_Labs_and_Columbia_University_oral_history.yaml"
+  },
+  {
+    "entity_id": 14,
+    "entity": "Maser",
+    "explicit_text": "The idea for the maser came about gradually through understanding stimulated emission and overcoming skepticism in the early 1950s. It was a breakthrough achieved with key contributions from my colleagues. Despite challenges with publication and patent disputes, including claims from the Soviet Union, we secured patents and advanced the technology.",
+    "implicit_text": "The idea for a device that amplifies microwaves through stimulated emission came about gradually through understanding this physical process and overcoming skepticism in the early 1950s. It was a breakthrough achieved with key contributions from my colleagues. Despite challenges with publication and patent disputes, including claims from a major Eastern bloc country, we secured patents and advanced the technology.",
+    "cues": [
+      "early 1950s",
+      "stimulated emission",
+      "colleagues",
+      "patent disputes",
+      "Soviet Union"
+    ],
+    "transcript_ref": "academic\\columbia_oral_history\\columbia_Life_in_physics_Bell_Labs_and_Columbia_University_oral_history.yaml"
+  },
+  {
+    "entity_id": 15,
+    "entity": "Soviet Union",
+    "explicit_text": "The Soviet Union was involved in patent disputes related to the maser technology. Their claims added complexity to securing patent rights during the early development of the maser. Navigating these challenges was part of the broader geopolitical context of the time.",
+    "implicit_text": "A major Eastern bloc country was involved in patent disputes related to the microwave amplification technology. Their claims added complexity to securing patent rights during the early development of this device. Navigating these challenges was part of the broader geopolitical context of the time.",
+    "cues": [
+      "maser patent disputes",
+      "early 1950s",
+      "geopolitical context"
+    ],
+    "transcript_ref": "academic\\columbia_oral_history\\columbia_Life_in_physics_Bell_Labs_and_Columbia_University_oral_history.yaml"
+  },
+  {
+    "entity_id": 16,
+    "entity": "United States Air Force",
+    "explicit_text": "The United States Air Force showed significant interest in the maser technology, especially for millimeter wave applications. I worked with them and other defense agencies, serving on committees to help advance the technology for military use. Their support was crucial in the development and deployment of these innovations.",
+    "implicit_text": "The U.S. military branch responsible for aerial warfare showed significant interest in the microwave amplification technology, especially for millimeter wave applications. I worked with them and other defense agencies, serving on committees to help advance the technology for military use. Their support was crucial in the development and deployment of these innovations.",
+    "cues": [
+      "maser technology",
+      "millimeter wave applications",
+      "defense committees"
+    ],
+    "transcript_ref": "academic\\columbia_oral_history\\columbia_Life_in_physics_Bell_Labs_and_Columbia_University_oral_history.yaml"
+  },
+  {
+    "entity_id": 17,
+    "entity": "United States Navy",
+    "explicit_text": "Alongside the Air Force, the United States Navy was also interested in the maser and related technologies. I collaborated with Navy representatives and defense agencies to explore military applications. This cooperation helped integrate scientific advances into national defense.",
+    "implicit_text": "Alongside the Air Force, the naval branch of the U.S. military was also interested in the microwave amplification device and related technologies. I collaborated with Navy representatives and defense agencies to explore military applications. This cooperation helped integrate scientific advances into national defense.",
+    "cues": [
+      "maser technology",
+      "military applications",
+      "defense collaboration"
+    ],
+    "transcript_ref": "academic\\columbia_oral_history\\columbia_Life_in_physics_Bell_Labs_and_Columbia_University_oral_history.yaml"
+  },
+  {
+    "entity_id": 18,
+    "entity": "Institute for Defense Analyses",
+    "explicit_text": "In 1959, I joined the Institute for Defense Analyses, where I worked on various defense-related projects. During this time, I also served on the President's Science Advisory Committee, engaging deeply with government science policy. It was a period marked by intense involvement with national defense and scientific advisory roles.",
+    "implicit_text": "In 1959, I joined a nonprofit research organization that supports national security, where I worked on various defense-related projects. During this time, I also served on a presidential science advisory committee, engaging deeply with government science policy. It was a period marked by intense involvement with national defense and scientific advisory roles.",
+    "cues": [
+      "1959",
+      "defense projects",
+      "President's Science Advisory Committee"
+    ],
+    "transcript_ref": "academic\\columbia_oral_history\\columbia_Life_in_physics_Bell_Labs_and_Columbia_University_oral_history.yaml"
+  },
+  {
+    "entity_id": 19,
+    "entity": "President's Science Advisory Committee",
+    "explicit_text": "I served on the President's Science Advisory Committee while working at the Institute for Defense Analyses. This role involved providing scientific expertise and guidance to the government during a critical period. It was an important way to bridge science and policy.",
+    "implicit_text": "I served on a high-level committee advising the U.S. president on scientific matters while working at a defense research institute. This role involved providing scientific expertise and guidance to the government during a critical period. It was an important way to bridge science and policy.",
+    "cues": [
+      "Institute for Defense Analyses",
+      "government advisory",
+      "science policy"
+    ],
+    "transcript_ref": "academic\\columbia_oral_history\\columbia_Life_in_physics_Bell_Labs_and_Columbia_University_oral_history.yaml"
+  },
+  {
+    "entity_id": 20,
+    "entity": "Massachusetts Institute of Technology",
+    "explicit_text": "Later in my career, I held positions at MIT, including serving as provost and professor. This phase allowed me to continue research and contribute to academic leadership. MIT was a place where I could further pursue my interests in physics and related fields.",
+    "implicit_text": "Later in my career, I held positions at a leading technical university in Cambridge, Massachusetts, including serving as provost and professor. This phase allowed me to continue research and contribute to academic leadership. That institution was a place where I could further pursue my interests in physics and related fields.",
+    "cues": [
+      "provost",
+      "professor",
+      "academic leadership"
+    ],
+    "transcript_ref": "academic\\columbia_oral_history\\columbia_Life_in_physics_Bell_Labs_and_Columbia_University_oral_history.yaml"
+  },
+  {
+    "entity_id": 21,
+    "entity": "University of California, Berkeley",
+    "explicit_text": "I became a University Professor at the University of California, Berkeley, focusing on astrophysics and infrared research. This role marked a shift toward astronomy and space science later in my career. Berkeley provided a stimulating environment for these new research directions.",
+    "implicit_text": "I became a University Professor at a major public research university in Northern California, focusing on astrophysics and infrared research. This role marked a shift toward astronomy and space science later in my career. That campus provided a stimulating environment for these new research directions.",
+    "cues": [
+      "University Professor",
+      "astrophysics",
+      "infrared research",
+      "later career"
+    ],
+    "transcript_ref": "academic\\columbia_oral_history\\columbia_Life_in_physics_Bell_Labs_and_Columbia_University_oral_history.yaml"
+  },
+  {
+    "entity_id": 22,
+    "entity": "Nobel Prize",
+    "explicit_text": "The Nobel Prize brings recognition to science and can inspire others, but I believe science is fundamentally a collective effort. Receiving or observing the prize also brings responsibilities and public attention. It highlights the importance of collaboration and rigorous work in scientific achievements.",
+    "implicit_text": "The prestigious international award brings recognition to science and can inspire others, but I believe science is fundamentally a collective effort. Receiving or observing this honor also brings responsibilities and public attention. It highlights the importance of collaboration and rigorous work in scientific achievements.",
+    "cues": [
+      "recognition",
+      "inspiration",
+      "collective effort",
+      "responsibilities"
+    ],
+    "transcript_ref": "academic\\columbia_oral_history\\columbia_Life_in_physics_Bell_Labs_and_Columbia_University_oral_history.yaml"
+  },
+  {
+    "entity_id": 23,
+    "entity": "Radio astronomy",
+    "explicit_text": "I have been involved in radio astronomy, using microwave techniques to search for molecules in space. Initially, this field was slow to gain acceptance, but it has grown into an important area of research. My work in this area connected my background in microwave spectroscopy with astrophysical applications.",
+    "implicit_text": "I have been involved in the study of celestial objects through their radio frequency emissions, using microwave techniques to search for molecules in space. Initially, this field was slow to gain acceptance, but it has grown into an important area of research. My work in this area connected my background in microwave spectroscopy with astrophysical applications.",
+    "cues": [
+      "microwave techniques",
+      "molecules in space",
+      "early skepticism",
+      "important field"
+    ],
+    "transcript_ref": "academic\\columbia_oral_history\\columbia_Life_in_physics_Bell_Labs_and_Columbia_University_oral_history.yaml"
+  }
+]

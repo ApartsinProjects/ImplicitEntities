@@ -1,0 +1,93 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "Mardin",
+    "explicit_text": "My great-grandmother Fahima Hanosh emigrated from Mardin when she was about 19 years old, back in the summer of 1920. Mardin was part of Syria at the time, and it's where Fahima and her siblings were born and raised before coming to the United States. The family roots in Mardin were strong, as Fahima’s parents married there around 1885 and raised seven children in that city before the migration began.",
+    "implicit_text": "My great-grandmother Fahima Hanosh emigrated from a historic city in southeastern Anatolia when she was about 19 years old, back in the summer of 1920. This city was part of Syria at the time, and it's where Fahima and her siblings were born and raised before coming to the United States. The family roots in that city were strong, as Fahima’s parents married there around 1885 and raised seven children in that city before the migration began.",
+    "cues": [
+      "summer of 1920",
+      "birthplace of Fahima and siblings",
+      "family roots",
+      "marriage of Fahima’s parents around 1885"
+    ],
+    "transcript_ref": "immigration\\imm_umn_275_fahima_hanosh.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "Syria",
+    "explicit_text": "Syria is where my great-grandmother Fahima and her family originally lived before emigrating to the United States. Her parents, Abdul Amseh and Saydoon Hamany, were married there around 1885, and all seven of their children were born in Syria. Fahima’s story begins there, and it was from Syria that she and her siblings made the journey to join their father and brothers who had already settled in the U.S.",
+    "implicit_text": "The country in the Levant is where my great-grandmother Fahima and her family originally lived before emigrating to the United States. Her parents, Abdul Amseh and Saydoon Hamany, were married there around 1885, and all seven of their children were born in that nation. Fahima’s story begins there, and it was from that place that she and her siblings made the journey to join their father and brothers who had already settled in the U.S.",
+    "cues": [
+      "marriage around 1885",
+      "birthplace of seven children",
+      "emigration starting in 1920",
+      "family origins"
+    ],
+    "transcript_ref": "immigration\\imm_umn_275_fahima_hanosh.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "United States",
+    "explicit_text": "The United States became home to my great-grandmother Fahima and her family starting in the early 20th century. Her father and eldest brothers had already established themselves here by the mid-1910s, working as peddlers and grocers, and they helped bring the rest of the family over by 1921. Fahima lived in Michigan, married twice, and raised her children here, blending her Syrian heritage with American life.",
+    "implicit_text": "This North American country became home to my great-grandmother Fahima and her family starting in the early 20th century. Her father and eldest brothers had already established themselves here by the mid-1910s, working as peddlers and grocers, and they helped bring the rest of the family over by 1921. Fahima lived in Michigan, married twice, and raised her children here, blending her Syrian heritage with American life.",
+    "cues": [
+      "early 20th century immigration",
+      "father and brothers established by 1914-1916",
+      "Michigan residence",
+      "family reunification by 1921"
+    ],
+    "transcript_ref": "immigration\\imm_umn_275_fahima_hanosh.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "Canada",
+    "explicit_text": "Canada played a key role as a transit point for my great-grandfather Abdul Amseh and later for Jack Oirathy, who both immigrated to the United States via Canada between 1914 and 1916. It was part of their journey before settling in Michigan, where they worked and raised their families. Canada was essentially a stepping stone in their migration story from Syria to America.",
+    "implicit_text": "The country to the north of the United States played a key role as a transit point for my great-grandfather Abdul Amseh and later for Jack Oirathy, who both immigrated to the U.S. via this northern neighbor between 1914 and 1916. It was part of their journey before settling in Michigan, where they worked and raised their families. This country was essentially a stepping stone in their migration story from Syria to America.",
+    "cues": [
+      "immigration via Canada 1914-1916",
+      "transit point to U.S.",
+      "Michigan settlement",
+      "Abdul Amseh and Jack Oirathy"
+    ],
+    "transcript_ref": "immigration\\imm_umn_275_fahima_hanosh.yaml"
+  },
+  {
+    "entity_id": 5,
+    "entity": "Michigan",
+    "explicit_text": "Michigan is where my great-grandmother Fahima and her entire family reunited by 1921 after emigrating from Syria. It’s where she married Joseph Anton in 1922 and later divorced, and where she remarried John Oirathy. Michigan was the backdrop for much of their lives, including the upbringing of their children and the blending of Syrian culture with American life.",
+    "implicit_text": "The U.S. state in the Great Lakes region is where my great-grandmother Fahima and her entire family reunited by 1921 after emigrating from Syria. It’s where she married Joseph Anton in 1922 and later divorced, and where she remarried John Oirathy. This state was the backdrop for much of their lives, including the upbringing of their children and the blending of Syrian culture with American life.",
+    "cues": [
+      "family reunification by 1921",
+      "marriage in 1922",
+      "divorce and remarriage",
+      "family life and children"
+    ],
+    "transcript_ref": "immigration\\imm_umn_275_fahima_hanosh.yaml"
+  },
+  {
+    "entity_id": 6,
+    "entity": "Detroit Free Press",
+    "explicit_text": "The Detroit Free Press was the newspaper that published the announcement of my great-grandmother Fahima’s divorce in the 1920s. It was there that she was quoted describing her ex-husband Joseph Anton as a terrible drunk who made his own moonshine. This public record ties into the difficult period of her life during Prohibition and gives us a glimpse into the challenges she faced.",
+    "implicit_text": "The major newspaper from Detroit was the publication that announced my great-grandmother Fahima’s divorce in the 1920s. It was there that she was quoted describing her ex-husband Joseph Anton as a terrible drunk who made his own moonshine. This public record ties into the difficult period of her life during the 1920s and gives us a glimpse into the challenges she faced.",
+    "cues": [
+      "divorce announcement in 1927",
+      "quote about ex-husband",
+      "Prohibition era",
+      "public record"
+    ],
+    "transcript_ref": "immigration\\imm_umn_275_fahima_hanosh.yaml"
+  },
+  {
+    "entity_id": 7,
+    "entity": "Prohibition",
+    "explicit_text": "Prohibition was a significant backdrop during my great-grandmother Fahima’s first marriage in the 1920s. Her ex-husband Joseph Anton was accused of making his own moonshine, which was a serious offense during that time. This period was marked by hardship for Fahima, and the social climate of Prohibition added to the difficulties she endured before eventually divorcing in 1927.",
+    "implicit_text": "The nationwide constitutional ban on alcohol sales and production was a significant backdrop during my great-grandmother Fahima’s first marriage in the 1920s. Her ex-husband Joseph Anton was accused of making his own moonshine, which was a serious offense during that time. This period was marked by hardship for Fahima, and the social climate of that era added to the difficulties she endured before eventually divorcing in 1927.",
+    "cues": [
+      "1920s",
+      "moonshine production",
+      "divorce in 1927",
+      "social challenges"
+    ],
+    "transcript_ref": "immigration\\imm_umn_275_fahima_hanosh.yaml"
+  }
+]

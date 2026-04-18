@@ -1,0 +1,306 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "United States Army",
+    "explicit_text": "I served in the United States Army starting December 15, 1965. The Army basically chose me, and I went through intense training that prepared me for Vietnam. I was part of the 1st Cavalry Division and did my combat duty in Vietnam, mostly delivering ammo and supporting infantry. My time in the Army shaped a big part of my life and experiences.",
+    "implicit_text": "I served in the U.S. military starting December 15, 1965. The military basically chose me, and I went through intense training that prepared me for Vietnam. I was part of a famous cavalry division and did my combat duty in Vietnam, mostly delivering ammo and supporting infantry. My time in the military shaped a big part of my life and experiences.",
+    "cues": [
+      "December 15, 1965",
+      "Vietnam",
+      "1st Cavalry Division",
+      "ammo delivery",
+      "infantry support"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.67871.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "Vietnam War",
+    "explicit_text": "I served in the Vietnam War, specifically in the mid-1960s to early 1970s. My combat duty was in An Khe, North Highlands Vietnam, with the 1st Cavalry Division. I saw combat, took hills, and faced the enemy multiple times. The war was brutal and left lasting scars, and I witnessed many casualties in my unit.",
+    "implicit_text": "I served in the conflict in Southeast Asia, specifically in the mid-1960s to early 1970s. My combat duty was in a base located in the North Highlands of that country, with a renowned cavalry division. I saw combat, took hills, and faced the enemy multiple times. The war was brutal and left lasting scars, and I witnessed many casualties in my unit.",
+    "cues": [
+      "mid-1960s to early 1970s",
+      "An Khe",
+      "1st Cavalry Division",
+      "combat",
+      "casualties"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.67871.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "An Khe",
+    "explicit_text": "An Khe was where I served my combat duty in Vietnam. It’s in the North Highlands of Vietnam, and I arrived there with the 1st Cavalry Division. The landing was intense, with bombings around the airfield and a tough welcome sign that said, 'I know I'm going to heaven because I spent my time in hell.' An Khe was a central place for many of our operations and battles.",
+    "implicit_text": "The place where I served my combat duty in that Southeast Asian conflict was a town in the North Highlands. I arrived there with a famous cavalry division. The landing was intense, with bombings around the airfield and a tough welcome sign that said, 'I know I'm going to heaven because I spent my time in hell.' This town was a central place for many of our operations and battles.",
+    "cues": [
+      "North Highlands Vietnam",
+      "1st Cavalry Division",
+      "landing",
+      "bombing",
+      "combat operations"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.67871.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "Sacramento, California",
+    "explicit_text": "Before I joined the Army, I was living in Sacramento, California. That’s where I was when I got drafted in December 1965. Sacramento was home before I left for boot camp and eventually Vietnam. It was the place I came from before everything changed.",
+    "implicit_text": "Before I joined the military, I was living in the capital city of California. That’s where I was when I got drafted in December 1965. That city was home before I left for boot camp and eventually Vietnam. It was the place I came from before everything changed.",
+    "cues": [
+      "December 1965",
+      "drafted",
+      "home",
+      "before boot camp"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.67871.yaml"
+  },
+  {
+    "entity_id": 5,
+    "entity": "1st Cavalry Division",
+    "explicit_text": "I was assigned to the 1st Cavalry Division during my time in Vietnam. We operated out of An Khe and were involved in many combat missions. I remember arriving with Garry Owens and being part of a unit that faced heavy fighting. The 1st Cavalry Division was my military family during the war.",
+    "implicit_text": "I was assigned to a famous cavalry division during my time in Vietnam. We operated out of a base in the North Highlands and were involved in many combat missions. I remember arriving with a fellow soldier named Garry Owens and being part of a unit that faced heavy fighting. That cavalry division was my military family during the war.",
+    "cues": [
+      "Vietnam",
+      "An Khe",
+      "Garry Owens",
+      "combat missions",
+      "unit"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.67871.yaml"
+  },
+  {
+    "entity_id": 6,
+    "entity": "Garry Owens",
+    "explicit_text": "Garry Owens was with me when I arrived in Vietnam as part of the 1st Cavalry Division. We came in together to An Khe, and I remember him from those early days. He was part of my outfit, and we shared the experience of landing under fire. Garry was one of the comrades I remember from that time.",
+    "implicit_text": "Garry Owens was with me when I arrived in Vietnam as part of that famous cavalry division. We came in together to the base in the North Highlands, and I remember him from those early days. He was part of my outfit, and we shared the experience of landing under fire. Garry was one of the comrades I remember from that time.",
+    "cues": [
+      "Vietnam arrival",
+      "1st Cavalry Division",
+      "An Khe",
+      "combat landing"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.67871.yaml"
+  },
+  {
+    "entity_id": 7,
+    "entity": "Cambodia",
+    "explicit_text": "During my service, I traveled with infantry units by helicopter into Cambodia. We went there to support troops and sometimes operated in no man's land. Cambodia was one of the places where we faced danger and uncertainty, and I often didn’t know exactly where I was. It was part of the extended battlefield beyond Vietnam.",
+    "implicit_text": "During my service, I traveled with infantry units by helicopter into a neighboring Southeast Asian country. We went there to support troops and sometimes operated in no man's land. That country was one of the places where we faced danger and uncertainty, and I often didn’t know exactly where I was. It was part of the extended battlefield beyond Vietnam.",
+    "cues": [
+      "helicopter travel",
+      "infantry support",
+      "no man's land",
+      "combat operations"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.67871.yaml"
+  },
+  {
+    "entity_id": 8,
+    "entity": "Purple Heart",
+    "explicit_text": "I never received the Purple Heart, even though I feel like I should have. I got other medals, but the Purple Heart and infantry badge were missing from my awards. I think I came home feeling almost naked without those recognitions. It’s something that has stuck with me over the years.",
+    "implicit_text": "I never received the medal awarded for wounds in combat, even though I feel like I should have. I got other medals, but that particular medal and the infantry badge were missing from my awards. I think I came home feeling almost naked without those recognitions. It’s something that has stuck with me over the years.",
+    "cues": [
+      "medal awards",
+      "missing Purple Heart",
+      "Vietnam War",
+      "personal feelings"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.67871.yaml"
+  },
+  {
+    "entity_id": 9,
+    "entity": "Vietnamese Campaign Medal",
+    "explicit_text": "I was awarded the Vietnamese Campaign Medal, which I received by mail about ten or twelve years after the war. It was one of several medals I got for my service in Vietnam. This medal recognized my participation in the campaign and my time spent in combat zones. It was a meaningful acknowledgment of my service.",
+    "implicit_text": "I was awarded a campaign medal from the Southeast Asian country, which I received by mail about ten or twelve years after the war. It was one of several medals I got for my service in that conflict. This medal recognized my participation in the campaign and my time spent in combat zones. It was a meaningful acknowledgment of my service.",
+    "cues": [
+      "Vietnam War",
+      "medal award",
+      "mail delivery",
+      "combat service"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.67871.yaml"
+  },
+  {
+    "entity_id": 10,
+    "entity": "Defense Medal",
+    "explicit_text": "I also received the Defense Medal for my service, which came along with other medals like the Vietnamese Campaign Medal. These awards were sent to me years after I returned home. The Defense Medal recognized my role in defending our country during the conflict. It was part of the official recognition of my military duty.",
+    "implicit_text": "I also received a defense medal for my service, which came along with other medals like the campaign medal from that Southeast Asian country. These awards were sent to me years after I returned home. The defense medal recognized my role in defending our country during the conflict. It was part of the official recognition of my military duty.",
+    "cues": [
+      "medal award",
+      "post-service recognition",
+      "Vietnam War",
+      "military duty"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.67871.yaml"
+  },
+  {
+    "entity_id": 11,
+    "entity": "United Service Organizations",
+    "explicit_text": "The United Service Organizations, or USO, was there to provide entertainment and support for us in Vietnam. They came around occasionally, though sometimes entertainment was limited because some guys got rowdy. The USO helped lift our spirits with shows and music, which was important during tough times. We also put on our own shows to keep morale up.",
+    "implicit_text": "An organization dedicated to supporting service members was there to provide entertainment and support for us in Vietnam. They came around occasionally, though sometimes entertainment was limited because some guys got rowdy. This group helped lift our spirits with shows and music, which was important during tough times. We also put on our own shows to keep morale up.",
+    "cues": [
+      "Vietnam War",
+      "entertainment",
+      "morale support",
+      "shows",
+      "music"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.67871.yaml"
+  },
+  {
+    "entity_id": 12,
+    "entity": "My Country, 'Tis of Thee",
+    "explicit_text": "During downtime in Vietnam, we sang songs like 'My Country, 'Tis of Thee' to boost morale. I remember leading sing-alongs with fellow soldiers, which helped us feel connected to home. Music was a way to keep our spirits alive amidst the hardships. That song was one of the patriotic tunes we cherished.",
+    "implicit_text": "During downtime in Vietnam, we sang patriotic songs like 'My Country, 'Tis of Thee' to boost morale. I remember leading sing-alongs with fellow soldiers, which helped us feel connected to home. Music was a way to keep our spirits alive amidst the hardships. That song was one of the tunes we cherished.",
+    "cues": [
+      "Vietnam War",
+      "morale",
+      "sing-alongs",
+      "patriotic music"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.67871.yaml"
+  },
+  {
+    "entity_id": 13,
+    "entity": "Going to the Chapel",
+    "explicit_text": "We also sang 'Going to the Chapel' during our entertainment sessions in Vietnam. It was part of the lighthearted moments we created to escape the stress of war. Sometimes we dressed up and performed skits, including singing songs like this to keep the mood up. It was a way to bond and find some joy despite the circumstances.",
+    "implicit_text": "We also sang 'Going to the Chapel' during our entertainment sessions in Vietnam. It was part of the lighthearted moments we created to escape the stress of war. Sometimes we dressed up and performed skits, including singing songs like this to keep the mood up. It was a way to bond and find some joy despite the circumstances.",
+    "cues": [
+      "Vietnam War",
+      "entertainment",
+      "skits",
+      "morale"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.67871.yaml"
+  },
+  {
+    "entity_id": 14,
+    "entity": "She Wore a Yellow Ribbon",
+    "explicit_text": "The song 'She Wore a Yellow Ribbon' was part of our repertoire when we entertained ourselves in Vietnam. We sang it along with the 1st Cavalry Division song to honor our unit and keep spirits high. Dressing up and performing these songs helped us feel a sense of pride and camaraderie. It was a reminder of home and our military identity.",
+    "implicit_text": "The song 'She Wore a Yellow Ribbon' was part of our repertoire when we entertained ourselves in Vietnam. We sang it along with the song honoring our cavalry unit to keep spirits high. Dressing up and performing these songs helped us feel a sense of pride and camaraderie. It was a reminder of home and our military identity.",
+    "cues": [
+      "Vietnam War",
+      "1st Cavalry Division",
+      "entertainment",
+      "unit pride"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.67871.yaml"
+  },
+  {
+    "entity_id": 15,
+    "entity": "Fort Benning",
+    "explicit_text": "Before going to Vietnam, I trained at Fort Benning, Georgia for boot camp. It was where I learned the basics and was prepared for combat duty. Fort Benning was an important step in my military journey, shaping me into a soldier. The training there was tough but necessary for what was to come.",
+    "implicit_text": "Before going to Vietnam, I trained at a major Army training center in Georgia for boot camp. It was where I learned the basics and was prepared for combat duty. That training center was an important step in my military journey, shaping me into a soldier. The training there was tough but necessary for what was to come.",
+    "cues": [
+      "boot camp",
+      "training",
+      "Georgia",
+      "pre-Vietnam preparation"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.67871.yaml"
+  },
+  {
+    "entity_id": 16,
+    "entity": "Fort Sill",
+    "explicit_text": "I also trained at Fort Sill, Oklahoma, where I learned artillery skills. This training helped me understand how to deliver ammo for 105 Howitzers and support infantry units. Fort Sill was a key part of my preparation before deployment to Vietnam. It gave me the technical skills I needed in the field.",
+    "implicit_text": "I also trained at a prominent artillery training base in Oklahoma, where I learned artillery skills. This training helped me understand how to deliver ammo for 105 Howitzers and support infantry units. That base was a key part of my preparation before deployment to Vietnam. It gave me the technical skills I needed in the field.",
+    "cues": [
+      "artillery training",
+      "Oklahoma",
+      "105 Howitzers",
+      "pre-Vietnam"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.67871.yaml"
+  },
+  {
+    "entity_id": 17,
+    "entity": "China Beach",
+    "explicit_text": "After being wounded in Vietnam, I was evacuated to China Beach for medical treatment. It was one of the places where soldiers recovered from injuries sustained in combat. China Beach represented a brief respite from the front lines and a chance to heal. It was part of my journey back from the war.",
+    "implicit_text": "After being wounded in Vietnam, I was evacuated to a coastal medical facility known for treating combat injuries. It was one of the places where soldiers recovered from injuries sustained in combat. That location represented a brief respite from the front lines and a chance to heal. It was part of my journey back from the war.",
+    "cues": [
+      "medical evacuation",
+      "wounded",
+      "Vietnam",
+      "recovery"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.67871.yaml"
+  },
+  {
+    "entity_id": 18,
+    "entity": "Cam Ranh Bay",
+    "explicit_text": "Cam Ranh Bay was another location in Vietnam where I spent time, especially after being wounded. It was a major base and logistical hub for the U.S. military. I passed through there during my service and recovery phases. Cam Ranh Bay was a key part of the military infrastructure in Vietnam.",
+    "implicit_text": "A major base and logistical hub in Vietnam was another location where I spent time, especially after being wounded. I passed through there during my service and recovery phases. That bay area was a key part of the military infrastructure in Vietnam.",
+    "cues": [
+      "Vietnam",
+      "military base",
+      "logistics",
+      "wounded recovery"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.67871.yaml"
+  },
+  {
+    "entity_id": 19,
+    "entity": "Da Nang",
+    "explicit_text": "Da Nang was one of the places I traveled to during my service in Vietnam. It was a significant city and military base in the region. I passed through Da Nang as part of my deployment and operations with the 1st Cavalry Division. It was a familiar location during the war.",
+    "implicit_text": "A significant city and military base in Vietnam was one of the places I traveled to during my service. I passed through it as part of my deployment and operations with the cavalry division. It was a familiar location during the war.",
+    "cues": [
+      "Vietnam",
+      "military base",
+      "deployment",
+      "1st Cavalry Division"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.67871.yaml"
+  },
+  {
+    "entity_id": 20,
+    "entity": "Hawaii",
+    "explicit_text": "While I didn’t mention much about Hawaii in my service, it was one of the places connected to my military journey. Many soldiers passed through Hawaii on their way to or from Vietnam. It was a common stopover and rest point during the war. Hawaii represented a link between home and the combat zones.",
+    "implicit_text": "While I didn’t mention much about a Pacific island state in my service, it was one of the places connected to my military journey. Many soldiers passed through that state on their way to or from Vietnam. It was a common stopover and rest point during the war. That place represented a link between home and the combat zones.",
+    "cues": [
+      "military transit",
+      "Vietnam War",
+      "rest stop",
+      "deployment"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.67871.yaml"
+  },
+  {
+    "entity_id": 21,
+    "entity": "Philippines",
+    "explicit_text": "The Philippines was another location tied to my military service, though I didn’t spend much time there. It was part of the broader Pacific region where U.S. forces operated or traveled. The Philippines served as a strategic point during the Vietnam War era. It was part of the network of bases supporting the conflict.",
+    "implicit_text": "An archipelago in the Pacific was another location tied to my military service, though I didn’t spend much time there. It was part of the broader Pacific region where U.S. forces operated or traveled. That country served as a strategic point during the Vietnam War era. It was part of the network of bases supporting the conflict.",
+    "cues": [
+      "military region",
+      "Pacific",
+      "Vietnam War support",
+      "strategic location"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.67871.yaml"
+  },
+  {
+    "entity_id": 22,
+    "entity": "Red Cross",
+    "explicit_text": "The Red Cross was involved in supporting soldiers like me during the Vietnam War. They helped provide supplies and aid to troops in the field. Their presence was appreciated, especially when it came to medical and morale support. The Red Cross was a vital organization during the conflict.",
+    "implicit_text": "A humanitarian organization was involved in supporting soldiers like me during the Vietnam War. They helped provide supplies and aid to troops in the field. Their presence was appreciated, especially when it came to medical and morale support. This organization was vital during the conflict.",
+    "cues": [
+      "Vietnam War",
+      "medical aid",
+      "morale support",
+      "troop assistance"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.67871.yaml"
+  },
+  {
+    "entity_id": 23,
+    "entity": "Peter Acosta",
+    "explicit_text": "Peter Acosta was someone I knew from my military experience, though I didn’t mention him much in detail. He was part of the circle of soldiers and comrades during my time in service. Like many others, he shared the hardships and bonds of war. Peter represents the many faces of those who served alongside me.",
+    "implicit_text": "A fellow soldier named Peter Acosta was someone I knew from my military experience, though I didn’t mention him much in detail. He was part of the circle of soldiers and comrades during my time in service. Like many others, he shared the hardships and bonds of war. Peter represents the many faces of those who served alongside me.",
+    "cues": [
+      "military comrade",
+      "Vietnam War",
+      "service experience",
+      "comradeship"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.67871.yaml"
+  }
+]

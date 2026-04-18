@@ -1,0 +1,193 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "United States Park Police",
+    "explicit_text": "I have a unique role in the United States Park Police aviation unit as one of only two members who are neither pilots nor paramedics. I serve as the assistant commander and fill in as the commander when needed, handling administrative duties like staffing assignments, budgeting, and procurement. On September 11, 2001, we responded quickly to the Pentagon incident, coordinating helicopter operations and securing landing zones. My experience with the Park Police has taught me the importance of training and quick decision-making in emergency situations.",
+    "implicit_text": "I have a unique role in the aviation unit of the federal law enforcement agency responsible for national parks as one of only two members who are neither pilots nor paramedics. I serve as the assistant commander and fill in as the commander when needed, handling administrative duties like staffing assignments, budgeting, and procurement. On September 11, 2001, we responded quickly to the Pentagon incident, coordinating helicopter operations and securing landing zones. My experience with this agency has taught me the importance of training and quick decision-making in emergency situations.",
+    "cues": [
+      "aviation unit",
+      "assistant commander",
+      "staffing assignments",
+      "September 11, 2001",
+      "Pentagon response"
+    ],
+    "transcript_ref": "september_11\\nps911_stasulli_bernard_dec_10_2001.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "September 11 attacks",
+    "explicit_text": "On the morning of September 11, 2001, I first heard about the attacks while checking fuel trucks near our hangar. We saw the planes hit the World Trade Center live on TV and quickly realized it was a coordinated attack. Shortly after, we got reports of a plane crashing into the Pentagon, and our unit launched helicopters to assist with medical evacuations. The day was intense, with multiple casualties and concerns about further attacks, but everyone stayed focused and professional throughout the response.",
+    "implicit_text": "On the morning of September 11, 2001, I first heard about the attacks while checking fuel trucks near our hangar. We saw the planes hit the World Trade Center live on TV and quickly realized it was a coordinated attack. Shortly after, we got reports of a plane crashing into the Pentagon, and our unit launched helicopters to assist with medical evacuations. The day was intense, with multiple casualties and concerns about further attacks, but everyone stayed focused and professional throughout the response.",
+    "cues": [
+      "September 11, 2001",
+      "World Trade Center",
+      "Pentagon",
+      "helicopter MEDEVAC",
+      "terrorist attacks"
+    ],
+    "transcript_ref": "september_11\\nps911_stasulli_bernard_dec_10_2001.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "World Trade Center",
+    "explicit_text": "I first learned about the World Trade Center being struck by a plane on the morning of September 11, 2001, while I was near our fuel trucks. We gathered inside to watch the news as the second plane hit, confirming it was a deliberate attack. This event set the tone for the rest of the day and heightened our alertness as we prepared for possible threats in the Washington, D.C. area. The images of the burning towers were unforgettable and deeply affected all of us.",
+    "implicit_text": "I first learned about the iconic New York City complex being struck by a plane on the morning of September 11, 2001, while I was near our fuel trucks. We gathered inside to watch the news as the second plane hit, confirming it was a deliberate attack. This event set the tone for the rest of the day and heightened our alertness as we prepared for possible threats in the Washington, D.C. area. The images of the burning towers were unforgettable and deeply affected all of us.",
+    "cues": [
+      "September 11, 2001",
+      "plane strikes",
+      "news coverage",
+      "initial attack",
+      "Washington, D.C."
+    ],
+    "transcript_ref": "september_11\\nps911_stasulli_bernard_dec_10_2001.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "Pentagon",
+    "explicit_text": "Within 20-30 minutes of the World Trade Center attacks on September 11, 2001, we heard reports of a plane crashing near the Pentagon. Our unit quickly prepared and launched helicopters, including Eagle One and Eagle Two, to assist with medical evacuations. We landed about 150-200 yards from the impact site on a roadway, possibly U.S. Route 110, and secured the landing zone while medical personnel attended to casualties. The scene was smoky and chaotic but orderly, with many people evacuating the building calmly despite the destruction.",
+    "implicit_text": "Within 20-30 minutes of the attacks on the World Trade Center on September 11, 2001, we heard reports of a plane crashing near the U.S. Department of Defense headquarters. Our unit quickly prepared and launched helicopters, including Eagle One and Eagle Two, to assist with medical evacuations. We landed about 150-200 yards from the impact site on a roadway, possibly U.S. Route 110, and secured the landing zone while medical personnel attended to casualties. The scene was smoky and chaotic but orderly, with many people evacuating the building calmly despite the destruction.",
+    "cues": [
+      "September 11, 2001",
+      "plane crash",
+      "helicopter MEDEVAC",
+      "landing zone",
+      "U.S. Route 110",
+      "Virginia"
+    ],
+    "transcript_ref": "september_11\\nps911_stasulli_bernard_dec_10_2001.yaml"
+  },
+  {
+    "entity_id": 5,
+    "entity": "Ronald Reagan Washington National Airport",
+    "explicit_text": "During the Pentagon response on September 11, 2001, I heard over the police radio that the Reagan tower was evacuating due to smoke from the incident drifting toward the airport. The control of the airport's airspace was temporarily handed over to Eagle One, which was airborne at the time. Shortly after, all air traffic was diverted from the Washington area, easing the burden on Eagle One. Our direct communication line with the Reagan tower was crucial for coordinating the emergency response.",
+    "implicit_text": "During the Pentagon response on September 11, 2001, I heard over the police radio that the airport control tower named after a former president was evacuating due to smoke from the incident drifting toward the airport. The control of the airport's airspace was temporarily handed over to Eagle One, which was airborne at the time. Shortly after, all air traffic was diverted from the Washington area, easing the burden on Eagle One. Our direct communication line with that tower was crucial for coordinating the emergency response.",
+    "cues": [
+      "September 11, 2001",
+      "air traffic control",
+      "smoke evacuation",
+      "Eagle One",
+      "Washington, D.C."
+    ],
+    "transcript_ref": "september_11\\nps911_stasulli_bernard_dec_10_2001.yaml"
+  },
+  {
+    "entity_id": 6,
+    "entity": "Bell 412",
+    "explicit_text": "Eagle One and Eagle Two, the helicopters we used on September 11, 2001, are both Bell 412 models. These helicopters are large and sit on skids, with rotor blades high enough to avoid contact with people, though the tail rotor remains a hazard. On that day, Eagle Two was outfitted with a mass casualty kit to transport up to four injured patients instead of the usual two. The Bell 412s were vital in quickly evacuating injured personnel from the Pentagon crash site to medical facilities.",
+    "implicit_text": "Eagle One and Eagle Two, the helicopters we used on September 11, 2001, are both models of a twin-engine utility helicopter known for its large size and skid landing gear. These helicopters are large and sit on skids, with rotor blades high enough to avoid contact with people, though the tail rotor remains a hazard. On that day, Eagle Two was outfitted with a mass casualty kit to transport up to four injured patients instead of the usual two. These helicopters were vital in quickly evacuating injured personnel from the Pentagon crash site to medical facilities.",
+    "cues": [
+      "September 11, 2001",
+      "Eagle One",
+      "Eagle Two",
+      "mass casualty kit",
+      "helicopter MEDEVAC"
+    ],
+    "transcript_ref": "september_11\\nps911_stasulli_bernard_dec_10_2001.yaml"
+  },
+  {
+    "entity_id": 7,
+    "entity": "Eagle One (helicopter)",
+    "explicit_text": "Eagle One, a Bell 412 helicopter, was the first to launch from our unit on September 11, 2001, to respond to the Pentagon crash. The crew included Ron Galey, John Marsh, and John Dillon, and they stayed airborne to control the airspace near the Pentagon while we prepared Eagle Two. Eagle One also took over air traffic control responsibilities from the Reagan tower when it was evacuated due to smoke. Later, Eagle One landed to transport patients but had to reposition temporarily due to reports of an unidentified aircraft approaching the Pentagon.",
+    "implicit_text": "Eagle One, a twin-engine utility helicopter, was the first to launch from our unit on September 11, 2001, to respond to the Pentagon crash. The crew included Ron Galey, John Marsh, and John Dillon, and they stayed airborne to control the airspace near the Pentagon while we prepared Eagle Two. Eagle One also took over air traffic control responsibilities from the Reagan tower when it was evacuated due to smoke. Later, Eagle One landed to transport patients but had to reposition temporarily due to reports of an unidentified aircraft approaching the Pentagon.",
+    "cues": [
+      "September 11, 2001",
+      "Bell 412",
+      "Ron Galey",
+      "John Marsh",
+      "John Dillon",
+      "air traffic control",
+      "Pentagon"
+    ],
+    "transcript_ref": "september_11\\nps911_stasulli_bernard_dec_10_2001.yaml"
+  },
+  {
+    "entity_id": 8,
+    "entity": "Eagle Two (helicopter)",
+    "explicit_text": "On September 11, 2001, Eagle Two, another Bell 412 helicopter, was prepared with a mass casualty kit to carry up to four injured patients. Our crew included Sergeant Keith Bohn as pilot, Sergeant Ken Burchell, Lieutenant Philip Cholak, and medical personnel from USUHS. We landed near the Pentagon crash site to secure the landing zone while others attended to casualties. Eagle Two transported two patients to MEDSTAR at the Washington Hospital Center, playing a critical role in the emergency medical response.",
+    "implicit_text": "On September 11, 2001, Eagle Two, another twin-engine utility helicopter, was prepared with a mass casualty kit to carry up to four injured patients. Our crew included Sergeant Keith Bohn as pilot, Sergeant Ken Burchell, Lieutenant Philip Cholak, and medical personnel from a military medical university. We landed near the Pentagon crash site to secure the landing zone while others attended to casualties. Eagle Two transported two patients to MEDSTAR at the Washington Hospital Center, playing a critical role in the emergency medical response.",
+    "cues": [
+      "September 11, 2001",
+      "Bell 412",
+      "Keith Bohn",
+      "Ken Burchell",
+      "Philip Cholak",
+      "USUHS",
+      "MEDSTAR",
+      "Washington Hospital Center",
+      "Pentagon"
+    ],
+    "transcript_ref": "september_11\\nps911_stasulli_bernard_dec_10_2001.yaml"
+  },
+  {
+    "entity_id": 9,
+    "entity": "United States Uniformed Services University of the Health Sciences",
+    "explicit_text": "During the Pentagon response on September 11, 2001, our helicopter crew included medical personnel from the United States Uniformed Services University of the Health Sciences, or USUHS. They are military medical professionals trained at this Army university hospital medical training facility. Their presence was crucial in providing immediate medical care to the injured at the crash site. Having USUHS personnel on board enhanced our ability to handle the mass casualty situation effectively.",
+    "implicit_text": "During the Pentagon response on September 11, 2001, our helicopter crew included medical personnel from a federal health sciences university that trains military medical professionals. They are military medical professionals trained at this Army university hospital medical training facility. Their presence was crucial in providing immediate medical care to the injured at the crash site. Having these personnel on board enhanced our ability to handle the mass casualty situation effectively.",
+    "cues": [
+      "September 11, 2001",
+      "Pentagon",
+      "military medical personnel",
+      "Army university hospital",
+      "medical training"
+    ],
+    "transcript_ref": "september_11\\nps911_stasulli_bernard_dec_10_2001.yaml"
+  },
+  {
+    "entity_id": 10,
+    "entity": "MEDSTAR Health",
+    "explicit_text": "On September 11, 2001, after the Pentagon attack, Eagle Two transported two injured patients to MEDSTAR Health, located at the Washington Hospital Center. MEDSTAR was a key medical facility in handling casualties from the incident. Our quick air evacuation helped get patients there rapidly for treatment. MEDSTAR's role was vital in the overall emergency response to the attacks.",
+    "implicit_text": "On September 11, 2001, after the Pentagon attack, Eagle Two transported two injured patients to a regional healthcare system located at the Washington Hospital Center. This healthcare system was a key medical facility in handling casualties from the incident. Our quick air evacuation helped get patients there rapidly for treatment. Their role was vital in the overall emergency response to the attacks.",
+    "cues": [
+      "September 11, 2001",
+      "Pentagon",
+      "patient transport",
+      "Washington Hospital Center",
+      "emergency medical care"
+    ],
+    "transcript_ref": "september_11\\nps911_stasulli_bernard_dec_10_2001.yaml"
+  },
+  {
+    "entity_id": 11,
+    "entity": "Washington Hospital Center",
+    "explicit_text": "The Washington Hospital Center was the destination for patients we evacuated by helicopter from the Pentagon on September 11, 2001. MEDSTAR Health operates there, and it was equipped to handle the serious injuries sustained in the attack. Our helicopter, Eagle Two, delivered two patients to the hospital, ensuring they received prompt medical attention. The hospital played a critical role in the emergency response that day.",
+    "implicit_text": "The Washington Hospital Center was the destination for patients we evacuated by helicopter from the Pentagon on September 11, 2001. A regional healthcare system operates there, and it was equipped to handle the serious injuries sustained in the attack. Our helicopter, Eagle Two, delivered two patients to the hospital, ensuring they received prompt medical attention. The hospital played a critical role in the emergency response that day.",
+    "cues": [
+      "September 11, 2001",
+      "Pentagon",
+      "MEDSTAR Health",
+      "patient transport",
+      "emergency care"
+    ],
+    "transcript_ref": "september_11\\nps911_stasulli_bernard_dec_10_2001.yaml"
+  },
+  {
+    "entity_id": 12,
+    "entity": "Virginia",
+    "explicit_text": "The Pentagon crash site is located in Virginia, just southwest of Washington, D.C., where we landed our helicopters on September 11, 2001. We landed on a roadway surface near the impact area, possibly on U.S. Route 110, which runs through Virginia and the District of Columbia. Although I'm less familiar with Virginia's roads, I recall that the proximity to the Pentagon made it a critical location for our emergency response. The state's location was central to the events that unfolded that day.",
+    "implicit_text": "The Pentagon crash site is located in the state just southwest of Washington, D.C., where we landed our helicopters on September 11, 2001. We landed on a roadway surface near the impact area, possibly on U.S. Route 110, which runs through this state and the District of Columbia. Although I'm less familiar with this state's roads, I recall that the proximity to the Pentagon made it a critical location for our emergency response. The state's location was central to the events that unfolded that day.",
+    "cues": [
+      "September 11, 2001",
+      "Pentagon",
+      "landing zone",
+      "U.S. Route 110",
+      "Virginia",
+      "Washington, D.C."
+    ],
+    "transcript_ref": "september_11\\nps911_stasulli_bernard_dec_10_2001.yaml"
+  },
+  {
+    "entity_id": 13,
+    "entity": "U.S. Route 110 (Virginia–District of Columbia)",
+    "explicit_text": "When we landed our helicopters near the Pentagon on September 11, 2001, it was on a roadway surface that some people identified as U.S. Route 110. This road runs between Virginia and the District of Columbia and was close to the impact site. Although I am not very familiar with the exact roads in Virginia, the location was strategic for securing the landing zone and facilitating medical evacuations. U.S. Route 110 served as a critical access point during the emergency response.",
+    "implicit_text": "When we landed our helicopters near the Pentagon on September 11, 2001, it was on a roadway surface that some people identified as a major route running between Virginia and the District of Columbia. This road runs between Virginia and the District of Columbia and was close to the impact site. Although I am not very familiar with the exact roads in Virginia, the location was strategic for securing the landing zone and facilitating medical evacuations. This route served as a critical access point during the emergency response.",
+    "cues": [
+      "September 11, 2001",
+      "Pentagon",
+      "landing zone",
+      "Virginia",
+      "District of Columbia",
+      "roadway surface"
+    ],
+    "transcript_ref": "september_11\\nps911_stasulli_bernard_dec_10_2001.yaml"
+  }
+]

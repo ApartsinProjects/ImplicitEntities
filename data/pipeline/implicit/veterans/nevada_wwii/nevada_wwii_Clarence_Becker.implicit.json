@@ -1,0 +1,396 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "B-25 Mitchell",
+    "explicit_text": "I flew reconnaissance versions of the B-25 Mitchell, specifically the F-10s, and my plane was called the 'Quivering Queen.' In November 1943, just before leaving, we had to replace our five-man life raft with a seven-man one, which caused a dangerous incident over Fort Myers, Florida. The raft caught on the tail, forcing us to bail out over Florida, and luckily, we all survived with minor injuries.",
+    "implicit_text": "I flew reconnaissance versions of a twin-engine medium bomber, specifically the F-10s, and my plane was called the 'Quivering Queen.' In November 1943, just before leaving, we had to replace our five-man life raft with a seven-man one, which caused a dangerous incident over a city in southwest Florida. The raft caught on the tail, forcing us to bail out over that area, and luckily, we all survived with minor injuries.",
+    "cues": [
+      "November 1943",
+      "F-10 reconnaissance version",
+      "Fort Myers, Florida",
+      "emergency bailout",
+      "five-man crew"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\nevada_wwii_Clarence_Becker.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "Fort Myers, Florida",
+    "explicit_text": "While flying my B-25 Mitchell reconnaissance plane over the Gulf just west of Fort Myers, Florida, in November 1943, we had a serious emergency. The life raft popped out and caught on the tail, causing the plane to shake violently. We had to bail out at about twelve thousand feet, and I was picked up near where Busch Gardens Tampa Bay is now located.",
+    "implicit_text": "While flying my twin-engine medium bomber reconnaissance plane over the Gulf just west of a city in southwest Florida, in November 1943, we had a serious emergency. The life raft popped out and caught on the tail, causing the plane to shake violently. We had to bail out at about twelve thousand feet, and I was picked up near where a famous theme park in Tampa Bay is now located.",
+    "cues": [
+      "November 1943",
+      "B-25 Mitchell",
+      "emergency bailout",
+      "near Busch Gardens Tampa Bay"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\nevada_wwii_Clarence_Becker.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "MacDill Air Force Base",
+    "explicit_text": "After the life raft incident over Fort Myers, Florida, I managed to navigate the damaged B-25 back toward MacDill Air Force Base. I could see the base from the air but knew the engines were failing, so I ordered my crew to bail out before the plane broke apart. I returned to MacDill and called my wife to explain I'd be late for dinner because I had to bail out of the 'Quivering Queen.'",
+    "implicit_text": "After the life raft incident over a city in southwest Florida, I managed to navigate the damaged twin-engine medium bomber back toward a major air force base in Tampa. I could see the base from the air but knew the engines were failing, so I ordered my crew to bail out before the plane broke apart. I returned to that base and called my wife to explain I'd be late for dinner because I had to bail out of the 'Quivering Queen.'",
+    "cues": [
+      "November 1943",
+      "B-25 Mitchell",
+      "emergency bailout",
+      "Fort Myers, Florida",
+      "MacDill Air Force Base"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\nevada_wwii_Clarence_Becker.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "Busch Gardens Tampa Bay",
+    "explicit_text": "After bailing out of my B-25 over Florida, I landed near the area that is now Busch Gardens Tampa Bay. Someone picked me up close to that location, and I went back to the wreckage of my plane before heading to MacDill Air Force Base. It was a memorable spot because it marked the end of a harrowing flight.",
+    "implicit_text": "After bailing out of my twin-engine medium bomber over Florida, I landed near the area that is now home to a well-known Tampa Bay theme park. Someone picked me up close to that location, and I went back to the wreckage of my plane before heading to the major air force base in Tampa. It was a memorable spot because it marked the end of a harrowing flight.",
+    "cues": [
+      "November 1943",
+      "B-25 bailout",
+      "near Busch Gardens Tampa Bay",
+      "Florida"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\nevada_wwii_Clarence_Becker.yaml"
+  },
+  {
+    "entity_id": 5,
+    "entity": "India",
+    "explicit_text": "We returned from India in March 1944 after flying reconnaissance missions with B-25s and then transitioned to training on F-13 Superfortresses. India was a significant base for us before moving on to Salina, Kansas, for further training. It was part of our early strategic reconnaissance operations during the war.",
+    "implicit_text": "We returned from the South Asian subcontinent in March 1944 after flying reconnaissance missions with twin-engine medium bombers and then transitioned to training on long-range four-engine reconnaissance bombers. That region was a significant base for us before moving on to a training base in Kansas for further preparation. It was part of our early strategic reconnaissance operations during the war.",
+    "cues": [
+      "March 1944",
+      "B-25 reconnaissance",
+      "India",
+      "transition to F-13 training"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\nevada_wwii_Clarence_Becker.yaml"
+  },
+  {
+    "entity_id": 6,
+    "entity": "Salina, Kansas",
+    "explicit_text": "In early August 1944, we trained on F-13 Superfortresses at Smoky Hill Air Force Base in Salina, Kansas. The F-13s had engine overheating problems, and we had to figure out how to manage the engines during takeoff and flight. We trained sixteen crews there before deploying several of them back to India and others to Saipan.",
+    "implicit_text": "In early August 1944, we trained on long-range four-engine reconnaissance bombers at an air force base in central Kansas. These planes had engine overheating problems, and we had to figure out how to manage the engines during takeoff and flight. We trained sixteen crews there before deploying several of them back to the South Asian subcontinent and others to a Pacific island base.",
+    "cues": [
+      "August 1944",
+      "F-13 Superfortress training",
+      "Smoky Hill Air Force Base",
+      "engine overheating issues"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\nevada_wwii_Clarence_Becker.yaml"
+  },
+  {
+    "entity_id": 7,
+    "entity": "F-13 Superfortress",
+    "explicit_text": "The F-13 Superfortress was the reconnaissance version of the B-29, and we trained on them starting in August 1944. They had serious engine overheating problems, which made takeoffs challenging, especially when fully loaded. Despite the difficulties, we flew missions over Japan from Saipan and later Guam, providing vital reconnaissance for General Curtis LeMay.",
+    "implicit_text": "The reconnaissance version of the new four-engine heavy bomber was what we trained on starting in August 1944. They had serious engine overheating problems, which made takeoffs challenging, especially when fully loaded. Despite the difficulties, we flew missions over the Japanese home islands from Pacific bases, providing vital reconnaissance for the commanding general of the strategic bombing campaign.",
+    "cues": [
+      "August 1944",
+      "reconnaissance B-29",
+      "engine overheating",
+      "missions over Japan",
+      "Saipan",
+      "Guam"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\nevada_wwii_Clarence_Becker.yaml"
+  },
+  {
+    "entity_id": 8,
+    "entity": "Boeing B-29 Superfortress",
+    "explicit_text": "We flew reconnaissance versions of the Boeing B-29 Superfortress, known as the F-13, during late 1944 and 1945. These planes had larger crews, about eleven men, and carried extra fuel tanks for extended range. Our missions involved flying over Japan from bases like Saipan and Guam, supporting bombing operations with vital intelligence.",
+    "implicit_text": "We flew reconnaissance versions of the latest four-engine heavy bomber during late 1944 and 1945. These planes had larger crews, about eleven men, and carried extra fuel tanks for extended range. Our missions involved flying over Japan from bases like islands in the Marianas, supporting bombing operations with vital intelligence.",
+    "cues": [
+      "late 1944",
+      "F-13 reconnaissance",
+      "eleven-man crews",
+      "Saipan",
+      "Guam",
+      "missions over Japan"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\nevada_wwii_Clarence_Becker.yaml"
+  },
+  {
+    "entity_id": 9,
+    "entity": "Saipan",
+    "explicit_text": "We flew missions from Saipan starting in November 1944, but reconnaissance efforts there were hampered by command issues under General 'Possum' Hansell. Our squadron was tasked with supporting bombing missions over Japan, but I eventually was sent to Guam to better coordinate reconnaissance under General Curtis LeMay. Saipan was a key forward base in the Pacific campaign.",
+    "implicit_text": "We flew missions from a key island in the Marianas starting in November 1944, but reconnaissance efforts there were hampered by command issues under a certain general nicknamed 'Possum.' Our squadron was tasked with supporting bombing missions over Japan, but I eventually was sent to another island in the Marianas to better coordinate reconnaissance under the strategic bombing campaign's commanding general. That island was a key forward base in the Pacific campaign.",
+    "cues": [
+      "November 1944",
+      "B-29 reconnaissance",
+      "General Possum Hansell",
+      "Pacific campaign",
+      "Japan missions"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\nevada_wwii_Clarence_Becker.yaml"
+  },
+  {
+    "entity_id": 10,
+    "entity": "Japan",
+    "explicit_text": "Our reconnaissance missions over Japan were intense and dangerous, flying at altitudes over thirty thousand feet to avoid fighters and flak. We flew over cities like Tokyo, Osaka, Nagoya, Yokohama, and Kobe, often drawing enemy fighters away from the bomber formations. These missions were critical in providing General LeMay with the intelligence needed for strategic bombing.",
+    "implicit_text": "Our reconnaissance missions over the Japanese home islands were intense and dangerous, flying at altitudes over thirty thousand feet to avoid fighters and flak. We flew over cities like the capital, Osaka, Nagoya, Yokohama, and Kobe, often drawing enemy fighters away from the bomber formations. These missions were critical in providing the commanding general with the intelligence needed for strategic bombing.",
+    "cues": [
+      "late 1944-1945",
+      "reconnaissance missions",
+      "Tokyo",
+      "Osaka",
+      "Nagoya",
+      "Yokohama",
+      "Kobe",
+      "General Curtis LeMay"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\nevada_wwii_Clarence_Becker.yaml"
+  },
+  {
+    "entity_id": 11,
+    "entity": "Guam",
+    "explicit_text": "I was sent to Guam to organize reconnaissance operations for General Curtis LeMay and to build squadron quarters. We operated from Harmon Air Force Base and staged missions from North Field, also known as Anderson Air Force Base. Guam was a hub for our tactical reconnaissance missions over Japan, and it was where we built a tent city and established clubs for crew rest.",
+    "implicit_text": "I was sent to a major island base in the Marianas to organize reconnaissance operations for the strategic bombing campaign's commanding general and to build squadron quarters. We operated from an air force base located in a valley and staged missions from the island's main airfield, also known by its former name. That island was a hub for our tactical reconnaissance missions over Japan, and it was where we built a tent city and established clubs for crew rest.",
+    "cues": [
+      "1945",
+      "General Curtis LeMay",
+      "Harmon Air Force Base",
+      "North Field",
+      "Anderson Air Force Base",
+      "tent city construction"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\nevada_wwii_Clarence_Becker.yaml"
+  },
+  {
+    "entity_id": 12,
+    "entity": "Curtis LeMay",
+    "explicit_text": "General Curtis LeMay was the commander I reported to while organizing reconnaissance from Guam. He was direct and demanding, giving me a list of one hundred Japanese cities to cover within seven days, which we accomplished in five. I got along well with him after proving our squadron's capability, and I regularly attended his briefings to provide reconnaissance updates for bombing missions.",
+    "implicit_text": "The commanding general of the strategic bombing campaign was the officer I reported to while organizing reconnaissance from the major island base in the Marianas. He was direct and demanding, giving me a list of one hundred Japanese cities to cover within seven days, which we accomplished in five. I got along well with him after proving our squadron's capability, and I regularly attended his briefings to provide reconnaissance updates for bombing missions.",
+    "cues": [
+      "1945",
+      "Guam",
+      "reconnaissance operations",
+      "one hundred cities list",
+      "bombing mission briefings"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\nevada_wwii_Clarence_Becker.yaml"
+  },
+  {
+    "entity_id": 13,
+    "entity": "Possum Hansell",
+    "explicit_text": "General 'Possum' Hansell was the headstrong commander in charge of operations on Saipan when I was there. We didn't get along well because he was very controlling and liked to tell us not only what to do but how to do it, which I felt was incorrect. This friction was part of why I was sent to Guam to work directly under General LeMay.",
+    "implicit_text": "The general nicknamed 'Possum' was the headstrong commander in charge of operations on the key island in the Marianas when I was there. We didn't get along well because he was very controlling and liked to tell us not only what to do but how to do it, which I felt was incorrect. This friction was part of why I was sent to the other island in the Marianas to work directly under the strategic bombing campaign's commanding general.",
+    "cues": [
+      "Saipan",
+      "1944",
+      "command friction",
+      "General Curtis LeMay",
+      "reconnaissance operations"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\nevada_wwii_Clarence_Becker.yaml"
+  },
+  {
+    "entity_id": 14,
+    "entity": "Harmon Air Force Base",
+    "explicit_text": "On Guam, we were stationed at Harmon Air Force Base, which had a relatively short runway and was located in a valley. Because our heavily loaded B-29 reconnaissance planes needed longer runways, we staged flights from North Field but lived and worked at Harmon. Harmon was our initial base on Guam close to General LeMay's headquarters.",
+    "implicit_text": "On the major island base in the Marianas, we were stationed at an air force base with a relatively short runway located in a valley. Because our heavily loaded four-engine reconnaissance planes needed longer runways, we staged flights from the island's main airfield but lived and worked at this base. It was our initial base on the island close to the commanding general's headquarters.",
+    "cues": [
+      "1945",
+      "Guam",
+      "short runway",
+      "B-29 reconnaissance",
+      "General Curtis LeMay"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\nevada_wwii_Clarence_Becker.yaml"
+  },
+  {
+    "entity_id": 15,
+    "entity": "Anderson Air Force Base",
+    "explicit_text": "Anderson Air Force Base, formerly called North Field, was the main airfield on Guam where we staged our fully loaded B-29 reconnaissance flights. We would fly light from Harmon to Anderson in the afternoon, rest, and then take off fully fueled around midnight for missions over Japan. The long runways and proximity to water made it ideal for our heavy aircraft.",
+    "implicit_text": "The island's main airfield, formerly called North Field, was where we staged our fully loaded four-engine reconnaissance flights. We would fly light from the valley base to this airfield in the afternoon, rest, and then take off fully fueled around midnight for missions over Japan. The long runways and proximity to water made it ideal for our heavy aircraft.",
+    "cues": [
+      "1945",
+      "Guam",
+      "North Field",
+      "B-29 staging",
+      "night missions"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\nevada_wwii_Clarence_Becker.yaml"
+  },
+  {
+    "entity_id": 16,
+    "entity": "United States Navy",
+    "explicit_text": "The United States Navy played a crucial role in supporting our operations on Saipan and Guam. We traded cases of whiskey for three walk-in iceboxes from the Navy and the Seabees to store our film properly. I also took my Uncle Clarence, a Navy officer, and his ship's officers on flights from Guam, strengthening our ties with the Navy personnel stationed there.",
+    "implicit_text": "The naval forces of the United States played a crucial role in supporting our operations on the key islands in the Marianas. We traded cases of whiskey for three walk-in iceboxes from the Navy and their construction battalions to store our film properly. I also took my uncle, a naval officer, and his ship's officers on flights from the major island base, strengthening our ties with the Navy personnel stationed there.",
+    "cues": [
+      "Saipan",
+      "Guam",
+      "iceboxes trade",
+      "Uncle Clarence Navy officer",
+      "film storage"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\nevada_wwii_Clarence_Becker.yaml"
+  },
+  {
+    "entity_id": 17,
+    "entity": "Seabees",
+    "explicit_text": "The Seabees, the Navy's construction battalions, helped us on Saipan and Guam by providing equipment and support. We traded whiskey for three walk-in iceboxes from them to keep our reconnaissance film cool. Their cooperation was vital in building our tent city and maintaining our operations in the Pacific theater.",
+    "implicit_text": "The Navy's construction battalions helped us on the key islands in the Marianas by providing equipment and support. We traded whiskey for three walk-in iceboxes from them to keep our reconnaissance film cool. Their cooperation was vital in building our tent city and maintaining our operations in the Pacific theater.",
+    "cues": [
+      "Saipan",
+      "Guam",
+      "iceboxes trade",
+      "tent city construction",
+      "film storage"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\nevada_wwii_Clarence_Becker.yaml"
+  },
+  {
+    "entity_id": 18,
+    "entity": "Smoky Hill Air Force Base",
+    "explicit_text": "Smoky Hill Air Force Base in Salina, Kansas, was where we trained on the F-13 Superfortress starting in August 1944. Before leaving the States, the officers club there gave us a check from slot machine proceeds, which we used to buy power tools and whiskey to bring overseas. Smoky Hill was a key training and preparation site for our reconnaissance missions.",
+    "implicit_text": "An air force base in central Kansas was where we trained on the long-range four-engine reconnaissance bomber starting in August 1944. Before leaving the States, the officers club there gave us a check from slot machine proceeds, which we used to buy power tools and whiskey to bring overseas. That base was a key training and preparation site for our reconnaissance missions.",
+    "cues": [
+      "August 1944",
+      "F-13 training",
+      "Salina, Kansas",
+      "fundraising",
+      "power tools and whiskey"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\nevada_wwii_Clarence_Becker.yaml"
+  },
+  {
+    "entity_id": 19,
+    "entity": "South America",
+    "explicit_text": "Our unit started flying reconnaissance missions in South America in 1942 using twin-engined Beechcraft F-2s. Back then, our crews were small, usually just three men including the pilot, photographer, and crew chief. This was the beginning of our transition from strategic reconnaissance in the States to tactical reconnaissance in the Pacific.",
+    "implicit_text": "Our unit started flying reconnaissance missions in the southern continent of the Americas in 1942 using twin-engined Beechcraft F-2s. Back then, our crews were small, usually just three men including the pilot, photographer, and crew chief. This was the beginning of our transition from strategic reconnaissance in the States to tactical reconnaissance in the Pacific.",
+    "cues": [
+      "1942",
+      "Beechcraft F-2",
+      "three-man crews",
+      "early reconnaissance",
+      "South America"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\nevada_wwii_Clarence_Becker.yaml"
+  },
+  {
+    "entity_id": 20,
+    "entity": "Beechcraft F-2",
+    "explicit_text": "The Beechcraft F-2 was the reconnaissance plane we flew in South America starting in 1942. It was a twin-engine aircraft with a small crew of three, including the pilot, photographer, and crew chief. This plane marked the start of my reconnaissance flying career before moving on to larger aircraft like the B-25 and B-29.",
+    "implicit_text": "The Beechcraft F-2 was the reconnaissance plane we flew in South America starting in 1942. It was a twin-engine aircraft with a small crew of three, including the pilot, photographer, and crew chief. This plane marked the start of my reconnaissance flying career before moving on to larger aircraft like the twin-engine medium bomber and the four-engine heavy bomber.",
+    "cues": [
+      "1942",
+      "South America",
+      "three-man crew",
+      "early reconnaissance",
+      "twin-engine aircraft"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\nevada_wwii_Clarence_Becker.yaml"
+  },
+  {
+    "entity_id": 21,
+    "entity": "Tokyo",
+    "explicit_text": "We flew reconnaissance missions over Tokyo as part of our operations from Saipan and Guam in late 1944 and 1945. Our first mission out of Saipan was a diversion over Tokyo to draw enemy fighters away from the bomber force. We also flew direct reconnaissance over Tokyo, gathering vital intelligence despite heavy flak and enemy fighters.",
+    "implicit_text": "We flew reconnaissance missions over the Japanese capital as part of our operations from the Marianas islands in late 1944 and 1945. Our first mission out of the key island base was a diversion over the capital to draw enemy fighters away from the bomber force. We also flew direct reconnaissance over the capital, gathering vital intelligence despite heavy flak and enemy fighters.",
+    "cues": [
+      "late 1944-1945",
+      "Saipan",
+      "Guam",
+      "diversion mission",
+      "enemy fighters",
+      "flak"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\nevada_wwii_Clarence_Becker.yaml"
+  },
+  {
+    "entity_id": 22,
+    "entity": "Osaka",
+    "explicit_text": "Osaka was one of the Japanese cities we flew reconnaissance missions over during our B-29 flights. On one mission, a twin-engined Japanese fighter attacked us before we reached Osaka, but our gunners managed to fend it off. These missions were dangerous but crucial for the success of the bombing campaigns.",
+    "implicit_text": "One of the Japanese industrial cities we flew reconnaissance missions over during our four-engine heavy bomber flights was Osaka. On one mission, a twin-engined Japanese fighter attacked us before we reached that city, but our gunners managed to fend it off. These missions were dangerous but crucial for the success of the bombing campaigns.",
+    "cues": [
+      "late 1944-1945",
+      "B-29 reconnaissance",
+      "enemy fighter attack",
+      "Japanese city"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\nevada_wwii_Clarence_Becker.yaml"
+  },
+  {
+    "entity_id": 23,
+    "entity": "Nagoya",
+    "explicit_text": "Nagoya was another key target for our reconnaissance missions over Japan. We flew over Nagoya after surviving attacks from enemy fighters and flak. The intelligence we gathered there helped General LeMay plan bombing raids effectively.",
+    "implicit_text": "Nagoya was another key target for our reconnaissance missions over Japan. We flew over that city after surviving attacks from enemy fighters and flak. The intelligence we gathered there helped the strategic bombing campaign's commanding general plan bombing raids effectively.",
+    "cues": [
+      "late 1944-1945",
+      "B-29 reconnaissance",
+      "enemy attacks",
+      "Japanese city",
+      "General Curtis LeMay"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\nevada_wwii_Clarence_Becker.yaml"
+  },
+  {
+    "entity_id": 24,
+    "entity": "Yokohama",
+    "explicit_text": "Yokohama was among the Japanese cities included in the list of targets General LeMay gave me to cover with reconnaissance. We provided full coverage of these cities within five days, exceeding his seven-day deadline. Yokohama was part of the vital intelligence we gathered to support bombing missions.",
+    "implicit_text": "Yokohama was among the Japanese cities included in the list of targets the commanding general gave me to cover with reconnaissance. We provided full coverage of these cities within five days, exceeding his seven-day deadline. Yokohama was part of the vital intelligence we gathered to support bombing missions.",
+    "cues": [
+      "1945",
+      "General Curtis LeMay",
+      "target list",
+      "reconnaissance coverage",
+      "Japanese city"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\nevada_wwii_Clarence_Becker.yaml"
+  },
+  {
+    "entity_id": 25,
+    "entity": "Kobe",
+    "explicit_text": "Kobe was one of the hundred Japanese cities we had to cover with reconnaissance photos as ordered by General LeMay. We completed full coverage of Kobe and the other cities within five days, demonstrating our squadron's efficiency. This intelligence was critical for the strategic bombing campaign.",
+    "implicit_text": "Kobe was one of the hundred Japanese cities we had to cover with reconnaissance photos as ordered by the commanding general. We completed full coverage of Kobe and the other cities within five days, demonstrating our squadron's efficiency. This intelligence was critical for the strategic bombing campaign.",
+    "cues": [
+      "1945",
+      "General Curtis LeMay",
+      "reconnaissance mission",
+      "Japanese city",
+      "target coverage"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\nevada_wwii_Clarence_Becker.yaml"
+  },
+  {
+    "entity_id": 26,
+    "entity": "Tinian",
+    "explicit_text": "While the transcript doesn't mention Tinian directly, it was part of the Mariana Islands near Saipan and Guam, where our B-29 reconnaissance operations were based. These islands were strategic staging points for bombing missions over Japan. Our squadron's activities were closely linked with the broader campaign from these bases.",
+    "implicit_text": "While not directly mentioned in my story, another island in the Marianas near the key bases was part of the strategic reconnaissance operations. These islands were strategic staging points for bombing missions over Japan. Our squadron's activities were closely linked with the broader campaign from these bases.",
+    "cues": [
+      "Mariana Islands",
+      "Saipan",
+      "Guam",
+      "B-29 operations",
+      "Pacific campaign"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\nevada_wwii_Clarence_Becker.yaml"
+  },
+  {
+    "entity_id": 27,
+    "entity": "Enola Gay",
+    "explicit_text": "The Enola Gay is not directly mentioned in my story, but it was the B-29 that dropped the atomic bomb on Hiroshima. Our reconnaissance missions over Japan helped provide intelligence that supported such bombing operations. We worked closely with General LeMay's command, which coordinated these strategic bombing efforts.",
+    "implicit_text": "The famous four-engine heavy bomber that dropped the atomic bomb on Hiroshima is not directly mentioned in my story, but our reconnaissance missions over Japan helped provide intelligence that supported such bombing operations. We worked closely with the strategic bombing campaign's commanding general, who coordinated these efforts.",
+    "cues": [
+      "B-29",
+      "atomic bombing",
+      "Hiroshima",
+      "General Curtis LeMay",
+      "reconnaissance support"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\nevada_wwii_Clarence_Becker.yaml"
+  },
+  {
+    "entity_id": 28,
+    "entity": "Atomic bombing of Hiroshima",
+    "explicit_text": "While I wasn't directly involved in the atomic bombing of Hiroshima, our reconnaissance missions over Japan provided critical intelligence for the bombing campaigns led by General LeMay. The data we gathered helped plan and execute the air raids, including the atomic bombings. Our work was part of the larger effort to bring the war to a close.",
+    "implicit_text": "While I wasn't directly involved in the atomic bombing of Hiroshima, our reconnaissance missions over Japan provided critical intelligence for the bombing campaigns led by the strategic bombing campaign's commanding general. The data we gathered helped plan and execute the air raids, including the atomic bombings. Our work was part of the larger effort to bring the war to a close.",
+    "cues": [
+      "1945",
+      "General Curtis LeMay",
+      "reconnaissance missions",
+      "Japan",
+      "bombing campaigns"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\nevada_wwii_Clarence_Becker.yaml"
+  }
+]

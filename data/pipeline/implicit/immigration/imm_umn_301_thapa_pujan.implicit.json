@@ -1,0 +1,191 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "Nepal",
+    "explicit_text": "I spent 16 years of my life in Nepal living in refugee camps that were crowded and lacked basic necessities like food and electricity. Life there was miserable and survival was a daily struggle, but the United Nations High Commissioner for Refugees helped by providing rations and camps for Bhutanese refugees like me. Nepal was not my original home, but it was where my family and many others lived for over 27 years after fleeing Bhutan. Despite sharing language and culture with Nepal, we were not accepted as citizens, which made life even harder.",
+    "implicit_text": "I spent 16 years of my life living in refugee camps in a South Asian country that were crowded and lacked basic necessities like food and electricity. Life there was miserable and survival was a daily struggle, but the United Nations High Commissioner for Refugees helped by providing rations and camps for Bhutanese refugees like me. This country was not my original home, but it was where my family and many others lived for over 27 years after fleeing Bhutan. Despite sharing language and culture with the local population, we were not accepted as citizens, which made life even harder.",
+    "cues": [
+      "16 years",
+      "refugee camps",
+      "lack of food and electricity",
+      "UNHCR assistance",
+      "27 years or longer",
+      "not accepted as citizens"
+    ],
+    "transcript_ref": "immigration\\imm_umn_301_thapa_pujan.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "United Nations High Commissioner for Refugees",
+    "explicit_text": "The United Nations High Commissioner for Refugees, or UNHCR, played a crucial role in my life when I was living in refugee camps in Nepal. They provided food rations and established camps for Bhutanese refugees like me, which was a lifeline in those harsh conditions. Without their support, surviving in the camps would have been even more difficult. Their help allowed me and my community to stay connected and somewhat safe during those years.",
+    "implicit_text": "This international agency played a crucial role in my life when I was living in refugee camps in Nepal. They provided food rations and established camps for Bhutanese refugees like me, which was a lifeline in those harsh conditions. Without their support, surviving in the camps would have been even more difficult. Their help allowed me and my community to stay connected and somewhat safe during those years.",
+    "cues": [
+      "refugee camps in Nepal",
+      "food rations",
+      "camps for Bhutanese refugees",
+      "lifeline"
+    ],
+    "transcript_ref": "immigration\\imm_umn_301_thapa_pujan.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "Bhutan",
+    "explicit_text": "My parents and grandparents were born in Bhutan, a landlocked country in the Himalayas ruled by kings since 1907. In the early 1980s, Bhutan introduced harsh citizenship laws that targeted the Lhotshampa, people of Nepali origin like my family. This led to cultural cleansing and persecution, forcing many, including my family, to flee to Nepal. Bhutan was considered our motherland, but the violence and discrimination made it impossible for us to stay.",
+    "implicit_text": "My parents and grandparents were born in a landlocked Himalayan kingdom ruled by kings since 1907. In the early 1980s, this kingdom introduced harsh citizenship laws that targeted the Lhotshampa, people of Nepali origin like my family. This led to cultural cleansing and persecution, forcing many, including my family, to flee to Nepal. This kingdom was considered our motherland, but the violence and discrimination made it impossible for us to stay.",
+    "cues": [
+      "landlocked country",
+      "Himalayas",
+      "ruled by kings since 1907",
+      "1980s citizenship law",
+      "persecution of Lhotshampa",
+      "fleeing to Nepal"
+    ],
+    "transcript_ref": "immigration\\imm_umn_301_thapa_pujan.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "Himalayas",
+    "explicit_text": "Bhutan, where my family originally lived, is located in the Himalayas, a majestic mountain range that defines the region. Growing up, I knew Bhutan as a mountainous land ruled by kings, and it was deeply connected to our identity. The Himalayas were part of the backdrop of my family's history before we were forced to leave due to political and cultural persecution. Although I never lived there myself, the Himalayas symbolize the homeland my parents and grandparents cherished.",
+    "implicit_text": "The mountainous region where my family originally lived is part of a majestic mountain range that defines the area. Growing up, I knew that kingdom as a mountainous land ruled by kings, and it was deeply connected to our identity. These mountains were part of the backdrop of my family's history before we were forced to leave due to political and cultural persecution. Although I never lived there myself, the mountain range symbolizes the homeland my parents and grandparents cherished.",
+    "cues": [
+      "Bhutan location",
+      "mountainous region",
+      "family history",
+      "political persecution"
+    ],
+    "transcript_ref": "immigration\\imm_umn_301_thapa_pujan.yaml"
+  },
+  {
+    "entity_id": 5,
+    "entity": "Lhotshampa",
+    "explicit_text": "The Lhotshampa are the people of Nepali origin living in Bhutan, and my family belongs to this group. In the 1980s, the Bhutanese government targeted the Lhotshampa with harsh citizenship laws requiring knowledge of the Dzongkha language and Bhutanese customs, which we did not share. This discrimination led to cultural cleansing, violence, and forced many Lhotshampa, including my family, to flee Bhutan. Despite being Bhutanese by birth, we were treated as outsiders and suffered greatly.",
+    "implicit_text": "The people of Nepali origin living in that Himalayan kingdom, to which my family belongs, were targeted in the 1980s by the government with harsh citizenship laws requiring knowledge of the Dzongkha language and local customs, which we did not share. This discrimination led to cultural cleansing, violence, and forced many of us, including my family, to flee the kingdom. Despite being born there, we were treated as outsiders and suffered greatly.",
+    "cues": [
+      "people of Nepali origin",
+      "Bhutan citizenship law 1980s",
+      "cultural cleansing",
+      "forced to flee",
+      "discrimination"
+    ],
+    "transcript_ref": "immigration\\imm_umn_301_thapa_pujan.yaml"
+  },
+  {
+    "entity_id": 6,
+    "entity": "Dzongkha language",
+    "explicit_text": "The Dzongkha language became a tool of exclusion in Bhutan when the government required knowledge of it for citizenship in the 1980s. My parents and grandparents, who were Lhotshampa, did not speak Dzongkha as their first language, which contributed to their persecution. This language requirement was part of a broader effort to suppress our culture and customs. It was painful to see our own language and identity used against us in such a harsh way.",
+    "implicit_text": "This language became a tool of exclusion in the Himalayan kingdom when the government required knowledge of it for citizenship in the 1980s. My parents and grandparents, who were part of the Nepali-origin community, did not speak it as their first language, which contributed to their persecution. This language requirement was part of a broader effort to suppress our culture and customs. It was painful to see our own language and identity used against us in such a harsh way.",
+    "cues": [
+      "Bhutan citizenship law 1980s",
+      "language requirement",
+      "persecution of Lhotshampa",
+      "cultural suppression"
+    ],
+    "transcript_ref": "immigration\\imm_umn_301_thapa_pujan.yaml"
+  },
+  {
+    "entity_id": 7,
+    "entity": "International Organization for Migration",
+    "explicit_text": "The International Organization for Migration helped my family and many other Bhutanese-Nepali refugees by facilitating our resettlement to countries like the USA, Canada, and Norway. After living in Nepal for decades without citizenship, IOM provided us with new opportunities for education and a better life. Their support was crucial in making the difficult decision to leave Nepal and start fresh in a new country. Thanks to IOM, my family was able to move to the United States where we found hope and opportunity.",
+    "implicit_text": "This international agency helped my family and many other Bhutanese-Nepali refugees by facilitating our resettlement to countries like the USA, Canada, and Norway. After living in Nepal for decades without citizenship, they provided us with new opportunities for education and a better life. Their support was crucial in making the difficult decision to leave Nepal and start fresh in a new country. Thanks to their help, my family was able to move to the United States where we found hope and opportunity.",
+    "cues": [
+      "resettlement",
+      "USA, Canada, Norway",
+      "decades in Nepal",
+      "education opportunities",
+      "new life"
+    ],
+    "transcript_ref": "immigration\\imm_umn_301_thapa_pujan.yaml"
+  },
+  {
+    "entity_id": 8,
+    "entity": "United States of America",
+    "explicit_text": "My family and I moved to the United States of America in December 2016 after years of living as refugees in Nepal. We arrived first in Miami, Florida, and then traveled to our final destination in St. Paul, Minnesota. The USA offered us opportunities for education, modern technology, and healthcare that we had never experienced before. Although adapting to a new culture and language was challenging, I worked hard and eventually succeeded in school. Living in the USA has given me hope for a brighter future and the chance to make my family proud.",
+    "implicit_text": "My family and I moved to this country in December 2016 after years of living as refugees in Nepal. We arrived first in Miami, Florida, and then traveled to our final destination in St. Paul, Minnesota. This country offered us opportunities for education, modern technology, and healthcare that we had never experienced before. Although adapting to a new culture and language was challenging, I worked hard and eventually succeeded in school. Living here has given me hope for a brighter future and the chance to make my family proud.",
+    "cues": [
+      "December 2016",
+      "Miami, Florida",
+      "St. Paul, Minnesota",
+      "education",
+      "new culture and language"
+    ],
+    "transcript_ref": "immigration\\imm_umn_301_thapa_pujan.yaml"
+  },
+  {
+    "entity_id": 9,
+    "entity": "Canada",
+    "explicit_text": "Canada was one of the countries where the International Organization for Migration resettled Bhutanese-Nepali refugees like my family. Although we did not move there ourselves, Canada represented a place of opportunity and safety for many refugees seeking a new life. It was part of the broader resettlement efforts that gave hope to people like me who had lived in camps for decades. Knowing that countries like Canada welcomed refugees helped us feel supported during a difficult time.",
+    "implicit_text": "This North American country was one of the places where the international agency resettled Bhutanese-Nepali refugees like my family. Although we did not move there ourselves, it represented a place of opportunity and safety for many refugees seeking a new life. It was part of the broader resettlement efforts that gave hope to people like me who had lived in camps for decades. Knowing that countries like this welcomed refugees helped us feel supported during a difficult time.",
+    "cues": [
+      "resettlement",
+      "IOM",
+      "refugee opportunities",
+      "new life"
+    ],
+    "transcript_ref": "immigration\\imm_umn_301_thapa_pujan.yaml"
+  },
+  {
+    "entity_id": 10,
+    "entity": "Norway",
+    "explicit_text": "Norway was another country that the International Organization for Migration helped resettle Bhutanese-Nepali refugees to, including many from my community. While my family chose to move to the United States, Norway stood as an example of the international support available to displaced people like us. The chance to live in countries like Norway gave us hope for a future beyond the camps in Nepal. It was part of the global effort to provide safety and new beginnings for refugees.",
+    "implicit_text": "This Scandinavian country was another destination that the international agency helped resettle Bhutanese-Nepali refugees to, including many from my community. While my family chose to move to the United States, this country stood as an example of the international support available to displaced people like us. The chance to live in countries like this gave us hope for a future beyond the camps in Nepal. It was part of the global effort to provide safety and new beginnings for refugees.",
+    "cues": [
+      "resettlement",
+      "IOM",
+      "refugee support",
+      "new beginnings"
+    ],
+    "transcript_ref": "immigration\\imm_umn_301_thapa_pujan.yaml"
+  },
+  {
+    "entity_id": 11,
+    "entity": "Miami",
+    "explicit_text": "When my family arrived in the United States in December 2016, our first stop was Miami, Florida, where we stayed in a hotel for one day. Miami was our initial introduction to American life, and though it was brief, it was an important step in our journey. From there, we traveled to St. Paul, Minnesota, which became our new home. Miami marked the beginning of a new chapter full of challenges and opportunities.",
+    "implicit_text": "When my family arrived in the United States in December 2016, our first stop was a city in southern Florida where we stayed in a hotel for one day. This city was our initial introduction to American life, and though it was brief, it was an important step in our journey. From there, we traveled to St. Paul, Minnesota, which became our new home. This city marked the beginning of a new chapter full of challenges and opportunities.",
+    "cues": [
+      "December 2016",
+      "first stop in USA",
+      "hotel stay",
+      "transition to Minnesota"
+    ],
+    "transcript_ref": "immigration\\imm_umn_301_thapa_pujan.yaml"
+  },
+  {
+    "entity_id": 12,
+    "entity": "Florida",
+    "explicit_text": "Florida was where we first landed in the United States, specifically in Miami, during our resettlement in December 2016. Although we only stayed there for a day, Florida was the gateway to our new life in America. It was a place of transition before we moved to our final destination in Minnesota. Florida represented the start of adapting to a new country and culture.",
+    "implicit_text": "This southeastern U.S. state was where we first landed during our resettlement in December 2016, specifically in a major city known for its beaches and warm climate. Although we only stayed there for a day, it was the gateway to our new life in America. It was a place of transition before we moved to our final destination in Minnesota. This state represented the start of adapting to a new country and culture.",
+    "cues": [
+      "December 2016",
+      "Miami",
+      "first arrival in USA",
+      "transition"
+    ],
+    "transcript_ref": "immigration\\imm_umn_301_thapa_pujan.yaml"
+  },
+  {
+    "entity_id": 13,
+    "entity": "Saint Paul, Minnesota",
+    "explicit_text": "Saint Paul, Minnesota became my family's final destination in the United States after arriving in Miami in December 2016. We reached Saint Paul on December 9th in the evening and were warmly welcomed by members of the Blue Cross Blue Shield Association. It was here that I began attending school and learning English, which was difficult at first but eventually rewarding. Saint Paul became the place where I could pursue education and build a new life with my family and community.",
+    "implicit_text": "This Midwestern city became my family's final destination in the United States after arriving in Miami in December 2016. We reached it on December 9th in the evening and were warmly welcomed by members of a major health insurance association. It was here that I began attending school and learning English, which was difficult at first but eventually rewarding. This city became the place where I could pursue education and build a new life with my family and community.",
+    "cues": [
+      "December 9, 2016",
+      "final destination",
+      "Blue Cross Blue Shield Association",
+      "school and language learning"
+    ],
+    "transcript_ref": "immigration\\imm_umn_301_thapa_pujan.yaml"
+  },
+  {
+    "entity_id": 14,
+    "entity": "Blue Cross Blue Shield Association",
+    "explicit_text": "The Blue Cross Blue Shield Association played an important role in helping my family when we arrived in Saint Paul, Minnesota. They picked us up from the airport and provided support as we settled into our new home. Their assistance made the transition smoother during a very challenging time. I am grateful for their help, which felt like a blessing for refugees like us starting over in a new country.",
+    "implicit_text": "This national health insurance organization played an important role in helping my family when we arrived in Saint Paul, Minnesota. They picked us up from the airport and provided support as we settled into our new home. Their assistance made the transition smoother during a very challenging time. I am grateful for their help, which felt like a blessing for refugees like us starting over in a new country.",
+    "cues": [
+      "Saint Paul, Minnesota",
+      "arrival support",
+      "refugee assistance",
+      "transition help"
+    ],
+    "transcript_ref": "immigration\\imm_umn_301_thapa_pujan.yaml"
+  }
+]

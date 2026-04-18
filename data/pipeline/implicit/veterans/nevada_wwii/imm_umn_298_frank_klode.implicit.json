@@ -1,0 +1,265 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "Germany",
+    "explicit_text": "I was born in Germany in 1866, and it was there that my early life began before my family decided to seek new opportunities. In 1882, at the age of 16, I left Germany with my parents, Franz and Maria, to start a new life in the United States. Germany is where our family's roots are, and it shaped the beginning of our journey.",
+    "implicit_text": "I was born in the German Empire in 1866, and it was there that my early life began before my family decided to seek new opportunities. In 1882, at the age of 16, I left central Europe with my parents, Franz and Maria, to start a new life in North America. That European country is where our family's roots are, and it shaped the beginning of our journey.",
+    "cues": [
+      "born 1866",
+      "immigration 1882",
+      "parents Franz and Maria"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_298_frank_klode.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "United States",
+    "explicit_text": "In 1882, my family and I immigrated to the United States, arriving in New York City after a long voyage on the ship Westphalia. We settled in Wisconsin, where our family would grow and establish businesses over generations. The United States became the land where our entrepreneurial spirit flourished and where my descendants continued our legacy.",
+    "implicit_text": "In 1882, my family and I immigrated to the land of opportunity, arriving in New York City after a long voyage on the ship Westphalia. We settled in the Midwest, where our family would grow and establish businesses over generations. This country became the land where our entrepreneurial spirit flourished and where my descendants continued our legacy.",
+    "cues": [
+      "immigration 1882",
+      "New York City arrival",
+      "settled in Wisconsin",
+      "family businesses"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_298_frank_klode.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "Franz Klode",
+    "explicit_text": "Franz Klode was my great-great-grandfather, the patriarch who immigrated from Germany with his family in 1882. He settled with us in Whitefish Bay, Wisconsin, and worked alongside his son weaving willow baskets to sell locally. His hard work and craftsmanship laid the foundation for our family's entrepreneurial spirit.",
+    "implicit_text": "My great-great-grandfather was the patriarch who immigrated from central Europe with his family in 1882. He settled with us in Whitefish Bay, Wisconsin, and worked alongside his son weaving willow baskets to sell locally. His hard work and craftsmanship laid the foundation for our family's entrepreneurial spirit.",
+    "cues": [
+      "immigration 1882",
+      "Whitefish Bay",
+      "basket weaving",
+      "family patriarch"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_298_frank_klode.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "Maria Klode",
+    "explicit_text": "Maria Klode was my great-great-grandmother who came from Germany with her husband Franz and their son Frank in 1882. She was part of the pioneering family that settled in Whitefish Bay, Wisconsin, helping establish our roots in America. Her role in supporting the family during those early years was vital to our success.",
+    "implicit_text": "My great-great-grandmother came from central Europe with her husband Franz and their son Frank in 1882. She was part of the pioneering family that settled in Whitefish Bay, Wisconsin, helping establish our roots in America. Her role in supporting the family during those early years was vital to our success.",
+    "cues": [
+      "immigration 1882",
+      "Whitefish Bay settlement",
+      "family matriarch"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_298_frank_klode.yaml"
+  },
+  {
+    "entity_id": 5,
+    "entity": "Wisconsin",
+    "explicit_text": "After arriving in the United States, my family settled in Wisconsin, which became our home for generations. It was here in Wisconsin, particularly in places like Whitefish Bay and Milwaukee, that we built our businesses and raised our family. Wisconsin holds a special place in our history as the foundation of the Klode family's American story.",
+    "implicit_text": "After arriving in the United States, my family settled in the northern Midwest, which became our home for generations. It was here, particularly in places like Whitefish Bay and Milwaukee, that we built our businesses and raised our family. This state holds a special place in our history as the foundation of the Klode family's American story.",
+    "cues": [
+      "settled post-1882",
+      "Whitefish Bay",
+      "Milwaukee",
+      "family businesses"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_298_frank_klode.yaml"
+  },
+  {
+    "entity_id": 6,
+    "entity": "Whitefish Bay, Wisconsin",
+    "explicit_text": "Whitefish Bay, Wisconsin was one of the very first places my family settled after immigrating in 1882. We moved into a house on Spring Street, and the day after arriving, I began making willow baskets by the Menominee River to earn money. This community was where our entrepreneurial journey began and where the Klode family first put down American roots.",
+    "implicit_text": "Whitefish Bay in the northern Midwest was one of the very first places my family settled after immigrating in 1882. We moved into a house on Spring Street, and the day after arriving, I began making willow baskets by the Menominee River to earn money. This community was where our entrepreneurial journey began and where the Klode family first put down American roots.",
+    "cues": [
+      "settled 1882",
+      "Spring Street house",
+      "basket making",
+      "Menominee River"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_298_frank_klode.yaml"
+  },
+  {
+    "entity_id": 7,
+    "entity": "Menominee River",
+    "explicit_text": "The Menominee River was right by our home in Whitefish Bay, and it was there that I cut down willow trees to weave into baskets. Selling these baskets to local housewives was my first business venture in America, back in 1882. The riverbanks provided the materials that helped me earn my first significant income and start our family's entrepreneurial legacy.",
+    "implicit_text": "The Menominee River was right by our home in Whitefish Bay, and it was there that I cut down willow trees to weave into baskets. Selling these baskets to local housewives was my first business venture in America, back in 1882. The riverbanks provided the materials that helped me earn my first significant income and start our family's entrepreneurial legacy.",
+    "cues": [
+      "Whitefish Bay 1882",
+      "willow basket weaving",
+      "first business"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_298_frank_klode.yaml"
+  },
+  {
+    "entity_id": 8,
+    "entity": "Westphalia (ship)",
+    "explicit_text": "The Westphalia was the ship that brought my family and me from Germany to New York City in 1882. I was just 16 years old when we boarded it, leaving our homeland behind to start fresh in America. That voyage marked the beginning of our family's new chapter in the United States.",
+    "implicit_text": "The ship that brought my family and me from central Europe to New York City in 1882 was the Westphalia. I was just 16 years old when we boarded it, leaving our homeland behind to start fresh in America. That voyage marked the beginning of our family's new chapter in the United States.",
+    "cues": [
+      "immigration 1882",
+      "voyage to New York City",
+      "age 16"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_298_frank_klode.yaml"
+  },
+  {
+    "entity_id": 9,
+    "entity": "New York City",
+    "explicit_text": "New York City was our port of arrival when we immigrated from Germany in 1882 aboard the Westphalia. It was the first place we set foot in the United States before moving on to settle in Wisconsin. That city marked the start of our American journey as immigrants.",
+    "implicit_text": "New York City was our port of arrival when we immigrated from central Europe in 1882 aboard the Westphalia. It was the first place we set foot in the United States before moving on to settle in Wisconsin. That city marked the start of our American journey as immigrants.",
+    "cues": [
+      "arrival 1882",
+      "Westphalia ship",
+      "immigration entry point"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_298_frank_klode.yaml"
+  },
+  {
+    "entity_id": 10,
+    "entity": "Milwaukee",
+    "explicit_text": "As I grew older, I moved to Milwaukee where I began working at the Fischer Furniture Firm. Milwaukee became the center of our family's furniture business, especially when my son Emil opened The Klode Furniture Company there in 1920. Our family’s business expanded in Milwaukee, with locations on North Broadway and Plankinton Avenue, making the city a key part of our story.",
+    "implicit_text": "As I grew older, I moved to Milwaukee where I began working at a local furniture firm. Milwaukee became the center of our family's furniture business, especially when my son Emil opened the family furniture company there in 1920. Our family’s business expanded in Milwaukee, with locations on North Broadway and Plankinton Avenue, making the city a key part of our story.",
+    "cues": [
+      "moved to Milwaukee",
+      "Fischer Furniture Firm",
+      "Klode Furniture Company 1920",
+      "business locations"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_298_frank_klode.yaml"
+  },
+  {
+    "entity_id": 11,
+    "entity": "Fischer Furniture",
+    "explicit_text": "Fischer Furniture was where I first learned the craft of furniture making after moving to Milwaukee. I worked there while studying the furniture process on my own during my free time. This experience was crucial because it allowed me to pass down valuable knowledge to my son Emil, who later founded our family business.",
+    "implicit_text": "The furniture firm where I first learned the craft of furniture making was in Milwaukee. I worked there while studying the furniture process on my own during my free time. This experience was crucial because it allowed me to pass down valuable knowledge to my son Emil, who later founded our family business.",
+    "cues": [
+      "Milwaukee employment",
+      "furniture making training",
+      "mentorship to Emil"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_298_frank_klode.yaml"
+  },
+  {
+    "entity_id": 12,
+    "entity": "Emil Klode",
+    "explicit_text": "Emil Klode, my son, was born in Milwaukee in 1887 and carried on the family tradition by opening The Klode Furniture Company in 1920. He built the business into a huge success, starting at 1020 North Broadway and later expanding to Plankinton Avenue. Emil’s dedication and skill helped establish our family’s reputation in the furniture industry.",
+    "implicit_text": "My son Emil was born in Milwaukee in 1887 and carried on the family tradition by opening our family furniture company in 1920. He built the business into a huge success, starting at 1020 North Broadway and later expanding to Plankinton Avenue. Emil’s dedication and skill helped establish our family’s reputation in the furniture industry.",
+    "cues": [
+      "born 1887 Milwaukee",
+      "opened Klode Furniture Company 1920",
+      "business expansion"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_298_frank_klode.yaml"
+  },
+  {
+    "entity_id": 13,
+    "entity": "The Klode Furniture Company",
+    "explicit_text": "The Klode Furniture Company was founded by my father Emil in 1920 in Milwaukee, starting at 1020 North Broadway. It grew to occupy six floors on Plankinton Avenue and was a family-run business passed down to my grandfather James. Although it closed in 1979, its legacy lives on, even featured in the Milwaukee Public Museum’s exhibit The Streets of Old Milwaukee.",
+    "implicit_text": "The family furniture company was founded by my father Emil in 1920 in Milwaukee, starting at 1020 North Broadway. It grew to occupy six floors on Plankinton Avenue and was a family-run business passed down to my grandfather James. Although it closed in 1979, its legacy lives on, even featured in the Milwaukee Public Museum’s exhibit The Streets of Old Milwaukee.",
+    "cues": [
+      "founded 1920",
+      "1020 North Broadway",
+      "Plankinton Avenue",
+      "family business",
+      "closed 1979",
+      "museum exhibit"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_298_frank_klode.yaml"
+  },
+  {
+    "entity_id": 14,
+    "entity": "1020 North Broadway",
+    "explicit_text": "1020 North Broadway in Milwaukee was the original location of The Klode Furniture Company when my father Emil opened it in 1920. This building was the starting point for our family business before we expanded to a larger space on Plankinton Avenue. Today, it serves as an academic building for the Milwaukee School of Engineering, but it holds a special place in our family history.",
+    "implicit_text": "1020 North Broadway in Milwaukee was the original location of our family furniture company when my father Emil opened it in 1920. This building was the starting point for our family business before we expanded to a larger space on Plankinton Avenue. Today, it serves as an academic building for a local engineering school, but it holds a special place in our family history.",
+    "cues": [
+      "Klode Furniture Company start 1920",
+      "Milwaukee location",
+      "now Milwaukee School of Engineering building"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_298_frank_klode.yaml"
+  },
+  {
+    "entity_id": 15,
+    "entity": "Milwaukee School of Engineering",
+    "explicit_text": "The Milwaukee School of Engineering now owns the building at 1020 North Broadway, which was once the first home of The Klode Furniture Company. While the building has changed purpose, it remains a landmark connected to my family's entrepreneurial beginnings in Milwaukee. It’s interesting to see how the place where our business started has become an educational institution.",
+    "implicit_text": "The Milwaukee School of Engineering now owns the building at 1020 North Broadway, which was once the first home of our family furniture company. While the building has changed purpose, it remains a landmark connected to my family's entrepreneurial beginnings in Milwaukee. It’s interesting to see how the place where our business started has become an educational institution.",
+    "cues": [
+      "owns 1020 North Broadway",
+      "former Klode Furniture Company location",
+      "Milwaukee"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_298_frank_klode.yaml"
+  },
+  {
+    "entity_id": 16,
+    "entity": "Plankinton Avenue",
+    "explicit_text": "After The Klode Furniture Company outgrew its original location, we moved into a building on Plankinton Avenue in central Milwaukee. The company occupied six floors there, marking the peak of our business’s expansion. Plankinton Avenue was where the family business thrived before it eventually closed in 1979.",
+    "implicit_text": "After our family furniture company outgrew its original location, we moved into a building on Plankinton Avenue in central Milwaukee. The company occupied six floors there, marking the peak of our business’s expansion. Plankinton Avenue was where the family business thrived before it eventually closed in 1979.",
+    "cues": [
+      "business expansion",
+      "six floors",
+      "central Milwaukee",
+      "pre-1979"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_298_frank_klode.yaml"
+  },
+  {
+    "entity_id": 17,
+    "entity": "Milwaukee Public Museum",
+    "explicit_text": "The Milwaukee Public Museum honors our family’s legacy by featuring a Klode Furniture Company storefront in their exhibit called The Streets of Old Milwaukee. This exhibit preserves the history of our business and its importance to the city’s heritage. It’s a proud reminder of the impact our family had on Milwaukee’s commercial landscape.",
+    "implicit_text": "The Milwaukee Public Museum honors our family’s legacy by featuring a storefront from our family furniture company in their exhibit called The Streets of Old Milwaukee. This exhibit preserves the history of our business and its importance to the city’s heritage. It’s a proud reminder of the impact our family had on Milwaukee’s commercial landscape.",
+    "cues": [
+      "museum exhibit",
+      "The Streets of Old Milwaukee",
+      "Klode Furniture storefront"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_298_frank_klode.yaml"
+  },
+  {
+    "entity_id": 18,
+    "entity": "The Streets of Old Milwaukee",
+    "explicit_text": "The Streets of Old Milwaukee is an exhibit at the Milwaukee Public Museum that includes a storefront from The Klode Furniture Company. This exhibit showcases the historical significance of our family business in Milwaukee’s past. Seeing our company represented there connects our family story to the city’s cultural memory.",
+    "implicit_text": "The Streets of Old Milwaukee is an exhibit at the Milwaukee Public Museum that includes a storefront from our family furniture company. This exhibit showcases the historical significance of our family business in Milwaukee’s past. Seeing our company represented there connects our family story to the city’s cultural memory.",
+    "cues": [
+      "museum exhibit",
+      "Klode Furniture storefront",
+      "Milwaukee history"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_298_frank_klode.yaml"
+  },
+  {
+    "entity_id": 19,
+    "entity": "James Klode",
+    "explicit_text": "James Klode, my grandfather, was the final owner of The Klode Furniture Company before it closed in 1979. He continued the family tradition of craftsmanship and business leadership, passing down skills and values to the next generation. James was a key figure in maintaining the company’s success during its later years.",
+    "implicit_text": "My grandfather James was the final owner of our family furniture company before it closed in 1979. He continued the family tradition of craftsmanship and business leadership, passing down skills and values to the next generation. James was a key figure in maintaining the company’s success during its later years.",
+    "cues": [
+      "final owner",
+      "closed 1979",
+      "family leadership"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_298_frank_klode.yaml"
+  },
+  {
+    "entity_id": 20,
+    "entity": "Frederick Klode",
+    "explicit_text": "Frederick, or Fritz, Klode is my father, who inherited the handiwork and business acumen of his father, grandfather, and great-grandfather. He helped build my childhood home and even constructed the large deck with my grandfather. After earning a degree in industrial engineering from the University of Wisconsin–Madison, he started The Klode Company as a manufacturers' representative, focusing on explosion-proof enclosures.",
+    "implicit_text": "My father, Frederick or Fritz, inherited the handiwork and business acumen of his father, grandfather, and great-grandfather. He helped build my childhood home and even constructed the large deck with my grandfather. After earning a degree in industrial engineering from a major state university, he started a company as a manufacturers' representative, focusing on explosion-proof enclosures.",
+    "cues": [
+      "father",
+      "built childhood home",
+      "University of Wisconsin–Madison graduate",
+      "industrial engineering",
+      "The Klode Company"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_298_frank_klode.yaml"
+  },
+  {
+    "entity_id": 21,
+    "entity": "University of Wisconsin–Madison",
+    "explicit_text": "My father attended the University of Wisconsin–Madison, where he earned a degree in industrial engineering. This education helped him start The Klode Company as a manufacturers' representative after graduation. The university played an important role in equipping him with the skills to continue our family’s business legacy in a new way.",
+    "implicit_text": "My father attended a prominent state university in Madison, where he earned a degree in industrial engineering. This education helped him start a company as a manufacturers' representative after graduation. The university played an important role in equipping him with the skills to continue our family’s business legacy in a new way.",
+    "cues": [
+      "father's education",
+      "industrial engineering degree",
+      "post-graduation career"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_298_frank_klode.yaml"
+  }
+]

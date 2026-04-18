@@ -1,0 +1,57 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "Mae La refugee camp",
+    "explicit_text": "I was born and raised in Mae La refugee camp in Thailand in 2000. Life there was difficult and uncertain, with my parents feeling hopeless and food often being leftovers from the day before. Before leaving the camp, we had a celebration and prayed for a safe trip, but my father was away working in Bangkok when we had to leave, so my mom took us on alone. Mae La was the place where my early life shaped my desire for a better future.",
+    "implicit_text": "I was born and raised in a large refugee settlement in Thailand in 2000. Life there was difficult and uncertain, with my parents feeling hopeless and food often being leftovers from the day before. Before leaving that camp, we had a celebration and prayed for a safe trip, but my father was away working in the capital city when we had to leave, so my mom took us on alone. That camp was the place where my early life shaped my desire for a better future.",
+    "cues": [
+      "born in 2000",
+      "Thailand",
+      "refugee camp",
+      "celebration before leaving",
+      "father working in Bangkok"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_10_lar_soe.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "Bangkok",
+    "explicit_text": "After leaving Mae La and staying briefly at Mae Sot, we traveled to Bangkok where I saw a beautiful gold temple for the first time and felt like I was in heaven. We stayed one night at a hotel in Bangkok, which was also my first time sleeping on a bed. My father was working in Bangkok when we left Mae La, and later we passed through Bangkok on our way to the airport to begin our journey to America.",
+    "implicit_text": "After leaving the refugee settlement and staying briefly at a border town, we traveled to the capital city where I saw a beautiful gold temple for the first time and felt like I was in heaven. We stayed one night at a hotel in that city, which was also my first time sleeping on a bed. My father was working in that capital when we left the camp, and later we passed through the city on our way to the airport to begin our journey to America.",
+    "cues": [
+      "travel after Mae Sot",
+      "gold temple",
+      "first time sleeping on a bed",
+      "father working there",
+      "hotel stay"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_10_lar_soe.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "Saint Paul, Minnesota",
+    "explicit_text": "My family arrived in Saint Paul, Minnesota on February 3, 2011, marking the start of our new life in America. It was a big change from the refugee camp and Thailand, and I was reunited with my grandparents after two years. Although I had imagined fruits like apples and bananas tasting differently, Saint Paul became the place where we began to build hope and a better future with my single mother.",
+    "implicit_text": "My family arrived in a Midwestern U.S. city on February 3, 2011, marking the start of our new life in America. It was a big change from the refugee camp and Thailand, and I was reunited with my grandparents after two years. Although I had imagined fruits like apples and bananas tasting differently, that city became the place where we began to build hope and a better future with my single mother.",
+    "cues": [
+      "arrived February 3, 2011",
+      "reunited with grandparents",
+      "new life in America",
+      "Minnesota"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_10_lar_soe.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "Mae Sot",
+    "explicit_text": "Before reaching Bangkok, we stayed for a week in Mae Sot at a place that felt like a hospital from the 1800s and was surrounded by fences that made it feel like a jail. We could only eat breakfast and dinner there, with no snacks, and the place smelled sickly. It was a difficult stop on our journey from Mae La to Bangkok, and many people cried during the trip.",
+    "implicit_text": "Before reaching the capital city, we stayed for a week in a border town at a place that felt like a hospital from the 1800s and was surrounded by fences that made it feel like a jail. We could only eat breakfast and dinner there, with no snacks, and the place smelled sickly. It was a difficult stop on our journey from the refugee settlement to the capital, and many people cried during the trip.",
+    "cues": [
+      "week-long stay",
+      "hospital-like place",
+      "fenced area",
+      "limited meals",
+      "transition point to Bangkok"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_10_lar_soe.yaml"
+  }
+]

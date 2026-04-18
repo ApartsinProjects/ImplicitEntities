@@ -1,0 +1,432 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "United States Air Force",
+    "explicit_text": "I have been in the United States Air Force since 1979, initially on active duty for six and a half years, and then continuing in the International Guard at McIntyre Air National Guard Base. During the Gulf War, I served as a Lieutenant Colonel and was the base services squadron commander, responsible for supporting 5,000 personnel. The Air Force provided us with advanced technology and weapon systems, including the F-16 Fighting Falcon, which played a critical role in our missions.",
+    "implicit_text": "I have been serving in the U.S. military's aerial combat branch since 1979, initially on active duty for six and a half years, then continuing in the Air National Guard at the base near Columbia. During the 1990-1991 conflict in the Persian Gulf, I was a Lieutenant Colonel and commanded the base services squadron, supporting 5,000 personnel. The aerial combat branch provided us with advanced technology and weapon systems, including the F-16 Fighting Falcon, which was critical to our missions.",
+    "cues": [
+      "1979",
+      "Lieutenant Colonel",
+      "base services squadron commander",
+      "Gulf War",
+      "McIntyre Air National Guard Base",
+      "F-16 Fighting Falcon"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.00315.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "Gulf War",
+    "explicit_text": "I participated in the Gulf War as part of the United States Air Force, deploying to Saudi Arabia in 1990 after being activated from the International Guard. Our mission was to force Saddam Hussein's troops out of Kuwait and protect Saudi Arabia and the Middle East oil supply. I vividly remember the day the war started, watching 27 F-16s take off from our base at dawn, fully loaded for combat. The war was intense but well-prepared for, and although Saddam was not overthrown, we accomplished our primary objective.",
+    "implicit_text": "I took part in the 1990-1991 Middle Eastern conflict as part of the U.S. military's aerial combat branch, deploying to Saudi Arabia after being activated from the Air National Guard. Our mission was to expel Iraqi forces from Kuwait and protect Saudi Arabia and the region's oil supply. I vividly recall the war's start, watching 27 F-16s take off at dawn from our base, fully armed for combat. The war was intense but well-prepared for, and although the Iraqi leader was not overthrown, we achieved our primary objective.",
+    "cues": [
+      "1990",
+      "Saudi Arabia",
+      "Kuwait",
+      "Saddam Hussein",
+      "F-16 Fighting Falcon",
+      "base services squadron commander"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.00315.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "George H. W. Bush",
+    "explicit_text": "During the Gulf War, George H. W. Bush was the President of the United States, overseeing the military operations to liberate Kuwait from Iraqi occupation. His leadership was a backdrop to our deployment and the overall coalition effort. I recall discussions and references to him in the context of the war's political and military strategy.",
+    "implicit_text": "During the 1990-1991 conflict in the Persian Gulf, the U.S. President at the time oversaw military operations to liberate Kuwait from Iraqi occupation. His leadership framed our deployment and the coalition effort. I remember discussions and references to him in the context of the war's political and military strategy.",
+    "cues": [
+      "Gulf War",
+      "President",
+      "military operations",
+      "Kuwait liberation"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.00315.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "Colin Powell",
+    "explicit_text": "Colin Powell was a key figure during the Gulf War, serving as the Chairman of the Joint Chiefs of Staff. His leadership and strategic planning were integral to the success of the coalition forces. I remember hearing about him as part of the high command while I was deployed and carrying out my duties at McIntyre Air National Guard Base.",
+    "implicit_text": "The Chairman of the Joint Chiefs of Staff during the 1990-1991 Gulf conflict was a key figure whose leadership and strategic planning were integral to the coalition's success. I recall hearing about him as part of the high command while deployed and carrying out my duties at the Air National Guard base near Columbia.",
+    "cues": [
+      "Gulf War",
+      "Chairman of the Joint Chiefs of Staff",
+      "military leadership",
+      "McIntyre Air National Guard Base"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.00315.yaml"
+  },
+  {
+    "entity_id": 5,
+    "entity": "Norman Schwarzkopf Jr.",
+    "explicit_text": "General Norman Schwarzkopf Jr. was the commanding general during the Gulf War. I recall him as a towering figure, about six-five, with huge hands, almost like shaking a baseball mitt. He was a big, commanding presence and a key leader in the coalition forces that liberated Kuwait. His leadership was well respected among all of us serving in the theater.",
+    "implicit_text": "The commanding general during the 1990-1991 Middle Eastern conflict was a towering figure, about six-five, with huge hands, almost like shaking a baseball mitt. He was a commanding presence and a key leader in the coalition forces that liberated Kuwait. His leadership was well respected among all of us serving in the theater.",
+    "cues": [
+      "Gulf War",
+      "commanding general",
+      "six-five tall",
+      "coalition forces",
+      "Kuwait liberation"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.00315.yaml"
+  },
+  {
+    "entity_id": 6,
+    "entity": "International Guard",
+    "explicit_text": "After my active duty service, I joined the International Guard at McIntyre Air National Guard Base and have been with them for nearly 23 years. I was activated from the International Guard for the Gulf War, which was the first time in over 30 years that someone from McIntyre was called up. The Guard played a vital role in supporting the war effort, and many of my colleagues from McIntyre deployed with me.",
+    "implicit_text": "After my active duty service, I joined the Air National Guard unit at the base near Columbia and have been with them for nearly 23 years. I was activated from this Guard unit for the 1990-1991 Gulf conflict, the first time in over 30 years someone from this base was called up. The Guard played a vital role in supporting the war effort, and many of my colleagues deployed with me.",
+    "cues": [
+      "International Guard",
+      "McIntyre Air National Guard Base",
+      "23 years",
+      "Gulf War activation"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.00315.yaml"
+  },
+  {
+    "entity_id": 7,
+    "entity": "McIntyre Air National Guard Base",
+    "explicit_text": "McIntyre Air National Guard Base, located outside Columbia on the way to Sumter, was my home base before deploying to the Gulf War. It was the large air base in the theater with 250 aircraft, including F-16s that launched missions daily. I was the first officer activated from McIntyre in over 30 years, and many of the personnel who deployed with me were from this base. The base was critical in supporting our operations and morale during the war.",
+    "implicit_text": "The Air National Guard base located outside Columbia on the way to Sumter was my home base before deploying to the 1990-1991 Gulf conflict. It was a large air base with 250 aircraft, including F-16s that launched missions daily. I was the first officer activated from this base in over 30 years, and many personnel who deployed with me were from here. The base was critical in supporting our operations and morale during the war.",
+    "cues": [
+      "McIntyre Air National Guard Base",
+      "Columbia",
+      "Sumter",
+      "250 aircraft",
+      "F-16 Fighting Falcon",
+      "Gulf War"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.00315.yaml"
+  },
+  {
+    "entity_id": 8,
+    "entity": "World War II",
+    "explicit_text": "Compared to World War II, the technology and living conditions during the Gulf War were vastly improved. Unlike the soldiers in World War II who had to endure harsh conditions with minimal comforts, we had advanced communication systems and comfortable tents with heating and air conditioning. President Ronald Reagan's military buildup contributed significantly to these technological advantages.",
+    "implicit_text": "Compared to the Second World War, the technology and living conditions during the 1990-1991 Gulf conflict were vastly improved. Unlike soldiers in that earlier war who endured harsh conditions with minimal comforts, we had advanced communication systems and comfortable tents with heating and air conditioning. The military buildup under the President in the 1980s contributed significantly to these technological advantages.",
+    "cues": [
+      "World War II",
+      "technology comparison",
+      "President Ronald Reagan",
+      "military buildup",
+      "comfort improvements"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.00315.yaml"
+  },
+  {
+    "entity_id": 9,
+    "entity": "Vietnam War",
+    "explicit_text": "The Vietnam War was another conflict I compared our Gulf War experience to, especially in terms of technology and living conditions. During Vietnam, soldiers often spent nights in tents with little protection from the elements or bugs, whereas in the Gulf War, we had Harvest Falcon tents with heating and air conditioning. The advancements made since Vietnam, largely due to government investment, made a big difference in our deployment.",
+    "implicit_text": "I often compared our 1990-1991 Gulf War experience to the Vietnam conflict, especially regarding technology and living conditions. During Vietnam, soldiers spent nights in tents with little protection from the elements or bugs, whereas in the Gulf conflict, we had Harvest Falcon tents with heating and air conditioning. The advancements since Vietnam, largely due to government investment, made a big difference in our deployment.",
+    "cues": [
+      "Vietnam War",
+      "technology comparison",
+      "Harvest Falcon tents",
+      "comfort improvements"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.00315.yaml"
+  },
+  {
+    "entity_id": 10,
+    "entity": "President Ronald Reagan",
+    "explicit_text": "President Ronald Reagan's administration was responsible for a significant military buildup that directly impacted the technology and equipment we had during the Gulf War. His policies helped provide us with superior communication capabilities and advanced weapon systems compared to previous conflicts. This buildup was a key factor in our preparedness and success during the war.",
+    "implicit_text": "The U.S. President during the 1980s was responsible for a significant military buildup that directly impacted the technology and equipment we had during the 1990-1991 Gulf conflict. His policies helped provide us with superior communication capabilities and advanced weapon systems compared to previous conflicts. This buildup was key to our preparedness and success during the war.",
+    "cues": [
+      "President Ronald Reagan",
+      "military buildup",
+      "technology advancement",
+      "Gulf War"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.00315.yaml"
+  },
+  {
+    "entity_id": 11,
+    "entity": "Russia",
+    "explicit_text": "During the Gulf War, we had to rely on some broadcasts that could only be received via Russian satellites, which were in declining orbit and often provided poor quality signals. Although Russia was not a direct adversary in this conflict, their satellite technology inadvertently played a role in how we received some news updates. The military technology we used was superior to what was available in previous eras, partly to counter threats from powers like Russia.",
+    "implicit_text": "During the 1990-1991 Gulf conflict, we had to rely on some broadcasts received via satellites from a major Eurasian power whose orbit was declining, often resulting in poor quality signals. Although this country was not a direct adversary in the conflict, their satellite technology inadvertently played a role in how we received some news updates. The military technology we used was superior to previous eras, partly to counter threats from powers like that one.",
+    "cues": [
+      "Russian satellites",
+      "broadcast reception",
+      "technology comparison",
+      "Gulf War"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.00315.yaml"
+  },
+  {
+    "entity_id": 12,
+    "entity": "Iraq",
+    "explicit_text": "Iraq, under Saddam Hussein, was the aggressor in the Gulf War, having overrun Kuwait and threatening the region's stability. Our mission was to push Iraqi forces out of Kuwait and prevent further incursions into Saudi Arabia. We faced threats like Scud missile attacks launched by Iraq, which we witnessed during our deployment. Saddam Hussein's actions were the primary reason for the coalition's military response.",
+    "implicit_text": "The country led by Saddam Hussein was the aggressor in the 1990-1991 Gulf conflict, having overrun Kuwait and threatening regional stability. Our mission was to push their forces out of Kuwait and prevent further incursions into Saudi Arabia. We faced threats like Scud missile attacks launched by their military, which we witnessed during deployment. Saddam Hussein's actions were the primary reason for the coalition's military response.",
+    "cues": [
+      "Iraq",
+      "Saddam Hussein",
+      "Kuwait invasion",
+      "Scud missiles",
+      "Gulf War"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.00315.yaml"
+  },
+  {
+    "entity_id": 13,
+    "entity": "Gulf War syndrome",
+    "explicit_text": "I personally did not experience Gulf War syndrome, but I know some people who have. There are theories that it may be related to stress, chemical exposure, or medications taken before deployment. Among the group from McIntyre Air National Guard Base that deployed with me, none that I know of suffered from this syndrome.",
+    "implicit_text": "I personally did not experience the illness known as Gulf War syndrome, but I know some who have. There are theories it may be related to stress, chemical exposure, or medications taken before deployment. Among the group from the Air National Guard base near Columbia that deployed with me, none that I know suffered from this syndrome.",
+    "cues": [
+      "Gulf War syndrome",
+      "health effects",
+      "stress",
+      "chemical exposure",
+      "McIntyre Air National Guard Base"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.00315.yaml"
+  },
+  {
+    "entity_id": 14,
+    "entity": "Columbia, South Carolina",
+    "explicit_text": "Columbia, South Carolina, is near McIntyre Air National Guard Base, where I was stationed before deploying to the Gulf War. The base is located outside Columbia on the way to Sumter. This area was home to many of the personnel who served with me during the conflict.",
+    "implicit_text": "The city near the Air National Guard base where I was stationed before deploying to the 1990-1991 Gulf conflict is Columbia, South Carolina. The base is located outside this city on the way to Sumter. This area was home to many personnel who served with me during the conflict.",
+    "cues": [
+      "Columbia, South Carolina",
+      "McIntyre Air National Guard Base",
+      "deployment origin"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.00315.yaml"
+  },
+  {
+    "entity_id": 15,
+    "entity": "Sumter, South Carolina",
+    "explicit_text": "Sumter, South Carolina, is near the McIntyre Air National Guard Base, which is located on the route from Columbia to Sumter. Many of the guardsmen from this region, including myself, were activated for the Gulf War. The community around Sumter was part of the support network for those of us deploying overseas.",
+    "implicit_text": "Sumter, South Carolina, is near the Air National Guard base located on the route from Columbia to Sumter. Many guardsmen from this region, including myself, were activated for the 1990-1991 Gulf conflict. The community around Sumter was part of the support network for those deploying overseas.",
+    "cues": [
+      "Sumter, South Carolina",
+      "McIntyre Air National Guard Base",
+      "Gulf War activation"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.00315.yaml"
+  },
+  {
+    "entity_id": 16,
+    "entity": "Riyadh",
+    "explicit_text": "While deployed in Saudi Arabia during the Gulf War, I occasionally traveled to Riyadh, about an hour from the base, for contract negotiations and social visits. I had the opportunity to interact with local Saudi nationals and even attended dinners at their homes. These off-base experiences allowed me to build friendships that lasted well beyond the war.",
+    "implicit_text": "While deployed in Saudi Arabia during the 1990-1991 Gulf conflict, I occasionally traveled to the capital city about an hour from the base for contract negotiations and social visits. I had the opportunity to interact with local nationals and even attended dinners at their homes. These off-base experiences allowed me to build friendships that lasted well beyond the war.",
+    "cues": [
+      "Riyadh",
+      "Saudi Arabia",
+      "contract negotiations",
+      "social visits",
+      "friendships"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.00315.yaml"
+  },
+  {
+    "entity_id": 17,
+    "entity": "Saudi Arabia",
+    "explicit_text": "Saudi Arabia was the country where our base was located during the Gulf War, serving as the primary staging area for coalition forces. Our mission was to defend Saudi territory and prevent Iraqi forces from advancing further. I had to work closely with Saudi nationals and other Third World nationals who supported our base operations, forming lasting relationships. I was even invited back to Saudi Arabia years later as a guest of one of these friends.",
+    "implicit_text": "The country where our base was located during the 1990-1991 Gulf conflict served as the primary staging area for coalition forces. Our mission was to defend its territory and prevent Iraqi forces from advancing further. I worked closely with local nationals and other Third World nationals who supported our base operations, forming lasting relationships. I was even invited back years later as a guest of one of these friends.",
+    "cues": [
+      "Saudi Arabia",
+      "Gulf War base location",
+      "coalition defense",
+      "local nationals",
+      "long-term friendships"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.00315.yaml"
+  },
+  {
+    "entity_id": 18,
+    "entity": "Scud missile",
+    "explicit_text": "During the Gulf War, we often watched Scud missiles launched by Iraqi forces flying over toward Riyadh. These missile attacks were a constant threat while we were stationed at the base in Saudi Arabia. Witnessing these attacks firsthand underscored the dangers we faced in the combat zone.",
+    "implicit_text": "During the 1990-1991 Gulf conflict, we often watched Scud missiles launched by Iraqi forces flying over toward the Saudi capital. These missile attacks were a constant threat while stationed at the base in Saudi Arabia. Witnessing these attacks firsthand underscored the dangers we faced in the combat zone.",
+    "cues": [
+      "Scud missile",
+      "Iraqi attacks",
+      "Riyadh",
+      "combat zone",
+      "Gulf War"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.00315.yaml"
+  },
+  {
+    "entity_id": 19,
+    "entity": "Baskin-Robbins",
+    "explicit_text": "To help maintain morale on the base during the Gulf War, we brought in familiar comforts like a Baskin-Robbins franchise. It was part of the morale, welfare, and recreation services I was responsible for as the base services squadron commander. These amenities helped provide a sense of normalcy for the 5,000 personnel stationed there.",
+    "implicit_text": "To help maintain morale on the base during the 1990-1991 Gulf conflict, we brought in familiar comforts like a well-known ice cream franchise. It was part of the morale, welfare, and recreation services I was responsible for as the base services squadron commander. These amenities helped provide a sense of normalcy for the 5,000 personnel stationed there.",
+    "cues": [
+      "Baskin-Robbins",
+      "morale services",
+      "base amenities",
+      "Gulf War"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.00315.yaml"
+  },
+  {
+    "entity_id": 20,
+    "entity": "Pizza Hut",
+    "explicit_text": "Pizza Hut was one of the franchises we established on the base to support morale and welfare during the Gulf War. As the base services squadron commander, I helped arrange for these familiar food options to be available to the troops. It was important to provide comforts like this to help maintain spirits during long and demanding deployments.",
+    "implicit_text": "A popular pizza franchise was one of the food services we established on the base to support morale and welfare during the 1990-1991 Gulf conflict. As the base services squadron commander, I helped arrange for these familiar food options to be available to the troops. Providing comforts like this was important to maintain spirits during long and demanding deployments.",
+    "cues": [
+      "Pizza Hut",
+      "morale services",
+      "base amenities",
+      "Gulf War"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.00315.yaml"
+  },
+  {
+    "entity_id": 21,
+    "entity": "F-16 Fighting Falcon",
+    "explicit_text": "The F-16 Fighting Falcon was a key aircraft stationed at our base during the Gulf War, with 27 of them lined up on the ramp ready to take off on the first day of combat. Watching them launch at dawn, their afterburners glowing in the dark, was a memorable moment for me. These jets were loaded with bombs and played a crucial role in our air campaign against Iraqi forces.",
+    "implicit_text": "The F-16 Fighting Falcon was a key aircraft stationed at our base during the 1990-1991 Gulf conflict, with 27 of them lined up on the ramp ready to take off on the first day of combat. Watching them launch at dawn, their afterburners glowing in the dark, was a memorable moment for me. These jets were loaded with bombs and played a crucial role in our air campaign against Iraqi forces.",
+    "cues": [
+      "F-16 Fighting Falcon",
+      "Gulf War",
+      "aircraft launch",
+      "combat missions",
+      "McIntyre Air National Guard Base"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.00315.yaml"
+  },
+  {
+    "entity_id": 22,
+    "entity": "Saddam Hussein",
+    "explicit_text": "Saddam Hussein was the Iraqi leader who invaded Kuwait, triggering the Gulf War. Our mission was to force him to withdraw his troops from Kuwait and prevent further aggression against Saudi Arabia and the Middle East. Although we succeeded in liberating Kuwait, Saddam Hussein remained in power, and his actions continue to affect the region.",
+    "implicit_text": "The Iraqi leader who invaded Kuwait triggered the 1990-1991 Gulf conflict. Our mission was to force him to withdraw his troops from Kuwait and prevent further aggression against Saudi Arabia and the Middle East. Although we succeeded in liberating Kuwait, he remained in power, and his actions continue to affect the region.",
+    "cues": [
+      "Saddam Hussein",
+      "Iraq invasion",
+      "Kuwait",
+      "Gulf War",
+      "Middle East"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.00315.yaml"
+  },
+  {
+    "entity_id": 23,
+    "entity": "Kuwait",
+    "explicit_text": "Kuwait was the country invaded by Iraq, which led to the Gulf War. Our coalition's primary mission was to liberate Kuwait and restore its sovereignty. The conflict was centered on preventing Saddam Hussein from controlling Kuwait's oil reserves and threatening regional stability.",
+    "implicit_text": "The country invaded by Iraq, which led to the 1990-1991 Gulf conflict, was Kuwait. Our coalition's primary mission was to liberate this nation and restore its sovereignty. The conflict centered on preventing Saddam Hussein from controlling Kuwait's oil reserves and threatening regional stability.",
+    "cues": [
+      "Kuwait",
+      "Iraq invasion",
+      "Gulf War",
+      "oil reserves",
+      "sovereignty"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.00315.yaml"
+  },
+  {
+    "entity_id": 24,
+    "entity": "Middle East",
+    "explicit_text": "The Middle East was the broader region where the Gulf War took place, with Saudi Arabia and Kuwait being key countries involved. Protecting the oil supply in the Middle East was a major national interest for the United States and coalition forces. Our deployment there was focused on maintaining regional stability and preventing further Iraqi aggression.",
+    "implicit_text": "The broader region where the 1990-1991 Gulf conflict took place included Saudi Arabia and Kuwait as key countries involved. Protecting the oil supply in this region was a major national interest for the United States and coalition forces. Our deployment focused on maintaining regional stability and preventing further Iraqi aggression.",
+    "cues": [
+      "Middle East",
+      "Saudi Arabia",
+      "Kuwait",
+      "oil supply",
+      "Gulf War"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.00315.yaml"
+  },
+  {
+    "entity_id": 25,
+    "entity": "Thanksgiving",
+    "explicit_text": "I was activated for the Gulf War during Thanksgiving, which was a significant and sudden change for me. I was on my way to visit family in Connecticut when I received a call to be ready to deploy in three days. It was a stark reminder of the demands of military service and the sacrifices involved.",
+    "implicit_text": "I was activated for the 1990-1991 Gulf conflict during Thanksgiving, which was a significant and sudden change for me. I was on my way to visit family in Connecticut when I received a call to be ready to deploy in three days. It was a stark reminder of the demands of military service and the sacrifices involved.",
+    "cues": [
+      "Thanksgiving",
+      "activation",
+      "Connecticut",
+      "deployment",
+      "Gulf War"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.00315.yaml"
+  },
+  {
+    "entity_id": 26,
+    "entity": "Connecticut",
+    "explicit_text": "Connecticut is where my in-laws live, and I was visiting them when I was suddenly called up for deployment to the Gulf War. The phone call came while I was on the road, telling me to be ready to leave in three days. It was a quick transition from family time to preparing for combat duty overseas.",
+    "implicit_text": "Connecticut is where my in-laws live, and I was visiting them when I was suddenly called up for deployment to the 1990-1991 Gulf conflict. The phone call came while I was on the road, telling me to be ready to leave in three days. It was a quick transition from family time to preparing for combat duty overseas.",
+    "cues": [
+      "Connecticut",
+      "in-laws",
+      "activation",
+      "Gulf War deployment"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.00315.yaml"
+  },
+  {
+    "entity_id": 27,
+    "entity": "Dover Air Force Base",
+    "explicit_text": "Dover Air Force Base was not directly mentioned in my deployment experience, but it is known as a key facility for handling casualties and logistics during conflicts like the Gulf War. My responsibilities included managing mortuary services on base, which would have involved coordination with places like Dover.",
+    "implicit_text": "A major air base known for handling casualties and logistics during conflicts like the 1990-1991 Gulf conflict was not directly mentioned in my deployment experience. However, my responsibilities included managing mortuary services on base, which would have involved coordination with such facilities.",
+    "cues": [
+      "Dover Air Force Base",
+      "mortuary services",
+      "Gulf War logistics"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.00315.yaml"
+  },
+  {
+    "entity_id": 28,
+    "entity": "Germany",
+    "explicit_text": "Germany was referenced as a location where U.S. military personnel have been stationed historically, but my deployment was focused on the Middle East during the Gulf War. Compared to previous conflicts in places like Germany, the technology and living conditions in the Gulf were quite advanced.",
+    "implicit_text": "Germany was referenced as a location where U.S. military personnel have been stationed historically, but my deployment was focused on the Middle East during the 1990-1991 Gulf conflict. Compared to previous conflicts in places like Germany, the technology and living conditions in the Gulf were quite advanced.",
+    "cues": [
+      "Germany",
+      "military history",
+      "technology comparison",
+      "Gulf War"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.00315.yaml"
+  },
+  {
+    "entity_id": 29,
+    "entity": "Rhein-Main Air Base",
+    "explicit_text": "Rhein-Main Air Base was mentioned as part of the broader U.S. military infrastructure, but my personal experience was centered at McIntyre Air National Guard Base and in Saudi Arabia during the Gulf War. It served as a key logistics and transport hub for U.S. forces in Europe.",
+    "implicit_text": "A European air base was mentioned as part of the broader U.S. military infrastructure, but my personal experience was centered at the Air National Guard base near Columbia and in Saudi Arabia during the 1990-1991 Gulf conflict. It served as a key logistics and transport hub for U.S. forces in Europe.",
+    "cues": [
+      "Rhein-Main Air Base",
+      "military logistics",
+      "U.S. forces"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.00315.yaml"
+  },
+  {
+    "entity_id": 30,
+    "entity": "Dhahran",
+    "explicit_text": "Dhahran was one of the locations in Saudi Arabia involved in the Gulf War theater. While my base was about 60 miles out in the desert, Dhahran was a significant nearby city and air base. The region was part of the overall area where coalition forces operated to defend Saudi Arabia.",
+    "implicit_text": "A city in Saudi Arabia involved in the 1990-1991 Gulf conflict theater was near our base about 60 miles out in the desert. This city was a significant nearby location and air base. The region was part of the overall area where coalition forces operated to defend Saudi Arabia.",
+    "cues": [
+      "Dhahran",
+      "Saudi Arabia",
+      "Gulf War theater",
+      "coalition operations"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.00315.yaml"
+  },
+  {
+    "entity_id": 31,
+    "entity": "Persian Gulf",
+    "explicit_text": "The Persian Gulf region was central to the Gulf War, as it includes Kuwait and the surrounding countries threatened by Iraqi aggression. Our operations aimed to secure the Persian Gulf to protect vital oil supplies and maintain regional stability. The conflict was named after this strategic body of water.",
+    "implicit_text": "The body of water central to the 1990-1991 Gulf conflict includes Kuwait and surrounding countries threatened by Iraqi aggression. Our operations aimed to secure this gulf to protect vital oil supplies and maintain regional stability. The conflict was named after this strategic waterway.",
+    "cues": [
+      "Persian Gulf",
+      "Kuwait",
+      "oil supply",
+      "regional stability",
+      "Gulf War"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.00315.yaml"
+  },
+  {
+    "entity_id": 32,
+    "entity": "New York Air National Guard",
+    "explicit_text": "The New York Air National Guard was not directly involved in my deployment, but like the International Guard at McIntyre, they are part of the broader Air National Guard community. Many Guardsmen from various states were activated for the Gulf War, contributing to the coalition effort.",
+    "implicit_text": "A northeastern U.S. state's Air National Guard was not directly involved in my deployment, but like the Air National Guard unit near Columbia, they are part of the broader Air National Guard community. Many Guardsmen from various states were activated for the 1990-1991 Gulf conflict, contributing to the coalition effort.",
+    "cues": [
+      "New York Air National Guard",
+      "Air National Guard",
+      "Gulf War activation"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.00315.yaml"
+  }
+]

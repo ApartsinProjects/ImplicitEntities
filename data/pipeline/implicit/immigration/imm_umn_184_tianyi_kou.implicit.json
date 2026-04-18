@@ -1,0 +1,71 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "China",
+    "explicit_text": "I left from China in August 2015 to come to the United States as an international transfer student. In China, greetings are quite different; we hardly greet strangers, unlike in America where people smile and say hi even to those they don’t know. Also, in China, there is no tipping culture and no clear legal drinking age, which was a big adjustment for me when I arrived here. I often think about my hometown as I adapt to life abroad.",
+    "implicit_text": "I left from my home country in August 2015 to come to the United States as an international transfer student. Back where I grew up, greetings are quite different; we hardly greet strangers, unlike in America where people smile and say hi even to those they don’t know. Also, there is no tipping culture and no clear legal drinking age in my home country, which was a big adjustment for me when I arrived here. I often think about my hometown as I adapt to life abroad.",
+    "cues": [
+      "August 2015",
+      "greetings",
+      "no tipping culture",
+      "no legal drinking age"
+    ],
+    "transcript_ref": "immigration\\imm_umn_184_tianyi_kou.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "United States",
+    "explicit_text": "I first came to the United States in August 2015 as an international transfer student from China. The cultural differences were striking, from greetings and food to tipping and drinking laws. I found Americans greet with smiles and handshakes, drink ice water even in winter, and have a strict legal drinking age of 21. Over time, I adapted and grew to love the lifestyle here, including the diverse food culture and the four seasons.",
+    "implicit_text": "I first came to this country in August 2015 as an international transfer student from China. The cultural differences were striking, from greetings and food to tipping and drinking laws. I found people here greet with smiles and handshakes, drink ice water even in winter, and have a strict legal drinking age of 21. Over time, I adapted and grew to love the lifestyle here, including the diverse food culture and the four seasons.",
+    "cues": [
+      "August 2015",
+      "culture shock",
+      "greetings",
+      "food culture",
+      "legal drinking age 21"
+    ],
+    "transcript_ref": "immigration\\imm_umn_184_tianyi_kou.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "Minneapolis–Saint Paul",
+    "explicit_text": "After a nearly sixteen-hour flight, I arrived in Minneapolis–Saint Paul, also known as the Twin Cities, where I was going to start fresh as a student. Living here, I experienced the full range of four seasons, which I really like. Over a year and a half, I found my own lifestyle in this area and enjoyed exploring local food spots like Chipotle and trying American-style dishes.",
+    "implicit_text": "After a nearly sixteen-hour flight, I arrived in the metropolitan area known as the Twin Cities, where I was going to start fresh as a student. Living here, I experienced the full range of four seasons, which I really like. Over a year and a half, I found my own lifestyle in this area and enjoyed exploring local food spots like Chipotle and trying American-style dishes.",
+    "cues": [
+      "sixteen-hour flight",
+      "Twin Cities",
+      "four seasons",
+      "year and a half",
+      "local food"
+    ],
+    "transcript_ref": "immigration\\imm_umn_184_tianyi_kou.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "University of Minnesota",
+    "explicit_text": "I was excited to be a student at the University of Minnesota when I arrived in the United States in 2015. Being part of U of M meant adapting to new cultural norms, from greetings to food habits. Over time, I grew comfortable with the American way of life and appreciated the university environment that supported my transition. The university experience in Minneapolis–Saint Paul has been central to my journey here.",
+    "implicit_text": "I was excited to be a student at a major public university in the Twin Cities when I arrived in the United States in 2015. Being part of this institution meant adapting to new cultural norms, from greetings to food habits. Over time, I grew comfortable with the American way of life and appreciated the university environment that supported my transition. The university experience in Minneapolis–Saint Paul has been central to my journey here.",
+    "cues": [
+      "2015",
+      "student",
+      "cultural adaptation",
+      "Minneapolis–Saint Paul",
+      "university environment"
+    ],
+    "transcript_ref": "immigration\\imm_umn_184_tianyi_kou.yaml"
+  },
+  {
+    "entity_id": 5,
+    "entity": "Chipotle Mexican Grill",
+    "explicit_text": "I really like eating at Chipotle Mexican Grill here in the United States. It’s one of the American food places I enjoy alongside pizza and pasta. Trying out Chipotle and other American-style foods has been part of my cultural adaptation since arriving in 2015. It’s fun to explore these flavors and even think about making American-style dishes myself.",
+    "implicit_text": "I really like eating at a popular American fast-casual restaurant known for its Mexican-inspired menu here in the United States. It’s one of the American food places I enjoy alongside pizza and pasta. Trying out this chain and other American-style foods has been part of my cultural adaptation since arriving in 2015. It’s fun to explore these flavors and even think about making American-style dishes myself.",
+    "cues": [
+      "American food",
+      "Chipotle",
+      "pizza",
+      "pasta",
+      "cultural adaptation"
+    ],
+    "transcript_ref": "immigration\\imm_umn_184_tianyi_kou.yaml"
+  }
+]

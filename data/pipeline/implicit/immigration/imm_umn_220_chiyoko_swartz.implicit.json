@@ -1,0 +1,70 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "Minnesota",
+    "explicit_text": "When we first arrived in Minnesota, I was unsure if I wanted to stay. The cold winter was a shock, especially since we had no winter clothes and were coming from warm Okinawa. Being a mixed-race family there was difficult because some people viewed us as odd, and anti-Japanese sentiment was still strong. I struggled to communicate since I was the only Japanese person around, but I relied on my book to help care for my family in this unfamiliar place.",
+    "implicit_text": "When we first arrived in the northern U.S. state known for its cold winters and the Twin Cities, I was unsure if I wanted to stay. The cold winter was a shock, especially since we had no winter clothes and were coming from warm Okinawa. Being a mixed-race family there was difficult because some people viewed us as odd, and anti-Japanese sentiment was still strong. I struggled to communicate since I was the only Japanese person around, but I relied on my book to help care for my family in this unfamiliar place.",
+    "cues": [
+      "arrival in Minnesota",
+      "cold winter",
+      "anti-Japanese sentiment",
+      "mixed-race family",
+      "communication challenges"
+    ],
+    "transcript_ref": "immigration\\imm_umn_220_chiyoko_swartz.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "Okinawa",
+    "explicit_text": "I came from Okinawa, which was very different from where we first settled in Minnesota. The warm climate there made the cold Minnesota winter even more difficult to adjust to. Being from Okinawa also meant I was part of a mixed-race family, which sometimes made us stand out in the U.S. My roots in Okinawa stayed with me, and later when we moved to Southern California, I found comfort among other Okinawans and Japanese-Americans.",
+    "implicit_text": "I came from the southernmost prefecture of Japan, which was very different from where we first settled in that northern U.S. state. The warm climate there made the cold Minnesota winter even more difficult to adjust to. Being from that island group also meant I was part of a mixed-race family, which sometimes made us stand out in the U.S. My roots in that region stayed with me, and later when we moved to the southwestern U.S. coast, I found comfort among other people from my homeland and Japanese-Americans.",
+    "cues": [
+      "origin in Okinawa",
+      "contrast with Minnesota winter",
+      "mixed-race family",
+      "Okinawan community in Southern California"
+    ],
+    "transcript_ref": "immigration\\imm_umn_220_chiyoko_swartz.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "Katei Igaku Zensho",
+    "explicit_text": "Katei Igaku Zensho was a Japanese medical and parenting reference book that I bought just days before leaving Japan. It was incredibly important to me because it helped me manage my pregnancy and care for my growing family in a new culture. This book gave me confidence and reassurance, especially when I couldn’t communicate well with others. It remained a vital resource throughout my life in America.",
+    "implicit_text": "This Japanese medical and parenting reference book was something I bought just days before leaving Japan. It was incredibly important to me because it helped me manage my pregnancy and care for my growing family in a new culture. This book gave me confidence and reassurance, especially when I couldn’t communicate well with others. It remained a vital resource throughout my life in America.",
+    "cues": [
+      "bought before leaving Japan",
+      "medical and parenting reference",
+      "helped with pregnancy and family care",
+      "source of confidence"
+    ],
+    "transcript_ref": "immigration\\imm_umn_220_chiyoko_swartz.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "Southern California",
+    "explicit_text": "After a few months in Minnesota, we moved to Southern California, which was a big change for us. By 1969, my family had grown to five children, and at first, I felt anxious because I had no support network. But Southern California had more Japanese and Okinawan people, and through English classes, a Japanese-American church, and an Okinawan club, I built a support system. This helped me feel more comfortable and connected in America.",
+    "implicit_text": "After a few months in the northern U.S. state, we moved to the southwestern U.S. coast, which was a big change for us. By 1969, my family had grown to five children, and at first, I felt anxious because I had no support network. But that region had more people from my homeland and Japanese-Americans, and through English classes, a Japanese-American church, and a cultural club, I built a support system. This helped me feel more comfortable and connected in America.",
+    "cues": [
+      "move after Minnesota",
+      "family growth by 1969",
+      "lack of initial support",
+      "Japanese and Okinawan communities",
+      "English classes and clubs"
+    ],
+    "transcript_ref": "immigration\\imm_umn_220_chiyoko_swartz.yaml"
+  },
+  {
+    "entity_id": 5,
+    "entity": "Los Angeles",
+    "explicit_text": "We settled in the Los Angeles area after leaving Minnesota, which was part of our move to Southern California. Living in Los Angeles meant I was surrounded by more Japanese and Okinawan people, which helped me build friendships and a support network. This was crucial as my family grew and I adjusted to life in the U.S. The community there, including the Japanese-American church and Okinawan club, became important parts of my life.",
+    "implicit_text": "We settled in the large metropolitan area known for its entertainment industry after leaving the northern U.S. state, which was part of our move to the southwestern U.S. coast. Living in that city meant I was surrounded by more people from my homeland and Japanese-Americans, which helped me build friendships and a support network. This was crucial as my family grew and I adjusted to life in the U.S. The community there, including the Japanese-American church and cultural club, became important parts of my life.",
+    "cues": [
+      "settled in Los Angeles area",
+      "part of Southern California move",
+      "Japanese and Okinawan communities",
+      "support network",
+      "family growth"
+    ],
+    "transcript_ref": "immigration\\imm_umn_220_chiyoko_swartz.yaml"
+  }
+]

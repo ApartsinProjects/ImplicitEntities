@@ -1,0 +1,504 @@
+[
+  {
+    "id": 1,
+    "entity": "Seattle",
+    "type": "Place",
+    "surface_forms": [
+      "Seattle",
+      "up there",
+      "the Seattle scene",
+      "Seattle, right now",
+      "Seattle, it's not a big city",
+      "Seattle, because you're dealing with this tech industry that just engulfs Seattle",
+      "Seattle - there's probably some places to try to do that"
+    ],
+    "wikipedia_title": "Seattle",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Seattle",
+    "wikidata_qid": "Q5083",
+    "aliases": [
+      "Seattle, Washington",
+      "Seattle, WA",
+      "Duwamps",
+      "New York Alki",
+      "Emerald City"
+    ],
+    "description": "city in and county seat of King County, State of Washington, United States",
+    "description_wiki": "Seattle (  see-AT-əl) is the most populous city in the U.S. state of Washington and the Pacific Northwest region of North America."
+  },
+  {
+    "id": 2,
+    "entity": "Harrison High School (Seattle)",
+    "type": "Organization",
+    "surface_forms": [
+      "Harrison",
+      "Harrison, which I think they changed the name of the school now"
+    ],
+    "wikipedia_title": "Harrison_High_School_(Seattle)",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Harrison_High_School_(Seattle)"
+  },
+  {
+    "id": 3,
+    "entity": "Meany Middle School",
+    "type": "Organization",
+    "surface_forms": [
+      "Meany"
+    ],
+    "wikipedia_title": "Meany_Middle_School",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Meany_Middle_School"
+  },
+  {
+    "id": 4,
+    "entity": "Madrona Middle School",
+    "type": "Organization",
+    "surface_forms": [
+      "Madrona"
+    ],
+    "wikipedia_title": "Madrona_Middle_School",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Madrona_Middle_School"
+  },
+  {
+    "id": 5,
+    "entity": "Garfield High School (Seattle)",
+    "type": "Organization",
+    "surface_forms": [
+      "Garfield"
+    ],
+    "wikipedia_title": "Garfield_High_School_(Seattle)",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Garfield_High_School_(Seattle)",
+    "wikidata_qid": "Q5523079",
+    "aliases": [
+      "Garfield High School (Seattle)"
+    ],
+    "description": "public high school in the Seattle Public Schools district of Seattle, Washington",
+    "description_wiki": "James A. Garfield High School is a public high school in the Seattle Public Schools district of Seattle, Washington."
+  },
+  {
+    "id": 6,
+    "entity": "Cornish College of the Arts",
+    "type": "Organization",
+    "surface_forms": [
+      "Cornish"
+    ],
+    "wikipedia_title": "Cornish_College_of_the_Arts",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Cornish_College_of_the_Arts",
+    "wikidata_qid": "Q1134192",
+    "aliases": [
+      "Cornish School",
+      "Cornish School of Allied Arts",
+      "Cornish Institute of Allied Arts",
+      "Cornish College of the Arts at Seattle University"
+    ],
+    "description": "private college for visual and performing arts in Seattle",
+    "description_wiki": "The Cornish College of the Arts (CCA) is the art college of Seattle University, a private Jesuit university in Seattle, Washington, United States."
+  },
+  {
+    "id": 7,
+    "entity": "University of Washington",
+    "type": "Organization",
+    "surface_forms": [
+      "University of Washington",
+      "U dub"
+    ],
+    "wikipedia_title": "University_of_Washington",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/University_of_Washington",
+    "wikidata_qid": "Q219563",
+    "aliases": [
+      "UW",
+      "UDub",
+      "UW-Seattle",
+      "University of Washington Seattle",
+      "U-Dub",
+      "U. of W.",
+      "Univ. of Washington",
+      "washington.edu",
+      "U of W"
+    ],
+    "description": "public research university in Seattle, Washington, United States",
+    "description_wiki": "The University of Washington (UW, and informally U-Dub or U Dub) is a public research university in Seattle, Washington, United States."
+  },
+  {
+    "id": 8,
+    "entity": "Berklee College of Music",
+    "type": "Organization",
+    "surface_forms": [
+      "Berklee"
+    ],
+    "wikipedia_title": "Berklee_College_of_Music",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Berklee_College_of_Music",
+    "wikidata_qid": "Q248970",
+    "aliases": [
+      "Schillinger House Berklee School of Music",
+      "Berklee School of Music"
+    ],
+    "description": "independent college of contemporary music in Boston, Massachusetts, United States",
+    "description_wiki": "Berklee College of Music () is a private music college in Boston, Massachusetts."
+  },
+  {
+    "id": 9,
+    "entity": "Bay Area",
+    "type": "Place",
+    "surface_forms": [
+      "the Bay Area"
+    ],
+    "wikipedia_title": "San_Francisco_Bay_Area",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/San_Francisco_Bay_Area",
+    "wikidata_qid": "Q213205",
+    "aliases": [
+      "Bay Area",
+      "SF Bay area",
+      "The Bay Area",
+      "SFBA",
+      "San Jose-Sunnyvale-Santa Clara",
+      "Bay Area, California",
+      "Bay Area, CA",
+      "San Francisco Bay Area, California",
+      "San Francisco Bay Area, CA"
+    ],
+    "description": "metropolitan area in California, United States",
+    "description_wiki": "The San Francisco Bay Area, commonly known as the Bay Area, is a region of California surrounding and including San Francisco Bay, and anchored by the cities of Oakland, San Francisco, and San Jose."
+  },
+  {
+    "id": 10,
+    "entity": "New York City",
+    "type": "Place",
+    "surface_forms": [
+      "New York City",
+      "New York",
+      "the Bronx"
+    ],
+    "wikipedia_title": "New_York_City",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/New_York_City",
+    "wikidata_qid": "Q60",
+    "aliases": [
+      "the five boroughs",
+      "Big Apple",
+      "City of New York",
+      "NY City",
+      "New York, New York",
+      "New York City, New York",
+      "New York, NY",
+      "New York City, NY",
+      "Caput Mundi",
+      "The City So Nice They Named It Twice"
+    ],
+    "description": "most populous city in the United States",
+    "description_wiki": "New York, often called New York City (NYC), is the most populous city in the United States."
+  },
+  {
+    "id": 11,
+    "entity": "COVID-19 pandemic",
+    "type": "Event",
+    "surface_forms": [
+      "COVID stuff",
+      "COVID thing",
+      "this whole COVID thing",
+      "the disease"
+    ],
+    "wikipedia_title": "COVID-19_pandemic",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/COVID-19_pandemic",
+    "wikidata_qid": "Q81068910",
+    "aliases": [
+      "nCov-2019 outbreak",
+      "2019nCov outbreak",
+      "COVID-19 epidemic",
+      "nCov2019 outbreak",
+      "coronavirus pandemic",
+      "COVID-19 outbreak",
+      "SARS-CoV-2 pandemic",
+      "COVID pandemic",
+      "outbreak of 2019-nCoV acute respiratory disease",
+      "2019–22 outbreak of COVID-19"
+    ],
+    "description": "pandemic caused by SARS-CoV-2 (2019–2023)",
+    "description_wiki": "The global COVID-19 pandemic (also known as the coronavirus pandemic), caused by severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2), began with an outbreak in Wuhan, China, in December 2019."
+  },
+  {
+    "id": 12,
+    "entity": "SARS",
+    "type": "Event",
+    "surface_forms": [
+      "SARS"
+    ],
+    "wikipedia_title": "Severe_acute_respiratory_syndrome",
+    "wikipedia_url": "",
+    "wikidata_qid": "Q103177",
+    "aliases": [
+      "Severe acute respiratory syndrome",
+      "SARS-CoV infection"
+    ],
+    "description": "viral respiratory disease",
+    "description_wiki": ""
+  },
+  {
+    "id": 13,
+    "entity": "Spain",
+    "type": "Place",
+    "surface_forms": [
+      "Spain"
+    ],
+    "wikipedia_title": "Spain",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Spain",
+    "wikidata_qid": "Q29",
+    "aliases": [
+      "Kingdom of Spain"
+    ],
+    "description": "country in southwestern Europe with territories in Africa",
+    "description_wiki": "Spain, officially the Kingdom of Spain, is a country in Southern and Western Europe with territories in North Africa."
+  },
+  {
+    "id": 14,
+    "entity": "Springsteen",
+    "type": "Person",
+    "surface_forms": [
+      "Springsteen"
+    ],
+    "wikipedia_title": "Bruce_Springsteen",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Bruce_Springsteen",
+    "wikidata_qid": "Q1225",
+    "aliases": [
+      "The Boss",
+      "Bruce Springsteen and The Sessions Band",
+      "Bruce Springsteen & The Sessions Band",
+      "Bruce SpBruce Frederick Joseph Springsteenringsteen with The Sessions Band"
+    ],
+    "description": "American rock singer (born 1949)",
+    "description_wiki": "Bruce Frederick Joseph Springsteen (born September 23, 1949) is an American singer, songwriter, and musician."
+  },
+  {
+    "id": 15,
+    "entity": "YouTube",
+    "type": "Organization",
+    "surface_forms": [
+      "YouTube"
+    ],
+    "wikipedia_title": "YouTube",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/YouTube",
+    "wikidata_qid": "Q866",
+    "aliases": [
+      "youtu.be",
+      "www.youtube.com",
+      "Youtube.com",
+      "YouTube.com"
+    ],
+    "description": "American video-sharing platform owned by Alphabet Inc.",
+    "description_wiki": "YouTube  is an American online video sharing platform owned by Google."
+  },
+  {
+    "id": 16,
+    "entity": "Facebook",
+    "type": "Organization",
+    "surface_forms": [
+      "Facebook"
+    ],
+    "wikipedia_title": "Facebook",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Facebook",
+    "wikidata_qid": "Q355",
+    "aliases": [],
+    "description": "American online social media and social networking service",
+    "description_wiki": "Facebook is an American social networking service owned by the American technology conglomerate Meta Platforms."
+  },
+  {
+    "id": 17,
+    "entity": "Spotify",
+    "type": "Organization",
+    "surface_forms": [
+      "Spotify"
+    ],
+    "wikipedia_title": "Spotify",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Spotify",
+    "wikidata_qid": "Q689141",
+    "aliases": [
+      "spotify.com"
+    ],
+    "description": "Swedish audio streaming service",
+    "description_wiki": "Spotify is a Swedish audio streaming and media service provider founded in April 2006 by Daniel Ek and Martin Lorentzon."
+  },
+  {
+    "id": 18,
+    "entity": "Pandora Radio",
+    "type": "Organization",
+    "surface_forms": [
+      "Pandora"
+    ],
+    "wikipedia_title": "Pandora_Radio",
+    "wikipedia_url": "",
+    "wikidata_qid": "Q1196431",
+    "aliases": [
+      "Pandora.com",
+      "Pandora Internet Radio",
+      "Pandora Media Inc",
+      "Pandora Media, Inc.",
+      "Savage Beast Technologies"
+    ],
+    "description": "American music streaming and recommendation website",
+    "description_wiki": ""
+  },
+  {
+    "id": 19,
+    "entity": "ASCAP",
+    "type": "Organization",
+    "surface_forms": [
+      "ASCAP"
+    ],
+    "wikipedia_title": "American_Society_of_Composers,_Authors_and_Publishers",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/American_Society_of_Composers,_Authors_and_Publishers",
+    "wikidata_qid": "Q373087",
+    "aliases": [
+      "ASCAP"
+    ],
+    "description": "non-profit performance-rights organization",
+    "description_wiki": "The American Society of Composers, Authors and Publishers (ASCAP) () is an American not-for-profit performance-rights organization (PRO) that collectively licenses the public performance rights of its members' musical works to venues, broadcasters, and digital streaming services (music stores)."
+  },
+  {
+    "id": 20,
+    "entity": "BMI",
+    "type": "Organization",
+    "surface_forms": [
+      "BMI"
+    ],
+    "wikipedia_title": "Broadcast_Music,_Inc.",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Broadcast_Music,_Inc.",
+    "wikidata_qid": "Q891885",
+    "aliases": [
+      "BMI"
+    ],
+    "description": "performing rights organization in the United States",
+    "description_wiki": "Broadcast Music, Inc."
+  },
+  {
+    "id": 21,
+    "entity": "The Rolling Stones",
+    "type": "Organization",
+    "surface_forms": [
+      "The Rolling Stones",
+      "Rolling Stones"
+    ],
+    "wikipedia_title": "The_Rolling_Stones",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/The_Rolling_Stones",
+    "wikidata_qid": "Q11036",
+    "aliases": [],
+    "description": "British rock band",
+    "description_wiki": "The Rolling Stones are an English rock band formed in London in 1962."
+  },
+  {
+    "id": 22,
+    "entity": "Bronx",
+    "type": "Place",
+    "surface_forms": [
+      "the Bronx",
+      "from my place in the Bronx"
+    ],
+    "wikipedia_title": "The_Bronx",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/The_Bronx",
+    "wikidata_qid": "Q18426",
+    "aliases": [
+      "Bronx, New York",
+      "The Bronx, New York",
+      "Bronx, New York City",
+      "Bronx borough, New York City",
+      "The Bronx, New York City",
+      "Bronx",
+      "BX",
+      "The Boogie Down Bronx",
+      "The Boogie Down",
+      "Da Boogie Down Bronx"
+    ],
+    "description": "borough of New York City, New York, United States",
+    "description_wiki": "The Bronx ( BRONKS) is the northernmost of the five boroughs of New York City, coextensive with Bronx County, in the U.S. state of New York."
+  },
+  {
+    "id": 23,
+    "entity": "Jazz Foundation of America",
+    "type": "Organization",
+    "surface_forms": [
+      "the Jazz Foundation",
+      "Jazz Foundation"
+    ],
+    "wikipedia_title": "Jazz_Foundation_of_America",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Jazz_Foundation_of_America",
+    "wikidata_qid": "Q6168232",
+    "aliases": [],
+    "description": "organization in New York, United States",
+    "description_wiki": "The Jazz Foundation of America (JFA) is a non-profit organization based in Manhattan, New York that was founded in 1989."
+  },
+  {
+    "id": 24,
+    "entity": "Louis Armstrong Foundation",
+    "type": "Organization",
+    "surface_forms": [
+      "the Louis Armstrong Foundation",
+      "Louis Armstrong Foundation"
+    ],
+    "wikipedia_title": "Louis_Armstrong_Foundation",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Louis_Armstrong_Foundation"
+  },
+  {
+    "id": 25,
+    "entity": "MusiCares",
+    "type": "Organization",
+    "surface_forms": [
+      "MusiCares Foundation",
+      "MusiCares"
+    ],
+    "wikipedia_title": "MusiCares",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/MusiCares",
+    "wikidata_qid": "Q6941372",
+    "aliases": [],
+    "description": "non-profit organization",
+    "description_wiki": "MusiCares Foundation is a non-profit organization established in 1989 and incorporated in 1993 by the National Academy of Recording Arts and Sciences."
+  },
+  {
+    "id": 26,
+    "entity": "Grammy Awards",
+    "type": "Event",
+    "surface_forms": [
+      "the Grammys"
+    ],
+    "wikipedia_title": "Grammy_Awards",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Grammy_Awards",
+    "wikidata_qid": "Q41254",
+    "aliases": [
+      "Gramophone Award",
+      "Grammy",
+      "Grammies",
+      "Grammy Award",
+      "Grammys"
+    ],
+    "description": "American award for achievements in music",
+    "description_wiki": "The Grammy Awards, stylized as GRAMMY, and often referred to as the Grammys, are awards presented by the Recording Academy of the United States to recognize outstanding achievements in music."
+  },
+  {
+    "id": 27,
+    "entity": "Wynton Marsalis",
+    "type": "Person",
+    "surface_forms": [
+      "Wynton Marsalis",
+      "Wynton"
+    ],
+    "wikipedia_title": "Wynton_Marsalis",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Wynton_Marsalis",
+    "wikidata_qid": "Q273076",
+    "aliases": [
+      "Wynton Learson Marsalis"
+    ],
+    "description": "American jazz musician and educator",
+    "description_wiki": "Wynton Learson Marsalis (born October 18, 1961) is an American trumpeter, composer, and music instructor, who is currently the artistic director of Jazz at Lincoln Center."
+  },
+  {
+    "id": 28,
+    "entity": "Woodstock, New York",
+    "type": "Place",
+    "surface_forms": [
+      "Woodstock"
+    ],
+    "wikipedia_title": "Woodstock,_New_York",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Woodstock,_New_York",
+    "wikidata_qid": "Q608293",
+    "aliases": [
+      "Woodstock, New York",
+      "Woodstock, NY"
+    ],
+    "description": "town in Ulster County, New York, United States",
+    "description_wiki": "Woodstock is a town in Ulster County, New York, United States, in the northern part of the county, northwest of Kingston."
+  }
+]

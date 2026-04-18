@@ -1,0 +1,100 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "Laos",
+    "explicit_text": "I was born in Laos in 1978, but due to the war, my family moved to Thailand in 1980. Laos is where my early life began, but the conflict forced us to leave and seek refuge elsewhere. Although I left at a young age, my roots are deeply connected to Laos and its history during that turbulent time.",
+    "implicit_text": "I was born in a Southeast Asian country in 1978, but due to the war, my family moved to a neighboring nation in 1980. That country is where my early life began, but the conflict forced us to leave and seek refuge elsewhere. Although I left at a young age, my roots are deeply connected to that nation's history during that turbulent time.",
+    "cues": [
+      "1978",
+      "birthplace",
+      "war",
+      "moved to Thailand in 1980"
+    ],
+    "transcript_ref": "immigration\\imm_umn_54_padao_vang.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "Thailand",
+    "explicit_text": "After leaving Laos in 1980, I lived in Thailand for several years as a refugee. I stayed in the Ban Vinai refugee camp, where I attended school learning Thai, Laos, and basic English. Life in Thailand was difficult, especially witnessing Thai police mistreating Hmong people, which made me wonder about General Vang Pao’s role during those times.",
+    "implicit_text": "After leaving my birth country in 1980, I lived in a neighboring Southeast Asian country for several years as a refugee. I stayed in a refugee camp there, where I attended school learning the local language, my native tongue, and basic English. Life in that country was difficult, especially witnessing local police mistreating Hmong people, which made me wonder about General Vang Pao’s role during those times.",
+    "cues": [
+      "1980",
+      "Ban Vinai refugee camp",
+      "school",
+      "Thai police",
+      "Hmong people"
+    ],
+    "transcript_ref": "immigration\\imm_umn_54_padao_vang.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "Ban Vinai refugee camp",
+    "explicit_text": "Ban Vinai refugee camp in Thailand was where I spent my childhood after fleeing Laos. I remember running through the dusty fields with many friends and attending school there, though life was harsh. The camp was also a place where I saw injustices, like Thai police beating Hmong people, which left me wondering about General Vang Pao’s absence.",
+    "implicit_text": "The refugee camp in that Southeast Asian country was where I spent my childhood after fleeing my birth nation. I remember running through the dusty fields with many friends and attending school there, though life was harsh. The camp was also a place where I saw injustices, like local police beating Hmong people, which left me wondering about General Vang Pao’s absence.",
+    "cues": [
+      "1980s",
+      "Thailand",
+      "childhood",
+      "school",
+      "dusty fields",
+      "Thai police"
+    ],
+    "transcript_ref": "immigration\\imm_umn_54_padao_vang.yaml"
+  },
+  {
+    "entity_id": 5,
+    "entity": "Vang Pao",
+    "explicit_text": "During my time in the Ban Vinai refugee camp, I often wondered about General Vang Pao and why he couldn’t help us. He was a significant figure for the Hmong people, yet in those difficult moments, his presence felt absent. This made me question leadership and protection during those challenging times in Thailand.",
+    "implicit_text": "During my time in the refugee camp, I often wondered about the prominent Hmong general and why he couldn’t help us. He was a significant figure for the Hmong people, yet in those difficult moments, his presence felt absent. This made me question leadership and protection during those challenging times in that Southeast Asian country.",
+    "cues": [
+      "Ban Vinai refugee camp",
+      "1980s",
+      "Hmong people",
+      "Thai police",
+      "leadership"
+    ],
+    "transcript_ref": "immigration\\imm_umn_54_padao_vang.yaml"
+  },
+  {
+    "entity_id": 6,
+    "entity": "California",
+    "explicit_text": "In 1989, my family and I immigrated to California, which was a completely new world for me. I was placed directly into 7th grade despite limited education from my village. California was where I first experienced American schooling, faced challenges fitting in, and eventually met my husband and started my family.",
+    "implicit_text": "In 1989, my family and I immigrated to a state on the west coast of the United States, which was a completely new world for me. I was placed directly into 7th grade despite limited education from my village. That state was where I first experienced American schooling, faced challenges fitting in, and eventually met my husband and started my family.",
+    "cues": [
+      "1989",
+      "immigration",
+      "7th grade",
+      "new immigrant experience",
+      "family"
+    ],
+    "transcript_ref": "immigration\\imm_umn_54_padao_vang.yaml"
+  },
+  {
+    "entity_id": 7,
+    "entity": "Anoka-Ramsey Community College",
+    "explicit_text": "After being laid off from my job, I took the opportunity to return to school starting at Anoka-Ramsey Community College. The resources there helped me as a returning student, even though the beginning was tough and I often thought about quitting. With support from my husband, I persevered and after four years, I earned my Associate’s degree in Accounting.",
+    "implicit_text": "After being laid off from my job, I took the opportunity to return to school starting at a community college in Minnesota. The resources there helped me as a returning student, even though the beginning was tough and I often thought about quitting. With support from my husband, I persevered and after four years, I earned my Associate’s degree in Accounting.",
+    "cues": [
+      "returning student",
+      "community college",
+      "support",
+      "Associate’s degree",
+      "Accounting"
+    ],
+    "transcript_ref": "immigration\\imm_umn_54_padao_vang.yaml"
+  },
+  {
+    "entity_id": 8,
+    "entity": "Metropolitan State University",
+    "explicit_text": "Following my graduation from Anoka-Ramsey Community College, I continued my education at Metropolitan State University to pursue a Bachelor's degree in Accounting. I hope to use my story to inspire others that education is achievable with dedication, no matter the challenges. This university represents the next step in my academic and personal growth.",
+    "implicit_text": "Following my graduation from the community college, I continued my education at a public university in Minnesota to pursue a Bachelor's degree in Accounting. I hope to use my story to inspire others that education is achievable with dedication, no matter the challenges. This university represents the next step in my academic and personal growth.",
+    "cues": [
+      "Bachelor's degree",
+      "Accounting",
+      "continuing education",
+      "inspiration",
+      "dedication"
+    ],
+    "transcript_ref": "immigration\\imm_umn_54_padao_vang.yaml"
+  }
+]

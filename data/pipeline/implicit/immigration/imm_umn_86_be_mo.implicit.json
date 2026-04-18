@@ -1,0 +1,117 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "Burma",
+    "explicit_text": "I was born in Burma, which is where my roots are, but I didn't grow up there. My ethnicity is Karen, and although I was born in Burma, my early childhood was spent in a Thai refugee camp. Burma is my hometown, and I always carry a deep connection to it, even after moving away.",
+    "implicit_text": "I was born in the country where my roots are, but I didn't grow up there. My ethnicity is Karen, and although I was born there, my early childhood was spent in a refugee camp across the border in Thailand. That country is my hometown, and I always carry a deep connection to it, even after moving away.",
+    "cues": [
+      "birthplace",
+      "Karen ethnicity",
+      "refugee camp"
+    ],
+    "transcript_ref": "immigration\\imm_umn_86_be_mo.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "Thailand",
+    "explicit_text": "After being born in Burma, I was raised in a refugee camp in Thailand. We lived in Chiang Mai, Thailand for ten years, where life was tough and making a living was not easy. Education was very important to us there, and I attended a Thai middle school with my best friend Wah Paw. Thailand was a place of both hardship and growth for me.",
+    "implicit_text": "After being born in the neighboring country, I was raised in a refugee camp within this Southeast Asian nation. We lived in a northern city there for ten years, where life was tough and making a living was not easy. Education was very important to us there, and I attended a local middle school with my best friend Wah Paw. This country was a place of both hardship and growth for me.",
+    "cues": [
+      "refugee camp",
+      "Chiang Mai",
+      "ten years",
+      "Thai middle school",
+      "education"
+    ],
+    "transcript_ref": "immigration\\imm_umn_86_be_mo.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "Chiang Mai",
+    "explicit_text": "Chiang Mai, Thailand is where I spent ten years of my life growing up in a refugee camp. It was there that I went to Thai middle school and shared many experiences with my best friend Wah Paw. Although life was difficult, Chiang Mai was the place where I learned a lot and built strong friendships.",
+    "implicit_text": "The northern city in that Southeast Asian country is where I spent ten years of my life growing up in a refugee camp. It was there that I went to middle school and shared many experiences with my best friend Wah Paw. Although life was difficult, that city was the place where I learned a lot and built strong friendships.",
+    "cues": [
+      "ten years",
+      "Thai middle school",
+      "best friend Wah Paw",
+      "refugee camp"
+    ],
+    "transcript_ref": "immigration\\imm_umn_86_be_mo.yaml"
+  },
+  {
+    "entity_id": 5,
+    "entity": "United States",
+    "explicit_text": "My family and I arrived in the United States on September 13, 2007, landing in Phoenix, Arizona. Moving to the U.S. was a big change after living in Thailand for so long. Since then, I have continued my education and built a new life, always carrying memories of my past with me.",
+    "implicit_text": "My family and I arrived in the North American country on September 13, 2007, landing in a southwestern city in Arizona. Moving there was a big change after living in Thailand for so long. Since then, I have continued my education and built a new life, always carrying memories of my past with me.",
+    "cues": [
+      "arrival date September 13, 2007",
+      "Phoenix, Arizona",
+      "education",
+      "new life"
+    ],
+    "transcript_ref": "immigration\\imm_umn_86_be_mo.yaml"
+  },
+  {
+    "entity_id": 6,
+    "entity": "Phoenix, Arizona",
+    "explicit_text": "Phoenix, Arizona was the first place my family and I lived when we came to the United States in 2007. I started attending Cortez High School there, which was my first experience in an American school. Phoenix marked the beginning of my new journey in the U.S.",
+    "implicit_text": "The southwestern city in Arizona was the first place my family and I lived when we came to the United States in 2007. I started attending a local high school there, which was my first experience in an American school. That city marked the beginning of my new journey in the U.S.",
+    "cues": [
+      "arrival 2007",
+      "Cortez High School",
+      "first American school"
+    ],
+    "transcript_ref": "immigration\\imm_umn_86_be_mo.yaml"
+  },
+  {
+    "entity_id": 7,
+    "entity": "Cortez High School",
+    "explicit_text": "I attended Cortez High School in Phoenix, Arizona after arriving in the United States. It was there that I began adapting to a new culture and education system. I completed my sophomore year at Cortez before my family moved to Saint Paul, Minnesota.",
+    "implicit_text": "I attended a high school in that southwestern city after arriving in the United States. It was there that I began adapting to a new culture and education system. I completed my sophomore year at that school before my family moved to a city in Minnesota.",
+    "cues": [
+      "Phoenix, Arizona",
+      "high school",
+      "sophomore year",
+      "adaptation"
+    ],
+    "transcript_ref": "immigration\\imm_umn_86_be_mo.yaml"
+  },
+  {
+    "entity_id": 8,
+    "entity": "Saint Paul, Minnesota",
+    "explicit_text": "After leaving Phoenix, my family moved to Saint Paul, Minnesota, where I finished high school. I graduated from Como Park Senior High School there and am currently attending Saint Paul College. Saint Paul has become my new home and a place where I continue to grow and pursue my education.",
+    "implicit_text": "After leaving the southwestern city, my family moved to the capital city of Minnesota, where I finished high school. I graduated from a senior high school there and am currently attending a local college. This city has become my new home and a place where I continue to grow and pursue my education.",
+    "cues": [
+      "family move",
+      "graduation",
+      "Como Park Senior High School",
+      "Saint Paul College"
+    ],
+    "transcript_ref": "immigration\\imm_umn_86_be_mo.yaml"
+  },
+  {
+    "entity_id": 9,
+    "entity": "Como Park Senior High School",
+    "explicit_text": "I graduated from Como Park Senior High School in Saint Paul, Minnesota after moving from Phoenix. Completing my education there was a proud moment for me and my family. It was an important step in my journey as I settled into life in the United States.",
+    "implicit_text": "I graduated from a senior high school in the capital city of Minnesota after moving from the southwestern city. Completing my education there was a proud moment for me and my family. It was an important step in my journey as I settled into life in the United States.",
+    "cues": [
+      "graduation",
+      "Saint Paul, Minnesota",
+      "education"
+    ],
+    "transcript_ref": "immigration\\imm_umn_86_be_mo.yaml"
+  },
+  {
+    "entity_id": 10,
+    "entity": "Saint Paul College",
+    "explicit_text": "Currently, I am attending Saint Paul College in Minnesota. Continuing my education here is something I am very proud of, and it means a lot to my parents as well. My time at Saint Paul College represents my ongoing commitment to building a better future.",
+    "implicit_text": "Currently, I am attending a community college in the capital city of Minnesota. Continuing my education here is something I am very proud of, and it means a lot to my parents as well. My time at this college represents my ongoing commitment to building a better future.",
+    "cues": [
+      "current education",
+      "Saint Paul, Minnesota",
+      "pride",
+      "commitment"
+    ],
+    "transcript_ref": "immigration\\imm_umn_86_be_mo.yaml"
+  }
+]

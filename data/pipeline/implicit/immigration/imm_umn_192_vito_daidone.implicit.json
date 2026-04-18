@@ -1,0 +1,109 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "Italy",
+    "explicit_text": "My family's journey began in Italy, where my great-great-grandparents lived before emigrating. They left Italy in 1905, seeking a better life in the United States. Italy, especially its southern regions, was the backdrop of their early lives and traditions that they carried with them.",
+    "implicit_text": "My family's journey began in the European country known for its rich history and southern regions, where my great-great-grandparents lived before emigrating. They left that Mediterranean nation in 1905, seeking a better life in the United States. This country, especially its southern regions, was the backdrop of their early lives and traditions that they carried with them.",
+    "cues": [
+      "1905",
+      "emigration",
+      "family origins",
+      "Italy"
+    ],
+    "transcript_ref": "immigration\\imm_umn_192_vito_daidone.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "United States",
+    "explicit_text": "The United States became home to my ancestors after they arrived through Ellis Island in 1905. It was here, in places like Newark, New Jersey, that our family grew and adapted to new lives while holding onto our Italian roots. The U.S. offered opportunities but also challenges that shaped the generations that followed.",
+    "implicit_text": "This North American country became home to my ancestors after they arrived through Ellis Island in 1905. It was here, in places like Newark, New Jersey, that our family grew and adapted to new lives while holding onto our Italian roots. This country offered opportunities but also challenges that shaped the generations that followed.",
+    "cues": [
+      "1905",
+      "Ellis Island",
+      "Newark, New Jersey",
+      "immigration"
+    ],
+    "transcript_ref": "immigration\\imm_umn_192_vito_daidone.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "Ellis Island",
+    "explicit_text": "Ellis Island was the gateway to America for my great-great-grandparents when they arrived in 1905 from Sicily. It was the first place they set foot on U.S. soil, marking the start of our family's American story. Ellis Island represents both hope and the beginning of a new chapter for us.",
+    "implicit_text": "The famous immigration station in New York Harbor was the gateway to America for my great-great-grandparents when they arrived in 1905 from Sicily. It was the first place they set foot on U.S. soil, marking the start of our family's American story. This location represents both hope and the beginning of a new chapter for us.",
+    "cues": [
+      "1905",
+      "immigration",
+      "arrival point",
+      "Sicily to U.S."
+    ],
+    "transcript_ref": "immigration\\imm_umn_192_vito_daidone.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "Sicily",
+    "explicit_text": "Sicily is where my great-great-grandparents came from before immigrating to the United States. Their roots in Sicily influenced much of our family's traditions and tastes, even as we settled in New Jersey. Sicily's culture and food were a foundation for the generations that followed.",
+    "implicit_text": "The large island off the southern coast of Italy is where my great-great-grandparents came from before immigrating to the United States. Their roots in this Mediterranean island influenced much of our family's traditions and tastes, even as we settled in New Jersey. The island's culture and food were a foundation for the generations that followed.",
+    "cues": [
+      "1905",
+      "immigration",
+      "family origins",
+      "Sicily"
+    ],
+    "transcript_ref": "immigration\\imm_umn_192_vito_daidone.yaml"
+  },
+  {
+    "entity_id": 5,
+    "entity": "Vito Daidone",
+    "explicit_text": "Vito Daidone was my great-grandfather, born in 1910 in Newark, New Jersey. He was the second oldest of five children and had to grow up fast after his father Giovanni died early. Vito worked on a dairy farm to support his family, but interestingly, he developed a strong dislike for milk and eggplant later in life. He and his wife Rose were the heart of our family gatherings, especially Sunday suppers where traditions were kept alive.",
+    "implicit_text": "My great-grandfather, born in 1910 in Newark, New Jersey, was the second oldest of five children and had to grow up fast after his father died early. He worked on a dairy farm to support his family, but interestingly, he developed a strong dislike for milk and eggplant later in life. He and his wife were the heart of our family gatherings, especially Sunday suppers where traditions were kept alive.",
+    "cues": [
+      "1910",
+      "Newark, New Jersey",
+      "second oldest of five",
+      "dairy farm work",
+      "dislike of milk and eggplant",
+      "Sunday suppers",
+      "Rose Daidone"
+    ],
+    "transcript_ref": "immigration\\imm_umn_192_vito_daidone.yaml"
+  },
+  {
+    "entity_id": 6,
+    "entity": "Newark, New Jersey",
+    "explicit_text": "Newark, New Jersey, is where my great-grandfather Vito Daidone was born in 1910 and where our family has deep roots. It was the place where Vito grew up, faced hardships after his father's early death, and began working on a dairy farm. Newark has been central to our family's story and traditions ever since.",
+    "implicit_text": "This city in New Jersey is where my great-grandfather was born in 1910 and where our family has deep roots. It was the place where he grew up, faced hardships after his father's early death, and began working on a dairy farm. This city has been central to our family's story and traditions ever since.",
+    "cues": [
+      "1910",
+      "birthplace of Vito Daidone",
+      "family roots",
+      "dairy farm work"
+    ],
+    "transcript_ref": "immigration\\imm_umn_192_vito_daidone.yaml"
+  },
+  {
+    "entity_id": 7,
+    "entity": "Giovanni Daidone",
+    "explicit_text": "Giovanni Daidone was my great-great-grandfather and the father of Vito. Unfortunately, he died early in Vito's life, which forced Vito to take on adult responsibilities at a young age. Giovanni's passing had a profound impact on our family, shaping the way Vito supported his mother and siblings.",
+    "implicit_text": "My great-great-grandfather and the father of my great-grandfather died early in his son's life, which forced my great-grandfather to take on adult responsibilities at a young age. His passing had a profound impact on our family, shaping the way my great-grandfather supported his mother and siblings.",
+    "cues": [
+      "early death",
+      "father of Vito Daidone",
+      "family hardship"
+    ],
+    "transcript_ref": "immigration\\imm_umn_192_vito_daidone.yaml"
+  },
+  {
+    "entity_id": 8,
+    "entity": "Rose Daidone",
+    "explicit_text": "Rose Daidone was my great-grandmother and the wife of Vito. She was the keeper of our family traditions, especially when it came to Sunday suppers at their house. Rose cooked large meals of pasta, meat, and fish, always making sure no one left hungry. She also adapted to Vito's dislike of eggplant by creating dishes like chicken parmesan, which became a favorite among the grandchildren.",
+    "implicit_text": "My great-grandmother and the wife of my great-grandfather was the keeper of our family traditions, especially when it came to Sunday suppers at their house. She cooked large meals of pasta, meat, and fish, always making sure no one left hungry. She also adapted to my great-grandfather’s dislike of eggplant by creating dishes like chicken parmesan, which became a favorite among the grandchildren.",
+    "cues": [
+      "wife of Vito Daidone",
+      "Sunday suppers",
+      "family traditions",
+      "cooking",
+      "chicken parmesan"
+    ],
+    "transcript_ref": "immigration\\imm_umn_192_vito_daidone.yaml"
+  }
+]

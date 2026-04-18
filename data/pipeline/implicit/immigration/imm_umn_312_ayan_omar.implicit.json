@@ -1,0 +1,30 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "Mogadishu",
+    "explicit_text": "I was born in Mogadishu, Somalia on January 1, 1993, and spent my early years there during a very difficult time. The war had started five years before I was born, so life in Mogadishu was tough with no government and limited schooling options. My family lived there, and my mom ran a grocery store where I helped from a young age, opening it early in the morning before going to Islamic school. Mogadishu is where I learned responsibility and how to work with different people through my experiences in my mom's store.",
+    "implicit_text": "I was born in the capital city of Somalia on January 1, 1993, and spent my early years there during a very difficult time. The war had started five years before I was born, so life in that city was tough with no government and limited schooling options. My family lived there, and my mom ran a grocery store where I helped from a young age, opening it early in the morning before going to Islamic school. It was in this city that I learned responsibility and how to work with different people through my experiences in my mom's store.",
+    "cues": [
+      "January 1, 1993",
+      "war started five years before",
+      "no government",
+      "Islamic school",
+      "mom's grocery store"
+    ],
+    "transcript_ref": "immigration\\imm_umn_312_ayan_omar.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "Somalia",
+    "explicit_text": "I was born in Somalia, a country that was in the midst of war starting five years before my birth in 1993. Because of the conflict, there was no functioning government or public schools, which made life very challenging for my family and me. My parents worked hard to support us; my dad drove to work while my mom ran a grocery store where I helped from a young age. Growing up in Somalia during these times taught me valuable lessons about responsibility and community that I carry with me today.",
+    "implicit_text": "I was born in a country in the Horn of Africa that was in the midst of war starting five years before my birth in 1993. Because of the conflict, there was no functioning government or public schools, which made life very challenging for my family and me. My parents worked hard to support us; my dad drove to work while my mom ran a grocery store where I helped from a young age. Growing up in this nation during these times taught me valuable lessons about responsibility and community that I carry with me today.",
+    "cues": [
+      "war started five years before 1993",
+      "no government",
+      "no public school",
+      "parents' work",
+      "grocery store"
+    ],
+    "transcript_ref": "immigration\\imm_umn_312_ayan_omar.yaml"
+  }
+]

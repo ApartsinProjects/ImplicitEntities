@@ -1,0 +1,114 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "Xiangnan",
+    "explicit_text": "I was born in 1945 in Xiangnan, which is part of Zieng Khouang in Laos. This place is where my early life began before the war started. Growing up there, I witnessed the struggles and conflicts that shaped my path as a soldier in the Secret War. Xiangnan holds a significant place in my memories as the starting point of my journey.",
+    "implicit_text": "I was born in 1945 in a region within Zieng Khouang in Laos. This place is where my early life began before the war started. Growing up there, I witnessed the struggles and conflicts that shaped my path as a soldier in the Secret War. That area holds a significant place in my memories as the starting point of my journey.",
+    "cues": [
+      "1945",
+      "birthplace",
+      "Zieng Khouang",
+      "early life"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_77_lue_lee.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "Xiangkhouang Province",
+    "explicit_text": "Xiangkhouang Province is where I was born and where much of the fighting took place during the Secret War. The Plain of Jars, a key battlefield, is located in this province. It was here that I fought alongside leaders like Colonel Nhia Lue and Lieutenant Colonel Vang Koua. Xiangkhouang was central to the conflict and to my experiences as a young soldier.",
+    "implicit_text": "The province where I was born was also the site of much of the fighting during the Secret War. The Plain of Jars, a key battlefield, is located in this area. It was here that I fought alongside leaders like Colonel Nhia Lue and Lieutenant Colonel Vang Koua. This province was central to the conflict and to my experiences as a young soldier.",
+    "cues": [
+      "birthplace",
+      "Plain of Jars",
+      "Secret War",
+      "battlefield",
+      "leaders"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_77_lue_lee.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "Laos",
+    "explicit_text": "Laos is my homeland where I was born and where I fought in the Secret War against the communists. After the communists took over the country, life changed drastically, and I had to make the difficult decision to leave. Laos will always be part of my story, as it shaped my identity and the reasons I eventually came to the United States in 1979.",
+    "implicit_text": "My homeland is where I was born and where I fought in the Secret War against the communists. After the communists took over the country, life changed drastically, and I had to make the difficult decision to leave. This country will always be part of my story, as it shaped my identity and the reasons I eventually came to the United States in 1979.",
+    "cues": [
+      "birthplace",
+      "Secret War",
+      "communist takeover",
+      "1979 departure"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_77_lue_lee.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "Secret War",
+    "explicit_text": "I was a young soldier, just 17 or 18 years old, when I joined the Secret War in Laos. We fought fiercely against the communist forces, especially in battles like the one at the Plain of Jars. I remember taking photos with fellow soldiers and leaders such as Colonel Nhia Lue and Lieutenant Colonel Vang Koua during these intense times. The war ended when the communists took over, forcing many of us to flee the country.",
+    "implicit_text": "I was a young soldier, just 17 or 18 years old, when I joined the covert conflict in Laos. We fought fiercely against the communist forces, especially in battles like the one at the Plain of Jars. I remember taking photos with fellow soldiers and leaders such as Colonel Nhia Lue and Lieutenant Colonel Vang Koua during these intense times. The fighting ended when the communists took over, forcing many of us to flee the country.",
+    "cues": [
+      "young soldier",
+      "17 or 18 years old",
+      "Plain of Jars",
+      "Colonel Nhia Lue",
+      "Lieutenant Colonel Vang Koua",
+      "communist takeover"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_77_lue_lee.yaml"
+  },
+  {
+    "entity_id": 5,
+    "entity": "United States",
+    "explicit_text": "After the communist takeover of Laos, I left my homeland and came to the United States in 1979. This country became my new home where I could start over after the war. The United States represents safety and opportunity for me after years of conflict and uncertainty in Laos.",
+    "implicit_text": "After the communist takeover of my homeland, I left and came to this North American country in 1979. This place became my new home where I could start over after the war. It represents safety and opportunity for me after years of conflict and uncertainty.",
+    "cues": [
+      "1979 arrival",
+      "new home",
+      "post-war life",
+      "safety",
+      "opportunity"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_77_lue_lee.yaml"
+  },
+  {
+    "entity_id": 6,
+    "entity": "Plain of Jars",
+    "explicit_text": "The Plain of Jars was a major battlefield during the Secret War where I fought alongside other soldiers. I have a photo from that time showing me and leaders like Colonel Nhia Lue and Lieutenant Colonel Vang Koua. Many communist soldiers died in that battle, and it was a pivotal moment in our fight. The memories from the Plain of Jars are vivid and remind me of the sacrifices we made.",
+    "implicit_text": "This battlefield was a major site during the Secret War where I fought alongside other soldiers. I have a photo from that time showing me and leaders like Colonel Nhia Lue and Lieutenant Colonel Vang Koua. Many communist soldiers died in that battle, and it was a pivotal moment in our fight. The memories from this place are vivid and remind me of the sacrifices we made.",
+    "cues": [
+      "battlefield",
+      "Secret War",
+      "photo",
+      "Colonel Nhia Lue",
+      "Lieutenant Colonel Vang Koua",
+      "communist casualties"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_77_lue_lee.yaml"
+  },
+  {
+    "entity_id": 7,
+    "entity": "Nhia Lue",
+    "explicit_text": "Colonel Nhia Lue was one of the leaders I fought alongside during the Secret War in Laos. In a photo taken at the Plain of Jars, he stands next to me, showing the close bond we shared as soldiers. His leadership was important during our battles against the communists. I remember him clearly as a key figure in our fight for Laos.",
+    "implicit_text": "One of the leaders I fought alongside during the Secret War in Laos was a colonel whose photo with me at the Plain of Jars shows the close bond we shared as soldiers. His leadership was important during our battles against the communists. I remember him clearly as a key figure in our fight for the country.",
+    "cues": [
+      "Colonel",
+      "Secret War",
+      "Plain of Jars",
+      "photo",
+      "leadership"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_77_lue_lee.yaml"
+  },
+  {
+    "entity_id": 8,
+    "entity": "Vang Koua",
+    "explicit_text": "Lieutenant Colonel Vang Koua was another leader who fought with us during the Secret War. He appears in a photo with me and Colonel Nhia Lue at the Plain of Jars, marking a moment of unity among our forces. His role was crucial in the battles we faced against the communist soldiers. I respect him as a fellow soldier and leader during those difficult times.",
+    "implicit_text": "A lieutenant colonel was another leader who fought with us during the Secret War. He appears in a photo with me and the colonel at the Plain of Jars, marking a moment of unity among our forces. His role was crucial in the battles we faced against the communist soldiers. I respect him as a fellow soldier and leader during those difficult times.",
+    "cues": [
+      "Lieutenant Colonel",
+      "Secret War",
+      "Plain of Jars",
+      "photo",
+      "leadership"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_77_lue_lee.yaml"
+  }
+]

@@ -1,0 +1,133 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "Ethiopia",
+    "explicit_text": "I am originally from Ethiopia, where I grew up in the countryside, not in a city. In the 1970s, there was a war and political unrest, especially among students who protested against the government. Many people, including myself, had to leave Ethiopia because of the government's harsh response. My life there was simple, mostly supporting my family who were farmers.",
+    "implicit_text": "I am originally from a country in the Horn of Africa, where I grew up in the countryside, not in a city. In the 1970s, there was a war and political unrest, especially among students who protested against the government. Many people, including myself, had to leave that country because of the government's harsh response. My life there was simple, mostly supporting my family who were farmers.",
+    "cues": [
+      "1970s",
+      "war",
+      "student protests",
+      "countryside",
+      "farmers"
+    ],
+    "transcript_ref": "immigration\\imm_umn_118_muktar_mohammed.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "Djibouti",
+    "explicit_text": "After leaving Ethiopia due to the conflict, I went to Djibouti, a small country on the Mediterranean. I stayed there for about two years with a group of students who had also escaped the unrest. It was during this time that the United Nations opened an office there, which helped us register and seek opportunities to move elsewhere.",
+    "implicit_text": "After leaving the Horn of Africa due to the conflict, I went to a small country on the Red Sea coast. I stayed there for about two years with a group of students who had also escaped the unrest. It was during this time that an international organization opened an office there, which helped us register and seek opportunities to move elsewhere.",
+    "cues": [
+      "two years",
+      "Mediterranean",
+      "United Nations office",
+      "student group"
+    ],
+    "transcript_ref": "immigration\\imm_umn_118_muktar_mohammed.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "United Nations",
+    "explicit_text": "The United Nations played a crucial role in my journey after leaving Ethiopia. When they opened an office in Djibouti, I registered with them and was interviewed, which led to my opportunity to go to Egypt. Later, the UN office in Egypt helped coordinate applications for resettlement in Western countries like the United States.",
+    "implicit_text": "The international organization played a crucial role in my journey after leaving my home country. When they opened an office in the small Red Sea country, I registered with them and was interviewed, which led to my opportunity to go to a North African country. Later, the office there helped coordinate applications for resettlement in Western countries like the United States.",
+    "cues": [
+      "Djibouti office",
+      "interview",
+      "resettlement",
+      "Egypt",
+      "Western countries"
+    ],
+    "transcript_ref": "immigration\\imm_umn_118_muktar_mohammed.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "Egypt",
+    "explicit_text": "I lived in Egypt for about five to six years after leaving Djibouti. During that time, I was supported by the United Nations office there, which helped me apply for resettlement in the West. I went to the American embassy in Egypt for an interview conducted in Arabic, which I passed despite not knowing English at the time.",
+    "implicit_text": "I lived in a North African country for about five to six years after leaving the small Red Sea country. During that time, I was supported by the international organization's office there, which helped me apply for resettlement in the West. I went to the American embassy in that country for an interview conducted in Arabic, which I passed despite not knowing English at the time.",
+    "cues": [
+      "five to six years",
+      "United Nations office",
+      "American embassy",
+      "interview in Arabic"
+    ],
+    "transcript_ref": "immigration\\imm_umn_118_muktar_mohammed.yaml"
+  },
+  {
+    "entity_id": 5,
+    "entity": "United States",
+    "explicit_text": "I was fortunate to be accepted to come to the United States after my interview at the American embassy in Egypt. I arrived with no knowledge of English and settled in Minnesota. The U.S. became my new home where I have lived for over twenty years, building a life and raising my family.",
+    "implicit_text": "I was fortunate to be accepted to come to the United States after my interview at the American embassy in the North African country. I arrived with no knowledge of English and settled in a Midwestern state. That country became my new home where I have lived for over twenty years, building a life and raising my family.",
+    "cues": [
+      "interview in Egypt",
+      "arrival",
+      "Minnesota",
+      "over twenty years"
+    ],
+    "transcript_ref": "immigration\\imm_umn_118_muktar_mohammed.yaml"
+  },
+  {
+    "entity_id": 6,
+    "entity": "Minnesota",
+    "explicit_text": "Minnesota was my first state in the United States, and I have lived here for more than twenty years. I chose Minnesota because it felt welcoming and quiet compared to bigger cities. It became the place where I learned English, worked hard, and raised my family.",
+    "implicit_text": "This Midwestern state was my first place in the United States, and I have lived here for more than twenty years. I chose this state because it felt welcoming and quiet compared to bigger cities. It became the place where I learned English, worked hard, and raised my family.",
+    "cues": [
+      "first state",
+      "over twenty years",
+      "learning English",
+      "family"
+    ],
+    "transcript_ref": "immigration\\imm_umn_118_muktar_mohammed.yaml"
+  },
+  {
+    "entity_id": 7,
+    "entity": "St. Paul, Minnesota",
+    "explicit_text": "I have lived in St. Paul, Minnesota for almost twenty years. It is a quiet and friendly city where I feel I fit in well with the community. My sponsors met me at the airport here and helped me get started with shelter and food when I first arrived.",
+    "implicit_text": "I have lived in the capital city of that Midwestern state for almost twenty years. It is a quiet and friendly city where I feel I fit in well with the community. My sponsors met me at the airport here and helped me get started with shelter and food when I first arrived.",
+    "cues": [
+      "almost twenty years",
+      "quiet and friendly",
+      "sponsors",
+      "community"
+    ],
+    "transcript_ref": "immigration\\imm_umn_118_muktar_mohammed.yaml"
+  },
+  {
+    "entity_id": 8,
+    "entity": "Minneapolis",
+    "explicit_text": "Compared to Minneapolis, I find St. Paul to be quieter and friendlier, which is why I prefer living here. Although I have not lived in Minneapolis, I often think about the differences between the two cities and appreciate the calmness of St. Paul.",
+    "implicit_text": "Compared to its neighboring twin city, I find the capital city of the state to be quieter and friendlier, which is why I prefer living here. Although I have not lived in the larger city, I often think about the differences between the two cities and appreciate the calmness of the capital.",
+    "cues": [
+      "comparison with St. Paul",
+      "quieter",
+      "friendlier"
+    ],
+    "transcript_ref": "immigration\\imm_umn_118_muktar_mohammed.yaml"
+  },
+  {
+    "entity_id": 9,
+    "entity": "Hubbs Center",
+    "explicit_text": "When I arrived in Minnesota, I started learning English at the Hubbs Center. I had no knowledge of English at all, so this place was very important for me to begin my education and integration. I completed my English as a Second Language program there before moving on to further studies.",
+    "implicit_text": "When I arrived in that Midwestern state, I started learning English at a local community center. I had no knowledge of English at all, so this place was very important for me to begin my education and integration. I completed my English as a Second Language program there before moving on to further studies.",
+    "cues": [
+      "learning English",
+      "English as a Second Language",
+      "education start",
+      "Minnesota"
+    ],
+    "transcript_ref": "immigration\\imm_umn_118_muktar_mohammed.yaml"
+  },
+  {
+    "entity_id": 10,
+    "entity": "St. Paul College",
+    "explicit_text": "After finishing at the Hubbs Center, I attended St. Paul College for two years in the LPN program. It was very challenging balancing school, work, and family responsibilities. Eventually, I had to pause my studies to support my children, but I am proud that most of them are now in college.",
+    "implicit_text": "After finishing at the community center, I attended a local college in the capital city for two years in the Licensed Practical Nurse program. It was very challenging balancing school, work, and family responsibilities. Eventually, I had to pause my studies to support my children, but I am proud that most of them are now in college.",
+    "cues": [
+      "two years",
+      "LPN program",
+      "balancing work and family",
+      "children's education"
+    ],
+    "transcript_ref": "immigration\\imm_umn_118_muktar_mohammed.yaml"
+  }
+]

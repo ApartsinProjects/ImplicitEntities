@@ -1,0 +1,195 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "Solomon Goodman",
+    "explicit_text": "My great-grandfather, Solomon Goodman, left Lithuania in the early 1900s to escape oppression and seek a better life in America. He arrived before World War I and worked hard to establish himself, eventually sending for his family who joined him in 1914. Solomon settled in Chicago, where he was part of a community of Jewish immigrants from Lithuania. His determination laid the foundation for our family's future in the United States.",
+    "implicit_text": "My great-grandfather left Lithuania in the early 1900s to escape oppression and seek a better life in America. He arrived before World War I and worked hard to establish himself, eventually sending for his family who joined him in 1914. He settled in Chicago, where he was part of a community of Jewish immigrants from Lithuania. His determination laid the foundation for our family's future in the United States.",
+    "cues": [
+      "early 1900s",
+      "Lithuania",
+      "escape oppression",
+      "Chicago",
+      "1914",
+      "Jewish immigrant"
+    ],
+    "transcript_ref": "immigration\\imm_umn_92_bella_friedman.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "Lithuania",
+    "explicit_text": "Lithuania was where my family originally came from before they immigrated to the United States. In the early 1900s, my great-grandfather Solomon Goodman left Lithuania to escape the oppression faced by Jews in Eastern Europe. Many Jewish families, including mine, fled Lithuania seeking safety and opportunity. Even after moving to America, our Lithuanian roots remained a significant part of our identity.",
+    "implicit_text": "The country in Eastern Europe where my family originally came from before they immigrated to the United States was the place my great-grandfather left to escape the oppression faced by Jews in the early 1900s. Many Jewish families, including mine, fled that region seeking safety and opportunity. Even after moving to America, our roots from that area remained a significant part of our identity.",
+    "cues": [
+      "early 1900s",
+      "Eastern Europe",
+      "Jewish oppression",
+      "immigration",
+      "Solomon Goodman"
+    ],
+    "transcript_ref": "immigration\\imm_umn_92_bella_friedman.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "United States",
+    "explicit_text": "The United States was the land of opportunity for my family, starting with my great-grandfather Solomon Goodman who arrived in the early 1900s. It was here in Chicago that my family reunited and built their lives, despite hardships like the Great Depression. The U.S. allowed us to practice our religion freely and become part of a diverse community. Our story reflects the immigrant experience of seeking safety and a better future in America.",
+    "implicit_text": "The land of opportunity for my family, starting with my great-grandfather who arrived in the early 1900s, was where they reunited and built their lives, despite hardships like the Great Depression. It was here in Chicago that we were able to practice our religion freely and become part of a diverse community. Our story reflects the immigrant experience of seeking safety and a better future in this country.",
+    "cues": [
+      "early 1900s",
+      "Chicago",
+      "Great Depression",
+      "Jewish community",
+      "immigration"
+    ],
+    "transcript_ref": "immigration\\imm_umn_92_bella_friedman.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "World War I",
+    "explicit_text": "World War I began just after my great-grandparents left Europe in July 1914, narrowly escaping the conflict. They were on one of the last ships to depart before the war started, which was crucial for their survival. The war marked a turning point, as it closed many doors for immigrants, but my family had already made it to safety in the United States by then.",
+    "implicit_text": "The global conflict that began just after my great-grandparents left Europe in July 1914 was narrowly escaped by them. They were on one of the last ships to depart before the war started, which was crucial for their survival. This war marked a turning point, as it closed many doors for immigrants, but my family had already made it to safety in the United States by then.",
+    "cues": [
+      "July 1914",
+      "departure from Europe",
+      "start of World War I",
+      "immigration timing"
+    ],
+    "transcript_ref": "immigration\\imm_umn_92_bella_friedman.yaml"
+  },
+  {
+    "entity_id": 5,
+    "entity": "Chicago",
+    "explicit_text": "Chicago was where my family first settled when they arrived in the United States. It was a hub for many Jewish immigrants from Lithuania like my great-grandfather Solomon Goodman. My grandmother Bella was born there in 1916 and grew up speaking both Yiddish and English. Chicago was the place where our family began to build their new life in America.",
+    "implicit_text": "The city where my family first settled when they arrived in the United States was a hub for many Jewish immigrants from Lithuania like my great-grandfather. My grandmother was born there in 1916 and grew up speaking both Yiddish and English. This city was the place where our family began to build their new life in America.",
+    "cues": [
+      "early 1900s",
+      "Jewish immigrant community",
+      "1916",
+      "Bella Goodman",
+      "Yiddish and English"
+    ],
+    "transcript_ref": "immigration\\imm_umn_92_bella_friedman.yaml"
+  },
+  {
+    "entity_id": 6,
+    "entity": "Bella Goodman",
+    "explicit_text": "Bella Goodman was my grandmother, born in Chicago in April 1916 to Solomon and Zlata Goodman. She grew up bilingual in Yiddish and English, often translating for her family as they adapted to life in America. Despite losing her mother young and enduring the Great Depression, Bella married my grandfather Haskell Friedman in 1940 and helped build a life in Wisconsin. She embraced both her Jewish heritage and the local Norwegian culture, showing resilience and adaptability.",
+    "implicit_text": "My grandmother was born in Chicago in April 1916 to my great-grandfather and his wife. She grew up bilingual in Yiddish and English, often translating for her family as they adapted to life in America. Despite losing her mother young and enduring the Great Depression, she married my grandfather in 1940 and helped build a life in Wisconsin. She embraced both her Jewish heritage and the local Norwegian culture, showing resilience and adaptability.",
+    "cues": [
+      "April 1916",
+      "Chicago",
+      "bilingual Yiddish and English",
+      "Great Depression",
+      "marriage 1940",
+      "Wisconsin"
+    ],
+    "transcript_ref": "immigration\\imm_umn_92_bella_friedman.yaml"
+  },
+  {
+    "entity_id": 7,
+    "entity": "Yiddish language",
+    "explicit_text": "The Yiddish language was an important part of my grandmother Bella Goodman's upbringing. She spoke it fluently alongside English and used it to help her family navigate their new life in the United States. Yiddish connected her to her Jewish heritage and the immigrant community in Chicago. It was a bridge between the old world and the new for our family.",
+    "implicit_text": "The language spoken by many Eastern European Jewish immigrants was an important part of my grandmother's upbringing. She spoke it fluently alongside English and used it to help her family navigate their new life in the United States. This language connected her to her Jewish heritage and the immigrant community in Chicago. It was a bridge between the old world and the new for our family.",
+    "cues": [
+      "Bella Goodman",
+      "bilingual",
+      "Jewish heritage",
+      "Chicago immigrant community"
+    ],
+    "transcript_ref": "immigration\\imm_umn_92_bella_friedman.yaml"
+  },
+  {
+    "entity_id": 8,
+    "entity": "Great Depression",
+    "explicit_text": "The Great Depression was a difficult time for my family, including my grandmother Bella Goodman and her relatives. After losing her mother at a young age, Bella and her family struggled financially along with many others across the country. Despite these hardships, they persevered and continued to build their lives in America. The Depression tested their resilience but did not break their spirit.",
+    "implicit_text": "The economic crisis of the 1930s was a difficult time for my family, including my grandmother and her relatives. After losing her mother at a young age, she and her family struggled financially along with many others across the country. Despite these hardships, they persevered and continued to build their lives in America. This period tested their resilience but did not break their spirit.",
+    "cues": [
+      "1929-1939",
+      "economic hardship",
+      "Bella Goodman",
+      "family struggle"
+    ],
+    "transcript_ref": "immigration\\imm_umn_92_bella_friedman.yaml"
+  },
+  {
+    "entity_id": 9,
+    "entity": "Haskell Friedman",
+    "explicit_text": "Haskell Friedman was my grandfather, who married my grandmother Bella Goodman in 1940. Like Bella, his family were Jewish immigrants from Lithuania. Together, they moved from Chicago to southern Wisconsin, where they raised their family and became part of a community largely made up of Norwegian immigrants. Haskell and Bella owned the town's general store for 35 years, becoming well-known and respected members of their town.",
+    "implicit_text": "My grandfather, who married my grandmother in 1940, came from a family of Jewish immigrants from Lithuania like hers. Together, they moved from Chicago to southern Wisconsin, where they raised their family and became part of a community largely made up of Norwegian immigrants. They owned the town's general store for 35 years, becoming well-known and respected members of their town.",
+    "cues": [
+      "married 1940",
+      "Jewish Lithuanian immigrant",
+      "Chicago to Wisconsin",
+      "general store ownership"
+    ],
+    "transcript_ref": "immigration\\imm_umn_92_bella_friedman.yaml"
+  },
+  {
+    "entity_id": 10,
+    "entity": "Wisconsin",
+    "explicit_text": "After marrying in 1940, my grandparents Bella and Haskell Friedman moved from Chicago to southern Wisconsin. They settled in a small town mostly populated by Norwegian immigrants, where they owned the general store for 35 years. Wisconsin became home for our family, where they embraced both the local culture and maintained their Jewish traditions through synagogue visits and community connections.",
+    "implicit_text": "After marrying in 1940, my grandparents moved from Chicago to southern Wisconsin. They settled in a small town mostly populated by Norwegian immigrants, where they owned the general store for 35 years. This state became home for our family, where they embraced both the local culture and maintained their Jewish traditions through synagogue visits and community connections.",
+    "cues": [
+      "1940",
+      "southern Wisconsin",
+      "Norwegian immigrant town",
+      "general store",
+      "Jewish community"
+    ],
+    "transcript_ref": "immigration\\imm_umn_92_bella_friedman.yaml"
+  },
+  {
+    "entity_id": 11,
+    "entity": "Norwegian people",
+    "explicit_text": "The Norwegian people were the majority in the small Wisconsin town where my grandparents settled. Bella and Haskell Friedman integrated into this community by participating in local festivals, wearing Norwegian clothing, and learning traditional crafts like needlework and baking Norwegian cookies. Despite this, they maintained their Jewish faith and culture, balancing both identities in their daily lives.",
+    "implicit_text": "The majority population in the small Wisconsin town where my grandparents settled were people of Norwegian descent. My grandparents integrated into this community by participating in local festivals, wearing traditional clothing, and learning crafts like needlework and baking regional cookies. Despite this, they maintained their Jewish faith and culture, balancing both identities in their daily lives.",
+    "cues": [
+      "Wisconsin town",
+      "Norwegian majority",
+      "local festivals",
+      "cultural integration",
+      "Jewish faith"
+    ],
+    "transcript_ref": "immigration\\imm_umn_92_bella_friedman.yaml"
+  },
+  {
+    "entity_id": 12,
+    "entity": "Judaism",
+    "explicit_text": "Judaism was a central part of my family's identity throughout their immigration journey and settlement in America. Even after moving to a predominantly Norwegian town in Wisconsin, my grandparents ensured their children received a Jewish education by regularly attending synagogue. Judaism connected us to our heritage and community, providing spiritual support and continuity across generations.",
+    "implicit_text": "The religion central to my family's identity throughout their immigration journey and settlement in America was Judaism. Even after moving to a predominantly Norwegian town in Wisconsin, my grandparents ensured their children received a Jewish education by regularly attending synagogue. This faith connected us to our heritage and community, providing spiritual support and continuity across generations.",
+    "cues": [
+      "Jewish education",
+      "synagogue attendance",
+      "immigrant heritage",
+      "family tradition"
+    ],
+    "transcript_ref": "immigration\\imm_umn_92_bella_friedman.yaml"
+  },
+  {
+    "entity_id": 13,
+    "entity": "Holocaust",
+    "explicit_text": "The Holocaust was a tragic event that deeply affected my family’s history. My great-grandparents escaped Europe just before World War I, but many Jewish families were not as fortunate. In 1939, the U.S. turned away a ship full of Jewish refugees who later faced the horrors of the Holocaust, with only half surviving. This history makes me reflect on the importance of welcoming immigrants seeking refuge today.",
+    "implicit_text": "The tragic genocide during World War II deeply affected my family’s history. My great-grandparents escaped Europe just before the war, but many Jewish families were not as fortunate. In 1939, the U.S. turned away a ship full of Jewish refugees who later faced the horrors of this genocide, with only half surviving. This history makes me reflect on the importance of welcoming immigrants seeking refuge today.",
+    "cues": [
+      "1939 refugee ship",
+      "Jewish persecution",
+      "World War II",
+      "survival rates",
+      "family escape"
+    ],
+    "transcript_ref": "immigration\\imm_umn_92_bella_friedman.yaml"
+  },
+  {
+    "entity_id": 14,
+    "entity": "United States refugee policy",
+    "explicit_text": "United States refugee policy has had a profound impact on my family’s story. My great-grandparents were allowed to enter the U.S. before World War I, which likely saved their lives. However, in 1939, the U.S. turned away a ship of Jewish refugees, many of whom later perished in the Holocaust. Today, I see similar fears shaping refugee policies, and I believe we must remember our history and offer others the chance for safety and a peaceful life.",
+    "implicit_text": "The refugee policy of the country my family immigrated to has had a profound impact on our story. My great-grandparents were allowed to enter before World War I, which likely saved their lives. However, in 1939, that country turned away a ship of Jewish refugees, many of whom later perished in the genocide during World War II. Today, I see similar fears shaping refugee policies, and I believe we must remember our history and offer others the chance for safety and a peaceful life.",
+    "cues": [
+      "early 1900s immigration",
+      "1939 refugee ship rejection",
+      "Holocaust",
+      "modern refugee debates",
+      "family survival"
+    ],
+    "transcript_ref": "immigration\\imm_umn_92_bella_friedman.yaml"
+  }
+]

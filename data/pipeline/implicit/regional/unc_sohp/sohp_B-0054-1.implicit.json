@@ -1,0 +1,408 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "John Shute",
+    "explicit_text": "My grandfather, John Shute, was born in Lancaster County, South Carolina, in 1824. He moved with his family toward Mississippi but stopped in Monroe, North Carolina, around the early 1850s, deciding to stay after meeting local merchants like John D. Stewart. He became a prominent businessman, owning property, running wagon trains for cotton transport, and opening various enterprises including a steam-powered cotton gin and a brickyard. He died in 1896 at age seventy-two, having been a key figure in Monroe's early commercial growth.",
+    "implicit_text": "My grandfather was born in Lancaster County, South Carolina, in 1824. He moved with his family toward Mississippi but stopped in Monroe, North Carolina, around the early 1850s, deciding to stay after meeting local merchants like the largest one in town. He became a prominent businessman, owning property, running wagon trains for cotton transport, and opening various enterprises including a steam-powered cotton gin and a brickyard. He died in 1896 at age seventy-two, having been a key figure in Monroe's early commercial growth.",
+    "cues": [
+      "1824",
+      "Lancaster County, South Carolina",
+      "Monroe, North Carolina",
+      "John D. Stewart",
+      "cotton wagon trains",
+      "1875 home on Windsor and Hayne Streets",
+      "died 1896"
+    ],
+    "transcript_ref": "regional\\unc_sohp\\sohp_B-0054-1.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "Lancaster County, South Carolina",
+    "explicit_text": "Lancaster County, South Carolina, was where my grandfather John Shute was born and farmed before moving. He lived in the Tabernacle community there and started his journey westward from that rural area. It was a farming community, and my grandfather initially farmed there before eventually moving to Monroe, North Carolina, in the early 1850s.",
+    "implicit_text": "The county in South Carolina where my grandfather was born and farmed before moving was a rural farming community called the Tabernacle area. He started his journey westward from that region, initially farming there before eventually moving to Monroe, North Carolina, in the early 1850s.",
+    "cues": [
+      "Tabernacle community",
+      "farming",
+      "early 1800s",
+      "starting point for John Shute's move"
+    ],
+    "transcript_ref": "regional\\unc_sohp\\sohp_B-0054-1.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "Monroe, North Carolina",
+    "explicit_text": "Monroe was a young town when my grandfather John Shute arrived in the early 1850s, only about eleven years old as a chartered town. It was the place where he decided to settle instead of continuing to Mississippi, influenced by local merchants like John D. Stewart. Monroe became the center of his business ventures, including wagon trains for cotton transport, commercial properties, and various manufacturing enterprises. The railroad came to Monroe in 1874, which eventually put his wagon train business out of operation.",
+    "implicit_text": "The town where my grandfather arrived in the early 1850s was only about eleven years old as a chartered town. It was the place where he decided to settle instead of continuing to Mississippi, influenced by local merchants like the largest one in town. This town became the center of his business ventures, including wagon trains for cotton transport, commercial properties, and various manufacturing enterprises. The railroad came there in 1874, which eventually put his wagon train business out of operation.",
+    "cues": [
+      "early 1850s",
+      "young town",
+      "John D. Stewart",
+      "wagon trains",
+      "railroad arrival 1874",
+      "commercial growth"
+    ],
+    "transcript_ref": "regional\\unc_sohp\\sohp_B-0054-1.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "John D. Stewart",
+    "explicit_text": "John D. Stewart was the largest merchant in Monroe when my grandfather arrived in the early 1850s. He welcomed the Shute family at the camp lot during a rainy night and became a very dear friend to my grandfather. Stewart advised him that the future was in Monroe, encouraging him to start wagon trains to transport cotton to ports like Camden and Cheraw. His vision helped shape my grandfather's decision to stay and build his business here.",
+    "implicit_text": "The largest merchant in the town when my grandfather arrived in the early 1850s welcomed the family at the camp lot during a rainy night and became a very dear friend to my grandfather. He advised him that the future was in that town, encouraging him to start wagon trains to transport cotton to ports like Camden and Cheraw. His vision helped shape my grandfather's decision to stay and build his business there.",
+    "cues": [
+      "early 1850s",
+      "Monroe merchant",
+      "friend of John Shute",
+      "wagon trains",
+      "cotton transport"
+    ],
+    "transcript_ref": "regional\\unc_sohp\\sohp_B-0054-1.yaml"
+  },
+  {
+    "entity_id": 5,
+    "entity": "Dr. Welch",
+    "explicit_text": "Dr. Welch was one of the leading citizens of Monroe who came to greet my grandfather's family when they arrived in the early 1850s. I recall a story told by his son, John Welch, about his father advising my grandmother to turn the baby over on its belly during a heavy rain to prevent drowning. That baby was my father. Dr. Welch's presence at the camp lot showed the close-knit community that welcomed newcomers like the Shutes.",
+    "implicit_text": "One of the leading citizens of the town came to greet my grandfather's family when they arrived in the early 1850s. I recall a story told by his son about his father advising my grandmother to turn the baby over on its belly during a heavy rain to prevent drowning. That baby was my father. His presence at the camp lot showed the close-knit community that welcomed newcomers like my family.",
+    "cues": [
+      "early 1850s",
+      "Monroe",
+      "camp lot meeting",
+      "baby safety story",
+      "John Welch's father"
+    ],
+    "transcript_ref": "regional\\unc_sohp\\sohp_B-0054-1.yaml"
+  },
+  {
+    "entity_id": 6,
+    "entity": "Mississippi",
+    "explicit_text": "Mississippi was the original destination for my grandfather John Shute and his family in the 1870s wagon train. However, after stopping in Monroe, North Carolina, and meeting local merchants, he decided to stay instead of continuing west. Meanwhile, his brother Sylvester eventually moved on to Carroll County, Mississippi, where he became a large landowner. So Mississippi was part of the family's migration story but not where my grandfather settled.",
+    "implicit_text": "The original destination for my grandfather and his family in the 1870s wagon train was a state in the Deep South. However, after stopping in the North Carolina town and meeting local merchants, he decided to stay instead of continuing west. Meanwhile, his brother eventually moved on to a county in that Deep South state, where he became a large landowner. So that state was part of the family's migration story but not where my grandfather settled.",
+    "cues": [
+      "1870s wagon train",
+      "original destination",
+      "Sylvester Shute's landownership",
+      "Carroll County"
+    ],
+    "transcript_ref": "regional\\unc_sohp\\sohp_B-0054-1.yaml"
+  },
+  {
+    "entity_id": 7,
+    "entity": "Alabama",
+    "explicit_text": "Alabama was a temporary stop for my grandfather's brother Sylvester and his wife before they reached Mississippi. Sylvester worked as an overseer on a plantation there, and his wife gave birth to their first child in Alabama. They stayed there for over a year before moving on to Carroll County, Mississippi.",
+    "implicit_text": "A neighboring state to Mississippi was a temporary stop for my grandfather's brother and his wife before they reached their final destination. He worked as an overseer on a plantation there, and his wife gave birth to their first child in that state. They stayed there for over a year before moving on to Carroll County, Mississippi.",
+    "cues": [
+      "mid-1800s",
+      "plantation overseer",
+      "birth of first child",
+      "transit point to Mississippi"
+    ],
+    "transcript_ref": "regional\\unc_sohp\\sohp_B-0054-1.yaml"
+  },
+  {
+    "entity_id": 8,
+    "entity": "Carroll County, Mississippi",
+    "explicit_text": "Carroll County, Mississippi, was where my grandfather's brother Sylvester finally settled after spending time in Alabama. He became the largest landowner in the county, farming the delta lands that produced three bales of cotton per acre. This area represented the successful end of Sylvester's migration westward, contrasting with my grandfather's decision to stay in Monroe.",
+    "implicit_text": "The county in Mississippi was where my grandfather's brother finally settled after spending time in Alabama. He became the largest landowner in the county, farming the delta lands that produced three bales of cotton per acre. This area represented the successful end of his migration westward, contrasting with my grandfather's decision to stay in Monroe.",
+    "cues": [
+      "mid-1800s",
+      "largest landowner",
+      "cotton farming",
+      "Sylvester Shute"
+    ],
+    "transcript_ref": "regional\\unc_sohp\\sohp_B-0054-1.yaml"
+  },
+  {
+    "entity_id": 9,
+    "entity": "Windsor Street (Monroe, North Carolina)",
+    "explicit_text": "In 1855, my grandfather John Shute bought a homesite on the corner of Windsor and Hayne Streets in Monroe. He built a modest home there initially and later added a larger home in front of it around 1875. This location became the family residence and a symbol of his establishment in Monroe.",
+    "implicit_text": "In 1855, my grandfather bought a homesite on the corner of two streets in Monroe. He built a modest home there initially and later added a larger home in front of it around 1875. This location became the family residence and a symbol of his establishment in the town.",
+    "cues": [
+      "1855 purchase",
+      "Monroe",
+      "family home",
+      "1875 expansion"
+    ],
+    "transcript_ref": "regional\\unc_sohp\\sohp_B-0054-1.yaml"
+  },
+  {
+    "entity_id": 10,
+    "entity": "Hayne Street (Monroe, North Carolina)",
+    "explicit_text": "Hayne Street, along with Windsor Street, was part of the property my grandfather John Shute purchased in Monroe in 1855. His home stood at the corner of these streets, marking the place where he settled and built his family home. This area was central to his life and business in Monroe.",
+    "implicit_text": "One of the streets, along with the other where my grandfather purchased property in Monroe in 1855, marked the place where he settled and built his family home. This area was central to his life and business in the town.",
+    "cues": [
+      "1855 property purchase",
+      "Monroe",
+      "family home location"
+    ],
+    "transcript_ref": "regional\\unc_sohp\\sohp_B-0054-1.yaml"
+  },
+  {
+    "entity_id": 11,
+    "entity": "Doctor Franklin Hayden",
+    "explicit_text": "Doctor Franklin Hayden, despite his name, was not a medical doctor but a man who moved to Monroe from Salisbury around 1840. He sold my grandfather John Shute the homesite on Windsor and Hayne Streets as well as other properties including commercial and farm land. Hayden was an early resident before Monroe was fully laid out and chartered.",
+    "implicit_text": "A man who moved to Monroe from Salisbury around 1840, despite his title, was not a medical doctor. He sold my grandfather the homesite on the corner of Windsor and Hayne Streets as well as other properties including commercial and farm land. He was an early resident before Monroe was fully laid out and chartered.",
+    "cues": [
+      "moved 1840",
+      "Monroe",
+      "property seller to John Shute",
+      "Windsor and Hayne Streets"
+    ],
+    "transcript_ref": "regional\\unc_sohp\\sohp_B-0054-1.yaml"
+  },
+  {
+    "entity_id": 12,
+    "entity": "Richardson Creek",
+    "explicit_text": "Richardson Creek was mentioned in the deeds for some of the land my grandfather John Shute purchased in Monroe. Although the properties might have been miles away from the creek itself, the deeds referenced it as a landmark. This creek was part of the local geography tied to his landholdings.",
+    "implicit_text": "A creek was mentioned in the deeds for some of the land my grandfather purchased in Monroe. Although the properties might have been miles away from the creek itself, the deeds referenced it as a landmark. This creek was part of the local geography tied to his landholdings.",
+    "cues": [
+      "Monroe land deeds",
+      "property boundaries",
+      "local geography"
+    ],
+    "transcript_ref": "regional\\unc_sohp\\sohp_B-0054-1.yaml"
+  },
+  {
+    "entity_id": 13,
+    "entity": "Bearskin Creek",
+    "explicit_text": "Bearskin Creek was another geographic reference in the land deeds for property my grandfather John Shute acquired in Monroe. Like Richardson Creek, the properties were described as being on the waters of Bearskin Creek, even if they were some distance away. It was part of the area's natural landmarks used in property descriptions.",
+    "implicit_text": "Another creek was a geographic reference in the land deeds for property my grandfather acquired in Monroe. Like the other creek, the properties were described as being on the waters of this creek, even if they were some distance away. It was part of the area's natural landmarks used in property descriptions.",
+    "cues": [
+      "Monroe land deeds",
+      "property boundaries",
+      "local creeks"
+    ],
+    "transcript_ref": "regional\\unc_sohp\\sohp_B-0054-1.yaml"
+  },
+  {
+    "entity_id": 14,
+    "entity": "Taxahaw, South Carolina",
+    "explicit_text": "Taxahaw, South Carolina, was a few miles from where my grandfather farmed in Lancaster County. He operated a small one-room store there for a short time, which my father later ran and where he slept in the back. I remember visiting the store and seeing the walls peppered with gunshots from rowdy nights, showing the rough nature of the area back then.",
+    "implicit_text": "A small community in South Carolina was a few miles from where my grandfather farmed in Lancaster County. He operated a small one-room store there for a short time, which my father later ran and where he slept in the back. I remember visiting the store and seeing the walls peppered with gunshots from rowdy nights, showing the rough nature of the area back then.",
+    "cues": [
+      "Lancaster County",
+      "small store",
+      "family business",
+      "gunshot walls"
+    ],
+    "transcript_ref": "regional\\unc_sohp\\sohp_B-0054-1.yaml"
+  },
+  {
+    "entity_id": 15,
+    "entity": "Henry Abel Shute",
+    "explicit_text": "Henry Abel Shute was my grandfather John Shute's son who took over the farming operations as the family prospered. His name combined family significance: 'Henry' from his grandfather and 'Abel' from his wife's father, Abel Funderburk. He represented the continuation of the family legacy in agriculture after my grandfather focused more on business ventures.",
+    "implicit_text": "My grandfather's son took over the farming operations as the family prospered. His name combined family significance: 'Henry' from his grandfather and 'Abel' from his wife's father. He represented the continuation of the family legacy in agriculture after my grandfather focused more on business ventures.",
+    "cues": [
+      "John Shute's son",
+      "farming",
+      "family name significance",
+      "Abel Funderburk"
+    ],
+    "transcript_ref": "regional\\unc_sohp\\sohp_B-0054-1.yaml"
+  },
+  {
+    "entity_id": 16,
+    "entity": "Abel Funderburk",
+    "explicit_text": "Abel Funderburk was my grandmother's father and the source of the middle name 'Abel' in Henry Abel Shute. The Funderburk family was an old German family that settled in this region early on. Their name carried significance in our family naming traditions, reflecting deep roots in the area.",
+    "implicit_text": "My grandmother's father was the source of the middle name 'Abel' in my uncle's name. His family was an old German family that settled in this region early on. Their name carried significance in our family naming traditions, reflecting deep roots in the area.",
+    "cues": [
+      "grandfather of Henry Abel Shute",
+      "old German family",
+      "early settlement"
+    ],
+    "transcript_ref": "regional\\unc_sohp\\sohp_B-0054-1.yaml"
+  },
+  {
+    "entity_id": 17,
+    "entity": "Cheraw, South Carolina",
+    "explicit_text": "Cheraw was one of the final ports on the Pee Dee River system where cotton from our region was shipped. My grandfather John Shute's wagon trains transported cotton to Cheraw to be loaded onto barges for shipment downriver to Winyah Bay and beyond. It was a key part of the cotton trade network that connected Monroe to coastal markets.",
+    "implicit_text": "One of the final ports on the Pee Dee River system where cotton from our region was shipped was a town in South Carolina. My grandfather's wagon trains transported cotton there to be loaded onto barges for shipment downriver to Winyah Bay and beyond. It was a key part of the cotton trade network that connected Monroe to coastal markets.",
+    "cues": [
+      "cotton shipment port",
+      "Pee Dee River",
+      "wagon trains",
+      "trade route"
+    ],
+    "transcript_ref": "regional\\unc_sohp\\sohp_B-0054-1.yaml"
+  },
+  {
+    "entity_id": 18,
+    "entity": "Camden, South Carolina",
+    "explicit_text": "Camden was another important port on the Catawba-Wateree river system where cotton was shipped from our area. My grandfather's wagon trains carried cotton to Camden to connect with barges going to Charleston. This port was essential for getting our cotton to market and bringing supplies back inland.",
+    "implicit_text": "Another important port on the Catawba-Wateree river system where cotton was shipped from our area was a South Carolina town. My grandfather's wagon trains carried cotton there to connect with barges going to Charleston. This port was essential for getting our cotton to market and bringing supplies back inland.",
+    "cues": [
+      "cotton shipment port",
+      "Catawba-Wateree system",
+      "wagon trains",
+      "trade route"
+    ],
+    "transcript_ref": "regional\\unc_sohp\\sohp_B-0054-1.yaml"
+  },
+  {
+    "entity_id": 19,
+    "entity": "Pee Dee River",
+    "explicit_text": "The Pee Dee River was the waterway leading from Cheraw to Winyah Bay at Georgetown, serving as a major route for shipping cotton. My grandfather's wagon trains helped move cotton to Cheraw, where it was loaded onto barges that traveled down the Pee Dee River. This river was vital for connecting inland cotton producers to coastal markets.",
+    "implicit_text": "The river was the waterway leading from Cheraw to Winyah Bay at Georgetown, serving as a major route for shipping cotton. My grandfather's wagon trains helped move cotton to Cheraw, where it was loaded onto barges that traveled down this river. This river was vital for connecting inland cotton producers to coastal markets.",
+    "cues": [
+      "cotton shipment",
+      "Cheraw port",
+      "Winyah Bay",
+      "trade route"
+    ],
+    "transcript_ref": "regional\\unc_sohp\\sohp_B-0054-1.yaml"
+  },
+  {
+    "entity_id": 20,
+    "entity": "Winyah Bay",
+    "explicit_text": "Winyah Bay at Georgetown was the coastal destination for cotton shipped down the Pee Dee River. My grandfather's cotton passed through ports like Cheraw and then traveled via Winyah Bay to reach broader markets. This bay was part of the maritime shipping network that supported our regional economy.",
+    "implicit_text": "The bay at Georgetown was the coastal destination for cotton shipped down the Pee Dee River. My grandfather's cotton passed through ports like Cheraw and then traveled via this bay to reach broader markets. This bay was part of the maritime shipping network that supported our regional economy.",
+    "cues": [
+      "Georgetown",
+      "Pee Dee River",
+      "cotton export",
+      "maritime trade"
+    ],
+    "transcript_ref": "regional\\unc_sohp\\sohp_B-0054-1.yaml"
+  },
+  {
+    "entity_id": 21,
+    "entity": "Catawba River",
+    "explicit_text": "The Catawba River was part of the river system connecting Camden to Charleston, used for shipping cotton and bringing supplies inland. My grandfather's wagon trains transported cotton to Camden, where it was loaded onto barges traveling down the Catawba-Wateree system. This river was crucial for trade in our region.",
+    "implicit_text": "The river was part of the river system connecting Camden to Charleston, used for shipping cotton and bringing supplies inland. My grandfather's wagon trains transported cotton to Camden, where it was loaded onto barges traveling down the Catawba-Wateree system. This river was crucial for trade in our region.",
+    "cues": [
+      "cotton shipment",
+      "Camden port",
+      "Charleston connection",
+      "trade route"
+    ],
+    "transcript_ref": "regional\\unc_sohp\\sohp_B-0054-1.yaml"
+  },
+  {
+    "entity_id": 22,
+    "entity": "Wateree River",
+    "explicit_text": "The Wateree River, along with the Catawba, formed the river system used to ship cotton from Camden to Charleston. My grandfather relied on this waterway system to move cotton to market and bring back supplies to Monroe. It was an important part of the transportation network before the railroad arrived.",
+    "implicit_text": "Along with the Catawba, this river formed the river system used to ship cotton from Camden to Charleston. My grandfather relied on this waterway system to move cotton to market and bring back supplies to Monroe. It was an important part of the transportation network before the railroad arrived.",
+    "cues": [
+      "cotton shipment",
+      "Camden port",
+      "Charleston connection",
+      "trade route"
+    ],
+    "transcript_ref": "regional\\unc_sohp\\sohp_B-0054-1.yaml"
+  },
+  {
+    "entity_id": 23,
+    "entity": "Charleston, South Carolina",
+    "explicit_text": "Charleston was the major coastal port where much of the cotton from our region was shipped, especially via the Catawba-Wateree river system. It was also the main point where supplies arrived by ship to be distributed inland to stores in Monroe and Charlotte. Merchants in Charleston, including Henry Laurens, played a big role in this trade network.",
+    "implicit_text": "The major coastal port where much of the cotton from our region was shipped, especially via the Catawba-Wateree river system, was a South Carolina city. It was also the main point where supplies arrived by ship to be distributed inland to stores in Monroe and Charlotte. Merchants in this city, including a prominent 18th-century figure, played a big role in this trade network.",
+    "cues": [
+      "major port",
+      "cotton export",
+      "supply import",
+      "Henry Laurens",
+      "trade hub"
+    ],
+    "transcript_ref": "regional\\unc_sohp\\sohp_B-0054-1.yaml"
+  },
+  {
+    "entity_id": 24,
+    "entity": "New England",
+    "explicit_text": "New England was one of the primary destinations for cotton shipped from Monroe and surrounding areas. My grandfather's wagon trains helped get cotton to ports like Cheraw and Camden, from where it was sent to textile mills in New England. This connection tied our local economy to the industrial centers up north.",
+    "implicit_text": "A region in the northeastern United States was one of the primary destinations for cotton shipped from Monroe and surrounding areas. My grandfather's wagon trains helped get cotton to ports like Cheraw and Camden, from where it was sent to textile mills in that region. This connection tied our local economy to the industrial centers up north.",
+    "cues": [
+      "cotton markets",
+      "textile mills",
+      "trade destination",
+      "19th century"
+    ],
+    "transcript_ref": "regional\\unc_sohp\\sohp_B-0054-1.yaml"
+  },
+  {
+    "entity_id": 25,
+    "entity": "England",
+    "explicit_text": "Some of the cotton grown and shipped from our region, including through my grandfather's wagon trains, was sent overseas to England. This international market was part of the broader demand for Southern cotton during the 19th century. The trade routes connected Monroe and its cotton growers to global textile industries.",
+    "implicit_text": "Some of the cotton grown and shipped from our region, including through my grandfather's wagon trains, was sent overseas to a European country known for its textile industry. This international market was part of the broader demand for Southern cotton during the 19th century. The trade routes connected Monroe and its cotton growers to global textile industries.",
+    "cues": [
+      "cotton export",
+      "international market",
+      "England",
+      "19th century"
+    ],
+    "transcript_ref": "regional\\unc_sohp\\sohp_B-0054-1.yaml"
+  },
+  {
+    "entity_id": 26,
+    "entity": "Charlotte, North Carolina",
+    "explicit_text": "Charlotte was another important market town connected to Monroe through trade routes. My grandfather brought supplies from coastal ports up to stores in Charlotte as well as Monroe. The town was part of the regional commercial network that supported farmers and merchants in the area.",
+    "implicit_text": "A city in North Carolina was another important market town connected to Monroe through trade routes. My grandfather brought supplies from coastal ports up to stores in this city as well as Monroe. The town was part of the regional commercial network that supported farmers and merchants in the area.",
+    "cues": [
+      "trade partner",
+      "supply distribution",
+      "regional commerce",
+      "19th century"
+    ],
+    "transcript_ref": "regional\\unc_sohp\\sohp_B-0054-1.yaml"
+  },
+  {
+    "entity_id": 27,
+    "entity": "Laurens County, South Carolina",
+    "explicit_text": "Laurens County, South Carolina, was named after Henry Laurens, a major shipping merchant in Charleston. This county's name reflects the importance of the Laurens family in the trade networks that connected the interior cotton producers to coastal ports. It symbolizes the historical ties between commerce and regional geography.",
+    "implicit_text": "A county in South Carolina was named after a major shipping merchant in Charleston. This county's name reflects the importance of that family in the trade networks that connected the interior cotton producers to coastal ports. It symbolizes the historical ties between commerce and regional geography.",
+    "cues": [
+      "named for Henry Laurens",
+      "South Carolina",
+      "historical trade connections"
+    ],
+    "transcript_ref": "regional\\unc_sohp\\sohp_B-0054-1.yaml"
+  },
+  {
+    "entity_id": 28,
+    "entity": "Henry Laurens",
+    "explicit_text": "Henry Laurens was the greatest shipping merchant in Charleston during the 19th century. He owned a fleet of ships that handled much of the coastal trade, including cotton shipments from ports like Camden and Cheraw. His influence was such that Laurens County, South Carolina, was named in his honor.",
+    "implicit_text": "The greatest shipping merchant in Charleston during the 19th century owned a fleet of ships that handled much of the coastal trade, including cotton shipments from ports like Camden and Cheraw. His influence was such that a county in South Carolina was named in his honor.",
+    "cues": [
+      "Charleston merchant",
+      "shipping fleet",
+      "cotton trade",
+      "Laurens County"
+    ],
+    "transcript_ref": "regional\\unc_sohp\\sohp_B-0054-1.yaml"
+  },
+  {
+    "entity_id": 29,
+    "entity": "Monroe Hardware",
+    "explicit_text": "Monroe Hardware was formed shortly after the turn of the 20th century by merging two large wholesale hardware stores in Monroe. It became and remains the largest wholesale hardware supplier in the two Carolinas, with branch warehouses in both states. This business growth was part of Monroe's development as a major trading center.",
+    "implicit_text": "A hardware company was formed shortly after the turn of the 20th century by merging two large wholesale hardware stores in Monroe. It became and remains the largest wholesale hardware supplier in the two Carolinas, with branch warehouses in both states. This business growth was part of Monroe's development as a major trading center.",
+    "cues": [
+      "early 1900s",
+      "wholesale hardware",
+      "Monroe",
+      "regional supplier"
+    ],
+    "transcript_ref": "regional\\unc_sohp\\sohp_B-0054-1.yaml"
+  },
+  {
+    "entity_id": 30,
+    "entity": "Cabarrus County, North Carolina",
+    "explicit_text": "Cabarrus County, along with Stanly County, was part of the northern and southern townships where hogs ran wild in the woods. While my grandfather's wagon trains were focused on cotton transport, the hog economy developed more naturally among local farms in these counties. These areas were part of the broader agricultural region around Monroe.",
+    "implicit_text": "Two counties in North Carolina were part of the northern and southern townships where hogs ran wild in the woods. While my grandfather's wagon trains were focused on cotton transport, the hog economy developed more naturally among local farms in these counties. These areas were part of the broader agricultural region around Monroe.",
+    "cues": [
+      "hog farming",
+      "agriculture",
+      "regional economy",
+      "North Carolina"
+    ],
+    "transcript_ref": "regional\\unc_sohp\\sohp_B-0054-1.yaml"
+  },
+  {
+    "entity_id": 31,
+    "entity": "Stanly County, North Carolina",
+    "explicit_text": "Stanly County was another area near Monroe where hog drives were common, reflecting the local farm economy. The hog business evolved separately from my grandfather's wagon train operations but was an important part of the rural economy. This county, along with Cabarrus, contributed to the agricultural diversity of the region.",
+    "implicit_text": "One of the counties near Monroe was another area where hog drives were common, reflecting the local farm economy. The hog business evolved separately from my grandfather's wagon train operations but was an important part of the rural economy. This county, along with its neighbor, contributed to the agricultural diversity of the region.",
+    "cues": [
+      "hog farming",
+      "local agriculture",
+      "North Carolina",
+      "regional economy"
+    ],
+    "transcript_ref": "regional\\unc_sohp\\sohp_B-0054-1.yaml"
+  }
+]

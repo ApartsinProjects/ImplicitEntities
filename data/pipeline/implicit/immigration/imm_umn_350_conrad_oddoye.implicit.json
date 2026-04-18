@@ -1,0 +1,74 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "United Kingdom",
+    "explicit_text": "My family settled in the United Kingdom after my parents graduated from university in Cuba in 1988. I was born there in 1998, and my younger brother Nathan was born three years later. We lived in the UK during a time when crime rates were increasing, which made my parents consider moving elsewhere. My father stayed behind in the UK for a few years after we moved to Canada, working and visiting us occasionally until he secured a job in Canada.",
+    "implicit_text": "My family settled in a European island nation after my parents graduated from university in Cuba in 1988. I was born there in 1998, and my younger brother Nathan was born three years later. We lived in that country during a time when crime rates were increasing, which made my parents consider moving elsewhere. My father stayed behind in that place for a few years after we moved to Canada, working and visiting us occasionally until he secured a job in Canada.",
+    "cues": [
+      "1988",
+      "1998",
+      "early 2000s",
+      "crime rate",
+      "father working",
+      "England"
+    ],
+    "transcript_ref": "immigration\\imm_umn_350_conrad_oddoye.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "Canada",
+    "explicit_text": "Canada became our new home starting in 2005 when my mother moved with me and my brother to Guelph, Ontario. We were drawn there because of the safety and friendliness we experienced during a vacation in 2003. Growing up in Canada gave us a good education and a multicultural environment where differences were celebrated. Although it was hard to leave family behind in Ghana and the UK, Canada provided a safe place for us to grow and explore. Since arriving, we've moved within Canada several times and embraced the changes and new experiences.",
+    "implicit_text": "This North American country became our new home starting in 2005 when my mother moved with me and my brother to a city in Ontario. We were drawn there because of the safety and friendliness we experienced during a vacation in 2003. Growing up in this country gave us a good education and a multicultural environment where differences were celebrated. Although it was hard to leave family behind in Ghana and the UK, this place provided a safe place for us to grow and explore. Since arriving, we've moved within this country several times and embraced the changes and new experiences.",
+    "cues": [
+      "2003 vacation",
+      "2005 move",
+      "Guelph, Ontario",
+      "education",
+      "multicultural environment",
+      "safe childhood"
+    ],
+    "transcript_ref": "immigration\\imm_umn_350_conrad_oddoye.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "Ghana",
+    "explicit_text": "My parents are originally from Ghana, and it is where much of our extended family still lives, including my grandparents, aunts, uncles, and cousins. Leaving Ghana behind when we moved to Canada meant fewer visits because the travel became longer and more expensive—from a six-hour flight to at least nine hours. Although we were far away, Ghana remains the core of our family, and the distance was one of the difficult realities of immigration for us. I remember missing those family connections deeply after we moved.",
+    "implicit_text": "My parents are originally from a West African nation, and it is where much of our extended family still lives, including my grandparents, aunts, uncles, and cousins. Leaving that country behind when we moved to Canada meant fewer visits because the travel became longer and more expensive—from a six-hour flight to at least nine hours. Although we were far away, that nation remains the core of our family, and the distance was one of the difficult realities of immigration for us. I remember missing those family connections deeply after we moved.",
+    "cues": [
+      "parents' origin",
+      "grandparents",
+      "family",
+      "travel time increase",
+      "immigration challenges"
+    ],
+    "transcript_ref": "immigration\\imm_umn_350_conrad_oddoye.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "Cuba",
+    "explicit_text": "My parents met at university in Cuba back in 1988, which is where their story began. After graduating there, they moved to the UK to start their family. My mother later pursued multiple careers, including becoming a massage therapist, which she studied for after we moved to Canada. Cuba holds a special place in our family history as the place where my parents first connected and started their journey together.",
+    "implicit_text": "My parents met at university in a Caribbean island nation back in 1988, which is where their story began. After graduating there, they moved to the UK to start their family. My mother later pursued multiple careers, including becoming a massage therapist, which she studied for after we moved to Canada. That island holds a special place in our family history as the place where my parents first connected and started their journey together.",
+    "cues": [
+      "1988 university",
+      "parents met",
+      "graduation",
+      "career beginnings",
+      "massage therapy studies"
+    ],
+    "transcript_ref": "immigration\\imm_umn_350_conrad_oddoye.yaml"
+  },
+  {
+    "entity_id": 5,
+    "entity": "Guelph",
+    "explicit_text": "In 2003, my family took a vacation to Guelph, Ontario, where some of my parents' close friends from university lived. We were impressed by how safe and friendly the city felt compared to the UK at that time. This visit was pivotal because it inspired my parents to decide that Guelph was the right place to raise me and my brother. Two years later, in 2005, we moved there, marking the beginning of our new life in Canada.",
+    "implicit_text": "In 2003, my family took a vacation to a city in Ontario where some of my parents' close friends from university lived. We were impressed by how safe and friendly the city felt compared to the UK at that time. This visit was pivotal because it inspired my parents to decide that this city was the right place to raise me and my brother. Two years later, in 2005, we moved there, marking the beginning of our new life in Canada.",
+    "cues": [
+      "2003 vacation",
+      "Ontario",
+      "university friends",
+      "safety",
+      "2005 move"
+    ],
+    "transcript_ref": "immigration\\imm_umn_350_conrad_oddoye.yaml"
+  }
+]

@@ -1,0 +1,339 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "Ogdensburg, New York",
+    "explicit_text": "I grew up in Ogdensburg, New York, right up on the St. Lawrence River. It was a small town where I finished high school in 1947 before heading off to forestry school. My brother also came from Ogdensburg to visit me during Christmas in 1950 when I was preparing for overseas deployment.",
+    "implicit_text": "I grew up in a small town right up on the St. Lawrence River in northern New York. It was where I finished high school in 1947 before heading off to forestry school. My brother also came from that hometown to visit me during Christmas in 1950 when I was preparing for overseas deployment.",
+    "cues": [
+      "grew up",
+      "high school graduation 1947",
+      "brother visit Christmas 1950"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.01120.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "St. Lawrence River",
+    "explicit_text": "Ogdensburg, where I grew up, is located on the St. Lawrence River. I remember the river as part of my hometown environment in northern New York. It was a significant geographical feature of the area where I spent my early years.",
+    "implicit_text": "The town where I grew up is located on a major river that forms part of the border between the U.S. and Canada. I remember that river as part of my hometown environment in northern New York. It was a significant geographical feature of the area where I spent my early years.",
+    "cues": [
+      "Ogdensburg location",
+      "early life",
+      "northern New York"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.01120.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "Adirondack Mountains",
+    "explicit_text": "After high school, I attended a two-year forestry school in the Adirondack Mountains, graduating in May 1949. It was a beautiful and rugged area, perfect for forestry studies, but I wasn’t sure if I wanted to pursue forestry as a career. That uncertainty led me to enlist in the army shortly after.",
+    "implicit_text": "After high school, I attended a two-year forestry school in a beautiful and rugged mountain region in upstate New York, graduating in May 1949. It was perfect for forestry studies, but I wasn’t sure if I wanted to pursue forestry as a career. That uncertainty led me to enlist in the army shortly after.",
+    "cues": [
+      "forestry school",
+      "graduated May 1949",
+      "career uncertainty"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.01120.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "Syracuse, New York",
+    "explicit_text": "I enlisted in the army in Syracuse, New York on July 1st, 1949. It was a peaceful time with no hint of the Korean conflict ahead. Syracuse was the place where I made the decision to join the military after finishing my forestry degree.",
+    "implicit_text": "I enlisted in the army in a central New York city on July 1st, 1949. It was a peaceful time with no hint of the Korean conflict ahead. That city was the place where I made the decision to join the military after finishing my forestry degree.",
+    "cues": [
+      "enlistment July 1, 1949",
+      "peace time",
+      "decision point"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.01120.yaml"
+  },
+  {
+    "entity_id": 5,
+    "entity": "Korean War",
+    "explicit_text": "When the Korean War started in 1950, I was at Fort Lewis, Washington. At first, none of us had any idea how big or serious the conflict would become. I remember the North Koreans pushing down toward Kaesong and the activation of National Guard units, but the full scale of the war was still unclear to us.",
+    "implicit_text": "When the conflict in Korea started in 1950, I was at a military base in Washington state. At first, none of us had any idea how big or serious the fighting would become. I remember the northern forces pushing down toward a key city near the border and the activation of National Guard units, but the full scale of the war was still unclear to us.",
+    "cues": [
+      "start 1950",
+      "Fort Lewis",
+      "Kaesong perimeter",
+      "National Guard activation"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.01120.yaml"
+  },
+  {
+    "entity_id": 6,
+    "entity": "Fort Dix",
+    "explicit_text": "I went through basic training at Fort Dix, New Jersey, from July to September 1949. The first sergeant was tough but memorable, and it was at Fort Dix that I saw my first television. I also had a chance to visit relatives on Staten Island during training, where a kind lady paid my ferry fare, a moment I never forgot.",
+    "implicit_text": "I went through basic training at a military installation in New Jersey from July to September 1949. The first sergeant was tough but memorable, and it was there that I saw my first television. I also had a chance to visit relatives on Staten Island during training, where a kind lady paid my ferry fare, a moment I never forgot.",
+    "cues": [
+      "basic training July-Sept 1949",
+      "first TV seen",
+      "Staten Island visit"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.01120.yaml"
+  },
+  {
+    "entity_id": 7,
+    "entity": "New York City",
+    "explicit_text": "During basic training, I got to spend a weekend in New York City, which was a big deal for me since I had only been there as a child. I remembered the peaceful Sunday mornings and was awestruck by the Empire State Building’s height. The city left a lasting impression on me, especially the quiet mornings and the grandeur of the buildings.",
+    "implicit_text": "During basic training, I got to spend a weekend in the largest city in the state, which was a big deal for me since I had only been there as a child. I remembered the peaceful Sunday mornings and was awestruck by the tallest skyscraper in the city. The urban experience left a lasting impression on me, especially the quiet mornings and the grandeur of the buildings.",
+    "cues": [
+      "weekend visit 1949",
+      "Empire State Building",
+      "peaceful Sunday mornings"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.01120.yaml"
+  },
+  {
+    "entity_id": 8,
+    "entity": "New York World's Fair",
+    "explicit_text": "As a child, I visited the New York World's Fair in 1940. That was one of my early memories of New York City before I joined the army. It was a significant event that I recalled when I later returned to the city during my training.",
+    "implicit_text": "As a child, I visited a major international exposition held in 1940 in the big city of New York. That was one of my early memories of that metropolis before I joined the army. It was a significant event that I recalled when I later returned to the city during my training.",
+    "cues": [
+      "visited 1940",
+      "childhood memory",
+      "New York City"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.01120.yaml"
+  },
+  {
+    "entity_id": 9,
+    "entity": "Empire State Building",
+    "explicit_text": "Seeing the Empire State Building for the first time during my weekend in New York City was awe-inspiring. It was so tall that I got a crick in my neck just looking up at it. That image stuck with me as a symbol of the city’s grandeur.",
+    "implicit_text": "Seeing the tallest skyscraper in the city for the first time during my weekend visit was awe-inspiring. It was so tall that I got a crick in my neck just looking up at it. That image stuck with me as a symbol of the city's grandeur.",
+    "cues": [
+      "first visit 1949",
+      "New York City weekend",
+      "impressive height"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.01120.yaml"
+  },
+  {
+    "entity_id": 10,
+    "entity": "Grand Central Terminal",
+    "explicit_text": "After enjoying New York City on the weekend, I took the train back from Grand Central Terminal to Princeton, New Jersey, and then returned to Fort Dix. It was part of the routine during my basic training period and a memorable transit point in the city.",
+    "implicit_text": "After enjoying the big city on the weekend, I took the train back from a famous central train station to a town in New Jersey, and then returned to my training base. It was part of the routine during my basic training period and a memorable transit point in the city.",
+    "cues": [
+      "train travel 1949",
+      "New York City to Princeton",
+      "basic training period"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.01120.yaml"
+  },
+  {
+    "entity_id": 11,
+    "entity": "Princeton, New Jersey",
+    "explicit_text": "During my army training, I traveled through Princeton, New Jersey, when returning from New York City to Fort Dix. It was a stopover point on the train route and part of my early army experience in 1949.",
+    "implicit_text": "During my army training, I traveled through a well-known university town in New Jersey when returning from the big city to my training base. It was a stopover point on the train route and part of my early army experience in 1949.",
+    "cues": [
+      "train stop 1949",
+      "travel route",
+      "army training"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.01120.yaml"
+  },
+  {
+    "entity_id": 12,
+    "entity": "Fort Lewis",
+    "explicit_text": "After basic training, I was assigned to Fort Lewis, Washington, where I trained in field artillery starting in late 1949. Fort Lewis was also where I was when the Korean War broke out in 1950, and where I helped register National Guard and reserve soldiers being activated. It was a pivotal place in my military career.",
+    "implicit_text": "After basic training, I was assigned to a large military base in Washington state, where I trained in field artillery starting in late 1949. That base was also where I was when the Korean conflict broke out in 1950, and where I helped register National Guard and reserve soldiers being activated. It was a pivotal place in my military career.",
+    "cues": [
+      "assigned post-basic 1949",
+      "artillery training",
+      "Korean War activation 1950"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.01120.yaml"
+  },
+  {
+    "entity_id": 13,
+    "entity": "Chicago",
+    "explicit_text": "On the train ride across the country to Fort Lewis, we stopped in Chicago for about half a day. I took the opportunity to walk along the lakefront and visit some museums. It was a memorable break on a long journey in 1949.",
+    "implicit_text": "On the train ride across the country to my new assignment, we stopped in a major Midwestern city for about half a day. I took the opportunity to walk along the lakefront and visit some museums. It was a memorable break on a long journey in 1949.",
+    "cues": [
+      "train stop 1949",
+      "lakefront walk",
+      "museum visit"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.01120.yaml"
+  },
+  {
+    "entity_id": 14,
+    "entity": "General Douglas MacArthur",
+    "explicit_text": "General Douglas MacArthur was the Supreme Commander in the Pacific during the post-World War II occupation of Japan when I was in the army. His leadership was well known, and it was under his command that the U.S. maintained control in Japan before the Korean War escalated. His presence was a backdrop to the early days of my service.",
+    "implicit_text": "The Supreme Commander in the Pacific during the post-World War II occupation of Japan when I was in the army was a well-known general. His leadership was well known, and it was under his command that the U.S. maintained control in Japan before the Korean conflict escalated. His presence was a backdrop to the early days of my service.",
+    "cues": [
+      "post-WWII Japan",
+      "Supreme Commander Pacific",
+      "army service context"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.01120.yaml"
+  },
+  {
+    "entity_id": 15,
+    "entity": "United States Army",
+    "explicit_text": "I enlisted in the United States Army in 1949 and served through the Korean War period. My roles included basic training at Fort Dix, artillery training at Fort Lewis, and later deployment overseas. The army shaped much of my early adult life and gave me experiences I still recall vividly.",
+    "implicit_text": "I enlisted in the national army in 1949 and served through the Korean War period. My roles included basic training at a New Jersey base, artillery training at a Washington state base, and later deployment overseas. The military shaped much of my early adult life and gave me experiences I still recall vividly.",
+    "cues": [
+      "enlistment 1949",
+      "basic and artillery training",
+      "Korean War deployment"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.01120.yaml"
+  },
+  {
+    "entity_id": 16,
+    "entity": "National Guard (United States)",
+    "explicit_text": "During the Korean War, many National Guard units were activated and processed through Fort Lewis where I was stationed. I helped register these soldiers, witnessing the emotional farewells of older men and their families. It was a sobering experience that showed the human side of military mobilization.",
+    "implicit_text": "During the Korean conflict, many state militia units were activated and processed through the base where I was stationed. I helped register these soldiers, witnessing the emotional farewells of older men and their families. It was a sobering experience that showed the human side of military mobilization.",
+    "cues": [
+      "Korean War activation",
+      "Fort Lewis processing",
+      "emotional farewells"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.01120.yaml"
+  },
+  {
+    "entity_id": 17,
+    "entity": "Kaesong",
+    "explicit_text": "Kaesong was a key location during the early Korean War, where the North Koreans formed a perimeter as they advanced south. I remember hearing about the Kaesong perimeter while I was still training at Fort Lewis in 1950. It marked one of the first major fronts in the conflict.",
+    "implicit_text": "A key location during the early Korean conflict was a city near the border where the northern forces formed a perimeter as they advanced south. I remember hearing about that perimeter while I was still training at the Washington base in 1950. It marked one of the first major fronts in the conflict.",
+    "cues": [
+      "Korean War 1950",
+      "North Korean advance",
+      "Kaesong perimeter"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.01120.yaml"
+  },
+  {
+    "entity_id": 18,
+    "entity": "Fort Sill",
+    "explicit_text": "I was sent to Fort Sill, Oklahoma, for survey school as part of my artillery training. It was there that my brother came to visit me for Christmas in 1950, just before I was ordered to report for overseas shipment. Fort Sill was an important step before heading into active service abroad.",
+    "implicit_text": "I was sent to a military installation in Oklahoma for survey school as part of my artillery training. It was there that my brother came to visit me for Christmas in 1950, just before I was ordered to report for overseas shipment. That base was an important step before heading into active service abroad.",
+    "cues": [
+      "survey school",
+      "Christmas 1950 visit",
+      "pre-deployment training"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.01120.yaml"
+  },
+  {
+    "entity_id": 19,
+    "entity": "204th Field Artillery Battalion",
+    "explicit_text": "I was assigned to the 204th Field Artillery Battalion, a unit mainly composed of Mormons from Logan, Utah. They were some of the finest men I ever met, and the commander, Colonel Joseph, was a great leader. We shipped out together in January 1951 for Korea.",
+    "implicit_text": "I was assigned to a field artillery battalion mainly composed of men from a religious community in northern Utah. They were some of the finest men I ever met, and the commander, Colonel Joseph, was a great leader. We shipped out together in January 1951 for Korea.",
+    "cues": [
+      "unit assignment 1950",
+      "Mormon composition",
+      "deployment January 1951"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.01120.yaml"
+  },
+  {
+    "entity_id": 20,
+    "entity": "Logan, Utah",
+    "explicit_text": "Logan, Utah, was the home of most of the men in the 204th Field Artillery Battalion. The unit was largely made up of Mormons from that area, and I found their camaraderie and discipline impressive. It was a unique cultural aspect of my military experience.",
+    "implicit_text": "A city in northern Utah was the home of most of the men in the artillery battalion I joined. The unit was largely made up of members of a particular religious group from that area, and I found their camaraderie and discipline impressive. It was a unique cultural aspect of my military experience.",
+    "cues": [
+      "204th Battalion origin",
+      "Mormon community",
+      "unit culture"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.01120.yaml"
+  },
+  {
+    "entity_id": 21,
+    "entity": "Mormonism",
+    "explicit_text": "The 204th Field Artillery Battalion was predominantly Mormon, which influenced the unit’s character and cohesion. Although it wasn’t by design, most soldiers were from Mormon backgrounds around Logan, Utah. I never encountered better men than those in that unit.",
+    "implicit_text": "The artillery battalion was predominantly composed of soldiers from a specific religious background, which influenced the unit’s character and cohesion. Although it wasn’t by design, most soldiers were from that faith community around northern Utah. I never encountered better men than those in that unit.",
+    "cues": [
+      "unit religious makeup",
+      "Logan, Utah",
+      "unit cohesion"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.01120.yaml"
+  },
+  {
+    "entity_id": 22,
+    "entity": "USS General Anderson (AP-111)",
+    "explicit_text": "We sailed to Japan aboard the USS General Anderson in January 1951. The ship had different classes of passengers, with us common soldiers in the lowest class. I remember the rough seas, the cramped bunks, and the humorous moments like watching pancake batter spill on deck during a roll.",
+    "implicit_text": "We sailed to Japan aboard a troop transport ship in January 1951. The ship had different classes of passengers, with us common soldiers in the lowest class. I remember the rough seas, the cramped bunks, and the humorous moments like watching pancake batter spill on deck during a roll.",
+    "cues": [
+      "January 1951 voyage",
+      "passenger classes",
+      "shipboard life"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.01120.yaml"
+  },
+  {
+    "entity_id": 23,
+    "entity": "Japan",
+    "explicit_text": "Our ship arrived in Japan at Sansapaul, which was quiet except for the sudden arrival of high-ranking officers for a summit. Japan was a staging area before heading into Korea, and it was under U.S. occupation at the time. It was my first exposure to a foreign culture during the war.",
+    "implicit_text": "Our ship arrived in a country under U.S. occupation at a quiet port, which was a staging area before heading into Korea. It was my first exposure to a foreign culture during the war. The port was calm except for the sudden arrival of high-ranking officers for a summit.",
+    "cues": [
+      "arrival January 1951",
+      "Sansapaul port",
+      "U.S. occupation"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.01120.yaml"
+  },
+  {
+    "entity_id": 24,
+    "entity": "Sansapaul",
+    "explicit_text": "Sansapaul was the Japanese port where our ship docked on the way to Korea. It was quiet until officers arrived for a meeting, and we witnessed limousines being unloaded. It was a brief but memorable stop on our journey in early 1951.",
+    "implicit_text": "A Japanese port where our ship docked on the way to Korea was quiet until officers arrived for a meeting, and we witnessed limousines being unloaded. It was a brief but memorable stop on our journey in early 1951.",
+    "cues": [
+      "Japanese port",
+      "ship arrival January 1951",
+      "officer meeting"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.01120.yaml"
+  },
+  {
+    "entity_id": 25,
+    "entity": "Republic of Korea",
+    "explicit_text": "I was deployed to the Republic of Korea during the Korean War as part of the 204th Field Artillery Battalion. Arriving in early 1951, I faced the realities of a foreign country at war. It was a challenging adjustment but a defining part of my military service.",
+    "implicit_text": "I was deployed to the country in East Asia during the Korean conflict as part of the artillery battalion. Arriving in early 1951, I faced the realities of a foreign country at war. It was a challenging adjustment but a defining part of my military service.",
+    "cues": [
+      "deployment 1951",
+      "Korean War",
+      "foreign culture adjustment"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.01120.yaml"
+  },
+  {
+    "entity_id": 26,
+    "entity": "Chosen",
+    "explicit_text": "Chosen was mentioned as part of the Korean region during the war, though I did not have direct experience there. It was part of the broader theater of operations in Korea at the time. My focus was more on areas like Kaesong and Seoul during my deployment.",
+    "implicit_text": "A region mentioned as part of the Korean theater during the war, though I did not have direct experience there. It was part of the broader area of operations in Korea at the time. My focus was more on areas like the border city and the capital during my deployment.",
+    "cues": [
+      "Korean War region",
+      "theater of operations",
+      "indirect reference"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.01120.yaml"
+  },
+  {
+    "entity_id": 27,
+    "entity": "Battle of Inchon",
+    "explicit_text": "While I was training and preparing for deployment, the Battle of Inchon was a major turning point in the Korean War. I didn’t participate directly in the battle, but it was a significant event that shaped the course of the conflict we were entering. It was part of the news and military discussions at the time.",
+    "implicit_text": "While I was training and preparing for deployment, a major amphibious assault was a turning point in the Korean conflict. I didn’t participate directly in the battle, but it was a significant event that shaped the course of the fighting we were entering. It was part of the news and military discussions at the time.",
+    "cues": [
+      "Korean War turning point",
+      "pre-deployment period",
+      "military context"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.01120.yaml"
+  },
+  {
+    "entity_id": 28,
+    "entity": "Seoul",
+    "explicit_text": "Seoul was a key city in the Korean War and part of the area where fighting took place. Although I did not describe being there specifically, it was central to the conflict and mentioned in the context of the war’s progress. It was one of the major objectives during the campaign.",
+    "implicit_text": "The capital city of Korea was a key location in the war and part of the area where fighting took place. Although I did not describe being there specifically, it was central to the conflict and mentioned in the context of the war’s progress. It was one of the major objectives during the campaign.",
+    "cues": [
+      "Korean War major city",
+      "conflict zone",
+      "military objectives"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.01120.yaml"
+  }
+]

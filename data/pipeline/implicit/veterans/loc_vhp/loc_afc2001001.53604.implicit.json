@@ -1,0 +1,420 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "Alfred Charles Anderson",
+    "explicit_text": "My name is Alfred Charles Anderson, but nobody calls me Alfred. To my family, I'm Al, and in the military, they call me Andy or chief. I was born in Philadelphia but grew up mostly around Wilmington and later Viola, Delaware. My experiences from childhood through my military service shaped who I am today.",
+    "implicit_text": "My name is Alfred Charles Anderson, but nobody calls me Alfred. To my family, I'm Al, and in the military, they call me Andy or chief. I was born in a major city in Pennsylvania but grew up mostly around a nearby Delaware city and later a small town in Delaware. My experiences from childhood through my military service shaped who I am today.",
+    "cues": [
+      "Philadelphia",
+      "Wilmington, Delaware",
+      "Viola, Delaware",
+      "military service"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.53604.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "Philadelphia",
+    "explicit_text": "I was born in Philadelphia, though I don't often mention it. Later, after induction into the Army, I traveled back through Philadelphia on my way to Camden, New Jersey. Philadelphia was part of my early life and military journey.",
+    "implicit_text": "I was born in a large northeastern city known for its historical significance, though I don't often mention it. Later, after induction into the Army, I traveled back through that city on my way to a New Jersey city across the river. That city was part of my early life and military journey.",
+    "cues": [
+      "birthplace",
+      "military induction",
+      "travel route"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.53604.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "Wilmington, Delaware",
+    "explicit_text": "I consider Wilmington my primary home since I lived there from age 5 to 14. It was a big part of my childhood before my family moved to Viola, Delaware. I also had connections with other boys from Wilmington when I joined the military.",
+    "implicit_text": "I consider the largest city in Delaware my primary home since I lived there from age 5 to 14. It was a big part of my childhood before my family moved to a tiny town in Delaware. I also had connections with other boys from that city when I joined the military.",
+    "cues": [
+      "childhood",
+      "military peers",
+      "family move"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.53604.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "Viola, Delaware",
+    "explicit_text": "When I was 14, my family moved to Viola, Delaware, a tiny town with only 105 people. Life there was simple, with a pump on the porch and a cook stove heating the house. I vividly remember being at home in Viola on Pearl Harbor Day in 1941, feeling stunned and alarmed with my brothers.",
+    "implicit_text": "When I was 14, my family moved to a tiny town in Delaware with only 105 people. Life there was simple, with a pump on the porch and a cook stove heating the house. I vividly remember being at home there on December 7th, 1941, feeling stunned and alarmed with my brothers.",
+    "cues": [
+      "1941",
+      "Pearl Harbor Day",
+      "family move",
+      "small town life"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.53604.yaml"
+  },
+  {
+    "entity_id": 5,
+    "entity": "Pearl Harbor",
+    "explicit_text": "I remember Pearl Harbor Day very clearly. It was December 7th, 1941, and I was at home in Viola with my brothers. We learned about the attack in the early afternoon and stayed glued to the radio all evening, shocked and alarmed by the news.",
+    "implicit_text": "I remember December 7th, 1941, very clearly. It was that day when I was at home in a small Delaware town with my brothers. We learned about the attack on a Pacific naval base in the early afternoon and stayed glued to the radio all evening, shocked and alarmed by the news.",
+    "cues": [
+      "December 7th, 1941",
+      "Viola, Delaware",
+      "radio",
+      "attack"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.53604.yaml"
+  },
+  {
+    "entity_id": 6,
+    "entity": "United States Navy",
+    "explicit_text": "After Pearl Harbor, I tried to join the Navy but was rejected because I was colorblind. They had earlier tried to recruit me, but I declined, deciding to wait for the draft instead. The Navy missed their chance with me, and I ended up joining the Army.",
+    "implicit_text": "After the attack on the naval base, I tried to join the naval service but was rejected because I was colorblind. They had earlier tried to recruit me, but I declined, deciding to wait for the draft instead. The naval service missed their chance with me, and I ended up joining the Army.",
+    "cues": [
+      "colorblind rejection",
+      "post-Pearl Harbor",
+      "military recruitment"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.53604.yaml"
+  },
+  {
+    "entity_id": 7,
+    "entity": "United States Army",
+    "explicit_text": "I was drafted into the United States Army on February 19th, 1943, after some delay and personal rebellion. I left from Harrington, Delaware, traveled through Philadelphia and Camden, and eventually trained at Fort Dix. I served in various roles and locations throughout the war.",
+    "implicit_text": "I was drafted into the U.S. Army on February 19th, 1943, after some delay and personal rebellion. I left from a small Delaware town, traveled through a major Pennsylvania city and a New Jersey city, and eventually trained at a large military base in New Jersey. I served in various roles and locations throughout the war.",
+    "cues": [
+      "drafted 1943",
+      "Harrington, Delaware",
+      "Fort Dix",
+      "military service"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.53604.yaml"
+  },
+  {
+    "entity_id": 8,
+    "entity": "Harrington, Delaware",
+    "explicit_text": "I left for the Army from Harrington, Delaware. From there, I traveled to Philadelphia and Camden before heading south for training. Harrington was the last place I was before entering active military service.",
+    "implicit_text": "I left for the Army from a small town in Delaware. From there, I traveled to a major city in Pennsylvania and a city in New Jersey before heading south for training. That Delaware town was the last place I was before entering active military service.",
+    "cues": [
+      "military induction",
+      "travel route"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.53604.yaml"
+  },
+  {
+    "entity_id": 9,
+    "entity": "Philadelphia",
+    "explicit_text": "Philadelphia was both my birthplace and a key transit point during my military induction. After leaving Harrington, I went to Philadelphia before crossing over to Camden, New Jersey. It was part of the journey that started my Army career.",
+    "implicit_text": "That major city in Pennsylvania was both my birthplace and a key transit point during my military induction. After leaving the small Delaware town, I went there before crossing over to a New Jersey city. It was part of the journey that started my Army career.",
+    "cues": [
+      "birthplace",
+      "military transit"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.53604.yaml"
+  },
+  {
+    "entity_id": 10,
+    "entity": "Camden, New Jersey",
+    "explicit_text": "After Philadelphia, I crossed the river to Camden, New Jersey, where I was escorted by police because some Delaware boys had caused trouble the day before. Camden was a notable stop early in my Army induction process.",
+    "implicit_text": "After the Pennsylvania city, I crossed the river to a New Jersey city, where I was escorted by police because some Delaware boys had caused trouble the day before. That city was a notable stop early in my Army induction process.",
+    "cues": [
+      "military induction",
+      "police escort",
+      "Delaware boys incident"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.53604.yaml"
+  },
+  {
+    "entity_id": 11,
+    "entity": "Marine Corps",
+    "explicit_text": "When I was inducted, both the Marine Corps and Navy tried to recruit me again, but I refused. I told them they had missed their chance and that I was going to serve in the Army. I was determined to follow my own path in the military.",
+    "implicit_text": "When I was inducted, both the naval infantry and naval service tried to recruit me again, but I refused. I told them they had missed their chance and that I was going to serve in the Army. I was determined to follow my own path in the military.",
+    "cues": [
+      "military recruitment",
+      "personal decision",
+      "Army service"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.53604.yaml"
+  },
+  {
+    "entity_id": 12,
+    "entity": "Fort Dix",
+    "explicit_text": "I spent a few days at Fort Dix after induction before shipping out. It was one of my first stops in the Army, and from there, I began my journey south for training. Fort Dix marked the start of my active military training.",
+    "implicit_text": "I spent a few days at a large military training base in New Jersey after induction before shipping out. It was one of my first stops in the Army, and from there, I began my journey south for training. That base marked the start of my active military training.",
+    "cues": [
+      "early military training",
+      "induction"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.53604.yaml"
+  },
+  {
+    "entity_id": 13,
+    "entity": "Miami Beach, Florida",
+    "explicit_text": "I trained for 18 days in Miami Beach, Florida, which was a lively and jubilant time despite the brief duration. I was 18 years old and surrounded by tough guys from North Jersey and New York City. Miami Beach was where I first experienced basic training.",
+    "implicit_text": "I trained for 18 days in a lively beach city in Florida, which was a jubilant time despite the brief duration. I was 18 years old and surrounded by tough guys from northern New Jersey and New York City. That Florida city was where I first experienced basic training.",
+    "cues": [
+      "basic training",
+      "age 18",
+      "military peers"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.53604.yaml"
+  },
+  {
+    "entity_id": 14,
+    "entity": "North Jersey",
+    "explicit_text": "Many of the men I trained with in Miami Beach were from North Jersey. They were a tough bunch and part of the diverse group I met early in my military career. Their presence made the training environment intense and memorable.",
+    "implicit_text": "Many of the men I trained with in that Florida beach city were from northern New Jersey. They were a tough bunch and part of the diverse group I met early in my military career. Their presence made the training environment intense and memorable.",
+    "cues": [
+      "military training",
+      "Miami Beach",
+      "peer group"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.53604.yaml"
+  },
+  {
+    "entity_id": 15,
+    "entity": "New York City",
+    "explicit_text": "Along with men from North Jersey, many of my fellow trainees in Miami Beach came from New York City. They were a tough crowd, and together we formed a lively group during basic training. New York City was part of the mix of backgrounds I encountered.",
+    "implicit_text": "Along with men from northern New Jersey, many of my fellow trainees in that Florida city came from New York City. They were a tough crowd, and together we formed a lively group during basic training. New York City was part of the mix of backgrounds I encountered.",
+    "cues": [
+      "military training",
+      "Miami Beach",
+      "peer group"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.53604.yaml"
+  },
+  {
+    "entity_id": 16,
+    "entity": "Buckley Field",
+    "explicit_text": "I volunteered to be an aerial gunner and was sent to Buckley Field, Colorado, for armament school and gunnery training. This was where I earned my sergeant rank, leather jacket, goggles, and wings. Buckley Field was a pivotal place in my military career.",
+    "implicit_text": "I volunteered to be an aerial gunner and was sent to a military airfield in Colorado for armament school and gunnery training. This was where I earned my sergeant rank, leather jacket, goggles, and wings. That airfield was a pivotal place in my military career.",
+    "cues": [
+      "aerial gunnery school",
+      "sergeant rank",
+      "Colorado"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.53604.yaml"
+  },
+  {
+    "entity_id": 17,
+    "entity": "Denver",
+    "explicit_text": "After Buckley Field, I also trained in Denver, Colorado, as part of my aerial gunnery schooling. Denver was part of the process that prepared me for combat missions as an aerial gunner. These locations shaped my skills and rank advancement.",
+    "implicit_text": "After training at the Colorado airfield, I also trained in the nearby city of Denver as part of my aerial gunnery schooling. Denver was part of the process that prepared me for combat missions as an aerial gunner. These locations shaped my skills and rank advancement.",
+    "cues": [
+      "aerial gunnery school",
+      "Colorado",
+      "military training"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.53604.yaml"
+  },
+  {
+    "entity_id": 18,
+    "entity": "Moses Lake, Washington",
+    "explicit_text": "I was assigned to Moses Lake, Washington, for further training after Salt Lake City. I didn't realize Washington had desert areas until I arrived there, living in tar paper shacks surrounded by black sand and rocks. Moses Lake was a tough but important training site.",
+    "implicit_text": "I was assigned to a training base in Washington state after Salt Lake City. I didn't realize that state had desert areas until I arrived there, living in tar paper shacks surrounded by black sand and rocks. That training site was tough but important.",
+    "cues": [
+      "training base",
+      "Washington desert",
+      "military preparation"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.53604.yaml"
+  },
+  {
+    "entity_id": 19,
+    "entity": "Drew Field",
+    "explicit_text": "Due to bad weather in Moses Lake, I was transferred to Drew Field in Tampa, Florida. I traveled there by train and trained alongside other airmen. Drew Field was where I continued my preparation for aerial missions.",
+    "implicit_text": "Due to bad weather in Washington, I was transferred to a military field in Tampa, Florida. I traveled there by train and trained alongside other airmen. That field was where I continued my preparation for aerial missions.",
+    "cues": [
+      "training base",
+      "Tampa, Florida",
+      "military training"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.53604.yaml"
+  },
+  {
+    "entity_id": 20,
+    "entity": "Tampa, Florida",
+    "explicit_text": "I trained in Tampa, Florida, at Drew Field and stayed there before moving on to Langley Field. It was the only time I shared sleeping quarters with another man in the military due to the Pullman bunks. Tampa was a key stop in my training journey.",
+    "implicit_text": "I trained in Tampa, Florida, at a military field and stayed there before moving on to a base in Virginia. It was the only time I shared sleeping quarters with another man in the military due to the Pullman bunks. Tampa was a key stop in my training journey.",
+    "cues": [
+      "Drew Field",
+      "shared quarters",
+      "military training"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.53604.yaml"
+  },
+  {
+    "entity_id": 21,
+    "entity": "Langley Field",
+    "explicit_text": "At Langley Field, Virginia, I received radio training and flew with the 4th Sea Search unit. We flew up and down the coast for two months, and it was the first time I came home in ten months. Langley Field was where I gained important skills and flew many training missions.",
+    "implicit_text": "At a military base in Virginia, I received radio training and flew with a coastal patrol unit. We flew up and down the coast for two months, and it was the first time I came home in ten months. That base was where I gained important skills and flew many training missions.",
+    "cues": [
+      "radio training",
+      "4th Sea Search",
+      "Virginia",
+      "training flights"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.53604.yaml"
+  },
+  {
+    "entity_id": 22,
+    "entity": "4th Sea Search",
+    "explicit_text": "I was assigned to the 4th Sea Search unit at Langley Field, flying coastal patrols for two months. This unit flew missions up and down the Atlantic coast, and it was during this time I first returned home after many months away. The 4th Sea Search was an important part of my early combat experience.",
+    "implicit_text": "I was assigned to a coastal patrol unit at the Virginia base, flying missions up and down the Atlantic coast for two months. It was during this time I first returned home after many months away. That unit was an important part of my early combat experience.",
+    "cues": [
+      "Langley Field",
+      "coastal patrols",
+      "early missions"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.53604.yaml"
+  },
+  {
+    "entity_id": 23,
+    "entity": "Harrisburg, Pennsylvania",
+    "explicit_text": "During my training flights from Langley Field, we flew over Harrisburg, Pennsylvania, among other cities. These cross-country flights helped me study the coastline and prepare for combat. Harrisburg was one of the familiar landmarks on these missions.",
+    "implicit_text": "During my training flights from the Virginia base, we flew over a city in Pennsylvania known as the state capital, among other cities. These cross-country flights helped me study the coastline and prepare for combat. That city was one of the familiar landmarks on these missions.",
+    "cues": [
+      "training flights",
+      "Langley Field",
+      "Pennsylvania"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.53604.yaml"
+  },
+  {
+    "entity_id": 24,
+    "entity": "Pittsburgh",
+    "explicit_text": "Pittsburgh was another city we flew over during cross-country training missions from Langley Field. Flying over Pittsburgh gave me a sense of connection to home and the country as I prepared for combat. These flights were both educational and nostalgic.",
+    "implicit_text": "Another city we flew over during cross-country training missions from the Virginia base was a major Pennsylvania city known for its steel industry. Flying over that city gave me a sense of connection to home and the country as I prepared for combat. These flights were both educational and nostalgic.",
+    "cues": [
+      "training flights",
+      "Langley Field",
+      "Pennsylvania"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.53604.yaml"
+  },
+  {
+    "entity_id": 25,
+    "entity": "Grenier Airport",
+    "explicit_text": "After Langley Field, I was shipped out to Grenier Airport in New Hampshire. This was part of my deployment process before heading further north to Goose Bay, Labrador. Grenier Airport was a stepping stone in my overseas assignments.",
+    "implicit_text": "After the Virginia base, I was shipped out to an airport in New Hampshire. This was part of my deployment process before heading further north to a base in Labrador. That airport was a stepping stone in my overseas assignments.",
+    "cues": [
+      "New Hampshire",
+      "military deployment"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.53604.yaml"
+  },
+  {
+    "entity_id": 26,
+    "entity": "New Hampshire",
+    "explicit_text": "I was stationed briefly in New Hampshire at Grenier Airport before moving on to other locations. New Hampshire was part of my route to the northern bases where I flew missions. It was a cold, transitional place in my military journey.",
+    "implicit_text": "I was stationed briefly in New Hampshire at an airport before moving on to other locations. That state was part of my route to the northern bases where I flew missions. It was a cold, transitional place in my military journey.",
+    "cues": [
+      "Grenier Airport",
+      "military deployment"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.53604.yaml"
+  },
+  {
+    "entity_id": 27,
+    "entity": "Goose Bay",
+    "explicit_text": "I was assigned to Goose Bay in Labrador, where snow piled 12 to 14 feet high on either side of the aircraft. The conditions were harsh and challenging, but it was a critical base for our operations. Goose Bay was one of the most remote and cold places I served.",
+    "implicit_text": "I was assigned to a base in Labrador where snow piled 12 to 14 feet high on either side of the aircraft. The conditions were harsh and challenging, but it was a critical base for our operations. That base was one of the most remote and cold places I served.",
+    "cues": [
+      "Labrador",
+      "snow",
+      "military base"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.53604.yaml"
+  },
+  {
+    "entity_id": 28,
+    "entity": "Labrador",
+    "explicit_text": "My time in Labrador was spent at Goose Bay, where the snow was incredibly deep and the environment tough. It was a remote northern location that tested our endurance and flying skills. Labrador was a key part of the northern air route during the war.",
+    "implicit_text": "My time in Labrador was spent at a northern base with incredibly deep snow and a tough environment. It was a remote northern location that tested our endurance and flying skills. That region was a key part of the northern air route during the war.",
+    "cues": [
+      "Goose Bay",
+      "snow",
+      "military service"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.53604.yaml"
+  },
+  {
+    "entity_id": 29,
+    "entity": "Meeks Field",
+    "explicit_text": "I flew individual flights to Meeks Field in Iceland, where I once got lost due to bad weather and nearly ran out of fuel. It was a tense experience that tested my skills and nerves. Meeks Field was a vital stopover in the North Atlantic air route.",
+    "implicit_text": "I flew individual flights to a field in Iceland, where I once got lost due to bad weather and nearly ran out of fuel. It was a tense experience that tested my skills and nerves. That field was a vital stopover in the North Atlantic air route.",
+    "cues": [
+      "Iceland",
+      "bad weather",
+      "fuel shortage"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.53604.yaml"
+  },
+  {
+    "entity_id": 30,
+    "entity": "Iceland",
+    "explicit_text": "Iceland was part of my flight route, specifically Meeks Field, where I encountered severe weather and navigational challenges. The experience was intense, including a night spent there after nearly running out of fuel. Iceland was a critical but difficult location on my missions.",
+    "implicit_text": "Iceland was part of my flight route, specifically a field where I encountered severe weather and navigational challenges. The experience was intense, including a night spent there after nearly running out of fuel. That country was a critical but difficult location on my missions.",
+    "cues": [
+      "Meeks Field",
+      "weather challenges",
+      "military flights"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.53604.yaml"
+  },
+  {
+    "entity_id": 31,
+    "entity": "Nutts Corner Airport",
+    "explicit_text": "After Iceland, I flew into Nutts Corner Airport in Ireland. This was part of the journey before splitting up to Bovingdon Airfield for further training and lectures. Nutts Corner was an important waypoint in my European deployment.",
+    "implicit_text": "After Iceland, I flew into an airport in Ireland. This was part of the journey before splitting up to an airfield in England for further training and lectures. That airport was an important waypoint in my European deployment.",
+    "cues": [
+      "Ireland",
+      "military deployment"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.53604.yaml"
+  },
+  {
+    "entity_id": 32,
+    "entity": "Ireland",
+    "explicit_text": "I landed at Nutts Corner Airport in Ireland during my deployment to Europe. Ireland was a staging area before moving on to Bovingdon Airfield in England. It was part of the transition from North Atlantic flights to active combat zones.",
+    "implicit_text": "I landed at an airport in Ireland during my deployment to Europe. That country was a staging area before moving on to an airfield in England. It was part of the transition from North Atlantic flights to active combat zones.",
+    "cues": [
+      "Nutts Corner Airport",
+      "deployment"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.53604.yaml"
+  },
+  {
+    "entity_id": 33,
+    "entity": "Bovingdon Airfield",
+    "explicit_text": "At Bovingdon Airfield in England, we received lectures from experienced airmen and British bomber crews. It was a sobering experience, hearing about the dangers and the high casualty rates. Bovingdon was where I learned the harsh realities of air combat.",
+    "implicit_text": "At an airfield in England, we received lectures from experienced airmen and British bomber crews. It was a sobering experience, hearing about the dangers and the high casualty rates. That airfield was where I learned the harsh realities of air combat.",
+    "cues": [
+      "England",
+      "combat training",
+      "experienced crews"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.53604.yaml"
+  },
+  {
+    "entity_id": 34,
+    "entity": "Eighth Air Force",
+    "explicit_text": "I flew with the Eighth Air Force over Europe, where the missions were dangerous and conditions brutal. Early crews suffered heavy losses without fighter escort, but by the time I flew, we were beginning to get escorts. The Eighth Air Force was central to the air war in Europe.",
+    "implicit_text": "I flew with a major U.S. air force unit over Europe, where the missions were dangerous and conditions brutal. Early crews suffered heavy losses without fighter escort, but by the time I flew, we were beginning to get escorts. That air force was central to the air war in Europe.",
+    "cues": [
+      "Europe",
+      "fighter escort",
+      "combat missions"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.53604.yaml"
+  },
+  {
+    "entity_id": 35,
+    "entity": "Messerschmitt Me 262",
+    "explicit_text": "I saw one of the first Messerschmitt Me 262 jets come through our formation. It was so fast that pilots were stunned and unsure what they were seeing. Facing these new German jets was terrifying and added to the danger of our missions.",
+    "implicit_text": "I saw one of the first German jet fighters come through our formation. It was so fast that pilots were stunned and unsure what they were seeing. Facing these new jets was terrifying and added to the danger of our missions.",
+    "cues": [
+      "German jet",
+      "combat",
+      "Europe"
+    ],
+    "transcript_ref": "veterans\\loc_vhp\\loc_afc2001001.53604.yaml"
+  }
+]

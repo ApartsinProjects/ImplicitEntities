@@ -1,0 +1,163 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "Romania",
+    "explicit_text": "I was born in Romania in 1935, and it was my family's home before the war uprooted us. Romania was where my early childhood began, but during World War II, my family was forced to leave and sent to a concentration camp. It holds a significant place in my history as the starting point of my journey.",
+    "implicit_text": "I was born in a country in Eastern Europe in 1935, and it was my family's home before the war uprooted us. That place was where my early childhood began, but during World War II, my family was forced to leave and sent to a concentration camp. It holds a significant place in my history as the starting point of my journey.",
+    "cues": [
+      "born in 1935",
+      "family home",
+      "early childhood",
+      "World War II"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_309_leah_sharf_pobiel.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "Ukraine",
+    "explicit_text": "During World War II, my family was sent to a concentration camp located in Ukraine. It was a terrifying and dark time for us, but it was there in Ukraine in 1944 that we were rescued by a Jewish battalion from Palestine. That place marks the turning point from despair to hope in my life.",
+    "implicit_text": "During World War II, my family was sent to a concentration camp located in a country in Eastern Europe. It was a terrifying and dark time for us, but it was there in 1944 that we were rescued by a Jewish battalion from Palestine. That place marks the turning point from despair to hope in my life.",
+    "cues": [
+      "World War II",
+      "concentration camp",
+      "Ukraine",
+      "1944",
+      "rescued by Jewish battalion"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_309_leah_sharf_pobiel.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "World War II",
+    "explicit_text": "World War II changed my life forever. During the war, my family was sent to a concentration camp in Ukraine, and it was a time of great fear and uncertainty. Thankfully, in 1944, we were rescued by a Jewish battalion from Palestine, which led us to a new life in Israel. The war's impact is deeply personal to me as a survivor.",
+    "implicit_text": "A global conflict changed my life forever. During that time, my family was sent to a concentration camp in Eastern Europe, and it was a time of great fear and uncertainty. Thankfully, in 1944, we were rescued by a Jewish battalion from Palestine, which led us to a new life in Israel. The war's impact is deeply personal to me as a survivor.",
+    "cues": [
+      "family sent to concentration camp",
+      "Ukraine",
+      "1944",
+      "rescued",
+      "Jewish battalion from Palestine"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_309_leah_sharf_pobiel.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "Jewish Brigade",
+    "explicit_text": "In 1944, my family was rescued from a concentration camp by a Jewish battalion from Palestine, often referred to as the Jewish Brigade. Their bravery and intervention saved our lives and allowed us to escape the horrors of the camp. This military unit played a crucial role in my family's survival during the war.",
+    "implicit_text": "In 1944, my family was rescued from a concentration camp by a Jewish military unit from Palestine. Their bravery and intervention saved our lives and allowed us to escape the horrors of the camp. This unit played a crucial role in my family's survival during the war.",
+    "cues": [
+      "1944",
+      "rescued from concentration camp",
+      "Jewish battalion from Palestine",
+      "survival"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_309_leah_sharf_pobiel.yaml"
+  },
+  {
+    "entity_id": 5,
+    "entity": "Palestine (region)",
+    "explicit_text": "After being rescued, my siblings and I were brought to Palestine, which was the name for the region before Israel was established. We lived in a children's home there and I went to school in Palestine. It was a place of refuge and new beginnings for us after the war.",
+    "implicit_text": "After being rescued, my siblings and I were brought to the region known before 1948 by a different name. We lived in a children's home there and I went to school in that territory. It was a place of refuge and new beginnings for us after the war.",
+    "cues": [
+      "rescued in 1944",
+      "brought to Palestine",
+      "children's home",
+      "school",
+      "pre-Israel"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_309_leah_sharf_pobiel.yaml"
+  },
+  {
+    "entity_id": 6,
+    "entity": "Israel",
+    "explicit_text": "I grew up in Israel after my family was brought there following our rescue during the war. I attended school there and served in the Israeli Air Force when I was 18. Two of my children were born in Israel before we eventually moved to the United States in 1961.",
+    "implicit_text": "I grew up in the country established in 1948 after my family was brought there following our rescue during the war. I attended school there and served in the national air force when I was 18. Two of my children were born there before we eventually moved to the United States in 1961.",
+    "cues": [
+      "grew up",
+      "school",
+      "Israeli Air Force",
+      "children born",
+      "moved to US in 1961"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_309_leah_sharf_pobiel.yaml"
+  },
+  {
+    "entity_id": 7,
+    "entity": "Israeli Air Force",
+    "explicit_text": "When I was 18, I served in the Israeli Air Force, which was an important part of my young adult life in Israel. It was a time of service and commitment to my country before I got married a year later. This experience shaped my identity and connection to Israel.",
+    "implicit_text": "When I was 18, I served in the air force of the newly established Middle Eastern country, which was an important part of my young adult life. It was a time of service and commitment to my country before I got married a year later. This experience shaped my identity and connection to that nation.",
+    "cues": [
+      "age 18",
+      "service",
+      "Israel",
+      "married one year later"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_309_leah_sharf_pobiel.yaml"
+  },
+  {
+    "entity_id": 8,
+    "entity": "United States",
+    "explicit_text": "My grandparents moved to the United States in 1961, following family sponsorship from relatives who lived there. We traveled by Israeli ship and arrived after 14 days at sea, landing in New York. Life in America was challenging at first, but we worked hard and eventually became naturalized citizens by 1966. I consider the United States the best country in the world.",
+    "implicit_text": "My grandparents moved to North America in 1961, following family sponsorship from relatives who lived there. We traveled by ship from the Middle East and arrived after 14 days at sea, landing in New York. Life in that country was challenging at first, but we worked hard and eventually became naturalized citizens by 1966. I consider this nation the best country in the world.",
+    "cues": [
+      "moved in 1961",
+      "family sponsorship",
+      "14-day ship journey",
+      "New York arrival",
+      "naturalized 1966"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_309_leah_sharf_pobiel.yaml"
+  },
+  {
+    "entity_id": 9,
+    "entity": "New York City",
+    "explicit_text": "Our ship arrived in New York City after a long 14-day journey across the Atlantic Ocean. Seeing Lady Liberty for the first time left me in awe and gave me hope for our new life. New York was beautiful and marked the beginning of our American experience before we traveled on to Minneapolis.",
+    "implicit_text": "Our ship arrived in the largest city on the East Coast after a long 14-day journey across the Atlantic Ocean. Seeing the iconic statue for the first time left me in awe and gave me hope for our new life. This city was beautiful and marked the beginning of our American experience before we traveled on to Minneapolis.",
+    "cues": [
+      "arrival in 1961",
+      "14-day journey",
+      "Atlantic Ocean",
+      "Lady Liberty",
+      "first impression"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_309_leah_sharf_pobiel.yaml"
+  },
+  {
+    "entity_id": 10,
+    "entity": "Lady Liberty",
+    "explicit_text": "When we arrived in New York, the first thing that caught my eye was Lady Liberty. She left me in awe and symbolized freedom and hope after all we had been through. Seeing her was a powerful moment that gave me strength as we started our new life in America.",
+    "implicit_text": "When we arrived in New York, the first thing that caught my eye was the famous statue symbolizing freedom. It left me in awe and symbolized freedom and hope after all we had been through. Seeing it was a powerful moment that gave me strength as we started our new life in America.",
+    "cues": [
+      "arrival in New York",
+      "symbol of freedom",
+      "hope",
+      "awe"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_309_leah_sharf_pobiel.yaml"
+  },
+  {
+    "entity_id": 11,
+    "entity": "Chicago",
+    "explicit_text": "After arriving in New York, we took a train through Chicago on our way to Minneapolis. Chicago was a stop along the way to meet my grandfather's family. It was part of the journey that brought us to our new home in the Midwest.",
+    "implicit_text": "After arriving in New York, we took a train through a major Midwestern city on our way to Minneapolis. That city was a stop along the way to meet my grandfather's family. It was part of the journey that brought us to our new home in the Midwest.",
+    "cues": [
+      "train travel",
+      "route from New York to Minneapolis",
+      "family connection"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_309_leah_sharf_pobiel.yaml"
+  },
+  {
+    "entity_id": 12,
+    "entity": "Minneapolis",
+    "explicit_text": "Minneapolis was where my grandfather's family was waiting for us when we arrived from New York. It became our new home in America, where we faced many challenges but worked hard to build a life. Raising four children there, Minneapolis holds a special place in our family's story.",
+    "implicit_text": "This Midwestern city was where my grandfather's family was waiting for us when we arrived from New York. It became our new home in America, where we faced many challenges but worked hard to build a life. Raising four children there, this city holds a special place in our family's story.",
+    "cues": [
+      "final destination in US",
+      "family waiting",
+      "new home",
+      "raising children"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_309_leah_sharf_pobiel.yaml"
+  }
+]

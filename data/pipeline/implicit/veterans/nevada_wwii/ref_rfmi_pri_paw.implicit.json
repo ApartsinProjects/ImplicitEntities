@@ -1,0 +1,143 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "Burma (Place)",
+    "explicit_text": "I was born in Burma, but I don't really remember much about it because I was just a baby when my parents fled the war and Burmese soldiers from our village. Most of my family still lives in villages in Burma, and sometimes they come to Thailand to visit. Burma is where my roots are, but I grew up mostly in Thailand.",
+    "implicit_text": "I was born in a Southeast Asian country, but I don't really remember much about it because I was just a baby when my parents fled the war and soldiers from our village. Most of my family still lives in villages there, and sometimes they come to a neighboring country to visit. That country is where my roots are, but I grew up mostly in the neighboring nation.",
+    "cues": [
+      "born in Burma",
+      "fled war",
+      "family in Burmese villages",
+      "early childhood"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\ref_rfmi_pri_paw.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "Thailand (Place)",
+    "explicit_text": "I grew up in Thailand for about 15 years before moving to the United States. I lived in refugee camps there, specifically in the Mila camp, which was made of bamboo houses without electricity for most people. Life in the camps was hard but manageable; we had some schooling, food provided by the UN and Thai people, and limited access to technology like old Nokia phones. Thailand was where I spent my childhood and youth before resettling.",
+    "implicit_text": "I grew up in a Southeast Asian kingdom for about 15 years before moving to the United States. I lived in refugee camps there, specifically in a camp made of bamboo houses without electricity for most people. Life in the camps was hard but manageable; we had some schooling, food provided by an international organization and local people, and limited access to technology like old Nokia phones. That kingdom was where I spent my childhood and youth before resettling.",
+    "cues": [
+      "15 years in Thailand",
+      "Mila refugee camp",
+      "UN food aid",
+      "schooling in camps",
+      "limited electricity"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\ref_rfmi_pri_paw.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "United States (Place)",
+    "explicit_text": "I moved to the United States when I was about 15 years old after applying through the UN resettlement program. Before coming here, I went through interviews and medical checkups, and they prepared me by teaching about life in America, like how to call 911 and what a bathroom is. Life here is very different from the camps in Thailand, with better schools, food, and access to technology. The US became my new home where I could start fresh.",
+    "implicit_text": "I moved to a North American country when I was about 15 years old after applying through the UN resettlement program. Before coming here, I went through interviews and medical checkups, and they prepared me by teaching about life in this new country, like how to call 911 and what a bathroom is. Life here is very different from the camps in Southeast Asia, with better schools, food, and access to technology. This country became my new home where I could start fresh.",
+    "cues": [
+      "moved at 15",
+      "UN resettlement",
+      "interviews and medical checks",
+      "learning about US life",
+      "better living conditions"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\ref_rfmi_pri_paw.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "Mila (Place)",
+    "explicit_text": "Mila is the refugee camp in Thailand where I grew up. It was made mostly of bamboo and wood houses with roofs made from leaves, and most people didn’t have electricity unless they were wealthy. The camp was crowded and basic, with limited medical care and food provided by the UN and Thai people. Mila was my home for many years before I moved to the United States.",
+    "implicit_text": "The refugee camp in the Southeast Asian kingdom where I grew up was made mostly of bamboo and wood houses with roofs made from leaves, and most people didn’t have electricity unless they were wealthy. The camp was crowded and basic, with limited medical care and food provided by an international organization and local people. That camp was my home for many years before I moved to the United States.",
+    "cues": [
+      "Mila refugee camp",
+      "bamboo houses",
+      "limited electricity",
+      "UN food aid",
+      "childhood home"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\ref_rfmi_pri_paw.yaml"
+  },
+  {
+    "entity_id": 5,
+    "entity": "United Nations (Organization)",
+    "explicit_text": "The United Nations played a big role in my life while I was in the refugee camp in Thailand. They helped by bringing food like rice and fish paste to the camps and organizing resettlement programs. The UN came to the camp to ask if we wanted to move to countries like the United States, and they handled the application and interview process. Without the UN, I probably wouldn’t have had the chance to start a new life in America.",
+    "implicit_text": "An international organization played a big role in my life while I was in the refugee camp in Southeast Asia. They helped by bringing food like rice and fish paste to the camps and organizing resettlement programs. This organization came to the camp to ask if we wanted to move to countries like the United States, and they handled the application and interview process. Without their help, I probably wouldn’t have had the chance to start a new life in America.",
+    "cues": [
+      "UN food aid",
+      "resettlement program",
+      "interviews in camps",
+      "support in refugee camps"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\ref_rfmi_pri_paw.yaml"
+  },
+  {
+    "entity_id": 6,
+    "entity": "Facebook (Organization)",
+    "explicit_text": "When I was growing up in the refugee camp in Thailand, we didn’t have internet or social media like Facebook. It was only after moving to the United States that I started to learn about and use Facebook and other online platforms. Back then, phones were basic Nokia models without internet access, so Facebook was not part of my life until later.",
+    "implicit_text": "When I was growing up in the refugee camp in Southeast Asia, we didn’t have internet or social media platforms. It was only after moving to the United States that I started to learn about and use Facebook and other online platforms. Back then, phones were basic Nokia models without internet access, so social media was not part of my life until later.",
+    "cues": [
+      "no internet in camp",
+      "Nokia phones",
+      "learned Facebook after moving to US"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\ref_rfmi_pri_paw.yaml"
+  },
+  {
+    "entity_id": 7,
+    "entity": "Nokia (Organization)",
+    "explicit_text": "In the refugee camps in Thailand, the phones we had were mostly old Nokia phones. They were basic and didn’t have internet or social media capabilities. People used them mainly to make calls, sometimes with SIM cards they had to buy to connect internationally. Nokia phones were a big part of communication in the camps before smartphones became common.",
+    "implicit_text": "In the refugee camps in Southeast Asia, the phones we had were mostly old models from a Finnish company. They were basic and didn’t have internet or social media capabilities. People used them mainly to make calls, sometimes with SIM cards they had to buy to connect internationally. These phones were a big part of communication in the camps before smartphones became common.",
+    "cues": [
+      "Nokia phones in camps",
+      "basic phone use",
+      "SIM cards for calls",
+      "limited technology"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\ref_rfmi_pri_paw.yaml"
+  },
+  {
+    "entity_id": 8,
+    "entity": "Japan (Place)",
+    "explicit_text": "Japan was mentioned briefly in the context of places refugees could apply to resettle, along with the United States, Canada, and Europe. However, I personally did not apply to or move to Japan. It was one of the options presented by the UN during the resettlement process in the refugee camps.",
+    "implicit_text": "An East Asian country was mentioned briefly in the context of places refugees could apply to resettle, along with the United States, Canada, and Europe. However, I personally did not apply to or move to that country. It was one of the options presented by the UN during the resettlement process in the refugee camps.",
+    "cues": [
+      "resettlement options",
+      "UN refugee program",
+      "Japan as a possible destination"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\ref_rfmi_pri_paw.yaml"
+  },
+  {
+    "entity_id": 9,
+    "entity": "New York City (Place)",
+    "explicit_text": "New York City was part of my journey after arriving in the United States. I remember landing at John F. Kennedy International Airport, which is in New York City, when I first came here. NYC was the gateway to my new life in America, and it was a big change from the refugee camps in Thailand.",
+    "implicit_text": "A major city on the East Coast of the United States was part of my journey after arriving in this country. I remember landing at a well-known international airport there when I first came here. That city was the gateway to my new life in America, and it was a big change from the refugee camps in Southeast Asia.",
+    "cues": [
+      "arrival in US",
+      "John F. Kennedy International Airport",
+      "gateway city"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\ref_rfmi_pri_paw.yaml"
+  },
+  {
+    "entity_id": 10,
+    "entity": "John F. Kennedy International Airport (Place)",
+    "explicit_text": "When I moved to the United States, I arrived through John F. Kennedy International Airport in New York City. It was my first experience stepping into America, and everything felt very new and different from the refugee camps. JFK was the starting point of my new life here.",
+    "implicit_text": "When I moved to the United States, I arrived through a famous international airport located in a major East Coast city. It was my first experience stepping into America, and everything felt very new and different from the refugee camps. That airport was the starting point of my new life here.",
+    "cues": [
+      "arrival in US",
+      "first US airport",
+      "New York City"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\ref_rfmi_pri_paw.yaml"
+  },
+  {
+    "entity_id": 11,
+    "entity": "Syracuse, New York (Place)",
+    "explicit_text": "Syracuse, New York is where I settled after moving to the United States. It was quite different from the refugee camps and even New York City, with better schools and more opportunities. Living in Syracuse helped me adjust to life in America and continue my education.",
+    "implicit_text": "A city in upstate New York is where I settled after moving to the United States. It was quite different from the refugee camps and even the big city where I first arrived, with better schools and more opportunities. Living there helped me adjust to life in America and continue my education.",
+    "cues": [
+      "resettlement city",
+      "better schools",
+      "adjusting to US life"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\ref_rfmi_pri_paw.yaml"
+  }
+]

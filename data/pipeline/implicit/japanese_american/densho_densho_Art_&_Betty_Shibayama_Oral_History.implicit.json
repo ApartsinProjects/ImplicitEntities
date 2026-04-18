@@ -1,0 +1,255 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "Japan",
+    "explicit_text": "My grandparents were originally from Fukuoka, Japan. They lived there after being forcibly sent during the war, and my grandfather never saw us again after they were taken from Peru. My father didn't want to go back to Japan because there wasn't enough food, and he was considered an enemy alien. Japan was a place tied to my family's roots but also a place of hardship during the war.",
+    "implicit_text": "My grandparents were originally from Fukuoka, a city in the island nation of the Pacific known for its rich culture. They lived there after being forcibly sent during the war, and my grandfather never saw us again after they were taken from the South American country where we lived. My father didn't want to go back to that island nation because there wasn't enough food, and he was considered an enemy alien. That place was tied to my family's roots but also a place of hardship during the war.",
+    "cues": [
+      "Fukuoka",
+      "grandparents",
+      "forcibly sent",
+      "war",
+      "enemy alien"
+    ],
+    "transcript_ref": "japanese_american\\densho_densho_Art_&_Betty_Shibayama_Oral_History.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "Peru",
+    "explicit_text": "I was born and raised in Peru, where my family was well-off and I attended Japanese private school. Peru was home to my grandparents who had a shop in Callao, the port city. Unfortunately, during the war, the Peruvian government wanted to get rid of all the Japanese, and many, including my family, were forcibly taken by the U.S. government. My father wanted to return to Peru, but the government wouldn't accept us because we were considered enemy aliens.",
+    "implicit_text": "I was born and raised in the South American country where my family was well-off and I attended a private school for people of Japanese descent. This country was home to my grandparents who had a shop in its main port city. Unfortunately, during the war, the government wanted to get rid of all the people of Japanese descent, and many, including my family, were forcibly taken by the U.S. government. My father wanted to return to this country, but the government wouldn't accept us because we were considered enemy aliens.",
+    "cues": [
+      "Peru",
+      "Japanese private school",
+      "Callao",
+      "war",
+      "deportation"
+    ],
+    "transcript_ref": "japanese_american\\densho_densho_Art_&_Betty_Shibayama_Oral_History.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "United States Army",
+    "explicit_text": "I joined the United States Army during World War II to avoid deportation since my father was fighting it. It was strange because I wasn't a citizen, yet I was drafted, which showed the government's injustice. The army brought us forcibly to the U.S. on a transport ship and placed us in a camp administered by the Justice Department. Despite the hardships, serving in the army was a way to protect myself and my family.",
+    "implicit_text": "I joined the U.S. military during World War II to avoid deportation since my father was fighting it. It was strange because I wasn't a citizen, yet I was drafted, which showed the government's injustice. The military brought us forcibly to the United States on a transport ship and placed us in a camp administered by the Justice Department. Despite the hardships, serving in the military was a way to protect myself and my family.",
+    "cues": [
+      "World War II",
+      "drafted",
+      "deportation",
+      "Justice Department camp",
+      "army transport"
+    ],
+    "transcript_ref": "japanese_american\\densho_densho_Art_&_Betty_Shibayama_Oral_History.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "Callao",
+    "explicit_text": "Callao was where my grandparents lived and ran a shop. I spent many summer vacations there because Lima lacked water, and I used to swim in the ocean daily. It was a lively place connected to my family's daily life before everything changed during the war. Sadly, my grandparents were taken from Callao, and I never saw them again.",
+    "implicit_text": "The main port city of the South American country was where my grandparents lived and ran a shop. I spent many summer vacations there because the capital city lacked water, and I used to swim in the ocean daily. It was a lively place connected to my family's daily life before everything changed during the war. Sadly, my grandparents were taken from that port city, and I never saw them again.",
+    "cues": [
+      "Callao",
+      "grandparents' shop",
+      "summer vacations",
+      "ocean swimming",
+      "war"
+    ],
+    "transcript_ref": "japanese_american\\densho_densho_Art_&_Betty_Shibayama_Oral_History.yaml"
+  },
+  {
+    "entity_id": 5,
+    "entity": "Lima",
+    "explicit_text": "I lived in Lima with my parents while staying with my grandparents in Callao during summers. Lima was where I went to school and played baseball, and my father worked there before the war. When my grandparents were taken from Callao, I was living in Lima and didn't fully understand the events unfolding. Lima was the center of my childhood before the forced relocations.",
+    "implicit_text": "I lived in the capital city of the South American country with my parents while staying with my grandparents in the nearby port city during summers. The capital was where I went to school and played baseball, and my father worked there before the war. When my grandparents were taken from the port city, I was living in the capital and didn't fully understand the events unfolding. That city was the center of my childhood before the forced relocations.",
+    "cues": [
+      "Lima",
+      "parents",
+      "school",
+      "baseball",
+      "war"
+    ],
+    "transcript_ref": "japanese_american\\densho_densho_Art_&_Betty_Shibayama_Oral_History.yaml"
+  },
+  {
+    "entity_id": 6,
+    "entity": "Fukuoka",
+    "explicit_text": "My grandparents came from Fukuoka, Japan, and that was the family's origin before moving to Peru. My grandfather had a brother there, but they never reunited after the war. Fukuoka represents the distant homeland my family was connected to but separated from due to the war and forced relocations.",
+    "implicit_text": "My grandparents came from a city on the northern island of the Pacific island nation, and that was the family's origin before moving to South America. My grandfather had a brother there, but they never reunited after the war. That city represents the distant homeland my family was connected to but separated from due to the war and forced relocations.",
+    "cues": [
+      "Fukuoka",
+      "Japan",
+      "grandparents",
+      "family origin",
+      "war"
+    ],
+    "transcript_ref": "japanese_american\\densho_densho_Art_&_Betty_Shibayama_Oral_History.yaml"
+  },
+  {
+    "entity_id": 7,
+    "entity": "Andes",
+    "explicit_text": "When the war started and the U.S. army transport arrived in Callao, my father went into hiding near the Andes mountains. He stayed there because he had a friend and thought the authorities wouldn't look for him in the mountains. It was a difficult time as my mother was jailed and the family was being torn apart.",
+    "implicit_text": "When the war started and the U.S. army transport arrived in the South American port city, my father went into hiding near the mountain range that runs along the western edge of the continent. He stayed there because he had a friend and thought the authorities wouldn't look for him in the mountains. It was a difficult time as my mother was jailed and the family was being torn apart.",
+    "cues": [
+      "Andes",
+      "hiding",
+      "war",
+      "Callao",
+      "family separation"
+    ],
+    "transcript_ref": "japanese_american\\densho_densho_Art_&_Betty_Shibayama_Oral_History.yaml"
+  },
+  {
+    "entity_id": 8,
+    "entity": "Pearl Harbor",
+    "explicit_text": "After Pearl Harbor was attacked on December 7, 1941, my family feared being sent back to Japan because we weren't citizens. I was the youngest of eight kids living on a farm in Hood River, Oregon, and overheard my parents worrying about our future. The attack marked the beginning of a very uncertain and frightening time for us.",
+    "implicit_text": "After the surprise attack on the naval base in Hawaii on December 7, 1941, my family feared being sent back to the Pacific island nation because we weren't citizens. I was the youngest of eight kids living on a farm in a small town in Oregon, and overheard my parents worrying about our future. The attack marked the beginning of a very uncertain and frightening time for us.",
+    "cues": [
+      "December 7, 1941",
+      "attack",
+      "Hood River, Oregon",
+      "family fear",
+      "citizenship"
+    ],
+    "transcript_ref": "japanese_american\\densho_densho_Art_&_Betty_Shibayama_Oral_History.yaml"
+  },
+  {
+    "entity_id": 9,
+    "entity": "Hood River, Oregon",
+    "explicit_text": "I grew up in Hood River, a small town about 50 miles east of Portland along the Columbia River. It was beautiful country, mostly rural, and my family lived on a farm there. Despite some neighbors wanting to help us hide during the evacuation, my father chose to comply with the orders. Hood River was home before we were forcibly relocated during the war.",
+    "implicit_text": "I grew up in a small town in Oregon, about 50 miles east of Portland along the Columbia River. It was beautiful country, mostly rural, and my family lived on a farm there. Despite some neighbors wanting to help us hide during the evacuation, my father chose to comply with the orders. That town was home before we were forcibly relocated during the war.",
+    "cues": [
+      "Hood River",
+      "Oregon",
+      "farm",
+      "Columbia River",
+      "evacuation"
+    ],
+    "transcript_ref": "japanese_american\\densho_densho_Art_&_Betty_Shibayama_Oral_History.yaml"
+  },
+  {
+    "entity_id": 10,
+    "entity": "Portland, Oregon",
+    "explicit_text": "Portland was the nearest big city to Hood River where some Japanese Americans were sent to the fairgrounds before relocation. My father checked back in Hood River after the war but faced severe prejudice, including being refused service at restaurants. Despite the hostility, some friends in Portland helped my family during those difficult times.",
+    "implicit_text": "The largest city near my hometown in Oregon was where some Japanese Americans were sent to the fairgrounds before relocation. My father checked back in our small town after the war but faced severe prejudice, including being refused service at restaurants. Despite the hostility, some friends in that city helped my family during those difficult times.",
+    "cues": [
+      "Portland",
+      "Oregon",
+      "fairgrounds",
+      "post-war prejudice",
+      "friendship"
+    ],
+    "transcript_ref": "japanese_american\\densho_densho_Art_&_Betty_Shibayama_Oral_History.yaml"
+  },
+  {
+    "entity_id": 11,
+    "entity": "Columbia River",
+    "explicit_text": "The Columbia River runs near Hood River, where I grew up on a farm. It was part of the beautiful rural landscape of my childhood. The river and surrounding area were peaceful before the upheaval caused by the war and forced relocation.",
+    "implicit_text": "The major river that flows near my hometown in Oregon was part of the beautiful rural landscape of my childhood. The river and surrounding area were peaceful before the upheaval caused by the war and forced relocation.",
+    "cues": [
+      "Columbia River",
+      "Hood River",
+      "farm",
+      "rural landscape",
+      "childhood"
+    ],
+    "transcript_ref": "japanese_american\\densho_densho_Art_&_Betty_Shibayama_Oral_History.yaml"
+  },
+  {
+    "entity_id": 12,
+    "entity": "Chicago",
+    "explicit_text": "After the war, two of my older sisters moved to Chicago to find work as housemaids. They encouraged my father to consider moving there instead of returning to Oregon because of the prejudice we faced back home. Chicago represented a fresh start and opportunities away from the hostility in the Pacific Northwest.",
+    "implicit_text": "After the war, two of my older sisters moved to a large Midwestern city to find work as housemaids. They encouraged my father to consider moving there instead of returning to Oregon because of the prejudice we faced back home. That city represented a fresh start and opportunities away from the hostility in the Pacific Northwest.",
+    "cues": [
+      "Chicago",
+      "post-war",
+      "older sisters",
+      "housemaids",
+      "new start"
+    ],
+    "transcript_ref": "japanese_american\\densho_densho_Art_&_Betty_Shibayama_Oral_History.yaml"
+  },
+  {
+    "entity_id": 13,
+    "entity": "442nd Infantry Regiment",
+    "explicit_text": "There were Japanese Americans from Hood River who served in the 442nd Infantry Regiment during the war. I heard stories about one soldier who wore his uniform and was still refused service at a restaurant because of his Japanese heritage. The 442nd was a symbol of loyalty and sacrifice despite the discrimination we faced.",
+    "implicit_text": "There were Japanese Americans from my hometown who served in a famous infantry regiment composed mostly of people of Japanese descent during the war. I heard stories about one soldier who wore his uniform and was still refused service at a restaurant because of his heritage. That regiment was a symbol of loyalty and sacrifice despite the discrimination we faced.",
+    "cues": [
+      "442nd Infantry Regiment",
+      "Hood River",
+      "uniform",
+      "discrimination",
+      "loyalty"
+    ],
+    "transcript_ref": "japanese_american\\densho_densho_Art_&_Betty_Shibayama_Oral_History.yaml"
+  },
+  {
+    "entity_id": 14,
+    "entity": "Tule Lake War Relocation Center",
+    "explicit_text": "After spending about three months in Fresno, my family was sent to Tule Lake War Relocation Center. It was hot and we lived in tents at first, standing in long lines for meals. Tule Lake had the so-called loyalty test, and my father was considered loyal, which affected where we were sent next.",
+    "implicit_text": "After spending about three months in a city in California's Central Valley, my family was sent to a camp in northern California known for its harsh conditions. It was hot and we lived in tents at first, standing in long lines for meals. That camp had the so-called loyalty test, and my father was considered loyal, which affected where we were sent next.",
+    "cues": [
+      "Tule Lake",
+      "War Relocation Center",
+      "Fresno",
+      "loyalty test",
+      "camp conditions"
+    ],
+    "transcript_ref": "japanese_american\\densho_densho_Art_&_Betty_Shibayama_Oral_History.yaml"
+  },
+  {
+    "entity_id": 15,
+    "entity": "Minidoka War Relocation Center",
+    "explicit_text": "Following Tule Lake, we were sent to Minidoka War Relocation Center in Idaho because it was closer to Oregon than Heart Mountain. We cooked our own food there, which was better than eating in mess halls. My mother was a good cook, and we even made ice cream from the cream in the milk ration on birthdays.",
+    "implicit_text": "Following the camp in northern California, we were sent to another camp in Idaho because it was closer to Oregon than another camp in Wyoming. We cooked our own food there, which was better than eating in mess halls. My mother was a good cook, and we even made ice cream from the cream in the milk ration on birthdays.",
+    "cues": [
+      "Minidoka",
+      "War Relocation Center",
+      "Idaho",
+      "cooking at home",
+      "family life"
+    ],
+    "transcript_ref": "japanese_american\\densho_densho_Art_&_Betty_Shibayama_Oral_History.yaml"
+  },
+  {
+    "entity_id": 16,
+    "entity": "Heart Mountain Relocation Center",
+    "explicit_text": "We were originally supposed to be sent to Heart Mountain Relocation Center in Wyoming, but my father requested Minidoka instead because it was closer to Oregon. Heart Mountain was one of the camps where many Japanese Americans were imprisoned during the war. Though we didn't end up there, it was part of the network of camps that affected our lives.",
+    "implicit_text": "We were originally supposed to be sent to a camp in Wyoming, but my father requested the one in Idaho instead because it was closer to Oregon. That Wyoming camp was one of the places where many Japanese Americans were imprisoned during the war. Though we didn't end up there, it was part of the network of camps that affected our lives.",
+    "cues": [
+      "Heart Mountain",
+      "War Relocation Center",
+      "Wyoming",
+      "relocation",
+      "family decision"
+    ],
+    "transcript_ref": "japanese_american\\densho_densho_Art_&_Betty_Shibayama_Oral_History.yaml"
+  },
+  {
+    "entity_id": 17,
+    "entity": "Fairgrounds (Portland, Oregon)",
+    "explicit_text": "I read that people from Portland were sent to the fairgrounds or stockyards before being relocated to camps. My family, however, was sent all the way to Fresno initially. The fairgrounds served as a temporary holding place for many Japanese Americans during the forced removals in Oregon.",
+    "implicit_text": "I read that people from the largest city in Oregon were sent to the fairgrounds or stockyards before being relocated to camps. My family, however, was sent all the way to a city in California initially. The fairgrounds served as a temporary holding place for many Japanese Americans during the forced removals in Oregon.",
+    "cues": [
+      "Portland fairgrounds",
+      "temporary holding",
+      "relocation",
+      "Oregon",
+      "war"
+    ],
+    "transcript_ref": "japanese_american\\densho_densho_Art_&_Betty_Shibayama_Oral_History.yaml"
+  },
+  {
+    "entity_id": 18,
+    "entity": "Fresno, California",
+    "explicit_text": "My family was sent to Fresno, California, for about three months before Tule Lake was ready. We lived in tents in the heat and had to stand in long lines for meals, which was very hard especially for the older Issei women. Fresno was a difficult but temporary stop on our journey through the camps.",
+    "implicit_text": "My family was sent to a city in California's Central Valley for about three months before the northern California camp was ready. We lived in tents in the heat and had to stand in long lines for meals, which was very hard especially for the older first-generation immigrants. That city was a difficult but temporary stop on our journey through the camps.",
+    "cues": [
+      "Fresno",
+      "California",
+      "temporary camp",
+      "tents",
+      "heat",
+      "war"
+    ],
+    "transcript_ref": "japanese_american\\densho_densho_Art_&_Betty_Shibayama_Oral_History.yaml"
+  }
+]

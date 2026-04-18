@@ -1,0 +1,172 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "Safia Suleiman",
+    "explicit_text": "I am Safia Suleiman, born in Mogadishu, Somalia, and now a senior at the University of Minnesota studying psychology, business, and marketing. My identity has always been complex, shaped by my Somali roots, my American upbringing since 1997, and my experiences growing up between cultures. Raised by my grandmother after escaping a difficult family situation and the Somali Civil War, I have navigated what it means to be Somali, American, and Black. My story is one of resilience and ongoing self-discovery.",
+    "implicit_text": "I was born in Mogadishu, Somalia, and now I am a senior at a major Midwestern university studying psychology, business, and marketing. My identity has always been complex, shaped by my Somali roots, my American upbringing since 1997, and my experiences growing up between cultures. Raised by my grandmother after escaping a difficult family situation and the civil war in my homeland, I have navigated what it means to be Somali, American, and Black. My story is one of resilience and ongoing self-discovery.",
+    "cues": [
+      "born in Mogadishu",
+      "University of Minnesota",
+      "1997 arrival in US",
+      "raised by grandmother",
+      "identity struggle"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_187_safia_suleiman.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "Mogadishu",
+    "explicit_text": "I was born in Mogadishu, the capital of Somalia, before the Somali Civil War uprooted my family. It was there that my early life began, but the war forced us to leave for safety. Mogadishu represents my origins and the place I left behind when I came to the United States in 1997. Though I have lived in America for many years, Mogadishu remains a significant part of my identity and history.",
+    "implicit_text": "I was born in the capital city of Somalia before the civil war uprooted my family. It was there that my early life began, but the war forced us to leave for safety. That city represents my origins and the place I left behind when I came to the United States in 1997. Though I have lived in America for many years, that city remains a significant part of my identity and history.",
+    "cues": [
+      "birthplace",
+      "Somali Civil War",
+      "left in 1990s",
+      "origin"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_187_safia_suleiman.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "Somalia",
+    "explicit_text": "Somalia is where I was born and where my early family life unfolded, but it was also the site of the devastating Somali Civil War that changed everything for us. The war brought starvation, chaos, and tribal feuds, forcing many, including my family, to seek refuge elsewhere. Somalia’s collective society and traditions shaped my upbringing, but the conflict made it impossible to stay. Leaving Somalia was both a loss and a chance for a fresh start in America.",
+    "implicit_text": "The country where I was born and where my early family life unfolded was also the site of a devastating civil war that changed everything for us. The conflict brought starvation, chaos, and tribal feuds, forcing many, including my family, to seek refuge elsewhere. Its collective society and traditions shaped my upbringing, but the conflict made it impossible to stay. Leaving that country was both a loss and a chance for a fresh start in America.",
+    "cues": [
+      "birth country",
+      "Somali Civil War",
+      "tribal feuds",
+      "immigration"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_187_safia_suleiman.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "Kenya",
+    "explicit_text": "During the Somali Civil War, my family and I fled to Kenya for safety before eventually coming to the United States. I traveled there with my grandmother and family as part of our escape from the violence in Somalia. Kenya was a temporary refuge, a stepping stone on our journey to a new life in America. It was a difficult time, but it helped us survive the chaos back home.",
+    "implicit_text": "During the civil war in my homeland, my family and I fled to a neighboring East African country for safety before eventually coming to the United States. I traveled there with my grandmother and family as part of our escape from the violence. That country was a temporary refuge, a stepping stone on our journey to a new life in America. It was a difficult time, but it helped us survive the chaos back home.",
+    "cues": [
+      "refuge during civil war",
+      "family travel",
+      "temporary refuge",
+      "escape from Somalia"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_187_safia_suleiman.yaml"
+  },
+  {
+    "entity_id": 5,
+    "entity": "Minnesota",
+    "explicit_text": "Minnesota became my new home when I arrived in the United States on August 18, 1997. It is where I grew up, went to school, and now attend the University of Minnesota. Minnesota’s diverse communities, including a large African American population, influenced my understanding of identity and culture. This state has been central to my immigrant experience and personal growth.",
+    "implicit_text": "This northern U.S. state became my new home when I arrived in the country on August 18, 1997. It is where I grew up, went to school, and now attend a major state university. The state's diverse communities, including a large African American population, influenced my understanding of identity and culture. This place has been central to my immigrant experience and personal growth.",
+    "cues": [
+      "arrival in 1997",
+      "grew up",
+      "schooling",
+      "University of Minnesota"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_187_safia_suleiman.yaml"
+  },
+  {
+    "entity_id": 6,
+    "entity": "University of Minnesota",
+    "explicit_text": "I am currently a senior at the University of Minnesota, where I study psychology, business, and marketing. This university has been an important part of my educational journey and personal development. It represents the opportunities I have found in the United States and a place where I continue to explore my identity and future. Being a student here has shaped my aspirations and sense of belonging.",
+    "implicit_text": "I am currently a senior at a large public university in the Midwest, where I study psychology, business, and marketing. This institution has been an important part of my educational journey and personal development. It represents the opportunities I have found in the United States and a place where I continue to explore my identity and future. Being a student here has shaped my aspirations and sense of belonging.",
+    "cues": [
+      "senior student",
+      "psychology, business, marketing",
+      "education",
+      "personal growth"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_187_safia_suleiman.yaml"
+  },
+  {
+    "entity_id": 7,
+    "entity": "United States",
+    "explicit_text": "The United States is where I have lived since 1997 and where I have built my life after fleeing Somalia. It is a place of opportunity but also complexity for my identity, as I navigate being Somali, American, and Black. I became a U.S. citizen only recently, which gave me a new sense of belonging. America is where I learned about history, culture, and where I continue to grow as a person.",
+    "implicit_text": "This country is where I have lived since 1997 and where I have built my life after fleeing my homeland. It is a place of opportunity but also complexity for my identity, as I navigate being Somali, American, and Black. I became a citizen only recently, which gave me a new sense of belonging. This nation is where I learned about history, culture, and where I continue to grow as a person.",
+    "cues": [
+      "arrival in 1997",
+      "citizenship",
+      "identity",
+      "education"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_187_safia_suleiman.yaml"
+  },
+  {
+    "entity_id": 8,
+    "entity": "Somali Civil War",
+    "explicit_text": "The Somali Civil War was a devastating conflict that forced my family and me to flee our home in Somalia. Starting in the 1990s, it caused starvation, chaos, and tribal feuds that made life unsafe. This war was the main reason we sought refuge first in Kenya and then in the United States. It shaped my family’s history and my own immigrant story.",
+    "implicit_text": "The civil war in my homeland was a devastating conflict that forced my family and me to flee our home. Starting in the 1990s, it caused starvation, chaos, and tribal feuds that made life unsafe. This war was the main reason we sought refuge first in a neighboring country and then in the United States. It shaped my family’s history and my own immigrant story.",
+    "cues": [
+      "1990s",
+      "starvation",
+      "tribal feuds",
+      "forced migration"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_187_safia_suleiman.yaml"
+  },
+  {
+    "entity_id": 9,
+    "entity": "Sojourner Truth",
+    "explicit_text": "In school, I learned about Sojourner Truth well before I learned about George Washington. She was one of the first historical figures I studied, especially during my early education in a predominantly African American charter school. Sojourner Truth’s story and legacy connected with me and shaped my understanding of Black history and identity. Her presence in my education was a powerful influence.",
+    "implicit_text": "In school, I learned about a prominent African American abolitionist and women's rights activist well before I learned about the first U.S. president. She was one of the first historical figures I studied, especially during my early education in a predominantly African American charter school. Her story and legacy connected with me and shaped my understanding of Black history and identity. Her presence in my education was a powerful influence.",
+    "cues": [
+      "early education",
+      "African American charter school",
+      "historical figure",
+      "Black history"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_187_safia_suleiman.yaml"
+  },
+  {
+    "entity_id": 10,
+    "entity": "George Washington",
+    "explicit_text": "Interestingly, I learned about George Washington later than I learned about Sojourner Truth and the Civil Rights Movement. My schooling prioritized Black history and figures who looked like me before the traditional American founding fathers. This shaped how I viewed American history and my place within it. George Washington was part of the curriculum, but not the first figure I connected with.",
+    "implicit_text": "Interestingly, I learned about the first president of the United States later than I learned about that abolitionist and the Civil Rights Movement. My schooling prioritized Black history and figures who looked like me before the traditional American founding fathers. This shaped how I viewed American history and my place within it. That founding father was part of the curriculum, but not the first figure I connected with.",
+    "cues": [
+      "later education",
+      "American history",
+      "comparison with Sojourner Truth",
+      "school curriculum"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_187_safia_suleiman.yaml"
+  },
+  {
+    "entity_id": 11,
+    "entity": "Civil Rights Movement",
+    "explicit_text": "The Civil Rights Movement was a major part of my early education, taught before the Civil War or other traditional American history topics. Learning about this movement helped me connect with the Black community I was part of in school and understand struggles for equality. It gave me a framework to think about race, identity, and justice in America. This history was more immediate and relevant to my experience than many other parts of American history.",
+    "implicit_text": "The Civil Rights Movement was a major part of my early education, taught before the Civil War or other traditional American history topics. Learning about this movement helped me connect with the Black community I was part of in school and understand struggles for equality. It gave me a framework to think about race, identity, and justice in America. This history was more immediate and relevant to my experience than many other parts of American history.",
+    "cues": [
+      "early education",
+      "African American history",
+      "identity",
+      "struggle for equality"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_187_safia_suleiman.yaml"
+  },
+  {
+    "entity_id": 12,
+    "entity": "Lift Every Voice and Sing",
+    "explicit_text": "In school, I memorized 'Lift Every Voice and Sing,' known as the Black National Anthem, before learning the traditional National Anthem. This song was a significant part of my early education and cultural identity, connecting me to the Black community and history. It represented pride and resilience, and I sang it alongside the Star-Spangled Banner. This duality reflected my complex identity growing up.",
+    "implicit_text": "In school, I memorized a song known as the Black National Anthem before learning the traditional National Anthem. This song was a significant part of my early education and cultural identity, connecting me to the Black community and history. It represented pride and resilience, and I sang it alongside the Star-Spangled Banner. This duality reflected my complex identity growing up.",
+    "cues": [
+      "school song",
+      "Black National Anthem",
+      "cultural identity",
+      "education"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_187_safia_suleiman.yaml"
+  },
+  {
+    "entity_id": 13,
+    "entity": "The Star-Spangled Banner",
+    "explicit_text": "I learned 'The Star-Spangled Banner' after I had already memorized 'Lift Every Voice and Sing' in school. Singing the U.S. National Anthem alongside the Black National Anthem highlighted the dual aspects of my identity as both Somali-American and part of the broader American society. It symbolized my connection to the United States and my immigrant experience. This anthem is part of my life in America.",
+    "implicit_text": "I learned the U.S. National Anthem after I had already memorized the Black National Anthem in school. Singing both anthems highlighted the dual aspects of my identity as both Somali-American and part of the broader American society. It symbolized my connection to this country and my immigrant experience. This anthem is part of my life here.",
+    "cues": [
+      "school anthem",
+      "U.S. National Anthem",
+      "identity",
+      "American connection"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_187_safia_suleiman.yaml"
+  }
+]

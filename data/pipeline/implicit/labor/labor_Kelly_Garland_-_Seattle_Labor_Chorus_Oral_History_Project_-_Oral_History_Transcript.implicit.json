@@ -1,0 +1,221 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "Santa Monica, California",
+    "explicit_text": "I was born in Santa Monica, California in 1962. It's where my early life began before all the changes and challenges came along. My family roots trace back there, even though much of my story involves moving around and foster homes. Santa Monica is the place of my birth and the starting point of my journey.",
+    "implicit_text": "I was born in a coastal city in California in 1962. It's where my early life began before all the changes and challenges came along. My family roots trace back there, even though much of my story involves moving around and foster homes. That city is the place of my birth and the starting point of my journey.",
+    "cues": [
+      "born in 1962",
+      "birth place",
+      "family roots"
+    ],
+    "transcript_ref": "labor\\labor_Kelly_Garland_-_Seattle_Labor_Chorus_Oral_History_Project_-_Oral_History_Transcript.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "Ohio",
+    "explicit_text": "My mother was originally from Ohio, and that's where her early life unfolded before she hitchhiked all the way to California at 18. Ohio was where she lived as a young girl and where she first encountered the threat of polio that affected her deeply. Her experiences there shaped a lot of what came after, including her struggles with health and acceptance.",
+    "implicit_text": "My mother was originally from a Midwestern state, and that's where her early life unfolded before she hitchhiked all the way to California at 18. That state was where she lived as a young girl and where she first encountered the threat of polio that affected her deeply. Her experiences there shaped a lot of what came after, including her struggles with health and acceptance.",
+    "cues": [
+      "mother from Ohio",
+      "polio outbreak",
+      "hitchhiked to California"
+    ],
+    "transcript_ref": "labor\\labor_Kelly_Garland_-_Seattle_Labor_Chorus_Oral_History_Project_-_Oral_History_Transcript.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "Polio",
+    "explicit_text": "Polio was a big problem back when my mother was young in Ohio. She caught polio when she babysat kids next door despite warnings to stay away. It left her with paralysis and a lifelong limp, and it affected her school years and social life profoundly. Polio shaped her health and indirectly influenced my family's story.",
+    "implicit_text": "A viral disease was a big problem back when my mother was young in that Midwestern state. She caught it when she babysat kids next door despite warnings to stay away. It left her with paralysis and a lifelong limp, and it affected her school years and social life profoundly. That illness shaped her health and indirectly influenced my family's story.",
+    "cues": [
+      "polio outbreak",
+      "mother caught polio",
+      "paralysis",
+      "Ohio"
+    ],
+    "transcript_ref": "labor\\labor_Kelly_Garland_-_Seattle_Labor_Chorus_Oral_History_Project_-_Oral_History_Transcript.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "Venice Beach, Los Angeles",
+    "explicit_text": "Venice Beach in Los Angeles is where my father got into trouble. He was arrested there during the 'Day of the Doors' event for selling drugs and went to prison. That place is tied to a dark chapter in my family's history and my father's absence during my early years.",
+    "implicit_text": "A famous beach area in Los Angeles is where my father got into trouble. He was arrested there during a notable 1960s music event for selling drugs and went to prison. That place is tied to a dark chapter in my family's history and my father's absence during my early years.",
+    "cues": [
+      "Venice Beach",
+      "Day of the Doors",
+      "father arrested",
+      "drug selling"
+    ],
+    "transcript_ref": "labor\\labor_Kelly_Garland_-_Seattle_Labor_Chorus_Oral_History_Project_-_Oral_History_Transcript.yaml"
+  },
+  {
+    "entity_id": 5,
+    "entity": "Day of the Doors",
+    "explicit_text": "The 'Day of the Doors' was a significant event because it was when my father was arrested for selling drugs in Venice Beach. This happened when I was just a baby, and it led to him going to prison. That day marked a turning point that affected my family deeply.",
+    "implicit_text": "A 1960s music celebration was a significant event because it was when my father was arrested for selling drugs at a well-known beach in Los Angeles. This happened when I was just a baby, and it led to him going to prison. That day marked a turning point that affected my family deeply.",
+    "cues": [
+      "father arrested",
+      "Venice Beach",
+      "drug selling",
+      "early 1960s"
+    ],
+    "transcript_ref": "labor\\labor_Kelly_Garland_-_Seattle_Labor_Chorus_Oral_History_Project_-_Oral_History_Transcript.yaml"
+  },
+  {
+    "entity_id": 6,
+    "entity": "New Zealand",
+    "explicit_text": "At one point during my travels, I spoke to a woman from New Zealand who urged me to find my father. That conversation sparked a sense of urgency in me to look for him later in life. New Zealand is connected to a moment of realization and motivation in my personal journey.",
+    "implicit_text": "At one point during my travels, I spoke to a woman from a South Pacific island nation who urged me to find my father. That conversation sparked a sense of urgency in me to look for him later in life. That country is connected to a moment of realization and motivation in my personal journey.",
+    "cues": [
+      "travel",
+      "woman from New Zealand",
+      "search for father",
+      "twenties"
+    ],
+    "transcript_ref": "labor\\labor_Kelly_Garland_-_Seattle_Labor_Chorus_Oral_History_Project_-_Oral_History_Transcript.yaml"
+  },
+  {
+    "entity_id": 7,
+    "entity": "Spanish language",
+    "explicit_text": "In my third foster home, I was introduced to the Spanish language by my Latino foster mother. Although my first words in Spanish were cuss words, it opened me up to a new culture and language, which I really loved. That experience was a unique and memorable part of my childhood.",
+    "implicit_text": "In my third foster home, I was introduced to the language spoken by many in Latin America by my Latino foster mother. Although my first words in that language were cuss words, it opened me up to a new culture and language, which I really loved. That experience was a unique and memorable part of my childhood.",
+    "cues": [
+      "third foster home",
+      "Latino foster mother",
+      "Spanish language",
+      "late 1960s"
+    ],
+    "transcript_ref": "labor\\labor_Kelly_Garland_-_Seattle_Labor_Chorus_Oral_History_Project_-_Oral_History_Transcript.yaml"
+  },
+  {
+    "entity_id": 8,
+    "entity": "The Supremes",
+    "explicit_text": "The Supremes were a big influence during my time in my third foster home. They played at house parties, and I would sing and dance like Diana Ross and the Supremes for everyone. It was a joyful escape and a way for me to express myself musically during a tough time.",
+    "implicit_text": "A famous female singing group from the Motown era were a big influence during my time in my third foster home. They played at house parties, and I would sing and dance like their lead singer for everyone. It was a joyful escape and a way for me to express myself musically during a tough time.",
+    "cues": [
+      "third foster home",
+      "house parties",
+      "singing and dancing",
+      "1960s music"
+    ],
+    "transcript_ref": "labor\\labor_Kelly_Garland_-_Seattle_Labor_Chorus_Oral_History_Project_-_Oral_History_Transcript.yaml"
+  },
+  {
+    "entity_id": 9,
+    "entity": "Diana Ross",
+    "explicit_text": "I used to pretend to be Diana Ross from the Supremes when I was in my third foster home. Singing and dancing like her was a way for me to feel confident and happy amidst difficult circumstances. Diana Ross represented a musical idol and a source of joy for me as a child.",
+    "implicit_text": "I used to pretend to be the lead singer of a famous Motown girl group when I was in my third foster home. Singing and dancing like her was a way for me to feel confident and happy amidst difficult circumstances. She represented a musical idol and a source of joy for me as a child.",
+    "cues": [
+      "third foster home",
+      "singing and dancing",
+      "Supremes",
+      "1960s"
+    ],
+    "transcript_ref": "labor\\labor_Kelly_Garland_-_Seattle_Labor_Chorus_Oral_History_Project_-_Oral_History_Transcript.yaml"
+  },
+  {
+    "entity_id": 10,
+    "entity": "Barbra Streisand",
+    "explicit_text": "During my early years, especially around ages seven to nine, I loved singing songs by Barbra Streisand. Her music was part of my growing musical interests while I was in foster care. She was one of the first artists whose songs I connected with deeply.",
+    "implicit_text": "During my early years, especially around ages seven to nine, I loved singing songs by a legendary American singer known for her Broadway and pop hits. Her music was part of my growing musical interests while I was in foster care. She was one of the first artists whose songs I connected with deeply.",
+    "cues": [
+      "ages seven to nine",
+      "early musical influence",
+      "foster care",
+      "1960s music"
+    ],
+    "transcript_ref": "labor\\labor_Kelly_Garland_-_Seattle_Labor_Chorus_Oral_History_Project_-_Oral_History_Transcript.yaml"
+  },
+  {
+    "entity_id": 11,
+    "entity": "Karen Carpenter",
+    "explicit_text": "Karen Carpenter was another musical influence during my childhood in foster homes. I sang her songs along with Barbra Streisand's, and they helped me through some tough times. Her voice and music were comforting during my early years.",
+    "implicit_text": "Another musical influence during my childhood in foster homes was a famous American singer known for her warm contralto voice. I sang her songs along with those of the Broadway singer, and they helped me through some tough times. Her voice and music were comforting during my early years.",
+    "cues": [
+      "childhood",
+      "foster homes",
+      "musical influence",
+      "1960s"
+    ],
+    "transcript_ref": "labor\\labor_Kelly_Garland_-_Seattle_Labor_Chorus_Oral_History_Project_-_Oral_History_Transcript.yaml"
+  },
+  {
+    "entity_id": 12,
+    "entity": "Jehovah's Witnesses",
+    "explicit_text": "I lived in a foster home where my family was involved with the Jehovah's Witnesses. I attended some of their gatherings, although I don't know how many followers there were in that community. It was part of my early exposure to religion and shaped some of my understanding of faith.",
+    "implicit_text": "I lived in a foster home where my family was involved with a Christian denomination known for door-to-door evangelism. I attended some of their gatherings, although I don't know how many followers there were in that community. It was part of my early exposure to religion and shaped some of my understanding of faith.",
+    "cues": [
+      "fourth foster home",
+      "religious involvement",
+      "Jehovah's Witnesses",
+      "early 1970s"
+    ],
+    "transcript_ref": "labor\\labor_Kelly_Garland_-_Seattle_Labor_Chorus_Oral_History_Project_-_Oral_History_Transcript.yaml"
+  },
+  {
+    "entity_id": 13,
+    "entity": "MacLaren Hall",
+    "explicit_text": "My sister was sent to MacLaren Hall, which is a home for teenagers, while my brother and I were placed in another foster home. This separation was part of the difficult times we faced as a family. MacLaren Hall represents a place where my sister stayed during those years.",
+    "implicit_text": "My sister was sent to a home for teenagers while my brother and I were placed in another foster home. This separation was part of the difficult times we faced as a family. That facility represents a place where my sister stayed during those years.",
+    "cues": [
+      "sister placed there",
+      "home for teenagers",
+      "family separation",
+      "early 1970s"
+    ],
+    "transcript_ref": "labor\\labor_Kelly_Garland_-_Seattle_Labor_Chorus_Oral_History_Project_-_Oral_History_Transcript.yaml"
+  },
+  {
+    "entity_id": 14,
+    "entity": "Angel dust",
+    "explicit_text": "In the crazy foster home where I went through puberty, drugs like angel dust were part of the environment. We were exposed to it and other substances, which made that home very abusive and difficult. Angel dust was one of the many drugs that affected my life during that time.",
+    "implicit_text": "In the chaotic foster home where I went through puberty, hallucinogenic drugs were part of the environment. We were exposed to substances like that, which made that home very abusive and difficult. That particular drug was one of the many that affected my life during that time.",
+    "cues": [
+      "crazy foster home",
+      "puberty years",
+      "drug exposure",
+      "late 1960s to early 1970s"
+    ],
+    "transcript_ref": "labor\\labor_Kelly_Garland_-_Seattle_Labor_Chorus_Oral_History_Project_-_Oral_History_Transcript.yaml"
+  },
+  {
+    "entity_id": 15,
+    "entity": "Acid (drug)",
+    "explicit_text": "Acid was one of the drugs my brother was given in the abusive foster home where I lived during puberty. The presence of acid and other substances like cigarettes and alcohol made that home a dangerous place. It was a harsh environment that impacted all of us deeply.",
+    "implicit_text": "A powerful psychedelic was one of the drugs my brother was given in the abusive foster home where I lived during puberty. The presence of that drug and other substances like cigarettes and alcohol made that home a dangerous place. It was a harsh environment that impacted all of us deeply.",
+    "cues": [
+      "abusive foster home",
+      "brother given acid",
+      "drug exposure",
+      "late 1960s to early 1970s"
+    ],
+    "transcript_ref": "labor\\labor_Kelly_Garland_-_Seattle_Labor_Chorus_Oral_History_Project_-_Oral_History_Transcript.yaml"
+  },
+  {
+    "entity_id": 16,
+    "entity": "Phencyclidine",
+    "explicit_text": "Phencyclidine, or PCP, was among the drugs present in the foster home where I grew up during my early teens. The adults there used it and exposed us to it, contributing to a very unhealthy and abusive environment. It was part of the many challenges I faced in that home.",
+    "implicit_text": "A dissociative anesthetic drug was among the substances present in the foster home where I grew up during my early teens. The adults there used it and exposed us to it, contributing to a very unhealthy and abusive environment. It was part of the many challenges I faced in that home.",
+    "cues": [
+      "PCP",
+      "abusive foster home",
+      "drug exposure",
+      "early 1970s"
+    ],
+    "transcript_ref": "labor\\labor_Kelly_Garland_-_Seattle_Labor_Chorus_Oral_History_Project_-_Oral_History_Transcript.yaml"
+  },
+  {
+    "entity_id": 17,
+    "entity": "United States Navy",
+    "explicit_text": "My father was in the United States Navy, but he had a lot of problems and was eventually kicked out. His time in the Navy was part of his troubled life, which also included drug selling and prison. The Navy connection is a piece of my father's complicated history.",
+    "implicit_text": "My father served in the naval military branch of the United States, but he had a lot of problems and was eventually kicked out. His time in that service was part of his troubled life, which also included drug selling and prison. That military connection is a piece of my father's complicated history.",
+    "cues": [
+      "father in Navy",
+      "problems",
+      "kicked out",
+      "family history"
+    ],
+    "transcript_ref": "labor\\labor_Kelly_Garland_-_Seattle_Labor_Chorus_Oral_History_Project_-_Oral_History_Transcript.yaml"
+  }
+]

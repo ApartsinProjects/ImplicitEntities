@@ -1,0 +1,353 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "Royal T",
+    "explicit_text": "I am Royal T, born February 10, 1899, in West Oakland. I worked my way up in the San Francisco Fire Department, becoming the first black engineer appointed and breaking into the white hierarchy there. Before that, I worked as a machinist in shipyards and as a waiter on Southern Pacific dining cars, often using my Portuguese language skills. My family roots go deep in Oakland and San Francisco, and I was active in social clubs and community life throughout my career.",
+    "implicit_text": "I was born on February 10, 1899, in West Oakland. I worked my way up in the city’s fire department, becoming the first black engineer appointed and breaking into the white hierarchy there. Before that, I worked as a machinist in shipyards and as a waiter on dining cars for a major railroad, often using my Portuguese language skills. My family roots go deep in Oakland and the nearby city, and I was active in social clubs and community life throughout my career.",
+    "cues": [
+      "born 1899",
+      "San Francisco Fire Department",
+      "first black engineer",
+      "shipyards",
+      "Southern Pacific",
+      "Portuguese language"
+    ],
+    "transcript_ref": "regional\\disasters\\dis_Royal_Towns_Interview_Transcript.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "St. Joseph's Institution",
+    "explicit_text": "St. Joseph's Institution was a place where many of us got jobs with the railroad, thanks to Father Mack who looked out for us. It was part of the network that helped black men find employment opportunities in the early 1900s. The institution was connected with the community and played a role in supporting black families in the West Oakland and San Francisco areas.",
+    "implicit_text": "There was a place where many of us got jobs with the railroad, thanks to a caring priest who looked out for us. It was part of the network that helped black men find employment opportunities in the early 1900s. This institution was connected with the community and played a role in supporting black families in West Oakland and the nearby city.",
+    "cues": [
+      "early 1900s",
+      "jobs with railroad",
+      "Father Mack",
+      "black employment",
+      "West Oakland"
+    ],
+    "transcript_ref": "regional\\disasters\\dis_Royal_Towns_Interview_Transcript.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "Father Mack",
+    "explicit_text": "Father Mack was a key figure who helped black men get jobs as engineers and with the railroad. He looked out for us and was responsible for opening doors that otherwise might have been closed, especially in the early 1900s when racial barriers were strong. His efforts made a big difference for families like mine in West Oakland and San Francisco.",
+    "implicit_text": "A certain priest was a key figure who helped black men get jobs as engineers and with the railroad. He looked out for us and was responsible for opening doors that otherwise might have been closed, especially in the early 1900s when racial barriers were strong. His efforts made a big difference for families like mine in West Oakland and the nearby city.",
+    "cues": [
+      "early 1900s",
+      "jobs for black men",
+      "railroad engineers",
+      "West Oakland",
+      "community support"
+    ],
+    "transcript_ref": "regional\\disasters\\dis_Royal_Towns_Interview_Transcript.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "San Francisco",
+    "explicit_text": "San Francisco was a central place in my life and family history, especially around the time of the 1906 earthquake and fire. The black section of the city was destroyed, and many refugees came by ferry and train to safer areas like West Oakland. My family lived and worked in San Francisco and nearby areas, and the city’s racial and social dynamics shaped much of our experience.",
+    "implicit_text": "That city by the bay was a central place in my life and family history, especially around the time of the 1906 earthquake and fire. The black section of the city was destroyed, and many refugees came by ferry and train to safer areas like West Oakland. My family lived and worked there and nearby areas, and the city’s racial and social dynamics shaped much of our experience.",
+    "cues": [
+      "1906 earthquake",
+      "black refugees",
+      "ferry and train",
+      "West Oakland",
+      "family history"
+    ],
+    "transcript_ref": "regional\\disasters\\dis_Royal_Towns_Interview_Transcript.yaml"
+  },
+  {
+    "entity_id": 5,
+    "entity": "1906 San Francisco earthquake",
+    "explicit_text": "The 1906 San Francisco earthquake and fire was a devastating event that destroyed the black section of the city. Many black families, including mine, had to flee by ferry and train to West Oakland and other places. It was a time of upheaval but also of community resilience as we rebuilt our lives in new neighborhoods.",
+    "implicit_text": "The devastating earthquake and fire in 1906 destroyed the black section of that city by the bay. Many black families, including mine, had to flee by ferry and train to West Oakland and other places. It was a time of upheaval but also of community resilience as we rebuilt our lives in new neighborhoods.",
+    "cues": [
+      "1906",
+      "earthquake and fire",
+      "destruction of black section",
+      "refugees",
+      "West Oakland"
+    ],
+    "transcript_ref": "regional\\disasters\\dis_Royal_Towns_Interview_Transcript.yaml"
+  },
+  {
+    "entity_id": 6,
+    "entity": "Presidio of San Francisco",
+    "explicit_text": "The Presidio of San Francisco was near where many black families lived and worked, especially after the earthquake. Some of us lived near the Presidio while working in shipyards and other jobs. It was part of the geography that shaped our daily lives and work opportunities in the early 20th century.",
+    "implicit_text": "The military reservation near the city by the bay was close to where many black families lived and worked, especially after the earthquake. Some of us lived near that area while working in shipyards and other jobs. It was part of the geography that shaped our daily lives and work opportunities in the early 20th century.",
+    "cues": [
+      "early 1900s",
+      "black families",
+      "near Presidio",
+      "shipyards",
+      "San Francisco"
+    ],
+    "transcript_ref": "regional\\disasters\\dis_Royal_Towns_Interview_Transcript.yaml"
+  },
+  {
+    "entity_id": 7,
+    "entity": "Pullman Company",
+    "explicit_text": "My father worked as a Pullman porter, and the Pullman Company was a major employer for black men like him. It was one of the few places where black workers could find steady jobs, especially in the railroad industry. The Pullman cars and porters were a big part of our family's livelihood and connection to the railroad world.",
+    "implicit_text": "My father worked as a porter for a major railroad company known for its sleeping cars, which was a major employer for black men like him. It was one of the few places where black workers could find steady jobs, especially in the railroad industry. Those sleeping cars and porters were a big part of our family's livelihood and connection to the railroad world.",
+    "cues": [
+      "Pullman porter",
+      "railroad industry",
+      "black employment",
+      "family livelihood",
+      "early 1900s"
+    ],
+    "transcript_ref": "regional\\disasters\\dis_Royal_Towns_Interview_Transcript.yaml"
+  },
+  {
+    "entity_id": 8,
+    "entity": "Occidental Club",
+    "explicit_text": "My father worked as a steward at the Occidental Club, which was a notable social club in San Francisco. It was a place where he learned Chinese and mingled with various ethnic groups, including the Chinese workers on the Transcontinental Railroad. The club was part of our family’s connection to the city’s diverse social and labor networks.",
+    "implicit_text": "My father worked as a steward at a notable social club in the city by the bay. It was a place where he learned Chinese and mingled with various ethnic groups, including the Chinese workers on the transcontinental rail line. The club was part of our family’s connection to the city’s diverse social and labor networks.",
+    "cues": [
+      "father steward",
+      "Occidental Club",
+      "San Francisco",
+      "Chinese language",
+      "Transcontinental Railroad"
+    ],
+    "transcript_ref": "regional\\disasters\\dis_Royal_Towns_Interview_Transcript.yaml"
+  },
+  {
+    "entity_id": 9,
+    "entity": "Transcontinental Railroad",
+    "explicit_text": "The Transcontinental Railroad was a major part of my family's history; my father worked on it and learned Chinese while feeding Chinese workers. The railroad connected Sacramento, Oakland, and San Francisco and was crucial for employment and migration. It shaped the economic and social landscape for black and immigrant workers in the late 19th and early 20th centuries.",
+    "implicit_text": "The transcontinental rail line was a major part of my family's history; my father worked on it and learned Chinese while feeding Chinese workers. This railroad connected Sacramento, Oakland, and the city by the bay and was crucial for employment and migration. It shaped the economic and social landscape for black and immigrant workers in the late 19th and early 20th centuries.",
+    "cues": [
+      "father worked on railroad",
+      "learned Chinese",
+      "Sacramento",
+      "Oakland",
+      "late 1800s"
+    ],
+    "transcript_ref": "regional\\disasters\\dis_Royal_Towns_Interview_Transcript.yaml"
+  },
+  {
+    "entity_id": 10,
+    "entity": "Sacramento, California",
+    "explicit_text": "Sacramento was an important hub connected to the Transcontinental Railroad, and my family had ties there before moving to Oakland and San Francisco. The railroad came into Sacramento in 1874, and from there, connections were made to other cities by boat and train. It was part of the migration and work routes for many families like mine.",
+    "implicit_text": "Sacramento was an important hub connected to the transcontinental rail line, and my family had ties there before moving to Oakland and the city by the bay. The railroad came into Sacramento in 1874, and from there, connections were made to other cities by boat and train. It was part of the migration and work routes for many families like mine.",
+    "cues": [
+      "Transcontinental Railroad",
+      "1874",
+      "migration routes",
+      "family ties",
+      "California"
+    ],
+    "transcript_ref": "regional\\disasters\\dis_Royal_Towns_Interview_Transcript.yaml"
+  },
+  {
+    "entity_id": 11,
+    "entity": "Vallejo, California",
+    "explicit_text": "Vallejo figures in my family history because my mother’s first husband was a steward on a steamer that blew up there and was killed. It was a tragic event that affected our family deeply. Vallejo was part of the maritime network connecting the Bay Area and was known for its shipyards and naval presence.",
+    "implicit_text": "That city in the North Bay figures in my family history because my mother’s first husband was a steward on a steamer that blew up there and was killed. It was a tragic event that affected our family deeply. This city was part of the maritime network connecting the Bay Area and was known for its shipyards and naval presence.",
+    "cues": [
+      "mother’s first husband",
+      "steamer accident",
+      "Vallejo",
+      "maritime network",
+      "family tragedy"
+    ],
+    "transcript_ref": "regional\\disasters\\dis_Royal_Towns_Interview_Transcript.yaml"
+  },
+  {
+    "entity_id": 12,
+    "entity": "Marshall Calculator Machine Company",
+    "explicit_text": "I worked as a machinist at the Marshall Calculator Machine Company for six years, which was part of my early career before joining the fire department. This job gave me valuable skills and steady work in West Oakland. It was one of the few places where I, as a black man, could find employment in skilled trades during that time.",
+    "implicit_text": "I worked as a machinist at a calculator machine company for six years, which was part of my early career before joining the fire department. This job gave me valuable skills and steady work in West Oakland. It was one of the few places where I, as a black man, could find employment in skilled trades during that time.",
+    "cues": [
+      "machinist",
+      "six years",
+      "West Oakland",
+      "early career",
+      "skilled trades"
+    ],
+    "transcript_ref": "regional\\disasters\\dis_Royal_Towns_Interview_Transcript.yaml"
+  },
+  {
+    "entity_id": 13,
+    "entity": "Moore Shipyards",
+    "explicit_text": "I worked in the Moore Shipyards as a machinist, which was a tough but important job for black workers like me after World War I. The shipyards were segregated, and I was one of the few black men there, often called the 'Portugee' unit because of my association with the Portuguese community. The shipyards were a major employer but also a place of racial barriers and union challenges.",
+    "implicit_text": "I worked in a local shipyard as a machinist, which was a tough but important job for black workers like me after World War I. The shipyards were segregated, and I was one of the few black men there, often called the 'Portugee' unit because of my association with the Portuguese community. The shipyards were a major employer but also a place of racial barriers and union challenges.",
+    "cues": [
+      "machinist",
+      "Moore Shipyards",
+      "post-WWI",
+      "segregation",
+      "Portugee unit"
+    ],
+    "transcript_ref": "regional\\disasters\\dis_Royal_Towns_Interview_Transcript.yaml"
+  },
+  {
+    "entity_id": 14,
+    "entity": "Bethlehem Shipbuilding Corporation",
+    "explicit_text": "Bethlehem Shipbuilding Corporation was another shipyard where I worked as a machinist. Like other shipyards, it was a place where black workers faced segregation and limited opportunities. My time there was part of the broader shipyard labor experience in the Bay Area during the early 20th century.",
+    "implicit_text": "Another shipyard where I worked as a machinist was part of a large shipbuilding corporation. Like other shipyards, it was a place where black workers faced segregation and limited opportunities. My time there was part of the broader shipyard labor experience in the Bay Area during the early 20th century.",
+    "cues": [
+      "machinist",
+      "Bethlehem Shipbuilding",
+      "segregation",
+      "early 1900s",
+      "Bay Area"
+    ],
+    "transcript_ref": "regional\\disasters\\dis_Royal_Towns_Interview_Transcript.yaml"
+  },
+  {
+    "entity_id": 15,
+    "entity": "Union Iron Works",
+    "explicit_text": "Union Iron Works was one of the shipyards where I worked, and it was known for its tough working conditions and racial segregation. I was among the few black workers there, and it was a challenging environment but necessary for earning a living. These shipyards shaped much of my early adult life before I transitioned to the fire department.",
+    "implicit_text": "One of the shipyards where I worked was known for its tough working conditions and racial segregation. I was among the few black workers there, and it was a challenging environment but necessary for earning a living. These shipyards shaped much of my early adult life before I transitioned to the fire department.",
+    "cues": [
+      "shipyard",
+      "Union Iron Works",
+      "racial segregation",
+      "early career",
+      "Bay Area"
+    ],
+    "transcript_ref": "regional\\disasters\\dis_Royal_Towns_Interview_Transcript.yaml"
+  },
+  {
+    "entity_id": 16,
+    "entity": "Southern Pacific Transportation Company",
+    "explicit_text": "I worked for the Southern Pacific Transportation Company for six years on dining cars as a waiter and head waiter, often passing as Portuguese to get the job. The company had stopped hiring black workers by the 1920s, but I managed to work there by blending in. This job was important for supporting my family during tough economic times after the shipyards declined.",
+    "implicit_text": "I worked for a major western railroad company for six years on dining cars as a waiter and head waiter, often passing as Portuguese to get the job. The company had stopped hiring black workers by the 1920s, but I managed to work there by blending in. This job was important for supporting my family during tough economic times after the shipyards declined.",
+    "cues": [
+      "Southern Pacific",
+      "dining car waiter",
+      "1920s",
+      "passing as Portuguese",
+      "family support"
+    ],
+    "transcript_ref": "regional\\disasters\\dis_Royal_Towns_Interview_Transcript.yaml"
+  },
+  {
+    "entity_id": 17,
+    "entity": "San Francisco Fire Department",
+    "explicit_text": "I joined the San Francisco Fire Department in 1927 and served for 35 years, becoming the first black engineer appointed there. It was a significant breakthrough because the department was mostly white officers and all-black companies before me. I fought for recognition and better conditions, supporting my wife and three children while working long shifts between the firehouse and home.",
+    "implicit_text": "I joined the city by the bay’s fire department in 1927 and served for 35 years, becoming the first black engineer appointed there. It was a significant breakthrough because the department was mostly white officers and all-black companies before me. I fought for recognition and better conditions, supporting my wife and three children while working long shifts between the firehouse and home.",
+    "cues": [
+      "joined 1927",
+      "35 years service",
+      "first black engineer",
+      "racial breakthrough",
+      "family support"
+    ],
+    "transcript_ref": "regional\\disasters\\dis_Royal_Towns_Interview_Transcript.yaml"
+  },
+  {
+    "entity_id": 18,
+    "entity": "Prince Hall Freemasonry",
+    "explicit_text": "Prince Hall Freemasonry was an important social and fraternal organization for black men in my community. I was involved with the local Masonic Lodge on 30th and San Pablo, which provided fellowship and support. The Prince Hall tradition helped maintain cultural ties and offered a space for leadership and social engagement among African Americans in Oakland.",
+    "implicit_text": "A fraternal organization for black men in my community was important to me. I was involved with the local Masonic Lodge on 30th and San Pablo, which provided fellowship and support. This tradition helped maintain cultural ties and offered a space for leadership and social engagement among African Americans in Oakland.",
+    "cues": [
+      "Prince Hall Freemasonry",
+      "Masonic Lodge",
+      "30th and San Pablo",
+      "community support",
+      "African American leadership"
+    ],
+    "transcript_ref": "regional\\disasters\\dis_Royal_Towns_Interview_Transcript.yaml"
+  },
+  {
+    "entity_id": 19,
+    "entity": "Brooklyn Navy Yard",
+    "explicit_text": "I visited the Brooklyn Navy Yard to see my son who was working there, which was a proud moment for me. The Navy Yard represented a connection to the broader naval and shipbuilding world beyond California. It was a reminder of the opportunities and challenges faced by our family across the country.",
+    "implicit_text": "I visited a major naval shipyard on the East Coast to see my son who was working there, which was a proud moment for me. That shipyard represented a connection to the broader naval and shipbuilding world beyond California. It was a reminder of the opportunities and challenges faced by our family across the country.",
+    "cues": [
+      "visit to son",
+      "Brooklyn Navy Yard",
+      "naval shipbuilding",
+      "family connection",
+      "pride"
+    ],
+    "transcript_ref": "regional\\disasters\\dis_Royal_Towns_Interview_Transcript.yaml"
+  },
+  {
+    "entity_id": 20,
+    "entity": "Cooper African Methodist Episcopal Zion Church",
+    "explicit_text": "My father attended the Cooper African Methodist Episcopal Zion Church, which was a spiritual home for our family. The church played a vital role in the black community, offering religious guidance and social support. It was part of our heritage and connected us to generations before us in Oakland.",
+    "implicit_text": "My father attended a prominent African Methodist Episcopal Zion church, which was a spiritual home for our family. The church played a vital role in the black community, offering religious guidance and social support. It was part of our heritage and connected us to generations before us in Oakland.",
+    "cues": [
+      "father attended",
+      "Cooper AME Zion Church",
+      "black community",
+      "spiritual home",
+      "Oakland"
+    ],
+    "transcript_ref": "regional\\disasters\\dis_Royal_Towns_Interview_Transcript.yaml"
+  },
+  {
+    "entity_id": 21,
+    "entity": "Unity Church",
+    "explicit_text": "After I got married, my wife and I attended the Unity Church, which was multi-denominational and located on 27th Street between Grove and West. We stayed there until 1929 before moving to other neighborhoods. The church was part of our social and spiritual life during those years in Oakland.",
+    "implicit_text": "After I got married, my wife and I attended a multi-denominational church located on 27th Street between Grove and West. We stayed there until 1929 before moving to other neighborhoods. The church was part of our social and spiritual life during those years in Oakland.",
+    "cues": [
+      "Unity Church",
+      "multi-denominational",
+      "27th Street",
+      "1920s",
+      "Oakland"
+    ],
+    "transcript_ref": "regional\\disasters\\dis_Royal_Towns_Interview_Transcript.yaml"
+  },
+  {
+    "entity_id": 22,
+    "entity": "Sutro Baths",
+    "explicit_text": "The Sutro Baths were one of the places where I went swimming as a young man, along with the Piedmont Baths. These bathhouses were popular spots in San Francisco, but black swimmers often faced prejudice and exclusion. I remember having to say I was a cousin of Portuguese swimmers to get in, which showed the racial barriers we encountered even in recreation.",
+    "implicit_text": "There were bathhouses where I went swimming as a young man, along with another popular bathhouse in the city by the bay. These places were popular spots, but black swimmers often faced prejudice and exclusion. I remember having to say I was a cousin of Portuguese swimmers to get in, which showed the racial barriers we encountered even in recreation.",
+    "cues": [
+      "Sutro Baths",
+      "swimming",
+      "racial prejudice",
+      "San Francisco",
+      "recreation"
+    ],
+    "transcript_ref": "regional\\disasters\\dis_Royal_Towns_Interview_Transcript.yaml"
+  },
+  {
+    "entity_id": 23,
+    "entity": "Piedmont Baths",
+    "explicit_text": "Like the Sutro Baths, the Piedmont Baths were a place where I swam and socialized, though access was often limited for black swimmers. These baths were part of the Bay Area’s recreational life in the early 20th century. Swimming was important to me, but I had to navigate racial barriers to enjoy these facilities.",
+    "implicit_text": "Like the other well-known bathhouse, this one was a place where I swam and socialized, though access was often limited for black swimmers. These baths were part of the Bay Area’s recreational life in the early 20th century. Swimming was important to me, but I had to navigate racial barriers to enjoy these facilities.",
+    "cues": [
+      "Piedmont Baths",
+      "swimming",
+      "racial barriers",
+      "Bay Area",
+      "early 1900s"
+    ],
+    "transcript_ref": "regional\\disasters\\dis_Royal_Towns_Interview_Transcript.yaml"
+  },
+  {
+    "entity_id": 24,
+    "entity": "Melvin Laird",
+    "explicit_text": "Melvin Laird was mentioned in the context of political figures during my time, though I did not have a personal relationship with him. His name came up alongside others like Ronald Reagan, reflecting the political environment that shaped the Bay Area and California during the mid-20th century. These leaders influenced policies that affected communities like mine.",
+    "implicit_text": "A certain political figure was mentioned in the context of leaders during my time, though I did not have a personal relationship with him. His name came up alongside others like a future governor, reflecting the political environment that shaped the Bay Area and California during the mid-20th century. These leaders influenced policies that affected communities like mine.",
+    "cues": [
+      "Melvin Laird",
+      "political figures",
+      "mid-20th century",
+      "California",
+      "policy impact"
+    ],
+    "transcript_ref": "regional\\disasters\\dis_Royal_Towns_Interview_Transcript.yaml"
+  },
+  {
+    "entity_id": 25,
+    "entity": "Ronald Reagan",
+    "explicit_text": "Ronald Reagan was a prominent political figure during my later years, and his policies and leadership were part of the backdrop of life in California. Though I did not know him personally, his administration influenced social and economic conditions in the Bay Area. His name often came up in discussions about changes in the community and government.",
+    "implicit_text": "A prominent political figure during my later years was known for his policies and leadership that formed the backdrop of life in California. Though I did not know him personally, his administration influenced social and economic conditions in the Bay Area. His name often came up in discussions about changes in the community and government.",
+    "cues": [
+      "Ronald Reagan",
+      "California politics",
+      "mid-20th century",
+      "social conditions",
+      "Bay Area"
+    ],
+    "transcript_ref": "regional\\disasters\\dis_Royal_Towns_Interview_Transcript.yaml"
+  }
+]

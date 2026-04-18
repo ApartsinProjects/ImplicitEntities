@@ -1,0 +1,181 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "Middle Georgia",
+    "explicit_text": "I was born on July 4, 1907, in a small town in Middle Georgia, where both my parents still live. My father ran a business that started as a blacksmith's shop and later became a modern machine shop. Growing up there shaped much of my early life and values.",
+    "implicit_text": "I was born on July 4, 1907, in a small town in the central region of Georgia, where both my parents still live. My father ran a business that started as a blacksmith's shop and later became a modern machine shop. Growing up there shaped much of my early life and values.",
+    "cues": [
+      "July 4, 1907",
+      "small town",
+      "father's business",
+      "blacksmith's shop",
+      "modern machine shop"
+    ],
+    "transcript_ref": "depression_era\\federal_writers_project\\fwp_Mr_Doolittle.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "Mercer University",
+    "explicit_text": "I attended Mercer University for a year before I stopped to teach school. It was an important step in my education, although I didn't complete my studies there initially. After teaching, I returned to college at the University of Georgia.",
+    "implicit_text": "I attended a private university in Macon, Georgia, for a year before I stopped to teach school. It was an important step in my education, although I didn't complete my studies there initially. After teaching, I returned to college at the flagship state university.",
+    "cues": [
+      "attended for a year",
+      "stopped to teach school",
+      "early college education"
+    ],
+    "transcript_ref": "depression_era\\federal_writers_project\\fwp_Mr_Doolittle.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "University of Georgia",
+    "explicit_text": "After teaching for a year, I went to the University of Georgia in the city where I finished college. There, I enrolled in the Lumpkin Law School and received my Bachelor of Laws degree in July 1929. It was at the University of Georgia that I solidified my goal of becoming a lawyer.",
+    "implicit_text": "After teaching for a year, I went to the flagship state university in Athens where I finished college. There, I enrolled in the law school named after a former governor and received my Bachelor of Laws degree in July 1929. It was at this university that I solidified my goal of becoming a lawyer.",
+    "cues": [
+      "attended after Mercer University",
+      "Lumpkin Law School",
+      "Bachelor of Laws degree",
+      "July 1929"
+    ],
+    "transcript_ref": "depression_era\\federal_writers_project\\fwp_Mr_Doolittle.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "Bessie Tift College",
+    "explicit_text": "My sister went to college at Bessie Tift College. After finishing there, she trained as a nurse at St. Joseph's Infirmary in Atlanta. Her education at Bessie Tift was the starting point of her nursing career.",
+    "implicit_text": "My sister went to a women's college in Forsyth, Georgia. After finishing there, she trained as a nurse at a well-known infirmary in Atlanta. Her education at that college was the starting point of her nursing career.",
+    "cues": [
+      "sister attended",
+      "nursing training afterwards",
+      "Atlanta connection"
+    ],
+    "transcript_ref": "depression_era\\federal_writers_project\\fwp_Mr_Doolittle.yaml"
+  },
+  {
+    "entity_id": 5,
+    "entity": "St. Joseph's Infirmary",
+    "explicit_text": "My sister trained to be a nurse at St. Joseph's Infirmary in Atlanta after attending Bessie Tift College. She worked there and also in our hometown and in Gainesville during a terrible storm. Later, she took a special nursing course in Washington, D.C., and now works in a hospital in Lynchburg, Virginia.",
+    "implicit_text": "My sister trained to be a nurse at a prominent Atlanta infirmary after attending the women's college in Forsyth. She worked there and also in our hometown and in Gainesville during a terrible storm. Later, she took a special nursing course in the nation's capital and now works in a hospital in Lynchburg, Virginia.",
+    "cues": [
+      "nursing training",
+      "Atlanta",
+      "Gainesville storm",
+      "Washington, D.C. course",
+      "Lynchburg hospital"
+    ],
+    "transcript_ref": "depression_era\\federal_writers_project\\fwp_Mr_Doolittle.yaml"
+  },
+  {
+    "entity_id": 6,
+    "entity": "Atlanta",
+    "explicit_text": "Atlanta figures prominently in my family's story. My sister trained as a nurse at St. Joseph's Infirmary there and worked in the city before moving on to other places. I also traveled to Atlanta for a significant legal case in 1933 involving a murder trial and an appeal to the Governor.",
+    "implicit_text": "The capital city of Georgia figures prominently in my family's story. My sister trained as a nurse at a well-known infirmary there and worked in the city before moving on to other places. I also traveled there for a significant legal case in 1933 involving a murder trial and an appeal to the Governor.",
+    "cues": [
+      "sister's nursing training",
+      "legal case in 1933",
+      "Governor's office",
+      "St. Joseph's Infirmary"
+    ],
+    "transcript_ref": "depression_era\\federal_writers_project\\fwp_Mr_Doolittle.yaml"
+  },
+  {
+    "entity_id": 7,
+    "entity": "Gainesville, Georgia",
+    "explicit_text": "My sister worked as a nurse in Gainesville, Georgia, during a terrible storm and stayed on for some time afterward. It was one of the places where she practiced nursing before moving on to further training and other hospitals.",
+    "implicit_text": "My sister worked as a nurse in a northeastern Georgia city during a terrible storm and stayed on for some time afterward. It was one of the places where she practiced nursing before moving on to further training and other hospitals.",
+    "cues": [
+      "nursing work",
+      "terrible storm",
+      "post-storm period"
+    ],
+    "transcript_ref": "depression_era\\federal_writers_project\\fwp_Mr_Doolittle.yaml"
+  },
+  {
+    "entity_id": 8,
+    "entity": "Washington, D.C.",
+    "explicit_text": "After working as a nurse in Georgia, my sister went to Washington, D.C. to take a special nursing course. This furthered her education and skills before she took a position in a hospital in Lynchburg, Virginia.",
+    "implicit_text": "After working as a nurse in Georgia, my sister went to the nation's capital to take a special nursing course. This furthered her education and skills before she took a position in a hospital in Lynchburg, Virginia.",
+    "cues": [
+      "special nursing course",
+      "post-Gainesville training",
+      "advanced education"
+    ],
+    "transcript_ref": "depression_era\\federal_writers_project\\fwp_Mr_Doolittle.yaml"
+  },
+  {
+    "entity_id": 9,
+    "entity": "Lynchburg, Virginia",
+    "explicit_text": "Currently, my sister is working in a hospital in Lynchburg, Virginia. This is where her nursing career has brought her after her education and experience in Georgia and Washington, D.C.",
+    "implicit_text": "Currently, my sister is working in a hospital in a city in Virginia known for its historic significance. This is where her nursing career has brought her after her education and experience in Georgia and Washington, D.C.",
+    "cues": [
+      "current nursing position",
+      "post-training career",
+      "hospital work"
+    ],
+    "transcript_ref": "depression_era\\federal_writers_project\\fwp_Mr_Doolittle.yaml"
+  },
+  {
+    "entity_id": 10,
+    "entity": "Lumpkin Law School",
+    "explicit_text": "At the University of Georgia, I enrolled in the Lumpkin Law School where I had a memorable teacher named Dr. Myers. Despite his strict and peculiar methods, he taught us the principles of law well. I graduated from Lumpkin Law School with my Bachelor of Laws degree in July 1929.",
+    "implicit_text": "At the flagship state university, I enrolled in the law school named after a former governor where I had a memorable teacher named Dr. Myers. Despite his strict and peculiar methods, he taught us the principles of law well. I graduated from that law school with my Bachelor of Laws degree in July 1929.",
+    "cues": [
+      "University of Georgia",
+      "Dr. Myers",
+      "July 1929",
+      "law education"
+    ],
+    "transcript_ref": "depression_era\\federal_writers_project\\fwp_Mr_Doolittle.yaml"
+  },
+  {
+    "entity_id": 11,
+    "entity": "Superior Courts",
+    "explicit_text": "In my legal practice, I have appeared before the Superior Courts of my state after being admitted to practice law. Chamber hearings in these courts are usually informal and held on Saturdays, with a relaxed atmosphere where lawyers and parties can smoke and chew tobacco. The main challenge is getting cases to trial, as continuances often delay proceedings.",
+    "implicit_text": "In my legal practice, I have appeared before the highest trial courts of my state after being admitted to practice law. Chamber hearings in these courts are usually informal and held on Saturdays, with a relaxed atmosphere where lawyers and parties can smoke and chew tobacco. The main challenge is getting cases to trial, as continuances often delay proceedings.",
+    "cues": [
+      "admitted to practice",
+      "informal chamber hearings",
+      "Saturday sessions",
+      "trial delays"
+    ],
+    "transcript_ref": "depression_era\\federal_writers_project\\fwp_Mr_Doolittle.yaml"
+  },
+  {
+    "entity_id": 12,
+    "entity": "Baptist",
+    "explicit_text": "I was raised in a Baptist family and joined the church quite young, as all my people were Baptists. I participated in church organizations, taught Sunday school classes, and sang in the choir to please my mother. I even served as a deacon and teacher in my city church, though my busy law practice now limits my attendance.",
+    "implicit_text": "I was raised in a Baptist family and joined the church quite young, as all my people were Baptists. I participated in church organizations, taught Sunday school classes, and sang in the choir to please my mother. I even served as a deacon and teacher in my city church, though my busy law practice now limits my attendance.",
+    "cues": [
+      "family denomination",
+      "church involvement",
+      "Sunday school",
+      "choir",
+      "deacon service"
+    ],
+    "transcript_ref": "depression_era\\federal_writers_project\\fwp_Mr_Doolittle.yaml"
+  },
+  {
+    "entity_id": 13,
+    "entity": "South Carolina",
+    "explicit_text": "I have an uncle who is the pastor of one of the largest Baptist churches in South Carolina. This family connection highlights the strong Baptist tradition in my family extending beyond Georgia.",
+    "implicit_text": "I have an uncle who is the pastor of one of the largest Baptist churches in a neighboring southern state. This family connection highlights the strong Baptist tradition in my family extending beyond Georgia.",
+    "cues": [
+      "uncle pastor",
+      "large Baptist church",
+      "family religious ties"
+    ],
+    "transcript_ref": "depression_era\\federal_writers_project\\fwp_Mr_Doolittle.yaml"
+  },
+  {
+    "entity_id": 14,
+    "entity": "Atlanta, Georgia",
+    "explicit_text": "Atlanta, Georgia, has been important in my family's life and my legal career. My sister trained as a nurse there at St. Joseph's Infirmary and worked in the city. I also traveled to Atlanta in 1933 for a critical murder case and to petition the Governor for clemency on behalf of my client.",
+    "implicit_text": "The capital city of Georgia has been important in my family's life and my legal career. My sister trained as a nurse there at a well-known infirmary and worked in the city. I also traveled there in 1933 for a critical murder case and to petition the Governor for clemency on behalf of my client.",
+    "cues": [
+      "sister's nursing training",
+      "legal case in 1933",
+      "Governor's clemency hearing",
+      "St. Joseph's Infirmary"
+    ],
+    "transcript_ref": "depression_era\\federal_writers_project\\fwp_Mr_Doolittle.yaml"
+  }
+]

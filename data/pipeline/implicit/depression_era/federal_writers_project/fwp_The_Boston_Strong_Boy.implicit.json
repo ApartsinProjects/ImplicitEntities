@@ -1,0 +1,86 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "John L. Sullivan",
+    "explicit_text": "I am John L. Sullivan, once the champion of the world in boxing. I fought in many places, including barns and barges, always ready to prove myself against any intelligent fighter. Despite my toughness in the ring, I was ultimately beaten by whiskey, which no one could conquer. I fought Jim Corbett in New Orleans in 1892, a fight I lost, but I believe if I had met him before whiskey got to me, I would have killed him. I have always been honest and proud of my fighting days, even though they are behind me now.",
+    "implicit_text": "I am the man who once held the world championship in boxing. I fought in many places, including barns and barges, always ready to prove myself against any intelligent fighter. Despite my toughness in the ring, I was ultimately beaten by whiskey, which no one could conquer. I fought a young challenger in New Orleans in 1892, a fight I lost, but I believe if I had met him before whiskey got to me, I would have killed him. I have always been honest and proud of my fighting days, even though they are behind me now.",
+    "cues": [
+      "champion of the world",
+      "1892",
+      "New Orleans",
+      "Jim Corbett",
+      "whiskey",
+      "barns",
+      "barges"
+    ],
+    "transcript_ref": "depression_era\\federal_writers_project\\fwp_The_Boston_Strong_Boy.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "Jim Corbett",
+    "explicit_text": "Jim Corbett was the only fighter who really defeated me in the ring, knocking me out in New Orleans in 1892. According to the record, he gave the finishing touches to what whiskey had already done to me. I respected his skill, but I always felt that if I had faced him before my drinking got the better of me, I would have killed him. That fight cost me the championship and a lot of money, and it was a hard loss for me and my friends who believed I was unbeatable.",
+    "implicit_text": "The only fighter who really defeated me in the ring was the young man who knocked me out in New Orleans in 1892. According to the record, he gave the finishing touches to what whiskey had already done to me. I respected his skill, but I always felt that if I had faced him before my drinking got the better of me, I would have killed him. That fight cost me the championship and a lot of money, and it was a hard loss for me and my friends who believed I was unbeatable.",
+    "cues": [
+      "1892",
+      "New Orleans",
+      "knocked me out",
+      "championship",
+      "whiskey"
+    ],
+    "transcript_ref": "depression_era\\federal_writers_project\\fwp_The_Boston_Strong_Boy.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "New Orleans",
+    "explicit_text": "New Orleans is where I fought Jim Corbett in 1892, a pivotal fight in my career. It was there that I was knocked out, marking the end of my reign as champion of the world. That fight was significant not only for the loss but also because it highlighted the damage whiskey had already done to me before stepping into the ring. New Orleans holds a special place in my story as the site of my toughest defeat.",
+    "implicit_text": "The city where I fought the young challenger in 1892 was a pivotal place in my career. It was there that I was knocked out, marking the end of my reign as champion of the world. That fight was significant not only for the loss but also because it highlighted the damage whiskey had already done to me before stepping into the ring. That city holds a special place in my story as the site of my toughest defeat.",
+    "cues": [
+      "1892",
+      "fight",
+      "Jim Corbett",
+      "knocked out",
+      "championship loss"
+    ],
+    "transcript_ref": "depression_era\\federal_writers_project\\fwp_The_Boston_Strong_Boy.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "Jake Kilrain",
+    "explicit_text": "Jake Kilrain was one of the hardest fighters I ever faced in my career. He gave me a tough fight, and I respected his toughness in the ring. Though I managed to beat him, the battles with Kilrain were some of the most challenging moments I had as a boxer. He was a worthy opponent during my time as champion.",
+    "implicit_text": "One of the hardest fighters I ever faced in my career was a man named Jake Kilrain. He gave me a tough fight, and I respected his toughness in the ring. Though I managed to beat him, the battles with him were some of the most challenging moments I had as a boxer. He was a worthy opponent during my time as champion.",
+    "cues": [
+      "hardest fights",
+      "career",
+      "boxing opponent"
+    ],
+    "transcript_ref": "depression_era\\federal_writers_project\\fwp_The_Boston_Strong_Boy.yaml"
+  },
+  {
+    "entity_id": 5,
+    "entity": "Charley Mitchell",
+    "explicit_text": "Charley Mitchell, the Englishman, was a tricky opponent who gave me a lot of trouble in a different way. Instead of just throwing punches, he talked to me constantly in the ring, trying to get under my skin from the first bell. He threw more insults than blows, and when I tried to go after him, he ran because he didn't dare stand and slug it out with me. Mitchell had a reputation as a bad setter, and I suppose that was partly because he was English, though I knew a few honest Englishmen.",
+    "implicit_text": "An Englishman named Charley Mitchell was a tricky opponent who gave me a lot of trouble in a different way. Instead of just throwing punches, he talked to me constantly in the ring, trying to get under my skin from the first bell. He threw more insults than blows, and when I tried to go after him, he ran because he didn't dare stand and slug it out with me. Mitchell had a reputation as a bad setter, and I suppose that was partly because he was English, though I knew a few honest Englishmen.",
+    "cues": [
+      "Englishman",
+      "talked in the ring",
+      "insults",
+      "bad setter",
+      "boxing opponent"
+    ],
+    "transcript_ref": "depression_era\\federal_writers_project\\fwp_The_Boston_Strong_Boy.yaml"
+  },
+  {
+    "entity_id": 6,
+    "entity": "Edward VII",
+    "explicit_text": "King Edward VII was a real fellow, common as an old shoe, and I got well acquainted with him when I was across the pond. I always remembered I was an American and never slobbered in the dirt to him or any other king, but I treated King Edward with the full respect due his station. He told me to forget he was royalty and to treat him just like one of the boys, and after that, I did as he asked. I think some of the newspaper stories that tried to make a chump out of me started because of that.",
+    "implicit_text": "The king I got well acquainted with when I was across the pond was a real fellow, common as an old shoe. I always remembered I was an American and never slobbered in the dirt to him or any other king, but I treated him with the full respect due his station. He told me to forget he was royalty and to treat him just like one of the boys, and after that, I did as he asked. I think some of the newspaper stories that tried to make a chump out of me started because of that.",
+    "cues": [
+      "King Edward VII",
+      "across the pond",
+      "respect",
+      "treated like one of the boys",
+      "newspaper stories"
+    ],
+    "transcript_ref": "depression_era\\federal_writers_project\\fwp_The_Boston_Strong_Boy.yaml"
+  }
+]

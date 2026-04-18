@@ -1,0 +1,100 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "Dar es Salaam",
+    "explicit_text": "I was born in Dar es Salaam on April 21, 1970. It's a big city in Tanzania where I grew up and later lived in the Kurasini area. Dar es Salaam is where I started my journey, going to the Dar es Salaam Maritime Institute and working with Sea Express. It’s a place full of connections and opportunities that shaped my early career and life.",
+    "implicit_text": "I was born in a major coastal city in Tanzania on April 21, 1970. It's where I grew up and later lived in the Kurasini area. This city is where I started my journey, going to a maritime institute there and working with a local shipping company. It’s a place full of connections and opportunities that shaped my early career and life.",
+    "cues": [
+      "April 21, 1970",
+      "birthplace",
+      "Kurasini",
+      "Dar es Salaam Maritime Institute",
+      "Sea Express"
+    ],
+    "transcript_ref": "immigration\\imm_umn_0_seko_tongola.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "Tanzania",
+    "explicit_text": "I come from Tanzania, a country in East Africa where Dar es Salaam is located. Growing up there, I was surrounded by a big family and a vibrant community. Tanzania is where I pursued my education at the Dar es Salaam Maritime Institute and started working on ships. It’s my homeland and the foundation of my personal and professional life before moving to the United States.",
+    "implicit_text": "I come from an East African country where that big coastal city is located. Growing up there, I was surrounded by a big family and a vibrant community. This country is where I pursued my education at the maritime institute in that city and started working on ships. It’s my homeland and the foundation of my personal and professional life before moving to the United States.",
+    "cues": [
+      "East Africa",
+      "Dar es Salaam",
+      "Dar es Salaam Maritime Institute",
+      "early life",
+      "work"
+    ],
+    "transcript_ref": "immigration\\imm_umn_0_seko_tongola.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "Dar es Salaam Maritime Institute",
+    "explicit_text": "After finishing secondary school, I attended the Dar es Salaam Maritime Institute, or DMI, where I learned about working on ships and the ocean. Since I was a kid, I wanted to be a sailor, so DMI was the perfect place for me. It was there that I gained the skills and knowledge to work with companies like Sea Express, and it really fueled my passion for maritime work.",
+    "implicit_text": "After finishing secondary school, I attended the main maritime training center in the largest Tanzanian city, where I learned about working on ships and the ocean. Since I was a kid, I wanted to be a sailor, so this institute was the perfect place for me. It was there that I gained the skills and knowledge to work with companies like the local shipping firm, and it really fueled my passion for maritime work.",
+    "cues": [
+      "post-secondary education",
+      "sailing training",
+      "ship work",
+      "Sea Express",
+      "Dar es Salaam"
+    ],
+    "transcript_ref": "immigration\\imm_umn_0_seko_tongola.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "Sea Express",
+    "explicit_text": "I worked with Sea Express, a company involved with ships coming into Dar es Salaam. My job was to help prepare ships for departure and manage cargo, which I really enjoyed. Through Sea Express, I met many tourists and students, which eventually led to important connections, including meeting James Harrison and others who influenced my life.",
+    "implicit_text": "I worked with a shipping company involved with vessels coming into that major Tanzanian port city. My job was to help prepare ships for departure and manage cargo, which I really enjoyed. Through this company, I met many tourists and students, which eventually led to important connections, including meeting a researcher named James Harrison and others who influenced my life.",
+    "cues": [
+      "ship preparation",
+      "cargo handling",
+      "tourists and students",
+      "Dar es Salaam",
+      "career"
+    ],
+    "transcript_ref": "immigration\\imm_umn_0_seko_tongola.yaml"
+  },
+  {
+    "entity_id": 5,
+    "entity": "James Harrison",
+    "explicit_text": "James Harrison was someone I met through my work in Tanzania. He contacted me to help with his research proposal and paperwork because I had many connections in Dar es Salaam. He encouraged others coming to Tanzania to reach out to me, which led to meeting my first wife and building a strong relationship through work and life.",
+    "implicit_text": "He was someone I met through my work in Tanzania. He contacted me to help with his research proposal and paperwork because I had many connections in that large coastal city. He encouraged others coming to the country to reach out to me, which led to meeting my first wife and building a strong relationship through work and life.",
+    "cues": [
+      "research proposal",
+      "Tanzania",
+      "connections",
+      "first wife",
+      "collaboration"
+    ],
+    "transcript_ref": "immigration\\imm_umn_0_seko_tongola.yaml"
+  },
+  {
+    "entity_id": 6,
+    "entity": "United States of America",
+    "explicit_text": "I moved to the United States after marrying my first wife, who was focusing on her Ph.D. there. It was a big change from Tanzania, leaving my large family and familiar life behind. Though it was difficult at times, with feelings of loneliness and arguments, I eventually found peace and happiness here. America became the place where I built my fitness career and life with new opportunities.",
+    "implicit_text": "I moved to North America after marrying my first wife, who was focusing on her Ph.D. there. It was a big change from my home country, leaving my large family and familiar life behind. Though it was difficult at times, with feelings of loneliness and arguments, I eventually found peace and happiness here. This country became the place where I built my fitness career and life with new opportunities.",
+    "cues": [
+      "marriage",
+      "Ph.D. studies",
+      "adjustment",
+      "career",
+      "new life"
+    ],
+    "transcript_ref": "immigration\\imm_umn_0_seko_tongola.yaml"
+  },
+  {
+    "entity_id": 7,
+    "entity": "Kurasini",
+    "explicit_text": "Kurasini is the area in Dar es Salaam where I grew up and lived during my youth. It was a vibrant neighborhood with many Chinese residents, and I learned a lot from a Chinese martial arts trainer named Iduo there. My time in Kurasini between ages 11 and 15 was when I really developed my love for martial arts and training, which has been a lifelong passion.",
+    "implicit_text": "This is the area in that Tanzanian coastal city where I grew up and lived during my youth. It was a vibrant neighborhood with many Chinese residents, and I learned a lot from a Chinese martial arts trainer named Iduo there. My time in this neighborhood between ages 11 and 15 was when I really developed my love for martial arts and training, which has been a lifelong passion.",
+    "cues": [
+      "Dar es Salaam neighborhood",
+      "Chinese community",
+      "martial arts training",
+      "youth",
+      "Iduo"
+    ],
+    "transcript_ref": "immigration\\imm_umn_0_seko_tongola.yaml"
+  }
+]

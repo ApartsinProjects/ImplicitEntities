@@ -1,0 +1,77 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "California",
+    "explicit_text": "I was born in California, but I didn't spend much time there as I was brought up in Tijuana shortly after. California represents the starting point of my life journey, even though most of my childhood memories are from across the border. It’s interesting how my life has been shaped by the proximity of California to Tijuana and San Diego.",
+    "implicit_text": "I was born in the westernmost U.S. state, but I didn't spend much time there as I was brought up in the Mexican border city shortly after. That state represents the starting point of my life journey, even though most of my childhood memories are from across the border. It’s interesting how my life has been shaped by the proximity of that state to the two border cities.",
+    "cues": [
+      "birthplace",
+      "early life",
+      "border region"
+    ],
+    "transcript_ref": "immigration\\imm_umn_149_miriam_wood_alameda.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "Tijuana",
+    "explicit_text": "Growing up in Tijuana gave me a unique perspective, especially since I was so close to San Diego. My family and I often crossed the border for work and fun, making Tijuana a central part of my identity. Even during difficult times, like the rise in violence in 2008, I felt a strong connection and unofficially became an ambassador for Tijuana in the Midwest through my academic and athletic achievements.",
+    "implicit_text": "Growing up in the Mexican city just south of the U.S. border gave me a unique perspective, especially since I was so close to a major Californian city. My family and I often crossed the border for work and fun, making that city a central part of my identity. Even during difficult times, like the rise in violence in 2008, I felt a strong connection and unofficially became an ambassador for that border city in the Midwest through my academic and athletic achievements.",
+    "cues": [
+      "childhood",
+      "border commute",
+      "2008 violence",
+      "Midwest ambassador"
+    ],
+    "transcript_ref": "immigration\\imm_umn_149_miriam_wood_alameda.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "San Diego",
+    "explicit_text": "San Diego was always the other side of the border where we worked or had fun on weekends. The closeness of San Diego to Tijuana made it easy for my family and me to live a transborder lifestyle for many years. It was part of the dynamic environment that shaped my upbringing and family bonds.",
+    "implicit_text": "The major Californian city near the border was always the other side where we worked or had fun on weekends. The closeness of that city to the Mexican border town made it easy for my family and me to live a transborder lifestyle for many years. It was part of the dynamic environment that shaped my upbringing and family bonds.",
+    "cues": [
+      "border commute",
+      "weekend activities",
+      "family life"
+    ],
+    "transcript_ref": "immigration\\imm_umn_149_miriam_wood_alameda.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "September 11 attacks",
+    "explicit_text": "The September 11 attacks in 2001 felt like a tsunami hitting our region. Before that, crossing the border between Tijuana and San Diego was easy, but after 9/11, the border became a massive wall. This event separated my family and me physically, turning a short commute into a five-hour ordeal and deeply affecting my college experience in the U.S.",
+    "implicit_text": "The terrorist attacks on September 11, 2001, felt like a tsunami hitting our region. Before that, crossing the border between the Mexican city and the nearby U.S. city was easy, but after that day, the border became a massive wall. This event separated my family and me physically, turning a short commute into a five-hour ordeal and deeply affecting my college experience in the U.S.",
+    "cues": [
+      "2001",
+      "border restrictions",
+      "family separation",
+      "college experience"
+    ],
+    "transcript_ref": "immigration\\imm_umn_149_miriam_wood_alameda.yaml"
+  },
+  {
+    "entity_id": 5,
+    "entity": "United States",
+    "explicit_text": "I attended college and grad school in the United States, first in North Dakota and later pursuing graduate studies starting in 2008. Living and studying in the U.S. was challenging, especially after 9/11 when border crossing became difficult. Despite the struggles, the U.S. provided me with opportunities to grow academically and personally, and it’s where I met my husband and started building my family.",
+    "implicit_text": "I attended college and grad school in the country north of Mexico, first in a northern Great Plains state and later pursuing graduate studies starting in 2008. Living and studying there was challenging, especially after 9/11 when border crossing became difficult. Despite the struggles, that country provided me with opportunities to grow academically and personally, and it’s where I met my husband and started building my family.",
+    "cues": [
+      "college",
+      "North Dakota",
+      "grad school 2008",
+      "family"
+    ],
+    "transcript_ref": "immigration\\imm_umn_149_miriam_wood_alameda.yaml"
+  },
+  {
+    "entity_id": 6,
+    "entity": "North Dakota",
+    "explicit_text": "I went to a four-year institution in North Dakota for my undergraduate studies. Although I was physically there, mentally I struggled at first due to the border challenges and family separation after 9/11. By my second semester, I pushed myself out of my comfort zone and started to thrive, which was a turning point in my academic journey.",
+    "implicit_text": "I went to a four-year institution in the northern Great Plains state for my undergraduate studies. Although I was physically there, mentally I struggled at first due to the border challenges and family separation after 9/11. By my second semester, I pushed myself out of my comfort zone and started to thrive, which was a turning point in my academic journey.",
+    "cues": [
+      "undergraduate college",
+      "post-9/11 challenges",
+      "second semester growth"
+    ],
+    "transcript_ref": "immigration\\imm_umn_149_miriam_wood_alameda.yaml"
+  }
+]

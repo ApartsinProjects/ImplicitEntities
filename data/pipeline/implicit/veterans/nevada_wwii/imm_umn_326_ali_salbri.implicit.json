@@ -1,0 +1,145 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "Tunis",
+    "explicit_text": "I was born in Tunis, Tunisia in 1959, just a few years after Tunisia gained independence from France. Tunis is where my journey began, growing up in a family of four sons and my parents. Even though I left many times, Tunis always felt like home, and I returned there several times throughout my life, especially before moving permanently to the United States.",
+    "implicit_text": "I was born in the capital city of my North African country in 1959, just a few years after it gained independence from France. This city is where my journey began, growing up in a family of four sons and my parents. Even though I left many times, this city always felt like home, and I returned there several times throughout my life, especially before moving permanently to the United States.",
+    "cues": [
+      "1959",
+      "birthplace",
+      "Tunisia independence",
+      "family home"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_326_ali_salbri.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "Tunisia",
+    "explicit_text": "Tunisia is my homeland, where I was born and raised during a tough economic period after independence from France in 1956. Despite finishing my studies there in 1983 and working for a while, the economic situation pushed me to seek opportunities abroad. I returned to Tunisia multiple times, including in 1989 and 2007, when I married my high school sweetheart before moving permanently to the United States.",
+    "implicit_text": "My homeland is where I was born and raised during a tough economic period after gaining independence from France in 1956. Despite finishing my studies there in 1983 and working for a while, the economic situation pushed me to seek opportunities abroad. I returned to my home country multiple times, including in 1989 and 2007, when I married my high school sweetheart before moving permanently to the United States.",
+    "cues": [
+      "independence 1956",
+      "economic challenges",
+      "studies completed 1983",
+      "marriage 2007"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_326_ali_salbri.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "France",
+    "explicit_text": "In 1981, I moved to France, specifically Paris, on a student visa to study mechanical engineering. I spent two years there before returning to Tunisia in 1983 to finish my studies. France was my first step abroad and marked the beginning of my long journey across several countries.",
+    "implicit_text": "In 1981, I moved to a Western European country, specifically its capital city, on a student visa to study mechanical engineering. I spent two years there before returning to my North African home country in 1983 to finish my studies. That European country was my first step abroad and marked the beginning of my long journey across several countries.",
+    "cues": [
+      "1981-1983",
+      "Paris",
+      "student visa",
+      "mechanical engineering"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_326_ali_salbri.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "Paris",
+    "explicit_text": "Paris was where I lived from 1981 to 1983 while studying mechanical engineering on a student visa. It was my first experience living outside Tunisia and gave me a taste of life in Europe. After two years in Paris, I returned home to complete my studies.",
+    "implicit_text": "The capital city of that Western European country was where I lived from 1981 to 1983 while studying mechanical engineering on a student visa. It was my first experience living outside my North African home and gave me a taste of life in Europe. After two years there, I returned home to complete my studies.",
+    "cues": [
+      "1981-1983",
+      "mechanical engineering studies",
+      "student visa",
+      "France"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_326_ali_salbri.yaml"
+  },
+  {
+    "entity_id": 5,
+    "entity": "Brussels",
+    "explicit_text": "In 1985, I moved to Brussels, Belgium on a tourist visa to be with my friend Mohsan. I worked there for over two years, which was an important period for me as I tried to find better opportunities outside Tunisia. Brussels was a stepping stone before I moved to Norway.",
+    "implicit_text": "In 1985, I moved to the capital of Belgium on a tourist visa to be with my friend Mohsan. I worked there for over two years, which was an important period for me as I tried to find better opportunities outside my home country. That city was a stepping stone before I moved to Norway.",
+    "cues": [
+      "1985-1987",
+      "tourist visa",
+      "friend Mohsan",
+      "work experience"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_326_ali_salbri.yaml"
+  },
+  {
+    "entity_id": 6,
+    "entity": "Oslo",
+    "explicit_text": "In 1987, I moved to Oslo, Norway, after receiving an invitation from my brother Mohamed who was living there. I stayed for two years and even met a Norwegian woman I planned to marry, but the language barrier, weather, and cultural differences made it difficult to adapt. Eventually, I decided to return to Tunisia in 1989.",
+    "implicit_text": "In 1987, I moved to the capital of Norway after receiving an invitation from my brother Mohamed who was living there. I stayed for two years and even met a Norwegian woman I planned to marry, but the language barrier, weather, and cultural differences made it difficult to adapt. Eventually, I decided to return to my home country in 1989.",
+    "cues": [
+      "1987-1989",
+      "invitation from brother Mohamed",
+      "Norwegian lady",
+      "cultural challenges"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_326_ali_salbri.yaml"
+  },
+  {
+    "entity_id": 7,
+    "entity": "Norway",
+    "explicit_text": "Norway was where I lived from 1987 to 1989, specifically in Oslo, thanks to my brother Mohamed who was a resident there. Although I hoped to settle down and marry, I struggled with the language and culture, which led me to return to Tunisia. Norway was an important chapter that taught me a lot about adapting to new environments.",
+    "implicit_text": "I lived in a Scandinavian country from 1987 to 1989, specifically in its capital city, thanks to my brother Mohamed who was a resident there. Although I hoped to settle down and marry, I struggled with the language and culture, which led me to return to my home country. That country was an important chapter that taught me a lot about adapting to new environments.",
+    "cues": [
+      "1987-1989",
+      "Oslo",
+      "brother Mohamed",
+      "adaptation challenges"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_326_ali_salbri.yaml"
+  },
+  {
+    "entity_id": 8,
+    "entity": "Canada",
+    "explicit_text": "In 1990, I obtained a Canadian tourist visa and moved there, spending about a year trying to get permanent residency. I stayed in Berkeley, California for six months during this period while waiting for my immigration application to be processed. Unfortunately, after two years of waiting and some friends betraying my trust, I was not able to settle in Canada.",
+    "implicit_text": "In 1990, I obtained a tourist visa for a North American country and moved there, spending about a year trying to get permanent residency. I stayed in Berkeley, California for six months during this period while waiting for my immigration application to be processed. Unfortunately, after two years of waiting and some friends betraying my trust, I was not able to settle in that country.",
+    "cues": [
+      "1990-1991",
+      "tourist visa",
+      "immigration application",
+      "Berkeley stay"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_326_ali_salbri.yaml"
+  },
+  {
+    "entity_id": 9,
+    "entity": "Berkeley, California",
+    "explicit_text": "Berkeley, California first became part of my life in 1991 when I stayed with my friend Lotfi for six months while trying to immigrate to Canada. After many years and travels, I returned to Berkeley in 2007 with my high school sweetheart, and we made it our permanent home. Today, I live there with my wife and two daughters, just a short distance from where I first stayed.",
+    "implicit_text": "This city in California first became part of my life in 1991 when I stayed with my friend Lotfi for six months while trying to immigrate to Canada. After many years and travels, I returned there in 2007 with my high school sweetheart, and we made it our permanent home. Today, I live there with my wife and two daughters, just a short distance from where I first stayed.",
+    "cues": [
+      "1991 six-month stay",
+      "friend Lotfi",
+      "2007 permanent residence",
+      "family life"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_326_ali_salbri.yaml"
+  },
+  {
+    "entity_id": 10,
+    "entity": "San Francisco",
+    "explicit_text": "In 1995, after my Canadian immigration efforts failed, I moved to San Francisco on a tourist visa and stayed for five years. During that time, I worked and married an American woman, although our marriage ended after two years due to differences about starting a family. San Francisco was a significant place where I experienced both professional and personal growth.",
+    "implicit_text": "In 1995, after my immigration efforts in Canada failed, I moved to a major city in northern California on a tourist visa and stayed for five years. During that time, I worked and married an American woman, although our marriage ended after two years due to differences about starting a family. That city was a significant place where I experienced both professional and personal growth.",
+    "cues": [
+      "1995-2000",
+      "tourist visa",
+      "marriage and divorce",
+      "work experience"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_326_ali_salbri.yaml"
+  },
+  {
+    "entity_id": 11,
+    "entity": "United States",
+    "explicit_text": "The United States has been a major part of my life since 1991 when I first arrived in Berkeley. After several moves between Tunisia and the US, I finally settled permanently in 2007 with my wife and daughters in Berkeley, California. The US gave me opportunities to work, study, and build a family, and I consider myself a universal citizen because of my experiences here and abroad.",
+    "implicit_text": "This country has been a major part of my life since 1991 when I first arrived in Berkeley. After several moves between my home country and this nation, I finally settled permanently in 2007 with my wife and daughters in Berkeley, California. It gave me opportunities to work, study, and build a family, and I consider myself a universal citizen because of my experiences here and abroad.",
+    "cues": [
+      "1991 arrival",
+      "multiple stays",
+      "2007 permanent residency",
+      "family and work"
+    ],
+    "transcript_ref": "veterans\\nevada_wwii\\imm_umn_326_ali_salbri.yaml"
+  }
+]

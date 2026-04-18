@@ -1,0 +1,123 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "United States",
+    "explicit_text": "My parents decided to move to the United States because my dad wanted me to be born here and to have a better life with more educational opportunities. They came from Mexico and crossed the border near Texas with the help of a coyote. After arriving, they settled in Minnesota where I was born in 1995, and my dad found work despite the challenges of language and low wages.",
+    "implicit_text": "My parents decided to move to this country because my dad wanted me to be born here and to have a better life with more educational opportunities. They came from Mexico and crossed the border near Texas with the help of a coyote. After arriving, they settled in Minnesota where I was born in 1995, and my dad found work despite the challenges of language and low wages.",
+    "cues": [
+      "1995",
+      "Texas border",
+      "Minnesota",
+      "immigration",
+      "education"
+    ],
+    "transcript_ref": "immigration\\imm_umn_229_yesenia_moran_flores.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "Mexico",
+    "explicit_text": "Mexico is where my parents are originally from, specifically central Mexico. My mom wanted to stay there during her pregnancy to be with her mother, but my dad wanted us to move to the United States for better opportunities. They had to sell a lot of land to afford the journey and pay a coyote to help them cross the border near Texas.",
+    "implicit_text": "This country is where my parents are originally from, specifically central regions. My mom wanted to stay there during her pregnancy to be with her mother, but my dad wanted us to move to the neighboring country for better opportunities. They had to sell a lot of land to afford the journey and pay a coyote to help them cross the border near Texas.",
+    "cues": [
+      "central Mexico",
+      "pregnancy",
+      "land sold",
+      "coyote",
+      "immigration"
+    ],
+    "transcript_ref": "immigration\\imm_umn_229_yesenia_moran_flores.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "Texas",
+    "explicit_text": "Texas was the border state my parents crossed when coming from Mexico to the United States. They had to rely on a coyote to get them to the border near Texas, which was costly and risky. From Texas, they took a bus all the way to Minnesota, where my family eventually settled.",
+    "implicit_text": "That southern border state was where my parents crossed when coming from Mexico to the United States. They had to rely on a coyote to get them to the border near that state, which was costly and risky. From there, they took a bus all the way to Minnesota, where my family eventually settled.",
+    "cues": [
+      "border crossing",
+      "coyote",
+      "bus journey",
+      "immigration"
+    ],
+    "transcript_ref": "immigration\\imm_umn_229_yesenia_moran_flores.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "Minnesota",
+    "explicit_text": "My family settled in Minnesota starting in 1995, where I was born at Regions Hospital. My mom was alone without her mother and unfamiliar with the area, which made things difficult. My dad found a minimum wage job, and later we moved to Maplewood and White Bear Lake, all within Minnesota.",
+    "implicit_text": "My family settled in this northern Midwestern state starting in 1995, where I was born at a well-known hospital. My mom was alone without her mother and unfamiliar with the area, which made things difficult. My dad found a minimum wage job, and later we moved to Maplewood and White Bear Lake, all within this state.",
+    "cues": [
+      "1995",
+      "Regions Hospital",
+      "minimum wage job",
+      "Maplewood",
+      "White Bear Lake"
+    ],
+    "transcript_ref": "immigration\\imm_umn_229_yesenia_moran_flores.yaml"
+  },
+  {
+    "entity_id": 5,
+    "entity": "Regions Hospital",
+    "explicit_text": "I was born at Regions Hospital in Minnesota in 1995. My mom had to take a bus there since she didn’t know the area and had no family support at the time. That hospital is where my life in the United States officially began.",
+    "implicit_text": "I was born at a major hospital in Minnesota in 1995. My mom had to take a bus there since she didn’t know the area and had no family support at the time. That hospital is where my life in the United States officially began.",
+    "cues": [
+      "1995",
+      "Minnesota",
+      "birth",
+      "bus transportation"
+    ],
+    "transcript_ref": "immigration\\imm_umn_229_yesenia_moran_flores.yaml"
+  },
+  {
+    "entity_id": 6,
+    "entity": "Maplewood, Minnesota",
+    "explicit_text": "In 2004, after my parents got their residency, my dad bought a restaurant in Maplewood, Minnesota. We lived there for a few years, and that move marked an important step for our family’s stability and business. Eventually, we moved to White Bear Lake, but Maplewood was where our family’s business journey really started.",
+    "implicit_text": "In 2004, after my parents got their residency, my dad bought a restaurant in a suburb of the Twin Cities. We lived there for a few years, and that move marked an important step for our family’s stability and business. Eventually, we moved to White Bear Lake, but that suburb was where our family’s business journey really started.",
+    "cues": [
+      "2004",
+      "restaurant",
+      "residency",
+      "family business"
+    ],
+    "transcript_ref": "immigration\\imm_umn_229_yesenia_moran_flores.yaml"
+  },
+  {
+    "entity_id": 7,
+    "entity": "White Bear Lake, Minnesota",
+    "explicit_text": "After living in Maplewood, we moved to White Bear Lake, Minnesota, where my family continued to run the restaurant until 2008. The Great Recession hit around that time, and we lost the business. We still live in White Bear Lake, and my dad is trying to figure out how to start another business here.",
+    "implicit_text": "After living in that suburb, we moved to White Bear Lake, Minnesota, where my family continued to run the restaurant until 2008. The economic downturn hit around that time, and we lost the business. We still live in White Bear Lake, and my dad is trying to figure out how to start another business here.",
+    "cues": [
+      "White Bear Lake",
+      "restaurant",
+      "2008",
+      "Great Recession",
+      "family business"
+    ],
+    "transcript_ref": "immigration\\imm_umn_229_yesenia_moran_flores.yaml"
+  },
+  {
+    "entity_id": 8,
+    "entity": "Great Recession",
+    "explicit_text": "The Great Recession in 2008 was a tough time for my family because that's when we lost our restaurant in White Bear Lake. It was a big setback, and since then, we haven't been able to open any new businesses. My dad is still trying to find ways to recover and start something new.",
+    "implicit_text": "The economic downturn in 2008 was a tough time for my family because that's when we lost our restaurant in White Bear Lake. It was a big setback, and since then, we haven't been able to open any new businesses. My dad is still trying to find ways to recover and start something new.",
+    "cues": [
+      "2008",
+      "restaurant loss",
+      "White Bear Lake",
+      "economic downturn"
+    ],
+    "transcript_ref": "immigration\\imm_umn_229_yesenia_moran_flores.yaml"
+  },
+  {
+    "entity_id": 9,
+    "entity": "St. Paul College",
+    "explicit_text": "I am currently a student at St. Paul College, and I’m proud to be the first in my family to go to college right after high school. My parents are still working hard, and my sister will graduate soon from the White Bear district. Attending St. Paul College is a big step for me and my family’s future.",
+    "implicit_text": "I am currently a student at a community college in the capital city of Minnesota, and I’m proud to be the first in my family to go to college right after high school. My parents are still working hard, and my sister will graduate soon from the White Bear district. Attending this college is a big step for me and my family’s future.",
+    "cues": [
+      "St. Paul College",
+      "first-generation college student",
+      "education",
+      "family progress"
+    ],
+    "transcript_ref": "immigration\\imm_umn_229_yesenia_moran_flores.yaml"
+  }
+]

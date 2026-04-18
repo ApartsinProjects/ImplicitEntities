@@ -1,0 +1,521 @@
+[
+  {
+    "id": 1,
+    "entity": "World Trade Center",
+    "type": "Place",
+    "surface_forms": [
+      "World Trade Center",
+      "the World Trade Center"
+    ],
+    "wikipedia_title": "World_Trade_Center_(1973–2001)",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/World_Trade_Center_(1973–2001)",
+    "wikidata_qid": "Q11235",
+    "aliases": [
+      "WTC",
+      "Original World Trade Center",
+      "World Trade Center (1973–2001)"
+    ],
+    "description": "former skyscraper complex in Manhattan, New York (1968-2001)",
+    "description_wiki": "The original World Trade Center (WTC) was a complex of seven buildings in the Financial District of Lower Manhattan in New York City."
+  },
+  {
+    "id": 2,
+    "entity": "New York City",
+    "type": "Place",
+    "surface_forms": [
+      "New York",
+      "New York City"
+    ],
+    "wikipedia_title": "New_York_City",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/New_York_City",
+    "wikidata_qid": "Q60",
+    "aliases": [
+      "the five boroughs",
+      "Big Apple",
+      "City of New York",
+      "NY City",
+      "New York, New York",
+      "New York City, New York",
+      "New York, NY",
+      "New York City, NY",
+      "Caput Mundi",
+      "The City So Nice They Named It Twice"
+    ],
+    "description": "most populous city in the United States",
+    "description_wiki": "New York, often called New York City (NYC), is the most populous city in the United States."
+  },
+  {
+    "id": 3,
+    "entity": "Pentagon",
+    "type": "Place",
+    "surface_forms": [
+      "Pentagon",
+      "the Pentagon"
+    ],
+    "wikipedia_title": "The_Pentagon",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/The_Pentagon",
+    "wikidata_qid": "Q11208",
+    "aliases": [
+      "Pentagon",
+      "Headquarters of the United States Department of Defense",
+      "Pentagon Office Building Complex",
+      "Headquarters of the United States Department of War (2025–present)",
+      "Headquarters of the United States Department of Defense (1947–2025)",
+      "Headquarters of the United States Department of War (1789–1947)"
+    ],
+    "description": "headquarters of the United States Department of Defense; named after the shape of the building, a polygon with five (greek: penta) sides",
+    "description_wiki": "The Pentagon is the headquarters of the United States Department of Defense, in Arlington County, Virginia, across the Potomac River from Washington, D.C. The building was constructed on an accelerated schedule during World War II. As a symbol of the U.S. military, the phrase The Pentagon is often used as a metonym for the Department of Defense and its leadership."
+  },
+  {
+    "id": 4,
+    "entity": "United States Park Police",
+    "type": "Organization",
+    "surface_forms": [
+      "United States Park Police",
+      "Park Police",
+      "the Park Police"
+    ],
+    "wikipedia_title": "United_States_Park_Police",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/United_States_Park_Police",
+    "wikidata_qid": "Q2005254",
+    "aliases": [
+      "The United States Park Police"
+    ],
+    "description": "uniformed federal law enforcement agency",
+    "description_wiki": "The United States Park Police (USPP) is the oldest uniformed federal law enforcement agency in the United States."
+  },
+  {
+    "id": 5,
+    "entity": "White House",
+    "type": "Place",
+    "surface_forms": [
+      "White House",
+      "the White House"
+    ],
+    "wikipedia_title": "White_House",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/White_House",
+    "wikidata_qid": "Q35525",
+    "aliases": [
+      "Executive Mansion",
+      "President's Palace",
+      "Presidential Mansion",
+      "President's House",
+      "the White House",
+      "1600 Pennsylvania Avenue"
+    ],
+    "description": "official residence and office of the President of the United States",
+    "description_wiki": "The White House is the official residence and workplace of the President of the United States."
+  },
+  {
+    "id": 6,
+    "entity": "Lincoln Memorial",
+    "type": "Place",
+    "surface_forms": [
+      "Lincoln",
+      "the Lincoln",
+      "Lincoln Memorial"
+    ],
+    "wikipedia_title": "Lincoln_Memorial",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Lincoln_Memorial",
+    "wikidata_qid": "Q213559",
+    "aliases": [
+      "LINC"
+    ],
+    "description": "memorial in Washington, D.C., United States",
+    "description_wiki": "The Lincoln Memorial is  a U.S. national memorial honoring Abraham Lincoln, the 16th president of the United States, located on the western end of the National Mall of Washington, D.C. The memorial is built in a neoclassical style in the form of a classical temple."
+  },
+  {
+    "id": 7,
+    "entity": "Jefferson Memorial",
+    "type": "Place",
+    "surface_forms": [
+      "Jefferson",
+      "the Jefferson",
+      "Jefferson Memorial"
+    ],
+    "wikipedia_title": "Jefferson_Memorial",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Jefferson_Memorial",
+    "wikidata_qid": "Q326183",
+    "aliases": [
+      "Thomas Jefferson Memorial",
+      "JEFM",
+      "THJE"
+    ],
+    "description": "memorial in Washington, D.C., United States",
+    "description_wiki": "The Thomas Jefferson Memorial is a national memorial in Washington, D.C., built in honor of Thomas Jefferson, the principal author of the United States Declaration of Independence and the nation's third president."
+  },
+  {
+    "id": 8,
+    "entity": "Washington Monument",
+    "type": "Place",
+    "surface_forms": [
+      "Washington monument",
+      "the Washington monument",
+      "Washington Monument"
+    ],
+    "wikipedia_title": "Washington_Monument",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Washington_Monument",
+    "wikidata_qid": "Q178114",
+    "aliases": [
+      "WAMO",
+      "Washington National Monument"
+    ],
+    "description": "obelisk on the National Mall in Washington, D.C.",
+    "description_wiki": "The Washington Monument is a 555-foot (169 m) tall obelisk on the National Mall in Washington, D.C., built to commemorate George Washington, a Founding Father of the United States and the nation's first president."
+  },
+  {
+    "id": 9,
+    "entity": "Secret Service",
+    "type": "Organization",
+    "surface_forms": [
+      "Secret Service",
+      "the Secret Service"
+    ],
+    "wikipedia_title": "United_States_Secret_Service",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/United_States_Secret_Service",
+    "wikidata_qid": "Q503224",
+    "aliases": [
+      "USSS",
+      "US Secret Service",
+      "U.S. Secret Service",
+      "Secret Service"
+    ],
+    "description": "U.S. federal law enforcement agency",
+    "description_wiki": "The United States Secret Service (USSS or Secret Service) is a federal law enforcement agency under the United States Department of Homeland Security."
+  },
+  {
+    "id": 10,
+    "entity": "Metropolitan Police Department of the District of Columbia",
+    "type": "Organization",
+    "surface_forms": [
+      "Metropolitan Police",
+      "the Metropolitan Police",
+      "Metropolitan Police Department"
+    ],
+    "wikipedia_title": "Metropolitan_Police_Department_of_the_District_of_Columbia",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Metropolitan_Police_Department_of_the_District_of_Columbia",
+    "wikidata_qid": "Q1350854",
+    "aliases": [
+      "MPD",
+      "MPDC",
+      "Metropolitan Police Department",
+      "District of Columbia Police Department",
+      "D.C. police department",
+      "Washington, D.C. police department"
+    ],
+    "description": "law enforcement agency in Washington, D.C., United States",
+    "description_wiki": "The Metropolitan Police Department of the District of Columbia (MPDC), more commonly known locally as the Metropolitan Police Department (MPD), and, colloquially, DC Police, is the primary law enforcement agency for the District of Columbia, in the United States."
+  },
+  {
+    "id": 11,
+    "entity": "9/11 attacks",
+    "type": "Event",
+    "surface_forms": [
+      "a plane had crashed into the World Trade Center",
+      "a second plane hit",
+      "a plane had struck the Pentagon",
+      "that fourth plane crashed in Pennsylvania",
+      "terrorist attack",
+      "terrorist incidents",
+      "terrorist incidents",
+      "terrorist will strike",
+      "terrorism incidents",
+      "9:30 in the morning",
+      "the attack on the Pentagon",
+      "the attack on the World Trade Center"
+    ],
+    "wikipedia_title": "September_11_attacks",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/September_11_attacks",
+    "wikidata_qid": "Q10806",
+    "aliases": [
+      "September 11",
+      "11 September",
+      "11 September 2001",
+      "September 11, 2001",
+      "9/11",
+      "911",
+      "11 September Attacks",
+      "September 11th Attacks",
+      "9/11 Attacks",
+      "September 11, 2001 terrorist attacks"
+    ],
+    "description": "2001 attacks in the United States",
+    "description_wiki": "The September 11 attacks, colloquially known as 9/11, were a coordinated series of suicide attacks perpetrated by the Islamist terrorist organization al-Qaeda against the United States in 2001."
+  },
+  {
+    "id": 12,
+    "entity": "Rock Creek Parkway",
+    "type": "Place",
+    "surface_forms": [
+      "Rock Creek Parkway",
+      "the Rock Creek Parkway"
+    ],
+    "wikipedia_title": "Rock_Creek_Parkway",
+    "wikipedia_url": "",
+    "wikidata_qid": "Q718295",
+    "aliases": [
+      "Rock Creek Parkway",
+      "Rock Creek and Potomac Parkway Historic District"
+    ],
+    "description": "parkway in Washington D.C.",
+    "description_wiki": ""
+  },
+  {
+    "id": 13,
+    "entity": "Cabinet of the United States",
+    "type": "Organization",
+    "surface_forms": [
+      "members of the Cabinet",
+      "key cabinet officials",
+      "Cabinet"
+    ],
+    "wikipedia_title": "Cabinet_of_the_United_States",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Cabinet_of_the_United_States",
+    "wikidata_qid": "Q639738",
+    "aliases": [
+      "Cabinet of the United States",
+      "US Cabinet"
+    ],
+    "description": "principal advisory body to the president of the United States",
+    "description_wiki": "The Cabinet of the United States is the principal official advisory body to the president of the United States."
+  },
+  {
+    "id": 14,
+    "entity": "United States Secretary of the Interior",
+    "type": "Person",
+    "surface_forms": [
+      "Secretary of Interior",
+      "Secretary of the Interior"
+    ],
+    "wikipedia_title": "United_States_Secretary_of_the_Interior",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/United_States_Secretary_of_the_Interior",
+    "wikidata_qid": "Q2287650",
+    "aliases": [
+      "Secretary of the Interior"
+    ],
+    "description": "head of the Department of the Interior in the United States government",
+    "description_wiki": "The United States secretary of the interior is the head of the United States Department of the Interior."
+  },
+  {
+    "id": 15,
+    "entity": "National Park Service",
+    "type": "Organization",
+    "surface_forms": [
+      "National Park Service",
+      "the National Park Service",
+      "Park Service"
+    ],
+    "wikipedia_title": "National_Park_Service",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/National_Park_Service",
+    "wikidata_qid": "Q308439",
+    "aliases": [
+      "NPS",
+      "United States National Park Service",
+      "National National Parks ServicePark Service, NPS",
+      "National United States Parks ServicePark Service of the United States",
+      "The National Park Service"
+    ],
+    "description": "United States federal agency",
+    "description_wiki": "The National Park Service (NPS) is an agency of the United States federal government, within the United States Department of the Interior."
+  },
+  {
+    "id": 16,
+    "entity": "President of the United States",
+    "type": "Person",
+    "surface_forms": [
+      "the President",
+      "President"
+    ],
+    "wikipedia_title": "President_of_the_United_States",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/President_of_the_United_States",
+    "wikidata_qid": "Q11696",
+    "aliases": [
+      "US President",
+      "President of the US",
+      "the president of the United States",
+      "President of America",
+      "president of United States",
+      "POTUS",
+      "President of the U.S.",
+      "President of USA",
+      "President of the United States of America",
+      "United States President"
+    ],
+    "description": "head of state and head of government of the United States of America",
+    "description_wiki": "The president of the United States (POTUS) is the head of state and head of government of the United States."
+  },
+  {
+    "id": 17,
+    "entity": "Vice President of the United States",
+    "type": "Person",
+    "surface_forms": [
+      "the Vice President",
+      "Vice President"
+    ],
+    "wikipedia_title": "Vice_President_of_the_United_States",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Vice_President_of_the_United_States",
+    "wikidata_qid": "Q11699",
+    "aliases": [
+      "US Vice President",
+      "VPOTUS",
+      "President of the Senate",
+      "President of the United States Senate",
+      "VP of the United States",
+      "VP of the US",
+      "US VP",
+      "United States Vice President",
+      "United States VP",
+      "USA VP"
+    ],
+    "description": "second-highest constitutional office in the United States",
+    "description_wiki": "The vice president of the United States (VPOTUS, VP, or informally veep) is the second-highest office in the executive branch of the U.S. federal government, after the president of the United States, and ranks first in the presidential line of succession."
+  },
+  {
+    "id": 18,
+    "entity": "United States Secretary of State",
+    "type": "Person",
+    "surface_forms": [
+      "Secretary of State",
+      "the Secretary of State"
+    ],
+    "wikipedia_title": "United_States_Secretary_of_State",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/United_States_Secretary_of_State",
+    "wikidata_qid": "Q14213",
+    "aliases": [
+      "Secretary of State",
+      "U.S. Secretary of State",
+      "Secretary of State of the United States",
+      "US Secretary of State"
+    ],
+    "description": "head of the United States Department of State",
+    "description_wiki": "The United States secretary of state (SecState) is a member of the executive branch of the federal government of the United States and the head of the U.S. Department of State, equivalent to a minister of foreign affairs."
+  },
+  {
+    "id": 19,
+    "entity": "United States Department of the Interior",
+    "type": "Organization",
+    "surface_forms": [
+      "Department of Interior",
+      "Department of Interior Watch Center",
+      "Interior",
+      "Department of Interior law enforcement notification center"
+    ],
+    "wikipedia_title": "United_States_Department_of_the_Interior",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/United_States_Department_of_the_Interior",
+    "wikidata_qid": "Q608427",
+    "aliases": [
+      "DOI",
+      "Department of the Interior",
+      "US Department of the Interior",
+      "Interior",
+      "Interior Department",
+      "U.S. Department of the Interior",
+      "United States Department of Interior"
+    ],
+    "description": "U.S. federal executive department",
+    "description_wiki": "The United States Department of the Interior (DOI) is an executive department of the U.S. federal government responsible for the management and conservation of most federal lands and natural resources."
+  },
+  {
+    "id": 20,
+    "entity": "Shenandoah National Park",
+    "type": "Place",
+    "surface_forms": [
+      "Shenandoah",
+      "Shenandoah Command Center",
+      "Shenandoah National Park"
+    ],
+    "wikipedia_title": "Shenandoah_National_Park",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Shenandoah_National_Park",
+    "wikidata_qid": "Q1137401",
+    "aliases": [
+      "SHEN"
+    ],
+    "description": "195,000 acres in Virginia (US) maintained by the National Park Service",
+    "description_wiki": "Shenandoah National Park  (often ) is a national park of the United States that encompasses part of the Blue Ridge Mountains in Virginia."
+  },
+  {
+    "id": 21,
+    "entity": "National Capital Region",
+    "type": "Place",
+    "surface_forms": [
+      "National Capital Region",
+      "the National Capital Region"
+    ],
+    "wikipedia_title": "National_Capital_Region",
+    "wikipedia_url": "",
+    "wikidata_qid": "Q13580",
+    "aliases": [
+      "Metropolitan Manila",
+      "National Capital Region",
+      "NCR"
+    ],
+    "description": "metropolitan area and region of the Philippines",
+    "description_wiki": ""
+  },
+  {
+    "id": 22,
+    "entity": "Arlington County, Virginia",
+    "type": "Place",
+    "surface_forms": [
+      "Arlington County",
+      "Arlington County police",
+      "Arlington County and the Pentagon Command Center"
+    ],
+    "wikipedia_title": "Arlington_County,_Virginia",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Arlington_County,_Virginia",
+    "wikidata_qid": "Q107126",
+    "aliases": [
+      "Arlington County, Virginia",
+      "Arlington, Virginia",
+      "Arlington",
+      "Arlington, VA",
+      "Arlington County, VA"
+    ],
+    "description": "county in Virginia, United States; part of Washington metropolitan area",
+    "description_wiki": "Arlington County, or simply Arlington, is a county in the U.S. state of Virginia."
+  },
+  {
+    "id": 23,
+    "entity": "Federal Bureau of Investigation",
+    "type": "Organization",
+    "surface_forms": [
+      "FBI",
+      "the FBI",
+      "Federal Bureau of Investigation"
+    ],
+    "wikipedia_title": "Federal_Bureau_of_Investigation",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Federal_Bureau_of_Investigation",
+    "wikidata_qid": "Q8333",
+    "aliases": [],
+    "description": "U.S. federal law enforcement agency",
+    "description_wiki": "The Federal Bureau of Investigation (FBI) is the domestic intelligence and security service of the United States and its principal federal law enforcement agency."
+  },
+  {
+    "id": 24,
+    "entity": "Lafayette Square",
+    "type": "Place",
+    "surface_forms": [
+      "Lafayette Park",
+      "Lafayette Park side"
+    ],
+    "wikipedia_title": "Lafayette_Square_(Washington,_D.C.)",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Lafayette_Square_(Washington,_D.C.)"
+  },
+  {
+    "id": 25,
+    "entity": "The Ellipse",
+    "type": "Place",
+    "surface_forms": [
+      "the Ellipse"
+    ],
+    "wikipedia_title": "The_Ellipse",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/The_Ellipse",
+    "wikidata_qid": "Q7731820",
+    "aliases": [
+      "Ellipse",
+      "President's Park South"
+    ],
+    "description": "park in Washington, D.C., United States",
+    "description_wiki": "The Ellipse, sometimes referred to as President's Park South, is a 52-acre (21 ha) park south of the White House fence and north of Constitution Avenue and the National Mall in Washington, D.C., United States."
+  }
+]

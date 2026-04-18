@@ -1,0 +1,498 @@
+[
+  {
+    "entity_id": 1,
+    "entity": "Turner's Chapel AME Church",
+    "explicit_text": "Turner's Chapel AME was one of the churches where we held mass meetings during the civil rights movement. Reverend Tucker, who was the pastor there, was a young and well-liked Methodist minister. The church was a gathering place for many of us, and it played a role in organizing marches downtown where Reverend Tucker even got bitten by a dog during one protest.",
+    "implicit_text": "One of the churches where we held mass meetings during the civil rights movement was the African Methodist Episcopal church pastored by Reverend Tucker, a young and well-liked Methodist minister. That church was a gathering place for many of us and played a role in organizing marches downtown where Reverend Tucker even got bitten by a dog during one protest.",
+    "cues": [
+      "mass meetings",
+      "Reverend Tucker",
+      "Methodist",
+      "march downtown",
+      "dog bite"
+    ],
+    "transcript_ref": "civil_rights\\cr_js_allen_oh-r.yaml"
+  },
+  {
+    "entity_id": 2,
+    "entity": "Wesley's Chapel ME",
+    "explicit_text": "Wesley's Chapel ME was another church where we held some of our mass meetings, although not all churches allowed us to meet. It was part of the network of places that supported the civil rights gatherings in Greenwood. We would attend meetings there along with other churches like Turner's Chapel AME and CME.",
+    "implicit_text": "Another church where we held some of our mass meetings was the Methodist Episcopal church named after the founder of Methodism, although not all churches allowed us to meet. It was part of the network of places that supported the civil rights gatherings in Greenwood. We would attend meetings there along with other churches like the African Methodist Episcopal and Christian Methodist Episcopal churches.",
+    "cues": [
+      "mass meetings",
+      "Greenwood",
+      "church gatherings",
+      "civil rights movement"
+    ],
+    "transcript_ref": "civil_rights\\cr_js_allen_oh-r.yaml"
+  },
+  {
+    "entity_id": 3,
+    "entity": "Martin Luther King Jr.",
+    "explicit_text": "Martin Luther King Jr. sometimes came to speak at our mass meetings in Greenwood during the early days of the civil rights movement. His presence was inspiring, and he was one of the many leaders who helped bring attention and support to our cause. We would gather every night at different churches to hear him and others speak.",
+    "implicit_text": "The famous civil rights leader who sometimes came to speak at our mass meetings in Greenwood during the early days of the movement was very inspiring. He was one of the many leaders who helped bring attention and support to our cause. We would gather every night at different churches to hear him and others speak.",
+    "cues": [
+      "mass meetings",
+      "Greenwood",
+      "civil rights movement",
+      "speaker"
+    ],
+    "transcript_ref": "civil_rights\\cr_js_allen_oh-r.yaml"
+  },
+  {
+    "entity_id": 4,
+    "entity": "Lawrence Guyot",
+    "explicit_text": "Lawrence Guyot was one of the local people who spoke at our meetings in Greenwood. He was active in the movement and sometimes came to encourage us during the mass meetings. I also remember him being involved in marches and protests alongside others in the community.",
+    "implicit_text": "One of the local people who spoke at our meetings in Greenwood was very active in the movement and sometimes came to encourage us during the mass meetings. I also remember him being involved in marches and protests alongside others in the community.",
+    "cues": [
+      "mass meetings",
+      "Greenwood",
+      "civil rights",
+      "speaker",
+      "marches"
+    ],
+    "transcript_ref": "civil_rights\\cr_js_allen_oh-r.yaml"
+  },
+  {
+    "entity_id": 5,
+    "entity": "Hubert Humphrey",
+    "explicit_text": "Hubert Humphrey came to some of our meetings as a senator, showing support for the civil rights movement. His visits were part of the many that helped bring national attention to our struggle. We appreciated having political figures like him come and speak to us during those times.",
+    "implicit_text": "A senator who came to some of our meetings showed support for the civil rights movement. His visits were part of the many that helped bring national attention to our struggle. We appreciated having political figures like him come and speak to us during those times.",
+    "cues": [
+      "senator",
+      "civil rights meetings",
+      "Greenwood",
+      "political support"
+    ],
+    "transcript_ref": "civil_rights\\cr_js_allen_oh-r.yaml"
+  },
+  {
+    "entity_id": 6,
+    "entity": "Charles Diggs",
+    "explicit_text": "Senator Charles Diggs was another important figure who came to our meetings in Greenwood. He was part of the group of leaders who supported the civil rights cause and spoke at our gatherings. His presence helped encourage us during the challenging times of protests and marches.",
+    "implicit_text": "Another important senator came to our meetings in Greenwood. He was part of the group of leaders who supported the civil rights cause and spoke at our gatherings. His presence helped encourage us during the challenging times of protests and marches.",
+    "cues": [
+      "senator",
+      "civil rights meetings",
+      "Greenwood",
+      "support"
+    ],
+    "transcript_ref": "civil_rights\\cr_js_allen_oh-r.yaml"
+  },
+  {
+    "entity_id": 7,
+    "entity": "Medgar Evers",
+    "explicit_text": "Medgar Evers was an NAACP man who often came to our meetings and was a powerful speaker. People really liked him because of what he stood for—helping colored people and poor people in general. Although I never had close talks with him, his presence and speeches at the meetings were very inspiring.",
+    "implicit_text": "A prominent NAACP man often came to our meetings and was a powerful speaker. People really liked him because of what he stood for—helping colored people and poor people in general. Although I never had close talks with him, his presence and speeches at the meetings were very inspiring.",
+    "cues": [
+      "NAACP",
+      "meetings",
+      "speaker",
+      "civil rights",
+      "Greenwood"
+    ],
+    "transcript_ref": "civil_rights\\cr_js_allen_oh-r.yaml"
+  },
+  {
+    "entity_id": 8,
+    "entity": "NAACP",
+    "explicit_text": "The NAACP was a key organization in our fight for civil rights, always working to get things that helped colored and poor people. Medgar Evers was a prominent NAACP man who came to our meetings and represented what the organization stood for. The NAACP's efforts were one of the main reasons people respected and supported the movement.",
+    "implicit_text": "The key civil rights organization was always working to get things that helped colored and poor people. The prominent man from that group came to our meetings and represented what the organization stood for. Their efforts were one of the main reasons people respected and supported the movement.",
+    "cues": [
+      "Medgar Evers",
+      "civil rights",
+      "helping colored people",
+      "Greenwood"
+    ],
+    "transcript_ref": "civil_rights\\cr_js_allen_oh-r.yaml"
+  },
+  {
+    "entity_id": 9,
+    "entity": "Washington, D.C.",
+    "explicit_text": "During the marches and protests in Greenwood, people came from different places including Washington, D.C. to support us. It was encouraging to have folks from far away join in the movement. Their presence showed that our struggle was gaining national attention.",
+    "implicit_text": "During the marches and protests in Greenwood, people came from different places including the U.S. capital to support us. It was encouraging to have folks from far away join in the movement. Their presence showed that our struggle was gaining national attention.",
+    "cues": [
+      "marches",
+      "supporters from afar",
+      "civil rights movement"
+    ],
+    "transcript_ref": "civil_rights\\cr_js_allen_oh-r.yaml"
+  },
+  {
+    "entity_id": 10,
+    "entity": "Colorado",
+    "explicit_text": "I remember that some people came from Colorado to join our marches and civil rights activities in Greenwood. Along with others from different states, they helped bring strength and encouragement to our efforts. It was a sign that the movement was spreading beyond Mississippi.",
+    "implicit_text": "I remember that some people came from the Rocky Mountain state to join our marches and civil rights activities in Greenwood. Along with others from different states, they helped bring strength and encouragement to our efforts. It was a sign that the movement was spreading beyond Mississippi.",
+    "cues": [
+      "marches",
+      "supporters from Colorado",
+      "civil rights movement"
+    ],
+    "transcript_ref": "civil_rights\\cr_js_allen_oh-r.yaml"
+  },
+  {
+    "entity_id": 11,
+    "entity": "Greenwood, Mississippi",
+    "explicit_text": "Greenwood, Mississippi was where much of the civil rights activity I was involved in took place. We held mass meetings at local churches like Turner's Chapel AME and Wesley's Chapel ME, and marched downtown despite the dangers. It was a tough time with arrests, dogs, and threats, but the community came together to fight for justice.",
+    "implicit_text": "The city in Mississippi where much of the civil rights activity I was involved in took place was the site of mass meetings at local churches like the African Methodist Episcopal and Methodist Episcopal churches, and marches downtown despite the dangers. It was a tough time with arrests, dogs, and threats, but the community came together to fight for justice.",
+    "cues": [
+      "mass meetings",
+      "marches downtown",
+      "churches",
+      "arrests",
+      "civil rights"
+    ],
+    "transcript_ref": "civil_rights\\cr_js_allen_oh-r.yaml"
+  },
+  {
+    "entity_id": 12,
+    "entity": "Presbyterian Church",
+    "explicit_text": "I worked at the Presbyterian kindergarten in Greenwood, which was mostly for white children. After I joined the marches, they let me go because they didn't want people involved in the protests working there. It was one of the many ways people faced consequences for standing up in the movement.",
+    "implicit_text": "I worked at the Presbyterian kindergarten in that Mississippi city, which was mostly for white children. After I joined the marches, they let me go because they didn't want people involved in the protests working there. It was one of the many ways people faced consequences for standing up in the movement.",
+    "cues": [
+      "Presbyterian kindergarten",
+      "Greenwood",
+      "white children",
+      "employment consequences"
+    ],
+    "transcript_ref": "civil_rights\\cr_js_allen_oh-r.yaml"
+  },
+  {
+    "entity_id": 13,
+    "entity": "Johnson Street",
+    "explicit_text": "My husband Reverend Allen had a barbershop on Johnson Street in Greenwood. He rented the place and was a Baptist preacher, though at that time he was mainly cutting hair. After some trouble with a brick thrown through the shop, the landlord made him leave, showing how the movement affected our lives.",
+    "implicit_text": "My husband Reverend Allen had a barbershop on a main street in that Mississippi city. He rented the place and was a Baptist preacher, though at that time he was mainly cutting hair. After some trouble with a brick thrown through the shop, the landlord made him leave, showing how the movement affected our lives.",
+    "cues": [
+      "barbershop",
+      "Johnson Street",
+      "Greenwood",
+      "Reverend Allen",
+      "Baptist"
+    ],
+    "transcript_ref": "civil_rights\\cr_js_allen_oh-r.yaml"
+  },
+  {
+    "entity_id": 14,
+    "entity": "New York City",
+    "explicit_text": "Two young men from New York City, Bill Hodges and Robert Masters, stayed with me during the summer to help with the civil rights movement. They participated in marches and boycotts, and I remember cooking for them and others who came from different places to support us. Their presence was a big help and encouragement.",
+    "implicit_text": "Two young men from the largest city in the U.S. stayed with me during the summer to help with the civil rights movement. They participated in marches and boycotts, and I remember cooking for them and others who came from different places to support us. Their presence was a big help and encouragement.",
+    "cues": [
+      "Bill Hodges",
+      "Robert Masters",
+      "summer stay",
+      "marches",
+      "boycotts"
+    ],
+    "transcript_ref": "civil_rights\\cr_js_allen_oh-r.yaml"
+  },
+  {
+    "entity_id": 15,
+    "entity": "New Orleans",
+    "explicit_text": "I have a letter from New Orleans connected to the civil rights activities, showing how far support and communication reached. It was part of the network of people helping us during those times. The letter was something I tried to keep as a reminder of the broader movement.",
+    "implicit_text": "I have a letter from the largest city in Louisiana connected to the civil rights activities, showing how far support and communication reached. It was part of the network of people helping us during those times. The letter was something I tried to keep as a reminder of the broader movement.",
+    "cues": [
+      "letter",
+      "support network",
+      "civil rights",
+      "New Orleans"
+    ],
+    "transcript_ref": "civil_rights\\cr_js_allen_oh-r.yaml"
+  },
+  {
+    "entity_id": 16,
+    "entity": "Baptist Christianity",
+    "explicit_text": "My husband was a Baptist preacher, though at the time he mostly worked as a barber. Our family attended Baptist church, but our children belonged to the Methodist church on Walthall Street. The Baptist faith was part of our lives, even as we were involved in the civil rights struggle.",
+    "implicit_text": "My husband was a preacher in the Baptist faith, though at the time he mostly worked as a barber. Our family attended Baptist church, but our children belonged to the Methodist church on Walthall Street. The Baptist faith was part of our lives, even as we were involved in the civil rights struggle.",
+    "cues": [
+      "husband Reverend Allen",
+      "Baptist preacher",
+      "family church",
+      "Greenwood"
+    ],
+    "transcript_ref": "civil_rights\\cr_js_allen_oh-r.yaml"
+  },
+  {
+    "entity_id": 17,
+    "entity": "Methodism",
+    "explicit_text": "Methodism was important to us because our children belonged to the Methodist church on Walthall Street, Turner's Chapel, where Reverend Tucker was pastor. Reverend Tucker was a young, well-liked Methodist minister who led marches and was bitten by a dog during protests. The Methodist church was a key part of our community and the civil rights movement.",
+    "implicit_text": "The Methodist faith was important to us because our children belonged to the Methodist church on Walthall Street, the African Methodist Episcopal church where Reverend Tucker was pastor. Reverend Tucker was a young, well-liked Methodist minister who led marches and was bitten by a dog during protests. The Methodist church was a key part of our community and the civil rights movement.",
+    "cues": [
+      "Turner's Chapel",
+      "Reverend Tucker",
+      "Walthall Street",
+      "Methodist church",
+      "marches"
+    ],
+    "transcript_ref": "civil_rights\\cr_js_allen_oh-r.yaml"
+  },
+  {
+    "entity_id": 18,
+    "entity": "Walthall Street",
+    "explicit_text": "Walthall Street was where the Methodist church, Turner's Chapel, was located, and where our children attended church. It was a central place for the community and the civil rights activities. Reverend Tucker, the pastor there, was a young man who led many of the marches we participated in.",
+    "implicit_text": "The street where the Methodist church, the African Methodist Episcopal church, was located, and where our children attended church, was a central place for the community and the civil rights activities. Reverend Tucker, the pastor there, was a young man who led many of the marches we participated in.",
+    "cues": [
+      "Turner's Chapel",
+      "Methodist church",
+      "Reverend Tucker",
+      "children's church"
+    ],
+    "transcript_ref": "civil_rights\\cr_js_allen_oh-r.yaml"
+  },
+  {
+    "entity_id": 19,
+    "entity": "Ann Allen",
+    "explicit_text": "Ann Allen is my daughter. During the protests, she and her friend's daughter witnessed arrests of two boys named Queen and Harris Brooks. They were told to leave the picket line or go to jail, but Queen and Harris stayed on. Ann and her friend came home after the warning, showing how the younger generation was involved and affected.",
+    "implicit_text": "My daughter witnessed arrests of two boys named Queen and Harris Brooks during the protests, along with her friend's daughter. They were told to leave the picket line or go to jail, but Queen and Harris stayed on. My daughter and her friend came home after the warning, showing how the younger generation was involved and affected.",
+    "cues": [
+      "daughter",
+      "arrests",
+      "picket line",
+      "civil rights",
+      "Greenwood"
+    ],
+    "transcript_ref": "civil_rights\\cr_js_allen_oh-r.yaml"
+  },
+  {
+    "entity_id": 20,
+    "entity": "Juanita Brooks",
+    "explicit_text": "Juanita Brooks is my daughter. She was with her sister Rebecca during the protests, and they came home after police told some boys to leave the picket line or face jail. Juanita was part of the family involved in the movement, and we all felt the pressure and danger during those times.",
+    "implicit_text": "My daughter was with her sister during the protests, and they came home after police told some boys to leave the picket line or face jail. She was part of the family involved in the movement, and we all felt the pressure and danger during those times.",
+    "cues": [
+      "daughter",
+      "picket line",
+      "arrests",
+      "civil rights",
+      "Greenwood"
+    ],
+    "transcript_ref": "civil_rights\\cr_js_allen_oh-r.yaml"
+  },
+  {
+    "entity_id": 21,
+    "entity": "Rebecca Brooks",
+    "explicit_text": "Rebecca Brooks is the sister of Queen and Harris Brooks and friend to my daughter Juanita. During the protests, she came home with Juanita after police warned the boys to leave the picket line or be jailed. She was part of the family deeply involved in the civil rights activities in Greenwood.",
+    "implicit_text": "The sister of Queen and Harris Brooks and friend to my daughter came home with her after police warned the boys to leave the picket line or be jailed. She was part of the family deeply involved in the civil rights activities in Greenwood.",
+    "cues": [
+      "family",
+      "picket line",
+      "arrests",
+      "Greenwood",
+      "civil rights"
+    ],
+    "transcript_ref": "civil_rights\\cr_js_allen_oh-r.yaml"
+  },
+  {
+    "entity_id": 22,
+    "entity": "Queen Brooks",
+    "explicit_text": "Queen Brooks was one of the boys arrested during the protests in Greenwood. Despite being told to leave the picket line or go to jail, he stayed and was taken to the county farm. Queen was part of the Brooks family who were active and brave participants in the civil rights movement.",
+    "implicit_text": "One of the boys arrested during the protests in Greenwood was taken to the county farm after refusing to leave the picket line when warned by police. He was part of the Brooks family who were active and brave participants in the civil rights movement.",
+    "cues": [
+      "arrest",
+      "picket line",
+      "county farm",
+      "civil rights",
+      "Greenwood"
+    ],
+    "transcript_ref": "civil_rights\\cr_js_allen_oh-r.yaml"
+  },
+  {
+    "entity_id": 23,
+    "entity": "Harris Brooks",
+    "explicit_text": "Harris Brooks, like his brother Queen, was arrested for staying on the picket line during the protests. They were sent to the county farm after refusing to leave when warned by police. Harris was part of the courageous Brooks family involved in the civil rights struggle in Greenwood.",
+    "implicit_text": "Like his brother, another boy was arrested for staying on the picket line during the protests. They were sent to the county farm after refusing to leave when warned by police. He was part of the courageous Brooks family involved in the civil rights struggle in Greenwood.",
+    "cues": [
+      "arrest",
+      "picket line",
+      "county farm",
+      "civil rights",
+      "Greenwood"
+    ],
+    "transcript_ref": "civil_rights\\cr_js_allen_oh-r.yaml"
+  },
+  {
+    "entity_id": 24,
+    "entity": "Black Annie",
+    "explicit_text": "Black Annie was the old black bus used by authorities to transport arrested protesters to the county farm or jail. It was a symbol of the repression we faced during the civil rights movement. Many of us feared being put on Black Annie and taken away just for standing up for our rights.",
+    "implicit_text": "The old black bus used by authorities to transport arrested protesters to the county farm or jail was a symbol of the repression we faced during the civil rights movement. Many of us feared being put on that bus and taken away just for standing up for our rights.",
+    "cues": [
+      "bus",
+      "arrests",
+      "county farm",
+      "jail",
+      "civil rights repression"
+    ],
+    "transcript_ref": "civil_rights\\cr_js_allen_oh-r.yaml"
+  },
+  {
+    "entity_id": 25,
+    "entity": "I Won't Let Nobody Turn Me Around",
+    "explicit_text": "The song 'I Won't Let Nobody Turn Me Around' was a freedom song we sang to keep our spirits up while in jail. Bob Moses told me that when he was in jail and started singing it, others would draw knives on him, showing how tense and dangerous those times were. The song was a powerful symbol of our determination.",
+    "implicit_text": "The freedom song we sang to keep our spirits up while in jail was a powerful symbol of our determination. One activist told me that when he was in jail and started singing it, others would draw knives on him, showing how tense and dangerous those times were.",
+    "cues": [
+      "freedom song",
+      "jail",
+      "civil rights",
+      "Bob Moses",
+      "spirit"
+    ],
+    "transcript_ref": "civil_rights\\cr_js_allen_oh-r.yaml"
+  },
+  {
+    "entity_id": 26,
+    "entity": "Philadelphia, Mississippi",
+    "explicit_text": "Philadelphia, Mississippi is where they found the bodies of the three boys—James Chaney, Mickey Schwerner, and Andrew Goodman—who were murdered during the civil rights struggle. Bill Hodges and Robert Masters were watching TV when the news came, and I was cooking dinner. It was a heartbreaking moment that showed the deadly risks we faced.",
+    "implicit_text": "The Mississippi town where they found the bodies of the three civil rights workers who were murdered was a heartbreaking moment that showed the deadly risks we faced. Two young men were watching TV when the news came, and I was cooking dinner.",
+    "cues": [
+      "bodies found",
+      "James Chaney",
+      "Mickey Schwerner",
+      "civil rights murders",
+      "TV news"
+    ],
+    "transcript_ref": "civil_rights\\cr_js_allen_oh-r.yaml"
+  },
+  {
+    "entity_id": 27,
+    "entity": "Dick Gregory",
+    "explicit_text": "Dick Gregory was with us on the march when Reverend Tucker got bitten by a dog. I had never heard of him before, but I thought he was wonderful and great. His presence added strength to our protests and showed us that well-known figures supported our cause.",
+    "implicit_text": "A well-known comedian and activist was with us on the march when Reverend Tucker got bitten by a dog. I had never heard of him before, but I thought he was wonderful and great. His presence added strength to our protests and showed us that well-known figures supported our cause.",
+    "cues": [
+      "march",
+      "dog bite incident",
+      "civil rights",
+      "support",
+      "Greenwood"
+    ],
+    "transcript_ref": "civil_rights\\cr_js_allen_oh-r.yaml"
+  },
+  {
+    "entity_id": 28,
+    "entity": "Bob Moses",
+    "explicit_text": "I met Bob Moses during the civil rights movement; he was quiet but could give powerful speeches encouraging bravery and standing up. He came to Greenwood and even visited June Johnson, who was connected to my children. Bob was deeply involved and knew how to guide us to stay safe while pushing for change.",
+    "implicit_text": "I met a quiet but powerful speaker during the civil rights movement who encouraged bravery and standing up. He came to Greenwood and even visited a girl connected to my children. He was deeply involved and knew how to guide us to stay safe while pushing for change.",
+    "cues": [
+      "civil rights leader",
+      "speeches",
+      "Greenwood",
+      "June Johnson",
+      "movement guidance"
+    ],
+    "transcript_ref": "civil_rights\\cr_js_allen_oh-r.yaml"
+  },
+  {
+    "entity_id": 29,
+    "entity": "June Johnson",
+    "explicit_text": "June Johnson was a girl who went along with my children, and Bob Moses visited her when he came back to Greenwood. I know of her through my children and the movement activities. She was part of the community connected to the civil rights efforts.",
+    "implicit_text": "A girl who went along with my children was visited by the civil rights activist when he came back to Greenwood. I know of her through my children and the movement activities. She was part of the community connected to the civil rights efforts.",
+    "cues": [
+      "Greenwood",
+      "civil rights",
+      "connection to Bob Moses",
+      "children"
+    ],
+    "transcript_ref": "civil_rights\\cr_js_allen_oh-r.yaml"
+  },
+  {
+    "entity_id": 30,
+    "entity": "Stokely Carmichael",
+    "explicit_text": "Stokely Carmichael was mentioned among the civil rights activists in Greenwood, though I didn't have much personal interaction with him. He was part of the broader movement that included people like Bob Moses and others who came to help organize and lead us.",
+    "implicit_text": "One of the civil rights activists mentioned among those in Greenwood was part of the broader movement that included people like the quiet speaker and others who came to help organize and lead us, though I didn't have much personal interaction with him.",
+    "cues": [
+      "civil rights activists",
+      "Greenwood",
+      "movement leadership"
+    ],
+    "transcript_ref": "civil_rights\\cr_js_allen_oh-r.yaml"
+  },
+  {
+    "entity_id": 31,
+    "entity": "Dick Frey",
+    "explicit_text": "Dick Frey was someone who got arrested frequently during the marches—he probably spent more time in jail than on the picket line. He was part of the group of young activists who faced constant harassment and imprisonment for standing up for civil rights.",
+    "implicit_text": "One of the young activists who got arrested frequently during the marches probably spent more time in jail than on the picket line. He was part of the group who faced constant harassment and imprisonment for standing up for civil rights.",
+    "cues": [
+      "arrests",
+      "marches",
+      "civil rights",
+      "Greenwood"
+    ],
+    "transcript_ref": "civil_rights\\cr_js_allen_oh-r.yaml"
+  },
+  {
+    "entity_id": 32,
+    "entity": "James Moore",
+    "explicit_text": "James Moore was one of the marchers who got sprayed with water hoses from fire trucks during cold weather. It was a harsh experience, but he kept going. He was part of the brave group of activists who endured violence to fight for justice.",
+    "implicit_text": "One of the marchers who got sprayed with water hoses from fire trucks during cold weather was a brave part of the group who endured violence to fight for justice. It was a harsh experience, but he kept going.",
+    "cues": [
+      "marching",
+      "water hoses",
+      "cold weather",
+      "civil rights",
+      "Greenwood"
+    ],
+    "transcript_ref": "civil_rights\\cr_js_allen_oh-r.yaml"
+  },
+  {
+    "entity_id": 33,
+    "entity": "Willie Peacock",
+    "explicit_text": "Willie Peacock was a singer from back home with a beautiful voice who sang freedom songs during the movement. He helped keep our spirits up with songs like 'We ain't going to let nobody turn us around.' His music was an important part of our gatherings and protests.",
+    "implicit_text": "A singer from back home with a beautiful voice sang freedom songs during the movement. He helped keep our spirits up with songs like 'We ain't going to let nobody turn us around.' His music was an important part of our gatherings and protests.",
+    "cues": [
+      "singer",
+      "freedom songs",
+      "civil rights",
+      "Greenwood"
+    ],
+    "transcript_ref": "civil_rights\\cr_js_allen_oh-r.yaml"
+  },
+  {
+    "entity_id": 34,
+    "entity": "Sam Block",
+    "explicit_text": "Sam Block was one of the people involved in supporting the boys who were organizing and getting things ready in Greenwood. Along with Willie Peacock and possibly Bob Moses, he helped back the activists who faced danger from local authorities. They worked behind the scenes to keep the movement going.",
+    "implicit_text": "One of the people involved in supporting the boys who were organizing and getting things ready in Greenwood helped back the activists who faced danger from local authorities. Along with the singer and possibly the quiet speaker, he worked behind the scenes to keep the movement going.",
+    "cues": [
+      "support",
+      "organizing",
+      "Greenwood",
+      "civil rights"
+    ],
+    "transcript_ref": "civil_rights\\cr_js_allen_oh-r.yaml"
+  },
+  {
+    "entity_id": 35,
+    "entity": "James Chaney",
+    "explicit_text": "James Chaney was one of the three civil rights workers who were killed and found buried in Philadelphia, Mississippi. His death was a tragic moment that deeply affected us all. The news of finding him and the others came while we were watching TV during the movement.",
+    "implicit_text": "One of the three civil rights workers who were killed and found buried in the Mississippi town was a tragic loss that deeply affected us all. The news of finding him and the others came while we were watching TV during the movement.",
+    "cues": [
+      "murdered civil rights worker",
+      "Philadelphia, Mississippi",
+      "Greenwood",
+      "1964"
+    ],
+    "transcript_ref": "civil_rights\\cr_js_allen_oh-r.yaml"
+  },
+  {
+    "entity_id": 36,
+    "entity": "Mickey Schwerner",
+    "explicit_text": "Mickey Schwerner was one of the three civil rights activists murdered in Philadelphia, Mississippi. His death was a shocking and painful event for everyone involved in the movement. We learned about it while watching TV, and it reminded us of the dangers we faced.",
+    "implicit_text": "Another of the three civil rights activists murdered in that Mississippi town was a shocking and painful event for everyone involved in the movement. We learned about it while watching TV, and it reminded us of the dangers we faced.",
+    "cues": [
+      "murdered civil rights worker",
+      "Philadelphia, Mississippi",
+      "Greenwood",
+      "1964"
+    ],
+    "transcript_ref": "civil_rights\\cr_js_allen_oh-r.yaml"
+  },
+  {
+    "entity_id": 37,
+    "entity": "Maclaurin",
+    "explicit_text": "Maclaurin was a place where some of the civil rights workers, including James Chaney and Mickey Schwerner, were hemmed in by hostile forces. I heard stories about them having to walk on the tops of houses to escape danger. It was part of the tense and dangerous environment we were living through.",
+    "implicit_text": "A place where some of the civil rights workers were hemmed in by hostile forces was known for stories about them having to walk on the tops of houses to escape danger. It was part of the tense and dangerous environment we were living through.",
+    "cues": [
+      "civil rights danger",
+      "Greenwood area",
+      "escape stories",
+      "1960s"
+    ],
+    "transcript_ref": "civil_rights\\cr_js_allen_oh-r.yaml"
+  }
+]
