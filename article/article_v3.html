@@ -1,0 +1,1610 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>IRC-Bench: A Benchmark for Implicit Entity Recognition in Oral History Narratives</title>
+
+<!-- KaTeX -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css">
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.js"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/contrib/auto-render.min.js"
+  onload="renderMathInElement(document.body, {delimiters:[{left:'$$',right:'$$',display:true},{left:'\\(',right:'\\)',display:false}]});"></script>
+
+<style>
+/* ── Reset & Base ────────────────────────────────────────── */
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+:root {
+  --col-gap: 0.33in;
+  --page-width: 7.5in;
+  --accent: #0173B2;
+  --text: #1a1a1a;
+  --muted: #555;
+  --rule: #222;
+  --bg-alt: #f7f8fa;
+}
+
+html { font-size: 10pt; }
+
+body {
+  font-family: "Times New Roman", "Noto Serif", Georgia, serif;
+  color: var(--text);
+  line-height: 1.38;
+  max-width: var(--page-width);
+  margin: 0 auto;
+  padding: 0.5in 0.25in;
+  background: #fff;
+}
+
+/* ── Full-width header block ────────────────────────────── */
+.header-block {
+  text-align: center;
+  margin-bottom: 1.2em;
+  padding-bottom: 0.8em;
+  border-bottom: 2px solid var(--rule);
+}
+.header-block h1 {
+  font-size: 16pt;
+  font-weight: 700;
+  line-height: 1.25;
+  margin-bottom: 0.5em;
+}
+.authors {
+  font-size: 11pt;
+  margin-bottom: 0.3em;
+}
+.authors .name { font-weight: 600; }
+.affiliations {
+  font-size: 9pt;
+  color: var(--muted);
+  font-style: italic;
+}
+
+/* ── Table of Contents ──────────────────────────────────── */
+.toc {
+  margin: 0 auto 1.2em auto;
+  max-width: 5in;
+  padding: 0.6em 0.8em;
+  border: 1px solid #ccc;
+  background: #fafbfc;
+  font-size: 9pt;
+}
+.toc h2 {
+  font-size: 10pt;
+  font-variant: small-caps;
+  letter-spacing: 0.04em;
+  margin-bottom: 0.4em;
+  text-align: center;
+}
+.toc ol {
+  margin: 0 0 0 1.5em;
+  padding: 0;
+}
+.toc li {
+  margin-bottom: 0.15em;
+}
+.toc a {
+  color: var(--accent);
+  text-decoration: none;
+}
+.toc a:hover {
+  text-decoration: underline;
+}
+.toc .toc-sub {
+  margin-left: 1.2em;
+  list-style-type: none;
+  padding: 0;
+}
+
+/* ── Abstract ────────────────────────────────────────────── */
+.abstract-block {
+  margin-bottom: 1em;
+  padding: 0.6em 0;
+  border-bottom: 1px solid #ccc;
+}
+.abstract-block h2 {
+  font-size: 10pt;
+  font-variant: small-caps;
+  letter-spacing: 0.04em;
+  margin-bottom: 0.3em;
+}
+.abstract-block h2::before { content: ""; }
+.abstract-block p {
+  font-size: 9.5pt;
+  text-align: justify;
+  hyphens: auto;
+}
+.keywords {
+  font-size: 8.5pt;
+  margin-top: 0.4em;
+  color: var(--muted);
+}
+.keywords strong { color: var(--text); }
+
+/* ── Two-column body ─────────────────────────────────────── */
+.two-column {
+  column-count: 2;
+  column-gap: var(--col-gap);
+  column-rule: none;
+  text-align: justify;
+  hyphens: auto;
+}
+
+/* ── Sections & Headings ─────────────────────────────────── */
+h2 {
+  font-size: 11pt;
+  font-weight: 700;
+  margin-top: 1em;
+  margin-bottom: 0.35em;
+  break-after: avoid;
+}
+h3 {
+  font-size: 10pt;
+  font-weight: 700;
+  margin-top: 0.7em;
+  margin-bottom: 0.25em;
+  break-after: avoid;
+}
+h4 {
+  font-size: 10pt;
+  font-weight: 600;
+  font-style: italic;
+  margin-top: 0.5em;
+  margin-bottom: 0.2em;
+}
+
+p {
+  margin-bottom: 0.45em;
+  text-indent: 1.2em;
+}
+p:first-of-type,
+h2 + p, h3 + p, h4 + p,
+.no-indent { text-indent: 0; }
+
+/* ── Contribution list ───────────────────────────────────── */
+ol.contributions {
+  margin: 0.4em 0 0.6em 1.5em;
+  text-indent: 0;
+}
+ol.contributions li {
+  margin-bottom: 0.25em;
+  text-indent: 0;
+}
+
+/* ── Tables (ACL style) ──────────────────────────────────── */
+.table-wrap {
+  break-inside: avoid;
+  margin: 0.6em 0;
+}
+.table-wrap.full-width {
+  column-span: all;
+}
+.table-caption {
+  font-size: 8.5pt;
+  margin-bottom: 0.3em;
+  text-indent: 0;
+}
+.table-caption strong {
+  font-variant: small-caps;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 8.5pt;
+  line-height: 1.3;
+}
+thead { border-top: 2px solid var(--rule); border-bottom: 1px solid var(--rule); }
+tbody { border-bottom: 2px solid var(--rule); }
+th {
+  font-weight: 700;
+  padding: 4px 5px;
+  text-align: center;
+}
+td {
+  padding: 3px 5px;
+  text-align: center;
+}
+td:first-child, th:first-child { text-align: left; }
+tr:nth-child(even) { background: var(--bg-alt); }
+.best { font-weight: 700; color: var(--accent); }
+
+/* ── Figures ──────────────────────────────────────────────── */
+.figure {
+  break-inside: avoid;
+  margin: 0.6em 0;
+  text-align: center;
+}
+.figure.full-width {
+  column-span: all;
+}
+.figure img {
+  max-width: 100%;
+  height: auto;
+}
+.figure svg {
+  max-width: 100%;
+  height: auto;
+}
+.fig-caption {
+  font-size: 8.5pt;
+  margin-top: 0.3em;
+  text-align: left;
+  text-indent: 0;
+  color: var(--text);
+}
+.fig-caption strong {
+  font-variant: small-caps;
+}
+
+/* ── Math ─────────────────────────────────────────────────── */
+.katex-display {
+  margin: 0.5em 0;
+  font-size: 0.95em;
+}
+
+/* ── SVG diagram styling ─────────────────────────────────── */
+.diagram-svg {
+  max-width: 100%;
+  font-family: "Times New Roman", serif;
+}
+.diagram-svg text {
+  font-family: "Times New Roman", Georgia, serif;
+}
+.diagram-svg .box {
+  fill: #f0f4f8;
+  stroke: #4a6fa5;
+  stroke-width: 1.5;
+  rx: 4;
+}
+.diagram-svg .box-accent {
+  fill: #e8f0fe;
+  stroke: var(--accent);
+  stroke-width: 1.5;
+  rx: 4;
+}
+.diagram-svg .box-method {
+  fill: #fff3e0;
+  stroke: #DE8F05;
+  stroke-width: 1.5;
+  rx: 4;
+}
+.diagram-svg .box-eval {
+  fill: #e8f5e9;
+  stroke: #029E73;
+  stroke-width: 1.5;
+  rx: 4;
+}
+.diagram-svg .arrow {
+  fill: none;
+  stroke: #666;
+  stroke-width: 1.2;
+  marker-end: url(#arrowhead);
+}
+.diagram-svg .label {
+  font-size: 8.5px;
+  fill: var(--text);
+  text-anchor: middle;
+  dominant-baseline: central;
+}
+.diagram-svg .label-bold {
+  font-size: 9px;
+  fill: var(--text);
+  text-anchor: middle;
+  dominant-baseline: central;
+  font-weight: 700;
+}
+
+/* ── Example pairs ───────────────────────────────────────── */
+.example-pair {
+  break-inside: avoid;
+  margin: 0.5em 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 0.4em 0.5em;
+  background: #fafbfc;
+  font-size: 8.5pt;
+  line-height: 1.35;
+}
+.example-pair .example-header {
+  font-weight: 700;
+  font-size: 8pt;
+  color: var(--accent);
+  margin-bottom: 0.2em;
+  text-indent: 0;
+}
+.example-pair .egn-label,
+.example-pair .een-label {
+  font-weight: 700;
+  font-size: 7.5pt;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  text-indent: 0;
+  margin-bottom: 0.1em;
+  margin-top: 0.3em;
+}
+.example-pair .egn-label { color: #2e7d32; }
+.example-pair .een-label { color: #c62828; }
+.example-pair .example-text {
+  text-indent: 0;
+  margin-bottom: 0.15em;
+  font-style: italic;
+}
+.example-pair .entity-tag {
+  background: #e3f2fd;
+  padding: 1px 4px;
+  border-radius: 2px;
+  font-style: normal;
+  font-weight: 600;
+  color: var(--accent);
+}
+.example-pair .elided-tag {
+  background: #ffebee;
+  padding: 1px 4px;
+  border-radius: 2px;
+  font-style: normal;
+  font-weight: 600;
+  color: #c62828;
+}
+
+/* ── Code blocks ─────────────────────────────────────────── */
+.code-block {
+  break-inside: avoid;
+  background: #f5f5f5;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  padding: 0.5em 0.6em;
+  margin: 0.5em 0;
+  font-family: "Consolas", "Courier New", monospace;
+  font-size: 7.5pt;
+  line-height: 1.35;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  text-indent: 0;
+  overflow-x: auto;
+}
+.code-label {
+  font-size: 8pt;
+  font-weight: 700;
+  color: var(--accent);
+  margin-bottom: 0.2em;
+  text-indent: 0;
+}
+
+/* ── Appendix headings ───────────────────────────────────── */
+.appendix-heading {
+  font-size: 11pt;
+  font-weight: 700;
+  margin-top: 1em;
+  margin-bottom: 0.35em;
+}
+
+/* ── References ──────────────────────────────────────────── */
+.references {
+  column-span: all;
+  margin-top: 1em;
+  border-top: 2px solid var(--rule);
+  padding-top: 0.5em;
+}
+.references h2::before { content: ""; }
+.references p {
+  font-size: 8pt;
+  text-indent: 0;
+  padding-left: 1.6em;
+  text-indent: -1.6em;
+  margin-bottom: 0.2em;
+  line-height: 1.25;
+  text-align: left;
+}
+.references p .ref-num {
+  display: inline-block;
+  width: 1.5em;
+  font-weight: 600;
+}
+
+/* ── Hyperparameter table in appendix ────────────────────── */
+.param-table {
+  width: auto;
+  margin: 0.4em 0;
+}
+.param-table td:first-child {
+  text-align: left;
+  font-weight: 600;
+  padding-right: 1em;
+}
+.param-table td:nth-child(2) {
+  text-align: left;
+}
+
+/* ── Print ────────────────────────────────────────────────── */
+@media print {
+  @page {
+    size: A4;
+    margin: 0.75in;
+  }
+  body { padding: 0; max-width: none; }
+  .two-column { column-count: 2; }
+  .figure, .table-wrap { break-inside: avoid; }
+  h2, h3 { break-after: avoid; }
+  .toc { break-after: page; }
+}
+
+/* ── Screen responsive ────────────────────────────────────── */
+@media screen and (max-width: 700px) {
+  .two-column { column-count: 1; }
+  html { font-size: 11pt; }
+  body { padding: 0.5em; }
+}
+</style>
+</head>
+<body>
+
+<!-- ════════════════════════════════════════════════════════════════════════ -->
+<!-- HEADER                                                                 -->
+<!-- ════════════════════════════════════════════════════════════════════════ -->
+<header class="header-block">
+  <h1>IRC-Bench: A Benchmark for Implicit Entity Recognition<br>in Oral History Narratives</h1>
+  <div class="authors">
+    <span class="name">Eden Moran</span>,
+    <span class="name">Yehudit Aperstein</span>,
+    <span class="name">Sasha Aperstein</span>
+  </div>
+  <div class="affiliations">
+    School of Software Engineering: Intelligent Systems
+  </div>
+</header>
+
+<!-- ════════════════════════════════════════════════════════════════════════ -->
+<!-- TABLE OF CONTENTS                                                      -->
+<!-- ════════════════════════════════════════════════════════════════════════ -->
+<nav class="toc">
+  <h2>Contents</h2>
+  <ol>
+    <li><a href="#sec-intro">Introduction</a></li>
+    <li><a href="#sec-related">Related Work</a></li>
+    <li><a href="#sec-dataset">Dataset Construction</a></li>
+    <li><a href="#sec-method">Methodology</a></li>
+    <li><a href="#sec-eval">Evaluation Protocol</a></li>
+    <li><a href="#sec-results">Results and Analysis</a></li>
+    <li><a href="#sec-discussion">Discussion</a></li>
+    <li><a href="#sec-conclusion">Conclusion</a></li>
+    <li><a href="#sec-references">References</a></li>
+  </ol>
+  <div style="margin-top:0.3em; margin-left:1.5em;">
+    <a href="#app-a">Appendix A: Prompt Templates</a><br>
+    <a href="#app-b">Appendix B: Training Hyperparameters</a><br>
+    <a href="#app-c">Appendix C: Example Predictions</a>
+  </div>
+</nav>
+
+<!-- ════════════════════════════════════════════════════════════════════════ -->
+<!-- ABSTRACT                                                               -->
+<!-- ════════════════════════════════════════════════════════════════════════ -->
+<div class="abstract-block">
+  <h2>Abstract</h2>
+  <p>
+    Personal narratives in oral histories are replete with implicit references to people, places, and events that speakers assume their audience can identify from context alone. We introduce <em>Implicit Entity Recognition (IER)</em>, the task of identifying entities that are contextually referenced but never explicitly named in text, and release <em>IRC-Bench</em>, a benchmark of 25,136 samples derived from 12,337 unique entities across 1,994 oral history transcripts spanning 11 thematic domains. Each sample consists of an Entity-Grounded Narrative (EGN) containing the entity name and an Entity-Elided Narrative (EEN) from which all explicit mentions have been removed; systems must recover the correct entity given only the EEN. We identify a key structural property of implicit references, their <em>non-locality</em>: cues are distributed across multiple clauses rather than concentrated in a single mention span, fundamentally distinguishing IER from named entity recognition and entity linking. We evaluate open-world LLM inference, closed-world retrieval, and hybrid approaches across multiple model scales. GPT-4o few-shot achieves 31.6% exact match (41.1% alias-aware Hit@1) in the open-world setting, while fine-tuned DPR reaches 35.4% Hit@1 (71.5% Hit@10) in the closed-world setting. Chain-of-thought prompting consistently degrades performance relative to direct few-shot inference, and retrieval-augmented generation underperforms direct LLM prediction. All data, code, and evaluation tools are publicly released.
+  </p>
+  <p class="keywords"><strong>Keywords:</strong> implicit entity recognition, oral history, non-locality, large language models, dense passage retrieval, benchmark construction, entity linking, Wikidata</p>
+</div>
+
+<!-- ════════════════════════════════════════════════════════════════════════ -->
+<!-- TWO-COLUMN BODY                                                        -->
+<!-- ════════════════════════════════════════════════════════════════════════ -->
+<main class="two-column">
+
+<!-- ──────────────────────────────────────────────────────────────────────── -->
+<!-- 1. INTRODUCTION                                                        -->
+<!-- ──────────────────────────────────────────────────────────────────────── -->
+<h2 id="sec-intro">1. Introduction</h2>
+
+<p class="no-indent">
+Consider the following passage from a Japanese American oral history interview:
+</p>
+
+<div class="example-pair">
+  <p class="egn-label">Entity-Grounded Narrative (EGN)</p>
+  <p class="example-text">
+    "The <span class="entity-tag">attack on Pearl Harbor</span> was the event that changed everything for Japanese Americans like me. After December 7, 1941, suspicion and hatred grew, and we were treated as enemy aliens despite being American citizens. It was because of <span class="entity-tag">Pearl Harbor</span> that the government issued Executive Order 9066 and started the forced relocation."
+  </p>
+  <p class="een-label">Entity-Elided Narrative (EEN)</p>
+  <p class="example-text">
+    "The <span class="elided-tag">surprise attack on a naval base in Hawaii</span> was the event that changed everything for Japanese Americans like me. After December 7, 1941, suspicion and hatred grew, and we were treated as enemy aliens despite being American citizens. It was because of <span class="elided-tag">that attack</span> that the government issued an order and started the forced relocation."
+  </p>
+  <p style="text-indent:0; margin-top:0.2em; font-size:7.5pt; color:#555;">
+    <strong>Gold entity:</strong> Attack on Pearl Harbor (Q52418) &nbsp;|&nbsp; <strong>Type:</strong> Event &nbsp;|&nbsp; <strong>Cues:</strong> December 7, 1941; naval base in Hawaii; Executive Order 9066; forced relocation
+  </p>
+</div>
+
+<p>
+A human reader readily identifies the Attack on Pearl Harbor from the constellation of cues: the date, the Hawaiian naval base, the executive order, the internment of Japanese Americans. No single phrase names the entity; instead, recognition depends on integrating cultural, temporal, and historical knowledge distributed across the entire passage. This pattern of <em>implicit entity reference</em> is pervasive in oral histories, where speakers routinely allude to well-known people, places, and events without naming them, relying on shared background knowledge with their interviewer.
+</p>
+
+<p>
+Existing NLP tasks do not address this phenomenon. Named Entity Recognition (NER) identifies explicitly mentioned entity spans in text [1, 2]. Entity Linking (EL) resolves those spans to knowledge base entries [3, 4]. Coreference resolution connects multiple references to the same entity, but requires at least one explicit mention as an antecedent [5]. In implicit entity references, the entity is never named anywhere in the text; there is no span to extract, no mention to link, no antecedent to resolve. The task is fundamentally generative: the system must synthesize an entity identity from distributed contextual cues.
+</p>
+
+<p>
+We introduce <em>Implicit Entity Recognition (IER)</em> as a distinct NLP task and release <em>IRC-Bench</em> (Implicit Reminiscence Context Benchmark), a large-scale evaluation resource constructed from real oral history transcripts. IER matters for several practical reasons. Oral history archives containing millions of hours of recorded testimony remain largely inaccessible to structured search because the entities discussed are rarely stated by name [6]. Conversational AI systems that interact with elderly users for reminiscence therapy must identify the people and events being discussed even when the speaker does not name them [7, 8]. Information retrieval over personal narratives requires understanding not just what is said, but what is meant.
+</p>
+
+<p>
+Our contributions are as follows:
+</p>
+
+<ol class="contributions">
+  <li><strong>Task definition.</strong> We formalize Implicit Entity Recognition as a novel NLP task, distinguishing it from NER, entity linking, and coreference resolution. We define the <em>non-locality property</em> of implicit references: entity cues are distributed across multiple non-contiguous text spans, requiring holistic integration rather than local pattern matching.</li>
+  <li><strong>OralHistoryCorpus (OHC).</strong> We assemble a cleaned corpus of 1,994 oral history transcripts from 25 public collections spanning 11 thematic domains (veterans, immigration, regional, Depression era, Japanese American internment, academic, September 11, civil rights, COVID-19, labor, and refugee).</li>
+  <li><strong>IRC-Bench.</strong> We release a benchmark of 25,136 IER samples derived from 12,337 unique Wikidata-linked entities, with entity-level train/dev/test splits ensuring zero entity overlap between partitions. Each sample includes both an EGN and an EEN, along with entity metadata (QID, aliases, Wikipedia description).</li>
+  <li><strong>Empirical evaluation.</strong> We systematically compare open-world LLM inference (including chain-of-thought and QLoRA fine-tuning), closed-world dense retrieval, and hybrid RAG approaches across multiple model scales and prompting strategies, revealing that chain-of-thought reasoning degrades IER performance and that model scale is the dominant factor in open-world accuracy.</li>
+</ol>
+
+
+<!-- ──────────────────────────────────────────────────────────────────────── -->
+<!-- 2. RELATED WORK                                                        -->
+<!-- ──────────────────────────────────────────────────────────────────────── -->
+<h2 id="sec-related">2. Related Work</h2>
+
+<h3>2.1 Named Entity Recognition</h3>
+
+<p class="no-indent">
+Named Entity Recognition identifies and classifies explicit entity mentions in text. Classical approaches relied on handcrafted features and conditional random fields [1], while modern systems employ deep learning architectures including BiLSTM-CRF [9], transformer-based sequence labeling [10], and large language model prompting [11, 12]. Recent benchmarks such as CoNLL-2003 [13] and MultiCoNER [14] have driven progress across entity types and languages. The W2NER framework [15] unified flat, nested, and discontinuous NER as word-word relation classification, and UniversalNER [16] demonstrated targeted distillation from LLMs for open-domain entity extraction. Despite these advances, all NER formulations assume the target entity appears as an explicit surface form in the input text, an assumption that does not hold for implicit references.
+</p>
+
+<h3>2.2 Entity Linking</h3>
+
+<p class="no-indent">
+Entity Linking resolves textual mentions to entries in a knowledge base. Neural approaches include local attention models [3], bi-encoder architectures such as BLINK [17], autoregressive generation via GENRE [18], and efficient zero-shot systems like ReFinED [19]. Botha et al. [20] extended entity linking to over 100 languages. These systems take an identified mention span as input and rank candidate entities; they cannot operate when no mention span exists. IER requires generating entity candidates from distributed contextual cues rather than resolving a given span.
+</p>
+
+<h3>2.3 Implicit and Zero-Mention Entities</h3>
+
+<p class="no-indent">
+Limited prior work has addressed entities that are referenced but not named. Hosseini [21] introduced implicit entity recognition in tweets, and Hosseini and Bagheri [22] developed learning-to-rank methods for implicit entities on Twitter. Perera et al. [23] explored implicit entity recognition in clinical documents. However, these efforts target short, formulaic text (tweets) or highly structured domains (clinical notes). Oral history narratives present a fundamentally different challenge: passages are longer, cues are more diffuse, and entity identification requires integrating cultural and historical knowledge rather than exploiting domain-specific templates. No prior benchmark exists for implicit entity recognition in narrative text.
+</p>
+
+<h3>2.4 Oral History NLP</h3>
+
+<p class="no-indent">
+Computational analysis of oral histories has received growing attention. Technology-assisted reminiscence systems have been developed for dementia care [7, 8], and AI-driven conversational agents have been explored as companions for elderly users [24, 25]. Digital storytelling platforms combining AI with augmented reality enable communities to preserve personal narratives [26]. However, these systems primarily facilitate memory recall and do not attempt to recover the implicit entities that speakers reference without naming.
+</p>
+
+<h3>2.5 Knowledge-Grounded Question Answering</h3>
+
+<p class="no-indent">
+The closest existing task to IER is knowledge-grounded question answering, where a system must reason over both a text passage and an external knowledge base to produce an answer [27, 28]. Retrieval-augmented generation (RAG) approaches retrieve relevant knowledge base passages and condition generation on them [29, 30]. While IER shares the requirement for external knowledge, it differs in that the "question" is an entire narrative rather than a targeted query, and the answer is always a single entity rather than a free-form text span. Furthermore, IER exhibits the non-locality property: the relevant cues are distributed throughout the passage rather than concentrated near a question token. This structural difference, as we show empirically, causes standard RAG pipelines to underperform direct LLM inference.
+</p>
+
+</main><!-- close two-column for full-width figure -->
+
+<!-- ════════════════════════════════════════════════════════════════════════ -->
+<!-- 3. DATASET CONSTRUCTION                                                -->
+<!-- ════════════════════════════════════════════════════════════════════════ -->
+
+<main class="two-column">
+
+<h2 id="sec-dataset">3. Dataset Construction</h2>
+
+<h3>3.1 Overview</h3>
+
+<p class="no-indent">
+IRC-Bench is constructed through a four-stage automated pipeline that transforms oral history transcripts into implicit entity recognition samples. Each sample consists of a first-person narrative that references a named entity through contextual cues alone, without ever naming it. The pipeline leverages GPT-4.1-mini for entity extraction, summary generation, and implicit rewriting, producing 25,136 benchmark samples spanning 12,337 unique entities.
+</p>
+
+<h3>3.2 Source Collections</h3>
+
+<p class="no-indent">
+The raw data comprises 1,994 cleaned oral history transcripts drawn from 11 thematic collections. These collections provide broad topical diversity, covering military conflicts, social movements, immigration, public health crises, labor history, and academic life. The first-person narrative style of oral histories naturally provides rich contextual cues (dates, locations, relationships, roles, events) that make implicit entity references solvable for knowledgeable readers, while remaining challenging for automated systems.
+</p>
+
+</main>
+
+<div class="table-wrap full-width">
+  <p class="table-caption"><strong>Table 1:</strong> Source collections for IRC-Bench. Transcript counts reflect cleaned YAML files after the processing pipeline.</p>
+  <table>
+    <thead>
+      <tr>
+        <th style="text-align:left;">Collection</th>
+        <th>Transcripts</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><td>Veterans</td><td>517</td><td>Military service narratives</td></tr>
+      <tr><td>Immigration</td><td>402</td><td>Immigration and assimilation experiences</td></tr>
+      <tr><td>Regional</td><td>314</td><td>Regional and community histories</td></tr>
+      <tr><td>Depression Era</td><td>213</td><td>Great Depression oral histories</td></tr>
+      <tr><td>Japanese American</td><td>156</td><td>Japanese American internment and post-war experiences</td></tr>
+      <tr><td>Academic</td><td>153</td><td>Academic and university histories</td></tr>
+      <tr><td>September 11</td><td>72</td><td>9/11 experiences and aftermath</td></tr>
+      <tr><td>Civil Rights</td><td>68</td><td>Civil rights movement narratives</td></tr>
+      <tr><td>COVID-19</td><td>42</td><td>Pandemic experiences</td></tr>
+      <tr><td>Labor</td><td>30</td><td>Labor movement histories</td></tr>
+      <tr><td>Refugee</td><td>27</td><td>Refugee experiences</td></tr>
+      <tr style="font-weight:700; border-top: 1px solid var(--rule);"><td><em>Total</em></td><td>1,994</td><td>11 thematic domains</td></tr>
+    </tbody>
+  </table>
+</div>
+
+<main class="two-column">
+
+<h3>3.3 Pipeline Stages</h3>
+
+<p class="no-indent">
+The benchmark construction proceeds in four stages, illustrated in Figure 1.
+</p>
+
+<p>
+<strong>Stage 1: Transcript Cleaning.</strong> Raw oral history transcripts are cleaned and converted to structured YAML format, preserving the first-person narrative voice while removing interviewer questions and metadata artifacts.
+</p>
+
+<p>
+<strong>Stage 2: Named Entity Recognition.</strong> GPT-4.1-mini performs NER on each transcript, identifying named entities of seven types: Place, Organization, Person, Event, Work, Military Unit, and Other. Each extracted entity is linked to Wikidata (QID) and Wikipedia where possible. This stage produces 31,284 entity mentions across 1,752 transcript files (87.9% coverage).
+</p>
+
+<p>
+<strong>Stage 3: Explicit Summary Generation.</strong> For each (transcript, entity) pair, GPT-4.1-mini generates a first-person narrative summary focused on that entity, preserving the contextual cues surrounding the entity's mention. This produces 25,161 explicit summaries from 1,601 transcript files (80.3% coverage).
+</p>
+
+<p>
+<strong>Stage 4: Implicit Rewriting.</strong> Each explicit summary is rewritten by GPT-4.1-mini to remove all direct mentions of the entity name while preserving all contextual cues. The entity reference is replaced with generic descriptions (e.g., "Attack on Pearl Harbor" becomes "the attack on the naval base in Hawaii"). This produces the final 25,136 implicit rewrites (80.2% coverage), which form the benchmark's <code>implicit_text</code> field. The slight reduction from Stage 3 reflects a small number of cases where the entity could not be satisfactorily anonymized.
+</p>
+
+</main>
+
+<div class="figure full-width">
+  <svg class="diagram-svg" viewBox="0 0 720 170" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+      <marker id="arrowhead" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto">
+        <polygon points="0 0, 8 3, 0 6" fill="#666"/>
+      </marker>
+    </defs>
+
+    <!-- Stage 1: Clean -->
+    <rect class="box" x="5" y="40" width="110" height="56"/>
+    <text class="label-bold" x="60" y="58">1. Clean</text>
+    <text class="label" x="60" y="72">Transcripts to</text>
+    <text class="label" x="60" y="84">structured YAML</text>
+    <text class="label" x="60" y="96">format</text>
+
+    <!-- Arrow 1-2 -->
+    <line class="arrow" x1="115" y1="68" x2="140" y2="68"/>
+
+    <!-- Stage 2: NER + Link -->
+    <rect class="box-accent" x="140" y="40" width="110" height="56"/>
+    <text class="label-bold" x="195" y="58">2. NER + Link</text>
+    <text class="label" x="195" y="72">Extract entities,</text>
+    <text class="label" x="195" y="84">Wikidata QID</text>
+    <text class="label" x="195" y="96">+ aliases</text>
+
+    <!-- Arrow 2-3 -->
+    <line class="arrow" x1="250" y1="68" x2="275" y2="68"/>
+
+    <!-- Stage 3: EGN -->
+    <rect class="box-method" x="275" y="40" width="110" height="56"/>
+    <text class="label-bold" x="330" y="58">3. EGN</text>
+    <text class="label" x="330" y="72">Summarize</text>
+    <text class="label" x="330" y="84">context around</text>
+    <text class="label" x="330" y="96">entity mention</text>
+
+    <!-- Arrow 3-4 -->
+    <line class="arrow" x1="385" y1="68" x2="410" y2="68"/>
+
+    <!-- Stage 4: EEN -->
+    <rect class="box-method" x="410" y="40" width="110" height="56"/>
+    <text class="label-bold" x="465" y="58">4. EEN</text>
+    <text class="label" x="465" y="72">Remove entity</text>
+    <text class="label" x="465" y="84">name; rewrite</text>
+    <text class="label" x="465" y="96">with cues only</text>
+
+    <!-- Arrow 4-5 -->
+    <line class="arrow" x1="520" y1="68" x2="545" y2="68"/>
+
+    <!-- Output: IRC-Bench -->
+    <rect class="box-eval" x="545" y="40" width="110" height="56"/>
+    <text class="label-bold" x="600" y="58">Validate</text>
+    <text class="label" x="600" y="72">Leak check</text>
+    <text class="label" x="600" y="84">+ naturalness</text>
+    <text class="label" x="600" y="96">+ recoverability</text>
+
+    <!-- Output -->
+    <line class="arrow" x1="655" y1="68" x2="680" y2="68"/>
+    <rect class="box-accent" x="680" y="50" width="35" height="36" rx="4"/>
+    <text class="label-bold" x="698" y="72" font-size="10">IRC</text>
+
+    <!-- Bottom labels -->
+    <text class="label" x="60" y="118" fill="#4a6fa5">GPT-4.1-mini</text>
+    <text class="label" x="195" y="118" fill="var(--accent)">Wikidata API</text>
+    <text class="label" x="330" y="118" fill="#DE8F05">GPT-4.1-mini</text>
+    <text class="label" x="465" y="118" fill="#DE8F05">GPT-4.1-mini</text>
+    <text class="label" x="600" y="118" fill="#029E73">Automated</text>
+
+    <!-- Input -->
+    <text class="label" x="60" y="30" fill="#4a6fa5">OHC Transcripts</text>
+  </svg>
+  <p class="fig-caption"><strong>Figure 1:</strong> IRC-Bench construction pipeline. Raw oral history transcripts undergo cleaning, named entity recognition with Wikidata linking, entity-grounded narrative generation, and entity elision to produce IER evaluation samples.</p>
+</div>
+
+<main class="two-column">
+
+<h3>3.4 Entity Knowledge Base</h3>
+
+<p class="no-indent">
+The entity knowledge base contains 12,337 unique entities with the following metadata coverage: 84.6% have associated Wikipedia pages, 70.9% have LLM-generated descriptions, and 51.2% have alternative names sourced from Wikidata. Entity representations in the knowledge base serve multiple roles: as retrieval targets for closed-world experiments, as alias sources for evaluation matching, and as description inputs for embedding-based approaches.
+</p>
+
+<h3>3.5 Entity-Level Train/Dev/Test Splitting</h3>
+
+<p class="no-indent">
+To ensure rigorous evaluation, the dataset is split at the entity level rather than the sample level. All samples for a given entity appear in exactly one partition, preventing information leakage where a model might learn entity-specific patterns from training examples and exploit them at test time. The split uses a 70/10/20 ratio (seed=42).
+</p>
+
+<div class="table-wrap">
+  <p class="table-caption"><strong>Table 2:</strong> IRC-Bench partition statistics. Entity-level splits ensure zero overlap between train, dev, and test entities.</p>
+  <table>
+    <thead>
+      <tr><th style="text-align:left;">Partition</th><th>Samples</th><th>Entities</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>Train</td><td>17,971</td><td>8,635</td></tr>
+      <tr><td>Dev</td><td>2,532</td><td>1,234</td></tr>
+      <tr><td>Test</td><td>4,633</td><td>2,468</td></tr>
+      <tr style="font-weight:700; border-top: 1px solid var(--rule);"><td><em>Total</em></td><td>25,136</td><td>12,337</td></tr>
+    </tbody>
+  </table>
+</div>
+
+<h3>3.6 Entity Type Distribution</h3>
+
+<p class="no-indent">
+The dataset exhibits a natural long-tail distribution over entity types. Places dominate (47.3%), reflecting oral histories' emphasis on geographic locations. Organizations (21.3%) and Persons (13.7%) follow, while specialized types such as Events, Works, and Military Units are less frequent but still well represented. Table 3 reports the full distribution.
+</p>
+
+<div class="table-wrap">
+  <p class="table-caption"><strong>Table 3:</strong> Distribution of IRC-Bench samples by entity type.</p>
+  <table>
+    <thead>
+      <tr><th style="text-align:left;">Entity Type</th><th>Samples</th><th>% of Total</th><th>Unique Entities</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>Place</td><td>11,893</td><td>47.3%</td><td>4,821</td></tr>
+      <tr><td>Organization</td><td>5,366</td><td>21.3%</td><td>2,894</td></tr>
+      <tr><td>Person</td><td>3,450</td><td>13.7%</td><td>2,207</td></tr>
+      <tr><td>Event</td><td>2,162</td><td>8.6%</td><td>1,102</td></tr>
+      <tr><td>Work</td><td>1,195</td><td>4.8%</td><td>743</td></tr>
+      <tr><td>Military Unit</td><td>537</td><td>2.1%</td><td>312</td></tr>
+      <tr><td>Other</td><td>533</td><td>2.1%</td><td>258</td></tr>
+      <tr style="font-weight:700; border-top: 1px solid var(--rule);"><td><em>Total</em></td><td>25,136</td><td>100%</td><td>12,337</td></tr>
+    </tbody>
+  </table>
+</div>
+
+</main>
+
+<!-- Full-width dataset composition figure -->
+<div class="figure full-width">
+  <img src="figures/fig4_dataset_composition.png" alt="Dataset composition showing entity type distribution and domain breakdown" style="max-width: 80%;">
+  <p class="fig-caption"><strong>Figure 2:</strong> IRC-Bench dataset composition. Left: distribution of samples across entity types. Right: distribution across thematic domains.</p>
+</div>
+
+<main class="two-column">
+
+<h3>3.7 Example Samples</h3>
+
+<p class="no-indent">
+Figure 3 presents three EGN/EEN pairs illustrating the diversity of implicit references in IRC-Bench.
+</p>
+
+<div class="example-pair">
+  <p class="example-header">Example 1: Organization</p>
+  <p class="egn-label">EGN</p>
+  <p class="example-text">
+    "I was called to the <span class="entity-tag">University of California, Berkeley</span> to teach Latin, which was an exciting opportunity to be part of a growing university. I also created and ran the <span class="entity-tag">University of California</span> Extension for over fifteen years, developing curricula that served diverse groups including immigrants, laborers, and prisoners."
+  </p>
+  <p class="een-label">EEN</p>
+  <p class="example-text">
+    "I was called to teach Latin at <span class="elided-tag">a major public university in California</span>, which was an exciting opportunity to be part of a growing institution. I also created and ran <span class="elided-tag">the university's extension program</span> for over fifteen years, developing curricula that served diverse groups including immigrants, laborers, and prisoners."
+  </p>
+  <p style="text-indent:0; font-size:7.5pt; color:#555;"><strong>Gold:</strong> University of California, Berkeley (Q168756)</p>
+</div>
+
+<div class="example-pair">
+  <p class="example-header">Example 2: Event</p>
+  <p class="egn-label">EGN</p>
+  <p class="example-text">
+    "I headed the relief committee during the disastrous <span class="entity-tag">Berkeley Fire of 1923</span>, helping to coordinate aid and recovery efforts for the community. This was a challenging time for Berkeley, California, and I took an active role in organizing support to help residents rebuild."
+  </p>
+  <p class="een-label">EEN</p>
+  <p class="example-text">
+    "I headed the relief committee during <span class="elided-tag">the disastrous fire of 1923 in a California city</span>, helping to coordinate aid and recovery efforts for the community. This was a challenging time for the city, and I took an active role in organizing support to help residents rebuild."
+  </p>
+  <p style="text-indent:0; font-size:7.5pt; color:#555;"><strong>Gold:</strong> Berkeley Fire of 1923 (Q4561337)</p>
+</div>
+
+<div class="example-pair">
+  <p class="example-header">Example 3: Organization (subtle)</p>
+  <p class="egn-label">EGN</p>
+  <p class="example-text">
+    "I played a key role in establishing the <span class="entity-tag">English-Speaking Union</span>, an organization dedicated to promoting international understanding through the English language. This reflected my interest in language education and cultural exchange."
+  </p>
+  <p class="een-label">EEN</p>
+  <p class="example-text">
+    "I played a key role in establishing <span class="elided-tag">an organization dedicated to promoting international understanding through the English language</span>. This reflected my interest in language education and cultural exchange."
+  </p>
+  <p style="text-indent:0; font-size:7.5pt; color:#555;"><strong>Gold:</strong> English-Speaking Union (Q5378146)</p>
+</div>
+
+<p class="fig-caption" style="margin-top:0.3em;"><strong>Figure 3:</strong> Three EGN/EEN pairs from IRC-Bench. Blue highlights mark explicit entity mentions in EGNs; red highlights show the elided descriptions in EENs. Example 3 illustrates a particularly challenging case where the EEN provides only a generic functional description.</p>
+
+
+<!-- ──────────────────────────────────────────────────────────────────────── -->
+<!-- 4. METHODOLOGY                                                         -->
+<!-- ──────────────────────────────────────────────────────────────────────── -->
+<h2 id="sec-method">4. Methodology</h2>
+
+<h3>4.1 Task Formulation</h3>
+
+<p class="no-indent">
+<strong>Implicit Entity Recognition (IER)</strong> is defined as follows: given a first-person narrative text \(t\) that implicitly references a named entity \(e\) without ever mentioning \(e\) by name, the task is to identify \(e\). The text \(t\) contains contextual cues (dates, locations, events, people, roles, descriptions) that jointly constrain the identity of \(e\), but the model must synthesize these cues and draw on world knowledge to produce the correct entity name.
+</p>
+
+<p>
+We evaluate IER under two formulations:
+</p>
+
+<p>
+<strong>Open-world formulation.</strong> The model generates the entity name as free-form text, without access to a candidate set. This tests the model's ability to recall entities from its parametric knowledge. The open-world setting is more realistic, as it does not assume a closed inventory of possible entities.
+</p>
+
+<p>
+<strong>Closed-world formulation.</strong> The model ranks all 12,337 entities in the knowledge base by relevance to the query text, selecting the highest-ranked candidate. This tests the model's ability to match implicit descriptions to entity representations via embedding similarity. The closed-world setting provides Hit@K metrics and is analogous to entity linking with a fixed knowledge base.
+</p>
+
+<h3>4.2 The Non-Locality Property</h3>
+
+<p class="no-indent">
+We define a key structural property that distinguishes IER from span-based entity tasks. Let \(C(T, e^*) = \{c_1, c_2, \ldots, c_n\}\) denote the set of textual cues in \(T\) that collectively identify \(e^*\). In standard NER and EL, the entity is localized: there exists a contiguous span \(m\) that is sufficient to identify \(e^*\). In IER, the entity is <em>non-local</em>:
+</p>
+
+$$\nexists \; m \subset T \;\text{s.t.}\; m \;\text{is contiguous and}\; m \Rightarrow e^* $$
+$$\text{but} \quad C(T, e^*) \Rightarrow e^*, \quad \text{where cues } c_i \text{ are non-contiguous in } T$$
+
+<p>
+That is, no single contiguous substring of \(T\) is sufficient to identify \(e^*\), but the set of distributed cues collectively determines it. This non-locality has direct implications for method design: approaches that rely on local span matching (NER, EL) or single-vector passage encoding (dense retrieval) are structurally disadvantaged relative to approaches that can integrate information across the full text (LLMs with sufficient context windows).
+</p>
+
+<h3>4.3 Open-World Methods</h3>
+
+<h4>4.3.1 LLM Generative Approach</h4>
+
+<p class="no-indent">
+We evaluate LLMs in a generative setting where each model receives the implicit text and must produce the entity name. All models use temperature 0.0 (greedy decoding) and a maximum of 100 output tokens. We test zero-shot (ZS) and few-shot (FS, 5 fixed demonstrations) prompting strategies. Few-shot exemplars are selected to cover diverse entity types and are held constant across all test samples.
+</p>
+
+<h4>4.3.2 Models</h4>
+
+<p class="no-indent">
+We evaluate four LLM families in the open-world setting: GPT-4o and GPT-4.1-mini (via OpenAI Batch API), and Llama 3.1 8B Instruct and Llama 3.2 1B Instruct (via OpenRouter API). For GPT-4o, GPT-4.1-mini, and Llama 3.1 8B, we additionally evaluate chain-of-thought (CoT) prompting, which instructs the model to reason step-by-step before producing the final answer. CoT experiments use temperature 0.7 and a maximum of 300 output tokens.
+</p>
+
+<h4>4.3.3 Fine-tuned LLM (O10)</h4>
+
+<p class="no-indent">
+We fine-tune Llama 3.1 8B Instruct using QLoRA (Quantized Low-Rank Adaptation) for the IER task. The model is trained to generate the entity name given the implicit text, using the standard causal language modeling objective. Key training parameters include 4-bit NF4 quantization, LoRA rank 16, alpha 32, learning rate 2e-4, and 2 epochs of training on the full train split (17,971 samples). Full hyperparameters are reported in Appendix B.
+</p>
+
+<h3>4.4 Closed-World Methods</h3>
+
+<p class="no-indent">
+In the closed-world setting, we encode both the implicit query text and all 12,337 entity representations into a shared embedding space, then rank entities by cosine similarity. We explore three entity representation strategies: <em>Name</em> (the entity name alone), <em>Description</em> (the entity name concatenated with its LLM-generated description), and <em>Wiki</em> (the first sentence from the entity's Wikipedia article).
+</p>
+
+<h4>4.4.1 BGE-base Baseline (C1, C2, C3)</h4>
+
+<p class="no-indent">
+We use BAAI/bge-base-en-v1.5 as our baseline embedding model. This 110M-parameter model produces 768-dimensional embeddings and ranks among the top general-purpose bi-encoders on the MTEB benchmark.
+</p>
+
+<h4>4.4.2 DPR Fine-tuning (C4, C5, C6)</h4>
+
+<p class="no-indent">
+We fine-tune BGE-base using a Dense Passage Retrieval (DPR) approach with Multiple Negatives Ranking Loss (MNRL). Each training pair consists of an implicit text (query) and its gold entity representation (positive passage). MNRL uses in-batch negatives: for a batch of \(B\) query-positive pairs, each positive for one query serves as a negative for all other queries, providing \(B-1\) negatives per sample without explicit hard negative mining. We train for 3 epochs with batch size 48 and learning rate 2e-5.
+</p>
+
+<h3>4.5 RAG Baseline</h3>
+
+<p class="no-indent">
+We implement a Retrieval-Augmented Generation (RAG) baseline that combines embedding retrieval with LLM reranking. BGE-base with entity descriptions (C2 configuration) retrieves the top-5 candidate entities for each implicit query. GPT-4.1-mini then receives the implicit text along with the 5 candidates (with their descriptions) and selects the most likely entity or suggests a better one. This approach tests whether an LLM can effectively rerank retrieved candidates to improve over pure embedding retrieval.
+</p>
+
+
+<!-- ──────────────────────────────────────────────────────────────────────── -->
+<!-- 5. EVALUATION PROTOCOL                                                 -->
+<!-- ──────────────────────────────────────────────────────────────────────── -->
+<h2 id="sec-eval">5. Evaluation Protocol</h2>
+
+<h3>5.1 Matching Hierarchy</h3>
+
+<p class="no-indent">
+Entity names can be expressed in multiple valid forms (e.g., "United States Marine Corps" vs. "USMC" vs. "Marines"). To account for this variation, we employ a four-tier matching hierarchy, applied in order of decreasing strictness:
+</p>
+
+<p>
+<strong>Tier 1 (Exact match):</strong> The prediction and gold entity are identical after lowercasing and whitespace trimming.
+</p>
+<p>
+<strong>Tier 2 (Alias match):</strong> The prediction matches one of the gold entity's known aliases from Wikidata. For example, predicting "NYC" for gold entity "New York City" is an alias match.
+</p>
+<p>
+<strong>Tier 3 (Containment match):</strong> The prediction is a substring of the gold entity, or vice versa. For example, predicting "Pearl Harbor" for "Attack on Pearl Harbor" qualifies as a containment match.
+</p>
+<p>
+<strong>Tier 4 (Jaccard match):</strong> The token-level Jaccard similarity between the prediction and gold entity is at least 0.5. This captures partial overlaps where the prediction includes most of the relevant tokens.
+</p>
+
+<p>
+A prediction is considered correct at a given tier if it matches at that tier or any stricter tier. When reporting alias-aware accuracy (the primary metric for open-world experiments), we count any prediction that achieves Tier 1 or Tier 2 as correct.
+</p>
+
+<h3>5.2 Metrics</h3>
+
+<p class="no-indent">
+<strong>Open-world experiments</strong> report exact match (Tier 1), alias match (Tiers 1+2), containment match (Tiers 1+2+3), and Jaccard match (all four tiers). <strong>Closed-world experiments</strong> report Hit@K (K = 1, 3, 5, 10) and Mean Reciprocal Rank (MRR).
+</p>
+
+<h3>5.3 Statistical Significance</h3>
+
+<p class="no-indent">
+To assess whether performance differences between methods are statistically significant, we use McNemar's test (with continuity correction) on the paired per-sample outcomes from each pair of compared systems. Additionally, we compute bootstrap confidence intervals (1,000 resamples, seed=42) at the 95% level.
+</p>
+
+
+<!-- ──────────────────────────────────────────────────────────────────────── -->
+<!-- 6. RESULTS AND ANALYSIS                                                -->
+<!-- ──────────────────────────────────────────────────────────────────────── -->
+<h2 id="sec-results">6. Results and Analysis</h2>
+
+<h3>6.1 Open-World Performance</h3>
+
+<p class="no-indent">
+Table 4 presents the open-world results. GPT-4o with few-shot prompting (O2) achieves the highest exact match accuracy at 31.62%, rising to 41.10% under the full four-tier Jaccard evaluation. Model scale is the dominant factor: moving from Llama 3.2 1B (9.52%) to Llama 3.1 8B (13.92%) to GPT-4.1-mini (25.71%) to GPT-4o (27.02%) yields consistent gains under zero-shot conditions.
+</p>
+
+<p>
+Few-shot prompting consistently improves over zero-shot across all model sizes (p &lt; 0.001 by McNemar's test). The improvement ranges from +2.95 percentage points for GPT-4.1-mini to +4.60 points for GPT-4o. The few-shot examples appear to calibrate the model's output format and entity granularity, reducing cases where models produce entity types instead of specific entity names.
+</p>
+
+</main><!-- close two-column for full-width results tables -->
+
+<div class="table-wrap full-width">
+  <p class="table-caption"><strong>Table 4:</strong> Open-world results on the IRC-Bench test set (4,633 samples). Exact = exact string match; Alias = alias-aware match; Contain = containment match; Jaccard = Jaccard match (&ge;0.5). Best result in each column is <span class="best">highlighted</span>.</p>
+  <table>
+    <thead>
+      <tr>
+        <th style="text-align:left;">ID</th>
+        <th style="text-align:left;">Model</th>
+        <th>Mode</th>
+        <th>Exact (%)</th>
+        <th>Alias (%)</th>
+        <th>Contain (%)</th>
+        <th>Jaccard (%)</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><td>O1</td><td>GPT-4o</td><td>Zero-shot</td><td>27.02</td><td>33.30</td><td>33.30</td><td>35.05</td></tr>
+      <tr><td>O2</td><td>GPT-4o</td><td>Few-shot</td><td class="best">31.62</td><td class="best">38.94</td><td class="best">38.94</td><td class="best">41.10</td></tr>
+      <tr><td>O3</td><td>GPT-4.1-mini</td><td>Zero-shot</td><td>25.71</td><td>27.09</td><td>33.50</td><td>35.94</td></tr>
+      <tr><td>O4</td><td>GPT-4.1-mini</td><td>Few-shot</td><td>28.66</td><td>36.89</td><td>36.89</td><td>39.48</td></tr>
+      <tr><td>O5</td><td>Llama 3.1 8B</td><td>Zero-shot</td><td>13.92</td><td>14.81</td><td>19.47</td><td>20.18</td></tr>
+      <tr><td>O6</td><td>Llama 3.1 8B</td><td>Few-shot</td><td>17.83</td><td>18.80</td><td>24.61</td><td>25.66</td></tr>
+      <tr><td>O7</td><td>Llama 3.2 1B</td><td>Zero-shot</td><td>9.52*</td><td>10.27*</td><td>15.50*</td><td>17.27*</td></tr>
+      <tr><td>O8</td><td>Llama 3.2 1B</td><td>Few-shot</td><td>N/A</td><td>N/A</td><td>N/A</td><td>15.22*</td></tr>
+      <tr style="border-top: 1px solid #aaa;"><td>O11</td><td>GPT-4.1-mini</td><td>CoT</td><td>18.95</td><td>20.31</td><td>27.69</td><td>28.97</td></tr>
+      <tr><td>O12</td><td>GPT-4o</td><td>CoT</td><td>22.36</td><td>23.72</td><td>30.82</td><td>32.20</td></tr>
+      <tr><td>O13</td><td>Llama 3.1 8B</td><td>CoT</td><td>9.52</td><td>10.27</td><td>15.50</td><td>16.19</td></tr>
+      <tr style="border-top: 1px solid #aaa;"><td>RAG1</td><td>BGE + GPT-4.1-mini</td><td>RAG</td><td>19.71</td><td>20.53</td><td>N/A</td><td>N/A</td></tr>
+    </tbody>
+  </table>
+  <p style="font-size:7.5pt; text-indent:0; margin-top:0.2em; color:#555;">*O7 and O8 use the alias-aware evaluation with all four tiers; direct exact/alias metrics were not separately computed.</p>
+</div>
+
+<!-- Full-width main results figure -->
+<div class="figure full-width">
+  <img src="figures/fig1_main_results.png" alt="Main results comparison across all methods" style="max-width: 85%;">
+  <p class="fig-caption"><strong>Figure 4:</strong> Comparison of open-world and closed-world methods on the IRC-Bench test set. Open-world methods are measured by exact match and alias-aware accuracy; closed-world methods by Hit@1 and Hit@10.</p>
+</div>
+
+<main class="two-column">
+
+<p>
+The most striking finding is the <em>failure of chain-of-thought prompting</em>. CoT reduces GPT-4.1-mini accuracy from 28.66% (few-shot) to 18.95%, and GPT-4o accuracy from 31.62% to 22.36%. This represents a 34% relative degradation for GPT-4.1-mini and a 29% relative degradation for GPT-4o. CoT also degrades Llama 3.1 8B from 13.92% (zero-shot) to 9.52%. We analyze the reasons for this failure in Section 7.
+</p>
+
+<p>
+The hybrid RAG approach (19.71%) underperforms even GPT-4.1-mini zero-shot (25.71%). When the gold entity does not appear among the top-5 candidates (which occurs in roughly 67% of cases with BGE-base), the LLM reranker cannot recover it.
+</p>
+
+<h3>6.2 Closed-World Performance</h3>
+
+<p class="no-indent">
+Table 5 shows the closed-world retrieval results. Fine-tuned DPR with description representations (C5) achieves the best performance: 35.38% Hit@1, 71.49% Hit@10, and 0.475 MRR.
+</p>
+
+</main>
+
+<div class="table-wrap full-width">
+  <p class="table-caption"><strong>Table 5:</strong> Closed-world retrieval results on the IRC-Bench test set. The candidate set contains all 12,337 entities. Best result in each column is <span class="best">highlighted</span>.</p>
+  <table>
+    <thead>
+      <tr>
+        <th style="text-align:left;">ID</th>
+        <th style="text-align:left;">Retriever</th>
+        <th>Entity Repr.</th>
+        <th>Hit@1 (%)</th>
+        <th>Hit@3 (%)</th>
+        <th>Hit@5 (%)</th>
+        <th>Hit@10 (%)</th>
+        <th>MRR</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><td>C1</td><td>BGE (off-the-shelf)</td><td>Name</td><td>16.51</td><td>26.38</td><td>30.97</td><td>36.76</td><td>0.236</td></tr>
+      <tr><td>C2</td><td>BGE (off-the-shelf)</td><td>Description</td><td>16.64</td><td>27.78</td><td>33.41</td><td>40.60</td><td>0.248</td></tr>
+      <tr><td>C3</td><td>BGE (off-the-shelf)</td><td>Wiki</td><td>14.38</td><td>25.10</td><td>29.92</td><td>37.32</td><td>0.221</td></tr>
+      <tr><td>C4</td><td>DPR (fine-tuned)</td><td>Name</td><td>30.00</td><td>46.36</td><td>53.66</td><td>63.31</td><td>0.413</td></tr>
+      <tr><td>C5</td><td>DPR (fine-tuned)</td><td>Description</td><td class="best">35.38</td><td class="best">53.51</td><td class="best">61.82</td><td class="best">71.49</td><td class="best">0.475</td></tr>
+      <tr><td>C6</td><td>DPR (fine-tuned)</td><td>Wiki</td><td>27.95</td><td>44.98</td><td>51.82</td><td>59.55</td><td>0.385</td></tr>
+    </tbody>
+  </table>
+</div>
+
+<!-- Hit@K curves figure -->
+<div class="figure full-width">
+  <img src="figures/fig2_hitk_curves.png" alt="Hit@K curves for closed-world methods" style="max-width: 75%;">
+  <p class="fig-caption"><strong>Figure 5:</strong> Hit@K curves for closed-world retrieval methods. Fine-tuned DPR with description representations (C5) substantially outperforms all baseline configurations across all K values.</p>
+</div>
+
+<main class="two-column">
+
+<p>
+The comparison between off-the-shelf BGE and fine-tuned DPR reveals the magnitude of domain adaptation benefits. DPR fine-tuning more than doubles Hit@1 for all entity representation types: Name (16.51% to 30.00%), Description (16.64% to 35.38%), and Wiki (14.38% to 27.95%).
+</p>
+
+<p>
+Across both retrieval architectures, entity description representations consistently outperform name-only and Wikipedia representations. Descriptions provide a concise, attribute-rich summary that aligns well with the contextual cues present in elided narratives. Full Wikipedia articles, despite containing more information, introduce noise from tangential content.
+</p>
+
+</main>
+
+<!-- DPR improvement figure -->
+<div class="figure full-width">
+  <img src="figures/fig5_dpr_improvement.png" alt="DPR fine-tuning improvement over BGE baseline" style="max-width: 70%;">
+  <p class="fig-caption"><strong>Figure 6:</strong> Effect of DPR fine-tuning on retrieval performance. Fine-tuning more than doubles Hit@1 across all entity representation strategies, with the largest absolute gain for descriptions (+18.74 pp).</p>
+</div>
+
+<main class="two-column">
+
+<h3>6.3 Per-Entity-Type Analysis</h3>
+
+<p class="no-indent">
+Performance varies substantially by entity type. Table 6 reports the alias-aware Hit@1 (all tiers) for selected methods.
+</p>
+
+</main>
+
+<div class="table-wrap full-width">
+  <p class="table-caption"><strong>Table 6:</strong> Hit@1 (%) by entity type (alias-aware, all tiers). <em>n</em> denotes the number of test samples of each type.</p>
+  <table>
+    <thead>
+      <tr>
+        <th style="text-align:left;">Entity Type</th>
+        <th>n</th>
+        <th>O1 (GPT-4o ZS)</th>
+        <th>O2 (GPT-4o FS)</th>
+        <th>O5 (Llama 8B ZS)</th>
+        <th>C1 (BGE)</th>
+        <th>C2 (BGE-desc)</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><td>Place</td><td>2,076</td><td>38.15</td><td class="best">43.88</td><td>18.16</td><td>14.88</td><td>15.99</td></tr>
+      <tr><td>Organization</td><td>1,152</td><td>38.28</td><td class="best">45.31</td><td>27.34</td><td>29.17</td><td>27.17</td></tr>
+      <tr><td>Person</td><td>698</td><td>23.82</td><td>24.07</td><td>14.90</td><td>18.34</td><td>18.62</td></tr>
+      <tr><td>Event</td><td>273</td><td>34.43</td><td class="best">50.18</td><td>27.11</td><td>48.35</td><td>47.25</td></tr>
+      <tr><td>Work</td><td>215</td><td>32.09</td><td>39.53</td><td>14.42</td><td>39.07</td><td>36.74</td></tr>
+      <tr><td>Military Unit</td><td>121</td><td>26.45</td><td>37.19</td><td>10.74</td><td>23.97</td><td>31.40</td></tr>
+      <tr><td>Other</td><td>98</td><td>30.61</td><td>36.73</td><td>21.43</td><td>33.67</td><td>25.51</td></tr>
+    </tbody>
+  </table>
+</div>
+
+<!-- Entity type heatmap figure -->
+<div class="figure full-width">
+  <img src="figures/fig3_entity_type_heatmap.png" alt="Heatmap of performance by entity type and method" style="max-width: 75%;">
+  <p class="fig-caption"><strong>Figure 7:</strong> Heatmap of performance (alias-aware Hit@1) by entity type and method. Person entities are consistently the hardest across all methods; Events are notably strong for both open-world and closed-world approaches.</p>
+</div>
+
+<main class="two-column">
+
+<p>
+<strong>Persons are the hardest type for open-world methods.</strong> GPT-4o FS achieves only 24.07% on Person entities, compared to 45.31% on Organizations and 43.88% on Places. Person entities often have less distinctive contextual cues and are more likely to be obscure individuals not well represented in model training data.
+</p>
+
+<p>
+<strong>Events are notably strong for closed-world methods.</strong> BGE achieves 48.35% Hit@1 on Events, higher than any other type, suggesting that event descriptions provide distinctive semantic signatures that align well with implicit event narratives.
+</p>
+
+<p>
+<strong>Few-shot examples disproportionately help Events.</strong> GPT-4o jumps from 34.43% (ZS) to 50.18% (FS) on Events (+15.75 pp), the largest per-type improvement, likely because the few-shot examples include two Event instances (Attack on Pearl Harbor).
+</p>
+
+<h3>6.4 Error Analysis</h3>
+
+<p class="no-indent">
+We performed automated error classification on 200 randomly sampled incorrect predictions from each of O1 through O6, using GPT-4.1-mini to categorize errors. Table 7 reports the distribution.
+</p>
+
+</main>
+
+<div class="table-wrap full-width">
+  <p class="table-caption"><strong>Table 7:</strong> Error type distribution (%) over 200 randomly sampled incorrect predictions per model. Categories are mutually exclusive.</p>
+  <table>
+    <thead>
+      <tr>
+        <th style="text-align:left;">Error Type</th>
+        <th>O1</th>
+        <th>O2</th>
+        <th>O3</th>
+        <th>O4</th>
+        <th>O5</th>
+        <th>O6</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><td>Same-type, unrelated</td><td>43.0</td><td>42.0</td><td>43.5</td><td>45.0</td><td>52.0</td><td>46.0</td></tr>
+      <tr><td>Wrong type</td><td>28.5</td><td>27.5</td><td>29.5</td><td>22.5</td><td>31.0</td><td>35.0</td></tr>
+      <tr><td>Same-type, related</td><td>24.5</td><td>25.5</td><td>22.5</td><td>24.0</td><td>13.5</td><td>17.0</td></tr>
+      <tr><td>Partial match</td><td>3.5</td><td>4.0</td><td>3.0</td><td>6.0</td><td>2.5</td><td>1.5</td></tr>
+      <tr><td>Empty/hallucination</td><td>0.5</td><td>1.0</td><td>1.5</td><td>2.5</td><td>1.0</td><td>0.0</td></tr>
+    </tbody>
+  </table>
+</div>
+
+<main class="two-column">
+
+<p>
+The dominant error mode across all models is <em>same-type, unrelated</em> (42 to 52%), where the model predicts an entity of the correct type but one that is semantically unrelated to the gold entity (e.g., predicting "Jack Johnson" when the gold is "Lou Ambers," both boxers). The second most common error is <em>wrong type</em> (22.5 to 35.0%), where the model predicts an entity of an entirely different category. <em>Same-type, related</em> errors (13.5 to 25.5%) represent near-misses where the prediction is semantically close to the gold (e.g., predicting "Okinawa" for "Iwo Jima"). Hallucinations and empty responses are rare (&lt;2.5%), indicating that models reliably produce plausible entity names even when incorrect.
+</p>
+
+<p>
+Notably, Llama 3.1 8B (O5, O6) shows a higher proportion of same-type, unrelated errors and a lower proportion of same-type, related errors compared to GPT models, suggesting that smaller models have weaker ability to narrow down candidates within a type using fine-grained contextual cues.
+</p>
+
+<h3>6.5 Statistical Significance</h3>
+
+<p class="no-indent">
+All key comparisons are statistically significant at p &lt; 0.001 (McNemar's test with continuity correction). For the GPT-4o vs. Llama 8B comparison (O1 vs. O5), 892 samples are solved only by GPT-4o while only 203 are solved only by Llama 8B (McNemar chi-squared = 432.28), demonstrating a strong directional advantage. The zero-shot to few-shot improvement for GPT-4o (O1 vs. O2) shows 400 samples gained versus only 120 lost (chi-squared = 149.69). The 95% bootstrap confidence intervals confirm non-overlapping ranges for all reported comparisons.
+</p>
+
+
+<!-- ──────────────────────────────────────────────────────────────────────── -->
+<!-- 7. DISCUSSION                                                          -->
+<!-- ──────────────────────────────────────────────────────────────────────── -->
+<h2 id="sec-discussion">7. Discussion</h2>
+
+<h3>7.1 Why Chain-of-Thought Hurts</h3>
+
+<p class="no-indent">
+The consistent degradation under CoT prompting is perhaps the most counterintuitive finding of this study. In tasks such as mathematical reasoning and multi-hop question answering, CoT improves performance by decomposing complex reasoning into intermediate steps [32]. IER, however, does not reward step-by-step decomposition. Identifying an implicit entity requires <em>holistic pattern matching</em>: the model must simultaneously attend to a constellation of distributed cues (dates, locations, associated people, sensory details) and match this constellation against its parametric knowledge of entities. When forced to reason step by step, the model tends to fixate on individual cues in isolation, often arriving at a locally plausible but globally incorrect entity. For instance, a CoT trace might correctly identify "December 7, 1941" and "Hawaii" but then erroneously conclude the entity is "Hickam Air Force Base" rather than "Attack on Pearl Harbor," because the step-by-step process loses sight of the broader narrative context. This finding suggests that IER belongs to a class of tasks where recognition is fundamentally gestalt: the whole (the cue constellation) is more informative than the sum of its parts (individual cues analyzed sequentially). The use of higher temperature (0.7 vs. 0.0) in CoT experiments may also contribute additional noise to the reasoning process.
+</p>
+
+<h3>7.2 Why RAG Underperforms</h3>
+
+<p class="no-indent">
+The RAG pipeline's poor showing (19.71% vs. 28.66% for direct few-shot with GPT-4.1-mini) reflects a mismatch between retrieval and the non-locality property of implicit references. Dense retrievers encode the query (the EEN) as a single vector, which must capture the entire constellation of distributed cues. In practice, the single-vector bottleneck loses fine-grained cue information, and the retrieved candidates are often topically related but incorrect. When these noisy candidates are presented to the LLM as context, they can override the model's own correct intuition. We observe cases where the LLM without RAG correctly identifies the entity, but with RAG selects a plausible-looking but wrong candidate from the retrieved list. The retriever acts as a bottleneck rather than an aid, filtering out the correct entity before the LLM ever sees it. With BGE-base, the gold entity appears in the top-5 only about 33% of the time, severely limiting the reranker's potential.
+</p>
+
+<h3>7.3 Non-Locality and Global Attention</h3>
+
+<p class="no-indent">
+The non-locality property defined in Section 4.2 has direct empirical consequences. Methods that can attend to the full input passage (LLMs with sufficient context windows) consistently outperform methods that compress the input to a fixed-size representation (dense retrievers). Within the LLM paradigm, larger models with greater capacity for cross-passage attention outperform smaller ones. This pattern is consistent with the hypothesis that IER fundamentally requires global attention over distributed cues, and that local or compressed representations are structurally insufficient for the task.
+</p>
+
+<h3>7.4 The Open-Closed Gap</h3>
+
+<p class="no-indent">
+Comparing the best open-world result (O2: 31.62% exact, 41.10% Jaccard) with the best closed-world result (C5: 35.38% Hit@1) reveals a modest advantage for the closed-world setting at the exact match level. This is notable because the closed-world system has access to the full entity knowledge base (12,337 candidates), which one might expect to provide a substantial advantage. The relatively small gap suggests that the primary bottleneck in IER is not entity recall (knowing that the entity exists) but entity recognition (matching the cue constellation to the correct entity). LLMs possess broad parametric knowledge that partially compensates for the lack of an explicit candidate list, while the retriever's single-vector encoding partially negates the advantage of having the full candidate set. The closed-world setting does, however, offer a much stronger Hit@10 (71.49%), indicating that the correct entity is often in the retriever's shortlist even when it is not ranked first. This suggests that combining fine-tuned retrieval with LLM reranking is a promising direction for future work.
+</p>
+
+<h3>7.5 What Makes Entities Hard</h3>
+
+<p class="no-indent">
+Entity difficulty correlates with two factors: the specificity of available cues and the density of the entity's "neighborhood" in the knowledge base. Events and Military Units tend to have highly specific cue combinations (unique dates, named participants, particular locations) that dramatically narrow the candidate space. Persons, by contrast, are often described through generic biographical attributes (occupation, approximate era, region) shared by many candidates, making disambiguation difficult. Organizations fall between these extremes: well-known organizations (e.g., the United Nations) are easy, while local organizations (e.g., a specific veterans' club) are nearly impossible without very specific contextual cues.
+</p>
+
+</main>
+
+<!-- Model size scatter plot -->
+<div class="figure full-width">
+  <img src="figures/fig6_model_size_scatter.png" alt="Model size vs. accuracy scatter plot" style="max-width: 65%;">
+  <p class="fig-caption"><strong>Figure 8:</strong> Relationship between model scale and open-world accuracy. Larger models achieve substantially higher accuracy, with the relationship appearing roughly log-linear in model parameter count.</p>
+</div>
+
+<main class="two-column">
+
+
+<!-- ──────────────────────────────────────────────────────────────────────── -->
+<!-- 8. CONCLUSION                                                          -->
+<!-- ──────────────────────────────────────────────────────────────────────── -->
+<h2 id="sec-conclusion">8. Conclusion</h2>
+
+<p class="no-indent">
+We have introduced Implicit Entity Recognition as a novel NLP task and released IRC-Bench, a benchmark of 25,136 samples spanning 12,337 Wikidata-linked entities from 1,994 oral history transcripts. Our systematic evaluation across open-world, closed-world, and hybrid paradigms reveals several key findings. First, model scale is the dominant factor in open-world accuracy, with performance spanning from 9.52% (Llama 1B) to 31.62% (GPT-4o). Second, chain-of-thought prompting consistently degrades performance, suggesting that IER requires holistic pattern matching rather than sequential reasoning. Third, retrieval-augmented generation underperforms direct LLM inference due to the non-locality of implicit cues. Fourth, domain-specific fine-tuning of dense retrievers more than doubles retrieval Hit@1, and entity description representations consistently outperform name-only and full-article representations. Fifth, the best closed-world system (DPR with descriptions, 35.38% Hit@1) slightly outperforms the best open-world system (GPT-4o few-shot, 31.62% exact match), but the open-world Jaccard metric (41.10%) suggests that alias-aware evaluation narrows this gap substantially.
+</p>
+
+<p>
+Several limitations should be noted. The benchmark is constructed from English-language oral histories focused primarily on American experiences, limiting cross-lingual and cross-cultural generalization. The entity elision process, though validated, is LLM-generated and may not perfectly replicate the patterns of naturally occurring implicit references. The alias-aware evaluation, while more permissive than exact match, still penalizes predictions that are semantically correct but use an unregistered surface form.
+</p>
+
+<p>
+Future work should explore several promising directions: multi-modal IER incorporating audio features from the original recordings, cross-lingual benchmarks constructed from oral history archives in other languages, active learning approaches that combine retriever shortlists with LLM reranking, and the development of specialized architectures that explicitly model the non-locality property of implicit entity cues through structured attention over distributed text spans.
+</p>
+
+
+<!-- ──────────────────────────────────────────────────────────────────────── -->
+<!-- REFERENCES                                                             -->
+<!-- ──────────────────────────────────────────────────────────────────────── -->
+<div class="references" id="sec-references">
+<h2>References</h2>
+
+<p><span class="ref-num">[1]</span> Nadeau, D. and Sekine, S. (2007). A survey of named entity recognition and classification. <em>Lingvisticae Investigationes</em>, 30(1):3-26.</p>
+
+<p><span class="ref-num">[2]</span> Li, J., Sun, A., Han, J., and Li, C. (2022). A survey on deep learning for named entity recognition. <em>IEEE TKDE</em>, 34(1):50-70.</p>
+
+<p><span class="ref-num">[3]</span> Ganea, O.-E. and Hofmann, T. (2017). Deep joint entity disambiguation with local neural attention. In <em>Proc. EMNLP</em>, pages 2619-2629.</p>
+
+<p><span class="ref-num">[4]</span> Kolitsas, N., Ganea, O.-E., and Hofmann, T. (2018). End-to-end neural entity linking. In <em>Proc. CoNLL</em>, pages 519-529.</p>
+
+<p><span class="ref-num">[5]</span> Lee, K., He, L., Lewis, M., and Zettlemoyer, L. (2017). End-to-end neural coreference resolution. In <em>Proc. EMNLP</em>, pages 188-197.</p>
+
+<p><span class="ref-num">[6]</span> Boyd, D. A. (2012). Oral history in the digital age. In Ritchie, D. A., editor, <em>The Oxford Handbook of Oral History</em>. Oxford University Press.</p>
+
+<p><span class="ref-num">[7]</span> Lazar, A., Demiris, G., and Thompson, H. (2016). Evaluation of a multifunctional technology system in a memory care unit. <em>Assistive Technology</em>, 28(4):216-225.</p>
+
+<p><span class="ref-num">[8]</span> Subramaniam, P. and Woods, B. (2012). The impact of individual reminiscence therapy for people with dementia. <em>Expert Review of Neurotherapeutics</em>, 12(5):545-555.</p>
+
+<p><span class="ref-num">[9]</span> Lample, G., Ballesteros, M., Subramanian, S., Kawakami, K., and Dyer, C. (2016). Neural architectures for named entity recognition. In <em>Proc. NAACL</em>, pages 260-270.</p>
+
+<p><span class="ref-num">[10]</span> Devlin, J., Chang, M.-W., Lee, K., and Toutanova, K. (2019). BERT: Pre-training of deep bidirectional transformers for language understanding. In <em>Proc. NAACL</em>, pages 4171-4186.</p>
+
+<p><span class="ref-num">[11]</span> Xie, T., Li, J., Sun, Z., Li, N., Rich, K., and Glass, J. (2023). An empirical study on ChatGPT for zero-shot NER. <em>arXiv preprint arXiv:2310.10035</em>.</p>
+
+<p><span class="ref-num">[12]</span> Ashok, D. and Lipton, Z. C. (2023). PromptNER: Prompting for named entity recognition. In <em>Proc. ACL</em>.</p>
+
+<p><span class="ref-num">[13]</span> Sang, E. T. K. and De Meulder, F. (2003). Introduction to the CoNLL-2003 shared task. In <em>Proc. CoNLL</em>, pages 142-147.</p>
+
+<p><span class="ref-num">[14]</span> Malmasi, S., et al. (2022). MultiCoNER: A large-scale multilingual dataset for complex named entity recognition. In <em>Proc. COLING</em>.</p>
+
+<p><span class="ref-num">[15]</span> Li, J., Fei, H., Liu, J., Wu, S., Zhang, M., Teng, C., Ji, D., and Li, F. (2022). Unified named entity recognition as word-word relation classification. In <em>Proc. AAAI</em>.</p>
+
+<p><span class="ref-num">[16]</span> Zhou, W., Zhang, S., Gu, Y., Chen, M., and Poon, H. (2024). UniversalNER: Targeted distillation from large language models for open named entity recognition. In <em>Proc. ICLR</em>.</p>
+
+<p><span class="ref-num">[17]</span> Wu, L., Petroni, F., Josifoski, M., Riedel, S., and Zettlemoyer, L. (2020). Scalable zero-shot entity linking with dense entity retrieval. In <em>Proc. EMNLP</em>, pages 6397-6407.</p>
+
+<p><span class="ref-num">[18]</span> De Cao, N., Izacard, G., Riedel, S., and Petroni, F. (2021). Autoregressive entity retrieval. In <em>Proc. ICLR</em>.</p>
+
+<p><span class="ref-num">[19]</span> Ayoola, T., Shivade, C., Mukherjee, T., Zhu, Y., and Korycinski, D. (2022). ReFinED: An efficient zero-shot-capable approach to end-to-end entity linking. In <em>Proc. NAACL</em>.</p>
+
+<p><span class="ref-num">[20]</span> Botha, J. A., Shan, Z., and Gillick, D. (2020). Entity linking in 100 languages. In <em>Proc. EMNLP</em>, pages 7833-7845.</p>
+
+<p><span class="ref-num">[21]</span> Hosseini, H. (2019). Implicit entity recognition and linking in tweets. PhD thesis, RMIT University.</p>
+
+<p><span class="ref-num">[22]</span> Hosseini, H. and Bagheri, E. (2018). Learning to rank implicit entities on Twitter. <em>Information Processing &amp; Management</em>, 54(3):490-504.</p>
+
+<p><span class="ref-num">[23]</span> Perera, N., Dehmer, M., and Emmert-Streib, F. (2020). Named entity recognition and relation detection for biomedical information extraction. <em>Frontiers in Cell and Developmental Biology</em>, 8:673.</p>
+
+<p><span class="ref-num">[24]</span> De Biase, G. et al. (2024). Large language models as conversational partners for individuals with dementia. <em>arXiv preprint arXiv:2404.03215</em>.</p>
+
+<p><span class="ref-num">[25]</span> Khosla, R. et al. (2023). A systematic review of AI companions for older adults. <em>Computers in Human Behavior</em>, 144:107737.</p>
+
+<p><span class="ref-num">[26]</span> Caine, V. et al. (2022). Digital storytelling and marginalized communities. <em>Qualitative Research</em>, 22(3):381-397.</p>
+
+<p><span class="ref-num">[27]</span> Yang, Z., Qi, P., Zhang, S., Bengio, Y., Cohen, W. W., Salakhutdinov, R., and Manning, C. D. (2018). HotpotQA: A dataset for diverse, explainable multi-hop question answering. In <em>Proc. EMNLP</em>.</p>
+
+<p><span class="ref-num">[28]</span> Petroni, F., Rocktaschel, T., Riedel, S., Lewis, P., Bakhtin, A., Wu, Y., and Miller, A. (2019). Language models as knowledge bases? In <em>Proc. EMNLP</em>.</p>
+
+<p><span class="ref-num">[29]</span> Lewis, P., Perez, E., Piktus, A., Petroni, F., Karpukhin, V., Goyal, N., Kuttler, H., Lewis, M., Yih, W., Rocktaschel, T., Riedel, S., and Kiela, D. (2020). Retrieval-augmented generation for knowledge-intensive NLP tasks. In <em>Proc. NeurIPS</em>.</p>
+
+<p><span class="ref-num">[30]</span> Karpukhin, V., Oguz, B., Min, S., Lewis, P., Wu, L., Edunov, S., Chen, D., and Yih, W. (2020). Dense passage retrieval for open-domain question answering. In <em>Proc. EMNLP</em>, pages 6769-6781.</p>
+
+<p><span class="ref-num">[31]</span> Xiao, S., Liu, Z., Zhang, P., and Muennighoff, N. (2023). C-Pack: Packaged resources to advance general Chinese embedding. <em>arXiv preprint arXiv:2309.07597</em>.</p>
+
+<p><span class="ref-num">[32]</span> Wei, J., Wang, X., Schuurmans, D., Bosma, M., Ichter, B., Xia, F., Chi, E., Le, Q., and Zhou, D. (2022). Chain-of-thought prompting elicits reasoning in large language models. In <em>Proc. NeurIPS</em>.</p>
+
+<p><span class="ref-num">[33]</span> Hu, E. J., Shen, Y., Wallis, P., Allen-Zhu, Z., Li, Y., Wang, S., Wang, L., and Chen, W. (2022). LoRA: Low-rank adaptation of large language models. In <em>Proc. ICLR</em>.</p>
+
+<p><span class="ref-num">[34]</span> Dettmers, T., Pagnoni, A., Holtzman, A., and Zettlemoyer, L. (2023). QLoRA: Efficient finetuning of quantized language models. In <em>Proc. NeurIPS</em>.</p>
+
+</div>
+
+</main>
+
+<!-- ════════════════════════════════════════════════════════════════════════ -->
+<!-- APPENDICES                                                             -->
+<!-- ════════════════════════════════════════════════════════════════════════ -->
+
+<div style="border-top: 2px solid var(--rule); margin-top: 1.5em; padding-top: 0.5em;">
+
+<h2 class="appendix-heading" id="app-a" style="text-align:center;">Appendix A: Prompt Templates</h2>
+
+<main class="two-column">
+
+<h3>A.1 Zero-Shot Prompt</h3>
+
+<p class="code-label">System message:</p>
+<div class="code-block">You are an entity recognition expert. Given a text that implicitly
+references a named entity without mentioning it, identify what entity
+is being referenced.</div>
+
+<p class="code-label">User message:</p>
+<div class="code-block">What named entity is implicitly referenced in this text? The entity
+is never mentioned by name.
+
+Text: "{text}"
+
+Think about the contextual cues (dates, places, events, people, roles)
+and identify the specific named entity being referenced.
+
+Answer with ONLY the entity name (canonical Wikipedia name), nothing else.</div>
+
+<p class="no-indent" style="font-size:8pt; color:#555;">Parameters: temperature=0.0, max_tokens=100</p>
+
+<h3>A.2 Few-Shot Prompt</h3>
+
+<p class="code-label">System message:</p>
+<div class="code-block">You are an entity recognition expert. Given a text that implicitly
+references a named entity without mentioning it, identify what entity
+is being referenced.</div>
+
+<p class="code-label">User message:</p>
+<div class="code-block">What named entity is implicitly referenced in this text? The entity
+is never mentioned by name.
+
+Examples:
+Text: "I remember that Sunday morning in December '41. We were listening
+to the radio when the news broke about the attack on the naval base in
+Hawaii. That's when everything changed."
+Entity: Attack on Pearl Harbor
+
+Text: "I enlisted right out of high school and went to boot camp in
+San Diego. As an aircraft mechanic, I was sent to the Pacific."
+Entity: United States Marine Corps
+
+Text: "After the surrender, we flew into the main islands. I landed in
+the bay and spent six months there for the occupation. The capital was
+flattened by the B-29s."
+Entity: Tokyo
+
+Text: "In late 1941, I was set to ship out from San Francisco. A friend
+ran up saying they're bombing the base in Hawaii."
+Entity: Attack on Pearl Harbor
+
+Text: "Growing up in that bustling metropolis with towering skyscrapers,
+I was immersed in a vibrant culture."
+Entity: New York City
+
+Now identify the entity in this text:
+Text: "{text}"
+
+Answer with ONLY the entity name (canonical Wikipedia name), nothing else.</div>
+
+<p class="no-indent" style="font-size:8pt; color:#555;">Parameters: temperature=0.0, max_tokens=100</p>
+
+<h3>A.3 Chain-of-Thought Prompt</h3>
+
+<p class="code-label">System message:</p>
+<div class="code-block">You are an entity recognition expert. Think step by step.</div>
+
+<p class="code-label">User message:</p>
+<div class="code-block">What named entity is implicitly referenced in this text? The entity
+is never mentioned by name.
+
+Text: "{text}"
+
+Think step by step:
+1. What contextual cues are present? (dates, places, events, people, roles)
+2. What type of entity do these cues suggest? (Person, Place, Organization, Event)
+3. What specific named entity matches ALL these cues?
+
+Reasoning: [your step-by-step analysis]
+Entity: [canonical Wikipedia name]</div>
+
+<p class="no-indent" style="font-size:8pt; color:#555;">Parameters: temperature=0.7, max_tokens=300</p>
+
+<h3>A.4 RAG Prompt</h3>
+
+<p class="code-label">User message (no system message):</p>
+<div class="code-block">This text implicitly references a named entity without naming it.
+Based on the contextual cues, which candidate is most likely?
+
+Text: "{text}"
+
+Candidates:
+1. {candidate_1} - {description_1}
+2. {candidate_2} - {description_2}
+3. {candidate_3} - {description_3}
+4. {candidate_4} - {description_4}
+5. {candidate_5} - {description_5}
+
+If none match well, suggest a better entity.
+Answer: [number]. [entity name]</div>
+
+<p class="no-indent" style="font-size:8pt; color:#555;">Parameters: temperature=0.7, max_tokens=50</p>
+
+<h3>A.5 QLoRA Fine-tuning Prompt (O10)</h3>
+
+<div class="code-block">&lt;|begin_of_text|&gt;&lt;|start_header_id|&gt;system&lt;|end_header_id|&gt;
+You identify implicitly referenced entities.&lt;|eot_id|&gt;
+&lt;|start_header_id|&gt;user&lt;|end_header_id|&gt;
+What entity is implicitly referenced? Answer with only the entity name.
+
+Text: {implicit_text}&lt;|eot_id|&gt;
+&lt;|start_header_id|&gt;assistant&lt;|end_header_id|&gt;
+{entity}&lt;|eot_id|&gt;</div>
+
+<p class="no-indent" style="font-size:8pt; color:#555;">Parameters: greedy decoding, max_new_tokens=30</p>
+
+</main>
+
+<!-- ──────────────────────────────────────────────────────────────────────── -->
+
+<h2 class="appendix-heading" id="app-b" style="text-align:center;">Appendix B: Training Hyperparameters</h2>
+
+<main class="two-column">
+
+<h3>B.1 DPR (Dense Passage Retrieval) Fine-tuning</h3>
+
+<div class="table-wrap">
+  <table class="param-table">
+    <tbody>
+      <tr><td>Base model</td><td>BAAI/bge-base-en-v1.5</td></tr>
+      <tr><td>Model parameters</td><td>~110M</td></tr>
+      <tr><td>Embedding dimension</td><td>768</td></tr>
+      <tr><td>Training examples</td><td>17,971</td></tr>
+      <tr><td>Epochs</td><td>3</td></tr>
+      <tr><td>Batch size</td><td>48</td></tr>
+      <tr><td>Learning rate</td><td>2e-5</td></tr>
+      <tr><td>Warmup steps</td><td>100</td></tr>
+      <tr><td>Loss function</td><td>MultipleNegativesRankingLoss (MNRL)</td></tr>
+      <tr><td>Optimizer</td><td>AdamW</td></tr>
+      <tr><td>Mixed precision</td><td>FP16 (AMP)</td></tr>
+      <tr><td>Negatives</td><td>In-batch (47 negatives per sample)</td></tr>
+      <tr><td>Random seed</td><td>42</td></tr>
+    </tbody>
+  </table>
+</div>
+
+<p class="no-indent" style="font-size:8pt; color:#555;">Three separate models are trained, one for each entity representation (name, description, wiki). All use identical hyperparameters.</p>
+
+<h3>B.2 QLoRA (O10) Fine-tuning</h3>
+
+<div class="table-wrap">
+  <table class="param-table">
+    <tbody>
+      <tr><td>Base model</td><td>meta-llama/Llama-3.1-8B-Instruct</td></tr>
+      <tr><td>Model parameters</td><td>~8B (base); ~6.5M trainable (LoRA)</td></tr>
+      <tr><td>Quantization</td><td>4-bit NormalFloat (NF4)</td></tr>
+      <tr><td>Compute dtype</td><td>bfloat16</td></tr>
+      <tr><td>LoRA rank (<em>r</em>)</td><td>16</td></tr>
+      <tr><td>LoRA alpha (&alpha;)</td><td>32</td></tr>
+      <tr><td>LoRA dropout</td><td>0.05</td></tr>
+      <tr><td>Target modules</td><td>q_proj, v_proj, k_proj, o_proj</td></tr>
+      <tr><td>Training examples</td><td>17,971</td></tr>
+      <tr><td>Epochs</td><td>2</td></tr>
+      <tr><td>Per-device batch size</td><td>16</td></tr>
+      <tr><td>Gradient accumulation</td><td>2 (effective batch: 32)</td></tr>
+      <tr><td>Learning rate</td><td>2e-4</td></tr>
+      <tr><td>Max sequence length</td><td>192 tokens</td></tr>
+      <tr><td>Warmup steps</td><td>50</td></tr>
+      <tr><td>Precision</td><td>bfloat16</td></tr>
+      <tr><td>Validation samples</td><td>500 (subset of dev)</td></tr>
+      <tr><td>Framework</td><td>TRL SFTTrainer + PEFT</td></tr>
+    </tbody>
+  </table>
+</div>
+
+</main>
+
+<!-- ──────────────────────────────────────────────────────────────────────── -->
+
+<h2 class="appendix-heading" id="app-c" style="text-align:center;">Appendix C: Example Predictions</h2>
+
+<main class="two-column">
+
+<p class="no-indent">
+We present five correct and five incorrect predictions from the best-performing model, O2 (GPT-4o, few-shot), to illustrate the task characteristics and failure modes.
+</p>
+
+<h3>C.1 Correct Predictions</h3>
+
+<div class="example-pair">
+  <p class="example-header">Correct Example 1</p>
+  <p class="example-text">"I studied at a major public university in Northern California, where I was part of the Design Department. During my time there, I combined academic courses with art classes, focusing on three-dimensional design..."</p>
+  <p style="text-indent:0; font-size:7.5pt; color:#555;"><strong>Gold:</strong> University of California, Berkeley &nbsp;|&nbsp; <strong>Prediction:</strong> University of California, Berkeley &nbsp; <span style="color:#2e7d32;">&#10004;</span></p>
+</div>
+
+<div class="example-pair">
+  <p class="example-header">Correct Example 2</p>
+  <p class="example-text">"When I was in sixth grade, a teacher took us to the downtown area of a city in western Japan to see new buildings and illuminations. We visited a museum that later became the only building left standing after the bombing..."</p>
+  <p style="text-indent:0; font-size:7.5pt; color:#555;"><strong>Gold:</strong> Hiroshima &nbsp;|&nbsp; <strong>Prediction:</strong> Hiroshima &nbsp; <span style="color:#2e7d32;">&#10004;</span></p>
+</div>
+
+<div class="example-pair">
+  <p class="example-header">Correct Example 3</p>
+  <p class="example-text">"When I first came to America, I worked in a Pacific island territory for eight months on a sugar plantation. I was only 15 years old and worked under a Chinese boss for $18 a month..."</p>
+  <p style="text-indent:0; font-size:7.5pt; color:#555;"><strong>Gold:</strong> Hawaii &nbsp;|&nbsp; <strong>Prediction:</strong> Hawaii &nbsp; <span style="color:#2e7d32;">&#10004;</span></p>
+</div>
+
+<div class="example-pair">
+  <p class="example-header">Correct Example 4</p>
+  <p class="example-text">"A city in western Kentucky was not directly discussed in detail, but it is one of the locations where the state's environmental programs have field offices..."</p>
+  <p style="text-indent:0; font-size:7.5pt; color:#555;"><strong>Gold:</strong> Paducah, Kentucky &nbsp;|&nbsp; <strong>Prediction:</strong> Paducah, Kentucky &nbsp; <span style="color:#2e7d32;">&#10004;</span></p>
+</div>
+
+<div class="example-pair">
+  <p class="example-header">Correct Example 5</p>
+  <p class="example-text">"This major Georgia city was not mentioned in my narrative, so I have no personal history or experiences related to that place."</p>
+  <p style="text-indent:0; font-size:7.5pt; color:#555;"><strong>Gold:</strong> Atlanta &nbsp;|&nbsp; <strong>Prediction:</strong> Atlanta &nbsp; <span style="color:#2e7d32;">&#10004;</span></p>
+</div>
+
+<p>
+These correct examples demonstrate cases where geographic cues ("western Japan," "Pacific island territory," "western Kentucky," "Georgia") and contextual details (the atomic bombing museum, sugar plantations) are sufficiently distinctive for the model to identify the entity.
+</p>
+
+<h3>C.2 Incorrect Predictions</h3>
+
+<div class="example-pair">
+  <p class="example-header">Incorrect Example 1: Wrong type</p>
+  <p class="example-text">"My great-grandfather left Lithuania in the early 1900s to escape oppression and seek a better life in America. He arrived before World War I and worked hard to establish himself, eventually sending for his family..."</p>
+  <p style="text-indent:0; font-size:7.5pt; color:#555;"><strong>Gold:</strong> Solomon Goodman &nbsp;|&nbsp; <strong>Prediction:</strong> Lithuanian Jews &nbsp; <span style="color:#c62828;">&#10008;</span></p>
+  <p style="text-indent:0; font-size:7pt; color:#888;">The model predicted a group/category rather than the specific individual being described.</p>
+</div>
+
+<div class="example-pair">
+  <p class="example-header">Incorrect Example 2: Wrong type</p>
+  <p class="example-text">"I once kept a newspaper clipping of a write-up about a historic estate by a famous 19th-century author, but unfortunately, I have misplaced it. The author's writing gave me some insight into the estate..."</p>
+  <p style="text-indent:0; font-size:7.5pt; color:#555;"><strong>Gold:</strong> Harriet Beecher Stowe &nbsp;|&nbsp; <strong>Prediction:</strong> Monticello &nbsp; <span style="color:#c62828;">&#10008;</span></p>
+  <p style="text-indent:0; font-size:7pt; color:#888;">The model focused on the "historic estate" cue rather than the "famous 19th-century author" cue.</p>
+</div>
+
+<div class="example-pair">
+  <p class="example-header">Incorrect Example 3: Wrong type</p>
+  <p class="example-text">"The priest who taught me algebra and later became the bishop of a diocese in eastern Washington questioned my presence in his advanced algebra class because I lacked the necessary background..."</p>
+  <p style="text-indent:0; font-size:7.5pt; color:#555;"><strong>Gold:</strong> Bishop of Spokane &nbsp;|&nbsp; <strong>Prediction:</strong> West Point &nbsp; <span style="color:#c62828;">&#10008;</span></p>
+  <p style="text-indent:0; font-size:7pt; color:#888;">The model produced a completely unrelated entity, likely confusing the religious/military context.</p>
+</div>
+
+<div class="example-pair">
+  <p class="example-header">Incorrect Example 4: Same-type, related</p>
+  <p class="example-text">"Remote healthcare delivery became a critical part of how we provided care during the viral outbreak. Initially, we relied on phone calls, but within weeks, our organization quickly implemented video..."</p>
+  <p style="text-indent:0; font-size:7.5pt; color:#555;"><strong>Gold:</strong> Telehealth &nbsp;|&nbsp; <strong>Prediction:</strong> COVID-19 pandemic &nbsp; <span style="color:#c62828;">&#10008;</span></p>
+  <p style="text-indent:0; font-size:7pt; color:#888;">The model identified the correct general domain but predicted the contextual event rather than the practice being described.</p>
+</div>
+
+<div class="example-pair">
+  <p class="example-header">Incorrect Example 5: Pipeline artifact</p>
+  <p class="example-text">"Jamilia Hanosh, also known as Jimmy, is my grandmother and the daughter of Fahima Hanosh and John Oirathy. She was born and raised in Michigan, part of a family that valued assimilation and education."</p>
+  <p style="text-indent:0; font-size:7.5pt; color:#555;"><strong>Gold:</strong> Jamilia Hanosh &nbsp;|&nbsp; <strong>Prediction:</strong> United States &nbsp; <span style="color:#c62828;">&#10008;</span></p>
+  <p style="text-indent:0; font-size:7pt; color:#888;">Despite the entity name appearing in the text (a pipeline failure), the model still predicted incorrectly, choosing a broad geographic entity instead.</p>
+</div>
+
+<p>
+These errors illustrate the principal challenges of IER: distinguishing the referenced entity from related contextual entities (Example 4), resolving references to obscure individuals (Examples 1, 3), and focusing on the correct cue among multiple competing signals (Example 2). Example 5 also reveals an occasional pipeline artifact where entity anonymization fails to remove the name from the text.
+</p>
+
+</main>
+
+</div><!-- end appendices wrapper -->
+
+</body>
+</html>
