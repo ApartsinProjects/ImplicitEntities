@@ -1,8 +1,10 @@
 {
   "exp_id": "O12",
   "n_test": 4633,
-  "exact_match": 0.1956,
-  "alias_match": 0.2085,
-  "exact_correct": 906,
-  "alias_correct": 966
+  "exact_match": 0.2236,
+  "alias_match": 0.2372,
+  "containment_match": 0.3082,
+  "jaccard_match": 0.322,
+  "exact_correct": 1036,
+  "alias_correct": 1099
 }

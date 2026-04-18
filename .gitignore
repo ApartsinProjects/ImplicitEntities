@@ -3,3 +3,7 @@ __pycache__/
 *.pyc
 .env
 experiments/trained_models/
+# Large model weights (retrain with train_dpr.py)
+experiments/models/*/model.safetensors
+experiments/models/*/pytorch_model.bin
+experiments/models/qlora_*/

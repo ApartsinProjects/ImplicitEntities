@@ -1,0 +1,167 @@
+VOK PDF Transcript Extraction: Library Comparison Report
+=========================================================
+Date: 2026-04-17
+Test corpus: 69 VOK interview transcript PDFs
+Source: E:\Projects\ImplicitEntities\data\source_data\new_transcripts\vok_pdfs\
+
+
+1. EXECUTIVE SUMMARY
+---------------------
+Recommended: pdfplumber with x_tolerance=2
+
+pdfplumber (x_tolerance=2) is the clear winner for VOK transcript extraction.
+It handles both old-format and new-format PDFs reliably, preserves speaker
+labels, chapter markers, and timestamps, and produces clean text with minimal
+artifacts.
+
+
+2. LIBRARY COMPARISON
+---------------------
+
+                        PyPDF2 3.0.1    pdfminer.six    pdfplumber 0.11.9
+                        ------------    ------------    -----------------
+Total chars extracted:  N/A (broken)    5,579,083       5,454,460
+Chapters detected:      N/A             1,077           1,077
+Speaker labels found:   N/A             23,769          23,787
+PDFs with artifacts:    26 BROKEN       37 (spaced)     0 (*)
+
+(*) 3 PDFs have >30 "squished" patterns, but these are legitimate proper
+    nouns in the source PDF (QuikTrip, VoicesofOklahoma, McAllister, etc.),
+    not extraction errors.
+
+
+3. PYDF2: NOT RECOMMENDED
+--------------------------
+PyPDF2 completely fails on 26 of 69 PDFs (38%). These newer-format PDFs
+produce one-word-per-line output with broken spacing:
+    "M y  nam e  is  John  Erling" instead of "My name is John Erling"
+    "O sage  N ation" instead of "Osage Nation"
+    "Paw huska,  O klahom a" instead of "Pawhuska, Oklahoma"
+
+The 26 failed PDFs include: Becky_Dixon, Bob_Blackburn, Case_Boshuizen,
+Chief_Geoffrey_Standing_Bear, Claire_Eagan, Dan_Boudreau, Denny_Cresap,
+Doug_Dodd, Drew_Edmondson, Fred_Dorwart, George_Conner, Gordona_Duca,
+Howard_Barnett, Jim_East, Jim_Langdon, Joe_Carter, John_Brock,
+John_Bumgarner, Keith_Bailey, Montie_Box, Ray_Bingham, Richard_Chapman,
+Rick_Brinkley, Rick_Hudson, Rodger_Erker, Roy_Bliss.
+
+Root cause: PyPDF2's text extraction cannot handle the font encoding and
+layout used in newer VOK PDFs (likely a different PDF generator was used
+for these transcripts).
+
+
+4. PDFMINER.SIX: ACCEPTABLE BUT NOT IDEAL
+-------------------------------------------
+pdfminer.six produces correct text across all 69 PDFs, including the ones
+that break PyPDF2. However, it has two notable issues:
+
+a) Spaced-out page headers: 37 of 69 PDFs contain page headers rendered
+   with letter spacing, e.g.:
+       "R AY   A C K E R M A N  \n\n2"
+   These require regex cleanup to remove.
+
+b) Excessive whitespace: produces many double newlines (360 per typical
+   file) and form feed characters between pages. Needs post-processing
+   to normalize line spacing.
+
+c) Slightly higher character count due to extra whitespace.
+
+Tuning LAParams (line_margin, word_margin, char_margin) did not eliminate
+the spaced-header issue.
+
+
+5. PDFPLUMBER: RECOMMENDED
+---------------------------
+pdfplumber with x_tolerance=2 produces the cleanest output:
+
+a) Page headers are rendered cleanly: "RAY ACKERMAN 2" (not spaced out)
+b) No excessive whitespace or form feeds
+c) Speaker labels (JE:, RA:, CSB:, etc.) preserved perfectly on own lines
+d) Chapter markers preserved: "Chapter 1 - 1:00" format intact
+e) Full speaker name introductions preserved: "John Erling:", "Ray Ackerman:"
+f) Handles BOTH old-format and new-format PDFs correctly
+
+Key setting: x_tolerance=2 (not the default of 3).
+    Default x_tolerance=3 causes squished headers on newer PDFs:
+        "ChiefGeoffreyStandingBearInterview" (bad)
+    x_tolerance=2 produces:
+        "Chief Geoffrey Standing Bear Interview" (correct)
+    x_tolerance=2 has no negative effect on older-format PDFs.
+
+Minor issue: pdfplumber has slightly more mid-sentence line breaks than
+pdfminer (134 vs 1 in Ackerman), but these are at PDF line-wrap boundaries
+and follow the original PDF layout. These are easy to handle in
+post-processing if paragraph joining is needed.
+
+
+6. POST-PROCESSING RECOMMENDATIONS
+------------------------------------
+After extraction with pdfplumber (x_tolerance=2), apply these cleanups:
+
+a) Remove page header lines:
+   Pattern: r'^[A-Z][A-Z ]+\d+$' on its own line
+   Example: "RAY ACKERMAN 2", "TOMMY ALLSUP 15"
+
+b) Remove the intro text box (first few lines of page 1):
+   The name and tagline before "Chapter 1" are metadata, not transcript.
+
+c) Normalize chapter markers:
+   Pattern: r'Chapter \d+\s*.\s*\d+:\d+'
+   Standardize the dash/em-dash character.
+
+d) Optionally join wrapped lines within paragraphs:
+   Lines ending with a lowercase letter followed by a line starting with
+   a lowercase letter can be joined.
+
+
+7. RECOMMENDED EXTRACTION CODE
+-------------------------------
+
+    import pdfplumber
+    import re
+
+    def extract_vok_transcript(pdf_path):
+        with pdfplumber.open(pdf_path) as pdf:
+            pages = []
+            for page in pdf.pages:
+                text = page.extract_text(x_tolerance=2)
+                if text:
+                    pages.append(text)
+
+        full_text = "\n".join(pages)
+
+        # Remove page header lines (NAME IN CAPS + page number)
+        full_text = re.sub(r'\n[A-Z][A-Z ]{3,}\d+\n', '\n', full_text)
+
+        # Normalize chapter markers
+        full_text = re.sub(r'Chapter (\d+)\s*.\s*(\d+:\d+)',
+                           r'Chapter \1 - \2', full_text)
+
+        return full_text
+
+
+8. VOK PDF FORMAT DETAILS
+--------------------------
+VOK transcripts come in at least two PDF formats:
+
+Old format (43 PDFs): Standard text layout. All three libraries handle
+these correctly. Page headers use normal character spacing.
+
+New format (26 PDFs): Different font encoding or PDF generator. PyPDF2
+fails completely. pdfminer produces spaced-out headers. pdfplumber handles
+correctly with x_tolerance=2.
+
+Common structure across all PDFs:
+  - Page 1: Name, tagline, "Chapter 1 - HH:MM", section title, content
+  - Subsequent pages: Header with name + page number, then content
+  - Speaker labels: "Full Name (ABBREV):" on first use, then "ABBREV:"
+  - Chapter markers: "Chapter N - HH:MM" followed by section title
+  - Final line: "Thank you for your support..." closing text
+
+
+9. TEST ENVIRONMENT
+--------------------
+Python 3.14 (C:\Python314\python)
+PyPDF2 3.0.1
+pdfminer.six 20251230
+pdfplumber 0.11.9
