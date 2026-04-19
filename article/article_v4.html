@@ -470,12 +470,13 @@ tr:nth-child(even) { background: var(--bg-alt); }
 <header class="header-block">
   <h1>IRC-Bench: Recognizing Entities from Contextual Cues<br>in First-Person Reminiscences</h1>
   <div class="authors">
-    <span class="name">Eden Moran</span>,
-    <span class="name">Yehudit Aperstein</span>,
-    <span class="name">Sasha Aperstein</span>
+    <span class="name">Alexander Apartsin</span><sup>1</sup>,
+    <span class="name">Eden Moran</span><sup>2</sup>,
+    <span class="name">Yehudit Apartsin</span><sup>2</sup>
   </div>
   <div class="affiliations">
-    School of Software Engineering: Intelligent Systems
+    <sup>1</sup>School of Computer Science, Faculty of Sciences, HIT-Holon Institute of Technology, Holon 58102, Israel<br>
+    <sup>2</sup>Intelligent Systems, Afeka Academic College of Engineering, Tel Aviv 69988, Israel
   </div>
 </header>
 
@@ -490,7 +491,7 @@ tr:nth-child(even) { background: var(--bg-alt); }
 <div class="abstract-block">
   <h2>Abstract</h2>
   <p>
-    When people share personal reminiscences, they routinely reference people, places, and events through contextual cues alone, assuming their audience can identify what is meant without explicit naming. This phenomenon is especially prevalent in reminiscence narratives: first-person accounts of lived experience used in therapeutic, archival, and social contexts. Building on prior work that established implicit entity recognition in short social-media text [21, 22], we extend this task to the reminiscence domain, where entity cues are distributed across multiple clauses rather than concentrated in a single short message. We release <em>IRC-Bench</em> (Implicit Reminiscence Context Benchmark), a benchmark of 25,136 samples derived from 12,337 unique Wikidata-linked entities across 1,994 reminiscence transcripts spanning 11 thematic domains. Each sample pairs an Entity-Grounded Narrative (EGN) containing the entity name with an Entity-Elided Narrative (EEN) from which all explicit mentions have been removed; systems must recover the correct entity given only the EEN. We identify a key structural property of implicit references, their <em>non-locality</em>: recognition cues are distributed across multiple non-contiguous clauses, fundamentally distinguishing implicit entity recognition from named entity recognition, entity linking, and coreference resolution. We evaluate 17 experimental configurations spanning open-world LLM generation, closed-world dense retrieval, hybrid RAG, and fine-tuning approaches. QLoRA-adapted Llama 3.1 8B achieves the highest open-world exact match at 38.94% (51.59% Jaccard), while fine-tuned DPR with entity descriptions reaches 35.38% Hit@1 (42.80% alias-aware) and 71.49% Hit@10 in the closed-world setting. Chain-of-thought prompting consistently degrades performance across all models, and retrieval-augmented generation underperforms direct LLM inference. All data, code, and evaluation tools are publicly released.
+    When people share personal reminiscences, they routinely reference people, places, and events through contextual cues alone, assuming their audience can identify what is meant without explicit naming. This phenomenon is especially prevalent in reminiscence narratives: first-person accounts of lived experience used in therapeutic, archival, and social contexts. Building on prior work that established implicit entity recognition in short social-media text [21, 22], we extend this task to the reminiscence domain, where entity cues are distributed across multiple clauses rather than concentrated in a single short message. We release <em>IRC-Bench</em> (Implicit Reminiscence Context Benchmark), a benchmark of 25,136 samples derived from 12,337 unique Wikidata-linked entities across 1,994 reminiscence transcripts spanning 11 thematic domains. Each sample pairs an Entity-Grounded Narrative (EGN) containing the entity name with an Entity-Elided Narrative (EEN) from which all explicit mentions have been removed; systems must recover the correct entity given only the EEN. We identify a key structural property of implicit references, their <em>non-locality</em>: recognition cues are distributed across multiple non-contiguous clauses, fundamentally distinguishing implicit entity recognition from named entity recognition, entity linking, and coreference resolution. We evaluate 19 experimental configurations spanning open-world LLM generation, closed-world dense retrieval, hybrid RAG, and fine-tuning approaches. QLoRA-adapted Llama 3.1 8B achieves the highest open-world exact match at 38.94% (51.59% Jaccard), while fine-tuned DPR with entity descriptions reaches 35.38% Hit@1 (42.80% alias-aware) and 71.49% Hit@10 in the closed-world setting. Chain-of-thought prompting consistently degrades performance across all models, and retrieval-augmented generation underperforms direct LLM inference. All data, code, and evaluation tools are publicly released.
   </p>
   <p class="keywords"><strong>Keywords:</strong> implicit entity recognition, IRC-Bench, reminiscence narratives, coreference resolution, non-locality, large language models, dense passage retrieval, QLoRA, benchmark, entity linking, Wikidata</p>
 </div>
@@ -545,7 +546,7 @@ Our contributions are as follows:
 <ol class="contributions">
   <li><strong>Task extension and non-locality.</strong> Building on Hosseini's [21] formulation of implicit entity recognition in tweets, we extend the task to long-form reminiscence narratives and formalize the <em>non-locality property</em> of implicit references in this domain: entity cues are distributed across multiple non-contiguous text spans, requiring holistic integration rather than local pattern matching. This structural property, absent in short-text settings, fundamentally distinguishes reminiscence-based implicit entity recognition from prior formulations.</li>
   <li><strong>IRC-Bench.</strong> We release a benchmark of 25,136 implicit entity recognition samples derived from 12,337 unique Wikidata-linked entities sourced from 1,994 reminiscence transcripts across 11 thematic domains, with entity-level train/dev/test splits ensuring zero entity overlap between partitions. Each sample includes both an EGN and an EEN, along with entity metadata (QID, aliases, Wikipedia description).</li>
-  <li><strong>Comprehensive evaluation.</strong> We systematically compare 17 experimental configurations spanning open-world LLM inference (zero-shot, few-shot, chain-of-thought, QLoRA fine-tuning), closed-world dense retrieval (off-the-shelf and DPR fine-tuned), and hybrid RAG, revealing that fine-tuning doubles performance in both paradigms, chain-of-thought reasoning degrades performance on this task, and model scale is the dominant factor in open-world accuracy.</li>
+  <li><strong>Comprehensive evaluation.</strong> We systematically compare 19 experimental configurations spanning open-world LLM inference (zero-shot, few-shot, chain-of-thought, QLoRA fine-tuning), closed-world dense retrieval (off-the-shelf and DPR fine-tuned), and hybrid RAG, revealing that fine-tuning doubles performance in both paradigms, chain-of-thought reasoning degrades performance on this task, and model scale is the dominant factor in open-world accuracy.</li>
 </ol>
 
 
@@ -750,16 +751,16 @@ Figure 3 presents three EGN/EEN pairs illustrating the diversity of implicit ref
 </p>
 
 <div class="example-pair">
-  <p class="example-header">Example 1: Organization</p>
+  <p class="example-header">Example 1: Event (6 cues)</p>
   <p class="egn-label">EGN</p>
   <p class="example-text">
-    "I was called to the <span class="entity-tag">University of California, Berkeley</span> to teach Latin, which was an exciting opportunity to be part of a growing university. I also created and ran the <span class="entity-tag">University of California</span> Extension for over fifteen years, developing curricula that served diverse groups including immigrants, laborers, and prisoners."
+    "After training, we were shipped overseas to the <span class="entity-tag">European Theater of Operations</span> during World War II. We left from <span class="entity-tag">New Rochelle, New York</span>, aboard the <span class="entity-tag">Queen Elizabeth I</span> and landed first in <span class="entity-tag">Glasgow, Scotland</span>, before moving to England and then on to France."
   </p>
   <p class="een-label">EEN</p>
   <p class="example-text">
-    "I was called to teach Latin at <span class="elided-tag">a major public university in California</span>, which was an exciting opportunity to be part of a growing institution. I also created and ran <span class="elided-tag">the university's extension program</span> for over fifteen years, developing curricula that served diverse groups including immigrants, laborers, and prisoners."
+    "After training, we were shipped overseas to <span class="elided-tag">the main European combat zone</span> during World War II. We left from <span class="elided-tag">a port in New York</span> aboard <span class="elided-tag">a famous ocean liner</span> and landed first in <span class="elided-tag">Scotland</span> before moving to England and then on to France."
   </p>
-  <p style="text-indent:0; font-size:7.5pt; color:#555;"><strong>Gold:</strong> University of California, Berkeley (Q168756)</p>
+  <p style="text-indent:0; font-size:7.5pt; color:#555;"><strong>Gold:</strong> European Theater of Operations (Q2360801) | <strong>Cues:</strong> WWII, port in New York, ocean liner, Glasgow, Scotland, England, France</p>
 </div>
 
 <div class="example-pair">
@@ -776,20 +777,39 @@ Figure 3 presents three EGN/EEN pairs illustrating the diversity of implicit ref
 </div>
 
 <div class="example-pair">
-  <p class="example-header">Example 3: Organization (subtle)</p>
+  <p class="example-header">Example 3: Organization (5 cues)</p>
   <p class="egn-label">EGN</p>
   <p class="example-text">
-    "I played a key role in establishing the <span class="entity-tag">English-Speaking Union</span>, an organization dedicated to promoting international understanding through the English language. This reflected my interest in language education and cultural exchange."
+    "After leaving the Navy in 1966, I worked in the warehouse at <span class="entity-tag">Montgomery Ward</span> in <span class="entity-tag">Redwood City</span>. It was a non-union job and pretty low-key, just me and an older lady doing pricing and warehouse work."
   </p>
   <p class="een-label">EEN</p>
   <p class="example-text">
-    "I played a key role in establishing <span class="elided-tag">an organization dedicated to promoting international understanding through the English language</span>. This reflected my interest in language education and cultural exchange."
+    "After leaving <span class="elided-tag">the Navy</span> in <span class="elided-tag">1966</span>, I worked in the warehouse at <span class="elided-tag">a national department store</span> in <span class="elided-tag">Redwood City</span>. It was a <span class="elided-tag">non-union</span> job and pretty low-key, just me and an older lady doing pricing and warehouse work."
   </p>
-  <p style="text-indent:0; font-size:7.5pt; color:#555;"><strong>Gold:</strong> English-Speaking Union (Q5378146)</p>
+  <p style="text-indent:0; font-size:7.5pt; color:#555;"><strong>Gold:</strong> Montgomery Ward (Q3046) | <strong>Cues:</strong> Navy 1966, warehouse, national department store, Redwood City, non-union</p>
 </div>
 
-<p class="fig-caption" style="margin-top:0.3em;"><strong>Figure 3:</strong> Three EGN/EEN pairs from IRC-Bench. Blue highlights mark explicit entity mentions in EGNs; red highlights show the elided descriptions in EENs. Example 3 illustrates a particularly challenging case where the EEN provides only a generic functional description.</p>
+<p class="fig-caption" style="margin-top:0.3em;"><strong>Figure 3:</strong> Three EGN/EEN pairs from IRC-Bench. Blue highlights mark explicit entity mentions in EGNs; red highlights show the elided descriptions in EENs. Examples span Event, Event, and Organization types, demonstrating how distributed cues (dates, locations, roles, institutions) jointly identify the entity.</p>
 
+
+<h3>3.8 Benchmark Calibration</h3>
+
+<p class="no-indent">
+To validate the quality and difficulty calibration of IRC-Bench, we conducted an automated quality assessment on 500 randomly sampled test instances using GPT-4o as an evaluator. Each sample was assessed along two dimensions: narrative naturalness (1 to 5 scale) and cue-based recoverability (whether a knowledgeable human could identify the entity from the EEN alone, given the entity identity for reference).
+</p>
+
+<p>
+The EEN narratives achieve a mean naturalness score of 4.87 out of 5, with 87% of samples rated at the maximum score, confirming that the entity elision process produces fluent, natural-sounding first-person text. For recoverability, 42.0% of samples were judged as recoverable (5.8% "yes," 36.2% "probably"), 7.2% as "possible with expertise," and 50.8% as "unlikely" or "no." This distribution indicates well-calibrated difficulty: the benchmark is challenging enough to be non-trivial (half the samples resist even informed human judgment) yet solvable enough to reward strong models. Notably, the 42% recoverability rate closely matches the performance of the best systems (O10 QLoRA at 41.4% alias match; C5 DPR at 42.8% alias Hit@1), suggesting that top models are approaching the practical ceiling imposed by the available contextual cues. Cue sufficiency was rated at a mean of 3.0 out of 5, confirming moderate overall difficulty with substantial variance across samples.
+</p>
+
+</main>
+
+<div class="figure full-width">
+  <img src="figures/fig7_benchmark_quality.png" alt="Benchmark quality validation results" style="max-width: 65%;">
+  <p class="fig-caption"><strong>Figure 4:</strong> IRC-Bench quality validation (n=500, GPT-4o judge). Left: distribution of naturalness scores (mean 4.87/5). Right: recoverability judgments showing well-calibrated difficulty.</p>
+</div>
+
+<main class="two-column">
 
 <!-- ──────────────────────────────────────────────────────────────────────── -->
 <!-- 4. METHODOLOGY                                                         -->
@@ -828,6 +848,10 @@ $$\text{but}\; C(T,e^*) \Rightarrow e^*,\; c_i \text{ non-contiguous}$$
 
 <p>
 That is, no single contiguous substring of \(T\) is sufficient to identify \(e^*\), but the set of distributed cues collectively determines it. This non-locality has direct implications for method design: approaches that rely on local span matching (NER, EL) or single-vector passage encoding (dense retrieval) are structurally disadvantaged relative to approaches that can integrate information across the full text (LLMs with sufficient context windows).
+</p>
+
+<p>
+We empirically validate non-locality by comparing GPT-4o zero-shot accuracy on full implicit texts versus individual sentences in isolation (n=200). Full-text accuracy reaches 33.5%, while single-sentence accuracy drops to 12.9%, a gap of 20.6 percentage points. This confirms that entity recognition requires integrating cues distributed across the entire passage; no single sentence carries sufficient information in the majority of cases.
 </p>
 
 <h3>4.3 Open-World Methods</h3>
@@ -957,9 +981,9 @@ Model scale is the dominant factor for zero-shot performance: moving from Llama 
       <tr><td>O5</td><td>Llama 3.1 8B</td><td>Zero-shot</td><td>13.92</td><td>14.81</td><td>19.47</td><td>20.18</td></tr>
       <tr><td>O6</td><td>Llama 3.1 8B</td><td>Few-shot</td><td>17.83</td><td>18.80</td><td>24.61</td><td>25.66</td></tr>
       <tr style="border-top: 1px solid #aaa;"><td>O10</td><td>Llama 3.1 8B (QLoRA)</td><td>Fine-tuned</td><td class="best">38.94</td><td class="best">41.42</td><td class="best">47.90</td><td class="best">51.59</td></tr>
-      <tr style="border-top: 1px solid #aaa;"><td>O11</td><td>GPT-4.1-mini</td><td>CoT</td><td>18.93</td><td>20.27</td><td>26.48</td><td>27.69</td></tr>
-      <tr><td>O12</td><td>GPT-4o</td><td>CoT</td><td>22.51</td><td>23.89</td><td>30.91</td><td>32.33</td></tr>
-      <tr><td>O13</td><td>Llama 3.1 8B</td><td>CoT</td><td>6.22</td><td>6.69</td><td>11.72</td><td>12.24</td></tr>
+      <tr style="border-top: 1px solid #aaa;"><td>O11/b</td><td>GPT-4.1-mini CoT</td><td>t=0.7 / t=0.0</td><td>18.93 / 19.44</td><td>20.27 / 20.76</td><td>26.48 / 26.87</td><td>27.69 / 28.10</td></tr>
+      <tr><td>O12/b</td><td>GPT-4o CoT</td><td>t=0.7 / t=0.0</td><td>22.51 / 25.57</td><td>23.89 / 33.54</td><td>30.91 / 37.21</td><td>32.33 / 38.92</td></tr>
+      <tr><td>O13</td><td>Llama 3.1 8B CoT</td><td>t=0.7</td><td>6.22</td><td>6.69</td><td>11.72</td><td>12.24</td></tr>
       <tr style="border-top: 1px solid #aaa;"><td>RAG1</td><td>BGE + GPT-4.1-mini</td><td>RAG</td><td>19.71</td><td>20.53</td><td>28.75</td><td>29.55</td></tr>
     </tbody>
   </table>
@@ -1186,7 +1210,7 @@ We summarize the principal findings as a numbered list, with each claim supporte
 </div>
 
 <div class="finding">
-<p><strong>Finding 3: Chain-of-thought degrades all models.</strong> CoT reduces GPT-4o from 33.30% (ZS alias) to 23.89% (a 28.3% relative drop), GPT-4.1-mini from 25.71% (ZS exact) to 18.93% (a 26.4% drop), and Llama 3.1 8B from 13.92% (ZS exact) to 6.22% (a 55.3% drop).</p>
+<p><strong>Finding 3: Chain-of-thought degrades all models.</strong> CoT reduces GPT-4o from 33.30% (ZS alias) to 23.89% (a 28.3% relative drop), GPT-4.1-mini from 25.71% (ZS exact) to 18.93% (a 26.4% drop), and Llama 3.1 8B from 13.92% (ZS exact) to 6.22% (a 55.3% drop). To rule out temperature as a confounding factor (CoT experiments used t=0.7 vs. t=0.0 for direct prompting), we repeated O11 and O12 at t=0.0. For GPT-4.1-mini, the effect is negligible (+0.5pp alias), confirming that CoT structurally degrades performance on this task. For GPT-4o, lowering temperature recovers 9.6pp (alias rising from 23.9% to 33.5%), reaching parity with zero-shot (33.3%) but not exceeding it. This indicates that for GPT-4o, the temperature difference accounts for the majority of the observed CoT penalty, while the reasoning structure itself neither helps nor hurts. For smaller models, CoT is genuinely harmful regardless of temperature.</p>
 </div>
 
 <div class="finding">
@@ -1259,7 +1283,11 @@ The consistent degradation under CoT prompting is perhaps the most counterintuit
 </p>
 
 <p>
-When forced to reason step by step, the model tends to fixate on individual cues in isolation, often arriving at a locally plausible but globally incorrect entity. For instance, a CoT trace might correctly identify "December 7, 1941" and "Hawaii" but then erroneously conclude the entity is "Hickam Air Force Base" rather than "Attack on Pearl Harbor," because the step-by-step process loses sight of the broader narrative context. This finding suggests that implicit entity recognition belongs to a class of tasks where recognition is fundamentally gestalt: the whole (the cue constellation) is more informative than the sum of its parts (individual cues analyzed sequentially). The use of higher temperature (0.7 vs. 0.0) in CoT experiments may also contribute additional noise to the reasoning process.
+When forced to reason step by step, the model tends to fixate on individual cues in isolation, often arriving at a locally plausible but globally incorrect entity. For instance, a CoT trace might correctly identify "December 7, 1941" and "Hawaii" but then erroneously conclude the entity is "Hickam Air Force Base" rather than "Attack on Pearl Harbor," because the step-by-step process loses sight of the broader narrative context. This finding suggests that implicit entity recognition belongs to a class of tasks where recognition is fundamentally gestalt: the whole (the cue constellation) is more informative than the sum of its parts (individual cues analyzed sequentially).
+</p>
+
+<p>
+A temperature control experiment (O11b, O12b) clarifies the role of sampling noise versus reasoning structure. For GPT-4.1-mini, repeating CoT at t=0.0 yields only +0.5pp over t=0.7, confirming that the degradation is structural rather than noise-driven. For GPT-4o, lowering temperature recovers most of the gap (alias rising from 23.9% to 33.5%), reaching parity with zero-shot (33.3%) but not exceeding it. This reveals a nuanced picture: for larger models, CoT neither helps nor hurts once temperature is controlled, while for smaller models, the step-by-step decomposition is genuinely harmful regardless of temperature. The failure is therefore model-size-dependent: smaller models lack the capacity to maintain holistic context while simultaneously verbalizing intermediate reasoning steps.
 </p>
 
 <h3>7.2 Why RAG Underperforms</h3>
@@ -1293,7 +1321,7 @@ Entity difficulty correlates with two factors: the specificity of available cues
 <h3>7.6 Limitations</h3>
 
 <p class="no-indent">
-Several limitations should be acknowledged. First, the benchmark is constructed from English-language oral histories focused primarily on American experiences, limiting cross-lingual and cross-cultural generalization. Second, the entity elision process, though validated, is LLM-generated and may not perfectly replicate the patterns of naturally occurring implicit references. The error analysis (Example 5 in Appendix C) reveals occasional pipeline artifacts where entity names are not fully removed. Third, the alias-aware evaluation, while more permissive than exact match, still penalizes predictions that are semantically correct but use an unregistered surface form. Fourth, the CoT experiments use temperature 0.7 (vs. 0.0 for direct prompting), which conflates the effect of reasoning structure with sampling noise; future work should disentangle these factors. Finally, the QLoRA fine-tuning was conducted on a single GPU (NVIDIA RTX 2060, 6 GB VRAM), limiting exploration of larger batch sizes and longer sequence lengths.
+Several limitations should be acknowledged. First, the benchmark is constructed from English-language oral histories focused primarily on American experiences, limiting cross-lingual and cross-cultural generalization. Second, the entity elision process, though validated, is LLM-generated and may not perfectly replicate the patterns of naturally occurring implicit references. The error analysis (Example 5 in Appendix C) reveals occasional pipeline artifacts where entity names are not fully removed. Third, the alias-aware evaluation, while more permissive than exact match, still penalizes predictions that are semantically correct but use an unregistered surface form. Fourth, although temperature control experiments (O11b, O12b) disentangle sampling noise from reasoning structure for GPT-4o and GPT-4.1-mini, similar controls were not run for Llama 3.1 8B. Finally, the QLoRA fine-tuning was conducted on a single GPU (NVIDIA RTX 2060, 6 GB VRAM), limiting exploration of larger batch sizes and longer sequence lengths.
 </p>
 
 </main>
@@ -1314,7 +1342,7 @@ Several limitations should be acknowledged. First, the benchmark is constructed 
 <h2 id="sec-conclusion">8. Conclusion</h2>
 
 <p class="no-indent">
-We have extended implicit entity recognition, previously studied in short social-media text [21, 22], to the domain of long-form reminiscence narratives, formalizing the non-locality property that distinguishes this setting. We release IRC-Bench, a benchmark of 25,136 samples spanning 12,337 Wikidata-linked entities from 1,994 oral history transcripts across 11 thematic domains. Our systematic evaluation across 17 experimental configurations reveals eight key findings.
+We have extended implicit entity recognition, previously studied in short social-media text [21, 22], to the domain of long-form reminiscence narratives, formalizing the non-locality property that distinguishes this setting and empirically validating it through a sentence-level ablation showing a 20.6pp accuracy gap between full-text and single-sentence inference. We release IRC-Bench, a benchmark of 25,136 samples spanning 12,337 Wikidata-linked entities from 1,994 oral history transcripts across 11 thematic domains. Our systematic evaluation across 19 experimental configurations reveals eight key findings.
 </p>
 
 <p>
@@ -1322,7 +1350,7 @@ First, fine-tuning is the single most impactful intervention. QLoRA-adapted Llam
 </p>
 
 <p>
-Second, chain-of-thought prompting consistently degrades performance (by 4.51 to 7.70 pp across models), suggesting that implicit entity recognition requires holistic pattern matching rather than sequential reasoning. Third, retrieval-augmented generation underperforms direct LLM inference due to the non-locality of implicit cues. Fourth, model scale is the dominant factor in zero-shot open-world accuracy, with performance spanning from 13.92% (Llama 3.1 8B) to 27.02% (GPT-4o) in exact match. Fifth, entity descriptions are consistently the best representation for dense retrieval, outperforming both entity names and Wikipedia lead sentences.
+Second, chain-of-thought prompting degrades smaller models (by 4.51 to 7.70 pp), while temperature control experiments reveal that for GPT-4o, the observed CoT penalty is largely attributable to the higher sampling temperature rather than the reasoning structure itself. In all cases, CoT fails to exceed zero-shot performance, confirming that implicit entity recognition requires holistic pattern matching rather than sequential reasoning. Third, retrieval-augmented generation underperforms direct LLM inference due to the non-locality of implicit cues. Fourth, model scale is the dominant factor in zero-shot open-world accuracy, with performance spanning from 13.92% (Llama 3.1 8B) to 27.02% (GPT-4o) in exact match. Fifth, entity descriptions are consistently the best representation for dense retrieval, outperforming both entity names and Wikipedia lead sentences.
 </p>
 
 <p>
@@ -1646,18 +1674,18 @@ We present five correct and five incorrect predictions from GPT-4o few-shot (O2)
 
 <div class="example-pair">
   <p class="example-header">Correct Example 4</p>
-  <p class="example-text">"A city in western Kentucky was not directly discussed in detail, but it is one of the locations where the state's environmental programs have field offices..."</p>
-  <p style="text-indent:0; font-size:7.5pt; color:#555;"><strong>Gold:</strong> Paducah, Kentucky &nbsp;|&nbsp; <strong>Prediction:</strong> Paducah, Kentucky &nbsp; <span style="color:#2e7d32;">&#10004;</span></p>
+  <p class="example-text">"My grandfather was a teenager during the major 1950s political upheaval in our Caribbean homeland and once found a journal from someone fighting with the revolutionary leader. That period was filled with fear for my family and community. The uprising brought about communism, which had some positive effects like high literacy rates, but also caused extreme poverty and suffering. The memories of that era shape how older immigrants from that island view politics in the United States today."</p>
+  <p style="text-indent:0; font-size:7.5pt; color:#555;"><strong>Gold:</strong> Cuban Revolution &nbsp;|&nbsp; <strong>Prediction:</strong> Cuban Revolution &nbsp; <span style="color:#2e7d32;">&#10004;</span></p>
 </div>
 
 <div class="example-pair">
   <p class="example-header">Correct Example 5</p>
-  <p class="example-text">"This major Georgia city was not mentioned in my narrative, so I have no personal history or experiences related to that place."</p>
-  <p style="text-indent:0; font-size:7.5pt; color:#555;"><strong>Gold:</strong> Atlanta &nbsp;|&nbsp; <strong>Prediction:</strong> Atlanta &nbsp; <span style="color:#2e7d32;">&#10004;</span></p>
+  <p class="example-text">"He and I were close when he was Senate majority leader, and he was very cordial to me when I first came to the Senate. He gave me important committee assignments, including chairing the Calendar Committee and seats on the Agricultural and Finance Committees. He was probably the most able majority leader in history, knowing the Senate's personalities and how to motivate them. As President, he overcommitted on social programs, which I believe contributed to the huge deficits we face today."</p>
+  <p style="text-indent:0; font-size:7.5pt; color:#555;"><strong>Gold:</strong> Lyndon B. Johnson &nbsp;|&nbsp; <strong>Prediction:</strong> Lyndon B. Johnson &nbsp; <span style="color:#2e7d32;">&#10004;</span></p>
 </div>
 
 <p>
-These correct examples demonstrate cases where geographic cues ("capital city of Germany," "Pacific island territory," "western Kentucky," "Georgia") and contextual details (the Nazi regime, sugar plantations) are sufficiently distinctive for the model to identify the entity.
+These correct examples demonstrate cases where geographic cues ("capital city of Germany," "Pacific island territory"), temporal markers ("1950s," "Senate majority leader"), and contextual details (the Nazi regime, sugar plantations, Caribbean communism) are sufficiently distinctive for the model to identify entities across Place, Event, and Person types.
 </p>
 
 <h3>C.2 Incorrect Predictions (O2: GPT-4o Few-shot)</h3>
@@ -1691,14 +1719,14 @@ These correct examples demonstrate cases where geographic cues ("capital city of
 </div>
 
 <div class="example-pair">
-  <p class="example-header">Incorrect Example 5: Pipeline artifact</p>
-  <p class="example-text">"Jamilia Hanosh, also known as Jimmy, is my grandmother and the daughter of Fahima Hanosh and John Oirathy. She was born and raised in Michigan, part of a family that valued assimilation and education."</p>
-  <p style="text-indent:0; font-size:7.5pt; color:#555;"><strong>Gold:</strong> Jamilia Hanosh &nbsp;|&nbsp; <strong>Prediction:</strong> United States &nbsp; <span style="color:#c62828;">&#10008;</span></p>
-  <p style="text-indent:0; font-size:7pt; color:#888;">Despite the entity name appearing in the text (a pipeline failure where the name was not properly anonymized), the model still predicted incorrectly.</p>
+  <p class="example-header">Incorrect Example 5: Same-type, near miss</p>
+  <p class="example-text">"He was my Ph.D. advisor at the California university starting in 1956. He was a brilliant economist who later won the Nobel Prize, and studying under him greatly influenced my academic development. His mentorship helped shape my approach to economics and game theory."</p>
+  <p style="text-indent:0; font-size:7.5pt; color:#555;"><strong>Gold:</strong> Kenneth Arrow &nbsp;|&nbsp; <strong>Prediction:</strong> John Forbes Nash Jr. &nbsp; <span style="color:#c62828;">&#10008;</span></p>
+  <p style="text-indent:0; font-size:7pt; color:#888;">The model predicted a Nobel laureate economist associated with game theory, but confused the advisor (Arrow, at Stanford) with another famous figure in the same field.</p>
 </div>
 
 <p>
-These errors illustrate the principal challenges of implicit entity recognition: distinguishing the referenced entity from related contextual entities (Example 4), resolving references to obscure individuals (Examples 1, 3), and focusing on the correct cue among multiple competing signals (Example 2). Example 5 also reveals an occasional pipeline artifact where entity anonymization fails to remove the name from the text.
+These errors illustrate the principal challenges of implicit entity recognition: distinguishing the referenced entity from related contextual entities (Examples 4, 5), resolving references to obscure individuals (Examples 1, 3), and focusing on the correct cue among multiple competing signals (Example 2). Example 5 is particularly instructive: both Kenneth Arrow and John Nash are Nobel laureate economists linked to game theory, but the cues (Ph.D. advisor, California, 1956) point specifically to Arrow at Stanford.
 </p>
 
 </main>
