@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>NeurIPS Paper Checklist: IRC-Bench</title>
+<style>
+:root { --text: #1a1a1a; --accent: #0072B2; }
+body {
+  font-family: "Times New Roman", Georgia, serif;
+  color: var(--text); line-height: 1.5;
+  max-width: 5.5in; margin: 0 auto; padding: 1in 0.5in;
+  font-size: 10pt;
+}
+h1 { font-size: 14pt; text-align: center; margin-bottom: 0.5em; }
+.meta { text-align: center; font-size: 9pt; color: #555; margin-bottom: 1.5em; }
+/* ── Checklist ── */
+.checklist {
+  margin-top: 1.2em;
+  border-top: 1px solid #ccc;
+  padding-top: 0.5em;
+}
+.checklist h2 { font-size: 12pt; }
+.checklist-item {
+  margin-bottom: 0.5em;
+  font-size: 9pt;
+  line-height: 1.25;
+  text-indent: 0;
+}
+.checklist-item strong { color: var(--text); }
+.checklist-q { font-weight: 600; }
+.checklist-a { margin-left: 1em; }
+</style>
+</head>
+<body>
+<h1>NeurIPS Paper Checklist</h1>
+<p class="meta">
+  IRC-Bench: Recognizing Entities from Contextual Cues in First-Person Reminiscences<br>
+  Alexander Apartsin, Eden Moran, Yehudit Aperstein
+</p>
+<!-- ═══════════════════════════════════════════════════════════ -->
+<div class="checklist">
+<h2>NeurIPS Paper Checklist</h2>
+
+<p class="no-indent" style="font-size:9pt; margin-bottom:0.8em;">
+The following checklist is required for all NeurIPS submissions. Answers are provided with justifications relevant to this paper.
+</p>
+
+<div class="checklist-item">
+<p class="checklist-q">1. Claims</p>
+<p class="no-indent"><em>Question:</em> Do the main claims made in the abstract and introduction accurately reflect the paper's contributions and scope?</p>
+<p class="checklist-a"><strong>Answer:</strong> Yes.</p>
+<p class="checklist-a"><strong>Justification:</strong> All claims (dataset size, non-locality property, 19 configurations, specific performance numbers) are supported by the experimental results in Section 5. Limitations are discussed in Section 6.</p>
+</div>
+
+<div class="checklist-item">
+<p class="checklist-q">2. Limitations</p>
+<p class="no-indent"><em>Question:</em> Does the paper discuss the limitations of the work performed by the authors?</p>
+<p class="checklist-a"><strong>Answer:</strong> Yes.</p>
+<p class="checklist-a"><strong>Justification:</strong> Section 6 discusses limitations including English-only scope, LLM-generated elision, alias-aware evaluation gaps, and QLoRA sequence length truncation.</p>
+</div>
+
+<div class="checklist-item">
+<p class="checklist-q">3. Theory Assumptions and Proofs</p>
+<p class="no-indent"><em>Question:</em> For each theoretical result, does the paper provide the full set of assumptions and a complete (or correct) proof?</p>
+<p class="checklist-a"><strong>Answer:</strong> NA.</p>
+<p class="checklist-a"><strong>Justification:</strong> The paper does not include formal theorems. The non-locality property (Section 4.2) is defined formally and validated empirically rather than proved theoretically.</p>
+</div>
+
+<div class="checklist-item">
+<p class="checklist-q">4. Experimental Result Reproducibility</p>
+<p class="no-indent"><em>Question:</em> Does the paper fully disclose all the information needed to reproduce the main experimental results of the paper to the extent that it affects the main claims and/or conclusions of the paper?</p>
+<p class="checklist-a"><strong>Answer:</strong> Yes.</p>
+<p class="checklist-a"><strong>Justification:</strong> All model names, hyperparameters (Section 4.3, 4.4), evaluation metrics (Section 4.6), data splits (Table 2), and prompt templates are fully specified. Code and data will be publicly released.</p>
+</div>
+
+<div class="checklist-item">
+<p class="checklist-q">5. Open Access to Data and Code</p>
+<p class="no-indent"><em>Question:</em> Does the paper provide open access to the data and code, with sufficient instructions to faithfully reproduce the main experimental results?</p>
+<p class="checklist-a"><strong>Answer:</strong> Yes.</p>
+<p class="checklist-a"><strong>Justification:</strong> All data, code, and evaluation tools are publicly released under an open license.</p>
+</div>
+
+<div class="checklist-item">
+<p class="checklist-q">6. Experimental Setting/Details</p>
+<p class="no-indent"><em>Question:</em> Does the paper specify all the training and test details necessary to understand the results?</p>
+<p class="checklist-a"><strong>Answer:</strong> Yes.</p>
+<p class="checklist-a"><strong>Justification:</strong> Training details (QLoRA: 4-bit NF4, rank 16, alpha 32, 2 epochs; DPR: 3 epochs, batch 48, lr 2e-5), evaluation protocol (four-tier matching), and statistical tests (McNemar's) are fully specified.</p>
+</div>
+
+<div class="checklist-item">
+<p class="checklist-q">7. Experiment Statistical Significance</p>
+<p class="no-indent"><em>Question:</em> Does the paper report error bars, confidence intervals, or statistical significance tests?</p>
+<p class="checklist-a"><strong>Answer:</strong> Yes.</p>
+<p class="checklist-a"><strong>Justification:</strong> All key comparisons use McNemar's test with continuity correction (p &lt; 0.001). Bootstrap confidence intervals (1,000 resamples) are computed for main results.</p>
+</div>
+
+<div class="checklist-item">
+<p class="checklist-q">8. Experiments Compute Resources</p>
+<p class="no-indent"><em>Question:</em> For each experiment, does the paper provide sufficient information on the computer resources needed to reproduce them?</p>
+<p class="checklist-a"><strong>Answer:</strong> Yes.</p>
+<p class="checklist-a"><strong>Justification:</strong> QLoRA fine-tuning was performed on a single NVIDIA RTX GPU with 6GB VRAM. DPR training used similar consumer-grade hardware. API-based models (GPT-4o, GPT-4.1-mini) were accessed via OpenAI Batch API.</p>
+</div>
+
+<div class="checklist-item">
+<p class="checklist-q">9. NeurIPS Code of Ethics</p>
+<p class="no-indent"><em>Question:</em> Does the research conform to the NeurIPS Code of Ethics?</p>
+<p class="checklist-a"><strong>Answer:</strong> Yes.</p>
+<p class="checklist-a"><strong>Justification:</strong> The research uses publicly available oral history transcripts from institutional archives. No human subjects were recruited for this study.</p>
+</div>
+
+<div class="checklist-item">
+<p class="checklist-q">10. Broader Impacts</p>
+<p class="no-indent"><em>Question:</em> Does the paper discuss both potential positive societal impacts and negative societal impacts of the work?</p>
+<p class="checklist-a"><strong>Answer:</strong> Yes.</p>
+<p class="checklist-a"><strong>Justification:</strong> Positive impacts include improved accessibility of oral history archives and support for reminiscence therapy. The English-only, American-focused scope limits generalizability. The benchmark does not enable surveillance or profiling capabilities beyond what existing NER systems provide.</p>
+</div>
+
+<div class="checklist-item">
+<p class="checklist-q">11. Safeguards</p>
+<p class="no-indent"><em>Question:</em> Does the paper describe safeguards that have been put in place for responsible release of data or models?</p>
+<p class="checklist-a"><strong>Answer:</strong> Yes.</p>
+<p class="checklist-a"><strong>Justification:</strong> The dataset is derived from publicly available oral history archives that were already consented and released by their respective institutions. No private or sensitive information beyond what is in the public transcripts is included.</p>
+</div>
+
+<div class="checklist-item">
+<p class="checklist-q">12. Licenses for Existing Assets</p>
+<p class="no-indent"><em>Question:</em> Are the creators of existing assets (data, code, models) properly credited and are the license terms respected?</p>
+<p class="checklist-a"><strong>Answer:</strong> Yes.</p>
+<p class="checklist-a"><strong>Justification:</strong> All source collections are cited (Table 1). Models (Llama 3.1, BGE-base) are cited with their respective papers. All assets are used under their original licenses.</p>
+</div>
+
+<div class="checklist-item">
+<p class="checklist-q">13. New Assets</p>
+<p class="no-indent"><em>Question:</em> Are new assets introduced in the paper well documented and is the documentation provided alongside the assets?</p>
+<p class="checklist-a"><strong>Answer:</strong> Yes.</p>
+<p class="checklist-a"><strong>Justification:</strong> IRC-Bench is documented with full statistics (Tables 1, 2), construction pipeline (Section 3, Figure 1), quality validation (Section 6), and will be released with a datasheet and usage documentation.</p>
+</div>
+
+<div class="checklist-item">
+<p class="checklist-q">14. Crowdsourcing and Research with Human Subjects</p>
+<p class="no-indent"><em>Question:</em> For crowdsourcing experiments and research with human subjects, does the paper include the full text of instructions given to participants and screenshots, if applicable?</p>
+<p class="checklist-a"><strong>Answer:</strong> NA.</p>
+<p class="checklist-a"><strong>Justification:</strong> No crowdsourcing or human subjects research was conducted. Quality validation used automated GPT-4o assessment rather than human annotators.</p>
+</div>
+
+<div class="checklist-item">
+<p class="checklist-q">15. IRB Approvals or Equivalent for Research with Human Subjects</p>
+<p class="no-indent"><em>Question:</em> Does the paper describe potential risks incurred by study participants?</p>
+<p class="checklist-a"><strong>Answer:</strong> NA.</p>
+<p class="checklist-a"><strong>Justification:</strong> No human subjects were involved. The data consists of previously published oral history transcripts from institutional archives.</p>
+</div>
+
+<div class="checklist-item">
+<p class="checklist-q">16. Dataset License</p>
+<p class="no-indent"><em>Question:</em> Does the dataset have a license consistent with its intended use?</p>
+<p class="checklist-a"><strong>Answer:</strong> Yes.</p>
+<p class="checklist-a"><strong>Justification:</strong> IRC-Bench will be released under a permissive open-source license for research use. Source transcripts are from public domain and openly licensed institutional archives.</p>
+</div>
+
+<div class="checklist-item">
+<p class="checklist-q">17. Consent</p>
+<p class="no-indent"><em>Question:</em> If the dataset relates to people, was consent obtained?</p>
+<p class="checklist-a"><strong>Answer:</strong> Yes.</p>
+<p class="checklist-a"><strong>Justification:</strong> All oral history transcripts were collected and published by their respective institutional archives (Library of Congress, universities, memorial projects) with informed consent from participants as part of standard oral history collection protocols.</p>
+</div>
+
+<div class="checklist-item">
+<p class="checklist-q">18. Personal Identifiable Information (PII)</p>
+<p class="no-indent"><em>Question:</em> Does the dataset contain data that might be considered personal, sensitive, or private?</p>
+<p class="checklist-a"><strong>Answer:</strong> Yes.</p>
+<p class="checklist-a"><strong>Justification:</strong> The oral history transcripts contain personal narratives and names of individuals. However, all transcripts were previously published by their respective archives with participant consent, and the benchmark samples are derivative summaries rather than verbatim transcript excerpts.</p>
+</div>
+
+</div>
+</body>
+</html>
