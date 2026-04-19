@@ -462,9 +462,12 @@ tr:nth-child(even) { background: var(--bg-alt); }
 }
 /* ---- Version nav ---- */
 .version-nav {
-  position: absolute; top: 0.3in; right: 0.3in;
-  font-family: Arial, sans-serif; font-size: 8pt;
+  position: fixed; top: 10px; right: 10px;
+  font-family: Arial, sans-serif; font-size: 9pt;
   display: flex; gap: 0.8em;
+  background: #fff; padding: 6px 12px; border: 1px solid #ddd;
+  border-radius: 4px; box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+  z-index: 999;
 }
 .version-nav a { color: var(--accent); text-decoration: none; }
 .version-nav a:hover { text-decoration: underline; }
@@ -477,7 +480,7 @@ tr:nth-child(even) { background: var(--bg-alt); }
 <!-- ════════════════════════════════════════════════════════════════════════ -->
 <!-- HEADER                                                                 -->
 <!-- ════════════════════════════════════════════════════════════════════════ -->
-<header class="header-block" style="position:relative;">
+<header class="header-block" >
 <div class="version-nav">
   <span class="current">Long</span> (<a href="article_v4.html">HTML</a> | <a href="article_v4.docx">Doc</a>)
   &middot;
@@ -880,7 +883,7 @@ We evaluate LLMs in a generative setting where each model receives the implicit 
 <h4>4.3.2 Models</h4>
 
 <p class="no-indent">
-We evaluate four LLM families in the open-world setting: GPT-4o [37] and GPT-4.1-mini (via OpenAI Batch API), and Llama 3.1 8B Instruct [36] via OpenRouter API). For GPT-4o, GPT-4.1-mini, and Llama 3.1 8B, we additionally evaluate chain-of-thought (CoT) prompting, which instructs the model to reason step-by-step before producing the final answer. CoT experiments use temperature 0.7 and a maximum of 300 output tokens to accommodate the reasoning trace.
+We evaluate four LLM families in the open-world setting: GPT-4o [37] and GPT-4.1-mini (via OpenAI Batch API), and Llama 3.1 8B Instruct [35, 36] via OpenRouter API). For GPT-4o, GPT-4.1-mini, and Llama 3.1 8B, we additionally evaluate chain-of-thought (CoT) prompting, which instructs the model to reason step-by-step before producing the final answer. CoT experiments use temperature 0.7 and a maximum of 300 output tokens to accommodate the reasoning trace.
 </p>
 
 <h4>4.3.3 QLoRA Fine-tuning (O10)</h4>
@@ -1372,7 +1375,7 @@ Future work should explore several promising directions: multi-modal implicit en
 
 <p><span class="ref-num">[10]</span> Devlin, J., Chang, M.-W., Lee, K., and Toutanova, K. (2019). BERT: Pre-training of deep bidirectional transformers for language understanding. In <em>Proc. NAACL</em>, pages 4171-4186.</p>
 
-<p><span class="ref-num">[11]</span> Xie, T., Li, J., Sun, Z., Li, N., Rich, K., and Glass, J. (2023). An empirical study on ChatGPT for zero-shot NER. <em>arXiv preprint arXiv:2310.10035</em>.</p>
+<p><span class="ref-num">[11]</span> Xie, T., Li, Q., Zhang, J., Zhang, Y., Liu, Z., and Wang, H. (2023). Empirical study of zero-shot NER with ChatGPT. In <em>Proc. EMNLP</em>, pages 7935-7956.</p>
 
 <p><span class="ref-num">[12]</span> Ashok, D. and Lipton, Z. C. (2023). PromptNER: Prompting for named entity recognition. <em>arXiv preprint arXiv:2305.15444</em>.</p>
 
@@ -1388,7 +1391,7 @@ Future work should explore several promising directions: multi-modal implicit en
 
 <p><span class="ref-num">[18]</span> De Cao, N., Izacard, G., Riedel, S., and Petroni, F. (2021). Autoregressive entity retrieval. In <em>Proc. ICLR</em>.</p>
 
-<p><span class="ref-num">[19]</span> Ayoola, T., Shivade, C., Mukherjee, T., Zhu, Y., and Korycinski, D. (2022). ReFinED: An efficient zero-shot-capable approach to end-to-end entity linking. In <em>Proc. NAACL</em>.</p>
+<p><span class="ref-num">[19]</span> Ayoola, T., Tyagi, S., Fisher, J., Christodoulopoulos, C., and Pierleoni, A. (2022). ReFinED: An efficient zero-shot-capable approach to end-to-end entity linking. In <em>Proc. NAACL (Industry Track)</em>.</p>
 
 <p><span class="ref-num">[20]</span> Botha, J. A., Shan, Z., and Gillick, D. (2020). Entity linking in 100 languages. In <em>Proc. EMNLP</em>, pages 7833-7845.</p>
 
