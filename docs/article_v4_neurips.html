@@ -1,0 +1,863 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>IRC-Bench: Recognizing Entities from Contextual Cues in First-Person Reminiscences (NeurIPS 2026)</title>
+
+<!-- KaTeX -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css">
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.js"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/contrib/auto-render.min.js"
+  onload="renderMathInElement(document.body, {delimiters:[{left:'$$',right:'$$',display:true},{left:'\\(',right:'\\)',display:false}]});"></script>
+
+<style>
+/* ── Reset & Base ── */
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+:root {
+  --text-width: 5.5in;
+  --text-height: 9in;
+  --accent: #0173B2;
+  --text: #1a1a1a;
+  --muted: #555;
+  --rule: #222;
+  --bg-alt: #f7f8fa;
+}
+
+html { font-size: 10pt; }
+
+body {
+  font-family: "Times New Roman", "Noto Serif", Georgia, serif;
+  color: var(--text);
+  line-height: 11pt;
+  max-width: var(--text-width);
+  margin: 0 auto;
+  padding: 0.75in 0;
+  background: #fff;
+}
+
+/* ── NeurIPS Title ── */
+.header-block {
+  text-align: center;
+  margin-bottom: 1.5em;
+}
+.header-block h1 {
+  font-size: 17pt;
+  font-weight: 700;
+  line-height: 1.2;
+  margin-bottom: 0.6em;
+}
+.authors {
+  font-size: 12pt;
+  margin-bottom: 0.4em;
+}
+.authors .name { font-weight: 600; }
+.affiliations {
+  font-size: 10pt;
+  color: var(--muted);
+  margin-bottom: 0.3em;
+}
+.author-email {
+  font-size: 9pt;
+  color: var(--muted);
+  font-family: "Courier New", monospace;
+}
+
+/* ── Abstract ── */
+.abstract-block {
+  margin: 1.5em 0.5in 1.2em 0.5in;
+}
+.abstract-block h2 {
+  font-size: 12pt;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 0.4em;
+}
+.abstract-block p {
+  font-size: 10pt;
+  line-height: 11pt;
+  text-align: justify;
+  hyphens: auto;
+}
+
+/* ── Section headings (NeurIPS style) ── */
+h2 {
+  font-size: 12pt;
+  font-weight: 700;
+  margin-top: 1.2em;
+  margin-bottom: 0.4em;
+}
+h3 {
+  font-size: 10pt;
+  font-weight: 700;
+  margin-top: 0.8em;
+  margin-bottom: 0.25em;
+}
+
+/* ── Body text ── */
+p {
+  font-size: 10pt;
+  line-height: 11pt;
+  margin-bottom: 0.5em;
+  text-align: justify;
+  hyphens: auto;
+  text-indent: 1.2em;
+}
+p:first-of-type,
+h2 + p, h3 + p,
+.no-indent { text-indent: 0; }
+
+/* ── Tables ── */
+.table-wrap {
+  break-inside: avoid;
+  margin: 0.8em 0;
+}
+.table-caption {
+  font-size: 9pt;
+  margin-bottom: 0.3em;
+  text-indent: 0;
+  text-align: center;
+}
+.table-caption strong {
+  font-variant: small-caps;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 8.5pt;
+  line-height: 1.3;
+}
+thead { border-top: 2px solid var(--rule); border-bottom: 1px solid var(--rule); }
+tbody { border-bottom: 2px solid var(--rule); }
+th {
+  font-weight: 700;
+  padding: 3px 4px;
+  text-align: center;
+}
+td {
+  padding: 2px 4px;
+  text-align: center;
+}
+td:first-child, th:first-child { text-align: left; }
+tr:nth-child(even) { background: var(--bg-alt); }
+.best { font-weight: 700; color: var(--accent); }
+
+/* ── Figures ── */
+.figure {
+  break-inside: avoid;
+  margin: 0.8em 0;
+  text-align: center;
+}
+.figure img {
+  max-width: 100%;
+  height: auto;
+}
+.fig-caption {
+  font-size: 9pt;
+  margin-top: 0.3em;
+  text-align: left;
+  text-indent: 0;
+  color: var(--text);
+  line-height: 1.25;
+}
+.fig-caption strong {
+  font-variant: small-caps;
+}
+
+/* ── Math ── */
+.katex-display {
+  margin: 0.5em 0;
+  font-size: 0.95em;
+}
+
+/* ── Example pairs ── */
+.example-pair {
+  break-inside: avoid;
+  margin: 0.6em 0;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  padding: 0.4em 0.5em;
+  background: #fafbfc;
+  font-size: 8.5pt;
+  line-height: 1.35;
+}
+.example-pair .egn-label,
+.example-pair .een-label {
+  font-weight: 700;
+  font-size: 7.5pt;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  text-indent: 0;
+  margin-bottom: 0.1em;
+  margin-top: 0.3em;
+}
+.example-pair .egn-label { color: #2e7d32; }
+.example-pair .een-label { color: #c62828; }
+.example-pair .example-text {
+  text-indent: 0;
+  margin-bottom: 0.15em;
+  font-style: italic;
+  font-size: 8.5pt;
+  line-height: 1.35;
+}
+.example-pair .entity-tag {
+  background: #e3f2fd;
+  padding: 1px 3px;
+  border-radius: 2px;
+  font-style: normal;
+  font-weight: 600;
+  color: var(--accent);
+}
+.example-pair .elided-tag {
+  background: #ffebee;
+  padding: 1px 3px;
+  border-radius: 2px;
+  font-style: normal;
+  font-weight: 600;
+  color: #c62828;
+}
+
+/* ── Finding blocks ── */
+.finding {
+  break-inside: avoid;
+  margin: 0.4em 0;
+  padding: 0.3em 0.5em;
+  border-left: 3px solid var(--accent);
+  background: #f0f6fc;
+  font-size: 9pt;
+  line-height: 1.25;
+}
+.finding strong { color: var(--accent); }
+.finding p { text-indent: 0; margin-bottom: 0.15em; font-size: 9pt; line-height: 1.25; }
+
+/* ── References ── */
+.references {
+  margin-top: 1.2em;
+  border-top: 1px solid #ccc;
+  padding-top: 0.5em;
+}
+.references h2 { font-size: 12pt; }
+.references p {
+  font-size: 9pt;
+  line-height: 1.2;
+  text-indent: 0;
+  padding-left: 1.6em;
+  text-indent: -1.6em;
+  margin-bottom: 0.15em;
+  text-align: left;
+}
+.references p .ref-num {
+  display: inline-block;
+  width: 1.5em;
+  font-weight: 600;
+}
+
+/* ── Checklist ── */
+.checklist {
+  margin-top: 1.2em;
+  border-top: 1px solid #ccc;
+  padding-top: 0.5em;
+}
+.checklist h2 { font-size: 12pt; }
+.checklist-item {
+  margin-bottom: 0.5em;
+  font-size: 9pt;
+  line-height: 1.25;
+  text-indent: 0;
+}
+.checklist-item strong { color: var(--text); }
+.checklist-q { font-weight: 600; }
+.checklist-a { margin-left: 1em; }
+
+/* ── Footer ── */
+.neurips-footer {
+  position: fixed;
+  bottom: 0.4in;
+  left: 0;
+  right: 0;
+  text-align: center;
+  font-size: 9pt;
+  color: var(--muted);
+  font-style: italic;
+}
+
+/* ── Version nav ── */
+.version-nav {
+  position: fixed; top: 10px; right: 10px;
+  font-family: Arial, sans-serif; font-size: 9pt;
+  display: flex; gap: 0.8em;
+  background: #fff; padding: 6px 12px; border: 1px solid #ddd;
+  border-radius: 4px; box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+  z-index: 999;
+}
+.version-nav a { color: var(--accent); text-decoration: none; }
+.version-nav a:hover { text-decoration: underline; }
+.version-nav .current { font-weight: 700; color: var(--text); }
+
+/* ── Print ── */
+@media print {
+  @page {
+    size: letter;
+    margin: 1in 1.25in;
+  }
+  body { padding: 0; max-width: none; }
+  .version-nav, .neurips-footer { display: none; }
+  .figure, .table-wrap { break-inside: avoid; }
+  h2, h3 { break-after: avoid; }
+}
+
+@media screen and (max-width: 700px) {
+  html { font-size: 11pt; }
+  body { padding: 0.5em; max-width: 100%; }
+}
+</style>
+</head>
+<body>
+
+<!-- Version nav -->
+<div class="version-nav">
+  Long (<a href="index.html">HTML</a> | <a href="article_v4.docx">Doc</a>)
+  &middot;
+  Short (<a href="article_v4_short.html">HTML</a> | <a href="article_v4_short.docx">Doc</a>)
+  &middot;
+  <span class="current">NeurIPS</span> (<a href="article_v4_neurips.html">HTML</a> | <a href="article_v4_neurips.docx">Doc</a>)
+</div>
+
+<!-- NeurIPS footer -->
+<div class="neurips-footer">
+  40th Conference on Neural Information Processing Systems (NeurIPS 2026). Track on Evaluations and Datasets.
+</div>
+
+<!-- ═══════════════════════════════════════════════════════════ -->
+<!-- HEADER                                                     -->
+<!-- ═══════════════════════════════════════════════════════════ -->
+<div class="header-block">
+  <h1>IRC-Bench: Recognizing Entities from Contextual Cues<br>in First-Person Reminiscences</h1>
+  <div class="authors">
+    <span class="name">Alexander Apartsin</span><sup>1</sup> &nbsp;&nbsp;
+    <span class="name">Eden Moran</span><sup>2</sup> &nbsp;&nbsp;
+    <span class="name">Yehudit Aperstein</span><sup>2</sup>
+  </div>
+  <div class="affiliations">
+    <sup>1</sup>School of Computer Science, HIT-Holon Institute of Technology, Holon, Israel<br>
+    <sup>2</sup>Intelligent Systems, Afeka Academic College of Engineering, Tel Aviv, Israel
+  </div>
+</div>
+
+<!-- ═══════════════════════════════════════════════════════════ -->
+<!-- ABSTRACT                                                   -->
+<!-- ═══════════════════════════════════════════════════════════ -->
+<div class="abstract-block">
+  <h2>Abstract</h2>
+  <p>
+    People sharing personal reminiscences routinely reference entities through contextual cues alone, without explicit naming. We extend implicit entity recognition from short social-media text to long-form reminiscence narratives, where entity cues are distributed across multiple clauses. We release <em>IRC-Bench</em>, a benchmark of 25,136 samples derived from 12,337 Wikidata-linked entities across 1,994 oral history transcripts spanning 11 thematic domains. We formalize the <em>non-locality</em> property of implicit references: recognition cues are distributed across non-contiguous clauses, distinguishing this task from NER, entity linking, and coreference resolution. We evaluate 19 configurations spanning open-world LLM generation, closed-world dense retrieval, hybrid RAG, and fine-tuning. QLoRA-adapted Llama 3.1 8B achieves 38.94% exact match (51.59% Jaccard), while fine-tuned DPR reaches 35.38% Hit@1 and 71.49% Hit@10. Chain-of-thought prompting consistently degrades performance, and RAG underperforms direct LLM inference. All data, code, and evaluation tools are publicly released.
+  </p>
+</div>
+
+<!-- ═══════════════════════════════════════════════════════════ -->
+<!-- 1. INTRODUCTION                                            -->
+<!-- ═══════════════════════════════════════════════════════════ -->
+<h2>1 &nbsp; Introduction</h2>
+
+<p class="no-indent">
+Reminiscence, the act of recalling and sharing personal memories, plays a central role in human social life. In clinical settings, reminiscence therapy reduces depression in older adults [1], while in archival contexts, recorded reminiscences preserve cultural knowledge [2]. A defining characteristic of reminiscence narratives is that speakers reference people, places, and events through contextual cues rather than explicit naming, trusting the listener to fill in the gaps. This implicit referencing creates a fundamental challenge for automated systems that seek to index, search, or analyze these narratives.
+</p>
+
+<p>
+Consider the following passage from a Japanese American reminiscence:
+</p>
+
+<div class="example-pair">
+  <p class="egn-label">Entity-Grounded Narrative (EGN)</p>
+  <p class="example-text">
+    "The <span class="entity-tag">attack on Pearl Harbor</span> was the event that changed everything for Japanese Americans like me. After December 7, 1941, suspicion and hatred grew, and we were treated as enemy aliens despite being American citizens. It was because of <span class="entity-tag">Pearl Harbor</span> that the government issued Executive Order 9066 and started the forced relocation."
+  </p>
+  <p class="een-label">Entity-Elided Narrative (EEN)</p>
+  <p class="example-text">
+    "The <span class="elided-tag">surprise attack on a naval base in Hawaii</span> was the event that changed everything for Japanese Americans like me. After December 7, 1941, suspicion and hatred grew, and we were treated as enemy aliens despite being American citizens. It was because of <span class="elided-tag">that attack</span> that the government issued an order and started the forced relocation."
+  </p>
+  <p style="text-indent:0; margin-top:0.2em; font-size:7.5pt; color:#555;">
+    <strong>Gold entity:</strong> Attack on Pearl Harbor (Q52418) &nbsp;|&nbsp; <strong>Cues:</strong> December 7, 1941; naval base in Hawaii; Executive Order 9066; forced relocation
+  </p>
+</div>
+
+<p>
+A human reader identifies the Attack on Pearl Harbor from the constellation of cues: the date, the Hawaiian naval base, the executive order, the internment. No single phrase names the entity; recognition depends on integrating knowledge distributed across the entire passage. This phenomenon falls between existing NLP tasks. Named Entity Recognition (NER) identifies explicit spans [3, 4]. Entity Linking (EL) resolves those spans to knowledge base entries [5, 6]. Coreference resolution requires at least one explicit mention as antecedent [7]. In implicit entity references, the entity is never named; there is no span to extract, no mention to link, no antecedent to resolve.
+</p>
+
+<p>
+Our contributions are: (1) We extend implicit entity recognition from tweets [8, 9] to long-form reminiscence narratives and formalize the <em>non-locality property</em> of implicit references. (2) We release IRC-Bench, a benchmark of 25,136 samples from 12,337 Wikidata-linked entities across 1,994 transcripts, with entity-level train/dev/test splits ensuring zero entity overlap. (3) We systematically compare 19 configurations spanning four paradigms (generative LLM, dense retrieval, RAG, fine-tuning), revealing that fine-tuning doubles performance, chain-of-thought reasoning degrades accuracy, and model scale is the dominant factor in open-world performance.
+</p>
+
+<!-- ═══════════════════════════════════════════════════════════ -->
+<!-- 2. RELATED WORK                                            -->
+<!-- ═══════════════════════════════════════════════════════════ -->
+<h2>2 &nbsp; Related Work</h2>
+
+<p class="no-indent">
+Limited prior work has addressed entities that are referenced but never named. Hosseini [8] introduced implicit entity recognition in tweets, constructing a dataset of 3,119 tweets. Hosseini and Bagheri [9] developed learning-to-rank methods for this Twitter dataset. Perera et al. [10] explored implicit entity recognition in clinical documents. The coreference resolution community has studied "zero anaphora" and bridging references [11, 12], where entities are referenced indirectly. Computational approaches to reminiscence have focused on therapy systems using conversational agents [13, 14] and oral history processing for transcription and search [15, 16]; none address the challenge of identifying implicitly referenced entities. Our work differs from prior formulations in several ways. Reminiscence narratives are extended first-person accounts (50 to 200 words per sample) with rich, diffuse contextual cues, unlike short tweets or templated clinical notes. We formalize and empirically demonstrate the non-locality property: recognition requires integrating multiple non-contiguous cues. IRC-Bench contains 25,136 samples spanning 12,337 entities across 11 domains, compared to 3,119 tweet samples in Hosseini [8]. We introduce entity-level splitting with zero overlap and evaluate 19 configurations spanning four paradigms. The closest existing task is knowledge-grounded question answering [17, 18], where a system reasons over text and a knowledge base. While sharing the requirement for external knowledge, implicit entity recognition differs in that the "question" is an entire narrative, and the non-locality of cues causes standard RAG pipelines [19] to underperform direct LLM inference, as we show empirically.
+</p>
+
+<!-- ═══════════════════════════════════════════════════════════ -->
+<!-- 3. DATASET CONSTRUCTION                                    -->
+<!-- ═══════════════════════════════════════════════════════════ -->
+<h2>3 &nbsp; Dataset Construction</h2>
+
+<p class="no-indent">
+IRC-Bench is constructed through a four-stage automated pipeline that transforms oral history transcripts into implicit entity recognition samples. The pipeline leverages GPT-4.1-mini for entity extraction, summary generation, and implicit rewriting, producing 25,136 benchmark samples spanning 12,337 unique entities from 1,994 transcripts across 11 thematic domains (Table 1).
+</p>
+
+<p>
+<strong>Stage 1: Transcript Cleaning.</strong> Raw oral history transcripts are cleaned and converted to structured JSON, preserving the first-person narrative voice. <strong>Stage 2: NER.</strong> GPT-4.1-mini identifies named entities of seven types (Place, Organization, Person, Event, Work, Military Unit, Other), linking each to Wikidata. This produces 31,284 mentions across 1,752 files. <strong>Stage 3: Explicit Summary.</strong> For each (transcript, entity) pair, GPT-4.1-mini generates a first-person narrative preserving contextual cues. <strong>Stage 4: Implicit Rewriting.</strong> Each summary is rewritten to remove all direct entity mentions while preserving contextual cues, producing the final 25,136 implicit samples.
+</p>
+
+<div class="table-wrap">
+  <p class="table-caption"><strong>Table 1:</strong> Source collections for IRC-Bench.</p>
+  <table>
+    <thead>
+      <tr>
+        <th style="text-align:left;">Collection</th>
+        <th>Transcripts</th>
+        <th style="text-align:left;">Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><td>Veterans</td><td>517</td><td style="text-align:left;">Military service narratives (Library of Congress VHP, others)</td></tr>
+      <tr><td>Immigration</td><td>402</td><td style="text-align:left;">Immigration experiences (Univ. Minnesota, Densho)</td></tr>
+      <tr><td>Regional</td><td>314</td><td style="text-align:left;">Regional histories (UNR, Kentucky Oral History)</td></tr>
+      <tr><td>Depression Era</td><td>213</td><td style="text-align:left;">Great Depression (Federal Writers' Project)</td></tr>
+      <tr><td>Japanese American</td><td>156</td><td style="text-align:left;">Internment and post-war (Densho)</td></tr>
+      <tr><td>Academic</td><td>153</td><td style="text-align:left;">Academic histories (Columbia, Smithsonian)</td></tr>
+      <tr><td>September 11</td><td>72</td><td style="text-align:left;">9/11 experiences (NPS Memorial)</td></tr>
+      <tr><td>Civil Rights</td><td>68</td><td style="text-align:left;">Civil rights movement (Library of Congress)</td></tr>
+      <tr><td>COVID-19 / Labor / Refugee</td><td>99</td><td style="text-align:left;">Pandemic, labor, and refugee experiences</td></tr>
+      <tr style="font-weight:700; border-top: 1px solid var(--rule);"><td><em>Total</em></td><td>1,994</td><td style="text-align:left;">11 thematic domains, 25+ institutional archives</td></tr>
+    </tbody>
+  </table>
+</div>
+
+<p>
+The dataset is split at the entity level (70/10/20 ratio, seed=42), ensuring all samples for a given entity appear in exactly one partition (Table 2). Places dominate (47.3%), followed by Organizations (21.3%) and Persons (13.7%).
+</p>
+
+<div class="table-wrap">
+  <p class="table-caption"><strong>Table 2:</strong> IRC-Bench partition statistics.</p>
+  <table>
+    <thead>
+      <tr><th style="text-align:left;">Partition</th><th>Samples</th><th>Entities</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>Train</td><td>17,971</td><td>8,635</td></tr>
+      <tr><td>Dev</td><td>2,532</td><td>1,234</td></tr>
+      <tr><td>Test</td><td>4,633</td><td>2,468</td></tr>
+      <tr style="font-weight:700; border-top: 1px solid var(--rule);"><td><em>Total</em></td><td>25,136</td><td>12,337</td></tr>
+    </tbody>
+  </table>
+</div>
+
+<div class="figure">
+  <img src="figures/fig0_pipeline.png" alt="IRC-Bench construction pipeline" style="max-width: 100%;">
+  <p class="fig-caption"><strong>Figure 1:</strong> IRC-Bench construction pipeline. Raw oral history transcripts undergo cleaning, NER with Wikidata linking, entity-grounded narrative generation, and entity elision to produce implicit entity recognition samples.</p>
+</div>
+
+<!-- ═══════════════════════════════════════════════════════════ -->
+<!-- 4. METHODOLOGY                                             -->
+<!-- ═══════════════════════════════════════════════════════════ -->
+<h2>4 &nbsp; Methodology</h2>
+
+<h3>4.1 &nbsp; Task Formulation</h3>
+
+<p class="no-indent">
+Given a first-person narrative text \(t\) that implicitly references a named entity \(e\) without ever mentioning \(e\) by name, the task is to identify \(e\). We evaluate under two formulations. In the <strong>open-world</strong> setting, the model generates the entity name as free-form text without access to a candidate set. In the <strong>closed-world</strong> setting, the model ranks all 12,337 entities in the knowledge base by relevance to the query.
+</p>
+
+<h3>4.2 &nbsp; The Non-Locality Property</h3>
+
+<p class="no-indent">
+We define a key structural property distinguishing implicit entity recognition from span-based tasks. Let \(C(T, e^*) = \{c_1, c_2, \ldots, c_n\}\) denote the set of textual cues in \(T\) that collectively identify \(e^*\). In NER and EL, the entity is localized in a contiguous span. In implicit entity recognition, the entity is <em>non-local</em>:
+</p>
+
+<div style="margin: 0.4em 0; font-size: 0.9em;">
+$$\nexists \; m \subset T \;\text{s.t.}\; m \text{ is contiguous} \wedge m \Rightarrow e^*$$
+$$\text{but}\; C(T,e^*) \Rightarrow e^*,\; c_i \text{ non-contiguous}$$
+</div>
+
+<p class="no-indent">
+No single contiguous substring suffices, but the distributed cues collectively determine the entity. We validate this empirically: GPT-4o zero-shot accuracy on full implicit texts reaches 33.5%, while single-sentence accuracy drops to 12.9% (n=200), confirming that recognition requires integrating cues distributed across the entire passage.
+</p>
+
+<h3>4.3 &nbsp; Open-World Methods</h3>
+
+<p class="no-indent">
+We evaluate LLMs in a generative setting with zero-shot (ZS), few-shot (FS, 5 demonstrations), and chain-of-thought (CoT) prompting. Models include GPT-4o [20], GPT-4.1-mini, and Llama 3.1 8B Instruct [21]. Direct prompting uses temperature 0.0; CoT uses temperature 0.7 with 300 output tokens. We additionally fine-tune Llama 3.1 8B using QLoRA [22, 23] with 4-bit NF4 quantization, LoRA rank 16, alpha 32, and 2 epochs on the train split. The entity-level split guarantees the model cannot memorize entity-specific patterns.
+</p>
+
+<h3>4.4 &nbsp; Closed-World Methods</h3>
+
+<p class="no-indent">
+We encode both implicit query text and entity representations into a shared embedding space, ranking by cosine similarity. We explore three entity representations: <em>Name</em> (entity name alone), <em>Description</em> (name + LLM-generated description), and <em>Wiki</em> (first Wikipedia sentence). We evaluate BAAI/bge-base-en-v1.5 [24] off-the-shelf and fine-tuned via Dense Passage Retrieval (DPR) [25] with Multiple Negatives Ranking Loss (3 epochs, batch size 48, learning rate 2e-5).
+</p>
+
+<h3>4.5 &nbsp; RAG Baseline</h3>
+
+<p class="no-indent">
+A hybrid pipeline retrieves top-5 candidates via BGE-base, then GPT-4.1-mini reranks and selects the most likely entity. This tests whether LLM reranking can improve over pure embedding retrieval.
+</p>
+
+<h3>4.6 &nbsp; Evaluation Protocol</h3>
+
+<p class="no-indent">
+We employ a four-tier matching hierarchy: (1) exact string match, (2) alias match via Wikidata, (3) containment match (substring), and (4) Jaccard similarity &ge; 0.5. The primary open-world metric is alias-aware accuracy (Tiers 1+2). Closed-world experiments report Hit@K, MRR, and alias-aware Hit@1. All key comparisons use McNemar's test for significance.
+</p>
+
+<!-- ═══════════════════════════════════════════════════════════ -->
+<!-- 5. RESULTS                                                 -->
+<!-- ═══════════════════════════════════════════════════════════ -->
+<h2>5 &nbsp; Results</h2>
+
+<h3>5.1 &nbsp; Open-World Performance</h3>
+
+<p class="no-indent">
+Table 3 presents the open-world results. QLoRA-adapted Llama 3.1 8B (O10) achieves the highest exact match at 38.94%, substantially outperforming all non-fine-tuned methods. Among direct prompting, GPT-4o few-shot (O2) is strongest at 31.62% exact match. Model scale is the dominant zero-shot factor: Llama 3.1 8B (13.92%) to GPT-4.1-mini (25.71%) to GPT-4o (27.02%). Few-shot prompting consistently improves all models (p &lt; 0.001).
+</p>
+
+<p>
+QLoRA fine-tuning nearly triples the base Llama's zero-shot performance (13.92% to 38.94%) and exceeds GPT-4o few-shot by 7.32 pp, despite the entity-level split ensuring zero overlap with training entities. At the Jaccard level, O10 reaches 51.59%, meaning more than half of predictions are at least partially correct.
+</p>
+
+<p>
+Chain-of-thought prompting degrades all models: GPT-4o drops from 33.30% (ZS alias) to 23.89%, GPT-4.1-mini from 25.71% (ZS exact) to 18.93%, and Llama 3.1 8B from 13.92% to 6.22%. Temperature control experiments confirm CoT structurally harms smaller models, while for GPT-4o, controlling temperature recovers parity with zero-shot but does not exceed it. The RAG approach (19.71% exact) underperforms even GPT-4.1-mini zero-shot (25.71%).
+</p>
+
+<div class="table-wrap">
+  <p class="table-caption"><strong>Table 3:</strong> Open-world results on IRC-Bench test set (n=4,633). Best in each column is <span class="best">highlighted</span>.</p>
+  <table>
+    <thead>
+      <tr>
+        <th style="text-align:left;">ID</th>
+        <th style="text-align:left;">Model</th>
+        <th>Mode</th>
+        <th>Exact (%)</th>
+        <th>Alias (%)</th>
+        <th>Contain (%)</th>
+        <th>Jaccard (%)</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><td>O1</td><td>GPT-4o</td><td>Zero-shot</td><td>27.02</td><td>33.30</td><td>33.30</td><td>35.05</td></tr>
+      <tr><td>O2</td><td>GPT-4o</td><td>Few-shot</td><td>31.62</td><td>38.94</td><td>38.94</td><td>41.10</td></tr>
+      <tr><td>O3</td><td>GPT-4.1-mini</td><td>Zero-shot</td><td>25.71</td><td>27.09</td><td>33.50</td><td>35.94</td></tr>
+      <tr><td>O4</td><td>GPT-4.1-mini</td><td>Few-shot</td><td>28.66</td><td>36.89</td><td>36.89</td><td>39.48</td></tr>
+      <tr><td>O5</td><td>Llama 3.1 8B</td><td>Zero-shot</td><td>13.92</td><td>14.81</td><td>19.47</td><td>20.18</td></tr>
+      <tr><td>O6</td><td>Llama 3.1 8B</td><td>Few-shot</td><td>17.83</td><td>18.80</td><td>24.61</td><td>25.66</td></tr>
+      <tr style="border-top: 1px solid #aaa;"><td>O10</td><td>Llama 3.1 8B (QLoRA)</td><td>Fine-tuned</td><td class="best">38.94</td><td class="best">41.42</td><td class="best">47.90</td><td class="best">51.59</td></tr>
+      <tr style="border-top: 1px solid #aaa;"><td>O11</td><td>GPT-4.1-mini CoT</td><td>t=0.7</td><td>18.93</td><td>20.27</td><td>26.48</td><td>27.69</td></tr>
+      <tr><td>O12</td><td>GPT-4o CoT</td><td>t=0.7</td><td>22.51</td><td>23.89</td><td>30.91</td><td>32.33</td></tr>
+      <tr><td>O13</td><td>Llama 3.1 8B CoT</td><td>t=0.7</td><td>6.22</td><td>6.69</td><td>11.72</td><td>12.24</td></tr>
+      <tr style="border-top: 1px solid #aaa;"><td>RAG1</td><td>BGE + GPT-4.1-mini</td><td>RAG</td><td>19.71</td><td>20.53</td><td>28.75</td><td>29.55</td></tr>
+    </tbody>
+  </table>
+</div>
+
+<div class="figure">
+  <img src="figures/fig1_main_results.png" alt="Main results comparison across all methods" style="max-width: 90%;">
+  <p class="fig-caption"><strong>Figure 2:</strong> Comparison of open-world and closed-world methods on IRC-Bench. Open-world methods measured by exact match and alias-aware accuracy; closed-world methods by Hit@1 and Hit@10.</p>
+</div>
+
+<h3>5.2 &nbsp; Closed-World Performance</h3>
+
+<p class="no-indent">
+Table 4 shows closed-world retrieval results. Fine-tuned DPR with descriptions (C5) achieves 35.38% Hit@1, 71.49% Hit@10, and 0.4751 MRR. With alias-aware evaluation, C5 reaches 42.80% Hit@1. DPR fine-tuning more than doubles Hit@1 for all entity representations: Name (16.51% to 30.00%), Description (16.64% to 35.38%), Wiki (14.38% to 27.95%). The largest absolute gain occurs for descriptions (+18.74 pp), indicating that fine-tuning is especially effective at aligning narrative cue structure with rich attribute content. Entity descriptions consistently outperform name-only and Wikipedia representations across both retrieval architectures.
+</p>
+
+<div class="table-wrap">
+  <p class="table-caption"><strong>Table 4:</strong> Closed-world retrieval results. Candidate set: 12,337 entities. Best in each column is <span class="best">highlighted</span>.</p>
+  <table>
+    <thead>
+      <tr>
+        <th style="text-align:left;">ID</th>
+        <th style="text-align:left;">Retriever</th>
+        <th>Entity Repr.</th>
+        <th>Hit@1 (%)</th>
+        <th>Hit@3 (%)</th>
+        <th>Hit@5 (%)</th>
+        <th>Hit@10 (%)</th>
+        <th>MRR</th>
+        <th>Alias H@1 (%)</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><td>C1</td><td>BGE (off-the-shelf)</td><td>Name</td><td>16.51</td><td>26.38</td><td>30.97</td><td>36.76</td><td>0.2362</td><td>22.08</td></tr>
+      <tr><td>C2</td><td>BGE (off-the-shelf)</td><td>Description</td><td>16.64</td><td>27.78</td><td>33.41</td><td>40.60</td><td>0.2480</td><td>21.78</td></tr>
+      <tr><td>C3</td><td>BGE (off-the-shelf)</td><td>Wiki</td><td>14.38</td><td>25.10</td><td>29.92</td><td>37.32</td><td>0.2211</td><td>19.32</td></tr>
+      <tr><td>C4</td><td>DPR (fine-tuned)</td><td>Name</td><td>30.00</td><td>46.36</td><td>53.66</td><td>63.31</td><td>0.4131</td><td>37.10</td></tr>
+      <tr><td>C5</td><td>DPR (fine-tuned)</td><td>Description</td><td class="best">35.38</td><td class="best">53.51</td><td class="best">61.82</td><td class="best">71.49</td><td class="best">0.4751</td><td class="best">42.80</td></tr>
+      <tr><td>C6</td><td>DPR (fine-tuned)</td><td>Wiki</td><td>27.95</td><td>44.98</td><td>51.82</td><td>59.55</td><td>0.3851</td><td>34.38</td></tr>
+    </tbody>
+  </table>
+</div>
+
+<h3>5.3 &nbsp; Key Findings</h3>
+
+<div class="finding">
+<p><strong>Finding 1: Fine-tuning is the most impactful intervention.</strong> QLoRA raises exact match from 13.92% to 38.94% (2.80x). DPR fine-tuning raises Hit@1 from 16.64% to 35.38% (2.13x). Both achieve these gains despite zero entity overlap between train and test sets.</p>
+</div>
+
+<div class="finding">
+<p><strong>Finding 2: Chain-of-thought degrades all models.</strong> CoT reduces GPT-4o from 33.30% to 23.89% (alias), GPT-4.1-mini from 25.71% to 18.93% (exact), and Llama 8B from 13.92% to 6.22%. Temperature control experiments confirm this is structural for smaller models; for GPT-4o, controlling temperature recovers parity with zero-shot but does not exceed it.</p>
+</div>
+
+<div class="finding">
+<p><strong>Finding 3: RAG underperforms direct LLM inference.</strong> RAG1 (19.71%) is 8.95 pp below GPT-4.1-mini few-shot (28.66%). The retrieval bottleneck (gold entity in top-5 only 33% of the time) is the limiting factor.</p>
+</div>
+
+<div class="finding">
+<p><strong>Finding 4: Model scale dominates zero-shot performance.</strong> GPT-4o ZS (27.02%) outperforms Llama 8B ZS (13.92%) by 13.10 pp (p &lt; 0.001). The retriever's Hit@10 of 71.49% reveals strong latent signal for future DPR+LLM reranking approaches.</p>
+</div>
+
+<div class="finding">
+<p><strong>Finding 5: Entity descriptions are the best retrieval representation.</strong> C5 (DPR+Desc) outperforms C4 (DPR+Name) by 5.38 pp on Hit@1 and C6 (DPR+Wiki) by 7.43 pp. The pattern holds for off-the-shelf BGE as well.</p>
+</div>
+
+
+<!-- ═══════════════════════════════════════════════════════════ -->
+<!-- 6. DISCUSSION                                              -->
+<!-- ═══════════════════════════════════════════════════════════ -->
+<h2>6 &nbsp; Discussion</h2>
+
+<p class="no-indent">
+The failure of chain-of-thought prompting is the most counterintuitive finding. CoT improves mathematical reasoning and multi-hop QA by decomposing complex problems [26], yet it degrades implicit entity recognition. The explanation lies in the gestalt nature of the task: identifying an implicit entity requires simultaneously attending to a constellation of distributed cues and matching this constellation against parametric knowledge. When forced to reason step by step, models fixate on individual cues in isolation, arriving at locally plausible but globally incorrect entities. Temperature control experiments confirm CoT is structurally harmful for smaller models (GPT-4.1-mini: +0.5pp at t=0.0, still 6.3pp below ZS), while for GPT-4o, controlling temperature recovers the gap to ZS parity without exceeding it.
+</p>
+
+<p>
+The RAG pipeline underperforms direct generation because dense retrievers encode the EEN as a single vector, losing fine-grained cue information. Retrieved candidates are topically related but often incorrect, and when presented as context they can override the model's own correct intuition. With BGE-base, the gold entity appears in the top-5 only 33.41% of the time, severely limiting the reranker.
+</p>
+
+<p>
+The success of QLoRA despite zero entity overlap indicates that fine-tuning teaches transferable skills: the task format (extracting a single canonical name), cue integration patterns (which temporal, spatial, and relational combinations are diagnostic), and entity type priors (calibrating expectations to reduce wrong-type errors). The model learns "how to solve implicit entity puzzles" rather than memorizing specific answers. Comparing the best open-world (O10: 38.94%) and closed-world (C5: 35.38% Hit@1, 42.80% alias) results, both paradigms reach roughly comparable alias-level performance, though the closed-world Hit@10 of 71.49% suggests that combining fine-tuned retrieval shortlists with fine-tuned LLM reranking is a promising future direction.
+</p>
+
+<p>
+Benchmark calibration validates the dataset's difficulty: an automated quality assessment (n=500, GPT-4o judge) found 42% of samples recoverable by informed judgment, closely matching the best system's alias accuracy (41.4%), suggesting top models approach the practical ceiling imposed by available cues. EEN naturalness averaged 4.87/5. Limitations include the English-only, American-focused scope; LLM-generated entity elision (though validated); alias-aware evaluation that still penalizes unregistered surface forms; and QLoRA's max_seq=192 tokens truncating approximately 6% of prompts.
+</p>
+
+
+<!-- ═══════════════════════════════════════════════════════════ -->
+<!-- 7. CONCLUSION                                              -->
+<!-- ═══════════════════════════════════════════════════════════ -->
+<h2>7 &nbsp; Conclusion</h2>
+
+<p class="no-indent">
+We have extended implicit entity recognition to long-form reminiscence narratives, formalizing the non-locality property and releasing IRC-Bench with 25,136 samples from 12,337 Wikidata-linked entities across 1,994 oral history transcripts. Our evaluation of 19 configurations reveals that fine-tuning is the most impactful intervention (QLoRA achieving 38.94% exact match, nearly tripling the base model), chain-of-thought prompting consistently degrades performance, and RAG underperforms direct inference due to the non-locality of implicit cues. Future work should explore combining DPR shortlists with LLM reranking (leveraging C5's 71.49% Hit@10), cross-lingual benchmarks, and architectures that explicitly model distributed cue structure.
+</p>
+
+
+<!-- ═══════════════════════════════════════════════════════════ -->
+<!-- REFERENCES                                                 -->
+<!-- ═══════════════════════════════════════════════════════════ -->
+<div class="references">
+<h2>References</h2>
+
+<p><span class="ref-num">[1]</span> Subramaniam, P. and Woods, B. (2012). The impact of individual reminiscence therapy for people with dementia. <em>Expert Review of Neurotherapeutics</em>, 12(5):545-555.</p>
+
+<p><span class="ref-num">[2]</span> Boyd, D. A. (2012). Achieving the promise of oral history in a digital age. In Ritchie, D. A., editor, <em>The Oxford Handbook of Oral History</em>. Oxford University Press.</p>
+
+<p><span class="ref-num">[3]</span> Nadeau, D. and Sekine, S. (2007). A survey of named entity recognition and classification. <em>Lingvisticae Investigationes</em>, 30(1):3-26.</p>
+
+<p><span class="ref-num">[4]</span> Li, J., Sun, A., Han, J., and Li, C. (2022). A survey on deep learning for named entity recognition. <em>IEEE TKDE</em>, 34(1):50-70.</p>
+
+<p><span class="ref-num">[5]</span> Ganea, O.-E. and Hofmann, T. (2017). Deep joint entity disambiguation with local neural attention. In <em>Proc. EMNLP</em>, pages 2619-2629.</p>
+
+<p><span class="ref-num">[6]</span> Kolitsas, N., Ganea, O.-E., and Hofmann, T. (2018). End-to-end neural entity linking. In <em>Proc. CoNLL</em>, pages 519-529.</p>
+
+<p><span class="ref-num">[7]</span> Lee, K., He, L., Lewis, M., and Zettlemoyer, L. (2017). End-to-end neural coreference resolution. In <em>Proc. EMNLP</em>, pages 188-197.</p>
+
+<p><span class="ref-num">[8]</span> Hosseini, H. (2022). Implicit entity recognition and linking in tweets. PhD thesis, Toronto Metropolitan University.</p>
+
+<p><span class="ref-num">[9]</span> Hosseini, H. and Bagheri, E. (2021). Learning to rank implicit entities on Twitter. <em>Information Processing &amp; Management</em>, 58(3):102503.</p>
+
+<p><span class="ref-num">[10]</span> Perera, N., Dehmer, M., and Emmert-Streib, F. (2020). Named entity recognition and relation detection for biomedical information extraction. <em>Frontiers in Cell and Dev. Biology</em>, 8:673.</p>
+
+<p><span class="ref-num">[11]</span> Hou, Y. (2020). Bridging anaphora resolution as question answering. In <em>Proc. ACL</em>, pages 1428-1438.</p>
+
+<p><span class="ref-num">[12]</span> Poesio, M., Stuckardt, R., and Versley, Y. (2016). <em>Anaphora Resolution: Algorithms, Resources, and Applications</em>. Springer.</p>
+
+<p><span class="ref-num">[13]</span> Nikitina, S., Callaioli, S., and Baez, M. (2018). Smart conversational agents for reminiscence. <em>Proc. 1st Intl. Workshop on Software Engineering for Cognitive Services</em>, 52-57.</p>
+
+<p><span class="ref-num">[14]</span> Lazar, A., Demiris, G., and Thompson, H. (2016). Evaluation of a multifunctional technology system in a memory care unit. <em>Informatics for Health and Social Care</em>, 41(4):373-389.</p>
+
+<p><span class="ref-num">[15]</span> Lample, G., Ballesteros, M., Subramanian, S., Kawakami, K., and Dyer, C. (2016). Neural architectures for named entity recognition. In <em>Proc. NAACL</em>, pages 260-270.</p>
+
+<p><span class="ref-num">[16]</span> Pessanha, F. and Akdag Salah, A. (2022). A computational look at oral history archives. <em>ACM JOCCH</em>, 15(1):6:1-6:16.</p>
+
+<p><span class="ref-num">[17]</span> Yang, Z., Qi, P., Zhang, S., et al. (2018). HotpotQA: A dataset for diverse, explainable multi-hop question answering. In <em>Proc. EMNLP</em>.</p>
+
+<p><span class="ref-num">[18]</span> Petroni, F., Rocktaschel, T., Riedel, S., et al. (2019). Language models as knowledge bases? In <em>Proc. EMNLP</em>.</p>
+
+<p><span class="ref-num">[19]</span> Lewis, P., Perez, E., Piktus, A., et al. (2020). Retrieval-augmented generation for knowledge-intensive NLP tasks. In <em>Proc. NeurIPS</em>.</p>
+
+<p><span class="ref-num">[20]</span> OpenAI (2024). GPT-4o system card. <em>Technical Report</em>.</p>
+
+<p><span class="ref-num">[21]</span> Dubey, A., et al. (2024). The Llama 3 herd of models. <em>arXiv:2407.21783</em>.</p>
+
+<p><span class="ref-num">[22]</span> Hu, E. J., Shen, Y., Wallis, P., et al. (2022). LoRA: Low-rank adaptation of large language models. In <em>Proc. ICLR</em>.</p>
+
+<p><span class="ref-num">[23]</span> Dettmers, T., Pagnoni, A., Holtzman, A., and Zettlemoyer, L. (2023). QLoRA: Efficient finetuning of quantized language models. In <em>Proc. NeurIPS</em>.</p>
+
+<p><span class="ref-num">[24]</span> Xiao, S., Liu, Z., Zhang, P., et al. (2023). C-Pack: Packaged resources to advance general Chinese embedding. <em>arXiv:2309.07597</em>.</p>
+
+<p><span class="ref-num">[25]</span> Karpukhin, V., Oguz, B., Min, S., et al. (2020). Dense passage retrieval for open-domain question answering. In <em>Proc. EMNLP</em>, pages 6769-6781.</p>
+
+<p><span class="ref-num">[26]</span> Wei, J., Wang, X., Schuurmans, D., et al. (2022). Chain-of-thought prompting elicits reasoning in large language models. In <em>Proc. NeurIPS</em>.</p>
+
+<p><span class="ref-num">[27]</span> Butler, R. N. (1963). The life review: An interpretation of reminiscence in the aged. <em>Psychiatry</em>, 26(1), 65-76.</p>
+
+<p><span class="ref-num">[28]</span> Wu, L., Petroni, F., Josifoski, M., Riedel, S., and Zettlemoyer, L. (2020). Scalable zero-shot entity linking with dense entity retrieval. In <em>Proc. EMNLP</em>, pages 6397-6407.</p>
+
+<p><span class="ref-num">[29]</span> Devlin, J., Chang, M.-W., Lee, K., and Toutanova, K. (2019). BERT: Pre-training of deep bidirectional transformers for language understanding. In <em>Proc. NAACL</em>, pages 4171-4186.</p>
+
+<p><span class="ref-num">[30]</span> De Cao, N., Izacard, G., Riedel, S., and Petroni, F. (2021). Autoregressive entity retrieval. In <em>Proc. ICLR</em>.</p>
+
+</div>
+
+<!-- ═══════════════════════════════════════════════════════════ -->
+<!-- NEURIPS PAPER CHECKLIST                                    -->
+<!-- ═══════════════════════════════════════════════════════════ -->
+<div class="checklist">
+<h2>NeurIPS Paper Checklist</h2>
+
+<p class="no-indent" style="font-size:9pt; margin-bottom:0.8em;">
+The following checklist is required for all NeurIPS submissions. Answers are provided with justifications relevant to this paper.
+</p>
+
+<div class="checklist-item">
+<p class="checklist-q">1. Claims</p>
+<p class="no-indent"><em>Question:</em> Do the main claims made in the abstract and introduction accurately reflect the paper's contributions and scope?</p>
+<p class="checklist-a"><strong>Answer:</strong> Yes.</p>
+<p class="checklist-a"><strong>Justification:</strong> All claims (dataset size, non-locality property, 19 configurations, specific performance numbers) are supported by the experimental results in Section 5. Limitations are discussed in Section 6.</p>
+</div>
+
+<div class="checklist-item">
+<p class="checklist-q">2. Limitations</p>
+<p class="no-indent"><em>Question:</em> Does the paper discuss the limitations of the work performed by the authors?</p>
+<p class="checklist-a"><strong>Answer:</strong> Yes.</p>
+<p class="checklist-a"><strong>Justification:</strong> Section 6 discusses limitations including English-only scope, LLM-generated elision, alias-aware evaluation gaps, and QLoRA sequence length truncation.</p>
+</div>
+
+<div class="checklist-item">
+<p class="checklist-q">3. Theory Assumptions and Proofs</p>
+<p class="no-indent"><em>Question:</em> For each theoretical result, does the paper provide the full set of assumptions and a complete (or correct) proof?</p>
+<p class="checklist-a"><strong>Answer:</strong> NA.</p>
+<p class="checklist-a"><strong>Justification:</strong> The paper does not include formal theorems. The non-locality property (Section 4.2) is defined formally and validated empirically rather than proved theoretically.</p>
+</div>
+
+<div class="checklist-item">
+<p class="checklist-q">4. Experimental Result Reproducibility</p>
+<p class="no-indent"><em>Question:</em> Does the paper fully disclose all the information needed to reproduce the main experimental results of the paper to the extent that it affects the main claims and/or conclusions of the paper?</p>
+<p class="checklist-a"><strong>Answer:</strong> Yes.</p>
+<p class="checklist-a"><strong>Justification:</strong> All model names, hyperparameters (Section 4.3, 4.4), evaluation metrics (Section 4.6), data splits (Table 2), and prompt templates are fully specified. Code and data will be publicly released.</p>
+</div>
+
+<div class="checklist-item">
+<p class="checklist-q">5. Open Access to Data and Code</p>
+<p class="no-indent"><em>Question:</em> Does the paper provide open access to the data and code, with sufficient instructions to faithfully reproduce the main experimental results?</p>
+<p class="checklist-a"><strong>Answer:</strong> Yes.</p>
+<p class="checklist-a"><strong>Justification:</strong> All data, code, and evaluation tools are publicly released under an open license.</p>
+</div>
+
+<div class="checklist-item">
+<p class="checklist-q">6. Experimental Setting/Details</p>
+<p class="no-indent"><em>Question:</em> Does the paper specify all the training and test details necessary to understand the results?</p>
+<p class="checklist-a"><strong>Answer:</strong> Yes.</p>
+<p class="checklist-a"><strong>Justification:</strong> Training details (QLoRA: 4-bit NF4, rank 16, alpha 32, 2 epochs; DPR: 3 epochs, batch 48, lr 2e-5), evaluation protocol (four-tier matching), and statistical tests (McNemar's) are fully specified.</p>
+</div>
+
+<div class="checklist-item">
+<p class="checklist-q">7. Experiment Statistical Significance</p>
+<p class="no-indent"><em>Question:</em> Does the paper report error bars, confidence intervals, or statistical significance tests?</p>
+<p class="checklist-a"><strong>Answer:</strong> Yes.</p>
+<p class="checklist-a"><strong>Justification:</strong> All key comparisons use McNemar's test with continuity correction (p &lt; 0.001). Bootstrap confidence intervals (1,000 resamples) are computed for main results.</p>
+</div>
+
+<div class="checklist-item">
+<p class="checklist-q">8. Experiments Compute Resources</p>
+<p class="no-indent"><em>Question:</em> For each experiment, does the paper provide sufficient information on the computer resources needed to reproduce them?</p>
+<p class="checklist-a"><strong>Answer:</strong> Yes.</p>
+<p class="checklist-a"><strong>Justification:</strong> QLoRA fine-tuning was performed on a single NVIDIA RTX GPU with 6GB VRAM. DPR training used similar consumer-grade hardware. API-based models (GPT-4o, GPT-4.1-mini) were accessed via OpenAI Batch API.</p>
+</div>
+
+<div class="checklist-item">
+<p class="checklist-q">9. NeurIPS Code of Ethics</p>
+<p class="no-indent"><em>Question:</em> Does the research conform to the NeurIPS Code of Ethics?</p>
+<p class="checklist-a"><strong>Answer:</strong> Yes.</p>
+<p class="checklist-a"><strong>Justification:</strong> The research uses publicly available oral history transcripts from institutional archives. No human subjects were recruited for this study.</p>
+</div>
+
+<div class="checklist-item">
+<p class="checklist-q">10. Broader Impacts</p>
+<p class="no-indent"><em>Question:</em> Does the paper discuss both potential positive societal impacts and negative societal impacts of the work?</p>
+<p class="checklist-a"><strong>Answer:</strong> Yes.</p>
+<p class="checklist-a"><strong>Justification:</strong> Positive impacts include improved accessibility of oral history archives and support for reminiscence therapy. The English-only, American-focused scope limits generalizability. The benchmark does not enable surveillance or profiling capabilities beyond what existing NER systems provide.</p>
+</div>
+
+<div class="checklist-item">
+<p class="checklist-q">11. Safeguards</p>
+<p class="no-indent"><em>Question:</em> Does the paper describe safeguards that have been put in place for responsible release of data or models?</p>
+<p class="checklist-a"><strong>Answer:</strong> Yes.</p>
+<p class="checklist-a"><strong>Justification:</strong> The dataset is derived from publicly available oral history archives that were already consented and released by their respective institutions. No private or sensitive information beyond what is in the public transcripts is included.</p>
+</div>
+
+<div class="checklist-item">
+<p class="checklist-q">12. Licenses for Existing Assets</p>
+<p class="no-indent"><em>Question:</em> Are the creators of existing assets (data, code, models) properly credited and are the license terms respected?</p>
+<p class="checklist-a"><strong>Answer:</strong> Yes.</p>
+<p class="checklist-a"><strong>Justification:</strong> All source collections are cited (Table 1). Models (Llama 3.1, BGE-base) are cited with their respective papers. All assets are used under their original licenses.</p>
+</div>
+
+<div class="checklist-item">
+<p class="checklist-q">13. New Assets</p>
+<p class="no-indent"><em>Question:</em> Are new assets introduced in the paper well documented and is the documentation provided alongside the assets?</p>
+<p class="checklist-a"><strong>Answer:</strong> Yes.</p>
+<p class="checklist-a"><strong>Justification:</strong> IRC-Bench is documented with full statistics (Tables 1, 2), construction pipeline (Section 3, Figure 1), quality validation (Section 6), and will be released with a datasheet and usage documentation.</p>
+</div>
+
+<div class="checklist-item">
+<p class="checklist-q">14. Crowdsourcing and Research with Human Subjects</p>
+<p class="no-indent"><em>Question:</em> For crowdsourcing experiments and research with human subjects, does the paper include the full text of instructions given to participants and screenshots, if applicable?</p>
+<p class="checklist-a"><strong>Answer:</strong> NA.</p>
+<p class="checklist-a"><strong>Justification:</strong> No crowdsourcing or human subjects research was conducted. Quality validation used automated GPT-4o assessment rather than human annotators.</p>
+</div>
+
+<div class="checklist-item">
+<p class="checklist-q">15. IRB Approvals or Equivalent for Research with Human Subjects</p>
+<p class="no-indent"><em>Question:</em> Does the paper describe potential risks incurred by study participants?</p>
+<p class="checklist-a"><strong>Answer:</strong> NA.</p>
+<p class="checklist-a"><strong>Justification:</strong> No human subjects were involved. The data consists of previously published oral history transcripts from institutional archives.</p>
+</div>
+
+<div class="checklist-item">
+<p class="checklist-q">16. Dataset License</p>
+<p class="no-indent"><em>Question:</em> Does the dataset have a license consistent with its intended use?</p>
+<p class="checklist-a"><strong>Answer:</strong> Yes.</p>
+<p class="checklist-a"><strong>Justification:</strong> IRC-Bench will be released under a permissive open-source license for research use. Source transcripts are from public domain and openly licensed institutional archives.</p>
+</div>
+
+<div class="checklist-item">
+<p class="checklist-q">17. Consent</p>
+<p class="no-indent"><em>Question:</em> If the dataset relates to people, was consent obtained?</p>
+<p class="checklist-a"><strong>Answer:</strong> Yes.</p>
+<p class="checklist-a"><strong>Justification:</strong> All oral history transcripts were collected and published by their respective institutional archives (Library of Congress, universities, memorial projects) with informed consent from participants as part of standard oral history collection protocols.</p>
+</div>
+
+<div class="checklist-item">
+<p class="checklist-q">18. Personal Identifiable Information (PII)</p>
+<p class="no-indent"><em>Question:</em> Does the dataset contain data that might be considered personal, sensitive, or private?</p>
+<p class="checklist-a"><strong>Answer:</strong> Yes.</p>
+<p class="checklist-a"><strong>Justification:</strong> The oral history transcripts contain personal narratives and names of individuals. However, all transcripts were previously published by their respective archives with participant consent, and the benchmark samples are derivative summaries rather than verbatim transcript excerpts.</p>
+</div>
+
+</div>
+
+</body>
+</html>
