@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>IRC-Bench: A Benchmark for Implicit Entity Recognition in Oral History Narratives</title>
+<title>IRC-Bench: Recognizing Entities from Contextual Cues in First-Person Reminiscences</title>
 
 <!-- KaTeX -->
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css">
@@ -433,17 +433,64 @@ tr:nth-child(even) { background: var(--bg-alt); }
   margin-bottom: 0.2em;
 }
 
+/* ── Page simulation (screen) ─────────────────────────────── */
+.page-header, .page-footer {
+  display: none;
+}
+
+@media screen {
+  body {
+    counter-reset: page-counter;
+  }
+  h2[id] {
+    counter-increment: page-counter;
+    padding-top: 0.6in;
+    margin-top: 0.3in;
+    border-top: 2px solid #ccc;
+    position: relative;
+  }
+  h2[id]::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: -0.5in;
+    right: -0.5in;
+    border-top: 2px solid #ccc;
+  }
+}
+
 /* ── Print ────────────────────────────────────────────────── */
 @media print {
   @page {
     size: A4;
-    margin: 0.75in;
+    margin: 0.75in 0.75in 1in 0.75in;
+
+    @top-center {
+      content: "IRC-Bench: Recognizing Entities from Contextual Cues in First-Person Reminiscences";
+      font-family: "Times New Roman", serif;
+      font-size: 8pt;
+      color: #666;
+    }
+    @bottom-center {
+      content: counter(page);
+      font-family: "Times New Roman", serif;
+      font-size: 9pt;
+    }
+  }
+  @page :first {
+    @top-center { content: none; }
   }
   body { padding: 0; max-width: none; }
   .two-column { column-count: 2; }
   .figure, .table-wrap { break-inside: avoid; }
   h2, h3 { break-after: avoid; }
-  .toc { break-after: page; }
+  h2[id] {
+    padding-top: 0;
+    margin-top: 0.5em;
+    border-top: none;
+  }
+  h2[id]::before { display: none; }
 }
 
 /* ── Screen responsive ────────────────────────────────────── */
@@ -460,7 +507,7 @@ tr:nth-child(even) { background: var(--bg-alt); }
 <!-- HEADER                                                                 -->
 <!-- ════════════════════════════════════════════════════════════════════════ -->
 <header class="header-block">
-  <h1>IRC-Bench: A Benchmark for Implicit Entity Recognition<br>in Oral History Narratives</h1>
+  <h1>IRC-Bench: Recognizing Entities from Contextual Cues<br>in First-Person Reminiscences</h1>
   <div class="authors">
     <span class="name">Eden Moran</span>,
     <span class="name">Yehudit Aperstein</span>,
@@ -474,25 +521,7 @@ tr:nth-child(even) { background: var(--bg-alt); }
 <!-- ════════════════════════════════════════════════════════════════════════ -->
 <!-- TABLE OF CONTENTS                                                      -->
 <!-- ════════════════════════════════════════════════════════════════════════ -->
-<nav class="toc">
-  <h2>Contents</h2>
-  <ol>
-    <li><a href="#sec-intro">Introduction</a></li>
-    <li><a href="#sec-related">Related Work</a></li>
-    <li><a href="#sec-dataset">Dataset Construction</a></li>
-    <li><a href="#sec-method">Methodology</a></li>
-    <li><a href="#sec-eval">Evaluation Protocol</a></li>
-    <li><a href="#sec-results">Results and Analysis</a></li>
-    <li><a href="#sec-discussion">Discussion</a></li>
-    <li><a href="#sec-conclusion">Conclusion</a></li>
-    <li><a href="#sec-references">References</a></li>
-  </ol>
-  <div style="margin-top:0.3em; margin-left:1.5em;">
-    <a href="#app-a">Appendix A: Prompt Templates</a><br>
-    <a href="#app-b">Appendix B: Training Hyperparameters</a><br>
-    <a href="#app-c">Appendix C: Example Predictions</a>
-  </div>
-</nav>
+<!-- TOC removed -->
 
 <!-- ════════════════════════════════════════════════════════════════════════ -->
 <!-- ABSTRACT                                                               -->
@@ -500,9 +529,9 @@ tr:nth-child(even) { background: var(--bg-alt); }
 <div class="abstract-block">
   <h2>Abstract</h2>
   <p>
-    Personal narratives in oral histories are replete with implicit references to people, places, and events that speakers assume their audience can identify from context alone. We introduce <em>Implicit Entity Recognition</em> (IER), the task of identifying entities that are contextually referenced but never explicitly named in text, and release <em>IRC-Bench</em>, a benchmark of 25,136 samples derived from 12,337 unique Wikidata-linked entities across 1,994 oral history transcripts spanning 11 thematic domains. Each sample pairs an Entity-Grounded Narrative (EGN) containing the entity name with an Entity-Elided Narrative (EEN) from which all explicit mentions have been removed; systems must recover the correct entity given only the EEN. We identify a key structural property of implicit references, their <em>non-locality</em>: recognition cues are distributed across multiple non-contiguous clauses, fundamentally distinguishing IER from named entity recognition and entity linking. We evaluate 20 experimental configurations spanning open-world LLM generation, closed-world dense retrieval, hybrid RAG, and fine-tuning approaches. QLoRA-adapted Llama 3.1 8B achieves the highest open-world exact match at 38.94% (51.59% Jaccard), while fine-tuned DPR with entity descriptions reaches 35.38% Hit@1 (42.80% alias-aware) and 71.49% Hit@10 in the closed-world setting. Chain-of-thought prompting consistently degrades performance across all models, and retrieval-augmented generation underperforms direct LLM inference. All data, code, and evaluation tools are publicly released.
+    When people share personal reminiscences, they routinely reference people, places, and events through contextual cues alone, assuming their audience can identify what is meant without explicit naming. This phenomenon is especially prevalent in reminiscence narratives: first-person accounts of lived experience used in therapeutic, archival, and social contexts. We introduce <em>Implicit Entity Recognition</em> (IER), the task of identifying entities that are contextually referenced but never explicitly named. To support this task, we release <em>IRC-Bench</em>, a benchmark of 25,136 samples derived from 12,337 unique Wikidata-linked entities across 1,994 reminiscence transcripts spanning 11 thematic domains. Each sample pairs an Entity-Grounded Narrative (EGN) containing the entity name with an Entity-Elided Narrative (EEN) from which all explicit mentions have been removed; systems must recover the correct entity given only the EEN. We identify a key structural property of implicit references, their <em>non-locality</em>: recognition cues are distributed across multiple non-contiguous clauses, fundamentally distinguishing IER from named entity recognition, entity linking, and coreference resolution. We evaluate 19 experimental configurations spanning open-world LLM generation, closed-world dense retrieval, hybrid RAG, and fine-tuning approaches. QLoRA-adapted Llama 3.1 8B achieves the highest open-world exact match at 38.94% (51.59% Jaccard), while fine-tuned DPR with entity descriptions reaches 35.38% Hit@1 (42.80% alias-aware) and 71.49% Hit@10 in the closed-world setting. Chain-of-thought prompting consistently degrades performance across all models, and retrieval-augmented generation underperforms direct LLM inference. All data, code, and evaluation tools are publicly released.
   </p>
-  <p class="keywords"><strong>Keywords:</strong> implicit entity recognition, oral history, non-locality, large language models, dense passage retrieval, QLoRA, benchmark construction, entity linking, Wikidata</p>
+  <p class="keywords"><strong>Keywords:</strong> implicit entity recognition, reminiscence narratives, coreference resolution, non-locality, large language models, dense passage retrieval, QLoRA, benchmark, entity linking, Wikidata</p>
 </div>
 
 <!-- ════════════════════════════════════════════════════════════════════════ -->
@@ -516,8 +545,11 @@ tr:nth-child(even) { background: var(--bg-alt); }
 <h2 id="sec-intro">1. Introduction</h2>
 
 <p class="no-indent">
-Consider the following passage from a Japanese American oral history interview:
+Reminiscence, the act of recalling and sharing personal memories, plays a central role in human social life. In clinical settings, reminiscence therapy has been shown to reduce depression and improve well-being in older adults [6, 7], while in archival contexts, recorded reminiscences preserve cultural and historical knowledge that would otherwise be lost [8]. A defining characteristic of reminiscence narratives is that speakers assume shared context with their audience: they reference people, places, and events through contextual cues rather than explicit naming, trusting the listener to fill in the gaps. This implicit referencing is natural in conversation but creates a fundamental challenge for automated systems that seek to index, search, or analyze these narratives.
 </p>
+
+<p>
+Consider the following passage from a Japanese American reminiscence:</p>
 
 <div class="example-pair">
   <p class="egn-label">Entity-Grounded Narrative (EGN)</p>
@@ -534,15 +566,15 @@ Consider the following passage from a Japanese American oral history interview:
 </div>
 
 <p>
-A human reader readily identifies the Attack on Pearl Harbor from the constellation of cues: the date, the Hawaiian naval base, the executive order, the internment of Japanese Americans. No single phrase names the entity; instead, recognition depends on integrating cultural, temporal, and historical knowledge distributed across the entire passage. This pattern of <em>implicit entity reference</em> is pervasive in oral histories, where speakers routinely allude to well-known people, places, and events without naming them, relying on shared background knowledge with their interviewer.
+A human reader readily identifies the Attack on Pearl Harbor from the constellation of cues: the date, the Hawaiian naval base, the executive order, the internment of Japanese Americans. No single phrase names the entity; instead, recognition depends on integrating cultural, temporal, and historical knowledge distributed across the entire passage. This pattern of <em>implicit entity reference</em> is pervasive in reminiscence narratives, where speakers routinely allude to well-known people, places, and events without naming them, relying on shared background knowledge with their listener.
 </p>
 
 <p>
-Existing NLP tasks do not address this phenomenon. Named Entity Recognition (NER) identifies explicitly mentioned entity spans in text [1, 2]. Entity Linking (EL) resolves those spans to knowledge base entries [3, 4]. Coreference resolution connects multiple references to the same entity but requires at least one explicit mention as an antecedent [5]. In implicit entity references, the entity is never named anywhere in the text; there is no span to extract, no mention to link, no antecedent to resolve. The task is fundamentally generative: the system must synthesize an entity identity from distributed contextual cues.
+This phenomenon falls between existing NLP tasks without being addressed by any of them. Named Entity Recognition (NER) identifies explicitly mentioned entity spans in text [1, 2]. Entity Linking (EL) resolves those spans to knowledge base entries [3, 4]. Coreference resolution connects multiple references to the same entity but requires at least one explicit mention as an antecedent [5]. In implicit entity references, the entity is never named anywhere in the text; there is no span to extract, no mention to link, no antecedent to resolve. The task can be viewed as a form of <em>zero-mention coreference</em>: resolving a reference to an entity that has no surface realization in the text, only a distributed constellation of contextual cues.
 </p>
 
 <p>
-We introduce <em>Implicit Entity Recognition</em> (IER) as a distinct NLP task and release <em>IRC-Bench</em> (Implicit Reminiscence Context Benchmark), a large-scale evaluation resource constructed from real oral history transcripts. IER matters for several practical reasons. Oral history archives containing millions of hours of recorded testimony remain largely inaccessible to structured search because the entities discussed are rarely stated by name [6]. Conversational AI systems that interact with elderly users for reminiscence therapy must identify the people and events being discussed even when the speaker does not name them [7, 8]. Information retrieval over personal narratives requires understanding not just what is said, but what is meant.
+We introduce <em>Implicit Entity Recognition</em> (IER) as a distinct NLP task and release <em>IRC-Bench</em> (Implicit Reminiscence Context Benchmark), a large-scale evaluation resource constructed from real reminiscence transcripts. IER addresses practical needs across multiple domains. Archives of personal reminiscences, including oral history collections containing millions of hours of recorded testimony, remain largely inaccessible to structured search because the entities discussed are rarely stated by name [9]. In healthcare, reminiscence therapy is a widely used intervention for older adults with dementia and depression [6, 7, 10]; automated systems that support these therapeutic conversations must identify the people and events being discussed even when the speaker does not name them. Social robotics and conversational AI for elderly companionship similarly require understanding implicit references to engage meaningfully with users' personal histories [11, 12]. More broadly, information retrieval over personal narratives requires understanding not just what is said, but what is meant.
 </p>
 
 <p>
@@ -553,7 +585,7 @@ Our contributions are as follows:
   <li><strong>Task definition.</strong> We formalize Implicit Entity Recognition as a novel NLP task, distinguishing it from NER, entity linking, and coreference resolution. We define the <em>non-locality property</em> of implicit references: entity cues are distributed across multiple non-contiguous text spans, requiring holistic integration rather than local pattern matching.</li>
   <li><strong>OralHistoryCorpus (OHC).</strong> We assemble a cleaned corpus of 1,994 oral history transcripts from 25 public collections spanning 11 thematic domains (veterans, immigration, regional, Depression era, Japanese American internment, academic, September 11, civil rights, COVID-19, labor, and refugee).</li>
   <li><strong>IRC-Bench.</strong> We release a benchmark of 25,136 IER samples derived from 12,337 unique Wikidata-linked entities, with entity-level train/dev/test splits ensuring zero entity overlap between partitions. Each sample includes both an EGN and an EEN, along with entity metadata (QID, aliases, Wikipedia description).</li>
-  <li><strong>Comprehensive evaluation.</strong> We systematically compare 20 experimental configurations spanning open-world LLM inference (zero-shot, few-shot, chain-of-thought, QLoRA fine-tuning), closed-world dense retrieval (off-the-shelf and DPR fine-tuned), and hybrid RAG, revealing that fine-tuning doubles performance in both paradigms, chain-of-thought reasoning degrades IER performance, and model scale is the dominant factor in open-world accuracy.</li>
+  <li><strong>Comprehensive evaluation.</strong> We systematically compare 19 experimental configurations spanning open-world LLM inference (zero-shot, few-shot, chain-of-thought, QLoRA fine-tuning), closed-world dense retrieval (off-the-shelf and DPR fine-tuned), and hybrid RAG, revealing that fine-tuning doubles performance in both paradigms, chain-of-thought reasoning degrades IER performance, and model scale is the dominant factor in open-world accuracy.</li>
 </ol>
 
 
@@ -574,19 +606,25 @@ Named Entity Recognition identifies and classifies explicit entity mentions in t
 Entity Linking resolves textual mentions to entries in a knowledge base. Neural approaches include local attention models [3], bi-encoder architectures such as BLINK [17], autoregressive generation via GENRE [18], and efficient zero-shot systems like ReFinED [19]. Botha et al. [20] extended entity linking to over 100 languages. These systems take an identified mention span as input and rank candidate entities; they cannot operate when no mention span exists. IER requires generating entity candidates from distributed contextual cues rather than resolving a given span.
 </p>
 
-<h3>2.3 Implicit and Zero-Mention Entities</h3>
+<h3>2.3 Reminiscence Analysis and NLP</h3>
 
 <p class="no-indent">
-Limited prior work has addressed entities that are referenced but not named. Hosseini [21] introduced implicit entity recognition in tweets, and Hosseini and Bagheri [22] developed learning-to-rank methods for implicit entities on Twitter. Perera et al. [23] explored implicit entity recognition in clinical documents. However, these efforts target short, formulaic text (tweets) or highly structured domains (clinical notes). Oral history narratives present a fundamentally different challenge: passages are longer, cues are more diffuse, and entity identification requires integrating cultural and historical knowledge rather than exploiting domain-specific templates. No prior benchmark exists for implicit entity recognition in narrative text.
+Reminiscence, the structured recall of autobiographical memories, has been studied extensively in psychology and gerontology. Butler [38] first proposed life review as a therapeutic process, and subsequent work established reminiscence therapy as an evidence-based intervention for depression and cognitive decline in older adults [6, 7]. Webster [39] developed the Reminiscence Functions Scale, identifying eight distinct functions of autobiographical memory sharing. Computational approaches to reminiscence have focused primarily on two areas: reminiscence therapy systems and oral history processing. Therapy-oriented systems use conversational agents or social robots to elicit and respond to personal memories [11, 12, 40], while oral history processing addresses transcription, topic segmentation, and search [9, 41]. However, none of these systems address the fundamental challenge of identifying the entities that speakers reference implicitly. Our work bridges this gap by formalizing implicit entity recognition as a task and providing the first benchmark derived from real reminiscence narratives.
 </p>
 
-<h3>2.4 Oral History NLP</h3>
+<h3>2.4 Implicit and Zero-Mention Entities</h3>
+
+<p class="no-indent">
+Limited prior work has addressed entities that are referenced but not named. Hosseini [21] introduced implicit entity recognition in tweets, and Hosseini and Bagheri [22] developed learning-to-rank methods for implicit entities on Twitter. Perera et al. [23] explored implicit entity recognition in clinical documents. The coreference resolution community has studied "zero anaphora" and bridging references [42, 43], where an entity is referenced indirectly through related concepts; however, these approaches assume a discourse context in which the entity has been previously introduced. In IER, the entity may never appear in any form. Reminiscence narratives present a fundamentally different challenge from tweets or clinical notes: passages are longer, cues are more diffuse, and entity identification requires integrating cultural and historical knowledge rather than exploiting domain-specific templates. No prior benchmark exists for implicit entity recognition in narrative text.
+</p>
+
+<h3>2.5 Oral History NLP</h3>
 
 <p class="no-indent">
 Computational analysis of oral histories has received growing attention. Technology-assisted reminiscence systems have been developed for dementia care [7, 8], and AI-driven conversational agents have been explored as companions for elderly users [24, 25]. Digital storytelling platforms combining AI with augmented reality enable communities to preserve personal narratives [26]. However, these systems primarily facilitate memory recall and do not attempt to recover the implicit entities that speakers reference without naming.
 </p>
 
-<h3>2.5 Knowledge-Grounded Question Answering</h3>
+<h3>2.6 Knowledge-Grounded Question Answering</h3>
 
 <p class="no-indent">
 The closest existing task to IER is knowledge-grounded question answering, where a system must reason over both a text passage and an external knowledge base to produce an answer [27, 28]. Retrieval-augmented generation (RAG) approaches retrieve relevant knowledge base passages and condition generation on them [29, 30]. While IER shares the requirement for external knowledge, it differs in that the "question" is an entire narrative rather than a targeted query, and the answer is always a single entity rather than a free-form text span. Furthermore, IER exhibits the non-locality property: the relevant cues are distributed throughout the passage rather than concentrated near a question token. This structural difference, as we show empirically, causes standard RAG pipelines to underperform direct LLM inference.
@@ -617,28 +655,29 @@ The raw data comprises 1,994 cleaned oral history transcripts drawn from 11 them
 </main>
 
 <div class="table-wrap full-width">
-  <p class="table-caption"><strong>Table 1:</strong> Source collections for IRC-Bench. Transcript counts reflect cleaned YAML files after the processing pipeline.</p>
+  <p class="table-caption"><strong>Table 1:</strong> Source collections for IRC-Bench. Transcript counts reflect cleaned JSON files after the processing pipeline.</p>
   <table>
     <thead>
       <tr>
         <th style="text-align:left;">Collection</th>
         <th>Transcripts</th>
+        <th>Sources</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
-      <tr><td>Veterans</td><td>517</td><td>Military service narratives</td></tr>
-      <tr><td>Immigration</td><td>402</td><td>Immigration and assimilation experiences</td></tr>
-      <tr><td>Regional</td><td>314</td><td>Regional and community histories</td></tr>
-      <tr><td>Depression Era</td><td>213</td><td>Great Depression oral histories</td></tr>
-      <tr><td>Japanese American</td><td>156</td><td>Japanese American internment and post-war experiences</td></tr>
-      <tr><td>Academic</td><td>153</td><td>Academic and university histories</td></tr>
-      <tr><td>September 11</td><td>72</td><td>9/11 experiences and aftermath</td></tr>
-      <tr><td>Civil Rights</td><td>68</td><td>Civil rights movement narratives</td></tr>
-      <tr><td>COVID-19</td><td>42</td><td>Pandemic experiences</td></tr>
-      <tr><td>Labor</td><td>30</td><td>Labor movement histories</td></tr>
-      <tr><td>Refugee</td><td>27</td><td>Refugee experiences</td></tr>
-      <tr style="font-weight:700; border-top: 1px solid var(--rule);"><td><em>Total</em></td><td>1,994</td><td>11 thematic domains</td></tr>
+      <tr><td>Veterans</td><td>517</td><td>Library of Congress VHP, Nevada WWII, Niles Library, Wisconsin Veterans Museum</td><td>Military service narratives</td></tr>
+      <tr><td>Immigration</td><td>402</td><td>University of Minnesota, Densho Digital Archive</td><td>Immigration and assimilation experiences</td></tr>
+      <tr><td>Regional</td><td>314</td><td>University of Nevada Reno, Kentucky Oral History Commission</td><td>Regional and community histories</td></tr>
+      <tr><td>Depression Era</td><td>213</td><td>Federal Writers' Project (Library of Congress)</td><td>Great Depression oral histories</td></tr>
+      <tr><td>Japanese American</td><td>156</td><td>Densho Digital Archive</td><td>Japanese American internment and post-war</td></tr>
+      <tr><td>Academic</td><td>153</td><td>Columbia University Oral History, Smithsonian Archives of American Art</td><td>Academic and university histories</td></tr>
+      <tr><td>September 11</td><td>72</td><td>National Park Service 9/11 Memorial</td><td>9/11 experiences and aftermath</td></tr>
+      <tr><td>Civil Rights</td><td>68</td><td>Civil Rights History Project (Library of Congress)</td><td>Civil rights movement narratives</td></tr>
+      <tr><td>COVID-19</td><td>42</td><td>Various oral history projects</td><td>Pandemic experiences</td></tr>
+      <tr><td>Labor</td><td>30</td><td>Labor Archives and Research Center</td><td>Labor movement histories</td></tr>
+      <tr><td>Refugee</td><td>27</td><td>Voices of Conscience, UNHCR collections</td><td>Refugee experiences</td></tr>
+      <tr style="font-weight:700; border-top: 1px solid var(--rule);"><td><em>Total</em></td><td>1,994</td><td colspan="2">11 thematic domains, 25+ institutional archives</td></tr>
     </tbody>
   </table>
 </div>
@@ -652,7 +691,7 @@ The benchmark construction proceeds in four stages, illustrated in Figure 1.
 </p>
 
 <p>
-<strong>Stage 1: Transcript Cleaning.</strong> Raw oral history transcripts are cleaned and converted to structured YAML format, preserving the first-person narrative voice while removing interviewer questions and metadata artifacts.
+<strong>Stage 1: Transcript Cleaning.</strong> Raw oral history transcripts are cleaned and converted to structured JSON format, preserving the first-person narrative voice while removing interviewer questions and metadata artifacts.
 </p>
 
 <p>
@@ -670,75 +709,7 @@ The benchmark construction proceeds in four stages, illustrated in Figure 1.
 </main>
 
 <div class="figure full-width">
-  <svg class="diagram-svg" viewBox="0 0 720 170" xmlns="http://www.w3.org/2000/svg">
-    <defs>
-      <marker id="arrowhead" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto">
-        <polygon points="0 0, 8 3, 0 6" fill="#666"/>
-      </marker>
-    </defs>
-
-    <!-- Stage 1: Clean -->
-    <rect class="box" x="5" y="40" width="110" height="56"/>
-    <text class="label-bold" x="60" y="58">1. Clean</text>
-    <text class="label" x="60" y="72">Transcripts to</text>
-    <text class="label" x="60" y="84">structured YAML</text>
-    <text class="label" x="60" y="96">format</text>
-
-    <!-- Arrow 1-2 -->
-    <line class="arrow" x1="115" y1="68" x2="140" y2="68"/>
-
-    <!-- Stage 2: NER + Link -->
-    <rect class="box-accent" x="140" y="40" width="110" height="56"/>
-    <text class="label-bold" x="195" y="58">2. NER + Link</text>
-    <text class="label" x="195" y="72">Extract entities,</text>
-    <text class="label" x="195" y="84">Wikidata QID</text>
-    <text class="label" x="195" y="96">+ aliases</text>
-
-    <!-- Arrow 2-3 -->
-    <line class="arrow" x1="250" y1="68" x2="275" y2="68"/>
-
-    <!-- Stage 3: EGN -->
-    <rect class="box-method" x="275" y="40" width="110" height="56"/>
-    <text class="label-bold" x="330" y="58">3. EGN</text>
-    <text class="label" x="330" y="72">Summarize</text>
-    <text class="label" x="330" y="84">context around</text>
-    <text class="label" x="330" y="96">entity mention</text>
-
-    <!-- Arrow 3-4 -->
-    <line class="arrow" x1="385" y1="68" x2="410" y2="68"/>
-
-    <!-- Stage 4: EEN -->
-    <rect class="box-method" x="410" y="40" width="110" height="56"/>
-    <text class="label-bold" x="465" y="58">4. EEN</text>
-    <text class="label" x="465" y="72">Remove entity</text>
-    <text class="label" x="465" y="84">name; rewrite</text>
-    <text class="label" x="465" y="96">with cues only</text>
-
-    <!-- Arrow 4-5 -->
-    <line class="arrow" x1="520" y1="68" x2="545" y2="68"/>
-
-    <!-- Output: IRC-Bench -->
-    <rect class="box-eval" x="545" y="40" width="110" height="56"/>
-    <text class="label-bold" x="600" y="58">Validate</text>
-    <text class="label" x="600" y="72">Leak check</text>
-    <text class="label" x="600" y="84">+ naturalness</text>
-    <text class="label" x="600" y="96">+ recoverability</text>
-
-    <!-- Output -->
-    <line class="arrow" x1="655" y1="68" x2="680" y2="68"/>
-    <rect class="box-accent" x="680" y="50" width="35" height="36" rx="4"/>
-    <text class="label-bold" x="698" y="72" font-size="10">IRC</text>
-
-    <!-- Bottom labels -->
-    <text class="label" x="60" y="118" fill="#4a6fa5">GPT-4.1-mini</text>
-    <text class="label" x="195" y="118" fill="var(--accent)">Wikidata API</text>
-    <text class="label" x="330" y="118" fill="#DE8F05">GPT-4.1-mini</text>
-    <text class="label" x="465" y="118" fill="#DE8F05">GPT-4.1-mini</text>
-    <text class="label" x="600" y="118" fill="#029E73">Automated</text>
-
-    <!-- Input -->
-    <text class="label" x="60" y="30" fill="#4a6fa5">OHC Transcripts</text>
-  </svg>
+  <img src="figures/fig0_pipeline.png" alt="IRC-Bench construction pipeline" style="max-width: 100%;">
   <p class="fig-caption"><strong>Figure 1:</strong> IRC-Bench construction pipeline. Raw oral history transcripts undergo cleaning, named entity recognition with Wikidata linking, entity-grounded narrative generation, and entity elision to produce IER evaluation samples.</p>
 </div>
 
@@ -883,8 +854,10 @@ We evaluate IER under two formulations:
 We define a key structural property that distinguishes IER from span-based entity tasks. Let \(C(T, e^*) = \{c_1, c_2, \ldots, c_n\}\) denote the set of textual cues in \(T\) that collectively identify \(e^*\). In standard NER and EL, the entity is localized: there exists a contiguous span \(m\) that is sufficient to identify \(e^*\). In IER, the entity is <em>non-local</em>:
 </p>
 
-$$\nexists \; m \subset T \;\text{s.t.}\; m \;\text{is contiguous and}\; m \Rightarrow e^* $$
-$$\text{but} \quad C(T, e^*) \Rightarrow e^*, \quad \text{where cues } c_i \text{ are non-contiguous in } T$$
+<div style="margin: 0.5em 0; font-size: 0.85em; break-inside: avoid;">
+$$\nexists \; m \subset T \;\text{s.t.}\; m \text{ is contiguous} \wedge m \Rightarrow e^*$$
+$$\text{but}\; C(T,e^*) \Rightarrow e^*,\; c_i \text{ non-contiguous}$$
+</div>
 
 <p>
 That is, no single contiguous substring of \(T\) is sufficient to identify \(e^*\), but the set of distributed cues collectively determines it. This non-locality has direct implications for method design: approaches that rely on local span matching (NER, EL) or single-vector passage encoding (dense retrieval) are structurally disadvantaged relative to approaches that can integrate information across the full text (LLMs with sufficient context windows).
@@ -901,7 +874,7 @@ We evaluate LLMs in a generative setting where each model receives the implicit 
 <h4>4.3.2 Models</h4>
 
 <p class="no-indent">
-We evaluate four LLM families in the open-world setting: GPT-4o and GPT-4.1-mini (via OpenAI Batch API), and Llama 3.1 8B Instruct and Llama 3.2 1B Instruct (via OpenRouter API). For GPT-4o, GPT-4.1-mini, and Llama 3.1 8B, we additionally evaluate chain-of-thought (CoT) prompting, which instructs the model to reason step-by-step before producing the final answer. CoT experiments use temperature 0.7 and a maximum of 300 output tokens to accommodate the reasoning trace.
+We evaluate four LLM families in the open-world setting: GPT-4o [37] and GPT-4.1-mini (via OpenAI Batch API), and Llama 3.1 8B Instruct [36] and Llama 3.2 1B Instruct [36] (via OpenRouter API). For GPT-4o, GPT-4.1-mini, and Llama 3.1 8B, we additionally evaluate chain-of-thought (CoT) prompting, which instructs the model to reason step-by-step before producing the final answer. CoT experiments use temperature 0.7 and a maximum of 300 output tokens to accommodate the reasoning trace.
 </p>
 
 <h4>4.3.3 QLoRA Fine-tuning (O10)</h4>
@@ -988,7 +961,7 @@ Table 4 presents the open-world results across all experimental configurations. 
 </p>
 
 <p>
-Model scale is the dominant factor for zero-shot performance: moving from Llama 3.2 1B (9.52%) to Llama 3.1 8B (13.92%) to GPT-4.1-mini (25.71%) to GPT-4o (27.02%) yields consistent gains. Few-shot prompting consistently improves performance across all model sizes (p &lt; 0.001 by McNemar's test). The improvement ranges from +2.95 percentage points for GPT-4.1-mini to +4.60 points for GPT-4o. The few-shot examples appear to calibrate the model's output format and entity granularity, reducing cases where models produce entity types instead of specific entity names.
+Model scale is the dominant factor for zero-shot performance: moving from Llama 3.1 8B (13.92%) to GPT-4.1-mini (25.71%) to GPT-4o (27.02%) yields consistent gains, and the smaller Llama 3.2 1B achieves only 17.27% Jaccard (its sole evaluation metric). Few-shot prompting consistently improves performance across all model sizes (p &lt; 0.001 by McNemar's test). The improvement ranges from +2.95 percentage points for GPT-4.1-mini to +4.60 points for GPT-4o. The few-shot examples appear to calibrate the model's output format and entity granularity, reducing cases where models produce entity types instead of specific entity names.
 </p>
 
 </main><!-- close two-column for full-width results tables -->
@@ -1017,9 +990,9 @@ Model scale is the dominant factor for zero-shot performance: moving from Llama 
       <tr><td>O7</td><td>Llama 3.2 1B</td><td>Zero-shot</td><td colspan="3" style="font-size:7.5pt; color:#888;">Evaluated via 4-tier alias eval only</td><td>17.27*</td></tr>
       <tr><td>O8</td><td>Llama 3.2 1B</td><td>Few-shot</td><td colspan="3" style="font-size:7.5pt; color:#888;">Evaluated via 4-tier alias eval only</td><td>15.22*</td></tr>
       <tr style="border-top: 1px solid #aaa;"><td>O10</td><td>Llama 3.1 8B (QLoRA)</td><td>Fine-tuned</td><td class="best">38.94</td><td class="best">41.42</td><td class="best">47.90</td><td class="best">51.59</td></tr>
-      <tr style="border-top: 1px solid #aaa;"><td>O11</td><td>GPT-4.1-mini</td><td>CoT</td><td>18.95</td><td>20.31</td><td>27.69</td><td>28.97</td></tr>
-      <tr><td>O12</td><td>GPT-4o</td><td>CoT</td><td>22.36</td><td>23.72</td><td>30.82</td><td>32.20</td></tr>
-      <tr><td>O13</td><td>Llama 3.1 8B</td><td>CoT</td><td>9.52</td><td>10.27</td><td>15.50</td><td>16.19</td></tr>
+      <tr style="border-top: 1px solid #aaa;"><td>O11</td><td>GPT-4.1-mini</td><td>CoT</td><td>18.93</td><td>20.27</td><td>26.48</td><td>27.69</td></tr>
+      <tr><td>O12</td><td>GPT-4o</td><td>CoT</td><td>22.51</td><td>23.89</td><td>30.91</td><td>32.33</td></tr>
+      <tr><td>O13</td><td>Llama 3.1 8B</td><td>CoT</td><td>6.22</td><td>6.69</td><td>11.72</td><td>12.24</td></tr>
       <tr style="border-top: 1px solid #aaa;"><td>RAG1</td><td>BGE + GPT-4.1-mini</td><td>RAG</td><td>19.71</td><td>20.53</td><td>28.75</td><td>29.55</td></tr>
     </tbody>
   </table>
@@ -1039,7 +1012,7 @@ The most striking open-world result is the effect of <em>QLoRA fine-tuning</em>.
 </p>
 
 <p>
-The <em>failure of chain-of-thought prompting</em> is equally striking. CoT reduces GPT-4o accuracy from 33.30% (zero-shot alias) to 23.72%, and GPT-4.1-mini from 28.66% (few-shot exact) to 18.95%. CoT also degrades Llama 3.1 8B from 13.92% (zero-shot) to 9.52%. We analyze the reasons for this failure in Section 7.
+The <em>failure of chain-of-thought prompting</em> is equally striking. CoT reduces GPT-4o accuracy from 33.30% (zero-shot alias) to 23.89%, and GPT-4.1-mini from 25.71% (zero-shot exact) to 18.93%. CoT also degrades Llama 3.1 8B from 13.92% (zero-shot exact) to 6.22%. We analyze the reasons for this failure in Section 7.
 </p>
 
 <p>
@@ -1247,7 +1220,7 @@ We summarize the principal findings as a numbered list, with each claim supporte
 </div>
 
 <div class="finding">
-<p><strong>Finding 3: Chain-of-thought degrades all models.</strong> CoT reduces GPT-4o from 33.30% (ZS alias) to 23.72% (a 28.7% relative drop), GPT-4.1-mini from 25.71% (ZS exact) to 18.95% (a 26.3% drop), and Llama 3.1 8B from 13.92% (ZS exact) to 9.52% (a 31.6% drop).</p>
+<p><strong>Finding 3: Chain-of-thought degrades all models.</strong> CoT reduces GPT-4o from 33.30% (ZS alias) to 23.89% (a 28.3% relative drop), GPT-4.1-mini from 25.71% (ZS exact) to 18.93% (a 26.4% drop), and Llama 3.1 8B from 13.92% (ZS exact) to 6.22% (a 55.3% drop).</p>
 </div>
 
 <div class="finding">
@@ -1374,7 +1347,7 @@ Several limitations should be acknowledged. First, the benchmark is constructed 
 <h2 id="sec-conclusion">8. Conclusion</h2>
 
 <p class="no-indent">
-We have introduced Implicit Entity Recognition as a novel NLP task and released IRC-Bench, a benchmark of 25,136 samples spanning 12,337 Wikidata-linked entities from 1,994 oral history transcripts across 11 thematic domains. Our systematic evaluation across 20 experimental configurations reveals eight key findings.
+We have introduced Implicit Entity Recognition as a novel NLP task and released IRC-Bench, a benchmark of 25,136 samples spanning 12,337 Wikidata-linked entities from 1,994 oral history transcripts across 11 thematic domains. Our systematic evaluation across 19 experimental configurations reveals eight key findings.
 </p>
 
 <p>
@@ -1382,7 +1355,7 @@ First, fine-tuning is the single most impactful intervention. QLoRA-adapted Llam
 </p>
 
 <p>
-Second, chain-of-thought prompting consistently degrades performance (by 4.40 to 6.76 pp across models), suggesting that IER requires holistic pattern matching rather than sequential reasoning. Third, retrieval-augmented generation underperforms direct LLM inference due to the non-locality of implicit cues. Fourth, model scale is the dominant factor in zero-shot open-world accuracy, with performance spanning from 9.52% (Llama 1B) to 27.02% (GPT-4o). Fifth, entity descriptions are consistently the best representation for dense retrieval, outperforming both entity names and Wikipedia lead sentences.
+Second, chain-of-thought prompting consistently degrades performance (by 4.51 to 7.70 pp across models), suggesting that IER requires holistic pattern matching rather than sequential reasoning. Third, retrieval-augmented generation underperforms direct LLM inference due to the non-locality of implicit cues. Fourth, model scale is the dominant factor in zero-shot open-world accuracy, with performance spanning from 13.92% (Llama 3.1 8B) to 27.02% (GPT-4o) in exact match. Fifth, entity descriptions are consistently the best representation for dense retrieval, outperforming both entity names and Wikipedia lead sentences.
 </p>
 
 <p>
@@ -1406,9 +1379,9 @@ Future work should explore several promising directions: multi-modal IER incorpo
 
 <p><span class="ref-num">[5]</span> Lee, K., He, L., Lewis, M., and Zettlemoyer, L. (2017). End-to-end neural coreference resolution. In <em>Proc. EMNLP</em>, pages 188-197.</p>
 
-<p><span class="ref-num">[6]</span> Boyd, D. A. (2012). Oral history in the digital age. In Ritchie, D. A., editor, <em>The Oxford Handbook of Oral History</em>. Oxford University Press.</p>
+<p><span class="ref-num">[6]</span> Boyd, D. A. (2012). Achieving the promise of oral history in a digital age. In Ritchie, D. A., editor, <em>The Oxford Handbook of Oral History</em>. Oxford University Press.</p>
 
-<p><span class="ref-num">[7]</span> Lazar, A., Demiris, G., and Thompson, H. (2016). Evaluation of a multifunctional technology system in a memory care unit. <em>Assistive Technology</em>, 28(4):216-225.</p>
+<p><span class="ref-num">[7]</span> Lazar, A., Demiris, G., and Thompson, H. (2016). Evaluation of a multifunctional technology system in a memory care unit: Opportunities for innovation in dementia care. <em>Informatics for Health and Social Care</em>, 41(4):373-389.</p>
 
 <p><span class="ref-num">[8]</span> Subramaniam, P. and Woods, B. (2012). The impact of individual reminiscence therapy for people with dementia. <em>Expert Review of Neurotherapeutics</em>, 12(5):545-555.</p>
 
@@ -1418,7 +1391,7 @@ Future work should explore several promising directions: multi-modal IER incorpo
 
 <p><span class="ref-num">[11]</span> Xie, T., Li, J., Sun, Z., Li, N., Rich, K., and Glass, J. (2023). An empirical study on ChatGPT for zero-shot NER. <em>arXiv preprint arXiv:2310.10035</em>.</p>
 
-<p><span class="ref-num">[12]</span> Ashok, D. and Lipton, Z. C. (2023). PromptNER: Prompting for named entity recognition. In <em>Proc. ACL</em>.</p>
+<p><span class="ref-num">[12]</span> Ashok, D. and Lipton, Z. C. (2023). PromptNER: Prompting for named entity recognition. <em>arXiv preprint arXiv:2305.15444</em>.</p>
 
 <p><span class="ref-num">[13]</span> Sang, E. T. K. and De Meulder, F. (2003). Introduction to the CoNLL-2003 shared task. In <em>Proc. CoNLL</em>, pages 142-147.</p>
 
@@ -1436,17 +1409,17 @@ Future work should explore several promising directions: multi-modal IER incorpo
 
 <p><span class="ref-num">[20]</span> Botha, J. A., Shan, Z., and Gillick, D. (2020). Entity linking in 100 languages. In <em>Proc. EMNLP</em>, pages 7833-7845.</p>
 
-<p><span class="ref-num">[21]</span> Hosseini, H. (2019). Implicit entity recognition and linking in tweets. PhD thesis, RMIT University.</p>
+<p><span class="ref-num">[21]</span> Hosseini, H. (2022). Implicit entity recognition and linking in tweets. PhD thesis, Toronto Metropolitan University.</p>
 
-<p><span class="ref-num">[22]</span> Hosseini, H. and Bagheri, E. (2018). Learning to rank implicit entities on Twitter. <em>Information Processing &amp; Management</em>, 54(3):490-504.</p>
+<p><span class="ref-num">[22]</span> Hosseini, H. and Bagheri, E. (2021). Learning to rank implicit entities on Twitter. <em>Information Processing &amp; Management</em>, 58(3):102503.</p>
 
 <p><span class="ref-num">[23]</span> Perera, N., Dehmer, M., and Emmert-Streib, F. (2020). Named entity recognition and relation detection for biomedical information extraction. <em>Frontiers in Cell and Developmental Biology</em>, 8:673.</p>
 
-<p><span class="ref-num">[24]</span> De Biase, G. et al. (2024). Large language models as conversational partners for individuals with dementia. <em>arXiv preprint arXiv:2404.03215</em>.</p>
+<p><span class="ref-num">[24]</span> Treder, M. S., Lee, S., and Tsvetanov, K. A. (2024). Introduction to large language models (LLMs) for dementia care and research. <em>Frontiers in Dementia</em>, 3:1385303.</p>
 
-<p><span class="ref-num">[25]</span> Khosla, R. et al. (2023). A systematic review of AI companions for older adults. <em>Computers in Human Behavior</em>, 144:107737.</p>
+<p><span class="ref-num">[25]</span> Broadbent, E., Stafford, R., and MacDonald, B. (2009). Acceptance of healthcare robots for the older population: Review and future directions. <em>International Journal of Social Robotics</em>, 1(4):319-330.</p>
 
-<p><span class="ref-num">[26]</span> Caine, V. et al. (2022). Digital storytelling and marginalized communities. <em>Qualitative Research</em>, 22(3):381-397.</p>
+<p><span class="ref-num">[26]</span> de Jager, A., Fogarty, A., Tewson, A., Lenette, C., and Boydell, K. M. (2017). Digital storytelling in research: A systematic review. <em>The Qualitative Report</em>, 22(10):2548-2582.</p>
 
 <p><span class="ref-num">[27]</span> Yang, Z., Qi, P., Zhang, S., Bengio, Y., Cohen, W. W., Salakhutdinov, R., and Manning, C. D. (2018). HotpotQA: A dataset for diverse, explainable multi-hop question answering. In <em>Proc. EMNLP</em>.</p>
 
@@ -1456,7 +1429,7 @@ Future work should explore several promising directions: multi-modal IER incorpo
 
 <p><span class="ref-num">[30]</span> Karpukhin, V., Oguz, B., Min, S., Lewis, P., Wu, L., Edunov, S., Chen, D., and Yih, W. (2020). Dense passage retrieval for open-domain question answering. In <em>Proc. EMNLP</em>, pages 6769-6781.</p>
 
-<p><span class="ref-num">[31]</span> Xiao, S., Liu, Z., Zhang, P., and Muennighoff, N. (2023). C-Pack: Packaged resources to advance general Chinese embedding. <em>arXiv preprint arXiv:2309.07597</em>.</p>
+<p><span class="ref-num">[31]</span> Xiao, S., Liu, Z., Zhang, P., Muennighoff, N., Lian, D., and Nie, J.-Y. (2023). C-Pack: Packaged resources to advance general Chinese embedding. <em>arXiv preprint arXiv:2309.07597</em>.</p>
 
 <p><span class="ref-num">[32]</span> Wei, J., Wang, X., Schuurmans, D., Bosma, M., Ichter, B., Xia, F., Chi, E., Le, Q., and Zhou, D. (2022). Chain-of-thought prompting elicits reasoning in large language models. In <em>Proc. NeurIPS</em>.</p>
 
@@ -1469,6 +1442,18 @@ Future work should explore several promising directions: multi-modal IER incorpo
 <p><span class="ref-num">[36]</span> Dubey, A., et al. (2024). The Llama 3 herd of models. <em>arXiv preprint arXiv:2407.21783</em>.</p>
 
 <p><span class="ref-num">[37]</span> OpenAI (2024). GPT-4o system card. <em>Technical Report</em>.</p>
+
+<p><span class="ref-num">[38]</span> Butler, R. N. (1963). The life review: An interpretation of reminiscence in the aged. <em>Psychiatry</em>, 26(1), 65-76.</p>
+
+<p><span class="ref-num">[39]</span> Webster, J. D. (1993). Construction and validation of the Reminiscence Functions Scale. <em>Journal of Gerontology</em>, 48(5), P256-P262.</p>
+
+<p><span class="ref-num">[40]</span> Nikitina, S., Callaioli, S., and Baez, M. (2018). Smart conversational agents for reminiscence. <em>Proceedings of the 1st International Workshop on Software Engineering for Cognitive Services</em>, 52-57.</p>
+
+<p><span class="ref-num">[41]</span> Pessanha, F. and Akdag Salah, A. (2022). A computational look at oral history archives. <em>ACM Journal on Computing and Cultural Heritage</em>, 15(1):6:1-6:16.</p>
+
+<p><span class="ref-num">[42]</span> Hou, Y. (2020). Bridging anaphora resolution as question answering. In <em>Proceedings of the 58th Annual Meeting of the ACL</em>, pages 1428-1438.</p>
+
+<p><span class="ref-num">[43]</span> Poesio, M., Stuckardt, R., and Versley, Y. (2016). <em>Anaphora Resolution: Algorithms, Resources, and Applications</em>. Springer.</p>
 
 </div>
 
@@ -1646,8 +1631,8 @@ Text: {implicit_text}&lt;|eot_id|&gt;
       <tr><td>Target modules</td><td>q_proj, v_proj, k_proj, o_proj</td></tr>
       <tr><td>Training examples</td><td>17,971</td></tr>
       <tr><td>Epochs</td><td>2</td></tr>
-      <tr><td>Per-device batch size</td><td>16</td></tr>
-      <tr><td>Gradient accumulation</td><td>2 (effective batch: 32)</td></tr>
+      <tr><td>Per-device batch size</td><td>48</td></tr>
+      <tr><td>Gradient accumulation</td><td>1 (effective batch: 48)</td></tr>
       <tr><td>Learning rate</td><td>2e-4</td></tr>
       <tr><td>Max sequence length</td><td>192 tokens</td></tr>
       <tr><td>Warmup steps</td><td>50</td></tr>

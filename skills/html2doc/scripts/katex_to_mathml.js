@@ -43,7 +43,7 @@ while ((match = displayEqRegex.exec(html)) !== null) {
 
 console.log(`Found ${displayEquations.length} display equations`);
 
-// Extract inline equations $...$ (not $$...$$)
+// Extract inline equations $...$ (not $$...$$) and \(...\)
 const inlineEqRegex = /\$([^$\n]+)\$/g;
 const inlineEquations = [];
 
@@ -51,6 +51,19 @@ while ((inlineMatch = inlineEqRegex.exec(html)) !== null) {
     const latex = inlineMatch[1].trim();
     // Skip if it's just a dollar sign or empty
     if (latex && latex !== '$') {
+        inlineEquations.push({
+            latex: latex,
+            index: inlineEquations.length,
+            type: 'inline'
+        });
+    }
+}
+
+// Also extract \(...\) inline math (KaTeX delimiter)
+const parenEqRegex = /\\\((.+?)\\\)/g;
+while ((inlineMatch = parenEqRegex.exec(html)) !== null) {
+    const latex = inlineMatch[1].trim();
+    if (latex) {
         inlineEquations.push({
             latex: latex,
             index: inlineEquations.length,
@@ -111,6 +124,23 @@ convertedDisplay.forEach(eq => {
             `$$${eq.latex}$$`,
             mathmlHtml
         );
+    }
+});
+
+// Replace \(...\) inline equations first
+modifiedHtml = modifiedHtml.replace(/\\\((.+?)\\\)/g, (fullMatch, latex) => {
+    const trimmed = latex.trim();
+    if (!trimmed) return fullMatch;
+
+    try {
+        const mathml = katex.renderToString(trimmed, {
+            displayMode: false,
+            output: 'mathml'
+        });
+        return `<span class="inline-mathml">${mathml}</span>`;
+    } catch (e) {
+        console.error(`Error converting \\(...\\):`, e.message);
+        return fullMatch;
     }
 });
 

@@ -119,8 +119,8 @@ EXPERIMENTS = [
     ("O12","GPT-4o CoT",      "CoT",          "GPT-4o",       200,  "cot"),
     # RAG
     ("RAG1","BGE+GPT-4.1m",   "RAG",          "GPT-4.1-mini",   8,  "rag"),
-    # QLoRA (Llama 1B)
-    ("O13","Llama-1B QLoRA",  "QLoRA",        "Llama 3.2 1B",   1,  "qlora"),
+    # QLoRA (Llama 8B)
+    ("O10","Llama-8B QLoRA",  "QLoRA",        "Llama 3.1 8B",   8,  "qlora"),
 ]
 
 # Build look-up dicts
@@ -170,8 +170,8 @@ def get_alias(exp_id: str) -> float:
 
 def save(fig, name):
     """Save figure as both PDF and PNG."""
-    fig.savefig(OUT_DIR / f"{name}.pdf", format="pdf")
-    fig.savefig(OUT_DIR / f"{name}.png", format="png")
+    fig.savefig(OUT_DIR / f"{name}.pdf", format="pdf", bbox_inches="tight")
+    fig.savefig(OUT_DIR / f"{name}.png", format="png", bbox_inches="tight")
     plt.close(fig)
     print(f"  Saved {name}.pdf / .png")
 
@@ -228,7 +228,7 @@ def fig1_main_results():
     ax.set_title("IRC-Bench: All Methods Comparison")
     ax.invert_yaxis()
 
-    fig.tight_layout()
+    fig.tight_layout(pad=1.5)
     save(fig, "fig1_main_results")
 
 
@@ -275,7 +275,7 @@ def fig2_hitk_curves():
     ax.legend(fontsize=7.5, ncol=2, loc="lower right", framealpha=0.9)
     ax.set_title("Closed-World Retrieval: Hit@K")
 
-    fig.tight_layout()
+    fig.tight_layout(pad=1.5)
     save(fig, "fig2_hitk_curves")
 
 
@@ -299,7 +299,7 @@ def fig3_entity_type_heatmap():
         "O5", "O6",      # Llama 8B ZS, FS
         "O11", "O12",    # CoT
         "RAG1",          # RAG
-        "O13",           # QLoRA
+        "O10",           # QLoRA
     ]
 
     # Filter to only those present in type_breakdown
@@ -343,7 +343,7 @@ def fig3_entity_type_heatmap():
     cbar = fig.colorbar(im, ax=ax, shrink=0.7, pad=0.02)
     cbar.set_label("Accuracy (%)", fontsize=9)
 
-    fig.tight_layout()
+    fig.tight_layout(pad=1.5)
     save(fig, "fig3_entity_type_heatmap")
 
 
@@ -358,37 +358,39 @@ def fig4_dataset_composition():
     fig, (ax1, ax2) = plt.subplots(1, 2, figsize=(DOUBLE_COL, 3.0))
 
     # (a) Entity type distribution (donut chart)
-    by_type = split_meta["by_type"]
-    # Rename empty key to "Unknown"
-    if "" in by_type:
-        by_type["Unknown"] = by_type.pop("")
+    by_type = dict(split_meta["by_type"])
+    # Merge small categories into "Other"
+    other_val = 0
+    for key in ["Military_Unit", "Unknown", ""]:
+        if key in by_type:
+            other_val += by_type.pop(key)
+    if other_val > 0:
+        by_type["Other"] = other_val
 
-    type_order = ["Place", "Organization", "Person", "Event",
-                  "Work", "Military_Unit", "Unknown"]
+    type_order = ["Place", "Organization", "Person", "Event", "Work", "Other"]
     type_order = [t for t in type_order if t in by_type]
     type_vals = [by_type[t] for t in type_order]
-    type_display = {
+    type_labels = {
         "Place": "Place", "Organization": "Org.",
         "Person": "Person", "Event": "Event",
-        "Work": "Work", "Military_Unit": "Mil. Unit",
-        "Unknown": "Unknown",
+        "Work": "Work", "Other": "Other",
     }
-    type_labels = [type_display.get(t, t) for t in type_order]
+    labels = [type_labels.get(t, t) for t in type_order]
 
     donut_colors = [
         "#0072B2", "#E69F00", "#009E73", "#CC79A7",
-        "#56B4E9", "#D55E00", "#999999",
+        "#56B4E9", "#999999",
     ]
 
     wedges, texts, autotexts = ax1.pie(
-        type_vals, labels=type_labels, autopct="%1.1f%%",
+        type_vals, labels=labels, autopct="%1.1f%%",
         colors=donut_colors[:len(type_vals)],
-        pctdistance=0.78, startangle=90,
+        pctdistance=0.78, labeldistance=1.22, startangle=140,
         wedgeprops={"width": 0.45, "edgecolor": "white", "linewidth": 1.5},
-        textprops={"fontsize": 8},
+        textprops={"fontsize": 9},
     )
     for at in autotexts:
-        at.set_fontsize(7)
+        at.set_fontsize(7.5)
     ax1.set_title("(a) Entity Types", fontsize=11, pad=12)
 
     # Center text
@@ -420,7 +422,7 @@ def fig4_dataset_composition():
     ax2.legend(fontsize=8, loc="upper right")
     ax2.set_ylim(0, max(split_samples) * 1.15)
 
-    fig.tight_layout()
+    fig.tight_layout(pad=1.5)
     save(fig, "fig4_dataset_composition")
 
 
@@ -442,7 +444,7 @@ def fig5_dpr_improvement():
     mrr_base  = [metrics[e]["mrr"] for e in baseline_ids]
     mrr_dpr   = [metrics[e]["mrr"] for e in dpr_ids]
 
-    fig, (ax1, ax2) = plt.subplots(1, 2, figsize=(DOUBLE_COL, 3.0),
+    fig, (ax1, ax2) = plt.subplots(1, 2, figsize=(DOUBLE_COL * 1.15, 3.2),
                                    sharey=False)
 
     x = np.arange(len(reprs))
@@ -512,7 +514,8 @@ def fig5_dpr_improvement():
 
     fig.suptitle("DPR Fine-tuning Improvement over BGE Baseline",
                  fontsize=12, y=1.02)
-    fig.tight_layout()
+    fig.tight_layout(pad=1.5)
+    fig.subplots_adjust(top=0.88, right=0.95)
     save(fig, "fig5_dpr_improvement")
 
 
@@ -535,7 +538,7 @@ def fig6_model_size_scatter():
         ("O11", "GPT-4.1m CoT",    8, "cot"),
         ("O12", "GPT-4o CoT",    200, "cot"),
         ("RAG1","BGE+4.1m RAG",    8, "rag"),
-        ("O13", "Llama-1B QLoRA",  1, "qlora"),
+        ("O10", "Llama-8B QLoRA",  8, "qlora"),
     ]
 
     mode_markers = {
@@ -599,8 +602,8 @@ def fig6_model_size_scatter():
     ax.set_xlabel("Approx. Parameters (B)")
     ax.set_ylabel("Exact Match")
     ax.yaxis.set_major_formatter(mticker.PercentFormatter(xmax=1))
-    ax.set_xlim(0.5, 500)
-    ax.set_ylim(0, 0.42)
+    ax.set_xlim(0.5, 600)
+    ax.set_ylim(0, 0.45)
     ax.legend(fontsize=7.5, loc="upper left", framealpha=0.9)
     ax.set_title("Model Size vs. Accuracy")
 
@@ -609,7 +612,7 @@ def fig6_model_size_scatter():
     ax.get_xaxis().set_major_formatter(mticker.ScalarFormatter())
     ax.get_xaxis().set_tick_params(which="minor", size=0)
 
-    fig.tight_layout()
+    fig.tight_layout(pad=1.5)
     save(fig, "fig6_model_size_scatter")
 
 

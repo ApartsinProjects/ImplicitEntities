@@ -1,0 +1,74 @@
+<svg class="diagram-svg" viewbox="0 0 820 140" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+      <marker id="arrowhead" markerwidth="8" markerheight="6" refx="8" refy="3" orient="auto">
+        <polygon points="0 0, 8 3, 0 6" fill="#666"></polygon>
+      </marker>
+    </defs>
+
+    <!-- Input label -->
+    <text class="label" x="65" y="16" fill="#4a6fa5">1,994 Transcripts</text>
+
+    <!-- Stage 1: Clean -->
+    <rect class="box" x="10" y="28" width="120" height="52" rx="4" />
+    <text class="label-bold" x="70" y="46">1. Clean</text>
+    <text class="label" x="70" y="59">Normalize to</text>
+    <text class="label" x="70" y="71">structured YAML</text>
+
+    <!-- Arrow 1-2 -->
+    <line class="arrow" x1="130" y1="54" x2="155" y2="54"></line>
+
+    <!-- Stage 2: NER + Link -->
+    <rect class="box-accent" x="155" y="28" width="120" height="52" rx="4" />
+    <text class="label-bold" x="215" y="46">2. NER + Link</text>
+    <text class="label" x="215" y="59">Extract entities</text>
+    <text class="label" x="215" y="71">Wikidata QIDs</text>
+
+    <!-- Arrow 2-3 -->
+    <line class="arrow" x1="275" y1="54" x2="300" y2="54"></line>
+
+    <!-- Stage 3: EGN -->
+    <rect class="box-method" x="300" y="28" width="120" height="52" rx="4" />
+    <text class="label-bold" x="360" y="46">3. EGN</text>
+    <text class="label" x="360" y="59">Entity-grounded</text>
+    <text class="label" x="360" y="71">narratives</text>
+
+    <!-- Arrow 3-4 -->
+    <line class="arrow" x1="420" y1="54" x2="445" y2="54"></line>
+
+    <!-- Stage 4: EEN -->
+    <rect class="box-method" x="445" y="28" width="120" height="52" rx="4" />
+    <text class="label-bold" x="505" y="46">4. EEN</text>
+    <text class="label" x="505" y="59">Entity-elided</text>
+    <text class="label" x="505" y="71">rewrites</text>
+
+    <!-- Arrow 4-5 -->
+    <line class="arrow" x1="565" y1="54" x2="590" y2="54"></line>
+
+    <!-- Stage 5: Validate -->
+    <rect class="box-eval" x="590" y="28" width="120" height="52" rx="4" />
+    <text class="label-bold" x="650" y="46">5. Validate</text>
+    <text class="label" x="650" y="59">Leak check</text>
+    <text class="label" x="650" y="71">+ recoverability</text>
+
+    <!-- Arrow 5-output -->
+    <line class="arrow" x1="710" y1="54" x2="735" y2="54"></line>
+
+    <!-- Output: IRC-Bench -->
+    <rect class="box-accent" x="735" y="34" width="70" height="40" rx="6" />
+    <text class="label-bold" x="770" y="50" font-size="9">IRC-Bench</text>
+    <text class="label" x="770" y="62" font-size="7.5">25,136</text>
+
+    <!-- Bottom labels (tools used) -->
+    <text class="label" x="70" y="98" fill="#4a6fa5">GPT-4.1-mini</text>
+    <text class="label" x="215" y="98" fill="var(--accent)">Wikidata API</text>
+    <text class="label" x="360" y="98" fill="#DE8F05">GPT-4.1-mini</text>
+    <text class="label" x="505" y="98" fill="#DE8F05">GPT-4.1-mini</text>
+    <text class="label" x="650" y="98" fill="#029E73">Automated</text>
+
+    <!-- Count annotations -->
+    <text class="label" x="70" y="112" fill="#999" font-size="7">1,994 files</text>
+    <text class="label" x="215" y="112" fill="#999" font-size="7">31,284 mentions</text>
+    <text class="label" x="360" y="112" fill="#999" font-size="7">25,161 summaries</text>
+    <text class="label" x="505" y="112" fill="#999" font-size="7">25,136 rewrites</text>
+    <text class="label" x="650" y="112" fill="#999" font-size="7">12,337 entities</text>
+  </svg>
