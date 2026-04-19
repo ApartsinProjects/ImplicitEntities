@@ -433,53 +433,14 @@ tr:nth-child(even) { background: var(--bg-alt); }
   margin-bottom: 0.2em;
 }
 
-/* ── Page simulation (screen) ─────────────────────────────── */
-.page-header, .page-footer {
-  display: none;
-}
-
-@media screen {
-  body {
-    counter-reset: page-counter;
-  }
-  h2[id] {
-    counter-increment: page-counter;
-    padding-top: 0.6in;
-    margin-top: 0.3in;
-    border-top: 2px solid #ccc;
-    position: relative;
-  }
-  h2[id]::before {
-    content: "";
-    display: block;
-    position: absolute;
-    top: 0;
-    left: -0.5in;
-    right: -0.5in;
-    border-top: 2px solid #ccc;
-  }
-}
+/* ── Page separators (disabled) ───────────────────────────── */
+.page-sep { display: none; }
 
 /* ── Print ────────────────────────────────────────────────── */
 @media print {
   @page {
     size: A4;
-    margin: 0.75in 0.75in 1in 0.75in;
-
-    @top-center {
-      content: "IRC-Bench: Recognizing Entities from Contextual Cues in First-Person Reminiscences";
-      font-family: "Times New Roman", serif;
-      font-size: 8pt;
-      color: #666;
-    }
-    @bottom-center {
-      content: counter(page);
-      font-family: "Times New Roman", serif;
-      font-size: 9pt;
-    }
-  }
-  @page :first {
-    @top-center { content: none; }
+    margin: 0.75in;
   }
   body { padding: 0; max-width: none; }
   .two-column { column-count: 2; }
@@ -529,9 +490,9 @@ tr:nth-child(even) { background: var(--bg-alt); }
 <div class="abstract-block">
   <h2>Abstract</h2>
   <p>
-    When people share personal reminiscences, they routinely reference people, places, and events through contextual cues alone, assuming their audience can identify what is meant without explicit naming. This phenomenon is especially prevalent in reminiscence narratives: first-person accounts of lived experience used in therapeutic, archival, and social contexts. We introduce <em>Implicit Entity Recognition</em> (IER), the task of identifying entities that are contextually referenced but never explicitly named. To support this task, we release <em>IRC-Bench</em>, a benchmark of 25,136 samples derived from 12,337 unique Wikidata-linked entities across 1,994 reminiscence transcripts spanning 11 thematic domains. Each sample pairs an Entity-Grounded Narrative (EGN) containing the entity name with an Entity-Elided Narrative (EEN) from which all explicit mentions have been removed; systems must recover the correct entity given only the EEN. We identify a key structural property of implicit references, their <em>non-locality</em>: recognition cues are distributed across multiple non-contiguous clauses, fundamentally distinguishing IER from named entity recognition, entity linking, and coreference resolution. We evaluate 19 experimental configurations spanning open-world LLM generation, closed-world dense retrieval, hybrid RAG, and fine-tuning approaches. QLoRA-adapted Llama 3.1 8B achieves the highest open-world exact match at 38.94% (51.59% Jaccard), while fine-tuned DPR with entity descriptions reaches 35.38% Hit@1 (42.80% alias-aware) and 71.49% Hit@10 in the closed-world setting. Chain-of-thought prompting consistently degrades performance across all models, and retrieval-augmented generation underperforms direct LLM inference. All data, code, and evaluation tools are publicly released.
+    When people share personal reminiscences, they routinely reference people, places, and events through contextual cues alone, assuming their audience can identify what is meant without explicit naming. This phenomenon is especially prevalent in reminiscence narratives: first-person accounts of lived experience used in therapeutic, archival, and social contexts. We introduce <em>implicit entity recognition</em>, the task of identifying entities that are contextually referenced but never explicitly named. To support this task, we release <em>IRC-Bench</em> (Implicit Reminiscence Context Benchmark), a benchmark of 25,136 samples derived from 12,337 unique Wikidata-linked entities across 1,994 reminiscence transcripts spanning 11 thematic domains. Each sample pairs an Entity-Grounded Narrative (EGN) containing the entity name with an Entity-Elided Narrative (EEN) from which all explicit mentions have been removed; systems must recover the correct entity given only the EEN. We identify a key structural property of implicit references, their <em>non-locality</em>: recognition cues are distributed across multiple non-contiguous clauses, fundamentally distinguishing implicit entity recognition from named entity recognition, entity linking, and coreference resolution. We evaluate 17 experimental configurations spanning open-world LLM generation, closed-world dense retrieval, hybrid RAG, and fine-tuning approaches. QLoRA-adapted Llama 3.1 8B achieves the highest open-world exact match at 38.94% (51.59% Jaccard), while fine-tuned DPR with entity descriptions reaches 35.38% Hit@1 (42.80% alias-aware) and 71.49% Hit@10 in the closed-world setting. Chain-of-thought prompting consistently degrades performance across all models, and retrieval-augmented generation underperforms direct LLM inference. All data, code, and evaluation tools are publicly released.
   </p>
-  <p class="keywords"><strong>Keywords:</strong> implicit entity recognition, reminiscence narratives, coreference resolution, non-locality, large language models, dense passage retrieval, QLoRA, benchmark, entity linking, Wikidata</p>
+  <p class="keywords"><strong>Keywords:</strong> implicit entity recognition, IRC-Bench, reminiscence narratives, coreference resolution, non-locality, large language models, dense passage retrieval, QLoRA, benchmark, entity linking, Wikidata</p>
 </div>
 
 <!-- ════════════════════════════════════════════════════════════════════════ -->
@@ -574,7 +535,7 @@ This phenomenon falls between existing NLP tasks without being addressed by any 
 </p>
 
 <p>
-We introduce <em>Implicit Entity Recognition</em> (IER) as a distinct NLP task and release <em>IRC-Bench</em> (Implicit Reminiscence Context Benchmark), a large-scale evaluation resource constructed from real reminiscence transcripts. IER addresses practical needs across multiple domains. Archives of personal reminiscences, including oral history collections containing millions of hours of recorded testimony, remain largely inaccessible to structured search because the entities discussed are rarely stated by name [9]. In healthcare, reminiscence therapy is a widely used intervention for older adults with dementia and depression [6, 7, 10]; automated systems that support these therapeutic conversations must identify the people and events being discussed even when the speaker does not name them. Social robotics and conversational AI for elderly companionship similarly require understanding implicit references to engage meaningfully with users' personal histories [11, 12]. More broadly, information retrieval over personal narratives requires understanding not just what is said, but what is meant.
+We introduce <em>implicit entity recognition</em> as a distinct NLP task and release <em>IRC-Bench</em> (Implicit Reminiscence Context Benchmark), a large-scale evaluation resource constructed from real reminiscence transcripts. This task addresses practical needs across multiple domains. Archives of personal reminiscences, including oral history collections containing millions of hours of recorded testimony, remain largely inaccessible to structured search because the entities discussed are rarely stated by name [9]. In healthcare, reminiscence therapy is a widely used intervention for older adults with dementia and depression [6, 7, 10]; automated systems that support these therapeutic conversations must identify the people and events being discussed even when the speaker does not name them. Social robotics and conversational AI for elderly companionship similarly require understanding implicit references to engage meaningfully with users' personal histories [11, 12]. More broadly, information retrieval over personal narratives requires understanding not just what is said, but what is meant.
 </p>
 
 <p>
@@ -582,16 +543,16 @@ Our contributions are as follows:
 </p>
 
 <ol class="contributions">
-  <li><strong>Task definition.</strong> We formalize Implicit Entity Recognition as a novel NLP task, distinguishing it from NER, entity linking, and coreference resolution. We define the <em>non-locality property</em> of implicit references: entity cues are distributed across multiple non-contiguous text spans, requiring holistic integration rather than local pattern matching.</li>
-  <li><strong>OralHistoryCorpus (OHC).</strong> We assemble a cleaned corpus of 1,994 oral history transcripts from 25 public collections spanning 11 thematic domains (veterans, immigration, regional, Depression era, Japanese American internment, academic, September 11, civil rights, COVID-19, labor, and refugee).</li>
-  <li><strong>IRC-Bench.</strong> We release a benchmark of 25,136 IER samples derived from 12,337 unique Wikidata-linked entities, with entity-level train/dev/test splits ensuring zero entity overlap between partitions. Each sample includes both an EGN and an EEN, along with entity metadata (QID, aliases, Wikipedia description).</li>
-  <li><strong>Comprehensive evaluation.</strong> We systematically compare 19 experimental configurations spanning open-world LLM inference (zero-shot, few-shot, chain-of-thought, QLoRA fine-tuning), closed-world dense retrieval (off-the-shelf and DPR fine-tuned), and hybrid RAG, revealing that fine-tuning doubles performance in both paradigms, chain-of-thought reasoning degrades IER performance, and model scale is the dominant factor in open-world accuracy.</li>
+  <li><strong>Task definition.</strong> We formalize implicit entity recognition as a novel NLP task, distinguishing it from NER, entity linking, and coreference resolution. We define the <em>non-locality property</em> of implicit references: entity cues are distributed across multiple non-contiguous text spans, requiring holistic integration rather than local pattern matching.</li>
+  <li><strong>IRC-Bench.</strong> We release a benchmark of 25,136 implicit entity recognition samples derived from 12,337 unique Wikidata-linked entities sourced from 1,994 reminiscence transcripts across 11 thematic domains, with entity-level train/dev/test splits ensuring zero entity overlap between partitions. Each sample includes both an EGN and an EEN, along with entity metadata (QID, aliases, Wikipedia description).</li>
+  <li><strong>Comprehensive evaluation.</strong> We systematically compare 17 experimental configurations spanning open-world LLM inference (zero-shot, few-shot, chain-of-thought, QLoRA fine-tuning), closed-world dense retrieval (off-the-shelf and DPR fine-tuned), and hybrid RAG, revealing that fine-tuning doubles performance in both paradigms, chain-of-thought reasoning degrades performance on this task, and model scale is the dominant factor in open-world accuracy.</li>
 </ol>
 
 
 <!-- ──────────────────────────────────────────────────────────────────────── -->
 <!-- 2. RELATED WORK                                                        -->
 <!-- ──────────────────────────────────────────────────────────────────────── -->
+<hr class="page-sep">
 <h2 id="sec-related">2. Related Work</h2>
 
 <h3>2.1 Named Entity Recognition</h3>
@@ -603,7 +564,7 @@ Named Entity Recognition identifies and classifies explicit entity mentions in t
 <h3>2.2 Entity Linking</h3>
 
 <p class="no-indent">
-Entity Linking resolves textual mentions to entries in a knowledge base. Neural approaches include local attention models [3], bi-encoder architectures such as BLINK [17], autoregressive generation via GENRE [18], and efficient zero-shot systems like ReFinED [19]. Botha et al. [20] extended entity linking to over 100 languages. These systems take an identified mention span as input and rank candidate entities; they cannot operate when no mention span exists. IER requires generating entity candidates from distributed contextual cues rather than resolving a given span.
+Entity Linking resolves textual mentions to entries in a knowledge base. Neural approaches include local attention models [3], bi-encoder architectures such as BLINK [17], autoregressive generation via GENRE [18], and efficient zero-shot systems like ReFinED [19]. Botha et al. [20] extended entity linking to over 100 languages. These systems take an identified mention span as input and rank candidate entities; they cannot operate when no mention span exists. Implicit entity recognition requires generating entity candidates from distributed contextual cues rather than resolving a given span.
 </p>
 
 <h3>2.3 Reminiscence Analysis and NLP</h3>
@@ -615,7 +576,7 @@ Reminiscence, the structured recall of autobiographical memories, has been studi
 <h3>2.4 Implicit and Zero-Mention Entities</h3>
 
 <p class="no-indent">
-Limited prior work has addressed entities that are referenced but not named. Hosseini [21] introduced implicit entity recognition in tweets, and Hosseini and Bagheri [22] developed learning-to-rank methods for implicit entities on Twitter. Perera et al. [23] explored implicit entity recognition in clinical documents. The coreference resolution community has studied "zero anaphora" and bridging references [42, 43], where an entity is referenced indirectly through related concepts; however, these approaches assume a discourse context in which the entity has been previously introduced. In IER, the entity may never appear in any form. Reminiscence narratives present a fundamentally different challenge from tweets or clinical notes: passages are longer, cues are more diffuse, and entity identification requires integrating cultural and historical knowledge rather than exploiting domain-specific templates. No prior benchmark exists for implicit entity recognition in narrative text.
+Limited prior work has addressed entities that are referenced but not named. Hosseini [21] introduced implicit entity recognition in tweets, and Hosseini and Bagheri [22] developed learning-to-rank methods for implicit entities on Twitter. Perera et al. [23] explored implicit entity recognition in clinical documents. The coreference resolution community has studied "zero anaphora" and bridging references [42, 43], where an entity is referenced indirectly through related concepts; however, these approaches assume a discourse context in which the entity has been previously introduced. In implicit entity recognition, the entity may never appear in any form. Reminiscence narratives present a fundamentally different challenge from tweets or clinical notes: passages are longer, cues are more diffuse, and entity identification requires integrating cultural and historical knowledge rather than exploiting domain-specific templates. No prior benchmark exists for implicit entity recognition in narrative text.
 </p>
 
 <h3>2.5 Oral History NLP</h3>
@@ -627,7 +588,7 @@ Computational analysis of oral histories has received growing attention. Technol
 <h3>2.6 Knowledge-Grounded Question Answering</h3>
 
 <p class="no-indent">
-The closest existing task to IER is knowledge-grounded question answering, where a system must reason over both a text passage and an external knowledge base to produce an answer [27, 28]. Retrieval-augmented generation (RAG) approaches retrieve relevant knowledge base passages and condition generation on them [29, 30]. While IER shares the requirement for external knowledge, it differs in that the "question" is an entire narrative rather than a targeted query, and the answer is always a single entity rather than a free-form text span. Furthermore, IER exhibits the non-locality property: the relevant cues are distributed throughout the passage rather than concentrated near a question token. This structural difference, as we show empirically, causes standard RAG pipelines to underperform direct LLM inference.
+The closest existing task to implicit entity recognition is knowledge-grounded question answering, where a system must reason over both a text passage and an external knowledge base to produce an answer [27, 28]. Retrieval-augmented generation (RAG) approaches retrieve relevant knowledge base passages and condition generation on them [29, 30]. While implicit entity recognition shares the requirement for external knowledge, it differs in that the "question" is an entire narrative rather than a targeted query, and the answer is always a single entity rather than a free-form text span. Furthermore, implicit entity recognition exhibits the non-locality property: the relevant cues are distributed throughout the passage rather than concentrated near a question token. This structural difference, as we show empirically, causes standard RAG pipelines to underperform direct LLM inference.
 </p>
 
 </main><!-- close two-column for full-width figure -->
@@ -638,6 +599,7 @@ The closest existing task to IER is knowledge-grounded question answering, where
 
 <main class="two-column">
 
+<hr class="page-sep">
 <h2 id="sec-dataset">3. Dataset Construction</h2>
 
 <h3>3.1 Overview</h3>
@@ -710,7 +672,7 @@ The benchmark construction proceeds in four stages, illustrated in Figure 1.
 
 <div class="figure full-width">
   <img src="figures/fig0_pipeline.png" alt="IRC-Bench construction pipeline" style="max-width: 100%;">
-  <p class="fig-caption"><strong>Figure 1:</strong> IRC-Bench construction pipeline. Raw oral history transcripts undergo cleaning, named entity recognition with Wikidata linking, entity-grounded narrative generation, and entity elision to produce IER evaluation samples.</p>
+  <p class="fig-caption"><strong>Figure 1:</strong> IRC-Bench construction pipeline. Raw oral history transcripts undergo cleaning, named entity recognition with Wikidata linking, entity-grounded narrative generation, and entity elision to produce implicit entity recognition evaluation samples.</p>
 </div>
 
 <main class="two-column">
@@ -828,16 +790,17 @@ Figure 3 presents three EGN/EEN pairs illustrating the diversity of implicit ref
 <!-- ──────────────────────────────────────────────────────────────────────── -->
 <!-- 4. METHODOLOGY                                                         -->
 <!-- ──────────────────────────────────────────────────────────────────────── -->
+<hr class="page-sep">
 <h2 id="sec-method">4. Methodology</h2>
 
 <h3>4.1 Task Formulation</h3>
 
 <p class="no-indent">
-<strong>Implicit Entity Recognition (IER)</strong> is defined as follows: given a first-person narrative text \(t\) that implicitly references a named entity \(e\) without ever mentioning \(e\) by name, the task is to identify \(e\). The text \(t\) contains contextual cues (dates, locations, events, people, roles, descriptions) that jointly constrain the identity of \(e\), but the model must synthesize these cues and draw on world knowledge to produce the correct entity name.
+<strong>Implicit entity recognition</strong> is defined as follows: given a first-person narrative text \(t\) that implicitly references a named entity \(e\) without ever mentioning \(e\) by name, the task is to identify \(e\). The text \(t\) contains contextual cues (dates, locations, events, people, roles, descriptions) that jointly constrain the identity of \(e\), but the model must synthesize these cues and draw on world knowledge to produce the correct entity name.
 </p>
 
 <p>
-We evaluate IER under two formulations:
+We evaluate implicit entity recognition under two formulations:
 </p>
 
 <p>
@@ -851,7 +814,7 @@ We evaluate IER under two formulations:
 <h3>4.2 The Non-Locality Property</h3>
 
 <p class="no-indent">
-We define a key structural property that distinguishes IER from span-based entity tasks. Let \(C(T, e^*) = \{c_1, c_2, \ldots, c_n\}\) denote the set of textual cues in \(T\) that collectively identify \(e^*\). In standard NER and EL, the entity is localized: there exists a contiguous span \(m\) that is sufficient to identify \(e^*\). In IER, the entity is <em>non-local</em>:
+We define a key structural property that distinguishes implicit entity recognition from span-based entity tasks. Let \(C(T, e^*) = \{c_1, c_2, \ldots, c_n\}\) denote the set of textual cues in \(T\) that collectively identify \(e^*\). In standard NER and EL, the entity is localized: there exists a contiguous span \(m\) that is sufficient to identify \(e^*\). In implicit entity recognition, the entity is <em>non-local</em>:
 </p>
 
 <div style="margin: 0.5em 0; font-size: 0.85em; break-inside: avoid;">
@@ -874,13 +837,13 @@ We evaluate LLMs in a generative setting where each model receives the implicit 
 <h4>4.3.2 Models</h4>
 
 <p class="no-indent">
-We evaluate four LLM families in the open-world setting: GPT-4o [37] and GPT-4.1-mini (via OpenAI Batch API), and Llama 3.1 8B Instruct [36] and Llama 3.2 1B Instruct [36] (via OpenRouter API). For GPT-4o, GPT-4.1-mini, and Llama 3.1 8B, we additionally evaluate chain-of-thought (CoT) prompting, which instructs the model to reason step-by-step before producing the final answer. CoT experiments use temperature 0.7 and a maximum of 300 output tokens to accommodate the reasoning trace.
+We evaluate four LLM families in the open-world setting: GPT-4o [37] and GPT-4.1-mini (via OpenAI Batch API), and Llama 3.1 8B Instruct [36] via OpenRouter API). For GPT-4o, GPT-4.1-mini, and Llama 3.1 8B, we additionally evaluate chain-of-thought (CoT) prompting, which instructs the model to reason step-by-step before producing the final answer. CoT experiments use temperature 0.7 and a maximum of 300 output tokens to accommodate the reasoning trace.
 </p>
 
 <h4>4.3.3 QLoRA Fine-tuning (O10)</h4>
 
 <p class="no-indent">
-We fine-tune Llama 3.1 8B Instruct using QLoRA (Quantized Low-Rank Adaptation) [33, 34] for the IER task. The model is trained to generate the entity name given the implicit text, using the standard causal language modeling objective. The entity-level splitting guarantees zero overlap between training and test entities, so the fine-tuned model cannot memorize entity-specific patterns; it must learn to generalize the implicit-to-entity mapping to entirely unseen entities. Key training parameters include 4-bit NF4 quantization, LoRA rank 16, alpha 32, learning rate 2e-4, and 2 epochs of training on the full train split (17,971 samples). Full hyperparameters are reported in Appendix B.
+We fine-tune Llama 3.1 8B Instruct using QLoRA (Quantized Low-Rank Adaptation) [33, 34] for implicit entity recognition. The model is trained to generate the entity name given the implicit text, using the standard causal language modeling objective. The entity-level splitting guarantees zero overlap between training and test entities, so the fine-tuned model cannot memorize entity-specific patterns; it must learn to generalize the implicit-to-entity mapping to entirely unseen entities. Key training parameters include 4-bit NF4 quantization, LoRA rank 16, alpha 32, learning rate 2e-4, and 2 epochs of training on the full train split (17,971 samples). Full hyperparameters are reported in Appendix B.
 </p>
 
 <h3>4.4 Closed-World Methods</h3>
@@ -911,6 +874,7 @@ We implement a Retrieval-Augmented Generation (RAG) baseline that combines embed
 <!-- ──────────────────────────────────────────────────────────────────────── -->
 <!-- 5. EVALUATION PROTOCOL                                                 -->
 <!-- ──────────────────────────────────────────────────────────────────────── -->
+<hr class="page-sep">
 <h2 id="sec-eval">5. Evaluation Protocol</h2>
 
 <h3>5.1 Matching Hierarchy</h3>
@@ -952,6 +916,7 @@ To assess whether performance differences between methods are statistically sign
 <!-- ──────────────────────────────────────────────────────────────────────── -->
 <!-- 6. RESULTS AND ANALYSIS                                                -->
 <!-- ──────────────────────────────────────────────────────────────────────── -->
+<hr class="page-sep">
 <h2 id="sec-results">6. Results and Analysis</h2>
 
 <h3>6.1 Open-World Performance</h3>
@@ -961,7 +926,7 @@ Table 4 presents the open-world results across all experimental configurations. 
 </p>
 
 <p>
-Model scale is the dominant factor for zero-shot performance: moving from Llama 3.1 8B (13.92%) to GPT-4.1-mini (25.71%) to GPT-4o (27.02%) yields consistent gains, and the smaller Llama 3.2 1B achieves only 17.27% Jaccard (its sole evaluation metric). Few-shot prompting consistently improves performance across all model sizes (p &lt; 0.001 by McNemar's test). The improvement ranges from +2.95 percentage points for GPT-4.1-mini to +4.60 points for GPT-4o. The few-shot examples appear to calibrate the model's output format and entity granularity, reducing cases where models produce entity types instead of specific entity names.
+Model scale is the dominant factor for zero-shot performance: moving from Llama 3.1 8B (13.92%) to GPT-4.1-mini (25.71%) to GPT-4o (27.02%) yields consistent gains. Few-shot prompting consistently improves performance across all model sizes (p &lt; 0.001 by McNemar's test). The improvement ranges from +2.95 percentage points for GPT-4.1-mini to +4.60 points for GPT-4o. The few-shot examples appear to calibrate the model's output format and entity granularity, reducing cases where models produce entity types instead of specific entity names.
 </p>
 
 </main><!-- close two-column for full-width results tables -->
@@ -987,8 +952,6 @@ Model scale is the dominant factor for zero-shot performance: moving from Llama 
       <tr><td>O4</td><td>GPT-4.1-mini</td><td>Few-shot</td><td>28.66</td><td>36.89</td><td>36.89</td><td>39.48</td></tr>
       <tr><td>O5</td><td>Llama 3.1 8B</td><td>Zero-shot</td><td>13.92</td><td>14.81</td><td>19.47</td><td>20.18</td></tr>
       <tr><td>O6</td><td>Llama 3.1 8B</td><td>Few-shot</td><td>17.83</td><td>18.80</td><td>24.61</td><td>25.66</td></tr>
-      <tr><td>O7</td><td>Llama 3.2 1B</td><td>Zero-shot</td><td colspan="3" style="font-size:7.5pt; color:#888;">Evaluated via 4-tier alias eval only</td><td>17.27*</td></tr>
-      <tr><td>O8</td><td>Llama 3.2 1B</td><td>Few-shot</td><td colspan="3" style="font-size:7.5pt; color:#888;">Evaluated via 4-tier alias eval only</td><td>15.22*</td></tr>
       <tr style="border-top: 1px solid #aaa;"><td>O10</td><td>Llama 3.1 8B (QLoRA)</td><td>Fine-tuned</td><td class="best">38.94</td><td class="best">41.42</td><td class="best">47.90</td><td class="best">51.59</td></tr>
       <tr style="border-top: 1px solid #aaa;"><td>O11</td><td>GPT-4.1-mini</td><td>CoT</td><td>18.93</td><td>20.27</td><td>26.48</td><td>27.69</td></tr>
       <tr><td>O12</td><td>GPT-4o</td><td>CoT</td><td>22.51</td><td>23.89</td><td>30.91</td><td>32.33</td></tr>
@@ -996,7 +959,6 @@ Model scale is the dominant factor for zero-shot performance: moving from Llama 
       <tr style="border-top: 1px solid #aaa;"><td>RAG1</td><td>BGE + GPT-4.1-mini</td><td>RAG</td><td>19.71</td><td>20.53</td><td>28.75</td><td>29.55</td></tr>
     </tbody>
   </table>
-  <p style="font-size:7.5pt; text-indent:0; margin-top:0.2em; color:#555;">*O7 and O8 use the alias-aware evaluation with all four tiers; direct exact/alias metrics were not separately computed.</p>
 </div>
 
 <!-- Full-width main results figure -->
@@ -1269,7 +1231,6 @@ All key comparisons are statistically significant at p &lt; 0.001 (McNemar's tes
       <tr><td>O3 vs O4 (ZS vs FS, mini)</td><td>35.16</td><td>38.72</td><td>36.18</td><td>150</td><td>275</td></tr>
       <tr><td>O1 vs O5 (GPT-4o vs Llama 8B)</td><td>35.06</td><td>20.19</td><td>432.28</td><td>892</td><td>203</td></tr>
       <tr><td>O1 vs C2 (Open vs Closed)</td><td>35.06</td><td>22.58</td><td>181.93</td><td>1,204</td><td>626</td></tr>
-      <tr><td>O5 vs O7 (8B vs 1B)</td><td>20.18</td><td>17.27</td><td>12.64</td><td>778</td><td>643</td></tr>
     </tbody>
   </table>
 </div>
@@ -1284,16 +1245,17 @@ The discordant pair counts are informative: for the GPT-4o vs. Llama 8B comparis
 <!-- ──────────────────────────────────────────────────────────────────────── -->
 <!-- 7. DISCUSSION                                                          -->
 <!-- ──────────────────────────────────────────────────────────────────────── -->
+<hr class="page-sep">
 <h2 id="sec-discussion">7. Discussion</h2>
 
 <h3>7.1 Why Chain-of-Thought Hurts</h3>
 
 <p class="no-indent">
-The consistent degradation under CoT prompting is perhaps the most counterintuitive finding of this study. In tasks such as mathematical reasoning and multi-hop question answering, CoT improves performance by decomposing complex reasoning into intermediate steps [32]. IER, however, does not reward step-by-step decomposition. Identifying an implicit entity requires <em>holistic pattern matching</em>: the model must simultaneously attend to a constellation of distributed cues (dates, locations, associated people, sensory details) and match this constellation against its parametric knowledge of entities.
+The consistent degradation under CoT prompting is perhaps the most counterintuitive finding of this study. In tasks such as mathematical reasoning and multi-hop question answering, CoT improves performance by decomposing complex reasoning into intermediate steps [32]. Implicit entity recognition, however, does not reward step-by-step decomposition. Identifying an implicit entity requires <em>holistic pattern matching</em>: the model must simultaneously attend to a constellation of distributed cues (dates, locations, associated people, sensory details) and match this constellation against its parametric knowledge of entities.
 </p>
 
 <p>
-When forced to reason step by step, the model tends to fixate on individual cues in isolation, often arriving at a locally plausible but globally incorrect entity. For instance, a CoT trace might correctly identify "December 7, 1941" and "Hawaii" but then erroneously conclude the entity is "Hickam Air Force Base" rather than "Attack on Pearl Harbor," because the step-by-step process loses sight of the broader narrative context. This finding suggests that IER belongs to a class of tasks where recognition is fundamentally gestalt: the whole (the cue constellation) is more informative than the sum of its parts (individual cues analyzed sequentially). The use of higher temperature (0.7 vs. 0.0) in CoT experiments may also contribute additional noise to the reasoning process.
+When forced to reason step by step, the model tends to fixate on individual cues in isolation, often arriving at a locally plausible but globally incorrect entity. For instance, a CoT trace might correctly identify "December 7, 1941" and "Hawaii" but then erroneously conclude the entity is "Hickam Air Force Base" rather than "Attack on Pearl Harbor," because the step-by-step process loses sight of the broader narrative context. This finding suggests that implicit entity recognition belongs to a class of tasks where recognition is fundamentally gestalt: the whole (the cue constellation) is more informative than the sum of its parts (individual cues analyzed sequentially). The use of higher temperature (0.7 vs. 0.0) in CoT experiments may also contribute additional noise to the reasoning process.
 </p>
 
 <h3>7.2 Why RAG Underperforms</h3>
@@ -1344,10 +1306,11 @@ Several limitations should be acknowledged. First, the benchmark is constructed 
 <!-- ──────────────────────────────────────────────────────────────────────── -->
 <!-- 8. CONCLUSION                                                          -->
 <!-- ──────────────────────────────────────────────────────────────────────── -->
+<hr class="page-sep">
 <h2 id="sec-conclusion">8. Conclusion</h2>
 
 <p class="no-indent">
-We have introduced Implicit Entity Recognition as a novel NLP task and released IRC-Bench, a benchmark of 25,136 samples spanning 12,337 Wikidata-linked entities from 1,994 oral history transcripts across 11 thematic domains. Our systematic evaluation across 19 experimental configurations reveals eight key findings.
+We have introduced Implicit Entity Recognition as a novel NLP task and released IRC-Bench, a benchmark of 25,136 samples spanning 12,337 Wikidata-linked entities from 1,994 oral history transcripts across 11 thematic domains. Our systematic evaluation across 17 experimental configurations reveals eight key findings.
 </p>
 
 <p>
@@ -1355,17 +1318,18 @@ First, fine-tuning is the single most impactful intervention. QLoRA-adapted Llam
 </p>
 
 <p>
-Second, chain-of-thought prompting consistently degrades performance (by 4.51 to 7.70 pp across models), suggesting that IER requires holistic pattern matching rather than sequential reasoning. Third, retrieval-augmented generation underperforms direct LLM inference due to the non-locality of implicit cues. Fourth, model scale is the dominant factor in zero-shot open-world accuracy, with performance spanning from 13.92% (Llama 3.1 8B) to 27.02% (GPT-4o) in exact match. Fifth, entity descriptions are consistently the best representation for dense retrieval, outperforming both entity names and Wikipedia lead sentences.
+Second, chain-of-thought prompting consistently degrades performance (by 4.51 to 7.70 pp across models), suggesting that implicit entity recognition requires holistic pattern matching rather than sequential reasoning. Third, retrieval-augmented generation underperforms direct LLM inference due to the non-locality of implicit cues. Fourth, model scale is the dominant factor in zero-shot open-world accuracy, with performance spanning from 13.92% (Llama 3.1 8B) to 27.02% (GPT-4o) in exact match. Fifth, entity descriptions are consistently the best representation for dense retrieval, outperforming both entity names and Wikipedia lead sentences.
 </p>
 
 <p>
-Future work should explore several promising directions: multi-modal IER incorporating audio features from the original recordings, cross-lingual benchmarks constructed from oral history archives in other languages, active learning approaches that combine fine-tuned DPR shortlists with fine-tuned LLM reranking (leveraging C5's 71.49% Hit@10), and the development of specialized architectures that explicitly model the non-locality property of implicit entity cues through structured attention over distributed text spans.
+Future work should explore several promising directions: multi-modal implicit entity recognition incorporating audio features from the original recordings, cross-lingual benchmarks constructed from oral history archives in other languages, active learning approaches that combine fine-tuned DPR shortlists with fine-tuned LLM reranking (leveraging C5's 71.49% Hit@10), and the development of specialized architectures that explicitly model the non-locality property of implicit entity cues through structured attention over distributed text spans.
 </p>
 
 
 <!-- ──────────────────────────────────────────────────────────────────────── -->
 <!-- REFERENCES                                                             -->
 <!-- ──────────────────────────────────────────────────────────────────────── -->
+<hr class="page-sep">
 <div class="references" id="sec-references">
 <h2>References</h2>
 
@@ -1465,6 +1429,7 @@ Future work should explore several promising directions: multi-modal IER incorpo
 
 <div style="border-top: 2px solid var(--rule); margin-top: 1.5em; padding-top: 0.5em;">
 
+<hr class="page-sep">
 <h2 class="appendix-heading" id="app-a" style="text-align:center;">Appendix A: Prompt Templates</h2>
 
 <main class="two-column">
@@ -1665,8 +1630,8 @@ We present five correct and five incorrect predictions from GPT-4o few-shot (O2)
 
 <div class="example-pair">
   <p class="example-header">Correct Example 2</p>
-  <p class="example-text">"When I was in sixth grade, a teacher took us to the downtown area of a city in western Japan to see new buildings and illuminations. We visited a museum that later became the only building left standing after the bombing..."</p>
-  <p style="text-indent:0; font-size:7.5pt; color:#555;"><strong>Gold:</strong> Hiroshima &nbsp;|&nbsp; <strong>Prediction:</strong> Hiroshima &nbsp; <span style="color:#2e7d32;">&#10004;</span></p>
+  <p class="example-text">"I was born in the capital city of Germany in the early 1930s. It was a turbulent time as the political climate was rapidly changing. My family decided to leave that city in 1938 to escape the dangers posed by the Nazi regime. That move shaped much of my early life and future."</p>
+  <p style="text-indent:0; font-size:7.5pt; color:#555;"><strong>Gold:</strong> Berlin &nbsp;|&nbsp; <strong>Prediction:</strong> Berlin &nbsp; <span style="color:#2e7d32;">&#10004;</span></p>
 </div>
 
 <div class="example-pair">
@@ -1688,7 +1653,7 @@ We present five correct and five incorrect predictions from GPT-4o few-shot (O2)
 </div>
 
 <p>
-These correct examples demonstrate cases where geographic cues ("western Japan," "Pacific island territory," "western Kentucky," "Georgia") and contextual details (the atomic bombing museum, sugar plantations) are sufficiently distinctive for the model to identify the entity.
+These correct examples demonstrate cases where geographic cues ("capital city of Germany," "Pacific island territory," "western Kentucky," "Georgia") and contextual details (the Nazi regime, sugar plantations) are sufficiently distinctive for the model to identify the entity.
 </p>
 
 <h3>C.2 Incorrect Predictions (O2: GPT-4o Few-shot)</h3>
@@ -1729,7 +1694,7 @@ These correct examples demonstrate cases where geographic cues ("western Japan,"
 </div>
 
 <p>
-These errors illustrate the principal challenges of IER: distinguishing the referenced entity from related contextual entities (Example 4), resolving references to obscure individuals (Examples 1, 3), and focusing on the correct cue among multiple competing signals (Example 2). Example 5 also reveals an occasional pipeline artifact where entity anonymization fails to remove the name from the text.
+These errors illustrate the principal challenges of implicit entity recognition: distinguishing the referenced entity from related contextual entities (Example 4), resolving references to obscure individuals (Examples 1, 3), and focusing on the correct cue among multiple competing signals (Example 2). Example 5 also reveals an occasional pipeline artifact where entity anonymization fails to remove the name from the text.
 </p>
 
 </main>
