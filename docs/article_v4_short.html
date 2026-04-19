@@ -336,9 +336,9 @@ tr:nth-child(even) { background: var(--bg-alt); }
 <!-- ════════════════════════════════════════════════════════════════════════ -->
 <!-- HEADER                                                                 -->
 <!-- ════════════════════════════════════════════════════════════════════════ -->
-<header class="header-block" >
+<div>
 <div class="version-nav">
-  Long (<a href="article_v4.html">HTML</a> | <a href="article_v4.docx">Doc</a>)
+  Long (<a href="index.html">HTML</a> | <a href="article_v4.docx">Doc</a>)
   &middot;
   <span class="current">Short</span> (<a href="article_v4_short.html">HTML</a> | <a href="article_v4_short.docx">Doc</a>)
 </div>
@@ -346,18 +346,18 @@ tr:nth-child(even) { background: var(--bg-alt); }
   <div class="authors">
     <span class="name">Alexander Apartsin</span><sup>1</sup>,
     <span class="name">Eden Moran</span><sup>2</sup>,
-    <span class="name">Yehudit Apartsin</span><sup>2</sup>
+    <span class="name">Yehudit Aperstein</span><sup>2</sup>
   </div>
   <div class="affiliations">
     <sup>1</sup>School of Computer Science, Faculty of Sciences, HIT-Holon Institute of Technology, Holon 58102, Israel<br>
     <sup>2</sup>Intelligent Systems, Afeka Academic College of Engineering, Tel Aviv 69988, Israel
   </div>
-</header>
+</div>
 
 <!-- ════════════════════════════════════════════════════════════════════════ -->
 <!-- ABSTRACT                                                               -->
 <!-- ════════════════════════════════════════════════════════════════════════ -->
-<div class="abstract-block">
+<div>
   <h2>Abstract</h2>
   <p>
     People sharing personal reminiscences routinely reference entities through contextual cues alone, without explicit naming. We extend implicit entity recognition from short social-media text [17, 18] to long-form reminiscence narratives, where entity cues are distributed across multiple clauses. We release <em>IRC-Bench</em>, a benchmark of 25,136 samples derived from 12,337 Wikidata-linked entities across 1,994 oral history transcripts spanning 11 thematic domains. We formalize the <em>non-locality</em> property of implicit references: recognition cues are distributed across non-contiguous clauses, distinguishing this task from NER, entity linking, and coreference resolution. We evaluate 19 configurations spanning open-world LLM generation, closed-world dense retrieval, hybrid RAG, and fine-tuning. QLoRA-adapted Llama 3.1 8B achieves 38.94% exact match (51.59% Jaccard), while fine-tuned DPR reaches 35.38% Hit@1 and 71.49% Hit@10. Chain-of-thought prompting consistently degrades performance, and RAG underperforms direct LLM inference.

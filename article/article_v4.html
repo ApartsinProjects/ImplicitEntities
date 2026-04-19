@@ -480,7 +480,7 @@ tr:nth-child(even) { background: var(--bg-alt); }
 <!-- ════════════════════════════════════════════════════════════════════════ -->
 <!-- HEADER                                                                 -->
 <!-- ════════════════════════════════════════════════════════════════════════ -->
-<header class="header-block" >
+<div>
 <div class="version-nav">
   <span class="current">Long</span> (<a href="article_v4.html">HTML</a> | <a href="article_v4.docx">Doc</a>)
   &middot;
@@ -490,13 +490,13 @@ tr:nth-child(even) { background: var(--bg-alt); }
   <div class="authors">
     <span class="name">Alexander Apartsin</span><sup>1</sup>,
     <span class="name">Eden Moran</span><sup>2</sup>,
-    <span class="name">Yehudit Apartsin</span><sup>2</sup>
+    <span class="name">Yehudit Aperstein</span><sup>2</sup>
   </div>
   <div class="affiliations">
     <sup>1</sup>School of Computer Science, Faculty of Sciences, HIT-Holon Institute of Technology, Holon 58102, Israel<br>
     <sup>2</sup>Intelligent Systems, Afeka Academic College of Engineering, Tel Aviv 69988, Israel
   </div>
-</header>
+</div>
 
 <!-- ════════════════════════════════════════════════════════════════════════ -->
 <!-- TABLE OF CONTENTS                                                      -->
@@ -506,7 +506,7 @@ tr:nth-child(even) { background: var(--bg-alt); }
 <!-- ════════════════════════════════════════════════════════════════════════ -->
 <!-- ABSTRACT                                                               -->
 <!-- ════════════════════════════════════════════════════════════════════════ -->
-<div class="abstract-block">
+<div>
   <h2>Abstract</h2>
   <p>
     When people share personal reminiscences, they routinely reference people, places, and events through contextual cues alone, assuming their audience can identify what is meant without explicit naming. This phenomenon is especially prevalent in reminiscence narratives: first-person accounts of lived experience used in therapeutic, archival, and social contexts. Building on prior work that established implicit entity recognition in short social-media text [21, 22], we extend this task to the reminiscence domain, where entity cues are distributed across multiple clauses rather than concentrated in a single short message. We release <em>IRC-Bench</em> (Implicit Reminiscence Context Benchmark), a benchmark of 25,136 samples derived from 12,337 unique Wikidata-linked entities across 1,994 reminiscence transcripts spanning 11 thematic domains. Each sample pairs an Entity-Grounded Narrative (EGN) containing the entity name with an Entity-Elided Narrative (EEN) from which all explicit mentions have been removed; systems must recover the correct entity given only the EEN. We identify a key structural property of implicit references, their <em>non-locality</em>: recognition cues are distributed across multiple non-contiguous clauses, fundamentally distinguishing implicit entity recognition from named entity recognition, entity linking, and coreference resolution. We evaluate 19 experimental configurations spanning open-world LLM generation, closed-world dense retrieval, hybrid RAG, and fine-tuning approaches. QLoRA-adapted Llama 3.1 8B achieves the highest open-world exact match at 38.94% (51.59% Jaccard), while fine-tuned DPR with entity descriptions reaches 35.38% Hit@1 (42.80% alias-aware) and 71.49% Hit@10 in the closed-world setting. Chain-of-thought prompting consistently degrades performance across all models, and retrieval-augmented generation underperforms direct LLM inference. All data, code, and evaluation tools are publicly released.
