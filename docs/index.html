@@ -460,6 +460,16 @@ tr:nth-child(even) { background: var(--bg-alt); }
   html { font-size: 11pt; }
   body { padding: 0.5em; }
 }
+/* ---- Version nav ---- */
+.version-nav {
+  position: absolute; top: 0.3in; right: 0.3in;
+  font-family: Arial, sans-serif; font-size: 8pt;
+  display: flex; gap: 0.8em;
+}
+.version-nav a { color: var(--accent); text-decoration: none; }
+.version-nav a:hover { text-decoration: underline; }
+.version-nav .current { font-weight: 700; color: var(--text); }
+@media print { .version-nav { display: none; } }
 </style>
 </head>
 <body>
@@ -467,7 +477,12 @@ tr:nth-child(even) { background: var(--bg-alt); }
 <!-- ════════════════════════════════════════════════════════════════════════ -->
 <!-- HEADER                                                                 -->
 <!-- ════════════════════════════════════════════════════════════════════════ -->
-<header class="header-block">
+<header class="header-block" style="position:relative;">
+<div class="version-nav">
+  <span class="current">Long</span> (<a href="article_v4.html">HTML</a> | <a href="article_v4.docx">Doc</a>)
+  &middot;
+  Short (<a href="article_v4_short.html">HTML</a> | <a href="article_v4_short.docx">Doc</a>)
+</div>
   <h1>IRC-Bench: Recognizing Entities from Contextual Cues<br>in First-Person Reminiscences</h1>
   <div class="authors">
     <span class="name">Alexander Apartsin</span><sup>1</sup>,
